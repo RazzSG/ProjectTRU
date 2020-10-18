@@ -4,7 +4,7 @@ The mod doesn't add new content
 Русификатор включает перевод для:
 
 • Calamity v1.4.5.3
-• Thorium v1.6.3.10
+• Thorium v1.6.3.11
 • Elements Awoken v1.3.13.3
 • Mod of Redemption v0.7.9.62
 
