@@ -73,7 +73,7 @@ public class AddNewMessageatch : ILoadable
             "The sandstorm has ended!" => "Песчаная буря утихла!",
             "Celestial creatures are not invading!" => "Неземные сущности не атакуют!",
             "The rain has ended!" => "Дождь прекратился!",
-            "Queen Bee has awoken!" => "Королева слизней пробудилась!",
+            "Queen Bee has awoken!" => "Королева пчёл пробудилась!",
             "Medusa has awoken!" => "Медуза пробудилась!",
             "Undead Miner has awoken!" => "Нежить-шахтёр пробудился!",
             "Ogre has awoken!" => "Огр пробудился!",
@@ -206,8 +206,8 @@ public class AddNewMessageatch : ILoadable
             // "The Stellar Array reaches new heights!" => "",
             
             // Thorium
-            // "It appears to be waiting for night..." => "",
-            // "It seems to be dormant..." => "",
+            "It appears to be waiting for night..." => "Похоже, оно ждёт наступления ночи...",
+            "It seems to be dormant..." => "Похоже, что оно дремлет...",
             _ => text
         };
 

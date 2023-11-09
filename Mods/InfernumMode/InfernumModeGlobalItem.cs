@@ -72,7 +72,7 @@ public class InfernumModeGlobalItem : GlobalItem
         {
             ItemHelper.TranslateTooltip(tooltips, "Tooltip1", _ =>
             {
-                tooltips.ReplaceText("Summons Providence when used at the alter in the profaned temple at the far right of the underworld", "Призывает Провиденс при использовании на алтаре в Осквернённом храме, расположенном далеко справа в преисподней");
+                tooltips.ReplaceText("Summons Providence when used at the altar in the profaned temple at the far right of the underworld", "Призывает Провиденс при использовании на алтаре в Осквернённом храме, расположенном далеко справа в преисподней");
             });
         }
         else if (item.type == ItemID.LihzahrdPowerCell)

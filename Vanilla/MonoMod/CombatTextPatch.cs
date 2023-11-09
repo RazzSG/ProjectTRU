@@ -25,16 +25,16 @@ public class CombatTextPatch : ILoadable
     
     private int On_CombatTextOnNewText_Rectangle_Color_string_bool_bool(On_CombatText.orig_NewText_Rectangle_Color_string_bool_bool orig, Rectangle location, Color color, string text, bool dramatic, bool dot)
     {
-        // string[] parts = text.Split(' ');
-        // var streak = parts[0];
-        // if (text == $"{streak} life heal streak")
-        // {
-        //     if (int.TryParse(streak, out int value))
-        //     {
-        //         string suffix = LocalizedText.ApplyPluralization("{^0:единицы;единиц;единиц}", value);
-        //         text = $"Серия из {value} {suffix} восстановленного здоровья";
-        //     }
-        // }
+        string[] parts = text.Split(' ');
+        var streak = parts[0];
+        if (text == $"{streak} life heal streak")
+        {
+            if (int.TryParse(streak, out int value))
+            {
+                string suffix = LocalizedText.ApplyPluralization("{^0:единицы;единиц;единиц}", value);
+                text = $"Серия из {value} {suffix} восстановленного здоровья";
+            }
+        }
         
         text = text switch
         {
@@ -65,12 +65,12 @@ public class CombatTextPatch : ILoadable
             // Infernum
             "Peck!" => "Библиять!",
             // Thorium
-            // "ERADICATED" => "УНИЧТОЖЕН",
-            // "Close call" => "На волоске",
-            // "Freebie!" => "Даром!",
-            // " life/5 sec" => " здоровья/5 сек",
-            // "No Blood Chamber in world" => "В мире нет камеры крови",
-            // "STRIKE" => "УДАР",
+            "ERADICATED" => "УНИЧТОЖЕН",
+            "Close call" => "На волоске",
+            "Freebie!" => "Даром!",
+            "4999 life/5 sec" => "4999 здоровья/5 сек",
+            "No Blood Chamber in world" => "В мире нет Кровавой камеры",
+            "STRIKE" => "УДАР",
             _ => text
         };
         

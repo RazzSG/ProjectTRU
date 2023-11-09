@@ -14,7 +14,7 @@ public class ModVersionChecker : ILoadable
         new("FargowiltasSouls", new Version(1, 6, 0, 2), true),
         new("Fargowiltas", new Version(3, 2), true),
         new("StarsAbove", new Version(1, 5, 0, 4), false),
-        new("ThoriumMod", new Version(1, 7, 1, 3), false),
+        new("ThoriumMod", new Version(1, 7, 1, 3), true),
     };
 
     public bool IsLoadingEnabled(Mod mod)

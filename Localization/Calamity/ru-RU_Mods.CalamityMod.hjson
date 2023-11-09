@@ -223,7 +223,7 @@
 }
 
 Bestiary: {
-    BabyCannonballJellyfish: These creatures have been hunted for centuries now. They are widely used as ammunition in ships or even as normal bombs. Despite this, they never truly vanish, as if an external power kept this species alive.
+    BabyCannonballJellyfish: Охота на этих существ ведётся уже несколько столетий. Их часто применяют в качестве снарядов на кораблях или даже как обычные бомбы. И всё же, несмотря на это, их вид сохраняется, словно на их выживание влияет некая внешняя сила.
     Bloatfish: Это скорее геологическое образование, чем живой организм. Вздутобрюх имеет липкую, похожую на клей кожу, которую он использует, чтобы покрыть своё тело пустотным камнем. Хоть это и защищает его от хищников, но из-за своего чудовищного веса оседает в самых глубинах бездны.
     BobbitWorm: Прячась в самых тёмных уголках пустоты, с целью внезапно напасть на ничего не подозревающую жертву, волнистые черви пользуются всеми преимуществами темноты бездны. Чтобы жить здесь, в самой экстремальной среде в мире, существу нужно быть либо по-настоящему могучим, либо научиться использовать окружающую среду для выживания, либо и то, и другое.
     BoxJellyfish: Крупнее, чем у среднестатистической медузы, жало этих стойких вредителей способно нанести куда более мощный удар. Хотя их можно встретить в большинстве крупных водоёмов, они вымерли лишь в окрестностях Ильмериса после того, как Серная ведьма обратила свои чары против королевства.
@@ -285,9 +285,9 @@ Bestiary: {
     Nanodroid: Окружающее освещение, всеобъемлющее слежение, быстрое восстановление... Когда эти маленькие механизмы действуют единым фронтом, нет неразрешимых проблем.
     RepairUnitCritter: These handy little helpers are the reason that Draedon’s decades-old labs stand to this day. Though bulkier and less energy efficient than nanodroids, having to take what power they need from the labs’ generators, they can easily clean up the dust, though struggle with the rust.
     AeroSlime: В прошлом, обыкновенные слизни, впитавшие в себя небольшое количество драконьей сущности в результате выброса энергии, вызванного повторным зачарованием аэриалита. Теперь же они взмывают в небо, благодаря своим вновь выросшим крыльям, достигая таких высот, которые под силу лишь немногим из их желеобразного вида.
-    ArmoredDigger: Despite being relatively primitive compared to Draedon’s current technology, armored diggers continue to see use to this day. Though their primary directive is mining and delivering minerals, they also once cleared room for the numerous underground laboratories.
+    ArmoredDigger: Несмотря на свою относительную примитивность по сравнению с современными технологиями Дрэйдона, бронированные копатели продолжают активно использоваться и по сей день. Их основной задачей является добыча и транспортировка полезных минералов, но в прошлом они также играли ключевую роль в расчистке пространства для многочисленных подземных исследовательских лабораторий.
     AuroraSpirit: Thought to be no more than an old wives’ tale, sightings of aurora spirits have become commonplace since the defeat of the wall of flesh. Upon closer inspection, it appears these “spirits” are rather wisp-like entities clad in a cryonic shell, a sure sign that these were created by Archmage Permafrost.
-    BloomSlime: Imbued with profaned energy, this slime wishes to see the world reduced to ashes to ensure the suffering it brings is no more. However, the simplicity of their form makes it difficult for the slain goddess to fully impose her will onto them.
+    BloomSlime: Слизень, пропитанный осквернённой энергией, желает видеть, как мир обращается в пепел, дабы навсегда избавиться от страданий, которые он несёт. Однако простота их формы мешает погибшей богине полностью навязать им свою волю.
     Bohldohr: Бурлыжнеки – это приспешники яхщеров, змееподобной расы из джунглей. Изначально созданные из древнего камня и оживлённые магией в позднюю эпоху династии яхщеров, они возникли в этот период великого расцвета. Однако, как и всякая цивилизация, их судьба не могла обойтись без упадка: когда их божество отвернулось, им пришлось самим сражаться с наступающими опасностями.
     Cnidrion: Once trained to be the steeds of honored Ilmerian warriors, cnidrions survived the Incineration due to their sheer might. They continue to defend what was once the heart of the sea kingdom from intruders, maintaining a fierce loyalty to their masters even after they have passed on.
     GemCrawler: Близкие сородичи призмоспинов Ильмеранского моря. Эти водные ящерицы оказались в дикой природе после того, как их содержали в качестве домашних питомцев, но, без необходимых питательных веществ для выращивания призм на своих спинах, многие из них вырастили нечто лучшее - драгоценные камни.
@@ -341,7 +341,7 @@ Bestiary: {
     GiantClam: Моллюски постепенно кристаллизуют окружающую их магию в жемчуг, который растёт вместе с ними. Когда они достигают своего полного размера, они становятся гигантскими моллюсками и обретают способность извлекать магию из своих жемчужин.
     PrismBack: Из-за красивых призм и спокойного характера, эти существа на протяжении веков стали верными спутниками для многих, включая тех, кто живёт за пределами Ильмериса. И хотя их скорость и габариты делают их не слишком подходящими для охоты, морские призмы на их спинах привлекают мелкую рыбёшку, создавая уникальную приманку.
     SeaFloaty: Flatworms can be found in many seas and oceans across the world, and are exceptional at fitting through cracks or crevices due to their thin bodies. These particular flatworms only ever inhabited the lower sea, and were left entirely unthreatened by the carnage that annihilated most species’ homes.
-    SeaMinnow: Schools of sea minnows were one of the most beautiful things one could witness during the days when Ilmeris was unshattered. Those permitted into the kingdom would gather to see these fish swimming in the open sea… yet, this is but a distant past now, even for the minnows themselves.
+    SeaMinnow: Стаи морских пескарей были одним из самых прекрасных явлений, которые можно было наблюдать во времена, когда Ильмерис был ещё цел. Те, кому было позволено посетить королевство, собирались, чтобы полюбоваться этими рыбками, плавающими в открытом море... Но теперь это лишь далёкое воспоминание, даже для самих пескарей.
     SeaSerpent: Despite being one of the few carnivorous creatures to have ever existed in the Ilmeran Sea, even these serpents are unusually passive towards those they do not consider prey by the standards of elsewhere. The sea has only ever known one truly aggressive predator, and it abandoned a life of calming solitude years ago.
     AndroombaFriendly: Андроботы-пылесосы, созданные с применением методов обратного инжиниринга, теперь распространяют растворы Паромеханика вместо того, чтобы просто подметать полы. Вы можете использовать их для очистки мира, а может и для его порчи если вам того захочется.
     DILF: One of the world’s foremost experts on magical theory, he is renowned for his skill with the arcane arts. In his days when he traveled with Yharim’s entourage, he acted as the Godseeker’s advisor, due to both his status and his distaste for actively participating in battle.
@@ -357,7 +357,7 @@ Bestiary: {
     HiveTumor: This tumor acts as the brain of the putrid wasteland, being all that is left of the minds of the slain gods that lay there. The creatures of the Corruption exist to protect it, and those who attempt to harm it rarely live to tell the tale.
     AquaticAberration: A spawn of the immense Leviathan, their lifespan can be measured in hours. All they know is how to hunt for their masters. Even non-aquatic life is well within their reach, due to their uncanny ability to fly through air just as easily as swimming through water.
     LeviathanStart: Приманка, созданная Водным элементалем, Анахитой. Её песни звучат нежно, а голос полон тепла и обещаний, но будьте бдительны: если последуете за зовом сирены, вы рискуете своей жизнью.
-    PerforatorCyst: This twitching and convulsing pile of gore acts as the heart of the Perforator Hive, harvesting what small amount of diluted Ichor flowing through the Crimson is left and feeding it to the Hive. Little else is known about it, for those who dare to disturb it have become indistinguishable from the landscape.
+    PerforatorCyst: Эта содрогающаяся и корчащаяся в конвульсиях куча мертвечины является сердцем Улья Перфораторов, извлекая то немногое, что осталось от разбавленного ихора, который протекает сквозь багрянец, и питая им Улей. О ней мало что известно, ибо те, кто осмелились её потревожить, стали неотличимыми от окружающей среды.
     CosmicLantern: Внутри этих фонарей горит волшебное, искажённое пламя, которое не излучает никакого тепла. Если пристально всмотреться в него, можно увидеть целый новый мир.
     CorruptSlimeSpawn: Slimes are extraordinarily hardy creatures: if a large slime has chunks of living gelatin severed from it, the chunks tend to continue on, albeit as their own beings. Even as gel, a slime is still technically alive– it simply exists in a state where it cannot function in any meaningful way.
     CrimsonSlimeSpawn: Slimes are extraordinarily hardy creatures: if a large slime has chunks of living gelatin severed from it, the chunks tend to continue on, albeit as their own beings.They even retain the memories of the original slime, and so continue to work in the interest of their “parent”.
@@ -373,7 +373,7 @@ Bestiary: {
     Cataclysm: A pitiable creation of the clone, made in an attempt to imitate one of the Supreme Witch’s brothers. Yet this and the clone’s other creations have no will of their own, amounting to little more than puppets she controls.
     Catastrophe: A pitiable creation of the clone, made in an attempt to imitate one of the Supreme Witch’s brothers. Not many would recognize them as such despite her efforts, though a few key characteristics have managed to survive in these abhorrent amalgamations.
     CeaselessVoid: -
-    Crabulon: A crustacean that once made its home in the heart of the Ilmeran Sea, managing to escape during the Great Incineration. Crabulon fled underground, enjoying the familiar blue glow given off by glowing mushrooms. Though it succumbed to the spores, it died in peace, reminded of its home.
+    Crabulon: Ракообразное существо, некогда обитавшее в сердце Ильмеранского моря, сумело выжить во время Великого сожжения. Крабулон скрылся под землёй, где его встретило знакомое голубое свечение, излучаемое светящимися грибами. Несмотря на неспособность сопротивляться спорам, он покинул этот мир в спокойствии, вспоминая свой родной дом.
     Cryogen: Когда Ярим понял, что Архимаг перешёл на другую сторону, он велел Каламитас отыскать и убить её бывшего наставника. После слёзного противостояния она решила запечатать и сфабриковать его смерть. Волшебство, которое присутствует в этой живой печати, восхищает и трагически олицетворяет каждый урок, который Пермофрост преподавал своей ученице.
     DesertScourge: A sea serpent that once swam through the waters of the Ilmeran Sea, it curiously chose to stay in its home rather than find a new one deep below. Quickly taking to a diet of antlion and cactus, it was able to take the place of possibly the desert’s apex predator after its only competition went into hiding.
     DevourerofGods: Существо, увенчанное титулами и обрётшее массу известности, создаёт запутанную смесь правды и мифов вокруг своих многочисленных легендарных подвигов. Некогда Ярим верил, что сущность, которую он поглощает, полностью исчезает из бытия, однако это противоречит основному закону мироздания: энергию нельзя уничтожить, её можно лишь перенести из одной формы в другую.
@@ -390,11 +390,11 @@ Bestiary: {
     Perforator: A living embodiment of some of the worst this world has to offer, these parasites made full use of their hive. Using it to seek ever more to gorge themselves upon, they sought to grow even larger, that they may one day perhaps regain what they lost.
     PerforatorHive: To tear and consume, taking for only themselves until there is nothing left– this was the primal instinct left behind by the gods which now form the Crimson. Their selfish desires coalesced into this hive, infested by ravenous worms whose sole desire is to devour.
     PlaguebringerGoliath: The Plague’s creation initially began after the unsatisfactory results the soul-power machines provided, with Draedon seeking absolute control. After testing many different variants for decades, both the Plague and its goliath were born, with its spread allowing for an amount of control over life once thought impossible.
-    Polterghast: The feral amalgamation that drove out the cult that once dwelled here, and inadvertently broke an alliance thought to be eternal. Many have delved into the dungeon in search of riches and knowledge long since lost, yet most simply join the spirits that have claimed this place as their own.
-    PrimordialWyrm: The first Wyrm, blessed by the Goddess of Life, held staggering power that surpassed nearly all of its auric brethren. It held a deep hatred for any sign of usurped light, and would have attempted to strike down even the wielder of Primordial Light had they returned to reclaim their artifact. And yet, despite its immense power, it never would have stood a chance.
-    ProfanedGuardianCommander: In a time lost to memory, there were four soldiers who used their wits and teamwork to slay a dragon, that one might gorge themself upon its auric soul. “I am the wisest,” declared their commander, “I should be the one.” There was silence, until Providence spoke: “You need temper your wisdom with action, that we might impose our will upon this world.”
-    ProfanedGuardianDefender: В незапамятные времена было четверо бесстрашных героев, которые воспользовались своей преданностью друг другу сразили дракона, дабы один из них насытился его аурической душой. “Я самая сильнейшая” - провозгласила защитница, “Это должна быть я”. И воцарилась тишина, пока Провиденс не заговорила вновь: “Ты не стоишь на своём, мечтая о невозможном”.
-    ProfanedGuardianHealer: В незапамятные времена было четверо бесстрашных героев, которые с безграничной решимостью сразили дракона, дабы один из них насытился его аурической душой. “Я самый храбрый” - провозгласил целитель, “Это должен быть я”. И воцарилась тишина, пока Провиденс не заговорила вновь: “Твоя храбрость ослепляет тебя перед истинной, и твоя чрезмерная самоуверенность приведёт тебя к гибели”.
+    Polterghast: Неистовое слияние, изгнавшее некогда обитавший здесь культ и невольно разорвавшее союз, считавшийся вечным. Многие смельчаки спускались в Темницу в поисках давно утерянных сокровищ и знаний, но, в конечном итоге, подавляющее большинство из них просто присоединялись к духам, сделавшим это место своей вотчиной.
+    PrimordialWyrm: Первый змий, благословлённый Богиней жизни, обладал поразительной силой, которая превосходила почти всех своих ауритовых собратьев. В нём горела глубокая ненависть к любому признаку украденного света, и он был готов сразиться даже с обладателем Первозданного света, если бы тот вернулся за своим артефактом. И всё же, несмотря на свою огромную силу, он никогда не смог бы победить.
+    ProfanedGuardianCommander: В незапамятные времена жили четверо воинов, которые, благодаря своему интеллекту и умению работать в команде сразили дракона, дабы один из них насытился его ауритовой душой. “Я мудрейший” - провозгласил их командир, “Это должна быть я”. И воцарилась тишина, пока Провиденс не заговорила вновь: “Тебе нужно закалить свою мудрость действием, дабы мы могли навязать свою волю этому миру”.
+    ProfanedGuardianDefender: В незапамятные времена было четверо бесстрашных героев, которые воспользовались своей преданностью друг другу сразили дракона, дабы один из них насытился его ауритовой душой. “Я сильнейшая” - провозгласила защитница, “Это должна быть я”. И воцарилась тишина, пока Провиденс не заговорила вновь: “Ты не стоишь на своём, мечтая о невозможном”.
+    ProfanedGuardianHealer: В незапамятные времена было четверо бесстрашных героев, которые с безграничной решимостью сразили дракона, дабы один из них насытился его ауритовой душой. “Я самый храбрый” - провозгласил целитель, “Это должен быть я”. И воцарилась тишина, пока Провиденс не заговорила вновь: “Твоя храбрость ослепляет тебя перед истинной, и твоя чрезмерная самоуверенность приведёт тебя к гибели”.
     Providence: В незапамятные времена жили четверо провидцев. С праведной яростью они сразили дракона, и их предводительница насытилась его ауритовой душой Пламени. “Мир лишён наставлений, а его жители охвачены тьмой” - сказала она. И воцарилась тишина, пока Провиденс не заговорила вновь. “Пойдём же и озарим мир заново”. И так оно и случилось.
     Ravager: Изуродованное воплощение Бога жертвоприношений, которому вновь была дарована жизнь. Некроманты, поклявшиеся ему в вере, вернули его изломанное тело в храм, принося единственную жертву, которые могли, чтобы предотвратить его Смерть - свою собственную жизнь. И всё же некромантия - несовершенное искусство, ведь у бога сохранились лишь крохи разума; он просто разрушает всё, что попадается ему на пути.
     Signus: ‘За любое желание нужно платить’. Сделка утверждённая Ониксом и скреплённая кровью, позволяет исполнить любое желание — будь то проход, обещание или даже предательство. Что интересно, о Сигнусе до эпохи богов нет никаких записей, и до наших дней дошло очень мало сведений. Возможно, за соответствующую цену можно было бы выяснить правду о Сигнусе самому.
@@ -1510,7 +1510,7 @@ Buffs: {
     }
     
     ProfanedCrystalWhipBuff: {
-        DisplayName: Усиление сквернённого кристального хлыста
+        DisplayName: Усиление осквернённого кристального хлыста
         Description: Стражи были усилены осквернённым кристальным хлыстом!
         Empowered: Их полный потенциал был раскрыт, и никто не спасётся от их гнева
     }
@@ -4100,7 +4100,7 @@ Items: {
                 [c/3A83E4:Превращает магические атаки в мощный разрывной огненный шар за {1} маны]
                 [c/85E092:Превращает стрелковые атаки в шквал огненных шаров и метеоров]
                 [c/E94571:Превращает разбойные атаки в смертельную кристаллическую спираль]
-                [c/E299FF:Превращает атаки хлыстом в усиливащий осквернённый кристальный хлыст]
+                [c/E299FF:Превращает атаки хлыстом в усиливающий осквернённый кристальный хлыст]
                 Призывает и усиливает Осквернённых стражей душ сражающихся бок о бок с вами
                 Накладывает баффы в зависимости от времени суток
                 Оглядываясь назад, я вижу, что жизнь была скучной
@@ -4794,7 +4794,7 @@ Items: {
             DisplayName: Знак отличия Ярима
             Tooltip:
                 '''
-                Если здоровье ниже 50%, увеличивает урон на 10%
+                Увеличивает урон на 10%, если здоровье ниже 50%
                 Увеличивает скорость атаки и истинный урон ближнего боя на 15%
                 Все атаки ближнего боя накладывают дебафф «{$Buffs.HolyFlames.DisplayName}»
                 Увеличивает отбрасывание ближнего боя
@@ -5326,7 +5326,7 @@ Items: {
                     '''
                 SetBonus:
                     '''
-                    Увеличивает урон ближнего боя на 10%
+                    Увеличивает скорость атаки ближнего боя на 10%
                     Враги чаще выбирают вас в качестве цели
                     Вы отражаете снаряды обратно во врагов
                     Отражённые снаряды наносят вам на 50% меньше урона
@@ -6664,7 +6664,7 @@ Items: {
                 SetBonus:
                     '''
                     Увеличивает призываемое число миньонов на 1
-                    Призывает морского ежа, защищающего вас
+                    Призывает морскую улитку, которая защищает вас
                     Находясь под водой, увеличивает регенерацию здоровья на 1.5 и урон призывателя на 10%
                     '''
             }
@@ -8135,7 +8135,7 @@ Items: {
                 Посредством ритуального благословения почвы они насыщали росток легионами душ
                 Старейшины деревни мечтали о новой эпохе ботанического процветания
                 Растение действительно внушало благоговение. Но оно было диким и неукротимым, с собственной волей
-                Теперь, после того, как ты её убил, эти земли заполонили ещё более хаотичными духовными силами
+                Теперь, после того, как ты её убил, эти земли заполонили ещё более хаотичные духовные силы
                 Незнание деревни о силе, которой она обладает, было позорным, но то, что происходит сейчас, ещё хуже
                 '''
         }
@@ -9801,7 +9801,7 @@ Items: {
         
         SignusRelic: {
             DisplayName: Реликвия Сигнуса
-            Tooltip: Мимолётный взгляд на то, что могло бы быть...
+            Tooltip: Мимолётный взгляд на то, что будет...
         }
         
         SlimeGodRelic: {
@@ -9816,7 +9816,7 @@ Items: {
         
         YharonRelic: {
             DisplayName: Реликвия Ярона
-            Tooltip: Мимолётный взгляд на то, что могло бы быть...
+            Tooltip: Мимолётный взгляд на то, что будет...
         }
         
         ChaosCandle: {
@@ -10844,7 +10844,7 @@ Items: {
         }
         
         CosmiliteSconce: {
-            DisplayName: Космилитовый светильник
+            DisplayName: Космилитовый бра
             Tooltip: ""
         }
         
@@ -14354,7 +14354,7 @@ Items: {
             
             DivineRetribution: {
                 DisplayName: Божественное возмездие
-                Tooltip: Маг превосходит разбойника; смотри, у нас есть донатерское оружие, чтобы доказать это!
+                Tooltip: Маг превосходит разбойника; смотри, у нас есть донаторское оружие, чтобы доказать это!
             }
             
             Downpour: {
@@ -16647,7 +16647,7 @@ Items: {
             
             BrimstoneFury: {
                 DisplayName: Серная ярость
-                Tooltip: Превращает деревянные стрелы в разброс из 3 серных заряда
+                Tooltip: Превращает деревянные стрелы вразброс из 3 серных заряда
             }
             
             BulletFilledShotgun: {
@@ -17701,7 +17701,7 @@ Items: {
                     '''
                     Удерживайте, чтобы зарядить разрушительный титановый взрыв
                     Дольше заряд - больше урон, размер и отбрасывание
-                    Мощность ограничена, когда прицел оружия полностью сходится в одну точку
+                    Мощность на пределе, когда прицел оружия полностью сходится в одну точку
                     '''
             }
             
@@ -19063,7 +19063,7 @@ Items: {
             }
             
             ToothBall: {
-                DisplayName: Зубной шар
+                DisplayName: Зубастый шар
                 Tooltip: При скрытном ударе шар создаёт дождевое облако над врагом при попадании
             }
             
@@ -19199,7 +19199,7 @@ Items: {
                 Tooltip:
                     '''
                     Призывает гигантское грозовое облако, которое обрушивает на врагов ливень и поражает ближайших врагов перегруженной тесла-энергией
-                    'Капитан! Мне кажется, что у нас есть угроза дождя!'
+                    'Капитан! Мне кажется, нас ждёт сезон дождей!'
                     '''
             }
             
@@ -19695,7 +19695,7 @@ Items: {
                 Tooltip:
                     '''
                     Призывает миниатюрную Плантеру, которая сокрушает врагов цветочной яростью
-                    Занимает 3 слота призываемых миньонов и одновременно может существовать только одна маленька Плантера
+                    Занимает 3 слота призываемых миньонов и одновременно может существовать только одна маленькая Плантера
                     '''
             }
             
@@ -20383,7 +20383,7 @@ NPCs: {
     PolterPhantom.DisplayName: Полтергаст
     PrimordialWyrmHead.DisplayName: Первозданный змий
     Jared: Джаред
-    ProfanedGuardianCommander.DisplayName: Атакующий страж
+    ProfanedGuardianCommander.DisplayName: Страж-командир
     ProfanedGuardianDefender.DisplayName: Страж-защитник
     ProfanedGuardianHealer.DisplayName: Страж-целитель
     ProfanedRocks.DisplayName: Осквернённые камни
@@ -23130,7 +23130,7 @@ UI: {
     Cost: "Стоимость: "
     Contact: Контакт
     Summon: Призыв
-    Evoke: Пробуждение
+    Evoke: Пробудить
     Communicate: Общение
     ConfirmationText: Вы уверены?
     UpgradesRequired: Шифрование нерешаемое: требуются обновления.

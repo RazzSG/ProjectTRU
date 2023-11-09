@@ -116,7 +116,6 @@ public class TownNpcNames : GlobalNPC
             {"Nyapano", "Няпано"},
             {"Jade", "Джейд"},
             {"Nyavi Aceso", "Ньяви Ацесо"},
-            {"Octo", "Окто"},
         },
         [NPCID.SkeletonMerchant] = new Dictionary<string, string>
         {
@@ -173,12 +172,12 @@ public class TownNpcNames : GlobalNPC
             {"Chris Tallballs", "Шаркрис Тальный"},
             {"Syethas", "Ситас"},
             {"Nextdoor Psycho", "Шизак Даркхолм"},
-            {"Lacuna", "Лакуна"},
         },
         [NPCID.BestiaryGirl] = new Dictionary<string, string>
         {
             {"Kiriku", "Кирику"},
             {"Lacuna", "Лакуна"},
+            {"Mae Borowski", "Мэй Боровски"},
         },
         [NPCID.TownDog] = new Dictionary<string, string>
         {
@@ -197,6 +196,7 @@ public class TownNpcNames : GlobalNPC
             {"Felix", "Феликс"},
             {"Lucerne", "Люцерн"},
             {"Milo", "Мило"},
+            {"Octo", "Окто"},
         },
         // [NPCID.TownBunny] = new Dictionary<string, string>
         // {
