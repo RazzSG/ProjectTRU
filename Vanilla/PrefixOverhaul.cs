@@ -328,6 +328,8 @@ public class VanillaItems : IItemGender
 
 public class VanillaItemsCreator : IItemGenderCreator
 {
+    public string ModName => "Vanilla";
+
     public IItemGender Create()
     {
         return new VanillaItems();
@@ -757,6 +759,8 @@ public class CalamityItems : IItemGender
 
 public class CalamityItemsCreator : IItemGenderCreator
 {
+    public string ModName => "CalamityMod";
+
     public IItemGender Create()
     {
         return new CalamityItems();
@@ -967,6 +971,8 @@ public class FargoSoulsItems : IItemGender
 
 public class FargoSoulsItemsCreator : IItemGenderCreator
 {
+    public string ModName => "FargowiltasSouls";
+
     public IItemGender Create()
     {
         return new FargoSoulsItems();
@@ -1017,6 +1023,8 @@ public class InfernumModeItems : IItemGender
 
 public class InfernumModeItemsCreator : IItemGenderCreator
 {
+    public string ModName => "InfernumMode";
+
     public IItemGender Create()
     {
         return new InfernumModeItems();
@@ -1025,6 +1033,8 @@ public class InfernumModeItemsCreator : IItemGenderCreator
 
 public class ThoriumModItemsCreator : IItemGenderCreator
 {
+    public string ModName => "ThoriumMod";
+
     public IItemGender Create()
     {
         return new ThoriumModItems();
@@ -1453,6 +1463,13 @@ public class PrefixOverhaul
     private List<int> _feminine = new();
     private List<int> _neuter = new();
     private List<int> _plural = new();
+    private readonly List<IItemGenderCreator> _genderCreators = new()
+    {
+        new CalamityItemsCreator(),
+        new FargoSoulsItemsCreator(),
+        new InfernumModeItemsCreator(),
+        new ThoriumModItemsCreator()
+    };
 
     //Мужской, Женский, Средний, Множественный
     public readonly string[][] Prefixes =
@@ -1597,7 +1614,6 @@ public class PrefixOverhaul
     
     private void Load()
     {
-
         VanillaItemsCreator vanilla = new VanillaItemsCreator();
         IItemGender vanillaItems = vanilla.Create();
 
@@ -1605,44 +1621,16 @@ public class PrefixOverhaul
         _neuter.AddRange(vanillaItems.Neuter);
         _plural.AddRange(vanillaItems.Plural);
 
-        if (ModsCall.Calamity != null)
+        foreach (IItemGenderCreator creator in _genderCreators)
         {
-            CalamityItemsCreator calamity = new CalamityItemsCreator();
-            IItemGender calamityItems = calamity.Create();
-            
-            _feminine.AddRange(calamityItems.Feminine);
-            _neuter.AddRange(calamityItems.Neuter);
-            _plural.AddRange(calamityItems.Plural);
-
-            if (ModsCall.Infernum != null)
+            if (ModLoader.TryGetMod(creator.ModName, out Mod _))
             {
-                InfernumModeItemsCreator infernum = new InfernumModeItemsCreator();
-                IItemGender infernumItems = infernum.Create();
+                IItemGender modItems = creator.Create();
                 
-                _feminine.AddRange(infernumItems.Feminine);
-                _neuter.AddRange(infernumItems.Neuter);
-                _plural.AddRange(infernumItems.Plural);
+                _feminine.AddRange(modItems.Feminine);
+                _neuter.AddRange(modItems.Neuter);
+                _plural.AddRange(modItems.Plural);
             }
-        }
-
-        if (ModsCall.FargoSouls != null)
-        {
-            FargoSoulsItemsCreator fargoSouls = new FargoSoulsItemsCreator();
-            IItemGender fargoSoulsItems = fargoSouls.Create();
-            
-            _feminine.AddRange(fargoSoulsItems.Feminine);
-            _neuter.AddRange(fargoSoulsItems.Neuter);
-            _plural.AddRange(fargoSoulsItems.Plural);
-        }
-        
-        if (ModsCall.Thorium != null)
-        {
-            ThoriumModItemsCreator thorium = new ThoriumModItemsCreator();
-            IItemGender thoriumModItems = thorium.Create();
-            
-            _feminine.AddRange(thoriumModItems.Feminine);
-            _neuter.AddRange(thoriumModItems.Neuter);
-            _plural.AddRange(thoriumModItems.Plural);
         }
     }
 }

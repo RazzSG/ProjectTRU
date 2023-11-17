@@ -18488,7 +18488,7 @@ NPCs: {
 
     AncientPhalanx: {
         DisplayName: Древняя фаланга
-        BestiaryFlavorText: Colossal guardians from an ancient civilization, they now have little to protect but themselves.
+        BestiaryFlavorText: Колоссальные стражи древней цивилизации, ныне им осталось защищать лишь себя.
     }
 
     AquamarineBunny: {
@@ -18556,7 +18556,7 @@ NPCs: {
 
     Blacksmith: {
         DisplayName: Кузнец
-        BestiaryFlavorText: The Blacksmith is a grouchy old man with an unrivaled skill in smelting. His crafted equipment would interest any Terrarian.
+        BestiaryFlavorText: Кузнец - сварливый старик с непревзойдённым мастерством выплавки. Его мастерски изготовленное снаряжение заинтересует любого террарийца.
 
         TownNPCMood: {
             Content: Конечно, я в порядке, олух! Чего спрашиваешь?
@@ -18579,37 +18579,37 @@ NPCs: {
 
     BlackWidowWall: {
         DisplayName: Чёрная вдова
-        BestiaryFlavorText: Ths stealthy spider's venom is potent enough to corrode steel. What do you think it'll do to a Terrarian...?
+        BestiaryFlavorText: Яд этой скрытной паучихи настолько силён, что может разъедать сталь. Что же он сделает с террарийцем?..
     }
 
     Blister: {
         DisplayName: Волдырь
-        BestiaryFlavorText: A swollen sack filled to the brim with corrosive ichor. Even the smallest touch could release its contents!
+        BestiaryFlavorText: Вздутый пузырь, заполненный до краёв едким ихором. Даже самое лёгкое прикосновение может привести к его взрыву!
     }
 
     BlisterPod: {
         DisplayName: Волдырный кокон
-        BestiaryFlavorText: A grotesque lesion produced by the viscera of the Crimson. Incubates and produces dangerous offspring.
+        BestiaryFlavorText: Гротескное образование, порождённое внутренностями багрянца. Вынашивает и производит опасных отпрысков.
     }
 
     BlizzardBat: {
         DisplayName: Вьюжная летучая мышь
-        BestiaryFlavorText: Imbued with all things chilly, this bat is out for blood-flavored snow cones.
+        BestiaryFlavorText: Кровожадная летучая мышь, пропитанная холодом, жаждет снежков со вкусом крови.
     }
 
     BoreanHopper: {
         DisplayName: Борейский прыгун
-        BestiaryFlavorText: A newly born Strider that's just as hungry and freezing as its mother.
+        BestiaryFlavorText: Новорождённый шагатель, такой же голодный и замёрзший, как и его мать.
     }
 
     BoreanMyte: {
         DisplayName: Борейский клещ
-        BestiaryFlavorText: A mutated baby Strider that leaks icy doom everywhere it goes.
+        BestiaryFlavorText: Мутировавший детёныш шагательницы, несущий ледяной рок повсюду, куда бы он ни пошел.
     }
 
     BoreanStrider: {
-        DisplayName: Борейский шагатель
-        BestiaryFlavorText: A species of arachnid hell-bent on surviving the harshness of a Terrarian blizzard. Something this stubborn is a danger to everyone.
+        DisplayName: Борейская шагательница
+        BestiaryFlavorText: Вид арахнидов, одержимый выживанием в суровых условиях террарийской вьюги. Такая целеустремленность делает их опасными для всех.
 
         BossChecklistIntegration: {
             SpawnInfo: Появляется случайным образом в метель или призывается при помощи [i:ThoriumMod/StriderTear].
@@ -18619,22 +18619,22 @@ NPCs: {
 
     FrostBurnt: {
         DisplayName: Сгоревший морозом
-        BestiaryFlavorText: A frozen husk that has had their flesh blown from their body by the harsh, blizzard winds.
+        BestiaryFlavorText: Замёрзшая оболочка, лишённая плоти суровыми вьюжными ветрами.
     }
 
     FrostBurntFlayer: {
         DisplayName: "{$NPCs.FrostBurnt.DisplayName}"
-        BestiaryFlavorText: A deteriorating frozen husk that manages to wield a large icicle in battle. Their tongue is noticeably stuck to the end of it.
+        BestiaryFlavorText: Деградирующая замёрзшая оболочка, которая умудряется орудовать большим ледяным шипом в бою. Её язык явно прилип к его концу.
     }
 
     SnowElemental: {
         DisplayName: Снежный элементаль
-        BestiaryFlavorText: An icy elemental packed to the brim with snow. Likes to explode in a beautiful flurry of snow... and death.
+        BestiaryFlavorText: Ледяной элементаль, до краёв наполненный снегом. Любит взрываться в красивом снежном вихре... и смерти.
     }
 
     SnowyOwl: {
         DisplayName: Снежная сова
-        BestiaryFlavorText: A hardy species of owl that does most of its hunting when an incoming blizzard blocks all sight.
+        BestiaryFlavorText: Суровая порода сов, которая охотится в основном во время приближающейся метели, когда видимость полностью блокируется.
     }
 
     Abomination: {
@@ -19276,17 +19276,17 @@ NPCs: {
 
     InfernalHound: {
         DisplayName: Инфернальная гончая
-        BestiaryFlavorText: Likes to give lava-dripping kisses to everyone it can see. Truly damned-man's best friend.
+        BestiaryFlavorText: Любит обжигать всех, кого видит, своими лавовыми поцелуями. Настоящий друг обречённых.
     }
 
     LeFantome: {
         DisplayName: Призрак
-        BestiaryFlavorText: Shunned by Terrarians for his appearance, this masked musician empowers the ghouls he has allied with using an enthralling song.
+        BestiaryFlavorText: Отверженный террарийцами из-за своего облика, этот музыкант в маске наделяет своих союзников-упырей силой, используя завораживающую песню.
     }
 
     Lich: {
         DisplayName: Лич
-        BestiaryFlavorText: The cadaveric disciple to the defiler of life, always on the hunt for more souls to add to its collection.
+        BestiaryFlavorText: Трупный ученик осквернителя жизни, всегда ищущий новые души для своей коллекции.
 
         BossChecklistIntegration: {
             SpawnInfo: Используйте [i/s{0}:{1}] на Древней филактерии на кладбище за Темницей.
@@ -19327,52 +19327,52 @@ NPCs: {
 
     MahoganyEnt: {
         DisplayName: Энт из красного дерева
-        BestiaryFlavorText: A sentient mass of mahogany that seeks to protect the flora of the Jungle by deadly means.
+        BestiaryFlavorText: Одушевлённая масса красного дерева, чья цель - защищать джунгли от тех, кто угрожает её флоре.
     }
 
     MartianScout: {
         DisplayName: Марсианский разведчик
-        BestiaryFlavorText: This alien has come to survey the environment and serve as a harbinger of things to come...
+        BestiaryFlavorText: Этот пришелец прибыл, чтобы исследовать окружающую среду и стать предвестником грядущих событий.
     }
 
     MartianSentry: {
         DisplayName: Марсианский страж
-        BestiaryFlavorText: A defensive machine sent to accompany visiting Martian Scouts.
+        BestiaryFlavorText: Защитная машина, сопровождающая марсианских разведчиков.
     }
 
     MoltenMortar: {
         DisplayName: Раскалённая мортира
-        BestiaryFlavorText: A highly mutated Magma Snail that has gained the ability to launch chunks of burning rubble at its prey.
+        BestiaryFlavorText: Сверхмутированная магматическая улитка, получившая способность метать горящие обломки в свою добычу.
     }
 
     MossWasp: {
         DisplayName: Мшистая оса
-        BestiaryFlavorText: This hornet has been overloaded with floral energy, resulting in massively increased aggression and speed.
+        BestiaryFlavorText: Этот шершень был перегружен цветочной энергией, что привело к значительному увеличению агрессии и скорости.
     }
 
     MudMan: {
         DisplayName: Грязевой человек
-        BestiaryFlavorText: A rudimentary lifeform born from the mud of the Jungle, and only smart enough to know that their home should be defended.
+        BestiaryFlavorText: Первобытная форма жизни, рождённая из грязи джунглей, и знающая лишь одно: её дом должен быть защищён.
     }
 
     MyceliumMimic: {
         DisplayName: Мицелиевый мимик
-        BestiaryFlavorText: Mimics fed by the nutrients of glowing mushrooms gain heightened abilities. They can be birthed from ordinary chests by force.
+        BestiaryFlavorText: Питание светящимися грибами даёт мимикам повышенные способности. Их можно насильно заставить появиться из обычных сундуков.
     }
 
     Myna: {
         DisplayName: Майна
-        BestiaryFlavorText: An innocent and rare bird that might tag along with you if you manage to catch it.
+        BestiaryFlavorText: Невинная и редкая птица, которая может стать вашим верным спутником, если вам удастся её поймать.
     }
 
     NecroPot: {
         DisplayName: Некрогоршок
-        BestiaryFlavorText: The Dungeon houses an immense amount of spiritual energy. It's no surprise some of that energy has decided to possess a pot or two.
+        BestiaryFlavorText: Темница хранит в себе огромное количество духовной энергии. Неудивительно, что какая-то часть этой энергии решила вселиться в один или два горшка.
     }
 
     Nestling: {
         DisplayName: Птенец
-        BestiaryFlavorText: A species of avian that loves to cohabitate with Harpies, care for baby birds, and pelt curious Terrarians.
+        BestiaryFlavorText: Вид пернатых, любящий жить вместе с гарпиями, заботиться о птенцах и швыряться камнями в любопытных террарийцев.
     }
 
     OpalBunny: {
@@ -19386,8 +19386,8 @@ NPCs: {
     }
 
     PeculiarMirror: {
-        DisplayName: Необычные зеркала
-        BestiaryFlavorText: An ordinary-looking, if fancy, mirror in the Dungeon. Surely nothing bad will happen if you get a little closer to it, right?
+        DisplayName: Необычное зеркало
+        BestiaryFlavorText: Обычное на вид, но изысканное зеркало в Темнице. Наверняка, если подойти к нему поближе, ничего плохого не случится, ведь так?
         Button: Дотронуться
         WarningFallback: Что-то приближается!
     }
@@ -19395,7 +19395,7 @@ NPCs: {
     Aquaius: {
         DisplayName: Акваус, Бесконечный прилив
         BestiaryNameOverride: Акваус
-        BestiaryFlavorText: The endless tide of reality, Aquaius represents all push and pull in the universe. It will judge those it deems worthy of its attention.
+        BestiaryFlavorText: Бесконечный прилив реальности, Акваус олицетворяет собой все силы противоборствующие друг другу во Вселенной. Он будет судить тех, кого сочтёт достойными своего внимания.
     }
 
     AquaiusBubble.DisplayName: Пузырь Акваиуса
@@ -19429,38 +19429,38 @@ NPCs: {
 
     DistractingJellyfish: {
         DisplayName: Отвлекающая медуза
-        BestiaryFlavorText: A blue colored jellyfish that loves to get hit for its Queen.
+        BestiaryFlavorText: Синяя медуза, которая любит получать удары ради своей королевы.
     }
 
     QueenJellyfish: {
         DisplayName: Королева медуз
-        BestiaryFlavorText: Once a normal jellyfish, something within the darkest depths caused it to bloat in size, power, and aggression.
+        BestiaryFlavorText: Некогда обычная медуза, но что-то в самых тёмных глубинах вызвало в ней небывалый рост, силу и агрессию.
         BossChecklistIntegration.SpawnInfo: Используйте [i:ThoriumMod/JellyfishResonator] днём в океане.
     }
 
     SpittingJellyfish: {
         DisplayName: Плюющаяся медуза
-        BestiaryFlavorText: A yellow colored jellyfish that loves to spit bubbles at enemies for its Queen.
+        BestiaryFlavorText: Жёлтая медуза, которая любит плеваться пузырьками во врагов ради своей королевы.
     }
 
     ZealousJellyfish: {
         DisplayName: Ревнивая медуза
-        BestiaryFlavorText: A red colored jellyfish that loves to ram into enemies for its Queen.
+        BestiaryFlavorText: Красная медуза, которая любит таранить врагов ради своей королевы.
     }
 
     RagingMinotaur: {
         DisplayName: Разъярённый минотавр
-        BestiaryFlavorText: Roaming the maze-like halls of the Dungeon, these bulls charge down them with enough force to stagger anyone unfortunate enough to get hit.
+        BestiaryFlavorText: Свирепые быки бродят по запутанным коридорам Темницы, несясь по ним с такой силой, что могут сбить с ног любого, кому не повезло оказаться на их пути.
     }
 
     ScissorStalker: {
         DisplayName: Преследователь с ножницами
-        BestiaryFlavorText: There's no use trying to hide from this scissor-wielding murderer. When he inevitably finds you, you'll swear he's teleporting!
+        BestiaryFlavorText: Бесполезно пытаться спрятаться от этого убийцы с ножницами. Когда он найдёт вас, вы будете уверены, что он умеет телепортироваться.
     }
 
     BioCore: {
         DisplayName: Био-ядро
-        BestiaryFlavorText: A protective probe that seeks to annihilate any being that distracts its flag ship.
+        BestiaryFlavorText: Защитный зонд, уничтожающий любое существо, которое отвлекает его флагман от цели.
     }
 
     CryoCore: {
@@ -19475,63 +19475,63 @@ NPCs: {
 
     StarScouter: {
         DisplayName: Звёздный разведчик
-        BestiaryFlavorText: An observation vessel from a distant planet. Its basic defense measures are incredibly high-tech for this world's standards.
+        BestiaryFlavorText: Наблюдательный аппарат с далёкой планеты. Его основные средства защиты являются чрезвычайно высокотехнологичными по меркам этого мира.
         BossChecklistIntegration.SpawnInfo: Используйте [i:ThoriumMod/StarCaller] высоко в небе.
     }
 
     SeaShantySinger: {
         DisplayName: Певец морских баллад
-        BestiaryFlavorText: Pirates are a rowdy bunch, but when a shanty is in the air, they get even more trigger-happy!
+        BestiaryFlavorText: Пираты - это сорванцы и хулиганы, но когда в воздухе звучит морская баллада, они становятся ещё более воинственными!
     }
 
     ShadowflameRevenant: {
         DisplayName: Отражение теневого пламени
-        BestiaryFlavorText: The reanimated fighting spirit of a fallen goblin. Looks like their quest for loot persists even after death.
+        BestiaryFlavorText: Воскреснувший боевой дух павшего гоблина. Кажется, их жажда добычи не угасает даже после смерти.
     }
 
     Shambler: {
         DisplayName: Скиталец
-        BestiaryFlavorText: Downtrodden prisoners in their past life, these shackled skeletons will gleefully force their burden onto their eventual vanquishers.
+        BestiaryFlavorText: Бывшие в прошлом угнетёнными узниками, эти скованные в кандалы скелеты с радостью взвалят свой груз на плечи своих будущих победителей.
     }
 
     SnowBall: {
         DisplayName: Снежный шар
-        BestiaryFlavorText: These guys take the idea of snowball fights and roll with it a little too much!
+        BestiaryFlavorText: Эти ребята превратили снежную битву в настоящее сражение.
     }
 
     SnowEater: {
         DisplayName: Пожиратель снега
-        BestiaryFlavorText: Even the frigid cold is unable to stop these malevolent beings from feasting upon the weak.
+        BestiaryFlavorText: Даже ледяной холод не в силах остановить этих злобных существ, которые не прочь полакомиться слабыми.
     }
 
     SnowFlinxMatriarch: {
         DisplayName: Снежный флинкс-матриарх
-        BestiaryFlavorText: The strange leader of a strange creature. They tend to house their young, along with various items, in their fur. Strange.
+        BestiaryFlavorText: Необычный предводитель необычного существа. В своей шерсти они обычно прячут детёнышей, а также различные предметы. Как необычно.
     }
 
     SnowSinga: {
         DisplayName: Снеговик-певун
-        BestiaryFlavorText: At first sight, this mafioso appears to be celebrating. Really, he's inspiring his accomplices to put you on ice.
+        BestiaryFlavorText: С виду этот мафиози празднует, но на самом деле он вдохновляет своих подельников отправить вас на тот свет.
     }
 
     SoulCorrupter: {
         DisplayName: Извращатель душ
-        BestiaryFlavorText: Proof of the insidious influence of the Corruption. Nothing is safe from its spread, not even Demons.
+        BestiaryFlavorText: Доказательство зловещего влияния искажения. Даже демоны не могут устоять перед ним.
     }
 
     SpaceSlime: {
         DisplayName: Космический слизень
-        BestiaryFlavorText: Apparently slimes exist on other planets, too. Who knew?
+        BestiaryFlavorText: Как оказалось, слизни существуют и на других планетах. Кто бы мог подумать?
     }
 
     Spectrumite: {
         DisplayName: Спектрумит
-        BestiaryFlavorText: An overgrown crystal shard-turned-sentry tasked with dispatching meddlesome Terrarians entering the Hallow.
+        BestiaryFlavorText: Разросшийся кристаллический осколок, ставший стражем, призванным изгонять из освящения незваных террарийцев.
     }
 
     Spiritualist: {
         DisplayName: Спиритуалист
-        BestiaryFlavorText: The Spiritualist believes in the power of inner tranquility. Terrarians interested in healing their allies could learn much from him.
+        BestiaryFlavorText: Спиритуалист считает, что в основе силы лежит внутреннее спокойствие. Террарийцы, желающие научиться исцелять своих союзников, могут многому у него научиться.
 
         TownNPCMood: {
             Content: Моя душа в равновесии, друг.
@@ -19557,32 +19557,32 @@ NPCs: {
 
     StrangeBulb: {
         DisplayName: Загадочный бутон
-        BestiaryFlavorText: A bizarre species of plant that hasn't reached its maturity yet. Maybe that's for the best...
+        BestiaryFlavorText: Причудливый вид растения, который ещё не достиг зрелости. Может, оно и к лучшему...
     }
 
     SunPriestess: {
         DisplayName: Жрица солнца
-        BestiaryFlavorText: A Lihzahrd imbued with the power of the sun. Makes a great night light in the dark halls of the Temple.
+        BestiaryFlavorText: Яхщер, наделённый силой солнца. Является отличным источником света в тёмных залах Храма.
     }
 
     TarantulaWall: {
         DisplayName: Тарантул
-        BestiaryFlavorText: A highly defensive species of arachnid that releases sharp spikes when threatened. May have porcupine DNA.
+        BestiaryFlavorText: Высокозащищённая разновидность арахнидов, выпускающая острые шипы при угрозе. Возможно, содержит ДНК дикобраза.
     }
 
     TempleGuardian: {
         DisplayName: Защитник Храма
-        BestiaryFlavorText: A solar powered automaton designed to monitor and protect the halls of the mysterious Temple with extreme prejudice.
+        BestiaryFlavorText: Солнечный автоматон, созданный для наблюдения и охраны залов загадочного Храма с чрезвычайной решимостью.
     }
 
     TheInnocent: {
         DisplayName: Непорочный
-        BestiaryFlavorText: This innocent creature once peacefully roamed the forests of Terraria before the Corruption's dark spread reached it.
+        BestiaryFlavorText: Некогда это безобидное создание мирно обитало в лесах Террарии, пока тёмное распространение искажения не добралось до него.
     }
 
     TheStarved: {
         DisplayName: Изголодавший
-        BestiaryFlavorText: This slobbering creature has abandoned all reason in an attempt to satiate its endless, perceived, hunger.
+        BestiaryFlavorText: Это слюнявое существо утратило рассудок в стремлении удовлетворить свой бесконечный, мнимый голод.
     }
 
     StormHatchling: {

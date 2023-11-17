@@ -24,6 +24,33 @@ public class FargowiltasGlobalItem : GlobalItem
             tooltips.ReplaceText("Sold At Thirty Stack", "Продаётся от тридцати штук");
             tooltips.ReplaceText("None", "Нет");
         });
+        
+        ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "Fargowiltas" && l.Name == "TooltipNPCSold", _ =>
+        {
+            tooltips.ReplaceText("Sold By", "Продаёт");
+            tooltips.ReplaceText("several vendors", "несколько НИПов");
+            tooltips.ReplaceText("Finish 5 angler quests", "Завершить 5 заданий рыбака");
+            tooltips.ReplaceText("Finish 10 angler quests", "Завершить 10 заданий рыбака");
+            tooltips.ReplaceText("Finish 15 angler quests", "Завершить 15 заданий рыбака");
+            tooltips.ReplaceText("Finish 25 angler quests", "Завершить 25 заданий рыбака");
+            tooltips.ReplaceText("Finish 30 angler quests", "Завершить 30 заданий рыбака");
+            tooltips.ReplaceText("While underground", "Находясь под землёй");
+            tooltips.ReplaceText("Have a weapon that uses Brittle Bones as ammunition in your inventory", "В вашем инвентаре есть оружие, которое использует хрупкие кости в качестве боеприпасов");
+            tooltips.ReplaceText("Have a weapon that uses seeds as ammunition in your inventory", "В вашем инвентаре есть оружие, которое использует семена в качестве боеприпасов");
+            tooltips.ReplaceText("After having picked up a Red Husk", "После того, как вы подобрали красный хитин");
+            tooltips.ReplaceText("After having picked up an Orange Bloodroot", "После того, как вы подобрали лранжевую лапчатку");
+            tooltips.ReplaceText("After having picked up a Yellow Marigold", "После того, как вы подобрали жёлтый бархатец");
+            tooltips.ReplaceText("After having picked up a Lime Kelp", "После того, как вы подобрали лаймовую ламинарию");
+            tooltips.ReplaceText("After having picked up a Green Mushroom", "После того, как вы подобрали зелёный гриб");
+            tooltips.ReplaceText("After having picked up a Teal Mushroom", "После того, как вы подобрали бирюзовый гриб");
+            tooltips.ReplaceText("After having picked up a Cyan Husk", "После того, как вы подобрали циановый хитин");
+            tooltips.ReplaceText("After having picked up a Sky Blue Flower", "После того, как вы подобрали голубой цветок");
+            tooltips.ReplaceText("After having picked up Blueberries", "После того, как вы подобрали синие ягоды");
+            tooltips.ReplaceText("After having picked up Purple Mucos", "После того, как вы подобрали пурпурную слизь");
+            tooltips.ReplaceText("After having picked up a Violet Husk", "После того, как вы подобрали фиолетовый хитин");
+            tooltips.ReplaceText("After having picked up a Pink Prickly Pear", "После того, как вы подобрали розовую опунцию");
+            tooltips.ReplaceText("After having picked up Black Ink", "После того, как вы подобрали чернила");
+        });
 
         if (item.type == ItemID.PureWaterFountain)
         {
@@ -118,6 +145,14 @@ public class FargowiltasGlobalItem : GlobalItem
             ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "Fargowiltas" && l.Name == "Tooltip1", tooltip =>
             {
                 tooltip.Text = "[i:2373] [c/AAAAAA:Эта удочка запускает 5 поплавков]";
+            });
+        }
+        
+        if (item.type is ItemID.SharpeningStation or ItemID.AmmoBox or ItemID.CrystalBall or ItemID.BewitchingTable or ItemID.SliceOfCake)
+        {
+            ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "Fargowiltas" && l.Name == "TooltipUnlim", tooltip =>
+            {
+                tooltip.Text = "[i:87] [c/AAAAAA:Постоянно даёт эффект ближайшим игрокам]";
             });
         }
         

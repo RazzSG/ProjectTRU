@@ -1,5 +1,5 @@
 ﻿WizardEffect: {
-    Adamantite: Разделяет выпущенные снаряды оружий на 3, соответственно снижая их урон
+    Adamantite: Разделяет выпущенные снаряды оружий на 3 и снижает их урон с 70/60% до 50/40%
     Apprentice: Используется 2 ближайших оружия вместо 1
     AncientHallow: Увеличивает урон меча и предел максимального урона от снарядов до 200 единиц
     AncientShadow: Увеличивает количество теневых сфер
@@ -11,8 +11,8 @@
     Cactus: Увеличивает число игл и урон
     Chlorophyte: Увеличивает урон кольца и спор, и снижает время перезарядки спор
     Cobalt: Усиливает урон от взрыва при получении урона
-    Copper: Увеличивает урон молнии и снижает время перезарядки эффекта
-    Crimson: Отсутствует улучшение
+    Copper: Увеличивает урон молнии до 200 и снижает время перезарядки эффекта
+    Crimson: После исцеления таймер сбрасывается и пытается исцелить повторно
     CrystalAssassin: Отсутствует улучшение
     DarkArtist: Используется 3 ближайших оружия вместо 2
     Ebonwood: Увеличивает размер ауры и снижение защиты до 30 единиц
@@ -21,15 +21,15 @@
     Frost: Увеличивает урон сосулек вдвое
     Gladiator: Увеличивает размер ауры знамени и снижает время перезарядки дождя из копий
     Gold: Отсутствует улучшение
-    Hallow: Увеличивает бонусное лечение от зелий с 20 до 40%
+    Hallow: Увеличивает бонусное лечение от зелий с 40 до 70%
     Huntress: Увеличивает пробивание брони и фиксированный урон до 10 и 5 соответственно
-    Iron: Увеличивает дальность притягивания предметов в 4 раза и 50% шанс не использовать ингредиенты
+    Iron: Увеличивает шанс сохранить материал до 50%
     Jungle: Увеличивает урон спор и снижает время перезарядки
     Lead: Увеличивает урон дебаффа «{$Buffs.LeadPoisonBuff.DisplayName}» и сопротивление постепенному урону на 60%
     Meteor: Во время атаки каждые несколько секунд начинается метеоритный дождь
     Miner: Увеличивает скорость добычи
     Molten: Кольцо инферно наносит больше урона и может воздействовать на врагов в чуть большем радиусе
-    Monk: Отсутствует улучшение
+    Monk: Увеличивает урон рывка
     Mythril: Увеличивает бонус к максимальной скорости атаки и длительности эффекта
     Nebula: Баффы-усилители могут складываться до 3 раз
     Necro: Груды костей парят
@@ -37,15 +37,15 @@
     Obsidian: Вам больше не нужна лава для создания взрывов или огненных шаров, а также снижает время перезарядки эффекта
     Orichalcum: Увеличивает множитель урона до 4 раз
     Palladium: Бафф «{$BuffName.RapidHealing}» всегда длится 5 секунд и увеличивает урон сфер
-    PalmWood: Увеличивает скорость атаки и урон пальмовых стражей и можно призывать ещё одного стража
-    Pearlwood: Увеличивает урон и снижает время перезарядки эффекта
+    PalmWood: Увеличивает скорость атаки, урон и размер пальмового стража
+    Pearlwood: Звезда может наносить врагам огромный урон
     Platinum: Отсутствует улучшение
-    Pumpkin: Тыквы могут расти во время полёта и лечат вдвое быстрее
-    Rain: Зонт может заблокировать до 1000 единиц урона, а отражённый урон увеличивается втрое
+    Pumpkin: Тыквы могут расти во время полёта, лечат вдвое больше, а урон от углей увеличен до 45
+    Rain: Зонт может заблокировать до 400 единиц урона, а отражённый урон увеличивается втрое
     RedRiding: Дождь из стрел имеет меньшее время перезарядки и наносит больше урона
     RichMahogany: Крюки вылетают в 2.5 раза быстрее и значительно увеличивает сопротивление урону и эффект шипов
     Shadewood: Увеличивает размер и урон ауры крови, а также дополнительно накладывает дебафф «{$BuffName.Ichor}»
-    Shinobi: Отсутствует улучшение
+    Shinobi: Увеличивает урон рывка
     Shroomite: Грибы появляются чаще
     Silver: Парирование блокирует до 200 единиц урона и даёт бафф «{$BuffName.ParryDamageBuff}»
     Solar: Отсутствует улучшение
@@ -55,13 +55,13 @@
     Stardust: Снижает время перезарядки заморозки времени с 60 секунд до 50
     Snow: Отсутствует улучшение
     Shadow: Увеличивает количество теневых сфер
-    Squire: Увеличивает защиту на ездовом питомце с 10 до 15, скорость и ускорение с 1.25х до 1.5х и эффективность лечения с 25% до 33%
+    Squire: Увеличивает защиту на ездовом питомце с 10 до 15, скорость и ускорение с 1.25х до 1.5х и эффективность лечения с 10% до 15%
     Tiki: Увеличивает дальность хлыстов на 20%
     Tin: Увеличивает минимальный шанс критического удара до 10%, максимальный шанс теперь составляет не менее 50% и снижает время перезарядки эффекта
-    Titanium: Увеличивает урон осколков, длительность титанового щита до 5 секунд и сопротивление урону до 75%
-    Tungsten: Увеличивает размер оружия до 200%, бонусный урон до 15% и снижает время перезарядки эффекта
+    Titanium: Увеличивает урон осколков, длительность титанового щита до 5 секунд и сопротивление урону до 35%
+    Tungsten: Утраивает размер оружия, увеличивает бонус урона с 7% до 14% и снижает время перезарядки эффекта
     Turtle: Периодически восстанавливает очко блокировки снаряда, а также увеличивает количество игл и их урон
-    ValhallaKnight: Увеличивает защиту на ездовом питомце с 15 до 20, скорость и ускорение с 1.5х до 2х, а также эффективность лечения с 33% до 50%
+    ValhallaKnight: Увеличивает защиту на ездовом питомце с 15 до 20, скорость и ускорение с 1.5х до 2х, а также эффективность лечения с 15% до 20%
     Vortex: Отсутствует улучшение
     Wood: Увеличивает множитель заполнения записей в бестиарии и получение знамён до 5
     AshWood: Чаще выпускает огненные шары
@@ -375,7 +375,7 @@ Toggler: {
     # В игре этой настройки нет
     ShadeOnHitConfig: Proximity Triggers On Hit Effects
     PalmConfig: Пальмово-древесный страж
-    PearlConfig: Жемчужно-древесный дождь
+    PearlConfig: Жемчужно-древесная звезда
     EarthHeader: "{$Mods.FargowiltasSouls.Items.EarthForce.DisplayName}"
     AdamantiteConfig: Адамантитовое разделение снаряда
     CobaltConfig: Кобальтовый взрыв при попадании
@@ -490,6 +490,7 @@ Toggler: {
     PureHeartHeader: "{$Mods.FargowiltasSouls.Items.PureHeart.DisplayName}"
     MasoEaterConfig: Маленькие пожиратели
     MasoBrainConfig: Щит проныр
+    MasoQueenConfig: Слизистые шипы
     LumpofFleshHeader: "{$Mods.FargowiltasSouls.Items.LumpOfFlesh.DisplayName}"
     MasoPungentCursorConfig: Курсор смердящего глазного яблока
     MasoPugentConfig: Миньон «Кусок плоти»
@@ -679,14 +680,13 @@ ItemExtra: {
             Увеличивает скорость стрельбы на 100%
             Увеличивает отбрасывание на 100%
             Увеличивает пробивание брони на 50
-            Критические удары наносят в 10 раз больше урона
+            Критические удары наносят в 10 раз больше урона и накладывают дебафф «{$Buffs.FlamesoftheUniverseBuff.DisplayName}»
             Значительно увеличивает регенерацию здоровья
             Увеличивает максимальный запас маны на 999
             Увеличивает призываемое число миньонов на 30
             Увеличивает призываемое число стражей на 20
             Увеличивает максимальный запас здоровья на 50%
             Снижает расход маны на 50%
-            Все атаки накладывают дебафф «{$Buffs.FlamesoftheUniverseBuff.DisplayName}»
             Все атаки накладывают дебафф «{$Buffs.SadismBuff.DisplayName}»
             Все атаки накладывают дебафф «{$Buffs.MidasBuff.DisplayName}»
             Все атаки снижают кадры неуязвимости врага
@@ -798,7 +798,6 @@ ItemExtra: {
             Эффекты от предмета «{$ItemName.CellPhone}»
             Эффекты от предмета «{$ItemName.FlowerBoots}»
             Эффекты от предмета «{$ItemName.MasterNinjaGear}»
-            Эффекты от предмета «{$ItemName.GreedyRing}»
             Эффекты от предмета «{$ItemName.CelestialShell}»
             Эффекты от предмета «{$ItemName.ShinyStone}»
             Эффекты от предмета «{$ItemName.SpelunkerPotion}»
@@ -843,47 +842,48 @@ ItemExtra: {
             Armor bonuses from Assassin
             Armor bonuses from Pyromancer
             Armor bonuses from Dream Weaver
-            Effects of Flawless Chrysalis
-            Effects of Bubble Magnet
-            Effects of Agnor's Bowl
-            Effects of Ice Bound Strider Hide
-            Effects of Ring of Unity
-            Effects of Mix Tape
-            Effects of Eye of the Storm
-            Effects of Champion's Rebuttal
-            Effects of Incandescent Spark
-            Effects of Greedy Magnet
-            Effects of Abyssal Shell
-            Effects of Astro-Beetle Husk
-            Effects of Eye of the Beholder
-            Effects of Crietz
-            Effects of Mana-Charged Rocketeers
-            Effects of Inner Flame
-            Effects of Crash Boots
-            Effects of Vampire Gland
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.FlawlessChrysalis.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.BubbleMagnet.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.AnglerBowl.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.IceBoundStriderHide.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.RingofUnity.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.MixTape.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.EyeoftheStorm.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.ChampionsRebuttal.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.IncandescentSpark.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.GreedyMagnet.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.AbyssalShell.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.AstroBeetleHusk.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.MirroroftheBeholder.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.Crietz.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.ArtificersRocketeers.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.InnerFlame.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.CrashBoots.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.VampireGland.DisplayName}»
+            #Удаленный предмет
             Effects of Demon Blood Badge
-            Effects of Lich's Gaze
-            Effects of Plague Lord's Flask
-            Effects of Phylactery
-            Effects of Crystal Scorpion
-            Effects of Guide to Expert Throwing - Volume III
-            Effects of Mermaid's Canteen
-            Effects of Deadman's Patch
-            Effects of Support Sash
-            Effects of Saving Grace
-            Effects of Soul Guard
-            Effects of Archdemon's Curse
-            Effects of Archangel's Heart
-            Effects of Medical Bag
-            Effects of Epic Mouthpiece
-            Effects of Straight Mute
-            Effects of Digital Tuner
-            Effects of Guitar Pick Claw
-            Effects of Ocean's Retaliation
-            Effects of Terrarium Defender
-            Effects of Air Walkers
-            Effects of Survivalist Boots
-            Effects of Weighted Winglets
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.BeholderGaze.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.PlagueLordFlask.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.Phylactery.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.CrystalScorpion.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.ThrowingGuideVolume3.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.MermaidCanteen.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.DeadEyePatch.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.SupportSash.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.SavingGrace.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.SoulGuard.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.ArchDemonCurse.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.ArchangelHeart.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.MedicalBag.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.EpicMouthpiece.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.StraightMute.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.DigitalTuner.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.GuitarPickClaw.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.OceanRetaliation.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.TerrariumDefender.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.AirWalkers.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.SurvivalistBoots.DisplayName}»
+            Эффекты от предмета «{$Mods.ThoriumMod.Items.WeightedWinglets.DisplayName}»
             '''
         Calamity:
             '''
@@ -1013,6 +1013,7 @@ EModeBalance: {
     MoonsWaves: Смерть снижает прогресс волны
     WhipSpeed: Не получает бонусов от скорости атаки ближнего боя
     WhipStack: Баффы/дебаффы хлыста не могут накапливаться
+    DefensePrefix: Изменённые префиксные характеристики: снижает защиту до наступления Хардмода, увеличивает максимальный запас здоровья на 5
     ManaPots: Нельзя использовать во время дебаффа «{$BuffName.ManaSickness}», но восстанавливает на 50% больше маны
     MinionStack: Урон миньонов снижается при призыве более 3 копий (максимальный эффект при 12)
     SummonMulticlass: Урон призывателя снижен, если вы атакуете, используя оружие другого класса (кроме события АД)
@@ -1750,7 +1751,7 @@ Buffs: {
     
     GladiatorBuff: {
         DisplayName: Гладиаторская сила
-        Description: Защита увеличена на 10, урон на 5%, даёт невосприимчивость к отбрасыванию, а также усиленный дождь из копий
+        Description: Сопротивление урону и урон увеличены на 5%, даёт невосприимчивость к отбрасыванию, а также усиленный дождь из копий
     }
     
     ROBBuff: {
@@ -1770,8 +1771,9 @@ Items: {
         Tooltip:
             '''
             Разделяет выпущенные снаряды оружий на 2
-            Выпущенные снаряды наносят 50% урона
-            Они поражают дважды и получают пробивание брони, равное 50% урона
+            Длительное использование оружия увеличивает разброс, который снижается, когда оружие не используется
+            Урон снарядов составляет 70%, но для самонаводящихся снарядов он снижается до 60%
+            Все снаряды поражают дважды и пробивают броню, равную 50% урона
             'Хаос'
             '''
     }
@@ -1785,6 +1787,7 @@ Items: {
             Во время горения атаки сопровождаются огненными шарами
             Даёт невосприимчивость к дебаффу «{$BuffName.Oiled}»
             Снижает урон, наносимый при контакте с лавой
+            'И вы мне говорите, что это не дерево?'
             '''
     }
 
@@ -1906,7 +1909,7 @@ Items: {
             '''
             Критические удары могут поразить врагов цепной молнией
             Мокрые враги могут быть поражены молнией без критических ударов
-            'Узрите'
+            'И их музыка была электрической'
             '''
     }
 
@@ -1914,8 +1917,8 @@ Items: {
         DisplayName: Багряное усиление
         Tooltip:
             '''
-            После получения удара значительно увеличивает регенерацию здоровья до тех пор, пока половина полученного удара не будет исцелена
-            Если вы получите ещё один удар до окончания исцеления, исцеление прекратится
+            После получения удара, если вы уклоняетесь от урона в течение 7 секунд, вы восстанавливаете 50% здоровья
+            Если вы получаете удар до завершения восстановления, восстановление прерывается
             Это не влияет на удары, наносящие менее 10 урона
             'Кровь ваших врагов - ваше возрождение'
             '''
@@ -1999,7 +2002,7 @@ Items: {
             Обрушивает дождь из копий на поражённых врагов
             Дважды нажмите <down>, чтобы разместить знамя, которое действует в течение 15 секунд
             Пока вы находитесь рядом со знаменем, сила копий возрастает
-            Также, находясь поблизости от знамени, вы получаете невосприимчивость к отбрасыванию, увеличение урона на 5% и защиты на 10
+            Также, находясь поблизости от знамени, вы получаете невосприимчивость к отбрасыванию, увеличение сопротивления урону и урона на 5%
             Знамя можно повторно призвать только после того, как оно исчезнет
             'Вы ещё не развлеклись?!'
             '''
@@ -2022,7 +2025,7 @@ Items: {
         DisplayName: Освящённое усиление
         Tooltip:
             '''
-            Лечебные зелья восстанавливают на 20% больше здоровья, но действуют постепенно
+            Лечебные зелья восстанавливают на 40% больше здоровья, но действуют постепенно
             При использовании лечебного зелья создаёт ударную волну, которая отталкивает ближайшие вражеские снаряды
             'Порази меня своим лучшим выстрелом'
             '''
@@ -2078,8 +2081,9 @@ Items: {
         DisplayName: Метеоритное усиление
         Tooltip:
             '''
-            Значительно увеличивает ускорение при беге и снижает инерцию
             Во время движения оставляет за собой огненный след
+            Увеличивает скорость передвижения и ускорение, и снижает инерцию
+            Излучает свет при ношении
             'Усиления и драконы навсегда'
             '''
     }
@@ -2112,7 +2116,8 @@ Items: {
             Позволяет делать рывок
             Нажмите дважды в нужном направлении для рывка
             Вы невосприимчивы к урону и дебаффам на полсекунды после рывка
-            Время перезарядки рывка в два раза дольше, чем у обычных рывков
+            Рывок пронзает врага, нанося ему огромный урон
+            Время перезарядки рывка дольше, чем у обычных рывков
             Аура молний теперь способна наносить критический удар и бьёт быстрее
             'Возвращение к монаху'
             '''
@@ -2146,7 +2151,6 @@ Items: {
             Прикоснитесь к груде костей для вызова дружелюбного стража Темницы
             Урон, наносимый стражем, зависит от максимального запаса здоровья побеждённого врага
             Боссы роняют кости каждый раз при потере 10% своего запаса здоровья
-            Эффекты от предмета «{$ItemName.BoneGlove}»
             'Добро пожаловать в зону костей'
             '''
     }
@@ -2157,7 +2161,7 @@ Items: {
             '''
             Ваши снаряды наносят больше урона, чем быстрее их скорость, вплоть до 20%
             Значительно увеличивает скорость снаряда при медленном движении
-            'Атакуй быстрее, чем видит твой глаз'
+            'Ожидайте, когда наступит подходящий момент'
             '''
     }
 
@@ -2206,8 +2210,9 @@ Items: {
         DisplayName: Жемчужно-древесное усиление
         Tooltip:
             '''
-            Снаряды могут создать самонаводящуюся звезду при попадании во что-либо
-            'Слишком мало, слишком поздно'
+            Ваши атаки имеют дополнительный шанс нанести критический удар
+            Каждое ваше движение сопровождается наносящей урон звездой
+            'Своего отражения не скроешь'
             '''
     }
 
@@ -2274,7 +2279,7 @@ Items: {
             '''
             Даёт ауру кровотечения
             Враги, получающие урон в ауре кровотечения, изрыгают поражающую кровь
-            'Удивительно чисто'
+            'Магазинщики ненавидят этот трюк'
             '''
     }
 
@@ -2379,7 +2384,7 @@ Items: {
             '''
             Увеличивает ускорение, максимальную скорость и высоту прыжка на ездовом питомце
             Во время езды на ездовом питомце, увеличивает защиту на 10, позволяет совершать пердёжный прыжок и защищает от урона при падении
-            Увеличивает эффективность любого лечения на 25%
+            Увеличивает эффективность любого лечения на 10%
             Баллиста пронзает больше целей и начинает паниковать, когда вы получаете урон
             'Оруженосец, не поторопишься?'
             '''
@@ -2422,7 +2427,7 @@ Items: {
         Tooltip:
             '''
             При каждой атаке формирует защитный барьер из максимума 20 титановых осколков
-            При достижении максимального количества осколков, вы получаете сопротивление к большинству дебаффов при ударе и 50% сопротивление урону против контактного урона и снарядов вблизи
+            При достижении максимального количества осколков, вы получаете сопротивление к большинству дебаффов при ударе и 25% сопротивления урону против контактного урона и снарядов вблизи
             Этот эффект имеет 10 секунд перезарядки, в течение которых вы не можете получить осколки
             'Мощь титана в ваших руках'
             '''
@@ -2432,9 +2437,9 @@ Items: {
         DisplayName: Вольфрамовое усиление
         Tooltip:
             '''
-            Увеличивает размер оружия на 100%, но снижает скорость атаки ближнего боя
+            Удваивает размер оружия ближнего боя
             Каждые 0.67 секунды увеличивает размер снаряда вдвое
-            Увеличенные снаряды и мечи не стреляющие снарядами наносят на 10% больше урона и получают дополнительный шанс критического удара
+            Увеличенные снаряды и мечи не стреляющие снарядами наносят на 7% больше урона
             'Больше — всегда лучше'
             '''
     }
@@ -2459,7 +2464,7 @@ Items: {
             '''
             Увеличивает ускорение, максимальную скорость и высоту прыжка на ездовом питомце
             Во время езды на ездовом питомце, увеличивает защиту на 15, позволяет совершать пердёжный прыжок и защищает от урона при падении
-            Увеличивает эффективность любого лечения на 33%
+            Увеличивает эффективность любого лечения на 15%
             Значительно увеличивает эффективность баллисты
             'Вальхалла зовёт'
             '''
@@ -2545,6 +2550,7 @@ Items: {
             '''
             Работает в инвентаре
             Не двигаясь, отображает местоположение сокровищ и врагов поблизости
+            Даёт автоатаку предметам, не относящимися к оружию
             '''
     }
 
@@ -2552,8 +2558,8 @@ Items: {
         DisplayName: Ядро Вселенной
         Tooltip:
             '''
-            Критические удары наносят в 4 раза больше урона
-            Все атаки накладывают дебафф «{$Buffs.FlamesoftheUniverseBuff.DisplayName}»
+            Ваши критические удары могут нанести суперкритический удар
+            Эти суперкритические удары наносят в 4 раза больше урона и накладывают дебафф «{$Buffs.FlamesoftheUniverseBuff.DisplayName}»
             'Взрывается сверхвысокоэнергетическими космическими лучами'
             '''
     }
@@ -2681,7 +2687,7 @@ Items: {
             [i:FargowiltasSouls/RichMahoganyEnchant] Все крюки вылетают, притягивают и возвращаются в 2.5 раза быстрее
             [i:FargowiltasSouls/EbonwoodEnchant][i:FargowiltasSouls/ShadewoodEnchant] Даёт ауру искажения и кровотечения
             [i:FargowiltasSouls/PalmWoodEnchant] Дважды нажмите ВНИЗ, чтобы вызвать до 2 пальмовых стражей
-            [i:FargowiltasSouls/PearlwoodEnchant] Снаряды могут создать звезду при попадании во что-либо
+            [i:FargowiltasSouls/PearlwoodEnchant] Дает повторный шанс на критический удар, и ваше отражение следует за вами
             'Чрезвычайно жёсткая'
             '''
     }
@@ -2696,7 +2702,7 @@ Items: {
             [i:FargowiltasSouls/GladiatorEnchant] Дважды нажмите <down>, чтобы разместить знамя, которое усиливает вас, когда вы находитесь рядом
             [i:FargowiltasSouls/GladiatorEnchant] Обрушивает дождь из копий на поражённых врагов
             [i:FargowiltasSouls/RedRidingEnchant] Последовательные атаки получают бонусный урон
-            [i:FargowiltasSouls/ValhallaKnightEnchant] Увеличивает эффективность любого лечения на 50%
+            [i:FargowiltasSouls/ValhallaKnightEnchant] Увеличивает эффективность любого лечения на 25%
             [i:FargowiltasSouls/ValhallaKnightEnchant] Улучшает ездовых питомцев и характеристики при езде на питомцах, а также ездовые питомцы могут совершать рывок
             'Разум неразрушимой решимости'
             '''
@@ -2760,24 +2766,22 @@ Items: {
         DisplayName: Биономный кластер
         Tooltip:
             '''
-            Даёт невосприимчивость к дебаффам «{$BuffName.Frostburn}», «{$BuffName.ShadowFlame}» и «{$Buffs.SqueakyToyBuff.DisplayName}»
-            Даёт невосприимчивость к дебаффам «{$Buffs.FlamesoftheUniverseBuff.DisplayName}», «{$Buffs.ClippedWingsBuff.DisplayName}», «{$Buffs.CrippledBuff.DisplayName}», «{$BuffName.Webbed}» и «{$Buffs.PurifiedBuff.DisplayName}»
-            Даёт невосприимчивость к дебаффам «{$Buffs.LovestruckBuff.DisplayName}», «{$BuffName.Stinky}», «{$Buffs.MidasBuff.DisplayName}» и «{$Buffs.HexedBuff.DisplayName}»
-            Используйте для телепортации на вашу последнюю точку смерти
-            Атаки могут наложить дебафф «{$Buffs.ClippedWingsBuff.DisplayName}» и создавать сердца
-            Атаки по вам могут случайно пискнуть и нанести 1 единицу урона
-            Во время атаки значительно увеличивает урон и даёт теневое пламя, но снижает бонусы к скорости передвижения, скорости атаки и защите
-            Призывает на помощь дружелюбного радужного слизня
-            С некоторых врагов после смерти выпадают зелья
-            При атаках одиночными нажатиями, на мгновение увеличивает весь урон, кроме призывателя, на 30%
+            Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/FrigidGemstone] «{$BuffName.Frostburn}», [i:FargowiltasSouls/WretchedPouch] «{$BuffName.ShadowFlame}», [i:FargowiltasSouls/SqueakyToy] «{$Buffs.SqueakyToyBuff.DisplayName}» и [i:FargowiltasSouls/ConcentratedRainbowMatter] «{$Buffs.FlamesoftheUniverseBuff.DisplayName}» 
+            Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/WyvernFeather] «{$Buffs.ClippedWingsBuff.DisplayName}», «{$Buffs.CrippledBuff.DisplayName}», [i:FargowiltasSouls/TribalCharm] «{$BuffName.Webbed}», «{$Buffs.PurifiedBuff.DisplayName}», [i:FargowiltasSouls/NymphsPerfume] «{$Buffs.LovestruckBuff.DisplayName}», «{$BuffName.Stinky}», «{$Buffs.HexedBuff.DisplayName}» и [i:FargowiltasSouls/SecurityWallet] «{$Buffs.MidasBuff.DisplayName}»
+            [i:FargowiltasSouls/SandsofTime] Используйте для телепортации на вашу последнюю точку смерти
+            [i:FargowiltasSouls/WyvernFeather] Атаки могут наложить дебафф «{$Buffs.ClippedWingsBuff.DisplayName}» [i:FargowiltasSouls/NymphsPerfume] и создавать сердца
+            [i:FargowiltasSouls/SqueakyToy] Атаки по вам могут случайно пискнуть и нанести 1 единицу урона
+            [i:FargowiltasSouls/WretchedPouch] Во время атаки значительно увеличивает урон и даёт теневое пламя, но снижает бонусы к скорости передвижения, скорости атаки и защите
+            [i:FargowiltasSouls/ConcentratedRainbowMatter] Призывает на помощь дружелюбного радужного слизня
+            [i:FargowiltasSouls/TimsConcoction] С некоторых врагов после смерти выпадают зелья
+            [i:FargowiltasSouls/TribalCharm] При атаках одиночными нажатиями, на мгновение увеличивает весь урон, кроме призывателя, на 30%
             [c/00FFFF:Следующие эффекты пассивно работают в инвентаре или в слотах для украшений (<right> для отключения в инвентаре):]
-            Даёт невосприимчивость к дебаффам «{$BuffName.WindPushed}», «{$BuffName.Suffocation}», «{$BuffName.Chilled}» и «{$Buffs.GuiltyBuff.DisplayName}»
-            Улучшает ночное зрение
-            Автоматически использует зелье лечения и маны при необходимости, и увеличивает дальность подбора звёзд маны
-            Вы возрождаетесь с большим количеством здоровья, а при отсутствии боссов возрождаетесь быстрее
-            Нажмите клавишу «Холодное заклинание», чтобы использовать «{$ItemName.IceRod}»
-            Нажмите <right>, чтобы отдалить, и значительно улучшает перековку
-            Стабилизирует гравитацию в космосе и жидкостях
+            Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/SandsofTime] «{$BuffName.WindPushed}», [i:FargowiltasSouls/MysticSkull] «{$BuffName.Suffocation}», [i:FargowiltasSouls/FrigidGemstone] «{$BuffName.Chilled}», [i:FargowiltasSouls/SqueakyToy] и «{$Buffs.GuiltyBuff.DisplayName}»
+            [i:FargowiltasSouls/WyvernFeather] Стабилизирует гравитацию в космосе и жидкостях, [i:FargowiltasSouls/OrdinaryCarrot] улучшает ночное зрение, [i:FargowiltasSouls/SecurityWallet], и значительно улучшает перековку
+            [i:FargowiltasSouls/ConcentratedRainbowMatter] Автоматически использует зелье лечения и [i:FargowiltasSouls/MysticSkull] маны при необходимости, и увеличивает дальность подбора звёзд маны
+            [i:FargowiltasSouls/NymphsPerfume] Вы возрождаетесь с большим количеством здоровья [i:FargowiltasSouls/SandsofTime], а при отсутствии боссов возрождаетесь быстрее
+            [i:FargowiltasSouls/FrigidGemstone] Нажмите клавишу «Холодное заклинание», чтобы использовать «{$ItemName.IceRod}»
+            [i:FargowiltasSouls/OrdinaryCarrot] Нажмите <right>, чтобы отдалить
             'Слияние тысяч мелких врагов'
             '''
     }
@@ -2823,15 +2827,13 @@ Items: {
         DisplayName: Чаша Луны
         Tooltip:
             '''
-            Даёт невосприимчивость к дебаффам «{$BuffName.Venom}», «{$Buffs.IvyVenomBuff.DisplayName}», «{$BuffName.Burning}», «{$Buffs.FusedBuff.DisplayName}», «{$Buffs.LowGroundBuff.DisplayName}» и «{$Buffs.MarkedforDeathBuff.DisplayName}»
-            Даёт невосприимчивость к дебаффам «{$Buffs.SwarmingBuff.DisplayName}», «{$Buffs.AtrophiedBuff.DisplayName}», «{$Buffs.JammedBuff.DisplayName}», «{$Buffs.ReverseManaFlowBuff.DisplayName}» и «{$Buffs.AntisocialBuff.DisplayName}»
-            Нажмите клавишу «Магическое очищение», чтобы избавиться от большинства дебаффов
-            Увеличивает регенерацию здоровья в зависимости от окружающего уровня освещения
-            Дважды нажмите <down> в воздухе, чтобы быстро приземлиться
-            При падении с определённой высоты, быстрое приземление вызывает огненное извержение
-            При приземлении после прыжка, вы создаёте взрыв валунов
-            В зависимости от типа оружия, вы стреляете дополнительными атаками и извергаетесь древними пророчествами при получении урона
-            Призывает на помощь дружелюбного культиста и растение
+            [i:FargowiltasSouls/ChaliceoftheMoon] Даёт невосприимчивость к дебаффам «{$Buffs.SwarmingBuff.DisplayName}», «{$Buffs.AtrophiedBuff.DisplayName}», «{$Buffs.JammedBuff.DisplayName}», «{$Buffs.ReverseManaFlowBuff.DisplayName}» и «{$Buffs.AntisocialBuff.DisplayName}»
+            Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/MagicalBulb] «{$BuffName.Venom}», «{$Buffs.IvyVenomBuff.DisplayName}», [i:FargowiltasSouls/LihzahrdTreasureBox] «{$BuffName.Burning}», «{$Buffs.FusedBuff.DisplayName}», «{$Buffs.LowGroundBuff.DisplayName}», [i:FargowiltasSouls/CelestialRune] и «{$Buffs.MarkedforDeathBuff.DisplayName}»
+            [i:FargowiltasSouls/MagicalBulb] Нажмите клавишу «Магическое очищение», чтобы избавиться от большинства дебаффов
+            [i:FargowiltasSouls/MagicalBulb] Увеличивает регенерацию здоровья в зависимости от окружающего уровня освещения
+            [i:FargowiltasSouls/LihzahrdTreasureBox] Дважды нажмите <down> в воздухе, чтобы ускорить падение и создать огненное извержение при приземлении после падения с определённой высоты
+            [i:FargowiltasSouls/ChaliceoftheMoon] В зависимости от типа оружия, вы стреляете дополнительными атаками и извергаетесь древними пророчествами при получении урона
+            Призывает на помощь дружелюбного [i:FargowiltasSouls/ChaliceoftheMoon] культиста и [i:FargowiltasSouls/MagicalBulb] растение
             'Используйте это'
             '''
     }
@@ -2853,7 +2855,7 @@ Items: {
             '''
             Даёт невосприимчивость к дебаффу «{$Buffs.RottingBuff.DisplayName}»
             Увеличивает скорость передвижения на 10% и скорость замедления персонажа
-            Через каждые несколько атак, вы создаёте маленьких пожирателей, которые атакуют врагов
+            Каждые несколько атак вы создаёте маленьких пожирателей, которые накладывают дебафф «{$BuffName.CursedInferno}» и устремляются на врагов
             'Мухи отказываются к нему приближаться'
             '''
     }
@@ -2888,15 +2890,12 @@ Items: {
         DisplayName: Сомнительная схема
         Tooltip:
             '''
-            Даёт невосприимчивость к дебаффам «{$BuffName.CursedInferno}», «{$BuffName.Ichor}», «{$Buffs.LightningRodBuff.DisplayName}», «{$Buffs.DefenselessBuff.DisplayName}», «{$Buffs.NanoInjectionBuff.DisplayName}» и отбрасыванию
-            Когда на вас наложен дебафф «{$BuffName.CursedInferno}», увеличивает скорость атаки на 15%, а ваши удары накладывают «{$BuffName.CursedInferno}»
-            Когда на вас наложен дебафф «{$BuffName.Ichor}», увеличивает шанс критического удара на 15%, а ваши удары накладывают «{$BuffName.Ichor}»
-            Нажмите клавишу «Инсталляция дебаффа», чтобы наложить на себя «{$BuffName.CursedInferno}» и «{$BuffName.Ichor}» на 30 секунд
-            Атаки с небольшим шансом накладывают дебафф «{$Buffs.LightningRodBuff.DisplayName}»
-            Электрические и лучевые атаки сверхзаряжают вас и наносят только половину урона, если вы ещё не сверхзаряжены
-            Во время сверхзаряда, увеличивает скорость передвижения и скорость атаки, а ваши удары накладывают «{$BuffName.Electrified}»
-            За вас сражаются два дружелюбных зонда, которые также сверхзаряжаются вместе с вами
-            Снижает получаемый урон на 5%
+            Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/FusedLens] «{$BuffName.CursedInferno}», «{$BuffName.Ichor}», [i:FargowiltasSouls/GroundStick] «{$Buffs.LightningRodBuff.DisplayName}», [i:FargowiltasSouls/ReinforcedPlating] «{$Buffs.DefenselessBuff.DisplayName}», «{$Buffs.NanoInjectionBuff.DisplayName}» и отбрасыванию
+            [i:FargowiltasSouls/FusedLens] Нажмите клавишу «Инсталляция дебаффа», чтобы наложить на себя «{$BuffName.CursedInferno}» и «{$BuffName.Ichor}» на 30 секунд
+            [i:FargowiltasSouls/FusedLens] Когда на вас наложен дебафф «{$BuffName.Ichor}» и «{$BuffName.CursedInferno}», увеличивает скорость атаки и шанс критического удара на 15%а ваши удары накладывают «{$BuffName.Ichor}» и «{$BuffName.CursedInferno}»
+            [i:FargowiltasSouls/GroundStick] Атаки с небольшим шансом накладывают дебафф «{$Buffs.LightningRodBuff.DisplayName}» и сверхзаряжают при электрических атаках
+            [i:FargowiltasSouls/GroundStick] За вас сражаются два дружелюбных зонда, которые также сверхзаряжаются вместе с вами
+            [i:FargowiltasSouls/ReinforcedPlating] Снижает получаемый урон на 5%
             'Может даже без вирусов...'
             '''
     }
@@ -2987,8 +2986,9 @@ Items: {
             Даёт невосприимчивость к дебаффу «{$Buffs.BloodthirstyBuff.DisplayName}»
             Увеличивает максимальный запас здоровья на 10%
             Вокруг парят проныры, блокирующие некоторый урон
-            Каждые 15 секунд появляется новый проныра, и за раз может существовать 5 проныр
+            Каждые 15-10 секунд (чем ниже здоровье, тем быстрее) появляется новый проныра, и за раз может существовать до 5 проныр
             Скорость появления проныры увеличивается, когда вы не двигаетесь
+            Проныры накладывают дебафф «{$BuffName.Ichor}» при ударе
             'Однажды бившееся в разуме побеждённого врага'
             '''
     }
@@ -2997,20 +2997,19 @@ Items: {
         DisplayName: Сердце магистра
         Tooltip:
             '''
-            Даёт невосприимчивость к дебаффам «{$Buffs.LivingWastelandBuff.DisplayName}», «{$Buffs.HypothermiaBuff.DisplayName}», «{$BuffName.OgreSpit}», «{$BuffName.WitheredWeapon}», «{$BuffName.WitheredArmor}»
-            Даёт невосприимчивость к дебаффам «{$BuffName.Rabies}», «{$Buffs.MutantNibbleBuff.DisplayName}», «{$Buffs.FlippedBuff.DisplayName}», «{$Buffs.UnstableBuff.DisplayName}», «{$BuffName.VortexDebuff}», «{$Buffs.CurseoftheMoonBuff.DisplayName}»
-            Даёт невосприимчивость к дебаффам «{$BuffName.Wet}», «{$BuffName.Electrified}», «{$Buffs.OceanicMaulBuff.DisplayName}», «{$BuffName.MoonLeech}», «{$Buffs.NullificationCurseBuff.DisplayName}» и водным дебаффам
-            Увеличивает урон и шанс критического удара на 10%, и сопротивление урону на 5%
-            Увеличивает время полёта на 100%
-            Нажмите <right>, чтобы защититься своей накидкой
-            Нажмите клавишу «Особый рывок» для короткого неуязвимого рывка огненного шара
-            Нажмите клавишу «Смена боеприпаса» для смены боеприпасов (эффект пассивно работает в инвентаре)
-            Даёт эффекты от дебаффа «{$BuffName.Wet}» при езде на Рыброне-милашке и позволяет контролировать гравитацию
-            Погружение в воду восстанавливает время полёта крыльев и увеличивает скорость и максимальное время полёта крыльев
-            При уклонении вблизи снаряда можно получить бомбу, которая замораживает почти всех врагов и снаряды
-            Снижает размер вашей зоны поражения для вражеских снарядов
-            Удерживайте клавишу «Точное передвижение», чтобы отключить рывки и двойные прыжки
-            Призывает дружелюбную маленькую марсианскую тарелку и истинные Глаза Ктулху
+            Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/PumpkingsCape] «{$Buffs.LivingWastelandBuff.DisplayName}», [i:FargowiltasSouls/IceQueensCrown] «{$Buffs.HypothermiaBuff.DisplayName}», [i:FargowiltasSouls/SaucerControlConsole] «{$BuffName.Electrified}», «{$BuffName.VortexDebuff}», [i:FargowiltasSouls/BetsysHeart] «{$BuffName.OgreSpit}», «{$BuffName.WitheredWeapon}» и «{$BuffName.WitheredArmor}»
+            Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/MutantAntibodies] «{$BuffName.Wet}», «{$BuffName.Rabies}», «{$Buffs.MutantNibbleBuff.DisplayName}», «{$Buffs.OceanicMaulBuff.DisplayName}» и водным дебаффам, Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/PrecisionSeal] «{$Buffs.SmiteBuff.DisplayName}», [i:FargowiltasSouls/GalacticGlobe] «{$Buffs.NullificationCurseBuff.DisplayName}», «{$Buffs.FlippedBuff.DisplayName}», «{$Buffs.UnstableBuff.DisplayName}» и «{$Buffs.CurseoftheMoonBuff.DisplayName}»
+            [i:FargowiltasSouls/PumpkingsCape] [i:FargowiltasSouls/MutantAntibodies] [i:FargowiltasSouls/IceQueensCrown] Увеличивает урон и шанс критического удара на 10%, урон текущего класса на 20% и сопротивление урону на 5%
+            [i:FargowiltasSouls/PumpkingsCape] Нажмите <right>, чтобы защититься своей накидкой. Контратака восстанавливает здоровье в зависимости от заблокированного урона. Излучает ауру гниения во время защиты
+            [i:FargowiltasSouls/IceQueensCrown] При уклонении вблизи снаряда заряжает бомбу. Когда она зарядится, нажмите клавишу «Бомба», чтобы на короткое время заморозить все снаряды и врагов
+            [i:FargowiltasSouls/SaucerControlConsole] Призывает дружелюбную маленькую марсианскую тарелку, которая замедляет поражённых врагов
+            [i:FargowiltasSouls/BetsysHeart] PНажмите клавишу «Особый рывок» для короткого неуязвимого рывка огненного шара, который накладывает на врагов дебафф «{$BuffName.BetsysCurse}»
+            [i:FargowiltasSouls/MutantAntibodies] Погружение в воду восстанавливает время полёта крыльев и увеличивает скорость и максимальное время полёта крыльев
+            [i:FargowiltasSouls/MutantAntibodies] Даёт эффекты от дебаффа «{$BuffName.Wet}» при езде на Рыброне-милашке
+            [i:FargowiltasSouls/PrecisionSeal] Удерживайте клавишу «Точное передвижение», чтобы отключить рывки и двойные прыжки, и отобразить вашу зону поражения
+            [i:FargowiltasSouls/PrecisionSeal] Снижает размер вашей зоны поражения для вражеских снарядов, даже когда она не отображается
+            [i:FargowiltasSouls/GalacticGlobe] Позволяет контролировать гравитацию, увеличивает время полёта, истинные мини-Глаза Ктулху
+            [i:FargowiltasSouls/SaucerControlConsole] Нажмите клавишу «Смена боеприпаса» для смены боеприпасов (эффект пассивно работает в инвентаре)
             'Тёплое, бьющееся, и не нуждается в теле'
             '''
     }
@@ -3032,8 +3031,7 @@ Items: {
         Tooltip:
             '''
             Даёт невосприимчивость к дебаффам «{$BuffName.Burning}», «{$Buffs.FusedBuff.DisplayName}» и «{$Buffs.LowGroundBuff.DisplayName}»
-            Дважды нажмите <down> в воздухе, чтобы быстро приземлиться
-            При падении с определённой высоты, быстрое приземление вызывает огненное извержение
+            Дважды нажмите <down> в воздухе, чтобы ускорить падение и создать огненное извержение при приземлении после падения с определённой высоты
             'Слишком много ловушек, чтобы открыть'
             '''
     }
@@ -3042,16 +3040,14 @@ Items: {
         DisplayName: Кусок плоти
         Tooltip:
             '''
-            Даёт невосприимчивость к отбрасыванию и дебаффам «{$Buffs.AnticoagulationBuff.DisplayName}», «{$BuffName.Blackout}», «{$BuffName.Obstructed}», «{$BuffName.Dazed}», «{$BuffName.Slow}» и «{$BuffName.Frozen}»
-            Увеличивает урон на 15%
-            Увеличивает скорость появления редких врагов
-            Курсор вблизи врагов увеличивает получаемый ими урон
-            Эффект усиливается, чем дольше вы следите за врагами
-            Нажмите <right>, чтобы своевременно парировать атаку
-            Защита и сопротивление урону значительно снижаются во время и после парирования
-            При рывке оставляет след из кровавых шипов
-            Атаки заряжают лазерный выстрел смердящего глазного яблока
-            Враги реже выбирают вас в качестве цели
+            Даёт невосприимчивость к [i:FargowiltasSouls/DreadShell] отбрасыванию и дебаффам «{$Buffs.AnticoagulationBuff.DisplayName}», [i:FargowiltasSouls/PungentEyeball] «{$BuffName.Blackout}», «{$BuffName.Obstructed}», [i:FargowiltasSouls/SkullCharm] «{$BuffName.Dazed}», [i:FargowiltasSouls/Deerclawps] «{$BuffName.Slow}» и «{$BuffName.Frozen}»
+            [i:FargowiltasSouls/PungentEyeball] Курсор вблизи врагов увеличивает получаемый ими урон на 15%
+            [i:FargowiltasSouls/PungentEyeball] Значительно увеличивает скорость появления редких врагов
+            [i:FargowiltasSouls/SkullCharm] Увеличивает урон на 15%, и наделяет вас миньоном-глазным яблоком, который накапливает энергию при ваших атаках
+            [i:FargowiltasSouls/SkullCharm] Враги реже выбирают вас в качестве цели
+            [i:FargowiltasSouls/DreadShell] Нажмите <right>, чтобы своевременно парировать атаку, блокируя 200 единиц урона
+            [i:FargowiltasSouls/DreadShell] Защита и сопротивление урону значительно снижаются во время и после парирования
+            [i:FargowiltasSouls/Deerclawps] При рывке оставляет след из кровавых шипов
             'Оно растёт'
             '''
     }
@@ -3195,13 +3191,14 @@ Items: {
         DisplayName: Чистое сердце
         Tooltip:
             '''
-            Даёт невосприимчивость к дебаффам «{$Buffs.RottingBuff.DisplayName}» и «{$Buffs.BloodthirstyBuff.DisplayName}»
-            Даёт невосприимчивость к дебаффам биома
-            Увеличивает скорость передвижения и максимальный запас здоровья на 10%, а также скорость замедления персонажа
-            Через каждые несколько атак, вы создаёте маленьких пожирателей, которые атакуют врагов
-            Вокруг парят проныры, блокирующие некоторый урон
-            Каждые 15 секунд появляется новый проныра, и за раз может существовать 5 проныр
-            Скорость появления проныр увеличивается, когда вы не двигаетесь
+            [i:FargowiltasSouls/PureHeart] Даёт невосприимчивость к дебаффам биома
+            Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/DarkenedHeart] «{$Buffs.RottingBuff.DisplayName}» и [i:FargowiltasSouls/GuttedHeart] «{$Buffs.BloodthirstyBuff.DisplayName}»
+            [i:FargowiltasSouls/DarkenedHeart] Увеличивает скорость передвижения и скорость замедления персонажа
+            [i:FargowiltasSouls/DarkenedHeart]  Каждые несколько атак вы создаёте маленьких пожирателей, которые и устремляются на врагов
+            [i:FargowiltasSouls/GuttedHeart] Вокруг вас парят до 5 проныр, блокирующие некоторый урон, и скорость появления проныр увеличивается, когда вы не двигаетесь
+            [i:FargowiltasSouls/GuttedHeart] Увеличивает максимальный запас здоровья на 10%
+            [i:FargowiltasSouls/GelicWings] Позволяет совершать двойной прыжок
+            [i:FargowiltasSouls/GelicWings] При приземлении после прыжка в разные стороны вылетают шипы из слизи
             'Пульсирует жизненной силой'
             '''
     }
@@ -3323,17 +3320,14 @@ Items: {
         DisplayName: Высшая фея погибели
         Tooltip:
             '''
-            Даёт невосприимчивость к дебаффам «{$BuffName.Slimed}», «{$Buffs.BerserkedBuff.DisplayName}», «{$Buffs.LethargicBuff.DisplayName}» и «{$Buffs.InfestedBuff.DisplayName}»
-            Бафф «{$BuffName.Honey}» увеличивает пробивание брони на 10
-            Увеличивает скорость падения
-            Когда вы приземляетесь после прыжка, на курсор с неба падает слизь
-            При быстром беге или рывке оставляет след из кровавых кос
-            Нажмите клавишу «Инсталляция дебаффа», удерживая при этом <up> и <down> для перехода в режим берсерка
-            Нажмите клавишу «Особый рывок», чтобы выполнить короткий быстрый пчелиный рывок
-            Увеличивает скорость во время рывка на 50%
-            Во время рывка получаемый контактный урон снижается на 75%, а 100% контактного урона отражается обратно атакующему
-            Пчёлы и слабые шершни становятся дружелюбными
-            Призывает две руки Скелетрона, атакующие врагов
+            Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/SlimyShield] «{$BuffName.Slimed}», [i:FargowiltasSouls/AgitatingLens]  «{$Buffs.BerserkedBuff.DisplayName}», [i:FargowiltasSouls/QueenStinger] «{$Buffs.InfestedBuff.DisplayName}» и [i:FargowiltasSouls/NecromanticBrew] «{$Buffs.LethargicBuff.DisplayName}»
+            [i:FargowiltasSouls/SlimyShield] Увеличивает скорость падения и когда вы приземляетесь после прыжка, на курсор с неба падает слизь
+            [i:FargowiltasSouls/AgitatingLens] При быстром беге или рывке оставляет след из кровавых кос
+            [i:FargowiltasSouls/AgitatingLens] Нажмите клавишу «Инсталляция дебаффа», удерживая при этом <up> и <down> для перехода в режим берсерка
+            [i:FargowiltasSouls/QueenStinger] Бафф «{$BuffName.Honey}» увеличивает пробивание брони на 10, и пчёлы и слабые шершни становятся дружелюбными
+            [i:FargowiltasSouls/QueenStinger] Нажмите клавишу «Особый рывок», чтобы выполнить короткий быстрый пчелиный рывок
+            [i:FargowiltasSouls/NecromanticBrew] Значительно увеличивает скорость рывка, снижает контактный урон и отражает весь урон обратно в атакующего во время рывка
+            [i:FargowiltasSouls/NecromanticBrew] Призывает две руки Скелетрона, атакующие врагов
             'Превосходство не гарантируется'
             '''
     }
@@ -3573,7 +3567,7 @@ Items: {
             Все крюки более эффективны и выстреливают самонаводящиеся снаряды; значительно усиливает всех призываемых стражей из DD2
             Атаки накладывают дебафф «{$Buffs.MidasBuff.DisplayName}»; враги взрываются иглами
             При получении урона, вы взрываетесь, нанося урон ближайшим врагам и возрождаетесь с 200 здоровья после смерти
-            Эффекты от предметов «{$ItemName.FlowerBoots}» и «{$ItemName.GreedyRing}»
+            Эффекты от предмета «{$ItemName.FlowerBoots}»
             'Истинный мастер Террарии'
             '''
     }
@@ -3600,12 +3594,11 @@ Items: {
             Увеличивает шанс критического удара оружия текущего класса на 25%
             Увеличивает скорость использования для всего оружия на 50%
             Увеличивает скорость стрельбы на 50%
-            Критические удары наносят в 4 раза больше урона
+            Критические удары наносят в 4 раза больше урона и накладывают дебафф «{$Buffs.FlamesoftheUniverseBuff.DisplayName}»
             Всё оружие имеет двойное отбрасывание
             Увеличивает максимальный запас маны на 300
             Увеличивает призываемое число миньонов на 2
             Увеличивает призываемое число стражей на 2
-            Все атаки накладывают дебафф «{$Buffs.FlamesoftheUniverseBuff.DisplayName}»
             Эффекты от предметов «{$ItemName.FireGauntlet}», «{$ItemName.YoyoBag}» и «{$ItemName.CelestialShell}»
             Эффекты от предметов «{$ItemName.SniperScope}», «{$ItemName.CelestialCuffs}» и «{$ItemName.ManaFlower}»
             'Небеса преклоняются перед вами'
@@ -4035,7 +4028,7 @@ Items: {
     
     MechLure: {
         DisplayName: Механическая приманка
-        Tooltip: Бросьте под воду в океане, чтобы привлечь скрытое существо
+        Tooltip: Бросьте, находясь под водой в океане, чтобы привлечь скрытое существо
     }
     
     TheBaronsTusk: {
@@ -4382,7 +4375,8 @@ Items: {
         DisplayName: Рыбная палочка
         Tooltip:
             '''
-            Нажмите <right>, чтобы бросить палочку акулонадо
+            Нажмите <right>, чтобы создать тайфун
+            Тайфун стреляет акулами во время атаки
             'Труп побеждённого врага, насаженный на палку...'
             '''
     }
@@ -4419,6 +4413,7 @@ Items: {
             Использует дротики в качестве боеприпасов
             50% шанс не использовать боеприпасы
             Жала прилипают к врагам; повторное попадание в то же самое место наносит дополнительный урон
+            Масштабируется от бонусов, увеличивающих силу дружелюбных пчёл
             'Внутренности побеждённого врага получили новое предназначение...'
             '''
     }
@@ -4581,8 +4576,11 @@ Items: {
         Tooltip:
             '''
             Использует ракеты в качестве боеприпасов
-            50% шанс не использовать боеприпасы
+            Стреляет разбросом ракет-пожирателей
             Увеличивает урон по врагам в определённом радиусе
+            Нажмите <right>, чтобы увеличить этот радиус
+            Затем радиус постепенно снижается до обычного уровня
+            50% шанс не использовать боеприпасы
             'Награда за кровавую резню...'
             '''
     }
@@ -4635,6 +4633,16 @@ Items: {
             'Тяжело вооружённые останки поверженного врага...'
             '''
     }
+    
+    OpticStaffEX: {
+        DisplayName: Посох всеведения
+        Tooltip: 
+            '''
+            Призывает настоящих близнецов на вашу сторону
+            Занимает 3 слота призываемых миньонов
+            'Награда за кровавую резню...'
+            '''
+    }
 
     RefractorBlaster2: {
         DisplayName: Дифракционный бластер
@@ -4651,6 +4659,7 @@ Items: {
         Tooltip:
             '''
             Использует дротики в качестве боеприпасов
+            Масштабируется от бонусов, увеличивающих силу дружелюбных пчёл
             66% шанс не использовать боеприпасы
             'Награда за кровавую резню...'
             '''
@@ -4677,6 +4686,7 @@ Items: {
             Переключает режим Вечности и включает выпадение предметов режима Мастер
             Девиантт предоставляет стартовый набор и помощь, основанную на вашем прогрессе
             Увеличивает базовые характеристики
+            Предел сопротивления урону игрока составляет 75%
             Дебаффы снимаются быстрее, когда вы не атакуете
             Нельзя использовать, пока босс жив
             [i:1612][c/00ff00:Рекомендуется использовать «Отображение дебаффов на врагах» (в конфиге мода)]
@@ -4752,7 +4762,7 @@ Items: {
         DisplayName: Кукла вуду растения-пираньи
         Tooltip:
             '''
-            Переключение этого предмета позволяет вам накладывать случайные дебаффы на врагов
+            Переключение этого предмета позволяет вам...
             'Светлая память режиму Мазохиста ЕХ. Я всегда тебя ненавидел'
             '''
     }
@@ -4932,6 +4942,29 @@ Items: {
             Превращает пули в освящённые выстрелы света
             После 40 выстрелов нажмите <right>, чтобы выстрелить световой бомбой
             25% шанс не использовать боеприпасы
+            '''
+    }
+    
+    EaterLauncherJr: {
+        DisplayName: Взрывоглот
+        Tooltip:
+            '''
+            Использует гниющие куски в качестве боеприпасов
+            Стреляет куском гнилой плоти
+            Увеличивает урон, наносимый врагам в определённом радиусе
+            50% шанс не использовать боеприпасы
+            'Гниющие останки поверженного врага...'
+            '''
+    }
+    
+    TheBiggestSting: {
+        DisplayName: Самое большое жало
+        Tooltip:
+            '''
+            Использует дротики в качестве боеприпасов
+            Масштабируется от бонусов, увеличивающих силу дружелюбных пчёл
+            66% шанс не использовать боеприпасы
+            'Непреклонное войско королевы...'
             '''
     }
 }
@@ -5126,6 +5159,7 @@ NPCs: {
 
     DetonatingBubbleNPC.DisplayName: Взрывающийся пузырь
     StardustMinion.DisplayName: Клетка звёздной пыли
+    SlimeSwarm.DisplayName: Слизневый рой
 }
 
 Tiles: {
@@ -5825,20 +5859,26 @@ Projectiles: {
     BaronWhirlpool.DisplayName: Baron Whirlpool
     BaronWhirlpoolBolt.DisplayName: Baron Whirlpool Bolt
     BaronArenaWhirlpool.DisplayName: Baron Arena Whirlpool
-    BaronDeathray.DisplayName: Baron Deathray
+    BaronDeathray.DisplayName: Baron's Laser
     BaronEyeFlash.DisplayName: Baron Eye Flash
-    BaronTuskShrapnel.DisplayName: Baron Tusk Shrapnel
+    BaronTuskShrapnel.DisplayName: Baron's Tusk Shrapnel
     DecrepitAirstrike.DisplayName: Decrepit Airstrike
     DecrepitAirstrikeNuke.DisplayName: Decrepit Airstrike Nuke
     DecrepitAirstrikeNukeSplinter.DisplayName: Decrepit Airstrike Nuke Splinter
-    MechLureProjectile.DisplayName: Mech Lure Projectile
-    RoseTintedVisorDeathray.DisplayName: Rose Tinted Visor Deathray
+    MechLureProjectile.DisplayName: Mechanical Lure
+    RoseTintedVisorDeathray.DisplayName: Rose-Tinted Visor Laser
     GladiatorStandard.DisplayName: Gladiator Standard
     HiveSentry.DisplayName: Hive
     ROB.DisplayName: R.O.B
     MeteorFlame.DisplayName: Meteor Flame
     RainUmbrella.DisplayName: Rain Umbrella
     BeeFlower.DisplayName: Bee Flower
+    MonkDashDamage.DisplayName: Monk Dash
+    PearlwoodStareline.DisplayName: Pearlwood Stareline
+    EaterRocketJr.DisplayName: Rotten Chunk
+    VortexLightningDeathray.DisplayName: Vortex Lightning Deathray
+    SpectralEoC.DisplayName: Spectral Eye of Cthulhu
+    MonkDashSlash.DisplayName: Monk Dash Slash
 }
 
 WoodHeader: "[i:FargowiltasSouls/TimberForce][c/ffffff:{$Mods.FargowiltasSouls.Toggler.WoodHeader}]"
@@ -5964,6 +6004,7 @@ MasoProbeConfig: "[i:FargowiltasSouls/GroundStick][c/ffffff:{$Mods.FargowiltasSo
 PureHeartHeader: "[i:FargowiltasSouls/PureHeart][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PureHeartHeader}]"
 MasoEaterConfig: "[i:FargowiltasSouls/DarkenedHeart][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoEaterConfig}]"
 MasoBrainConfig: "[i:FargowiltasSouls/GuttedHeart][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoBrainConfig}]"
+MasoQueenConfig: "[i:FargowiltasSouls/GelicWings][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoQueenConfig}]"
 LumpofFleshHeader: "[i:FargowiltasSouls/LumpOfFlesh][c/ffffff:{$Mods.FargowiltasSouls.Toggler.LumpofFleshHeader}]"
 MasoPungentCursorConfig: "[i:FargowiltasSouls/PungentEyeball][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoPungentCursorConfig}]"
 MasoPugentConfig: "[i:FargowiltasSouls/LumpOfFlesh][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoPugentConfig}]"
@@ -6264,13 +6305,12 @@ Configs: {
     }
 }
 
-Conditions.RoombaPetSold: ""
+Conditions.RoombaPetSold: Когда конфигурация Робота-пылесоса включена
 AbyssalDivingSuitConfig: "[i:CalamityMod/AbyssalDivingSuit] «{$Mods.CalamityMod.Items.Accessories.AbyssalDivingSuit.DisplayName}»"
 CalamityTrawlerHeader: "[i:FargowiltasSouls/TrawlerSoul] Настройки «{$Items.TrawlerSoul.DisplayName}» Calamity"
 NucleogenesisConfig: "[i:CalamityMod/Nucleogenesis] «{$Mods.CalamityMod.Items.Accessories.Nucleogenesis.DisplayName}»"
 CalamityConjuristHeader: "[i:FargowiltasSouls/ConjuristsSoul] Настройки «{$Items.ConjuristsSoul.DisplayName}» Calamity"
 DynamoStemCellsConfig: "[i:CalamityMod/DynamoStemCells] «{$Mods.CalamityMod.Items.Accessories.DynamoStemCells.DisplayName}»"
-DaawnlightSpiritOriginConfig: "[i:CalamityMod/DaawnlightSpiritOrigin] «{$Mods.CalamityMod.Items.Accessories.DaawnlightSpiritOrigin.DisplayName}»"
 QuiverofNihilityConfig: "[i:CalamityMod/QuiverofNihility] «{$Mods.CalamityMod.Items.Accessories.QuiverofNihility.DisplayName}»"
 ElementalQuiverConfig: "[i:CalamityMod/ElementalQuiver] «{$Mods.CalamityMod.Items.Accessories.ElementalQuiver.DisplayName}»"
 CalamitySniperHeader: "[i:FargowiltasSouls/SnipersSoul] Настройки «{$Items.SnipersSoul.DisplayName}» Calamity"
@@ -6286,5 +6326,5 @@ CalamityColossusHeader: "[i:FargowiltasSouls/ColossusSoul] Настройки «
 VeneratedLocketConfig: "[i:CalamityMod/VeneratedLocket] «{$Mods.CalamityMod.Items.Accessories.VeneratedLocket.DisplayName}»"
 DragonScalesConfig: "[i:CalamityMod/DragonScales] «{$Mods.CalamityMod.Items.Accessories.DragonScales.DisplayName}»"
 EclipseMirrorConfig: "[i:CalamityMod/EclipseMirror] «{$Mods.CalamityMod.Items.Accessories.EclipseMirror.DisplayName}»"
-NanotechConfig: "[i:CalamityMod/Nanotech] «{$Mods.CalamityMod.Items.Accessories.Nanotech.DisplayName}»"
 VagabondsSoulHeader: "[i:FargowiltasCrossmod/VagabondsSoul] Vagabond's Soul"
+NanotechConfig: "[i:CalamityMod/Nanotech] «{$Mods.CalamityMod.Items.Accessories.Nanotech.DisplayName}»"
