@@ -931,6 +931,7 @@ public class FargoSoulsItems : IItemGender
             "TheSmallSting",
             "TheBigSting",
             "AshWoodEnchant",
+            "TheBiggestSting",
         };
         
         List<int> types = new List<int>();

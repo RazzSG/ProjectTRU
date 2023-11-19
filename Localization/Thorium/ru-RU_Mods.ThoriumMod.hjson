@@ -18639,17 +18639,17 @@ NPCs: {
 
     Abomination: {
         DisplayName: Мерзость
-        BestiaryFlavorText: The stitched remains of various zombies. The stitches themselves have seen better days...
+        BestiaryFlavorText: Сшитые останки различных зомби. Сами швы видали и лучшие времена...
     }
 
     BloodDrop: {
         DisplayName: Капля крови
-        BestiaryFlavorText: Animated blood behaves remarkably similar to the slimes of Terraria.
+        BestiaryFlavorText: Оживлённая кровь проявляет поразительное сходство со слизнями из Террарии.
     }
 
     BloodMage: {
         DisplayName: Маг крови
-        BestiaryFlavorText: An uncommon mutation of Blood Zombie that retains an ability to cast dark blood magic.
+        BestiaryFlavorText: Редкий мутант кровавого зомби, сохранивший способность использовать тёмную магию крови.
     }
 
     BloodyWarg: {
@@ -18661,38 +18661,38 @@ NPCs: {
 
     EngorgedEye: {
         DisplayName: Вздувшийся глаз
-        BestiaryFlavorText: This type of Demon Eye has gorged itself upon the aura of the Blood Moon, giving it its unique appearance.
+        BestiaryFlavorText: Этот вид демонического глаза напитался энергией кровавой луны, что и придало ему уникальный вид.
     }
 
     FamishedMaggot: {
         DisplayName: Изголодавшаяся личинка
-        BestiaryFlavorText: A vicious worm known for its propensity to attack en masse.
+        BestiaryFlavorText: Злобный червь, известный своей склонностью к массовым нашествиям.
     }
 
     GraveLimb: {
         DisplayName: Могильная конечность
-        BestiaryFlavorText: A stubborn necrotic appendage that likes to tear off faces. Truly the worst face massage you'll ever receive!
+        BestiaryFlavorText: Жуткий некротический отросток, который обожает отрывать лица. Это будет массаж лица, который вы никогда не забудете!
     }
 
     PatchWerk: {
         DisplayName: Лоскутик
-        BestiaryFlavorText: A horrifying creature formed from the maggot-filled, fallen remains of Terrarians. It calls out to anyone listening, begging to be put down.
+        BestiaryFlavorText: Ужасное существо, образованное из кишащих личинками останков террарийцев. Оно взывает к любому, кто услышит, умоляя о смерти.
         BossChecklistIntegration.SpawnInfo: Появляется случайным образом в кровавую луну. Начните кровавую луну используя [i:BloodMoonStarter].
     }
 
     SeveredLegs: {
         DisplayName: Отрубленные ноги
-        BestiaryFlavorText: These legs were made for walking, and that's just what they'll do... well, really that's all they can do.
+        BestiaryFlavorText: Эти ноги были созданы для ходьбы, и именно это они и будут делать... ну, в общем, это всё, что они могут делать.
     }
 
     SmotheringShade: {
         DisplayName: Удушающая тень
-        BestiaryFlavorText: Unexplainable creatures birthed from the nefarious aura of the Blood Moon. Ancient tomes allude to their long history.
+        BestiaryFlavorText: Необъяснимые существа, рождённые зловещей аурой кровавой луны. Древние свитки говорят об их долгой истории.
     }
 
     CorpseBloom: {
         DisplayName: Трупоцвет
-        BestiaryFlavorText: It's unclear if this mutant flower earned its name from its foul odor, or what it typically leaves Terrarians as in its wake.
+        BestiaryFlavorText: Неясно, получил ли этот мутировавший цветок своё название из-за своего зловонного запаха или из-за того, что он обычно оставляет после себя террарийцев.
         BossChecklistIntegration.SpawnInfo: Появляется случайным образом в подземных джунглях после победы над Скелетроном.
     }
 
@@ -18700,7 +18700,7 @@ NPCs: {
 
     CorpseWeed: {
         DisplayName: Трупный сорняк
-        BestiaryFlavorText: The living roots of a Corpse Bloom can be just as dangerous as its host plant. Perhaps even moreso!
+        BestiaryFlavorText: Живые корни Трупоцвета представляют собой не меньшую опасность, чем само растение-хозяин. А может быть, даже большую!
     }
 
     BloomMahoganyEnt: {
@@ -19268,7 +19268,7 @@ NPCs: {
 
     Illusionist: {
         DisplayName: Иллюзионист
-        BestiaryFlavorText: A beguiler predating the Dungeon itself. Using visions of false adversaries, it led an ancient despot into ruining its kingdom with a terrible curse.
+        BestiaryFlavorText: Колдун, чей возраст превосходит возраст самой Темницы. С помощью иллюзий он заставил древнего тирана обречь своё царство на гибель, наложив на него страшное проклятие.
         BossChecklistIntegration.SpawnInfo: Появляется случайным образом в Темнице.
     }
 
@@ -19406,18 +19406,18 @@ NPCs: {
     Omnicide: {
         DisplayName: Омницид, Осквернитель жизни
         BestiaryNameOverride: Омницид
-        BestiaryFlavorText: Порабощающий жизнь разрушитель реальности, Омницид олицетворяет в себе все преобразования во вселенной. Он будет судить того, кого сочтёт достойным своего внимания.
+        BestiaryFlavorText: Порабощающий жизнь разрушитель реальности, Омницид олицетворяет в себе все преобразования во вселенной. Он будет судить тех, кого сочтёт достойными своего внимания.
     }
 
     DreamEater: {
         DisplayName: Пожиратель снов
-        BestiaryFlavorText: Cosmic Janitor. Dying Reality. The Dream Eater. This entity seeks to erase everything that it deems disruptive to the cosmic clockwork. Save the world, hero!
+        BestiaryFlavorText: Космический чистильщик. Угасающая реальность. Пожиратель сновидений. Эта сущность стремится уничтожить всё, что она считает угрозой для космического порядка. Спаси мир, герой!
     }
 
     SlagFury: {
         DisplayName: Шлаковый яростень, Изначальное пламя
         BestiaryNameOverride: Яростный шлак
-        BestiaryFlavorText: The first flame of reality, Slag Fury represents all energy in the universe. It will judge those it deems worthy of its attention.
+        BestiaryFlavorText: Первый огонь бытия, Шлаковый яростень, является воплощением всей энергии Вселенной. Он будет судить тех, кого сочтёт достойными своего внимания.
 
         BossChecklistIntegration: {
             EntryName: Первородные

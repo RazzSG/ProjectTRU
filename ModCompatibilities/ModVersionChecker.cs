@@ -11,8 +11,8 @@ public class ModVersionChecker : ILoadable
         new("CalamityMod", new Version(2, 0, 3, 6), true),
         new("StarlightRiver", new Version(1, 5, 0, 2), false),
         new("InfernumMode", new Version(1, 9, 33), true),
-        new("FargowiltasSouls", new Version(1, 6, 1), true),
-        new("Fargowiltas", new Version(3, 2, 1), true),
+        new("FargowiltasSouls", new Version(1, 6, 1, 1), true),
+        new("Fargowiltas", new Version(3, 2, 1, 1), true),
         new("StarsAbove", new Version(1, 5, 0, 4), false),
         new("ThoriumMod", new Version(1, 7, 1, 3), true),
     };

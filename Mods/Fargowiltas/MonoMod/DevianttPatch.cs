@@ -7,18 +7,6 @@ using MonoMod.Cil;
 
 namespace CalamityRuTranslate.Mods.Fargowiltas.MonoMod;
 
-public class DevianttSetChatButtonsPatch : ILPatcher
-{
-    public override bool AutoLoad => ModsCall.Fargo != null && TranslationHelper.IsRussianLanguage;
-
-    public override MethodInfo ModifiedMethod => typeof(Deviantt).GetCachedMethod(nameof(Deviantt.SetChatButtons));
-
-    public override ILContext.Manipulator PatchMethod { get; } = il =>
-    {
-        TranslationHelper.ModifyIL(il, "Help", "Помощь");
-    };
-}
-
 public class DevianttGetChatPatch : ILPatcher
 {
     public override bool AutoLoad => ModsCall.Fargo != null && TranslationHelper.IsRussianLanguage;

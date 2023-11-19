@@ -7,18 +7,6 @@ using MonoMod.Cil;
 
 namespace CalamityRuTranslate.Mods.Fargowiltas.MonoMod;
 
-public class AbominationnSetChatButtons : ILPatcher
-{
-    public override bool AutoLoad => ModsCall.Fargo != null && TranslationHelper.IsRussianLanguage;
-
-    public override MethodInfo ModifiedMethod => typeof(Abominationn).GetCachedMethod(nameof(Abominationn.SetChatButtons));
-
-    public override ILContext.Manipulator PatchMethod { get; } = il =>
-    {
-        TranslationHelper.ModifyIL(il, "Cancel Event", "Остановить событие");
-    };
-}
-
 public class AbominationnOnChatButtonClicked : ILPatcher
 {
     public override bool AutoLoad => ModsCall.Fargo != null && TranslationHelper.IsRussianLanguage;
