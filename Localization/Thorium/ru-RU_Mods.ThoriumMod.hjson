@@ -18604,12 +18604,12 @@ NPCs: {
 
     BoreanMyte: {
         DisplayName: Борейский клещ
-        BestiaryFlavorText: Мутировавший детёныш шагательницы, несущий ледяной рок повсюду, куда бы он ни пошел.
+        BestiaryFlavorText: Мутировавший детёныш шагательницы, несущий ледяной рок повсюду, куда бы он ни пошёл.
     }
 
     BoreanStrider: {
         DisplayName: Борейская шагательница
-        BestiaryFlavorText: Вид арахнидов, одержимый выживанием в суровых условиях террарийской вьюги. Такая целеустремленность делает их опасными для всех.
+        BestiaryFlavorText: Вид арахнидов, одержимый выживанием в суровых условиях террарийской вьюги. Такая целеустремлённость делает их опасными для всех.
 
         BossChecklistIntegration: {
             SpawnInfo: Появляется случайным образом в метель или призывается при помощи [i:ThoriumMod/StriderTear].
@@ -18705,12 +18705,12 @@ NPCs: {
 
     BloomMahoganyEnt: {
         DisplayName: Энт красного дерева
-        BestiaryFlavorText: A sentient mass of mahogany that seeks to protect the flora of the Jungle by deadly means, but also with pizzazz.
+        BestiaryFlavorText: Сознательная масса красного дерева, которая стремится защищать флору джунглей смертоносными способами, но также и с изяществом.
     }
 
     BoneFlayer: {
         DisplayName: Костяной свежеватель
-        BestiaryFlavorText: The reanimated remains of an arch demon. Its fiery abilities lay waste to most foes within the Underworld.
+        BestiaryFlavorText: Воскресшие останки архидемона. Его огненные способности уничтожают большинство врагов в преисподней.
     }
 
     BossDummy.DisplayName: Босс-манекен
@@ -18718,25 +18718,25 @@ NPCs: {
 
     BrownRecluseWall: {
         DisplayName: Коричневый отшельник
-        BestiaryFlavorText: With a swarm of protective babies, and acidic spit, this rare breed of spider would give anyone arachnophobia.
+        BestiaryFlavorText: Этот редкий вид пауков с роем защитных детёнышей и кислотной слюной является настоящей угрозой для людей, страдающих арахнофобией.
     }
 
     BizarreRockFormation: {
         DisplayName: Странная каменная фигура
-        BestiaryFlavorText: A stone figure in the shape of a Terrarian; you can't shake the feeling that its rocky eyes are following you...
+        BestiaryFlavorText: Каменная фигура в виде террарийца; вы не можете избавиться от ощущения, что её каменные глаза следят за вами...
     }
 
     MagicalBurst.DisplayName: Магический всплеск
 
     BuriedChampion: {
         DisplayName: Погребённый чемпион
-        BestiaryFlavorText: Once a legendary hero, time has forgotten its name. It seeks to challenge the Terrarian that broke the Dungeon's curse.
+        BestiaryFlavorText: Герой, некогда прославленный на весь мир, теперь забыт временем. Он ищет встречи с террарийцом, который разрушил проклятие Темницы.
         BossChecklistIntegration.SpawnInfo: Используйте [i:ThoriumMod/AncientBlade] глубоко под землёй в мраморных пещерах или найдите и одолейте странную каменную фигуру.
     }
 
     FallenChampion2: {
         DisplayName: Павший воитель
-        BestiaryFlavorText: A lethal echo of the Buried Champion's weapon expertise. Cannot be harmed by normal means.
+        BestiaryFlavorText: Смертоносное эхо мастерства владения оружием Погребённого чемпиона. Не может быть повреждён обычными средствами.
     }
 
     ChilledSpitter: {
