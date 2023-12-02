@@ -1,8 +1,6 @@
-using System;
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
-using CalamityRuTranslate.Core.MonoMod;
-using ReLogic.Graphics;
+using CalamityRuTranslate.Core.Config;
 using Terraria;
 using Terraria.Localization;
 using Terraria.ModLoader;
@@ -11,8 +9,7 @@ namespace CalamityRuTranslate;
 
 public class CalamityRuTranslate : Mod
 {
-    internal static CalamityRuTranslate Instance;
-    public DynamicSpriteFont BossIntroScreensFont;
+    public static CalamityRuTranslate Instance;
 
     public CalamityRuTranslate()
     {
@@ -20,27 +17,6 @@ public class CalamityRuTranslate : Mod
         PreJITFilter = new DisableJIT();
     }
 
-    public override void Load()
-    {
-        foreach (Type type in Instance.Code.GetTypes())
-        {
-            if (type.IsSubclassOf(typeof(ILPatcher)) && Activator.CreateInstance(type) is ILPatcher {AutoLoad: true} ilPatcher)
-            {
-                try
-                {
-                    MonoModHooks.Modify(ilPatcher.ModifiedMethod, ilPatcher.PatchMethod);
-                }
-                catch (NullReferenceException)
-                {
-                    throw new Exception($"[IL] Экземпляр типа '{type.Name}' не создан!");
-                }
-            }
-        
-            if (type.IsSubclassOf(typeof(OnPatcher)) && Activator.CreateInstance(type) is OnPatcher {AutoLoad: true} onPatcher)
-                MonoModHooks.Add(onPatcher.ModifiedMethod, onPatcher.Delegate);
-        }
-    }
-    
     public override void Unload()
     {
         Instance = null;
@@ -49,11 +25,11 @@ public class CalamityRuTranslate : Mod
 
     public override void PostSetupContent()
     {
-        if (TRuConfig.Instance.WikithisInfo && ModsCall.Wikithis != null && !Main.dedServ)
+        if (TRuConfig.Instance.WikithisInfo && ModInstances.Wikithis != null && !Main.dedServ)
         {
-            if (ModsCall.Calamity != null)
+            if (ModInstances.Calamity != null)
             {
-                ModsCall.Wikithis.Call("AddModURL", ModsCall.Calamity, "https://calamitymod.wiki.gg/ru/wiki/{}", GameCulture.CultureName.Russian);
+                ModInstances.Wikithis.Call("AddModURL", ModInstances.Calamity, "https://calamitymod.wiki.gg/ru/wiki/{}", GameCulture.CultureName.Russian);
                 TranslationHelper.WikithisRedirectItem("BloodOrange", "Кровавый апельсин (calamity)");
                 TranslationHelper.WikithisRedirectItem("Elderberry", "Бузина (calamity)");
                 TranslationHelper.WikithisRedirectItem("PineapplePet", "Ананас (calamity)");

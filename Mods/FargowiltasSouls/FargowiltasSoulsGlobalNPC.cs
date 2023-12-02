@@ -10,7 +10,7 @@ public class FargowiltasSoulsGlobalNPC : GlobalNPC
 {
     public override bool IsLoadingEnabled(Mod mod)
     {
-        return ModsCall.FargoSouls != null && TranslationHelper.IsRussianLanguage;
+        return ModInstances.FargowiltasSouls != null && TranslationHelper.IsRussianLanguage;
     }
 
     public override void AI(NPC npc)

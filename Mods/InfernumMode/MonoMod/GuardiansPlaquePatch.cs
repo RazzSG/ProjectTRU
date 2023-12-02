@@ -10,7 +10,7 @@ namespace CalamityRuTranslate.Mods.InfernumMode.MonoMod;
 
 public class GuardiansPlaquePatch : ILPatcher
 {
-    public override bool AutoLoad => ModsCall.Infernum != null && ModsCall.Calamity != null && TranslationHelper.IsRussianLanguage;
+    public override bool AutoLoad => ModInstances.Infernum != null && ModInstances.Calamity != null && TranslationHelper.IsRussianLanguage;
     
     public override MethodInfo ModifiedMethod => typeof(GuardiansPlaque).GetCachedMethod("MouseOver", Type.EmptyTypes);
 

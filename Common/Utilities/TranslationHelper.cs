@@ -78,7 +78,7 @@ internal static class TranslationHelper
     internal static void WikithisRedirectItem(string id, string wikiPage)
     {
         int itemType = ModContent.Find<ModItem>("CalamityMod", id).Type;
-        ModsCall.Wikithis.Call(1, itemType, wikiPage, GameCulture.CultureName.Russian);
+        ModInstances.Wikithis.Call(1, itemType, wikiPage, GameCulture.CultureName.Russian);
     }
     
     internal static void WikithisRedirectItem(string[] ids, string wikiPage)
@@ -86,14 +86,14 @@ internal static class TranslationHelper
         foreach (var id in ids)
         {
             int itemType = ModContent.Find<ModItem>("CalamityMod", id).Type;
-            ModsCall.Wikithis.Call(1, itemType, wikiPage, GameCulture.CultureName.Russian);
+            ModInstances.Wikithis.Call(1, itemType, wikiPage, GameCulture.CultureName.Russian);
         }
     }
 
     internal static void WikithisRedirectNPC(string id, string wikiPage)
     {
         int npcType = ModContent.Find<ModNPC>("CalamityMod", id).Type;
-        ModsCall.Wikithis.Call(2, npcType, wikiPage, GameCulture.CultureName.Russian);
+        ModInstances.Wikithis.Call(2, npcType, wikiPage, GameCulture.CultureName.Russian);
     }
 
     internal static string GetTextValue(string name, string suffix)

@@ -1,6 +1,6 @@
 ﻿using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
-using CalamityRuTranslate.Core;
+using CalamityRuTranslate.Core.NpcChatTextTranslation;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -15,7 +15,7 @@ public class FargowiltasSoulsNpcChat : ILoadable, INpcChatText
     
     public bool IsLoadingEnabled(Mod mod)
     {
-        return ModsCall.FargoSouls != null && TranslationHelper.IsRussianLanguage;
+        return ModInstances.FargowiltasSouls != null && TranslationHelper.IsRussianLanguage;
     }
 
     public void NpcChatTextTranslation()

@@ -11,7 +11,7 @@ public class FargowiltasGlobalItem : GlobalItem
 {
     public override bool IsLoadingEnabled(Mod mod)
     {
-        return ModsCall.Fargo != null && TranslationHelper.IsRussianLanguage;
+        return ModInstances.Fargowiltas != null && TranslationHelper.IsRussianLanguage;
     }
 
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
@@ -30,6 +30,7 @@ public class FargowiltasGlobalItem : GlobalItem
             tooltips.ReplaceText("Finish 5 angler quests", "Завершить 5 заданий рыбака");
             tooltips.ReplaceText("Finish 10 angler quests", "Завершить 10 заданий рыбака");
             tooltips.ReplaceText("Finish 15 angler quests", "Завершить 15 заданий рыбака");
+            tooltips.ReplaceText("Finish 20 angler quests", "Завершить 20 заданий рыбака");
             tooltips.ReplaceText("Finish 25 angler quests", "Завершить 25 заданий рыбака");
             tooltips.ReplaceText("Finish 30 angler quests", "Завершить 30 заданий рыбака");
             tooltips.ReplaceText("While underground", "Находясь под землёй");

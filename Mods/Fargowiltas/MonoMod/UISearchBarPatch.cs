@@ -9,7 +9,7 @@ namespace CalamityRuTranslate.Mods.Fargowiltas.MonoMod;
 
 public class UISearchBarPatch : ILPatcher
 {
-    public override bool AutoLoad => ModsCall.Fargo != null && TranslationHelper.IsRussianLanguage;
+    public override bool AutoLoad => ModInstances.Fargowiltas != null && TranslationHelper.IsRussianLanguage;
     
     public override MethodBase ModifiedMethod => typeof(UISearchBar).GetCachedMethod("DrawChildren");
     

@@ -15,7 +15,7 @@ public class DeveloperTooltipTranslation : GlobalItem
 
     public override bool AppliesToEntity(Item entity, bool lateInstantiation)
     {
-        return entity.ModItem?.Mod == ModsCall.TModLoader;
+        return entity.ModItem?.Mod == ModInstances.TModLoader;
     }
 
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)

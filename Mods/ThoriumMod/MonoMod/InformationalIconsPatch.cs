@@ -9,7 +9,7 @@ namespace CalamityRuTranslate.Mods.ThoriumMod.MonoMod;
 
 public class InformationalIconsPatch : ILPatcher
 {
-    public override bool AutoLoad => ModsCall.Thorium != null && TranslationHelper.IsRussianLanguage;
+    public override bool AutoLoad => ModInstances.Thorium != null && TranslationHelper.IsRussianLanguage;
         
     public override MethodInfo ModifiedMethod => typeof(InformationalIcons).GetCachedMethod("DrawSelf");
 

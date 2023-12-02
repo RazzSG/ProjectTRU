@@ -8,9 +8,9 @@ namespace CalamityRuTranslate.Mods.ThoriumMod.MonoMod;
 
 public class WondrousWandGaugePatch : ILPatcher
 {
-    public override bool AutoLoad => ModsCall.Thorium != null && TranslationHelper.IsRussianLanguage;
+    public override bool AutoLoad => ModInstances.Thorium != null && TranslationHelper.IsRussianLanguage;
 
-    public override MethodInfo ModifiedMethod => ModsCall.Thorium.Code.GetCachedType("ThoriumMod.UI.ResourceBars.WondrousWandGauge").GetCachedMethod("DrawSelf");
+    public override MethodInfo ModifiedMethod => ModInstances.Thorium.Code.GetCachedType("ThoriumMod.UI.ResourceBars.WondrousWandGauge").GetCachedMethod("DrawSelf");
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {

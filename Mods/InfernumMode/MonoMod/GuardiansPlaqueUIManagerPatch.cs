@@ -13,7 +13,7 @@ namespace CalamityRuTranslate.Mods.InfernumMode.MonoMod;
 
 public class GuardiansPlaqueUIManagerDraw : ILPatcher
 {
-    public override bool AutoLoad => ModsCall.Infernum != null && ModsCall.Calamity != null && TranslationHelper.IsRussianLanguage;
+    public override bool AutoLoad => ModInstances.Infernum != null && ModInstances.Calamity != null && TranslationHelper.IsRussianLanguage;
     
     public override MethodBase ModifiedMethod => typeof(GuardiansPlaqueUIManager).GetCachedMethod(nameof(GuardiansPlaqueUIManager.Draw));
 
@@ -28,7 +28,7 @@ public class GuardiansPlaqueUIManagerDraw : ILPatcher
 
 public class GuardiansPlaqueUIManagerTextFont : OnPatcher
 {
-    public override bool AutoLoad => ModsCall.Infernum != null && ModsCall.Calamity != null && TranslationHelper.IsRussianLanguage;
+    public override bool AutoLoad => ModInstances.Infernum != null && ModInstances.Calamity != null && TranslationHelper.IsRussianLanguage;
     
     public override MethodInfo ModifiedMethod => typeof(GuardiansPlaqueUIManager).GetCachedMethod("get_TextFont");
 
@@ -39,7 +39,7 @@ public class GuardiansPlaqueUIManagerTextFont : OnPatcher
     private DynamicSpriteFont Translation(TextFontDelegate orig)
     {
         if (Environment.OSVersion.Platform == PlatformID.Win32NT)
-            return CalamityRuTranslate.Instance.Assets.Request<DynamicSpriteFont>("Fonts/ProfanedText", AssetRequestMode.ImmediateLoad).Value;
+            return CalamityRuTranslate.Instance.Assets.Request<DynamicSpriteFont>("Assets/Fonts/ProfanedText", AssetRequestMode.ImmediateLoad).Value;
 
         return FontAssets.MouseText.Value;
     }
@@ -47,7 +47,7 @@ public class GuardiansPlaqueUIManagerTextFont : OnPatcher
 
 public class GuardiansPlaqueUIManagerDrawTextLine : ILPatcher
 {
-    public override bool AutoLoad => ModsCall.Infernum != null && ModsCall.Calamity != null && TranslationHelper.IsRussianLanguage;
+    public override bool AutoLoad => ModInstances.Infernum != null && ModInstances.Calamity != null && TranslationHelper.IsRussianLanguage;
     
     public override MethodInfo ModifiedMethod => typeof(GuardiansPlaqueUIManager).GetCachedMethod(nameof(GuardiansPlaqueUIManager.DrawTextLine));
 

@@ -9,7 +9,7 @@ namespace CalamityRuTranslate.Mods.InfernumMode.MonoMod;
 
 public class WayfinderMapLayerPatch : ILPatcher
 {
-    public override bool AutoLoad => ModsCall.Infernum != null && ModsCall.Calamity != null && TranslationHelper.IsRussianLanguage;
+    public override bool AutoLoad => ModInstances.Infernum != null && ModInstances.Calamity != null && TranslationHelper.IsRussianLanguage;
     
     public override MethodInfo ModifiedMethod => typeof(WayfinderMapLayer).GetCachedMethod(nameof(WayfinderMapLayer.Draw));
 

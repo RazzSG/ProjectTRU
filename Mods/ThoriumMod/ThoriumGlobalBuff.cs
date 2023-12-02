@@ -12,7 +12,7 @@ public class ThoriumGlobalBuff : GlobalBuff
 {
     public override bool IsLoadingEnabled(Mod mod)
     {
-        return ModsCall.Thorium != null && TranslationHelper.IsRussianLanguage;
+        return ModInstances.Thorium != null && TranslationHelper.IsRussianLanguage;
     }
 
     public override void ModifyBuffText(int type, ref string buffName, ref string tip, ref int rare)

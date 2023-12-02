@@ -56,7 +56,7 @@ public class ThoriumGlobalItem : GlobalItem
 {
     public override bool IsLoadingEnabled(Mod mod)
     {
-        return ModsCall.Thorium != null && TranslationHelper.IsRussianLanguage;
+        return ModInstances.Thorium != null && TranslationHelper.IsRussianLanguage;
     }
 
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)

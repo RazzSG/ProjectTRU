@@ -17,7 +17,7 @@ public class InfernumModeGlobalItem : GlobalItem
 {
     public override bool IsLoadingEnabled(Mod mod)
     {
-        return ModsCall.Calamity != null && ModsCall.Infernum != null && TranslationHelper.IsRussianLanguage;
+        return ModInstances.Calamity != null && ModInstances.Infernum != null && TranslationHelper.IsRussianLanguage;
     }
 
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
@@ -220,7 +220,7 @@ public class InfernumModeGlobalItem : GlobalItem
         {
             ItemHelper.TranslateTooltip(tooltips, "Tooltip1", tooltip =>
             {
-                tooltip.Text = "Входит в ярость за пределами подземелья";
+                tooltip.Text = "Входит в ярость за пределами подземелья\nНе расходуется";
             });
         }
         else if (item.type == ModContent.ItemType<EyeofDesolation>())

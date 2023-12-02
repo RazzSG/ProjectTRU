@@ -10,7 +10,7 @@ namespace CalamityRuTranslate.Mods.ThoriumMod.MonoMod;
 
 public class FurnitureClockPatch : OnPatcher
 {
-    public override bool AutoLoad => ModsCall.Thorium != null && TranslationHelper.IsRussianLanguage;
+    public override bool AutoLoad => ModInstances.Thorium != null && TranslationHelper.IsRussianLanguage;
 
     public override MethodInfo ModifiedMethod => typeof(FurnitureClock).GetCachedMethod(nameof(FurnitureClock.RightClick));
 

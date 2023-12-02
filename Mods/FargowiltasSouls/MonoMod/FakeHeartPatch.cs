@@ -9,7 +9,7 @@ namespace CalamityRuTranslate.Mods.FargowiltasSouls.MonoMod;
 
 public class FakeHeartPatch : ILPatcher
 {
-    public override bool AutoLoad => ModsCall.FargoSouls != null && TranslationHelper.IsRussianLanguage;
+    public override bool AutoLoad => ModInstances.FargowiltasSouls != null && TranslationHelper.IsRussianLanguage;
 
     public override MethodInfo ModifiedMethod => typeof(FakeHeart).GetCachedMethod(nameof(FakeHeart.CanHitPlayer));
 

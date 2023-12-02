@@ -10,9 +10,9 @@ using Terraria.Localization;
 
 namespace CalamityRuTranslate.Mods.CalamityMod.MonoMod;
 
-public class ModeIndicatorUIGetDifficultyStatus : OnPatcher
+public class ModeIndicatorUIPatch : OnPatcher
 {
-    public override bool AutoLoad => ModsCall.Calamity != null && TranslationHelper.IsRussianLanguage;
+    public override bool AutoLoad => ModInstances.Calamity != null && TranslationHelper.IsRussianLanguage;
     
     public override MethodInfo ModifiedMethod => typeof(ModeIndicatorUI).GetCachedMethod(nameof(ModeIndicatorUI.GetDifficultyStatus));
 

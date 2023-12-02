@@ -15,7 +15,7 @@ namespace CalamityRuTranslate.Mods.ThoriumMod.MonoMod;
 
 public class ThoriumPlayerPatch : OnPatcher
 {
-    public override bool AutoLoad => ModsCall.Thorium != null && TranslationHelper.IsRussianLanguage;
+    public override bool AutoLoad => ModInstances.Thorium != null && TranslationHelper.IsRussianLanguage;
 
     public override MethodInfo ModifiedMethod => typeof(ThoriumPlayer).GetCachedMethod(nameof(ThoriumPlayer.AddCoinTooltip));
 

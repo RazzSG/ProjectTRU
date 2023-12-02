@@ -11,7 +11,7 @@ public class ChangeCalCloneNamePatch : ILoadable
 {
     public bool IsLoadingEnabled(Mod mod)
     {
-        return TranslationHelper.IsRussianLanguage && ModsCall.Calamity != null && ModsCall.Infernum != null;
+        return TranslationHelper.IsRussianLanguage && ModInstances.Calamity != null && ModInstances.Infernum != null;
     }
 
     public void Load(Mod mod)

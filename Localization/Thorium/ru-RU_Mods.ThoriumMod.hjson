@@ -18741,7 +18741,7 @@ NPCs: {
 
     ChilledSpitter: {
         DisplayName: Замёрзший плевун
-        BestiaryFlavorText: One of many corrupted monsters prowling the frozen wastelands. Trying to use their spit to keep your drinks chilled is not recommended.
+        BestiaryFlavorText: Один из многих осквернённых монстров, обитающих в ледяных пустошах. Использование их слюны для охлаждения напитков не рекомендуется.
     }
 
     Clot: {
@@ -18751,7 +18751,7 @@ NPCs: {
 
     Cobbler: {
         DisplayName: Сапожник
-        BestiaryFlavorText: The Cobbler has long since retired from his heroing days, but he provides quality footwear to the next generation.
+        BestiaryFlavorText: Сапожник, некогда бывший героем, ныне занимается изготовлением качественной обуви для следующего поколения.
 
         TownNPCMood: {
             Content: Стою на ногах нормально, не волнуйся!
@@ -18777,7 +18777,7 @@ NPCs: {
 
     CoinBagCopper: {
         DisplayName: Мешок с медными монетами
-        BestiaryFlavorText: This enchanted pile of coins only just recently gained sentience, but it will try its hardest to keep its riches for itself.
+        BestiaryFlavorText: Этот зачарованная груда монет недавно обрела сознание, но она будет всеми силами защищать свои богатства от посягательств.
     }
 
     CoinBagGold: {
@@ -18920,37 +18920,37 @@ NPCs: {
 
     BlueLobster: {
         DisplayName: Синий лобстер
-        BestiaryFlavorText: A rare variety of deep sea lobster that scared the pants out of the first Terrarian that saw it.
+        BestiaryFlavorText: Исключительный вид глубоководного лобстера, который напугал до усрачки первого террарийца, увидевшего его.
     }
 
     CrownofThorns: {
         DisplayName: Венец терний
-        BestiaryFlavorText: Residing on the floors of the depths, a single sting from one of these starfish can spell doom to many.
+        BestiaryFlavorText: Обитая на дне глубин, укол одной из этих морских звёзд может быть смертельным для многих.
     }
 
     DumboOctopus: {
         DisplayName: Осьминог Дамбо
-        BestiaryFlavorText: A harmless species of octopus found in the depths of the Ocean. Likes peanuts.
+        BestiaryFlavorText: Безобидный вид осьминога, который обитает в глубинах океана. Любит арахис.
     }
 
     FeedingFrenzy: {
         DisplayName: Бешеный обжора
-        BestiaryFlavorText: A ravenous species of fish that quickly calls a swarm of equally ravenous siblings.
+        BestiaryFlavorText: Этот вид рыб - настоящие обжоры. Они могут быстро собрать вокруг себя целую стаю таких же прожорливых собратьев.
     }
 
     GiantIsopod: {
         DisplayName: Гигантский изопод
-        BestiaryFlavorText: These peaceful creatures have been chilling in the Aquatic Depths for thousands of years. The surface dwellers could learn a thing or two.
+        BestiaryFlavorText: Эти миролюбивые существа тысячелетиями обитают в акватических глубинах. Обитателям поверхности есть чему поучиться у них.
     }
 
     GigaClam: {
         DisplayName: Огромный моллюск
-        BestiaryFlavorText: Terrarians have long debated whether this clam's size should be classified as 'giga' or 'massive'. Giga has won for now.
+        BestiaryFlavorText: Среди террарианцев долгое время шли споры о том, как классифицировать размер этого моллюска: как 'огромный' или как 'массивный'. В итоге было решено, что он 'огромный'.
     }
 
     Globee: {
         DisplayName: Глоби
-        BestiaryFlavorText: A harmless creature that produces a bioluminescent substance that can illuminate its surroundings, even deep underwater.
+        BestiaryFlavorText: Это безобидное существо, которое выделяет биолюминесцентную субстанцию, которая может освещать пространство вокруг него, даже глубоко под водой.
     }
 
     GoldDumboOctopus: {
@@ -19144,17 +19144,17 @@ NPCs: {
 
     FrostWurmHead: {
         DisplayName: Морозный червь
-        BestiaryFlavorText: While it may be easier to dig through snow and ice instead of ebonstone, these frigid devourers are no less effective at killing.
+        BestiaryFlavorText: Хотя снег и лёд легче поддаются копанию, чем эбонит, эти ледяные пожиратели не менее смертоносны.
     }
 
     FrozenFace: {
         DisplayName: Замороженный лицемонстр
-        BestiaryFlavorText: The Brain of Cthulhu tried to warn them if they kept making that face, it would get frozen that way...
+        BestiaryFlavorText: Мозг Ктулху пытался предупредить их, что если они не прекратят гримасничать, их лица могут быть навсегда искажены.
     }
 
     FrozenGross: {
         DisplayName: Замороженная мерзотина
-        BestiaryFlavorText: These chilly terrors of the icy crimson depths most definitely, without question, are both frozen and gross.
+        BestiaryFlavorText: Без сомнения, эти ледяные ужасы из ледяных багряных глубин являются одновременно замороженными и отвратительными.
     }
 
     GelatinousCube: {

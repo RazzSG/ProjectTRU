@@ -8,9 +8,9 @@ namespace CalamityRuTranslate.Mods.CalamityMod.MonoMod;
 
 public class CalamityGlobalItemPatch : ILPatcher
 {
-    public override bool AutoLoad => ModsCall.Calamity != null && TranslationHelper.IsRussianLanguage;
+    public override bool AutoLoad => ModInstances.Calamity != null && TranslationHelper.IsRussianLanguage;
     
-    public override MethodInfo ModifiedMethod => typeof(global::CalamityMod.Items.CalamityGlobalItem).GetCachedMethod("<ModifyVanillaTooltips>g__HookStatsTooltip|100_151");
+    public override MethodInfo ModifiedMethod => typeof(global::CalamityMod.Items.CalamityGlobalItem).GetCachedMethod("<ModifyVanillaTooltips>g__HookStatsTooltip|100_149");
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {

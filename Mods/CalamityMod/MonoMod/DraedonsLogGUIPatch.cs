@@ -9,7 +9,7 @@ namespace CalamityRuTranslate.Mods.CalamityMod.MonoMod;
 
 public class DraedonsLogGUIPatch: ILPatcher
 {
-    public override bool AutoLoad => ModsCall.Calamity != null && TranslationHelper.IsRussianLanguage;
+    public override bool AutoLoad => ModInstances.Calamity != null && TranslationHelper.IsRussianLanguage;
         
     public override MethodInfo ModifiedMethod => typeof(DraedonsLogGUI).GetCachedMethod(nameof(DraedonsLogGUI.Draw));
 

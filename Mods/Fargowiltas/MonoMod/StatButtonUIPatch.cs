@@ -10,7 +10,7 @@ namespace CalamityRuTranslate.Mods.Fargowiltas.MonoMod;
 
 public class StatButtonUIRebuildStatList : OnPatcher
 {
-    public override bool AutoLoad => ModsCall.Fargo != null && TranslationHelper.IsRussianLanguage;
+    public override bool AutoLoad => ModInstances.Fargowiltas != null && TranslationHelper.IsRussianLanguage;
     
     public override MethodInfo ModifiedMethod => typeof(StatSheetUI).GetCachedMethod(nameof(StatSheetUI.AddStat));
     
@@ -66,7 +66,7 @@ public class StatButtonUIRebuildStatList : OnPatcher
 
 public class StatButtonAddStat : ILPatcher
 {
-    public override bool AutoLoad => ModsCall.Fargo != null && TranslationHelper.IsRussianLanguage;
+    public override bool AutoLoad => ModInstances.Fargowiltas != null && TranslationHelper.IsRussianLanguage;
 
     public override MethodInfo ModifiedMethod => typeof(StatSheetUI).GetCachedMethod(nameof(StatSheetUI.AddStat));
 

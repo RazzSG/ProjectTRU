@@ -8,9 +8,9 @@ using ReLogic.Graphics;
 
 namespace CalamityRuTranslate.Mods.InfernumMode.MonoMod;
 
-public class BaseIntroScreenFontToUse : OnPatcher
+public class BaseIntroScreenPatch : OnPatcher
 {
-    public override bool AutoLoad => ModsCall.Infernum != null && ModsCall.Calamity != null && TranslationHelper.IsRussianLanguage;
+    public override bool AutoLoad => ModInstances.Infernum != null && ModInstances.Calamity != null && TranslationHelper.IsRussianLanguage;
 
     public override MethodInfo ModifiedMethod => typeof(BaseIntroScreen).GetCachedMethod("get_FontToUse");
     
@@ -20,6 +20,6 @@ public class BaseIntroScreenFontToUse : OnPatcher
     
     private DynamicSpriteFont Translation(FontToUseDelegate orig)
     {
-        return CalamityRuTranslate.Instance.BossIntroScreensFont;
+        return InfernumModeSystem.BossIntroScreensFont;
     }
 }
