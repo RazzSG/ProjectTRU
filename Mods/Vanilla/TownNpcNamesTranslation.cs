@@ -31,6 +31,7 @@ public class TownNpcNamesTranslation : GlobalNPC
         [NPCID.Clothier] = new Dictionary<string, string>
         {
             {"Joeseph Jostar", "Джозеф Джостар"},
+            {"Storm Havik", "Шторм Хавик"},
         },
         [NPCID.Cyborg] = new Dictionary<string, string>
         {
@@ -59,6 +60,7 @@ public class TownNpcNamesTranslation : GlobalNPC
             {"Katto", "Катто"},
             {"Him", "Хим"},
             {"Tooshiboots", "Тушибутс"},
+            {"Neesh", "Ниш"},
         },
         [NPCID.Guide] = new Dictionary<string, string>
         {
@@ -77,6 +79,7 @@ public class TownNpcNamesTranslation : GlobalNPC
             {"Alfred Rend", "Альфред Ренд"},
             {"Leeman", "Лиман"},
             {"Mihai", "Михай"},
+            {"Aka Retribution", "Ака Возмездие"},
         },
         [NPCID.Mechanic] = new Dictionary<string, string>
         {
@@ -116,11 +119,18 @@ public class TownNpcNamesTranslation : GlobalNPC
             {"Nyapano", "Няпано"},
             {"Jade", "Джейд"},
             {"Nyavi Aceso", "Ньяви Ацесо"},
+            {"everquartz", "Эверкварц"},
+            {"Gwynevere", "Гвиневер"},
+        },
+        [NPCID.SantaClaus] = new Dictionary<string, string>
+        {
+            {"Jank", "Джанк"},
         },
         [NPCID.SkeletonMerchant] = new Dictionary<string, string>
         {
             {"Sans Undertale", "Санс Андертейлов"},
             {"Papyrus Undertale", "Папирус Андертейлов"},
+            {"Mr. Bones", "Мистер Бонс"},
         },
         [NPCID.Steampunker] = new Dictionary<string, string>
         {

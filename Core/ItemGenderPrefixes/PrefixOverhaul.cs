@@ -604,7 +604,6 @@ public class CalamityItems : IItemGender
                 "AnechoicPlating",
                 "BlazingCore",
                 "BloodflareCore",
-                "CoreOfTheBloodGod",
                 "DarkSunRing",
                 "DraedonsHeart",
                 "EclipseMirror",
@@ -744,6 +743,7 @@ public class CalamityItems : IItemGender
                 "FleshOfInfidelity",
                 "FlowersOfMortality",
                 "GlacialEmbrace",
+                "SaharaSlicers",
             };
             List<int> types = new List<int>();
             

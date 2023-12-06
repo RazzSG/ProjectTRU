@@ -18782,12 +18782,12 @@ NPCs: {
 
     CoinBagGold: {
         DisplayName: Мешок с золотыми монетами
-        BestiaryFlavorText: You'd think gold would just weigh down this greedy sack of coins, but it just boosts its resolve to run from Terrarians.
+        BestiaryFlavorText: Можно было бы ожидать, что золото будет обузой для этого жадного мешка с монетами, но оно лишь усиливает его решимость бежать от террарийцев.
     }
 
     CoinBagSilver: {
         DisplayName: Мешок с серебряными монетами
-        BestiaryFlavorText: Having been around the caverns, this bag of coins leaves the scene as soon as a greedy Terrarian makes their appearance.
+        BestiaryFlavorText: После долгих скитаний по пещерам, этот мешок с монетами, сразу же исчезает, как только появляется жадный террариец.
     }
 
     Coldling: {
@@ -19179,22 +19179,22 @@ NPCs: {
 
     GildedSlime: {
         DisplayName: Золотистый слизень
-        BestiaryFlavorText: A slime that disguises itself as the much more elusive Golden Slime to swallow greedy treasure hunters whole.
+        BestiaryFlavorText: Этот слизень маскируется под более редкого золотого слизня, чтобы заглотить целиком жадных охотников за сокровищами.
     }
 
     GildedSlimeling: {
         DisplayName: Золотистая слизняшка
-        BestiaryFlavorText: Having ingested plenty of raw gold to achieve its glittering disguise, it's no surprise that Gilded Slimes' young also carry onto bits of leftover ore.
+        BestiaryFlavorText: Поскольку для получения блестящего окраса золотистые слизни поглощают большое количество золота, неудивительно, что их детёныши также несут в себе кусочки оставшейся руды.
     }
 
     GlitteringGolem: {
         DisplayName: Сверкающий голем
-        BestiaryFlavorText: A hulking earth elemental imbued by the blessing. Its large crystals give the Hallow that extra little sparkle.
+        BestiaryFlavorText: Массивный земляной элементаль, наделённый благословением. Его крупные кристаллы придают освящению особый блеск.
     }
 
     GoblinDrummer: {
         DisplayName: Гоблин-барабанщик
-        BestiaryFlavorText: Heralding the Goblin Army's approach with a vicious beat, these drummers boost their fellow goblins' vigor.
+        BestiaryFlavorText: Громкий и яростный ритм барабанщиков возвещает о приближении армии гоблинов, вселяя в их собратьев боевой дух.
     }
 
     GoblinSpiritGuide: {
@@ -19229,39 +19229,39 @@ NPCs: {
 
     UnstableEnergyAnomaly: {
         DisplayName: Нестабильная энергетическая аномалия
-        BestiaryFlavorText: An orb of energy cracking from the ground; it looks like it could burst if agitated.
+        BestiaryFlavorText: Из земли вырывается шар энергии, который выглядит так, будто может взорваться при малейшем воздействии.
     }
 
     GraniteEradicator: {
         DisplayName: Гранитный изничтожитель
-        BestiaryFlavorText: This crazed elemental wildly swings its two pairs of energized arms around. Hasn't lost an arm wrestle in 7 years.
+        BestiaryFlavorText: Этот безумный элементаль яростно размахивает своими двумя парами заряжённых рук. Он не проиграл ни одного армрестлинга за последние 7 лет.
     }
 
     GraniteFusedSlime: {
         DisplayName: Пропитанный гранитом слизень
-        BestiaryFlavorText: A slime that's been infused with the erratic energy of the granite caverns. Comes with a cool set of rock armor.
+        BestiaryFlavorText: Слизень, пронизанный хаотичной энергией гранитных пещер. А ещё он носит крутой комплект каменной брони.
     }
 
     GraniteSurger: {
         DisplayName: Гранитоменталь
-        BestiaryFlavorText: An uncontrollable earth elemental that propels magnetic shards of granite rock at those that disturb the granite caverns.
+        BestiaryFlavorText: Неконтролируемый элементаль земли, который метает магнитные гранитные осколки в нарушителей гранитных пещер.
     }
 
     HealingDummy.DisplayName: Исцеляемый манекен
 
     HellBringerMimic: {
         DisplayName: Адский мимик
-        BestiaryFlavorText: Mimics enveloped by the souls of the damned gain incredible power. They can be birthed from ordinary chests by force.
+        BestiaryFlavorText: Мимики, одержимые душами проклятых, обретают невероятную силу. Они могут силой рождаться из обычных сундуков.
     }
 
     HoppingSpider: {
         DisplayName: Прыгучий паук
-        BestiaryFlavorText: This little guy just loves to feast on spelunkers that stumble too close to their nest.
+        BestiaryFlavorText: Этот маленький малышь обожает лакомиться спелеологами, которые неосторожно подходят слишком близко к их гнезду.
     }
 
     HorrificCharger: {
         DisplayName: Ужасающий налётчик
-        BestiaryFlavorText: Smaller hunters of the Corruption specializing in rapid acceleration, they charge with reckless abandon the moment they see potential prey.
+        BestiaryFlavorText: Маленькие охотники искажения, обладающие способностью к быстрому ускорению, бросаются на потенциальную добычу с безрассудной яростью.
     }
 
     IllusionGlass.DisplayName: Иллюзорное стекло
