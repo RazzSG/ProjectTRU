@@ -14,6 +14,7 @@ public class TownNpcNamesTranslation : GlobalNPC
         {
             {"Dazren", "Дазрен"},
             {"Johnny Test", "Джонни Тест"},
+            {"Bling Bling Boy", "Мальчик-показушник"},
         },
         [NPCID.ArmsDealer] = new Dictionary<string, string>
         {

@@ -1,4 +1,5 @@
 using System.Reflection;
+using CalamityMod.Items;
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.MonoMod;
@@ -10,7 +11,7 @@ public class CalamityGlobalItemPatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.Calamity != null && TranslationHelper.IsRussianLanguage;
     
-    public override MethodInfo ModifiedMethod => typeof(global::CalamityMod.Items.CalamityGlobalItem).GetCachedMethod("<ModifyVanillaTooltips>g__HookStatsTooltip|100_149");
+    public override MethodInfo ModifiedMethod => typeof(CalamityGlobalItem).GetCachedMethod("<ModifyVanillaTooltips>g__HookStatsTooltip|100_149");
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {

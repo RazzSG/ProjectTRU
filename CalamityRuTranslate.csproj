@@ -12,7 +12,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="CalamityMod">
-      <HintPath>..\ModAssemblies\CalamityMod_v2.0.3.7.dll</HintPath>
+      <HintPath>..\ModAssemblies\CalamityMod_v2.0.3.8.dll</HintPath>
     </Reference>
     <Reference Include="Fargowiltas">
       <HintPath>..\ModAssemblies\Fargowiltas_v3.2.1.1.dll</HintPath>
@@ -21,7 +21,7 @@
       <HintPath>..\ModAssemblies\FargowiltasSouls_v1.6.1.1.dll</HintPath>
     </Reference>
     <Reference Include="InfernumMode">
-      <HintPath>..\ModAssemblies\InfernumMode_v1.9.34.dll</HintPath>
+      <HintPath>..\ModAssemblies\InfernumMode_v1.9.36.dll</HintPath>
     </Reference>
     <Reference Include="StarsAbove">
       <HintPath>..\ModAssemblies\StarsAbove_v1.4.6.3.dll</HintPath>

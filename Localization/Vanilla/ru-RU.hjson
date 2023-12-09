@@ -3008,7 +3008,7 @@
         BlueLight: Синяя лампочка
         BlueLights: Синяя ёлочная гирлянда
         BlueLunaticHood: Капюшон лунного культиста
-        BlueLunaticRobe: Мантия лунного культиста
+        BlueLunaticRobe: Одеяние лунного культиста
         BlueMacaw: Голубой ара
         BlueMacawCage: Террариум с голубым ара
         BlueMoon: Голубая луна
@@ -4088,7 +4088,7 @@
         Fake_SteampunkChest: Паромеханический сундук-ловушка
         Fake_VortexChest: Вихревой сундук-ловушка
         Fake_WaterChest: Подводный сундук-ловушка
-        Fake_WebCoveredChest: Поросший паутиной сундук-ловушка
+        Fake_WebCoveredChest: Покрытый паутиной сундук-ловушка
         FalconBlade: Соколиный клинок
         FallenStar: Упавшая звезда
         FallenStarfish: Упавшая звезда-рыба
@@ -7787,13 +7787,13 @@
         WhiteAndYellowBulb: Бело-жёлтые ёлочные игрушки
         WhiteBulb: Белые ёлочные игрушки
         WhiteCultistArcherBanner: Знамя белого культиста-лучника
-        WhiteCultistCasterBanner: Знамя белого лунатика-священника
+        WhiteCultistCasterBanner: Знамя белого культиста-заклинателя
         WhiteCultistFighterBanner: Знамя белого культиста-воина
         WhiteDynastyWall: Белая восточная стена
         WhiteGarland: Белая ёлочная мишура
         WhiteHorseshoeBalloon: Белый надувной шарик с подковой
         WhiteLunaticHood: Капюшон солнечного культиста
-        WhiteLunaticRobe: Мантия солнечного культиста
+        WhiteLunaticRobe: Одеяние солнечного культиста
         WhitePaint: Белая краска
         WhitePearl: Белая жемчужина
         WhitePhaseblade: Белый лазерный меч
@@ -7803,14 +7803,14 @@
         WhiteTuxedoPants: Белые брюки
         WhiteTuxedoShirt: Белый смокинг
         WhoopieCushion: Подушка-пердушка
-        WickedUndead: Картина «Свирепая нежить»
+        WickedUndead: Картина «Зловредная нежить»
         Wildflowers: Картина «Полевые цветы»
         WillowShirt: Свитер поджигательницы
         WillowSkirt: Юбка поджигательницы
-        WillsBreastplate: Нагрудник Уилла
-        WillsHelmet: Шлем Уилла
-        WillsLeggings: Ботинки Уилла
-        WillsWings: Крылья Уилла
+        WillsBreastplate: Нагрудник Will
+        WillsHelmet: Шлем Will
+        WillsLeggings: Поножи Will
+        WillsWings: Крылья Will
         WilsonBeardLong: Длинная борода джентльмена
         WilsonBeardMagnificent: Великолепная борода джентльмена
         WilsonBeardShort: Борода джентльмена
@@ -7826,15 +7826,15 @@
         Wire: Провод
         WireBulb: Светодиод
         WireCutter: Кусачки
-        WireKite: Великий план
+        WireKite: Грандиозный проект
         WirePipe: Распределительная коробка
         WispDye: Краситель цвета огонька
         WispinaBottle: Огонёк в банке
-        WitchBoots: Башмаки ведьмы
+        WitchBoots: Ботинки ведьмы
         WitchBroom: Метла ведьмы
-        WitchDress: Балахон ведьмы
+        WitchDress: Платье ведьмы
         WitchHat: Шляпа ведьмы
-        WizardHat: Волшебная шляпа
+        WizardHat: Чародейская шляпа
         WizardsHat: Шляпа волшебника
         WolfBanner: Знамя волка
         WolfMask: Маска волка
@@ -7874,7 +7874,7 @@
         WormBanner: Знамя червя
         WormCage: Террариум с червяком
         WormFood: Корм для червя
-        WormHook: Червекрюк
+        WormHook: Крюк-червь
         WormScarf: Шарф-червь
         WormStatue: Статуя червяка
         WormTooth: Зуб червя
@@ -7890,7 +7890,7 @@
         XenonMoss: Ксеноновый мох
         XenonMossBlock: Ксеноновый мховый кирпич
         XenonMossBlockWall: Ксеноновая мховая кирпичная стена
-        Xenopopper: Ксенопузырчик
+        Xenopopper: Ксеновзрывник
         Yelets: Елец
         YellowAndGreenBulb: Жёлто-зелёные ёлочные игрушки
         YellowAndGreenLights: Жёлто-зелёная ёлочная гирлянда
@@ -8184,7 +8184,7 @@
             Увеличивает подвижность на льду
             Создаёт очень тусклый свет, который становится ярче под водой
             '''
-        ArgonMoss: "'Незабываемое зрелище, на которое можно смотреть бесконечно'"
+        ArgonMoss: "'Незабываемое зрелище, которое запомнится тебе навсегда'"
         Arkhalis: 'Я не получил это от Шму'
         ArkhalisHat:
             '''
@@ -10283,7 +10283,7 @@
         KiteWyvern: "{$CommonItemTooltip.Kite}"
         KiteYellow: "{$CommonItemTooltip.Kite}"
         KrampusBanner: "{$CommonItemTooltip.BannerBonus}{$NPCName.Krampus}"
-        KryptonMoss: "'Незабываемое зрелище, на которое можно смотреть бесконечно'"
+        KryptonMoss: "'Незабываемое зрелище, которое запомнится тебе навсегда'"
         LacBeetleBanner: "{$CommonItemTooltip.BannerBonus}{$NPCName.LacBeetle}"
         LadyOfTheLake: "{$PaintingArtist.Myhre}"
         LakeofFire: "{$PaintingArtist.Garner}"
@@ -10312,7 +10312,7 @@
         LavaCrateHard: "{$CommonItemTooltip.RightClickToOpen}"
         LavaFishbowl: "'Нет, ты не можешь надеть его на голову'"
         LavaFishingHook: "{$CommonItemTooltip.LavaFishing}"
-        LavaMoss: 'Незабываемое зрелище, на которое можно смотреть бесконечно'
+        LavaMoss: 'Незабываемое зрелище, которое запомнится тебе навсегда'
         LavaRocket: Разбрызгивает лаву при столкновении
         LavaSkull:
             '''
@@ -11305,7 +11305,7 @@
             '''
         RainbowCursor: Включает вашему курсору переливание всеми цветами радуги
         RainbowGun: Выстреливает радугой, наносящей продолжительный урон
-        RainbowMoss: "'Незабываемое зрелище, на которое можно смотреть бесконечно'"
+        RainbowMoss: "'Незабываемое зрелище, которое запомнится тебе навсегда'"
         RainbowRod: Стреляет управляемой радугой
         RainbowSlimeBanner: "{$CommonItemTooltip.BannerBonus}{$NPCName.RainbowSlime}"
         RainbowString: "{$CommonItemTooltip.String}"
@@ -12420,7 +12420,7 @@
         VineRope: По ней можно взбираться
         VineRopeCoil: Бросьте, чтобы расправить моток лианы
         VioletHusk: Используется для создания фиолетового красителя
-        VioletMoss: "'Незабываемое зрелище, на которое можно смотреть бесконечно'"
+        VioletMoss: "'Незабываемое зрелище, которое запомнится тебе навсегда'"
         VioletString: "{$CommonItemTooltip.String}"
         VisitingThePyramids: "{$PaintingArtist.Leinfors}"
         Vitamins: Даёт невосприимчивость к дебаффу «{$BuffName.Weak}»
@@ -12553,16 +12553,16 @@
             '''
         WingsofEvil: "{$PaintingArtist.Grox}"
         WireBulb: Активирует диоды для каждого цветного провода
-        WireCutter: Вырезает провода
+        WireCutter: Убирает провода
         WireKite:
             '''
             Позволяет полностью контролировать провода!
-            Удерживайте <right>, чтобы редактировать настройки проводки
+            Нажмите <right>, чтобы изменить настройки проводов
             '''
         WirePipe:
             '''
             Распределяет провода
-            Можно убрать с помощью провода!
+            Меняет направление ударами молота!
             '''
         WispinaBottle: Призывает огонёк, излучающий свет
         WitchBroom: "'Даёт ведьминскую искру вдохновения!'"
@@ -12577,7 +12577,7 @@
         WorldGlobe:
             '''
             Бросьте его, чтобы сменить внешний вид мира!
-            'Время сменить пейзаж'
+            'Пора сменить обстановку'
             '''
         WormBanner: "{$CommonItemTooltip.BannerBonus}{$NPCName.GiantWormHead}"
         WormFood: Призывает Пожирателя миров
@@ -12593,7 +12593,7 @@
         WyvernBanner: "{$CommonItemTooltip.BannerBonus}{$NPCName.WyvernHead}"
         Wyverntail: "'Водится в небесных озёрах'"
         XenoStaff: Призывает НЛО
-        XenonMoss: "'Незабываемое зрелище, на которое можно смотреть бесконечно'"
+        XenonMoss: "'Незабываемое зрелище, которое запомнится тебе навсегда'"
         YellowAndGreenBulb: "{$CommonItemTooltip.PlaceableOnXmasTree}"
         YellowAndGreenLights: "{$CommonItemTooltip.PlaceableOnXmasTree}"
         YellowBulb: "{$CommonItemTooltip.PlaceableOnXmasTree}"
