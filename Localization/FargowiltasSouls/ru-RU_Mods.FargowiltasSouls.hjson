@@ -244,6 +244,9 @@ Message: {
     Revived: Вы возродились!
     NoMusic1: Fargo's Music Mod не найден
     NoMusic2: Пожалуйста, установите Fargo's Music Mod для полных впечатлений!
+    NoDLC1: Мы обнаружили, что вы используете Fargo's Souls совместно с модом {0}.
+    NoDLC2: Для обеспечения совместимости и раскрытия полного потенциала этих модов рекомендуется использовать Fargo's Souls DLC.
+    Wiki: Посетите официальную вики Fargo's Mod по ссылке [c/3989FF:terrariamods.wiki.gg/wiki/Fargo's Mod]!
 
     DeviBribe: {
         Line1: Секундочку...
@@ -287,6 +290,7 @@ DeathMessage: {
     Nutcracker: "{0} раскалывает свои орешки."
     Derpling: "{0} высушается досуха."
     Snatchers: "{0} становится человеком, съедённым людоедом."
+    Parrots: "{0} погибает от транс-утверждающего мизогинистного попугая."
 }
 
 DeviChatter: {
@@ -1035,6 +1039,7 @@ EModeBalance: {
     MythrilHalberdRework: После отсутствия атаки в течение 2 секунд, следующая атака наносит тройной урон
     OrichalcumHalberdRework: Выпускает цветочные лепестки при взмахе
     SuperStarCannon: Максимальное количество пронзаний снарядов снижено до 7
+    WarmthPotionNerf: Эффект снижения урона снижен вдвое
 }
 
 EternityMode: {
@@ -5895,6 +5900,7 @@ Projectiles: {
     SpectralEoC.DisplayName: Spectral Eye of Cthulhu
     MonkDashSlash.DisplayName: Monk Dash Slash
     ObsidianExplosion.DisplayName: Obsidian Explosion
+    DeviGuardianHarmless.DisplayName: Devi Guardian Harmless
 }
 
 WoodHeader: "[i:FargowiltasSouls/TimberForce][c/ffffff:{$Mods.FargowiltasSouls.Toggler.WoodHeader}]"
@@ -6318,6 +6324,11 @@ Configs: {
         DisplayTogglesRegardless: {
             Label: Отображение настроек эффектов душ
             Tooltip: Отключите, чтобы показывать настройки эффектов душ только при экипировке аксессуара с данным эффектом. Включите, чтобы они всегда были видны.
+        }
+        
+        PreBossNightGlow: {
+            Label: Свечение врагов в пре-боссе
+            Tooltip: В режиме Вечности все враги светятся ночью, пока ни один босс ещё не был убит.
         }
     }
 }
