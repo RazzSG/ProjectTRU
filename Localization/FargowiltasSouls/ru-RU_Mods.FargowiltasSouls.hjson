@@ -2810,24 +2810,23 @@ Items: {
         DisplayName: Биономный кластер (Неактивно)
         Tooltip:
             '''
-           Даёт невосприимчивость к дебаффам «{$BuffName.Frostburn}», «{$BuffName.ShadowFlame}» и «{$Buffs.SqueakyToyBuff.DisplayName}»
-           Даёт невосприимчивость к дебаффам «{$Buffs.FlamesoftheUniverseBuff.DisplayName}», «{$Buffs.ClippedWingsBuff.DisplayName}», «{$Buffs.CrippledBuff.DisplayName}», «{$BuffName.Webbed}» и «{$Buffs.PurifiedBuff.DisplayName}»
-           Даёт невосприимчивость к дебаффам «{$Buffs.LovestruckBuff.DisplayName}», «{$BuffName.Stinky}», «{$Buffs.MidasBuff.DisplayName}» и «{$Buffs.HexedBuff.DisplayName}»
-           Используйте для телепортации на вашу последнюю точку смерти
-           Атаки могут наложить дебафф «{$Buffs.ClippedWingsBuff.DisplayName}» и создавать сердца
-           Атаки по вам могут случайно пискнуть и нанести 1 единицу урона
-           Во время атаки значительно увеличивает урон и даёт теневое пламя, но снижает бонусы к скорости передвижения, скорости атаки и защите
-           Призывает на помощь дружелюбного радужного слизня
-           С некоторых врагов после смерти выпадают зелья
-           При атаках одиночными нажатиями, на мгновение увеличивает весь урон, кроме призывателя, на 30%
+           Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/FrigidGemstone] «{$BuffName.Frostburn}», [i:FargowiltasSouls/WretchedPouch] «{$BuffName.ShadowFlame}», [i:FargowiltasSouls/SqueakyToy] «{$Buffs.SqueakyToyBuff.DisplayName}» и [i:FargowiltasSouls/ConcentratedRainbowMatter] «{$Buffs.FlamesoftheUniverseBuff.DisplayName}» 
+           Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/WyvernFeather] «{$Buffs.ClippedWingsBuff.DisplayName}», «{$Buffs.CrippledBuff.DisplayName}», [i:FargowiltasSouls/TribalCharm] «{$BuffName.Webbed}», «{$Buffs.PurifiedBuff.DisplayName}», [i:FargowiltasSouls/NymphsPerfume] «{$Buffs.LovestruckBuff.DisplayName}», «{$BuffName.Stinky}», «{$Buffs.HexedBuff.DisplayName}» и [i:FargowiltasSouls/SecurityWallet] «{$Buffs.MidasBuff.DisplayName}»
+           [i:FargowiltasSouls/SandsofTime] Используйте для телепортации на вашу последнюю точку смерти
+           [i:FargowiltasSouls/WyvernFeather] Атаки могут наложить дебафф «{$Buffs.ClippedWingsBuff.DisplayName}» [i:FargowiltasSouls/NymphsPerfume] и создавать сердца
+           [i:FargowiltasSouls/SqueakyToy] Атаки по вам могут случайно пискнуть и нанести 1 единицу урона
+           [i:FargowiltasSouls/WretchedPouch] Во время атаки значительно увеличивает урон и даёт теневое пламя, но снижает бонусы к скорости передвижения, скорости атаки и защите
+           [i:FargowiltasSouls/ConcentratedRainbowMatter] Призывает на помощь дружелюбного радужного слизня
+           [i:FargowiltasSouls/TimsConcoction] С некоторых врагов после смерти выпадают зелья
+           [i:FargowiltasSouls/TribalCharm] При атаках одиночными нажатиями, на мгновение увеличивает весь урон, кроме призывателя, на 30%
            [c/00FFFF:Следующие эффекты пассивно работают в инвентаре или в слотах для украшений (<right> для включения в инвентаре):]
-           Даёт невосприимчивость к дебаффам «{$BuffName.WindPushed}», «{$BuffName.Suffocation}», «{$BuffName.Chilled}» и «{$Buffs.GuiltyBuff.DisplayName}»
-           Улучшает ночное зрение
-           Автоматически использует зелье лечения и маны при необходимости, и увеличивает дальность подбора звёзд маны
-           Вы возрождаетесь с большим количеством здоровья, а при отсутствии боссов возрождаетесь быстрее
-           Нажмите клавишу «Холодное заклинание», чтобы использовать «{$ItemName.IceRod}»
-           Нажмите <right>, чтобы отдалить, и значительно улучшает перековку
-           Стабилизирует гравитацию в космосе и жидкостях
+           Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/SandsofTime] «{$BuffName.WindPushed}», [i:FargowiltasSouls/MysticSkull] «{$BuffName.Suffocation}», [i:FargowiltasSouls/FrigidGemstone] «{$BuffName.Chilled}», [i:FargowiltasSouls/SqueakyToy] и «{$Buffs.GuiltyBuff.DisplayName}»
+           [i:FargowiltasSouls/WyvernFeather] Стабилизирует гравитацию в космосе и жидкостях, [i:FargowiltasSouls/OrdinaryCarrot] улучшает ночное зрение, [i:FargowiltasSouls/SecurityWallet], и значительно улучшает перековку
+           [i:FargowiltasSouls/ConcentratedRainbowMatter] Автоматически использует зелье лечения и [i:FargowiltasSouls/MysticSkull] маны при необходимости, и увеличивает дальность подбора звёзд маны
+           [i:FargowiltasSouls/NymphsPerfume] Вы возрождаетесь с большим количеством здоровья [i:FargowiltasSouls/SandsofTime], а при отсутствии боссов возрождаетесь быстрее
+           [i:FargowiltasSouls/FrigidGemstone] Нажмите клавишу «Холодное заклинание», чтобы использовать «{$ItemName.IceRod}»
+           [i:FargowiltasSouls/OrdinaryCarrot] Нажмите <right>, чтобы отдалить
+           'Слияние тысяч мелких врагов'
            'Слияние тысяч мелких врагов'
             '''
     }
@@ -2852,7 +2851,7 @@ Items: {
             [i:FargowiltasSouls/MagicalBulb] Нажмите клавишу «Магическое очищение», чтобы избавиться от большинства дебаффов
             [i:FargowiltasSouls/MagicalBulb] Увеличивает регенерацию здоровья в зависимости от окружающего уровня освещения
             [i:FargowiltasSouls/LihzahrdTreasureBox] Дважды нажмите <down> в воздухе, чтобы ускорить падение и создать огненное извержение при приземлении после падения с определённой высоты
-            [i:FargowiltasSouls/ChaliceoftheMoon] В зависимости от типа оружия, вы стреляете дополнительными атаками и извергаетесь древними пророчествами при получении урона
+            [i:FargowiltasSouls/CelestialRune] В зависимости от типа оружия, вы стреляете дополнительными атаками и извергаетесь древними пророчествами при получении урона
             Призывает на помощь дружелюбного [i:FargowiltasSouls/ChaliceoftheMoon] культиста и [i:FargowiltasSouls/MagicalBulb] растение
             'Используйте это'
             '''
@@ -3810,27 +3809,27 @@ Items: {
     }
 
     AbomBag: {
-        DisplayName: Мешок с сокровищами
+        DisplayName: Мешок с сокровищами (Мерзостть)
         Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
     }
 
     CosmosBag: {
-        DisplayName: Мешок с сокровищами
+        DisplayName: Мешок с сокровищами (Эридан)
         Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
     }
 
     DeviBag: {
-        DisplayName: Мешок с сокровищами
+        DisplayName: Мешок с сокровищами (Девиантт)
         Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
     }
 
     MutantBag: {
-        DisplayName: Мешок с сокровищами
+        DisplayName: Мешок с сокровищами (Мутант)
         Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
     }
 
     TrojanSquirrelBag: {
-        DisplayName: Мешок с сокровищами
+        DisplayName: Мешок с сокровищами (Троянская белка)
         Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
     }
 
@@ -4063,7 +4062,7 @@ Items: {
     }
     
     BanishedBaronBag: {
-        DisplayName: Мешок с сокровищами
+        DisplayName: Мешок с сокровищами (Изгнанный барон)
         Tooltip: Нажмите <right>, чтобы открыть
     }
     
@@ -4873,7 +4872,7 @@ Items: {
     }
 
     LifelightBag: {
-        DisplayName: Мешок с сокровищами
+        DisplayName: Мешок с сокровищами (Свет жизни)
         Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
     }
 

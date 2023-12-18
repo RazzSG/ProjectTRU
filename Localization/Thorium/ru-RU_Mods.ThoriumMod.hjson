@@ -4295,7 +4295,7 @@ Items: {
 
     MidnightOil: {
         DisplayName: Полночное масло
-        Tooltip: Враги гораздо реже выбирают вас в качестве после использования
+        Tooltip: Враги гораздо реже выбирают вас в качестве цели после использования
     }
 
     ObjectionableStock: {
@@ -18792,12 +18792,12 @@ NPCs: {
 
     Coldling: {
         DisplayName: Морозовичок
-        BestiaryFlavorText: After being lost in the snow for so long, this Herpling's skin has been greatly frozen over. Its hunger, however, has not.
+        BestiaryFlavorText: После длительного пребывания в снегу кожа этого тупорыла сильно обледенела. Однако его голод не утих.
     }
 
     ConfusedZombie: {
         DisplayName: Растерянный зомби
-        BestiaryFlavorText: The Confused Zombie is a chemist turned zombie. While he's managed to keep most of his right mind, he's still a little weird...
+        BestiaryFlavorText: Растерянный зомби - это бывший химик, который превратился в зомби. Несмотря на то, что он сохранил большую часть своего рассудка, он всё ещё немного странный...
 
         TownNPCMood: {
             Content: Жив и здоров, как видишь.
@@ -18822,27 +18822,27 @@ NPCs: {
 
     BlueHag: {
         DisplayName: Колдунья
-        BestiaryFlavorText: Haggard witches who traded their youth for mastery over the waves. Clearly the trade didn't work out for them given how they're trying to murder you.
+        BestiaryFlavorText: Измождённые ведьмы, которые обменяли свою молодость на власть над волнами. Очевидно, сделка была неудачной, поскольку они пытаются вас убить.
     }
 
     CyanHag: {
         DisplayName: Колдунья
-        BestiaryFlavorText: Haggard witches who traded their youth for mastery over the winds. Clearly the trade didn't work out for them given how they're trying to murder you.
+        BestiaryFlavorText: Измождённые ведьмы, которые обменяли свою молодость на власть над ветрами. Очевидно, сделка была неудачной, поскольку они пытаются вас убить.
     }
 
     GreenHag: {
         DisplayName: Колдунья
-        BestiaryFlavorText: Haggard witches who traded their youth for mastery over the earth. Clearly the trade didn't work out for them given how they're trying to murder you.
+        BestiaryFlavorText: Измождённые ведьмы, которые обменяли свою молодость на власть над землёй. Очевидно, сделка была неудачной, поскольку они пытаются вас убить.
     }
 
     RedHag: {
         DisplayName: Колдунья
-        BestiaryFlavorText: Haggard witches who traded their youth for mastery over the flame. Clearly the trade didn't work out for them given how they're trying to murder you.
+        BestiaryFlavorText: Измождённые ведьмы, которые обменяли свою молодость на власть над огнём. Очевидно, сделка была неудачной, поскольку они пытаются вас убить.
     }
 
     Cook: {
         DisplayName: Повар
-        BestiaryFlavorText: "The Cook is a master in the culinary arts. He's always trying out new recipes with the ingredients of the land. "
+        BestiaryFlavorText: Повар - мастер кулинарного искусства. Он постоянно разрабатывает новые рецепты, используя местные продукты.
 
         TownNPCMood: {
             Content: Я в порядке, просто думаю над следующим рецептом.
@@ -18868,29 +18868,29 @@ NPCs: {
 
     Coolmera: {
         DisplayName: Ледомера
-        BestiaryFlavorText: Its endless hunger allows it to keep searching for food, even in the freezing tundra.
+        BestiaryFlavorText: Ненасытный голод заставляет его продолжать поиски пищи даже в замерзающей тундре.
     }
 
     DarksteelKnight: {
         DisplayName: Рыцарь тёмной стали
-        BestiaryFlavorText: Elite guards that once faithfully served the Dungeon in its glory days. Though their flesh is gone, their loyalty is not.
+        BestiaryFlavorText: Эти элитные стражи, которые когда-то верно служили Темнице в его золотые годы, сохранили свою преданность, несмотря на то, что их плоть истлела.
     }
 
     AbyssalAngler.DisplayName: Золотая монета?
 
     AbyssalAngler2: {
         DisplayName: Глубинный удильщик
-        BestiaryFlavorText: Bright lights can attract a fish's attention, but what attracts a Terrarian's attention? That's right, coins!
+        BestiaryFlavorText: Яркие огни привлекают внимание рыб, но что привлекает внимание террарийцев? Правильно, монеты!
     }
 
     AbyssalSpawn: {
         DisplayName: Глубинное отродье
-        BestiaryFlavorText: Ravenous young birthed from a Forgotten One that desecrate and pollute the fresh waters of the world.
+        BestiaryFlavorText: Ненасытные отпрыски Забытого, оскверняют и загрязняют пресные воды мира.
     }
 
     ForgottenOne: {
         DisplayName: Забытый
-        BestiaryFlavorText: A creature long forgotten by even the oldest Terrarians. It and its kind were sealed away centuries ago during a bloody war.
+        BestiaryFlavorText: Это существо, о котором давно забыли даже самые древние террарийцы. Оно и его сородичи были запечатаны много столетий назад во время кровопролитной войны.
 
         BossChecklistIntegration: {
             SpawnInfo: Соберите 3 [i:ThoriumMod/AbyssalShadow], которые выпадают из акватических галлюцинаций в Акватических глубинах.
@@ -18900,22 +18900,22 @@ NPCs: {
 
     AquaticHallucination: {
         DisplayName: Акватическая галлюцинация
-        BestiaryFlavorText: An otherworldly being that might just make you think you're going crazy...
+        BestiaryFlavorText: Потустороннее существо, способное внушить вам мысль о том, что вы сходите с ума...
     }
 
     Barracuda: {
         DisplayName: Барракуда
-        BestiaryFlavorText: This quick fish is known for hunting down its prey by any means. Not even walls will block their vicious appetite.
+        BestiaryFlavorText: Эта шустрая рыба известна своей способностью преследовать добычу любыми способами. Даже стены не могут остановить её зверский аппетит.
     }
 
     Blobfish: {
         DisplayName: Рыба-капля
-        BestiaryFlavorText: The ugliest little creature in all of the Aquatic Depths. All he wants is a hug...
+        BestiaryFlavorText: Этот маленький гадёныш — самый уродливый из всех существ в Акватических глубинах. А ведь он просто хочет обнимашек...
     }
 
     Blowfish: {
         DisplayName: Рыба фугу
-        BestiaryFlavorText: Don't blow off this blowhard, they'll blow your socks off when brought down!
+        BestiaryFlavorText: Не стоит недооценивать этого хвастуна, он может вас удивить, если вам удастся его победить!
     }
 
     BlueLobster: {
@@ -18940,7 +18940,7 @@ NPCs: {
 
     GiantIsopod: {
         DisplayName: Гигантский изопод
-        BestiaryFlavorText: Эти миролюбивые существа тысячелетиями обитают в акватических глубинах. Обитателям поверхности есть чему поучиться у них.
+        BestiaryFlavorText: Эти миролюбивые существа тысячелетиями обитают в Акватических глубинах. Обитателям поверхности есть чему поучиться у них.
     }
 
     GigaClam: {
@@ -18965,12 +18965,12 @@ NPCs: {
 
     Hammerhead: {
         DisplayName: Молотоголовый
-        BestiaryFlavorText: This poor guy couldn't figure out how to stand out among his shark friends... until he decided to use his head.
+        BestiaryFlavorText: Этот бедняга никак не мог понять, как выделиться среди своих друзей-акул... пока не решил использовать свою голову.
     }
 
     Kraken: {
         DisplayName: Кракен
-        BestiaryFlavorText: A powerful creature lurking beneath the ocean's surface that sports 8 arms and 8 grudges against the surface world.
+        BestiaryFlavorText: Могучее существо, скрывающееся под поверхностью океана, обладающее восемью конечностями и восемью обидами в отношении мира на поверхности.
     }
 
     Lobster: {
@@ -18980,27 +18980,27 @@ NPCs: {
 
     ManofWar: {
         DisplayName: Медузник
-        BestiaryFlavorText: With an unrivaled sting, and a penchant for inexplicably going invulnerable, this is one tough jellyfish.
+        BestiaryFlavorText: Обладая беспрецедентным жалом и тенденцией к непредсказуемой неуязвимости, эта медуза является изрядно сильным врагом.
     }
 
     MorayHead: {
         DisplayName: Мурена
-        BestiaryFlavorText: A species of eel that makes its home within the Aquatic Depths. Likes to hang out in nooks and crannies it digs for itself.
+        BestiaryFlavorText: Разновидность угря, который обитает в Акватических глубинах. Он предпочитает прятаться в норах и трещинах, которые сам себе роет.
     }
 
     Octopus: {
         DisplayName: Осьминог
-        BestiaryFlavorText: A bulbous water dweller that extends its long arms to grab and crush its prey, even through walls at times.
+        BestiaryFlavorText: Этот луковицеобразный водный обитатель обладает длинными щупальцами, которые он использует для захвата и сокрушения своей добычи, даже сквозь стены.
     }
 
     PurpleDumboOctopus: {
         DisplayName: Фиолетовый осьминог Дамбо
-        BestiaryFlavorText: An uncommon variant of the Dumbo Octopus found in the depths of the Ocean. Still likes peanuts.
+        BestiaryFlavorText: В глубинах океана обитает редкая разновидность осьминога Дамбо, который всё ещё любит арахис.
     }
 
     PutridSerpent: {
         DisplayName: Гнилостный змей
-        BestiaryFlavorText: A vile acid-spitting serpent that burrows within the rocks of the Aquatic Depths. Carries a familiar, foul taint.
+        BestiaryFlavorText: Гнилостный змей - это отвратительное пресмыкающееся, которое обитает в скальных породах Акватических глубин. Он выделяет едкий сок и обладает знакомым, зловонным запахом.
     }
 
     Sharptooth: {
@@ -19015,22 +19015,22 @@ NPCs: {
 
     VampireSquid: {
         DisplayName: Кальмар-кровопийца
-        BestiaryFlavorText: With a blood-draining bite that massively heals them, these squids sure aren't playing games.
+        BestiaryFlavorText: Эти кальмары, обладающие высасывающим кровь укусом, после которого наступает сильное исцеление, точно не собираются играть в игры.
     }
 
     VoltEelHead: {
         DisplayName: Электрический угорь
-        BestiaryFlavorText: Using a specialized organ, these eels utilize electricity for all sorts of purposes, from tracking and maiming prey to pranking friends.
+        BestiaryFlavorText: Эти угри обладают особым органом, который позволяет им использовать электричество для различных целей, от поиска и обездвиживания добычи до розыгрышей друзей.
     }
 
     Whale: {
         DisplayName: Кит
-        BestiaryFlavorText: One of the most magnificent creatures the world has ever seen. Only true monsters would even think about harming one!
+        BestiaryFlavorText: Одно из самых величественных созданий, когда-либо виденных в мире. Только истинные чудовища могли бы подумать о том, чтобы причинить ему вред.
     }
 
     DesertAcolyte: {
         DisplayName: Пустынный послушник
-        BestiaryFlavorText: The Desert Acolyte is quite nervous, but will sell all manner of equipment to those interested in throwing stuff at monsters.
+        BestiaryFlavorText: Пустынный послушник, хотя и несколько пуглив, но он готов продать любое снаряжение тем, кто интересуется метанием предметов в монстров.
 
         TownNPCMood: {
             Content: Не чую опасности, значит, всё хорошо.
@@ -19055,12 +19055,12 @@ NPCs: {
 
     DissonanceSeer: {
         DisplayName: Провидец диссонанса
-        BestiaryFlavorText: Crazed mages infused by the blessing, they hunt down and barrage anyone who trespasses into the sacred Hallow.
+        BestiaryFlavorText: Охваченные благословением, обезумевшие маги выслеживают и атакуют любого, кто вторгается в священное освящение.
     }
 
     Diverman: {
         DisplayName: Водолаз
-        BestiaryFlavorText: The Diverman is a curious adventurer that’s searching for the elusive Aquatic Depths. He’s willing to sell you some sunken treasures.
+        BestiaryFlavorText: Этот чудак, водолаз, ищет загадочные Акватические глубины. Он готов продать вам затонувшие сокровища.
 
         TownNPCMood: {
             Content: Дела нормально, сам как?
@@ -19134,12 +19134,12 @@ NPCs: {
 
     Freezer: {
         DisplayName: Замораживатель
-        BestiaryFlavorText: The denizens of the corrupted snowfields hunt with blistering cold acids that will leave you burning inside while freezing outside.
+        BestiaryFlavorText: Обитатели искажённого снежника охотятся с помощью леденящих кислот, которые вызывают жжение и обморожение.
     }
 
     FrostFangWall: {
         DisplayName: Морозный клык
-        BestiaryFlavorText: An icy spider that fires ice instead of web. Not because it can't, but because it's going for a theme, you know?
+        BestiaryFlavorText: Этот ледяной паук стреляет льдом вместо паутины. Это не связано с его неспособностью плести паутину, а является частью его тематики.
     }
 
     FrostWurmHead: {
@@ -19159,22 +19159,22 @@ NPCs: {
 
     GelatinousCube: {
         DisplayName: Желатиновый куб
-        BestiaryFlavorText: A gluttonous mass of slime formed from the dank aura of the Dungeon. Has lost its ability to hop from the weight of its sins.
+        BestiaryFlavorText: Обжорливый сгусток слизи, образовавшийся в гнилой атмосфере Темницы. Он потерял способность прыгать из-за тяжести своих грехов.
     }
 
     GelatinousSludge: {
         DisplayName: Тина
-        BestiaryFlavorText: The torn offspring from a Gelatinous Cube. Retains its ability to hop by ignoring the sins of its father.
+        BestiaryFlavorText: Отпрыск желатинового куба, оторвавшийся от него. Он сохранил способность прыгать, отказавшись от грехов своего отца.
     }
 
     GildedBat: {
         DisplayName: Золотистая летучая мышь
-        BestiaryFlavorText: This rare bat species is big and strong enough to both fly with dense valuable metal on its wings and crush foolhardy explorers hunting them.
+        BestiaryFlavorText: Эта редкая разновидность летучих мышей обладает внушительными размерами и силой. Она способна летать с тяжёлым ценным металлом на крыльях, а также наносить серьёзные травмы охотникам, которые осмеливаются её преследовать.
     }
 
     GildedLycan: {
         DisplayName: Золотистый ликан
-        BestiaryFlavorText: "Though werewolves are said to be weak to silver, the same is clearly not true of gold, given the existence of these blinged-out beastmen. "
+        BestiaryFlavorText: Хотя оборотней традиционно считают уязвимыми к серебру, это утверждение не подтверждается существованием золотистых оборотней.
     }
 
     GildedSlime: {

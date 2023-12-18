@@ -324,7 +324,7 @@ Bestiary: {
     PlaguebringerMiniboss: Nothing can escape the Plague; everything is either assimilated or culled. Such is the case of queen bees. While strong enough to stave off plagued creatures, they are often forced to abandon their hives due to their subjects becoming infected. This leaves their larvae to be overtaken by nanites, and soon after, a plaguebringer is born.
     PlagueCharger: Spawn of the plaguebringers, these were born already taken by Draedon’s nanomachines. Nanites ensure they reach adulthood in a matter of hours by supercharging their aging process, even if this means their lifespan can be counted in days. Yet, this is exactly what makes them the perfect dispensable soldiers.
     Plagueshell: Панцирь и нервная система черепахи находятся в тесной связи, что делает гигантских черепах идеальной жертвой для чумы. Болевые ощущения, возникающие при вгрызании в панцирь, быстро обезболиваются, и черепахи оказываются под контролем чумы, не проявляя никакого сопротивления.
-    Viruling: Unlike derplings, who use their proboscis to drain the blood of other creatures, virulings use theirs to inject the plague directly into their victims. Aside from the plaguebringers themselves, no creature is nearly as efficient at contaminating the local wildlife.
+    Viruling: В отличие от тупоголов, которые используют свой хоботок, чтобы высасывать кровь из других существ, чумные крикуны используют его для прямого введения чумы в жертву. Помимо самих разносчиц чумы, ни одно другое существо не обладает такой высокой эффективностью в заражении местной фауны.
     AnthozoanCrab: Они выглядят как простые камни; они легко могут швырять огромные валуны во всяких существ, и, заметив приближение, стремительно сбегают. В других местах, подобное создание процветало бы благодаря своей мощи, но в такой враждебной среде, как эта, оно вынуждено прилагать столько усилий лишь для выживания.
     AquaticUrchin: Акватические ежи, тесно связанные с обычными ежами, были вынуждены адаптироваться к кислотной воде и радиоактивному загрязнению. Их ядовитые шипы обычно отпугивают хищников, но в среде, в которой они обитают, даже болезненная добыча является пищей. В этом море ни одно существо не может позволить себе быть привередливым в еде.
     BelchingCoral: Все кораллы проявляют признаки жизни в разной степени, однако данный вид выделяется своим повышенным интеллектом. Они способны защищаться от существ, пытающихся съесть их, выпуская сернистый газ под давлением, когда они приближаются. Порой этот процесс издаёт гул, напоминающий музыку.
@@ -334,9 +334,9 @@ Bestiary: {
     Trasher: Despite being equipped with a mouth large enough to swallow a child whole, these crocodiles simply act as scavengers, devouring scraps and bones left over from predators’ meals. Needing to conserve energy due to eating relatively little, they rarely move at their full speed unless they feel threatened.
     BabyGhostBell: В период Ильмеранской войны было выведено огромное количество призрачных колокольчиков. Это было необходимо Ильмерской армии, так как им требовалось огромное количество электроэнергии для противостояния Яриму и его армии. Однако все их усилия оказались тщетны, и королевство потерпело крах после Великого сожжения.
     BlindedAngler: Lacking most normal senses, these predators use a form of biological sonar to 'see' their surroundings. The glowing crystals on their backs draw in prey that use the sea’s shimmering prisms as their guiding light, like a moth to the flame.
-    Clam: Clams once lived in the upper portion of the Ilmeran Sea before the Incineration, being forced to relocate after the battle. Though it was thanks in part to their adaptability and hardiness that their species survived, luck was also certainly on their side.
-    EutrophicRay: Eutrophic Rays have formed a commensalistic relationship with Ghost Bells. The rays can store energy given by the Ghost Bells for electrical muscle stimulation, allowing for great bursts of speed.
-    GhostBell: These high-voltage jellyfish can incapacitate most with a single touch, and were a major factor in the Ilmerian army’s strength. The sea kingdom used the electricity produced by Ghost Bells to drive back Yharim’s forces, electrifying the waters so that none could cross their borders.
+    Clam: Моллюски до Сожжения обитали в верхней части Ильмеранского моря, но после битвы были вынуждены переселиться. Их выживание стало возможным благодаря способности к адаптации и выносливости, но не обошлось и без удачи.
+    EutrophicRay: Эвтрофные скаты и призрачные колокольчики заключили взаимовыгодный союз. Скаты могут аккумулировать энергию, полученную от колокольчиков, для электрической стимуляции мышц, что позволяет им развивать огромную скорость.
+    GhostBell: Эти высоковольтные медузы способны парализовать практически любое существо лишь одним касанием. Они представляли собой важную часть военной мощи Ильмеранской армии. Морское королевство использовало электричество, производимое призрачными колокольчиками, для сопротивления силам Ярима. Они электрифицировали воды, чтобы никто не смог пересечь границы королевства.
     GiantClam: Моллюски постепенно кристаллизуют окружающую их магию в жемчуг, который растёт вместе с ними. Когда они достигают своего полного размера, они становятся гигантскими моллюсками и обретают способность извлекать магию из своих жемчужин.
     PrismBack: Из-за красивых призм и спокойного характера, эти существа на протяжении веков стали верными спутниками для многих, включая тех, кто живёт за пределами Ильмериса. И хотя их скорость и габариты делают их не слишком подходящими для охоты, морские призмы на их спинах привлекают мелкую рыбёшку, создавая уникальную приманку.
     SeaFloaty: Flatworms can be found in many seas and oceans across the world, and are exceptional at fitting through cracks or crevices due to their thin bodies. These particular flatworms only ever inhabited the lower sea, and were left entirely unthreatened by the carnage that annihilated most species’ homes.
@@ -3629,7 +3629,7 @@ Items: {
                 '''
                 На траве, по которой прошлись, начинают расти грибы
                 Употребление грибов даёт бафф «{$Buffs.Mushy.DisplayName}», увеличивающий защиту на 6 и регенерацию здоровья на 1
-                Все грибные оружия наносят на 10% больше урона и испускают не наносящие урон грибы
+                Всё грибное оружие наносит на 10% больше урона и испускает не наносящие урон грибы
                 '''
         }
     
@@ -11245,8 +11245,8 @@ Items: {
         }
         
         MonolithSink: {
-            DisplayName: Считается источником воды
-            Tooltip: Монолитная раковина
+            DisplayName: Монолитная раковина
+            Tooltip: Считается источником воды
         }
         
         MonolithTable: {

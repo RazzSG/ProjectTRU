@@ -144,9 +144,9 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             ArmorSetBonuses[ItemID.CobaltHelmet] = $"{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Cobalt.Melee")}\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Cobalt", 10, 10)}";
             ArmorSetBonuses[ItemID.CobaltHat] = $"{Language.GetTextValue("ArmorSetBonus.CobaltCaster")}\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Cobalt", 10, 10)}";
             ArmorSetBonuses[ItemID.CobaltMask] = $"{Language.GetTextValue("ArmorSetBonus.CobaltRanged")}\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Cobalt", 10, 10)}";
-            ArmorSetBonuses[ItemID.MythrilHelmet] = $"{Language.GetTextValue("ArmorSetBonus.MythrilMelee")}\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Cobalt", 12)}";
-            ArmorSetBonuses[ItemID.MythrilHood] = $"{Language.GetTextValue("ArmorSetBonus.MythrilCaster")}\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Cobalt", 12)}";
-            ArmorSetBonuses[ItemID.MythrilHat] = $"{Language.GetTextValue("ArmorSetBonus.MythrilRanged")}\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Cobalt", 12)}";
+            ArmorSetBonuses[ItemID.MythrilHelmet] = $"{Language.GetTextValue("ArmorSetBonus.MythrilMelee")}\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Mythril", 12)}";
+            ArmorSetBonuses[ItemID.MythrilHood] = $"{Language.GetTextValue("ArmorSetBonus.MythrilCaster")}\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Mythril", 12)}";
+            ArmorSetBonuses[ItemID.MythrilHat] = $"{Language.GetTextValue("ArmorSetBonus.MythrilRanged")}\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Mythril", 12)}";
             ArmorSetBonuses[ItemID.ShadowHelmet] = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Shadow");
             ArmorSetBonuses[ItemID.AncientShadowHelmet] = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Shadow");
             ArmorSetBonuses[ItemID.EskimoHood] = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Eskimo");
