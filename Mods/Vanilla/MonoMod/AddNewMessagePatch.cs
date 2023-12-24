@@ -40,14 +40,6 @@ public class AddNewMessagePatch : ILoadable
         // Infernum
         if (text.Contains("was somehow impaled by a pillar of crystals."))
             text = text.Replace("was somehow impaled by a pillar of crystals.", "неведомым образом пронзается кристальной колонной.");
-        if (text.Contains("was blown up."))
-            text = text.Replace("was blown up.", "взрывается.");
-        if (text.Contains("could not withstand the red lightning."))
-            text = text.Replace("could not withstand the red lightning.", "не выдерживает красной молнии.");
-        if (text.Contains("was incinerated by ungodly fire."))
-            text = text.Replace("was incinerated by ungodly fire.", "сгорает осквернённым огнём.");
-        if (text.Contains("went mad."))
-            text = text.Replace("went mad.", "сходит с ума.");
         if (text.Contains("was repelled by celestial forces."))
             text = text.Replace("was repelled by celestial forces.", "отбрасывается неземными силами.");
         if (text.Contains("was violently pricked by roses."))

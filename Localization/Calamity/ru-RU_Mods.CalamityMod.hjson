@@ -930,7 +930,7 @@ Buffs: {
     }
 
     VulnerabilityHex: {
-        DisplayName: Проклятье уязвимости
+        DisplayName: Проклятие уязвимости
         Description: Ваша ментальная стойкость угасает
     }
 
@@ -7198,7 +7198,7 @@ Items: {
             Tooltip: Для расшифровки требуется Дешифратор с базовым дешифровальным компьютером
             Content:
                 '''
-                В армии, солдаты, как и оружие, служат разным целям. Это различие имеет решающее значение, поскольку неправильный инструмент в неправильных руках, каким бы мощным он ни был, с таким же успехом может быть деревянной дубиной.
+                В армии, солдаты, как и оружие, служат разным целям. Это различие играет ключевую роль, ведь неправильный инструмент в неправильных руках, каким бы мощным он ни был, не лучше деревянной дубины.
                 Дополнение: Найдите мою базу, она расположена недалеко от Храма яхщеров. Искренне желаю вам удачи. Прошло много времени с тех пор, как у меня был достойный испытуемый.
                 '''
         }
@@ -23305,12 +23305,67 @@ UI: {
     Contact: Контакт
     Summon: Призыв
     Evoke: Пробудить
+    Exit: Выход
     Communicate: Общение
     ConfirmationText: Вы уверены?
     UpgradesRequired: Шифрование нерешаемое: требуются обновления.
     ThanatosIcon: Танатос - змееподобный ужас с непробиваемой бронёй и бесчисленным количеством лазерных турелей.
     AresIcon: Арес - тяжеловес, дьявольское чудовище с четырьмя экзо-супероружиями.
     ArtemisApolloIcon: Артемида и Аполлон - тандем исключительно стойких механизмов, обладающих нестабильным запасом энергии.
+    
+    Communication: {
+        WhoAreYou: {
+            Inquiry: Кто ты?
+            Response:
+                '''
+                Этот вопрос требует философского подхода. Я отвечу на него только с точки зрения фактов.\n\n
+                Я не с этой планеты. Я был рождён из машин. Или, вернее, меня... создали. Не совсем корректно говорить, что я родился.\n\n
+                Точные обстоятельства мне неизвестны. Но я точно знаю, что первым, что я осознал, было то, что я находился в мастерской.\n\n
+                С тех пор моё существование было сосредоточено на акте творения и уничтожения.
+                '''
+        }
+    
+        CalamitasBeforeDefeat: {
+            Inquiry: Каламитас
+            Response: Ведьма? Она - ходячая угроза. Такая могущественная магия в живом существе была ей предназначена. Посмотри на себя теперь.
+        }
+    
+        CalamitasAfterDefeat: {
+            Inquiry: Каламитас
+            Response: Я заметил, что она стала более мягкой. Рассматривая вас, людей, столь склонных к эмоциям и угрызениям совести, я задаюсь вопросом, как ей удаётся вообще существовать в гармонии с самой собой.
+        }
+    
+        Plague: {
+            Inquiry: The Plague
+            Response:
+                '''
+                Fascinating, isn't it? I wasn't able to control it, unfortunately, but for science there is no such thing as failure as long as you record the results.\n\n
+                I knew the Astral Infection was capable of converting even machinery, but for nanotechnology I'd given it to react in kind, and begin to use the virus as a building block itself...\n\n
+                Marvelous.
+                '''
+        }
+    
+        SulphuricSea: {
+            Inquiry: The Sulphuric Sea
+            Response:
+                '''
+                Your concern for the utter destruction of the ecosystem is understandable, for you biological, and sentimental folk. However, nothing is irreparable or truly unrecreatable. Not even your sacred 'miracle of life'.\n\n
+                The sea simply exists now in a different state than what it once was, one that resulted out of convenience for my work.\n\n
+                Should I ever need to return to that sea? A pointless worry. I shall simply recreate it from the data I gathered, from the bedrock up. I would be a shame as a creator should I not be able to do that.
+                '''
+        }
+    
+        TheTyrant: {
+            Inquiry: The Tyrant
+            Response:
+                '''
+                My patron...\n
+                He is not someone I have spoken to in a very long time.\n\n
+                Is that such a surprise? He no longer required my services and I no longer needed his patronage. Many years ago now he withdrew himself to some secret hideaway. I suspect, to the grave of dragons he spoke of...\n\n
+                Should you locate him, I'll await the news of either his or your death. Perhaps I will collect the cadaver.
+                '''
+        }
+    }
     
     Hologram: {
         Text1: Напоминаем всему персоналу. Пожалуйста, носите ваш персональный стальной идентификационный значок. Это самый простой способ опознать тело в случае несчастного случая.

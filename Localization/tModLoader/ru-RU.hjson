@@ -1,3 +1,4 @@
 ﻿CommonItemTooltip: {
     PercentChanceToSaveAmmo: Даёт {0}% шанс не использовать боеприпасы
+    SummonTagDamage: "{0} урона от метки призывателя"
 }

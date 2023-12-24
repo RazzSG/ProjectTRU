@@ -72,13 +72,6 @@ public class DrawColorCodedStringWithShadowPatch : ILoadable
             
         text = text switch
         {
-            // Infernum
-            "Toggle cybernetic immortality" => "Переключить кибернетическое бессмертие",
-            "Toggle physics defiance flying" => "Переключить игнорирование физики полёта",
-            "Accelerate time until sunrise" => "Ускорить время до восхода солнца",
-            "Accelerate time until noon" => "Ускорить время до полудня",
-            "Accelerate time until sunset" => "Ускорить время до заката солнца",
-            "Atomize every single hostile NPC" => "Атомизировать всех враждебных НИПов",
             // Thorium
             "\n\nConsumes [i/s5:75] to change the world difficulty\nChange to Мастер Mode" => "\n\nРасходует [i/s5:75] для изменения сложности мира\nПереключает сложность в режим Мастера",
             "\n\nConsumes [i/s5:75] to change the world difficulty\nChange to Эксперт Mode" => "\n\nРасходует [i/s5:75] для изменения сложности мира\nПереключает сложность в режим Эксперта",

@@ -28,10 +28,6 @@ public class DrawBorderStringFourWayPatch : ILoadable
     {
         text = text switch
         {
-            // Infernum
-            "Thanatos, a serpentine terror with impervious armor and innumerable laser turrets." => "Танатос - змееподобный ужас с непробиваемой броней и бесчисленным количеством лазерных турелей.",
-            "Ares, a heavyweight, diabolical monstrosity with six Exo superweapons." => "Арес - тяжеловес, дьявольское чудовище с шестью экзо-супероружиями.",
-            "Artemis and Apollo, a pair of extremely agile destroyers with unstable energy reserves." => "Артемида и Аполлон - тандем чрезвычайно манёвренных уничтожителей, обладающих нестабильным запасом энергии.",
             _ => text
         };
         

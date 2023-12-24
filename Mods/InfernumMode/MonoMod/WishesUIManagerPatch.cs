@@ -16,6 +16,5 @@ public class WishesUIManagerPatch : ILPatcher
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {
         TranslationHelper.ModifyIL(il, 900f, 1000f);
-        TranslationHelper.ModifyIL(il, "Dev Wishes", "Mods.InfernumMode.UI.WishesHeader");
     };
 }
