@@ -988,7 +988,7 @@ Buffs: {
 
     Oozed: {
         DisplayName: Оклеен
-        Description: Скорость передвижения значительно снижена
+        Description: Скорость значительно снижена
     }
 
     Paralyzed: {
@@ -3760,8 +3760,8 @@ Items: {
         DisplayName: Шлаковые топтуны
         Tooltip:
             '''
-            Увеличивает скорость передвижения на 8%
-            Из-под ботинок выпадает наносящий урон шлак
+            Позволяет очень быстро бегать
+            Во время боя ваши шаги оставляют на земле огненный след, наносящий урон
             '''
     }
 
@@ -5293,13 +5293,30 @@ Items: {
     }
 
     BirdFeeder: {
-        DisplayName: Кормушка для птиц
-        Tooltip:
+        CommonTooltip:
             '''
             Поместите семена или фрукты в кормушку, чтобы привлечь птиц
-            Птицы оставляют случайные фрукты, если вы поместили в кормушку семена
-            Птицы оставляют зелья в зависимости от того, какие фрукты вы поместили в кормушку
+            Птицы оставляют случайные фрукты или зелья в зависимости от того, что вы поместили в кормушку
+            Наличие его в инвентаре или размещение на земле позволяет собирать семена
+            Можно разместить только на поверхности
             '''
+        ConvertTooltip: Нажмите <right>, чтобы переключить внешний вид или пересоздайте его в {0} вариант
+        Grounded: наземный
+        Hanging: подвесной
+        PylonRestriction: Вы можете разместить не более {0} кормушек для птиц на каждый установленный в мире пилон (текущее ограничение: {1})
+        SeedTooltipReplacement: Для использования с духовыми трубками и кормушками для птиц
+        SeedTooltipFallback: Для использования с кормушками для птиц
+        TileMouseover: Вернитесь позже...
+    }
+
+    BirdFeederGrounded: {
+        DisplayName: Кормушка для птиц
+        Tooltip: ""
+    }
+
+    BirdFeederHanging: {
+        DisplayName: Кормушка для птиц (Подвесная)
+        Tooltip: ""
     }
 
     BlackMIDI: {
@@ -6480,7 +6497,7 @@ Items: {
             '''
             'Модификация, разработанная для специальной серии боевых андроидов'
             Обездвиживает вас и заряжает мощный энергетический выстрел, который накапливает энергию с каждым попаданием
-            Нажмите <right> при полной энергии, чтобы временно усилить <left>
+            При полной энергии нажмите <right>, чтобы временно усилить <left>
             '''
     }
 
@@ -6694,7 +6711,12 @@ Items: {
 
     QuakeGauntlet: {
         DisplayName: Рукавица сотрясения
-        Tooltip: Разрывает ткань реальности вокруг курсора
+        Tooltip:
+            '''
+            'Зенит... Зенит существует!'
+            Высвобождает шквал вибрирующих ударов, накапливая энергию с каждым ударом по врагу
+            При полной энергии нажмите <right>, чтобы расколоть реальность в позиции курсора
+            '''
     }
 
     QuasarsFlare: {
@@ -6709,7 +6731,7 @@ Items: {
 
     Razorlash: {
         DisplayName: Бритвохлёст
-        Tooltip: Заряжает большой энергетический разрез, который окутывает первого попавшегося врага пронизывающим ветром
+        Tooltip: Заряжает большой энергетический разрез, который окутывает врагов пронизывающим ветром
     }
 
     RedWolfLeggings: {
@@ -7105,7 +7127,7 @@ Items: {
         Tooltip:
             '''
             Увеличивает длительность неуязвимости и скорость передвижения при получении урона
-            При получении урона появляются пчёлы и звёзды
+            При получении урона появляются пчёлы и звёзды и обливает игрока мёдом
             '''
     }
 
@@ -11841,7 +11863,7 @@ Items: {
 
     CrawdadClaw: {
         DisplayName: Коготь речного рака
-        Tooltip: В бою ваш урон постепенно увеличивается на 1, пока не достигнет 3
+        Tooltip: В бою ваш урон постепенно увеличивается на 1, пока не достигнет 2
     }
 
     DeathGazersGlass: {
@@ -12289,9 +12311,14 @@ Items: {
         Tooltip: Выпускает проливной водоворот
     }
 
+    AdorationoftheGoldBunnyPaint: {
+        DisplayName: Картина «Поклонение золотому кролику»
+        Tooltip: "'Х. Сиксфор'"
+    }
+
     AquaticParadisePaint: {
-        DisplayName: Картина «Акватический раз»
-        Tooltip: "'К. Сондс'"
+        DisplayName: Картина «Акватический рай»
+        Tooltip: "'С. Сондс'"
     }
 
     AToastPaint: {
@@ -12299,9 +12326,24 @@ Items: {
         Tooltip: "'М. С. Ким'"
     }
 
+    BackwardsPaint: {
+        DisplayName: Картина «Обратная сторона»
+        Tooltip: "'Д. Крейг'"
+    }
+
     BlankPainting: {
         DisplayName: Пустая картина
         Tooltip: "'Вы можете нарисовать что угодно!'"
+    }
+
+    ChorusofAndrewPaint: {
+        DisplayName: Картина «Хор Эндрю»
+        Tooltip: "'Х. Сиксфор'"
+    }
+
+    ChorusofEvviePaint: {
+        DisplayName: Картина «Хор Ивви»
+        Tooltip: "'Х. Сиксфор'"
     }
 
     CuriousSeaLifePaint: {
@@ -12319,6 +12361,16 @@ Items: {
         Tooltip: "'Б. Миттс'"
     }
 
+    EmpireofNightPaint: {
+        DisplayName: Картина «Империя ночи»
+        Tooltip: "'М. Б. Нана'"
+    }
+
+    EntirelyHerePaint: {
+        DisplayName: Картина «Целиком здесь»
+        Tooltip: "'Х. Сиксфор'"
+    }
+
     FinalMomentsPaint: {
         DisplayName: Картина «Последние мгновения»
         Tooltip:
@@ -12327,6 +12379,26 @@ Items: {
             'Эта картина посвящена храбрым террарийцам, которые отдали свои жизни, защищая этот мир от угроз Thorium
             Да не забудем их...'
             '''
+    }
+
+    FirstContactPaint: {
+        DisplayName: Картина «Первый контакт»
+        Tooltip: "'С. Сондс'"
+    }
+
+    FlightHat64Paint: {
+        DisplayName: Картина «Летающая шляпа 64»
+        Tooltip: "'Х. Сиксфор'"
+    }
+
+    GreatForImpersonatingDevsPaint: {
+        DisplayName: Картина «Идеально для косплея разработчиков!»
+        Tooltip: "'Х. Сиксфор'"
+    }
+
+    InconspicuousTunnelPaint: {
+        DisplayName: Картина «Незаметный тоннель»
+        Tooltip: "'Х. Сиксфор'"
     }
 
     JellyintheWaterPaint: {
@@ -12338,10 +12410,20 @@ Items: {
         DisplayName: Картина «Джолли Роджер»
         Tooltip: "'Б. Миттс'"
     }
+    
+    KnightsofHallowPaint: {
+        DisplayName: Картина «Рыцари святости»
+        Tooltip: "'Х. Сиксфор'"
+    }
 
     LastSupperPaint: {
         DisplayName: Картина «Тайная вечеря»
         Tooltip: "'Л. Винс'"
+    }
+    
+    LivingIslandPaint: {
+        DisplayName: Картина «Живой остров»
+        Tooltip: "'С. Кретч'"
     }
 
     LoudFootstepsPaint: {
@@ -12383,6 +12465,21 @@ Items: {
         DisplayName: Картина «Спектральная симфония»
         Tooltip: "'М. Б. Нана'"
     }
+    
+    StudyofMetallurgyPaint: {
+        DisplayName: Картина «Изучение металлургии»
+        Tooltip: "'С. Б. Би'"
+    }
+
+    TeatimePaint: {
+        DisplayName: Картина «Чаепитие»
+        Tooltip: "'Д. Крейг'"
+    }
+
+    TerrarianThePrincessAndTheSpiritualistPaint: {
+        DisplayName: Картина «Террариец, Принцесса и Спиритуалист»
+        Tooltip: "'Х. Сиксфор'"
+    }
 
     TheFoggyFiferPaint: {
         DisplayName: Картина «Туманный флейтист»
@@ -12398,6 +12495,11 @@ Items: {
         DisplayName: Картина «Размышления о шарах»
         Tooltip: "'Н. Блу'"
     }
+    
+    ThunderbirdPaint: {
+        DisplayName: Картина «Буревестник»
+        Tooltip: "'С. Дью'"
+    }
 
     ThunderOverDesertSkiesPaint: {
         DisplayName: Картина «Гром над пустынными небесами»
@@ -12407,6 +12509,11 @@ Items: {
     TitanicTrioPaint: {
         DisplayName: Картина «Титановое трио»
         Tooltip: "'С. Дэй'"
+    }
+    
+    TrackerandHermitsPaint: {
+        DisplayName: Картина «Следопыт и отшельники»
+        Tooltip: "'Х. Сиксфор'"
     }
 
     UnderseaBountyPaint: {
@@ -12418,10 +12525,20 @@ Items: {
         DisplayName: Картина «Невысказанная боль»
         Tooltip: "'Б. Миттс'"
     }
+    
+    WarmVisitPaint: {
+        DisplayName: Картина «Тёплый приём»
+        Tooltip: "'Д. Мур'"
+    }
 
     WebbedOverPaint: {
         DisplayName: Картина «Паутина повсюду»
         Tooltip: "'С. Дью'"
+    }
+    
+    WonderAcornPaint: {
+        DisplayName: Картина «Чудо-жёлудь»
+        Tooltip: "'Х. Сиксфор'"
     }
 
     AmberMarineBlock: {
@@ -18471,6 +18588,24 @@ Items: {
         DisplayName: Тестовая игла
         Tooltip: В воздухе усиливается, отравляя поражённых врагов
     }
+
+    JetBoots: {
+        DisplayName: Прыжковые ботинки
+        Tooltip:
+            '''
+            Позволяет очень быстро бегать
+            Позволяет четыре раза ускориться в воздухе
+            '''
+    }
+
+    Bonesaw: {
+        DisplayName: Костяная пила
+        Tooltip:
+            '''
+            Убийство врага даёт вам 2 'органа', позволяя хранить до 10
+            Нажмите <right>, чтобы бросить хранящийся орган во врагов
+            '''
+    }
 }
 
 NPCs: {
@@ -21392,6 +21527,13 @@ Projectiles: {
     NanoClamCaneProPearl.DisplayName: Baby Giga Clam Pearl
     ZephyrsGripHatchlingPro.DisplayName: "{$Items.ZephyrsGrip.DisplayName}"
     ZephyrsGripPro.DisplayName: "{$Items.ZephyrsGrip.DisplayName}"
+    QuakeGauntletPro4.DisplayName: Quake Gauntlet
+    QuakeGauntletPro3.DisplayName: Quake Gauntlet
+    QuakeGauntletPro2.DisplayName: Quake Gauntlet
+    QuakeGauntletPro.DisplayName: Quake Gauntlet
+    QuakeGauntletPro5.DisplayName: Quake Gauntlet Pro5
+    QuakeGauntletPro6.DisplayName: Quake Gauntlet Pro6
+    BonesawPro.DisplayName: Bonesaw Pro
 }
 
 Tiles: {
@@ -21889,8 +22031,6 @@ Configs: {
             ToggleAllOn: Включить всё
             ToggleAllOff: Выключить всё
         }
-
-        AcceptClientChangesRejected: Поскольку вы не являетесь владельцем сервера, вам не предоставляется возможности изменять данную конфигурацию.
     }
 }
 

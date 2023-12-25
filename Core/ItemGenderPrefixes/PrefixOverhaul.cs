@@ -1280,6 +1280,7 @@ public class ThoriumModItems : IItemGender
                 "TheBlackScythe",
                 "ValadiumPickaxe",
                 "BasicPickaxe",
+                "Bonesaw",
             };
         
             List<int> types = new List<int>();
@@ -1447,6 +1448,7 @@ public class ThoriumModItems : IItemGender
                 "StalkersSnippers",
                 "WhiteDwarfThrusters",
                 "TitanWings",
+                "JetBoots",
             };
     
             List<int> types = new List<int>();
