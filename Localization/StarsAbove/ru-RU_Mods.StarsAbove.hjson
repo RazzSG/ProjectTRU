@@ -1,33 +1,33 @@
 ﻿DeathReason: {
-    SanguineDespair: drained themselves of all life.
-    SupremeAuthority: returned to the void.
-    Thespian: failed to follow the act.
-    ShockAndAwe: ... tried to rocket jump too hard.
-    InevitableEnd: was caught in the crossfire of {0}'s Inevitable End.
-    Arbitration: was doomed to chaos.
+    SanguineDespair: отдаёт всю свою жизнь.
+    SupremeAuthority: возвращается в пустоту.
+    Thespian: не следует сценарию.
+    ShockAndAwe: ... делает неудачный ракетный прыжок.
+    InevitableEnd: попадает под перекрёсный огонь 'Неизбежного конца' игрока {0}.
+    Arbitration: обречён на хаос.
 }
 
 Boss.WarriorOfLight: Воин Света снисходит!
-TempInfo: Приветствую! Похоже, вы играете в The Stars Above в мультиплеере! Please note that as of now, disabling Multiplayer Compatibility Mode is not recommended. При включённом режиме при попытках отправиться в локации космического путешествия вы будете получать соответствующие предметы по таймеру.
+TempInfo: Приветствуем! Как видим, вы играете в The Stars Above в мультиплеере! Please note that as of now, disabling Multiplayer Compatibility Mode is not recommended. При включённом режиме при попытках отправиться в локации космического путешествия вы будете получать соответствующие предметы по таймеру.
 
 CombatText: {
     StellarNovaReady: Астронова готова!
 
     DevotedHavoc: {
-        Grenade: Grenade prepped
-        Shuriken: Shuriken prepped
-        Molotov: Molotov prepped
+        Grenade: Граната готова
+        Shuriken: Сюрикен готов
+        Molotov: Молотов готов
     }
 
     MiserysCompany: {
-        Scythe: Scythe deployed!
-        Shotgun: Shotgun deployed!
-        Blade: Blade deployed!
+        Scythe: Коса!
+        Shotgun: Дробовик!
+        Blade: Меч!
     }
 
     Adornment: {
-        Positive: Positive Chaos!
-        Negative: Negative Chaos!
+        Positive: Позитивный хаос!
+        Negative: Негативный хаос!
     }
 
     ManiacalJustice: {
@@ -43,32 +43,32 @@ CombatText: {
     }
 
     WarriorOfLight: {
-        ImbueIce: Клинок Воина Света усилен льдом!
-        ImbueFire: Клинок Воина Света усилен огнём!
-        UseImbue: Воин Света извлекает энергию вложенного элемента!
+        ImbueIce: Клинок Воина света усилен льдом!
+        ImbueFire: Клинок Воина света усилен огнём!
+        UseImbue: Воин света извлекает энергию вложенного элемента!
         PhaseChange: Ваши последние дни наступили...
-        ChargeNova: Воин Света готовит свою Астронову!
-        ChargeStarfarer: Воин Света черпает силу своего Звездоносца!
-        GardenOfAvalon: Сад Авалона защищает Воина Света от урона!
+        ChargeNova: Воин света готовит свою Астронову!
+        ChargeStarfarer: Воин света черпает силу своего Звездоносца!
+        GardenOfAvalon: Сад Авалона защищает Воина света от урона!
         QTE: Быстро нажмите клавишу Астроновы!
     }
 
     Thespian: {
-        AthanoricCurse: The walls of the arena pulse with corrosive energy!
-        RingmastersWill: The Ringmaster compels you to act!
-        MoveLeft: Move left in {0}...
-        MoveRight: Move right in {0}...
-        StopMoving: Stop moving in {0}...
-        LaunchLeft: Launched left in {0}...
-        LaunchRight: Launched right in {0}...
-        Success: Success!
-        Happy: The Ringmaster's [c/FADE5D:delight] begets chaos...
-        Angry: The Ringmaster's [c/D83838:fury] begets chaos...
-        Sad: The Ringmaster's [c/3888D8:despair] begets chaos...
+        AthanoricCurse: Стены арены пульсируют разъедающей энергией!
+        RingmastersWill: Шпрехшталмейстер велит вам выступать!
+        MoveLeft: Двигайтесь влево через {0}...
+        MoveRight: Двигайтесь вправо через {0}...
+        StopMoving: Не двигайтесь через {0}...
+        LaunchLeft: Запуск слева через {0}...
+        LaunchRight: Запуск справа через {0}...
+        Success: Успешно!
+        Happy: [c/FADE5D:Наслаждение] Шпрехшталмейстера порождает хаос...
+        Angry: [c/D83838:Ярость] Шпрехшталмейстера порождает хаос...
+        Sad: [c/3888D8:Отчаяние] Шпрехшталмейстера порождает хаос...
     }
 
     Arbitration: {
-        SeveredFate: Fate is severed; restore the thread of fate or perish...
+        SeveredFate: Судьба разорванна; восстановите нить судьбы или сгиньте...
         VisionsBeyond: Eldritch powers grant you visions beyond- Standing still and keeping focus will mimic this effect...
     }
 
@@ -143,121 +143,121 @@ CosmicVoyages: {
         Home: {
             Name: Homeworld
             Description: While well outside the habitable region due to the Ardor, this lucky outer planet was salvaged by a nearby supermassive star heating the region enough to harbor life.
-            Threat: Threat Level: N/A
-            Requirement: Stellaglyph not required for transit.
-            Loot: Resources: N/A
+            Threat: Уровень опасности: Н/О
+            Requirement: Для перехода требуется Космограф.
+            Loot: Ресурсы: Н/О
         }
 
         Observatory: {
             Name: Северная обсерватория
             Description: One of the many observatories dotting the Moirae Galaxy- and one your Starfarer calls home. Each Observatory is home to a magical conduit called a Celestriad Root.
-            Threat: Threat Level: N/A
-            Requirement: Stellaglyph not required for transit.
-            Loot: Resources: Celestriad Root (Crafting)
+            Threat: Уровень опасности: Н/О
+            Requirement: Для перехода требуется Космограф.
+            Loot: Ресурсы: Celestriad Root (Crafting)
         }
 
         BleachedPlanet: {
-            Name: Caelum
+            Name: Кейлум
             Description: It is unknown what sapped this planet of life, but it exists now as a shell of its former self: a chalky white lonely world. Only a small portion of the surface is traversable: the rest crumbles at any touch.
-            Threat: Threat Level: C
-            Requirement: Tier II Stellaglyph required for transit.
-            Loot: Resources: Rare accessory components
+            Threat: Уровень опасности: C
+            Requirement: Для перехода требуется Космограф второго уровня.
+            Loot: Ресурсы: Rare accessory components
         }
 
         CrimsonPlanet: {
-            Name: Scorpius
+            Name: Скорпиус
             Description: A moon long abandoned by its home star covered in eerie Crimson. It is unknown whether this celestial body is related to the blood moon phenomenon at this time.
-            Threat: Threat Level: C+
-            Requirement: Tier II Stellaglyph required for transit.
-            Loot: Resources: Crimson enemy drops
+            Threat: Уровень опасности: C+
+            Requirement: Для перехода требуется Космограф второго уровня.
+            Loot: Ресурсы: Crimson enemy drops
         }
 
         CygnusAsteroids: {
-            Name: Cygnus Asteroid Field
+            Name: Астеройдное поле Сигнуса
             Description: A collection of marble asteroids, notable for their strange foreign ruins- possibly a clue to their original inhabitants, yet the passage of time has rendered archeology impossible.
-            Threat: Threat Level: D
-            Requirement: Tier I Stellaglyph required for transit.
-            Loot: Resources: Prismatic Cores
+            Threat: Уровень опасности: D
+            Requirement: Для перехода требуется Космограф первого уровня.
+            Loot: Ресурсы: Prismatic Cores
         }
 
         CorruptedPlanet: {
-            Name: Serpens
+            Name: Змей
             Description: A strange, foreign mass drifting in space. While it appears stable, evidence suggests the entire celestial body is one giant Corrupted organism, perhaps once a part of a leviathan-class entity.
-            Threat: Threat Level: C+
-            Requirement: Tier II Stellaglyph required for transit.
-            Loot: Resources: Corruption enemy drops
+            Threat: Уровень опасности: C+
+            Requirement: Для перехода требуется Космограф второго уровня.
+            Loot: Ресурсы: Corruption enemy drops
         }
 
         GasGiant: {
             Name: Antlia
             Description: A colossal gas giant with no surface. Even close proximity would mean instant death due to the overwhelming force of its gravity.
-            Threat: Threat Level: A-
-            Requirement: Transit impossible at this time.
-            Loot: Resources: ???
+            Threat: Уровень опасности: A-
+            Requirement: Переход невозможен.
+            Loot: Ресурсы: ???
         }
 
         JunglePlanet: {
-            Name: Tucana
+            Name: Тукан
             Description: The selfsame supermassive star providing succor to your home planet has also graced this one- perhaps a bit too much. Below the lush overgrowth layer lies the cerulean undergrowth.
             Threat: Threat Level: C
-            Requirement: Tier II Stellaglyph required for transit.
-            Loot: Resources: Jungle enemy drops
+            Requirement: Для перехода требуется Космограф второго уровня.
+            Loot: Ресурсы: Jungle enemy drops
         }
 
         MiningStation: {
-            Name: Mining Station Aries
+            Name: Шахтёрская станция 'Овен'
             Description: A long-abandoned mining station positioned on the hollowed-out husk of a forgotten planet. Sights like this are common the further away you stray from the galaxy's center.
             Threat: Threat Level: D+
-            Requirement: Tier I Stellaglyph required for transit.
-            Loot: Resources: Prismatic Cores
+            Requirement: Для перехода требуется Космограф первого уровня.
+            Loot: Ресурсы: Prismatic Cores
         }
 
         WaterPlanet: {
             Name: Aquarius
             Description: An ocean planet covered entirely in water. While it does not sustain intelligent life, the geothermal conduction beneath the waves means some life can still persist, even deep within the Ardor.
             Threat: Threat Level: C-
-            Requirement: Transit impossible at this time.
-            Loot: Resources: ???
+            Requirement: Переход невозможен.
+            Loot: Ресурсы: ???
         }
 
         AlienPlanet: {
-            Name: Lyra
+            Name: Лира
             Description: A strange planet known as Anomaly Iota. It is recorded emitting strange, powerful vibrations periodically akin to a beating heart. Exploration is limited due to a highly acidic surface.
             Threat: Threat Level: B++ Anomaly
-            Requirement: Tier III Stellaglyph required for transit.
-            Loot: Resources: Rare Enemies
+            Requirement: Для перехода требуется Космограф третьего уровня.
+            Loot: Ресурсы: Rare Enemies
         }
 
         Pyxis: {
-            Name: Pyxis
+            Name: Пиксис
             Description: A tiny mana-concentrated region of space. Closer inspection reveals what seems to be a man-made structure, both rudimentary and stunningly innovative.
-            Threat: Threat Level: N/A
-            Requirement: Tier II Stellaglyph required for transit.
-            Loot: Resources: ???
+            Threat: Threat Level: Н/О
+            Requirement: Для перехода требуется Космограф второго уровня.
+            Loot: Ресурсы: ???
         }
 
         Corvus: {
-            Name: Corvus
+            Name: Корвус
             Description: Deep within the Ardor, dwindling resources led to this ruined, war-torn ashen planet. A grim reminder that while war could kill you, the cold will. While its citizens are long gone, lawless raiders roam the ruins.
             Threat: Threat Level: B
-            Requirement: Tier II Stellaglyph required for transit.
-            Loot: Resources: Unique upgrade materials
+            Requirement: Для перехода требуется Космограф второго уровня.
+            Loot: Ресурсы: Unique upgrade materials
         }
 
         Sagitta: {
             Name: Sagitta
             Description: A picturesque planet, with a pleasant atmosphere and awe-inspiring giant rock formations. However, the lack of water leaves this planet devoid of anything but long-petrified foliage.
             Threat: Threat Level: D
-            Requirement: Transit impossible at this time.
-            Loot: Resources: None
+            Requirement: Переход невозможен.
+            Loot: Ресурсы: None
         }
 
         BlackHole: {
             Name: Moirae's Heart
             Description: The supermassive black hole that binds the galaxy together. The accretion disk surrounding the black hole is paradoxically the reason that civilization has flocked inwards: the desire for light's warmth.
             Threat: Threat Level: EX
-            Requirement: Transit impossible at this time.
-            Loot: Resources: N/A
+            Requirement: Переход невозможен.
+            Loot: Ресурсы: Н/О
         }
 
         DreamingCity: {
@@ -265,8 +265,8 @@ CosmicVoyages: {
             Description: A majestic stronghold once populated by a long forgotten race. It is plagued by hostile entites suffused with paracausal darkness, and is oft drifting between another plane of existence. Contributed by: Tatriskel
             Threat: Threat Level: A- Anomaly
             //Tier 3
-            Requirement: Tier III Stellaglyph required for transit.
-            Loot: Resources: Stellar Remnants
+            Requirement: Для перехода требуется Космограф третьего уровня.
+            Loot: Ресурсы: Stellar Remnants
         }
 
         Theranhad: {
@@ -274,8 +274,8 @@ CosmicVoyages: {
             Description: A floating archipelago left abandoned after its emperor became the vessel to a malevolent cosmic deity. A dark energy permeates the air. Contributed by: hakomari
             Threat: Threat Level: B-
             //Tier 3
-            Requirement: Tier III Stellaglyph required for transit.
-            Loot: Resources: Prismatic Cores
+            Requirement: Для перехода требуется Космограф третьего уровня.
+            Loot: Ресурсы: Prismatic Cores
         }
 
         Celestia: {
@@ -283,8 +283,8 @@ CosmicVoyages: {
             Description: A collection of well-preserved, brilliant structures bound by mystic energy, once in service of a powerful figure, albeit lost to time. Contributed by: Izanagi, The wanderer of stars
             Threat: Threat Level: C
             //Tier 2
-            Requirement: Tier II Stellaglyph required for transit.
-            Loot: Resources: Prismatic Cores
+            Requirement: Для перехода требуется Космограф второго уровня.
+            Loot: Ресурсы: Prismatic Cores
         }
 
         FaintArchives: {
@@ -292,8 +292,8 @@ CosmicVoyages: {
             Description: A strange, pristine locale sitting utop a cloudy expanse. The walls are home to myriad secrets and mysteries, some which threaten to come apart at the seams. Contributed by: UnkownSToast
             Threat: Threat Level: B
             //Tier 3
-            Requirement: Tier III Stellaglyph required for transit.
-            Loot: Resources: Unique Weapon Memory
+            Requirement: Для перехода требуется Космограф третьего уровня.
+            Loot: Ресурсы: Unique Weapon Memory
         }
 
         UltraPlant: {
@@ -301,16 +301,16 @@ CosmicVoyages: {
             Description: A unknown locale populated with strange figures both inert and living. The constant bursts of electricity provides a hostile evironment to traverse and explore. Contributed by: Hockerzocker
             Threat: Threat Level: C-B
             //Tier 2
-            Requirement: Tier II Stellaglyph required for transit.
-            Loot: Resources: Unique Weapon Memory
+            Requirement: Для перехода требуется Космограф второго уровня.
+            Loot: Ресурсы: Unique Weapon Memory
         }
 
         QuestionMark: {
             Name: " "
             Description: The Stellaglyph can't take you past this point yet... (Content will be added at a later date!)
-            Threat: N/A
-            Requirement: N/A
-            Loot: N/A
+            Threat: Н/О
+            Requirement: Н/О
+            Loot: Н/О
         }
     }
 }
@@ -447,7 +447,7 @@ StellarArray: {
         }
 
         InevitableEnd: {
-            Name: "[c/C2BDFF:Ранг 1] [c/FFEED1:'Inevitable End']"
+            Name: "[c/C2BDFF:Ранг 1] [c/FFEED1:'Неизбежный конец']"
             Description: Foes explode when defeated, dealing 50% of their Max HP in damage to nearby foes. When you die, deal 500% of your held weapon's damage to both nearby enemies and allies.
         }
 
@@ -481,7 +481,7 @@ StellarArray: {
         }
 
         Afterburner: {
-            Name: "[c/9C4FFF:Tier 2] [c/FFD792:'Afterburner']"
+            Name: "[c/9C4FFF:Tier 2] [c/FFD792:'Дожигатель']"
             Description: When Mana drops below 40, gain 150 Mana and all attacks critically strike for 4 seconds. 25 second cooldown.
             Unlock: "[c/9D9D9D:Locked:] Defeat Plantera"
         }
@@ -555,37 +555,37 @@ Archive: {
     }
 
     UnlockConditions: {
-        VisitGraveyard: Visit a Graveyard.
-        KingSlime: Defeat King Slime.
+        VisitGraveyard: Посетите кладбище.
+        KingSlime: Одолеть Короля слизней.
         EyeOfCthulhu: Одолейте Глаз Ктулху.
-        WorldEvil: Defeat the World Evil boss.
-        QueenBee: Defeat Queen Bee.
-        ObtainTier2Stellaglyph: Obtain a Tier 2 Stellaglyph.
-        Skeletron: Defeat Skeletron.
-        SkeletronBeach: Defeat Skeletron, then visit the Beach.
-        SkeletronUnderworld: Defeat Skeletron, then visit the Underworld.
-        WallOfFlesh: Defeat the Wall of Flesh.
-        GuideVoodooDoll: Find a Guide Voodoo Doll on a Hardcore character.
-        Hallowed: Visit the Hallowed.
-        PirateInvasion: Defeat a Pirate Invasion.
-        QueenSlime: Defeat Queen Slime.
-        AnyMechanical: Defeat any mechanical boss.
-        SkeletronPrime: Defeat Skeletron Prime.
-        AllMechanical: Defeat all mechanical bosses.
-        Nalhaun: Defeat Nalhaun, the Burnished King.
-        Plantera: Defeat Plantera.
-        FrostQueen: Defeat the Frost Queen.
-        Penthesilea: Defeat Penthesilea, the Witch of Ink.
-        Golem: Defeat Golem.
-        MartianMadness: Defeat Martian Madness.
-        DukeFishron: Defeat Duke Fishron.
-        LunaticCultist: Defeat the Lunatic Cultist.
-        MoonLord: Defeat Moon Lord.
-        WarriorOfLight: Defeat the Warrior of Light.
+        WorldEvil: Одолейте босса мирового зла.
+        QueenBee: Одолеть Королеву пчёл.
+        ObtainTier2Stellaglyph: Получите Космограф (Ранг 2).
+        Skeletron: Одолейте Скелетрона.
+        SkeletronBeach: Одолейте Скелетрона, затем посетите пляж.
+        SkeletronUnderworld: Одолейте Скелетрона, затем посетите преисподнюю.
+        WallOfFlesh: Одолейте Стену плоти.
+        GuideVoodooDoll: Найдите куклу вуду гида в режиме хардкор.
+        Hallowed: Посетите Освящение.
+        PirateInvasion: Завершите событие «Нашествие пиратов».
+        QueenSlime: Одолейте Королеву слизней.
+        AnyMechanical: Одолейте любого механического босса.
+        SkeletronPrime: Одолейте Скелетрона Прайма.
+        AllMechanical: Одолейте всех механических боссов.
+        Nalhaun: Одолейте Налхана, Воронённого короля.
+        Plantera: Одолейте Плантеру.
+        FrostQueen: Одолейте ледяную королеву.
+        Penthesilea: Одолейте Пентесилею, Ведьму чернил.
+        Golem: Одолейте Голема.
+        MartianMadness: Завершите событие «Марсианское безумие».
+        DukeFishron: Одолейте Герцога Рыброна.
+        LunaticCultist: Одолейте Кулитиста-лунатика.
+        MoonLord: Одолейте Лунного лорда.
+        WarriorOfLight: Одолейте Воина света.
         Tsukiyomi: Одолейте ???
         EmpressOfLight: Одолейте Императрицу света.
-        Pumpking: Defeat Pumpking.
-        Deerclops: Defeat Deerclops.
+        Pumpking: Одолейте тыквенного короля.
+        Deerclops: Одолейте Циклопа-оленя.
     }
 }
 
@@ -3865,7 +3865,7 @@ StellarNova: {
         }
 
         ArsLaevateinn: {
-            AbilityName: Ars Laevateinn
+            AbilityName: Арс Леватейн
             AbilitySubName: "[c/F19559:Shine True, O Burning Bright Star]"
             AbilityDescription: Wield a blazing greatsword to return foes to ashes. Casting Ars Laevataeinn will mark a colossal region around you with infernal flames. Ars Laevateinn will pulse damage five times in the specified region, dealing 1/5th of the total damage with each hit. During this time, you will be granted 'Surtr's Twilight.' While this buff is active, all attacks will Burn foes for 8 seconds. If Burned foes are struck by Ars Laevateinn, they will take 5% extra damage.
             AstralBonus: Burning foes take 5% extra damage. If the attack was a critical strike, burning foes 5% more damage.
@@ -3873,7 +3873,7 @@ StellarNova: {
         }
 
         KiwamiRyuken: {
-            AbilityName: Kiwami Ryuken
+            AbilityName: Кивами Рюкен
             AbilitySubName: "[c/36BDEC:Unbridled Essence of the Dragon's Fist]"
             AbilityDescription: Upon activation of Kiwami Ryuken, you will have a one-second window to take damage from a foe, becoming invincible in the process. If hit, a counterattack will trigger, dealing incredible damage in close proximity, aimed at your cursor. You will be unable to execute the counterattack if the foe is further than melee range, but damage will still be negated. You will be refunded 50% of the Stellar Nova energy cost if you are not hit during Kiwami Ryuken.
             AstralBonus: The counterattack will always deal critical damage below half health. Restore 5 Stellar Nova Energy upon triggering the counterattack.
@@ -3881,7 +3881,7 @@ StellarNova: {
         }
 
         GardenOfAvalon: {
-            AbilityName: Garden of Avalon
+            AbilityName: Сад Авалона
             AbilitySubName: "[c/ECB3FC:The Forever-Sealed Utopia]"
             AbilityDescription: Call forth the Garden of Avalon, infusing the world with radiant energy. Grant powerful Health and Mana regeneration periodically for 8 seconds, scaling with Stellar Nova Damage. Gain Invincibility for 2 seconds. If the cast would be critical, gain Health, modified by Stellar Nova crit modifiers. Additionally, upon a critical cast, gain the buff Solemn Aegis for 15 seconds, which negates one hit of damage independently of Invincibility.
             AstralBonus: Invincibility lasts for 4 seconds instead of 2. Instantly heal 100 HP upon casting Garden of Avalon.
@@ -3889,7 +3889,7 @@ StellarNova: {
         }
 
         EdinGenesisQuasar: {
-            AbilityName: Edin Genesis Quasar
+            AbilityName: Эдин Квазарнес
             AbilitySubName: "[c/00FF93:The Moment a Planet Is Born]"
             AbilityDescription: Upon cast, become immobile and invincible temporarily. Gain 'Astarte Driver' for 25 seconds. Astarte Driver grants infinite flight and three Cosmic Charges. ALL attacks while Astarte Driver is active will inherit the stats of the Stellar Nova. Pressing the Starfarer Action Key with a Cosmic Charge available will launch a barrage of spatial projectiles (2 second use cooldown.) After activating Astarte Driver's stat-changing effect, the target will be immune for a very short period.
             AstralBonus: Critical hits do an additional {0} damage in Astarte Driver. You will gain a Cosmic Charge after defeating a foe with a critical hit. (Max 5 charges.)
@@ -3897,7 +3897,7 @@ StellarNova: {
         }
 
         UnlimitedBladeWorks: {
-            AbilityName: Unlimited Blade Works
+            AbilityName: Клинков бесконечный край
             AbilitySubName: "[c/FC643B:Projected Reality of Wrought Iron]"
             AbilityDescription: Summon a portal to a world of blades, creating a field of empowerment for 20 seconds. After activation, rain down a barrage of blades, reducing enemy damage dealt by 10% for 20 seconds on hit. Additionally, all allies within the radius will gain Bladeforged, which increases damage, knockback, critical strike chance, and armor penetration by 2% up to 10% depending on current HP (capped at 500 HP.) Duration in seconds is proportional to Energy Cost divided by 10.
             AstralBonus: Bladeforged's cap is raised to 15% and now increases defense based on percentage values up to 8. Additionally, Bladeforged perists for 10 seconds after the Nova ends.
@@ -3905,7 +3905,7 @@ StellarNova: {
         }
 
         GuardiansLight: {
-            AbilityName: Guardian's Light
+            AbilityName: Свет Стража
             AbilitySubName: "[c/C0EEFF:Lucidity of the Traveler's Will]"
 
             AbilityDescription: {
@@ -3920,16 +3920,16 @@ StellarNova: {
             UmbralBonus: Bearer of Light increases damage by 8%. Bearer of Darkness increases critical strike damage by 15%. While either buff is active, Aspected Damage Type penalty is negated.
         }
 
-        BaseDamage: Base Damage
-        BaseEnergyCost: Base Energy Cost
-        Damage: Damage
-        AttackDamage: Attack Damage
-        CritChance: Crit Chance
-        CritDamage: Crit Damage
-        EnergyCost: Energy Cost
-        BaseHealStrength: Base Heal Strength
-        HealStrength: Heal Strength
-        CritHealStrength: Crit Heal Strength
+        BaseDamage: ед. базового урона
+        BaseEnergyCost: ед. базовой энергии
+        Damage: ед. урона
+        AttackDamage: ед. урона атаки
+        CritChance: крит. шанс
+        CritDamage: крит. урон
+        EnergyCost: ед. энергии
+        BaseHealStrength: ед. базового лечения
+        HealStrength: ед. лечения
+        CritHealStrength: ед. крит. лечения
     }
 }
 
@@ -4120,7 +4120,7 @@ NPCs: {
         TownNPCMood: {
             Content: Всё отлично, всё устраивает.
             NoHome: То, что мне нравится смотреть на звёзды, не значит, что я хочу жить без крыши над головой.
-            FarFromHome: Я боюсь спросить, но где я?
+            FarFromHome: Боюсь спросить, но где я?
             LoveSpace: Дополнительное пространство для проведения измерений всегда полезно.
             DislikeCrowded: Я ценю живую атмосферу, но всему есть предел, и я его достиг.
             HateCrowded: Ты, должно быть, шутишь. Я даже телескоп нормально поставить не могу, его постоянно опрокидывают, не говоря уже о световом засвете.
@@ -4139,25 +4139,25 @@ NPCs: {
         Census.SpawnCondition: Have a Weapon Memory in your inventory
     }
 
-    Arbitration.DisplayName: Arbitration
-    AstralCell.DisplayName: Starcell
-    DummyEnemy.DisplayName: Dummy Enemy
-    CastorBoss.DisplayName: Castor, Baleborn Force
-    Dioskouroi.DisplayName: Dioskouroi, the Twin Forces
-    NalhaunBoss.DisplayName: Nalhaun, the Burnished King
+    Arbitration.DisplayName: Арбитраж
+    AstralCell.DisplayName: Звёздная клеть
+    DummyEnemy.DisplayName: Манекен-враг
+    CastorBoss.DisplayName: Кастор, Baleborn Force
+    Dioskouroi.DisplayName: Диоскуры, Близнецы
+    NalhaunBoss.DisplayName: Налхан, Воронённый король
     PaintedAttendantA.DisplayName: Living Brush
     PaintedAttendantB.DisplayName: Living Brush
     PrismLoot.DisplayName: Prismatic Core
     SpectreOfLight.DisplayName: Spectre Of Light
     VagrantOfSpaceAndTime.DisplayName: The Vagrant of Space and Time
-    WarriorOfLight.DisplayName: The Warrior Of Light
+    WarriorOfLight.DisplayName: Воин света
     Nalhaun.DisplayName: Mods.StarsAbove.NPCName.Nalhaun
     AmethystHeadpiercer.DisplayName: Amethyst Headpiercer
     AmethystSwordsinner.DisplayName: Amethyst Swordsinner
     AsteroidWormBody.DisplayName: Stardigrade
     AsteroidWormHead.DisplayName: Stardigrade
     AsteroidWormTail.DisplayName: Stardigrade
-    Soulless.DisplayName: Soulless
+    Soulless.DisplayName: Бездушный
     Garridine.DisplayName: Гарридин
     Yojimbo.DisplayName: Йодзимбо
     DioskouroiWallsNPC.DisplayName: Dioskouroi Walls N P C
@@ -4165,13 +4165,13 @@ NPCs: {
     VagrantWalls.DisplayName: Vagrant Walls
     VagrantWallsHorizontal.DisplayName: Vagrant Walls Horizontal
     VagrantWallsVertical.DisplayName: Vagrant Walls Vertical
-    WarriorOfLightBoss.DisplayName: The Warrior Of Light
+    WarriorOfLightBoss.DisplayName: Воин света
     WarriorWallsNPC.DisplayName: ""
     WarriorOfLightOld.DisplayName: ""
-    GardenOfAvalonNPC.DisplayName: Garden Of Avalon
+    GardenOfAvalonNPC.DisplayName: Сад Авалона
 
     VagrantBoss: {
-        DisplayName: The Vagrant of Space and Time
+        DisplayName: Ходящий по пространству и времени
 
         BossChecklistIntegration: {
             EntryName: The Vagrant of Space and Time
@@ -4181,7 +4181,7 @@ NPCs: {
     }
 
     ThespianBoss: {
-        DisplayName: Thespian, the Act of Alchemy
+        DisplayName: Драма, Продукт алхимии
 
         BossChecklistIntegration: {
             EntryName: Thespian, the Act of Alchemy
@@ -4201,7 +4201,7 @@ NPCs: {
     }
 
     PenthesileaBoss: {
-        DisplayName: Penthesilea, the Witch of Ink
+        DisplayName: Пентесилея, Ведьма чернил
 
         BossChecklistIntegration: {
             EntryName: Penthesilea, the Witch of Ink
@@ -4211,20 +4211,20 @@ NPCs: {
     }
 
     NalhaunBossPhase2: {
-        DisplayName: Nalhaun, Ruler of the Hollow World
+        DisplayName: Налхан, Владыка пустого мира
 
         BossChecklistIntegration: {
-            EntryName: Nalhaun, the Burnished King
+            EntryName: Налхан, Воронённый король
             SpawnInfo: Confront this aged monarch with the Ancient Crown, given to you by your Starfarer after Golem is defeated. (The Vagrant of Space and Time must have been defeated.)
             DespawnMessage: ""
         }
     }
 
     ArbitrationBoss: {
-        DisplayName: Arbitration
+        DisplayName: Арбитраж
 
         BossChecklistIntegration: {
-            EntryName: Arbitration
+            EntryName: Арбитраж
             SpawnInfo: This mysterious foe lurks in Anomaly subworlds- staying too long in one will take you to Katabasis, where it awaits. Defeating this boss drops an item which will take you immediately to Katabasis. With MP Compatibility Mode, you can get this item by traveling to Lyra.
             DespawnMessage: ""
         }
@@ -4241,10 +4241,10 @@ NPCs: {
     }
 
     WarriorOfLightBossFinalPhase: {
-        DisplayName: Воин Света
+        DisplayName: Воин света
 
         BossChecklistIntegration: {
-            EntryName: Воин Света
+            EntryName: Воин света
             SpawnInfo: After defeating the Moon Lord, strange events may occur. After 2 in game days (this can not be sped up through any means) you can obtain an item from your Starfarer to continue.
             DespawnMessage: ""
         }
@@ -4297,10 +4297,10 @@ Tiles: {
 
 Items: {
     AlienCoral: {
-        DisplayName: Alien Coral
+        DisplayName: Инопланетный коралл
         Tooltip:
             '''
-            [c/2DD2FE:Stargazer Relic]
+            [c/2DD2FE:Реликвия Звездочёта]
             For each unused Stellar Array Energy point, gain 8% increased damage
             Gain 8 defense with a full Stellar Array instead
             [c/ADEEFF:Only one Stargazer Relic can be equipped at a time]
@@ -4309,10 +4309,10 @@ Items: {
     }
 
     CrystallizedAbsence: {
-        DisplayName: Crystallized Absence
+        DisplayName: Кристаллизированное ничего
         Tooltip:
             '''
-            [c/2DD2FE:Stargazer Relic]
+            [c/2DD2FE:Реликвия Звездочёта]
             Max HP is reduced by 300 and defense is reduced by 20, but damage is increased by 100%
             Only active when unmodified Max HP is 400 or higher
             [c/ADEEFF:Only one Stargazer Relic can be equipped at a time]
@@ -4321,7 +4321,7 @@ Items: {
     }
 
     DragonwardTalisman: {
-        DisplayName: Dragonward Talisman
+        DisplayName: Талисман драконьей стражи
         Tooltip:
             '''
             Grants immunity to Silenced, Confused, Bleeding, and Ichor
@@ -4351,7 +4351,7 @@ Items: {
     }
 
     Luciferium: {
-        DisplayName: Lucifer's Bargain
+        DisplayName: Сделка Дьявола
         Tooltip:
             '''
             Defense is reduced by 30
@@ -4361,7 +4361,7 @@ Items: {
     }
 
     PerfectlyGenericAccessory: {
-        DisplayName: Perfectly Generic Accessory
+        DisplayName: Совершенно обычный аксессуар
         Tooltip:
             '''
             Increases the damage of Aspected Weapons by 8%
@@ -4370,7 +4370,7 @@ Items: {
     }
 
     ToMurder: {
-        DisplayName: "'To Murder'"
+        DisplayName: "'Убивать'"
         Tooltip:
             '''
             Activates only when Defense is below 40
@@ -4381,7 +4381,7 @@ Items: {
     }
 
     AegisDriver: {
-        DisplayName: Aegis Driver
+        DisplayName: Аегис Драйвер
         Tooltip:
             '''
             With 40 mana available, this weapon will be thrown with special effects, consuming 40 mana in the process
@@ -4396,7 +4396,7 @@ Items: {
     }
 
     AncientBook: {
-        DisplayName: Takonomicon
+        DisplayName: Такономикон
         Tooltip:
             '''
             Calls forth [c/B875F0:Void Octopi] to assail foes with homing lasers
@@ -4414,7 +4414,7 @@ Items: {
     }
 
     Apalistik: {
-        DisplayName: Apalistik
+        DisplayName: Апалистик
         Tooltip:
             '''
             5 summon tag damage
@@ -4429,7 +4429,7 @@ Items: {
     }
 
     ApalistikUpgraded: {
-        DisplayName: Seaborn Apalistik
+        DisplayName: Рождённый морем Апалистик
         Tooltip:
             '''
             18 summon tag damage
@@ -4448,7 +4448,7 @@ Items: {
     }
 
     ArachnidNeedlepoint: {
-        DisplayName: Arachnid Needlepoint
+        DisplayName: Крючковорот арахнидов
         Tooltip:
             '''
             3 summon tag damage
@@ -4464,7 +4464,7 @@ Items: {
     }
 
     ArchitectLuminance: {
-        DisplayName: Architect's Luminance
+        DisplayName: Ясность Архитектора
         Tooltip:
             '''
             [c/F592BF:This weapon is unaffected by Aspected Damage Type penalty]
@@ -4481,83 +4481,83 @@ Items: {
     }
 
     UrgotLegs: {
-        DisplayName: Dreadnought Chemtank Legs
+        DisplayName: Ноги химдоспеха Дредноута
         Tooltip: Это должно быть скрыто от глаз!
     }
 
     AfterburnerBottom: {
-        DisplayName: Sky Striker Armor
+        DisplayName: Броня небесного воина
         Tooltip: Это должно быть скрыто от глаз!
     }
 
     AfterburnerTop: {
-        DisplayName: Sky Striker Armor
+        DisplayName: Броня небесного воина
         Tooltip: Это должно быть скрыто от глаз!
     }
 
     AfterburnerWings: {
-        DisplayName: Afterburner Wings
+        DisplayName: Крылья дожигателя
         Tooltip: Это должно быть скрыто от глаз!
     }
 
     MeleeBottom: {
-        DisplayName: Sky Striker Armor
+        DisplayName: Броня небесного воина
         Tooltip: Это должно быть скрыто от глаз!
     }
 
     MeleeTop: {
-        DisplayName: Sky Striker Armor
+        DisplayName: Броня небесного воина
         Tooltip: Это должно быть скрыто от глаз!
     }
 
     MeleeWings: {
-        DisplayName: Melee Wings
+        DisplayName: Крылья ближнего боя
         Tooltip: Это должно быть скрыто от глаз!
     }
 
     ShieldBottom: {
-        DisplayName: Sky Striker Armor
+        DisplayName: Броня небесного воина
         Tooltip: Это должно быть скрыто от глаз!
     }
 
     ShieldTop: {
-        DisplayName: Sky Striker Armor
+        DisplayName: Броня небесного воина
         Tooltip: Это должно быть скрыто от глаз!
     }
 
     ShieldWings: {
-        DisplayName: Shield Wings
+        DisplayName: Крылья-щит
         Tooltip: Это должно быть скрыто от глаз!
     }
 
     SniperBottom: {
-        DisplayName: Sky Striker Armor
+        DisplayName: Броня небесного воина
         Tooltip: Это должно быть скрыто от глаз!
     }
 
     SniperTop: {
         Tooltip: Это должно быть скрыто от глаз!
-        DisplayName: Sky Striker Armor
+        DisplayName: Броня небесного воина
     }
 
     SniperWings: {
         Tooltip: Это должно быть скрыто от глаз!
-        DisplayName: Sniper Wings
+        DisplayName: Крылья снайпера
     }
 
     StarArmorHead: {
-        Tooltip: Spatial garb of ages past
-        DisplayName: Stargazing Hero's Hood
+        Tooltip: Пространственный хлам прошедших веков
+        DisplayName: Капюшон героя-звездочёта
     }
 
     StarArmorLegs: {
-        Tooltip: Spatial garb of ages past
-        DisplayName: Stargazing Hero's Greaves
+        Tooltip: Пространственный хлам прошедших веков
+        DisplayName: Поножи героя-звездочёта
     }
 
     StarArmorTop: {
-        Tooltip: Spatial garb of ages past
-        DisplayName: Stargazing Hero's Mantle
+        Tooltip: Пространственный хлам прошедших веков
+        DisplayName: Мантия героя-звездочёта
     }
 
     AegisOfHopesLegacy: {
@@ -4583,7 +4583,7 @@ Items: {
             Unbridled Radiance: Stellar Nova Energy can not drop below 10
             'Stand tall- my friend / May all of the dark deep inside you / Find Light again' 
             '''
-        DisplayName: Aegis of Hope's Legacy
+        DisplayName: Эгида наследия надежды
     }
 
     CelestialPrincessGenesis: {
@@ -4603,7 +4603,7 @@ Items: {
             Deal 70% less damage when Astarte Driver is not active
             'Know that you are dimensions below me...'
             '''
-        DisplayName: Celestial Princess' Genesis
+        DisplayName: Генезис космической принцессы
     }
 
     FaerieVoyagerAttire: {
@@ -4631,10 +4631,10 @@ Items: {
             '''
             Один из легендарных нарядов из былых легенд
             Equip to your Starfarer to gain the following:
-            [c/C0C0C0:No effect]
+            [c/C0C0C0:Нет эффектов]
             Vanity Item
             '''
-        DisplayName: Familiar Looking Attire
+        DisplayName: Обычный наряд
     }
 
     StellarCasualAttire: {
@@ -4642,10 +4642,10 @@ Items: {
             '''
             Один из легендарных нарядов из былых легенд
             Equip to your Starfarer to gain the following:
-            [c/C0C0C0:No effect]
+            [c/C0C0C0:Нет эффектов]
             Vanity Item
             '''
-        DisplayName: Perfected Stellar Casual
+        DisplayName: Неизменная звёздная повседневность
     }
 
     AshenAmbition: {
@@ -4662,17 +4662,17 @@ Items: {
             Failing to execute an enemy resets all stacks of [c/812ABA:Call of the Void]
             'Put these foolish ambitions to rest'
             '''
-        DisplayName: Ashen Ambition
+        DisplayName: Пепельная амбиция
     }
 
     Astral: {
         Tooltip:
             '''
-            Debug cheat item
+            Отладка
             Resets the cooldown on obtaining Essences and fills the Stellar Nova Gauge
 
             '''
-        DisplayName: Astral Item
+        DisplayName: Астральный предмет
     }
 
     BloodBlade: {
@@ -4690,32 +4690,32 @@ Items: {
             Defeating a foe with [c/FF1B00:Blade Art: Dragon] instantly refreshes the cooldown
             'So, let all become ash!'
             '''
-        DisplayName: The Blood Blade
+        DisplayName: Кровавый клинок
     }
 
     ArbitrationBossBag: {
         Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
-        DisplayName: Treasure Bag (Arbitration)
+        DisplayName: Мешок с сокровищами (Арбитраж)
     }
 
     NalhaunBossBag: {
         Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
-        DisplayName: Treasure Bag (Nalhaun, the Burnished King)
+        DisplayName: Мешок с сокровищами (Налхан, Воронённый король)
     }
 
     PenthBossBag: {
         Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
-        DisplayName: Treasure Bag (Penthesilea, the Witch of Ink)
+        DisplayName: Мешок с сокровищами (Пентесилея, Ведьма чернил)
     }
 
     VagrantBossBag: {
         Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
-        DisplayName: Treasure Bag (Vagrant of Space and Time)
+        DisplayName: Мешок с сокровищами (Ходящий по пространству и времени)
     }
 
     WarriorBossBag: {
         Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
-        DisplayName: Treasure Bag (Warrior of Light)
+        DisplayName: Мешок с сокровищами (Воин света)
     }
 
     BurningDesire: {
@@ -4747,7 +4747,7 @@ Items: {
             Foes affected by [c/D7367F:Irys Gaze] take 50 extra damage from all sources and allows for minions to crit at a 15% chance
             'Hope has descended'
             '''
-        DisplayName: Cæsura of Despair
+        DisplayName: Цезура отчаяния
     }
 
     CarianDarkMoon: {
@@ -4761,7 +4761,7 @@ Items: {
             [c/92D7FF:Moonlit Greatblade] prevents natural mana regeneration when active, and has an 8 second cooldown
             'Now cometh the age of stars...'
             '''
-        DisplayName: Carian Dark Moon
+        DisplayName: Карианская тёмная луна
     }
 
     ClaimhSolais: {
@@ -4775,7 +4775,7 @@ Items: {
             Gaining [c/F1AF42:Radiance] past 10 stacks will instead grant Ironskin for 4 seconds
             'An indefatigable sword- its blade glitters with light'
             '''
-        DisplayName: Claimh Solais
+        DisplayName: Клив-Солаш
     }
 
     AncientShard: {
@@ -4787,7 +4787,7 @@ Items: {
             Prepare accordingly, and consider postponing this fight until you are stronger
             Не расходуется
             '''
-        DisplayName: The Ancient Crown
+        DisplayName: Древняя корона
     }
 
     Bifrost: {
@@ -4800,7 +4800,7 @@ Items: {
             Can not be used if the Starfarer Menu is open
             [c/D32C2C:Subworlds have problems in Multiplayer - please wait until further notice!]
             '''
-        DisplayName: Bifrost
+        DisplayName: Биврёст
     }
 
     BladeOrb: {
@@ -4810,7 +4810,7 @@ Items: {
             [c/F1AF42:Это должно быть скрыто от глаз]
 
             '''
-        DisplayName: Blade Orb
+        DisplayName: Клинковая сфера
     }
 
     BlueOrb: {
@@ -4820,7 +4820,7 @@ Items: {
             [c/F1AF42:Это должно быть скрыто от глаз]
 
             '''
-        DisplayName: Blue Orb
+        DisplayName: Синяя сфера
     }
 
     JojaCola: {
@@ -4830,7 +4830,7 @@ Items: {
             Has no effect
             'Property of Joja Offworld'
             '''
-        DisplayName: Foreign Soda Pop
+        DisplayName: Иноземная банка газировки
     }
 
     Onigiri: {
@@ -4840,7 +4840,7 @@ Items: {
             Has no effect
 
             '''
-        DisplayName: Foreign Rice Ball
+        DisplayName: Иноземный рисовый шарик
     }
 
     DebugCompass: {
@@ -4850,7 +4850,7 @@ Items: {
             [c/F1AF42:Debug item]
 
             '''
-        DisplayName: Debug Compass
+        DisplayName: Отладочный компасс
     }
 
     DebugDisk: {
@@ -4863,7 +4863,7 @@ Items: {
             Does not work during a Cosmic Voyage
             May cause issues; this is a debug item
             '''
-        DisplayName: Debug Disk
+        DisplayName: Отладочный диск
     }
 
     DebugPosition: {
@@ -4872,7 +4872,7 @@ Items: {
             Used for subworld calibration
             This is a debug item!
             '''
-        DisplayName: Debug Subworld Position Finder
+        DisplayName: Отладочный искатель позиции Subworld
     }
 
     DebugVNPreview: {
@@ -4881,11 +4881,11 @@ Items: {
             Used for VN dialogue testing
             This is a debug item!
             '''
-        DisplayName: Debug VN Tester
+        DisplayName: Отладочный тестировшик ВН
     }
 
     DemonicCrux: {
-        DisplayName: The Beating Crux
+        DisplayName: Высший крест
         Tooltip:
             '''
             This object feels worryingly wrong
@@ -4922,7 +4922,7 @@ Items: {
     }
 
     MalachiteFragment: {
-        DisplayName: Malachite Fragment
+        DisplayName: Малахитовый фрагмент
         Tooltip:
             '''
             Расколотые фрагменты звезды
@@ -4931,7 +4931,7 @@ Items: {
     }
 
     VermillionFragment: {
-        DisplayName: Vermillion Fragment
+        DisplayName: Киноварный фрагмент
         Tooltip:
             '''
             Расколотые фрагменты звезды
@@ -5004,7 +5004,7 @@ Items: {
             If Light Everlasting is not at its peak, magnifies the effect of Light Everlasting
             Не расходуется
             '''
-        DisplayName: The Progenitor's Wish
+        DisplayName: Желание прародителя
     }
 
     RedOrb: {
@@ -5051,7 +5051,7 @@ Items: {
             'The power of the sun, in the palm of my hand'
 
             '''
-        DisplayName: Spatial Memoriam
+        DisplayName: Пространственное воспоминание
     }
 
     StarBitBlue: {
@@ -5089,7 +5089,7 @@ Items: {
     }
 
     Starlight: {
-        DisplayName: Starlight
+        DisplayName: Звёздный свет
         Tooltip:
             '''
             Some stray starlight
@@ -5098,7 +5098,7 @@ Items: {
     }
 
     StrayMana: {
-        DisplayName: Stolen Lifeforce
+        DisplayName: Украденное здоровье
         Tooltip:
             '''
             Boss item.
@@ -5117,7 +5117,7 @@ Items: {
     }
 
     UnsulliedCanvas: {
-        DisplayName: The Unsullied Canvas
+        DisplayName: Незапятнанное полотно
         Tooltip:
             '''
             This canvas brims with possibility
@@ -5138,7 +5138,7 @@ Items: {
     }
 
     CosmicDestroyer: {
-        DisplayName: Cosmic Destroyer
+        DisplayName: Космический уничтожитель
         Tooltip:
             '''
             [c/F592BF:This weapon is unaffected by Aspected Damage Type penalty]
@@ -5148,7 +5148,7 @@ Items: {
             During [c/FE3727:Magiton Overheat], attacks will change the next eleven shots into empowered [c/CF1E1E:Magiton Shots]
             [c/CF1E1E:Magiton Shots] deal 3x base damage and will be critical strikes against foes below 50% HP
             Once [c/FE3727:Magiton Overheat] is either fully consumed or ends, you are inflicted with [c/A56363:Overheated] for 1 second, causing this weapon to become unusable
-            'This isn't... something you see everyday'
+            'Не каждый день увидишь... такое'
             '''
     }
 
@@ -5174,7 +5174,7 @@ Items: {
     }
 
     BlackSilenceWeapon: {
-        DisplayName: Gloves of the Black Silence
+        DisplayName: Перчатки Чёрной Тишины
         Tooltip:
             '''
             [c/8AC1F1:This weapon has a unique damage type; inherits bonuses from all damage classes]
@@ -5198,7 +5198,7 @@ Items: {
     }
 
     CrimsonKey: {
-        DisplayName: Key of the Sinner
+        DisplayName: Ключ грешника
         Tooltip:
             '''
             Calls forth an instance of your rebellious heart
@@ -5212,7 +5212,7 @@ Items: {
     }
 
     CrimsonOutbreak: {
-        DisplayName: Crimson Outbreak
+        DisplayName: Багровая эпидемия
         Tooltip:
             '''
             Fires a highly accurate three round burst that inflicts [c/C70039:Nanite Plague]
@@ -5243,11 +5243,11 @@ Items: {
             You are unable to use special abilities while under [c/F04040:Blade Will]
             'This is the final journey'
             '''
-        DisplayName: Crimson Sakura Alpha
+        DisplayName: Багровая сакура альфа
     }
 
     DeathInFourActs: {
-        DisplayName: Death In Four Acts
+        DisplayName: Смерть в четырёх актах
         Tooltip:
             '''
             Every fourth shot will always be a critical strike and grant Swiftness
@@ -5266,7 +5266,7 @@ Items: {
             If the recoil damage would kill you, the gun will misfire
             'This magical bullet can truly hit anyone- just like you say'
             '''
-        DisplayName: Der Freischutz
+        DisplayName: Дер Фрайшуц
     }
 
     Drachenlance: {
@@ -5289,11 +5289,11 @@ Items: {
             Jump counters will be reset when swapping off this weapon
             'Born amidst the timeless conflict between men and dragons, forged that they might better pierce the scaled hides of their mortal foes'
             '''
-        DisplayName: Drachenlance
+        DisplayName: Драхеланс
     }
 
     DreadnoughtChemtank: {
-        DisplayName: Dreadnought Chemtank
+        DisplayName: Химдоспех Дредноута
         Tooltip:
             '''
             Attacks with this weapon quickly fire close-ranged shotgun blasts
@@ -5601,7 +5601,7 @@ Items: {
             '''
             Unobtainable
             Подарок вашей Астры
-            Используется для создания 'Every Moment Matters' (N/A)
+            Используется для создания 'Every Moment Matters' (Н/О)
             '''
         DisplayName: Essence of Perfection
     }
@@ -6001,7 +6001,7 @@ Items: {
             '''
             Нельзя получить
             Подарок вашей Астры
-            Используется для создания 'Persephone' (N/A)
+            Используется для создания 'Persephone' (Н/О)
             '''
         DisplayName: Essence of The Underworld Goddess
     }
@@ -6167,7 +6167,7 @@ Items: {
             This weapon can not crit unless criteria is met
             'Even if it's just for a short dream, my wings will fly for your sake.'
             '''
-        DisplayName: Hollowheart Albion
+        DisplayName: Пустое сердце Альбиона
     }
 
     Hullwrought: {
@@ -6184,7 +6184,7 @@ Items: {
             Holding charge attack enhances the attack every 1/2 second, capping at 10 stacks
             If the charged attack has 5 stacks or more, it will always be a critical strike
             '''
-        DisplayName: Hullwrought
+        DisplayName: Железный кованный
     }
 
     HullwroughtMKII: {
@@ -6206,7 +6206,7 @@ Items: {
             Charged attacks require 80 Mana
             Gain Mana Regeneration when not in [c/BE5CC8:Mystic Form]
             '''
-        DisplayName: Hullwrought MK. II
+        DisplayName: Железный кованный II
     }
 
     HunterSymphony: {
@@ -6223,7 +6223,7 @@ Items: {
             After 3 [c/72D16A:Hunter's Melodies], right click to unleash [c/941818:Infernal Melody]
             [c/941818:Infernal Melody] grants 20% increased damage to yourself and all nearby allies for 6 seconds
             '''
-        DisplayName: Hunter's Symphony
+        DisplayName: Симфония охотника
     }
 
     IgnitionAstra: {
@@ -6240,7 +6240,7 @@ Items: {
             During [c/b03fed:Umbral Aspect], Mana will be continuously drained and Mana regeneration will be disabled, but attack will be increased
             'The universe stands at the precipice of the end. At the center of it stands Ignition Astra'
             '''
-        DisplayName: Ignition Astra
+        DisplayName: Сжигающая звезда
     }
 
     InugamiRipsaw: {
@@ -6252,7 +6252,7 @@ Items: {
             Right click to activate [c/b03fed:Berserker Mode] for 5 seconds, increasing damage dealt but dealing damage over time to yourself (20 second cooldown)
             'It preys on stray fingers'
             '''
-        DisplayName: Inugami Ripsaw
+        DisplayName: Цепная пила Инугами
     }
 
     IzanagiEdge: {
@@ -6267,9 +6267,9 @@ Items: {
             Gain 100 mana if [c/66B2D1:Honed Edge]'s empowered shot hits an enemy
             This mana increase does not apply if this weapon is attuned to Melee, but attack speed is drastically increased
             You have permanent Swiftness when this weapon is in your hands
-            'Strike true! Ziodyne!'
+            'В цель! Зиодайн!'
             '''
-        DisplayName: Izanagi's Edge
+        DisplayName: Грань Идзанаги
     }
 
     KarlanTruesilver: {
@@ -6278,9 +6278,9 @@ Items: {
             Unleashes powerful slashes with unlimited piercing
             Critical strikes deal bonus damage based on 10% of your current HP
             Damage is halved per pierce
-            'When the aether darkens, 'tis an omen that snowfall draws dear...'
+            'Когда темнеют небеса — то есть знамение, что тянет за собою снегопад...'
             '''
-        DisplayName: Karlan Truesilver
+        DisplayName: Истинное серебро Карлан
     }
 
     KazimierzSeraphim: {
@@ -6292,9 +6292,9 @@ Items: {
             When the [c/FF8B00:Brilliant Spark] strikes an enemy, it will consume all stacks of [c/F1AF42:Radiance]
             Each stack of [c/F1AF42:Radiance] will contribute 5 extra damage
             At 5 or more stacks, the attack will always crit
-            'The light holds resolute here!'
+            'Свет здесь непоколебим!'
             '''
-        DisplayName: Kazimierz Seraphim
+        DisplayName: Серафим Казимежа
     }
 
     BrilliantSpectrum: {
@@ -6323,9 +6323,9 @@ Items: {
             Rapidly summon powerful blades towards your cursor
             When a minion deals tag damage, additionally inflict a random debuff on the foe for 2 seconds
             Using this weapon grants a random combat-oriented buff for 2 seconds
-            'I see your luck has run out, mongrel!'
+            'Ты истратил всю свою удачу, шавка!'
             '''
-        DisplayName: Key of the King's Law
+        DisplayName: Ключ королевской власти
     }
 
     Kifrosse: {
@@ -6346,7 +6346,7 @@ Items: {
             [c/0464A7:Amaterasu's Winter] will cause all [c/12DAE4:Blizzard Foxfires] to attack incredibly fast
             [c/0464A7:Amaterasu's Winter] lasts for 4 seconds and has a 40 second cooldown
             '''
-        DisplayName: Kifrosse
+        DisplayName: Кифрозз
     }
 
     KonpakuKatana: {
@@ -6356,9 +6356,9 @@ Items: {
             Attacks fire quick long-ranged bullets
             Proximity to hostile projectiles or enemies with contact damage grants the buff Death's Dance for 2 seconds
             Death's Dance grants 30% increased damage
-            'If there is something I can't make clear, I try cutting it!'
+            'Если мне попадается что-то непонятное, я это разрубаю!'
             '''
-        DisplayName: Konpaku Katana
+        DisplayName: Катана Компаку
     }
 
     KroniicAccelerator: {
@@ -6374,9 +6374,9 @@ Items: {
             Right click with a [c/6764F9:Timeframe] ready to instantly return to your position upon cast of the [c/6764F9:Timeframe]
             This restores Health and Mana to the values present when the [c/6764F9:Timeframe] was prepared
             The [c/6764F9:Timeframe] lasts for 6 seconds before it expires, and it has a cooldown of 1 minute
-            'The time.. has come'
+            'Время... пришло'
             '''
-        DisplayName: Kroniic Principality
+        DisplayName: Кронический ускоритель
     }
 
     LiberationBlazing: {
@@ -6391,9 +6391,9 @@ Items: {
             [c/AD2500:Scarlet Outburst] can not be used when you are below 50 HP or if you are currently burning
             Below 100 HP, you gain drastic Health Regeneration when burning and [c/FF2B2B:Core of Flames] is active
             This healing is only applicable with this weapon held
-            'Fight to emancipate this world'
+            'Боритесь за свободу этого мира'
             '''
-        DisplayName: Liberation Blazing
+        DisplayName: Освобождающий огонь
     }
 
     LightUnrelenting: {
@@ -6403,9 +6403,9 @@ Items: {
             Right click to unleash your inner potential, gaining the unrivaled strength of [c/F1AF42:Limit Break] for 20 seconds (1 minute cooldown)
             While under the influence of [c/F1AF42:Limit Break], health will be converted to mana without limit until mana is full
             Additionally, all damage is increased by 10% and all magic damage is increased by an additional 100%
-            'I shall transcend you!'
+            'Я превзойду вас!'
             '''
-        DisplayName: Light Unrelenting
+        DisplayName: Безжалостный свет
     }
 
     DesertLootBag: {
@@ -6442,7 +6442,7 @@ Items: {
     }
 
     LuminaryWand: {
-        DisplayName: Luminary Wand
+        DisplayName: Освещающая палочка
         Tooltip:
             '''
             Holding this weapon will conjure a friendly [c/F1D671:Starchild]
@@ -6579,9 +6579,9 @@ Items: {
             Once you have completed a combo, you will gain the ability to use a [c/FF749B:Rhythm Burst]
             Right click with [c/FF749B:Rhythm Burst] ready to temporarily ignore timing for 2 seconds
             [c/FF749B:Rhythm Burst] will reset your combo to 0
-            'I'm not asking for much- do me a favor and die?'
+            'Прости, не мог бы ты немножечко сдохнуть?'
             '''
-        DisplayName: Memento Muse
+        DisplayName: Мементо Мьюз
     }
 
     Mercy: {
@@ -6596,9 +6596,9 @@ Items: {
             Critical strikes with this weapon's basic attacks instantly cleanse the cooldown of [c/DC3961:Edge of Anguish]
             Allies striking foes under the influence of [c/FF3200:Infernal Hemorrhage] with projectiles grants Rage for 8 seconds
             Additionally, these attacks deal 2% of the foe's missing HP as bonus true damage (Up to 250)
-            'From the depths of Noxian streets'
+            'Из тёмных переулков Ноксуса'
             '''
-        DisplayName: Mercy
+        DisplayName: Милость
     }
 
     MiserysCompany: {
@@ -6609,7 +6609,7 @@ Items: {
             [c/3FCCCE:Scythe Mode] throws a scythe with very long reach that can bypass walls with a cooldown
             [c/CE3FAD:Shotgun Mode] fires bullets in a spread pattern that does not use ammo, doing half damage per shot
             '''
-        DisplayName: Misery's Company
+        DisplayName: Компания неудачи
     }
 
     MorningStar: {
@@ -6624,9 +6624,9 @@ Items: {
             [c/8EE7E4:Frozen Crystals]: Unleash a spread of icy shards, inflicting Frostburn on foes for 3 seconds
             [c/B4E93A:Accursed Flames]: Unleash a burst of flame around you that inflicts Cursed Inferno for 3 seconds
             [c/F3E63E:Chain Lightning]: Unleash a concentrated lightning jolt, inflicting Ichor for 3 seconds and chaining to 5 nearby foes
-            'A vampire, a hunter, and a scholar'
+            'Вампир, охотник и учёный'
             '''
-        DisplayName: The Morning Star
+        DisplayName: Утренняя звезда
     }
 
     Naganadel: {
@@ -6644,9 +6644,9 @@ Items: {
             [c/BDD5B5:Naganadel] costs 50 mana to summon instead, but will apply most other effects with a lunar bonus effect
             If the destination is closer than the maximum range, the blades will deal residual damage as they fade away
             Blades will vanish when swapping weapons
-            'I have no regrets. This is the only path'
+            'Нет сожалений – путь лишь один'
             '''
-        DisplayName: Naganadel
+        DisplayName: Наганадель
     }
 
     NeoDealmaker: {
@@ -6659,9 +6659,9 @@ Items: {
             Additionally, enemies inflicted with Midas take 15% more damage from the [c/FBD63E:BIG SHOT]
             Critical strikes increase this modifier to 25%
             Defeating foes with the [c/FBD63E:BIG SHOT] is guaranteed to drop 5 silver
-            'Now's your chance to be a...'
+            'Теперь у тебя есть шанс стать...'
             '''
-        DisplayName: Neo Dealmaker
+        DisplayName: Сделкодел Нео
     }
 
     Ozma: {
@@ -6684,9 +6684,9 @@ Items: {
             Within [c/AD0000:Annihilation State], right click to unleash [c/B98080:Finale Descends] (2 minute cooldown)
             Foes caught between [c/B98080:Finale Descends] will take powerful damage over time until the attack resolves
             Additionally, [c/B98080:Finale Descends] inflicts Stun for 1 second per hit
-            'I am.. a monster..'
+            'Я... чудовище...'
             '''
-        DisplayName: Ozma Ascendant
+        DisplayName: Возвышенная Озма
     }
 
     PenthesileaMuse: {
@@ -6703,7 +6703,7 @@ Items: {
             [c/EC8B35:Orange Pigment] inflicts Ichor / [c/3596EC:Blue Pigment] inflicts Frostburn
             [c/E4CE55:Yellow Pigment] inflicts Midas / [c/9E35EC:Purple Pigment] inflicts Acid Venom
             '''
-        DisplayName: Penthesilea's Muse
+        DisplayName: Муза Пентесилеи
     }
 
     ElCapitansHardware: {
@@ -6715,9 +6715,9 @@ Items: {
             Once the [c/96BB7F:Renegade Gauge] is above 50%, right-click to consume the [c/96BB7F:Renegade Gauge], swapping weapons and firing a [c/F9CF49:Gyro Disk] that lasts for 4 seconds
             The [c/F9CF49:Gyro Disk] automatically targets and attacks nearby foes
             If the [c/96BB7F:Renegade Gauge] is higher than 50% on activation, the [c/F9CF49:Gyro Disk] gains bonus damage proportional to the extra amount consumed
-            'GAME RIGHTS?!'
+            'ИГРОВЫЕ ПРАВА?!'
             '''
-        DisplayName: El Capitan's Hardware
+        DisplayName: Железо Эль Капитана
     }
 
     Persephone: {
@@ -6725,9 +6725,9 @@ Items: {
             '''
             Unobtainable
             Applies frostburn to foes and fires an icy projectile when in the confines of the underworld
-            'Only thorns left on this rose'
+            'Роза отцвела, а шипы остались'
             '''
-        DisplayName: Persephone
+        DisplayName: Персефон
     }
 
     AegisCrystal: {
@@ -6930,9 +6930,9 @@ Items: {
             When you swap with your [c/67B6D3:Phantom Dagger], activate [c/AC5454:Bloodstained Crescent]
             [c/AC5454:Bloodstained Crescent] sweeps in a small AoE at both your position and the position of the [c/67B6D3:Phantom Dagger]
             [c/AC5454:Bloodstained Crescent] deals 200 extra damage to Frostburned foes while removing the debuff and granting 90 mana
-            'Yes, lift your voices! Sing for me! Sing for me!!'
+            'Для меня - Пой! Пой! Пой для меня!!'
             '''
-        DisplayName: Phantom in the Mirror
+        DisplayName: Фантом в зеркале
     }
 
     ArbitrationBossRelicItem: {
@@ -6982,22 +6982,22 @@ Items: {
 
     WarriorBossRelicItem: {
         Tooltip: ""
-        DisplayName: Warrior of Light Relic
+        DisplayName: Реликвия Воина света
     }
 
     WarriorTrophyItem: {
         Tooltip: ""
-        DisplayName: Warrior of Light Trophy
+        DisplayName: Трофей Воина света
     }
 
     CosmicWillMusicBox: {
         Tooltip:
             '''
             'Cosmic Will' - The Stars Above OST
-            Original
+            Оригинальная
 
             '''
-        DisplayName: Music Box (The Vagrant of Space and Time)
+        DisplayName: Музыкальная шкатулка (Ходящий по пространству и времени)
     }
 
     ChainlinkFence: {
@@ -7007,7 +7007,7 @@ Items: {
 
     SteelBlock: {
         Tooltip: Riveted and bolted
-        DisplayName: Steel Block
+        DisplayName: Стальной блок
     }
 
     VendingMachine: {
@@ -7019,84 +7019,84 @@ Items: {
         Tooltip:
             '''
             'Sky Unsundered' - FFXIV Endwalker OST
-            Composed by Masayoshi Soken
+            Композитор: Masayoshi Soken
 
             '''
-        DisplayName: Music Box (Observatory Hyperborea)
+        DisplayName: Музыкальная шкатулка (Северная обсерватория)
     }
 
     FirstWarningMusicBox: {
         Tooltip:
             '''
             'First Warning (LoR ver.)' - Library of Ruina
-            Composed by Studio EIM
+            Композитор: Studio EIM
 
             '''
-        DisplayName: Music Box (Arbitration - 1st Phase)
+        DisplayName: Музыкальная шкатулка (Арбитраж - 1-ая фаза)
     }
 
     InvisibleBlock: {
         Tooltip: Usually invisible
-        DisplayName: Invisible Block
+        DisplayName: Невидимый блок
     }
 
     MageOfVioletMusicBox: {
         Tooltip:
             '''
             'Mage of Violet (Instrumental)' - HoloPro
-            Composed by Kairiki Bear
+            Композитор: Kairiki Bear
 
             '''
-        DisplayName: Music Box (Penthesilea)
+        DisplayName: Музыкальная шкатулка (Пентесилея)
     }
 
     MightOfTheHellbladeMusicBox: {
         Tooltip:
             '''
             'Might Of The Hellblade' - Bravely Default 2 OST
-            Composed by REVO
+            Композитор: REVO
 
             '''
-        DisplayName: Music Box (Nalhaun, the Burnished King - 2nd Phase)
+        DisplayName: Музыкальная шкатулка (Налхан, Воронённый король - 2-ая фаза)
     }
 
     SecondWarningMusicBox: {
         Tooltip:
             '''
             'Second Warning (LoR ver.)' - Library of Ruina
-            Composed by Studio EIM
+            Композитор: Studio EIM
 
             '''
-        DisplayName: Music Box (Arbitration - 2nd Phase)
+        DisplayName: Музыкальная шкатулка (Арбитраж - 2-ая фаза)
     }
 
     ShadowsCastByTheMightyMusicBox: {
         Tooltip:
             '''
             'Shadows Cast By The Mighty: Swift Judgement' - Bravely Default 2 OST
-            Composed by REVO
+            Композитор: REVO
 
             '''
-        DisplayName: Music Box (Nalhaun, the Burnished King - 1st Phase)
+        DisplayName: Музыкальная шкатулка (Налхан, Воронённый король - 1-ая фаза)
     }
 
     SunsetStardustMusicBox: {
         Tooltip:
             '''
             'Sunset, Stardust' - Stars Above OST
-            Original
+            Оригинальная
             '''
-        DisplayName: Music Box (Stars Above Title Screen)
+        DisplayName: Музыкальная шкатулка (заголовок Stars Above)
     }
 
     ToTheEdgeMusicBox: {
         Tooltip:
             '''
             'To The Edge' - FFXIV Shadowbringers OST
-            Composed by Masayoshi Soken
+            Композитор: Masayoshi Soken
 
             '''
-        DisplayName: Music Box (The Warrior of Light - 1st Phase)
+        DisplayName: Музыкальная шкатулка (Воин света - 1-ая фаза)
     }
 
     TwoDragonsMusicBox: {
@@ -7106,7 +7106,7 @@ Items: {
             Composed by Hidenori Shoji
 
             '''
-        DisplayName: Music Box (Unused)
+        DisplayName: Музыкальная шкатулка (Не используется)
     }
 
     UnmatchingPiecesMusicBox: {
@@ -7116,7 +7116,7 @@ Items: {
             Composed by Masayoshi Soken
 
             '''
-        DisplayName: Music Box (Everlasting Light)
+        DisplayName: Музыкальная шкатулка (Вечный свет)
     }
 
     VoyageMusicBox: {
@@ -7126,7 +7126,7 @@ Items: {
             Composed by Masayoshi Soken
 
             '''
-        DisplayName: Music Box (The Sea of Stars)
+        DisplayName: Музыкальная шкатулка (Море звёзд)
     }
 
     PleniluneGaze: {
@@ -7137,9 +7137,9 @@ Items: {
             [c/8AE6EA:Frostflake Arrows] will bloom upon impact, splitting into 5 Frost Arrows that deal double base damage
             Right click to expend 90 mana, stepping backwards while conjuring an [c/7ED0EA:Ice Lotus] at your location
             After a short time, the [c/7ED0EA:Ice Lotus] will explode, spawning 8 Frost Arrows
-            'Holding it makes you sleepy'
+            'Даже просто держа в руках накатывает сонливость'
             '''
-        DisplayName: Plenilune Gaze
+        DisplayName: Взгляд полнолуния
     }
 
     AlchemicPrism: {
@@ -7479,9 +7479,9 @@ Items: {
             Right click to load 12 bullets into the magazine with 40 mana
             Timing the reload perfectly will boost damage up to 8 times and refund 20 mana
             Failing to time the reload perfectly will reset the bonus
-            'Are you a bad enough dude?'
+            'А ты достаточно плохой мальчик?'
             '''
-        DisplayName: Rad Gun
+        DisplayName: Рад-пушка
     }
 
     RedMage: {
@@ -7518,9 +7518,9 @@ Items: {
             Attacking [c/CB8952:Petrified] foes with this weapon will deal extra damage
             Critical strikes will [c/F1D078:Shatter] foes that are [c/CB8952:Petrified]
             [c/F1D078:Shatter] deals 5x base damage while removing [c/CB8952:Petrification]
-            'I will have order!'
+            'Я наведу порядок!'
             '''
-        DisplayName: Rex Lapis
+        DisplayName: Рекс Ляпис
     }
 
     RideTheBull: {
@@ -7528,9 +7528,9 @@ Items: {
             '''
             Sprays a barrage of powerful bullets
             Killing foes will refill a portion of mana and grant Wrath
-            'Never stop shooting'
+            'Бесперебойная стрельба'
             '''
-        DisplayName: Ride the Bull
+        DisplayName: Родео
     }
 
     RupturedHeaven: {
@@ -7544,9 +7544,9 @@ Items: {
             [c/8EE7E4:Lion's Lecture] increases Melee Damage by 18% and attack speed by 10%
             [c/B4E93A:Eagle's Lecture] increases Magic Damage by 18% and grants Mana Regeneration
             [c/F3E63E:Deer's Lecture] increases Ranged Damage by 18% and critical strike chance by 8%
-            'Let the lesson begin!'
+            'Начнём урок!'
             '''
-        DisplayName: Ruptured Heaven
+        DisplayName: Разорванные небеса
     }
 
     SakuraVengeance: {
@@ -7566,9 +7566,9 @@ Items: {
             Right click to consume the [c/CE8EBD:Vengeance Gauge] and gain the buff [c/DF2AAE:Elemental Chaos] for 14 seconds
             [c/DF2AAE:Elemental Chaos] grants all [c/FF71D8:Elemental Arts] buffs and the weapon will inflict all [c/FF71D8:Elemental Arts] debuffs on foes
             [c/DF2AAE:Elemental Chaos] does not grant the unique abilities of each [c/FF71D8:Elemental Art]
-            'Remember those who have passed, and they will forever live on'
+            'Помни всех, кто покинул нас, и они будут жить вечно'
             '''
-        DisplayName: Sakura's Vengeance
+        DisplayName: Месть сакуры
     }
 
     ShadowlessCerulean: {
@@ -7587,7 +7587,7 @@ Items: {
             You can not charge the [c/3CC7FF:Cerulean Flame Gauge] while under the effects of [c/9E7F90:Burnout]
             'You will understand my choice one day... Forgive me'
             '''
-        DisplayName: Shadowless Cerulean
+        DisplayName: Бестеневая лазурь
     }
 
     Skofnung: {
@@ -7599,7 +7599,7 @@ Items: {
             When the [c/395A37:Blade of Grudges] inflicts a critical strike, gain [c/7E2626:Bloodstained Belone] for 8 seconds
             [c/7E2626:Bloodstained Belone] increases damage by 10%
             '''
-        DisplayName: Skofnung
+        DisplayName: Скофнунг
     }
 
     SkyStrikerArms: {
@@ -7621,7 +7621,7 @@ Items: {
             Attacks are changed into long range piercing bolts, dealing 1.5x base damage
             Critical strikes deal 4x damage
             '''
-        DisplayName: Armaments of the Sky Striker
+        DisplayName: Арсенал небесного воина
     }
 
     SparkblossomBeacon: {
@@ -7636,7 +7636,7 @@ Items: {
             Each attack increases the strength of the [c/49EAFA:Fleeting Spark] by 2% (Maximum 10% increased damage, resets upon exploding)
             'Keep a good distance - there!'
             '''
-        DisplayName: Sparkblossom's Beacon
+        DisplayName: Маяк цветущей искры
     }
 
     Spatial: {
@@ -7658,7 +7658,7 @@ Items: {
             [c/B60000:Claws of Nyx] increases damage by 40% and crit chance by 20%
             'Darkness comes from within'
             '''
-        DisplayName: Stygian Nymph
+        DisplayName: Стигийская нимфа
     }
 
     Suistrume: {
@@ -7675,7 +7675,7 @@ Items: {
             If the [c/40b9ff:Stellar Performance] is completed in its entirety, you will restore all HP and MP and [c/40b9ff:Stellar Performance] will have its cooldown halved to 1 minute
             'Whatever you're singing, it's cute as always'
             '''
-        DisplayName: Suistrume
+        DisplayName: Суйсэйфон
     }
 
     Tartaglia: {
@@ -7691,7 +7691,7 @@ Items: {
             This weapon does not use ammo
             'Shouldn't let your guard down!'
             '''
-        DisplayName: Tartaglia
+        DisplayName: Тарталья
     }
 
     TheOnlyThingIKnowForReal: {
@@ -7712,7 +7712,7 @@ Items: {
             Additionally, [c/EC2B65:Jetstream Bloodshed]'s damage buff is increased to 50% and natural life regeneration is disabled
             'Let's dance'
             '''
-        DisplayName: The Only Thing I Know For Real
+        DisplayName: И точно я знаю одно
     }
 
     TwinStars: {
@@ -7726,7 +7726,7 @@ Items: {
             Above 250 Mana, this weapon deals 50% more damage
             1/8th of Max Mana is added directly to damage
             '''
-        DisplayName: Twin Stars of Albiero
+        DisplayName: Двойные звёзды Альбиеро
     }
 
     UltimaThule: {
@@ -7748,7 +7748,7 @@ Items: {
             [c/FF9F14:Cosmic Conception] has a 2 minute cooldown
             'And yet you can walk on'
             '''
-        DisplayName: Ultima Thule
+        DisplayName: Ультима Туле
     }
 
     Umbral: {
@@ -7757,7 +7757,7 @@ Items: {
             Debug cheat item
             Don't use me
             '''
-        DisplayName: Umbral Item
+        DisplayName: Теневой предмет
     }
 
     Unforgotten: {
@@ -7777,7 +7777,7 @@ Items: {
             [c/8E60D1:Soul Unbound] has a 22 second cooldown
             'One to cut, one to seal'
             '''
-        DisplayName: Unforgotten
+        DisplayName: Незабытый
     }
 
     VenerationOfButterflies: {
@@ -7789,7 +7789,7 @@ Items: {
             During [c/9B88D7:Butterfly Trance], the Mana cost of Veneration of Butterflies drops to zero and you can shoot twice as fast
             Additionally, gain 50% damage reduction and slow falling
             '''
-        DisplayName: Veneration Of Butterflies
+        DisplayName: Почитание бабочек
     }
 
     VermillionDaemon: {
@@ -7807,9 +7807,9 @@ Items: {
             Each stack of [c/F48080:Spectral Arsenal] will cause a follow up blade to attack nearby foes for a short duration when executing normal attacks
             With 3 stacks of [c/F48080:Spectral Arsenal], right click will instead activate [c/C80000:Retribution], costing no Mana
             [c/C80000:Retribution] consumes all [c/F48080:Spectral Arsenal] stacks to summon a barrage of spectral blades towards your cursor for 3 seconds
-            'I'm afraid you're out of luck'
+            'Боюсь, что вам не повезло'
             '''
-        DisplayName: Vermilion Daemon
+        DisplayName: Алый демон
     }
 
     VirtuesEdge: {
@@ -7826,7 +7826,7 @@ Items: {
             There is a 45 second cooldown between the re-activation of [c/495DEC:Celestial Void]
             'Pierce through all matter!'
             '''
-        DisplayName: Virtue's Edge
+        DisplayName: Грань добродетели
     }
 
     VisionOfEuthymia: {
@@ -7843,7 +7843,7 @@ Items: {
             The [c/8A71D6:Eternity Gauge] will reset when the Eye of Euthymia disappears
             'Fulfill your promise; an everlasting Eternity'
             '''
-        DisplayName: Vision of Euthymia
+        DisplayName: Глаз эвтюмии
     }
 
     VoiceOfTheFallen: {
@@ -7854,7 +7854,7 @@ Items: {
             Once the gun has landed a critical strike, the chance will reset
             'There are parasites that may benefit the host... teeth sharper than your own'
             '''
-        DisplayName: Voice of the Fallen
+        DisplayName: Глас падшего
     }
 
     Xenoblade: {
@@ -7874,7 +7874,7 @@ Items: {
             [c/9923CD:Buster] grants Wrath when active and disables normal attacks, but charged attacks are faster
             'THIS is the Monado's power!'
             '''
-        DisplayName: Xenoblade
+        DisplayName: Ксеноклинок
     }
 
     YunlaiStiletto: {
@@ -7888,7 +7888,7 @@ Items: {
             If you attempt to teleport to an unaccessable location, you will consume the [c/CB8EE3:Lightning Stiletto] without teleporting but still prepare [c/B703FF:Driving Thunder]
             'Woven from lightning itself, from a land where gods roam free'
             '''
-        DisplayName: Yunlai Stiletto
+        DisplayName: Грозовой стилет
     }
 
     AnomalyByte: {
@@ -7901,7 +7901,7 @@ Items: {
             [c/ADEEFF:Only one Stargazer Relic can be equipped at a time]
             '###?'
             '''
-        DisplayName: Anomalous Byte
+        DisplayName: Аномальный байт
     }
 
     CassiopeaBrooch: {
@@ -7912,7 +7912,7 @@ Items: {
             [c/ADEEFF:Only one Stargazer Relic can be equipped at a time]
             'The Empire's Queen sleeps, waiting to live forever'
             '''
-        DisplayName: Cassiopea's Brooch
+        DisplayName: Брошь Кассиопеи
     }
 
     AdornmentOfTheChaoticGod: {
@@ -7928,7 +7928,7 @@ Items: {
             Fire rate increases slightly based on the amount of minions summoned
             'Chaos can giveth, and chaos can taketh'
             '''
-        DisplayName: Adornment of the Chaotic God
+        DisplayName: Цилиндр хаотичного бога
     }
 
     AgnianFarewell: {
@@ -7940,47 +7940,47 @@ Items: {
             [c/FC6969:Farewell of Flames] grants an additional increase to Luck
             If used while wielding the strength of the Astral Aspect (through trading in Multiplayer), further increase the potency of [c/FFE86A:Off-seer's Purpose]'s Luck increase
             '''
-        DisplayName: Agnian Farewell
+        DisplayName: Прощание агниан
     }
 
     BlackSilenceGloves: {
         Tooltip: Unobtainable; vanity by using 'Gloves of the Black Silence'
-        DisplayName: Black Silence's Gloves
+        DisplayName: Перчатки Чёрной Тишины
     }
 
     BlackSilenceHead: {
         Tooltip: Unobtainable; vanity by using 'Gloves of the Black Silence'
-        DisplayName: Black Silence's Mask
+        DisplayName: Маска Чёрной Тишины
     }
 
     ManifestationCape: {
         Tooltip: Unobtainable; vanity by using 'Manifestation'
-        DisplayName: E.G.O. Cape/Tail
+        DisplayName: Э.Г.О. плащ/хвост
     }
 
     RedMistBody: {
         Tooltip: Unobtainable; vanity by using 'Manifestation'
-        DisplayName: Red Mist Body
+        DisplayName: Тело Красного Тумана
     }
 
     RedMistGloves: {
         Tooltip: Unobtainable; vanity by using 'Manifestation'
-        DisplayName: Red Mist's Gloves
+        DisplayName: Перчатки Красного Тумана
     }
 
     RedMistHead: {
         Tooltip: Unobtainable; vanity by using 'Manifestation'
-        DisplayName: Red Mist's Helmet
+        DisplayName: Шлем Красного Тумана
     }
 
     RedMistLegs: {
         Tooltip: Unobtainable; vanity by using 'Manifestation'
-        DisplayName: Red Mist Leggings
+        DisplayName: Поножи Красного Тумана
     }
 
     DioskouroiBossBag: {
         Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
-        DisplayName: Treasure Bag (Dioskouroi, the Twin Forces)
+        DisplayName: Мешок с сокровищами (Диоскуры, Близнецы)
     }
 
     Chronoclock: {
@@ -7995,7 +7995,7 @@ Items: {
             Additionally, taking damage within the [c/52BFDF:Time Bubble] will pop the [c/52BFDF:Time Bubble] prematurely, preventing that instance of damage (20 second cooldown)
             'Well, that sounds like a waste of time'
             '''
-        DisplayName: Chronoclock
+        DisplayName: Хроно-часы
     }
 
     EverlastingLightTester: {
@@ -8006,7 +8006,7 @@ Items: {
 
 
             '''
-        DisplayName: Everlasting Light Tester
+        DisplayName: Вечный свет - тест
     }
 
     StarfarerSwapper: {
@@ -8017,7 +8017,7 @@ Items: {
             [c/F1AF42:Don't use this in multiplayer!]
 
             '''
-        DisplayName: Starfarer Swapper
+        DisplayName: Переключатель Астры
     }
 
     TwincruxPendant: {
@@ -8029,7 +8029,7 @@ Items: {
             Prepare accordingly, and consider postponing this fight until you are stronger
             Не расходуется
             '''
-        DisplayName: The Twincrux Pendant
+        DisplayName: Амулет парного креста
     }
 
     EssenceOfAbsoluteChaos: {
@@ -8063,7 +8063,7 @@ Items: {
     }
 
     EssenceOfFarewells: {
-        DisplayName: Essence of Farewells
+        DisplayName: Эссенция прощаний
         Tooltip:
             '''
             Obtained after visiting a Graveyard
@@ -8089,7 +8089,7 @@ Items: {
             Подарок вашей Астры
             Используется для создания 'Boltstorm Axe'(Melee/Magic)
             '''
-        DisplayName: Essence of Lightning
+        DisplayName: Эссенция молний
     }
 
     EssenceOfMania: {
@@ -8099,7 +8099,7 @@ Items: {
             Подарок вашей Астры
             Используется для создания 'Maniacal Justice' (Ближний бой)
             '''
-        DisplayName: Essence of Mania
+        DisplayName: Эссенция мании
     }
 
     EssenceOfMimicry: {
@@ -8109,7 +8109,7 @@ Items: {
             Resembles Подарок вашей Астры
             Используется для создания 'Manifestation' (Неземной)
             '''
-        DisplayName: Demi-Essence of Mimicry
+        DisplayName: Полу-эссенция мимикрии
     }
 
     EssenceOfNanomachines: {
@@ -8169,7 +8169,7 @@ Items: {
             Подарок вашей Астры
             Используется для создания 'Gloves of the Black Silence' (Неземной)
             '''
-        DisplayName: Essence of Silence
+        DisplayName: Эссенция тишины
     }
 
     EssenceOfSouls: {
@@ -8189,7 +8189,7 @@ Items: {
             Подарок вашей Астры
             Используется для создания 'Sunset of the Sun God' (Melee/Magic/Summon/Ranged)
             '''
-        DisplayName: Essence of Surya
+        DisplayName: Эссенция Сурьи
     }
 
     EssenceOfTheAbyss: {
@@ -8199,7 +8199,7 @@ Items: {
             Подарок вашей Астры
             Используется для создания 'The Everlasting Pickaxe' (Неземной)
             '''
-        DisplayName: Essence of the Abyss
+        DisplayName: Эссенция бездны
     }
 
     EssenceOfTheAutomaton: {
@@ -8209,7 +8209,7 @@ Items: {
             Подарок вашей Астры
             Используется для создания 'Pod Zero-42' (Призывной)
             '''
-        DisplayName: Essence of the Automaton
+        DisplayName: Эссенция автоматона
     }
 
     EssenceOfTheBehemothTyphoon: {
@@ -8219,7 +8219,7 @@ Items: {
             Подарок вашей Астры
             Используется для создания 'The Kiss of Death' (Стрелковый)
             '''
-        DisplayName: Essence of the Behemoth Typhoon
+        DisplayName: Эссенция Бегемота Тайфуна
     }
 
     EssenceOfTheRenegade: {
@@ -8227,9 +8227,9 @@ Items: {
             '''
             Можно получить в качестве награды за победу над всеми механическими боссами
             Подарок вашей Астры
-            Используется для создания 'El Capitan's Hardware' (Стрелковый)
+            Используется для создания 'Железо Эль Капитана' (Стрелковый)
             '''
-        DisplayName: Essence of the Renegade
+        DisplayName: Эссенция изменника
     }
 
     EssenceOfTheTimeless: {
@@ -8237,9 +8237,9 @@ Items: {
             '''
             Можно получить в качестве награды за победу над Культистом-лунатиком
             Подарок вашей Астры
-            Используется для создания 'Umbra' (Ближний бой)
+            Используется для создания 'Умбра' (Ближний бой)
             '''
-        DisplayName: Essence of the Timeless
+        DisplayName: Эссенция безвременья
     }
 
     EssenceOfTheWatch: {
@@ -8249,7 +8249,7 @@ Items: {
             Подарок вашей Астры
             Используется для создания 'Chronoclock' (Призывной)
             '''
-        DisplayName: Essence of the Watch
+        DisplayName: Эссенция часов
     }
 
     GoldenKatana: {
@@ -8266,7 +8266,7 @@ Items: {
             At maximum [c/F7D76A:Overcharge], consume an additional 30 HP but guarantees a critical strike and inflict [c/FF4DF4:Hyperburn] for 4 seconds
             [c/FF4DF4:Hyperburn] deals powerful damage over time and ignores most resistances
             '''
-        DisplayName: Aurum Edge
+        DisplayName: Золотая грань
     }
 
     IrminsulDream: {
@@ -8280,7 +8280,7 @@ Items: {
             However, both [c/2EB24A:Verdant Embrace] and the debuff that triggered [c/94EF58:Verdant Burst] will be cleansed
             'Let knowledge be yours'
             '''
-        DisplayName: Irminsul's Dream
+        DisplayName: Сон Ирминсуля
     }
 
     KevesiFarewell: {
@@ -8292,7 +8292,7 @@ Items: {
             [c/FC6969:Farewell of Flames] grants an additional increase to Luck
             If used while wielding the strength of the Umbral Aspect (through trading in Multiplayer), further increase the potency of [c/69B5FC:Off-seer's Journey]'s Luck increase
             '''
-        DisplayName: Kevesi Farewell
+        DisplayName: Прощание кевеси
     }
 
     KissOfDeath: {
@@ -8311,7 +8311,7 @@ Items: {
             If over half of the [c/EB936A:Overdrive Gauge] is consumed, the attack is guaranteed to be a critical strike
             'It's not a big deal'
             '''
-        DisplayName: The Kiss of Death
+        DisplayName: Поцелуй смерти
     }
 
     LevinstormAxe: {
@@ -8330,7 +8330,7 @@ Items: {
             Additionally, during [c/FDD059:Gathering Levinstorm], lightning critical strikes will cause lightning to strike from above, dealing half critical strike damage
             Follow-up lightning can not trigger this effect
             '''
-        DisplayName: Boltstorm Axe
+        DisplayName: Штормовой топор
     }
 
     StellarFociGrabBagTier1: {
@@ -8339,7 +8339,7 @@ Items: {
             10% chance to upgrade upon opening
             {$CommonItemTooltip.RightClickToOpen}
             '''
-        DisplayName: Stellar Foci Grab Bag (Tier 1)
+        DisplayName: Мешочек со светилами (Ранг 1)
     }
 
     StellarFociGrabBagTier2: {
@@ -8348,12 +8348,12 @@ Items: {
             10% chance to upgrade upon opening
             {$CommonItemTooltip.RightClickToOpen}
             '''
-        DisplayName: Stellar Foci Grab Bag (Tier 2)
+        DisplayName: Мешочек со светилами (Ранг 2)
     }
 
     StellarFociGrabBagTier3: {
         Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
-        DisplayName: Stellar Foci Grab Bag (Tier 3)
+        DisplayName: Мешочек со светилами (Ранг 3)
     }
 
     ManiacalJustice: {
@@ -8372,7 +8372,7 @@ Items: {
             Additionally, gain infinite flight time and a 25% chance to dodge any attack
             Once the [c/C91515:SPECIAL ATTACK] concludes, this weapon can not be used for 30 seconds
             '''
-        DisplayName: Maniacal Justice
+        DisplayName: Маниакальное правосудие
     }
 
     Manifestation: {
@@ -8394,16 +8394,16 @@ Items: {
             If [c/D53B3B:Emotional Turbulence] is below 10% for 3 seconds, [c/AE0000:E.G.O. Manifestation] will end and you will be inflicted with Vulnerability for 10 seconds
             'Let's start this for real- I'll crush you all...'
             '''
-        DisplayName: Manifestation
+        DisplayName: Манифестация
     }
 
     BandedTenebrium: {
         Tooltip:
             '''
-            Utilized to upgrade the Stellaglyph and craft certain Stellar Foci
-            'Cold to the heat'
+            Используется для улучшения Космографа и создания Светил
+            'Холодный как солнце'
             '''
-        DisplayName: Banded Tenebrium
+        DisplayName: Связка тенебрия
     }
 
     Nanomachina: {
@@ -8417,9 +8417,9 @@ Items: {
             Additionally, striking enemies will slowly fill the [c/A00F0F:Nanomachine Gauge]; once full, automatically restore the duration and barrier HP of [c/FF0046:Realized Nanomachina]
             Defeating foes increases the [c/A00F0F:Nanomachine Gauge] by 5%
             When [c/FF0046:Realized Nanomachina] ends, the [c/A00F0F:Nanomachine Gauge] is emptied (Will also empty out of combat)
-            'Nanomachines, son!'
+            'Наномашины, сынок!'
             '''
-        DisplayName: Nanomachina Reactor
+        DisplayName: Наномашинный реактор
     }
 
     CelestriadRoot: {
@@ -8428,7 +8428,7 @@ Items: {
             A sapling from the heart of the universe
             Can be used as a crafting bench to create the Stellaglyph and its upgrades
             '''
-        DisplayName: Celestriad Root
+        DisplayName: Неземной корень
     }
 
     PortalPlacer: {
@@ -8459,7 +8459,7 @@ Items: {
             Can be enhanced by placing [c/FF1B8D:Stellar Foci] nearby to grant buffs during Cosmic Voyages
             Able to sustain 8 [c/FF1B8D:Stellar Foci]
             '''
-        DisplayName: Stellaglyph (Tier 2)
+        DisplayName: Космограф (Ранг 2)
     }
 
     StellaglyphTier3: {
@@ -8471,7 +8471,7 @@ Items: {
             Can be enhanced by placing [c/FF1B8D:Stellar Foci] nearby to grant buffs during Cosmic Voyages
             Able to sustain 12 [c/FF1B8D:Stellar Foci]
             '''
-        DisplayName: Stellaglyph (Tier 3)
+        DisplayName: Космограф (Ранг 3)
     }
 
     AgilityFocusTier1: {
@@ -8491,7 +8491,7 @@ Items: {
             Once placed near a Stellaglyph:
             Increases movement speed by 5% during a Cosmic Voyage
             '''
-        DisplayName: Agility Focus (Tier 2)
+        DisplayName: Светило ловкости (Ранг 2)
     }
 
     AgilityFocusTier3: {
@@ -8501,7 +8501,7 @@ Items: {
             Once placed near a Stellaglyph:
             Increases movement speed by 7% during a Cosmic Voyage
             '''
-        DisplayName: Agility Focus (Tier 3)
+        DisplayName: Светило ловкости (Ранг 3)
     }
 
     ConstitutionFocusTier1: {
@@ -8511,7 +8511,7 @@ Items: {
             Once placed near a Stellaglyph:
             Increases Max HP by 5 and Max MP by 10 during a Cosmic Voyage
             '''
-        DisplayName: Constitution Focus (Tier 1)
+        DisplayName: Светило телосложения (Ранг 1)
     }
 
     ConstitutionFocusTier2: {
@@ -8521,7 +8521,7 @@ Items: {
             Once placed near a Stellaglyph:
             Increases Max HP by 8 and Max MP by 16 during a Cosmic Voyage
             '''
-        DisplayName: Constitution Focus (Tier 2)
+        DisplayName: Светило телосложения (Ранг 2)
     }
 
     ConstitutionFocusTier3: {
@@ -8531,7 +8531,7 @@ Items: {
             Once placed near a Stellaglyph:
             Increases Max HP by 12 and Max Mana by 24 during a Cosmic Voyage
             '''
-        DisplayName: Constitution Focus (Tier 3)
+        DisplayName: Светило телосложения (Ранг 3)
     }
 
     LuckFocusTier1: {
@@ -8541,7 +8541,7 @@ Items: {
             Once placed near a Stellaglyph:
             Increases luck by 4% during a Cosmic Voyage
             '''
-        DisplayName: Luck Focus (Tier 1)
+        DisplayName: Светило удачи (Ранг 1)
     }
 
     LuckFocusTier2: {
@@ -8551,7 +8551,7 @@ Items: {
             Once placed near a Stellaglyph:
             Increases luck by 8% during a Cosmic Voyage
             '''
-        DisplayName: Luck Focus (Tier 2)
+        DisplayName: Светило удачи (Ранг 2)
     }
 
     LuckFocusTier3: {
@@ -8561,7 +8561,7 @@ Items: {
             Once placed near a Stellaglyph:
             Increases luck by 12% during a Cosmic Voyage
             '''
-        DisplayName: Luck Focus (Tier 3)
+        DisplayName: Светило удачи (Ранг 3)
     }
 
     PowerFocusTier1: {
@@ -8571,7 +8571,7 @@ Items: {
             Once placed near a Stellaglyph:
             Increases damage dealt by 2% during a Cosmic Voyage
             '''
-        DisplayName: Power Focus (Tier 1)
+        DisplayName: Светило силы (Ранг 1)
     }
 
     PowerFocusTier2: {
@@ -8581,7 +8581,7 @@ Items: {
             Once placed near a Stellaglyph:
             Increases damage dealt by 3% during a Cosmic Voyage
             '''
-        DisplayName: Power Focus (Tier 2)
+        DisplayName: Светило силы (Ранг 2)
     }
 
     PowerFocusTier3: {
@@ -8591,7 +8591,7 @@ Items: {
             Once placed near a Stellaglyph:
             Increases damage dealt by 4% during a Cosmic Voyage
             '''
-        DisplayName: Power Focus (Tier 3)
+        DisplayName: Светило силы (Ранг 3)
     }
 
     ResistanceFocusTier1: {
@@ -8601,7 +8601,7 @@ Items: {
             Once placed near a Stellaglyph:
             Increases defense by 3 during a Cosmic Voyage
             '''
-        DisplayName: Resistance Focus (Tier 1)
+        DisplayName: Светило сопротивления (Ранг 1)
     }
 
     ResistanceFocusTier2: {
@@ -8611,7 +8611,7 @@ Items: {
             Once placed near a Stellaglyph:
             Increases defense by 5 during a Cosmic Voyage
             '''
-        DisplayName: Resistance Focus (Tier 2)
+        DisplayName: Светило сопротивления (Ранг 2)
     }
 
     ResistanceFocusTier3: {
@@ -8675,7 +8675,7 @@ Items: {
             'The Extreme' - Final Fantasy 8 OST
             Arranged by Daiki Ishikawa - Composed by Nobuo Uematsu
             '''
-        DisplayName: Music Box (Tsukiyomi, the First Starfarer: Non-Expert)
+        DisplayName: Музыкальная шкатулка (Цукиёми, Первая Астра: Не-Эксперт)
     }
 
     PodZero42: {
@@ -8688,9 +8688,9 @@ Items: {
             These bullets fire faster, travel faster, and deal 10% more damage, but consume 2 Mana per shot
             This cost can not be negated through any means, but mana regen delay is shortened
             Gain the buff Night Owl outside of combat and Hunter during combat
-            'Glory to Mankind'
+            'Слава человечеству'
             '''
-        DisplayName: Pod Zero-42
+        DisplayName: Под Зеро-42
     }
 
     GeminiPrism: {
@@ -8721,9 +8721,9 @@ Items: {
             With stacks of [c/E18121:Cannonfire Deluge], pressing the Weapon Action Key will consume a stack, causing a rain of explosive cannonballs to descend on your cursor
             Additionally, gain Swiftness for 12 seconds upon activation
             The final [c/E18121:Cannonfire Deluge] will end with a larger cannonball that deals 3x damage, stunning foes for 2 seconds
-            'Neither the flames nor the depths could claim me...'
+            'Меня не победит ни огонь, ни пучина'
             '''
-        DisplayName: Saltwater Scourge
+        DisplayName: Гроза морей
     }
 
     SanguineDespair: {
@@ -8738,7 +8738,7 @@ Items: {
             Attacks against a foe with Mortal Wounds deal 10% increased damage
             Critical strikes against a foe with Mortal Wounds deal 30% increased damage instead
             '''
-        DisplayName: Sanguine Despair
+        DisplayName: Кровавое отчаяние
     }
 
     SoulReaver: {
@@ -8756,7 +8756,7 @@ Items: {
             Defeating foes will grant a stack of [c/8148C4:Dark Soul], granting 2% increased damage per stack (capping at 10 stacks)
             Lose all stacks of [c/8148C4:Dark Soul] after leaving combat
             '''
-        DisplayName: Soul Reaver
+        DisplayName: Жнец душ
     }
 
     SunsetOfTheSunGod: {
@@ -8773,7 +8773,7 @@ Items: {
             [c/00CDFF:Summon]: Attacks extend a burning whip, causing summons to inflict Daybroken for 2 seconds on hit
             'With this single strike, I shall inflict extinction!'
             '''
-        DisplayName: Sunset of the Sun God
+        DisplayName: Рассвет солнечного божества
     }
 
     SupremeAuthority: {
@@ -8793,7 +8793,7 @@ Items: {
             If [c/DE8A2A:Deified] ends while a boss is active, inflict [c/5E5050:Mortality] for 15 seconds, slowing movement speed and doubling damage recieved
             'Be afraid, sinner.'
             '''
-        DisplayName: Supreme Authority
+        DisplayName: Высшая власть
     }
 
     Umbra: {
@@ -8811,7 +8811,7 @@ Items: {
             Critical strikes with enhanced [c/A75BD9:Timeless Blades] will additionally conjure additional [c/A75BD9:Timeless Blades] to strike the foe
             The amount of [c/A75BD9:Timeless Blades] summoned depend on the remaining pierces of the enhanced [c/A75BD9:Timeless Blade]
             '''
-        DisplayName: Umbra
+        DisplayName: Умбра
     }
 
     BuryTheLight: {
@@ -8831,7 +8831,7 @@ Items: {
             You are invincible for the duration of [c/902FEC:Judgement Finale]
             'Now you're motivated'
             '''
-        DisplayName: Bury The Light
+        DisplayName: Похороны света
     }
 
     TestArmorHead: {
@@ -8866,7 +8866,7 @@ Items: {
     }
 
     ShockAndAwe: {
-        DisplayName: Shock & Awe
+        DisplayName: Шое и трепет
         Tooltip:
             '''
             Attacks with this weapon fire a powerful rocket that explodes upon impact with heavy knockback
@@ -8877,12 +8877,12 @@ Items: {
             During this time, rocket explosions deal 20% increased non-critical strike damage and 40% increased critical strike damage
             Right click to swing the [c/83D26E:Bargain Gardener], dealing damage to nearby foes (Critical strikes are disabled)
             Striking foes with the [c/83D26E:Bargain Gardener] while airborne under the effect of [c/E74336:Death from Above] will guarantee a 2x damage critical strike
-            'Ka-boom!'
+            'Ка-бум!'
             '''
     }
 
     TrickspinTwoStep: {
-        DisplayName: Trickspin Two-Step
+        DisplayName: Двухступенчатый спин
         Tooltip:
             '''
             4 summon tag damage
@@ -8977,7 +8977,7 @@ Items: {
     }
 
     SigilOfHope: {
-        DisplayName: Sigil Of Hope
+        DisplayName: Символ надежды
         Tooltip:
             '''
             [c/D294FF:Weapon Memory]
@@ -8988,17 +8988,17 @@ Items: {
     }
 
     OceanHuedHunterBody: {
-        DisplayName: Ocean-Hued Hunter Vestments
+        DisplayName: Жилет охотника морских красок
         Tooltip: "'Perfect for fighting Seaborn'"
     }
 
     OceanHuedHunterHead: {
-        DisplayName: Ocean-Hued Hunter Tricorn
+        DisplayName: Треуголка охотника морских красок
         Tooltip: ""
     }
 
     OceanHuedHunterLegs: {
-        DisplayName: Ocean-Hued Hunter Leggings
+        DisplayName: Штаны охотника морских красок
         Tooltip: ""
     }
 
@@ -9018,7 +9018,7 @@ Items: {
     }
 
     EssenceOfDreams: {
-        DisplayName: Essence Of Dreams
+        DisplayName: Эссенция мечтаний
         Tooltip:
             '''
             Можно получить в качестве награды за победу над Плантерой
@@ -9028,7 +9028,7 @@ Items: {
     }
 
     EssenceOfKinetics: {
-        DisplayName: Essence Of Kinetics
+        DisplayName: Эссенция кинетики
         Tooltip:
             '''
             Можно получить в качестве награды за победу над Герцогом Рыброном
@@ -9038,7 +9038,7 @@ Items: {
     }
 
     EssenceOfSpinning: {
-        DisplayName: Essence Of Spinning
+        DisplayName: Эссенция вращения
         Tooltip:
             '''
             Obtained after defeating the Vagrant of Space and Time
@@ -9048,7 +9048,7 @@ Items: {
     }
 
     EssenceOfTheSoldier: {
-        DisplayName: Essence Of The Soldier
+        DisplayName: Эссенция солдата
         Tooltip:
             '''
             Можно получить в качестве награды за победу над боссом мирового зла
@@ -9058,7 +9058,7 @@ Items: {
     }
 
     EssenceOfTheHallownest: {
-        DisplayName: Essence Of The Hallownest
+        DisplayName: Эссенция Халлоунеста
         Tooltip:
             '''
             Obtained after defeating Skeletron, and then visiting the Underworld
@@ -9074,7 +9074,7 @@ Items: {
             When used, heal 30% of Max HP (Potion Sickness duration is decreased to 20 seconds)
             Can only be used once during combat
             Replenishes out of combat
-            'Praise the sun!'
+            'Слава Солнцу!'
             '''
     }
 
@@ -9106,7 +9106,7 @@ Items: {
     }
 
     GossamerNeedle: {
-        DisplayName: Gossamer Needle
+        DisplayName: Паучья игла
         Tooltip:
             '''
             [c/F592BF:This weapon is unaffected by Aspected Damage Type penalty when aspected to Melee or Magic damage]
@@ -9114,12 +9114,12 @@ Items: {
             Right click to dash towards your cursor (4 second cooldown)
             Press the Weapon Action Key to unleash [c/B9F1FA:Gossamer Storm], healing 15 HP and striking nearby foes 3 times (10 second cooldown)
             If [c/B9F1FA:Gossamer Storm] inflicts a critical strike, gain Alacrity for 5 seconds, increasing attack and movement speed
-            'Too weak, little ghost...'
+            'Слабо, маленький призрак...'
             '''
     }
 
     EssenceOfTheVoid: {
-        DisplayName: Эссенция Пустоты
+        DisplayName: Эссенция пустоты
         Tooltip:
             '''
             Obtained after defeating the Wall of Flesh
@@ -9134,7 +9134,7 @@ Items: {
     }
 
     DraggedBelow: {
-        DisplayName: Dragged Below
+        DisplayName: Затянутый вниз
         Tooltip:
             '''
             Attacks with this weapon unleashes [c/7444FF:Drown], firing a weak piercing bolt that strikes 2 times, dealing 15% bonus damage to foes afflicted with Shadowflame
@@ -9147,7 +9147,7 @@ Items: {
             [c/7444FF:Drown] becomes [c/CD1717:Corrupted Drown], transforming into a channeled beam that deals powerful damage, but no longer charges [c/7A1AE7:Void Corruption] and inflicts Slow on self when active
             [c/9036F5:Flood] becomes [c/B1296D:Corrupted Flood], dealing 10x damage and cooldown is reduced to 4 seconds, but does not inflict Shadowflame
             [c/73C84E:Suppress] becomes [c/C84EB6:Corrupted Suppress], consuming 50 HP to restore 50% Max MP and increase [c/7A1AE7:Void Corruption] by 25%
-            '..and so it comes... for all of us.'
+            '..оно уже идёт... за всеми нами'
             '''
     }
 
@@ -9157,14 +9157,14 @@ Items: {
             When held, vaccums all nearby items to your position instantly
             Use the item to grab items further away
             '''
-        DisplayName: Poltergrasp 5000
+        DisplayName: Полтерхват 5000
     }
 
     GundbitStaves: {
-        DisplayName: Gund-bit Siege
+        DisplayName: Осколочная штурмовая винтовка
         Tooltip:
             '''
-            Holding this weapon summons [c/B6E3F5:Bit Staves] and grants [c/3899E1:Aerial Defensive Array], granting bonus defense based on current Mana (up to 10)
+            Holding this weapon summons [c/B6E3F5:осколки] and grants [c/3899E1:Aerial Defensive Array], granting bonus defense based on current Mana (up to 10)
             Attacks with this weapon fire piercing lasers and mark targets, causing the [c/B6E3F5:Bit Staves] to orbit and attack
             Press the Weapon Action Key to recall all [c/B6E3F5:Bit Staves] to form a defensive shield for 3 seconds (20 second cooldown)
             During this time, the shield will follow your cursor and destroy all hostile projectiles in contact
@@ -9176,7 +9176,7 @@ Items: {
     }
 
     DragaliaFound: {
-        DisplayName: Dragalia Found
+        DisplayName: Найденная драгалия
         Tooltip:
             '''
             Holding this weapon grants [c/CAFF93:Tempest's Dragonlight], granting 2 defense for every minion slot
@@ -9195,7 +9195,7 @@ Items: {
     }
 
     Wavedancer: {
-        DisplayName: Wavedancer
+        DisplayName: Волнотанц
         Tooltip:
             '''
             Summons an oceanblessed blade to assail foes
@@ -9210,7 +9210,7 @@ Items: {
     }
 
     CosmoturgyStationItem: {
-        DisplayName: Cosmoturgy Station
+        DisplayName: Станция космотургии
         Tooltip:
             '''
             A mystical plinth utilized to upgrade Aspected Weapons with [c/D294FF:Weapon Memories]
@@ -9219,7 +9219,7 @@ Items: {
     }
 
     CapedFeather: {
-        DisplayName: Caped Feather
+        DisplayName: 
         Tooltip:
             '''
             [c/D294FF:Weapon Memory]
@@ -9307,7 +9307,7 @@ Items: {
     }
 
     TarotCard: {
-        DisplayName: Tarot Card
+        DisplayName: Карта таро
         Tooltip:
             '''
             [c/D294FF:Weapon Memory]
@@ -9317,31 +9317,31 @@ Items: {
             '''
 
         TooltipAttached: {
-            Fool: The Fool: Gain 8% increased damage (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
-            Magician: The Magician: Gain 8% increased damage at max Mana (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
-            Priestess: The Priestess: Gain 8% increased damage in a Town (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
-            Empress: The Empress: Gain 8% increased damage while feminine (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
-            Emperor: The Emperor: Gain 8% increased damage while masculine (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
-            Heirophant: The Heirophant: Gain 8% increased damage at Max HP (increased to 16% under the effect of [c/FF7DEF:Fate Divined])
-            Lovers: The Lovers: Gain 8% increased damage when in Multiplayer (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
-            Chariot: The Chariot: Gain 8% increased damage when moving quickly horizontally (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
-            Justice: Justice: Gain 8% increased damage during an invasion (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
-            Hermit: The Hermit: Gain 8% increased damage when in Singleplayer (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
-            Fortune: Fortune: Gain 8% increased damage randomly (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
-            Strength: Strength: Gain 8% increased damage if this weapon has strong knockback or higher (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
-            HangedMan: The Hanged Man: Gain 8% increased damage when below 75% HP (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
-            Death: Death: Gain 16% increased damage (decreased to 8% when below half health)
-            Temperance: Temperance: Gain 8% increased damage when Well Fed (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
-            Devil: The Devil: Gain 8% increased damage in the Underworld (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
-            Tower: Tower: Gain 8% increased damage in the Dungeon (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
-            Star: Star: Gain 8% increased damage in space (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
-            Moon: Moon: Gain 8% increased damage during the night (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
-            Sun: Sun: Gain 8% increased damage during the day (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
+            Fool: Дурак: Gain 8% increased damage (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
+            Magician: Маг: Gain 8% increased damage at max Mana (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
+            Priestess: Верховная жрица: Gain 8% increased damage in a Town (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
+            Empress: Императрица: Gain 8% increased damage while feminine (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
+            Emperor: Император: Gain 8% increased damage while masculine (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
+            Heirophant: Иерофант: Gain 8% increased damage at Max HP (increased to 16% under the effect of [c/FF7DEF:Fate Divined])
+            Lovers: Влюбленные: Gain 8% increased damage when in Multiplayer (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
+            Chariot: Колесница: Gain 8% increased damage when moving quickly horizontally (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
+            Justice: Справедливость: Gain 8% increased damage during an invasion (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
+            Hermit: Отшельник: Gain 8% increased damage when in Singleplayer (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
+            Fortune: Колесо Фортуны: Gain 8% increased damage randomly (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
+            Strength: Сила: Gain 8% increased damage if this weapon has strong knockback or higher (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
+            HangedMan: Повешенный: Gain 8% increased damage when below 75% HP (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
+            Death: Смерть: Gain 16% increased damage (decreased to 8% when below half health)
+            Temperance: Умеренность: Gain 8% increased damage when Well Fed (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
+            Devil: Дьявол: Gain 8% increased damage in the Underworld (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
+            Tower: Башня: Gain 8% increased damage in the Dungeon (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
+            Star: Звезда: Gain 8% increased damage in space (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
+            Moon: Луна: Gain 8% increased damage during the night (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
+            Sun: Солнце: Gain 8% increased damage during the day (increased to 16% when below half health or under the effect of [c/FF7DEF:Fate Divined])
         }
     }
 
     ArgentumShard: {
-        DisplayName: Fragment of Lost Memory
+        DisplayName: Фрагмент потерянных воспоминаний
         Tooltip:
             '''
             [c/D294FF:Weapon Memory]
@@ -9352,14 +9352,14 @@ Items: {
     }
 
     NetheriteBar: {
-        DisplayName: Bastion Ingot
+        DisplayName: Кусочек бастиона
         Tooltip:
             '''
             [c/D294FF:Weapon Memory]
             When Imprinted into a weapon, gain the following effects:
             Gain 4 defense while holding this weapon
             Press the Weapon Memory Key to instantly gain 20 defense for 2 seconds (18 second cooldown)
-            'Those were the days'
+            'Вот были времена'
             '''
         TooltipAttached:
             '''
@@ -9572,16 +9572,16 @@ Items: {
         Tooltip:
             '''
             This concoction reeks with chaos
-            [c/F1AF42:Summons Thespian, the Act of Alchemy] (Night only)
+            [c/F1AF42:Призывает Драма, Продукт алхимии] (Night only)
             This boss is available early, but you may find it much too difficult
             Prepare accordingly, and consider postponing this fight until you are stronger
             Не расходуется
             '''
-        DisplayName: The Malsaine Draught
+        DisplayName: Вредная настойка
     }
 
     OriginInfinity: {
-        DisplayName: Origin's Infinity
+        DisplayName: Бесконечность истока
         Tooltip:
             '''
             [c/F56BC9:This weapon modifies your active Stellar Nova]
@@ -9594,12 +9594,12 @@ Items: {
             Additionally, this weapon inherits 15% of the Stellar Nova's damage and critical strike chance
             Right click to unleash [Tachyon Slash], a powerful multi-hit attack which extends the duration of [Unlimited Sword] upon landing critical strikes (6 second cooldown)
             Press the Weapon Action Key to prematurely end [Unlimited Sword], refunding Stellar Nova energy depending on the time remaining
-            'We will seize our destiny!'
+            'Мы возьмём судьбу в свои руки!'
             '''
     }
 
     RebellionBloodArthur: {
-        DisplayName: Clarent Rebellion
+        DisplayName: Кларент восстания
         Tooltip:
             '''
             Attacks with this weapon cleave nearby foes and grants Rage for 8 seconds on hit
@@ -9613,24 +9613,24 @@ Items: {
     }
 
     SoliloquyOfSovereignSeas: {
-        DisplayName: Soliloquy Of Sovereign Seas
+        DisplayName: Монолог дальних морей
         Tooltip:
             '''
             [c/8AC1F1:This weapon has a unique damage type; inherits bonuses from both Magic and Summon damage]
             Gain up to 30 bonus damage based on percentage of HP above 60% Max HP
-            Press the Weapon Action Key to swap [c/A9D5F0:Arkhe Alignment] between [c/F0DFA9:Pneuma] and [c/6C5BE8:Ousia], changing this weapon's abilities
+            Press the Weapon Action Key to swap [c/A9D5F0:Arkhe Alignment] between [c/F0DFA9:Пневма] и [c/6C5BE8:Усия], changing this weapon's abilities
             While attuned to [c/F0DFA9:Pneuma], right click to summon the [c/5BBFE8:Singer of Seas], consuming 1 minion slot (Only one [c/5BBFE8:Singer of Seas] can be summoned at a time)
-            The [c/5BBFE8:Singer of Seas] will heal all allies in a wide radius for 5% of this weapon's damage every 5 seconds
-            While attuned to [c/6C5BE8:Ousia], right click to summon 3 [c/5BBFE8:Salon Attendants], consuming 1 minion slot (Only one group of [c/5BBFE8:Salon Attendants] can be summoned at a time)
-            The [c/5BBFE8:Salon Attendants] automatically attack nearby foes with homing bolts
+            [c/5BBFE8:Певец Морей] will heal all allies in a wide radius for 5% of this weapon's damage every 5 seconds
+            While attuned to [c/6C5BE8:Усия], right click to summon 3 [c/5BBFE8:участников салона], consuming 1 minion slot (Only one group of [c/5BBFE8:Salon Attendants] can be summoned at a time)
+            [c/5BBFE8:Участники салона] automatically attack nearby foes with homing bolts
             Gain Waterwalking while summons are present
-            Summons will disappear when swapping [c/A9D5F0:Arkhe Alignment]
-            'Let the world come alive!'
+            Summons will disappear when swapping [c/A9D5F0:вида архэ]
+            'Время блистать!'
             '''
     }
 
     DevotedHavoc: {
-        DisplayName: Devoted Havoc
+        DisplayName: Священный погром
         Tooltip:
             '''
             This weapon fires faster over time
@@ -9699,7 +9699,7 @@ Items: {
     }
 
     EssenceOfHydro: {
-        DisplayName: Essence Of Hydro
+        DisplayName: Эссенция Гидро
         Tooltip:
             '''
             Obtained after defeating Thespian, the Act of Alchemy
@@ -9709,7 +9709,7 @@ Items: {
     }
 
     EssenceOfKingslaying: {
-        DisplayName: Essence Of Kingslaying
+        DisplayName: Эссенция отцеубийства
         Tooltip:
             '''
             Obtained after defeating Nalhaun, the Burnished King
@@ -9719,19 +9719,19 @@ Items: {
     }
 
     BlackLightbulb: {
-        DisplayName: Black Lightbulb
+        DisplayName: Чёрная лампочка
         Tooltip:
             '''
             [c/D294FF:Weapon Memory]
             When Imprinted into a weapon, gain the following effects:
             Critical strikes have a 14% chance to instantly execute non-boss enemies
-            'Do you remember?'
+            'Ты помнишь?'
             '''
         TooltipAttached: Critical strikes have a 14% chance to instantly execute non-boss enemies
     }
 
     ChronalDeccelerator: {
-        DisplayName: Chronal Decelerator
+        DisplayName: Хрональный замедлитель
         Tooltip:
             '''
             [c/D294FF:Weapon Memory]
@@ -9742,7 +9742,7 @@ Items: {
     }
 
     DescenderGemstone: {
-        DisplayName: Descender's Gemstone
+        DisplayName: Самоцвет Сошедшего
         Tooltip:
             '''
             [c/D294FF:Weapon Memory]
@@ -9857,16 +9857,16 @@ Items: {
 
 UIElements: {
     BlackSilence: {
-        Durandal: Durandal
-        Zelkova: Zelkova
-        Ranga: Ranga
-        OldBoys: Old Boys
-        Allas: Allas
-        Mook: Mook
-        AtelierLogic: Atelier Logic
-        CrystalAtelier: Crystal Atelier
-        WheelsIndustry: Wheels Industry
-        FuriosoReady: Furioso is ready!
+        Durandal: Дюрандаль
+        Zelkova: Зелкова
+        Ranga: Ранга
+        OldBoys: Старые друзья
+        Allas: Аллас
+        Mook: Мук
+        AtelierLogic: Ателье Логики
+        CrystalAtelier: Кристальное Ателье
+        WheelsIndustry: Колесная промышленность
+        FuriosoReady: Неистовство готово!
     }
 
     Cosmoturgy: {
@@ -9892,16 +9892,16 @@ Projectiles: {
     AbsoluteGeometry.DisplayName: Absolute Geometry
     AbsoluteRendHeaven.DisplayName: Absolute Rend Heaven
     AbsoluteRendHeavenDamage.DisplayName: Absolute Rend Heaven
-    AegisDriverOff.DisplayName: Aegis Driver
-    AegisDriverOn.DisplayName: Aegis Driver
-    AmiyaSlash.DisplayName: Shadowless Cerulean
+    AegisDriverOff.DisplayName: Аегис Драйвер
+    AegisDriverOn.DisplayName: Аегис Драйвер
+    AmiyaSlash.DisplayName: Бестеневая лазурь
     AmiyaSlashBurst.DisplayName: Shadowless Cerulean Burst
-    AmiyaSwing1.DisplayName: Shadowless Cerulean
-    AmiyaSwing2.DisplayName: Shadowless Cerulean
-    AmiyaSwingE1.DisplayName: Shadowless Cerulean
-    AmiyaSwingE2.DisplayName: Shadowless Cerulean
-    ApalistikProjectile.DisplayName: Apalistik
-    ApalistikUpgradedProjectile.DisplayName: Apalistik
+    AmiyaSwing1.DisplayName: Бестеневая лазурь
+    AmiyaSwing2.DisplayName: Бестеневая лазурь
+    AmiyaSwingE1.DisplayName: Бестеневая лазурь
+    AmiyaSwingE2.DisplayName: Бестеневая лазурь
+    ApalistikProjectile.DisplayName: Апалистик
+    ApalistikUpgradedProjectile.DisplayName: Апалистик
     RobotSpider.DisplayName: Robot Spider
     RobotSpiderStationary.DisplayName: Robot Spider Stationary
     SpiderDamage.DisplayName: Arachnid Needlepoint
@@ -9970,13 +9970,13 @@ Projectiles: {
     ChaosBlaster2.DisplayName: Chaos Blaster
     ChaosBlaster3.DisplayName: Chaos Blaster
     ChemtankExplosion.DisplayName: Dreadnought Chemtank
-    ChemtankMarker1.DisplayName: Dreadnought Chemtank
-    ChemtankMarker2.DisplayName: Dreadnought Chemtank
-    ChemtankMarker3.DisplayName: Dreadnought Chemtank
-    ChemtankMarker4.DisplayName: Dreadnought Chemtank
-    ChemtankMarker5.DisplayName: Dreadnought Chemtank
-    ChemtankMarker6.DisplayName: Dreadnought Chemtank
-    ChemtankRound.DisplayName: Dreadnought Chemtank
+    ChemtankMarker1.DisplayName: Химдоспех Дредноута
+    ChemtankMarker2.DisplayName: Химдоспех Дредноута
+    ChemtankMarker3.DisplayName: Химдоспех Дредноута
+    ChemtankMarker4.DisplayName: Химдоспех Дредноута
+    ChemtankMarker5.DisplayName: Химдоспех Дредноута
+    ChemtankMarker6.DisplayName: Химдоспех Дредноута
+    ChemtankRound.DisplayName: Химдоспех Дредноута
     ClaimhBurst.DisplayName: Solais Burst
     CosmicDestroyerRound.DisplayName: Cosmic Destroyer
     CosmicDestroyerRound2.DisplayName: Cosmic Destroyer
@@ -10812,7 +10812,7 @@ Projectiles: {
 Buffs: {
     Afterburner: {
         DisplayName: Дожигатель
-        Description: Все атаки будут критическими
+        Description: Все атаки критические
     }
 
     AfterburnerCooldown: {
@@ -12454,42 +12454,42 @@ Buffs: {
     }
 
     CrystalAtelierBuff: {
-        DisplayName: Black Silence: Crystal Atelier
-        Description: Reflect 80% of damage taken
+        DisplayName: Чёрная Тишина: Кристальное Ателье
+        Description: Отражает 80% получаемого урона
     }
 
     DurandalBuff: {
-        DisplayName: Black Silence: Durandal
-        Description: Critical strikes deal 50% increased damage to foes below 50% HP
+        DisplayName: Чёрная Тишина: Дюрандаль
+        Description: Критические удары наносят на 50% больше урона врагам со здоровьем меньше 50%
     }
 
     FuriosoBuff: {
-        DisplayName: The Black Silence
-        Description: Mastery of armaments, speed, and skill has granted a myriad of buffs while cycling through weapons of the Black Silence
+        DisplayName: Чёрная Тишина
+        Description: Мастерство над вооружением, скоростью, and skill has granted a myriad of buffs while cycling through weapons of the Black Silence
     }
 
     MookBuff: {
-        DisplayName: Black Silence: Mook
+        DisplayName: Чёрная Тишина: Мук
         Description: Inflict Bleed for 4 seconds on hit
     }
 
     OldBoysBuff: {
-        DisplayName: Black Silence: Old Boys
+        DisplayName: Чёрная Тишина: Старые друзья
         Description: Gain 20 defense
     }
 
     RangaBuff: {
-        DisplayName: Black Silence: Ranga
+        DisplayName: Чёрная Тишина: Ранга
         Description: Deal 30% increased critical strike damage
     }
 
     WheelsIndustryBuff: {
-        DisplayName: Black Silence: Wheels Industry
+        DisplayName: Чёрная Тишина: Колесная промышленность
         Description: Deal 10% increased damage
     }
 
     ZelkovaBuff: {
-        DisplayName: Black Silence: Zelkova
+        DisplayName: Чёрная Тишина: Зелкова
         Description: Deal 30% increased damage to foes below 50% HP
     }
 
@@ -13483,10 +13483,10 @@ GameTips: {
 DamageClasses: {
     AuricDamageClass.DisplayName: ед. златого урона
     CelestialDamageClass.DisplayName: ед. неземного урона
-    GadgetDamageClass.DisplayName: gadget strength
-    IncarnationDamageClass.DisplayName: incarnated damage
+    GadgetDamageClass.DisplayName: ед. силы гаджета
+    IncarnationDamageClass.DisplayName: ед. инкарнационного урона
     PsychomentDamageClass.DisplayName: ед. психоментального урона
-    ArkheDamageClass.DisplayName: arkhe damage
+    ArkheDamageClass.DisplayName: ед. архэ-урона
 }
 
 Keybinds: {
@@ -13600,7 +13600,7 @@ Configs: {
         }
 
         DisableBlur: {
-            Label: Disable Blur
+            Label: Отключить блюр
             Tooltip: ""
         }
     }

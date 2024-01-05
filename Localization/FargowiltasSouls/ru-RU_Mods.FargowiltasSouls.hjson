@@ -4892,32 +4892,32 @@ Items: {
 
     AbomMusicBox: {
         DisplayName: Музыкальная шкатулка (Мерзостть)
-        Tooltip: Композитор Sakuzyo - 'Stigma'
+        Tooltip: Композитор: Sakuzyo - 'Stigma'
     }
 
     ChampionMusicBox: {
         DisplayName: Музыкальная шкатулка (Чемпионы)
-        Tooltip: Композитор Sakuzyo - 'Ordeal'
+        Tooltip: Композитор: Sakuzyo - 'Ordeal'
     }
 
     DeviMusicBox: {
         DisplayName: Музыкальная шкатулка (Девиантт)
-        Tooltip: Композитор Sakuzyo - 'Lexus Cyanixs'
+        Tooltip: Композитор: Sakuzyo - 'Lexus Cyanixs'
     }
 
     MutantMusicBox: {
         DisplayName: Музыкальная шкатулка (Мутант)
-        Tooltip: Композитор Sakuzyo - 'Steel Red'
+        Tooltip: Композитор: Sakuzyo - 'Steel Red'
     }
 
     RePrologueMusicBox: {
         DisplayName: Музыкальная шкатулка (???)
-        Tooltip: Композитор Sakuzyo - 'rePrologue'
+        Tooltip: Композитор: Sakuzyo - 'rePrologue'
     }
 
     StoriaMusicBox: {
         DisplayName: Музыкальная шкатулка (???)
-        Tooltip: Композитор Xi vs Sakuzyo - 'Storia'
+        Tooltip: Композитор: Xi vs Sakuzyo - 'Storia'
     }
 
     LifelightRelic: {
