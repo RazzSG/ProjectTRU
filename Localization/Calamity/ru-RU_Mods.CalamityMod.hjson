@@ -242,12 +242,12 @@ Bestiary: {
     Oarfish: Рыба-ремень славится своими многотысячными и даже многомиллионными кладками после невероятно короткого периода беременности. Изобилие этих икринок предоставляет богатый источник пищи для всей бездны, что делает возможным выживание даже для самых маленьких и безобидных существ в этих необитаемых глубинах моря.
     ReaperShark: Верховные хищники пустоты, эти акулы используют как свою скрытность, так и мощь, чтобы охотиться на всё и вся, что приближается. Обладая невероятной силой, они способны как швырять колоссальных кальмаров в стены бездны, так и сокрушать бронированные головы эйдолонских змиев. Мало кто может сравниться с их грубой силой.
     ToxicMinnow: Аномально большие пескари, прошедшие аномальную эволюцию, обладают уникальной способностью создавать токсины внутри своего организма, используя вещества из растений, и высвобождать их после своей смерти. Благодаря этой особенности у них практически нет естественных хищников, и их влияние на окружающую среду минимально.
-    Viperfish: Omnivorous fish that dwell in the middle sections of the Abyss, viperfish rest firmly near the bottom of the food chain. Their wide mouth normally reserved for filter feeding can double as a means to scare off predators by mimicking the much more threatening gulper eels.
-    AcidEel: Though they are predators themselves, acid eels lay near the bottom of the Sulphur Sea’s food chain. Their diet largely consists of mollusks, thanks to their ability to squirm into tight crevices. This paired with their speed and camouflage assist them in avoiding becoming meals for others.
-    BabyFlakCrab: Adolescent flak crabs make no attempt to fight off predators, and simply flee from any threats. Their species only learns to pelt their targets from afar later in life, leaving the adolescents defenseless and dependent on their parents.
-    Bloodworm: Bloodworms are an exceedingly rare creature to stumble upon, as they burrow at the first sign of danger. It takes both exceedingly great patience, wisdom, and agility to catch one, leaving the worms ever having but a single natural predator.
-    CragmawMire: A mostly immobile creature that dwells in the depths of the radioactive wasteland, it boasts an exoskeleton harder than titanium to defend its core. To compensate for its lack of movement, it has formed a symbiotic relationship with a worm that reels in prey in exchange for protection.
-    FlakCrab: Needing to hide themselves from the roaming creatures, flak crabs disguise themselves as the sulfurous gas vents scattered across the Sulphurous Sea. As they reproduce quickly, stumbling upon these and their offspring is a rather common occurrence.
+    Viperfish: Обитающая в средних слоях бездны, всеядная рыба-гадюка прочно обосновалась у самого низа пищевой цепи Её широкий рот, обычно используемый для фильтрации пищи, может также служить средством отпугивания хищников, эффективно имитируя более угрожающих большеротых угрей.
+    AcidEel: Хотя кислотные угри сами являются хищниками, они находятся в самом низу пищевой цепи сернистого моря. Их рацион в основном состоит из моллюсков, так как угри могут проникнуть в узкие щели. Это, в сочетании с их скоростью и маскировкой, помогает им избежать того, чтобы стать добычей для других хищников.
+    BabyFlakCrab: Детёныши маленьких зенитных крабов не способны противостоять хищникам и предпочитают спасаться бегством. Их вид изучает навык метания снарядов в цели лишь в более позднем возрасте, делая подростков беззащитными и нуждающимся в родительской опеке.
+    Bloodworm: Кровавые черви - это чрезвычайно редкие существа, обнаружение которых оказывается сложной задачей из-за их способности мгновенно зарываться в землю при любом проявлении опасности. Поймать даже одного из этих червей требует необычайного терпения, мудрости и ловкости, что делает их добычей лишь для одного естественного врага.
+    CragmawMire: Эта существо, преимущественно неподвижное, обитает в глубинах радиоактивных пустошей. Его экзоскелет, крепче титана, служит бронёй для его ядра. Чтобы компенсировать свою неподвижность, он сформировал симбиотический союз с червём, который приманивает добычу в обмен на защиту.
+    FlakCrab: Зенитные крабы, нуждаясь в защите от бродячих существ, маскируются под сернистые газовые жерла, разбросанные по сернистому морю. Эти крабы размножаются быстро, поэтому встреча с ними или их потомством является довольно распространённым явлением.
     GammaSlime: A slime overloaded with radiation from Draedon’s long-since abandoned experiments with nuclear energy. Though methods of generating power involving nuclear energy surpassed all others that came before in terms of raw efficiency, not even these advancements were enough to satisfy the enigmatic engineer.
     IrradiatedSlime: Though slime is known to fall from the sky on occasion, slime in the sky condenses far quicker here in the Sulphurous Sea, as its air is thick with sulfur and radiation. It isn’t uncommon for full sized slimes to fall from the heavens during acid rain storms, never mind a fully-fledged slime rain.
     Mauler: Powerful radiation has caused prehistoric genes to reawaken in this shark, granting it overwhelming speed and strength. The insatiable hunger of this beast draws it to the shoreline during acidic rainstorms for a feeding frenzy.
@@ -3484,7 +3484,7 @@ Items: {
                 '''
                 Атаки и снаряды ближнего боя накладывают дебафф «{$Buffs.ElementalMix.DisplayName}»
                 Увеличивает урон ближнего боя на 15% и шанс критического удара на 5%
-                Увеличивает скоро атаки ближнего боя на 15%; не суммируется с предыдущим улучшением
+                Увеличивает скорость атаки ближнего боя на 15%; не суммируется с предыдущим улучшением
                 Увеличивает истинный урон ближнего боя на 20%
                 Увеличивает отбрасывание ближнего боя
                 Включает автоатаку для оружия ближнего боя
@@ -8023,7 +8023,7 @@ Items: {
                 Они беспощадные охотники, способные пребывать длительное время вне воды
                 По преданиям, Рыброны считают себя потомками истинных Драконов, живших много веков назад
                 Существует множество историй о существах с драконьим происхождением, но эта история - правдивая
-                Невзирая на генетическое происхождение: Рыброны не обладают драконьей кровью и ауритовыми душами. Я это прекрасно знаю
+                Невзирая на генетическое происхождение, Рыброны не обладают драконьей кровью и ауритовыми душами. Я это прекрасно знаю
                 '''
         }
         
@@ -20257,7 +20257,7 @@ Misc: {
     WikiStatus1: "[i:Book] [c/EE4939:Обратите внимание: Вики Fandom больше не поддерживается Calamity.] [i:Book]"
     WikiStatus2: "[i:Book] [c/EE4939:Актуальную информацию вы можете посмотреть на официальной вики Calamity ][c/3989FF:calamitymod.wiki.gg][c/EE4939:!] [i:Book]"
     MusicModReminder: "[i:MusicBoxMartians] [c/71DFF5:Для лучшего игрового опыта, не забудьте установить Calamity Music Mod!] [i:MusicBoxMartians]"
-    
+    GimmeSwagPlushieCampaign: "[i:GreenPresent] [c/3BE022:ОГРАНИЧЕННОЕ ВРЕМЯ! Подпишитесь на кампанию по плюшевой игрушке Каламитас!] [c/3989FF:calamitymod.com/plush] [i:GreenPresent]"
     Tier1ArsenalRecipeCondition: Просмотрите незашифрованную схему в лаборатории, расположенной недалеко от затерянного моря
     Tier2ArsenalRecipeCondition: Дешифруйте схему из лаборатории, расположенной внутри огромного планетоида в небе
     Tier3ArsenalRecipeCondition: Дешифруйте схему из лаборатории, расположенной глубоко в джунглях
@@ -23336,33 +23336,33 @@ UI: {
         }
     
         Plague: {
-            Inquiry: The Plague
+            Inquiry: Чума
             Response:
                 '''
-                Fascinating, isn't it? I wasn't able to control it, unfortunately, but for science there is no such thing as failure as long as you record the results.\n\n
-                I knew the Astral Infection was capable of converting even machinery, but for nanotechnology I'd given it to react in kind, and begin to use the virus as a building block itself...\n\n
-                Marvelous.
+                Впечатляет, не так ли? К сожалению, мне не удавалось этим управлять, но в науке нет места понятию 'провал', пока ты записываешь результаты.\n\n
+                Я знал, что Астральная инфекция способна заражать даже машины, но с нанотехнологиями я предполагал, что она отреагирует иначе и начнёт использовать вирус как строительный блок...\n\n
+                Восхитительно.
                 '''
         }
     
         SulphuricSea: {
-            Inquiry: The Sulphuric Sea
+            Inquiry: Сернистое море
             Response:
                 '''
-                Your concern for the utter destruction of the ecosystem is understandable, for you biological, and sentimental folk. However, nothing is irreparable or truly unrecreatable. Not even your sacred 'miracle of life'.\n\n
-                The sea simply exists now in a different state than what it once was, one that resulted out of convenience for my work.\n\n
-                Should I ever need to return to that sea? A pointless worry. I shall simply recreate it from the data I gathered, from the bedrock up. I would be a shame as a creator should I not be able to do that.
+                Твоё беспокойство по поводу полного разрушения экосистемы вполне понятно, ведь вы биологические существа, склонные к сентиментальности. Однако ничто не является необратимым или действительно невосстановимым. Даже ваше священное 'чудо жизни'.\n\n
+                Море теперь существует в новом обличье, которое было создано для удовлетворения моих рабочих потребностей.\n\n
+                Понадобится ли мне когда-нибудь вернуться к этому морю? Напрасное беспокойство. Я просто воссоздам его из собранных данных, начиная с самого основания. Было бы позором для меня, как для создателя, не справиться с этой задачей.
                 '''
         }
     
         TheTyrant: {
-            Inquiry: The Tyrant
+            Inquiry: Тиран
             Response:
                 '''
-                My patron...\n
-                He is not someone I have spoken to in a very long time.\n\n
-                Is that such a surprise? He no longer required my services and I no longer needed his patronage. Many years ago now he withdrew himself to some secret hideaway. I suspect, to the grave of dragons he spoke of...\n\n
-                Should you locate him, I'll await the news of either his or your death. Perhaps I will collect the cadaver.
+                Мой покровитель...\n
+                Я не разговаривал с ним уже очень долгое время.\n\n
+                Неужели это стало для тебя сюрпризом? Он больше не нуждался в моих услугах, а я - в его покровительстве. Много лет назад он удалился в какое-то тайное убежище. Подозреваю, что это может быть та самая могила драконов, о которой он упоминал...\n\n
+                Если тебе удастся его найти, я буду ожидать новостей, либо о его смерти, либо о твоей. Возможно, я даже заберу тело.
                 '''
         }
     }

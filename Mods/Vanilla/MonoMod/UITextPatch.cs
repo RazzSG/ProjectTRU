@@ -1,5 +1,4 @@
-﻿// using CalamityRuTranslate.Common;
-// using CalamityRuTranslate.Common.Utilities;
+﻿// using CalamityRuTranslate.Common.Utilities;
 // using Terraria.GameContent.UI.Elements;
 // using Terraria.ModLoader;
 //
@@ -31,6 +30,7 @@
 //             "Perseus" => "Персей",
 //             "Yojimbo" => "Йодзимбо",
 //             "Garridine" => "Гарридин",
+//             "No Stellar Nova has been selected." => "Ни одна Сверхновая не была выбрана.",
 //             "[c/FF9D4B:Heavensfall]" => "[c/FF9D4B:Небесный водопад]",
 //             "[c/FF9D4B:A World Rent Asunder]" => "[c/FF9D4B:]",
 //             "[c/FF9D4B:Surpassing Infinity]" => "[c/FF9D4B:]",
