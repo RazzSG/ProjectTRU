@@ -666,7 +666,6 @@ public class CalamityItems : IItemGender
                 "EclipsesFall",
                 "Equanimity",
                 "IchorSpear",
-                "Wrathwing",
                 "ShatteredSun",
                 "SpearofDestiny",
                 "SpearofPaleolith",

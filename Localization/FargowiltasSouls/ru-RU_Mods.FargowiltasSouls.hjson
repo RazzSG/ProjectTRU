@@ -2071,6 +2071,7 @@ Items: {
             Работает в слотах для украшений и в инвентаре
             При первом создании предмета каждый материал с 33% шансом можно сохранить
             Не работает с предметами на станции для создания «{$Mods.Fargowiltas.Items.CrucibleCosmos.DisplayName}»
+            Вы притягиваете предметы на большем расстоянии
             'Куй железо, пока горячо'
             '''
     }
@@ -2689,6 +2690,7 @@ Items: {
             [i:FargowiltasSouls/CopperEnchant][i:FargowiltasSouls/ObsidianEnchant][i:FargowiltasSouls/LeadEnchant] Атаки создают молнии, взрывы и накладывают дебафф «{$Buffs.LeadPoisonBuff.DisplayName}»
             [i:FargowiltasSouls/TinEnchant] Устанавливает шанс критического удара на 10%, увеличивая его пока он не достигнет удвоенного текущего значения или 50%
             [i:FargowiltasSouls/IronEnchant] При первом создании предмета каждый материал с 50% шансом можно сохранить
+            [i:FargowiltasSouls/IronEnchant] Вы притягиваете предметы на большем расстоянии
             [i:FargowiltasSouls/LeadEnchant] Вы получаете на 60% меньше постепенного урона
             [i:FargowiltasSouls/SilverEnchant] Нажмите <right>, чтобы прикрыться щитом
             [i:FargowiltasSouls/TungstenEnchant] Увеличивает размер оружия до 300% и снаряда каждые четверть секунды
@@ -3017,7 +3019,8 @@ Items: {
         Tooltip:
             '''
             Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/PumpkingsCape] «{$Buffs.LivingWastelandBuff.DisplayName}», [i:FargowiltasSouls/IceQueensCrown] «{$Buffs.HypothermiaBuff.DisplayName}», [i:FargowiltasSouls/SaucerControlConsole] «{$BuffName.Electrified}», «{$BuffName.VortexDebuff}», [i:FargowiltasSouls/BetsysHeart] «{$BuffName.OgreSpit}», «{$BuffName.WitheredWeapon}» и «{$BuffName.WitheredArmor}»
-            Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/MutantAntibodies] «{$BuffName.Wet}», «{$BuffName.Rabies}», «{$Buffs.MutantNibbleBuff.DisplayName}», «{$Buffs.OceanicMaulBuff.DisplayName}» и водным дебаффам, Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/PrecisionSeal] «{$Buffs.SmiteBuff.DisplayName}», [i:FargowiltasSouls/GalacticGlobe] «{$Buffs.NullificationCurseBuff.DisplayName}», «{$Buffs.FlippedBuff.DisplayName}», «{$Buffs.UnstableBuff.DisplayName}» и «{$Buffs.CurseoftheMoonBuff.DisplayName}»
+            Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/MutantAntibodies] «{$BuffName.Wet}», «{$BuffName.Rabies}», «{$Buffs.MutantNibbleBuff.DisplayName}», «{$Buffs.OceanicMaulBuff.DisplayName}» и водным дебаффам
+            Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/PrecisionSeal] «{$Buffs.SmiteBuff.DisplayName}», [i:FargowiltasSouls/GalacticGlobe] «{$Buffs.NullificationCurseBuff.DisplayName}», «{$Buffs.FlippedBuff.DisplayName}», «{$Buffs.UnstableBuff.DisplayName}» и «{$Buffs.CurseoftheMoonBuff.DisplayName}»
             [i:FargowiltasSouls/PumpkingsCape] [i:FargowiltasSouls/MutantAntibodies] [i:FargowiltasSouls/IceQueensCrown] Увеличивает урон и шанс критического удара на 10%, урон текущего класса на 20% и сопротивление урону на 5%
             [i:FargowiltasSouls/PumpkingsCape] Нажмите <right>, чтобы защититься своей накидкой. Контратака восстанавливает здоровье в зависимости от заблокированного урона. Излучает ауру гниения во время защиты
             [i:FargowiltasSouls/IceQueensCrown] При уклонении вблизи снаряда заряжает бомбу. Когда она зарядится, нажмите клавишу «Бомба», чтобы на короткое время заморозить все снаряды и врагов
