@@ -13,7 +13,7 @@ public class ModCompatibilityChecker : ModSystem
         new("InfernumMode", new Version(2, 0, 1), true),
         new("FargowiltasSouls", new Version(1, 6, 3), true),
         new("Fargowiltas", new Version(3, 2, 1, 3), true),
-        new("ThoriumMod", new Version(1, 7, 1, 4), true),
+        new("ThoriumMod", new Version(1, 7, 1, 5), true),
     };
 
     public override bool IsLoadingEnabled(Mod mod)

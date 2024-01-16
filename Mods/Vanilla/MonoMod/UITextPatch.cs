@@ -29,7 +29,7 @@
 //             "Eridani" => "Эридани",
 //             "Perseus" => "Персей",
 //             "Yojimbo" => "Йодзимбо",
-//             "Garridine" => "Гарридин",
+//             "Garridine" => "Гарридина",
 //             "No Stellar Nova has been selected." => "Ни одна Сверхновая не была выбрана.",
 //             "[c/FF9D4B:Heavensfall]" => "[c/FF9D4B:Небесный водопад]",
 //             "[c/FF9D4B:A World Rent Asunder]" => "[c/FF9D4B:]",
