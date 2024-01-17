@@ -2044,9 +2044,9 @@
 #            7: Ew. It looks like you're covered in webs..
 #            8: You've been petrified! How does that even work?
 #            9: You're standing on something REALLY hot. I'm no expert on thermodynamics, but you should not do that.
-#            10: You're dying- and quickly. Get out of there!
-#            11: That's probably not good.
-#            12: I hate to break this to you, but you're about to drown.
+#            10: Ты умираешь, и быстро. Выбирайся отсюда!
+#            11: Это, похоже, не к добру.
+#            12: Не хочу тебя расстраивать, но ты сейчас утонешь.
 #            13: You're losing a LOT of blood. Yikes. You can't regenerate health any more.
 #            14: "[You can't make out the words- looks like you've been confused.] "
 #            15: Whoops..
@@ -2231,7 +2231,11 @@
 #                Смотри, снег! Мне всегда нравился снег. Ну, конечно, тот, что
 #                из замёршей воды.
 #                '''
-#            145: It's the Hallow, the stuff of legend! Awesome! Everything here wants to kill us, though. Bummer.
+#            145:
+#                '''
+#                Это же освящение, о котором рассказывают в легендах! Круто!
+#                Правда, тут всё хочет нас убить. Обидно.
+#                '''
 #            146:
 #                '''
 #                Вот это да! Это место поистине уникально. Такие грибы не каждый
@@ -2316,9 +2320,9 @@
 #            7: Yuck- you've been rendered immobile by webs.
 #            8: You've been petrified..
 #            9: You're taking damage from a hot surface!
-#            10: You're dying fast. Find a way out of there.
-#            11: Ouch. That's probably not good.
-#            12: You need some air, quick.
+#            10: Ты скоро умрёшь. Найди способ выбраться.
+#            11: Ай-ай-ай. Это, похоже, не к добру.
+#            12: Тебе срочно нужен глоток свежего воздуха, поспеши.
 #            13: That's a lot of blood.. You aren't regenerating health now, that's for sure.
 #            14: "[You can't make out the words- seems you've been confused] "
 #            15: Whoops.
@@ -2493,7 +2497,11 @@
 #                Самый обычный северный лес. Не то чтобы мне не нравились
 #                заснеженные места.
 #                '''
-#            143: We've stepped straight into fairytale land. It would be prettier if everything here wasn't hostile.
+#            143:
+#                '''
+#                Мы будто попали в сказку. Только было бы лучше, если бы тут не
+#                было столько враждебной живности.
+#                '''
 #            144:
 #                '''
 #                Гигантские светящиеся грибы... Cловно... приветствуют нас?
@@ -2783,9 +2791,27 @@
 #                        Извини, Асфодена. Надеюсь, это поможет.
 #                        Ничего не напоминает?
 #                        '''
-#                    4: Dude. We have GOT to stop meeting like this. The nerve...!
-#                    5: Please, let me explain, Starbearer. In tandem with our galaxy's myriad worlds, there exists Starfarers to aid their denizens. You are familiar with what we do.
-#                    6: As we are conduits of energy, we choose a Starbearer to act as our envoy. You should know that living beings are the best conductors of mana, and we're only partially alive.
+#                    4:
+#                        '''
+#                        Парень, пора заканчивать встречаться
+#                        таким образом. Наглец!..
+#                        '''
+#                    5:
+#                        '''
+#                        Пожалуйста, позволь мне объяснить,
+#                        Звездоносец. В нашей галактике, на каждом
+#                        из бесчисленных миров, существуют Астры,
+#                        которые помогают их обитателям. Ты уже
+#                        знаком с нашей деятельностью.
+#                        '''
+#                    6:
+#                        '''
+#                        В силу того, что мы являемся проводниками
+#                        энергии, мы выбираем Звездоносца в качестве
+#                        нашего представителя. Следует знать, что
+#                        живые существа являются наилучшими
+#                        проводниками маны, а мы лишь частично живы.
+#                        '''
 #                    7: However, the First Starfarer's nominee was... unfitting for their role. This is the First Starbearer. From what I know, they seem to have lost their mind and morals.
 #                    8: Now, they continue to roam the galaxy, the Starfarer a thrall to their chosen one's whims. They 'pursue good' through any means necessary, often with casualties.
 #                    9: This is all conjecture, but the destruction is very real. It should go unsaid that we can't let this continue. I'll need your help in the future.
@@ -2799,7 +2825,7 @@
 #                    17: You should have some Prismatic Cores already. With their power, I theorize you can upgrade Stellar Novas with crafting.
 #                    18: This is important. You need Stellar Nova Energy to cast Novas. You gain Nova energy in combat, and it depletes outside of combat.
 #                    19: OK. A lot has happened, but this is a huge step forward for us. Please use the Novas well! Bye for now.
-#                    20: Mods.StarsAbove.Dialogue.VNDialogue.SceneID.9.Dialogue.20
+#                    20: ""
 #                }
 #
 #                Choices: {
@@ -6355,47 +6381,47 @@
 #            '''
 #            Нельзя получить
 #            Подарок вашей Астры
-#            Используется для создания 'Persephone' (N/A)
+#            Используется для создания '{$Items.Persephone.DisplayName}' (Н/Д)
 #            '''
 #    }
 #
 #    EssenceOfTheUnyieldingEarth: {
-#        DisplayName: Essence of the Unyielding Earth
+#        DisplayName: Эссенция неподатливого камня
 #        Tooltip:
 #            '''
 #            Можно получить в качестве награды за победу над Культистом-лунатиком
 #            Подарок вашей Астры
-#            Используется для создания 'Rex Lapis' (Ближний бой)
+#            Используется для создания '{$Items.RexLapis.DisplayName}' (Ближний бой)
 #            '''
 #    }
 #
 #    EssenceOfTime: {
-#        DisplayName: Essence of Time
+#        DisplayName: Эссенция времени
 #        Tooltip:
 #            '''
 #            Можно получить в качестве награды за победу над Пентесилеей, Ведьмой чернил
 #            Подарок вашей Астры
-#            Используется для создания 'Kroniic Principality' (Призывной)
+#            Используется для создания '{$Items.KroniicAccelerator.DisplayName}' (Призывной)
 #            '''
 #    }
 #
 #    EssenceOfTwinStars: {
-#        DisplayName: Essence of Twin Stars
+#        DisplayName: Эссенция двойных звёзд
 #        Tooltip:
 #            '''
 #            Можно получить в качестве награды за победу над Культистом-лунатиком
 #            Подарок вашей Астры
-#            Используется для создания 'Twin Stars of Albiero' (Магический)
+#            Используется для создания '{$Items.TwinStars.DisplayName}' (Магический)
 #            '''
 #    }
 #
 #    EssenceOfVampirism: {
-#        DisplayName: Essence of Vampirism
+#        DisplayName: Эссенция вампиризма
 #        Tooltip:
 #            '''
 #            Можно получить в качестве награды за победу над Циклопом-оленем
 #            Подарок вашей Астры
-#            Используется для создания 'The Morning Star' (Призывной)
+#            Используется для создания '{$Items.MorningStar.DisplayName}' (Призывной)
 #            '''
 #    }
 #
@@ -6434,7 +6460,7 @@
 #    }
 #
 #    EverlastingPickaxe: {
-#        DisplayName: The Everlasting Pickaxe
+#        DisplayName: Неуничтожимая кирка
 #        Tooltip:
 #            '''
 #            [c/8AC1F1:This weapon has a unique damage type; inherits bonuses from all damage classes]
@@ -6451,7 +6477,7 @@
 #    }
 #
 #    EveryMomentMatters: {
-#        DisplayName: Every Moment Matters
+#        DisplayName: Важно каждое мгновение
 #        Tooltip:
 #            '''
 #            Every fourth shot will always deal critical damage and grant Swiftness
@@ -6477,7 +6503,7 @@
 #    }
 #
 #    Genocide: {
-#        DisplayName: Genocide
+#        DisplayName: Геноцид
 #        Tooltip:
 #            '''
 #            Attacks fire powerful explosive grenades with high knockback
@@ -6495,7 +6521,7 @@
 #    }
 #
 #    Hawkmoon: {
-#        DisplayName: Hawkmoon
+#        DisplayName: Хоукмун
 #        Tooltip:
 #            '''
 #            [c/F592BF:This weapon is unaffected by Aspected Damage Type penalty when aspected to Ranged or Magic damage]
@@ -6507,7 +6533,7 @@
 #    }
 #
 #    HollowheartAlbion: {
-#        DisplayName: Hollowheart Albion
+#        DisplayName: Пустое сердце Альбиона
 #        Tooltip:
 #            '''
 #            Holding this weapon summons [c/D66AAB:Melusine] and [c/6AD6AF:Arondight] to circle you, aiming at your cursor
@@ -6524,7 +6550,7 @@
 #    }
 #
 #    Hullwrought: {
-#        DisplayName: Hullwrought
+#        DisplayName: Железный кованный
 #        Tooltip:
 #            '''
 #            [c/F7D76A:Hold left click to charge the weapon; if the weapon is fully charged, the attack varies]
@@ -6541,7 +6567,7 @@
 #    }
 #
 #    HullwroughtMKII: {
-#        DisplayName: Hullwrought MK. II
+#        DisplayName: Железный кованный, обр. №2
 #        Tooltip:
 #            '''
 #            [c/F7D76A:Hold left click to charge the weapon; if the weapon is fully charged, the attack varies]
@@ -6563,7 +6589,7 @@
 #    }
 #
 #    HunterSymphony: {
-#        DisplayName: Hunter's Symphony
+#        DisplayName: Симфония охотника
 #        Tooltip:
 #            '''
 #            Attacks with this weapon will sweep in an arc
@@ -6580,7 +6606,7 @@
 #    }
 #
 #    IgnitionAstra: {
-#        DisplayName: Ignition Astra
+#        DisplayName: Игницион Астра
 #        Tooltip:
 #            '''
 #            REMOVED WEAPON
@@ -6597,7 +6623,7 @@
 #    }
 #
 #    InugamiRipsaw: {
-#        DisplayName: Inugami Ripsaw
+#        DisplayName: Цепная пила Инугами
 #        Tooltip:
 #            '''
 #            Attacks deal constant damage and grant Endurance for 3 seconds on hit
@@ -6609,7 +6635,7 @@
 #    }
 #
 #    IzanagiEdge: {
-#        DisplayName: Izanagi's Edge
+#        DisplayName: Грань Идзанаги
 #        Tooltip:
 #            '''
 #            Every fourth shot will always deal critical damage
@@ -6626,7 +6652,7 @@
 #    }
 #
 #    KarlanTruesilver: {
-#        DisplayName: Karlan Truesilver
+#        DisplayName: Истинное серебро Карлан
 #        Tooltip:
 #            '''
 #            Unleashes powerful slashes with unlimited piercing
@@ -6637,7 +6663,7 @@
 #    }
 #
 #    KazimierzSeraphim: {
-#        DisplayName: Kazimierz Seraphim
+#        DisplayName: Серафим Казимежа
 #        Tooltip:
 #            '''
 #            Holding this weapon will conjure a [c/FF8B00:Brilliant Spark] to orbit you, dealing contact damage
@@ -6651,7 +6677,7 @@
 #    }
 #
 #    BrilliantSpectrum: {
-#        DisplayName: Kariumu's Favor
+#        DisplayName: Благосклонность Кариума
 #        Tooltip:
 #            '''
 #            [c/8AC1F1:This weapon has a unique damage type; inherits bonuses from all damage classes]
@@ -6670,7 +6696,7 @@
 #    }
 #
 #    KeyOfTheKingsLaw: {
-#        DisplayName: Key of the King's Law
+#        DisplayName: Ключ королевской власти
 #        Tooltip:
 #            '''
 #            22 summon tag damage
@@ -6682,7 +6708,7 @@
 #    }
 #
 #    Kifrosse: {
-#        DisplayName: Kifrosse
+#        DisplayName: Кифросс
 #        Tooltip:
 #            '''
 #            Upon use, consumes all remaining Minion Slots (up to 9) to conjure a [c/7AE1CE:Foxfrost Mystic], gaining 5% increased Summon Damage per slot
@@ -10178,7 +10204,7 @@
 #        DisplayName: Tsukiyomi Boss Relic Item
 #        Tooltip: ""
 #    }
-#    
+#
 #    TwoCrownBow: {
 #        DisplayName: Two-Crown Bow
 #        Tooltip:
@@ -11680,12 +11706,12 @@
 #    }
 #
 #    EverlastingLight: {
-#        DisplayName: Light Everlasting
+#        DisplayName: Вечный свет
 #        Description:
 #            '''
-#            Endless light blankets the sky... Foes are empowered and will periodically overflow with Light
-#            The Rod of Discord/Harmony has been disabled
-#            Ask your Starfarer for a means to combat this threat
+#            Нескончаемый свет окутывает небо... Враги становятся сильнее и периодически наполняются светом
+#            Жезл раздора/гармонии отключены
+#            Спросите у своей Астры, как противостоять этой угрозе
 #            '''
 #    }
 #
@@ -13766,7 +13792,7 @@
 #        DisplayName: Two Crown Bow Firing
 #        Description: ""
 #    }
-#    
+#
 #    TwoCrownBowDepravity: {
 #        DisplayName: Two Crown Bow Depravity
 #        Description: ""
@@ -13791,7 +13817,7 @@
 #        DisplayName: Echo String Rites
 #        Description: ""
 #    }
-#    
+#
 #    Merculight: {
 #        DisplayName: Merculight
 #        Description: ""
