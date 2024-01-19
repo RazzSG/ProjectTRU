@@ -823,7 +823,13 @@
 #                себя и погружаться в пустоту для
 #                мгновенной телепортации.
 #                '''
-#            79: Looks to be a new Essence for your use. It uses a unique damage type and powerful charge attacks- but it'll probably have some recoil damage.
+#            79:
+#                '''
+#                Похоже, у тебя появилась новая Эссенция.
+#                Она использует уникальный тип урона и
+#                мощные зарядные атаки, но, скорее всего,
+#                будет иметь некоторый урон от отдачи.
+#                '''
 #            80: This Graveyard seems to have connected to this Essence. I hope it'll help you avoid creating the Graveyard in the first place.
 #            81: While powerful, I believe it's a utility item, and not a weapon this time.
 #            82: This Magic Essence, while aspected to nature, seems rather volatile. Perhaps you'd be able to better use it in tandem with other weapons?
@@ -1052,7 +1058,7 @@
 #                    '''
 #                4:
 #                    '''
-#                    Кстати, похоже, из неё что-товыпало.
+#                    Кстати, похоже, из неё что-то выпало.
 #                    Что бы это ни было, оно мне напоминает
 #                    нечто... знакомое. Будь осторожен, но
 #                    я не могу устоять перед искушением
@@ -1061,10 +1067,31 @@
 #            }
 #
 #            Eridani: {
-#                1: Wow.. the world itself seems to have been drastically altered after the defeat of the Wall of Flesh...
-#                2: I've never seen anything like it. What was this thing hiding...?
-#                3: This power seems to have activated the first Tier 2 ability in the Stellar Array. I hope you can utilize it well.
-#                4: Something else dropped from it. I'm not sure what it is, but it feels like I should know. Be mindful of what could go wrong.
+#                1:
+#                    '''
+#                    Ого... Мир претерпел значительные
+#                    изменения после победы над Стеной
+#                    плоти...
+#                    '''
+#                2:
+#                    '''
+#                    Я не встречала ничего подобного. Что
+#                    скрывало это существо?..
+#                    '''
+#                3:
+#                    '''
+#                    Похоже, эта сила привела к активации
+#                    первой способности 2 ранга в Звёздном
+#                    ряде. Надеюсь, ты сможешь эффективно
+#                    использовать эту способность.
+#                    '''
+#                4:
+#                    '''
+#                    Из неё что-то ещё выпало. Не уверена,
+#                    что это, но почему-то кажется, что я
+#                    должна помнить. Остерегайся того, что
+#                    может пойти не так.
+#                    '''
 #            }
 #        }
 #
@@ -1386,10 +1413,19 @@
 #            }
 #
 #            Eridani: {
-#                1: Congratulations, you've bested the Empress of Light. Let's leave the bugs alone now, okay?
-#                2: If I had a nickel for bosses summoned with insects... We fought that rather large fish, right? That's two. Not very much, is it. I was hoping for a trend.
-#                3: If I had a nickel for bosses summoned with insects... We fought that rather large fish, right? That's two. Not very much, is it. I was hoping for a trend. Maybe we can count the Queen Bee?
-#                4: Somehow... I feel like there's yet another boss we'll have to use an insect to summon. That's going to be rather bothersome.
+#                1:
+#                    '''
+#                    Поздравляю, ты победил Императрицу
+#                    света. Давай теперь оставим жучков в
+#                    покое, ладно?
+#                    '''
+#                4:
+#                    '''
+#                    Странно... У меня такое чувство, что
+#                    нам снова придётся использовать
+#                    насекомое для призыва босса. Это будет
+#                    весьма утомительно.
+#                    '''
 #            }
 #        }
 #
@@ -1672,17 +1708,64 @@
 #        }
 #
 #        WarriorEridani: {
-#            1: You can see it too, right? The sky is abnormally bright.
-#            2: The answer you seek isn't the answer you are hoping for.
-#            3: Perseus. I-
-#            4: Let me finish, Eridani- Time is of the essence. The First Starbearer has descended on this world.
-#            5: We were searching for him for so long- why has he come to us instead?
-#            6: He must have noticed your defeat of the Moon Lord- an eldritch beast such as it does not fall lightly.
-#            7: That makes sense, albeit in a way that makes us seem at fault... Anyways, do you have some sort of plan?
-#            8: From what I can derive, there's only a few more days until his grip over this world reaches its peak.
-#            9: If you have resources that require the night to acquire, I implore you acquire them soon.
-#            10: I've given you an artifact from his homeworld; while I know not its purpose, I believe it will hasten his arrival.
-#            11: Use it only if you are prepared. The stakes have never been higher.
+#            1:
+#                '''
+#                Ты тоже это видишь, да? Небо какое-то
+#                аномально яркое.
+#                '''
+#            2:
+#                '''
+#                Ответ, который ты ищешь, может
+#                оказаться неутешительным.
+#                '''
+#            3: Персей. Я...
+#            4:
+#                '''
+#                Дай мне закончить, Эридани. Время
+#                поджимает. Первый Звездоносец явился в
+#                этот мир.
+#                '''
+#            5:
+#                '''
+#                Мы столько времени его искали...
+#                почему он сам пришёл к нам?
+#                '''
+#            6:
+#                '''
+#                Он, должно быть, слышал о твоей победе
+#                над Лунным лордом. Такое существо не
+#                так-то просто убить.
+#                '''
+#            7:
+#                '''
+#                Да, это логично, но, с другой стороны,
+#                это делает нас виноватыми... Ну да
+#                ладно, у тебя есть какой-нибудь план?
+#                '''
+#            8:
+#                '''
+#                По всей видимости, его влияние на мир
+#                достигнет своего максимума в ближайшие
+#                несколько дней.
+#                '''
+#            9:
+#                '''
+#                Если у тебя есть ресурсы, которые
+#                можно добыть только ночью, то лучше
+#                поторопись.
+#                '''
+#            10:
+#                '''
+#                Я дал тебе артефакт из его родного
+#                мира; хотя я не знаю его предназначения,
+#                но полагаю, что он ускорит его прибытие.
+#                '''
+#            11:
+#                '''
+#                Используй это только после тщательной
+#                подготовки. Ставки никогда не были
+#                столь высоки.
+#                '''
 #            12: ...
 #        }
 #    }
@@ -2035,8 +2118,12 @@
 #
 #    PromptDialogue: {
 #        Asphodene: {
-#            1: Looks like you've been poisoned. I'll send you a get well card.
-#            2: It looks like your defenses are lowered! Be careful.
+#            1:
+#                '''
+#                Похоже, тебя отравили. Я отправлю тебе открытку с пожеланиями
+#                скорейшего выздоровления.
+#                '''
+#            2: Похоже, твоя защита ослабла! Будь осторожен.
 #            3: You've been silenced! Magic is out of the question.
 #            4: I think you've been cursed. That's.. not good. You aren't able to use anything for now.
 #            5: You've been frozen!
@@ -2311,8 +2398,8 @@
 #        }
 #
 #        Eridani: {
-#            1: Uhh.. you're looking a little sick.
-#            2: The Ichor is dampening your defenses. Watch out.
+#            1: Ой... ты неважно выглядишь.
+#            2: Ихор ослабляет твою защиту. Будь осторожен.
 #            3: You've been silenced.. No magic for now.
 #            4: That looks to me like a curse.. You can't use anything right now.
 #            5: That doesn't look good. You're frozen solid.
@@ -2400,7 +2487,7 @@
 #                '''
 #            72: It's a cyclops... wait.. It has antlers... Is it a deer? Is it both..?
 #            73: Looks to be another type of gigantic slime. I have a feeling it'll use minions to do its bidding.
-#            74: Something dangerous stirs in the Hallow... It looks to draw overwhelming power during the daytime!
+#            74: Что-то опасное зреет в освящении ... Похоже, оно оно стремится вобрать в себя огромную силу в дневное время!
 #            75: The Destroyer approaches.. Let's try using area-of-effect attacks against it.
 #            76:
 #                '''
@@ -2776,8 +2863,8 @@
 #                Dialogue: {
 #                    0:
 #                        '''
-#                        Понятно... Прошу прощения за тест.
-#                        Он был немного грубоватым, но для меня это
+#                        Понятно... Прошу прощения за проверку. Она
+#                        была немного грубовата, но для меня это
 #                        единственный способ оценки людей.
 #                        '''
 #                    1:
@@ -4950,7 +5037,7 @@
 #        Tooltip:
 #            '''
 #            Один из легендарных нарядов из былых легенд
-#            Equip to your Starfarer to gain the following:
+#            Экипирование на Астру даёт следующие эффекты:
 #            [c/FFCA5A:Shining Journey]
 #            Attacking and taking damage will grant stacks of Hope's Brilliance (Max 100 stacks)
 #            Every 10 stacks of Hope's Brilliance increases damage by 2%
@@ -4972,11 +5059,11 @@
 #    }
 #
 #    CelestialPrincessGenesis: {
-#        DisplayName: Celestial Princess' Genesis
+#        DisplayName: Генезис небесной принцессы
 #        Tooltip:
 #            '''
 #            Один из легендарных нарядов из былых легенд
-#            Equip to your Starfarer to gain the following:
+#            Экипирование на Астру даёт следующие эффекты:
 #            [c/FF30AD:Cosmos of the Beginning]
 #            The Stellar Nova is locked to Edin Genesis Quasar
 #            Attacking foes during Astarte Driver will cause a follow-up attack to occur, dealing 1/3rd original damage again
@@ -4996,7 +5083,7 @@
 #        Tooltip:
 #            '''
 #            Один из легендарных нарядов из былых легенд
-#            Equip to your Starfarer to gain the following:
+#            Экипирование на Астру даёт следующие эффекты:
 #            [c/E69DE9:The Promised Star]
 #            Gain 1 Stellar Nova Energy upon defeating foes
 #            When your Stellar Nova Gauge is below 50%, gain 1 additional Stellar Nova Energy
@@ -5012,13 +5099,13 @@
 #    }
 #
 #    FamiliarLookingAttire: {
-#        DisplayName: Familiar Looking Attire
+#        DisplayName: Знакомый наряд
 #        Tooltip:
 #            '''
 #            Один из легендарных нарядов из былых легенд
-#            Equip to your Starfarer to gain the following:
-#            [c/C0C0C0:No effect]
-#            Vanity Item
+#            Экипирование на Астру даёт следующие эффекты:
+#            [c/C0C0C0:Без эффектов]
+#            Предмет украшения
 #            '''
 #    }
 #
@@ -5027,14 +5114,14 @@
 #        Tooltip:
 #            '''
 #            Один из легендарных нарядов из былых легенд
-#            Equip to your Starfarer to gain the following:
-#            [c/C0C0C0:No effect]
-#            Vanity Item
+#            Экипирование на Астру даёт следующие эффекты:
+#            [c/C0C0C0:Без эффектов]
+#            Предмет украшения
 #            '''
 #    }
 #
 #    AshenAmbition: {
-#        DisplayName: Ashen Ambition
+#        DisplayName: Пепельная амбиция
 #        Tooltip:
 #            '''
 #            Attacks pierce foes and have no knockback
@@ -5054,7 +5141,7 @@
 #        DisplayName: Astral Item
 #        Tooltip:
 #            '''
-#            Debug cheat item
+#            Чит-предмет для отладки
 #            Resets the cooldown on obtaining Essences and fills the Stellar Nova Gauge
 #            '''
 #    }
@@ -5716,7 +5803,7 @@
 #    }
 #
 #    EssenceOfAzakana: {
-#        DisplayName: Essence of Azakana
+#        DisplayName: Эссенция азакан
 #        Tooltip:
 #            '''
 #            Можно получить в качестве награды за победу над Налханом, Воронёным королём
@@ -5726,22 +5813,22 @@
 #    }
 #
 #    EssenceOfBalance: {
-#        DisplayName: Essence of Balance
+#        DisplayName: Эссенция баланса
 #        Tooltip:
 #            '''
 #            Можно получить в качестве награды за победу над Воином света
 #            Подарок вашей Астры
-#            Используется для создания 'Vermilion Riposte' (Магический)
+#            Используется для создания '{$Items.RedMage.DisplayName}' (Магический)
 #            '''
 #    }
 #
 #    EssenceOfBitterfrost: {
-#        DisplayName: Essence of Bitterfrost
+#        DisplayName: Эссенция морозного касания
 #        Tooltip:
 #            '''
 #            Можно получить в качестве награды за победу над Королевой пчёл
 #            Подарок вашей Астры
-#            Используется для создания 'Skofnung' (Ближний бой)
+#            Используется для создания '{$Items.Skofnung.DisplayName}' (Ближний бой)
 #            '''
 #    }
 #
@@ -5751,47 +5838,47 @@
 #            '''
 #            Можно получить в качестве награды за победу над Стеной плоти
 #            Подарок вашей Астры
-#            Используется для создания 'Force-of-Nature' (Стрелковый)
+#            Используется для создания '{$Items.ForceOfNature.DisplayName}' (Стрелковый)
 #            '''
 #    }
 #
 #    EssenceOfBlood: {
-#        DisplayName: Essence of Blood
+#        DisplayName: Эссенция крови
 #        Tooltip:
 #            '''
-#            Obtained after defeating Golem
+#            Можно получить в качестве награды за победу над Големом
 #            Подарок вашей Астры
-#            Используется для создания 'Mercy' (Ближний бой)
+#            Используется для создания '{$Items.Mercy.DisplayName}' (Ближний бой)
 #            '''
 #    }
 #
 #    EssenceOfBloodshed: {
-#        DisplayName: Demi-Essence of Bloodshed
+#        DisplayName: Неполная эссенция кровопролития
 #        Tooltip:
 #            '''
-#            Obtained from Arbitration
-#            Resembles Подарок вашей Астры
+#            Можно получить в качестве награды за победу над Арбитражом
+#            Выглядит как подарок вашей Астры
 #            Используется для создания 'The Only Thing I Know For Real' (Неземной)
 #            '''
 #    }
 #
 #    EssenceOfButterflies: {
-#        DisplayName: Essence of Butterflies
+#        DisplayName: Эссенция бабочек
 #        Tooltip:
 #            '''
-#            Obtained after defeating any mechanical boss
+#            Можно получить в качестве награды за победу над любым механическим боссом
 #            Подарок вашей Астры
-#            Используется для создания 'Veneration of Butterflies' (Магический)
+#            Используется для создания '{$Items.VenerationOfButterflies.DisplayName}' (Магический)
 #            '''
 #    }
 #
 #    EssenceOfChemtech: {
-#        DisplayName: Essence of Chemtech
+#        DisplayName: Эссенция химпанка
 #        Tooltip:
 #            '''
-#            Obtained after defeating Queen Slime
+#            Можно получить в качестве награды за победу над Королевой слизней
 #            Подарок вашей Астры
-#            Используется для создания 'Dreadnought Chemtank' (Стрелковый)
+#            Используется для создания '{$Items.DreadnoughtChemtank.DisplayName}' (Стрелковый)
 #            '''
 #    }
 #
@@ -5799,7 +5886,7 @@
 #        DisplayName: Essence of Death's Apprentice
 #        Tooltip:
 #            '''
-#            Obtained after defeating any mechanical boss
+#            Можно получить в качестве награды за победу над любым механическим боссом
 #            Подарок вашей Астры
 #            Используется для создания 'Memento Muse' (Ближний бой)
 #            '''
@@ -5849,7 +5936,7 @@
 #        DisplayName: Essence of Euthymia
 #        Tooltip:
 #            '''
-#            Obtained after defeating Penthesilea, the Witch of Ink
+#            Можно получить в качестве награды за победу над Пентесилеей, Ведьмой чернил
 #            Подарок вашей Астры
 #            Используется для создания 'Vision of Euthymia' (Магический)
 #            '''
@@ -5858,7 +5945,7 @@
 #    EssenceOfExplosions: {
 #        Tooltip:
 #            '''
-#            Obtained after defeating Golem
+#            Можно получить в качестве награды за победу над Големом
 #            Подарок вашей Астры
 #            Используется для создания 'Genocide' (Стрелковый)
 #            '''
@@ -5886,12 +5973,12 @@
 #    }
 #
 #    EssenceOfInk: {
-#        DisplayName: Essence of Ink
+#        DisplayName: Эссенция чернил
 #        Tooltip:
 #            '''
-#            Obtained after defeating Penthesilea, the Witch of Ink
+#            Можно получить в качестве награды за победу над Пентесилеей, Ведьмой чернил
 #            Подарок вашей Астры
-#            Используется для создания 'Penthesilea's Muse' (Ближний бой)
+#            Используется для создания '{$Items.PenthesileaMuse.DisplayName}' (Ближний бой)
 #            '''
 #    }
 #
@@ -5909,7 +5996,7 @@
 #        DisplayName: Essence of Izanagi
 #        Tooltip:
 #            '''
-#            Obtained after defeating Queen Slime
+#            Можно получить в качестве награды за победу над Королевой слизней
 #            Подарок вашей Астры
 #            Используется для создания 'Izanagi's Edge' (Стрелковый)
 #            '''
@@ -6039,7 +6126,7 @@
 #        DisplayName: Essence of Static Shock
 #        Tooltip:
 #            '''
-#            Obtained after defeating Queen Slime
+#            Можно получить в качестве награды за победу над Королевой слизней
 #            Подарок вашей Астры
 #            Используется для создания 'Sparkblossom's Beacon' (Призывной)
 #            '''
@@ -6129,7 +6216,7 @@
 #        DisplayName: Essence of the Bionis
 #        Tooltip:
 #            '''
-#            Obtained after defeating any mechanical boss
+#            Можно получить в качестве награды за победу над любым механическим боссом
 #            Подарок вашей Астры
 #            Используется для создания 'Xenoblade' (Ближний бой)
 #            '''
@@ -6356,22 +6443,22 @@
 #    }
 #
 #    EssenceOfTheSwarm: {
-#        DisplayName: Essence of the Swarm
+#        DisplayName: Эссенция роя
 #        Tooltip:
 #            '''
 #            Можно получить в качестве награды за победу над Плантерой
 #            Подарок вашей Астры
-#            Используется для создания 'Crimson Outbreak' (Стрелковый)
+#            Используется для создания '{$Items.CrimsonOutbreak.DisplayName}' (Стрелковый)
 #            '''
 #    }
 #
 #    EssenceOfTheTreasury: {
-#        DisplayName: Essence of the Treasury
+#        DisplayName: Эссенция сокровищницы
 #        Tooltip:
 #            '''
 #            Можно получить в качестве награды за победу над Воином света
 #            Подарок вашей Астры
-#            Используется для создания 'Key of the King's Law' (Призывной)
+#            Используется для создания '{$Items.KeyOfTheKingsLaw.DisplayName}' (Призывной)
 #            '''
 #    }
 #
@@ -6759,7 +6846,7 @@
 #    }
 #
 #    LiberationBlazing: {
-#        DisplayName: Liberation Blazing
+#        DisplayName: Огненная заря освобождения
 #        Tooltip:
 #            '''
 #            Swapping to this weapon grants the buff '[c/FF2B2B:Core of Flames]' for 20 seconds
@@ -6771,7 +6858,7 @@
 #            [c/AD2500:Scarlet Outburst] can not be used when you are below 50 HP or if you are currently burning
 #            Below 100 HP, you gain drastic Health Regeneration when burning and [c/FF2B2B:Core of Flames] is active
 #            This healing is only applicable with this weapon held
-#            'Fight to emancipate this world'
+#            'Боритесь за свободу этого мира'
 #            '''
 #    }
 #
@@ -6788,12 +6875,12 @@
 #    }
 #
 #    DesertLootBag: {
-#        DisplayName: Stellar Spoils (Desert)
+#        DisplayName: Звёздные трофеи (Пустыня)
 #        Tooltip:
 #            '''
-#            [Tier 1]
+#            [Ранг 1]
 #            {$CommonItemTooltip.RightClickToOpen}
-#            Contains the following items:
+#            Содержит следующие предметы:
 #            '''
 #    }
 #
@@ -6821,7 +6908,7 @@
 #    }
 #
 #    LuminaryWand: {
-#        DisplayName: Luminary Wand
+#        DisplayName: Освещающая палочка
 #        Tooltip:
 #            '''
 #            Holding this weapon will conjure a friendly [c/F1D671:Starchild]
@@ -6840,40 +6927,40 @@
 #    }
 #
 #    AegisOfHopesLegacyPrecursor: {
-#        DisplayName: Sundered Hero's Attire
+#        DisplayName: Наряд расколотого героя
 #        Tooltip:
 #            '''
-#            [c/956BE3:Предшествующий наряд Астры]
+#            [c/956BE3:Наряд Астры прошлого]
 #            Рваные ошмётки легендарного наряда из былых легенд
-#            Utilized to craft 'Aegis of Hope's Legacy'
+#            Используется для создания '{$Items.AegisOfHopesLegacy.DisplayName}'
 #            '''
 #    }
 #
 #    BoltOfStarsilk: {
-#        DisplayName: Bolt of Starsilk
+#        DisplayName: Рулон звёздного шёлка
 #        Tooltip:
 #            '''
-#            Utilized to craft Starfarer Attire
-#            'A texture akin to twinkling stars'
+#            Используется для создания наряда Астры
+#            'Текстура, напоминающая мерцание звёзд'
 #            '''
 #    }
 #
 #    BoltOfTrueStarsilk: {
-#        DisplayName: Bolt of True Starsilk
+#        DisplayName: Рулон истинного звёздного шёлка
 #        Tooltip:
 #            '''
-#            Utilized to craft Starfarer Attire
-#            'Shimmers with cosmic energy'
+#            Используется для создания наряда Астры
+#            'Мерцает космической энергией'
 #            '''
 #    }
 #
 #    CelestialPrincessGenesisPrecursor: {
-#        DisplayName: Starless Celestial Attire
+#        DisplayName: Беззвёздный небесный наряд
 #        Tooltip:
 #            '''
-#            [c/956BE3:Предшествующий наряд Астры]
+#            [c/956BE3:Наряд Астры прошлого]
 #            Рваные ошмётки легендарного наряда из былых легенд
-#            Utilized to craft 'Celestial Princess' Genesis'
+#            Используется для создания '{$Items.CelestialPrincessGenesis.DisplayName}'
 #            '''
 #    }
 #
@@ -6891,7 +6978,7 @@
 #        Tooltip:
 #            '''
 #            A bouquet of magical pigments
-#            Utilized to craft 'Penthesilea's Muse'
+#            Используется для создания '{$Items.PenthesileaMuse.DisplayName}'
 #            '''
 #    }
 #
@@ -6904,7 +6991,7 @@
 #        DisplayName: Рваный наряд фей
 #        Tooltip:
 #            '''
-#            [c/956BE3:Предшествующий наряд Астры]
+#            [c/956BE3:Наряд Астры прошлого]
 #            Рваные ошмётки легендарного наряда из былых легенд
 #            Используется для создания '{$Items.FaerieVoyagerAttire.DisplayName}'
 #            '''
@@ -6933,7 +7020,7 @@
 #        DisplayName: Twilight Needle
 #        Tooltip:
 #            '''
-#            Utilized to craft Starfarer Attire
+#            Используется для создания наряда Астры
 #            Obtained through crafting or through defeating a powerful celestial foe
 #            'A mystical implement, oscillating in your hands'
 #            '''
@@ -6964,7 +7051,7 @@
 #    }
 #
 #    Mercy: {
-#        DisplayName: Mercy
+#        DisplayName: Милость
 #        Tooltip:
 #            '''
 #            Attacks with this weapon will rapidly sweep in a short-ranged arc
@@ -8038,7 +8125,7 @@
 #    }
 #
 #    Tartaglia: {
-#        DisplayName: Tartaglia
+#        DisplayName: Тарталья
 #        Tooltip:
 #            '''
 #            [c/F7D76A:Hold left click to charge the weapon; the longer the weapon is charged, the stronger the resulting attack will become]
@@ -8054,7 +8141,7 @@
 #    }
 #
 #    TheOnlyThingIKnowForReal: {
-#        DisplayName: The Only Thing I Know For Real
+#        DisplayName: И точно я знаю одно
 #        Tooltip:
 #            '''
 #            [c/8AC1F1:This weapon has a unique damage type; inherits bonuses from all damage classes]
@@ -8075,7 +8162,7 @@
 #    }
 #
 #    TwinStars: {
-#        DisplayName: Twin Stars of Albiero
+#        DisplayName: Двойные звёзды Альбиеро
 #        Tooltip:
 #            '''
 #            Holding this weapon will conjure twin stars to orbit you, granting 100 extra Max Mana
@@ -8114,13 +8201,13 @@
 #        DisplayName: Umbral Item
 #        Tooltip:
 #            '''
-#            Debug cheat item
-#            Don't use me
+#            Читерский предмет отладки
+#            Не использовать
 #            '''
 #    }
 #
 #    Unforgotten: {
-#        DisplayName: Unforgotten
+#        DisplayName: Незабытый
 #        Tooltip:
 #            '''
 #            [c/F7D76A:Hold left click to charge the weapon; if the weapon is fully charged, the attack varies]
@@ -8140,7 +8227,7 @@
 #    }
 #
 #    VenerationOfButterflies: {
-#        DisplayName: Veneration Of Butterflies
+#        DisplayName: Почитание бабочек
 #        Tooltip:
 #            '''
 #            Fires bursts of fluttering energy at your foe while increasing the [c/F59EEF:Butterfly Gauge]
@@ -8172,7 +8259,7 @@
 #    }
 #
 #    VirtuesEdge: {
-#        DisplayName: Virtue's Edge
+#        DisplayName: Грань добродетели
 #        Tooltip:
 #            '''
 #            Attacks with this weapon swing in a wide arc
@@ -8189,7 +8276,7 @@
 #    }
 #
 #    VisionOfEuthymia: {
-#        DisplayName: Vision of Euthymia
+#        DisplayName: Глаз эвтюмии
 #        Tooltip:
 #            '''
 #            Use this item to summon the [c/C341E9:Eye of Euthymia] for 40 seconds
@@ -8209,10 +8296,10 @@
 #        DisplayName: Глас падшего
 #        Tooltip:
 #            '''
-#            Critical strikes deal 15x base damage
-#            Critical strike chance increases by 4% with every shot
-#            Once the gun has landed a critical strike, the chance will reset
-#            'There are parasites that may benefit the host... teeth sharper than your own'
+#            Критические удары наносят 15х базового урона
+#            Увеличивает шанс критического удара на 4% за каждый выстрел
+#            Как только оружие нанесёт критический удар, шанс будет сброшен
+#            'Эти паразиты могут быть тебе полезны... ведь их клыки в разы острее твоих зубов'
 #            '''
 #    }
 #
@@ -8363,16 +8450,17 @@
 #    }
 #
 #    StarfarerSwapper: {
-#        DisplayName: Starfarer Swapper
+#        DisplayName: Переключатель Астры
 #        Tooltip:
 #            '''
 #            ПРЕДМЕТ ОТЛАДКИ
-#            Swaps your current Starfarer between Asphodene and Eridani
-#            [c/F1AF42:Don't use this in multiplayer!]
+#            Меняет текущую Астру между Асфоденой и Эридани
+#            [c/F1AF42:Не использовать в мультиплеере!]
 #            '''
 #    }
 #
 #    TwincruxPendant: {
+#        DisplayName: The Twincrux Pendant
 #        Tooltip:
 #            '''
 #            This charm appears to be pulling itself apart
@@ -8381,16 +8469,15 @@
 #            Prepare accordingly, and consider postponing this fight until you are stronger
 #            Не расходуется
 #            '''
-#        DisplayName: The Twincrux Pendant
 #    }
 #
 #    EssenceOfAbsoluteChaos: {
 #        DisplayName: Эссенция абсолютного хаоса
 #        Tooltip:
 #            '''
-#            Obtained after defeating Queen Slime
+#            Можно получить в качестве награды за победу над Королевой слизней
 #            Подарок вашей Астры
-#            Используется для создания 'Adornment of the Chaotic God' (Призывной)
+#            Используется для создания '{$Items.AdornmentOfTheChaoticGod.DisplayName}' (Призывной)
 #            '''
 #    }
 #
@@ -8458,8 +8545,8 @@
 #        DisplayName: Demi-Essence of Mimicry
 #        Tooltip:
 #            '''
-#            Obtained from Arbitration
-#            Resembles Подарок вашей Астры
+#            Можно получить в качестве награды за победу над Арбитражом
+#            Выглядит как подарок вашей Астры
 #            Используется для создания 'Manifestation' (Неземной)
 #            '''
 #    }
@@ -9279,20 +9366,20 @@
 #    }
 #
 #    StellarSpoils: {
-#        DisplayName: Stellar Spoils
+#        DisplayName: Звёздные трофеи
 #        Tooltip:
 #            '''
-#            Concentrated confluence of celestial energy
-#            Contains unique Stellar Spoils, obtained from celestial bosses
+#            Сгусток звёздной энергии
+#            Содержит уникальные звёздные трофеи, которые можно получить, победив неземных боссов
 #            '''
 #    }
 #
 #    StellarRemnant: {
-#        DisplayName: Stellar Remnant
+#        DisplayName: Звёздная частица
 #        Tooltip:
 #            '''
-#            Leftover confluence from Stellar Spoils
-#            Can be used to craft Stellar Spoil items
+#            Излишние слияние звёздных трофеев
+#            Используется для создания предметов звёздных трофеев
 #            '''
 #    }
 #
@@ -9317,7 +9404,7 @@
 #    }
 #
 #    ReprintedBlueprint: {
-#        DisplayName: Reprinted Blueprint
+#        DisplayName: Перепечатанный чертёж
 #        Tooltip:
 #            '''
 #            [c/D294FF:Воспоминание оружия]
@@ -9379,7 +9466,7 @@
 #    }
 #
 #    EssenceOfKinetics: {
-#        DisplayName: Essence Of Kinetics
+#        DisplayName: Эссенция кинетики
 #        Tooltip:
 #            '''
 #            Можно получить в качестве награды за победу над Герцогом Рыброном
@@ -9394,7 +9481,7 @@
 #            '''
 #            Можно получить в качестве награды за победу над Скитальцем между измерениями
 #            Подарок вашей Астры
-#            Используется для создания 'Trickspin Two-Step' (Призывной)
+#            Используется для создания '{$Items.TrickspinTwoStep.DisplayName}' (Призывной)
 #            '''
 #    }
 #
@@ -9419,13 +9506,13 @@
 #    }
 #
 #    EmberFlask: {
-#        DisplayName: Ember Flask
+#        DisplayName: Колба пылающий углей
 #        Tooltip:
 #            '''
-#            When used, heal 30% of Max HP (Potion Sickness duration is decreased to 20 seconds)
-#            Can only be used once during combat
-#            Replenishes out of combat
-#            'Praise the sun!'
+#            При использовании восстанавливает 30% максимального запаса здоровья (снижает длительность дебаффа «{$BuffName.PotionSickness}» до 20 секунд)
+#            Можно использовать лишь один раз во время боя
+#            Восполняется вне боя
+#            'Хвала солнцу!'
 #            '''
 #    }
 #
@@ -9434,9 +9521,9 @@
 #        Tooltip:
 #            '''
 #            Один из легендарных нарядов из былых легенд
-#            Equip to your Starfarer to gain the following:
-#            [c/C0C0C0:No effect]
-#            Vanity Item
+#            Экипирование на Астру даёт следующие эффекты:
+#            [c/C0C0C0:Без эффектов]
+#            Предмет украшения
 #            '''
 #    }
 #
@@ -9445,9 +9532,9 @@
 #        Tooltip:
 #            '''
 #            Один из легендарных нарядов из былых легенд
-#            Equip to your Starfarer to gain the following:
-#            [c/C0C0C0:No effect]
-#            Vanity Item
+#            Экипирование на Астру даёт следующие эффекты:
+#            [c/C0C0C0:Без эффектов]
+#            Предмет украшения
 #            '''
 #    }
 #
@@ -13635,7 +13722,7 @@
 #
 #    PhantomHiltBuff: {
 #        DisplayName: Ghostly Hilt
-#        Description: Movement speed is increased
+#        Description: Скорость передвижения увеличена
 #    }
 #
 #    PhantomHiltCooldown: {

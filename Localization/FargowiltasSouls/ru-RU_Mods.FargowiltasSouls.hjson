@@ -672,6 +672,7 @@ ItemExtra: {
     TinCritReset: -{0}% к шансу критического удара
     ROBPatreon: Друг, с которым вы не разлучались со времён Brawl
     ROBNonPatreon: Наконец-то он стал одним из лучших!
+    StarlightTungsten: Не подвержен воздействию вольфрамового усиления
 
     EternitySoul: {
         Additional: Дополнительно даёт:
@@ -1001,6 +1002,7 @@ EModeBalance: {
     RodofDiscord:Во время битвы с боссами каждое использование отнимает здоровье
     ChlorophyteBullet: Скорость и длительность снижены
     WaterBolt: Нельзя использовать, пока не будет побеждён Скелетрон
+    DemonScythe: Урон и скорость снижены на 40% до тех пор, пока не будет побеждён босс мирового зла
     HolyDodge: Активация святого рывка временно снижает скорость атаки
     FrozenTurtleShell: Ледяной барьер немного снижает наносимый вами урон
     BrainOfConfusion: Снижает наносимый вами урон при успешном уклонении
@@ -1339,7 +1341,7 @@ Buffs: {
 
     HypothermiaBuff: {
         DisplayName: Гипотермия
-        Description: Получаемый урон от морозных атак увеличен
+        Description: Дружественные снаряды замедлены и получаемый урон от морозных атак увеличен
     }
 
     InfestedBuff: {
@@ -3114,7 +3116,6 @@ Items: {
             Работает в инвентаре
             Нажмите <right>, чтобы отключить
             Даёт невосприимчивость к дебаффу «{$BuffName.Suffocation}»
-            Снижает магический урон на 10%
             Автоматически использует зелья маны при необходимости
             Увеличивает дальность подбора звёзд маны
             'Тихо бормочущая голова побеждённого врага'
@@ -3127,7 +3128,6 @@ Items: {
             '''
             В данный момент неактивен, нажмите <right> для включения
             Даёт невосприимчивость к дебаффу «{$BuffName.Suffocation}»
-            Снижает магический урон на 10%
             Автоматически использует зелья маны при необходимости
             Увеличивает дальность подбора звёзд маны
             'Тихо бормочущая голова побеждённого врага'
@@ -5915,6 +5915,7 @@ Projectiles: {
     MagmawHand.DisplayName: Magmaw Hand
     PungentEyeballMinion.DisplayName: Pungent Eyeball Minion
     MinosPrime.DisplayName: Minos Prime
+    RainLightning.DisplayName: Rain Lightning
 }
 
 MasoHeader: "[i:FargowiltasSouls/MutantStatue][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoHeader}]"
