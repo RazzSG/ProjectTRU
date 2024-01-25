@@ -30,7 +30,7 @@
 //             "Perseus" => "Персей",
 //             "Yojimbo" => "Йодзимбо",
 //             "Garridine" => "Гарридина",
-//             "No Stellar Nova has been selected." => "Ни одна Сверхновая не была выбрана.",
+//             "No Stellar Nova has been selected." => "Ни одна Астронова не была выбрана.",
 //             "[c/FF9D4B:Heavensfall]" => "[c/FF9D4B:Небесный водопад]",
 //             "[c/FF9D4B:A World Rent Asunder]" => "[c/FF9D4B:]",
 //             "[c/FF9D4B:Surpassing Infinity]" => "[c/FF9D4B:]",

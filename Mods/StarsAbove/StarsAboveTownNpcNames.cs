@@ -11,7 +11,7 @@
 //     private static Dictionary<int, List<string>> _townNpcNames = new()
 //     {
 //         { ModContent.NPCType<Astrologian>(), new List<string> { "Одетта", "Астеропа", "Майя", "Тайгета", "Целено", "Алкиона", "Меропа", "Электра", "Селена", "Сана", "Тиферет", "Лунала" } },
-//         { ModContent.NPCType<Garridine>(), new List<string> { "Гарридин" } },
+//         { ModContent.NPCType<Garridine>(), new List<string> { "Гарридина" } },
 //         { ModContent.NPCType<Yojimbo>(), new List<string> { "Йодзимбо" } },
 //     };
 //     

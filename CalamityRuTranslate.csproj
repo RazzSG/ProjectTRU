@@ -15,16 +15,16 @@
       <HintPath>..\ModAssemblies\CalamityMod_v2.0.3.8.dll</HintPath>
     </Reference>
     <Reference Include="Fargowiltas">
-      <HintPath>..\ModAssemblies\Fargowiltas_v3.2.1.1.dll</HintPath>
+      <HintPath>..\ModAssemblies\Fargowiltas_v3.2.2.dll</HintPath>
     </Reference>
     <Reference Include="FargowiltasSouls">
-      <HintPath>..\ModAssemblies\FargowiltasSouls_v1.6.1.1.dll</HintPath>
+      <HintPath>..\ModAssemblies\FargowiltasSouls_v1.6.5.dll</HintPath>
     </Reference>
     <Reference Include="InfernumMode">
       <HintPath>..\ModAssemblies\InfernumMode_v2.0.1.dll</HintPath>
     </Reference>
     <Reference Include="StarsAbove">
-      <HintPath>..\ModAssemblies\StarsAbove_v1.4.6.3.dll</HintPath>
+      <HintPath>..\ModAssemblies\StarsAbove_v2.0.2.3.dll</HintPath>
     </Reference>
     <Reference Include="ThoriumMod">
       <HintPath>..\ModAssemblies\ThoriumMod_v1.7.1.4.dll</HintPath>

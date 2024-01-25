@@ -90,7 +90,7 @@
 #    }
 #}
 #
-#SubworldName.Observatory: Северная обсерватория
+#SubworldName.Observatory: Обсерватория Заполярье
 #
 #NPCDialogue: {
 #    Talk: Нажмите ПКМ для разговора! 
@@ -138,7 +138,7 @@
 #
 #    MapText: {
 #        Default: Выберите локацию для посещения.
-#        NoStellaglyph: Поблизости отсутствует Космограф; отправьтесь в Северную обсерваторию, выбрав её на карте.
+#        NoStellaglyph: Поблизости отсутствует Космограф; отправьтесь в Обсерваторию Заполярье, выбрав её на карте.
 #
 #        Home: {
 #            Name: Homeworld
@@ -149,11 +149,19 @@
 #        }
 #
 #        Observatory: {
-#            Name: Северная обсерватория
-#            Description: One of the many observatories dotting the Moirae Galaxy- and one your Starfarer calls home. Each Observatory is home to a magical conduit called a Celestriad Root.
-#            Threat: Threat Level: N/A
-#            Requirement: Stellaglyph not required for transit.
-#            Loot: Resources: Celestriad Root (Crafting)
+#            Name: Обсерватория Заполярье
+#            Description:
+#                '''
+#                Одна из многих обсерваторий,
+#                усеивающих галактику Мойра, и та,
+#                которую ваша Астра считает своим
+#                домом. В каждой обсерватории есть
+#                магический проводник, известний
+#                как Корень целестриады.
+#                '''
+#            Threat: Уровень угрозы: Н/Д
+#            Requirement: Для перехода не нужен Космограф
+#            Loot: Ресурсы: Корень целестриады (Создание)
 #        }
 #
 #        BleachedPlanet: {
@@ -173,7 +181,7 @@
 #        }
 #
 #        CygnusAsteroids: {
-#            Name: Cygnus Asteroid Field
+#            Name: Астероидное поле Сигнус
 #            Description: A collection of marble asteroids, notable for their strange foreign ruins- possibly a clue to their original inhabitants, yet the passage of time has rendered archeology impossible.
 #            Threat: Threat Level: D
 #            Requirement: Tier I Stellaglyph required for transit.
@@ -237,7 +245,7 @@
 #        }
 #
 #        Corvus: {
-#            Name: Corvus
+#            Name: Корвус
 #            Description: Deep within the Ardor, dwindling resources led to this ruined, war-torn ashen planet. A grim reminder that while war could kill you, the cold will. While its citizens are long gone, lawless raiders roam the ruins.
 #            Threat: Threat Level: B
 #            Requirement: Tier II Stellaglyph required for transit.
@@ -261,46 +269,41 @@
 #        }
 #
 #        DreamingCity: {
-#            Name: The Dreaming City
+#            Name: Город грёз
 #            Description: A majestic stronghold once populated by a long forgotten race. It is plagued by hostile entites suffused with paracausal darkness, and is oft drifting between another plane of existence. Contributed by: Tatriskel
 #            Threat: Threat Level: A- Anomaly
-#            //Tier 3
 #            Requirement: Tier III Stellaglyph required for transit.
 #            Loot: Resources: Stellar Remnants
 #        }
 #
 #        Theranhad: {
-#            Name: Fallen Theranhad
+#            Name: Падший Теранхад
 #            Description: A floating archipelago left abandoned after its emperor became the vessel to a malevolent cosmic deity. A dark energy permeates the air. Contributed by: hakomari
 #            Threat: Threat Level: B-
-#            //Tier 3
 #            Requirement: Tier III Stellaglyph required for transit.
 #            Loot: Resources: Prismatic Cores
 #        }
 #
 #        Celestia: {
-#            Name: Celestia
+#            Name: Селестия
 #            Description: A collection of well-preserved, brilliant structures bound by mystic energy, once in service of a powerful figure, albeit lost to time. Contributed by: Izanagi, The wanderer of stars
 #            Threat: Threat Level: C
-#            //Tier 2
 #            Requirement: Tier II Stellaglyph required for transit.
 #            Loot: Resources: Prismatic Cores
 #        }
 #
 #        FaintArchives: {
-#            Name: Faint Archives
+#            Name: Блеклые архивы
 #            Description: A strange, pristine locale sitting utop a cloudy expanse. The walls are home to myriad secrets and mysteries, some which threaten to come apart at the seams. Contributed by: UnkownSToast
 #            Threat: Threat Level: B
-#            //Tier 3
 #            Requirement: Tier III Stellaglyph required for transit.
 #            Loot: Resources: Unique Weapon Memory
 #        }
 #
 #        UltraPlant: {
-#            Name: Ultra Plant
+#            Name: Мегаэлектростанция
 #            Description: A unknown locale populated with strange figures both inert and living. The constant bursts of electricity provides a hostile evironment to traverse and explore. Contributed by: Hockerzocker
 #            Threat: Threat Level: C-B
-#            //Tier 2
 #            Requirement: Tier II Stellaglyph required for transit.
 #            Loot: Resources: Unique Weapon Memory
 #        }
@@ -308,9 +311,9 @@
 #        QuestionMark: {
 #            Name: " "
 #            Description: The Stellaglyph can't take you past this point yet... (Content will be added at a later date!)
-#            Threat: N/A
-#            Requirement: N/A
-#            Loot: N/A
+#            Threat: Н/Д
+#            Requirement: Н/Д
+#            Loot: Н/Д
 #        }
 #    }
 #}
@@ -687,7 +690,12 @@
 #            76: Right. This Melee Essence dips into the void to defeat foes and absorb them after. Sounds pretty cool to me.
 #            77: I've acquired a new Essence for your use. It seems to borrow strength from Melee and Magic both- a versatile weapon, I like it!
 #            78: Looks like this Graveyard seems to have some connection to this Essence. Hopefully all these graves weren't just from you dying, right?
-#            79: Hmm... this Summon-type Essence will create some sort of controllable drone- I wonder if it can talk?
+#            79:
+#                '''
+#                Хм... эта Эссенция призывного типа
+#                сотворит какого-то управляемого дрона.
+#                Интересно, может ли он разговаривать?
+#                '''
 #            80: This is certainly a Melee weapon- furthermore, it seems to be one that excels at a distance, as well as providing extra firepower in close combat. Nice.
 #            81: I plundered a Ranged-sort of essence from the likeness of those pirates. Sea... water... Actually, looks like I'm nearly dry with jokes, so I'll anchor myself now.
 #            82: Well, I'm not sure what to make of this Essence, other than that it's a Summon weapon. Best you give it a go, before anything else goes haywire.
@@ -2195,7 +2203,11 @@
 #                Вот и владыка слизней! Думаю, у него есть что-то вроде
 #                телепортации...
 #                '''
-#            66: A colossal worm! Watch where it emerges; it'll try and hit your blind spots!
+#            66:
+#                '''
+#                Колоссальный червь! Следи, откуда он вылезает, он будет
+#                пытаться атаковать твои слепые зоны!
+#                '''
 #            67: This thing is trying to attack your mind directly..! Don't be fooled by the mirages!
 #            68:
 #                '''
@@ -2360,7 +2372,7 @@
 #            172: OK. Done charging- let's go.
 #            173: Just tell me when.
 #            174: Here we go.
-#            175: Ты добрался до Обсерватории! Ну, что думаешь?
+#            175: Ты добрался до обсерватории! Ну, что думаешь?
 #            176: Looks like you've arrived.  These are asteroids of interest- let's do some exploring.
 #            177: We've made it. This planet is strange.. The surface has been wiped clean... What happened?
 #            178: What is this place?
@@ -2471,7 +2483,11 @@
 #                Это же... гигантский слизень. Похоже, он способен двигаться
 #                очень быстро. Обрати внимание на это.
 #                '''
-#            66: This must be the Eater of Worlds. It'll try and suprise you from below.
+#            66:
+#                '''
+#                Видимо, это Пожиратель миров. Он попытается застать тебя
+#                врасплох из-под земли.
+#                '''
 #            67: Watch out. It's trying to attack your mind itself. Pay close attention to the mirages.
 #            68: Огромная пчела атакует! Не попадись в её мед!
 #            69:
@@ -2628,8 +2644,8 @@
 #            172: Let's find an opening.
 #            173:
 #                '''
-#                Небесные координаты установлены. Добро пожаловать в Северную
-#                обсерваторию.
+#                Небесные координаты установлены. Добро пожаловать в Обсерваторию
+#                Заполярье.
 #                '''
 #            174: We've made it. These are asteroids of interest. Let's look around.
 #            175: This is it. An entire planet that's devoid of color? The surface looks like it was wiped away somehow...
@@ -3008,7 +3024,7 @@
 #                        галактике, но только если ты правильно её
 #                        настроишь. Я расскажу тебе больше, когда
 #                        ты используешь её, чтобы добраться до
-#                        Северной обсерватории.
+#                        Обсерватории Заполярье.
 #                        '''
 #                    3:
 #                        '''
@@ -3028,8 +3044,8 @@
 #                Dialogue: {
 #                    0:
 #                        '''
-#                        Наконец-то ты добрался! Это Северная
-#                        обсерватория — обитель Астр. Хотя, конечно,
+#                        Наконец-то ты добрался! Это Обсерватория
+#                        Заполярье — обитель Астр. Хотя, конечно,
 #                        не всех, а только меня и Эри.
 #                        '''
 #                    1:
@@ -3938,12 +3954,12 @@
 #                1: Что далее по списку?
 #                2:
 #                    '''
-#                    Сверхновая успешно обновлена. Что-то
+#                    Астронова успешно обновлена. Что-то
 #                    ещё?
 #                    '''
 #                3:
 #                    '''
-#                    Изменения Сверхновой подтверждены.
+#                    Изменения Астроновы подтверждены.
 #                    Замечательно. Есть ещё что-то, чем я
 #                    могу помочь?
 #                    '''
@@ -3952,17 +3968,17 @@
 #            Eridani: {
 #                1:
 #                    '''
-#                    Изменения Сверхновой зафиксированы.
+#                    Изменения Астроновы зафиксированы.
 #                    Отлично. Требуется ли что-то ещё?
 #                    '''
 #                2:
 #                    '''
-#                    Завершил модифицировать Сверхновую?
+#                    Завершил модифицировать Астронову?
 #                    Отлично.
 #                    '''
 #                3:
 #                    '''
-#                    Итак, мы изменили Сверхновую.
+#                    Итак, мы изменили Астронову.
 #                    Что-нибудь ещё планируешь?
 #                    '''
 #            }
@@ -3970,9 +3986,21 @@
 #
 #        AfterArrayDialogue: {
 #            Asphodene: {
-#                1: Okay, that's the Stellar Array taken care of. Anything else you needed?
-#                2: I see you've finished your changes with the Stellar Array. Perfect.
-#                3: The Stellar Array's done updating. That's all for now, unless you had something else in mind?
+#                1:
+#                    '''
+#                    Хорошо, с Звёздным рядом разобрались.
+#                    Ещё что-нибудь нужно?
+#                    '''
+#                2:
+#                    '''
+#                    Вижу, ты закончил свои изменения в
+#                    Звёздном ряде. Отлично.
+#                    '''
+#                3:
+#                    '''
+#                    Звёздный ряд обновился. На этом пока
+#                    всё, если у тебя нет других вопросов.
+#                    '''
 #            }
 #
 #            Eridani: {
@@ -4059,38 +4087,46 @@
 #        }
 #
 #        VoyageHover: {
-#            Asphodene: This is where we can access Celestial Cartography: a magical map of the immediate galaxy with the help of the Astrolabe. Keep in mind you'll still need the Stellaglyph nearby to go anywhere except the Observatory.
+#            Asphodene:
+#                '''
+#                Вот здесь мы можем получить доступ к
+#                Стелларию: волшебной карте ближайшей
+#                галактики с использованием Астролябии.
+#                Но помни, что для путешествия в любую
+#                точку, кроме обсерватории, необходимо,
+#                чтобы рядом находился Космограф.
+#                '''
 #            Eridani:
 #                '''
 #                Вот где пригодится Астролябия: с её
 #                помощью ты можешь получить доступ к
 #                Стелларию, карте галактики. Правда,
 #                если хочешь отправиться дальше
-#                Обсерватории, тебе понадобится
+#                обсерватории, тебе понадобится
 #                Космограф поблизости.
 #                '''
 #        }
 #
 #        Locked: {
-#            Asphodene: We can't use this yet.
-#            Eridani: We haven't unlocked this yet.
+#            Asphodene: Мы пока не можем это использовать.
+#            Eridani: Мы пока не разблокировали это.
 #        }
 #
 #        NovaHover: {
 #            Asphodene:
 #                '''
-#                Это меню Сверхновых. Здесь ты можешь
-#                посмотреть характеристики Сверхновой,
+#                Это меню Астронов. Здесь ты можешь
+#                посмотреть характеристики Астроновы,
 #                сменить её на другую или экипировать
 #                Звёздную призму, изменив её свойства.
 #                '''
 #            Eridani:
 #                '''
-#                Это меню Сверхновых. Ты можешь
-#                ознакомиться со Сверхновыми,
+#                Это меню Астронов. Ты можешь
+#                ознакомиться со Астроновами,
 #                переключаться между ними, а также
 #                экипировать Звёздные призмы, изменяющие
-#                эффекты Сверхновых.
+#                эффекты Астронов.
 #                '''
 #        }
 #
@@ -4120,8 +4156,24 @@
 #        }
 #
 #        StarfarerAttire: {
-#            Asphodene: If you have any Starfarer Attire for me, here's the place to put it. It'll be pretty helpful for me, and you by association! And hey- style equals skill!
-#            Eridani: You can place Starfarer Attire here. It'll provide me with some helpful boons to assist you better. I know your fashion sense is... unique, so at least try and spare me?
+#            Asphodene:
+#                '''
+#                Если у тебя есть какой-нибудь наряд
+#                Астры, ты можешь поместить его прямо
+#                сюда. Это будет не только весьма
+#                полезно для меня, но и для тебя! И
+#                кстати, стиль - это также показатель
+#                мастерства!
+#                '''
+#            Eridani:
+#                '''
+#                Сюда ты можешь поместить наряд Астры.
+#                Он даст мне полезные бонусы, чтобы я
+#                могла лучше тебе помогать. Хотя я знаю,
+#                что твой вкус в одежде... необычный,
+#                но постарайся не слишком меня
+#                шокировать.
+#                '''
 #        }
 #
 #        StarfarerVanity: {
@@ -4183,29 +4235,29 @@
 #            }
 #
 #            Asphodene: {
-#                1: Mods.StarsAbove.StellarNova.StellarNovaDialogue.StellarNovaQuotes.Asphodene.1
-#                2: Mods.StarsAbove.StellarNova.StellarNovaDialogue.StellarNovaQuotes.Asphodene.2
-#                3: Mods.StarsAbove.StellarNova.StellarNovaDialogue.StellarNovaQuotes.Asphodene.3
-#                4: Mods.StarsAbove.StellarNova.StellarNovaDialogue.StellarNovaQuotes.Asphodene.4
-#                5: Mods.StarsAbove.StellarNova.StellarNovaDialogue.StellarNovaQuotes.Asphodene.5
-#                6: Mods.StarsAbove.StellarNova.StellarNovaDialogue.StellarNovaQuotes.Asphodene.6
-#                7: Mods.StarsAbove.StellarNova.StellarNovaDialogue.StellarNovaQuotes.Asphodene.7
-#                8: Mods.StarsAbove.StellarNova.StellarNovaDialogue.StellarNovaQuotes.Asphodene.8
-#                9: Mods.StarsAbove.StellarNova.StellarNovaDialogue.StellarNovaQuotes.Asphodene.9
-#                10: Mods.StarsAbove.StellarNova.StellarNovaDialogue.StellarNovaQuotes.Asphodene.10
+#                1: ""
+#                2: ""
+#                3: ""
+#                4: ""
+#                5: ""
+#                6: ""
+#                7: ""
+#                8: ""
+#                9: ""
+#                10: ""
 #            }
 #
 #            Eridani: {
-#                1: Mods.StarsAbove.StellarNova.StellarNovaDialogue.StellarNovaQuotes.Eridani.1
-#                2: Mods.StarsAbove.StellarNova.StellarNovaDialogue.StellarNovaQuotes.Eridani.2
-#                3: Mods.StarsAbove.StellarNova.StellarNovaDialogue.StellarNovaQuotes.Eridani.3
-#                4: Mods.StarsAbove.StellarNova.StellarNovaDialogue.StellarNovaQuotes.Eridani.4
-#                5: Mods.StarsAbove.StellarNova.StellarNovaDialogue.StellarNovaQuotes.Eridani.5
-#                6: Mods.StarsAbove.StellarNova.StellarNovaDialogue.StellarNovaQuotes.Eridani.6
-#                7: Mods.StarsAbove.StellarNova.StellarNovaDialogue.StellarNovaQuotes.Eridani.7
-#                8: Mods.StarsAbove.StellarNova.StellarNovaDialogue.StellarNovaQuotes.Eridani.8
-#                9: Mods.StarsAbove.StellarNova.StellarNovaDialogue.StellarNovaQuotes.Eridani.9
-#                10: Mods.StarsAbove.StellarNova.StellarNovaDialogue.StellarNovaQuotes.Eridani.10
+#                1: ""
+#                2: ""
+#                3: ""
+#                4: ""
+#                5: ""
+#                6: ""
+#                7: ""
+#                8: ""
+#                9: ""
+#                10: ""
 #            }
 #        }
 #
@@ -4287,8 +4339,16 @@
 #
 #        UnlimitedBladeWorks: {
 #            Unlocked: {
-#                Asphodene: With Unlimited Blade Works, you can mold the battlefield to one that empowers your abilities.
-#                Eridani: You can use this Stellar Nova, Unlimited Blade Works, to create a powerful empowerment field.
+#                Asphodene:
+#                    '''
+#                    С помощью 'Клинков бесконечный край', ты можешь
+#                    создать идеальное поле боя для своих способностей.
+#                    '''
+#                Eridani:
+#                    '''
+#                    С помощью этой Астроновы, 'Клинков бесконечный
+#                    край', можно создать мощное поле усиления.
+#                    '''
 #            }
 #
 #            Locked: {
@@ -4345,7 +4405,7 @@
 #        }
 #
 #        KiwamiRyuken: {
-#            AbilityName: Kiwami Ryuken
+#            AbilityName: Кивами Рюкен
 #            AbilitySubName: "[c/36BDEC:Unbridled Essence of the Dragon's Fist]"
 #            AbilityDescription: Upon activation of Kiwami Ryuken, you will have a one-second window to take damage from a foe, becoming invincible in the process. If hit, a counterattack will trigger, dealing incredible damage in close proximity, aimed at your cursor. You will be unable to execute the counterattack if the foe is further than melee range, but damage will still be negated. You will be refunded 50% of the Stellar Nova energy cost if you are not hit during Kiwami Ryuken.
 #            AstralBonus: The counterattack will always deal critical damage below half health. Restore 5 Stellar Nova Energy upon triggering the counterattack.
@@ -4369,16 +4429,35 @@
 #        }
 #
 #        UnlimitedBladeWorks: {
-#            AbilityName: Unlimited Blade Works
-#            AbilitySubName: "[c/FC643B:Projected Reality of Wrought Iron]"
-#            AbilityDescription: Summon a portal to a world of blades, creating a field of empowerment for 20 seconds. After activation, rain down a barrage of blades, reducing enemy damage dealt by 10% for 20 seconds on hit. Additionally, all allies within the radius will gain Bladeforged, which increases damage, knockback, critical strike chance, and armor penetration by 2% up to 10% depending on current HP (capped at 500 HP.) Duration in seconds is proportional to Energy Cost divided by 10.
-#            AstralBonus: Bladeforged's cap is raised to 15% and now increases defense based on percentage values up to 8. Additionally, Bladeforged perists for 10 seconds after the Nova ends.
-#            UmbralBonus: Bladeforged no longer increases damage, but attacking with projectiles trigger follow-up attacks (3 second cooldown.) Foes within the field take 10% more damage.
+#            AbilityName: Клинков бесконечный край
+#            AbilitySubName: "[c/FC643B:Проецируемая реальность из кованого железа]"
+#            AbilityDescription:
+#                '''
+#                Призывает портал в мир клинков, создавая поле усиления на 20 секунд.
+#                После активации обрушивает на врагов шквал клинков, снижая их урон на
+#                10% на 20 секунд при попадании. Также, все союзники в радиусе действия
+#                получают бафф «{$Buffs.Bladeforged.DisplayName}», увеличивающий урон, отбрасывание, шанс
+#                критического удара и пробивание брони на 2%, достигая максимума 10% в
+#                зависимости от текущего запаса здоровья (максимум 500). Длительность
+#                баффа в секундах пропорциональна расходу энергии, делённому на 10.
+#                '''
+#            AstralBonus:
+#                '''
+#                Порог баффа «{$Buffs.Bladeforged.DisplayName}» увеличен до 15%, и теперь он увеличивает
+#                защиту в процентном отношении до 8. Также, он остаётся активным в течение
+#                10 секунд после окончания Астроновы.
+#                '''
+#            UmbralBonus:
+#                '''
+#                Бафф «{$Buffs.Bladeforged.DisplayName}» больше не увеличивает урон, но атакуя снарядами
+#                запускает последовательные атаки (перезарядка 3 секунды). Враги внутри
+#                поля получают на 10% больше урона.
+#                '''
 #        }
 #
 #        GuardiansLight: {
-#            AbilityName: Guardian's Light
-#            AbilitySubName: "[c/C0EEFF:Lucidity of the Traveler's Will]"
+#            AbilityName: Свет стража
+#            AbilitySubName: "[c/C0EEFF:Ясность воли странника]"
 #
 #            AbilityDescription: {
 #                Melee: Wield paracausal energy through myriad abilities depending on Aspected Damage Type: Thundercrash if Melee, Golden Gun if Ranged, Nova Bomb if Magic, Needlestorm if Summoner, and Silence and Squall otherwise. Thundercrash: After activation, gain Bearer of Light for 10 seconds and fly towards your cursor, dealing incredibly powerful damage to the first foe struck. Gain Invincibility for 3 seconds upon activation, independent of the attack's duration.
@@ -4392,13 +4471,13 @@
 #            UmbralBonus: Bearer of Light increases damage by 8%. Bearer of Darkness increases critical strike damage by 15%. While either buff is active, Aspected Damage Type penalty is negated.
 #        }
 #
-#        BaseDamage: Base Damage
-#        BaseEnergyCost: Base Energy Cost
-#        Damage: Damage
+#        BaseDamage: ед. баз. урона
+#        BaseEnergyCost: ед. баз. рас. энер.
+#        Damage: ед. урона
 #        AttackDamage: Attack Damage
-#        CritChance: Crit Chance
-#        CritDamage: Crit Damage
-#        EnergyCost: Energy Cost
+#        CritChance: Крит. шанс
+#        CritDamage: Крит. урон
+#        EnergyCost: ед. расхода энер.
 #        BaseHealStrength: Base Heal Strength
 #        HealStrength: Heal Strength
 #        CritHealStrength: Crit Heal Strength
@@ -4406,140 +4485,10 @@
 #}
 #
 #Config: {
-#    StellarNovaHeader: "[c/EE9DE0:Stellar Nova Settings]"
-#    PopUpDialogueHeader: "[c/C076DF:Pop-up Dialogue Settings]"
-#    DialogueHeader: "[c/75C792:Disk Dialogue Settings]"
-#    MiscHeader: "[c/7A76FF:Miscellaneous Settings]"
-#
-#    DisableStellarNovaCutIns: {
-#        Label: Disable Stellar Nova cut-ins
-#        Tooltip: Disables the portrait of your Starfarer when activating your Stellar Nova.
-#    }
-#
-#    DisableStellarNovaDialogue: {
-#        Label: Disable Stellar Nova dialogue box
-#        Tooltip: Disables the dialogue box during the Stellar Nova cut-in.
-#    }
-#
-#    DisableStarfarerCommentary: {
-#        Label: Disable Starfarer commentary
-#        Tooltip: Disable Starfarer Prompts entirely.
-#    }
-#
-#    DisableStarfarerCommentaryBuffs: {
-#        Label: Disable Starfarer commentary on buffs/debuffs
-#        Tooltip: You will no longer recieve Starfarer Prompts for getting buffed/debuffed.
-#    }
-#
-#    DisableStarfarerCommentaryCombat: {
-#        Label: Disable Starfarer commentary for combat events
-#        Tooltip: You will no longer recieve Starfarer Prompts for killing foes, etc.
-#    }
-#
-#    StarfarerPromptCooldown: {
-#        Label: Starfarer Prompt Cooldown
-#        Tooltip: The time between Starfarer Prompts in minutes. If a trigger for a prompt occurs during this time, it is ignored. Does not apply to unique prompts (Bosses, etc.)
-#    }
-#
-#    DialogueScrollValue: {
-#        Label: Starfarer Text Speed
-#        Tooltip: The time for dialogue text to increment in frames. Below 2, it is recommended to disable dialogue sound effects.
-#    }
-#
-#    DialogueAudio: {
-#        Label: Starfarer Text Sound Effect
-#        Tooltip: The sound effect that plays when letters appear during Starfarer Dialogue. 5 is silence.
-#    }
-#
-#    InstantText: {
-#        Label: Instant Text
-#        Tooltip: Ignores the Starfarer Text Speed option; all text will appear instantly.
-#    }
-#
-#    MovingDialogueAmount: {
-#        Label: Starfarer Menu Movement
-#        Tooltip: Adjust how much the Starfarer menus move while you're moving.
-#    }
-#
-#    PromptLoc: {
-#        Label: Starfarer Prompt positiion
-#        Tooltip: Position is measured from the bottom right of the screen!
-#    }
-#
-#    CommentaryTimer: {
-#        Label: Starfarer Prompt Timer
-#        Tooltip: Changes the length that Starfarer Prompts stay on screen.
-#    }
-#
-#    EnableStarfarerVoices: {
-#        Label: Disable Stellar Nova voice lines
-#        Tooltip: Disables the AI voice lines for Asphodene and Eridani during Stellar Novas.
-#    }
-#
-#    EnableMusicOverride: {
-#        Label: Weapon music overrides all other music
-#        Tooltip: When enabled, weapons that change the game's music will have priority over nearly everything else.
-#    }
-#
-#    EnablePlayerWorldLock: {
-#        Label: Enable Player Progress World Lock
-#        Tooltip: Enables character progression being tied to the first world they joined.
-#    }
-#
-#    EnableAprilFools: {
-#        Label: Enable April Fools mode
-#        Tooltip: Adds radical sunglasses to Asphodene and Eridani in the Starfarer menu and during Stellar Novas.
-#    }
-#
-#    DisableWeaponCutIn: {
-#        Label: Disable Weapon Cut-In Effect
-#        Tooltip: Disable screen-wide animations that play when using certain weapons.
-#    }
-#
-#    DisableTypePenalty: {
-#        Label: Disable damage penalty for Aspected Damage modification
-#        Tooltip: 10% damage penalty when Aspected Damage modification is enabled is removed.
-#    }
-#
-#    DisableBossAggro: {
-#        Label: Disable Boss Aggro Marker
-#        Tooltip: Disables the marker that appears over a player's head when a boss targets them.
-#    }
-#
-#    DisableCalamityWeaponBuffs: {
-#        Label: Disable global damage modifiers for mod compatibility
-#        Tooltip: Disables the 30% increase to Aspected Weapon damage when the Calamity Mod is enabled.
-#    }
-#
-#    DisableWeaponRestrictions: {
-#        Label: Disable Aspected Weapon restrictions
-#        Tooltip: Disables the restriction for Astral and Umbral weapons being wielded by other players.
-#    }
-#
-#    DisableBossEnemySpawnMod: {
-#        Label: Disable Boss Enemy Spawn Mod
-#        Tooltip: Disables the buff granted to all players that prevents mob spawning during bosses.
-#    }
-#
-#    DisableManaSicknessChange: {
-#        Label: Disable Mana Sickness Change
-#        Tooltip: Disables the change to Mana Sickness that applies the damage reduction to all damage and not just Magic.
-#    }
-#
-#    ColorblindBoss: {
-#        Label: Режим для дальтоников в битве с Пентесилеей
-#        Tooltip: Заменяет некоторые механики, связанные с цветами в бою с Пентесилеей.
-#    }
-#
-#    SubworldCompatibility: {
-#        Label: Disable Multiplayer Compatibility-Fix for Cosmic Voyages
-#        Tooltip: Allows for users in Multiplayer to undertake Cosmic Voyages- toggle this off to drop items from Subworlds instead of travelling there.
-#    }
-#
-#    CombatTimer: {
-#        Label: Combat Timer
-#        Tooltip: When striking a foe or getting struck, this is the time in seconds you are 'in combat.'
-#    }
+#    StellarNovaHeader: "[c/EE9DE0:Настройки Астроновы]"
+#    PopUpDialogueHeader: "[c/C076DF:Настройки всплывающих диалогов]"
+#    DialogueHeader: "[c/75C792:Настройки диалогов диска]"
+#    MiscHeader: "[c/7A76FF:Прочие настройки]"
 #}
 #
 #Common: {
@@ -4555,7 +4504,7 @@
 #    SpeedUpLight: The everlasting light is catalyzed, preventing night from falling...
 #    TsukiyomiBossChecklist: The Boss Checklist updates to reveal a hidden foe!
 #    CanBeShimmeredSpoils: Can be Shimmered, converting into Stellar Remnants
-#    BlockedNova: A powerful foe prevents use of the Stellar Nova!
+#    BlockedNova: Использование Астроновы невозможно из-за присутствия могущественного врага.
 #    CreditsHover:
 #        '''
 #        [Посмотреть перечень участников в
@@ -4583,7 +4532,7 @@
 #        '''
 #}
 #
-#DamageClass.CelestialDamageClass: celestial damage
+#DamageClass.CelestialDamageClass: ед. неземного урона
 #
 #NPCs: {
 #    Astrologian: {
@@ -4598,8 +4547,8 @@
 #            HateCrowded: Ты, должно быть, шутишь. Я даже телескоп нормально поставить не могу, его постоянно опрокидывают, не говоря уже о световом засвете.
 #            LoveBiome: Неужели это не очевидно? Лучшее место для наблюдения за звёздами - космос.
 #            LikeBiome: Я не могу сказать ничего плохого о {BiomeName}. Ведь горизонт там просто завораживающий.
-#            DislikeBiome: As a faerie, you'd think I'd prefer {BiomeName}. Let it be known that I do not. Try looking through a telescope while being trampled by a unicorn.
-#            HateBiome: Seriously? {BiomeName}? You must have some grievances against me... Feel free to share.
+#            DislikeBiome: Как фея, ты бы подумал, что я люблю {BiomeName}. Однако это не так. Попробуй посмотреть в телескоп, пока тебя топчет единорог.
+#            HateBiome: Серьёзно? {BiomeName}? У тебя что, ко мне претензии... Не стесняйся, рассказывай.
 #            LoveNPC: There's no way around it: {NPCName} is much better at magecraft than I. I'd love to learn under his tutelage.
 #            LikeNPC: A fellow scientist in {NPCName} provides valuable discourse.
 #            DislikeNPC: It's not that I hate {NPCName}... however, we couldn't be more different in our tastes.
@@ -4611,12 +4560,12 @@
 #        Census.SpawnCondition: Have a Weapon Memory in your inventory
 #    }
 #
-#    Arbitration.DisplayName: Arbitration
+#    Arbitration.DisplayName: Арбитраж
 #    AstralCell.DisplayName: Starcell
 #    DummyEnemy.DisplayName: Dummy Enemy
-#    CastorBoss.DisplayName: Castor, Baleborn Force
-#    Dioskouroi.DisplayName: Dioskouroi, the Twin Forces
-#    NalhaunBoss.DisplayName: Nalhaun, the Burnished King
+#    CastorBoss.DisplayName: Кастор, Закалённый огнём воин
+#    Dioskouroi.DisplayName: Диоскуры, Близнецы-воители
+#    NalhaunBoss.DisplayName: Налхан, Воронёный король
 #    PaintedAttendantA.DisplayName: Living Brush
 #    PaintedAttendantB.DisplayName: Living Brush
 #    PrismLoot.DisplayName: Prismatic Core
@@ -4630,73 +4579,73 @@
 #    AsteroidWormHead.DisplayName: Stardigrade
 #    AsteroidWormTail.DisplayName: Stardigrade
 #    Soulless.DisplayName: Soulless
-#    Garridine.DisplayName: Гарридин
+#    Garridine.DisplayName: Гарридина
 #    Yojimbo.DisplayName: Йодзимбо
-#    DioskouroiWallsNPC.DisplayName: Dioskouroi Walls N P C
-#    NalhaunPhase2WallsNPC.DisplayName: Nalhaun Phase2 Walls N P C
-#    VagrantWalls.DisplayName: Vagrant Walls
-#    VagrantWallsHorizontal.DisplayName: Vagrant Walls Horizontal
-#    VagrantWallsVertical.DisplayName: Vagrant Walls Vertical
-#    WarriorOfLightBoss.DisplayName: The Warrior Of Light
+#    DioskouroiWallsNPC.DisplayName: "" # Dioskouroi Walls N P C
+#    NalhaunPhase2WallsNPC.DisplayName: "" # Nalhaun Phase2 Walls N P C
+#    VagrantWalls.DisplayName: "" # Vagrant Walls
+#    VagrantWallsHorizontal.DisplayName: "" # Vagrant Walls Horizontal
+#    VagrantWallsVertical.DisplayName: "" # Vagrant Walls Vertical
+#    WarriorOfLightBoss.DisplayName: Воин света
 #    WarriorWallsNPC.DisplayName: ""
 #    WarriorOfLightOld.DisplayName: ""
-#    GardenOfAvalonNPC.DisplayName: Garden Of Avalon
+#    GardenOfAvalonNPC.DisplayName: Сад Авалона
 #
 #    VagrantBoss: {
-#        DisplayName: The Vagrant of Space and Time
+#        DisplayName: Скиталец между измерениями
 #
 #        BossChecklistIntegration: {
-#            EntryName: The Vagrant of Space and Time
+#            EntryName: Скиталец между измерениями
 #            SpawnInfo: Defeat this strange foe through the Shattered Disk, obtained from your Starfarer after the Eye of Cthulhu is defeated. This fight will be critical to progression later!
 #            DespawnMessage: ""
 #        }
 #    }
 #
 #    ThespianBoss: {
-#        DisplayName: Театрал, Претворяющий алхимию
+#        DisplayName: Театрал, Созданный алхимией
 #
 #        BossChecklistIntegration: {
-#            EntryName: Театрал, Претворяющий алхимию
+#            EntryName: Театрал, Созданный алхимией
 #            SpawnInfo: Challenge this strange enemy through inquiring about the Strange Potion with the Astrologian. She moves into town after you obtain a Weapon Memory or defeat the Vagrant of Space and Time.
 #            DespawnMessage: ""
 #        }
 #    }
 #
 #    PolluxBoss: {
-#        DisplayName: Pollux, Baleborn Force
+#        DisplayName: Поллукс, Закалённый огнём воин
 #
 #        BossChecklistIntegration: {
 #            EntryName: Dioskouroi, the Twin Forces
-#            SpawnInfo: Defeat these demonic twins through use of the Twincrux Pendant, granted after defeating Skeletron. (The Vagrant of Space and Time must have been defeated.)
+#            SpawnInfo: Чтобы победить этих демонических близнецов необходимо использовать предмет {$Items.TwincruxPendant.DisplayName}, который выпадает после победы над Скелетроном. (Скиталец между измерениями должен быть побеждён)
 #            DespawnMessage: ""
 #        }
 #    }
 #
 #    PenthesileaBoss: {
-#        DisplayName: Penthesilea, the Witch of Ink
+#        DisplayName: Пентесилея, Ведьма чернил
 #
 #        BossChecklistIntegration: {
-#            EntryName: Penthesilea, the Witch of Ink
-#            SpawnInfo: Face this fearsome foe with the Unsullied Canvas, given to you by your Starfarer after the mechanical twin eyes are bested. (The Vagrant of Space and Time must have been defeated.)
+#            EntryName: Пентесилея, Ведьма чернил
+#            SpawnInfo: Чтобы противостоять этому грозному врагу, используйте предмет {$Items.UnsulliedCanvas.DisplayName}, который вам подарила ваша Астра после победы над Близнецами. (Скиталец между измерениями должен быть побеждён)
 #            DespawnMessage: ""
 #        }
 #    }
 #
 #    NalhaunBossPhase2: {
-#        DisplayName: Nalhaun, Ruler of the Hollow World
+#        DisplayName: Налхан, Владыка полого мира
 #
 #        BossChecklistIntegration: {
-#            EntryName: Nalhaun, the Burnished King
-#            SpawnInfo: Confront this aged monarch with the Ancient Crown, given to you by your Starfarer after Golem is defeated. (The Vagrant of Space and Time must have been defeated.)
+#            EntryName: Налхан, Воронёный король
+#            SpawnInfo: Confront this aged monarch with the Ancient Crown, given to you by your Starfarer after Golem is defeated. (Скиталец между измерениями должен быть побеждён)
 #            DespawnMessage: ""
 #        }
 #    }
 #
 #    ArbitrationBoss: {
-#        DisplayName: Arbitration
+#        DisplayName: Арбитраж
 #
 #        BossChecklistIntegration: {
-#            EntryName: Arbitration
+#            EntryName: Арбитраж
 #            SpawnInfo: This mysterious foe lurks in Anomaly subworlds- staying too long in one will take you to Katabasis, where it awaits. Defeating this boss drops an item which will take you immediately to Katabasis. With MP Compatibility Mode, you can get this item by traveling to Lyra.
 #            DespawnMessage: ""
 #        }
@@ -4741,7 +4690,7 @@
 #    VendingMachine.MapEntry: Торговый автомат
 #    CelestriadRoot.MapEntry: "{$Items.CelestriadRoot.DisplayName}"
 #    Portal.MapEntry: Врата
-#    StellarFoci.MapEntry: Звёздные светила
+#    StellarFoci.MapEntry: Звёздное светило
 #    StellaglyphTier1.MapEntry: "{$Items.StellaglyphTier1.DisplayName}"
 #    StellaglyphTier2.MapEntry: "{$Items.StellaglyphTier2.DisplayName}"
 #    StellaglyphTier3.MapEntry: "{$Items.StellaglyphTier3.DisplayName}"
@@ -4763,8 +4712,8 @@
 #    WealthFocusTier1Tile.MapEntry: ""
 #    WealthFocusTier2Tile.MapEntry: ""
 #    WealthFocusTier3Tile.MapEntry: ""
-#    ReprintedBlueprintTile.MapEntry: Reprinted Blueprint Tile
-#    CosmoturgyStation.MapEntry: Cosmoturgy Station
+#    ReprintedBlueprintTile.MapEntry: "{$Items.ReprintedBlueprint.DisplayName}"
+#    CosmoturgyStation.MapEntry: "{$Items.CosmoturgyStationItem.DisplayName}"
 #}
 #
 #Items: {
@@ -4772,7 +4721,7 @@
 #        DisplayName: Инопланетный коралл
 #        Tooltip:
 #            '''
-#            [c/2DD2FE:Stargazer Relic]
+#            [c/2DD2FE:Реликвия звездочёта]
 #            For each unused Stellar Array Energy point, gain 8% increased damage
 #            Gain 8 defense with a full Stellar Array instead
 #            [c/ADEEFF:Only one Stargazer Relic can be equipped at a time]
@@ -4784,7 +4733,7 @@
 #        DisplayName: Кристализированное ничего
 #        Tooltip:
 #            '''
-#            [c/2DD2FE:Stargazer Relic]
+#            [c/2DD2FE:Реликвия звездочёта
 #            Max HP is reduced by 300 and defense is reduced by 20, but damage is increased by 100%
 #            Only active when unmodified Max HP is 400 or higher
 #            [c/ADEEFF:Only one Stargazer Relic can be equipped at a time]
@@ -4826,9 +4775,9 @@
 #        DisplayName: Сделка Люцифера
 #        Tooltip:
 #            '''
-#            Defense is reduced by 30
-#            Upon killing an enemy, gain the buff 'Sated Anguish' for 15 seconds
-#            During this time, gain 20% increased damage, powerful life regeneration, and defense is restored
+#            Снижает защиту на 30
+#            При убийстве врага даёт бафф «{$Buffs.SatedAnguish.DisplayName}» на 15 секунд
+#            В течение этого времени увеличивает урон на 20%, значительно усиливает регенерацию и восстанавливает защиту
 #            '''
 #    }
 #
@@ -4836,8 +4785,8 @@
 #        DisplayName: Совершенно обычный аксессуар
 #        Tooltip:
 #            '''
-#            Increases the damage of Aspected Weapons by 8%
-#            'A bit too perfect'
+#            Увеличивает урон Аспектного оружия на 8%
+#            'Даже слишком совершенный'
 #            '''
 #    }
 #
@@ -4968,7 +4917,7 @@
 #    }
 #
 #    AfterburnerWings: {
-#        DisplayName: Afterburner Wings
+#        DisplayName: Крылья дожигателя
 #        Tooltip: Это должно быть скрыто от глаз!
 #    }
 #
@@ -4983,7 +4932,7 @@
 #    }
 #
 #    MeleeWings: {
-#        DisplayName: Melee Wings
+#        DisplayName: Крылья ближнего боя
 #        Tooltip: Это должно быть скрыто от глаз!
 #    }
 #
@@ -4998,7 +4947,7 @@
 #    }
 #
 #    ShieldWings: {
-#        DisplayName: Shield Wings
+#        DisplayName: Защитные крылья
 #        Tooltip: Это должно быть скрыто от глаз!
 #    }
 #
@@ -5013,27 +4962,27 @@
 #    }
 #
 #    SniperWings: {
-#        DisplayName: Sniper Wings
+#        DisplayName: Крылья снайпера
 #        Tooltip: Это должно быть скрыто от глаз!
 #    }
 #
 #    StarArmorHead: {
-#        DisplayName: Stargazing Hero's Hood
-#        Tooltip: Spatial garb of ages past
+#        DisplayName: Капюшон звездочёта-героя
+#        Tooltip: Пространственное облачение прошедших веков
 #    }
 #
 #    StarArmorLegs: {
-#        DisplayName: Stargazing Hero's Greaves
-#        Tooltip: Spatial garb of ages past
+#        DisplayName: Поножи звездочёта-героя
+#        Tooltip: Пространственное облачение прошедших веков
 #    }
 #
 #    StarArmorTop: {
-#        DisplayName: Stargazing Hero's Mantle
-#        Tooltip: Spatial garb of ages past
+#        DisplayName: Мантия звездочёта-героя
+#        Tooltip: Пространственное облачение прошедших веков
 #    }
 #
 #    AegisOfHopesLegacy: {
-#        DisplayName: Aegis of Hope's Legacy
+#        DisplayName: Эгида наследия надежды
 #        Tooltip:
 #            '''
 #            Один из легендарных нарядов из былых легенд
@@ -5110,7 +5059,7 @@
 #    }
 #
 #    StellarCasualAttire: {
-#        DisplayName: Perfected Stellar Casual
+#        DisplayName: Неизменная звёздная повседневность
 #        Tooltip:
 #            '''
 #            Один из легендарных нарядов из былых легенд
@@ -5147,7 +5096,7 @@
 #    }
 #
 #    BloodBlade: {
-#        DisplayName: The Blood Blade
+#        DisplayName: Кровавый клинок
 #        Tooltip:
 #            '''
 #            Attacks with this weapon will rapidly sweep in an arc
@@ -5170,22 +5119,22 @@
 #    }
 #
 #    NalhaunBossBag: {
-#        DisplayName: Treasure Bag (Nalhaun, the Burnished King)
+#        DisplayName: Мешок с сокровищами (Налхан, Воронёный король)
 #        Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 #    }
 #
 #    PenthBossBag: {
-#        DisplayName: Treasure Bag (Penthesilea, the Witch of Ink)
+#        DisplayName: Мешок с сокровищами (Пентесилея, Ведьма чернил)
 #        Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 #    }
 #
 #    VagrantBossBag: {
-#        DisplayName: Treasure Bag (Vagrant of Space and Time)
+#        DisplayName: Мешок с сокровищами (Скиталец между измерениями)
 #        Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 #    }
 #
 #    WarriorBossBag: {
-#        DisplayName: Treasure Bag (Warrior of Light)
+#        DisplayName: Мешок с сокровищами (Воин света)
 #        Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 #    }
 #
@@ -5207,7 +5156,7 @@
 #    }
 #
 #    CaesuraOfDespair: {
-#        DisplayName: Cæsura of Despair
+#        DisplayName: Цезура отчаяния
 #        Tooltip:
 #            '''
 #            Holding this weapon will transform you into a [c/E03166:Fae Nephilim]
@@ -5275,10 +5224,10 @@
 #    }
 #
 #    BladeOrb: {
-#        DisplayName: Blade Orb
+#        DisplayName: Клинковая сфера
 #        Tooltip:
 #            '''
-#            Blade orb.
+#            Клинковая сфера
 #            [c/F1AF42:Это должно быть скрыто от глаз]
 #            '''
 #    }
@@ -5293,35 +5242,35 @@
 #    }
 #
 #    JojaCola: {
-#        DisplayName: Foreign Soda Pop
+#        DisplayName: Иноземная банка газировки
 #        Tooltip:
 #            '''
 #            A questionable beverage
-#            Has no effect
+#            Без эффектов
 #            'Property of Joja Offworld'
 #            '''
 #    }
 #
 #    Onigiri: {
-#        DisplayName: Foreign Rice Ball
+#        DisplayName: Иноземный рисовый шарик
 #        Tooltip:
 #            '''
-#            A tasty snack
-#            Has no effect
+#            Вкусная закуска
+#            Без эффектов
 #            '''
 #    }
 #
 #    DebugCompass: {
-#        DisplayName: Debug Compass
+#        DisplayName: Отладочный компасс
 #        Tooltip:
 #            '''
-#            Activates Celestial Cartography menu when held
+#            При держании в руках активирует меню Стеллария
 #            [c/F1AF42:Предмет отладки]
 #            '''
 #    }
 #
 #    DebugDisk: {
-#        DisplayName: Debug Disk
+#        DisplayName: Отладочный диск
 #        Tooltip:
 #            '''
 #            Resets some player data from The Stars Above
@@ -5352,7 +5301,7 @@
 #    }
 #
 #    DemonicCrux: {
-#        DisplayName: The Beating Crux
+#        DisplayName: Высший крест
 #        Tooltip:
 #            '''
 #            This object feels worryingly wrong
@@ -5389,7 +5338,7 @@
 #    }
 #
 #    MalachiteFragment: {
-#        DisplayName: Malachite Fragment
+#        DisplayName: Малахитовый фрагмент
 #        Tooltip:
 #            '''
 #            Расколотые фрагменты звезды
@@ -5398,7 +5347,7 @@
 #    }
 #
 #    VermillionFragment: {
-#        DisplayName: Vermillion Fragment
+#        DisplayName: Киноварный фрагмент
 #        Tooltip:
 #            '''
 #            Расколотые фрагменты звезды
@@ -5464,7 +5413,7 @@
 #    }
 #
 #    ProgenitorWish: {
-#        DisplayName: The Progenitor's Wish
+#        DisplayName: Желание прародителя
 #        Tooltip:
 #            '''
 #            This shard is the culmination of billions of ferverent prayers
@@ -5511,7 +5460,7 @@
 #    }
 #
 #    SpatialMemoriam: {
-#        DisplayName: Spatial Memoriam
+#        DisplayName: Пространственное воспоминание
 #        Tooltip:
 #            '''
 #            Overwhelmingly luminous material glitters with potential
@@ -5555,7 +5504,7 @@
 #    }
 #
 #    Starlight: {
-#        DisplayName: Starlight
+#        DisplayName: Звёздный свет
 #        Tooltip:
 #            '''
 #            Some stray starlight
@@ -5564,10 +5513,10 @@
 #    }
 #
 #    StrayMana: {
-#        DisplayName: Stolen Lifeforce
+#        DisplayName: Украденная жизненная сила
 #        Tooltip:
 #            '''
-#            Boss item.
+#            Предмет босса
 #            [c/F1AF42:Это должно быть скрыто от глаз]
 #            '''
 #    }
@@ -5583,7 +5532,7 @@
 #    }
 #
 #    UnsulliedCanvas: {
-#        DisplayName: The Unsullied Canvas
+#        DisplayName: Незапятнанное полотно
 #        Tooltip:
 #            '''
 #            This canvas brims with possibility
@@ -5604,7 +5553,7 @@
 #    }
 #
 #    CosmicDestroyer: {
-#        DisplayName: Cosmic Destroyer
+#        DisplayName: Космический уничтожитель
 #        Tooltip:
 #            '''
 #            [c/F592BF:This weapon is unaffected by Aspected Damage Type penalty]
@@ -5619,7 +5568,7 @@
 #    }
 #
 #    CatalystMemory: {
-#        DisplayName: Catalyst's Memory
+#        DisplayName: Воспоминание катализатора
 #        Tooltip:
 #            '''
 #            [c/8AC1F1:This weapon has a unique damage type; inherits bonuses from all damage classes]
@@ -5640,7 +5589,7 @@
 #    }
 #
 #    BlackSilenceWeapon: {
-#        DisplayName: Gloves of the Black Silence
+#        DisplayName: Перчатки чёрной тишины
 #        Tooltip:
 #            '''
 #            [c/8AC1F1:This weapon has a unique damage type; inherits bonuses from all damage classes]
@@ -5664,7 +5613,7 @@
 #    }
 #
 #    CrimsonKey: {
-#        DisplayName: Key of the Sinner
+#        DisplayName: Ключ грешника
 #        Tooltip:
 #            '''
 #            Calls forth an instance of your rebellious heart
@@ -5678,7 +5627,7 @@
 #    }
 #
 #    CrimsonOutbreak: {
-#        DisplayName: Crimson Outbreak
+#        DisplayName: Багровая эпидемия
 #        Tooltip:
 #            '''
 #            Fires a highly accurate three round burst that inflicts [c/C70039:Nanite Plague]
@@ -5690,7 +5639,7 @@
 #    }
 #
 #    CrimsonSakuraAlpha: {
-#        DisplayName: Crimson Sakura Alpha
+#        DisplayName: Багровая сакура альфа
 #        Tooltip:
 #            '''
 #            Striking foes cause [c/B08FFC:Skill Orbs] to drop
@@ -5713,7 +5662,7 @@
 #    }
 #
 #    DeathInFourActs: {
-#        DisplayName: Death In Four Acts
+#        DisplayName: Смерть в четырёх актах
 #        Tooltip:
 #            '''
 #            Every fourth shot will always be a critical strike and grant Swiftness
@@ -5723,7 +5672,7 @@
 #    }
 #
 #    DerFreischutz: {
-#        DisplayName: Der Freischutz
+#        DisplayName: Дер Фрайшуц
 #        Tooltip:
 #            '''
 #            [c/8AC1F1:This weapon has a unique damage type; inherits bonuses from all damage classes at 70% efficiency, but inherits 150% from critical strike chance modifiers]
@@ -5736,7 +5685,7 @@
 #    }
 #
 #    Drachenlance: {
-#        DisplayName: Drachenlance
+#        DisplayName: Драхеланс
 #        Tooltip:
 #            '''
 #            Use right click to perform a Jump into the air (12 second cooldown) and become imbued with the [c/6090EC:Blood of the Dragon] for 5 seconds
@@ -5759,7 +5708,7 @@
 #    }
 #
 #    DreadnoughtChemtank: {
-#        DisplayName: Dreadnought Chemtank
+#        DisplayName: Химдоспех дредноута
 #        Tooltip:
 #            '''
 #            Attacks with this weapon quickly fire close-ranged shotgun blasts
@@ -5783,7 +5732,7 @@
 #    }
 #
 #    EssenceOfAlpha: {
-#        DisplayName: Essence of the Alpha
+#        DisplayName: Эссенция альфы
 #        Tooltip:
 #            '''
 #            Можно получить в качестве награды за победу над Герцогом Рыброном
@@ -5833,7 +5782,7 @@
 #    }
 #
 #    EssenceOfBlasting: {
-#        DisplayName: Essence of Blasting
+#        DisplayName: Эссенция взрыва
 #        Tooltip:
 #            '''
 #            Можно получить в качестве награды за победу над Стеной плоти
@@ -5858,7 +5807,7 @@
 #            '''
 #            Можно получить в качестве награды за победу над Арбитражом
 #            Выглядит как подарок вашей Астры
-#            Используется для создания 'The Only Thing I Know For Real' (Неземной)
+#            Используется для создания '{$Items.TheOnlyThingIKnowForReal.DisplayName}' (Неземной)
 #            '''
 #    }
 #
@@ -5883,37 +5832,37 @@
 #    }
 #
 #    EssenceOfDeathsApprentice: {
-#        DisplayName: Essence of Death's Apprentice
+#        DisplayName: Эссенция ученика Смерти
 #        Tooltip:
 #            '''
 #            Можно получить в качестве награды за победу над любым механическим боссом
 #            Подарок вашей Астры
-#            Используется для создания 'Memento Muse' (Ближний бой)
+#            Используется для создания '{$Items.MementoMuse.DisplayName}' (Ближний бой)
 #            '''
 #    }
 #
 #    EssenceOfDestiny: {
-#        DisplayName: Essence of Destiny
+#        DisplayName: Эссенция судьбы
 #        Tooltip:
 #            '''
 #            Можно получить в качестве награды за победу над Лунным лордом
 #            Подарок вашей Астры
-#            Используется для создания 'Virtue's Edge' (Неземной)
+#            Используется для создания '{$Items.VirtuesEdge.DisplayName}' (Неземной)
 #            '''
 #    }
 #
 #    EssenceOfDrivingThunder: {
-#        DisplayName: Essence of Driving Thunder
+#        DisplayName: Эссенция раската грома
 #        Tooltip:
 #            '''
-#            Obtained after defeating the Lunatic Cultist
+#            Можно получить в качестве награды за победу над Культистом-лунатиком
 #            Подарок вашей Астры
-#            Используется для создания 'Yunlai Stiletto' (Ближний бой)
+#            Используется для создания '{$Items.YunlaiStiletto.DisplayName}' (Ближний бой)
 #            '''
 #    }
 #
 #    EssenceOfDuality: {
-#        DisplayName: Essence of Duality
+#        DisplayName: Эссенция двойственности
 #        Tooltip:
 #            '''
 #            Можно получить в качестве награды за победу над ледяной королевой
@@ -5928,47 +5877,47 @@
 #            '''
 #            Можно получить в качестве награды за победу над Лунным лордом
 #            Подарок вашей Астры
-#            Используется для создания 'Eternal Star' (Магический)
+#            Используется для создания '{$Items.EternalStar.DisplayName}' (Магический)
 #            '''
 #    }
 #
 #    EssenceOfEuthymia: {
-#        DisplayName: Essence of Euthymia
+#        DisplayName: Эссенция эвтюмии
 #        Tooltip:
 #            '''
 #            Можно получить в качестве награды за победу над Пентесилеей, Ведьмой чернил
 #            Подарок вашей Астры
-#            Используется для создания 'Vision of Euthymia' (Магический)
+#            Используется для создания '{$Items.VisionOfEuthymia.DisplayName}' (Магический)
 #            '''
 #    }
 #
 #    EssenceOfExplosions: {
+#        DisplayName: Эссенция взрывов
 #        Tooltip:
 #            '''
 #            Можно получить в качестве награды за победу над Големом
 #            Подарок вашей Астры
-#            Используется для создания 'Genocide' (Стрелковый)
+#            Используется для создания '{$Items.Genocide.DisplayName}' (Стрелковый)
 #            '''
-#        DisplayName: Essence of Explosions
 #    }
 #
 #    EssenceOfFingers: {
-#        DisplayName: Essence of Fingers
+#        DisplayName: Эссенция пальцев
 #        Tooltip:
 #            '''
-#            Obtained after defeating Queen Bee
+#            Можно получить в качестве награды за победу над Королевой пчёл
 #            Подарок вашей Астры
-#            Используется для создания 'Inugami Ripsaw' (Ближний бой)
+#            Используется для создания '{$Items.InugamiRipsaw.DisplayName}' (Ближний бой)
 #            '''
 #    }
 #
 #    EssenceOfFoxfire: {
-#        DisplayName: Essence of Foxfire
+#        DisplayName: Эссенция лисьего огня
 #        Tooltip:
 #            '''
 #            Можно получить в качестве награды за победу над Плантерой
 #            Подарок вашей Астры
-#            Используется для создания 'Kifrosse' (Призывной)
+#            Используется для создания '{$Items.Kifrosse.DisplayName}' (Призывной)
 #            '''
 #    }
 #
@@ -5988,57 +5937,57 @@
 #            '''
 #            Можно получить в качестве награды за победу над ледяной королевой
 #            Подарок вашей Астры
-#            Используется для создания 'Cæsura of Despair' (Призывной)
+#            Используется для создания '{$Items.CaesuraOfDespair.DisplayName}' (Призывной)
 #            '''
 #    }
 #
 #    EssenceOfIzanagi: {
-#        DisplayName: Essence of Izanagi
+#        DisplayName: Эссенция Идзанаги
 #        Tooltip:
 #            '''
 #            Можно получить в качестве награды за победу над Королевой слизней
 #            Подарок вашей Астры
-#            Используется для создания 'Izanagi's Edge' (Стрелковый)
+#            Используется для создания '{$Items.IzanagiEdge.DisplayName}' (Стрелковый)
 #            '''
 #    }
 #
 #    EssenceOfLiberation: {
-#        DisplayName: Essence of Liberation
+#        DisplayName: Эссенция освобождения
 #        Tooltip:
 #            '''
 #            Можно получить в качестве награды за победу над Налханом, Воронёным королём
 #            Подарок вашей Астры
-#            Используется для создания 'Liberation Blazing' (Ближний бой)
+#            Используется для создания '{$Items.LiberationBlazing.DisplayName}' (Ближний бой)
 #            '''
 #    }
 #
 #    EssenceOfLifethirsting: {
-#        DisplayName: Essence of Lifethirsting
+#        DisplayName: Эссенция жажды жизни
 #        Tooltip:
 #            '''
-#            Obtained after defeating Pumpking
+#            Можно получить в качестве награды за победу над тыквенным королём
 #            Подарок вашей Астры
-#            Используется для создания 'The Blood Blade' (Ближний бой)
+#            Используется для создания '{$Items.BloodBlade.DisplayName}' (Ближний бой)
 #            '''
 #    }
 #
 #    EssenceOfLuminance: {
-#        DisplayName: Essence of Luminance
+#        DisplayName: Эссенция ясности
 #        Tooltip:
 #            '''
-#            Obtained after defeating Tsukiyomi, the First Starfarer
+#            Можно получить в качестве награды за победу над Цукиёми, Первой Астрой
 #            Подарок вашей Астры
-#            Используется для создания 'Architect's Luminance' (Melee/Magic/Summon/Ranged)
+#            Используется для создания '{$Items.ArchitectLuminance.DisplayName}' (Ближний бой/Магический/Призывной/Стрелковый)
 #            '''
 #    }
 #
 #    EssenceOfLunarDominion: {
-#        DisplayName: Essence of Lunar Dominion
+#        DisplayName: Эссенция лунного царства
 #        Tooltip:
 #            '''
 #            Можно получить в качестве награды за победу над Лунным лордом
 #            Подарок вашей Астры
-#            Используется для создания 'Naganadel' (Ближний бой)
+#            Используется для создания '{$Items.Naganadel.DisplayName}' (Ближний бой)
 #            '''
 #    }
 #
@@ -6046,9 +5995,9 @@
 #        DisplayName: Essence of Misery
 #        Tooltip:
 #            '''
-#            Obtained after defeating Skeletron
+#            Можно получить в качестве награды за победу над Скелетроном
 #            Подарок вашей Астры
-#            Используется для создания 'Misery's Company' (Ближний бой)
+#            Используется для создания '{$Items.MiserysCompany.DisplayName}' (Ближний бой)
 #            '''
 #    }
 #
@@ -6176,7 +6125,7 @@
 #        DisplayName: Эссенция небесного аса
 #        Tooltip:
 #            '''
-#            Obtained after defeating Skeletron Prime
+#            Можно получить в качестве награды за победу над Скелетроном Праймом
 #            Подарок вашей Астры
 #            Используется для создания '{$Items.SkyStrikerArms.DisplayName}' (Ближний бой/Магический/Призывной/Стрелковый)
 #            '''
@@ -6196,7 +6145,7 @@
 #        DisplayName: Essence of the Ascendant
 #        Tooltip:
 #            '''
-#            Obtained after defeating the Lunatic Cultist
+#            Можно получить в качестве награды за победу над Культистом-лунатиком
 #            Подарок вашей Астры
 #            Используется для создания 'Ozma Ascendant' (Магический)
 #            '''
@@ -6276,7 +6225,7 @@
 #        DisplayName: Essence Of The Dragon
 #        Tooltip:
 #            '''
-#            Можно получить в качестве награды за победу над Театралом, Претворяющим алхимию
+#            Можно получить в качестве награды за победу над Театралом, Созданным алхимией
 #            Подарок вашей Астры
 #            Используется для создания 'Dragalia Found' (Призывной)
 #            '''
@@ -6306,7 +6255,7 @@
 #        DisplayName: Essence of the Future
 #        Tooltip:
 #            '''
-#            Obtained after defeating Tsukiyomi, the First Starfarer
+#            Можно получить в качестве награды за победу над Цукиёми, Первой Астрой
 #            Подарок вашей Астры
 #            Используется для создания 'Cosmic Destroyer' (Стрелковый)
 #            '''
@@ -6348,17 +6297,17 @@
 #            '''
 #            Можно получить в качестве награды за победу над Королевой слизней
 #            Подарок вашей Астры
-#            Используется для создания 'Hawkmoon' (Magic/Ranged)
+#            Используется для создания 'Hawkmoon' (Магический/Стрелковый)
 #            '''
 #    }
 #
 #    EssenceOfTheHollowheart: {
-#        DisplayName: Essence of the Hollowheart
+#        DisplayName: Эссенция пустого сердца
 #        Tooltip:
 #            '''
-#            Obtained after defeating Dioskouroi, the Twin Forces
+#            Можно получить в качестве награды за победу над Диоскурами, Близнецами-воителями
 #            Подарок вашей Астры
-#            Используется для создания 'Hollowheart Albion' (Призывной)
+#            Используется для создания '{$Items.HollowheartAlbion.DisplayName}' (Призывной)
 #            '''
 #    }
 #
@@ -6396,7 +6345,7 @@
 #        DisplayName: Essence of the Ocean
 #        Tooltip:
 #            '''
-#            Obtained after defeating Skeletron, then visiting the Ocean
+#            Можно получить в качестве награды за победу над Скелетроном и посещения океана
 #            Подарок вашей Астры
 #            Используется для создания 'Apalistik' (Призывной)
 #            '''
@@ -6416,7 +6365,7 @@
 #        DisplayName: Essence of The Pegasus
 #        Tooltip:
 #            '''
-#            Obtained after defeating Skeletron, then visiting the Underworld
+#            Можно получить в качестве награды за победу над Скелетроном и посещения преисподней
 #            Подарок вашей Астры
 #            Используется для создания 'Kazimierz Seraphim' (Призывной)
 #            '''
@@ -6426,7 +6375,7 @@
 #        DisplayName: Essence of the Phantom
 #        Tooltip:
 #            '''
-#            Obtained after defeating Dioskouroi, the Twin Forces
+#            Можно получить в качестве награды за победу над Диоскурами, Близнецами-воителями
 #            Подарок вашей Астры
 #            Используется для создания 'Phantom in the Mirror' (Призывной)
 #            '''
@@ -6828,7 +6777,7 @@
 #    }
 #
 #    KroniicAccelerator: {
-#        DisplayName: Kroniic Principality
+#        DisplayName: Кронический ускоритель
 #        Tooltip:
 #            '''
 #            Use this weapon to throw a piercing projectile
@@ -7036,7 +6985,7 @@
 #    }
 #
 #    MementoMuse: {
-#        DisplayName: Memento Muse
+#        DisplayName: Мементо Мьюз
 #        Tooltip:
 #            '''
 #            Holding this weapon will cause the [c/D8305F:Rhythm Gauge] to appear
@@ -7394,12 +7343,12 @@
 #    }
 #
 #    ArbitrationBossRelicItem: {
-#        DisplayName: Arbitration Relic
+#        DisplayName: Реликвия Арбитража
 #        Tooltip: ""
 #    }
 #
 #    ArbitrationTrophyItem: {
-#        DisplayName: Arbitration Trophy
+#        DisplayName: Трофей Арбитража
 #        Tooltip: ""
 #    }
 #
@@ -7594,7 +7543,7 @@
 #        Tooltip:
 #            '''
 #            [c/C2BDFF:Звёздная призма - Ранг 1]
-#            Установите на Сверхновую, чтобы получить следующие характеристики:
+#            Установите на Астронову, чтобы получить следующие характеристики:
 #            [c/FF4D4D:-10% урон]
 #            [c/83FF4D:+14% шанс критического удара]
 #            [c/83FF4D:+10% критический урон]
@@ -7607,7 +7556,7 @@
 #        Tooltip:
 #            '''
 #            [c/C2BDFF:Звёздная призма - Ранг 1]
-#            Установите на Сверхновую, чтобы получить следующие характеристики:
+#            Установите на Астронову, чтобы получить следующие характеристики:
 #            [c/83FF4D:+20% урон]
 #            [c/FF4D4D:-14% шанс критического удара]
 #            [c/83FF4D:+10% критический урон]
@@ -7621,8 +7570,8 @@
 #            '''
 #            [c/FF5934:Звёздная призма - Ранг 2]
 #            Установите на Астронову, чтобы получить следующую способность:
-#            [c/9C3B3B:Might of the King]
-#            The Stellar Nova deals 40% increased damage to non-boss enemies, but can no longer deal critical strikes to bosses
+#            [c/9C3B3B:Сила короля]
+#            Астронова наносит на 40% больше урона обычным врагам, но больше не может нанести критические удары боссам
 #            '''
 #    }
 #
@@ -7636,15 +7585,15 @@
 #    }
 #
 #    CastellicPrism: {
-#        DisplayName: Castellic Prism
+#        DisplayName: Кастеллическая призма
 #        Tooltip:
 #            '''
 #            [c/C2BDFF:Звёздная призма - Ранг 1]
-#            Установите на Сверхновую, чтобы получить следующие характеристики:
-#            [c/83FF4D:+30% Damage]
-#            [c/FF4D4D:-7% Crit Chance]
-#            [c/FF4D4D:-20% Crit Damage]
-#            [c/B6B6B6:0 Energy Cost]
+#            Установите на Астронову, чтобы получить следующие характеристики:
+#            [c/83FF4D:+30% урон]
+#            [c/FF4D4D:-7% шанс критического удара]
+#            [c/FF4D4D:-20% критический урон]
+#            [c/B6B6B6:0 стоимость энергии]
 #            '''
 #    }
 #
@@ -7653,7 +7602,7 @@
 #        Tooltip:
 #            '''
 #            [c/C2BDFF:Звёздная призма - Ранг 1]
-#            Установите на Сверхновую, чтобы получить следующие характеристики:
+#            Установите на Астронову, чтобы получить следующие характеристики:
 #            [c/FF4D4D:-20% урон]
 #            [c/FF4D4D:-7% шанс критического удара]
 #            [c/83FF4D:+30% критический урон]
@@ -7662,111 +7611,111 @@
 #    }
 #
 #    EmpressPrism: {
-#        DisplayName: Empress Prism
+#        DisplayName: Призма императрицы
 #        Tooltip:
 #            '''
 #            [c/FF5934:Звёздная призма - Ранг 2]
 #            Установите на Астронову, чтобы получить следующую способность:
-#            [c/E516A0:Envoy of the Hallowed]
-#            After damage calculation, all Stellar Nova hits become critical, but damage is reduced by 70% (Can not trigger innate Nova crit bonuses)
+#            [c/E516A0:Посланник божественного]
+#            После расчёта урона все удары Астроновы становятся критическими, но урон снижается на 70% (не активирует врождённые бонусы критического удара Астроновы)
 #            '''
 #    }
 #
 #    EverflamePrism: {
-#        DisplayName: Everflame Prism
+#        DisplayName: Вечногорящая призма
 #        Tooltip:
 #            '''
 #            [c/C2BDFF:Звёздная призма - Ранг 1]
-#            Установите на Сверхновую, чтобы получить следующие характеристики:
-#            [c/83FF4D:+10% Damage]
-#            [c/83FF4D:+7% Crit Chance]
-#            [c/83FF4D:+10% Crit Damage]
-#            [c/FF4D4D:+15 Energy Cost]
+#            Установите на Астронову, чтобы получить следующие характеристики:
+#            [c/83FF4D:+10% урон]
+#            [c/83FF4D:+7% шанс критического удара]
+#            [c/83FF4D:+10% критический урон]
+#            [c/FF4D4D:+15 стоимость энергии]
 #            '''
 #    }
 #
 #    LightswornPrism: {
-#        DisplayName: Lightsworn Prism
+#        DisplayName: Светоносная призма
 #        Tooltip:
 #            '''
 #            [c/FF5934:Звёздная призма - Ранг 2]
 #            Установите на Астронову, чтобы получить следующую способность:
-#            [c/FFCF4F:The Flood of Light]
-#            Upon cast of the Stellar Nova, gain 'Lightblessed', increasing defenses by 30
-#            Lightblessed lasts for 8 seconds
+#            [c/FFCF4F:Поток света]
+#            При использовании Астроновы даёт бафф «{$Buffs.Lightblessed.DisplayName}», увеличивая защиту на 30
+#            «{$Buffs.Lightblessed.DisplayName}» длится 8 секунд
 #            '''
 #    }
 #
 #    LihzahrdPrism: {
-#        DisplayName: Lihzahrd Prism
+#        DisplayName: Призма яхщеров
 #        Tooltip:
 #            '''
 #            [c/FF5934:Звёздная призма - Ранг 2]
 #            Установите на Астронову, чтобы получить следующую способность:
-#            [c/EE8D31:Monument of the Past]
-#            Upon cast of the Stellar Nova, gain 'Ancient Bulwark' for 8 seconds
-#            During this time, gain 80 Defense, but outgoing damage is reduced by 40%
+#            [c/EE8D31:Мемориал минувшего]
+#            При использовании Астроновы даёт бафф «{$Buffs.AncientBulwark.DisplayName}» на 8 секунд
+#            В течение этого времени увеличивает защиту на 80, но снижает наносимый урон на 40%
 #            '''
 #    }
 #
 #    LucentPrism: {
-#        DisplayName: Lucent Prism
+#        DisplayName: Прозрачная призма
 #        Tooltip:
 #            '''
 #            [c/C2BDFF:Звёздная призма - Ранг 1]
-#            Установите на Сверхновую, чтобы получить следующие характеристики:
-#            [c/FF4D4D:-30% Damage]
-#            [c/B6B6B6:0% Crit Chance]
-#            [c/83FF4D:+10% Crit Damage]
-#            [c/83FF4D:-10 Energy Cost]
+#            Установите на Астронову, чтобы получить следующие характеристики:
+#            [c/FF4D4D:-30% урон]
+#            [c/B6B6B6:0% шанс критического удара]
+#            [c/83FF4D:+10% критический урон]
+#            [c/83FF4D:-10 стоимость энергии]
 #            '''
 #    }
 #
 #    LuminitePrism: {
-#        DisplayName: Luminite Prism
+#        DisplayName: Люминитовая призма
 #        Tooltip:
 #            '''
 #            [c/FF5934:Звёздная призма - Ранг 2]
 #            Установите на Астронову, чтобы получить следующую способность:
-#            [c/6DE169:Wrath of the Moon Lord]
-#            If the Stellar Nova costs over 200 Stellar Nova Energy, damage is increased by 50%
-#            This damage increase is added after normal damage calculation
+#            [c/6DE169:Гнев Лунного лорда]
+#            Если затраты Астроновы превышают 200 энергии, увеличивает урон на 50%
+#            Увеличение урона добавляется после подсчёта обычного урона
 #            '''
 #    }
 #
 #    MechanicalPrism: {
-#        DisplayName: Mechanical Prism
+#        DisplayName: Механическая призма
 #        Tooltip:
 #            '''
 #            [c/FF5934:Звёздная призма - Ранг 2]
 #            Установите на Астронову, чтобы получить следующую способность:
-#            [c/DAB6B6:High-Frequency Impact]
-#            The first enemy struck with the Stellar Nova is stunned for 2 seconds
-#            Additionally, 10% of damage is dealt again in a region around the target
+#            [c/DAB6B6:Сверхзвуковой импульс]
+#            Первый враг, попавший под удар Астроновы, оглушается на 2 секунды
+#            Кроме того, 10% урона повторно наносится в области вокруг цели
 #            '''
 #    }
 #
 #    OvergrownPrism: {
-#        DisplayName: Overgrown Prism
+#        DisplayName: Заросшая призма
 #        Tooltip:
 #            '''
 #            [c/FF5934:Звёздная призма - Ранг 2]
 #            Установите на Астронову, чтобы получить следующую способность:
-#            [c/48BD2E:Uncontrollable Overgrowth]
-#            Upon cast of the Stellar Nova, gain 100 HP and Wrath for 20 seconds
+#            [c/48BD2E:Неконтролируемый рост]
+#            При использовании Астроновы, даёт 100 здоровья и бафф «{$BuffName.Wrath}» на 20 секунд
 #            However, inflict yourself with Vulnerable for the same duration, halving defense
 #            '''
 #    }
 #
 #    PaintedPrism: {
-#        DisplayName: Painted Prism
+#        DisplayName: Раскрашенная призма
 #        Tooltip:
 #            '''
 #            [c/FF5934:Звёздная призма - Ранг 2]
 #            Установите на Астронову, чтобы получить следующую способность:
-#            [c/71F647:All The World a Canvas]
-#            Inflict most negative debuffs to foes struck with the Stellar Nova
-#            Debuffs lasts for 12 seconds
+#            [c/71F647:Весь мир лишь холст]
+#            Накладывает на врагов множество дебаффов, попавших под удар Астроновы
+#            Дебаффы длятся 12 секунд
 #            '''
 #    }
 #
@@ -7775,7 +7724,7 @@
 #        Tooltip:
 #            '''
 #            [c/C2BDFF:Звёздная призма - Ранг 1]
-#            Установите на Сверхновую, чтобы получить следующие характеристики:
+#            Установите на Астронову, чтобы получить следующие характеристики:
 #            [c/FF4D4D:-10% урон]
 #            [c/83FF4D:+21% шанс критического удара]
 #            [c/B6B6B6:0% критический урон]
@@ -7838,7 +7787,7 @@
 #        Tooltip:
 #            '''
 #            [c/C2BDFF:Звёздная призма - Ранг 1]
-#            Установите на Сверхновую, чтобы получить следующие характеристики:
+#            Установите на Астронову, чтобы получить следующие характеристики:
 #            [c/FF4D4D:-10% урон]
 #            [c/FF4D4D:-7% шанс критического удара]
 #            [c/FF4D4D:-10% критический урон]
@@ -7851,7 +7800,7 @@
 #        Tooltip:
 #            '''
 #            [c/C2BDFF:Звёздная призма - Ранг 1]
-#            Установите на Сверхновую, чтобы получить следующие характеристики:
+#            Установите на Астронову, чтобы получить следующие характеристики:
 #            [c/83FF4D:+20% Damage]
 #            [c/FF4D4D:-14% Crit Chance]
 #            [c/FF4D4D:-10% Crit Damage]
@@ -7900,7 +7849,7 @@
 #        Tooltip:
 #            '''
 #            [c/C2BDFF:Звёздная призма - Ранг 1]
-#            Установите на Сверхновую, чтобы получить следующие характеристики:
+#            Установите на Астронову, чтобы получить следующие характеристики:
 #            [c/B6B6B6:0% урон]
 #            [c/83FF4D:+21% шанс критического удара]
 #            [c/B6B6B6:0% критический урон]
@@ -8198,7 +8147,7 @@
 #    }
 #
 #    Umbral: {
-#        DisplayName: Umbral Item
+#        DisplayName: Теневой предмет
 #        Tooltip:
 #            '''
 #            Читерский предмет отладки
@@ -8341,7 +8290,7 @@
 #        DisplayName: Аномальный байт
 #        Tooltip:
 #            '''
-#            [c/2DD2FE:Stargazer Relic]
+#            [c/2DD2FE:Реликвия звездочёта]
 #            Critical strikes are disabled
 #            When damage is dealt, either deal 40% more damage (40% chance), 40% less damage (30% chance), 100% more damage (20% chance), or 1 damage (10% chance)
 #            Positive results will additionally become critical strikes
@@ -8354,7 +8303,7 @@
 #        DisplayName: Брошь Кассиопеи
 #        Tooltip:
 #            '''
-#            [c/2DD2FE:Stargazer Relic]
+#            [c/2DD2FE:Реликвия звездочёта]
 #            No effect..?
 #            [c/ADEEFF:Only one Stargazer Relic can be equipped at a time]
 #            'The Empire's Queen sleeps, waiting to live forever'
@@ -9404,7 +9353,7 @@
 #    }
 #
 #    ReprintedBlueprint: {
-#        DisplayName: Перепечатанный чертёж
+#        DisplayName: Ксерокопия чертежа
 #        Tooltip:
 #            '''
 #            [c/D294FF:Воспоминание оружия]
@@ -9499,7 +9448,7 @@
 #        DisplayName: Essence Of The Hallownest
 #        Tooltip:
 #            '''
-#            Obtained after defeating Skeletron, and then visiting the Underworld
+#            Можно получить в качестве награды за победу над Скелетроном и посещения преисподней
 #            Подарок вашей Астры
 #            Используется для создания 'Gossamer Needle' (Melee/Magic)
 #            '''
@@ -10010,7 +9959,7 @@
 #        Tooltip:
 #            '''
 #            This concoction reeks with chaos
-#            [c/F1AF42:Призывает Театрала, Претворяющего алхимию] (только ночью)
+#            [c/F1AF42:Призывает Театрала, Созданного алхимией] (только ночью)
 #            This boss is available early, but you may find it much too difficult
 #            Prepare accordingly, and consider postponing this fight until you are stronger
 #            Не расходуется
@@ -10097,7 +10046,7 @@
 #    }
 #
 #    ThespianBossBag: {
-#        DisplayName: Мешок с сокровищами (Театрал, Претворяющий алхимию)
+#        DisplayName: Мешок с сокровищами (Театрал, Созданный алхимией)
 #        Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 #    }
 #
@@ -10110,17 +10059,17 @@
 #        DisplayName: Essence Of Dancing Seas
 #        Tooltip:
 #            '''
-#            Можно получить в качестве награды за победу над Театралом, Претворяющим алхимию
+#            Можно получить в качестве награды за победу над Театралом, Созданным алхимией
 #            Подарок вашей Астры
 #            Используется для создания 'Wavedancer' (Призывной)
 #            '''
 #    }
 #
 #    EssenceOfEnergy: {
-#        DisplayName: Essence Of Energy
+#        DisplayName: Эссенция энергии
 #        Tooltip:
 #            '''
-#            Можно получить в качестве награды за победу над Театралом, Претворяющим алхимию
+#            Можно получить в качестве награды за победу над Театралом, Созданным алхимией
 #            Подарок вашей Астры
 #            Используется для создания 'Devoted Havoc' (Стрелковый)
 #            '''
@@ -10140,7 +10089,7 @@
 #        DisplayName: Essence Of Hydro
 #        Tooltip:
 #            '''
-#            Можно получить в качестве награды за победу над Театралом, Претворяющим алхимию
+#            Можно получить в качестве награды за победу над Театралом, Созданным алхимией
 #            Подарок вашей Астры
 #            Используется для создания 'Soliloquy of Sovereign Seas' (Магический/Призывной)
 #            '''
@@ -10246,7 +10195,7 @@
 #    }
 #
 #    RuinedCrown: {
-#        DisplayName: Ruined Crown
+#        DisplayName: Корона свергнутого
 #        Tooltip:
 #            '''
 #            [c/D294FF:Воспоминание оружия]
@@ -10288,7 +10237,7 @@
 #    }
 #
 #    TsukiyomiBossRelicItem: {
-#        DisplayName: Tsukiyomi Boss Relic Item
+#        DisplayName: Реликвия Цукиёми
 #        Tooltip: ""
 #    }
 #
@@ -13521,8 +13470,8 @@
 #    }
 #
 #    Bladeforged: {
-#        DisplayName: Bladeforged
-#        Description: Projected reality is granting increased damage, knockback, critical strike chance, and armor penetration
+#        DisplayName: Закалён клинком
+#        Description: Проецируемая реальность увеличивает урон, отбрасывание, шанс критического удара и пробивание брони
 #    }
 #
 #    UBWFollowUpCooldown: {
@@ -13931,7 +13880,7 @@
 #    AmethystHeadpiercer: Foot soldier of a wide-reaching paramilitary organization, referred to as the Amethyst. Equipped with a Vortexian powersuit fitted with a jetpack for ease of travel, even in the vacuum of space.
 #    AmethystSwordsinner: Foot soldier of a wide-reaching paramilitary organization, referred to as the Amethyst. Utilizes a hardlight blade with ferocious efficiency, specifically for countering ranged offense.
 #    Tsukiyomi2: ???
-#    ThespianBoss: A legendary alchemist long dead reanimated by a terrifying agent of chaos. For one as far gone as he, you must act as he demands, lest you meet your untimely end...
+#    ThespianBoss: Легендарный алхимик, давно умерший, вновь воскрешён ужасающим агентом хаоса. Для такого, как он, вы должны действовать так, как он требует, иначе вы встретите свою преждевременную смерть...
 #    StarfarerBoss: Yep, it's us.
 #}
 #
@@ -13976,13 +13925,13 @@
 #    CityBiome.DisplayName: City
 #
 #    MoonBiome: {
-#        DisplayName: The Moon
-#        TownNPCDialogueName: the Moon Biome
+#        DisplayName: Луна
+#        TownNPCDialogueName: Луна
 #    }
 #
 #    ObservatoryBiome: {
-#        DisplayName: The Observatory
-#        TownNPCDialogueName: the Observatory Biome
+#        DisplayName: Обсерватория
+#        TownNPCDialogueName: Обсерватория
 #    }
 #
 #    SeaOfStarsBiome: {
@@ -14059,61 +14008,61 @@
 #
 #Configs: {
 #    StarsAboveConfigClient: {
-#        DisplayName: Stars Above Config Client
+#        DisplayName: Клиентская конфигурация Stars Above
 #
 #        DisableStellarNovaCutIns: {
-#            Label: "{$Mods.StarsAbove.Config.DisableStellarNovaCutIns.Label}"
-#            Tooltip: "{$Mods.StarsAbove.Config.DisableStellarNovaCutIns.Tooltip}"
+#            Label: Disable Stellar Nova cut-ins
+#            Tooltip: Disables the portrait of your Starfarer when activating your Stellar Nova.
 #        }
 #
 #        EnableStarfarerVoices: {
-#            Label: "{$Mods.StarsAbove.Config.EnableStarfarerVoices.Label}"
-#            Tooltip: "{$Mods.StarsAbove.Config.EnableStarfarerVoices.Tooltip}"
+#            Label: Disable Stellar Nova voice lines
+#            Tooltip: Disables the AI voice lines for Asphodene and Eridani during Stellar Novas.
 #        }
 #
 #        DisableStellarNovaDialogue: {
-#            Label: "{$Mods.StarsAbove.Config.DisableStellarNovaDialogue.Label}"
-#            Tooltip: "{$Mods.StarsAbove.Config.DisableStellarNovaDialogue.Tooltip}"
+#            Label: Disable Stellar Nova dialogue box
+#            Tooltip: Disables the dialogue box during the Stellar Nova cut-in.
 #        }
 #
 #        DisableStarfarerCommentary: {
-#            Label: "{$Mods.StarsAbove.Config.DisableStarfarerCommentary.Label}"
-#            Tooltip: "{$Mods.StarsAbove.Config.DisableStarfarerCommentary.Tooltip}"
+#            Label: Disable Starfarer commentary
+#            Tooltip: Disable Starfarer Prompts entirely.
 #        }
 #
 #        DisableStarfarerCommentaryBuffs: {
-#            Label: "{$Mods.StarsAbove.Config.DisableStarfarerCommentaryBuffs.Label}"
-#            Tooltip: "{$Mods.StarsAbove.Config.DisableStarfarerCommentaryBuffs.Tooltip}"
+#            Label: Disable Starfarer commentary on buffs/debuffs
+#            Tooltip: You will no longer recieve Starfarer Prompts for getting buffed/debuffed.
 #        }
 #
 #        DisableStarfarerCommentaryCombat: {
-#            Label: "{$Mods.StarsAbove.Config.DisableStarfarerCommentaryCombat.Label}"
-#            Tooltip: "{$Mods.StarsAbove.Config.DisableStarfarerCommentaryCombat.Tooltip}"
+#            Label: Disable Starfarer commentary for combat events
+#            Tooltip: You will no longer recieve Starfarer Prompts for killing foes, etc.
 #        }
 #
 #        StarfarerPromptCooldown: {
-#            Label: "{$Mods.StarsAbove.Config.StarfarerPromptCooldown.Label}"
-#            Tooltip: "{$Mods.StarsAbove.Config.StarfarerPromptCooldown.Tooltip}"
+#            Label: Starfarer Prompt Cooldown
+#            Tooltip: The time between Starfarer Prompts in minutes. If a trigger for a prompt occurs during this time, it is ignored. Does not apply to unique prompts (Bosses, etc.)
 #        }
 #
 #        CommentaryTimer: {
-#            Label: "{$Mods.StarsAbove.Config.CommentaryTimer.Label}"
-#            Tooltip: "{$Mods.StarsAbove.Config.CommentaryTimer.Tooltip}"
+#            Label: Starfarer Prompt Timer
+#            Tooltip: Changes the length that Starfarer Prompts stay on screen.
 #        }
 #
 #        DialogueScrollValue: {
-#            Label: "{$Mods.StarsAbove.Config.DialogueScrollValue.Label}"
-#            Tooltip: "{$Mods.StarsAbove.Config.DialogueScrollValue.Tooltip}"
+#            Label: Starfarer Text Speed
+#            Tooltip: The time for dialogue text to increment in frames. Below 2, it is recommended to disable dialogue sound effects.
 #        }
 #
 #        DialogueAudio: {
-#            Label: "{$Mods.StarsAbove.Config.DialogueAudio.Label}"
-#            Tooltip: "{$Mods.StarsAbove.Config.DialogueAudio.Tooltip}"
+#            Label: Starfarer Text Sound Effect
+#            Tooltip: The sound effect that plays when letters appear during Starfarer Dialogue. 5 is silence.
 #        }
 #
 #        InstantText: {
-#            Label: "{$Mods.StarsAbove.Config.InstantText.Label}"
-#            Tooltip: "{$Mods.StarsAbove.Config.InstantText.Tooltip}"
+#            Label: Instant Text
+#            Tooltip: Ignores the Starfarer Text Speed option; all text will appear instantly.
 #        }
 #
 #        DisableDraggingDialogue: {
@@ -14122,33 +14071,33 @@
 #        }
 #
 #        EnableMusicOverride: {
-#            Label: "{$Mods.StarsAbove.Config.EnableMusicOverride.Label}"
-#            Tooltip: "{$Mods.StarsAbove.Config.EnableMusicOverride.Tooltip}"
+#            Label: Weapon music overrides all other music
+#            Tooltip: When enabled, weapons that change the game's music will have priority over nearly everything else.
 #        }
 #
 #        EnablePlayerWorldLock: {
-#            Label: "{$Mods.StarsAbove.Config.EnablePlayerWorldLock.Label}"
-#            Tooltip: "{$Mods.StarsAbove.Config.EnablePlayerWorldLock.Tooltip}"
+#            Label: Enable Player Progress World Lock
+#            Tooltip: Enables character progression being tied to the first world they joined.
 #        }
 #
 #        EnableAprilFools: {
-#            Label: "{$Mods.StarsAbove.Config.EnableAprilFools.Label}"
-#            Tooltip: "{$Mods.StarsAbove.Config.EnableAprilFools.Tooltip}"
+#            Label: Enable April Fools mode
+#            Tooltip: Adds radical sunglasses to Asphodene and Eridani in the Starfarer menu and during Stellar Novas.
 #        }
 #
 #        DisableWeaponCutIns: {
-#            Label: "{$Mods.StarsAbove.Config.DisableWeaponCutIn.Label}"
-#            Tooltip: "{$Mods.StarsAbove.Config.DisableWeaponCutIn.Tooltip}"
+#            Label: Disable Weapon Cut-In Effect
+#            Tooltip: Disable screen-wide animations that play when using certain weapons.
 #        }
 #
 #        PromptLoc: {
-#            Label: "{$Mods.StarsAbove.Config.PromptLoc.Label}"
-#            Tooltip: "{$Mods.StarsAbove.Config.PromptLoc.Tooltip}"
+#            Label: Starfarer Prompt positiion
+#            Tooltip: Position is measured from the bottom right of the screen!
 #        }
 #
 #        MovingDialogueAmount: {
 #            Label: Moving Dialogue Amount
-#            Tooltip: ""
+#            Tooltip: Adjust how much the Starfarer menus move while you're moving.
 #        }
 #
 #        DisableBlur: {
@@ -14158,51 +14107,51 @@
 #    }
 #
 #    StarsAboveServersideConfig: {
-#        DisplayName: Stars Above Serverside Config
+#        DisplayName: Серверная конфигурация Stars Above
 #
 #        DisableTypePenalty: {
-#            Label: "{$Mods.StarsAbove.Config.DisableTypePenalty.Label}"
-#            Tooltip: "{$Mods.StarsAbove.Config.DisableTypePenalty.Tooltip}"
+#            Label: Отключить штраф урона при изменении аспектного урона
+#            Tooltip: При включении этой настройки убирается штраф урона в размере 10% за изменение аспектного урона.
 #        }
 #
 #        DisableBossAggro: {
-#            Label: "{$Mods.StarsAbove.Config.DisableBossAggro.Label}"
-#            Tooltip: "{$Mods.StarsAbove.Config.DisableBossAggro.Tooltip}"
+#            Label: Disable Boss Aggro Marker
+#            Tooltip: Disables the marker that appears over a player's head when a boss targets them.
 #        }
 #
 #        DisableCalamityWeaponBuffs: {
-#            Label: "{$Mods.StarsAbove.Config.DisableCalamityWeaponBuffs.Label}"
-#            Tooltip: "{$Mods.StarsAbove.Config.DisableCalamityWeaponBuffs.Tooltip}"
+#            Label: Disable global damage modifiers for mod compatibility
+#            Tooltip: Disables the 30% increase to Aspected Weapon damage when the Calamity Mod is enabled.
 #        }
 #
 #        DisableWeaponRestrictions: {
-#            Label: "{$Mods.StarsAbove.Config.DisableWeaponRestrictions.Label}"
-#            Tooltip: "{$Mods.StarsAbove.Config.DisableWeaponRestrictions.Tooltip}"
+#            Label: Disable Aspected Weapon restrictions
+#            Tooltip: Disables the restriction for Astral and Umbral weapons being wielded by other players.
 #        }
 #
 #        DisableBossEnemySpawnMod: {
-#            Label: "{$Mods.StarsAbove.Config.DisableBossEnemySpawnMod.Label}"
-#            Tooltip: "{$Mods.StarsAbove.Config.DisableBossEnemySpawnMod.Tooltip}"
+#            Label: Отключить появление врагов во время сражения с боссом
+#            Tooltip: Отключает бафф, который предотвращает появление врагов во время сражения с боссом.
 #        }
 #
 #        DisableManaSicknessChange: {
-#            Label: "{$Mods.StarsAbove.Config.DisableManaSicknessChange.Label}"
-#            Tooltip: "{$Mods.StarsAbove.Config.DisableManaSicknessChange.Tooltip}"
+#            Label: Отключить изменение дебаффа {$BuffName.ManaSickness}
+#            Tooltip: Отключает изменение дебаффа {$BuffName.ManaSickness}, которое снижает урон всех типов урона, а не только магического.
 #        }
 #
 #        ColorblindBoss: {
-#            Label: "{$Mods.StarsAbove.Config.ColorblindBoss.Label}"
-#            Tooltip: "{$Mods.StarsAbove.Config.ColorblindBoss.Tooltip}"
+#            Label: Режим для дальтоников в битве с Пентесилеей
+#            Tooltip: Заменяет некоторые механики, связанные с цветами в бою с Пентесилеей.
 #        }
 #
 #        DisableCompatibilityMode: {
-#            Label: "{$Mods.StarsAbove.Config.SubworldCompatibility.Label}"
-#            Tooltip: "{$Mods.StarsAbove.Config.SubworldCompatibility.Tooltip}"
+#            Label: Disable Multiplayer Compatibility-Fix for Cosmic Voyages
+#            Tooltip: Allows for users in Multiplayer to undertake Cosmic Voyages- toggle this off to drop items from Subworlds instead of travelling there.
 #        }
 #
 #        CombatTimer: {
-#            Label: "{$Mods.StarsAbove.Config.CombatTimer.Label}"
-#            Tooltip: "{$Mods.StarsAbove.Config.CombatTimer.Tooltip}"
+#            Label: Таймер боя
+#            Tooltip: Когда вы атакуете врага или вас атакуют, этот таймер отображает, сколько секунд вы находитесь 'в бою'.
 #        }
 #    }
 #}

@@ -4,17 +4,17 @@
 // using CalamityRuTranslate.Core.MonoMod;
 // using MonoMod.Cil;
 //
-// namespace CalamityRuTranslate.Mods.TheStarsAbove.MonoMod;
+// namespace CalamityRuTranslate.Mods.StarsAbove.MonoMod;
 //
 // public class StellarNovaUIPatch : ILPatcher
 // {
-//     public override bool AutoLoad => ModsCall.StarsAbove != null && TranslationHelper.IsRussianLanguage;
+//     public override bool AutoLoad => ModInstances.StarsAbove != null && TranslationHelper.IsRussianLanguage;
 //
-//     public override MethodInfo ModifiedMethod => ModsCall.StarsAbove.Code.GetType("StarsAbove.UI.StellarNova.StellarNovaUI").GetCachedMethod("DrawSelf");
+//     public override MethodInfo ModifiedMethod => ModInstances.StarsAbove.Code.GetType("StarsAbove.UI.StellarNova.StellarNovaUI").GetCachedMethod("DrawSelf");
 //
 //     public override ILContext.Manipulator PatchMethod { get; } = il =>
 //     {
-//         TranslationHelper.ModifyIL(il, "StarsAbove/UI/StellarNova/prototokiaIcon", "CalamityRuTranslate/Assets/prototokiaIcon");
+//         TranslationHelper.ModifyIL(il, "StarsAbove/UI/StellarNova/prototokiaIcon", "CalamityRuTranslate/Assets/Sprites/StarsAbove/prototokiaIcon");
 //         TranslationHelper.ModifyIL(il, "StarsAbove/UI/StellarNova/laevateinnIcon", "CalamityRuTranslate/Assets/laevateinnIcon");
 //         TranslationHelper.ModifyIL(il, "StarsAbove/UI/StellarNova/KiwamiRyukenIcon", "CalamityRuTranslate/Assets/KiwamiRyukenIcon");
 //         TranslationHelper.ModifyIL(il, "StarsAbove/UI/StellarNova/gardenofavalonIcon", "CalamityRuTranslate/Assets/gardenofavalonIcon");

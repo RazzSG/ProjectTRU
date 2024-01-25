@@ -65,6 +65,7 @@
     Vortex: Отсутствует улучшение
     Wood: Увеличивает множитель заполнения записей в бестиарии и получение знамён до 5
     AshWood: Чаще выпускает огненные шары
+    NoUpgrade: Отсутствует улучшение
 }
 
 SetBonus: {
@@ -155,219 +156,59 @@ Bestiary: {
     MutantBoss: Хранитель вечности. Воплощение абсолютной мощи. Мастер всего, достигший мастерства в каждом аспекте боя. Возможно, он прибыл из мира за пределами этого межпространственного разлома...
 }
 
-BossChecklist: {
-    DeviBossDespawn: Девиантт устаёт от битвы...
-    DeviBossKilledAll: Девиантт удовлетворена этим проявлением любви.
-    AbomBossDespawn: Мерзостть не нашёл достойного оппонента...
-    AbomBossKilledAll: Мерзостть уничтожил всех.
-    MutantBossDespawn: Мутант вновь запечатывает свою силу...
-    MutantBossKilledAll: Мутант выпотрошил всех своими руками.
-    TimberChampionDespawn: Чемпион леса возвращается в свой беличий клан...
-    TerraChampionDespawn: Чемпион земли исчезает в пещерах...
-    EarthChampionDespawn: Чемпион планеты исчезает под магмой...
-    NatureChampionDespawn: Чемпион природы возвращается в свой сон...
-    LifeChampionDespawn: Чемпион жизни исчезает...
-    ShadowChampionDespawn: Чемпион тени исчезает...
-    SpiritChampionDespawn: Чемпион духа исчезает в пустыне...
-    WillChampionDespawn: Чемпион воли возвращается в глубины...
-    CosmosChampionDespawn: Эридан, Чемпион космоса возвращается к звёздам...
-    CosmosChampionKilledAll: Эридан, Чемпион космоса убивает каждого врага.
-    TrojanSquirrelDespawn: Троянская белка возвращается в свой беличий клан...
-    LifelightDespawn: Свет жизни исчезает...
-    CursedCoffinDespawn: Проклятый гроб возвращается к своему сну...
-    BanishedBaronDespawn: Изгнанный барон погружается глубже в океан...
-    DeviBossSpawnInfo: Призывается при использовании [i:FargowiltasSouls/DevisCurse].
-    AbomBossSpawnInfo: Призывается при использовании [i:FargowiltasSouls/AbomsCurse].
-    MutantBossSpawnInfo: Бросьте [i:FargowiltasSouls/AbominationnVoodooDoll] в лаву, пока Мерзостть жив в присутствии Мутанта.
-    TimberChampionSpawnInfo: Призывается при использовании [i:FargowiltasSouls/SigilOfChampions] на поверхности днём.
-    TerraChampionSpawnInfo: Призывается при использовании [i:FargowiltasSouls/SigilOfChampions] под землёй.
-    EarthChampionSpawnInfo: Призывается при использовании [i:FargowiltasSouls/SigilOfChampions] в преисподней.
-    NatureChampionSpawnInfo: Призывается при использовании [i:FargowiltasSouls/SigilOfChampions] в подземных снегах.
-    LifeChampionSpawnInfo: Призывается при использовании [i:FargowiltasSouls/SigilOfChampions] в освящении днём.
-    ShadowChampionSpawnInfo: Призывается при использовании [i:FargowiltasSouls/SigilOfChampions] в искажении или багрянце ночью.
-    SpiritChampionSpawnInfo: Призывается при использовании [i:FargowiltasSouls/SigilOfChampions] в подземной пустыне.
-    WillChampionSpawnInfo: Призывается при использовании [i:FargowiltasSouls/SigilOfChampions] в океане.
-    CosmosChampionSpawnInfo: Призывается при использовании [i:FargowiltasSouls/SigilOfChampions] в космосе.
-    TrojanSquirrelSpawnInfo: Призывается при использовании [i:FargowiltasSouls/SquirrelCoatOfArms].
-    LifelightSpawnInfo: Призывается при использовании [i:FargowiltasSouls/FragilePixieLamp] в освящении днём.
-    BanishedBaronSpawnInfo: Призывается при использовании [i:FargowiltasSouls/MechLure] под водой в океане.
-}
-
 Message: {
-    HasAwoken: пробуждается!
-    SquirrelCoatofArms: "{$Mods.FargowiltasSouls.NPCs.TrojanSquirrel.DisplayName} {$Mods.FargowiltasSouls.Message.HasAwoken}"
-    DevisCurse: "{$Mods.FargowiltasSouls.NPCs.DeviBoss.DisplayName} {$Mods.FargowiltasSouls.Message.HasAwoken}"
-    AbomsCurse: "{$Mods.FargowiltasSouls.NPCs.AbomBoss.DisplayName} {$Mods.FargowiltasSouls.Message.HasAwoken}"
-    MutantsCurse: "{$Mods.FargowiltasSouls.NPCs.MutantBoss.DisplayName} {$Mods.FargowiltasSouls.Message.HasAwoken}"
-    AbominationnVoodooDoll: Мутант в ярости от гибели своего брата!
-    AbominationnVoodooDollFail: Кукла телепортируется обратно в ваши руки. Возможно, её не следовало бы использовать под землёй...
-
-    SigilOfChampions: {
-        Timber: Вы окружены шелестом деревьев...
-        Terra: Вокруг вас дрожат камни...
-        Spirit: Сильный дух будоражит...
-        Life: Волна тепла пронизывает вас...
-        Shadow: Ночная тьма кажется глубже...
-        Nature: Дует зелёный ветер...
-        Will: Металлические скрипы доносятся из глубин...
-        Earth: Ядро планеты урчит...
-        Cosmos: Звёзды выстраиваются в ряд...
-        Nothing: Никто не откликается на зов...
-    }
-
-    MutantsFuryOn: Мутант разозлился!
-    MutantsFuryOff: Мутант успокоился.
-    PiranhaPlantVoodooDollOn: Страдания продолжаются...
-    PiranhaPlantVoodooDollOff: Страдания утихают...
-    MasochistSpawnDevi: Девиантт пробуждается!
-    MasochistWrongDifficulty: Мир должен быть сложности эксперта или выше!
     MasochistModeUnlocked: "{$Mods.FargowiltasSouls.Items.Masochist.DisplayName} наполнен новой силой!.."
-    MasochistPreTooltip: Активирует режим Мазохиста, если используется в режиме мастера
-    ForgottenGift: "В настоящее время режим Мазохиста: "
 
     WorldUpdatingSystem: {
-        EternityOn: Режим Вечности активирован!
-        EternityOff: Режим Вечности деактивирован.
-        EternityWrongDifficulty: Сложность слишком низкая, режим Вечности деактивирован...
-        MasochistOn: Объединение режима Мастера и Вечности: режим Мазохиста Активирован!
-        MasochistOnZenith: Объединение режима Мастера и генерации мира Zenith: режим Мазохиста Активирован!
-        MasochistOff: Режим Мазохиста деактивирован.
+        EternityOn: Режим Вечность активирован!
+        EternityOff: Режим Вечность деактивирован.
+        EternityWrongDifficulty: Сложность слишком низкая, режим Вечность деактивирован...
+        MasochistOn: Объединение режима Мастер и Вечность: режим Мазохист активирован!
+        MasochistOnZenith: Объединение режима Мастер и генерации мира Zenith: режим Мазохист активирован!
+        MasochistOff: Режим Мазохист деактивирован.
         BloodMoonCancel: Кровавая луна передумала и ушла...
     }
-
-    MutantSkipP1: Мутант устал от шарад...
-    MutantSpawnMutantBoss: "{$Mods.FargowiltasSouls.Message.MutantsCurse}"
-    MutantSpawnNotSafe: Думаете, вы в безопасности?
-    OceanicMaulLifeUp: +5 к максимальному запасу здоровья
-    OceanicMaulLifeDown: -5 к максимальному запасу здоровья
-    ItemStolen: У вас украли предмет!
+    
     Revived: Вы возродились!
     NoMusic1: Fargo's Music Mod не найден
     NoMusic2: Пожалуйста, установите Fargo's Music Mod для полных впечатлений!
     NoDLC1: Мы обнаружили, что вы используете Fargo's Souls совместно с модом {0}.
     NoDLC2: Для обеспечения совместимости и раскрытия полного потенциала этих модов рекомендуется использовать Fargo's Souls DLC.
     Wiki: Посетите официальную вики Fargo's Mod по ссылке [c/3989FF:terrariamods.wiki.gg/wiki/Fargo's Mod]!
-
-    DeviBribe: {
-        Line1: Секундочку...
-        Line2: Ты бросаешь в меня деньги!
-        Line3: Пытаться подкупить меня - довольно смело, знаешь ли!
-        Accept1: Но, опять же, это большие деньги...
-        Accept2: Но мой старший брат сказал не делать этого! Что делать, что делать?..
-        Accept3: Ай, чёрт с тобой! Но это наш маленький секрет, хорошо?
-        Reject1: Докажи свою крутость и я не буду возражать, но ни секундой раньше!
-        Reject2: Вот, можешь забрать это обратно.
-        Reject3: Ну что, начнём нашу вечеринку!
-    }
-
-    IvyVenomTransform: Ваш яд плюща становится нейротоксином!
-    LihzahrdBlessing: Свет алтаря озаряет вас!
-    EternityItem: Вечность
-    PatreonItem: >> Предмет покровителя <<
     PatreonNameEffect: Ваш особый эффект покровителя -
-    SkeletronRegrow: "{$NPCName.SkeletronHead} отрастил себе руки!"
-    SkeletronPrimeRegrow: "{$NPCName.SkeletronPrime} отрастил себе руки!"
-    SkeletronGuardian: "{$NPCName.SkeletronHead} превратился в стража Темницы!"
-    SkeletronPrimeGuardian: "{$NPCName.SkeletronPrime} превратился в стража Темницы!"
-    TwinsEndure: переживает смертельный удар, чтобы сражаться вместе со своим близнецом!
-    TwinsRevive: возрождается!
-    GelatinSubjects: Желатиновый объект пробуждается!
-    RoyalSubject: Королевская особа пробуждается!
-    QueenBeeEnrage: "{$NPCName.QueenBee} входит в ярость за пределами джунглей!"
     MoonsDeathPenalty: Прогресс волны откатился!
-    FatherOfLies: Было ошибкой прийти сюда.
-    MasochistExtraTooltip: "[i:FargowiltasSouls/MutantsPact] {$Mods.FargowiltasSouls.Message.MasochistPreTooltip}"
 }
 
 DeathMessage: {
-    Rotting: сгнивает.
-    Infested: не справляется с инфекцией.
-    Anticoagulation: истекает до осушения.
-    DivineWrath: истребляется божественным гневом.
-    Shadowflame: сгорает в теневом пламени.
-    NanoInjection: поглощается изнутри нанитами.
-    Fused:"{0} разлетается на куски."
+    Rotting: "{0} сгнивает."
+    Infested: "{0} не справляется с инфекцией."
+    Anticoagulation: "{0} истекает до осушения."
+    DivineWrath: "{0} истребляется божественным гневом."
+    Shadowflame: "{0} сгорает в теневом пламени."
+    NanoInjection: "{0} поглощается изнутри нанитами."
+    Fused: "{0} разлетается на куски."
     Nutcracker: "{0} раскалывает свои орешки."
     Derpling: "{0} высушается досуха."
     Snatchers: "{0} становится человеком, съедённым людоедом."
     Parrots: "{0} погибает от транс-утверждающего мизогинистного попугая."
+    RodOfHarmony: "{0} не материализуется."
+    ReverseManaFlow: "{0} уничтожается своей собственной магией."
+    GiantTortoise: "{0} обезглавливается гигантской черепахой."
+    FakeHeart: "{0} обманывается ложным сердцем."
+    Cactus: "{0} уколывается кактусом."
 }
 
-DeviChatter: {
-    Spawn1: Хэйоу! Не против, если составлю тебе компанию?
-    Spawn2: Я освещу тебе путь!
-    Spawn3: Вперёд, к следующему большому приключению!
-    Spawn4: Позаботься обо мне!
-    Spawn5: Привет, мир!
-    Spawn6: Чиби Деви принимается за дело!
-    Spawn7: Веди!
-    Respawn1: Не позволим этому закончиться так ещё раз!
-    Respawn2: Ещё раз!
-    Respawn3: Глубоко вздохни. Рано или поздно у нас получится!
-    Respawn4: Для победы над нами одной смерти будет мало!
-    Respawn5: Давай посмотрим, может, сможем изменить что-нибудь!
-    Respawn6: Мы сможем!
-    Respawn7: Может, присядем на минутку и отдохнём? Не повредит!
-    Idle1: Собираем всё, что можно собрать!
-    Idle2: Битвы, кровь, деньги - нет ничего лучше, я права?
-    Idle3: Запомни, я не живая консерва.
-    Idle4: Может, попробовать копать взрывными сюрикенами? Хех...
-    Idle5: Ну что, попробуем захватить мир? Шучу! В основном.
-    Idle6: Хочу увидеть, как ты убиваешь больше!
-    Idle7: До сих пор странно, что я называюсь 'светящимся питомцем'...
-    Idle8: Нечего делать? Убей кого-нибудь!
-    Idle9: Держу пари, существует QoL-трюк о котором мы не знаем.
-    Idle10: Не против, если я поиграю с твоей видимостью аксессуаров?
-    Idle11: Забавный факт: моё настоящее имя... секрет! Аха, попался!
-    Idle12: Куда не иди, я следом!
-    Sleep1: Спать хочется...
-    Sleep2: Спокойной ночи...
-    Sleep3: Я вздремну немного...
-    Sleep4: Нужна перезарядка...
-    Sleep5: Разбуди, когда вокруг будет насилие...
-    Wake1: Что я пропустила?
-    Wake2: С добрым утром!
-    Wake3: Время идти? Время идти!
-    Wake4: Проснись и пой!
-    Wake5: Деви пробуждается! Деньги на бочку!
-    ProjDeath1: Нет! Не засовывай меня назад, в эту шляпу!
-    ProjDeath2: Но мне ещё столько надо исследовать!
-    ProjDeath3: Здравствуй, тьма, мой старый друг...
-    ProjDeath4: Пожалуйста, не убирай меня! Я сделаю всё что угодно!
-    PlayerDeath1: Давай, ты сможешь! Ну же, ты см... ой.
-    PlayerDeath2: Заставим их заплатить за это!
-    PlayerDeath3: Нееееет!!!
-    PlayerDeath4: Откуда вообще взялась эта штука?! Нечестно!
-    PlayerDeath5: Да блин! Ладно, в следующий раз прихлопнем.
-    PlayerDeath6: Чего?! Да не может быть!
-    PlayerDeath7: Не так уж и много денег теряешь...
-    BossAlmostDead1: Ну же, почти всё!
-    BossAlmostDead2: Ну же, ты справишься!
-    BossAlmostDead3: Мы на финишной прямой!
-    BossAlmostDead4: Ещё немного!
-    BossAlmostDead5: Кончай с ним скорее!
-    BossAlmostDead6: Это наш шанс!
-    KillBoss1: Какая весёлая битва! Кто следующий?
-    KillBoss2: Нет ничего лучше ощущения победы!
-    KillBoss3: Ещё! Ещё! Ещё!
-    KillBoss4: Кровь богу крови! И под ним я подразумеваю нас.
-    KillBoss5: Деви гейминг.
-    KillBoss6: ЯТТА! Эм, ты ничего не слышал.
-    KillBoss7: Да! Вот то, чего я ждала! В этом вся суть!
-    BossSpawn1: Давай, ты сможешь!
-    BossSpawn2: А вот и босс!
-    BossSpawn3: Я поддерживаю тебя! Давай!
-    BossSpawn4: Ну что, начинаем!
-    BossSpawn5: Мы справимся!
-    BossSpawn6: Делай всё, что в твоих силах!
-    BossSpawn7: Вытри им пол!
-    BossSpawn8: Сделаем же это!
-    Count1: Пссс... слышишь меня? Это секретное сообщение! Здаров!
-}
-
-Config: {
-    MasoHeader: Режим Вечности
-    HideTogglerTooltip: ""
+DropRuleConditions: {
+    DownedEvilBoss: После победы над любым боссом мирового зла
+    EMode: "[i:FargowiltasSouls/Masochist] Шанс выпадения в режиме Вечность"
+    EModeEarlyBirdHM: "[i:FargowiltasSouls/Masochist] Шанс выпадения в хардмодном режиме Вечность"
+    EModeEarlyBirdPHM: "[i:FargowiltasSouls/Masochist] Шанс выпадения в пре-хардмодном режиме Вечность"
+    EModeNotMaster: Шанс выпадения в режиме Мастер/Вечность
+    NotEMode: "[i:FargowiltasSouls/Masochist] Шанс выпадения не в режиме Вечность"
+    TimsConcoction: "[i:FargowiltasSouls/TimsConcoction] Шанс выпадения Смеси Тима"
+    Patreon: "[i:FargowiltasSouls/RoombaPet] Выпадение предметов Патронов"
+    PatreonEMode: "[i:FargowiltasSouls/RoombaPet] Выпадение предметов Патронов в режиме Вечность"
+    PatreonPlant: "[i:FargowiltasSouls/RoombaPet] Выпадение предметов Патронов в джунглях во время кровавой луны"
 }
 
 Toggler: {
@@ -451,10 +292,10 @@ Toggler: {
     StardustMinionEffect: Хранитель звёздной пыли
     VortexStealthEffect: Вихревая скрытность
     VortexVortexEffect: Вихревые пустоты
-    MasoHeader: Режим Вечности
+    MasoHeader: Режим Вечность
     MasoBossRecolors: Перекраска боссов
-    MasoCanPlay: Режим Мазохиста доступен
-    DeviEnergyHeader: Аксессуары режима Вечности
+    MasoCanPlay: Режим Мазохист доступен
+    DeviEnergyHeader: Аксессуары режима Вечность
     DeerSinewEffect: Рывок оленьих сухожилий
     ZephyrJump: Пердёжный прыжок
     MasoAeolusFlower: Цветочные ботинки
@@ -626,32 +467,12 @@ Toggler: {
     PetMartianConfig: Питомец скейтер-инопланетянин
     PetLCConfig: Питомец призрачный дракон
     PetMLConfig: Питомец луняш
-    PatreonHeader: Предметы покровителей
-    PatreonRoomba: "{$Items.RoombaPet.DisplayName}"
-    PatreonOrb: "{$Items.ComputationOrb.DisplayName}"
-    PatreonFishingRod: "{$Items.MissDrakovisFishingPole.DisplayName}"
-    PatreonDoor: "{$Items.SquidwardDoor.DisplayName}"
-    PatreonWolf: "{$Items.ParadoxWolfSoul.DisplayName}"
-    PatreonDove: "{$Items.FigBranch.DisplayName}"
-    PatreonKingSlime: "{$Items.MedallionoftheFallenKing.DisplayName}"
-    PatreonFishron: "{$Items.StaffOfUnleashedOcean.DisplayName}"
-    PatreonPlant: "{$Items.PiranhaPlantVoodooDoll.DisplayName}"
-    PatreonDevious: "{$Items.DeviousAestheticus.DisplayName}"
-    PatreonVortex: "{$Items.VortexMagnetRitual.DisplayName}"
-    PatreonPrime: "{$Items.PrimeStaff.DisplayName}"
-    PatreonCrimetroid: Криметроид
-    PatreonNanoCore: "{$Items.NanoCore.DisplayName}"
-    PatreonROB: Р.О.П
-    SilverS: ""
-    CrystalGelatinConfig: ""
-    SilverConfig: ""
-    MasoHoneyConfig: ""
 }
 
 UI: {
     SoulTogglerButton: Настройка эффектов аксессуаров
-    EternityEnabled: Режим Вечности включён
-    MasochistEnabled: Режим Мазохиста включён
+    EternityEnabled: Режим Вечность включён
+    MasochistEnabled: Режим Мазохист включён
     SavedToSlot: Настройки эффектов сохранены в пользовательский набор
     NoTogglesFound: Не найдены сохранённые настройки эффектов в пользовательском наборе
     TurnAllTogglesOff: Выключить все эффекты
@@ -663,323 +484,7 @@ UI: {
     DisplayAll: Отобразить всё
     DisplayEquipped: Отобразить экипированное
     SearchText: Поиск...
-}
-
-ItemExtra: {
-    WoodenDiscount: Текущая скидка: {0}%
-    WoodenTooltip: Скромное начало...
-    TinCritUp: +5% к шансу критического удара
-    TinCritReset: -{0}% к шансу критического удара
-    ROBPatreon: Друг, с которым вы не разлучались со времён Brawl
-    ROBNonPatreon: Наконец-то он стал одним из лучших!
-    StarlightTungsten: Не подвержен воздействию вольфрамового усиления
-
-    EternitySoul: {
-        Additional: Дополнительно даёт:
-        Vanilla:
-            '''
-            Увеличивает урон на 250%
-            Увеличивает скорость атаки на 250%
-            Увеличивает скорость стрельбы на 100%
-            Увеличивает отбрасывание на 100%
-            Увеличивает пробивание брони на 50
-            Критические удары наносят в 10 раз больше урона и накладывают дебафф «{$Buffs.FlamesoftheUniverseBuff.DisplayName}»
-            Значительно увеличивает регенерацию здоровья
-            Увеличивает максимальный запас маны на 999
-            Увеличивает призываемое число миньонов на 30
-            Увеличивает призываемое число стражей на 20
-            Увеличивает максимальный запас здоровья на 50%
-            Снижает расход маны на 50%
-            Все атаки накладывают дебафф «{$Buffs.SadismBuff.DisplayName}»
-            Все атаки накладывают дебафф «{$Buffs.MidasBuff.DisplayName}»
-            Все атаки снижают кадры неуязвимости врага
-            Призывает вокруг вас огненные шары
-            Призывает вокруг вас 2 теневые сферы
-            Призывает вокруг вас сосульки
-            Призывает вокруг вас кристальные листья
-            Призывает освящённый меч и щит
-            Призывает жуков защищать вас
-            Призывает миньона пламестрела
-            Призывает множество питомцев
-            Призывает на помощь всех боссов режима Вечности
-            Атаки могут создать молнии
-            Атаки могут создать цветочные лепестки
-            Атаки могут создать спектральные сферы
-            Атаки могут создать стража Темницы
-            Атаки могут создать снежки
-            Атаки могут создать копья
-            Атаки могут создать сердца
-            Атаки могут создать миниатюрный шторм
-            Атаки могут создать баффы-усилители
-            Атаки вызывают усиленную регенерации здоровья
-            Атаки вызывают теневое уклонение
-            Атаки вызывают выстрелы пламестрела
-            Атаки вызывают атаки тыквенного короля
-            Атаки вызывают заклинания Культиста-лунатика
-            Атаки вызывают метеоритный дождь
-            Все снаряды могут разделиться
-            Снаряды могут разбиться
-            Снаряды создают звёзды
-            Увеличивает размер предметов и снарядов
-            Вы оставляете за собой след из огней
-            Поджигает ближайших врагов
-            Миньоны периодически извергают косы
-            Вы можете призывать временных миньонов
-            Увеличивают защиту невинных животных
-            Души невинных животных помогают вам
-            Враги взрываются иглами
-            Значительно усиливает всех призываемых стражей из DD2
-            Дважды нажмите ВНИЗ, чтобы вызвать пальмового стража
-            Дважды нажмите ВНИЗ, чтобы вызвать древнюю бурю
-            Дважды нажмите ВНИЗ, чтобы вызвать дождь из стрел
-            Дважды нажмите ВНИЗ, чтобы переключить режим скрытности
-            Дважды нажмите ВНИЗ, чтобы создать портал
-            Дважды нажмите ВНИЗ, чтобы направить вашего усиленного стража
-            Нажмите ПКМ, чтобы прикрыться щитом
-            Клавиша «Превращение в золото» окружает вас золотым панцирем
-            Клавиша «Заморозка» замораживает время на 5 секунд
-            Солнечный щит позволяет вам делать рывок
-            Позволяет мгновенно телепортироваться сквозь стены при использовании рывка
-            Бросьте дымовую бомбу, чтобы телепортироваться к ней и получить бафф «{$Buffs.FirstStrikeBuff.DisplayName}»
-            Прыжки создают взрыв спор
-            Враги, подошедшие слишком близко активируют все эффекты при ударе
-            При получении урона отражает урон
-            При получении урона вызывает кровавый гейзер
-            Атаки по вам могут случайно пискнуть
-            При получении урона вы извергаетесь шипастыми шарами
-            При получении урона вы извергаетесь древними пророчествами
-            Даёт багряное лечение
-            Даёт невосприимчивость к огню
-            Даёт невосприимчивость к урону от падения
-            Даёт невосприимчивость к лаве
-            Даёт невосприимчивость к отбрасыванию
-            Даёт невосприимчивость практически ко всем дебаффам
-            Удваивает сбор растений
-            Даёт 50% шанс на мега-пчёл
-            Даёт 15% шанс для миньонов нанести критический удар
-            Даёт 20% шанс получить дополнительную добычу
-            Позволяет бегать со скоростью звука
-            Позволяет бесконечно летать
-            Значительно увеличивает навык рыбной ловли
-            Все удочки имеют 10 дополнительных поплавков
-            Вы возрождаетесь в 10 раз быстрее
-            Предотвращает появление боссов
-            Увеличивает скорость появления врагов
-            Снижает враждебность скелетов вне Темницы
-            Усиливает Рыброна-милашку
-            Даёт защиту от модификаторов
-            Позволяет контролировать гравитацию
-            Даёт быстрое падение
-            Усиливает крюки
-            Вы притягиваете предметы на большем расстоянии
-            Увеличивает скорость размещения блоков и стен на 50%
-            Почти бесконечный радиус размещения блоков
-            Почти бесконечный радиус добычи
-            Значительно увеличивает скорость добычи
-            Вы отражаете все снаряды
-            При получении урона, вы взрываетесь, нанося урон ближайшим врагам
-            После смерти, вы возрождаетесь с полным здоровьем
-            Эффекты от предмета «{$ItemName.FireGauntlet}»
-            Эффекты от предмета «{$ItemName.YoyoBag}»
-            Эффекты от предмета «{$ItemName.SniperScope}»
-            Эффекты от предмета «{$ItemName.CelestialCuffs}»
-            Эффекты от предмета «{$ItemName.ManaFlower}»
-            Эффекты от предмета «{$ItemName.BrainOfConfusion}»
-            Эффекты от предмета «{$ItemName.StarVeil}»
-            Эффекты от предмета «{$ItemName.SweetheartNecklace}»
-            Эффекты от предмета «{$ItemName.BeeCloak}»
-            Эффекты от предмета «{$ItemName.SporeSac}»
-            Эффекты от предмета «{$ItemName.PaladinsShield}»
-            Эффекты от предмета «{$ItemName.FrozenTurtleShell}»
-            Эффекты от предмета «{$ItemName.ArcticDivingGear}»
-            Эффекты от предмета «{$ItemName.FrogLeg}»
-            Эффекты от предмета «{$ItemName.FlyingCarpet}»
-            Эффекты от предмета «{$ItemName.LavaWaders}»
-            Эффекты от предмета «{$ItemName.AnglerTackleBag}»
-            Эффекты от предмета «{$ItemName.PaintSprayer}»
-            Эффекты от предмета «{$ItemName.ActuationAccessory}»
-            Эффекты от предмета «{$ItemName.CellPhone}»
-            Эффекты от предмета «{$ItemName.FlowerBoots}»
-            Эффекты от предмета «{$ItemName.MasterNinjaGear}»
-            Эффекты от предмета «{$ItemName.CelestialShell}»
-            Эффекты от предмета «{$ItemName.ShinyStone}»
-            Эффекты от предмета «{$ItemName.SpelunkerPotion}»
-            Эффекты от предмета «{$ItemName.TrapsightPotion}»
-            Эффекты от предмета «{$ItemName.HunterPotion}»
-            Эффекты от предмета «{$ItemName.ShinePotion}»
-            Эффекты режима строителя
-            '''
-        Thorium:
-            '''
-            Armor bonuses from Living Wood
-            Armor bonuses from Life Bloom
-            Armor bonuses from Yew Wood
-            Armor bonuses from Tide Hunter
-            Armor bonuses from Icy
-            Armor bonuses from Cryo Magus
-            Armor bonuses from Whispering
-            Armor bonuses from Sacred
-            Armor bonuses from Warlock
-            Armor bonuses from Biotech
-            Armor bonuses from Cyber Punk
-            Armor bonuses from Maestro
-            Armor bonuses from Bronze
-            Armor bonuses from Darksteel
-            Armor bonuses from Durasteel
-            Armor bonuses from Conduit
-            Armor bonuses from Lodestone
-            Armor bonuses from Illumite
-            Armor bonuses from Jester
-            Armor bonuses from Thorium
-            Armor bonuses from Terrarium
-            Armor bonuses from Malignant
-            Armor bonuses from Folv
-            Armor bonuses from White Dwarf
-            Armor bonuses from Celestial
-            Armor bonuses from Spirit Trapper
-            Armor bonuses from Dragon
-            Armor bonuses from Dread
-            Armor bonuses from Flesh
-            Armor bonuses from Demon Blood
-            Armor bonuses from Tide Turner
-            Armor bonuses from Assassin
-            Armor bonuses from Pyromancer
-            Armor bonuses from Dream Weaver
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.FlawlessChrysalis.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.BubbleMagnet.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.AnglerBowl.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.IceBoundStriderHide.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.RingofUnity.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.MixTape.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.EyeoftheStorm.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.ChampionsRebuttal.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.IncandescentSpark.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.GreedyMagnet.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.AbyssalShell.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.AstroBeetleHusk.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.MirroroftheBeholder.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.Crietz.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.ArtificersRocketeers.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.InnerFlame.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.CrashBoots.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.VampireGland.DisplayName}»
-            #Удаленный предмет
-            Effects of Demon Blood Badge
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.BeholderGaze.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.PlagueLordFlask.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.Phylactery.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.CrystalScorpion.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.ThrowingGuideVolume3.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.MermaidCanteen.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.DeadEyePatch.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.SupportSash.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.SavingGrace.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.SoulGuard.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.ArchDemonCurse.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.ArchangelHeart.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.MedicalBag.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.EpicMouthpiece.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.StraightMute.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.DigitalTuner.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.GuitarPickClaw.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.OceanRetaliation.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.TerrariumDefender.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.AirWalkers.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.SurvivalistBoots.DisplayName}»
-            Эффекты от предмета «{$Mods.ThoriumMod.Items.WeightedWinglets.DisplayName}»
-            '''
-        Calamity:
-            '''
-            Эффекты аэрофазового комплекта
-            Эффекты статигелевого комплекта
-            Эффекты комплекта Дедала
-            Эффекты комплекта кровавой вспышки
-            Эффекты комплекта прилива
-            Эффекты возвышенной брони
-            Эффекты омега-синей брони
-            Эффекты комплекта богоубийцы
-            Эффекты комплекта Сильвы
-            Эффекты ауритового тесла-комплекта
-            Эффекты брони моллюска
-            Эффекты комплекта разорителя
-            Эффекты гидротермического комплекта
-            Эффекты астральной брони
-            Эффекты эстрагонового комплекта
-            Эффекты тенедемонической брони
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.SpiritGlyph.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.RaidersTalisman.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.TrinketofChi.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.GladiatorsLocket.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.UnstableGraniteCore.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.CounterScarf.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.FungalSymbiote.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.PermafrostsConcoction.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.Regenator.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.CoreOfTheBloodGod.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.Affliction.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.DeepDiver.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.TheTransformer.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.LuxorsGift.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.TheCommunity.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.AbyssalDivingSuit.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.LumenousAmulet.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.AquaticEmblem.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.NebulousCore.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.DraedonsHeart.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.TheAmalgam.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.GodlySoulArtifact.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.YharimsGift.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.HeartoftheElements.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.TheSponge.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.GiantPearl.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.AmidiasPendant.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.FlameLickedShell.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.PlagueHive.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.Purity.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.HideofAstrumDeus.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.ProfanedSoulArtifact.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.DarkSunRing.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.ElementalGauntlet.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.ElementalQuiver.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.EtherealTalisman.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.StatisVoidSash.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.Nanotech.DisplayName}»
-            Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.AsgardianAegis.DisplayName}»
-            '''
-        SOA:
-            '''
-            Armor bonuses from Bismuth
-            Armor bonuses from Frosthunter
-            Armor bonuses from Blightbone
-            Armor bonuses from Dreadfire
-            Armor bonuses from Space Junk
-            Armor bonuses from Marstech
-            Armor bonuses from Blazing Brute
-            Armor bonuses from Cosmic Commander
-            Armor bonuses from Nebulous Apprentic
-            Armor bonuses from Stellar Priest
-            Armor bonuses from Fallen Prince
-            Armor bonuses from Void Warden
-            Armor bonuses from Vulcan Reaper
-            Armor bonuses from Flarium
-            Armor bonuses from Asthraltite
-            Effects of Dreadflame Emblem
-            Effects of Lapis Pendant
-            Effects of Frigid Pendant
-            Effects of Pumpkin Amulet
-            Effects of Nuba's Blessing
-            Effects of Novaniel's Resolve
-            Effects of Celestial Ring
-            Effects of Ring of the Fallen
-            Effects of Memento Mori
-            Effects of Arcanum of the Caster
-            '''
-        DBT:
-            '''
-            Effects of Zenkai Charm
-            Effects of Aspera Crystallite
-            '''
-    }
+    MainMenu: Fargo's
 }
 
 RecipeGroups: {
@@ -992,9 +497,9 @@ RecipeGroups: {
 }
 
 EModeBalance: {
-    Nerf: "[c/ff0000:Режим Вечности:]"
-    Buff: "[c/00ff00:Режим Вечности:]"
-    Neutral: "[c/ffff00:Режим Вечности:]"
+    Nerf: "[c/ff0000:Режим Вечность:] "
+    Buff: "[c/00ff00:Режим Вечность:] "
+    Neutral: "[c/ffff00:Режим Вечность:] "
     Damage: Урон снижен на {0}%
     DamagePositive: Урон увеличен на {0}%
     Speed: Скорость снижена на {0}%
@@ -1021,8 +526,8 @@ EModeBalance: {
     ManaPots: Нельзя использовать во время дебаффа «{$BuffName.ManaSickness}», но восстанавливает на 50% больше маны
     MinionStack: Урон миньонов снижается при призыве более 3 копий (максимальный эффект при 12)
     SummonMulticlass: Урон призывателя снижен, если вы атакуете, используя оружие другого класса (кроме события АД)
-    ShadowDodge: Режим Вечности: Уклонение временно снижает скорость атаки
-    IceBarrier: Режим Вечности: Сопротивление урону снижено на 10%
+    ShadowDodge: Режим Вечность: Уклонение временно снижает скорость атаки
+    IceBarrier: Режим Вечность: Сопротивление урону снижено на 10%
     SpearRework: Переработанная анимация взмаха копьём
     PalladiumPikeRework: При нанесении удара по врагу значительно увеличивает регенерацию здоровья
     CobaltNaginataRework: При нанесении удара по врагу вызывает небольшой взрыв
@@ -1030,37 +535,6 @@ EModeBalance: {
     OrichalcumHalberdRework: Выпускает цветочные лепестки при взмахе
     SuperStarCannon: Максимальное количество пронзаний снарядов снижено до 7
     WarmthPotionNerf: Эффект снижения урона снижен вдвое
-}
-
-EternityMode: {
-    Betsy1: КРИНЖАНУЛ
-    Betsy2: НЕ POGGERS
-    Betsy3: MONKAS
-    Betsy4: ПОКАЖИ КРЫЛЬЯ
-    Betsy5: ЛОЛ, ГРОЗА НЕБЕС
-    Betsy6: И ГДЕ БОСС?
-    Betsy7: "#ЭТОНЕМОЙМАЗОРЕЖИМ"
-    Betsy8: АРМИЯ ДРЕВНИХ ВСЁ РАВНО СОСАТТ
-    Betsy9: СМИРИСЬ
-    Betsy10: Сложность чёт высокая
-    Betsy11: Сложность чёт низкая
-    Betsy12: POGGERS
-    Betsy13: ResidentSleeper
-    Betsy14: если читаешь это, то скажи 22
-    Betsy15: GuraSit
-    Betsy16: сыграй в Каламити
-    Betsy17: сыграй в Ториум
-    Betsy18: когда хардкор с 1хп?
-    Betsy19: а теперь сделай это медным кинжалом
-    Betsy20: Йо-йо-Зенит?
-    Betsy21: люди, с чем идти на мунлорда
-    Betsy22: ЧУВАКИ, МНЕ ТЕРРАПРИЗМА ВЫПАЛА
-    Betsy23: а где найти обновление мода
-    Betsy24: Здаров, Ютуб!
-    Betsy25: <Сообщение удалено модерацией>
-    Betsy26: "<Пользователь "
-    Betsy27: " был забанен>"
-    Betsy28: " был замьючен>"
 }
 
 Buffs: {
@@ -1181,7 +655,7 @@ Buffs: {
 
     AbomFangBuff: {
         DisplayName: Мерзкий клык
-        Description: Сила режима Вечности принуждает вас
+        Description: Сила режима Вечность принуждает вас
     }
 
     AbomPresenceBuff: {
@@ -1211,7 +685,7 @@ Buffs: {
 
     MutantFangBuff: {
         DisplayName: Клык Мутанта
-        Description: Сила режима Вечности подчиняет вас
+        Description: Сила режима Вечность подчиняет вас
     }
 
     MutantPresenceBuff: {
@@ -1219,7 +693,7 @@ Buffs: {
         Description:
             '''
             Защита, сопротивление урону и регенерация здоровья снижены
-            Все специальные способности душ выключены
+            Все специальные эффекты душ выключены
             Снижает радиус, который считается как уклонение вблизи снаряда
             '''
     }
@@ -1352,6 +826,7 @@ Buffs: {
     IvyVenomBuff: {
         DisplayName: Яд плюща
         Description: Потеря здоровья превратится в дебафф «{$Buffs.NeurotoxinBuff.DisplayName}» через 20 секунд
+        Transform: Ваш яд плюща становится нейротоксином!
     }
 
     JammedBuff: {
@@ -1372,6 +847,7 @@ Buffs: {
     LihzahrdBlessingBuff: {
         DisplayName: Благословение яхщеров
         Description: Провода активированы и скорость появления врагов в Храме джунглей снижена
+        Message: Свет алтаря озаряет вас!
     }
 
     LihzahrdCurseBuff: {
@@ -1432,6 +908,8 @@ Buffs: {
     OceanicMaulBuff: {
         DisplayName: Океаническое истязание
         Description: Защитные характеристики и максимальный запас здоровья значительно снижены
+        LifeUp: +5 к максимальному запасу здоровья
+        LifeDown: -5 к максимальному запасу здоровья
     }
 
     OceanicSealBuff: {
@@ -1477,11 +955,12 @@ Buffs: {
     RushJobBuff: {
         DisplayName: На скорую руку
         Description: Медсестра ещё некоторое время не сможет лечить вас
+        NurseChat: За это время я сделала всё, что могла!
     }
 
     SadismBuff: {
         DisplayName: Вечность
-        Description: Сила режима Вечности с вами
+        Description: Сила режима Вечность с вами
     }
 
     ShadowflameBuff: {
@@ -1586,7 +1065,7 @@ Buffs: {
 
     SouloftheMasochistBuff: {
         DisplayName: Душа магистра
-        Description: Сила режима Вечности с вами
+        Description: Сила режима Вечность с вами
     }
 
     TrueEyesBuff: {
@@ -1762,6 +1241,8 @@ Buffs: {
     ROBBuff: {
         DisplayName: Р.О.П
         Description: ""
+        DescPatreon: Друг, с которым вы не разлучались со времён Brawl
+        DescNonPatreon: Наконец-то он стал одним из лучших!
     }
     
     RainCDBuff: {
@@ -1772,6 +1253,13 @@ Buffs: {
     SublimationBuff: {
         DisplayName: Сублимация
         Description: ""
+    }
+}
+
+Common: {
+    AccessorySlot: {
+        EModeSlotFunctional: Усиление, Сила или Душа
+        EModeSlotVanity: Внешний вид: Усиление, Сила или Душа
     }
 }
 
@@ -1886,6 +1374,7 @@ Items: {
             '''
            Во время атаки распыляет иглы
            Враги, поражённые иглами, взрываются иглами после смерти
+           Даёт невосприимчивость к урону от кактусов в режиме Вечность
            'Отлично утоляет жажду!'
             '''
     }
@@ -2059,7 +1548,8 @@ Items: {
         Tooltip:
             '''
             Работает в слотах для украшений и в инвентаре
-            При первом создании предмета каждый материал с 33% шансом можно сохранить
+            При создании предмета каждый материал с 33% шансом можно сохранить
+            Работает один раз для каждого типа материала, всегда
             Не работает с предметами на станции для создания «{$Mods.Fargowiltas.Items.CrucibleCosmos.DisplayName}»
             Вы притягиваете предметы на большем расстоянии
             'Куй железо, пока горячо'
@@ -2435,6 +1925,8 @@ Items: {
             Получение удара сбрасывает шанс критического удара до 5%
             'Возвращение критического удара'
             '''
+        CritUp: +5% к шансу критического удара
+        CritReset: -{0}% к шансу критического удара
     }
 
     TitaniumEnchant: {
@@ -2469,6 +1961,7 @@ Items: {
             Кроме того, вы будете уничтожать все приближающиеся снаряды и наносить в 10 раз больше урона эффектом шипов
             Панцирь действует не менее 1 секунды и блокирует до 20 атак
             Враги, поражённые иглами, взрываются иглами после смерти
+            Даёт невосприимчивость к урону от кактусов в режиме Вечность
             'У вас внезапно появилось желание спрятаться в панцире'
             '''
     }
@@ -2512,6 +2005,9 @@ Items: {
             Заполнение записей в бестиарии и получение знамён происходит вдвое быстрее
             Вы получаете скидку у продавцов в зависимости от прогресса заполнения бестиария
             Эффект скидки действует в слотах для украшений и в инвентаре
+            Текущая скидка: {0}%
+            'Магазинщики ненавидят этот трюк'
+            Скромное начало...
             '''
     }
 
@@ -2574,6 +2070,7 @@ Items: {
         Tooltip:
             '''
             Ваши критические удары могут нанести суперкритический удар
+            Шанс этого равен половине вашего шанса критического удара
             Эти суперкритические удары наносят в 4 раза больше урона и накладывают дебафф «{$Buffs.FlamesoftheUniverseBuff.DisplayName}»
             'Взрывается сверхвысокоэнергетическими космическими лучами'
             '''
@@ -2683,7 +2180,7 @@ Items: {
             '''
             [i:FargowiltasSouls/CopperEnchant][i:FargowiltasSouls/ObsidianEnchant][i:FargowiltasSouls/LeadEnchant] Атаки создают молнии, взрывы и накладывают дебафф «{$Buffs.LeadPoisonBuff.DisplayName}»
             [i:FargowiltasSouls/TinEnchant] Устанавливает шанс критического удара на 10%, увеличивая его пока он не достигнет удвоенного текущего значения или 50%
-            [i:FargowiltasSouls/IronEnchant] При первом создании предмета каждый материал с 50% шансом можно сохранить
+            [i:FargowiltasSouls/IronEnchant] При создании предмета каждый материал с 50% шансом можно сохранить
             [i:FargowiltasSouls/IronEnchant] Вы притягиваете предметы на большем расстоянии
             [i:FargowiltasSouls/LeadEnchant] Вы получаете на 60% меньше постепенного урона
             [i:FargowiltasSouls/SilverEnchant] Нажмите <right>, чтобы прикрыться щитом
@@ -3491,6 +2988,313 @@ Items: {
             Также увеличивает урон на 5% и защиту на 5
             Эффект складывается до 950 раз, пока вы не получите удар
             '''
+
+        Extra: {
+            Additional: Дополнительно даёт:
+            Vanilla:
+                '''
+                Увеличивает урон на 250%
+                Увеличивает скорость атаки на 250%
+                Увеличивает скорость стрельбы на 100%
+                Увеличивает отбрасывание на 100%
+                Увеличивает пробивание брони на 50
+                Критические удары наносят в 10 раз больше урона и накладывают дебафф «{$Buffs.FlamesoftheUniverseBuff.DisplayName}»
+                Значительно увеличивает регенерацию здоровья
+                Увеличивает максимальный запас маны на 999
+                Увеличивает призываемое число миньонов на 30
+                Увеличивает призываемое число стражей на 20
+                Увеличивает максимальный запас здоровья на 50%
+                Снижает расход маны на 50%
+                Все атаки накладывают дебафф «{$Buffs.SadismBuff.DisplayName}»
+                Все атаки накладывают дебафф «{$Buffs.MidasBuff.DisplayName}»
+                Все атаки снижают кадры неуязвимости врага
+                Призывает вокруг вас огненные шары
+                Призывает вокруг вас 2 теневые сферы
+                Призывает вокруг вас сосульки
+                Призывает вокруг вас кристальные листья
+                Призывает освящённый меч и щит
+                Призывает жуков защищать вас
+                Призывает миньона пламестрела
+                Призывает множество питомцев
+                Призывает на помощь всех боссов режима Вечность
+                Атаки могут создать молнии
+                Атаки могут создать цветочные лепестки
+                Атаки могут создать спектральные сферы
+                Атаки могут создать стража Темницы
+                Атаки могут создать снежки
+                Атаки могут создать копья
+                Атаки могут создать сердца
+                Атаки могут создать миниатюрный шторм
+                Атаки могут создать баффы-усилители
+                Атаки вызывают усиленную регенерации здоровья
+                Атаки вызывают теневое уклонение
+                Атаки вызывают выстрелы пламестрела
+                Атаки вызывают атаки тыквенного короля
+                Атаки вызывают заклинания Культиста-лунатика
+                Атаки вызывают метеоритный дождь
+                Все снаряды могут разделиться
+                Снаряды могут разбиться
+                Снаряды создают звёзды
+                Увеличивает размер предметов и снарядов
+                Вы оставляете за собой след из огней
+                Поджигает ближайших врагов
+                Миньоны периодически извергают косы
+                Вы можете призывать временных миньонов
+                Увеличивают защиту невинных животных
+                Души невинных животных помогают вам
+                Враги взрываются иглами
+                Значительно усиливает всех призываемых стражей из DD2
+                Дважды нажмите ВНИЗ, чтобы вызвать пальмового стража
+                Дважды нажмите ВНИЗ, чтобы вызвать древнюю бурю
+                Дважды нажмите ВНИЗ, чтобы вызвать дождь из стрел
+                Дважды нажмите ВНИЗ, чтобы переключить режим скрытности
+                Дважды нажмите ВНИЗ, чтобы создать портал
+                Дважды нажмите ВНИЗ, чтобы направить вашего усиленного стража
+                Нажмите ПКМ, чтобы прикрыться щитом
+                Клавиша «Превращение в золото» окружает вас золотым панцирем
+                Клавиша «Заморозка» замораживает время на 5 секунд
+                Солнечный щит позволяет вам делать рывок
+                Позволяет мгновенно телепортироваться сквозь стены при использовании рывка
+                Бросьте дымовую бомбу, чтобы телепортироваться к ней и получить бафф «{$Buffs.FirstStrikeBuff.DisplayName}»
+                Прыжки создают взрыв спор
+                Враги, подошедшие слишком близко активируют все эффекты при ударе
+                При получении урона отражает урон
+                При получении урона вызывает кровавый гейзер
+                Атаки по вам могут случайно пискнуть
+                При получении урона вы извергаетесь шипастыми шарами
+                При получении урона вы извергаетесь древними пророчествами
+                Даёт багряное лечение
+                Даёт невосприимчивость к огню
+                Даёт невосприимчивость к урону от падения
+                Даёт невосприимчивость к лаве
+                Даёт невосприимчивость к отбрасыванию
+                Даёт невосприимчивость практически ко всем дебаффам
+                Удваивает сбор растений
+                Даёт 50% шанс на мега-пчёл
+                Даёт 15% шанс для миньонов нанести критический удар
+                Даёт 20% шанс получить дополнительную добычу
+                Позволяет бегать со скоростью звука
+                Позволяет бесконечно летать
+                Значительно увеличивает навык рыбной ловли
+                Все удочки имеют 10 дополнительных поплавков
+                Вы возрождаетесь в 10 раз быстрее
+                Предотвращает появление боссов
+                Увеличивает скорость появления врагов
+                Снижает враждебность скелетов вне Темницы
+                Усиливает Рыброна-милашку
+                Даёт защиту от модификаторов
+                Позволяет контролировать гравитацию
+                Даёт быстрое падение
+                Усиливает крюки
+                Вы притягиваете предметы на большем расстоянии
+                Увеличивает скорость размещения блоков и стен на 50%
+                Почти бесконечный радиус размещения блоков
+                Почти бесконечный радиус добычи
+                Значительно увеличивает скорость добычи
+                Вы отражаете все снаряды
+                При получении урона, вы взрываетесь, нанося урон ближайшим врагам
+                После смерти, вы возрождаетесь с полным здоровьем
+                Эффекты от предмета «{$ItemName.FireGauntlet}»
+                Эффекты от предмета «{$ItemName.YoyoBag}»
+                Эффекты от предмета «{$ItemName.SniperScope}»
+                Эффекты от предмета «{$ItemName.CelestialCuffs}»
+                Эффекты от предмета «{$ItemName.ManaFlower}»
+                Эффекты от предмета «{$ItemName.BrainOfConfusion}»
+                Эффекты от предмета «{$ItemName.StarVeil}»
+                Эффекты от предмета «{$ItemName.SweetheartNecklace}»
+                Эффекты от предмета «{$ItemName.BeeCloak}»
+                Эффекты от предмета «{$ItemName.SporeSac}»
+                Эффекты от предмета «{$ItemName.PaladinsShield}»
+                Эффекты от предмета «{$ItemName.FrozenTurtleShell}»
+                Эффекты от предмета «{$ItemName.ArcticDivingGear}»
+                Эффекты от предмета «{$ItemName.FrogLeg}»
+                Эффекты от предмета «{$ItemName.FlyingCarpet}»
+                Эффекты от предмета «{$ItemName.LavaWaders}»
+                Эффекты от предмета «{$ItemName.AnglerTackleBag}»
+                Эффекты от предмета «{$ItemName.PaintSprayer}»
+                Эффекты от предмета «{$ItemName.ActuationAccessory}»
+                Эффекты от предмета «{$ItemName.CellPhone}»
+                Эффекты от предмета «{$ItemName.FlowerBoots}»
+                Эффекты от предмета «{$ItemName.MasterNinjaGear}»
+                Эффекты от предмета «{$ItemName.CelestialShell}»
+                Эффекты от предмета «{$ItemName.ShinyStone}»
+                Эффекты от предмета «{$ItemName.SpelunkerPotion}»
+                Эффекты от предмета «{$ItemName.TrapsightPotion}»
+                Эффекты от предмета «{$ItemName.HunterPotion}»
+                Эффекты от предмета «{$ItemName.ShinePotion}»
+                Эффекты режима строителя
+                '''
+            Thorium:
+                '''
+                Armor bonuses from Living Wood
+                Armor bonuses from Life Bloom
+                Armor bonuses from Yew Wood
+                Armor bonuses from Tide Hunter
+                Armor bonuses from Icy
+                Armor bonuses from Cryo Magus
+                Armor bonuses from Whispering
+                Armor bonuses from Sacred
+                Armor bonuses from Warlock
+                Armor bonuses from Biotech
+                Armor bonuses from Cyber Punk
+                Armor bonuses from Maestro
+                Armor bonuses from Bronze
+                Armor bonuses from Darksteel
+                Armor bonuses from Durasteel
+                Armor bonuses from Conduit
+                Armor bonuses from Lodestone
+                Armor bonuses from Illumite
+                Armor bonuses from Jester
+                Armor bonuses from Thorium
+                Armor bonuses from Terrarium
+                Armor bonuses from Malignant
+                Armor bonuses from Folv
+                Armor bonuses from White Dwarf
+                Armor bonuses from Celestial
+                Armor bonuses from Spirit Trapper
+                Armor bonuses from Dragon
+                Armor bonuses from Dread
+                Armor bonuses from Flesh
+                Armor bonuses from Demon Blood
+                Armor bonuses from Tide Turner
+                Armor bonuses from Assassin
+                Armor bonuses from Pyromancer
+                Armor bonuses from Dream Weaver
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.FlawlessChrysalis.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.BubbleMagnet.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.AnglerBowl.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.IceBoundStriderHide.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.RingofUnity.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.MixTape.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.EyeoftheStorm.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.ChampionsRebuttal.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.IncandescentSpark.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.GreedyMagnet.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.AbyssalShell.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.AstroBeetleHusk.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.MirroroftheBeholder.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.Crietz.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.ArtificersRocketeers.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.InnerFlame.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.CrashBoots.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.VampireGland.DisplayName}»
+                #Удаленный предмет
+                Effects of Demon Blood Badge
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.BeholderGaze.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.PlagueLordFlask.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.Phylactery.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.CrystalScorpion.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.ThrowingGuideVolume3.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.MermaidCanteen.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.DeadEyePatch.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.SupportSash.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.SavingGrace.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.SoulGuard.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.ArchDemonCurse.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.ArchangelHeart.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.MedicalBag.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.EpicMouthpiece.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.StraightMute.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.DigitalTuner.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.GuitarPickClaw.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.OceanRetaliation.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.TerrariumDefender.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.AirWalkers.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.SurvivalistBoots.DisplayName}»
+                Эффекты от предмета «{$Mods.ThoriumMod.Items.WeightedWinglets.DisplayName}»
+                '''
+            Calamity:
+                '''
+                Эффекты аэрофазового комплекта
+                Эффекты статигелевого комплекта
+                Эффекты комплекта Дедала
+                Эффекты комплекта кровавой вспышки
+                Эффекты комплекта прилива
+                Эффекты возвышенной брони
+                Эффекты омега-синей брони
+                Эффекты комплекта богоубийцы
+                Эффекты комплекта Сильвы
+                Эффекты ауритового тесла-комплекта
+                Эффекты брони моллюска
+                Эффекты комплекта разорителя
+                Эффекты гидротермического комплекта
+                Эффекты астральной брони
+                Эффекты эстрагонового комплекта
+                Эффекты тенедемонической брони
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.SpiritGlyph.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.RaidersTalisman.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.TrinketofChi.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.GladiatorsLocket.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.UnstableGraniteCore.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.CounterScarf.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.FungalSymbiote.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.PermafrostsConcoction.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.Regenator.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.CoreOfTheBloodGod.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.Affliction.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.DeepDiver.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.TheTransformer.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.LuxorsGift.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.TheCommunity.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.AbyssalDivingSuit.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.LumenousAmulet.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.AquaticEmblem.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.NebulousCore.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.DraedonsHeart.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.TheAmalgam.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.GodlySoulArtifact.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.YharimsGift.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.HeartoftheElements.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.TheSponge.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.GiantPearl.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.AmidiasPendant.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.FlameLickedShell.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.PlagueHive.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.Purity.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.HideofAstrumDeus.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.ProfanedSoulArtifact.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.DarkSunRing.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.ElementalGauntlet.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.ElementalQuiver.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.EtherealTalisman.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.StatisVoidSash.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.Nanotech.DisplayName}»
+                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.AsgardianAegis.DisplayName}»
+                '''
+            SOA:
+                '''
+                Armor bonuses from Bismuth
+                Armor bonuses from Frosthunter
+                Armor bonuses from Blightbone
+                Armor bonuses from Dreadfire
+                Armor bonuses from Space Junk
+                Armor bonuses from Marstech
+                Armor bonuses from Blazing Brute
+                Armor bonuses from Cosmic Commander
+                Armor bonuses from Nebulous Apprentic
+                Armor bonuses from Stellar Priest
+                Armor bonuses from Fallen Prince
+                Armor bonuses from Void Warden
+                Armor bonuses from Vulcan Reaper
+                Armor bonuses from Flarium
+                Armor bonuses from Asthraltite
+                Effects of Dreadflame Emblem
+                Effects of Lapis Pendant
+                Effects of Frigid Pendant
+                Effects of Pumpkin Amulet
+                Effects of Nuba's Blessing
+                Effects of Novaniel's Resolve
+                Effects of Celestial Ring
+                Effects of Ring of the Fallen
+                Effects of Memento Mori
+                Effects of Arcanum of the Caster
+                '''
+            DBT:
+                '''
+                Effects of Zenkai Charm
+                Effects of Aspera Crystallite
+                '''
+        }
     }
 
     FlightMasterySoul: {
@@ -3513,9 +3317,9 @@ Items: {
             Увеличивает время полёта на 200%, пробивание брони на 50 и скорость передвижения на 20%
             Увеличивает максимальный запас здоровья на 100%, урон оружия текущего класса на 50% и сопротивление урону на 10%
             Значительно увеличивает регенерацию здоровья; курсор вблизи врагов увеличивает получаемый ими урон
-            Позволяет контролировать гравитацию, быстро падать; даёт невосприимчивость к отбрасыванию и практически ко всем дебаффам режима Вечности и другое
+            Позволяет контролировать гравитацию, быстро падать; даёт невосприимчивость к отбрасыванию и практически ко всем дебаффам режима Вечность и другое
             Автоматически использует зелья маны при необходимостиа
-            Атаки создают дополнительные атаки, сердца и накладывают множество дебаффов режима Вечности
+            Атаки создают дополнительные атаки, сердца и накладывают множество дебаффов режима Вечность
             Увеличивает характеристики, если на вас наложен дебафф «{$BuffName.CursedInferno}» или «{$BuffName.Ichor}»
             Нажмите клавишу «Инсталляция дебаффа», чтобы наложить на себя дебафф и бафф
             Нажмите клавишу «Особый рывок» для короткого неуязвимого рывка огненного шара; нажмите <right>, чтобы отдалить
@@ -3525,7 +3329,7 @@ Items: {
             Снижает размер вашей зоны поражения для вражеских снарядов; удерживайте клавишу «Точное передвижение», чтобы отключить рывки и двойные прыжки
             Нажмите <right>, чтобы своевременно парировать атаку
             Используйте для телепортации на вашу последнюю точку смерти
-            Призывает на помощь всех боссов режима Вечности
+            Призывает на помощь всех боссов режима Вечность
             'Прими в свои объятия мастерство и вечность'
             '''
     }
@@ -3632,7 +3436,7 @@ Items: {
             Даёт переключаемый режим строителя:
             Блоки и стены не будут расходоваться
             Увеличивает скорость и дальность размещения блоков
-            Эффект можно отключить в настройках эффектов душ
+            Эффект можно отключить в меню переключения эффектов
             Эффекты от предметов «{$ItemName.CellPhone}», «{$ItemName.RoyalGel}» и «{$ItemName.TreasureMagnet}»
             Призывает питомца магический фонарь
             'Безграничные возможности'
@@ -3930,7 +3734,7 @@ Items: {
         DisplayName: Вечная энергия
         Tooltip:
             '''
-            Даёт невосприимчивость практически ко всем дебаффам режима Вечности
+            Даёт невосприимчивость практически ко всем дебаффам режима Вечность
             'Доказательство принятия вечности'
             '''
     }
@@ -3942,11 +3746,11 @@ Items: {
 
     EternityAdvisor: {
         DisplayName: Советник Вечности
-        Tooltip:
-            '''
-            Предлагает снаряжение для Режима Вечности, соответствующее вашему прогрессу
-            [c/ff0000:Примечание: эти предложения в настоящее время устарели. Относитесь к ним с недоверием.]
-            '''
+        Tooltip: Предлагает снаряжение для режима Вечность, соответствующее вашему прогрессу
+        General: Общие: {0}
+        ClassSpecific: Классовые: {0}
+        Other: Прочие: {0}
+        Summon: Предмет призыва: {0}
     }
 
     GalacticReformer: {
@@ -3961,6 +3765,8 @@ Items: {
     MutantsFury: {
         DisplayName: Ярость Мутанта
         Tooltip: "'Приводит Мутанта в ярость... или нет'"
+        On: Мутант разозлился!
+        Off: Мутант успокоился.
     }
 
     TopHatSquirrelCaught: {
@@ -4004,6 +3810,78 @@ Items: {
             Она следует за вашей мышью
             'Мило! Мило! Мило!'
             '''
+
+        DeviChatter: {
+            Spawn1: Хэйоу! Не против, если составлю тебе компанию?
+            Spawn2: Я освещу тебе путь!
+            Spawn3: Вперёд, к следующему большому приключению!
+            Spawn4: Позаботься обо мне!
+            Spawn5: Привет, мир!
+            Spawn6: Чиби Деви принимается за дело!
+            Spawn7: Веди!
+            Respawn1: Не позволим этому закончиться так ещё раз!
+            Respawn2: Ещё раз!
+            Respawn3: Глубоко вздохни. Рано или поздно у нас получится!
+            Respawn4: Для победы над нами одной смерти будет мало!
+            Respawn5: Давай посмотрим, может, сможем изменить что-нибудь!
+            Respawn6: Мы сможем!
+            Respawn7: Может, присядем на минутку и отдохнём? Не повредит!
+            Idle1: Собираем всё, что можно собрать!
+            Idle2: Битвы, кровь, деньги - нет ничего лучше, я права?
+            Idle3: Запомни, я не живая консерва.
+            Idle4: Может, попробовать копать взрывными сюрикенами? Хех...
+            Idle5: Ну что, попробуем захватить мир? Шучу! В основном.
+            Idle6: Хочу увидеть, как ты убиваешь больше!
+            Idle7: До сих пор странно, что я называюсь 'светящимся питомцем'...
+            Idle8: Нечего делать? Убей кого-нибудь!
+            Idle9: Держу пари, существует QoL-трюк о котором мы не знаем.
+            Idle10: Не против, если я поиграю с твоей видимостью аксессуаров?
+            Idle11: Забавный факт: моё настоящее имя... секрет! Аха, попался!
+            Idle12: Куда не иди, я следом!
+            Sleep1: Спать хочется...
+            Sleep2: Спокойной ночи...
+            Sleep3: Я вздремну немного...
+            Sleep4: Нужна перезарядка...
+            Sleep5: Разбуди, когда вокруг будет насилие...
+            Wake1: Что я пропустила?
+            Wake2: С добрым утром!
+            Wake3: Время идти? Время идти!
+            Wake4: Проснись и пой!
+            Wake5: Деви пробуждается! Деньги на бочку!
+            ProjDeath1: Нет! Не засовывай меня назад, в эту шляпу!
+            ProjDeath2: Но мне ещё столько надо исследовать!
+            ProjDeath3: Здравствуй, тьма, мой старый друг...
+            ProjDeath4: Пожалуйста, не убирай меня! Я сделаю всё что угодно!
+            PlayerDeath1: Давай, ты сможешь! Ну же, ты см... ой.
+            PlayerDeath2: Заставим их заплатить за это!
+            PlayerDeath3: Нееееет!!!
+            PlayerDeath4: Откуда вообще взялась эта штука?! Нечестно!
+            PlayerDeath5: Да блин! Ладно, в следующий раз прихлопнем.
+            PlayerDeath6: Чего?! Да не может быть!
+            PlayerDeath7: Не так уж и много денег теряешь...
+            BossAlmostDead1: Ну же, почти всё!
+            BossAlmostDead2: Ну же, ты справишься!
+            BossAlmostDead3: Мы на финишной прямой!
+            BossAlmostDead4: Ещё немного!
+            BossAlmostDead5: Кончай с ним скорее!
+            BossAlmostDead6: Это наш шанс!
+            KillBoss1: Какая весёлая битва! Кто следующий?
+            KillBoss2: Нет ничего лучше ощущения победы!
+            KillBoss3: Ещё! Ещё! Ещё!
+            KillBoss4: Кровь богу крови! И под ним я подразумеваю нас.
+            KillBoss5: Деви гейминг.
+            KillBoss6: ЯТТА! Эм, ты ничего не слышал.
+            KillBoss7: Да! Вот то, чего я ждала! В этом вся суть!
+            BossSpawn1: Давай, ты сможешь!
+            BossSpawn2: А вот и босс!
+            BossSpawn3: Я поддерживаю тебя! Давай!
+            BossSpawn4: Ну что, начинаем!
+            BossSpawn5: Мы справимся!
+            BossSpawn6: Делай всё, что в твоих силах!
+            BossSpawn7: Вытри им пол!
+            BossSpawn8: Сделаем же это!
+            Count1: Пссс... слышишь меня? Это секретное сообщение! Здаров!
+        }
     }
 
     EnerGear: {
@@ -4043,6 +3921,7 @@ Items: {
     MechLure: {
         DisplayName: Механическая приманка
         Tooltip: Бросьте, находясь под водой в океане, чтобы привлечь скрытое существо
+        TooltipTravelingMerchant: Может продать странствующий торговец
     }
     
     TheBaronsTusk: {
@@ -4160,8 +4039,9 @@ Items: {
         Tooltip:
             '''
             Призывает порождение Мутанта
-            'Думаешь, ты в безопасности?'
+            'Думаете, вы в безопасности?'
             '''
+        NotSafe: Думаете, вы в безопасности?
     }
     
     HokeyBall: {
@@ -4295,6 +4175,8 @@ Items: {
             Призывает Мерзостть к вам в город
             'Ты ужасный человек'
             '''
+        Summon: Мутант в ярости от гибели своего брата!
+        Fail: Кукла телепортируется обратно в ваши руки. Возможно, её не следовало бы использовать под землёй...
     }
 
     AbomsCurse: {
@@ -4330,6 +4212,19 @@ Items: {
             Нажмите <right> для проверки возможных призывов
             Не расходуется
             '''
+
+        Message: {
+            Timber: Вы окружены шелестом деревьев...
+            Terra: Вокруг вас дрожат камни...
+            Spirit: Сильный дух будоражит...
+            Life: Волна тепла пронизывает вас...
+            Shadow: Ночная тьма кажется глубже...
+            Nature: Дует зелёный ветер...
+            Will: Металлические скрипы доносятся из глубин...
+            Earth: Ядро планеты урчит...
+            Cosmos: Звёзды выстраиваются в ряд...
+            Nothing: Никто не откликается на зов...
+        }
     }
 
     SquirrelCoatofArms: {
@@ -4689,6 +4584,7 @@ Items: {
             Right click on the item in inventory to reset Mutant phase 1 skip
             i forgor
             '''
+        Message: forgor
     }
 
     Masochist: {
@@ -4697,7 +4593,7 @@ Items: {
             '''
             Мир должен быть в режиме Эксперта
             [c/ff0000:Не] предназначен для использования в режиме Мастер
-            Переключает режим Вечности и включает выпадение предметов режима Мастер
+            Переключает режим Вечность и включает выпадение предметов режима Мастер
             Девиантт предоставляет стартовый набор и помощь, основанную на вашем прогрессе
             Увеличивает базовые характеристики
             Предел сопротивления урону игрока составляет 75%
@@ -4706,6 +4602,8 @@ Items: {
             [i:1612][c/00ff00:Рекомендуется использовать «Отображение дебаффов на врагах» (в конфиге мода)]
             [c/ff0000:НЕ ПРЕДНАЗНАЧЕН ДЛЯ ИСПОЛЬЗОВАНИЯ С ДРУГИМИ ГЛОБАЛЬНЫМИ МОДАМИ И УСЛОЖНЕНИЯМИ ИЗ НИХ]
             '''
+        WrongDifficulty: Мир должен быть сложности эксперта или выше!
+        ExtraTooltip: "[i:FargowiltasSouls/MutantsPact] Активирует режим Мазохист, если используется в режиме Мастер"
     }
 
     MasochistReal: {
@@ -4713,9 +4611,12 @@ Items: {
         Tooltip:
             '''
             [c/ff0000:Предмет отладки]
-            <left>: Переключает текущею сессию в режим Мазохиста
-            <right>: Переключает мир в режим Мазохиста
+            <left>: Переключает текущею сессию в режим Мазохист
+            <right>: Переключает мир в режим Мазохист
             '''
+        WorldState: "В настоящее время режим мазо: "
+        VarWorld: "мир: "
+        VarMod: "мод: "
     }
 
     MedallionoftheFallenKing: {
@@ -4777,8 +4678,10 @@ Items: {
         Tooltip:
             '''
             Переключение этого предмета позволяет вам...
-            'Светлая память режиму Мазохиста ЕХ. Я всегда тебя ненавидел'
+            'Светлая память режиму Мазохист ЕХ. Я всегда тебя ненавидел'
             '''
+        On: Страдания продолжаются...
+        Off: Страдания утихают...
     }
 
     FigBranch: {
@@ -4996,6 +4899,19 @@ Items: {
         DisplayName: Икона приближающегося Мутанта
         Tooltip: Существует исключительно для отображения в интерфейсе эффектов душ при наличии Присутствия Мутанта
     }
+    
+    Extra: {
+    	StarlightTungsten: Не подвержен воздействию вольфрамового усиления
+    	DefensePrefixMaxLife: +{0} к максимальному запасу здоровья
+    	EternityItem: Вечность
+    	PatreonItem: >> Предмет покровителя <<
+    	ItemStolen: У вас украли предмет!
+    }
+    
+    GravityTestItem: {
+    	DisplayName: Тестовый предмет гравитации
+    	Tooltip: ""
+    }
 }
 
 NPCs: {
@@ -5004,8 +4920,9 @@ NPCs: {
 
         BossChecklistIntegration: {
             EntryName: Мерзостть
-            SpawnInfo: "{$Mods.FargowiltasSouls.BossChecklist.AbomBossSpawnInfo}"
-            DespawnMessage: "{0} больше не преследует вас..."
+            SpawnInfo: Призывается при использовании [i:FargowiltasSouls/AbomsCurse].
+            DespawnMessage: Мерзостть не нашёл достойного оппонента...
+            KilledAllMessage: Мерзостть уничтожил всех.
         }
     }
 
@@ -5016,8 +4933,8 @@ NPCs: {
 
         BossChecklistIntegration: {
             EntryName: Троянская белка
-            SpawnInfo: "{$Mods.FargowiltasSouls.BossChecklist.TrojanSquirrelSpawnInfo}"
-            DespawnMessage: "{$Mods.FargowiltasSouls.BossChecklist.TrojanSquirrelDespawn}"
+            SpawnInfo: Призывается при использовании [i:FargowiltasSouls/SquirrelCoatofArms].
+            DespawnMessage: Троянская белка возвращается в свой беличий клан...
         }
     }
 
@@ -5029,8 +4946,9 @@ NPCs: {
 
         BossChecklistIntegration: {
             EntryName: Эридан, Чемпион космоса
-            SpawnInfo: "{$Mods.FargowiltasSouls.BossChecklist.CosmosChampionSpawnInfo}"
-            DespawnMessage: "{0} больше не преследует вас..."
+            SpawnInfo: Призывается при использовании [i:FargowiltasSouls/SigilOfChampions] в космосе.
+            DespawnMessage: Эридан, Чемпион космоса возвращается к звёздам...
+            KilledAllMessage: Эридан, Чемпион космоса убивает каждого врага.
         }
     }
 
@@ -5039,8 +4957,8 @@ NPCs: {
 
         BossChecklistIntegration: {
             EntryName: Чемпион планеты
-            SpawnInfo: "{$Mods.FargowiltasSouls.BossChecklist.EarthChampionSpawnInfo}"
-            DespawnMessage: "{$Mods.FargowiltasSouls.BossChecklist.EarthChampionDespawn}"
+            SpawnInfo: Призывается при использовании [i:FargowiltasSouls/SigilOfChampions] в преисподней.
+            DespawnMessage: Чемпион планеты исчезает под магмой...
         }
     }
 
@@ -5053,8 +4971,8 @@ NPCs: {
 
         BossChecklistIntegration: {
             EntryName: Чемпион жизни
-            SpawnInfo: "{$Mods.FargowiltasSouls.BossChecklist.LifeChampionSpawnInfo}"
-            DespawnMessage: "{$Mods.FargowiltasSouls.BossChecklist.LifeChampionDespawn}"
+            SpawnInfo: Призывается при использовании [i:FargowiltasSouls/SigilOfChampions] в освящении днём.
+            DespawnMessage: Чемпион жизни исчезает...
         }
     }
 
@@ -5063,8 +4981,8 @@ NPCs: {
 
         BossChecklistIntegration: {
             EntryName: Чемпион природы
-            SpawnInfo: "{$Mods.FargowiltasSouls.BossChecklist.NatureChampionSpawnInfo}"
-            DespawnMessage: "{$Mods.FargowiltasSouls.BossChecklist.NatureChampionDespawn}"
+            SpawnInfo: Призывается при использовании [i:FargowiltasSouls/SigilOfChampions] в подземных снегах.
+            DespawnMessage: Чемпион природы возвращается к своему сну...
         }
     }
 
@@ -5075,8 +4993,8 @@ NPCs: {
 
         BossChecklistIntegration: {
             EntryName: Чемпион тени
-            SpawnInfo: "{$Mods.FargowiltasSouls.BossChecklist.ShadowChampionSpawnInfo}"
-            DespawnMessage: "{$Mods.FargowiltasSouls.BossChecklist.ShadowChampionDespawn}"
+            SpawnInfo: Призывается при использовании [i:FargowiltasSouls/SigilOfChampions] в искажении или багрянце ночью.
+            DespawnMessage: Чемпион тени исчезает...
         }
     }
 
@@ -5087,8 +5005,8 @@ NPCs: {
 
         BossChecklistIntegration: {
             EntryName: Чемпион духа
-            SpawnInfo: "{$Mods.FargowiltasSouls.BossChecklist.SpiritChampionSpawnInfo}"
-            DespawnMessage: "{$Mods.FargowiltasSouls.BossChecklist.SpiritChampionDespawn}"
+            SpawnInfo: Призывается при использовании [i:FargowiltasSouls/SigilOfChampions] в подземной пустыне.
+            DespawnMessage: Чемпион духа исчезает в пустыне...
         }
     }
 
@@ -5099,8 +5017,8 @@ NPCs: {
 
         BossChecklistIntegration: {
             EntryName: Чемпион земли
-            SpawnInfo: "{$Mods.FargowiltasSouls.BossChecklist.TerraChampionSpawnInfo}"
-            DespawnMessage: "{$Mods.FargowiltasSouls.BossChecklist.TerraChampionDespawn}"
+            SpawnInfo: Призывается при использовании [i:FargowiltasSouls/SigilOfChampions] под землёй.
+            DespawnMessage: Чемпион земли исчезает в пещерах...
         }
     }
 
@@ -5112,8 +5030,8 @@ NPCs: {
 
         BossChecklistIntegration: {
             EntryName: Чемпион леса
-            SpawnInfo: "{$Mods.FargowiltasSouls.BossChecklist.TimberChampionSpawnInfo}"
-            DespawnMessage: "{$Mods.FargowiltasSouls.BossChecklist.TimberChampionDespawn}"
+            SpawnInfo: Призывается при использовании [i:FargowiltasSouls/SigilOfChampions] на поверхности днём.
+            DespawnMessage: Чемпион леса возвращается в свой беличий клан...
         }
     }
 
@@ -5124,8 +5042,8 @@ NPCs: {
 
         BossChecklistIntegration: {
             EntryName: Чемпион воли
-            SpawnInfo: "{$Mods.FargowiltasSouls.BossChecklist.WillChampionSpawnInfo}"
-            DespawnMessage: "{$Mods.FargowiltasSouls.BossChecklist.WillChampionDespawn}"
+            SpawnInfo: Призывается при использовании [i:FargowiltasSouls/SigilOfChampions] в океане.
+            DespawnMessage: Чемпион воли возвращается в глубины...
         }
     }
 
@@ -5147,8 +5065,119 @@ NPCs: {
 
         BossChecklistIntegration: {
             EntryName: Мутант
-            SpawnInfo: "{$Mods.FargowiltasSouls.BossChecklist.MutantBossSpawnInfo}"
-            DespawnMessage: "{0} больше не преследует вас..."
+            SpawnInfo: Бросьте [i:FargowiltasSouls/AbominationnVoodooDoll] в лаву, пока Мерзостть жив в присутствии Мутанта.
+            DespawnMessage: Мутант вновь запечатывает свою силу...
+            KilledAllMessage: Мутант выпотрошил всех своими руками.
+        }
+
+        SkipP1: Мутант устал от шарад...
+
+        GFBText: {
+            Random0: Хихи-хи-хи...
+            Random1: Тебе нравится эта боль?
+            Random2: Этот трепет...
+            Random3: Я покончу с этим.
+            Random4: Глупый террариец...
+            Random5: Пусть на твоей убогой могиле будет написано: сражён мутантом.
+            Random6: Никто не достоин звания Вечного.
+            Random7: Да пребудет с тобой вечная боль.
+            Random8: Ты недостоин Вечной души.
+            Random9: Устрашайся перед моей мощью.
+            Random10: Проникатель вздрогнул...
+            Random11: Склонись перед истинной силой!
+            Random12: Сила - это субъективное понятие. Абсолютная власть - это объективное явление.
+            Random13: Стань свидетелем настоящего катаклизма.
+            Random14: Я могу назвать все цифры числа Пи, прежде чем ты сможешь меня одолеть.
+            Random15: Это только прелюдия.
+            Random16: Даже не пытайся увернуться.
+            Random17: Я тренировался для такого боя веками!
+            Random18: Уничтожь слабых
+            Random19: Тут тебе везение не поможет.
+            Random20: Я наполню чашу твоей кровью
+            Random21: В конечном итоге вы все такие мелкие. Не я, конечно.
+            Random22: Я разнесу тебя на кусочки!
+            Random23: Проклинаю тебя силой луны!
+            Random24: Это лишь капля в море моей силы!
+            Random25: Твоя “сила” - ничто по сравнению со мной.
+            Random26: Чем больше ты меня бьёшь, тем сильнее я становлюсь.
+            Random27: Думаешь, ты меня победишь?
+            Random28: Я бесподобен. Я непобедим.
+            Random29: Всё в итоге превратится в пыль.
+            Random30: Ты готов взять на себя ответственность?
+            Random31: СПАСЕНИЯ НЕТ!
+            Random32: Бог хочет, чтобы ты страдал, а я - Бог.
+            Random33: Ты не достоин существовать!
+            Random34: Твоя жизнь мимолётна. Теперь тебе только и остаётся, что умереть.
+            Random35: Силы земли на моей стороне.
+            Random36: Я растопчу тебя!
+            Random37: Разлетелся вдребезги, как стекло.
+            Random38: Слушай, если ты прекратишь нападать, может, я тебя пощажу.
+            Random39: ТЫ СТАНЕШЬ ПРОСТО ВОСПОМИНАНИЕМ!
+            Random40: Я СДЕЛАЮ ТАК, ЧТО ХОРОНИТЬ УЖЕ БУДЕТ НЕКОГО!
+            Random41: ДАЖЕ АДСКИЙ ОГОНЬ НЕ СРАВНЯТСЯ С ЭТИМ!
+            Random42: Слушай, кажется, твои клетки слишком далеко друг от друга. Не хочешь, я это исправлю?
+            Random43: Я разорву тебя на атомы!
+            Random44: Ты как ребёнок, который бесится перед вечным богом.
+            Random45: Я покрою эти души твоей кровью!
+            Random46: Узри могущество Террарии!
+            Random47: Узри силу Вселенной!
+            Random48: Из пылающего пламени рождается моя победа!
+            Random49: Забудь о своих божественных амбициях!
+            Random50: Твои жалкие косточки переломятся одна за другой.
+            Random51: Великое бедствие, во всей красе!
+            Random52: Доживёшь ли ты до конца?
+            Random53: Больно же!
+            Random54: Ты не можешь причинить мне боль.
+            Random55: Разлетелся вдребезги, как стекло.
+            Random56: Потускнел, словно пепел.
+            Random57: Депрессия тебя совсем затуманила?
+            Random58: Слышишь крики своих будущих смертей?
+            Random59: Они зовут меня Жестоким богом вечности.
+            Random60: А ещё попробуй режим Сатаниста.
+            Random61: Даже Фарго не ровня мне по силе!
+            Random62: Ты меня на фальшивые деньги развёл, и теперь я тебя накажу!
+            Random63: Что такое Touhou?
+            Random64: Все деньги, которые ты мне дал, только сделали меня сильнее.
+            Random65: Обведи это!!!
+            Random66: ВСЁ ЗАКОНЧИТСЯ СЕГОДНЯ!
+            Random67: Твоя неминуемая смерть уже близко, червяк!
+            Random68: Я раздавлю твоё никчёмное существование.
+            Random69: Ты скоро умрёшь, и никто не узнает о том, что случилось!
+            Random70: ТЫ ДЕРЗАЕШЬ БРОСИТЬ ВЫЗОВ МНЕ, ВЕЧНОМУ? ТОМУ, КТО ОПРЕДЕЛЯЕТ СУДЬБУ МИРА И ВРЕМЕНИ? Я ВЕЧНЫЙ, Я БЕССМЕРТНЫЙ. ТЫ ПОХОЖ НА МУРАВЬЯ В УМИРАЮЩЕЙ ПЕСОЧНОЙ ДЮНЕ, А Я - ПАЛЯЩЕЕ СОЛНЦЕ. ТЫ БУДЕШЬ РАЗДРОБЛЕН И РАЗОРВАН В КЛОЧЬЯ ДО ТЕХ ПОР, ПОКА НЕ ОСТАНЕТСЯ НИЧЕГО, КРОМЕ ПЕПЛА И СВЕТА! КАЖДОЕ ТВОЁ ДЕЯНИЕ МЕРКНЕТ В СРАВНЕНИИ С МОЕЙ ВЕЧНОСТЬЮ! Я ОБЛАДАТЕЛЬ КУЛАКА ГОЛЕМА, ПРИЗРАЧНОГО ГЛАЗА, ВЬЮЩЕЙСЯ ЛОЗЫ, НЕУТОМИМОЙ ПЧЕЛЫ, ГЕНИАЛЬНОГО МОЗГА И КРЫЛЬЕВ ОХОТНИКА! ТЫ БУДЕШЬ ЗАБЫТ ИСТОРИЕЙ, НИЧТОЖНЫЙ ЧЕРВЬ!
+            Quote1: Давай сюда. То, что управляет твоей душой.
+            Quote2: Надеюсь, ты готов к страданиям.
+            Quote3: Хватит валять дурака.
+            Quote4: Ощути ярость Проникателя!
+            Quote5: Ах ты ж!
+            Quote6: Лучи смерти!
+            Quote7: Ощути мою силу.
+            Quote8: Мой клинок поразит тебя!
+            Quote9: Ощути гнев Проникателя!
+            Quote10: Ах-х-х ты ж!
+            Quote11: Ощути мою силу.
+            Quote12: Солнце, вихрь, туманность и звёздная пыль... все объединились против тебя.
+            Quote13: Я был зловещим присутствием, наблюдавшим за всем.
+            Quote14: Истинная сила Проникателя!
+            Quote15: Ого!
+            Quote16: Мир содрогается...
+            Quote17: Механическая ярость...
+            Quote18: Порыв Рыброна!
+            Quote19: Если ты не сможешь увернуться, то пеняй на себя.
+            Quote20: Зачем я это использую?
+            Quote21: Ты сможешь за мной угнаться?
+            Quote22: Сколько бы ты ни сражался в этой битве, ты никогда не победишь! Я беспощадный бог вечности. Я владею ветвями Иггдрасиля и Рагнарёка, бушующей серой Бедствия, вечными тенями Священных инструментов, небесно-голубой Магией, священными Духами таинственных земель, возвышающейся силой вознесённого Авалона, всемогущим благословением Кольца Провидца, пробуждённой сущностью затерянных Древних, всепрожигающим светом и тенью сияющего вселенского Раскола, искажающими мир машинами и формирующими города инструментами Луи и космической конвергенцией, которая предвещает Охоту старого бога!
+            Quote23: Природа восстала против тебя.
+            Quote24: Сокрушительный удар Императрицы! 
+            Quote25: Ты что, думал, что я уже выдохся?
+            Quote26: ДА ТЫ НИЧТО ПО СРАВНЕНИЮ С ИЗВЕРГНУТЫМИ ДУХАМИ! Я НЕСУ КОНЕЦ ГЛУПЦАМ И НЕДОСТОЙНЫМ! ДУМАЕШЬ, ТЫ МОЖЕШЬ МЕНЯ ПОБЕДИТЬ? МОЖЕТ БЫТЬ, ЧЕРЕЗ ДВЕ ВЕЧНОСТИ!!!
+            Quote27: УМРИ, ГЛУПЫЙ ТЕРРАРИЕЦ! ОНИ СКАЗАЛИ, ЧТО ВСЕГО ТРИ ПРЕДВЕСТНИКА КОНЦА, НО Я - ЧЕТВЕРТЫЙ, РАЗРУШИТЕЛЬ РЕАЛЬНОСТИ! АД НЕ ПРИНИМАЕТ ТАКОГО ОТРЕБЬЯ, КАК ТЫ, ТАК ЧТО СТРАДАЙ ВЕЧНО В МОЁМ НЕСКОНЧАЕМОМ НАТИСКЕ БЕЗГРАНИЧНОЙ СИЛЫ, ПОТЕНЦИАЛЕ ВЕЧНОСТЕЙ, РАСТЯНУТОМ ДО АБСОЛЮТНОГО АПОФЕОЗА! ТВОЯ НЕЧЕСТИВАЯ ДУША БУДЕТ ПОГЛОЩЕНА ГЛУБИНАМИ, БОЛЕЕ ГЛУБОКИМИ, ЧЕМ САМ АД!
+            Quote28: Я ПОВЕЛЕВАЮ СИЛОЙ, КОТОРАЯ ПРИШЛА ИЗ САМЫХ ДАЛЬНИХ УГОЛКОВ ВСЕЛЕННОЙ, ОБЪЕДИНЯЯ ИЗМЕРЕНИЯ, МАНИПУЛИРУЯ ТЕРРАРИЕЙ, УНИЧТОЖАЯ МАЗОХИСТОВ И ВЕРША СУДЬБЫ НЕБЕС! СТОЛЕТИЯМИ Я СОВЕРШЕНСТВОВАЛ СВОИ УМЕНИЯ, СТРЕМЯСЬ К ЕДИНСТВЕННОЙ ЦЕЛИ: ОЧИСТИТЬ МИР ОТ НЕДОСТОЙНЫХ, СОКРУШИТЬ СЛАБЫХ И ЯВИТЬ ИСТИННУЮ МОЩЬ. В ВЫСШИХ СФЕРАХ НЕБЕС МОЙ БРАТ ВЛАСТВУЕТ НАД НЕБЕСАМИ! СКОРО ВСЯ ТЕРРАРИЯ БУДЕТ ОСВОБОЖДЕНА ОТ НЕДОСТОЙНЫХ, И НАЧНЁТСЯ НОВАЯ ЭРА! ЭРА ВЕЛИЧИЯ! ЗОЛОТОЙ ВЕК, ГДЕ ОБИТАЮТ ЛИШЬ СОВЕРШЕННЫЕ СУЩЕСТВА! СМЕРТЬ, АД, ПРИЛИВЫ; Я - ОМЕГА И АЛЬФА, НАЧАЛО И КОНЕЦ! ВСЕМОГУЩАЯ СИЛА; ОТКРОВЕНИЯ. АБСОЛЮТНОЕ СУЩЕСТВО, АБСОЛЮТНАЯ ЧИСТОТА.
+            Quote29: В ЭТОМ НИЧТОЖНОМ МИРЕ СМЕРТНЫХ Я ДОСТИГ СИЛЫ, КОТОРАЯ КОГДА-ТО БЫЛА ИЗГНАНА НА КРАЙ ГАЛАКТИКИ! Я ВЫЗЫВАЮ БЕДСТВИЯ, КАТАСТРОФЫ И КАТАКЛИЗМЫ; ЖУТКИЕ СИЛЫ, ПРОИСХОДЯЩИЕ ОТ АБСОЛЮТНОГО СЛОВА СУДЬБЫ. ПОЧУВСТВУЙ, КАК МОЯ ВЕЗДЕСУЩАЯ ЯРОСТЬ ВБИВАЕТ ТЕБЯ В ЗЕМЛЮ, КАК ТВОРЕЦ МИРА ВОПЛОЩАЕТ СВОЙ МИР В РЕАЛЬНОСТЬ!
+            Quote30: ЗРЕНИЕ СТРЕЛКА МЕРКНЕТ В СРАВНЕНИИ С МОИМ ВОСПРИЯТИЕМ РЕАЛЬНОСТИ! ЯРОСТЬ БЕРСЕРКА - ЛИШЬ ДЕТСКАЯ ЗАБАВА! БОГИ ОЛИМПА - ЛИШЬ СЛАБАКИ, А АРХИМАГИ - ШАРЛАТАНЫ! ВЛАДЕНИЕ ПОЛЁТОМ И ЖЕЛЕЗНАЯ ВОЛЯ КОЛОССА - ЭТО ЛИШЬ НАЧАЛЬНЫЕ СТУПЕНИ МОЕГО МАСТЕРСТВА! Я ВЛАДЕЮ МАГИЕЙ ЖИЗНИ, И Я МОГУ ЛЕТАТЬ СО СВЕРХЗВУКОВОЙ СКОРОСТЬЮ. Я СОКРУШУ ТЕБЯ, ГЛУПЫЙ ШУТ!
+            Quote31: АААААААААААААААААААААААААА
+            Quote32: Я ни о чём не жалею в своей жизни!
+            Quote33: Да, я вспомнил... моё воскрешение...
+            Quote34: А ты неплохо справляешься...
         }
     }
 
@@ -5159,8 +5188,21 @@ NPCs: {
 
         BossChecklistIntegration: {
             EntryName: Девиантт
-            SpawnInfo: "{$Mods.FargowiltasSouls.BossChecklist.DeviBossSpawnInfo}"
-            DespawnMessage: "{0} больше не преследует вас..."
+            SpawnInfo: Призывается при использовании [i:FargowiltasSouls/DevisCurse].
+            DespawnMessage: Девиантт устаёт от битвы...
+            KilledAllMessage: Девиантт удовлетворена этим проявлением любви.
+        }
+
+        Bribe: {
+            Line1: Секундочку...
+            Line2: Ты бросаешь в меня деньги!
+            Line3: Пытаться подкупить меня - довольно смело, знаешь ли!
+            Accept1: Но, опять же, это большие деньги...
+            Accept2: Но мой старший брат сказал не делать этого! Что делать, что делать?..
+            Accept3: Ай, чёрт с тобой! Но это наш маленький секрет, хорошо?
+            Reject1: Докажи свою крутость и я не буду возражать, но ни секундой раньше!
+            Reject2: Вот, можешь забрать это обратно.
+            Reject3: Ну что, начнём нашу вечеринку!
         }
     }
 
@@ -5171,9 +5213,11 @@ NPCs: {
 
         BossChecklistIntegration: {
             EntryName: Свет жизни
-            SpawnInfo: "{$Mods.FargowiltasSouls.BossChecklist.LifeChallengerSpawnInfo}"
-            DespawnMessage: "{$Mods.FargowiltasSouls.BossChecklist.LifeChallengerDespawn}"
+            SpawnInfo: Призывается при использовании [i:FargowiltasSouls/FragilePixieLamp] в освящении днём.
+            DespawnMessage: Свет жизни исчезает...
         }
+        
+        FatherOfLies: Было ошибкой прийти сюда.
     }
     
     BanishedBaron: {
@@ -5181,15 +5225,55 @@ NPCs: {
 
         BossChecklistIntegration: {
             EntryName: Изгнанный барон
-            SpawnInfo: "{$Mods.FargowiltasSouls.BossChecklist.BanishedBaronSpawnInfo}"
-            DespawnMessage: "{$Mods.FargowiltasSouls.BossChecklist.BanishedBaronDespawn}"
+            SpawnInfo: Призывается при использовании [i:FargowiltasSouls/MechLure] под водой в океане.
+            DespawnMessage: Изгнанный барон погружается глубже в океан...
         }
+        
+        Slurp: чавк
     }
 
     DetonatingBubbleNPC.DisplayName: Взрывающийся пузырь
     StardustMinion.DisplayName: Клетка звёздной пыли
+    StardustDragon.DisplayName: Дракон звёздной пыли
     SlimeSwarm.DisplayName: Слизневый рой
     Magmaw.DisplayName: Магмарь
+    DukeFishronEX.DisplayName: Герцог Рыброн ЕХ
+    
+    EMode: {
+        Betsy1: КРИНЖАНУЛ
+        Betsy2: НЕ POGGERS
+        Betsy3: MONKAS
+        Betsy4: ПОКАЖИ КРЫЛЬЯ
+        Betsy5: ЛОЛ, ГРОЗА НЕБЕС
+        Betsy6: И ГДЕ БОСС?
+        Betsy7: "#ЭТОНЕМОЙМАЗОРЕЖИМ"
+        Betsy8: АРМИЯ ДРЕВНИХ ВСЁ РАВНО СОСАТТ
+        Betsy9: СМИРИСЬ
+        Betsy10: Сложность чёт высокая
+        Betsy11: Сложность чёт низкая
+        Betsy12: POGGERS
+        Betsy13: ResidentSleeper
+        Betsy14: если читаешь это, то скажи 22
+        Betsy15: GuraSit
+        Betsy16: сыграй в Каламити
+        Betsy17: сыграй в Ториум
+        Betsy18: когда хардкор с 1хп?
+        Betsy19: а теперь сделай это медным кинжалом
+        Betsy20: Йо-йо-Зенит?
+        Betsy21: люди, с чем идти на мунлорда
+        Betsy22: ЧУВАКИ, МНЕ ТЕРРАПРИЗМА ВЫПАЛА
+        Betsy23: а где найти обновление мода
+        Betsy24: Здаров, Ютуб!
+        Betsy25: <Сообщение удалено модерацией>
+        Betsy26: "<Пользователь {0} был забанен"
+        Betsy27: "<Пользователь {0} был замьючен"
+        RegrowArms: "{0} отрастил себе руки!"
+        GuardianForm: "{0} превратился в стража Темницы!"
+        TwinsEndure: "{0} переживает смертельный удар, чтобы сражаться вместе со своим близнецом!"
+        TwinsRevive: "{0} возрождается!"
+        GelatinSubjects: Желатиновый объект пробуждается!
+        QueenBeeEnrage: "{$NPCName.QueenBee} входит в ярость за пределами джунглей!"
+    }
 }
 
 Tiles: {
@@ -5208,7 +5292,6 @@ Tiles: {
 }
 
 Projectiles: {
-    AbomBoss.DisplayName: ""
     AbomDeathScythe.DisplayName: Abominationn Scythe
     AbomDeathray.DisplayName: Abominable Deathray
     AbomDeathrayMark.DisplayName: Deathray
@@ -5256,7 +5339,6 @@ Projectiles: {
     DungeonGuardian.DisplayName: Dungeon Guardian
     EaterRocket.DisplayName: Eater Rocket
     EyeFireFriendly.DisplayName: Eye Fire
-    EyeProjectile2.DisplayName: ""
     FishNuke.DisplayName: Fish Nuke
     FishNukeExplosion.DisplayName: Fish Nuke
     FishStickProj.DisplayName: Fish Stick
@@ -5342,8 +5424,6 @@ Projectiles: {
     CosmosBolt.DisplayName: Cosmic Bolt
     CosmosDeathray.DisplayName: Cosmic Deathray
     CosmosDeathray2.DisplayName: Cosmic Deathray
-    CosmicFireball.DisplayName: ""
-    CosmicFireball2.DisplayName: ""
     CosmosGlowything.DisplayName: Cosmic Invader
     CosmosInvader.DisplayName: Cosmic Invader
     CosmosInvaderTime.DisplayName: Cosmic Invader
@@ -5381,9 +5461,7 @@ Projectiles: {
     NatureRain.DisplayName: Nature Rain
     ShadowClone.DisplayName: Champion of Shadow
     ShadowDeathraySmall.DisplayName: Shadow Deathray
-    ShadowFlameScythe.DisplayName: ""
     ShadowGuardian.DisplayName: Dungeon Guardian
-    ShadowOrb.DisplayName: ""
     SpiritCrossBone.DisplayName: Cross Bone
     SpiritCrossBoneReverse.DisplayName: Cross Bone
     SpiritHand.DisplayName: Spirit Hand
@@ -5408,7 +5486,6 @@ Projectiles: {
     TimberTreeAcorn.DisplayName: Acorn
     WillBomb.DisplayName: Will Bomb
     WillDeathray.DisplayName: Will Deathray
-    WillDeathray2.DisplayName: ""
     WillDeathraySmall.DisplayName: Will Deathray
     WillFireball.DisplayName: Fireball
     WillFireball2.DisplayName: Fireball
@@ -5428,14 +5505,12 @@ Projectiles: {
     DeviDeathraySmall.DisplayName: Love Ray
     DeviLightBeam.DisplayName: Light Ray
     GolemBeam.DisplayName: Blazing Deathray
-    PhantasmalDeathray.DisplayName: ""
     PhantasmalDeathrayML.DisplayName: Phantasmal Deathray II
     PhantasmalDeathrayMLSmall.DisplayName: Phantasmal Deathray II
     PhantasmalDeathrayWOF.DisplayName: Divine Deathray
     PhantasmalDeathrayWOFS.DisplayName: Divine Deathray
     DeviAxe.DisplayName: Sparkling Love
     DeviBigMimic.DisplayName: Biome Mimic
-    DeviBoss.DisplayName: ""
     DeviButterfly.DisplayName: Moth
     DeviEnergyHeart.DisplayName: Energy Heart
     DeviGuardian.DisplayName: Baby Guardian
@@ -5493,8 +5568,6 @@ Projectiles: {
     CultistFireball.DisplayName: Fireball
     CultistRitual.DisplayName: Cultist Ritual
     CultistVortex.DisplayName: Vortex
-    CultistFireballHoming.DisplayName: ""
-    CuresedFlameHostile2.DisplayName: ""
     CursedFlamethrower.DisplayName: Eye Fire
     DarkStar.DisplayName: Dark Star
     DarkStarDestroyer.DisplayName: Dark Star
@@ -5507,7 +5580,6 @@ Projectiles: {
     DrakanianDaybreak.DisplayName: Daybreak
     ElfArcherArrow.DisplayName: Frostburn Arrow
     ElfCopterBullet.DisplayName: Explosive Bullet
-    ElfcopterBulletExplosion.DisplayName: ""
     EyeBeam2.DisplayName: Eye Beam
     EyeFire2.DisplayName: Eye Fire
     FakeHeart.DisplayName: Fake Heart
@@ -5551,7 +5623,6 @@ Projectiles: {
     MoonLordSun.DisplayName: Sun
     MoonLordSunBlast.DisplayName: Sun Blast
     MoonLordVortex.DisplayName: Vortex
-    MoonLordvortexOld.DisplayName: ""
     MothDust.DisplayName: Moth Dust
     MothronZenith.DisplayName: Zenith
     PhantasmalBolt2.DisplayName: Phantasmal Bolt
@@ -5655,7 +5726,6 @@ Projectiles: {
     BossRush.DisplayName: Mutant Seal
     MutantBomb.DisplayName: Phantasmal Blast
     MutantBombSmall.DisplayName: Phantasmal Blast
-    MutantBoss.DisplayName: ""
     MutantCrystalLeaf.DisplayName: Crystal Leaf
     MutantDeathray1.DisplayName: Phantasmal Deathray
     MutantDeathray2.DisplayName: Phantasmal Deathray
@@ -5796,23 +5866,17 @@ Projectiles: {
     NanoBlade.DisplayName: Plasma Blade
     NanoProbe.DisplayName: Nano Probe
     PlasmaArrow.DisplayName: Plasma Arrow
-    PlasmaDeathray.DisplayName: ""
     PlasmaProj.DisplayName: Plasma Bolt
-    GlowRingHallow.DisplayName: ""
     AbomBlast.DisplayName: Phantasmal Blast
     AbomFlocko2.DisplayName: Super Flocko
     AbomFlocko3.DisplayName: Super Flocko
     AbomLaser.DisplayName: Laser
     EyeProjectile.DisplayName: EyeProjectile2
     HentaiSpearDash.DisplayName: The Penetrator
-    HentaiSpearRing.DisplayName: ""
     CosmosFireball.DisplayName: Cosmic Fireball
     CosmosFireball2.DisplayName: Cosmic Fireball
-    EatrhPalladOrb.DisplayName: ""
     ShadowFlameburst.DisplayName: Flameburst
     ShadowFlamingScythe.DisplayName: Flaming Scythe
-    TimerPalmTree.DisplayName: ""
-    WireFireball2.DisplayName: ""
     DeviRitual2.DisplayName: Deviantt Seal
     CursedFireballHoming.DisplayName: Cursed Flame
     CursedFlameHostile2.DisplayName: Cursed Flame
@@ -5916,11 +5980,15 @@ Projectiles: {
     PungentEyeballMinion.DisplayName: Pungent Eyeball Minion
     MinosPrime.DisplayName: Minos Prime
     RainLightning.DisplayName: Rain Lightning
+    PlanteraThornChakram.DisplayName: Plantera Thorn Chakram
+    PlanteraRitual.DisplayName: Plantera Ritual
+    PlanteraManEater.DisplayName: Plantera Man Eater
+    PlanteraSnatcher.DisplayName: Plantera Snatcher
+    PlanteraTrapper.DisplayName: Plantera Trapper
+    PlanteraMushroomThing.DisplayName: Plantera Mushroom Thing
+    RainExplosion.DisplayName: Rain Explosion
 }
 
-MasoHeader: "[i:FargowiltasSouls/MutantStatue][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoHeader}]"
-MasoBossRecolors: "[i:FargowiltasSouls/Masochist][c/ffffff:{$Mods.FargowiltasSouls.Toggler.MasoBossRecolors}]"
-MasoCanPlay: "[i:FargowiltasSouls/Masochist][c/ff0000:{$Mods.FargowiltasSouls.Toggler.MasoCanPlay}]"
 PetHeader: "[i:2420][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetHeader}]"
 PetDinoConfig: "[i:1242][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetDinoConfig}]"
 PetEaterConfig: "[i:994][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetEaterConfig}]"
@@ -5994,44 +6062,33 @@ PetBetsyConfig: "[i:4817][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetBetsyConfi
 PetMartianConfig: "[i:4815][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetMartianConfig}]"
 PetLCConfig: "[i:4809][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetLCConfig}]"
 PetMLConfig: "[i:4810][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetMLConfig}]"
-PatreonHeader: "[i:FargowiltasSouls/RoombaPet][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PatreonHeader}]"
-PatreonRoomba: "[i:FargowiltasSouls/RoombaPet][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PatreonRoomba}]"
-PatreonOrb: "[i:FargowiltasSouls/ComputationOrb][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PatreonOrb}]"
-PatreonFishingRod: "[i:FargowiltasSouls/MissDrakovisFishingPole][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PatreonFishingRod}]"
-PatreonDoor: "[i:FargowiltasSouls/SquidwardDoor][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PatreonDoor}]"
-PatreonWolf: "[i:FargowiltasSouls/ParadoxWolfSoul][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PatreonWolf}]"
-PatreonDove: "[i:FargowiltasSouls/FigBranch][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PatreonDove}]"
-PatreonKingSlime: "[i:FargowiltasSouls/MedallionoftheFallenKing][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PatreonKingSlime}]"
-PatreonFishron: "[i:FargowiltasSouls/StaffOfUnleashedOcean][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PatreonFishron}]"
-PatreonPlant: "[i:FargowiltasSouls/PiranhaPlantVoodooDoll][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PatreonPlant}]"
-PatreonDevious: "[i:FargowiltasSouls/DeviousAestheticus][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PatreonDevious}]"
-PatreonVortex: "[i:FargowiltasSouls/VortexMagnetRitual][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PatreonVortex}]"
-PatreonPrime: "[i:FargowiltasSouls/PrimeStaff][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PatreonPrime}]"
-PatreonCrimetroid: "[i:FargowiltasSouls/CrimetroidEgg][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PatreonCrimetroid}]"
-PatreonNanoCore: "[i:FargowiltasSouls/NanoCore][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PatreonNanoCore}]"
-PatreonROB: "[i:FargowiltasSouls/ROBGyro][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PatreonROB}]"
 
 Keybinds: {
     Freeze.DisplayName: Заморозка
-    "Turn Gold.DisplayName": Превращение в золото
-    "Throw Smoke Bomb.DisplayName": Дымовая бомба
-    "Special Dash.DisplayName": Особый рывок
+    Gold.DisplayName: Превращение в золото
+    SmokeBomb.DisplayName: Дымовая бомба
+    SpecialDash.DisplayName: Особый рывок
     Bomb.DisplayName: Бомба
-    "Open Soul Toggler.DisplayName": Настройки эффектов душ
-    "Precision Movement.DisplayName": Точное передвижение
-    "Magical Cleanse.DisplayName": Магическое очищение
-    "Frigid Spell.DisplayName": Холодное заклинание
-    "Debuff Install.DisplayName": Инсталляция дебаффа
-    "Ammo Cycle.DisplayName": Смена боеприпаса
+    EffectToggle.DisplayName: Меню переключения эффектов
+    PrecisionSeal.DisplayName: Точное передвижение
+    MagicalBulb.DisplayName: Магическое очищение
+    FrigidSpell.DisplayName: Холодное заклинание
+    DebuffInstall.DisplayName: Инсталляция дебаффа
+    AmmoCycle.DisplayName: Смена боеприпаса
 }
 
 Configs: {
     SoulConfig: {
         DisplayName: Конфигурация Soul
 
+        Headers: {
+            Maso: Режим Вечность
+            Patreon: "[i:FargowiltasSouls/RoombaPet] [c/ffffff:Предметы Патронов]"
+        }
+
         HideTogglerWhenInventoryIsClosed: {
             Label: Переключатель эффектов только при открытом инвентаре
-            Tooltip: Если включено, переключатель эффектов
+            Tooltip: Если включено, переключатель эффектов будет автоматически скрываться при закрытии инвентаря.
         }
 
         DeviChatter: {
@@ -6059,204 +6116,96 @@ Configs: {
             Tooltip: Если выключено, режим точности переключается нажатием клавиши.
         }
 
+        PreBossNightGlow: {
+            Label: Свечение врагов в пре-боссе
+            Tooltip: В режиме Вечность все враги светятся ночью, пока ни один босс ещё не был убит.
+        }
+
         OncomingMutantX: {
-            Label: Позиция по X иконки режима Вечности
+            Label: Позиция по X иконки режима Вечность
             Tooltip: ""
         }
 
         OncomingMutantY: {
-            Label: Позиция по Y иконки режима Вечности
+            Label: Позиция по Y иконки режима Вечность
             Tooltip: ""
         }
 
         PatreonRoomba: {
-            Label: "{$Mods.FargowiltasSouls.PatreonRoomba}"
+            Label: "[i:FargowiltasSouls/RoombaPet] [c/ffffff:{$Mods.FargowiltasSouls.Items.RoombaPet.DisplayName}]"
             Tooltip: ""
         }
 
         PatreonOrb: {
-            Label: "{$Mods.FargowiltasSouls.PatreonOrb}"
+            Label: "[i:FargowiltasSouls/ComputationOrb] [c/ffffff:{$Mods.FargowiltasSouls.Items.ComputationOrb.DisplayName}]"
             Tooltip: ""
         }
 
         PatreonFishingRod: {
-            Label: "{$Mods.FargowiltasSouls.PatreonFishingRod}"
+            Label: "[i:FargowiltasSouls/MissDrakovisFishingPole] [c/ffffff:{$Mods.FargowiltasSouls.Items.MissDrakovisFishingPole.DisplayName}]"
             Tooltip: ""
         }
 
         PatreonDoor: {
-            Label: "{$Mods.FargowiltasSouls.PatreonDoor}"
+            Label: "[i:FargowiltasSouls/SquidwardDoor] [c/ffffff:{$Mods.FargowiltasSouls.Items.SquidwardDoor.DisplayName}]"
             Tooltip: ""
         }
 
         PatreonWolf: {
-            Label: "{$Mods.FargowiltasSouls.PatreonWolf}"
+            Label: "[i:FargowiltasSouls/ParadoxWolfSoul] [c/ffffff:{$Mods.FargowiltasSouls.Items.ParadoxWolfSoul.DisplayName}]"
             Tooltip: ""
         }
 
         PatreonDove: {
-            Label: "{$Mods.FargowiltasSouls.PatreonDove}"
+            Label: "[i:FargowiltasSouls/FigBranch] [c/ffffff:{$Mods.FargowiltasSouls.Items.FigBranch.DisplayName}]"
             Tooltip: ""
         }
 
         PatreonKingSlime: {
-            Label: "{$Mods.FargowiltasSouls.PatreonKingSlime}"
+            Label: "[i:FargowiltasSouls/MedallionoftheFallenKing] [c/ffffff:{$Mods.FargowiltasSouls.Items.MedallionoftheFallenKing.DisplayName}]"
             Tooltip: ""
         }
 
         PatreonFishron: {
-            Label: "{$Mods.FargowiltasSouls.PatreonFishron}"
+            Label: "[i:FargowiltasSouls/StaffOfUnleashedOcean] [c/ffffff:{$Mods.FargowiltasSouls.Items.StaffOfUnleashedOcean.DisplayName}]"
             Tooltip: ""
         }
 
         PatreonPlant: {
-            Label: "{$Mods.FargowiltasSouls.PatreonPlant}"
+            Label: "[i:FargowiltasSouls/PiranhaPlantVoodooDoll] [c/ffffff:{$Mods.FargowiltasSouls.Items.PiranhaPlantVoodooDoll.DisplayName}]"
             Tooltip: ""
         }
 
         PatreonDevious: {
-            Label: "{$Mods.FargowiltasSouls.PatreonDevious}"
+            Label: "[i:FargowiltasSouls/DeviousAestheticus] [c/ffffff:{$Mods.FargowiltasSouls.Items.DeviousAestheticus.DisplayName}]"
             Tooltip: ""
         }
 
         PatreonVortex: {
-            Label: "{$Mods.FargowiltasSouls.PatreonVortex}"
+            Label: "[i:FargowiltasSouls/VortexMagnetRitual] [c/ffffff:{$Mods.FargowiltasSouls.Items.VortexMagnetRitual.DisplayName}]"
             Tooltip: ""
         }
 
         PatreonPrime: {
-            Label: "{$Mods.FargowiltasSouls.PatreonPrime}"
+            Label: "[i:FargowiltasSouls/PrimeStaff] [c/ffffff:{$Mods.FargowiltasSouls.Items.PrimeStaff.DisplayName}]"
             Tooltip: ""
         }
 
         PatreonCrimetroid: {
-            Label: "{$Mods.FargowiltasSouls.PatreonCrimetroid}"
+            Label: "[i:FargowiltasSouls/CrimetroidEgg] [c/ffffff:{$Mods.FargowiltasSouls.Items.CrimetroidEgg.DisplayName}]"
             Tooltip: ""
         }
 
         PatreonNanoCore: {
-            Label: "{$Mods.FargowiltasSouls.PatreonNanoCore}"
+            Label: "[i:FargowiltasSouls/NanoCore] [c/ffffff:{$Mods.FargowiltasSouls.Items.NanoCore.DisplayName}]"
             Tooltip: ""
         }
-        
+
         PatreonROB: {
-            Label: "{$Mods.FargowiltasSouls.PatreonROB}"
+            Label: "[i:FargowiltasSouls/ROBGyro] [c/ffffff:{$Mods.FargowiltasSouls.Items.ROBGyro.DisplayName}]"
             Tooltip: ""
-        }
-        
-        PreBossNightGlow: {
-            Label: Свечение врагов в пре-боссе
-            Tooltip: В режиме Вечности все враги светятся ночью, пока ни один босс ещё не был убит.
         }
     }
-}
-
-MutantGFB: {
-    Random0: Хихи-хи-хи...
-    Random1: Тебе нравится эта боль?
-    Random2: Этот трепет...
-    Random3: Я покончу с этим.
-    Random4: Глупый террариец...
-    Random5: Пусть на твоей убогой могиле будет написано: сражён мутантом.
-    Random6: Никто не достоин звания Вечного.
-    Random7: Да пребудет с тобой вечная боль.
-    Random8: Ты недостоин Вечной души.
-    Random9: Устрашайся перед моей мощью.
-    Random10: Проникатель вздрогнул...
-    Random11: Склонись перед истинной силой!
-    Random12: Сила - это субъективное понятие. Абсолютная власть - это объективное явление.
-    Random13: Стань свидетелем настоящего катаклизма.
-    Random14: Я могу назвать все цифры числа Пи, прежде чем ты сможешь меня одолеть.
-    Random15: Это только прелюдия.
-    Random16: Даже не пытайся увернуться.
-    Random17: Я тренировался для такого боя веками!
-    Random18: Уничтожь слабых
-    Random19: Тут тебе везение не поможет.
-    Random20: Я наполню чашу твоей кровью
-    Random21: В конечном итоге вы все такие мелкие. Не я, конечно.
-    Random22: Я разнесу тебя на кусочки!
-    Random23: Проклинаю тебя силой луны!
-    Random24: Это лишь капля в море моей силы!
-    Random25: Твоя “сила” - ничто по сравнению со мной.
-    Random26: Чем больше ты меня бьёшь, тем сильнее я становлюсь.
-    Random27: Думаешь, ты меня победишь?
-    Random28: Я бесподобен. Я непобедим.
-    Random29: Всё в итоге превратится в пыль.
-    Random30: Ты готов взять на себя ответственность?
-    Random31: СПАСЕНИЯ НЕТ!
-    Random32: Бог хочет, чтобы ты страдал, а я - Бог.
-    Random33: Ты не достоин существовать!
-    Random34: Твоя жизнь мимолётна. Теперь тебе только и остаётся, что умереть.
-    Random35: Силы земли на моей стороне.
-    Random36: Я растопчу тебя!
-    Random37: Разлетелся вдребезги, как стекло.
-    Random38: Слушай, если ты прекратишь нападать, может, я тебя пощажу.
-    Random39: ТЫ СТАНЕШЬ ПРОСТО ВОСПОМИНАНИЕМ!
-    Random40: Я СДЕЛАЮ ТАК, ЧТО ХОРОНИТЬ УЖЕ БУДЕТ НЕКОГО!
-    Random41: ДАЖЕ АДСКИЙ ОГОНЬ НЕ СРАВНЯТСЯ С ЭТИМ!
-    Random42: Слушай, кажется, твои клетки слишком далеко друг от друга. Не хочешь, я это исправлю?
-    Random43: Я разорву тебя на атомы!
-    Random44: Ты как ребёнок, который бесится перед вечным богом.
-    Random45: Я покрою эти души твоей кровью!
-    Random46: Узри могущество Террарии!
-    Random47: Узри силу Вселенной!
-    Random48: Из пылающего пламени рождается моя победа!
-    Random49: Забудь о своих божественных амбициях!
-    Random50: Твои жалкие косточки переломятся одна за другой.
-    Random51: Великое бедствие, во всей красе!
-    Random52: Доживёшь ли ты до конца?
-    Random53: Больно же!
-    Random54: Ты не можешь причинить мне боль.
-    Random55: Разлетелся вдребезги, как стекло.
-    Random56: Потускнел, словно пепел.
-    Random57: Депрессия тебя совсем затуманила?
-    Random58: Слышишь крики своих будущих смертей?
-    Random59: Они зовут меня Жестоким богом вечности.
-    Random60: А ещё попробуй режим Сатаниста.
-    Random61: Даже Фарго не ровня мне по силе!
-    Random62: Ты меня на фальшивые деньги развёл, и теперь я тебя накажу!
-    Random63: Что такое Touhou?
-    Random64: Все деньги, которые ты мне дал, только сделали меня сильнее.
-    Random65: Обведи это!!!
-    Random66: ВСЁ ЗАКОНЧИТСЯ СЕГОДНЯ!
-    Random67: Твоя неминуемая смерть уже близко, червяк!
-    Random68: Я раздавлю твоё никчёмное существование.
-    Random69: Ты скоро умрёшь, и никто не узнает о том, что случилось!
-    Random70: ТЫ ДЕРЗАЕШЬ БРОСИТЬ ВЫЗОВ МНЕ, ВЕЧНОМУ? ТОМУ, КТО ОПРЕДЕЛЯЕТ СУДЬБУ МИРА И ВРЕМЕНИ? Я ВЕЧНЫЙ, Я БЕССМЕРТНЫЙ. ТЫ ПОХОЖ НА МУРАВЬЯ В УМИРАЮЩЕЙ ПЕСОЧНОЙ ДЮНЕ, А Я - ПАЛЯЩЕЕ СОЛНЦЕ. ТЫ БУДЕШЬ РАЗДРОБЛЕН И РАЗОРВАН В КЛОЧЬЯ ДО ТЕХ ПОР, ПОКА НЕ ОСТАНЕТСЯ НИЧЕГО, КРОМЕ ПЕПЛА И СВЕТА! КАЖДОЕ ТВОЁ ДЕЯНИЕ МЕРКНЕТ В СРАВНЕНИИ С МОЕЙ ВЕЧНОСТЬЮ! Я ОБЛАДАТЕЛЬ КУЛАКА ГОЛЕМА, ПРИЗРАЧНОГО ГЛАЗА, ВЬЮЩЕЙСЯ ЛОЗЫ, НЕУТОМИМОЙ ПЧЕЛЫ, ГЕНИАЛЬНОГО МОЗГА И КРЫЛЬЕВ ОХОТНИКА! ТЫ БУДЕШЬ ЗАБЫТ ИСТОРИЕЙ, НИЧТОЖНЫЙ ЧЕРВЬ!
-    Quote1: Давай сюда. То, что управляет твоей душой.
-    Quote2: Надеюсь, ты готов к страданиям.
-    Quote3: Хватит валять дурака.
-    Quote4: Ощути ярость Проникателя!
-    Quote5: Ах ты ж!
-    Quote6: Лучи смерти!
-    Quote7: Ощути мою силу.
-    Quote8: Мой клинок поразит тебя!
-    Quote9: Ощути гнев Проникателя!
-    Quote10: Ах-х-х ты ж!
-    Quote11: Ощути мою силу.
-    Quote12: Солнце, вихрь, туманность и звёздная пыль... все объединились против тебя.
-    Quote13: Я был зловещим присутствием, наблюдавшим за всем.
-    Quote14: Истинная сила Проникателя!
-    Quote15: Ого!
-    Quote16: Мир содрогается...
-    Quote17: Механическая ярость...
-    Quote18: Порыв Рыброна!
-    Quote19: Если ты не сможешь увернуться, то пеняй на себя.
-    Quote20: Зачем я это использую?
-    Quote21: Ты сможешь за мной угнаться?
-    Quote22: Сколько бы ты ни сражался в этой битве, ты никогда не победишь! Я беспощадный бог вечности. Я владею ветвями Иггдрасиля и Рагнарёка, бушующей серой Бедствия, вечными тенями Священных инструментов, небесно-голубой Магией, священными Духами таинственных земель, возвышающейся силой вознесённого Авалона, всемогущим благословением Кольца Провидца, пробуждённой сущностью затерянных Древних, всепрожигающим светом и тенью сияющего вселенского Раскола, искажающими мир машинами и формирующими города инструментами Луи и космической конвергенцией, которая предвещает Охоту старого бога!
-    Quote23: Природа восстала против тебя.
-    Quote24: Сокрушительный удар Императрицы! 
-    Quote25: Ты что, думал, что я уже выдохся?
-    Quote26: ДА ТЫ НИЧТО ПО СРАВНЕНИЮ С ИЗВЕРГНУТЫМИ ДУХАМИ! Я НЕСУ КОНЕЦ ГЛУПЦАМ И НЕДОСТОЙНЫМ! ДУМАЕШЬ, ТЫ МОЖЕШЬ МЕНЯ ПОБЕДИТЬ? МОЖЕТ БЫТЬ, ЧЕРЕЗ ДВЕ ВЕЧНОСТИ!!!
-    Quote27: УМРИ, ГЛУПЫЙ ТЕРРАРИЕЦ! ОНИ СКАЗАЛИ, ЧТО ВСЕГО ТРИ ПРЕДВЕСТНИКА КОНЦА, НО Я - ЧЕТВЕРТЫЙ, РАЗРУШИТЕЛЬ РЕАЛЬНОСТИ! АД НЕ ПРИНИМАЕТ ТАКОГО ОТРЕБЬЯ, КАК ТЫ, ТАК ЧТО СТРАДАЙ ВЕЧНО В МОЁМ НЕСКОНЧАЕМОМ НАТИСКЕ БЕЗГРАНИЧНОЙ СИЛЫ, ПОТЕНЦИАЛЕ ВЕЧНОСТЕЙ, РАСТЯНУТОМ ДО АБСОЛЮТНОГО АПОФЕОЗА! ТВОЯ НЕЧЕСТИВАЯ ДУША БУДЕТ ПОГЛОЩЕНА ГЛУБИНАМИ, БОЛЕЕ ГЛУБОКИМИ, ЧЕМ САМ АД!
-    Quote28: Я ПОВЕЛЕВАЮ СИЛОЙ, КОТОРАЯ ПРИШЛА ИЗ САМЫХ ДАЛЬНИХ УГОЛКОВ ВСЕЛЕННОЙ, ОБЪЕДИНЯЯ ИЗМЕРЕНИЯ, МАНИПУЛИРУЯ ТЕРРАРИЕЙ, УНИЧТОЖАЯ МАЗОХИСТОВ И ВЕРША СУДЬБЫ НЕБЕС! СТОЛЕТИЯМИ Я СОВЕРШЕНСТВОВАЛ СВОИ УМЕНИЯ, СТРЕМЯСЬ К ЕДИНСТВЕННОЙ ЦЕЛИ: ОЧИСТИТЬ МИР ОТ НЕДОСТОЙНЫХ, СОКРУШИТЬ СЛАБЫХ И ЯВИТЬ ИСТИННУЮ МОЩЬ. В ВЫСШИХ СФЕРАХ НЕБЕС МОЙ БРАТ ВЛАСТВУЕТ НАД НЕБЕСАМИ! СКОРО ВСЯ ТЕРРАРИЯ БУДЕТ ОСВОБОЖДЕНА ОТ НЕДОСТОЙНЫХ, И НАЧНЁТСЯ НОВАЯ ЭРА! ЭРА ВЕЛИЧИЯ! ЗОЛОТОЙ ВЕК, ГДЕ ОБИТАЮТ ЛИШЬ СОВЕРШЕННЫЕ СУЩЕСТВА! СМЕРТЬ, АД, ПРИЛИВЫ; Я - ОМЕГА И АЛЬФА, НАЧАЛО И КОНЕЦ! ВСЕМОГУЩАЯ СИЛА; ОТКРОВЕНИЯ. АБСОЛЮТНОЕ СУЩЕСТВО, АБСОЛЮТНАЯ ЧИСТОТА.
-    Quote29: В ЭТОМ НИЧТОЖНОМ МИРЕ СМЕРТНЫХ Я ДОСТИГ СИЛЫ, КОТОРАЯ КОГДА-ТО БЫЛА ИЗГНАНА НА КРАЙ ГАЛАКТИКИ! Я ВЫЗЫВАЮ БЕДСТВИЯ, КАТАСТРОФЫ И КАТАКЛИЗМЫ; ЖУТКИЕ СИЛЫ, ПРОИСХОДЯЩИЕ ОТ АБСОЛЮТНОГО СЛОВА СУДЬБЫ. ПОЧУВСТВУЙ, КАК МОЯ ВЕЗДЕСУЩАЯ ЯРОСТЬ ВБИВАЕТ ТЕБЯ В ЗЕМЛЮ, КАК ТВОРЕЦ МИРА ВОПЛОЩАЕТ СВОЙ МИР В РЕАЛЬНОСТЬ!
-    Quote30: ЗРЕНИЕ СТРЕЛКА МЕРКНЕТ В СРАВНЕНИИ С МОИМ ВОСПРИЯТИЕМ РЕАЛЬНОСТИ! ЯРОСТЬ БЕРСЕРКА - ЛИШЬ ДЕТСКАЯ ЗАБАВА! БОГИ ОЛИМПА - ЛИШЬ СЛАБАКИ, А АРХИМАГИ - ШАРЛАТАНЫ! ВЛАДЕНИЕ ПОЛЁТОМ И ЖЕЛЕЗНАЯ ВОЛЯ КОЛОССА - ЭТО ЛИШЬ НАЧАЛЬНЫЕ СТУПЕНИ МОЕГО МАСТЕРСТВА! Я ВЛАДЕЮ МАГИЕЙ ЖИЗНИ, И Я МОГУ ЛЕТАТЬ СО СВЕРХЗВУКОВОЙ СКОРОСТЬЮ. Я СОКРУШУ ТЕБЯ, ГЛУПЫЙ ШУТ!
-    Quote31: АААААААААААААААААААААААААА
-    Quote32: Я ни о чём не жалею в своей жизни!
-    Quote33: Да, я вспомнил... моё воскрешение...
-    Quote34: А ты неплохо справляешься...
 }
 
 Conditions.RoombaPetSold: Когда конфигурация Робота-пылесоса включена
