@@ -20,39 +20,39 @@
 //
 //     private void Translate(DrawDelegate orig, SpriteBatch self, Texture2D texture, Rectangle destinationRectangle, Color color)
 //     {
-//         if (texture == (Texture2D) ModContent.Request<Texture2D>("StarsAbove/UI/StellarNova/prototokiaIcon"))
+//         if (texture == ModContent.Request<Texture2D>("StarsAbove/UI/StellarNova/prototokiaIcon").Value)
 //         {
-//             texture = (Texture2D) ModContent.Request<Texture2D>("CalamityRuTranslate/Assets/Sprites/StarsAbove/prototokiaIcon");
+//             texture = ModContent.Request<Texture2D>("CalamityRuTranslate/Assets/Sprites/StarsAbove/prototokiaIcon").Value;
 //         }
 //         
-//         if (texture == (Texture2D) ModContent.Request<Texture2D>("StarsAbove/UI/StellarNova/laevateinnIcon"))
+//         if (texture == ModContent.Request<Texture2D>("StarsAbove/UI/StellarNova/laevateinnIcon").Value)
 //         {
-//             texture = (Texture2D) ModContent.Request<Texture2D>("CalamityRuTranslate/Assets/Sprites/StarsAbove/laevateinnIcon");
+//             texture = ModContent.Request<Texture2D>("CalamityRuTranslate/Assets/Sprites/StarsAbove/laevateinnIcon").Value;
 //         }
 //         
-//         if (texture == (Texture2D) ModContent.Request<Texture2D>("StarsAbove/UI/StellarNova/KiwamiRyukenIcon"))
+//         if (texture == ModContent.Request<Texture2D>("StarsAbove/UI/StellarNova/KiwamiRyukenIcon").Value)
 //         {
-//             texture = (Texture2D) ModContent.Request<Texture2D>("CalamityRuTranslate/Assets/Sprites/StarsAbove/KiwamiRyukenIcon");
+//             texture = ModContent.Request<Texture2D>("CalamityRuTranslate/Assets/Sprites/StarsAbove/KiwamiRyukenIcon").Value;
 //         }
 //         
-//         if (texture == (Texture2D) ModContent.Request<Texture2D>("StarsAbove/UI/StellarNova/gardenofavalonIcon"))
+//         if (texture == ModContent.Request<Texture2D>("StarsAbove/UI/StellarNova/gardenofavalonIcon").Value)
 //         {
-//             texture = (Texture2D) ModContent.Request<Texture2D>("CalamityRuTranslate/Assets/Sprites/StarsAbove/gardenofavalonIcon");
+//             texture = ModContent.Request<Texture2D>("CalamityRuTranslate/Assets/Sprites/StarsAbove/gardenofavalonIcon").Value;
 //         }
 //         
-//         if (texture == (Texture2D) ModContent.Request<Texture2D>("StarsAbove/UI/StellarNova/edingenesisquasarIcon"))
+//         if (texture == ModContent.Request<Texture2D>("StarsAbove/UI/StellarNova/edingenesisquasarIcon").Value)
 //         {
-//             texture = (Texture2D) ModContent.Request<Texture2D>("CalamityRuTranslate/Assets/Sprites/StarsAbove/edingenesisquasarIcon");
+//             texture = ModContent.Request<Texture2D>("CalamityRuTranslate/Assets/Sprites/StarsAbove/edingenesisquasarIcon").Value;
 //         }
 //         
-//         if (texture == (Texture2D) ModContent.Request<Texture2D>("StarsAbove/UI/StellarNova/unlimitedbladeworksIcon"))
+//         if (texture == ModContent.Request<Texture2D>("StarsAbove/UI/StellarNova/unlimitedbladeworksIcon").Value)
 //         {
-//             texture = (Texture2D) ModContent.Request<Texture2D>("CalamityRuTranslate/Assets/Sprites/StarsAbove/unlimitedbladeworksIcon");
+//             texture = ModContent.Request<Texture2D>("CalamityRuTranslate/Assets/Sprites/StarsAbove/unlimitedbladeworksIcon").Value;
 //         }
 //         
-//         if (texture == (Texture2D) ModContent.Request<Texture2D>("StarsAbove/UI/StellarNova/guardianslightIcon"))
+//         if (texture == ModContent.Request<Texture2D>("StarsAbove/UI/StellarNova/guardianslightIcon").Value)
 //         {
-//             texture = (Texture2D) ModContent.Request<Texture2D>("CalamityRuTranslate/Assets/Sprites/StarsAbove/guardianslightIcon");
+//             texture = ModContent.Request<Texture2D>("CalamityRuTranslate/Assets/Sprites/StarsAbove/guardianslightIcon").Value;
 //         }
 //         
 //         orig.Invoke(self, texture, destinationRectangle, color);

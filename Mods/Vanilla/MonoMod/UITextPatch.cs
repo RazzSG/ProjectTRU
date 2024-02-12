@@ -2,7 +2,7 @@
 // using Terraria.GameContent.UI.Elements;
 // using Terraria.ModLoader;
 //
-// namespace CalamityRuTranslate.Vanilla.MonoMod;
+// namespace CalamityRuTranslate.Mods.Vanilla.MonoMod;
 //
 // public class UITextPatch : ILoadable
 // {

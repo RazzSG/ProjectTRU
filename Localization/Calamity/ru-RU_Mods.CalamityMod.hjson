@@ -278,7 +278,7 @@ Bestiary: {
     HeatSpirit: Citizens of Azafure who committed heinous crimes were cast out of the city and forced to don unremovable obsidian skulls as a mark of their sins, to let all know of their vile acts. Now the lost souls of those who were exiled are finally able to return home after the city’s fall, the skulls they wore being all that remains of them.
     InfernalCongealment: Лавовая слизь, впитавшая в себя частички обугленного камня, оставшегося от Серного элементаля. Несмотря на свою простую природу, эти существа представляют собой не меньшую угрозу, чем остальные обитатели скал.
     RenegadeWarlock: Victims caught in the crossfire during the battle between Calamitas and the Brimstone Elemental, cursed to wander the ruins of their former home for all eternity. Their final moments were spent clinging to life, and in death they seek survival by using the very magicks that slaughtered them.
-    Scryllar: Vengeful spirits of those who lost their lives during the clash between Calamitas and the elemental, now forever bound to their home. Those who were close enough to bear witness to the battle perished in it, leaving few to know the truth of the battle’s outcome.
+    Scryllar: Мстительные духи павших в битве между Каламитас и элементалем обречены на вечное пребывание в своём доме. Те, кто был достаточно близко, чтобы наблюдать за сражением, не выжили, оставив лишь несколько свидетелей, способных поведать о его истинном исходе.
     SoulSlurper: An early form of Calamitas’ Soul Seekers, summoned by the Witch during her conflict with the Brimstone Elemental. Unlike the refined form that would follow it, she possessed very little control of them, leading to her creations going rogue shortly after the arduous battle was finally over.
     Androomba: One of the most mundane of Draedon’s creations, the directive of Androombas is simply to tidy up his labs and domiciles. He and his scientists could not afford to waste time on menial labor when there was endless research to be done.
     Nanodroid: Окружающее освещение, всеобъемлющее слежение, быстрое восстановление... Когда эти маленькие механизмы действуют единым фронтом, нет неразрешимых проблем.
@@ -288,7 +288,7 @@ Bestiary: {
     AuroraSpirit: Thought to be no more than an old wives’ tale, sightings of aurora spirits have become commonplace since the defeat of the wall of flesh. Upon closer inspection, it appears these "spirits" are rather wisp-like entities clad in a cryonic shell, a sure sign that these were created by Archmage Permafrost.
     BloomSlime: Слизень, пропитанный осквернённой энергией, желает видеть, как мир обращается в пепел, дабы навсегда избавиться от страданий, которые он несёт. Однако простота их формы мешает погибшей богине полностью навязать им свою волю.
     Bohldohr: Бурлыжнеки – это приспешники яхщеров, змееподобной расы из джунглей. Изначально созданные из древнего камня и оживлённые магией в позднюю эпоху династии яхщеров, они возникли в этот период великого расцвета. Однако, как и всякая цивилизация, их судьба не могла обойтись без упадка: когда их божество отвернулось, им пришлось самим сражаться с наступающими опасностями.
-    Cnidrion: Once trained to be the steeds of honored Ilmerian warriors, cnidrions survived the Incineration due to their sheer might. They continue to defend what was once the heart of the sea kingdom from intruders, maintaining a fierce loyalty to their masters even after they have passed on.
+    Cnidrion: В прошлом гидроиды были обучены быть скакунами для почётных Ильмеранских воинов. Благодаря своей могучей силе они пережили Сожжение. И по сей день они защищают то, что когда-то было сердцем морского царства, от захватчиков, сохраняя непоколебимую преданность своим хозяевам даже после их смерти.
     GemCrawler: Близкие сородичи призмоспинов Ильмеранского моря. Эти водные ящерицы оказались в дикой природе после того, как их содержали в качестве домашних питомцев, но, без необходимых питательных веществ для выращивания призм на своих спинах, многие из них вырастили нечто лучшее - драгоценные камни.
     BlightSlime: Slimes that have absorbed some of the blighted godly essence. Riddled with impurity, they are now more putrid flesh than gelatin and, having taken in such an amount that they seem ready to burst. Yet unlike most slimes which have relatively basic minds, these seem to be collecting mass with a purpose.
     Cryon: Archmage Permafrost went through great pains to not take part in combat himself, instead molding cryons to act as his personal guardians. Noticing the spread of godly essence just as many other creatures have, they have come out of stasis to combat any signs of it so that they may defend their master.
@@ -311,7 +311,7 @@ Bestiary: {
     SeaUrchin: Крупные морские ежи, перекатываясь и подпрыгивая по морскому дну, они охотятся как на рыб, которые прячутся в песке, с помощью своих шипов, позволяющие им прочёсывать морское дно, так и на тех, кто находится намного выше, совершая невероятные прыжки. Их поразительный размер обусловлен тем, что этот вид является хищником и питается флорой, а не фауной, как большинство видов морских ежей.
     ShockstormShuttle: Машины для добычи полезных ископаемых и разведчики, оставшиеся от погибшей цивилизации. В настоящее время они активно исследуют любые доступные ресурсы на ближайших планетах, включая возможность использования этой планеты в качестве потенциальной замены своему разрушенному дому.
     Stormlion: Some survivors of Ilmeris’ downfall claim that enough magical lightning surged through the sea during its final days that there existed not a single drop of water without levin coursing through it. Even now, electricity from the battle remains buried in the sands, with several antlions having learned to both channel and harness the former kingdom’s power.
-    Sunskater: To the civilization that lived far above clouds, sunskaters were seen as a good omen. These creatures inspired hope in those who saw them, that their society might live on for as long as the sun’s light bathes the world.
+    Sunskater: В глазах цивилизации, обитавшей высоко над облаками, солнечные скитальцы являлись символом благоденствия. Эти существа вдохновляли людей, даруя им надежду на то, что их общество будет процветать до тех пор, пока солнце озаряет мир своим светом.
     ThiccWaifu: Part of a solitary elemental that rarely appears aside from when her domain is at its strongest. Many attempts were made by what remained of Yharim’s forces to hunt down the elementals after Azafure fell. Only now that the war has passed do the weaker elementals dare return.
     WildBumblefuck: Though but an adolescent dragonfolly, it poses a great threat to all around it regardless of its age. Their species survived the draconic purges by reproducing rapidly and becoming highly reclusive, alongside developing a hyper-aggressive nature.
     WulfrumAmplifier: Эти усилители передают энергию другим вульфрумовым машинам с помощью удивительно передового тесла-поля. Поле не представляет опасности для органических существ, проходящих через него, но вульфрумовые машины специально созданы для получения энергии из него, что позволяет им работать с максимальной эффективностью.
@@ -341,7 +341,7 @@ Bestiary: {
     PrismBack: Из-за красивых призм и спокойного характера, эти существа на протяжении веков стали верными спутниками для многих, включая тех, кто живёт за пределами Ильмериса. И хотя их скорость и габариты делают их не слишком подходящими для охоты, морские призмы на их спинах привлекают мелкую рыбёшку, создавая уникальную приманку.
     SeaFloaty: Плоские черви распространены во многих морях и океанах мира. Благодаря своему плоскому телу они способны проникать в узкие щели и трещины. Эти плоские черви обитали исключительно глубоководья, поэтому они не пострадали от катастрофы, уничтожившей среду обитания большинства других видов.
     SeaMinnow: Стаи морских пескарей были одним из самых прекрасных явлений, которые можно было наблюдать во времена, когда Ильмерис был ещё цел. Те, кому было позволено посетить королевство, собирались, чтобы полюбоваться этими рыбками, плавающими в открытом море... Но теперь это лишь далёкое воспоминание, даже для самих пескарей.
-    SeaSerpent: Despite being one of the few carnivorous creatures to have ever existed in the Ilmeran Sea, even these serpents are unusually passive towards those they do not consider prey by the standards of elsewhere. The sea has only ever known one truly aggressive predator, and it abandoned a life of calming solitude years ago.
+    SeaSerpent: Несмотря на то, что данные змеи являются одними из немногих плотоядных существ, когда-либо обитавших в Ильмеранском море, даже они демонстрируют нетипичную пассивность по отношению к тем, кого не воспринимают как добычу, если сравнивать с общепринятыми стандартами. За всю историю данного моря был известен лишь один по-настоящему агрессивный хищник, который отказался от спокойной уединённой жизни много лет назад.
     AndroombaFriendly: Андроботы-пылесосы, созданные с применением методов обратного инжиниринга, теперь распространяют растворы Паромеханика вместо того, чтобы просто подметать полы. Вы можете использовать их для очистки мира, а может и для его порчи если вам того захочется.
     DILF: Один из ведущих мировых экспертов в теории магии, проявивший своё мастерство в области тайных искусств. Во времена походов Ярима он выступал в качестве его советника, не только из-за своего высокого статуса, но и из-за своего нежелания участвовать в сражениях.
     FAP: Принцесса, родом из таинственных земель, постоянно выпивает, пытаясь сбежать от воспоминаний о своём прошлом. Тем не менее алкоголь практически не оказывает на неё никакого воздействия. Она организовала свой бизнес, продавая разнообразные смеси, будь то алкогольные или алхимические.
@@ -351,15 +351,15 @@ Bestiary: {
     Brimling: Extensions of the Brimstone Elemental herself, and part of her very being. Both she and her Brimlings are of a single mind, so she naturally cares for them just as she cares for herself. When heavily wounded, they withdraw into a cocoon to protect themselves from further harm.
     SoulSeeker: The Clone’s attempt at wielding the souls of the damned as weapons, these retain slightly more autonomy than their Azafurian brethren. And yet given the striking resemblance the bear to the Clone’s shell, it’s arguable that they might be further from Calamitas’ current soul seekers than those found in Azafure’s ruins.
     DarkEnergy: -
-    DesertNuisance: Though these serpents are of the Desert Scourge’s species, they are notably younger and less developed. Choosing to hunt in a pack with the large scourge due to this weakness, many have seen them tear apart prey not unlike the piranhas that once populated the former sea.
+    DesertNuisance: Следует отметить, что эти змеи, хотя и относятся к виду Пустынного бича, они заметно моложе и менее зрелы. Из-за этого они вынуждены охотиться в стае с крупными бичами. Многие очевидцы наблюдали, как они разрывают добычу на части, подобно пираньям, обитавшим в древнем море.
     CosmicGuardian: Несмотря на то, что они принадлежат к тому же виду, что и безымянный змей, их ум и функции гораздо проще. У них едва есть своя воля и они беспрекословно выполняют приказы своего алчного повелителя.
     HiveTumor: This tumor acts as the brain of the putrid wasteland, being all that is left of the minds of the slain gods that lay there. The creatures of the Corruption exist to protect it, and those who attempt to harm it rarely live to tell the tale.
     AquaticAberration: A spawn of the immense Leviathan, their lifespan can be measured in hours. All they know is how to hunt for their masters. Even non-aquatic life is well within their reach, due to their uncanny ability to fly through air just as easily as swimming through water.
     LeviathanStart: Приманка, созданная Водным элементалем, Анахитой. Её песни звучат нежно, а голос полон тепла и обещаний, но будьте бдительны: если последуете за зовом сирены, вы рискуете своей жизнью.
     PerforatorCyst: Эта содрогающаяся и корчащаяся в конвульсиях куча мертвечины является сердцем Улья Перфораторов, извлекая то немногое, что осталось от разбавленного ихора, который протекает сквозь багрянец, и питая им Улей. О ней мало что известно, ибо те, кто осмелились её потревожить, стали неотличимыми от окружающей среды.
     CosmicLantern: Внутри этих фонарей горит волшебное, искажённое пламя, которое не излучает никакого тепла. Если пристально всмотреться в него, можно увидеть целый новый мир.
-    CorruptSlimeSpawn: Slimes are extraordinarily hardy creatures: if a large slime has chunks of living gelatin severed from it, the chunks tend to continue on, albeit as their own beings. Even as gel, a slime is still technically alive– it simply exists in a state where it cannot function in any meaningful way.
-    CrimsonSlimeSpawn: Slimes are extraordinarily hardy creatures: if a large slime has chunks of living gelatin severed from it, the chunks tend to continue on, albeit as their own beings.They even retain the memories of the original slime, and so continue to work in the interest of their "parent".
+    CorruptSlimeSpawn: Слизни обладают исключительной стойкостью. Если от крупного слизня отделить куски живого желатина, эти куски, как правило, продолжают существовать как самостоятельные особи. Даже в виде геля слизень формально остаётся живым, но его жизнедеятельность ограничена и лишена целесообразного характера.
+    CrimsonSlimeSpawn: Слизни обладают исключительной стойкостью. Если от крупного слизня отделить куски живого желатина, эти куски, как правило, продолжают существовать как самостоятельные особи. Более того, они сохраняют воспоминания оригинального слизня и продолжают действовать в интересах своего 'родителя'.
     CrimsonSlimeSpawn2: Though many slimes may get objects stuck partway inside of it and learn to use them as weapons, these slimes are a unique case. The spikes of these slimes are a natural part of them, heavily sharpened so that they may impale those who dare defy their god.
     Sepulcher: An amalgamation of souls and flesh given new form and purpose via necromancy. This twisted perversion of life is inspired by the auric dragons’ method of revival, though it is plain to see that any grace the dragons may have had is not present here. The school of magic used to create Sepulcher was forbidden in the Deific Era, yet many still practiced it in secrecy.
     SoulSeekerSupreme: Created through a marriage of brimstone magic and necromancy, these foul beings serve their master’s whims unflinchingly. What they lack in sheer power they make up for in both sheer numbers and suprising amount of coordination.
@@ -374,10 +374,10 @@ Bestiary: {
     CeaselessVoid: -
     Crabulon: Ракообразное существо, некогда обитавшее в сердце Ильмеранского моря, сумело выжить во время Великого сожжения. Крабулон скрылся под землёй, где его встретило знакомое голубое свечение, излучаемое светящимися грибами. Несмотря на неспособность сопротивляться спорам, он покинул этот мир в спокойствии, вспоминая свой родной дом.
     Cryogen: Когда Ярим понял, что Архимаг перешёл на другую сторону, он велел Каламитас отыскать и убить её бывшего наставника. После слёзного противостояния она решила запечатать и сфабриковать его смерть. Волшебство, которое присутствует в этой живой печати, восхищает и трагически олицетворяет каждый урок, который Пермофрост преподавал своей ученице.
-    DesertScourge: A sea serpent that once swam through the waters of the Ilmeran Sea, it curiously chose to stay in its home rather than find a new one deep below. Quickly taking to a diet of antlion and cactus, it was able to take the place of possibly the desert’s apex predator after its only competition went into hiding.
+    DesertScourge: Морской змей, некогда бороздивший просторы Ильмеранского моря, по непонятным причинам предпочёл остаться в родных водах вместо того, чтобы мигрировать глубже. Быстро адаптировавшись к питанию муравьиными львами и кактусами, он занял доминирующее положение в пустынной экосистеме после того, как его единственный конкурент скрылся.
     DevourerofGods: Существо, увенчанное титулами и обрётшее массу известности, создаёт запутанную смесь правды и мифов вокруг своих многочисленных легендарных подвигов. Некогда Ярим верил, что сущность, которую он поглощает, полностью исчезает из бытия, однако это противоречит основному закону мироздания: энергию нельзя уничтожить, её можно лишь перенести из одной формы в другую.
     Draedon: Это одно из тех разведывательных тел, которые загадочный инженер Дрэйдон сотворил по своему образу и подобию. После того, как учёный покинул Богоискателя, он всё глубже погружался в себя и полностью отдавал себя своим бесконечным исследованиям.
-    Apollo: With plasma cannons that rival the heat of Calamitas’ own flames and trained in advanced simulations against the world’s strongest, few can match this machine of war. Though the chassis consumes incredible amounts of energy, its power demands are easily met by its Exo Prism power core. To gaze upon the oracle is to know its unwavering stare.
+    Apollo: Эта машина войны, вооружённая плазменными пушками, чей жар сравним с пламенем Каламитас, и успешно прошедшая передовые симуляции боёв с сильнейшими бойцами мира, практически не имеет себе равных. Несмотря на внушительное энергопотребление корпуса, её энергетические потребности легко удовлетворяются силовым ядром экзо-призм. Взглянуть на оракула - значит ощутить его непоколебимый взгляд.
     Ares: Ареc - первое из супероружий, созданных Дрэйдоном. Он способен как к масштабному разрушению, так и к сосредоточенным атакам с использованием своих смертоносных пушек. Целью Дрэйдона в создании Экзо-механизмов было разработать военные машины, способные соперничать даже с прославленной силой Ярима, когда они в последний раз встретились. Взглянуть на это дьявольское чудовище - значит позвать страх.
     Artemis: Артемида - воплощение инженерного совершенства Дрэйдона, представляющее собой финальное супероружие. Её чертежи подверглись изменениям всего в одной детали. Благодаря перфекционизму Дрэйдона, он смог поднять планку в инженерии и создать машину, обладающую невероятной ловкостью и точностью. Взглянуть на лучника - значит быть на шаг позади.
     Thanatos: Механическая змея, созданная на основе усовершенствованного варианта бронепластин Пожирателя, предназначалась для абсолютной непобедимости. Даже её слабость - необходимость охлаждаться из-за перегрева - была обращена в силу, поскольку ни одно существо из плоти или металла не может выдержать таких температур. Взглянуть на этот змеиный ужас - значит познать истинную силу.
@@ -3708,13 +3708,13 @@ Items: {
         }
     
         GravistarSabaton: {
-            DisplayName: Звёздные гравитоны
+            DisplayName: Звёздно-гравитационные сабатоны
             Tooltip:
                 '''
                 Увеличивает скорость прыжка на 20%
                 Даёт невосприимчивость к урону от падения
                 Удерживайте клавишу <down>, чтобы увеличить максимальную скорость падения
-                Удерживайте клавишу [KEY] в течение 1 секунды находясь в воздухе, чтобы зарядить сверхскоростной удар
+                Удерживайте клавишу [KEY] в течение 1 секунды, находясь в воздухе, чтобы зарядить сверхскоростной удар
                 Во время удара вы пробиваетесь насквозь врагов и не получаете контактного урона
                 Когда вы достигаете земли, вы создаёте взрыв у своих ног
                 Мощность взрыва увеличивается как в уроне, так и в размере, в зависимости от продолжительности удара
@@ -7911,7 +7911,7 @@ Items: {
                 Змей утверждал: что и этот портал - тоже его творение. Но его постоянство было ошибкой, которую он позже исправил
                 Его утверждение противоречило возрасту портала, который был гораздо старше его и восходил к Золотой эпохе драконов
                 Я усмотрел ложь в его словах и понял, что здесь скрывается нечто намного более могущественное, чем Пожиратель богов
-                Его пугающее воздействие терзала мой разум. Оно угрожало не только мне. Оно угрожало всем. Всему
+                Его пугающее воздействие терзало мой разум. Оно угрожало не только мне. Оно угрожало всем. Всему
                 Несмотря на такую откровенную ложь и неминуемую опасность, я решил просто покинуть это место и больше не возвращаться
                 '''
         }
@@ -8744,7 +8744,7 @@ Items: {
         }
         
         StormlionMandible: {
-            DisplayName: Челюсть штормового льва
+            DisplayName: Жвало штормового льва
             Tooltip: ""
         }
         
@@ -13064,7 +13064,7 @@ Items: {
             DisplayName: Водка Фабсола
             Tooltip:
                 '''
-                Увеличивает все характеристики урона на 8%, но снижает защиту на 10%
+                Увеличивает урон на 8%, но снижает защиту на 10%
                 Увеличивает длительность неуязвимости после получения урона
                 Этот волшебный ликёр высоко ценится людьми с изысканным вкусом
                 '''
@@ -20227,7 +20227,7 @@ Keybinds: {
     DashDoubleTapOverride.DisplayName: Переопределение клавиши рывка
     ExoChairSlowDown.DisplayName: Замедление экзо-бокса
     GodSlayerDash.DisplayName: Рывок богоубийцы
-    GravistarSabatonHotkey.DisplayName: Удар звёздных гравитонов
+    GravistarSabatonHotkey.DisplayName: Удар гравитационных сабатонов
     NormalityRelocator.DisplayName: Релокатор нормальной формы
     RageMode.DisplayName: Режим ярости
     SandCloakEffect.DisplayName: Эффект песчаной мантии

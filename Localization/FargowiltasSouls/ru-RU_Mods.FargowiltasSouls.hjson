@@ -1,5 +1,5 @@
 ﻿WizardEffect: {
-    Adamantite: Разделяет выпущенные снаряды оружия на 3 и снижает их урон с 70/60% до 50/40%
+    Adamantite: Разделяет выпущенные снаряды оружия на 3 и снижает их урон с 70/60% до 50/37.5%
     Apprentice: Используется 2 ближайших оружия вместо 1
     AncientHallow: Увеличивает урон меча и предел максимального урона от снарядов до 200 единиц
     AncientShadow: Увеличивает количество теневых сфер
@@ -32,7 +32,7 @@
     Monk: Увеличивает урон рывка
     Mythril: Увеличивает бонус к максимальной скорости атаки и длительности эффекта
     Nebula: Баффы-усилители могут складываться до 3 раз
-    Necro: Груды костей парят
+    Necro: Размер могил увеличился, они парят и слегка приближаются к вам, когда вы находитесь рядом
     Ninja: Увеличивает максимальный бонус урона до 30% и максимальную скорость игрока, при которой активируется эффект
     Obsidian: Вам больше не нужна лава для создания взрывов или огненных шаров, а также снижает время перезарядки эффекта
     Orichalcum: Увеличивает множитель урона до 4 раз
@@ -47,7 +47,7 @@
     Shadewood: Увеличивает размер и урон ауры крови, а также дополнительно накладывает дебафф «{$BuffName.Ichor}»
     Shinobi: Увеличивает урон рывка
     Shroomite: Грибы появляются чаще
-    Silver: Парирование блокирует до 200 единиц урона и даёт бафф «{$BuffName.ParryDamageBuff}»
+    Silver: Парирование блокирует до 200 единиц урона и всегда даёт бафф «{$BuffName.ParryDamageBuff}»
     Solar: Отсутствует улучшение
     Spectre: Снижает время перезарядки и всегда создаёт исцеляющую сферу
     Spider: Отсутствует улучшение
@@ -188,27 +188,15 @@ DeathMessage: {
     NanoInjection: "{0} поглощается изнутри нанитами."
     Fused: "{0} разлетается на куски."
     Nutcracker: "{0} раскалывает свои орешки."
-    Derpling: "{0} высушается досуха."
+    Derpling: "{0} высушивается досуха."
     Snatchers: "{0} становится человеком, съедённым людоедом."
     Parrots: "{0} погибает от транс-утверждающего мизогинистного попугая."
     RodOfHarmony: "{0} не материализуется."
     ReverseManaFlow: "{0} уничтожается своей собственной магией."
     GiantTortoise: "{0} обезглавливается гигантской черепахой."
     FakeHeart: "{0} обманывается ложным сердцем."
-    Cactus: "{0} уколывается кактусом."
-}
-
-DropRuleConditions: {
-    DownedEvilBoss: После победы над любым боссом мирового зла
-    EMode: "[i:FargowiltasSouls/Masochist] Шанс выпадения в режиме Вечность"
-    EModeEarlyBirdHM: "[i:FargowiltasSouls/Masochist] Шанс выпадения в хардмодном режиме Вечность"
-    EModeEarlyBirdPHM: "[i:FargowiltasSouls/Masochist] Шанс выпадения в пре-хардмодном режиме Вечность"
-    EModeNotMaster: Шанс выпадения в режиме Мастер/Вечность
-    NotEMode: "[i:FargowiltasSouls/Masochist] Шанс выпадения не в режиме Вечность"
-    TimsConcoction: "[i:FargowiltasSouls/TimsConcoction] Шанс выпадения Смеси Тима"
-    Patreon: "[i:FargowiltasSouls/RoombaPet] Выпадение предметов Патронов"
-    PatreonEMode: "[i:FargowiltasSouls/RoombaPet] Выпадение предметов Патронов в режиме Вечность"
-    PatreonPlant: "[i:FargowiltasSouls/RoombaPet] Выпадение предметов Патронов в джунглях во время кровавой луны"
+    Cactus: "{0} укалывается кактусом."
+    CoffinToss: "{0} размазывается по твёрдой поверхности."
 }
 
 Toggler: {
@@ -282,6 +270,7 @@ Toggler: {
     HallowEffect: Освящённые лечебные зелья
     AncientHallowMinion: Древний освящённый клинок
     SpectreEffect: Спектральные сферы
+    ForbiddenEffect: Запретная буря
     TikiEffect: Миньоны тики
     CosmoHeader: "{$Mods.FargowiltasSouls.Items.CosmoForce.DisplayName}"
     MeteorMomentumEffect: Метеоритная скорость
@@ -336,6 +325,7 @@ Toggler: {
     LumpofFleshHeader: "{$Mods.FargowiltasSouls.Items.LumpOfFlesh.DisplayName}"
     PungentEyeballCursor: Курсор смердящего глазного яблока
     PungentMinion: Миньон «Кусок плоти»
+    DeerclawpsDive: Погружение циклоп-когтей
     DeerclawpsEffect: След шипов рывка циклоп-когтей
     DreadShellEffect: Парирование ужасной ракушки
     ChaliceHeader: "{$Mods.FargowiltasSouls.Items.ChaliceoftheMoon.DisplayName}"
@@ -470,7 +460,7 @@ Toggler: {
 }
 
 UI: {
-    SoulTogglerButton: Настройка эффектов аксессуаров
+    SoulTogglerButton: Переключатель эффектов
     EternityEnabled: Режим Вечность включён
     MasochistEnabled: Режим Мазохист включён
     SavedToSlot: Настройки эффектов сохранены в пользовательский набор
@@ -481,6 +471,7 @@ UI: {
     MinimalEffectsPreset: Предустановленные настройки минимума эффектов
     CustomPreset: Пользовательский набор {0} (ПКМ, чтобы сохранить)
     ReloadToggles: Перезагрузить настройки эффектов (ПКМ, чтобы сбросить)
+    NoToggles: Отсутствуют экипированные переключаемые эффекты
     DisplayAll: Отобразить всё
     DisplayEquipped: Отобразить экипированное
     SearchText: Поиск...
@@ -535,6 +526,9 @@ EModeBalance: {
     OrichalcumHalberdRework: Выпускает цветочные лепестки при взмахе
     SuperStarCannon: Максимальное количество пронзаний снарядов снижено до 7
     WarmthPotionNerf: Эффект снижения урона снижен вдвое
+    CrossNecklaceNerf: Длительная неуязвимость не срабатывает при быстром получении последовательных ударов
+    IceBladeFrostburn: Снаряды накладывают дебафф «{$BuffName.Frostburn2}» при попадании
+    JungleRose: ?????
 }
 
 Buffs: {
@@ -1090,7 +1084,7 @@ Buffs: {
 
     BrokenShellBuff: {
         DisplayName: Сломанный панцирь
-        Description: Вы ещё не можете окружиться панцирем
+        Description: Вы ещё не можете окружить себя панцирем
     }
 
     CrimsonRegenBuff: {
@@ -1252,6 +1246,16 @@ Buffs: {
     
     SublimationBuff: {
         DisplayName: Сублимация
+        Description: ""
+    }
+    
+    CoffinTossBuff: {
+        DisplayName: Бросок гроба
+        Description: ""
+    }
+    
+    HellFireMarkedBuff: {
+        DisplayName: Отмеченный адским огнём
         Description: ""
     }
 }
@@ -1488,7 +1492,7 @@ Items: {
             Вокруг вас начинают появляться сосульки
             Атаки запускают их в направление курсора
             При попадании во врага на него накладывается дебафф «{$BuffName.Frostburn2}» и он мгновенно замерзает
-            Нажмите клавишу «Заморозка», охлаждая всё на 20 секунд
+            Нажмите клавишу «Заморозка», чтобы охладить всё на 20 секунд
             Этот эффект имеет 60 секунд перезарядки
             'Давайте погрузим мир в глубокую заморозку'
             '''
@@ -1780,7 +1784,7 @@ Items: {
             '''
             Даёт ауру кровотечения
             Враги, получающие урон в ауре кровотечения, изрыгают поражающую кровь
-            'Магазинщики ненавидят этот трюк'
+            'Необычайно чистое'
             '''
     }
 
@@ -1826,7 +1830,8 @@ Items: {
         Tooltip:
             '''
             Нажмите <right>, чтобы прикрыться щитом
-            Защититесь непосредственно перед ударом, чтобы парировать и предотвратить получение урона
+            Прикройтесь непосредственно перед ударом, чтобы выполнить парирование и предотвратить получение урона
+            Прикройтесь точно в момент удара, чтобы выполнить идеальное парирование, получая бафф «{$BuffName.ParryDamageBuff}»
             Парирование блокирует до 100 единиц урона
             'Отражение'
             '''
@@ -1837,7 +1842,7 @@ Items: {
         Tooltip:
             '''
             Ваши атаки на короткое время накладывают дебафф «{$BuffName.Frostburn}»
-            Нажмите клавишу «Заморозка», охлаждая всё на 15 секунд
+            Нажмите клавишу «Заморозка», чтобы охладить всё и наложить на всех дебафф «{$BuffName.Frostburn}» на 15 секунд
             Этот эффект имеет 60 секунд перезарядки
             'Снаружи обжигающий холод'
             '''
@@ -1936,7 +1941,7 @@ Items: {
             При каждой атаке формирует защитный барьер из максимума 20 титановых осколков
             При достижении максимального количества осколков, вы получаете сопротивление к большинству дебаффов при ударе и 25% сопротивления урону против контактного урона и снарядов вблизи
             Этот эффект имеет 10 секунд перезарядки, в течение которых вы не можете получить осколки
-            'Мощь титана в ваших руках'
+            'Зачем уворачиваться, если ты неуязвим?'
             '''
     }
 
@@ -2130,7 +2135,7 @@ Items: {
             [i:FargowiltasSouls/MoltenEnchant] Поджигает ближайших врагов в большем радиусе
             [i:FargowiltasSouls/RainEnchant] Призывает зонт, который отражает снаряды, летящие сверху
             [i:FargowiltasSouls/FrostEnchant] Вокруг вас начинают появляться сосульки
-            [i:FargowiltasSouls/SnowEnchant] Нажмите клавишу «Заморозка», временно охлаждая всё
+            [i:FargowiltasSouls/SnowEnchant] Нажмите клавишу «Заморозка», чтобы временно охладить всё
             [i:FargowiltasSouls/ChlorophyteEnchant] Призывает кольцо кристальных листьев, стреляющее в ближайших врагов
             [i:FargowiltasSouls/JungleEnchant] Позволяет делать двойной споровой прыжок и рывок
             [i:FargowiltasSouls/ShroomiteEnchant] Не двигаясь, вы входите в невидимость
@@ -2186,7 +2191,7 @@ Items: {
             [i:FargowiltasSouls/SilverEnchant] Нажмите <right>, чтобы прикрыться щитом
             [i:FargowiltasSouls/TungstenEnchant] Увеличивает размер оружия до 300% и снаряда каждые четверть секунды
             [i:FargowiltasSouls/ObsidianEnchant] Даёт невосприимчивость к лаве
-            [i:FargowiltasSouls/AshWoodEnchant] Во время горения или нахождения в лаве, атаки игрока и жителей сопровождаются огненными шарами
+            [i:FargowiltasSouls/AshWoodEnchant] Атаки игрока и жителей сопровождаются огненными шарами
             'Земля придаёт вам силу'
             '''
     }
@@ -2289,7 +2294,7 @@ Items: {
             [i:FargowiltasSouls/TimsConcoction] С некоторых врагов после смерти выпадают зелья
             [i:FargowiltasSouls/TribalCharm] При атаках одиночными нажатиями, на мгновение увеличивает весь урон, кроме призывателя, на 30%
             [c/00FFFF:Следующие эффекты также пассивно работают в инвентаре или в слотах для украшений (<right> для отключения в инвентаре):]
-            Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/SandsofTime] «{$BuffName.WindPushed}», [i:FargowiltasSouls/MysticSkull] «{$BuffName.Suffocation}», [i:FargowiltasSouls/FrigidGemstone] «{$BuffName.Chilled}», [i:FargowiltasSouls/SqueakyToy] и «{$Buffs.GuiltyBuff.DisplayName}»
+            Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/SandsofTime] «{$BuffName.WindPushed}» и к урону от кактусов, [i:FargowiltasSouls/MysticSkull] «{$BuffName.Suffocation}», [i:FargowiltasSouls/FrigidGemstone] «{$BuffName.Chilled}», [i:FargowiltasSouls/SqueakyToy] и «{$Buffs.GuiltyBuff.DisplayName}»
             [i:FargowiltasSouls/WyvernFeather] Стабилизирует гравитацию в космосе и жидкостях, [i:FargowiltasSouls/OrdinaryCarrot] улучшает ночное зрение, [i:FargowiltasSouls/SecurityWallet], и значительно улучшает перековку
             [i:FargowiltasSouls/ConcentratedRainbowMatter] Автоматически использует зелье лечения и [i:FargowiltasSouls/MysticSkull] маны при необходимости, и увеличивает дальность подбора звёзд маны
             [i:FargowiltasSouls/NymphsPerfume] Вы возрождаетесь с большим количеством здоровья [i:FargowiltasSouls/SandsofTime], а при отсутствии боссов возрождаетесь быстрее
@@ -2313,7 +2318,7 @@ Items: {
            [i:FargowiltasSouls/TimsConcoction] С некоторых врагов после смерти выпадают зелья
            [i:FargowiltasSouls/TribalCharm] При атаках одиночными нажатиями, на мгновение увеличивает весь урон, кроме призывателя, на 30%
            [c/00FFFF:Следующие эффекты в настоящее время отключены в инвентаре (<right> для включения):]
-           Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/SandsofTime] «{$BuffName.WindPushed}», [i:FargowiltasSouls/MysticSkull] «{$BuffName.Suffocation}», [i:FargowiltasSouls/FrigidGemstone] «{$BuffName.Chilled}», [i:FargowiltasSouls/SqueakyToy] и «{$Buffs.GuiltyBuff.DisplayName}»
+           Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/SandsofTime] «{$BuffName.WindPushed}» и к урону от кактусов, [i:FargowiltasSouls/MysticSkull] «{$BuffName.Suffocation}», [i:FargowiltasSouls/FrigidGemstone] «{$BuffName.Chilled}», [i:FargowiltasSouls/SqueakyToy] и «{$Buffs.GuiltyBuff.DisplayName}»
            [i:FargowiltasSouls/WyvernFeather] Стабилизирует гравитацию в космосе и жидкостях, [i:FargowiltasSouls/OrdinaryCarrot] улучшает ночное зрение, [i:FargowiltasSouls/SecurityWallet], и значительно улучшает перековку
            [i:FargowiltasSouls/ConcentratedRainbowMatter] Автоматически использует зелье лечения и [i:FargowiltasSouls/MysticSkull] маны при необходимости, и увеличивает дальность подбора звёзд маны
            [i:FargowiltasSouls/NymphsPerfume] Вы возрождаетесь с большим количеством здоровья [i:FargowiltasSouls/SandsofTime], а при отсутствии боссов возрождаетесь быстрее
@@ -2378,6 +2383,8 @@ Items: {
             '''
             Даёт невосприимчивость к дебаффам «{$BuffName.Slow}» и «{$BuffName.Frozen}»
             При рывке оставляет след из ледяных сосулек
+            Дважды нажмите <down> в воздухе, чтобы ускорить падение
+            Ускоренное падение с определённой высоты создаёт ледниковое извержение при столкновении
             'Подстриженные ногти побеждённого врага'
             '''
     }
@@ -2390,7 +2397,7 @@ Items: {
             Даёт невосприимчивость к отбрасыванию
             Нажмите <right>, чтобы прикрыться щитом
             Защита и сопротивление урону значительно снижаются во время и после прикрытия щитом
-            Прикройтесь точно в момент, когда атака коснулась вас, чтобы парировать и контратаковать с длительной перезарядкой
+            Прикройтесь точно в момент удара, чтобы выполнить парирование и контратаковать с длительной перезарядкой
             Парирование блокирует до 200 единиц урона
             Контратака наносит огромный урон и накладывает дебафф «{$Buffs.AnticoagulationBuff.DisplayName}»
             Поглощение сгустков крови антикоагуляции увеличивает урон на 30%
@@ -2512,7 +2519,7 @@ Items: {
             Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/PumpkingsCape] «{$Buffs.LivingWastelandBuff.DisplayName}», [i:FargowiltasSouls/IceQueensCrown] «{$Buffs.HypothermiaBuff.DisplayName}», [i:FargowiltasSouls/SaucerControlConsole] «{$BuffName.Electrified}», «{$BuffName.VortexDebuff}», [i:FargowiltasSouls/BetsysHeart] «{$BuffName.OgreSpit}», «{$BuffName.WitheredWeapon}» и «{$BuffName.WitheredArmor}»
             Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/MutantAntibodies] «{$BuffName.Wet}», «{$BuffName.Rabies}», «{$Buffs.MutantNibbleBuff.DisplayName}», «{$Buffs.OceanicMaulBuff.DisplayName}» и водным дебаффам
             Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/PrecisionSeal] «{$Buffs.SmiteBuff.DisplayName}», [i:FargowiltasSouls/GalacticGlobe] «{$Buffs.NullificationCurseBuff.DisplayName}», «{$Buffs.FlippedBuff.DisplayName}», «{$Buffs.UnstableBuff.DisplayName}» и «{$Buffs.CurseoftheMoonBuff.DisplayName}»
-            [i:FargowiltasSouls/PumpkingsCape] [i:FargowiltasSouls/MutantAntibodies] [i:FargowiltasSouls/IceQueensCrown] Увеличивает урон и шанс критического удара на 10%, урон текущего класса на 20% и сопротивление урону на 5%
+            [i:FargowiltasSouls/PumpkingsCape] [i:FargowiltasSouls/MutantAntibodies] [i:FargowiltasSouls/IceQueensCrown] Увеличивает урон и шанс критического удара на 10% и сопротивление урону на 5%
             [i:FargowiltasSouls/PumpkingsCape] Нажмите <right>, чтобы защититься своей накидкой. Контратака восстанавливает здоровье в зависимости от заблокированного урона. Излучает ауру гниения во время защиты
             [i:FargowiltasSouls/IceQueensCrown] При уклонении вблизи снаряда заряжает бомбу. Когда она зарядится, нажмите клавишу «Бомба», чтобы на короткое время заморозить все снаряды и врагов
             [i:FargowiltasSouls/SaucerControlConsole] Призывает дружелюбную маленькую марсианскую тарелку, которая замедляет поражённых врагов
@@ -2561,6 +2568,8 @@ Items: {
             [i:FargowiltasSouls/DreadShell] Нажмите <right>, чтобы своевременно парировать атаку, блокируя 200 единиц урона
             [i:FargowiltasSouls/DreadShell] Защита и сопротивление урону значительно снижаются во время и после парирования
             [i:FargowiltasSouls/Deerclawps] При рывке оставляет след из кровавых шипов
+            [i:FargowiltasSouls/Deerclawps] Дважды нажмите <down> в воздухе, чтобы ускорить падение
+            [i:FargowiltasSouls/Deerclawps] Ускоренное падение с определённой высоты создаёт ледниковое извержение при столкновении
             'Оно растёт'
             '''
     }
@@ -2585,7 +2594,7 @@ Items: {
             Даёт невосприимчивость к дебаффам «{$BuffName.Wet}», «{$BuffName.Rabies}», «{$Buffs.MutantNibbleBuff.DisplayName}» и «{$Buffs.OceanicMaulBuff.DisplayName}»
             Даёт невосприимчивость к большинству дебаффов, вызванных погружением в воду
             Даёт эффекты от дебаффа «{$BuffName.Wet}» при езде на Рыброне-милашке
-            Увеличивает урон оружия текущего класса на 20%, но снижает регенерацию здоровья
+            Увеличивает урон оружия текущего класса на 25%, но снижает регенерацию здоровья
             Погружение в воду восстанавливает время полёта крыльев и увеличивает скорость и максимальное время полёта крыльев
             'Отличный препарат, 0 из 10 врачей рекомендуют'
             '''
@@ -2677,9 +2686,9 @@ Items: {
             '''
             Даёт невосприимчивость к дебаффу «{$Buffs.LivingWastelandBuff.DisplayName}»
             Увеличивает урон и шанс критического удара на 5%
-            Нажмите <right>, чтобы защититься своей накидкой
+            Нажмите <right>, чтобы прикрыться своей накидкой
             Излучает ауру гниения во время защиты
-            Защититесь точно в момент, когда атака коснулась вас, чтобы парировать и контратаковать с длительной перезарядкой
+            Прикройтесь точно в момент удара, чтобы выполнить парирование и контратаковать с длительной перезарядкой
             Парирование блокирует до 200 единиц урона
             Контратака восстанавливает здоровье в зависимости от заблокированного урона
             'Каким-то образом подходит по размеру'
@@ -2741,7 +2750,7 @@ Items: {
         Tooltip:
             '''
             Работает в инвентаре
-            Даёт невосприимчивость к дебаффу «{$BuffName.WindPushed}»
+            Даёт невосприимчивость к дебаффу «{$BuffName.WindPushed}» и к урону от кактусов
             Вы возрождаетесь в два раза быстрее, когда нет живых боссов
             Используйте для телепортации на вашу последнюю точку смерти
             'Не ронять ни при каких обстоятельствах'
@@ -2981,7 +2990,6 @@ Items: {
         DisplayName: Душа вечности
         Tooltip:
             '''
-            'Смертный или бессмертный, никто не смеет оспорить вашу божественность'
             Устанавливает шанс критического удара на 50%
             Каждый последующий критический удар увеличивает его на 10%
             При достижении 100% каждая атака получает 10% кражу здоровья
@@ -2991,309 +2999,9 @@ Items: {
 
         Extra: {
             Additional: Дополнительно даёт:
-            Vanilla:
-                '''
-                Увеличивает урон на 250%
-                Увеличивает скорость атаки на 250%
-                Увеличивает скорость стрельбы на 100%
-                Увеличивает отбрасывание на 100%
-                Увеличивает пробивание брони на 50
-                Критические удары наносят в 10 раз больше урона и накладывают дебафф «{$Buffs.FlamesoftheUniverseBuff.DisplayName}»
-                Значительно увеличивает регенерацию здоровья
-                Увеличивает максимальный запас маны на 999
-                Увеличивает призываемое число миньонов на 30
-                Увеличивает призываемое число стражей на 20
-                Увеличивает максимальный запас здоровья на 50%
-                Снижает расход маны на 50%
-                Все атаки накладывают дебафф «{$Buffs.SadismBuff.DisplayName}»
-                Все атаки накладывают дебафф «{$Buffs.MidasBuff.DisplayName}»
-                Все атаки снижают кадры неуязвимости врага
-                Призывает вокруг вас огненные шары
-                Призывает вокруг вас 2 теневые сферы
-                Призывает вокруг вас сосульки
-                Призывает вокруг вас кристальные листья
-                Призывает освящённый меч и щит
-                Призывает жуков защищать вас
-                Призывает миньона пламестрела
-                Призывает множество питомцев
-                Призывает на помощь всех боссов режима Вечность
-                Атаки могут создать молнии
-                Атаки могут создать цветочные лепестки
-                Атаки могут создать спектральные сферы
-                Атаки могут создать стража Темницы
-                Атаки могут создать снежки
-                Атаки могут создать копья
-                Атаки могут создать сердца
-                Атаки могут создать миниатюрный шторм
-                Атаки могут создать баффы-усилители
-                Атаки вызывают усиленную регенерации здоровья
-                Атаки вызывают теневое уклонение
-                Атаки вызывают выстрелы пламестрела
-                Атаки вызывают атаки тыквенного короля
-                Атаки вызывают заклинания Культиста-лунатика
-                Атаки вызывают метеоритный дождь
-                Все снаряды могут разделиться
-                Снаряды могут разбиться
-                Снаряды создают звёзды
-                Увеличивает размер предметов и снарядов
-                Вы оставляете за собой след из огней
-                Поджигает ближайших врагов
-                Миньоны периодически извергают косы
-                Вы можете призывать временных миньонов
-                Увеличивают защиту невинных животных
-                Души невинных животных помогают вам
-                Враги взрываются иглами
-                Значительно усиливает всех призываемых стражей из DD2
-                Дважды нажмите ВНИЗ, чтобы вызвать пальмового стража
-                Дважды нажмите ВНИЗ, чтобы вызвать древнюю бурю
-                Дважды нажмите ВНИЗ, чтобы вызвать дождь из стрел
-                Дважды нажмите ВНИЗ, чтобы переключить режим скрытности
-                Дважды нажмите ВНИЗ, чтобы создать портал
-                Дважды нажмите ВНИЗ, чтобы направить вашего усиленного стража
-                Нажмите ПКМ, чтобы прикрыться щитом
-                Клавиша «Превращение в золото» окружает вас золотым панцирем
-                Клавиша «Заморозка» замораживает время на 5 секунд
-                Солнечный щит позволяет вам делать рывок
-                Позволяет мгновенно телепортироваться сквозь стены при использовании рывка
-                Бросьте дымовую бомбу, чтобы телепортироваться к ней и получить бафф «{$Buffs.FirstStrikeBuff.DisplayName}»
-                Прыжки создают взрыв спор
-                Враги, подошедшие слишком близко активируют все эффекты при ударе
-                При получении урона отражает урон
-                При получении урона вызывает кровавый гейзер
-                Атаки по вам могут случайно пискнуть
-                При получении урона вы извергаетесь шипастыми шарами
-                При получении урона вы извергаетесь древними пророчествами
-                Даёт багряное лечение
-                Даёт невосприимчивость к огню
-                Даёт невосприимчивость к урону от падения
-                Даёт невосприимчивость к лаве
-                Даёт невосприимчивость к отбрасыванию
-                Даёт невосприимчивость практически ко всем дебаффам
-                Удваивает сбор растений
-                Даёт 50% шанс на мега-пчёл
-                Даёт 15% шанс для миньонов нанести критический удар
-                Даёт 20% шанс получить дополнительную добычу
-                Позволяет бегать со скоростью звука
-                Позволяет бесконечно летать
-                Значительно увеличивает навык рыбной ловли
-                Все удочки имеют 10 дополнительных поплавков
-                Вы возрождаетесь в 10 раз быстрее
-                Предотвращает появление боссов
-                Увеличивает скорость появления врагов
-                Снижает враждебность скелетов вне Темницы
-                Усиливает Рыброна-милашку
-                Даёт защиту от модификаторов
-                Позволяет контролировать гравитацию
-                Даёт быстрое падение
-                Усиливает крюки
-                Вы притягиваете предметы на большем расстоянии
-                Увеличивает скорость размещения блоков и стен на 50%
-                Почти бесконечный радиус размещения блоков
-                Почти бесконечный радиус добычи
-                Значительно увеличивает скорость добычи
-                Вы отражаете все снаряды
-                При получении урона, вы взрываетесь, нанося урон ближайшим врагам
-                После смерти, вы возрождаетесь с полным здоровьем
-                Эффекты от предмета «{$ItemName.FireGauntlet}»
-                Эффекты от предмета «{$ItemName.YoyoBag}»
-                Эффекты от предмета «{$ItemName.SniperScope}»
-                Эффекты от предмета «{$ItemName.CelestialCuffs}»
-                Эффекты от предмета «{$ItemName.ManaFlower}»
-                Эффекты от предмета «{$ItemName.BrainOfConfusion}»
-                Эффекты от предмета «{$ItemName.StarVeil}»
-                Эффекты от предмета «{$ItemName.SweetheartNecklace}»
-                Эффекты от предмета «{$ItemName.BeeCloak}»
-                Эффекты от предмета «{$ItemName.SporeSac}»
-                Эффекты от предмета «{$ItemName.PaladinsShield}»
-                Эффекты от предмета «{$ItemName.FrozenTurtleShell}»
-                Эффекты от предмета «{$ItemName.ArcticDivingGear}»
-                Эффекты от предмета «{$ItemName.FrogLeg}»
-                Эффекты от предмета «{$ItemName.FlyingCarpet}»
-                Эффекты от предмета «{$ItemName.LavaWaders}»
-                Эффекты от предмета «{$ItemName.AnglerTackleBag}»
-                Эффекты от предмета «{$ItemName.PaintSprayer}»
-                Эффекты от предмета «{$ItemName.ActuationAccessory}»
-                Эффекты от предмета «{$ItemName.CellPhone}»
-                Эффекты от предмета «{$ItemName.FlowerBoots}»
-                Эффекты от предмета «{$ItemName.MasterNinjaGear}»
-                Эффекты от предмета «{$ItemName.CelestialShell}»
-                Эффекты от предмета «{$ItemName.ShinyStone}»
-                Эффекты от предмета «{$ItemName.SpelunkerPotion}»
-                Эффекты от предмета «{$ItemName.TrapsightPotion}»
-                Эффекты от предмета «{$ItemName.HunterPotion}»
-                Эффекты от предмета «{$ItemName.ShinePotion}»
-                Эффекты режима строителя
-                '''
-            Thorium:
-                '''
-                Armor bonuses from Living Wood
-                Armor bonuses from Life Bloom
-                Armor bonuses from Yew Wood
-                Armor bonuses from Tide Hunter
-                Armor bonuses from Icy
-                Armor bonuses from Cryo Magus
-                Armor bonuses from Whispering
-                Armor bonuses from Sacred
-                Armor bonuses from Warlock
-                Armor bonuses from Biotech
-                Armor bonuses from Cyber Punk
-                Armor bonuses from Maestro
-                Armor bonuses from Bronze
-                Armor bonuses from Darksteel
-                Armor bonuses from Durasteel
-                Armor bonuses from Conduit
-                Armor bonuses from Lodestone
-                Armor bonuses from Illumite
-                Armor bonuses from Jester
-                Armor bonuses from Thorium
-                Armor bonuses from Terrarium
-                Armor bonuses from Malignant
-                Armor bonuses from Folv
-                Armor bonuses from White Dwarf
-                Armor bonuses from Celestial
-                Armor bonuses from Spirit Trapper
-                Armor bonuses from Dragon
-                Armor bonuses from Dread
-                Armor bonuses from Flesh
-                Armor bonuses from Demon Blood
-                Armor bonuses from Tide Turner
-                Armor bonuses from Assassin
-                Armor bonuses from Pyromancer
-                Armor bonuses from Dream Weaver
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.FlawlessChrysalis.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.BubbleMagnet.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.AnglerBowl.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.IceBoundStriderHide.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.RingofUnity.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.MixTape.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.EyeoftheStorm.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.ChampionsRebuttal.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.IncandescentSpark.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.GreedyMagnet.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.AbyssalShell.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.AstroBeetleHusk.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.MirroroftheBeholder.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.Crietz.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.ArtificersRocketeers.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.InnerFlame.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.CrashBoots.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.VampireGland.DisplayName}»
-                #Удаленный предмет
-                Effects of Demon Blood Badge
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.BeholderGaze.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.PlagueLordFlask.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.Phylactery.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.CrystalScorpion.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.ThrowingGuideVolume3.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.MermaidCanteen.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.DeadEyePatch.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.SupportSash.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.SavingGrace.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.SoulGuard.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.ArchDemonCurse.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.ArchangelHeart.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.MedicalBag.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.EpicMouthpiece.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.StraightMute.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.DigitalTuner.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.GuitarPickClaw.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.OceanRetaliation.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.TerrariumDefender.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.AirWalkers.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.SurvivalistBoots.DisplayName}»
-                Эффекты от предмета «{$Mods.ThoriumMod.Items.WeightedWinglets.DisplayName}»
-                '''
-            Calamity:
-                '''
-                Эффекты аэрофазового комплекта
-                Эффекты статигелевого комплекта
-                Эффекты комплекта Дедала
-                Эффекты комплекта кровавой вспышки
-                Эффекты комплекта прилива
-                Эффекты возвышенной брони
-                Эффекты омега-синей брони
-                Эффекты комплекта богоубийцы
-                Эффекты комплекта Сильвы
-                Эффекты ауритового тесла-комплекта
-                Эффекты брони моллюска
-                Эффекты комплекта разорителя
-                Эффекты гидротермического комплекта
-                Эффекты астральной брони
-                Эффекты эстрагонового комплекта
-                Эффекты тенедемонической брони
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.SpiritGlyph.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.RaidersTalisman.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.TrinketofChi.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.GladiatorsLocket.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.UnstableGraniteCore.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.CounterScarf.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.FungalSymbiote.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.PermafrostsConcoction.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.Regenator.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.CoreOfTheBloodGod.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.Affliction.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.DeepDiver.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.TheTransformer.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.LuxorsGift.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.TheCommunity.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.AbyssalDivingSuit.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.LumenousAmulet.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.AquaticEmblem.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.NebulousCore.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.DraedonsHeart.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.TheAmalgam.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.GodlySoulArtifact.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.YharimsGift.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.HeartoftheElements.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.TheSponge.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.GiantPearl.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.AmidiasPendant.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.FlameLickedShell.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.PlagueHive.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.Purity.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.HideofAstrumDeus.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.ProfanedSoulArtifact.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.DarkSunRing.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.ElementalGauntlet.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.ElementalQuiver.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.EtherealTalisman.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.StatisVoidSash.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.Nanotech.DisplayName}»
-                Эффекты от предмета «{$Mods.CalamityMod.Items.Accessories.AsgardianAegis.DisplayName}»
-                '''
-            SOA:
-                '''
-                Armor bonuses from Bismuth
-                Armor bonuses from Frosthunter
-                Armor bonuses from Blightbone
-                Armor bonuses from Dreadfire
-                Armor bonuses from Space Junk
-                Armor bonuses from Marstech
-                Armor bonuses from Blazing Brute
-                Armor bonuses from Cosmic Commander
-                Armor bonuses from Nebulous Apprentic
-                Armor bonuses from Stellar Priest
-                Armor bonuses from Fallen Prince
-                Armor bonuses from Void Warden
-                Armor bonuses from Vulcan Reaper
-                Armor bonuses from Flarium
-                Armor bonuses from Asthraltite
-                Effects of Dreadflame Emblem
-                Effects of Lapis Pendant
-                Effects of Frigid Pendant
-                Effects of Pumpkin Amulet
-                Effects of Nuba's Blessing
-                Effects of Novaniel's Resolve
-                Effects of Celestial Ring
-                Effects of Ring of the Fallen
-                Effects of Memento Mori
-                Effects of Arcanum of the Caster
-                '''
-            DBT:
-                '''
-                Effects of Zenkai Charm
-                Effects of Aspera Crystallite
-                '''
+            StartsWithFilter: "'"
+            ContainsFilter: Следующие эффекты|С возможностью переключения
+            Flavor: "''Смертный или бессмертный, никто не смеет оспорить вашу божественность''"
         }
     }
 
@@ -3318,7 +3026,7 @@ Items: {
             Увеличивает максимальный запас здоровья на 100%, урон оружия текущего класса на 50% и сопротивление урону на 10%
             Значительно увеличивает регенерацию здоровья; курсор вблизи врагов увеличивает получаемый ими урон
             Позволяет контролировать гравитацию, быстро падать; даёт невосприимчивость к отбрасыванию и практически ко всем дебаффам режима Вечность и другое
-            Автоматически использует зелья маны при необходимостиа
+            Автоматически использует зелья маны при необходимости
             Атаки создают дополнительные атаки, сердца и накладывают множество дебаффов режима Вечность
             Увеличивает характеристики, если на вас наложен дебафф «{$BuffName.CursedInferno}» или «{$BuffName.Ichor}»
             Нажмите клавишу «Инсталляция дебаффа», чтобы наложить на себя дебафф и бафф
@@ -3659,6 +3367,7 @@ Items: {
         Tooltip:
             '''
             Навсегда снижает цены у Мутанта на 20%
+            {$CommonItemTooltip.MajorStats}
             'Используется не так, как ты думаешь'
             '''
     }
@@ -3673,7 +3382,7 @@ Items: {
         Tooltip:
             '''
             Улучшает ночное зрение
-            Немного увеличивает все характеристики
+            {$CommonItemTooltip.MinorStats}
             Длительность действия: 1 минута
             Нажмите <right>, чтобы отдалить, пока находится в инвентаре
             'Сорванная с лица побеждённого врага'
@@ -4524,6 +4233,9 @@ Items: {
         Tooltip:
             '''
             Использует кости в качестве боеприпасов
+            <left> накладывает дебафф «{$Buffs.HellFireBuff.DisplayName}»
+            Нажмите <right>, чтобы выстрелить черепом, который отмечает врагов на смерть
+            Отмеченные враги получают в 5 раз больше урона от дебаффа «{$Buffs.HellFireBuff.DisplayName}»
             80% шанс не использовать боеприпасы
             'Награда за кровавую резню...'
             '''
@@ -4611,7 +4323,7 @@ Items: {
         Tooltip:
             '''
             [c/ff0000:Предмет отладки]
-            <left>: Переключает текущею сессию в режим Мазохист
+            <left>: Переключает текущую сессию в режим Мазохист
             <right>: Переключает мир в режим Мазохист
             '''
         WorldState: "В настоящее время режим мазо: "
@@ -4790,7 +4502,7 @@ Items: {
 
     AbomMusicBox: {
         DisplayName: Музыкальная шкатулка (Мерзостть)
-        Tooltip: Композитор: Sakuzyo - 'Stigma'
+        Tooltip: Композитор: Yuri O 'Laevateinn'
     }
 
     ChampionMusicBox: {
@@ -4800,7 +4512,7 @@ Items: {
 
     DeviMusicBox: {
         DisplayName: Музыкальная шкатулка (Девиантт)
-        Tooltip: Композитор: Sakuzyo - 'Lexus Cyanixs'
+        Tooltip: Композитор: Yuri O 'Sparkly Strawberry Sunrise'
     }
 
     MutantMusicBox: {
@@ -4866,10 +4578,11 @@ Items: {
         DisplayName: Взрывоглот
         Tooltip:
             '''
-            Использует гниющие куски в качестве боеприпасов
-            Стреляет куском гнилой плоти
+            Нажмите <right> в инвентаре, чтобы зарядить гниющий кусок в качестве боеприпасов
+            При попытке выстрела, в случае необходимости, происходит автоматическая зарядка гниющего куска
+            Каждый гниющий кусок даёт 100 патронов, максимум 1000
+            Стреляет куском гниющей плоти
             Увеличивает урон, наносимый врагам в определённом радиусе
-            50% шанс не использовать боеприпасы
             'Гниющие останки поверженного врага...'
             '''
     }
@@ -4901,16 +4614,36 @@ Items: {
     }
     
     Extra: {
-    	StarlightTungsten: Не подвержен воздействию вольфрамового усиления
-    	DefensePrefixMaxLife: +{0} к максимальному запасу здоровья
-    	EternityItem: Вечность
-    	PatreonItem: >> Предмет покровителя <<
-    	ItemStolen: У вас украли предмет!
+        StarlightTungsten: Наносит на 60% меньше урона при использовании с вольфрамовым усилением
+        DefensePrefixMaxLife: +{0} к максимальному запасу здоровья
+        EternityItem: Вечность
+        DisabledEffects: Эффекты отключены в меню переключения эффектов
+        PatreonItem: >> Предмет покровителя <<
+        ItemStolen: У вас украли предмет!
     }
     
     GravityTestItem: {
-    	DisplayName: Тестовый предмет гравитации
-    	Tooltip: ""
+        DisplayName: Тестовый предмет гравитации
+        Tooltip: ""
+    }
+    
+    CoffinSummon: {
+        DisplayName: Утраченный сосуд
+        Tooltip: Сломайте в подземой пустыне, чтобы призвать Проклятый саркофаг
+    }
+    
+    TogglerIconItem: {
+        DisplayName: Предмет иконки переключателя
+        Tooltip: ""
+    }
+    
+    RazorContainer: {
+    	DisplayName: Острый контейнер
+    	Tooltip:
+    	    '''
+    	    Создаёт 2 лезвия, которые вращаются вокруг вас
+    	    Ударьте их атакой ближнего боя, чтобы отправить их в полёт и нанести дополнительный урон
+    	    '''
     }
 }
 
@@ -5231,6 +4964,18 @@ NPCs: {
         
         Slurp: чавк
     }
+    
+    CursedCoffin: {
+        DisplayName: Проклятый саркофаг
+    
+        BossChecklistIntegration: {
+            EntryName: Проклятый саркофаг
+            SpawnInfo: Призывается при использовании [i:FargowiltasSouls/CoffinSummon] под землёй в пустыне.
+            DespawnMessage: Проклятый саркофаг погружается обратно в песчаные глубины...
+        }
+    }
+    
+    CursedSpirit.DisplayName: Проклятый дух
 
     DetonatingBubbleNPC.DisplayName: Взрывающийся пузырь
     StardustMinion.DisplayName: Клетка звёздной пыли
@@ -5327,7 +5072,7 @@ Projectiles: {
     BlenderSpray.DisplayName: Blender Spray
     BlenderYoyoProj.DisplayName: The Blender
     Bonez.DisplayName: Bonez
-    DarkStarFriendly.DisplayName: Dark Star
+    MechElectricOrbFriendly.DisplayName: Electric Orb
     Dash.DisplayName: Dash
     Dash2.DisplayName: Dash2
     DicerMine.DisplayName: Dicer Mine
@@ -5569,10 +5314,10 @@ Projectiles: {
     CultistRitual.DisplayName: Cultist Ritual
     CultistVortex.DisplayName: Vortex
     CursedFlamethrower.DisplayName: Eye Fire
-    DarkStar.DisplayName: Dark Star
-    DarkStarDestroyer.DisplayName: Dark Star
-    DarkStarHoming.DisplayName: Dark Star
-    DarkStarTwins.DisplayName: Dark Star
+    MechElectricOrb.DisplayName: Electric Orb
+    MechElectricOrbDestroyer.DisplayName: Electric Orb
+    MechElectricOrbHoming.DisplayName: Electric Orb
+    MechElectricOrbTwins.DisplayName: Electric Orb
     DeathSkull.DisplayName: Death Skull
     DeerclopsHand.DisplayName: Shadow Hand
     DestroyerLaser.DisplayName: Death Laser
@@ -5662,7 +5407,7 @@ Projectiles: {
     BrainMinion.DisplayName: Brain Proj
     CreeperMinion.DisplayName: Brain Proj
     CrystalSkull.DisplayName: Crystal Skull
-    DarkStarHomingFriendly.DisplayName: Dark Star
+    MechElectricOrbHomingFriendly.DisplayName: Electric Orb
     DestroyerBody.DisplayName: Destroyer Body
     DestroyerBody2.DisplayName: Destroyer Body
     DestroyerHead.DisplayName: Destroyer Head
@@ -5987,6 +5732,15 @@ Projectiles: {
     PlanteraTrapper.DisplayName: Plantera Trapper
     PlanteraMushroomThing.DisplayName: Plantera Mushroom Thing
     RainExplosion.DisplayName: Rain Explosion
+    CoffinSlamShockwave.DisplayName: Coffin Slam Shockwave
+    CoffinWaveShot.DisplayName: Coffin Wave Shot
+    CoffinDarkSouls.DisplayName: Coffin Dark Souls
+    CoffinHand.DisplayName: Coffin Hand
+    CoffinRandomStuff.DisplayName: Coffin Random Stuff
+    FishStickWhirlpool.DisplayName: Fish Stick Whirlpool
+    BetsyHomingFireball.DisplayName: Betsy Homing Fireball
+    HellGuardian.DisplayName: Hell Guardian
+    RazorBlade.DisplayName: Razor Blade
 }
 
 PetHeader: "[i:2420][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetHeader}]"
@@ -6089,6 +5843,11 @@ Configs: {
         HideTogglerWhenInventoryIsClosed: {
             Label: Переключатель эффектов только при открытом инвентаре
             Tooltip: Если включено, переключатель эффектов будет автоматически скрываться при закрытии инвентаря.
+        }
+
+        ItemDisabledTooltip: {
+            Label: Отключение описания эффектов
+            Tooltip: Если включено, у предметов с отключёнными эффектами через переключатель эффектов, будет добавлена строчка в описании, указывающая на это.
         }
 
         DeviChatter: {
@@ -6208,4 +5967,17 @@ Configs: {
     }
 }
 
-Conditions.RoombaPetSold: Когда конфигурация Робота-пылесоса включена
+Conditions: {
+    RoombaPetSold: Когда конфигурация Робота-пылесоса включена
+    DownedEvilBoss: После победы над любым боссом мирового зла
+    EMode: "[i:FargowiltasSouls/Masochist] Шанс выпадения в режиме Вечность"
+    EModeEarlyBirdHM: "[i:FargowiltasSouls/Masochist] Шанс выпадения в хардмодном режиме Вечность"
+    EModeEarlyBirdPHM: "[i:FargowiltasSouls/Masochist] Шанс выпадения в пре-хардмодном режиме Вечность"
+    EModeNotMaster: Шанс выпадения в режиме Мастер/Вечность
+    NotEMode: "[i:FargowiltasSouls/Masochist] Шанс выпадения не в режиме Вечность"
+    TimsConcoction: "[i:FargowiltasSouls/TimsConcoction] Шанс выпадения Смеси Тима"
+    Patreon: "[i:FargowiltasSouls/RoombaPet] Выпадение предметов Патронов"
+    PatreonEMode: "[i:FargowiltasSouls/RoombaPet] Выпадение предметов Патронов в режиме Вечность"
+    PatreonPlant: "[i:FargowiltasSouls/RoombaPet] Выпадение предметов Патронов в джунглях во время кровавой луны"
+    FirstKill: Выпадает в режиме Вечность при первом убийстве
+}
