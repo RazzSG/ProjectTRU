@@ -298,8 +298,8 @@ Bestiary: {
     Frogfish: Well-camouflaged and prepared to strike at any moment, Frogfish show that the ocean is rarely as serene as it seems. There are few places where one can find true peace here in the heart of what once was an empire unrivaled.
     Horse: After the Brimstone Elemental became dormant, the forgemasters of Azafure used clockwork and crystal to bind the powers of an elemental to a mechanical body. While formidable, it seems the dream of creating a true replacement for an elemental died unfulfilled with Azafure itself.
     IceClasper: Though their exact origins are an enigma, what is known is that these ethereal beings seek to stamp out any and all sources of warmth that exist in their home. Due to this fact, and taking into account the fossil record, many speculate that ice claspers may have played a vital role in the tundra’s creation.
-    ImpiousImmolator: An idol carved in the image of Her, it is lit ablaze with the crafter’s lifeforce. After all, what weight does one’s life hold when one wishes to see the world wreathed in Her holy flames?
-    MantisShrimp: Though a variety of answers are given when one asks adventurers about dangerous creatures, few aside from sailors will mention the small yet mighty Mantis Shrimp. Their strikes are so swift that the energy generated from them heats the water to temperatures rivaling the magma of Azafure.
+    ImpiousImmolator: Идол, изваянный по образу Её, пылает жизненной силой создателя. Ведь что может значить чья-то жизнь, когда жаждешь увидеть мир, объятый Её священным пламенем?
+    MantisShrimp: Несмотря на то, что в опросах путешественников о потенциально опасных существах упоминается множество различных видов, лишь немногие, за исключением моряков, вспомнят о маленьком, но чрезвычайно сильном ракообразном - креветке-богомоле. Его удары настолько молниеносны, что генерируемая им энергия нагревает воду до температур, сравнимых с температурой магмы в Азафуре.
     OverloadedSoldier: Ожившее тело, переполненное душами воинов, погибших во время Крестового похода и не нашедших покоя. Их неутолимая жажда битвы вновь вспыхнула, когда они почувствовали присутствие божественных сущностей в этой земле.
     PerennialSlime: Эти слизни завладели небольшим количеством сущности Богини жизни. Несмотря на её заточение в самых глубинах бездны, нити её влияния теперь распространяются далеко за пределы этого мира.
     PhantomSpirit: Духи, обитающие в Темнице, едва ли вспоминают свою прежнюю жизнь. Однако есть одна вещь, которую они отчётливо помнят и которая толкает их к хаосу: человек, заточивший их в этих проклятых стенах, и его подавляющую силу - силу, которую они чувствуют, когда по их коридорам ходит кто-то, кто становится всё могущественнее.
@@ -7773,13 +7773,13 @@ Items: {
             DisplayName: История — Астральная инфекция
             Lore:
                 '''
-                В этом извращённом мире снов я обнаружил звёздный эквивалент той гнили, которую ты наблюдаешь в своих мирах
-                Я не утверждаю, что целиком понимаю процесс, но даже звёзды могут умереть. Оставленные без контроля, их останки вздуваются и гниют
-                Тем не менее в этом мире существует некий порядок, подобный круговороту жизни
+                В этом извращённом мире грёз я обнаружил звёздный эквивалент той гнили, которую ты наблюдаешь в своих мирах
+                Я не до конца понимаю этот процесс, но даже звёзды могут умереть. Оставленные без надзора, их останки вздуваются и разлагаются
+                Тем не менее, в этом мире существует некий порядок, подобный круговороту жизни
                 Космические существа патрулируют безграничную пустоту, поедая на своём пути мертвечину и оставляя одни лишь обглоданные кости
                 Эта инфекция является последствием нарушения из глубин космоса. Она обладает собственным разумом и воздействует своей волей на жизнь и землю
-                Те, чьи умы могут постичь истинную форму вселенной, в значительной степени устойчивы к этой инфекции
-                Такие люди не поддаются обольщению так называемой «высшей истины», не говоря уже о той, которую проповедует какая-то гнилая опухоль
+                Те, чьи умы могут постичь истинную форму вселенной, во многом невосприимчивы к этой инфекции
+                Такие люди не поддаются обольщению так называемой «высшей истины», особенно если она проповедуется злокачественной опухолью
                 '''
         }
         
@@ -20465,7 +20465,7 @@ NPCs: {
     IceClasper.DisplayName: Ледяной клещ
     ImpiousImmolator.DisplayName: Нечестивый жертвенник
     KingSlimeJewel.DisplayName: Королевская драгоценность
-    MantisShrimp.DisplayName: Богомол-креветка
+    MantisShrimp.DisplayName: Креветка-богомол
     OverloadedSoldier.DisplayName: Перегруженный солдат
     PerennialSlime.DisplayName: Многолетний слизень
     PhantomSpirit.DisplayName: Фантомный дух

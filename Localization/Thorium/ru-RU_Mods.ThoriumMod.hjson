@@ -1850,7 +1850,7 @@ Items: {
     }
 
     MantisShrimpPunch: {
-        DisplayName: Удар рака-богомола
+        DisplayName: Удар креветки-богомола
         Tooltip: "'Преодолейте звуковой барьер'"
     }
 

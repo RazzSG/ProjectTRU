@@ -4947,8 +4947,8 @@
 #            LikeNPC: Коллега-учёный {NPCName} поднимает интересные научные вопросы.
 #            DislikeNPC: Не то чтобы я ненавидела {NPCName}... просто наши вкусы сильно разнятся.
 #            HateNPC: Грубый, необразованный и неотесанный. {NPCName} - это квинтэссенция тех людей, на которых я никогда не хотела бы смотреть.
-#            LikeNPC_Princess: "{NPCName} is a princess? It may be pertinent to build rapport- their coffers could afford stronger instruments, for one."
-#            Princess_LovesNPC: "{NPCName} is so exotic! Isn't that something to admire?"
+#            LikeNPC_Princess: "{NPCName} - принцесса? Неплохо бы с ней подружиться. У неё, небось, денег на крутые инструменты куры не клюют"
+#            Princess_LovesNPC: "{NPCName} выглядит так экзотично! Разве это не достойно восхищения?"
 #        }
 #
 #        Census.SpawnCondition: Have a Weapon Memory in your inventory
@@ -4990,7 +4990,7 @@
 #
 #        BossChecklistIntegration: {
 #            EntryName: Скиталец между измерениями
-#            SpawnInfo: Defeat this strange foe through the Shattered Disk, obtained from your Starfarer after the Eye of Cthulhu is defeated. This fight will be critical to progression later!
+#            SpawnInfo: Для победы над этим странным врагом необходимо использовать [i:StarsAbove/ShatteredDisk], который вы получите от вашей Астры после победы над Глазом Ктулху. Эта битва станет ключевой для дальнейшего прогресса!
 #            DespawnMessage: ""
 #        }
 #    }
@@ -5810,9 +5810,9 @@
 #        DisplayName: Желание прародителя
 #        Tooltip:
 #            '''
-#            This shard is the culmination of billions of ferverent prayers
-#            [c/F1AF42:Summons The Warrior of Light]
-#            If Light Everlasting is not at its peak, magnifies the effect of Light Everlasting
+#            Этот осколок - результат миллиардов ярых молитв
+#            [c/F1AF42:Призывает Воина света]
+#            Если Вечный свет не на пике, это многократно усиливает его эффект
 #            Не расходуется
 #            '''
 #    }
@@ -5847,7 +5847,7 @@
 #            Победа над боссами разблокирует пассивные способности, доступные в [c/3599EC:Звёздном ряде]
 #            Кроме того, можно настроить тип урона Аспектного оружия
 #            [c/F1AFFF:После разблокировки Астронов, их можно модифицировать в] [c/EC356F:Меню Астры]
-#            [c/F1AFFF:После разблокировки Стеллария, получить к ней доступ можно в] [c/EC356F:Меню Астры]
+#            [c/F1AFFF:После разблокировки Стеллария, получить к нему доступ можно в] [c/EC356F:Меню Астры]
 #            Вы можете восстановить потерянные предметы и прочитать предыдущие диалоги в [c/9FEE5E:Архиве]
 #            Способность владеть Теневым или Астральным оружием зависит от выбранной [c/F1AF42:Астры]
 #            '''
@@ -5857,8 +5857,8 @@
 #        DisplayName: Пространственное воспоминание
 #        Tooltip:
 #            '''
-#            Overwhelmingly luminous material glitters with potential
-#            Can be used to craft an incredibly powerful weapon
+#            Ослепительно сияющий материал, таит в себе огромный потенциал
+#            Можно использовать для создания невероятно мощного оружия
 #            'Мощь солнца... у меня в руках'
 #            '''
 #    }
@@ -6526,12 +6526,12 @@
 #    }
 #
 #    EssenceOfTheAnomaly: {
-#        DisplayName: Essence of the Anomaly
+#        DisplayName: Эссенция аномалии
 #        Tooltip:
 #            '''
 #            Можно получить в качестве награды за победу над боссом мирового зла
 #            Подарок вашей Астры
-#            Используется для создания 'Neo Dealmaker' (Стрелковый)
+#            Используется для создания '{$Items.NeoDealmaker.DisplayName}' (Стрелковый)
 #            '''
 #    }
 #
@@ -6541,37 +6541,37 @@
 #            '''
 #            Можно получить в качестве награды за победу над Культистом-лунатиком
 #            Подарок вашей Астры
-#            Используется для создания 'Ozma Ascendant' (Магический)
+#            Используется для создания '{$Items.Ozma.DisplayName}' (Магический)
 #            '''
 #    }
 #
 #    EssenceOfTheBeginningAndEnd: {
-#        DisplayName: Essence of the Beginning and End
+#        DisplayName: Эссенция начала и конца
 #        Tooltip:
 #            '''
-#            Obtained after defeating all vanilla bosses and the Warrior of Light
+#            Можно получить в качестве награды за победу над всеми ванильными боссами и Воином света
 #            Подарок вашей Астры
-#            Используется для создания 'Bury The Light' (Неземной)
+#            Используется для создания '{$Items.BuryTheLight.DisplayName}' (Неземной)
 #            '''
 #    }
 #
 #    EssenceOfTheBionis: {
-#        DisplayName: Essence of the Bionis
+#        DisplayName: Эссенция Биониса
 #        Tooltip:
 #            '''
 #            Можно получить в качестве награды за победу над любым механическим боссом
 #            Подарок вашей Астры
-#            Используется для создания 'Xenoblade' (Ближний бой)
+#            Используется для создания '{$Items.Xenoblade.DisplayName}' (Ближний бой)
 #            '''
 #    }
 #
 #    EssenceOfTheBull: {
-#        DisplayName: Essence of the Bull
+#        DisplayName: Эссенция быка
 #        Tooltip:
 #            '''
 #            Можно получить в качестве награды за победу над механическим боссом
 #            Подарок вашей Астры
-#            Используется для создания 'Ride The Bull' (Стрелковый)
+#            Используется для создания '{$Items.RideTheBull.DisplayName}' (Стрелковый)
 #            '''
 #    }
 #
@@ -6586,22 +6586,22 @@
 #    }
 #
 #    EssenceOfTheCosmos: {
-#        DisplayName: Essence of the Cosmos
+#        DisplayName: Эссенция космоса
 #        Tooltip:
 #            '''
 #            Нельзя получить
 #            Подарок вашей Астры
-#            Используется для создания 'Ignition Astra' (Н/Д)
+#            Используется для создания '{$Items.IgnitionAstra.DisplayName}' (Н/Д)
 #            '''
 #    }
 #
 #    EssenceOfTheDarkMoon: {
-#        DisplayName: Essence of the Dark Moon
+#        DisplayName: Эссенция тёмной луны
 #        Tooltip:
 #            '''
 #            Можно получить в качестве награды за победу над Глазом Ктулху
 #            Подарок вашей Астры
-#            Используется для создания 'Carian Dark Moon' (Магический)
+#            Используется для создания '{$Items.CarianDarkMoon.DisplayName}' (Магический)
 #            '''
 #    }
 #
@@ -6806,7 +6806,7 @@
 #    }
 #
 #    EssenceOfTheUnderworldGoddess: {
-#        DisplayName: Essence of The Underworld Goddess
+#        DisplayName: Эссенция богини преисподней
 #        Tooltip:
 #            '''
 #            Нельзя получить
@@ -7317,7 +7317,7 @@
 #    }
 #
 #    EfflorescentInkwell: {
-#        DisplayName: Efflorescent Inkwell
+#        DisplayName: Изобилующая цветами чернильница
 #        Tooltip:
 #            '''
 #            A bouquet of magical pigments
@@ -7341,7 +7341,7 @@
 #    }
 #
 #    InertShard: {
-#        DisplayName: Inert Shard
+#        DisplayName: Инертный осколок
 #        Tooltip:
 #            '''
 #            A fragment of the past, devoid of both mana and hue alike
@@ -7351,7 +7351,7 @@
 #    }
 #
 #    TotemOfLightEmpowered: {
-#        DisplayName: Empowered Totem of Light
+#        DisplayName: Усиленный тотем света
 #        Tooltip:
 #            '''
 #            An effigy supposedly given form to grant strength to the Warrior of Light
@@ -7360,7 +7360,7 @@
 #    }
 #
 #    TwilightNeedle: {
-#        DisplayName: Twilight Needle
+#        DisplayName: Сумеречная игла
 #        Tooltip:
 #            '''
 #            Используется для создания наряда Астры
@@ -7370,7 +7370,7 @@
 #    }
 #
 #    WadOfTenebrium: {
-#        DisplayName: Banded Tenebrium
+#        DisplayName: Связка тенебрия
 #        Tooltip:
 #            '''
 #            Sold at a very high price to shops
@@ -7411,7 +7411,7 @@
 #    }
 #
 #    MiserysCompany: {
-#        DisplayName: Misery's Company
+#        DisplayName: Компания неудачи
 #        Tooltip:
 #            '''
 #            Right click to cycle between [c/CE4A3F:Blade Mode], [c/3FCCCE:Scythe Mode], and [c/CE3FAD:Shotgun Mode] with a 2 second cooldown
@@ -7439,7 +7439,7 @@
 #    }
 #
 #    Naganadel: {
-#        DisplayName: Naganadel
+#        DisplayName: Наганадель
 #        Tooltip:
 #            '''
 #            Use right click to expend 25 mana, summoning up to 5 Aspected Blades
@@ -7459,7 +7459,7 @@
 #    }
 #
 #    NeoDealmaker: {
-#        DisplayName: Neo Dealmaker
+#        DisplayName: Сделкодел Нео
 #        Tooltip:
 #            '''
 #            [c/F7D76A:Hold left click to charge the weapon; the longer the weapon is charged, the stronger the resulting attack will become]
@@ -7474,7 +7474,7 @@
 #    }
 #
 #    Ozma: {
-#        DisplayName: Ozma Ascendant
+#        DisplayName: Возвышенная Озма
 #        Tooltip:
 #            '''
 #            Holding this weapon conjures the [c/6A6A6A:Ascendant Array] to follow you
@@ -7516,7 +7516,7 @@
 #    }
 #
 #    ElCapitansHardware: {
-#        DisplayName: El Capitan's Hardware
+#        DisplayName: Железо Эль Капитана
 #        Tooltip:
 #            '''
 #            Attacks with this weapon pierce foes and bounce off walls up to 4 times
@@ -7525,12 +7525,12 @@
 #            Once the [c/96BB7F:Renegade Gauge] is above 50%, right-click to consume the [c/96BB7F:Renegade Gauge], swapping weapons and firing a [c/F9CF49:Gyro Disk] that lasts for 4 seconds
 #            The [c/F9CF49:Gyro Disk] automatically targets and attacks nearby foes
 #            If the [c/96BB7F:Renegade Gauge] is higher than 50% on activation, the [c/F9CF49:Gyro Disk] gains bonus damage proportional to the extra amount consumed
-#            'GAME RIGHTS?!'
+#            'ИГРОВЫЕ ПРАВА?!'
 #            '''
 #    }
 #
 #    Persephone: {
-#        DisplayName: Persephone
+#        DisplayName: Персефона
 #        Tooltip:
 #            '''
 #            Нельзя получить
@@ -7540,7 +7540,7 @@
 #    }
 #
 #    AegisCrystal: {
-#        DisplayName: Aegis Crystal
+#        DisplayName: Кристалл Эгиды
 #        Tooltip:
 #            '''
 #            Summons the Aegis
@@ -7549,36 +7549,36 @@
 #    }
 #
 #    Astrobread: {
-#        DisplayName: Astrobread
-#        Tooltip: Summons the Astrogirl
+#        DisplayName: Астрохлеб
+#        Tooltip: Призывает астродевочку
 #    }
 #
 #    BladeWolfPetItem: {
-#        DisplayName: Prototype Interface
+#        DisplayName: Прототип интерфейса
 #        Tooltip:
 #            '''
-#            Summons the Blade Wolf
-#            'Alert. Alert rescinded.'
+#            Призывает Блейд Вульфа
+#            'Тревога! Отбой тревоги'
 #            '''
 #    }
 #
 #    BugHat: {
-#        DisplayName: Cat's Hat
+#        DisplayName: Шляпа кота
 #        Tooltip: Призывает кота?..
 #    }
 #
 #    CrystalTowerFigure: {
+#        DisplayName: Crystal Tower Figurine
 #        Tooltip:
 #            '''
 #            Summons an exarchic mystel
 #            'Take him on an adventure!'
 #            '''
-#        DisplayName: Crystal Tower Figurine
 #    }
 #
 #    DemonicRibbon: {
-#        Tooltip: Summons a fox vixen
 #        DisplayName: Demonic Ribbon
+#        Tooltip: Summons a fox vixen
 #    }
 #
 #    DigiEgg: {
@@ -9015,27 +9015,27 @@
 #    }
 #
 #    EssenceOfTheTimeless: {
-#        DisplayName: Essence of the Timeless
+#        DisplayName: Эссенция неизменности
 #        Tooltip:
 #            '''
 #            Можно получить в качестве награды за победу над Культистом-лунатиком
 #            Подарок вашей Астры
-#            Используется для создания 'Umbra' (Ближний бой)
+#            Используется для создания '{$Items.Umbra.DisplayName}' (Ближний бой)
 #            '''
 #    }
 #
 #    EssenceOfTheWatch: {
-#        DisplayName: Essence of the Watch
+#        DisplayName: Эссенция часов
 #        Tooltip:
 #            '''
 #            Можно получить в качестве награды за победу над Скитальцем между измерениями
 #            Подарок вашей Астры
-#            Используется для создания 'Chronoclock' (Призывной)
+#            Используется для создания '{$Items.Chronoclock.DisplayName}' (Призывной)
 #            '''
 #    }
 #
 #    GoldenKatana: {
-#        DisplayName: Aurum Edge
+#        DisplayName: Золотая грань
 #        Tooltip:
 #            '''
 #            [c/F7D76A:Hold left click to charge the weapon; if the weapon is fully charged, the attack varies]
@@ -9052,7 +9052,7 @@
 #    }
 #
 #    IrminsulDream: {
-#        DisplayName: Irminsul's Dream
+#        DisplayName: Сон Ирминсуля
 #        Tooltip:
 #            '''
 #            Click and drag to draw a box; releasing left click will execute [c/6CDA61:Verdant Snapshot] (Attack will end once maximum size is reached)
@@ -9066,7 +9066,7 @@
 #    }
 #
 #    KevesiFarewell: {
-#        DisplayName: Kevesi Farewell
+#        DisplayName: Прощание кевеси
 #        Tooltip:
 #            '''
 #            Playing this instrument grants the buff [c/69B5FC:Off-seer's Journey] to yourself for 2 minutes
@@ -9078,7 +9078,7 @@
 #    }
 #
 #    KissOfDeath: {
-#        DisplayName: The Kiss of Death
+#        DisplayName: Поцелуй смерти
 #        Tooltip:
 #            '''
 #            Right click to cycle between [c/F54F0C:Skyfish], [c/CF3C32:Thunderbird], and [c/CF1826:Behemoth Typhoon] with a short cooldown
@@ -9097,7 +9097,7 @@
 #    }
 #
 #    LevinstormAxe: {
-#        DisplayName: Boltstorm Axe
+#        DisplayName: Топор ревущих молний
 #        Tooltip:
 #            '''
 #            [c/F592BF:This weapon is unaffected by Aspected Damage Type penalty when aspected to Melee or Magic damage]
@@ -9109,7 +9109,6 @@
 #            [c/EF4DFF:Magic]: Swings will emit powerful mid-ranged lightning towards foes, dealing half damage each
 #            Lightning ignores terrain and has no pierce limit, but split lightning deals 1/2th original damage
 #            While [c/FDD059:Gathering Levinstorm] is active, gain 15% increased damage and critical strike chance
-#
 #            Additionally, during [c/FDD059:Gathering Levinstorm], lightning critical strikes will cause lightning to strike from above, dealing half critical strike damage
 #            Follow-up lightning can not trigger this effect
 #            '''
@@ -9139,7 +9138,7 @@
 #    }
 #
 #    ManiacalJustice: {
-#        DisplayName: Maniacal Justice
+#        DisplayName: Маниакальное правосудие
 #        Tooltip:
 #            '''
 #            Attacks with this weapon strikes foes multiple times with a close-ranged slash
@@ -9158,7 +9157,7 @@
 #    }
 #
 #    Manifestation: {
-#        DisplayName: Manifestation
+#        DisplayName: Манифестация
 #        Tooltip:
 #            '''
 #            [c/8AC1F1:This weapon has a unique damage type; inherits bonuses from all damage classes at 70% efficiency, but inherits 150% from critical strike chance modifiers]
@@ -10650,7 +10649,7 @@
 #            Once [c/E94DEC:Stellar Termination] ends, all foes struck by [c/E94DEC:Stellar Termination] explode for 300% damage
 #            '''
 #    }
-#    
+#
 #    EssenceOfTheHuntress: {
 #        DisplayName: Essence Of The Huntress
 #        Tooltip:
@@ -10675,7 +10674,7 @@
 #            'Cookie powered'
 #            '''
 #    }
-#    
+#
 #    EssenceOfMew: {
 #        DisplayName: Essence Of Mew
 #        Tooltip:
@@ -10721,7 +10720,7 @@
 #            Transformed [c/FF5D93:Catalyst Keys] inflict [c/F8FF8B:Elemental Surge], but [c/F28C60:Alignment] can not be gained while transformed
 #            '''
 #    }
-#    
+#
 #    LegendaryShield: {
 #        DisplayName: Legendary Shield
 #        Tooltip:
@@ -10739,7 +10738,7 @@
 #            [Other]: [Hero's Bulwark] increases defense by an additional 5%
 #            '''
 #    }
-#    
+#
 #    StringOfCurses: {
 #        DisplayName: String of Curses
 #        Tooltip:
@@ -10751,7 +10750,7 @@
 #            Defeating foes while under the effect of [Cursewrought] refreshes the buff, heals 10 HP, and charges the Stellar Nova by an additional 2 energy
 #            '''
 #    }
-#    
+#
 #    CloakOfAnArbiter: {
 #        DisplayName: Cloak of An Arbiter
 #        Tooltip:
@@ -12713,8 +12712,8 @@
 #    }
 #
 #    BladeWolfPetBuff: {
-#        DisplayName: Blade Wolf
-#        Description: The blade wolf attends you
+#        DisplayName: Блейд Вульф
+#        Description: Вас сопровождает Блейд Вульф
 #    }
 #
 #    GrahaPetBuff: {
@@ -14364,12 +14363,12 @@
 #        DisplayName: Merculight
 #        Description: ""
 #    }
-#    
+#
 #    OrbitalExpresswayPlushCooldown: {
 #        DisplayName: Orbital Expressway Plush Cooldown
 #        Description: ""
 #    }
-#    
+#
 #    AlignmentBuff: {
 #        DisplayName: Alignment Active
 #        Description: Catalyst Keys are surging with power
@@ -14584,7 +14583,7 @@
 #    PopUpDialogueHeader: "[c/C076DF:Настройки всплывающих диалогов]"
 #    DialogueHeader: "[c/75C792:Настройки диалогов диска]"
 #    MiscHeader: "[c/7A76FF:Прочие настройки]"
-#    
+#
 #    StarsAboveConfigClient: {
 #        DisplayName: Клиентская конфигурация Stars Above
 #
@@ -14662,7 +14661,7 @@
 #            Label: Starfarer Prompt positiion
 #            Tooltip: ""
 #        }
-#        
+#
 #        NovaGaugeLoc: {
 #            Label: Nova Gauge position
 #            Tooltip: ""
@@ -14677,7 +14676,7 @@
 #            Label: Отключить размытие
 #            Tooltip: Disables blur effect in menus/cutscenes.
 #        }
-#        
+#
 ##        DisableBlur: {
 ##            Label: Disable Screen Shake
 ##            Tooltip: Disables screen shake effects from all sources.

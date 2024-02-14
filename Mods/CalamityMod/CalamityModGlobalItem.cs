@@ -21,7 +21,7 @@ public partial class CalamityModGlobalItem : GlobalItem
     {
         if (item.ModItem?.Mod == ModInstances.Calamity)
         {
-            item.ClearNameOverride();
+            //item.ClearNameOverride();
         }
     }
     
