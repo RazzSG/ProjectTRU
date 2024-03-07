@@ -167,6 +167,11 @@ Configs: {
             Tooltip: Соответствует истинной удаче факела, может отличаться от сути бога факелов
         }
 
+        PylonsIgnoreEvents: {
+            Label: Пилоны игнорируют события
+            Tooltip: ""
+        }
+
         Headers: {
             TownNPCs: Жители
             Seasons: Сезоны
@@ -211,6 +216,11 @@ Configs: {
 
         ExpandedTooltips: {
             Label: "[i:171] Дополнительные подсказки изменений в Mutant моде"
+            Tooltip: ""
+        }
+
+        HideUnlimitedBuffs: {
+            Label: "[i:292] Скрытие бесконечных баффов в трей"
             Tooltip: ""
         }
         
@@ -381,6 +391,11 @@ Buffs: {
     WoodDrop: {
         DisplayName: Выпадающая древесина
         Description: ""
+    }
+    
+    BigSuckBuff: {
+        DisplayName: Абсолютное всасывание
+        Description: Вы всасываете всё вокруг
     }
 }
 
@@ -1403,7 +1418,7 @@ Items: {
     }
 
     PlanterasFruit: {
-        DisplayName: Фрукт Плантеры
+        DisplayName: Плод Плантеры
         Tooltip: Призывает Плантеру
     }
 
@@ -2393,6 +2408,16 @@ Items: {
             Бросает бомбу, которая создаёт под собой водоём размером 150x50 блоков
             Не стоит использовать, если внизу есть важные постройки
             '''
+    }
+    
+    KohaCrystal: {
+        DisplayName: Кристалл Коха
+        Tooltip: Снижает количество имеющихся кристаллов маны на 1
+    }
+
+    BigSuckPotion: {
+        DisplayName: Зелье абсолютного всасывания
+        Tooltip: Позволяет вам всасывать всё вокруг
     }
 }
 

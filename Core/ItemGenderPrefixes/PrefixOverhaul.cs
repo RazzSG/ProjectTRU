@@ -33,9 +33,6 @@ public class VanillaItems : IItemGender
         ItemID.BlizzardinaBottle,
         ItemID.BlizzardinaBalloon,
         ItemID.BundleofBalloons,
-        ItemID.BlueHorseshoeBalloon,
-        ItemID.WhiteHorseshoeBalloon,
-        ItemID.YellowHorseshoeBalloon,
         ItemID.DestroyerEmblem,
         ItemID.ClothierVoodooDoll,
         ItemID.ObsidianRose,
@@ -54,9 +51,6 @@ public class VanillaItems : IItemGender
         ItemID.GoblinTech,
         ItemID.BejeweledValkyrieWing,
         ItemID.BoneGlove,
-        ItemID.BalloonHorseshoeFart,
-        ItemID.BalloonHorseshoeHoney,
-        ItemID.BalloonHorseshoeSharkron,
         ItemID.RedString,
         ItemID.OrangeString,
         ItemID.YellowString,
@@ -579,6 +573,7 @@ public class CalamityItems : IItemGender
                 "InfectedJewel",
                 "Purity",
                 "BlazingStar",
+                "OldDukeScales",
             };
             List<int> types = new List<int>();
             

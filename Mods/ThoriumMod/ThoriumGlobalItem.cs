@@ -122,6 +122,13 @@ public class ThoriumGlobalItem : GlobalItem
                 tooltip.Text = $"{setBonusKey} При симфонических критических ударах над головой зазвонит колокол, замедляя всех ближайших врагов на короткое время";
             }
             
+            if (player.armor[0].type == ModContent.ItemType<JestersMask2>() &&
+                player.armor[1].type == ModContent.ItemType<JestersShirt2>() &&
+                player.armor[2].type == ModContent.ItemType<JestersLeggings2>())
+            {
+                tooltip.Text = $"{setBonusKey} При симфонических критических ударах над головой зазвонит колокол, замедляя всех ближайших врагов на короткое время";
+            }
+            
             if (player.armor[0].type == ModContent.ItemType<MaestroWig>() &&
                 player.armor[1].type == ModContent.ItemType<MaestroSuit>() &&
                 player.armor[2].type == ModContent.ItemType<MaestroLeggings>())

@@ -2,3 +2,64 @@
     PercentChanceToSaveAmmo: Даёт {0}% шанс не использовать боеприпасы
     SummonTagDamage: "{0} урона от метки призывателя"
 }
+# Временный фикс для фарго пока не выйдет новый релиз тмода
+Conditions: {
+    InDungeon: В Темнице
+    InCorrupt: В искажении
+    InHallow: В освящении
+    InMeteor: Возле упавшего метеорита
+    InJungle: В джунглях
+    InSnow: В снегах
+    InCrimson: В багрянце
+    InWaterCandle: Рядом с водяной свечой
+    InPeaceCandle: Рядом со свечой спокойствия
+    InTowerSolar: Рядом с солнечной башней
+    InTowerVortex: Рядом с башней вихря
+    InTowerNebula: Рядом с башней туманности
+    InTowerStardust: Рядом с башней звёздной пыли
+    InDesert: В пустыне
+    InGlowshroom: В биоме светящихся грибов
+    InUndergroundDesert: В подземной пустыне
+    InSkyHeight: В космосе
+    InOverworldHeight: На поверхности
+    InDirtLayerHeight: В подземелье, но выше уровня пещер
+    InRockLayerHeight: В пещерах
+    InUnderworldHeight: В преисподней
+    InBeach: В океане
+    InRain: Во время дождя
+    InSandstorm: Во время песчаной бури
+    InOldOneArmy: Во время события «Армия Древних»
+    InGranite: В гранитных пещерах
+    InMarble: В мраморных пещерах
+    InHive: В улье
+    InGemCave: В самоцветной пещере
+    InLihzardTemple: В Храме джунглей
+    InGraveyard: На кладбище
+    InAether: В эфире
+    InShoppingForest: На поверхности и не в каком-либо крупном биоме
+    InBelowSurface: В подземелье, пещерах или преисподней
+    InEvilBiome: В искажении или багрянце
+    NotInEvilBiome: Не в биоме мирового зла
+    NotInHallow: Не в освящении
+    NotInGraveyard: Не на кладбище
+    NotInUnderworld: Не в преисподней
+    InClassicMode: В классическом режиме
+    InExpertMode: В режиме эксперта
+    InMasterMode: В режиме мастера
+    InJourneyMode: В режиме путешествия
+    InHardmode: В хардмоде
+    WorldCrimson: Мир с багрянцем
+    WorldCorrupt: Мир с искажением
+    WorldDrunk: В генерации мира «Drunk»
+    WorldRemix: В генерации мира «Remix»
+    WorldNotTheBees: В генерации мира «Not the Bees»
+    WorldForTheWorthy: В генерации мира «For the Worthy»
+    WorldAnniversary: В генерации мира «Celebration Mk 10»
+    WorldDontStarve: В генерации мира «Don't Starve»
+    WorldNoTraps: В генерации мира «No Traps»
+    WorldZenith: В генерации мира «Zenith»
+    WorldGenSilver: Мир с серебряной рудой
+    WorldGenTungsten: Мир с вольфрамовой рудой
+    ForestPylon: На поверхности в лесном биоме
+    UndergroundPylon: В биоме обычного подземелья
+}
