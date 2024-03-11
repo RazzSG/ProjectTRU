@@ -5789,6 +5789,7 @@ Projectiles: {
     MoonBowHeld.DisplayName: Moon Bow Held
     MoonBowPortal.DisplayName: Moon Bow Portal
     FlightBall.DisplayName: Flight Ball
+    LifeRainbowTrail.DisplayName: Life Rainbow Trail
 }
 
 PetHeader: "[i:2420][c/ffffff:{$Mods.FargowiltasSouls.Toggler.PetHeader}]"
