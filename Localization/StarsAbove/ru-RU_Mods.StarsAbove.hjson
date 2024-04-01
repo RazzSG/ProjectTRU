@@ -675,8 +675,14 @@
 #            4: Keep up the good work!
 #            5: Here is another Essence for you. It looks to be a rather powerful melee weapon.
 #            6: That's it for now. Keep up the good work!
-#            7: Another Essence for you. This firey sword is classified as Magic. It seems to explode when sufficiently charged.
-#            8: I trust you'll know what to do.
+#            7:
+#                '''
+#                Вот ещё одна Эссенция для тебя. Это
+#                огненный меч относится к магическому
+#                типу. Похоже, он взрывается при
+#                достаточном заряде.
+#                '''
+#            8: Я уверена, ты знаешь, что делать.
 #            9: An Essence is here for your use. This powerful Melee heirloom is said to cleave the way for those less fortunate.
 #            10: Good luck in crafting it.
 #            11: This Essence is a personal creation of mine! It creates a Magic weapon that lets you enter the 'Butterfly Trance' and gain special bonuses!
@@ -699,7 +705,13 @@
 #            28: While dangerous, it looks to be pretty powerful. Surely you won't get hit.. right?
 #            29: This is a pretty unique weapon. When using it, it'll follow-up your attacks, and become stronger when you spend Mana.
 #            30: This Essence hails from a world embroiled in conflict... It boasts incredible power, but if you get too overzealous, it'll start to hurt you.
-#            31: This Essence creates a Melee weapon that can swap between sword, scythe, or gun. You will be able to use it in nearly any situation!
+#            31:
+#                '''
+#                Эта Эссенция создаёт оружие ближнего
+#                боя, способное трансформироваться в
+#                меч, косу или огнестрел. Подойдет для
+#                любой ситуации!
+#                '''
 #            32: Okay, here's a new Essence for you. It's a huge Melee lance that can be swap between a lance form and a gun form. It looks to be pretty strong!
 #            33: Well {0}, take this Essence. This Melee weapon has an incredible burst, but the refractory period may be dangerous.. Give it a shot, though!
 #            34: Here's another Essence you can use! It has incredible synergy with Summons and gets stronger as you do, so if you plan on fighting with allies, this is it!
@@ -791,7 +803,13 @@
 #            84: Hmm... Perhaps you could even use it to dodge incoming attacks...?
 #            86: Looks like this Essence is both Magic and Melee aspected- it crackles with lightning already. How about giving it a shot?
 #            85: It looks to me like this Ranged-weapon has the ability to down hordes of foes pretty easily. Sounds like it'll come in handy- especially the giant coffin swings!
-#            87: How about this Essence? It'll give you an enhanced barrier, able to protect yourself while helping you deal some damage without worry of repercussions.
+#            87:
+#                '''
+#                Как насчёт этой Эссенции? Она даст
+#                усиленный барьер, который не только
+#                защитит тебя, но и позволит наносить
+#                урон, не боясь последствий.
+#                '''
 #            88: Seems that this Essence came from that voodoo doll we found in the Underworld- a strange sight. Are you certain that using a weapon like this is worth the risk?
 #            89: Who am I kidding- of course you're certain! You're MY Starbearer, after all! Just don't get TOO reckless, now.
 #            90: This Essence is aspected to this world's star- your sun! Needless to say, the power of the sun would be quite the boon- let's see this thing in action!
@@ -1223,11 +1241,8 @@
 #                    '''
 #                4:
 #                    '''
-#                    Кстати, похоже, из неё что-то выпало.
-#                    Что бы это ни было, оно мне напоминает
-#                    нечто... знакомое. Будь осторожен, но
-#                    я не могу устоять перед искушением
-#                    узнать, что это.
+#                    Ну что ж, пора продолжать наши
+#                    исследования! Пора браться за дело!
 #                    '''
 #            }
 #
@@ -1250,13 +1265,7 @@
 #                    ряде. Надеюсь, ты сможешь эффективно
 #                    использовать эту способность.
 #                    '''
-#                4:
-#                    '''
-#                    Из неё что-то ещё выпало. Не уверена,
-#                    что это, но почему-то кажется, что я
-#                    должна помнить. Остерегайся того, что
-#                    может пойти не так.
-#                    '''
+#                4: Let's explore these new environs with caution.
 #            }
 #        }
 #
@@ -1278,10 +1287,24 @@
 #
 #        Destroyer: {
 #            Asphodene: {
-#                1: "'The Destroyer...' I'm not one to talk, but if you name something 'The Destroyer' I'm gonna expect more than a big worm."
-#                2: Its absurd length was just a detriment to its strength. Take notes, {0}.
-#                3: It looks as if another upgrade is available in the Stellar Array.
-#                4: I guess that's all I have for now.
+#                1:
+#                    '''
+#                    'Уничтожитель...' Я, как правило,
+#                    предпочитаю молчать, но когда что-то
+#                    называется 'Уничтожителем', я ожидаю
+#                    увидеть не просто здоровенного червя.
+#                    '''
+#                2:
+#                    '''
+#                    Его абсурдная длина лишь ослабляла его.
+#                    Запомни это, {0}.
+#                    '''
+#                3:
+#                    '''
+#                    Похоже, в Звёздном ряде доступно ещё
+#                    одно улучшение.
+#                    '''
+#                4: Ну, это всё, что я хотела сказать.
 #            }
 #
 #            Eridani: {
@@ -1297,7 +1320,7 @@
 #                1: You've done it! Skeletron Prime has been defeated. A bit of a monster, huh?
 #                2: The appendages were a smart idea. Almost got you a few times there.
 #                3: It looks as if another upgrade is available in the Stellar Array.
-#                4: I guess that's all I have for now.
+#                4: Ну, это всё, что я хотела сказать.
 #            }
 #
 #            Eridani: {
@@ -5001,7 +5024,7 @@
 #            Princess_LovesNPC: "{NPCName} выглядит так экзотично! Разве это не достойно восхищения?"
 #        }
 #
-#        Census.SpawnCondition: Have a Weapon Memory in your inventory
+#        Census.SpawnCondition: Иметь в своём инвентаре воспоминание оружия
 #    }
 #
 #    Arbitration.DisplayName: Арбитраж
@@ -5309,6 +5332,14 @@
 #    TrashDefaultTile.MapEntry: Trash Default Tile
 #    VendingStationTile.MapEntry: Vending Station Tile
 #    VendorStationTile.MapEntry: Vendor Station Tile
+#    DangerousSignageTile.MapEntry: Dangerous Signage Tile
+#    EnergeticMountedSignageTile.MapEntry: Energetic Mounted Signage Tile
+#    HologramPlinthDrinkTile.MapEntry: Hologram Plinth Drink Tile
+#    HydratedMountedSignageTile.MapEntry: Hydrated Mounted Signage Tile
+#    LavenderSignageTile.MapEntry: Lavender Signage Tile
+#    OfflineMountedSignageTile.MapEntry: Offline Mounted Signage Tile
+#    RadialMountedSignageTile.MapEntry: Radial Mounted Signage Tile
+#    SmallOfflineMountedSignageTile.MapEntry: Small Offline Mounted Signage Tile
 #}
 #
 #Items: {
@@ -5335,12 +5366,12 @@
 #            'Из мира, проклятого на исчезновение'
 #            '''
 #    }
-#    
+#
 #    Crystallize: {
 #        DisplayName: Crystallize
 #        Tooltip: ""
 #    }
-#    
+#
 #    DragonwardTalisman: {
 #        DisplayName: Талисман драконьей стражи
 #        Tooltip:
@@ -6292,16 +6323,12 @@
 #            You will also be granted Featherfall for 1 second
 #            [c/6090EC:Blood of the Dragon] will apply the following effects:
 #            During [c/6090EC:Blood of the Dragon], the next attack will launch you towards your cursor after Featherfall ends
-#            During [c/6090EC:Blood of the Dragon], Damage is increased by 40%
-#            During [c/6090EC:Blood of the Dragon], Movement speed is increased
-#            During [c/6090EC:Blood of the Dragon], you will take no fall damage
+#            Additionally, damage is increased by 40%, movement speed is increased, and fall damage is negated
 #            After two instances of [c/6090EC:Blood of the Dragon], the next Jump will instead grant [c/EC6060:Life of the Dragon] for 8 seconds
 #            [c/EC6060:Life of the Dragon] will apply the following effects:
 #            During [c/EC6060:Life of the Dragon], the next attack will fire a barrage of draconic fireballs that lower enemy defense
-#            During [c/EC6060:Life of the Dragon], damage and critical chance is increased by 60%
-#            During [c/EC6060:Life of the Dragon], every attack after the first will launch you towards your target, dealing high amounts of bonus damage
-#            During [c/EC6060:Life of the Dragon], you will gain 1 second of Invincibility after each strike
-#            During [c/EC6060:Life of the Dragon], you will take no fall damage
+#            Additionally, damage and critical strike chance is increased by 60% and fall damage is negated
+#            After the initial attack, every attack will launch you towards your target, dealing high amounts of bonus damage and granting Invincibility for 1 second
 #            Jump counters will be reset when swapping off this weapon
 #            'Born amidst the timeless conflict between men and dragons, forged that they might better pierce the scaled hides of their mortal foes'
 #            '''
@@ -8612,7 +8639,7 @@
 #            Additionally, all allies in the radius gain 10 defense while the shield is active
 #            [c/ECCA56:Close Combat]: Gain Wrath for 2 seconds when attacking foes below 50% HP
 #            Attacks are changed into a barrage of quick close-ranged strikes that deal 120% damage
-#            Critical strikes launch a claw that pierces enemies (8 second cooldown)
+#            Critical strikes launch a claw that pierces enemies
 #            [c/66EC56:Railgunner]: Critical strike chance is increased by 20%
 #            Attacks are changed into long range piercing bolts, dealing 150% damage
 #            Critical strikes deal 400% damage
@@ -8815,11 +8842,10 @@
 #            Holding this weapon will cause the [c/4C3BB6:Virtue Gauge] to appear
 #            Attacks with this weapon will fill the [c/4C3BB6:Virtue Gauge] with [c/49C7EC:Astral Flux]
 #            Critical strikes will fill the [c/4C3BB6:Virtue Gauge] faster
-#            Right click when the [c/4C3BB6:Virtue Gauge] is full to cleave a tear in spacetime, spawning a [c/495DEC:Celestial Void] for 8 seconds
+#            Right click when the [c/4C3BB6:Virtue Gauge] is full to cleave a tear in spacetime, spawning a [c/495DEC:Celestial Void] for 8 seconds (45 second cooldown)
 #            The [c/495DEC:Celestial Void] will pulse powerful damage to all nearby foes, dragging them inwards
 #            Attacks with this weapon during this time will fill the [c/4C3BB6:Virtue Gauge] with [c/6C38E3:Umbral Flux]
 #            If the [c/4C3BB6:Virtue Gauge] is full once the [c/495DEC:Celestial Void] ends, it will collapse in a massive explosion, dealing 500% damage
-#            There is a 45 second cooldown between the re-activation of [c/495DEC:Celestial Void]
 #            'Pierce through all matter!'
 #            '''
 #    }
@@ -9761,7 +9787,7 @@
 #            [c/FFAB4D:Melee]: Rapidly stab in a close-ranged flurry; Charged attacks swing in a wide arc, burning foes for 8 seconds
 #            [c/EF4DFF:Magic]: Lightning spears converge on your cursor after a delay, causing lightning to arc from foes struck
 #            [c/4DFF5B:Ranged]: Attacks launch the spear at high velocity, dealing 200% damage and piercing infinitely without damage falloff
-#            [c/00CDFF:Summon]: Attacks extend a burning whip, causing summons to inflict Daybroken for 2 seconds on hit
+#            [c/00CDFF:Summon]: Attacks extend a burning whip, inflicting Daybroken for 2 seconds on hit
 #            'Одним ударом я принесу страшные разрушения!'
 #            '''
 #    }
@@ -10092,7 +10118,7 @@
 #
 #    TsukiBossBag: {
 #        DisplayName: Мешок с сокровищами (Цукиёми, Первая Астра)
-#        Tooltip: ""
+#        Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 #    }
 #
 #    GossamerNeedle: {
@@ -10597,7 +10623,8 @@
 #            At certain thresholds of [c/D81919:Rebellion], manifest portions of the [c/EC2B65:Crimson Armor], gaining 5 defense per armor
 #            Once [c/D81919:Rebellion] is at maximum and all portions of the [c/EC2B65:Crimson Armor] are equipped, increase defense further and gain access to [c/8D0404:Clarent Blood Arthur]
 #            Additionally, gain a 3rd combo attack and striking foes now burst into red lightning (3rd combo strike empowers lightning)
-#            Right click to unleash [c/8D0404:Clarent Blood Arthur], dealing 200% damage in a powerful burst towards your cursor after a delay and is a guaranteed critical strike against bosses (1 minute cooldown)
+#            Right click to unleash [c/8D0404:Clarent Blood Arthur], dealing 200% damage in a powerful burst towards your cursor after a delay (1 minute cooldown)
+#            Additionally, this attack is a guaranteed critical strike against bosses
 #            '''
 #    }
 #
@@ -10725,9 +10752,9 @@
 #            '''
 #            [c/D294FF:Воспоминание оружия]
 #            Инкрустация в оружие даёт следующие эффекты:
-#            Значительно увеличивает скорость снаряда
+#            Значительно увеличивает скорость снаряда (Не применяется к миньонам)
 #            '''
-#        TooltipAttached: Значительно увеличивает скорость снаряда
+#        TooltipAttached: Значительно увеличивает скорость снаряда (Не применяется к миньонам)
 #    }
 #
 #    DescenderGemstone: {
@@ -10941,7 +10968,7 @@
 #            Transformed [c/FF5D93:Catalyst Keys] inflict [c/F8FF8B:Elemental Surge], but [c/F28C60:Alignment] can not be gained while transformed
 #            '''
 #    }
-#    
+#
 #    EssenceOfThePhoenix: {
 #        DisplayName: Essence Of The Phoenix
 #        Tooltip:
@@ -10959,14 +10986,11 @@
 #            [c/F592BF:This weapon is unaffected by Aspected Damage Type penalty]
 #            Holding this weapon grants defense proportional to Max HP and reflects all damage taken
 #            Right click to ready the shield for 2 seconds, reducing the damage of the next attack by 90% (12 second cooldown)
-#            Press the Weapon Action Key to destroy all nearby hostile projectiles (30 second cooldown)
-#            Swapping to another weapon after activating either of these abilities grants [Hero's Bulwark] for 10 seconds, increasing defense by 15%
-#            The current [c/F592BF:Aspected Damage Type] influences the effects of [Hero's Bulwark]
-#            [c/FFAB4D:Melee]: [Hero's Bulwark] negates the first instance of damage taken, but is then removed
-#            [c/EF4DFF:Magic]: [Hero's Bulwark] grants full Mana every time you take damage
-#            [c/4DFF5B:Ranged]: [Hero's Bulwark] empowers critical strikes by 40%
-#            [c/00CDFF:Summon]: [Hero's Bulwark] increases minion damage by 5% of your defense
-#            [Other]: [Hero's Bulwark] increases defense by an additional 5%
+#            Press the Weapon Action Key to destroy all nearby hostile projectiles, healing 5 HP per destroyed projectile (40 second cooldown)
+#            If under the effect of applicable damaging debuffs, gain [Cursed Rage]
+#            Right click under the effect of [Cursed Rage] to inflict cursed energy to all nearby foes, dealing 80% of your defense as true damage (1 second cooldown)
+#            Press the Weapon Action Key under the effect of [Cursed Rage] to immediately cleanse all cooldowns and debuffs (3 minute cooldown)
+#            This weapon can absorb Weapon Memories without limit, permanently gaining their abilities without consuming slots
 #            '''
 #    }
 #
@@ -11010,11 +11034,11 @@
 #            '''
 #            20 summon tag damage
 #            Holding this weapon grants [c/9C936F:Degraded Singularity], increasing critical strike damage by 10% against foes with summon tag damage (Does not include [c/FAE88E:Fairy])
-#            Attacks with this weapon pierce foes and inflict [c/FAE88E:Fairy] for 3 seconds
+#            Attacks with this weapon inflict [c/FAE88E:Fairy] for 3 seconds
 #            [c/FAE88E:Fairy] acts as a special variant of summon tag damage that affects all weapons
-#            Pressing right click activates an ability, cycling between [c/9C936F:Degraded Lock], [c/9C936F:Degraded Chain], and [c/9C936F:Degraded Pillar] (6 second cooldown)
+#            Right click to activate an ability, cycling between [c/9C936F:Degraded Lock], [c/9C936F:Degraded Chain], and [c/9C936F:Degraded Pillar] (6 second cooldown)
 #            [c/9C936F:Degraded Lock]: Damage foes centered on your cursor and reduce their attack by 90% for 2 seconds
-#            [c/9C936F:Degraded Chain]: Deal damage to all nearby foes while inflicting [c/EEC152:Ensnared] for 2 seconds, drastically reducing movement
+#            [c/9C936F:Degraded Chain]: Damage to all nearby foes while inflicting [c/EEC152:Ensnared] for 2 seconds, stunning non-boss foes
 #            [c/9C936F:Degraded Pillar]: Fire a fast piercing pillar towards your cursor that deals a guaranteed critical strike
 #            In Multiplayer, if all allies are dead and a boss is active, gain [c/F9C9AB:Singularity Resonance]
 #            In Singleplayer, gain [c/F9C9AB:Singularity Resonance] when below 100 HP if max HP is 400 or more while a boss is active
@@ -11037,12 +11061,12 @@
 #            Utilized in the creation of 'Cloak of An Arbiter' (Magic)
 #            '''
 #    }
-#    
+#
 #    CrystalshotCartridge: {
 #        DisplayName: Crystalshot Cartridge
 #        Tooltip:
 #            '''
-#            [c/D294FF:Weapon Memory]
+#            [c/D294FF:Воспоминание оружия]
 #            Attacking foes has a chance to drop Crystalshot which can be picked up (Up to 6)
 #            If this weapon has a right-click ability, it now fires a spread of short ranged bullets when used, dealing 40% weapon damage per bullet (12 second cooldown)
 #            Up to 12 bullets are fired per Crystalshot acquired
@@ -11057,20 +11081,20 @@
 #    }
 #
 #    LonelyBand: {
-#        DisplayName: Lonely Band
+#        DisplayName: Одинокая повязка
 #        Tooltip:
 #            '''
-#            [c/D294FF:Weapon Memory]
-#            In Singleplayer, if this weapon has effects that mostly benefit allies in Multiplayer, its mana cost is reduced by 80%
+#            [c/D294FF:Воспоминание оружия]
+#            В одиночной игре, когда у оружия есть эффекты, в основном направленные на поддержку союзников в мультиплеере, его расход маны снижается на 80%
 #            '''
-#        TooltipAttached: In Singleplayer, if this weapon has effects that mostly benefit allies in Multiplayer, its mana cost is reduced by 80%
+#        TooltipAttached: В одиночной игре, когда у оружия есть эффекты, в основном направленные на поддержку союзников в мультиплеере, его расход маны снижается на 80%
 #    }
 #
 #    OutbackWrangler: {
 #        DisplayName: Outback Wrangler
 #        Tooltip:
 #            '''
-#            [c/D294FF:Weapon Memory]
+#            [c/D294FF:Воспоминание оружия]
 #            Minions target foes struck by this weapon
 #            Press the Weapon Memory Key to reduce Mana to 0 and destroy all minions (20 second cooldown)
 #            Gain a guaranteed critical strike for each minion destroyed (Minion must consume minion slots)
@@ -11088,7 +11112,7 @@
 #        DisplayName: Strange Scrap
 #        Tooltip:
 #            '''
-#            [c/D294FF:Weapon Memory]
+#            [c/D294FF:Воспоминание оружия]
 #            Weapon value is reset to 0 when equipped
 #            Defeating foes increases this weapon's value by 1 copper, up to 8 platinum
 #            'A great asset to the Company'
@@ -11104,7 +11128,7 @@
 #        DisplayName: Wet Crowbar
 #        Tooltip:
 #            '''
-#            [c/D294FF:Weapon Memory]
+#            [c/D294FF:Воспоминание оружия]
 #            Attacks against foes at full HP deal 30% increased damage; If this attack is a critical strike, deal 50% increased damage instead
 #            '''
 #        TooltipAttached: Attacks against foes at full HP deal 30% increased damage; If this attack is a critical strike, deal 50% increased damage instead
@@ -11124,12 +11148,12 @@
 #        DisplayName: Unorthodox Mining
 #        Tooltip: "'I just needed a little copper!'"
 #    }
-#    
+#
 #    DeepAsphalt: {
 #        DisplayName: Deep Asphalt
 #        Tooltip: ""
 #    }
-#    
+#
 #    NeonVeilPylonItem: {
 #        DisplayName: Neon Veil Pylon
 #        Tooltip: ""
@@ -11207,6 +11231,95 @@
 #
 #    CloakOfAnArbiterCape: {
 #        DisplayName: Cloak Of An Arbiter Cape
+#        Tooltip: ""
+#    }
+#
+#    ParadiseLost: {
+#        DisplayName: The White Night
+#        Tooltip:
+#            '''
+#            Holding this weapon grants the buff [Plague's Prophet] (You can not use this weapon to attack while under the effect of [Plague's Prophet])					
+#            Right click during [Plague's Prophet] to [Baptise] a town NPC for 10 minutes
+#            Press the Weapon Action Key while under the effect of [Plague's Prophet] to ascend into [Paradise Lost]
+#            While in [Paradise Lost] state, all damage taken is halved, but health will drain over time when hit
+#            Additionally, gain unlimited flight and Max Mana increases by 500
+#            Upon ascension, all [Baptised] town NPCs will transform into [Apostles] and will be moved to your location
+#            Swapping weapons will immediately end [Paradise Lost] state and additionally inflict [Vulnerability] for 20 seconds, halving defense
+#            Within [Paradise Lost] state, attacks with this weapon unleash ????
+#            Right click during [Paradise Lost] to unleash [Advent] from all [Apostles], a powerful beam of light towards your cursor (3 second cooldown)
+#            Press the Weapon Action Key to cycle between [Governed Truths], active at all times while [Paradise Lost] is active (Governed Truths will additionally change the effect of [Advent])
+#            [Confession]: All [Apostles] take no damage, and [Advent] now deals true damage				
+#            [Benediction]: All [Apostles] have their attack increased by 70% of this weapon's damage, and [Advent] can now deal critical strikes					
+#            [Sentinel]: All damage taken is evenly redirected towards [Apostles], and [Advent] restores Mana and heals [Apostles] when cast
+#            When taking fatal damage during [Paradise Lost], deal 666% of this weapon's damage to nearby foes and survive with 1 HP (4 minute cooldown)
+#            'Now rise, my servants- Rise and serve me'
+#            '''
+#    }
+#
+#    InheritedCase: {
+#        DisplayName: Inherited Case, M4A1
+#        Tooltip:
+#            '''
+#            [c/F7D76A:Hold left click to charge the weapon; if the weapon is fully charged, the attack varies]
+#            Additionally, this weapon can be [c/F7D76A:Overcharged], causing additional effects to occur
+#            After charging, fire rapid and accurate bullets, consuming ammo from your inventory
+#            The second stage of [c/F7D76A:Overcharge] will additionally fire a barrage of lasers
+#            Upon reaching the final stage of [c/F7D76A:Overcharge], gain a random [Auxiliary Armament] and return to the second stage of [c/F7D76A:Overcharge] (Can be repeated 4 times)
+#            [Auxiliary Armaments] provide fire support during combat, but will disappear when taking damage
+#            [Auxiliary St-AR15]: Fires rapid bursts of pinpoint accurate bullets
+#            [Auxiliary RO635]: Fires a barrage of bullets that home in on two targets, piercing the first
+#            [Auxiliary M4-Sop2]: Fires explosive grenades towards the cursor; every 4th grenade can home in and is a guaranteed critical strike
+#            [Auxiliary M16A1]: Generates an orbiting shield aimed towards the cursor that can absorb 6 attacks; once destroyed, fire bullets in retaliation and regenerate after 5 seconds
+#            Right click to transform the weapon after a short delay, firing a powerful rocket bolt towards your cursor (1 minute cooldown)
+#            This attack pierces up to 3 foes, and explodes on hit; the final hit will burst in a massive explosion, dealing 300% weapon damage as a critical strike
+#            Foes caught in the explosions will take heavy damage over time for a short duration
+#            While holding this weapon, attacks can not be dodged and damage reduction is negated
+#            'Commander, we are here'
+#            '''
+#    }
+#
+#    LegendaryShieldAccessory: {
+#        DisplayName: Legendary Shield Accessory
+#        Tooltip: ""
+#    }
+#
+#    DangerousSignage: {
+#        DisplayName: Dangerous Signage
+#        Tooltip: ""
+#    }
+#
+#    EnergeticMountedSignage: {
+#        DisplayName: Energetic Mounted Signage
+#        Tooltip: ""
+#    }
+#
+#    HologramPlinthDrink: {
+#        DisplayName: Hologram Plinth Drink
+#        Tooltip: ""
+#    }
+#
+#    HydratedMountedSignage: {
+#        DisplayName: Hydrated Mounted Signage
+#        Tooltip: ""
+#    }
+#
+#    LavenderSignage: {
+#        DisplayName: Lavender Signage
+#        Tooltip: ""
+#    }
+#
+#    OfflineMountedSignage: {
+#        DisplayName: Offline Mounted Signage
+#        Tooltip: ""
+#    }
+#
+#    RadialMountedSignage: {
+#        DisplayName: Radial Mounted Signage
+#        Tooltip: ""
+#    }
+#
+#    SmallOfflineMountedSignage: {
+#        DisplayName: Small Offline Mounted Signage
 #        Tooltip: ""
 #    }
 #}
@@ -12227,6 +12340,7 @@
 #    ArbiterPillar.DisplayName: Arbiter Pillar
 #    FairyAttack.DisplayName: Fairy Attack
 #    FairyAttackEffect.DisplayName: Fairy Attack Effect
+#    LegendaryShieldBash.DisplayName: Legendary Shield Bash
 #}
 #
 #Buffs: {
@@ -14274,7 +14388,7 @@
 #
 #    DarkAura: {
 #        DisplayName: Dark Aura
-#        Description: Mods.StarsAbove.BuffDescription.DarkAura
+#        Description: ""
 #    }
 #
 #    DeifiedBuff: {
@@ -14292,13 +14406,13 @@
 #    }
 #
 #    ChronoclockTagDamage: {
-#        DisplayName: Mods.StarsAbove.BuffName.ChronoclockTagDamage
-#        Description: Mods.StarsAbove.BuffDescription.ChronoclockTagDamage
+#        DisplayName: ChronoclockTagDamage
+#        Description: ""
 #    }
 #
 #    KarnaTagDamage: {
-#        DisplayName: Mods.StarsAbove.BuffName.KarnaTagDamage
-#        Description: Mods.StarsAbove.BuffDescription.KarnaTagDamage
+#        DisplayName: KarnaTagDamage
+#        Description: ""
 #    }
 #
 #    TwincastActive: {
@@ -14318,7 +14432,7 @@
 #
 #    ManaSicknessAlter: {
 #        DisplayName: Mana Sickness
-#        Description: All damage reduced by {0}%
+#        Description: Весь урон снижен на {0}%
 #    }
 #
 #    DarkAuraBuff.Description: "{0} sacrifice(s) have been consumed"
@@ -14400,12 +14514,12 @@
 #
 #    WarriorFireImbueBuff: {
 #        DisplayName: Warrior Fire Imbue Buff
-#        Description: Mods.StarsAbove.Buffs.WarriorFireImbueBuff.Description
+#        Description: ""
 #    }
 #
 #    WarriorIceImbueBuff: {
 #        DisplayName: Warrior Ice Imbue Buff
-#        Description: Mods.StarsAbove.Buffs.WarriorIceImbueBuff.Description
+#        Description: ""
 #    }
 #
 #    BindingLight: {
@@ -14450,7 +14564,7 @@
 #
 #    DebugInfiniteNova: {
 #        DisplayName: Debug Infinite Nova
-#        Description: Mods.StarsAbove.Buffs.DebugInfiniteNova.Description
+#        Description: ""
 #    }
 #
 #    EmberFlaskUsed: {
@@ -14685,27 +14799,27 @@
 #
 #    ThespianAngry: {
 #        DisplayName: Thespian Angry
-#        Description: Mods.StarsAbove.Buffs.ThespianAngry.Description
+#        Description: ""
 #    }
 #
 #    ThespianSad: {
 #        DisplayName: Thespian Sad
-#        Description: Mods.StarsAbove.Buffs.ThespianSad.Description
+#        Description: ""
 #    }
 #
 #    ThespianSadAttack: {
 #        DisplayName: Thespian Sad Attack
-#        Description: Mods.StarsAbove.Buffs.ThespianSadAttack.Description
+#        Description: ""
 #    }
 #
 #    ThespianHappyAttack: {
 #        DisplayName: Thespian Happy Attack
-#        Description: Mods.StarsAbove.Buffs.ThespianHappyAttack.Description
+#        Description: ""
 #    }
 #
 #    ThespianTransition: {
 #        DisplayName: Thespian Transition
-#        Description: Mods.StarsAbove.Buffs.ThespianTransition.Description
+#        Description: ""
 #    }
 #
 #    KineticConversionCooldown: {
@@ -14877,7 +14991,7 @@
 #        DisplayName: Necrosis
 #        Description: Stats are reduced
 #    }
-#    
+#
 #    CrystalshotCooldown: {
 #        DisplayName: Crystalshot Cooldown
 #        Description: ""
@@ -14936,6 +15050,11 @@
 #    SingularityResonance: {
 #        DisplayName: Singularity Resonance
 #        Description: Dire conflict has incited inner power
+#    }
+#
+#    CelestialVoidCooldown: {
+#        DisplayName: Celestial Void Cooldown
+#        Description: ""
 #    }
 #}
 #
@@ -15047,7 +15166,7 @@
 #        DisplayName: Otherworld Biome
 #        TownNPCDialogueName: the Otherworld Biome
 #    }
-#    
+#
 #    NeonVeilBiome: {
 #        DisplayName: Neon Veil
 #        TownNPCDialogueName: the Neon Veil
@@ -15248,9 +15367,10 @@
 #}
 #
 #WorldGen: {
-#    OrePassMessage: ""
+#    NeonVeilGenerationMessage: Lighting the Neon Veil
+#    ExtraStructuresGenerationMessage: Landing novelties from the stars
 #}
 #
 #Conditions: {
-#    InNeonVeil: ""
+#    InNeonVeil: In the Neon Veil
 #}

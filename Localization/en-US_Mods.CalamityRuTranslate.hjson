@@ -5,6 +5,7 @@ Configs: {
         Headers: {
             Font: Шрифт
             Other: Прочее
+            LocalizationSettings: Локализация модов
         }
         
         NewRussianTerrariaFont: {
@@ -44,6 +45,36 @@ Configs: {
             Label: Русский кавер для темы Ярона
             Tooltip: Заменяет оригинальную песню на русский кавер.
         }
+        
+        CalamityModLocalization: {
+            Label: Calamity Mod
+            Tooltip: Выключает перевод Calamity Mod.
+        }
+        
+        FargowiltasLocalization: {
+            Label: Fargo's Mutant
+            Tooltip: Выключает перевод Fargo's Mutant.
+        }
+        
+        FargowiltasSoulsLocalization: {
+            Label: Fargo's Souls
+            Tooltip: Выключает перевод Fargo's Souls.
+        }
+        
+        InfernumModeLocalization: {
+            Label: Infernum Mode
+            Tooltip: Выключает перевод Infernum Mode.
+        }
+        
+        ThoriumModLocalization: {
+            Label: Thorium Mod
+            Tooltip: Выключает перевод Thorium Mod.
+        }
+        
+        VanillaLocalization: {
+            Label: Vanilla
+            Tooltip: Выключает новый ванильный перевод.
+        }
     }
 }
 
@@ -55,4 +86,6 @@ GameTips: {
     Tip5: Project tRU: 1 рубль = перевод 1-го предмета Ториума.
     Tip6: Project tRU: Перевод Ториума прямо пропорционален Кириллу в цепи и обратно пропорционален переводу Каламити.
     Tip7: Project tRU: Во всех ошибках Террарии виноват русификатор. Аминь.
+    Tip8: Project tRU: Русский кавер темы Ярона удаляет папку System32. Не шутка.
+    Tip9: Project tRU: Жвало - это часть ротового аппарата насекомых. А жало - это орган, который используется для впрыскивания яда.
 }

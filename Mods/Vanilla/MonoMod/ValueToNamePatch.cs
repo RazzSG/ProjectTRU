@@ -9,7 +9,7 @@ namespace CalamityRuTranslate.Mods.Vanilla.MonoMod;
 
 public class ValueToNameLong : OnPatcher
 {
-    public override bool AutoLoad => TranslationHelper.IsRussianLanguage;
+    public override bool AutoLoad => true;
     
     public override MethodInfo ModifiedMethod => typeof(PopupText).GetMethod("ValueToName", BindingFlags.Public | BindingFlags.Static, new []{typeof(long)});
     
@@ -19,6 +19,9 @@ public class ValueToNameLong : OnPatcher
 
     private string Translation(ValueToNameDelegate orig, long coinValue)
     {
+        if (!TranslationHelper.IsRussianLanguage)
+            return orig.Invoke(coinValue);
+
         int num = 0;
         int num2 = 0;
         int num3 = 0;
@@ -79,7 +82,7 @@ public class ValueToNameLong : OnPatcher
 
 public class ValueToName : OnPatcher
 {
-    public override bool AutoLoad => TranslationHelper.IsRussianLanguage;
+    public override bool AutoLoad => true;
     
     public override MethodInfo ModifiedMethod => typeof(PopupText).GetMethod("ValueToName", BindingFlags.NonPublic | BindingFlags.Instance);
     
@@ -89,65 +92,77 @@ public class ValueToName : OnPatcher
 
     private void Translation(ValueToNameDelegate orig, PopupText self)
     {
-        int num = 0;
-        int num2 = 0;
-        int num3 = 0;
-        int num4 = 0;
-        long num5 = self.coinValue;
-        while (num5 > 0) {
-            if (num5 >= 1000000) {
-                num5 -= 1000000;
-                num++;
-            }
-            else if (num5 >= 10000) {
-                num5 -= 10000;
-                num2++;
-            }
-            else if (num5 >= 100) {
-                num5 -= 100;
-                num3++;
-            }
-            else if (num5 >= 1) {
-                num5--;
-                num4++;
-            }
+        if (!TranslationHelper.IsRussianLanguage)
+        {
+            orig.Invoke(self);
         }
+        else
+        {
+            int num = 0;
+            int num2 = 0;
+            int num3 = 0;
+            int num4 = 0;
+            long num5 = self.coinValue;
+            while (num5 > 0)
+            {
+                if (num5 >= 1000000)
+                {
+                    num5 -= 1000000;
+                    num++;
+                }
+                else if (num5 >= 10000)
+                {
+                    num5 -= 10000;
+                    num2++;
+                }
+                else if (num5 >= 100)
+                {
+                    num5 -= 100;
+                    num3++;
+                }
+                else if (num5 >= 1)
+                {
+                    num5--;
+                    num4++;
+                }
+            }
 
-        self.name = "";
-        string coinText = "";
-        
-        if (num > 0)
-        {
-            self.name += Language.GetTextValue("Currency.Platinum", num);
-            coinText = LocalizedText.ApplyPluralization(" {^0:монета;монеты;монет}", num);
+            self.name = "";
+            string coinText = "";
+            
+            if (num > 0)
+            {
+                self.name += Language.GetTextValue("Currency.Platinum", num);
+                coinText = LocalizedText.ApplyPluralization(" {^0:монета;монеты;монет}", num);
+            }
+            
+            if (num2 > 0)
+            {
+                self.name += Language.GetTextValue("Currency.Gold", num2);
+                coinText = LocalizedText.ApplyPluralization(" {^0:монета;монеты;монет}", num2);
+            }
+            
+            if (num3 > 0)
+            {
+                self.name += Language.GetTextValue("Currency.Silver", num3);
+                coinText = LocalizedText.ApplyPluralization(" {^0:монета;монеты;монет}", num3);
+            }
+            
+            if (num4 > 0)
+            {
+                self.name += Language.GetTextValue("Currency.Copper", num4);
+                coinText = LocalizedText.ApplyPluralization(" {^0:монета;монеты;монет}", num4);
+            }
+            
+            if (self.name.Length > 1)
+                self.name = self.name.Substring(0, self.name.Length - 1) + coinText;
         }
-        
-        if (num2 > 0)
-        {
-            self.name += Language.GetTextValue("Currency.Gold", num2);
-            coinText = LocalizedText.ApplyPluralization(" {^0:монета;монеты;монет}", num2);
-        }
-        
-        if (num3 > 0)
-        {
-            self.name += Language.GetTextValue("Currency.Silver", num3);
-            coinText = LocalizedText.ApplyPluralization(" {^0:монета;монеты;монет}", num3);
-        }
-        
-        if (num4 > 0)
-        {
-            self.name += Language.GetTextValue("Currency.Copper", num4);
-            coinText = LocalizedText.ApplyPluralization(" {^0:монета;монеты;монет}", num4);
-        }
-        
-        if (self.name.Length > 1)
-            self.name = self.name.Substring(0, self.name.Length - 1) + coinText;
     }
 }
 
 public class ValueToCoins : OnPatcher
 {
-    public override bool AutoLoad => TranslationHelper.IsRussianLanguage;
+    public override bool AutoLoad => true;
 
     public override MethodInfo ModifiedMethod => typeof(Main).GetCachedMethod(nameof(Main.ValueToCoins));
     
@@ -157,21 +172,27 @@ public class ValueToCoins : OnPatcher
 
     private string Translation(ValueToCoinsDelegate orig, long value)
     {
+        if (!TranslationHelper.IsRussianLanguage)
+            return orig.Invoke(value);
+
         long num = value;
         long num2 = 0L;
         long num3 = 0L;
         long num4 = 0L;
-        while (num >= 1000000) {
+        while (num >= 1000000)
+        {
             num -= 1000000;
             num2++;
         }
 
-        while (num >= 10000) {
+        while (num >= 10000)
+        {
             num -= 10000;
             num3++;
         }
 
-        while (num >= 100) {
+        while (num >= 100)
+        {
             num -= 100;
             num4++;
         }

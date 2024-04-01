@@ -35,4 +35,30 @@ public class TRuConfig : ModConfig
     [DefaultValue(true)]
     [ReloadRequired]
     public bool YharonCover;
+    
+    [Header("LocalizationSettings")]
+    
+    [DefaultValue(true)]
+    [ReloadRequired]
+    public bool CalamityModLocalization;
+
+    [DefaultValue(true)]
+    [ReloadRequired]
+    public bool FargowiltasLocalization;
+
+    [DefaultValue(true)]
+    [ReloadRequired]
+    public bool FargowiltasSoulsLocalization;
+    
+    [DefaultValue(true)]
+    [ReloadRequired]
+    public bool InfernumModeLocalization;
+
+    [DefaultValue(true)]
+    [ReloadRequired]
+    public bool ThoriumModLocalization;
+
+    [DefaultValue(true)]
+    [ReloadRequired]
+    public bool VanillaLocalization;
 }
