@@ -232,7 +232,7 @@ public class ThoriumNpcChat : GlobalNPC
             {
                 "Why don't you go fetch those seeds yourself you lazy, good for nothing-" => "Почему бы тебе не пойти и собрать эти семена самостоятельно, ни на что не годный лентяй!",
                 "I bet you don't even feel guilty about destroying the natural world to better suit your needs..." => "Готов поспорить, что ты и вовсе не чувствуешь вину, разрушая природу в угоду своим прихотям...",
-                "Getting these seeds is a bigger hassle than you would think. Nearly drowning, almost melting, freezing to- You get the idea." => "Достать эти семена оказалось гораздо сложнее, чем я думал. Я чуть не утонул, чуть не сварился, чуть не замёрз до смер... Ну, ты понял.",
+                "Gathering seeds is a bigger hassle than you would think. Nearly drowning, almost melting, freezing to- You get the idea." => "Собирать семена оказалось гораздо сложнее, чем я думал. Я чуть не утонул, чуть не сварился, чуть не замёрз до смер... Ну, ты понял.",
                 "I often take visits to the jungle. I can understand the aversion to the place, but the creatures within don't seem to hassle me..." => "Я частенько захаживаю в джунгли. Могу понять, что это место вызывает отвращение, но местная фауна меня не трогают...",
                 "My mother was a well known herbalist back in the day. She doesn't talk about my father, though. I wonder why?" => "Моя мама в своё время была знаменитой травницей. А вот о папе она никогда не говорит. Интересно, почему?",
                 "The natural world is quite a wonder. Every little place has its own charm. Some more than others!" => "Мир природы действительно чудесен. Каждый уголок имеет своё очарование. В некоторых местах оно проявляется сильнее, чем в других!",
@@ -264,6 +264,11 @@ public class ThoriumNpcChat : GlobalNPC
             if (chat == $"Even a small seed can grow into a mighty oak! Keep that in mind, {Main.LocalPlayer.name}...")
             {
                 chat = $"Даже маленький росток может вырасти в могучий дуб! Помни это, {Main.LocalPlayer.name}...";
+            }
+            
+            if (chat == $"Defeating powerful monsters will make it safer for me to venture into different biomes in search of seeds. Check back with me regularly, {Main.LocalPlayer.name}!")
+            {
+                chat = $"Разобравшись с сильными монстрами, я без опаски буду лазить по всем биомам за семенами. Заглядывай ко мне почаще, {Main.LocalPlayer.name}!";
             }
         }
 

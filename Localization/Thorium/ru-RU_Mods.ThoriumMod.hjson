@@ -15,7 +15,7 @@
     ForgottenOneDefeat: Токсичный смог глубин, рассеялся...
     SpiderWarning: Паучьи гнёзда шуршат от гнева...
     BoreanStriderAppear: Восьминогая угроза бродит по тундре...
-    PatchWerkDefeat: Ужасающий {$NPCs.PatchWerk.DisplayName} был изгнан из мира!
+    PatchWerkDefeat: Ужасающий {$NPCs.PatchWerk.DisplayName} рассыпается...
     CorpseBloomDefeat: Неуловимый {$NPCs.CorpseBloom.DisplayName} увядает...
     IllusionistDefeat: Таинственный {$NPCs.Illusionist.DisplayName} разлетается на куски...
     BuriedChampionAppear: "{$NPCs.BuriedChampion.DisplayName} освободился!"
@@ -1675,6 +1675,11 @@ Buffs: {
         DisplayName: Черепокот
         Description: Настало время приключений с супер зверушкой
     }
+
+    ScytheofUndoingBuff: {
+        DisplayName: Коса разрушения
+        Description: Одарённый тёмной силой...
+    }
 }
 
 Conditions: {
@@ -1688,6 +1693,8 @@ Conditions: {
     DownedFallenBeholder: "{$NPCs.FallenBeholder.DisplayName} побеждён"
     DownedLich: "{$NPCs.Lich.DisplayName} побеждён"
     DownedForgottenOne: "{$NPCs.ForgottenOne.DisplayName} побеждён"
+    DownedPatchWerk: "{$NPCs.PatchWerk.DisplayName} побеждён"
+    DownedCorpseBloom: "{$NPCs.CorpseBloom.DisplayName} побеждён"
     DownedIllusionist: "{$NPCs.Illusionist.DisplayName} побеждён"
     DownedOgre: Огр побеждён
     HasInspiration: У игрока {0} или больше общего вдохновения
@@ -1697,6 +1704,9 @@ Conditions: {
     SalamanderCannotSpawn: Саламандры не могут появиться в мире
     GiantShellyCannotSpawn: Гигантские ракушечники не могут появиться в мире
     CompletedMonsterContract: Выполнен контракт '{0}' следопыта
+    NotInMasterMode: Не в режиме Мастер
+    WorldHasBloodAltar: В мире есть Кровавый алтарь
+    WorldHasNoBloodAltarOrDownedViscount: В мире нет Кровавого алтаря или {$Conditions.DownedViscount}
 }
 
 DropConditions: {
@@ -1804,6 +1814,7 @@ Empowerments: {
 
     ItemTopTooltip: Игра на инструменте усиливает игроков следующими бонусами:
     EmpowermentNameLevel: "{$Common.Concatenate}"
+    ItemTopTooltipHoldShift: Удерживайте SHIFT, чтобы увидеть доступные усиления
 }
 
 InfoDisplays: {
@@ -2310,8 +2321,8 @@ Items: {
         DisplayName: Фагот
         Tooltip:
             '''
-            Запускает липкую фаготную бомбу
-            Нажмите <right>, чтобы взорвать все бомбы, иссушая всех поражённых врагов
+            Запускает фаготную бомбу, которая прилипает к поверхностям и врагам
+            Нажмите <right>, чтобы взорвать все бомбы за {0} единицы вдохновения, иссушая всех поражённых врагов
             '''
     }
 
@@ -5303,7 +5314,7 @@ Items: {
         ConvertTooltip: Нажмите <right>, чтобы переключить внешний вид или пересоздайте его в {0} вариант
         Grounded: наземный
         Hanging: подвесной
-        PylonRestriction: Вы можете разместить не более {0} кормушек для птиц на каждый установленный в мире пилон (текущее ограничение: {1})
+        PylonRestriction: Вы можете разместить не более {0} кормушек для птиц за каждый установленный в мире пилон (текущее ограничение: {1})
         SeedTooltipReplacement: Для использования с духовыми трубками и кормушками для птиц
         SeedTooltipFallback: Для использования с кормушками для птиц
         TileMouseover: Вернитесь позже...
@@ -6184,7 +6195,7 @@ Items: {
 
     JetstreamSheath: {
         DisplayName: Реактивные ножны
-        Tooltip: Если держать меч в руках и не использовать его в течение {0} {^0:секунды;секунд}, то при следующей атаке он нанесёт шквал ударов по ближайшим врагам
+        Tooltip: Если держать меч в руках и не использовать его в течение {1} {^1:секунды;секунд}, то при следующей атаке он нанесёт {0} ударов по ближайшим врагам
     }
 
     JewellersWallGrip: {
@@ -6213,7 +6224,11 @@ Items: {
 
     LaunchJumper: {
         DisplayName: Пусковой прыгун
-        Tooltip: Запускает ракету, с помощью которой можно совершить ракетный прыжок
+        Tooltip:
+            '''
+            Запускает ракету, с помощью которой можно совершить ракетный прыжок
+            Пока вы держите это оружие, вы невосприимчивы к вражескому отбрасыванию
+            '''
     }
 
     Legacy: {
@@ -7333,6 +7348,13 @@ Items: {
             Высвобождает определённый заряд элементальной энергии
             Нажмите <right>, чтобы переключиться между пятью элементами
             '''
+        WondrousWandStage: {
+            Fire: Огонь
+            Ice: Лёд
+            Shadow: Тень
+            Ichor: Ихор
+            CursedFlame: Проклятый огонь
+        }
     }
 
     WyvernSlayer: {
@@ -9486,7 +9508,9 @@ Items: {
 
     MartyrChalice: {
         DisplayName: Чаша мученика
-        Tooltip: Союзники получают 3 секунды неуязвимости после лечения
+        Tooltip: Союзники получают {0} секунды неуязвимости после лечения
+        HealAmount: Жертвует вашей жизнью, чтобы исцелить всех союзников в мире на [c/5aff5a:{0}] ед. здоровья
+        RespawnTime: Увеличивает скорость возрождения, если игрок не сражается с боссом в мультиплеере
     }
 
     MedicalBag: {
@@ -16260,14 +16284,26 @@ Items: {
         Tooltip: Увеличивает урон призывателя на 5%
     }
 
-    SpiritTrapperHelmet: {
+    SpiritTrapperCowl: {
         DisplayName: Клобук ловца духов
         Tooltip: Увеличивает призываемое число миньонов на 1
+        SetBonus:
+            '''
+            Увеличивает призываемое число миньонов на {0}
+            Убийство врагов или непрерывное нанесение урона боссам создаёт огоньки души
+            После накопления {1} огоньков, они мгновенно поглощаются и восстанавливают {2} единиц здоровья
+            '''
     }
 
     SpiritTrapperMask: {
         DisplayName: Маска ловца духов
         Tooltip: Увеличивает призываемое число стражей на 1
+        SetBonus:
+            '''
+            Увеличивает призываемое число стражей на {0}
+            Убийство врагов или непрерывное нанесение урона боссам создаёт огоньки души
+            После накопления {1} огоньков, они мгновенно поглощаются и восстанавливают {2} единиц здоровья
+            '''
     }
 
     SpittingFish: {
@@ -17533,6 +17569,7 @@ Items: {
             Снижает расход маны на 15%
             Если текущая мана ниже 75, заклинания будут наносить больше урона
             '''
+        SetBonus: Увеличивает наносимый урон на {0}%
     }
 
     TitanHelmet: {
@@ -17798,6 +17835,12 @@ Items: {
             Призывает выбранного тотема-стража в позицию курсора
             Нажмите <right>, чтобы переключиться между четырьмя различными элементами тотема
             '''
+        TotemCallerStage: {
+            Fire: Огонь
+            Earth: Земля
+            Wind: Ветер
+            Water: Вода
+        }
     }
 
     TrackerBoard: {
@@ -18023,6 +18066,21 @@ Items: {
 
     AncientDragonMask: {
         DisplayName: Древняя драконья маска
+        Tooltip: ""
+    }
+
+    AncientMarchingBandUniform: {
+        DisplayName: Униформа древнего марширующего оркестра
+        Tooltip: ""
+    }
+
+    AncientMarchingBandLeggings: {
+        DisplayName: Поножи древнего марширующего оркестра
+        Tooltip: ""
+    }
+
+    AncientMarchingBandCap: {
+        DisplayName: Кепка древнего марширующего оркестра
         Tooltip: ""
     }
 
@@ -18528,9 +18586,9 @@ Items: {
         Tooltip: ""
     }
 
-    WeirdMud: {
+    AnnoyingMud: {
         DisplayName: Назойливая грязь
-        Tooltip: "'Дабы мы не забывали...'"
+        Tooltip: "'Только не это...'"
     }
 
     RemovedItems: {
@@ -18604,6 +18662,121 @@ Items: {
             '''
             Убийство врага даёт вам 2 'органа', позволяя хранить до 10
             Нажмите <right>, чтобы бросить хранящийся орган во врагов
+            '''
+    }
+    
+    ScytheofUndoing: {
+        DisplayName: Коса разрушения
+        Tooltip:
+            '''
+            Вращает демоническую косу, которая накапливает ярость при нанесении урона врагам
+            Когда ярость достигает предела, нажмите <right>, чтобы временно превратиться в могущественного демона
+            В облике демона <left> и <right> активируют разные эффекты и получают кражу здоровья
+            Кроме того, вы получаете меньше урона и двигаетесь быстрее
+            '''
+    
+        Messages: {
+            Idle: {
+                TheRage: Ярость в твоей власти. Освободи её!
+                NoToy: Я не игрушка...
+                NotWorthy: Ты не достоин обладать такой силой.
+                GiveIn: Подчинись...
+                WillToLive: Твоё стремление к жизни меня... умиляет.
+            }
+    
+            Attacking: {
+                KillThem: Убей их всех!
+                Yes: Да...
+                More: Ещё, ещё!
+                TimeToReap: Время пожинать!
+                KeepCutting: Продолжай рубку!
+            }
+    
+            AttackingBoss: {
+                KillThem: "{$Items.ScytheofUndoing.Messages.Attacking.KillThem}"
+                Yes: "{$Items.ScytheofUndoing.Messages.Attacking.Yes}"
+                More: "{$Items.ScytheofUndoing.Messages.Attacking.More}"
+                TimeToReap: "{$Items.ScytheofUndoing.Messages.Attacking.TimeToReap}"
+                KeepCutting: "{$Items.ScytheofUndoing.Messages.Attacking.KeepCutting}"
+                LouderScream: Чем громче их вопли, тем лучше.
+                SetFree: Освободи меня!
+                MuchFlesh: Как жаль, что не у всех так много плоти, которую можно терзать!
+                CutDown: Руби их!
+            }
+    
+            AttackingDummy.PreferFlesh: Мне больше нравится звук рвущейся плоти, но и так сойдёт...
+    
+            EnemyKill: {
+                FeltGood: О да-а-а! Ощущения великолепные.
+                FuelsFury: Каждое убийство разжигает мою ярость.
+                Slaughter: ДА! Резня!
+                RippedOut: Разорван на части!
+                BetterInRed: Всё ДЕЙСТВИТЕЛЬНО выглядят лучше в красном!
+            }
+    
+            BossDefeat: {
+                TheUndoing: Я - РАЗРУШИТЕЛЬ!
+                NeverThere: Словно их никогда и не существовало...
+                TheReaping: Я есть ярость... Я ЕСТЬ ЖНЕЦ!
+            }
+    
+            BuyItem.NotFirstChoice: Не то, что я хотел, но сойдёт.
+    
+            RecallHome: {
+                TheWeakRun: Слабаки бегут. Стой и сражайся!
+                Retreat: Отступление?!
+            }
+    
+            Transforming: {
+                TheseLegs: Ох! Мне потребуется время, чтобы привыкнуть к этим ногам.
+                Wrath: Я обрушу на них всю свою ЯРОСТЬ!
+                Destruction: Разрушение! Гнев! Ярость! Как и должно быть.
+                Reaping: Пора начать жатву... НЕМЕДЛЕННО!
+            }
+    
+            ThrownItem: {
+                ALittleHelp: Помогите... Кто-нибудь?
+                ComeBack: Ты ещё вернешься... со временем.
+            }
+    
+            Storage: {
+                CantSee: Здесь ничего не видно.
+                WhatAboutReaping: Что с жатвой?
+                StirsWrath: Это только разжигает мой гнев.
+                MuchToKill: Ещё столько всего нужно убить!
+            }
+    
+            PickedUp: {
+                ReapingBegun: Жатва началась!
+                ILive: Я живу, чтобы сеять смерть!
+            }
+        }
+    }
+    
+    FreshBrain: {
+        DisplayName: Свежие мозги
+        Tooltip:
+            '''
+            Призывает отвратительное сшитое отродье
+            Можно использовать только во время кровавой луны
+            '''
+    }
+    
+    IllusionaryGlass: {
+        DisplayName: Иллюзорное стекло
+        Tooltip:
+            '''
+            Призывает коварного заклинателя
+            Можно использовать только в Темнице
+            '''
+    }
+    
+    RottingSpore: {
+        DisplayName: Гниющая спора
+        Tooltip:
+            '''
+            Призывает плотоядное растение
+            Можно использовать только в подземных джунглях
             '''
     }
 }
@@ -18812,7 +18985,7 @@ NPCs: {
     PatchWerk: {
         DisplayName: Лоскутик
         BestiaryFlavorText: Ужасное существо, образованное из кишащих личинками останков террарийцев. Оно взывает к любому, кто услышит, умоляя о смерти.
-        BossChecklistIntegration.SpawnInfo: Появляется случайным образом в кровавую луну. Начните кровавую луну используя [i:BloodMoonStarter].
+        BossChecklistIntegration.SpawnInfo: Появляется случайным образом в кровавую луну. Можно повторно призвать с помощью [i:ThoriumMod/FreshBrain], которые продаёт Растерянный зомби. Начните кровавую луну используя [i:BloodMoonStarter].
     }
 
     SeveredLegs: {
@@ -18828,7 +19001,7 @@ NPCs: {
     CorpseBloom: {
         DisplayName: Трупоцвет
         BestiaryFlavorText: Неясно, получил ли этот мутировавший цветок своё название из-за своего зловонного запаха или из-за того, что он обычно оставляет после себя террарийцев.
-        BossChecklistIntegration.SpawnInfo: Появляется случайным образом в подземных джунглях после победы над Скелетроном.
+        BossChecklistIntegration.SpawnInfo: Появляется случайным образом в подземных джунглях после победы над Пожирателем миров / Мозгом Ктулху. Можно повторно призвать с помощью [i:ThoriumMod/RottingSpore], которую продаёт Растерянный зомби.
     }
 
     CorpsePetal.DisplayName: Трупный лепесток
@@ -18951,7 +19124,7 @@ NPCs: {
             Princess_LovesNPC: Хе-хе, {NPCName} делает такие забавные рожицы!
         }
 
-        Census.SpawnCondition: Одолейте [c/4dffb8:Лоскутика] во время кровавой луны.
+        Census.SpawnCondition: Одолейте [c/4dffb8:Лоскутика].
         Button2: Репеллент ({^0:80 серебряных;1 золотая})
     }
 
@@ -19239,7 +19412,7 @@ NPCs: {
             Princess_LovesNPC: "{NPCName} собирает самые красивые цветочные букеты!"
         }
 
-        Census.SpawnCondition: Одолейте [c/4dffb8:{$NPCs.CorpseBloom.DisplayName}] в джунглях после победы над Скелетроном.
+        Census.SpawnCondition: Одолейте [c/4dffb8:{$NPCs.CorpseBloom.DisplayName}].
     }
 
     EarthenBat: {
@@ -19404,7 +19577,7 @@ NPCs: {
     Illusionist: {
         DisplayName: Иллюзионист
         BestiaryFlavorText: Колдун, чей возраст превосходит возраст самой Темницы. С помощью иллюзий он заставил древнего тирана обречь своё царство на гибель, наложив на него страшное проклятие.
-        BossChecklistIntegration.SpawnInfo: Появляется случайным образом в Темнице.
+        BossChecklistIntegration.SpawnInfo: Появляется случайным образом в Темнице. Можно повторно призвать с помощью [i:ThoriumMod/IllusionaryGlass], которое продаёт Растерянный зомби.
     }
 
     IllusionistMirror.DisplayName: Зеркало Иллюзиониста
@@ -20053,7 +20226,10 @@ Projectiles: {
     ZunpetPro2.DisplayName: Zunpet Pro2
     ZunpetPro3.DisplayName: Zunpet Pro3
     BassBoosterMagicPro.DisplayName: Bass Booster Magic Pro
-    BatCavePointer.DisplayName: Bat Cave Pointer
+    BatCavePointer.DisplayName: {
+        DisplayName: Bat Cave Pointer
+        NoAltar: В мире нет Кровавой камеры
+    }
     BatWingPro.DisplayName: Bat Wing Pro
     Bee.DisplayName: Bee
     BeeStrong.DisplayName: Bee Strong
@@ -20231,7 +20407,7 @@ Projectiles: {
     CatsEyeGreatStaffPro3.DisplayName: Cats Eye Great Staff Pro3
     CelestialDrillPro.DisplayName: Celestial Drill
     CelestialPulse.DisplayName: Celestial Pulse
-    ChampionCatcherPro.DisplayName: Champion Catcher Pro
+    ChampionCatcherBobber.DisplayName: Champion Catcher Bobber
     ChampionShock.DisplayName: Champion Shock
     ChargedSplasherPro.DisplayName: Charged Splasher Pro
     CharmPro.DisplayName: Charm
@@ -20437,7 +20613,7 @@ Projectiles: {
     GardenersSheathPro.DisplayName: Gardeners Sheath Pro
     GasContainerPro.DisplayName: Gas Container Pro
     GazeEffect.DisplayName: Gaze Effect
-    GeodeGathererPro.DisplayName: Geode Gatherer Pro
+    GeodeGathererBobber.DisplayName: Geode Gatherer Bobber
     GeomancersBrushPro.DisplayName: Geomancers Brush Pro
     GeomancersBrushPro2.DisplayName: Geomancy
     GeomancersBrushPro3.DisplayName: Geomancers Brush Pro3
@@ -20473,7 +20649,7 @@ Projectiles: {
     GorgonsEyePro.DisplayName: Gorgons Eye Pro
     GraniteArrowPro.DisplayName: Granite Arrow Pro
     GraniteBarrier.DisplayName: Granite Barrier
-    GraniteControlRodPro.DisplayName: Granite Control Rod Pro
+    GraniteControlRodBobber.DisplayName: Granite Control Rod Bobber
     GraniteEradicatorArm.DisplayName: Granite Eradicator Arm
     GraniteReflectorPro.DisplayName: Granite Reflector Pro
     GraveBusterPro.DisplayName: Grave Buster Pro
@@ -21103,7 +21279,7 @@ Projectiles: {
     RifleSpearPro.DisplayName: Rifle Spear Pro
     RifleSpearPro2.DisplayName: Rifle Spear Pro2
     RifleSpearPro3.DisplayName: Rifle Spear Pro3
-    RlyehLostRodPro.DisplayName: Rlyeh Lost Rod Pro
+    RlyehLostRodBobber.DisplayName: Rlyeh Lost Rod Bobber
     RopePro.DisplayName: Rope Pro
     SabaBlast.DisplayName: Saba Blast
     SandShiftersPouchPro.DisplayName: Sand Shifters Pouch Pro
@@ -21531,9 +21707,16 @@ Projectiles: {
     QuakeGauntletPro3.DisplayName: Quake Gauntlet
     QuakeGauntletPro2.DisplayName: Quake Gauntlet
     QuakeGauntletPro.DisplayName: Quake Gauntlet
-    QuakeGauntletPro5.DisplayName: Quake Gauntlet Pro5
-    QuakeGauntletPro6.DisplayName: Quake Gauntlet Pro6
-    BonesawPro.DisplayName: Bonesaw Pro
+    QuakeGauntletPro5.DisplayName: Quake Gauntlet
+    QuakeGauntletPro6.DisplayName: Quake Gauntlet
+    BonesawPro.DisplayName: Bonesaw Organ
+    JetstreamSheathPro.DisplayName: Jetstream Sheath
+    JetstreamSheathChainPro.DisplayName: Jetstream Sheath
+    ScytheofUndoingPro.DisplayName: "{$Items.ScytheofUndoing.DisplayName}"
+    ScytheofUndoingPro2.DisplayName: "{$Items.ScytheofUndoing.DisplayName}"
+    ScytheofUndoingPro4.DisplayName: "{$Items.ScytheofUndoing.DisplayName}"
+    ScytheofUndoingPro3.DisplayName: "{$Items.ScytheofUndoing.DisplayName}"
+    ScytheofUndoingPro5.DisplayName: "{$Items.ScytheofUndoing.DisplayName}"
 }
 
 Tiles: {
@@ -21986,6 +22169,16 @@ Configs: {
             Label: Прозрачность очков техники
             Tooltip: ""
         }
+
+        ShowFullEmpowermentTooltip: {
+            Label: Отображение полного описания усилений
+            Tooltip: Переключает отображение полного описания вместо краткой версии "{$Empowerments.ItemTopTooltipHoldShift}".
+        }
+
+        ShowEmpowermentOrbsInTooltip: {
+            Label: Отображение сфер усилений в описании
+            Tooltip: Переключает отображения иконок сфер усилений рядом с усилениями в описании.
+        }
     }
 
     HealthOverlayStyle: {
@@ -22089,4 +22282,11 @@ WorldGen: {
         GraveyardCleanup: Обязанности смотрителя
         BloodChamber: Погребение Кровавой камеры
     }
+    
+Emotes: {
+    ScytheofUndoingEmote.Command: scytheofundoingemote
+    WhisperingSetEmote.Command: whisperingsetemote
+}
+
+MapLayers.GrimPointerMapLayer.Name: Кровавая камера
 }

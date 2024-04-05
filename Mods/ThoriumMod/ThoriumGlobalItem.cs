@@ -521,20 +521,6 @@ public class ThoriumGlobalItem : GlobalItem
                 tooltip.Text = $"{setBonusKey} Увеличивает призываемое число миньонов на 1\nАвтоатаки вашего ростка живого дерева самонаводятся на врагов";
             }
             
-            if (player.armor[0].type == ModContent.ItemType<SpiritTrapperHelmet>() &&
-                player.armor[1].type == ModContent.ItemType<SpiritTrapperCuirass>() &&
-                player.armor[2].type == ModContent.ItemType<SpiritTrapperGreaves>())
-            {
-                tooltip.Text = $"{setBonusKey} Увеличивает призываемое число миньонов на 1\nУбийство врагов или непрерывное нанесение урона боссам создаёт огоньки души\nПосле накопления 5 огоньков, они мгновенно поглощаются и восстанавливают 10 единиц здоровья";
-            }
-            
-            if (player.armor[0].type == ModContent.ItemType<SpiritTrapperMask>() &&
-                player.armor[1].type == ModContent.ItemType<SpiritTrapperCuirass>() &&
-                player.armor[2].type == ModContent.ItemType<SpiritTrapperGreaves>())
-            {
-                tooltip.Text = $"{setBonusKey} Увеличивает призываемое число стражей на 1\nУбийство врагов или непрерывное нанесение урона боссам создаёт огоньки души\nПосле накопления 5 огоньков, они мгновенно поглощаются и восстанавливают 10 единиц здоровья";
-            }
-            
             if (player.armor[0].type == ModContent.ItemType<TerrariumHelmet>() &&
                 player.armor[1].type == ModContent.ItemType<TerrariumBreastPlate>() &&
                 player.armor[2].type == ModContent.ItemType<TerrariumGreaves>())
@@ -583,13 +569,6 @@ public class ThoriumGlobalItem : GlobalItem
                 player.armor[2].type == ModContent.ItemType<WhiteDwarfGreaves>())
             {
                 tooltip.Text = $"{setBonusKey} Критические удары высвобождают из космоса изумрудные вспышки\nИзумрудные вспышки наносят урон, равный 0.1% максимального здоровья цели";
-            }
-            
-            if (player.armor[0].type == ModContent.ItemType<TitanHeadgear>() &&
-                player.armor[1].type == ModContent.ItemType<TitanBreastplate>() &&
-                player.armor[2].type == ModContent.ItemType<TitanGreaves>())
-            {
-                tooltip.Text = $"{setBonusKey} Увеличивает наносимый урон на 18%";
             }
             
             if (player.armor[0].type == ModContent.ItemType<TitanHelmet>() &&
@@ -778,14 +757,6 @@ public class ThoriumGlobalItem : GlobalItem
                 tooltips.ReplaceText("Popcorn does not apply on heal effects when consumed", "Попкорн не влияет на эффекты исцеления при его употреблении");
                 tooltips.ReplaceText($"Throws out ({3 + Main.LocalPlayer.GetThoriumPlayer().healBonus}) eatable popcorn kernels", $"Бросает ({3 + Main.LocalPlayer.GetThoriumPlayer().healBonus}) съедобных зёрен попкорна");
                 tooltips.ReplaceText($"Up to ({(3 + Main.LocalPlayer.GetThoriumPlayer().healBonus) * 3}) kernels may be out at once", $"Одновременно может быть брошено до ({(3 + Main.LocalPlayer.GetThoriumPlayer().healBonus) * 3}) зёрен попкорна");
-            });
-        }
-        
-        if (item.type == ModContent.ItemType<MartyrChalice>())
-        {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerAmount", tooltip =>
-            {
-                tooltip.Text = $"Жертвует вашей жизнью, чтобы исцелить всех союзников в мире на {tooltip.Text.Split(' ')[12]} ед. здоровья";
             });
         }
         

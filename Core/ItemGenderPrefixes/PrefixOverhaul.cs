@@ -1275,6 +1275,7 @@ public class ThoriumModItems : IItemGender
                 "ValadiumPickaxe",
                 "BasicPickaxe",
                 "Bonesaw",
+                "ScytheofUndoing",
             };
         
             List<int> types = new List<int>();
