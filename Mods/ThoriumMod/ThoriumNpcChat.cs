@@ -382,6 +382,7 @@ public class ThoriumNpcChat : GlobalNPC
                 "Ah, a woman of music! How well can you carry a tune?" => "Да, ты, похоже, человек музыки! А как у тебя с голосом?",
                 "You know, people would pay good money for quality music like yours. Care to hear my business proposition...?" => "Знаешь, за такую качественную музыку, как твоя, люди готовы платить хорошие деньги. Не хочешь услышать моё бизнес-предложение?..",
                 "In my younger years I was quite the experienced bard too! I've since left that behind me, though." => "Да, в молодости я тоже был неплохим бардом! Но сейчас это в прошлом.",
+                "Amazing work, friend! I sold off all my 'end of the world' merchandise, and now thanks to you, I can actually live long enough to kick back and enjoy the benefits!" => "Отлично сработано, друг! Я распродал все свои товары для 'конца света', и теперь, благодаря тебе, я смогу прожить достаточно долго, чтобы расслабиться и насладиться всеми прелестями жизни!",
                 _ => chat
             };
         }
@@ -392,6 +393,7 @@ public class ThoriumNpcChat : GlobalNPC
             {
                 "Are you sure you really need my help healing you and your allies? You seem to have it under control..." => "Ты уверен, что тебе действительно нужна моя помощь? Выглядит так, будто у тебя всё под контролем.",
                 "Another healer in town? Ugh, this will be bad for business..." => "Вот чёрт! Ещё один целитель! Теперь нам придётся конкурировать за клиентов...",
+                "I assume that you won't be having too many injuries from here on out? Shame, there goes my greatest money maker." => " Я так понимаю, больше серьёзных травм не предвидится? Жаль, ведь это был мой главный источник дохода.",
                 _ => chat
             };
         }
@@ -402,6 +404,7 @@ public class ThoriumNpcChat : GlobalNPC
             {
                 "Say, if you're going to explore the dungeon, keep an eye out for this bizarre mirror. I only caught a glance at it while tied up, but it gave me serious heebie-jeebies..." => "Слушай, если ты собираешься исследовать Темницу, то смотри в оба за этим странным зеркалом. Я только краем глаза его увидел, пока был связан, но оно меня до чёртиков напугало...",
                 "How I got kidnapped in the first place? One of their guys had crazy illusion magic, had me convinced I was being brought in to help install some new lighting!" => "А как меня вообще похитили? Один из их парней обладал сумасшедшей иллюзорной магией, и он убедил меня, что меня привезли помочь установить новое освещение!",
+                "It seems like things are gonna be a lot more peaceful from here on out. Maybe now I can finally focus on my machines... and maybe someone special to me." => "Кажется, впереди нас ждёт мирная жизнь. Наконец-то смогу спокойно заняться своими механизмами... А может быть, и чем-то более личным.",
                 _ => chat
             };
         }
@@ -571,7 +574,7 @@ public class ThoriumNpcChat : GlobalNPC
             };
         }
         
-        if (npc.type == NPCID.DD2Bartender)
+        if (npc.type == NPCID.TaxCollector)
         {
             chat = chat switch
             {
@@ -630,8 +633,17 @@ public class ThoriumNpcChat : GlobalNPC
             chat = chat switch
             {
                 "I see you've got yourself an instrument. Instruments use ‘inspiration’ to provide helpful buffs to you and your team, as well as damage enemies. You’ll need Inspiration Fragments to increase your maximum inspiration, which can be crafted from fallen stars and a strange ore underground! Who knows, maybe later on you can increase it even more with other unique materials..." => "Вижу, ты обзавёлся инструментом! Инструменты используют 'вдохновение', чтобы давать тебе и твоей команде полезные усиления, а также наносить урон врагам. Чтобы повысить максимальный запас вдохновения, тебе понадобятся осколки вдохновения, которые можно изготовить из упавших звёзд и странной руды, что находится под землёй! Кто знает, может быть, позже ты сможешь увеличить его ещё больше с помощью других редких материалов...",
+                "Congratulations on your victory! I'm sure you've already noticed, but each of the primordial spirits left behind part of their essence over the domain they control after you defeated them. They're as powerful as they sound, and you can make some extremely potent gear with them. As always, I can help you see what you can craft with them!" => "Поздравляю с победой! Наверняка ты уже заметил, что после твоего триумфа над первородными духами, каждый из них оставил частицу своей сущности в подвластном ему владении. Эти сущности настолько же могущественны, насколько это звучит, и с их помощью ты можешь создать невероятно мощное снаряжение. Как всегда, я готов помочь тебе узнать, что можно из них изготовить!",
                 _ => chat
             };
+        }
+        
+        if (npc.type == NPCID.Golfer)
+        {
+            if (chat == $"I'd say that battle looked like a hole in one to me, {Main.LocalPlayer.name}. Maybe you can finally relax after all that ceaseless fighting and play some golf with me; What do you say?")
+            {
+                chat = $"Могу сказать, что битва прошла для нас как одним ударом в лунку, {Main.LocalPlayer.name}. Как насчёт того, чтобы наконец расслабиться после всех этих непрекращаюхся сражений и сыграть со мной в гольф?";
+            }
         }
     }
 
