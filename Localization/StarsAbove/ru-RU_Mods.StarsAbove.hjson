@@ -1,10 +1,10 @@
 ﻿#DeathReason: {
-#    SanguineDespair: истощает себя до последней капли жизни.
-#    SupremeAuthority: возвращается в пустоту.
-#    Thespian: не следует сценарию.
+#    SanguineDespair: " истощает себя до последней капли жизни."
+#    SupremeAuthority: " возвращается в пустоту."
+#    Thespian: " не следует сценарию."
 #    ShockAndAwe: ... делает неудачный ракетный прыжок.
-#    InevitableEnd: попадает под перекрёстный огонь 'Неизбежного финила' игрока {0}.
-#    Arbitration: обречён на хаос.
+#    InevitableEnd: " попадает под перекрёстный огонь 'Неизбежного финала' игрока {0}."
+#    Arbitration: " обречён на хаос."
 #}
 #
 #Boss.WarriorOfLight: Воин света снисходит!
@@ -12,6 +12,7 @@
 #
 #CombatText: {
 #    StellarNovaReady: Астронова готова!
+#    WarriorOfLightBonus: Determination grants you strength... Health fully restored and cooldowns removed!
 #
 #    DevotedHavoc: {
 #        Grenade: Выбрана граната
@@ -448,7 +449,7 @@
 #        CelestialEvanesence: {
 #            Name: "[c/C2BDFF:Ранг 1] [c/FFEED1:'Хрупкость неземного мгновения']"
 #            Description: Увеличивает шанс критического удара в зависимости от текущего запаса маны, делённого на 20. Критический удар восстанавливает 5% от нанесённого урона в виде маны. (Максимум 5 за удар)
-#            Unlock: "[c/9D9D9D:Заблокировано:] Одолейте Культиста-лунатика в режиме Эксперта"
+#            Unlock: "[c/9D9D9D:Заблокировано:] Одолейте Dioskouroi, the Twin Forces"
 #        }
 #
 #        SpectralNail: {
@@ -463,7 +464,7 @@
 #
 #        MysticIncision: {
 #            Name: "[c/C2BDFF:Ранг 1] [c/FFEED1:'Mystic Incision']"
-#            Description: Gain 20% armor penetration. Gain an extra 50% armor penetration when in close proximity to foes. If you do not have enough Mana to use a weapon, gain that amount of Mana on use if HP is above 50%.
+#            Description: Armor penetration now grants increased critical strike damage, up to 60% at 120 armor penetration. Gain 30% bonus armor penetration when in close proximity to foes.
 #        }
 #
 #        StayTheCourse: {
@@ -508,13 +509,13 @@
 #
 #        LavenderRefrain: {
 #            Name: "[c/C2BDFF:Ранг 1] [c/FFEED1:'Lavender Refrain']"
-#            Description: When taking damage, Mana is treated as bonus health. When this effect triggers, Max Mana is reduced by 10% until Max Mana is reduced by 100%. Max Mana slowly recovers after not taking damage for 10 seconds.
+#            Description: When taking damage, Mana is treated as bonus health. When this effect triggers, Max Mana is reduced by 40% until Max Mana is reduced by 100%. Max Mana slowly recovers after not taking damage for 10 seconds.
 #        }
 #
 #        HealthyConfidence: {
 #            Name: "[c/9C4FFF:Ранг 2] [c/FFD792:'Healthy Confidence']"
 #            Description: 15% of damage taken is restored as HP over time (10% of stored HP per second.)
-#            Unlock: "[c/9D9D9D:Заблокировано:] Defeat the Wall of Flesh"
+#            Unlock: "[c/9D9D9D:Заблокировано:] Have 400 or more natural Max HP"
 #        }
 #
 #        InfernalEnd: {
@@ -526,7 +527,7 @@
 #        AvatarOfLight: {
 #            Name: "[c/9C4FFF:Ранг 2] [c/FFD792:'Avatar of Light']"
 #            Description: Half of Max Mana is added to Max HP. At 500 HP or above, gain 10 defense, 5% damage, and 3 Stellar Nova Energy Regeneration.
-#            Unlock: "[c/9D9D9D:Заблокировано:] Defeat the Warrior of Light"
+#            Unlock: "[c/9D9D9D:Заблокировано:] Defeat Martian Madness"
 #        }
 #
 #        AstralMantle: {
@@ -537,14 +538,14 @@
 #
 #        Afterburner: {
 #            Name: "[c/9C4FFF:Ранг 2] [c/FFD792:'Afterburner']"
-#            Description: When Mana drops below 40, gain 150 Mana and all attacks critically strike for 4 seconds. 25 second cooldown.
+#            Description: When Mana drops below 40, gain 150 Mana and all attacks critically strike for 4 seconds. 20 second cooldown.
 #            Unlock: "[c/9D9D9D:Заблокировано:] Defeat Plantera"
 #        }
 #
 #        SpatialStratagem: {
 #            Name: "[c/9C4FFF:Ранг 2] [c/FFD792:'Spatial Stratagem']"
 #            Description: Upon taking damage, halve all damage taken for 2 seconds (Includes original hit) and gain 20% increased damage for 4 seconds. 30 second cooldown. (Taking damage during the cooldown resets the cooldown)
-#            Unlock: "[c/9D9D9D:Заблокировано:] Defeat all bosses from The Stars Above except the final boss"
+#            Unlock: "[c/9D9D9D:Заблокировано:] Defeat ???"
 #        }
 #
 #        WeaknessExploit: {
@@ -556,7 +557,7 @@
 #        Aprismatism: {
 #            Name: "[c/9C4FFF:Ранг 2] [c/FFD792:'Aprismatism']"
 #            Description: Aspected Damage Type changes will now apply to all weapons.
-#            Unlock: "[c/9D9D9D:Заблокировано:] Defeat all bosses from The Stars Above except the final boss in Expert Mode"
+#            Unlock: "[c/9D9D9D:Заблокировано:] Defeat Thespian, the Act of Alchemy in Expert Mode"
 #        }
 #
 #        UnbridledRadiance: {
@@ -568,7 +569,7 @@
 #        BetweenTheBoundary: {
 #            Name: "[c/D82BFF:Ранг 3] [c/FFC258:'Меж двух огней']"
 #            Description: Every 8 seconds, swap between Ebb (drastic Mana drain) and Flow (infinite Mana Regeneration.) Additionally, gain 40% increased damage and 20% increased attack speed during Flow.
-#            Unlock: "[c/9D9D9D:Заблокировано:] Одолейте всех боссов Террарии и всех боссов из The Stars Above, кроме последнего босса"
+#            Unlock: "[c/9D9D9D:Заблокировано:] Одолейте Воина света"
 #        }
 #
 #        CyclicHunter: {
@@ -585,7 +586,7 @@
 #
 #        BeyondInfinity: {
 #            Name: "[c/D82BFF:Ранг 3] [c/FFC258:'Бесконечность не предел']"
-#            Description: Во время боя ваш урон увеличивается на 10% каждые 2 секунды, достигая максимального увеличения в 100%. Бонус к урону расходуется при ударе и пропадает при получении урона.
+#            Description: Lower rarity Aspected Weapons gain drastic bonus damage based on their original rarity, up to 1200% base damage. Does not affect weapons with more than 100 base damage.
 #            Unlock: "[c/9D9D9D:Заблокировано:] Одолейте всех боссов Террарии"
 #        }
 #
@@ -1236,8 +1237,6 @@
 #                    '''
 #                    Просто чтобы ты знал, в Звёздном ряде
 #                    теперь появилось новое улучшение.
-#                    Кажется, оно мощнее, чем те, что ты
-#                    использовал ранее.
 #                    '''
 #                4:
 #                    '''
@@ -1258,13 +1257,7 @@
 #                    Я не встречала ничего подобного. Что
 #                    скрывало это существо?..
 #                    '''
-#                3:
-#                    '''
-#                    Похоже, эта сила привела к активации
-#                    первой способности 2 ранга в Звёздном
-#                    ряде. Надеюсь, ты сможешь эффективно
-#                    использовать эту способность.
-#                    '''
+#                3: You've also unlocked a new ability in the Array, but that was a foregone outcome, all things considered.
 #                4: Let's explore these new environs with caution.
 #            }
 #        }
@@ -2424,6 +2417,88 @@
 #
 #    PromptDialogue: {
 #        Asphodene: {
+#            onPoison: {
+#                1: Looks like you've been poisoned. I'll send you a get well card.
+#                2: Poison, huh? Perhaps a glass of milk would... Never mind.
+#                3: You look sick- but I guess you don't need me to say that.
+#                4: If you have an antidote, now's the time...
+#            }
+#
+#            onIchor: {
+#                1: It looks like your defenses are lowered! Be careful.
+#                2: That substance is weakening your armor- don't get caught unaware.
+#                3: Eww, you've been covered in Ichor. Mind your health.
+#            }
+#
+#            onSilence: {
+#                1: You've been silenced! Magic is out of the question.
+#                2: Something's silenced you- guess it's time to get physical!
+#                3: Your magic has been sealed! Let's get back to basics.
+#            }
+#
+#            onCurse: {
+#                1: I think you've been cursed. That's... not good. You aren't able to use anything for now.
+#                2: A curse... your items can't be used- let's try to fall back.
+#                3: Looks like you've had your items sealed. High time for a tactical retreat.
+#            }
+#
+#            onFrozen: {
+#                1: You've been frozen! Oh, you probably knew that.
+#                2: A total freeze? Great. Get ready to react once you're free.
+#            }
+#
+#            onFrostburn: {
+#                1: You're burning up? Or freezing? It looks like it hurts regardless!
+#                2: Yikes- a mix of fire and ice? Hang in there!
+#                3: Well, that looks like it hurts.
+#            }
+#
+#            onWebbed: {
+#                1: Ew. It looks like you're covered in webs.
+#                2: Covered in webs... Don't fret, it usually comes off after a few washes.
+#            }
+#            onStoned: {
+#                1: You've been petrified! How does that even work?
+#                2: You've been turned to stone?! Can you even hear me?
+#            }
+#
+#            onBurning: {
+#                1: You're standing on something REALLY hot. I'm no expert on thermodynamics, but you should not do that.
+#                2: You should probably move...
+#            }
+#
+#            onSuffocation: {
+#                1: You're dying- and quickly. Get out of there!
+#                2: Looks like you're in trouble... time to focus!
+#            }
+#
+#            onFire: {
+#                1: Well, that isn't good.
+#                2: Don't think I need to tell you that being on fire does not help the ol' lifespan.
+#                3: Uh, did you mean to start melting?
+#                4: Why yes, you can catch fire. Unfortunately.
+#            }
+#
+#            onDrowning: {
+#                1: I hate to break this to you, but you're about to drown.
+#                2: Whatever you're swimming for, it can wait.
+#            }
+#
+#            onBleeding: {
+#                1: You're losing a LOT of blood. Yikes. You can't regenerate health any more.
+#                2: You may be the strongest one here, but you're also bleeding profusely.
+#            }
+#
+#            onConfusion: {
+#                1: "[You can't make out the words- looks like you've been confused.] "
+#                2: Something hit you on the head? You're looking a little loopy. Okay, more than a little loopy.
+#            }
+#
+#            onKillCritter: {
+#                1: wip
+#                2: wip
+#            }
+#
 #            1:
 #                '''
 #                Похоже, тебя отравили. Я отправлю тебе открытку с пожеланиями
@@ -4960,6 +5035,7 @@
 #
 #Common: {
 #    DiskReady: Пространственный диск резонирует. Нажмите ЛКМ, удерживая диск для взаимодействия.
+#    DiskReadyUnread: The Spatial Disk begins to resonate. Left click while holding the Disk to interact. ({0} unread dialogues)
 #    ArrayAbility: В Звёздном ряде разблокирована новая способность!
 #    NovaUnlocked: Теперь вам доступны Астроновы!
 #    NewNova: Вам доступна новая Астронова!
@@ -4992,8 +5068,9 @@
 #        [c/DADADA:Discord-модераторы: the_alu, ifune, loligeddon, polluxe, not02]
 #        [c/DADADA:Переводчики на испанский: Tofu and Zeldris]
 #        [c/DADADA:Переводчики на китайский: Koibumi Group(灾厄维基汉化组)]
+#        [c/DADADA:Переводчики на французкий: Maksou and Ariaclipse]
 #        [c/DADADA:Библиотеки: SubworldLibrary, StructureHelper]
-#        [c/DADADA:Открытый исходный код: ScalarVector, tomat, jopojelly, John Snail, Kazzymodus, Mirsario]
+#        [c/DADADA:Открытый исходный код: ScalarVector, tomat, jopojelly, John Snail, Kazzymodus, Mirsario, Lion8cake]
 #
 #
 #        '''
@@ -5519,11 +5596,11 @@
 #        DisplayName: Ясность Архитектора
 #        Tooltip:
 #            '''
-#            [c/F592BF:This weapon is unaffected by Aspected Damage Type penalty]
+#            [c/F592BF:Это оружие не подвержено к штрафу Аспектного типа урона]
 #            Holding this weapon will equip yourself with the [c/6EF367:Luminary Armament], increasing defense by 30
 #            Right click to summon [c/70D38B:Artifice Siren] for 15 seconds at your cursor (1 minute cooldown)
 #            [c/70D38B:Artifice Siren] will obliterate nearby foes with hyperpowered beams of light, even when this weapon is not held
-#            The current [c/F592BF:Aspected Damage Type] influences the weapon's attacks
+#            Текущий [c/F592BF:Аспектный тип урона] влияет на атаки оружия
 #            [c/FFAB4D:Melee]: The weapon swings much faster and defense is added to critical strike damage
 #            [c/EF4DFF:Magic]: Instead of swinging, the weapon will will conjure 6 explosive blasts in a fan pattern dealing 1/3 base damage
 #            [c/4DFF5B:Ranged]: Instead of swinging, the weapon will quickly fire piercing shots without consuming ammo, dealing 1/2 base damage
@@ -5619,18 +5696,18 @@
 #            Один из легендарных нарядов из былых легенд
 #            Экипирование на Астру даёт следующие эффекты:
 #            [c/FFCA5A:Shining Journey]
-#            Attacking and taking damage will grant stacks of Hope's Brilliance (Max 100 stacks)
-#            Every 10 stacks of Hope's Brilliance increases damage by 2%
-#            Striking a foe with the Stellar Nova will consume all stacks of Hope's Brilliance
+#            Attacking and taking damage will grant stacks of [c/FFCA5A:Hope's Brilliance] (Max 100 stacks)
+#            Every 10 stacks of [c/FFCA5A:Hope's Brilliance] increases Stellar Nova damage by 2%
+#            Striking a foe with the Stellar Nova will consume all stacks of [c/FFCA5A:Hope's Brilliance]
 #            [c/87E3DE:Passage of Arms]
 #            Enemies are more likely to target you
 #            Taking damage grants Ironskin, Regeneration, and Endurance for 8 seconds
-#            Additionally, gain the buff Nascent Aria for 3 seconds, increasing defense by 20 and boosting health regen
+#            Additionally, gain the buff Nascent Aria for 3 seconds, increasing defense by 20 and boosting health regeneration
 #            [c/F94135:Proof of a Hero]
 #            Attacks will deal 40% less damage to foes not targetting you
 #            [c/8BB9F8:The Echo of Hope]
 #            Tier 3 Stellar Array Abilities gain bonus effects
-#            Beyond Infinity: Damage is increased by a further 30%
+#            Beyond Infinity: All weapons below Cyan tier are treated as if they were one rarity lower when calculating damage bonus
 #            Key of Chronology: Cleanse Potion Sickness and gain Heartreach for 30 seconds upon activation
 #            Between the Boundary: Gain 40 defense during Flow, and lose 20 defense during Ebb
 #            Unbridled Radiance: Stellar Nova Energy can not drop below 10
@@ -6187,7 +6264,7 @@
 #        DisplayName: Космический уничтожитель
 #        Tooltip:
 #            '''
-#            [c/F592BF:This weapon is unaffected by Aspected Damage Type penalty]
+#            [c/F592BF:Это оружие не подвержено к штрафу Аспектного типа урона]
 #            Fires a barrage of hyperpowered energy bolts
 #            Striking foes will increment the [c/00B7FF:Magiton Gauge]
 #            Once the [c/00B7FF:Magiton Gauge] is full, right click to activate [c/FE3727:Magiton Overheat] for 8 seconds
@@ -6228,7 +6305,7 @@
 #            After choosing a weapon, gain a unique buff based on the chosen weapon that lasts for 12 seconds
 #            [c/6C6C6C:Durandal]: Attack in a wide arc with a high critical strike chance; gain 50% bonus critical strike damage against foes below 50% HP
 #            [c/6C6C6C:Zelkova]: Alternate between axe and mace, healing for a portion of damage dealt; deal 30% bonus damage to foes below 50% HP
-#            [c/6C6C6C:Ranga]: Dash a fixed distance towards your cursor, damaging foes for half base damage (Cooldown after attacking); deal 30% increased critical strike damage
+#            [c/6C6C6C:Ranga]: Dash a fixed distance towards your cursor, damaging foes for half base damage (Increasing cooldown after attacking); deal 30% increased critical strike damage
 #            [c/6C6C6C:Old Boys]: Throw a returning hammer that hits twice at max range, dealing 200% damage to foes below 50% HP; gain 20 defense
 #            [c/6C6C6C:Allas]: Attack with a piercing mid-ranged stab with wide range and no knockback; gain 30% increased Movement Speed
 #            [c/6C6C6C:Mook]: Execute a barrage of close-ranged slashes per attack (Cooldown after attacking); inflict Bleed on hit for 4 seconds
@@ -6273,12 +6350,12 @@
 #        DisplayName: Багровая сакура альфа
 #        Tooltip:
 #            '''
-#            Striking foes cause [c/B08FFC:Skill Orbs] to drop
-#            Right click after picking up a [c/B08FFC:Skill Orb] to unleash a special ability
-#            [c/B08FFC:Skill Orbs] last for 20 seconds after picking them up and do not stack
-#            Pick up a [c/FC8F8F:Red Orb] to unleash [c/FC8F8F:Flickering Strike]: Slash the area around you in a wide attack for double damage
-#            Pick up a [c/8FBFFC:Blue Orb] to unleash [c/8FBFFC:Lightbreak Strike]: All melee attacks become critical strikes for 2 seconds
-#            Pick up a [c/FCF08F:Yellow Orb] to unleash [c/FCF08F:Dazzling Strike]: Pierce foes with a ranged burst
+#            При нанесении ударов по врагам выпадают [c/B08FFC:Сферы навыков]
+#            Нажмите <right> после подбора [c/B08FFC:Сферы навыков], чтобы активировать особую способность
+#            [c/B08FFC:Сферы навыков] действуют 20 секунд после подбора и не суммируются
+#            Подберите [c/FC8F8F:Красную сферу], чтобы использовать [c/FC8F8F:Внезапный удар]: Рассекает область вокруг вас широкой атакой, нанося двойной урон
+#            Подберите [c/8FBFFC:Синюю сферу] чтобы использовать [c/8FBFFC:Светоломный удар]: Все атаки ближнего боя становятся критическими на 2 секунды
+#            Подберите [c/FCF08F:Жёлтую сферу], чтобы использовать [c/FCF08F:Ослепляющий удар]: Пронзает врагов дальнобойным выбросом энергии
 #            Right clicking with multiple orbs will use the orbs in the order you acquired them
 #            After using all 3 orbs in quick succession, right click to enter [c/F04040:Blade Will]
 #            [c/F04040:Blade Will] drains mana constantly, and has a 60 second cooldown upon conclusion
@@ -6902,7 +6979,7 @@
 #        DisplayName: Эссенция копьепушки
 #        Tooltip:
 #            '''
-#            Можно получить в качестве награды за победу над всеми механическими боссами
+#            Можно получить в качестве награды за победу над механическим боссом
 #            Подарок вашей Астры
 #            Используется для создания '{$Items.Hullwrought.DisplayName}' (Ближний бой)
 #            '''
@@ -7094,7 +7171,7 @@
 #            '''
 #            This Memory is indeed quite familiar to you
 #            [c/F1AF42:Petitions the Starfarers for a test]
-#            [c/FA5D5D:Once all bosses from The Stars Above have been defeated, this fight is drastically upgraded!]
+#            [c/FA5D5D:Once the final boss from The Stars Above have been defeated, this fight is drastically upgraded!]
 #            No extra rewards will be given for this special difficulty
 #            Warning: not recommended for casual playthroughs!
 #            Не расходуется
@@ -7169,16 +7246,16 @@
 #        DisplayName: Геноцид
 #        Tooltip:
 #            '''
-#            Attacks fire powerful explosive grenades with high knockback
-#            Striking an enemy with an attack grants 25% increased movement and critical strike chance for 4 seconds
-#            Will automatically take time to reload after 6 shots
-#            The final shot before reloading has a larger explosion radius and deals 200% damage
-#            The weapon will additionally fire an artillery shell at the target (3 second cooldown)
-#            Upon arriving at the target destination or hitting a tile the artillery shell will explode, dealing 300% damage
-#            Right click to fire a [c/4BF0DE:Plasma Grenade] (8 second cooldown)
-#            The [c/4BF0DE:Plasma Grenade] will automatically bounce to the nearest foe (Up to 3 times)
-#            Enemies struck by the [c/4BF0DE:Plasma Grenade] are inflicted with Mortal Wounds for 12 seconds, increasing damage taken from this weapon by 50%
-#            The [c/4BF0DE:Plasma Grenade] can not bounce to a foe with Mortal Wounds
+#            Атаки стреляют мощными взрывными гранатами с сильным отбрасыванием
+#            Попадание по врагу увеличивает скорость передвижения и шанс критического удара на 25% на 4 секунд
+#            Автоматически перезаряжается после 6 выстрелов
+#            Последний выстрел перед перезарядкой обладает увеличенным радиусом взрыва и наносит 200% урона
+#            Оружие дополнительно выстреливает в цель артиллерийский снаряд (3 секунды перезарядки)
+#            Достигнув цели или попав в блок, артиллерийский снаряд взрывается, нанося 300% урона
+#            Нажмите <right>, чтобы выстрелить [c/4BF0DE:Плазменной гранатой] (8 секунд перезарядки)
+#            [c/4BF0DE:Плазменная граната] автоматически отскакивает к ближайшему врагу (до 3 раз)
+#            На врагов, поражённых [c/4BF0DE:Плазменной гранатой], накладывается дебафф «{$Buffs.MortalWounds.DisplayName}» на 12 секунд, увеличивающий урон от этого оружия на 50%
+#            [c/4BF0DE:Плазменная граната] не отскакивает к врагу, на котором уже наложен дебафф «{$Buffs.MortalWounds.DisplayName}»
 #            'Заткни рот и гляди в оба!'
 #            '''
 #    }
@@ -7187,11 +7264,11 @@
 #        DisplayName: Хоукмун
 #        Tooltip:
 #            '''
-#            [c/F592BF:This weapon is unaffected by Aspected Damage Type penalty when aspected to Ranged or Magic damage]
-#            Right click to reload the weapon with 12 rounds
-#            Time the reload perfectly to gain [c/0059FF:Paracausal Anomaly] until all bullets are spent
-#            [c/0059FF:Paracausal Anomaly] increases damage while making all attacks critical
-#            'То, что ты называешь Тьмой, - это конец твоей эволюции!'
+#            [c/F592BF:Это оружие не подвержено к штрафу Аспектного типа урона при смене типа на стрелковый или магический]
+#            Нажмите <right>, чтобы зарядить оружие 12 патронами
+#            Идеально выполненная перезарядка активирует [c/0059FF:Паракаузальную аномалию] до тех пор, пока не закончатся патроны
+#            [c/0059FF:Паракаузальная аномалия] увеличивает урон и гарантирует нанесение критических ударов
+#            'То, что ты называешь Тьмой, - конец твоей эволюции!'
 #            '''
 #    }
 #
@@ -7201,12 +7278,11 @@
 #            '''
 #            Holding this weapon summons [c/D66AAB:Melusine] and [c/6AD6AF:Arondight] to circle you, aiming at your cursor
 #            Left click to fire from [c/D66AAB:Melusine]
-#            Attacking with [c/D66AAB:Melusine] fires a missile that has a 50% chance to apply Burning to foes struck for 6 seconds
-#            Striking Frostburned foes with [c/D66AAB:Melusine] will deal extra critical damage and expel Frostburn
+#            Attacking with [c/D66AAB:Melusine] fires a missile that has a 50% chance to apply On Fire to foes struck for 6 seconds
+#            Striking foes inflicted with Frostburn with [c/D66AAB:Melusine] will deal extra critical damage and remove Frostburn
 #            Right click to fire from [c/6AD6AF:Arondight]
-#            Attacking with [c/6AD6AF:Arondight] fires a missile that has a 50% chance to apply Frostburn to foes struck for 6 seconds
-#            Striking Burning foes with [c/6AD6AF:Arondight] will deal extra critical damage and quench Burn
-#            Bullets will travel through walls
+#            Striking foes inflicted with On Fire with [c/6AD6AF:Arondight] will deal extra critical damage and remove On Fire
+#            This weapon can not deal critical strikes unless criteria is met
 #            This weapon can not crit unless criteria is met
 #            'Мои крылья понесут тебя, пусть даже на краткий миг этого сновидения'
 #            '''
@@ -8305,7 +8381,7 @@
 #            [c/FF5934:Звёздная призма - Ранг 2]
 #            Установите на Астронову, чтобы получить следующую способность:
 #            [c/6DE169:Гнев Лунного лорда]
-#            Если затраты Астроновы превышают 200 энергии, увеличивает урон на 50%
+#            If the Stellar Nova costs 20 or more Stellar Nova Energy above its base energy value, damage is increased by 20%
 #            Увеличение урона добавляется после подсчёта обычного урона
 #            '''
 #    }
@@ -8500,7 +8576,7 @@
 #        Tooltip:
 #            '''
 #            Right click to load 12 bullets into the magazine with 40 mana
-#            Timing the reload perfectly will boost damage up to 8 times and refund 20 mana
+#            Timing the reload perfectly will boost damage by 6 up to 8 times and additionally refund 20 mana
 #            Failing to time the reload perfectly will reset the bonus
 #            'Are you a bad enough dude?'
 #            '''
@@ -8628,7 +8704,7 @@
 #        DisplayName: Арсенал небесного воина
 #        Tooltip:
 #            '''
-#            [c/F592BF:This weapon is unaffected by Aspected Damage Type penalty]
+#            [c/F592BF:Это оружие не подвержено к штрафу Аспектного типа урона]
 #            Right click to access the [c/90B1BE:Aerial Forme] Selection Menu
 #            Each [c/90B1BE:Aerial Forme] grants unique buffs when this weapon is held and modifies weapon attacks
 #            [c/EC5656:Annihilation]: Damage is increased by 50%, but defenses are reduced by 30
@@ -8764,11 +8840,10 @@
 #            [c/14E6FF:Spatial Planets] respawn 2 seconds after impact
 #            When striking a foe with an uncharged attack during [c/145BFF:Universal Manipulation], the buff becomes [c/14FFB1:Celestial Cacophony] for 12 seconds
 #            When using a charged attack during [c/14FFB1:Celestial Cacophony] the [c/FF14A6:Vorpal Planet] deals triple damage and more stars will descend, consuming [c/14FFB1:Celestial Cacophony]
-#            Right click to activate [c/FF9F14:Cosmic Conception] which will converge the planets upon yourself, granting the buff [c/EBDD8D:Superimposed]
+#            Right click to activate [c/FF9F14:Cosmic Conception] which will converge the planets upon yourself, granting the buff [c/EBDD8D:Superimposed] (2 minute cooldown)
 #            Additionally, converging spatial bodies will deal damage to any foe caught in their path
 #            [c/EBDD8D:Superimposed] grants incredible health regeneration and Invincibility
 #            After 7 seconds, [c/FF9F14:Cosmic Conception] will resolve, bursting in an explosion of cosmic energy
-#            [c/FF9F14:Cosmic Conception] has a 2 minute cooldown
 #            'И всё же, ты продолжаешь свой путь'
 #            '''
 #    }
@@ -9336,8 +9411,8 @@
 #        DisplayName: Топор ревущих молний
 #        Tooltip:
 #            '''
-#            [c/F592BF:This weapon is unaffected by Aspected Damage Type penalty when aspected to Melee or Magic damage]
-#            The current [c/F592BF:Aspected Damage Type] influences the weapon's attacks (Can not be used if not Aspected to Melee or Magic)
+#            [c/F592BF:Это оружие не подвержено к штрафу Аспектного типа урона при смене типа на ближний бой или магический]
+#            Текущий [c/F592BF:Аспектный тип урона] влияет на атаки оружия (Оружие нельзя использовать, если оно не имеет аспекта ближнего боя или магического)
 #            Right click to activate [c/FDD059:Gathering Levinstorm], enhancing the weapon's attacks for 8 seconds (30 second cooldown)
 #            [c/FFAB4D:Melee]: Attacks will throw the weapon at high velocity while ignoring terrain, piercing and causing lightning to radiate from struck foes
 #            While [c/FDD059:Gathering Levinstorm] is active, gain Swiftness and 15% increased critical strike chance
@@ -9386,7 +9461,7 @@
 #            At 20 [c/FC578E:LV], attack speed is increased by 20% and the cooldown of [c/F4296D:SLAUGHTERING SLASH] is halved
 #            At 50 [c/FC578E:LV], attack speed is increased by an additional 10% and all attacks will now inflict [c/DA11B5:Karmic Retribution] for 10 seconds, dealing damage over time
 #            At 100 [c/FC578E:LV], all bonuses are removed, but pressing the Weapon Action Key will unleash a [c/C91515:SPECIAL ATTACK] for 15 seconds, consuming all [c/FC578E:LV]
-#            During the [c/C91515:SPECIAL ATTACK] attack speed and damage dealt is doubled but damage taken is tripled
+#            During the [c/C91515:SPECIAL ATTACK] attack speed and damage dealt is doubled and attacks are guaranteed critical strikes but damage taken is tripled
 #            Additionally, gain infinite flight time and a 25% chance to dodge any attack
 #            Once the [c/C91515:SPECIAL ATTACK] concludes, this weapon can not be used for 30 seconds
 #            '''
@@ -9779,11 +9854,11 @@
 #        DisplayName: Рассвет солнечного божества
 #        Tooltip:
 #            '''
-#            [c/F592BF:This weapon is unaffected by Aspected Damage Type penalty]
+#            [c/F592BF:Это оружие не подвержено к штрафу Аспектного типа урона]
 #            Right click to unleash [c/FFC500:Vasavi Shakti], leaping into the air, gaining Featherfall and Invincibility for 2 seconds (1 minute cooldown)
 #            [c/FFC500:Vasavi Shakti] channels a powerful beam of energy towards your cursor for 2 seconds
 #            [c/FFC500:Vasavi Shakti] will conclude with a colossal explosion, dealing 200% guaranteed critical damage and inflicting Daybroken for 8 seconds
-#            The current [c/F592BF:Aspected Damage Type] influences the weapon's attacks (Weapon can not be used without [c/F592BF:Aspected Damage Type])
+#            Текущий [c/F592BF:Аспектный тип урона] влияет на атаки оружия (Оружие нельзя использовать без [c/F592BF:Аспектного типа урона])
 #            [c/FFAB4D:Melee]: Rapidly stab in a close-ranged flurry; Charged attacks swing in a wide arc, burning foes for 8 seconds
 #            [c/EF4DFF:Magic]: Lightning spears converge on your cursor after a delay, causing lightning to arc from foes struck
 #            [c/4DFF5B:Ranged]: Attacks launch the spear at high velocity, dealing 200% damage and piercing infinitely without damage falloff
@@ -10125,7 +10200,7 @@
 #        DisplayName: Паучья игла
 #        Tooltip:
 #            '''
-#            [c/F592BF:This weapon is unaffected by Aspected Damage Type penalty when aspected to Melee or Magic damage]
+#            [c/F592BF:Это оружие не подвержено к штрафу Аспектного типа урона при смене типа на ближний бой или магический]
 #            Attacks with this weapon stab forwards, piercing foes
 #            Right click to dash towards your cursor (4 second cooldown)
 #            Press the Weapon Action Key to unleash [c/B9F1FA:Gossamer Storm], healing 15 HP and striking nearby foes 3 times (10 second cooldown)
@@ -10361,9 +10436,9 @@
 #            '''
 #            [c/D294FF:Воспоминание оружия]
 #            Инкрустация в оружие даёт следующие эффекты:
-#            Увеличивает урон на 9% за каждые 80 единиц маны
+#            Увеличивает урон на 4% за каждые 80 единиц маны
 #            '''
-#        TooltipAttached: Увеличивает урон на 9% за каждые 80 единиц маны
+#        TooltipAttached: Увеличивает урон на 4% за каждые 80 единиц маны
 #    }
 #
 #    NetheriteBar: {
@@ -10901,7 +10976,7 @@
 #        DisplayName: Плюшевый орбитальный экспресс
 #        Tooltip:
 #            '''
-#            [c/F592BF:This weapon is unaffected by Aspected Damage Type penalty]
+#            [c/F592BF:Это оружие не подвержено к штрафу Аспектного типа урона]
 #            Using this weapon marks a location based on your cursor (1 minute cooldown)
 #            While cooldown is active, defense and attack are reduced by 5%
 #            After 3 seconds, an orbital train will annihilate your marked location, dealing guaranteed critical damage to all foes caught in the crossfire
@@ -10983,14 +11058,15 @@
 #        DisplayName: Легендарный щит
 #        Tooltip:
 #            '''
-#            [c/F592BF:This weapon is unaffected by Aspected Damage Type penalty]
-#            Holding this weapon grants defense proportional to Max HP and reflects all damage taken
-#            Right click to ready the shield for 2 seconds, reducing the damage of the next attack by 90% (12 second cooldown)
-#            Press the Weapon Action Key to destroy all nearby hostile projectiles, healing 5 HP per destroyed projectile (40 second cooldown)
-#            If under the effect of applicable damaging debuffs, gain [Cursed Rage]
-#            Right click under the effect of [Cursed Rage] to inflict cursed energy to all nearby foes, dealing 80% of your defense as true damage (1 second cooldown)
-#            Press the Weapon Action Key under the effect of [Cursed Rage] to immediately cleanse all cooldowns and debuffs (3 minute cooldown)
 #            This weapon can absorb Weapon Memories without limit, permanently gaining their abilities without consuming slots
+#            Can be equipped as an accessory, granting Weapon Memory benefits to the current held weapon, but reduces outgoing damage by 40% (Original Memories are ignored)
+#            Holding this weapon grants defense proportional to Max HP divided by 6
+#            Using this weapon readies the shield for 2 seconds, causing the next attack to heal HP based on its original unmitigated damage (6 second cooldown)
+#            Damage is still taken while this ability is active; sustained damage is reflected to all nearby foes and reflection potency increases based on defense
+#            While the shield is on cooldown, healing from potions is reduced by 80%
+#            While this weapon is equipped as an accessory, gain [c/CAF795:Heroic Curse] under the effect of applicable damaging debuffs
+#            [c/CAF795:Heroic Curse] negates the damage penalty of equipping the weapon as an accessory and additionally increases defense by 10
+#            When either held or equipped as an accessory, gain a directional dash and enemies are more likely to target you
 #            '''
 #    }
 #
@@ -11011,9 +11087,10 @@
 #            '''					
 #            Critical strikes with this weapon deal 50% less damage, but inflict [c/62C29B:Necrosis] for 4 seconds
 #            Foes inflicted with [c/62C29B:Necrosis] have their attack and defense reduced by 15%
+#            Starlight has a 10% increased chance to drop when defeating foes, which can be picked up to restore 5 Stellar Nova Energy
+#            Gain Swiftness, Ironskin, and Heartreach when the Stellar Nova Gauge is filled
 #            Defeating foes with this weapon charges the Stellar Nova by 2 energy and grants [c/8662C2:Cursewrought] for 7 seconds
 #            [c/8662C2:Cursewrought] increases attack speed by 20%, critical strike chance by 20%, and damage dealt against foes with [c/62C29B:Necrosis] by 20%
-#            Additionally, gain Swiftness, Ironskin, and Heartreach when the Stellar Nova Gauge is filled
 #            Defeating foes while under the effect of [c/8662C2:Cursewrought] refreshes the buff, heals 10 HP, and charges the Stellar Nova by an additional 2 energy
 #            '''
 #    }
@@ -11235,43 +11312,44 @@
 #    }
 #
 #    ParadiseLost: {
-#        DisplayName: The White Night
+#        DisplayName: Paradise Lost
 #        Tooltip:
 #            '''
-#            Holding this weapon grants the buff [Plague's Prophet] (You can not use this weapon to attack while under the effect of [Plague's Prophet])					
-#            Right click during [Plague's Prophet] to [Baptise] a town NPC for 10 minutes
-#            Press the Weapon Action Key while under the effect of [Plague's Prophet] to ascend into [Paradise Lost]
-#            While in [Paradise Lost] state, all damage taken is halved, but health will drain over time when hit
-#            Additionally, gain unlimited flight and Max Mana increases by 500
-#            Upon ascension, all [Baptised] town NPCs will transform into [Apostles] and will be moved to your location
-#            Swapping weapons will immediately end [Paradise Lost] state and additionally inflict [Vulnerability] for 20 seconds, halving defense
-#            Within [Paradise Lost] state, attacks with this weapon unleash ????
-#            Right click during [Paradise Lost] to unleash [Advent] from all [Apostles], a powerful beam of light towards your cursor (3 second cooldown)
-#            Press the Weapon Action Key to cycle between [Governed Truths], active at all times while [Paradise Lost] is active (Governed Truths will additionally change the effect of [Advent])
-#            [Confession]: All [Apostles] take no damage, and [Advent] now deals true damage				
-#            [Benediction]: All [Apostles] have their attack increased by 70% of this weapon's damage, and [Advent] can now deal critical strikes					
-#            [Sentinel]: All damage taken is evenly redirected towards [Apostles], and [Advent] restores Mana and heals [Apostles] when cast
-#            When taking fatal damage during [Paradise Lost], deal 666% of this weapon's damage to nearby foes and survive with 1 HP (4 minute cooldown)
+#            [c/8AC1F1:This weapon has a unique damage type; inherits bonuses from all damage classes at 70% efficiency, but inherits 150% from critical strike chance modifiers]
+#            Holding this weapon grants the buff [c/E2DEB5:Plague's Prophet] (You can not use this weapon to attack while under the effect of [c/E2DEB5:Plague's Prophet])
+#            Right click while under the effect of [c/E2DEB5:Plague's Prophet] to [c/F7D76A:Baptise] a town NPC or player for 10 minutes
+#            Press the Weapon Action Key while under the effect of [c/E2DEB5:Plague's Prophet] to ascend into [c/FFD23B:Paradise Lost]
+#            While in [c/FFD23B:Paradise Lost] state, damage can not be taken, but health drains over time and health regeneration is disabled (Ends prematurely if health drops below 10)
+#            Additionally, all nearby foes are inflicted with [c/D18888:Theophobia], reducing their damage by 20%
+#            Upon ascension, all [c/F7D76A:Baptised] town NPCs will transform into [c/EC9797:Apostles] and will be moved to your location ([c/F7D76A:Baptised] players will not be moved)
+#            [c/EC9797:Apostles] deal 50 more base damage with their attacks and have 400% increased defense; [c/EC9797:Apostles] will lose bonuses if [c/FFD23B:Paradise Lost] state ends
+#            Player [c/EC9797:Apostles] gain 15% increased damage, but health regeneration is disabled
+#            Within [c/FFD23B:Paradise Lost] state, attacks with this weapon explode at your cursor, dealing damage in a wide area multiple times
+#            Right click during [c/FFD23B:Paradise Lost] to unleash [c/EA1212:Advent], dealing 200% guaranteed critical damage to all nearby foes
+#            [c/EA1212:Advent] deals bonus damage based on the amount of active [c/EC9797:Apostles] (Damage bonus caps at 12 [c/EC9797:Apostles])
+#            Pressing the Weapon Action Key or swapping weapons in [c/FFD23B:Paradise Lost] state will end [c/FFD23B:Paradise Lost]
+#            Additionally, when [c/FFD23B:Paradise Lost] ends, incur Vulnerability for 60 seconds, halving defense ([c/FFD23B:Paradise Lost] can not be activated when Vulnerable)
 #            'Now rise, my servants- Rise and serve me'
 #            '''
 #    }
 #
-#    InheritedCase: {
+#    InheritedCaseM4A1: {
 #        DisplayName: Inherited Case, M4A1
 #        Tooltip:
 #            '''
 #            [c/F7D76A:Hold left click to charge the weapon; if the weapon is fully charged, the attack varies]
 #            Additionally, this weapon can be [c/F7D76A:Overcharged], causing additional effects to occur
-#            After charging, fire rapid and accurate bullets, consuming ammo from your inventory
+#            After charging, fire bullets from your inventory (Musket balls are transformed into powerful, fast bullets)
 #            The second stage of [c/F7D76A:Overcharge] will additionally fire a barrage of lasers
-#            Upon reaching the final stage of [c/F7D76A:Overcharge], gain a random [Auxiliary Armament] and return to the second stage of [c/F7D76A:Overcharge] (Can be repeated 4 times)
-#            [Auxiliary Armaments] provide fire support during combat, but will disappear when taking damage
-#            [Auxiliary St-AR15]: Fires rapid bursts of pinpoint accurate bullets
-#            [Auxiliary RO635]: Fires a barrage of bullets that home in on two targets, piercing the first
-#            [Auxiliary M4-Sop2]: Fires explosive grenades towards the cursor; every 4th grenade can home in and is a guaranteed critical strike
-#            [Auxiliary M16A1]: Generates an orbiting shield aimed towards the cursor that can absorb 6 attacks; once destroyed, fire bullets in retaliation and regenerate after 5 seconds
-#            Right click to transform the weapon after a short delay, firing a powerful rocket bolt towards your cursor (1 minute cooldown)
-#            This attack pierces up to 3 foes, and explodes on hit; the final hit will burst in a massive explosion, dealing 300% weapon damage as a critical strike
+#            Upon reaching the final stage of [c/F7D76A:Overcharge], gain a random [c/C6F1AE:Auxiliary Armament] and return to the second stage of [c/F7D76A:Overcharge] (Can be repeated 4 times)
+#            [c/C6F1AE:Auxiliary Armaments] provide fire support during combat, but one will be destroyed when taking damage (Removed outside of combat)
+#            [c/F195F7:Auxiliary St-AR15]: Rapidly fires bursts of pinpoint accurate bullets
+#            [c/F5F546:Auxiliary RO635]: Fires a barrage of bullets that home in on two targets, piercing the first
+#            [c/F54646:Auxiliary M4-Sop2]: Fires an explosive howitzer towards the cursor, dealing 300% weapon damage; every 4th grenade tracks targets and flies faster
+#            [c/DA46F5:Auxiliary M16A1]: Generates an orbiting shield aimed towards the cursor that absorbs 6 projectiles; once destroyed, fire bullets in retaliation and regenerate after 8 seconds
+#            Right click to equip the [c/81C671:Inherited Case] after a short delay, changing attacks into powerful rocket bolts towards your cursor but reducing attack speed drastically
+#            Additionally, the weapon can not be charged in this state and active [c/C6F1AE:Auxiliary Armaments] will be lost
+#            This attack pierces up to 3 foes and explodes on hit; the final hit will burst in a massive explosion, dealing 300% damage as a critical strike
 #            Foes caught in the explosions will take heavy damage over time for a short duration
 #            While holding this weapon, attacks can not be dodged and damage reduction is negated
 #            'Commander, we are here'
@@ -11321,6 +11399,29 @@
 #    SmallOfflineMountedSignage: {
 #        DisplayName: Small Offline Mounted Signage
 #        Tooltip: ""
+#    }
+#
+#    DreadmotherDarkIdol: {
+#        DisplayName: Dreadmother's Dark Idol
+#        Tooltip:
+#            '''
+#            WORK IN PROGRESS!
+#            [c/F592BF:Это оружие не подвержено к штрафу Аспектного типа урона]
+#            Текущий [c/F592BF:Аспектный тип урона] влияет на атаки оружия (Оружие нельзя использовать без [c/F592BF:Аспектного типа урона])
+#            [c/FFAB4D:Melee]: The weapon transforms into a gauntlet, allowing for a close-ranged combo
+#            Attacks will charge [Dread]; at max [Dread], the next attack will cause a shockwave to detonate, dealing damage to all nearby foes
+#            Gain brief Invincibility and restore 2% Max HP when defeating foes		
+#            [c/EF4DFF:Magic]: The wepaon transforms into a staff, and can now be [Charged] 
+#            Uncharged attacks quickly fires a formation of rapid energy
+#            Charged attacks conjure two orbiting bolts that inflict [Darkrend] on hit for 12 seconds; [Darkrend] increases the damage foes take from this weapon by 20%					
+#            [c/4DFF5B:Ranged]: The weapon transforms into a gun, and gains 20 armor penetration
+#            Attacks fire homing energy blasts that arc lightning to nearby foes
+#            Gain [Alacrity] for 8 seconds when defeating foes, increasing attack and movement speed
+#            [c/00CDFF:Summon]: Summons [Dark Dread] and [Flying Dread], consuming 1 minion slot (Only one group of summons can be active at a time)
+#            [Dark Dread] leaps at foes, slashing in a wide arc; [Flying Dread] fires exploding projectiles, inflicting Shadowflame for 4 seconds on hit
+#            After striking foes 20 times, grant [Dark Confession] for 20 seconds, negating the next instance of damage
+#            'It will agree with you'
+#            '''
 #    }
 #}
 #
@@ -11384,963 +11485,6 @@
 #            '''
 #        MemoriesImprinted: Memories have been Imprinted.
 #    }
-#}
-#
-#Projectiles: {
-#    ArachnidNeedlepointWhip.DisplayName: ArachnidNeedlepointWhip
-#    AbsoluteBlade.DisplayName: Absolute Blade
-#    AbsoluteBlade2.DisplayName: Absolute Blade
-#    AbsoluteGeometry.DisplayName: Absolute Geometry
-#    AbsoluteRendHeaven.DisplayName: Absolute Rend Heaven
-#    AbsoluteRendHeavenDamage.DisplayName: Absolute Rend Heaven
-#    AegisDriverOff.DisplayName: Aegis Driver
-#    AegisDriverOn.DisplayName: Aegis Driver
-#    AmiyaSlash.DisplayName: Shadowless Cerulean
-#    AmiyaSlashBurst.DisplayName: Shadowless Cerulean Burst
-#    AmiyaSwing1.DisplayName: Shadowless Cerulean
-#    AmiyaSwing2.DisplayName: Shadowless Cerulean
-#    AmiyaSwingE1.DisplayName: Shadowless Cerulean
-#    AmiyaSwingE2.DisplayName: Shadowless Cerulean
-#    ApalistikProjectile.DisplayName: Apalistik
-#    ApalistikUpgradedProjectile.DisplayName: Apalistik
-#    RobotSpider.DisplayName: Robot Spider
-#    RobotSpiderStationary.DisplayName: Robot Spider Stationary
-#    SpiderDamage.DisplayName: Arachnid Needlepoint
-#    ArchitectShoot.DisplayName: Architect's Luminance
-#    Armament.DisplayName: Armament
-#    Siren.DisplayName: Artifice Siren
-#    SirenLaser1.DisplayName: Siren Laser1
-#    SirenLaser2.DisplayName: Siren Laser2
-#    SirenLaser3.DisplayName: Siren Laser3
-#    SirenTurret1.DisplayName: SirenTurret1
-#    SirenTurret2.DisplayName: SirenTurret2
-#    SirenTurret3.DisplayName: SirenTurret3
-#    Arondight.DisplayName: Hollowheart Albion
-#    ArondightBeam.DisplayName: Hollowheart Albion
-#    AshenAmbitionExecute.DisplayName: Ashen Ambition
-#    AshenAmbitionMarker.DisplayName: Ashen Ambition
-#    AshenAmbitionSpear.DisplayName: Ashen Ambition
-#    Asteroid.DisplayName: Ultima Thule
-#    AstralOrb.DisplayName: Astral Orb
-#    bladeWillAttack.DisplayName: blade Will Attack
-#    BladeWorksProjectile.DisplayName: Unlimited Blade Works
-#    Blaster.DisplayName: Beam of Light
-#    BlazingSkies.DisplayName: Blazing Skies
-#    BladeArtDragon.DisplayName: The Blood Blade
-#    BloodArtPrep.DisplayName: Blood Blade
-#    BloodSlash1.DisplayName: BloodSlash1
-#    BloodSlash2.DisplayName: The Blood Blade
-#    BoilingBurstExplosion.DisplayName: Burning Desire
-#    BoilingBurstPrep1.DisplayName: Burning Desire
-#    BoilingBurstPrep2.DisplayName: Burning Desire
-#    BurningDesireHeld.DisplayName: Burning Desire
-#    BurningDesireSlash1.DisplayName: BurningDesire
-#    BurningDesireSlash2.DisplayName: BurningDesire
-#    BurningDesireStab.DisplayName: Burning Desire
-#    BloodstainedCrescent.DisplayName: Bloodstained Crescent
-#    BlueSplatter.DisplayName: Blue Splatter
-#    BlueSplatterDamage.DisplayName: Blue Splatter Damage
-#    PenthCastingPage.DisplayName: Penthesilea's Muse
-#    PenthSpin.DisplayName: Penthesilea's Brush
-#    BossGarden.DisplayName: The Garden of Avalon
-#    BossLaevateinn.DisplayName: Ars Laevateinn
-#    BossLaevateinnDamage.DisplayName: Ars Laevateinn
-#    Bossprototokia.DisplayName: Prototokia Aster
-#    BrushStroke.DisplayName: Brush Stroke
-#    BrushStrokeDamage.DisplayName: Brush Stroke
-#    Bubble.DisplayName: Heavy Arrow
-#    BurstFX3.DisplayName: BurstFX3
-#    BurstFX4.DisplayName: BurstFX4
-#    BurstFX5.DisplayName: BurstFX5
-#    BurstFX6.DisplayName: BurstFX6
-#    BuryTheLightSlash.DisplayName: Bury The Light
-#    BuryTheLightSlash2.DisplayName: Bury The Light
-#    BuryTheLightSlash2Pre.DisplayName: Bury The Light
-#    ButterflyProjectile.DisplayName: Veneration of Butterflies
-#    CarianSwing1.DisplayName: Carian Dark Moon
-#    CarianSwing2.DisplayName: Carian Dark Moon
-#    CarianSwingE1.DisplayName: Carian Dark Moon
-#    CarianSwingE2.DisplayName: Carian Dark Moon
-#    ChainsawFollowUp.DisplayName: Burning Desire
-#    ChainsawFollowUpAttack.DisplayName: Burning Desire
-#    ChainsawFollowUpExplosion.DisplayName: Burning Desire
-#    DarkmoonSpawn.DisplayName: Carian Dark Moon
-#    DarkmoonSpawnEmpowered.DisplayName: Carian Dark Moon
-#    MoonlightAttack.DisplayName: Moonlight Attack
-#    ChaosBlaster.DisplayName: Chaos Blaster
-#    ChaosBlaster2.DisplayName: Chaos Blaster
-#    ChaosBlaster3.DisplayName: Chaos Blaster
-#    ChemtankExplosion.DisplayName: Dreadnought Chemtank
-#    ChemtankMarker1.DisplayName: Dreadnought Chemtank
-#    ChemtankMarker2.DisplayName: Dreadnought Chemtank
-#    ChemtankMarker3.DisplayName: Dreadnought Chemtank
-#    ChemtankMarker4.DisplayName: Dreadnought Chemtank
-#    ChemtankMarker5.DisplayName: Dreadnought Chemtank
-#    ChemtankMarker6.DisplayName: Dreadnought Chemtank
-#    ChemtankRound.DisplayName: Dreadnought Chemtank
-#    ClaimhBurst.DisplayName: Solais Burst
-#    CosmicDestroyerRound.DisplayName: Cosmic Destroyer
-#    CosmicDestroyerRound2.DisplayName: Cosmic Destroyer
-#    DeathInFourActsRound.DisplayName: Death In Four Acts Round
-#    DrachenlanceProjectile.DisplayName: Drachenlance
-#    Entropy.DisplayName: Entropy
-#    EntropyDamage.DisplayName: Entropy
-#    Erinys.DisplayName: Erinys
-#    ErinysFX.DisplayName: ErinysFX
-#    EmblazonedAmethyst.DisplayName: Amethyst Star
-#    EmblazonedCerulean.DisplayName: Cerulean Star
-#    EmblazonedCitrine.DisplayName: Citrine Star
-#    EmblazonedMalachite.DisplayName: Malachite Star
-#    EmblazonedVermillion.DisplayName: Vermillion Star
-#    EternalStarburst.DisplayName: Eternal Star
-#    ImmemorialSupernovaProjectile.DisplayName: Immemorial Supernova
-#    EuthymiaFollowUp.DisplayName: Vision of Euthymia
-#    EveryMomentMattersRound.DisplayName: Every Moment Matters Round
-#    EyeOfEuthymia.DisplayName: The Eye of Euthymia
-#    EyeProjectile.DisplayName: The Eye of Cthulhu...?
-#    fastRadiate.DisplayName: Radiate
-#    Firebolt.DisplayName: Firebolt
-#    FlashFreezeExplosion.DisplayName: Flash Freeze
-#    ForceOfNatureReload.DisplayName: Force of Nature Reload
-#    ForceOfNatureRound.DisplayName: Force of Nature
-#    FrostflakeArrow.DisplayName: Frostflake Arrow
-#    GasterBlaster.DisplayName: Gaster Blaster
-#    GenocideArtillery.DisplayName: Genocide
-#    GenocideArtilleryBlast.DisplayName: Genocide
-#    GenocidePlasmaGrenade.DisplayName: Genocide Plasma Grenade
-#    GenocidePlasmaGrenadeBlast.DisplayName: Genocide
-#    GenocideRound.DisplayName: Genocide
-#    GenocideRoundBlast.DisplayName: Genocide
-#    GenocideRoundFinalBlast.DisplayName: Genocide
-#    Geometry.DisplayName: Geometry
-#    Hammer.DisplayName: Hammer
-#    HawkmoonRound.DisplayName: Hawkmoon
-#    HawkmoonRoundWeak.DisplayName: Hawkmoon
-#    HeavyArrow.DisplayName: Heavy Arrow
-#    HuckleberryRound.DisplayName: HuckleberryRound
-#    HullwroughtRound.DisplayName: Hullwrought
-#    HullwroughtSpin.DisplayName: Hullwrought
-#    HullwroughtSpin2.DisplayName: Hullwrought
-#    HullwroughtSpinDamage.DisplayName: Hullwrought
-#    HullwroughtStab.DisplayName: Hullwrought
-#    HullwroughtStab2.DisplayName: Hullwrought
-#    HullwroughtSwing1.DisplayName: Hullwrought
-#    HullwroughtSwing12.DisplayName: Hullwrought
-#    HullwroughtSwing2.DisplayName: Hullwrought
-#    HullwroughtSwing22.DisplayName: Hullwrought
-#    HornSlash1.DisplayName: Hunter's Symphony
-#    HornSlash2.DisplayName: Hunter's Symphony
-#    HornSlash.DisplayName: Horn Slash
-#    MusicRadiate.DisplayName: Hunter's Symphony
-#    Icebolt.DisplayName: Icebolt
-#    Icebolt2.DisplayName: Icebolt2
-#    IceLotus.DisplayName: Ice Lotus
-#    ignitionAstraSwing.DisplayName: Ignition Astra
-#    InkBlot.DisplayName: Ink Blot
-#    InkClot.DisplayName: Ink Clot
-#    InugamiRipsaw.DisplayName: Inugami Ripsaw
-#    Irys.DisplayName: Irys
-#    IrysBolt.DisplayName: Irys Bolt
-#    IrysCrystal1.DisplayName: IrysCrystal
-#    IrysCrystal2.DisplayName: IrysCrystal
-#    IrysCrystal3.DisplayName: IrysCrystal
-#    IrysCrystalMain.DisplayName: Irys
-#    IzanagiRound.DisplayName: Izanagi Round
-#    KazimierzSlash1.DisplayName: Kazimierz Seraphim
-#    KazimierzSlash2.DisplayName: Kazimierz Seraphim
-#    KazVFX1.DisplayName: Kazimierz Seraphim
-#    KazVFX2.DisplayName: Kazimierz Seraphim
-#    KazimierzSeraphimProjectile.DisplayName: Kazimierz Seraphim
-#    KeyOfChronologyBurst.DisplayName: Key of Chronology
-#    KeyOfTheKingsLawProjectile.DisplayName: Key Of The King's Law
-#    BlizzardFoxfire1.DisplayName: BlizzardFoxfire1
-#    BlizzardFoxfire2.DisplayName: BlizzardFoxfire2
-#    BlizzardFoxfire3.DisplayName: BlizzardFoxfire2
-#    DancingFoxfire1.DisplayName: DancingFoxfire1
-#    DancingFoxfire2.DisplayName: DancingFoxfire2
-#    Kifrosse1.DisplayName: Foxfrost Mystic
-#    Kifrosse2.DisplayName: Foxfrost Mystic
-#    Kifrosse3.DisplayName: Foxfrost Mystic
-#    Kifrosse4.DisplayName: Foxfrost Mystic
-#    Kifrosse5.DisplayName: Foxfrost Mystic
-#    Kifrosse6.DisplayName: Foxfrost Mystic
-#    Kifrosse7.DisplayName: Foxfrost Mystic
-#    Kifrosse8.DisplayName: Foxfrost Mystic
-#    Kifrosse9.DisplayName: Foxfrost Mystic
-#    Lightblast.DisplayName: Lightblast
-#    LongAsteroid.DisplayName: Ultima Thule
-#    Melusine.DisplayName: Hollowheart Albion
-#    MelusineBeam.DisplayName: Hollowheart Albion
-#    MementoMuseProjectile.DisplayName: Memento Muse
-#    mementoSwing.DisplayName: Memento Muse
-#    MercySlash.DisplayName: Mercy
-#    MercySlash2.DisplayName: Mercy
-#    MercyStab.DisplayName: Mercy
-#    MiseryRound.DisplayName: Misery Round
-#    MiseryScythe.DisplayName: Misery's Scythe
-#    MiseryShotgun.DisplayName: Misery's Company
-#    MonadoBuster.DisplayName: Monado Sigil
-#    MonadoEmpoweredCritSwing.DisplayName: Xenoblade
-#    MonadoEmpoweredSwing.DisplayName: Xenoblade
-#    MonadoJump.DisplayName: Monado Sigil
-#    MonadoShield.DisplayName: Monado Sigil
-#    MonadoSmash.DisplayName: Monado Sigil
-#    MonadoSpeed.DisplayName: Monado Sigil
-#    MonadoSwing1.DisplayName: Xenoblade
-#    MonadoSwing2.DisplayName: Xenoblade
-#    AccursedFlame.DisplayName: The Morning Star
-#    AlucardSword1.DisplayName: The Morning Star
-#    AlucardSword2.DisplayName: The Morning Star
-#    AlucardSword3.DisplayName: The Morning Star
-#    IcyShards.DisplayName: Icebolt
-#    LightningJolt.DisplayName: The Morning Star
-#    MorningStarHitBoom.DisplayName: The Morning Star
-#    MorningStarWhip.DisplayName: Morning Star Whip
-#    NaganadelProjectile1.DisplayName: Naganadel
-#    NaganadelProjectile2.DisplayName: Naganadel
-#    NaganadelProjectile3.DisplayName: Naganadel
-#    NaganadelProjectile4.DisplayName: Naganadel
-#    NaganadelProjectile5.DisplayName: Naganadel
-#    NaganadelProjectileFinal1.DisplayName: Naganadel
-#    NaganadelProjectileFinal2.DisplayName: Naganadel
-#    NaganadelProjectileFinal3.DisplayName: Naganadel
-#    NaganadelProjectileFinal4.DisplayName: Naganadel
-#    NaganadelProjectileFinal5.DisplayName: Naganadel
-#    NalhaunSwing.DisplayName: Nalhaun Swing
-#    NalhaunSwing2.DisplayName: Nalhaun Swing2
-#    BigShot.DisplayName: Neo Dealmaker
-#    SmallShot.DisplayName: Neo Dealmaker
-#    NotRadRound.DisplayName: Rad Gun
-#    Gateway.DisplayName: Gateway
-#    GatewayVFX.DisplayName: StellarGateway
-#    HeldGateway.DisplayName: Gateway
-#    OutbreakRound.DisplayName: Outbreak Perfected Round
-#    OzmaAttack1.DisplayName: Ozma Ascendant
-#    OzmaAttack2.DisplayName: Ozma Ascendant
-#    OzmaAttack3.DisplayName: Ozma Ascendant
-#    OzmaAttack4.DisplayName: Ozma Ascendant
-#    OzmaAttack5.DisplayName: Ozma Ascendant
-#    OzmaAttack5Slash.DisplayName: Ozma Ascendant
-#    OzmaAttack5Slash2.DisplayName: Ozma Ascendant
-#    OzmaBack1.DisplayName: Ozma Ascendant
-#    OzmaBack2.DisplayName: Ozma Ascendant
-#    OzmaBack3.DisplayName: Ozma Ascendant
-#    OzmaBack4.DisplayName: Ozma Ascendant
-#    OzmaDamage.DisplayName: Ozma Ascendant
-#    OzmaDamageFinale.DisplayName: Ozma Ascendant
-#    OzmaDrainAttack.DisplayName: Ozma Ascendant
-#    OzmaFinaleDescends.DisplayName: Ozma Ascendant
-#    OzmaOrbAttack.DisplayName: Ozma Ascendant
-#    OzmaSpike.DisplayName: Takonomicon
-#    OzmaSpikePortal.DisplayName: Ozma Ascendant
-#    BiyomonPet.DisplayName: Biyomon
-#    BladeWolfPet.DisplayName: Blade Wolf
-#    BloopPet.DisplayName: Bloop
-#    BubbaPet.DisplayName: Bubba
-#    CrimsonDragonetPet.DisplayName: Crimson Dragonet
-#    DuckHuntBirdPet.DisplayName: Duck Hunt Bird
-#    DuckHuntDogPet.DisplayName: Duck Hunt Dog
-#    EreshkigalPet.DisplayName: Ereshkigal
-#    EspeonPet.DisplayName: Espeon
-#    FerryPet.DisplayName: Ferry
-#    Ghost.DisplayName: Ghost
-#    GrahaPet.DisplayName: Graha
-#    GuilmonPet.DisplayName: Guilmon
-#    HanakoPet.DisplayName: Mysterious Ghost
-#    HuTaoPet.DisplayName: Hu Tao
-#    KasumiPet.DisplayName: Rock Star
-#    LukaPet.DisplayName: Luka
-#    MajimaPet.DisplayName: Puppy of Shimano
-#    MantisCatPet.DisplayName: Mantis Cat
-#    MumeiPet.DisplayName: Mumei
-#    NecoArcPet.DisplayName: NecoArc
-#    OmoriPet.DisplayName: Monochrome Plush
-#    PekoraPet.DisplayName: Suspicious Looking Bunny-Girl
-#    PhymPet.DisplayName: Phym
-#    PyraPet.DisplayName: Pyra
-#    SanaPet.DisplayName: Astrogirl
-#    SuiseiPet.DisplayName: Suisei
-#    UmbreonPet.DisplayName: Umbreon
-#    VitchPet.DisplayName: Fox Vixen
-#    WarriorPet.DisplayName: Discount Warrior of Light
-#    PhantomInTheMirrorProjectile.DisplayName: Phantom In The Mirror
-#    PhantomMarker.DisplayName: Phantom In The Mirror
-#    PaintSwingB.DisplayName: Penthesilea's Muse
-#    PaintSwingG.DisplayName: Penthesilea's Muse
-#    PaintSwingO.DisplayName: Penthesilea's Muse
-#    PaintSwingP.DisplayName: Penthesilea's Muse
-#    PaintSwingR.DisplayName: Penthesilea's Muse
-#    PaintSwingY.DisplayName: Penthesilea's Muse
-#    SplatterBlue.DisplayName: Penthesila's Muse
-#    SplatterGreen.DisplayName: Penthesila's Muse
-#    SplatterOrange.DisplayName: Penthesila's Muse
-#    SplatterPurple.DisplayName: Penthesila's Muse
-#    SplatterRed.DisplayName: Penthesila's Muse
-#    SplatterYellow.DisplayName: Penthesila's Muse
-#    PlanteraProjectile.DisplayName: Plantera..?
-#    punch.DisplayName: Dragon of Dojima
-#    BrilliantSpectrumPunch.DisplayName: Brilliant Spectrum
-#    RadiantBraver.DisplayName: Radiant Braver
-#    radiate.DisplayName: Radiate
-#    radiateChaos.DisplayName: Radiate
-#    radiateDamage.DisplayName: Radiate
-#    radiateOrder.DisplayName: Radiate
-#    RadRound.DisplayName: Rad Gun
-#    RedMageFocus.DisplayName: Red Mage's Foci
-#    RedMageRapier.DisplayName: Red Mage's Rapier
-#    RedMageRapierFast.DisplayName: Red Mage's Rapier
-#    RedMageStab.DisplayName: Vermilion Riposte
-#    ResolutionMagicCircle.DisplayName: Red Mage's Rapier
-#    ResolutionMagicCircle2.DisplayName: Red Mage's Rapier
-#    ResolutionProjectile.DisplayName: Vermilion Riposte
-#    Scorch.DisplayName: Vermilion Riposte
-#    ScorchPrep.DisplayName: Vermilion Riposte
-#    Veraero.DisplayName: Veraero
-#    Verfire.DisplayName: Verfire
-#    Verflare.DisplayName: Verflare
-#    VerflareExplosion.DisplayName: Verflare
-#    Verholy.DisplayName: Verholy
-#    VerholyExplosion.DisplayName: Verholy
-#    Verstone.DisplayName: Verstone
-#    Verthunder.DisplayName: Verthunder
-#    RedSplatter.DisplayName: Red Splatter
-#    RedSplatterDamage.DisplayName: Red Splatter Damage
-#    RendHeaven.DisplayName: Rend Heaven
-#    RendHeavenDamage.DisplayName: Rend Heaven
-#    reverseRadiate.DisplayName: Radiate
-#    RexLapisAttack.DisplayName: Rex Lapis
-#    RexLapisFinish.DisplayName: Rex Lapis
-#    RexLapisMeteor.DisplayName: Rex Lapis
-#    RexLapisMeteor2.DisplayName: Rex Lapis
-#    RexLapisSpin.DisplayName: Rex Lapis
-#    RexLapisSpin2.DisplayName: Rex Lapis
-#    RexLapisStab.DisplayName: Rex Lapis
-#    RexLapisStab0.DisplayName: Rex Lapis
-#    RexLapisStab2.DisplayName: Rex Lapis
-#    RiptideBolt.DisplayName: Riptide Bolt
-#    RupturedHeavenWhip.DisplayName: Ruptured Heaven
-#    RupturedSwing1.DisplayName: Ruptured Heaven
-#    RupturedSwing2.DisplayName: Ruptured Heaven
-#    SaberAOE.DisplayName: Coruscant Saber
-#    SaberAOE2.DisplayName: Saber AOE Indicator
-#    SaberDamage.DisplayName: Coruscant Saber II
-#    sakuraSwing.DisplayName: Crimson Sakura Alpha
-#    CursedFlames.DisplayName: Sakura's Vengeance
-#    HeavenlyStar.DisplayName: Sakura's Vengeance
-#    SakuraPetal.DisplayName: Sakura's Vengeance
-#    SakuraSlashCooling1.DisplayName: Sakura's Vengeance
-#    SakuraSlashCooling2.DisplayName: Sakura's Vengeance
-#    SakuraSlashEarth1.DisplayName: Sakura's Vengeance
-#    SakuraSlashEarth2.DisplayName: Sakura's Vengeance
-#    SakuraSlashHeaven1.DisplayName: Sakura's Vengeance
-#    SakuraSlashHeaven2.DisplayName: Sakura's Vengeance
-#    SakuraSlashVolcano1.DisplayName: Sakura's Vengeance
-#    SakuraSlashVolcano2.DisplayName: Sakura's Vengeance
-#    Satanael.DisplayName: Satanael
-#    SatanaelRound.DisplayName: Satanael
-#    ScarletOutburst.DisplayName: Scarlet Outburst
-#    ShadowbladeAOE.DisplayName: Shadowblade Indicator
-#    ShadowbladeDamage.DisplayName: Shadowblade
-#    SkofnungStab.DisplayName: Skofnung
-#    SkofnungSummon.DisplayName: Skofnung
-#    SkofnungSwing2Projectile.DisplayName: Skofnung
-#    SkyBeam.DisplayName: Sky Beam
-#    SkyStrikerClaw.DisplayName: Armament of the Sky Striker
-#    SkyStrikerMeleeClaw.DisplayName: Sky Striker Claw
-#    SkyStrikerRailgun.DisplayName: Armament Of The Sky Striker
-#    SkyStrikerRailgunRound.DisplayName: Armament of the Sky Striker
-#    SkyStrikerShield.DisplayName: Armament of the Sky Striker
-#    SkyStrikerShieldDamage.DisplayName: Armament of the Sky Striker
-#    SkyStrikerSwing1.DisplayName: Armament of the Sky Striker
-#    SkyStrikerSwing2.DisplayName: Armament of the Sky Striker
-#    SolemnConfiteor.DisplayName: Saber AOE Indicator
-#    SolemnConfiteorDamage.DisplayName: Solemn Confiteor
-#    SoulMarker.DisplayName: Soul Marker
-#    SpaceBlot.DisplayName: Space Blot
-#    SpaceGeometry.DisplayName: Geometry
-#    FleetingSparkBullet.DisplayName: Sparkblossom's Beacon
-#    FleetingSparkMinion.DisplayName: Fleeting Spark Minion
-#    SparkExplosion.DisplayName: Sparkblossom's Beacon
-#    SpatialRip.DisplayName: Spatial Rip
-#    BlueStarBit.DisplayName: Luminary Wand
-#    GreenStarBit.DisplayName: Luminary Wand
-#    OrangeStarBit.DisplayName: Luminary Wand
-#    PurpleStarBit.DisplayName: Luminary Wand
-#    RedStarBit.DisplayName: Luminary Wand
-#    RedStar.DisplayName: Red Star
-#    Starchild.DisplayName: Starchild
-#    YellowStarBit.DisplayName: Luminary Wand
-#    StarfarerFollowUp.DisplayName: Aprismatism
-#    Starshield.DisplayName: Starshield
-#    SteelTempestSwing.DisplayName: Unforgotten
-#    SteelTempestSwing2.DisplayName: Unforgotten
-#    SteelTempestSwing3.DisplayName: Unforgotten
-#    SteelTempestSwing4.DisplayName: Unforgotten
-#    AsphodeneBurst0.DisplayName: Asphodene
-#    AsphodeneBurst1.DisplayName: Asphodene
-#    AsphodeneBurst2.DisplayName: Asphodene
-#    AsphodeneBurst3.DisplayName: Asphodene
-#    AsphodeneBurst4.DisplayName: Asphodene
-#    AsphodeneBurstFX.DisplayName: AsphodeneFX
-#    AsphodeneBurstFX2.DisplayName: AsphodeneFX2
-#    EridaniBurst0.DisplayName: Eridani
-#    EridaniBurst1.DisplayName: Eridani
-#    EridaniBurst2.DisplayName: Eridani
-#    EridaniBurst3.DisplayName: Eridani
-#    EridaniBurst4.DisplayName: Eridani
-#    EridaniBurstFX.DisplayName: EridaniFX
-#    EridaniBurstFX2.DisplayName: EridaniFX2
-#    GardenOfAvalon.DisplayName: The Garden of Avalon
-#    kiwamiryukenconfirm.DisplayName: Kiwami Ryuken
-#    kiwamiryukenstun.DisplayName: Kiwami Ryuken Stun
-#    Laevateinn.DisplayName: Ars Laevateinn
-#    LaevateinnDamage.DisplayName: Ars Laevateinn
-#    SpaceBurstFX.DisplayName: NovaFX
-#    SpaceBurstFX2.DisplayName: NovaFX2
-#    prototokia.DisplayName: Prototokia Aster
-#    prototokia2.DisplayName: Prototokia Aster
-#    prototokia3.DisplayName: Prototokia Aster
-#    StilettoMarker.DisplayName: Yunlai Stiletto
-#    StygianSwing1.DisplayName: Stygian Swing
-#    StygianSwing2.DisplayName: Stygian Swing
-#    StygianSwing3.DisplayName: Stygian Swing
-#    StygianSwing4.DisplayName: Stygian Swing
-#    MagicCircle.DisplayName: Magic Circle
-#    TakodachiMinion.DisplayName: Takodachi Minion
-#    TakodachiRound.DisplayName: Takonomicon
-#    TakonomiconLaser.DisplayName: Takonomicon Laser
-#    Tentacle1.DisplayName: Takonomicon
-#    Tentacle2.DisplayName: Takonomicon
-#    Tentacle3.DisplayName: Takonomicon
-#    TentacleCircle.DisplayName: Tentacle Circle
-#    tartagliaShot.DisplayName: Tartaglia
-#    tartagliaSwing.DisplayName: Tartaglia
-#    TemporalTimepiece.DisplayName: Kroniic Principality
-#    TemporalTimepiece2.DisplayName: Kroniic Principality
-#    TemporalTimepiece3.DisplayName: Kroniic Principality
-#    TheBitterEnd.DisplayName: The Bitter End
-#    GuntriggerParryProjectile.DisplayName: The Only Thing I Know For Real
-#    TheOnlyThingIKnowForRealGuntrigger.DisplayName: The Only Thing I Know For Real
-#    TheOnlyThingIKnowForRealSheathe.DisplayName: The Only Thing I Know For Real
-#    TheOnlyThingIKnowForRealSlash.DisplayName: The Only Thing I Know For Real
-#    TheOnlyThingIKnowForRealSlash2.DisplayName: The Only Thing I Know For Real
-#    TheOnlyThingIKnowForRealSlashVFX.DisplayName: The Only Thing I Know For Real
-#    TheOnlyThingIKnowForRealSlashVFX2.DisplayName: The Only Thing I Know For Real
-#    TheOnlyThingIKnowForRealSpin.DisplayName: The Only Thing I Know For Real
-#    TheOnlyThingIKnowForRealSpin2.DisplayName: The Only Thing I Know For Real
-#    ThreadsOfFate.DisplayName: Threads of Fate
-#    Titanomachy1.DisplayName: Titanomachy
-#    Titanomachy2.DisplayName: Titanomachy
-#    TitanomachyDamage.DisplayName: Titanomachy
-#    TruesilverSlash.DisplayName: Truesilver Slash
-#    AsphodeneBurstC.DisplayName: Asphodene
-#    BulletWormhole.DisplayName: Wormhole
-#    BulletWormhole2.DisplayName: Wormhole
-#    BulletWormhole3.DisplayName: Wormhole
-#    EridaniBurstC.DisplayName: Eridani
-#    Phase2Ring.DisplayName: Tsukiyomi's Channeling Ring
-#    PlanetSlashing.DisplayName: Tsukiyomi's blade
-#    PlusPlanet.DisplayName: Unstable Planetoid
-#    Starmatter.DisplayName: Starmatter
-#    TsukiyomiPlanet.DisplayName: Protoplanet
-#    TsukiyomiSlash.DisplayName: Tsukiyomi's blade
-#    TsukiyomiStar.DisplayName: Protostar
-#    TsukiyomiTeleport.DisplayName: Tsukiyomi
-#    TsukiyomiTeleportLong.DisplayName: Tsukiyomi
-#    Wormhole.DisplayName: Tsukiyomi's Gateway
-#    WormholeLong.DisplayName: Tsukiyomi's Gateway
-#    TwinStar1.DisplayName: Twin Stars
-#    TwinStar2.DisplayName: Twin Stars
-#    TwinStarLaser1.DisplayName: Twin Star Laser1
-#    TwinStarLaser2.DisplayName: Twin Star Laser2
-#    TwinStarShine1.DisplayName: Twin Stars
-#    TwinStarShine2.DisplayName: Twin Stars
-#    UltimaStab.DisplayName: Ultima Thule
-#    UltimaSwing1.DisplayName: Ultima Thule
-#    UltimaSwing2.DisplayName: Ultima Thule
-#    RandomPlanetProjectile.DisplayName: Ultima Thule
-#    RandomPlanets.DisplayName: Ultima Thule
-#    UltimaBurstFX.DisplayName: Ultima Thule
-#    UltimaConstellation.DisplayName: Ultima Constellation
-#    UltimaFollowUp.DisplayName: Ultima Thule Follow-Up
-#    UltimaNightglow.DisplayName: Ultima Thule
-#    UltimaPlanet1.DisplayName: Ultima Thule
-#    UltimaPlanet2.DisplayName: Ultima Thule
-#    UltimaPlanet3.DisplayName: Ultima Thule
-#    UltimaPlanet4.DisplayName: Ultima Thule
-#    UltimaPlanet5.DisplayName: Ultima Thule
-#    UltimaStar.DisplayName: Ultima Thule
-#    UltimaStarProjectile.DisplayName: Ultima Thule
-#    UltimaStarProjectile2.DisplayName: Ultima Thule
-#    UltimaVFX1.DisplayName: Ultima Thule
-#    UnforgottenBurst.DisplayName: Unforgotten
-#    RetributionAttacks.DisplayName: Vermillion Daemon
-#    SpectralArsenalProjectile1.DisplayName: Vermillion Daemon
-#    SpectralArsenalProjectile2.DisplayName: Vermillion Daemon
-#    SpectralArsenalProjectile3.DisplayName: Vermillion Daemon
-#    VermillionBlades.DisplayName: Vermillion Daemon
-#    VermillionSlash1.DisplayName: Vermillion Daemon
-#    VermillionSlash2.DisplayName: Vermillion Daemon
-#    VermillionSlash3.DisplayName: Vermillion Daemon
-#    WarpStrike.DisplayName: Vermillion Daemon
-#    CelestialVoid.DisplayName: Celestial Void
-#    CelestialVoidBack.DisplayName: Celestial Void
-#    CelestialVoidburst.DisplayName: Virtue's Edge
-#    CelestialVoidVFX.DisplayName: Celestial Void
-#    CelestialVoidVFX2.DisplayName: Celestial Void
-#    VirtueEdgeSlash1.DisplayName: Virtue's Edge
-#    VirtueEdgeSlash2.DisplayName: Virtue's Edge
-#    VirtueEdgeSlashVoid.DisplayName: Virtue's Edge
-#    VirtueVFX1.DisplayName: Virtue's Edge
-#    VirtueVFX2.DisplayName: Virtue's Edge
-#    VirtueVFXVoid.DisplayName: Virtue's Edge
-#    VoidsentBurst.DisplayName: Voidsent Burst
-#    WarriorVFX.DisplayName: The Warrior of Light's Aura
-#    WarriorVFX2.DisplayName: The Warrior of Light's Aura
-#    WhisperRound.DisplayName: WhisperRound
-#    YellowSplatter.DisplayName: Yellow Splatter
-#    YellowSplatterDamage.DisplayName: Yellow Splatter Damage
-#    YoumuCleave.DisplayName: Konpaku Katana
-#    YoumuRound.DisplayName: Konpaku Katana
-#    YoumuSpin.DisplayName: Konpaku Katana
-#    YoumuSpirit.DisplayName: Youmu Spirit
-#    yunlaiSwing.DisplayName: Yunlai Stiletto
-#    AdornmentMinion.DisplayName: Adornment of the Chaotic God
-#    ChaosMagic.DisplayName: Adornment of the Chaotic God
-#    ChaosObject.DisplayName: Adornment of the Chaotic God
-#    AllasStab.DisplayName: Gloves of the Black Silence
-#    AtelierLogicGun1.DisplayName: Gloves of the Black Silence
-#    AtelierLogicGun2.DisplayName: Gloves of the Black Silence
-#    AtelierLogicGun3.DisplayName: Gloves of the Black Silence
-#    BlackSilenceBullet.DisplayName: Gloves of the Black Silence
-#    BlackSilenceSlash.DisplayName: Gloves of the Black Silence
-#    CrystalAtelierFollowUp.DisplayName: Gloves of the Black Silence
-#    CrystalAtelierSwing1.DisplayName: Gloves of the Black Silence
-#    CrystalAtelierSwing2.DisplayName: Gloves of the Black Silence
-#    DurandalHeld.DisplayName: Gloves of the Black Silence
-#    DurandalSlash1.DisplayName: Gloves of the Black Silence
-#    DurandalSlash2.DisplayName: Gloves of the Black Silence
-#    MookHeldBlade.DisplayName: Gloves of the Black Silence
-#    MookHeldSheathe.DisplayName: Gloves of the Black Silence
-#    MookSlashes.DisplayName: Gloves of the Black Silence
-#    OldBoys.DisplayName: Gloves of the Black Silence
-#    RangaDamage.DisplayName: Gloves of the Black Silence
-#    RangaHeld.DisplayName: Gloves of the Black Silence
-#    WheelsIndustryAttack.DisplayName: Gloves of the Black Silence
-#    WheelsIndustrySlamDamage.DisplayName: Gloves of the Black Silence
-#    ZelkovaSlash1.DisplayName: Gloves of the Black Silence
-#    ZelkovaSlash2.DisplayName: Gloves of the Black Silence
-#    ZelkovaSlash3.DisplayName: Gloves of the Black Silence
-#    ZelkovaSlash4.DisplayName: Gloves of the Black Silence
-#    BossAggroMarker.DisplayName: Boss Aggro Marker
-#    CastorBolt.DisplayName: Blazing Blast
-#    CastorClashProjectile.DisplayName: Castor, the Baleborn of Fire
-#    CastorFireCircle.DisplayName: Blazing Circle
-#    CastorIgnitionBolt.DisplayName: Blazing Blast
-#    PolluxBolt.DisplayName: Freezing Blast
-#    PolluxClashProjectile.DisplayName: Pollux, the Baleborn of Ice
-#    PolluxDiamondDust.DisplayName: Diamond Dust
-#    PolluxIceBlades.DisplayName: Frozen Arsenal
-#    BladeworkDamage.DisplayName: Burnished Bladework
-#    BladeworkIndicator.DisplayName: Burnished Bladework
-#    BladeworkSlash.DisplayName: Burnished Bladework
-#    InnerAgony.DisplayName: Inner Agony
-#    IvoryStake.DisplayName: Ivory Stake
-#    LaevateinnSwingLeft.DisplayName: Ars Laevateinn
-#    LaevateinnSwingRight.DisplayName: Ars Laevateinn
-#    NalhaunBolt.DisplayName: Heatbolt
-#    NalhaunCastSprite.DisplayName: Nalhaun, the Burnished King
-#    NalhaunCleave.DisplayName: Rend
-#    NalhaunExplosion.DisplayName: Apostate's Truth
-#    NalhaunExplosionIndicator.DisplayName: Apostate
-#    NalhaunLoseSwordSprite.DisplayName: Nalhaun, the Burnished King
-#    NalhaunOrbitingBolt.DisplayName: Heatbolt
-#    NalhaunRuby.DisplayName: Velvet Crystal
-#    NalhaunSwordAttackSprite.DisplayName: Nalhaun, the Burnished King
-#    NalhaunSwordSprite.DisplayName: Nalhaun, the Burnished King
-#    OuterAgony.DisplayName: Outer Agony
-#    OuterAgonyAnimation.DisplayName: Radiate
-#    TsukiAttackWormhole.DisplayName: Tsukiyomi's Gateway
-#    TsukiBlackHole.DisplayName: Tsukiyomi's Gateway
-#    TsukiBladeworkDamage.DisplayName: Bury The Light
-#    TsukiBladeworkSlash.DisplayName: Bury The Light
-#    TsukiBloodshedAttack.DisplayName: The Only Thing I Know For Real
-#    TsukiBloodshedIndicator.DisplayName: The Only Thing I Know For Real
-#    TsukiBloodshedSheathe.DisplayName: The Only Thing I Know For Real
-#    TsukiBolt.DisplayName: Starglitter
-#    TsukiBuryTheLight.DisplayName: Tsukiyomi, the First Starfarer
-#    TsukiCaesuraProjectile.DisplayName: Caesura of Despair
-#    TsukiCaesuraSpawn.DisplayName: Caesura of Despair
-#    TsukiCeruleanBladeworkDamage.DisplayName: Shadowless Cerulean
-#    TsukiCeruleanBladeworkSlash.DisplayName: Shadowless Cerulean
-#    TsukiCeruleanBurst.DisplayName: Shadowless Cerulean
-#    TsukiCeruleanSlash.DisplayName: Shadowless Cerulean
-#    TsukiDarkmoonSpawn.DisplayName: Carian Dark Moon
-#    TsukiDarkmoonSpawnEmpowered.DisplayName: Carian Dark Moon
-#    TsukiDeathInFourActs.DisplayName: Tsukiyomi, the First Starfarer
-#    TsukiDeathInFourActs2.DisplayName: Tsukiyomi, the First Starfarer
-#    TsukiExpandingBolt.DisplayName: Starglitter
-#    TsukiExpandingBoltDelay.DisplayName: Starmatter
-#    TsukiKeyOfTheKingsLaw.DisplayName: Tsukiyomi, the First Starfarer
-#    TsukiKingsLawAttack.DisplayName: Caesura of Despair
-#    TsukiKingsLawAttack2.DisplayName: Caesura of Despair
-#    TsukiKingsLawProjectile.DisplayName: Key Of The King's Law
-#    TsukiLuminaryWand.DisplayName: Tsukiyomi, the First Starfarer
-#    TsukiMementoMuse.DisplayName: Memento Muse
-#    TsukiMoonlightAttack.DisplayName: Carian Dark Moon
-#    TsukiMoonlightSwing.DisplayName: Carian Dark Moon
-#    TsukiOutbreakRound.DisplayName: Crimson Outbreak
-#    TsukiShadowlessCerulean.DisplayName: Tsukiyomi, the First Starfarer
-#    TsukiShadowlessCeruleanAfterimage.DisplayName: Tsukiyomi, the First Starfarer
-#    TsukiStarchild.DisplayName: Luminary Wand
-#    TsukiStygianIndicator.DisplayName: Stygian Memento Indicator
-#    TsukiStygianMemento.DisplayName: Stygian Nymph
-#    TsukiStygianMemento2.DisplayName: Stygian Nymph
-#    TsukiTakonomicon.DisplayName: Tsukiyomi, the First Starfarer
-#    TsukiTeleport.DisplayName: Tsukiyomi
-#    TsukiTentacle1.DisplayName: Takonomicon
-#    TsukiTentacle2.DisplayName: Takonomicon
-#    TsukiTentacle3.DisplayName: Takonomicon
-#    TsukiTentacleCircle.DisplayName: Tentacle Circle
-#    TsukiTrackingBolt.DisplayName: Death In Four Acts
-#    TsukiTrackingBoltStrong.DisplayName: Death In Four Acts
-#    TsukiTrackingBoltStrong2.DisplayName: Crimson Outbreak
-#    TsukiVoiceOfTheOutbreak.DisplayName: Tsukiyomi, the First Starfarer
-#    TsukiVoiceOfTheOutbreak2.DisplayName: Tsukiyomi, the First Starfarer
-#    TsukiWhisperRound.DisplayName: Voice of the Fallen
-#    TsukiWings.DisplayName: Tsukiyomi's Wings
-#    TsukiWormhole.DisplayName: Tsukiyomi's Gateway
-#    VagrantBowSprite.DisplayName: The Vagrant of Space and Time
-#    VagrantBulletSwarm.DisplayName: Wormhole
-#    VagrantBurstSprite.DisplayName: The Vagrant of Space and Time
-#    VagrantPlanetslash.DisplayName: Unstable Planetoid
-#    VagrantSlamSprite.DisplayName: The Vagrant of Space and Time
-#    VagrantSpearSprite.DisplayName: The Vagrant of Space and Time
-#    VagrantStar.DisplayName: Protostar
-#    VagrantStarmatter.DisplayName: Starmatter
-#    VagrantSwordSprite.DisplayName: The Vagrant of Space and Time
-#    VagrantUltimateForm.DisplayName: The Vagrant of Space and Time
-#    VagrantWormhole.DisplayName: The Vagrant's Gateway
-#    CatalystHeldBlade.DisplayName: Catalyst's Memory
-#    CatalystPrism.DisplayName: Catalyst's Memory
-#    CatalystStab.DisplayName: Catalyst's Memory
-#    CatalystStabEffect.DisplayName: Catalyst's Memory
-#    CatalystStabEffectMain.DisplayName: Catalyst's Memory
-#    CatalystThrow.DisplayName: Catalyst's Memory
-#    Prismic.DisplayName: Catalyst's Memory
-#    PrismicShards.DisplayName: Catalyst's Memory
-#    FragmentOfTimeMinion.DisplayName: Fragment of Time
-#    TimePulse.DisplayName: Time Pulse
-#    TimePulseExplosion.DisplayName: Time Pulse
-#    DiskShot.DisplayName: El Capitan's Hardware
-#    DroneGun.DisplayName: El Capitan's Hardware
-#    GyroDisk.DisplayName: Gyro Disk
-#    PierceGun.DisplayName: El Capitan's Hardware
-#    PierceGunShot.DisplayName: El Capitan's Hardware
-#    AttackModeGunpowder.DisplayName: The Everlasting Pickaxe
-#    EverlastingPickaxeExplosion.DisplayName: The Everlasting Pickaxe
-#    EverlastingPickaxeExplosionSafe.DisplayName: The Everlasting Pickaxe
-#    EverlastingPickaxeExplosionSmall.DisplayName: The Everlasting Pickaxe
-#    EverlastingPickaxeSwing1.DisplayName: The Everlasting Pickaxe
-#    EverlastingPickaxeSwing2.DisplayName: The Everlasting Pickaxe
-#    MiningModeGunpowder.DisplayName: The Everlasting Pickaxe
-#    GoldenKatanaChargeAttack1.DisplayName: Aurum Edge
-#    GoldenKatanaChargeAttack2.DisplayName: Aurum Edge
-#    GoldenKatanaChargeAttack3.DisplayName: Aurum Edge
-#    GoldenKatanaHeld.DisplayName: Aurum Edge
-#    GoldenKatanaSheath.DisplayName: Aurum Sheath
-#    GoldenKatanaSwing1.DisplayName: Aurum Edge
-#    GoldenKatanaSwing2.DisplayName: Auric Edge
-#    IrminsulHeld.DisplayName: Irminsul's Dream
-#    IrminsulLeaf.DisplayName: Irminsul's Dream
-#    IrminsulMark1.DisplayName: Irminsul's Dream
-#    IrminsulMark2.DisplayName: Irminsul's Dream
-#    IrminsulMark3.DisplayName: Irminsul's Dream
-#    IrminsulMark4.DisplayName: Irminsul's Dream
-#    VerdantSnapshot.DisplayName: Irminsul's Dream
-#    KissOfDeathBomb.DisplayName: The Kiss of Death
-#    KissOfDeathBoom.DisplayName: The Kiss of Death
-#    KissOfDeathBullet.DisplayName: The Kiss of Death
-#    KissOfDeathCoffin.DisplayName: The Kiss of Death
-#    KissOfDeathMelee.DisplayName: The Kiss of Death
-#    KissOfDeathMinigun.DisplayName: The Kiss of Death
-#    LevinstormAxe1.DisplayName: Levinstorm Axe
-#    LevinstormAxe2.DisplayName: Levinstorm Axe
-#    LevinstormAxeThrow.DisplayName: Boltstorm Axe
-#    LevinstormExplosion.DisplayName: Boltstorm Axe
-#    LevinstormLightning.DisplayName: Levinstorm Axe
-#    LevinstormLightningFollowUp.DisplayName: Levinstorm Axe
-#    LevinstormVFX1.DisplayName: Levinstorm Axe VFX
-#    LevinstormVFX2.DisplayName: Levinstorm Axe VFX
-#    ManiacalSlash.DisplayName: Maniacal Justice
-#    ManiacalSwing1.DisplayName: Maniacal Justice
-#    ManiacalSwing2.DisplayName: Maniacal Justice
-#    ManifestationHeadVFX.DisplayName: Manifestation
-#    ManifestationHeadVFX2.DisplayName: Manifestation
-#    ManifestationHeld.DisplayName: Manifestation
-#    ManifestationSlash1.DisplayName: Manifestation
-#    ManifestationSlash2.DisplayName: Manifestation
-#    ManifestationSwordSlash1.DisplayName: Manifestation
-#    ManifestationSwordSlash2.DisplayName: Manifestation
-#    SplitHorizontal.DisplayName: Manifestation
-#    SplitVertical.DisplayName: Manifestation
-#    NanomachinaShieldProjectile.DisplayName: Nanomachina Shield
-#    PodMinion.DisplayName: Pod Zero-42
-#    PodShot.DisplayName: Pod Zero-42
-#    PowderKeg.DisplayName: Saltwater Scourge
-#    PowderKegExplosion.DisplayName: Saltwater Scourge
-#    SaltwaterCannonball.DisplayName: Saltwater Scourge
-#    SaltwaterCannonballBig.DisplayName: Saltwater Scourge
-#    SaltwaterGun.DisplayName: Saltwater Scourge
-#    SaltwaterSlash1.DisplayName: Saltwater Scourge
-#    SaltwaterSlash2.DisplayName: Saltwater Scourge
-#    SanguineDespairBolt.DisplayName: Sanguine Despair
-#    SanguineExplosion.DisplayName: Sanguine Despair
-#    SanguineExplosionBolt.DisplayName: Sanguine Despair
-#    SoulHarvest.DisplayName: Soul Harvest
-#    SoulReaverPortal.DisplayName: Soul Reaver
-#    SoulReaverRangedSlash.DisplayName: Soul Reaver
-#    SoulReaverSlash1.DisplayName: Soul Reaver
-#    SoulReaverSlash2.DisplayName: Soul Reaver
-#    SoulReaverSlashEffect1.DisplayName: Soul Reaver
-#    SoulReaverSlashEffect2.DisplayName: Soul Reaver
-#    SoulReaverVFX1.DisplayName: Soul Reaver
-#    SoulReaverVFX2.DisplayName: Soul Reaver
-#    SoulReaverVFX3.DisplayName: Soul Reaver
-#    KarnaChargedMelee.DisplayName: Sunset of the Sun God
-#    KarnaChargedMeleeVFX.DisplayName: Sunset of the Sun God
-#    KarnaExplosion.DisplayName: Sunset of the Sun God
-#    KarnaLaser.DisplayName: Karna Laser
-#    KarnaLaserSpear.DisplayName: Sunset of the Sun God
-#    KarnaLightning.DisplayName: Sunset of the Sun God
-#    KarnaLightningSpear.DisplayName: Sunset of the Sun God
-#    KarnaLightningSpearAlt.DisplayName: Sunset of the Sun God
-#    KarnaSpearAttack.DisplayName: Sunset of the Sun God
-#    KarnaSpearThrow.DisplayName: Sunset of the Sun God
-#    KarnaWhip.DisplayName: Karna Whip
-#    KarnaWhipAttack.DisplayName: Karna Whip Attack
-#    AuthorityLantern1.DisplayName: Supreme Authority
-#    AuthorityLantern2.DisplayName: Supreme Authority
-#    AuthoritySwing1.DisplayName: Supreme Authority
-#    AuthoritySwing2.DisplayName: Supreme Authority
-#    AuthoritySwordstorm.DisplayName: Supreme Authority
-#    AuthoritySwordstormVFX.DisplayName: Supreme Authority
-#    AuthorityVFX1.DisplayName: Supreme Authority
-#    AuthorityVFX2.DisplayName: Supreme Authority
-#    SupremeAuthorityEye.DisplayName: Supreme Authority
-#    SwordstormEffect.DisplayName: Supreme Authority
-#    SwordstormFinish.DisplayName: Burning Desire
-#    EnhancedUmbraSwordShoot.DisplayName: Umbra
-#    UmbraSlash1.DisplayName: Umbra
-#    UmbraSlash2.DisplayName: Umbra
-#    UmbraSlashSlow.DisplayName: Umbra
-#    UmbraSwordShoot.DisplayName: Umbra
-#    BrilliantSpectrumPunchAlt.DisplayName: Brilliant Spectrum Punch Alt
-#    SpectrumBlazeExplosion.DisplayName: Spectrum Blaze Explosion
-#    SpectrumVFX1.DisplayName: Spectrum V F X1
-#    SpectrumVFX2.DisplayName: Spectrum V F X2
-#    SpectrumVFX3.DisplayName: Spectrum V F X3
-#    InkwellEarthInk.DisplayName: Inkwell Earth Ink
-#    InkwellAirInk.DisplayName: Inkwell Air Ink
-#    InkwellFireInk.DisplayName: Inkwell Fire Ink
-#    InkwellWaterInk.DisplayName: Inkwell Water Ink
-#    InkwellHeld.DisplayName: Inkwell Held
-#    GardenerSlash1.DisplayName: Gardener Slash1
-#    GardenerSlash2.DisplayName: Gardener Slash2
-#    ShockAndAweRocket.DisplayName: Shock And Awe Rocket
-#    ShockAndAweRocketExplosion.DisplayName: Shock And Awe Rocket Explosion
-#    ShockAndAweRocketLauncher.DisplayName: Shock And Awe Rocket Launcher
-#    TrickspinTwoStepProjectile.DisplayName: Trickspin Two Step
-#    TrickspinSuspendYoyo.DisplayName: Trickspin Suspend Yoyo
-#    TrickspinBearAttack.DisplayName: Trickspin Bear Attack
-#    TheBitterEndProjectile.DisplayName: The Bitter End
-#    WarriorOfLightCastingSprite.DisplayName: Warrior Of Light Casting Sprite
-#    WarriorOfLightSwingingSprite.DisplayName: Warrior Of Light Swinging Sprite
-#    WarriorOfLightLaser.DisplayName: Warrior Of Light Laser
-#    WarriorNebulaBlast.DisplayName: Nebula Blast
-#    WarriorNebulaSummon.DisplayName: Warrior Nebula Summon
-#    WarriorSolarEruption.DisplayName: Solar Eruption
-#    WarriorSolarSummon.DisplayName: Warrior Solar Summon
-#    WarriorStardustCell.DisplayName: Stardust Cell
-#    WarriorStardustSummon.DisplayName: Warrior Stardust Summon
-#    WarriorVortexArrow.DisplayName: Vortex Arrow
-#    WarriorVortexSummon.DisplayName: Warrior Vortex Summon
-#    WarriorExpandingBladesDelay.DisplayName: Blade of Light
-#    WarriorAbsoluteBlade.DisplayName: Blade of Truth
-#    WarriorAbsoluteBlade2.DisplayName: Blade of Truth
-#    WarriorLightblast.DisplayName: Lightblast
-#    WarriorBladeOfLight.DisplayName: Blade of Faith
-#    WarriorBladeOfLightReturning.DisplayName: Blade of Faith
-#    CoruscantSaberAnimation.DisplayName: Coruscant Saber
-#    CoruscantSaberIn.DisplayName: Coruscant Saber
-#    CoruscantSaberOut.DisplayName: Coruscant Saber
-#    ImbuedSaberEffect.DisplayName: ""
-#    WarriorFirebolt.DisplayName: Absolute Fire
-#    WarriorIcebolt.DisplayName: Absolute Ice
-#    TransitionDustEffect.DisplayName: ""
-#    WarriorBladeOfLightReturningTurret.DisplayName: ""
-#    WarriorOrbitingLight.DisplayName: Lightblast
-#    WarriorOfLightFinalPhaseCastingSprite.DisplayName: ""
-#    WarriorOfLightFinalPhaseSwingingSprite.DisplayName: ""
-#    BuryTheLightFollowUp.DisplayName: Bury The Light
-#    BuryTheLightSlashFollowUp.DisplayName: Bury The Light
-#    BuryTheLightSwing1.DisplayName: Bury The Light
-#    BuryTheLightSwing2.DisplayName: Bury The Light
-#    BuryTheLightSheathe.DisplayName: Bury The Light
-#    MirageBlade.DisplayName: Bury The Light
-#    MirageBladeAlt.DisplayName: Bury The Light
-#    LamentClashWin.DisplayName: Lament Clash Win
-#    LamentClashLose.DisplayName: Lament Clash Lose
-#    UnlimitedBladeWorksBackground.DisplayName: Unlimited Blade Works Background
-#    UnlimitedBladeWorksBorder.DisplayName: Unlimited Blade Works Border
-#    UBWBladeProjectile.DisplayName: Forged Blade
-#    SpacePowerBackground.DisplayName: Space Power Background
-#    SpacePowerBorder.DisplayName: Space Power Border
-#    UBWBladeFollowUp.DisplayName: Forged Blade
-#    UBWBladeFollowUpDelay.DisplayName: Forged Blade
-#    BossTheofania.DisplayName: Demi-Prototokia
-#    Prototokia.DisplayName: Prototokia
-#    Prototokia2.DisplayName: Prototokia
-#    Prototokia3.DisplayName: Prototokia
-#    GoldenGunHeld.DisplayName: Golden Gun Held
-#    ThundercrashDamage.DisplayName: Thundercrash Damage
-#    GoldenGunBullet.DisplayName: Golden Gun Bullet
-#    GoldenGunExplosion.DisplayName: Golden Gun Explosion
-#    NovaBomb.DisplayName: Nova Bomb
-#    NovaBombExplosion.DisplayName: Nova Bomb Explosion
-#    SilenceSquall1.DisplayName: Silence Squall1
-#    SilenceSquall2.DisplayName: Silence Squall2
-#    SilenceSquallDamageField.DisplayName: Silence Squall Damage Field
-#    Threadling.DisplayName: Threadling
-#    WovenNeedle.DisplayName: Woven Needle
-#    GossamerAOEAttack.DisplayName: Gossamer Needle
-#    GossamerNeedleStab.DisplayName: Gossamer Needle
-#    DraggedBelowLaser.DisplayName: Dragged Below Laser
-#    DraggedBelowLaserCorrupt.DisplayName: Dragged Below Laser Corrupt
-#    AsphodeneBurst5.DisplayName: Asphodene Burst5
-#    AsphodeneBurst6.DisplayName: Asphodene Burst6
-#    EridaniBurst5.DisplayName: Eridani Burst5
-#    EridaniBurst6.DisplayName: Eridani Burst6
-#    DraggedBelowFlood.DisplayName: Dragged Below Flood
-#    DraggedBelowFloodCorrupted.DisplayName: Dragged Below Flood Corrupted
-#    DraggedBelowFloodExplosion.DisplayName: Dragged Below Flood Explosion
-#    DraggedBelowFloodExplosionCorrupted.DisplayName: Dragged Below Flood Explosion Corrupted
-#    VagrantTrackingStar.DisplayName: Starmatter
-#    YoumuHeld.DisplayName: Youmu Held
-#    GundbitGunUncharged.DisplayName: Gundbit Gun Uncharged
-#    GundbitUnchargedLaser.DisplayName: Gundbit Uncharged Laser
-#    GundbitGunCharged.DisplayName: Gundbit Gun Charged
-#    Gundbits.DisplayName: Gundbits
-#    GundbitLaser.DisplayName: Gundbit Laser
-#    GundbitMinionLaser.DisplayName: Gundbit Minion Laser
-#    GundbitShield.DisplayName: Gundbit Shield
-#    DragonArm.DisplayName: Dragon Arm
-#    StarsAboveSwordEffect.DisplayName: Stars Above Sword Effect
-#    DragaliaFoundSword.DisplayName: Dragalia Found Sword
-#    DragaliaFoundSwordRecoil.DisplayName: Dragalia Found Sword Recoil
-#    DragaliaFoundSwordSpin.DisplayName: Dragalia Found Sword Spin
-#    StarsAboveSwordEffectSpin.DisplayName: Stars Above Sword Effect Spin
-#    DragaliaFoundStab.DisplayName: Dragalia Found Stab
-#    DragaliaFoundDragonAttack.DisplayName: Dragalia Found Dragon Attack
-#    DragonTornado.DisplayName: Dragon Tornado
-#    WavedancerSummon.DisplayName: Wavedancer Summon
-#    WavedancerSwordSpin.DisplayName: Wavedancer Sword Spin
-#    PowderChargeExplosion.DisplayName: Powder Charge Explosion
-#    MemoryLightning.DisplayName: Memory Lightning
-#    GuppyFlies.DisplayName: Guppy Flies
-#    MiserySword.DisplayName: Misery Sword
-#    ClaimhSolaisSword.DisplayName: Claimh Solais Sword
-#    HawkmoonGun.DisplayName: Hawkmoon Gun
-#    DeathInFourActsGun.DisplayName: Death In Four Acts Gun
-#    DarkmoonSword.DisplayName: Darkmoon Sword
-#    DarkmoonSwordEmpowered.DisplayName: Darkmoon Sword Empowered
-#    ForceOfNatureGun.DisplayName: Force Of Nature Gun
-#    RideTheBullGun.DisplayName: Ride The Bull Gun
-#    IzanagisEdgeGun.DisplayName: Izanagis Edge Gun
-#    CrimsonOutbreakGun.DisplayName: Crimson Outbreak Gun
-#    CrimsonSakuraAlphaSword.DisplayName: Crimson Sakura Alpha Sword
-#    YunlaiStilettoSword.DisplayName: Yunlai Stiletto Sword
-#    LiberationBlazingSword.DisplayName: Liberation Blazing Sword
-#    MercySword.DisplayName: Mercy Sword
-#    LightUnrelentingSword.DisplayName: Light Unrelenting Sword
-#    ArchitectSword.DisplayName: Architect Sword
-#    KazimierzSeraphimSword.DisplayName: Kazimierz Seraphim Sword
-#    OriginInfinitySword.DisplayName: Origin Infinity Sword
-#    OriginInfinitySwordUnsheathed.DisplayName: Origin Infinity Sword Unsheathed
-#    SoliloquyCrabSummon.DisplayName: Soliloquy Crab Summon
-#    SoliloquyJellySummon.DisplayName: Soliloquy Jelly Summon
-#    SoliloquySeahorseSummon.DisplayName: Soliloquy Seahorse Summon
-#    SoliloquySummonProjectile.DisplayName: Soliloquy Summon Projectile
-#    RebellionSword.DisplayName: Rebellion Sword
-#    SoliloquySword.DisplayName: Soliloquy Sword
-#    RebellionLaser.DisplayName: Rebellion Laser
-#    RebellionLightning.DisplayName: Rebellion Lightning
-#    RebellionTarget.DisplayName: Rebellion Target
-#    StygianAugurDown.DisplayName: Stygian Augur
-#    StygianAugurLeft.DisplayName: Stygian Augur
-#    StygianAugurRight.DisplayName: Stygian Augur
-#    StygianAugurUp.DisplayName: Stygian Augur
-#    ThespianBolt.DisplayName: Thespian Bolt
-#    RebellionSwordSpin.DisplayName: Rebellion Sword Spin
-#    SoliloquySinger.DisplayName: Soliloquy Singer
-#    ThespianSadBolt.DisplayName: Thespian Sad Bolt
-#    ThespianExplosion.DisplayName: Thespian Explosion
-#    ThespianExplosionIndicator.DisplayName: Thespian Explosion Indicator
-#    ThespianLingeringDamageField.DisplayName: Thespian Lingering Damage Field
-#    ThespianPotion.DisplayName: Thespian Potion
-#    ThespianPotionExplosion.DisplayName: Thespian Potion Explosion
-#    RebellionSwordLaser.DisplayName: Rebellion Sword Laser
-#    DevotedHavocGun.DisplayName: Devoted Havoc Gun
-#    DevotedHavocShot.DisplayName: Devoted Havoc Shot
-#    EnergyStar.DisplayName: Energy Star
-#    FragmentationGrenade.DisplayName: Fragmentation Grenade
-#    ThermalFlare.DisplayName: Thermal Flare
-#    PenthesileaCast.DisplayName: Penthesilea Cast
-#    PenthesileaInkRain.DisplayName: Penthesilea Ink Rain
-#    PenthBrush.DisplayName: Penth Brush
-#    PenthesileaIntroSprite.DisplayName: Penthesilea
-#    ArbitrationOrbitingTurret.DisplayName: Crimson Star
-#    ArbitrationStationaryTurret.DisplayName: Crimson Star
-#    ArbitrationOrbitingStar.DisplayName: Crimson Star
-#    ArbitrationOrbitingTurretSlow.DisplayName: Crimson Star
-#    ArbitrationBolt.DisplayName: Demi-Star
-#    ArbitrationOrbitingTurretWeakProjectiles.DisplayName: Arbitration Orbiting Turret Weak Projectiles
-#    WeakRedStar.DisplayName: Crimson Star
-#    BossPrototokia.DisplayName: Prototokia Aster
-#    ArbitrationTower.DisplayName: Arbitration Tower
-#    TwoCrownBowArrow.DisplayName: Two Crown Bow Arrow
-#    TwoCrownVFX.DisplayName: Two Crown V F X
-#    TwoCrownBowArrowDebuff.DisplayName: Two Crown Bow Arrow Debuff
-#    TwoCrownBowSkyAttack.DisplayName: Two Crown Bow Sky Attack
-#    TwoCrownBowEmpoweredArrow.DisplayName: Two Crown Bow Empowered Arrow
-#    TwoCrownBowLaser.DisplayName: Two Crown Bow Laser
-#    TwoCrownBowLaserVFX.DisplayName: Two Crown Bow Laser V F X
-#    TwoCrownBowLaserPreVFX.DisplayName: Two Crown Bow Laser Pre V F X
-#    TwoCrownBowLaserPreVFX2.DisplayName: Two Crown Bow Laser Pre V F X2
-#    TwoCrownBowLaserPreVFX3.DisplayName: Two Crown Bow Laser Pre V F X3
-#    ExpresswayPlushActive.DisplayName: Expressway Plush Active
-#    ExpresswayProjectile.DisplayName: Expressway Projectile
-#    ExpresswayTarget.DisplayName: Expressway Target
-#    ExpresswayVFX.DisplayName: Expressway V F X
-#    StarphoenixGun.DisplayName: Starphoenix Gun
-#    StarphoenixRound.DisplayName: Starphoenix Round
-#    CatalystKey.DisplayName: Catalyst Key
-#    StarphoenixMinionBullet.DisplayName: Starphoenix Minion Bullet
-#    StarphoenixFollowUp.DisplayName: Starphoenix Follow Up
-#    StringOfCursesGun.DisplayName: String Of Curses Gun
-#    StringOfCursesShot.DisplayName: String Of Curses Shot
-#    Charsugar.DisplayName: Charsugar
-#    Sugartle.DisplayName: Sugartle
-#    Bulbasugar.DisplayName: Bulbasugar
-#    CrystalshotBullet.DisplayName: Crystalshot Bullet
-#    CharsugarFlames.DisplayName: Charsugar Flames
-#    SugartleBubble.DisplayName: Sugartle Bubble
-#    BulbasugarSeeds.DisplayName: Bulbasugar Seeds
-#    ArbiterLock.DisplayName: Arbiter Lock
-#    ArbiterPillar.DisplayName: Arbiter Pillar
-#    FairyAttack.DisplayName: Fairy Attack
-#    FairyAttackEffect.DisplayName: Fairy Attack Effect
-#    LegendaryShieldBash.DisplayName: Legendary Shield Bash
 #}
 #
 #Buffs: {
@@ -12541,8 +11685,8 @@
 #    }
 #
 #    BlueOrb: {
-#        DisplayName: Blue Orb
-#        Description: Preparing 'Lightbreak Strike'
+#        DisplayName: Синяя сфера
+#        Description: Подготовка 'Светоломного удара'
 #    }
 #
 #    BluePaint: {
@@ -13130,8 +12274,8 @@
 #    }
 #
 #    LightbreakStrike: {
-#        DisplayName: Lightbreak Strike
-#        Description: Melee attacks will always crit
+#        DisplayName: Светоломный удар
+#        Description: Атаки ближнего боя всегда наносят критические удары
 #    }
 #
 #    LimitBreak: {
@@ -13210,13 +12354,13 @@
 #    }
 #
 #    MortalWounds: {
-#        DisplayName: Mortal Wounds
-#        Description: Losing life
+#        DisplayName: Смертельное ранение
+#        Description: Потеря здоровья
 #    }
 #
 #    NanitePlague: {
 #        DisplayName: Nanite Plague
-#        Description: Losing life
+#        Description: Потеря здоровья
 #    }
 #
 #    NascentAria: {
@@ -13315,8 +12459,8 @@
 #    }
 #
 #    PlasmaGrenadeCooldownBuff: {
-#        DisplayName: Plasma Grenade Cooldown
-#        Description: Plasma Grenade fail to activate if this debuff is present
+#        DisplayName: Перезарядка плазменной гранаты
+#        Description: Плазменная граната не сработает, пока активен этот дебафф
 #    }
 #
 #    PortalReady: {
@@ -13385,8 +12529,8 @@
 #    }
 #
 #    RedOrb: {
-#        DisplayName: Red Orb
-#        Description: Preparing 'Flickering Strike'
+#        DisplayName: Красная сфера
+#        Description: Подготовка 'Внезапного удара'
 #    }
 #
 #    RedPaint: {
@@ -13908,8 +13052,8 @@
 #    }
 #
 #    YellowOrb: {
-#        DisplayName: Yellow Orb
-#        Description: Preparing 'Dazzling Strike'
+#        DisplayName: Жёлтая сфера
+#        Description: Подготовка 'Ослепляющего удара'
 #    }
 #
 #    YellowPaint: {
@@ -14290,7 +13434,7 @@
 #
 #    SpatialStratagem: {
 #        DisplayName: Spatial Gambit
-#        Description: Celestial gambit allows for the negation of the next damage taken while additionally granting a damage bonus once triggered
+#        Description: Damage taken is halved
 #    }
 #
 #    SpatialStratagemActive: {
@@ -15056,6 +14200,61 @@
 #        DisplayName: Celestial Void Cooldown
 #        Description: ""
 #    }
+#
+#    AuxiliaryArmamentBuff: {
+#        DisplayName: Auxiliary Armaments
+#        Description: Assailing foes with myriad firearms
+#    }
+#
+#    M16A1ShieldCooldown: {
+#        DisplayName: M16A1 Shield Cooldown
+#        Description: ""
+#    }
+#
+#    M16A1Counterfire: {
+#        DisplayName: M16A1 Counterfire
+#        Description: ""
+#    }
+#
+#    InheritedCaseActive: {
+#        DisplayName: Inherited Case Active
+#        Description: ""
+#    }
+#
+#    HeroicCurse: {
+#        DisplayName: Heroic Curse
+#        Description: ""
+#    }
+#
+#    LegendaryShieldRaisedCooldown: {
+#        DisplayName: Legendary Shield Raised Cooldown
+#        Description: ""
+#    }
+#
+#    ParadiseLostBuff: {
+#        DisplayName: Paradise Lost
+#        Description: Ye who are drenched in sin. Rise and face me.
+#    }
+#
+#    PlagueProphetBuff: {
+#        DisplayName: Plague's Prophet 
+#        Description: Rise, my servants. Rise and serve me.
+#    }
+#
+#    BaptisedBuff: {
+#        DisplayName: Baptised Buff
+#        Description: ""
+#    }
+#
+#    TheophobiaBuff: {
+#        DisplayName: Theophobia Buff
+#        Description: ""
+#    }
+#
+#    ApostleBuff: {
+#        DisplayName: Apostle Buff
+#        Description: ""
+#    }
 #}
 #
 #Bestiary: {
@@ -15320,8 +14519,8 @@
 #        DisplayName: Серверная конфигурация Stars Above
 #
 #        DisableTypePenalty: {
-#            Label: Отключить штраф урона при изменении аспектного урона
-#            Tooltip: При включении этой настройки убирается штраф урона в размере 10% за изменение аспектного урона. Note that some effects that also remove this effect will be overpowered as a result.
+#            Label: Отключить штраф к урону при смене аспектного типа
+#            Tooltip: При включении этой настройки убирается 10% штраф к урону при смене аспектного типа. Следует учитывать, что некоторые другие эффекты, также отменяющие этот штраф, могут стать слишком сильными.
 #        }
 #
 #        DisableBossAggro: {
