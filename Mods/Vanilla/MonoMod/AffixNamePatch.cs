@@ -1,4 +1,4 @@
-using CalamityMod;
+using CalamityMod.Items;
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.ItemGenderPrefixes;
@@ -68,9 +68,9 @@ public class AffixNameWithCalamity : ILoadable
         
         foreach (string[] t in prefixOverhaul.Prefixes)
         {
-            if (!self.IsAir && self.Calamity().AppliedEnchantment.HasValue)
+            if (!self.IsAir && self.TryGetGlobalItem(out CalamityGlobalItem calamityGlobalItem) && calamityGlobalItem.AppliedEnchantment.HasValue)
             {
-                if (t[0] == self.Calamity().AppliedEnchantment?.Name.ToString())
+                if (t[0] == calamityGlobalItem.AppliedEnchantment?.Name.ToString())
                     calamityEnchantment = prefixOverhaul.GetGenderedPrefix(t, self.type) + " ";
 
                 if (calamityEnchantment != string.Empty)
