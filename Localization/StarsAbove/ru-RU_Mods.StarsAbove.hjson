@@ -5436,16 +5436,16 @@
 #        DisplayName: Кристализированное ничего
 #        Tooltip:
 #            '''
-#            [c/2DD2FE:Реликвия звездочёта
-#            Max HP is reduced by 300 and defense is reduced by 20, but damage is increased by 30%
-#            Only active when unmodified Max HP is 400 or higher
+#            [c/2DD2FE:Реликвия звездочёта]
+#            Снижает максимальный запас здоровья на 300 и защиту на 20, но увеличивает урон на 50%
+#            Эффект действует только когда максимальный запас здоровья без модификаторов 400 или выше
 #            [c/ADEEFF:Одновременно может быть экипирована только одна реликвия звездочёта]
 #            'Из мира, проклятого на исчезновение'
 #            '''
 #    }
 #
 #    Crystallize: {
-#        DisplayName: Crystallize
+#        DisplayName: Кристаллизация
 #        Tooltip: ""
 #    }
 #
@@ -5502,10 +5502,10 @@
 #        DisplayName: "'Убивать'"
 #        Tooltip:
 #            '''
-#            Activates only when Defense is below 40
-#            Gain 5% damage, increased to 15% below 10 Defense
-#            Enemies are drastically more likely to target you
-#            'Can you get away with it?'
+#            Активируется только когда защита ниже 40
+#            Увеличивает урон на 5%, а когда защита ниже 10 - на 15%
+#            Враги намного чаще выбирают вас в качестве цели
+#            'Можно ли наказания избежать?'
 #            '''
 #    }
 #
@@ -5513,14 +5513,14 @@
 #        DisplayName: Аегис Драйвер
 #        Tooltip:
 #            '''
-#            With 40 mana available, this weapon will be thrown with special effects, consuming 40 mana in the process
-#            The blade will ignite, dealing increased damage and will burn foes
-#            Burning foes will take bonus damage when they are reignited
-#            If no mana is available, the weapon will be unpowered and deal half damage
-#            Attacking with the powered version of this weapon charges the [c/FF5858:Aegis Gauge]
-#            Once the [c/FF5858:Aegis Gauge] is filled, the next attack will explode the foe, dealing massive critical damage while consuming the [c/FF5858:Aegis Gauge]
-#            The [c/FF5858:Aegis Gauge] will also slowly charge over time when this weapon is held
-#            'This is the Aegis's power!'
+#            При наличии 40 маны бросает это оружие можно бросить с особым эффектом, при этом расходуя 40 маны
+#            Клинок воспламеняется, нанося увеличенный урон и поджигая врагов
+#            Горящие враги получают дополнительный урон при повторном поджоге
+#            Если маны недостаточно, оружие становится ослабленным и наносит половину урона
+#            Усиленные атаки этого оружия заряжают [c/FF5858:Индикатор Эгиды]
+#            При полном заряде [c/FF5858:Индикатора Эгиды] следующая атака взорвёт врага, нанося огромный критический урон и расходуя заряд [c/FF5858:Индикатора Эгиды]
+#            [c/FF5858:Индикатор Эгиды] также медленно заполняется, пока вы держите это оружие в руках
+#            'Вот в чём мощь Эгиды!'
 #            '''
 #    }
 #
@@ -5528,17 +5528,17 @@
 #        DisplayName: Такономикон
 #        Tooltip:
 #            '''
-#            Calls forth [c/B875F0:Void Octopi] to assail foes with homing lasers
-#            Each [c/B875F0:Void Octopus] summoned increases damage of all minions and summon weapons by 1%
-#            Right click to fire [c/E752B3:Eldritch Blast] towards your cursor for 3 seconds, melting foes in a line before you (1 minute cooldown)
-#            With at least one [c/B875F0:Void Octopus] summoned, the [c/5652E7:Abyssal Gauge] will appear
-#            When [c/B875F0:Void Octopi] or [c/E752B3:Eldritch Blast] deals damage the [c/5652E7:Abyssal Gauge] will increase, even when this weapon is not held
-#            When the [c/5652E7:Abyssal Gauge] is full, [c/AC49F5:Ancient One's Summoning] will activate when this weapon is held
-#            [c/AC49F5:Ancient One's Summoning] will cause magical portals to surround the nearest foe
-#            After a short delay, tentacles will be summoned to strike, inflicting Shadowflame for 7 seconds
-#            For each void octopi summoned, the amount of [c/AC49F5:Ancient One's Summoning]'s portals will increase and [c/E752B3:Eldritch Blast] does more damage
-#            Damage scales with world progression
-#            'We are happy. We are here. We are hype. We are...'
+#            Призывает [c/B875F0:Пустотных осьминожек], которые атакуют врагов самонаводящимися лазерами
+#            Каждый призванный [c/B875F0:Пустотный осьминожек] увеличивает урон всех миньонов и оружия призывателя на 1%
+#            Нажмите <right>, чтобы запустить [c/E752B3:Жуткий взрыв] в направлении курсора в течение 3 секунд, испепеляя врагов по прямой линии перед вами (перезарядка 1 минута)
+#            При наличии хотя бы одного призванного [c/B875F0:Пустотного осьминожка] появляется [c/5652E7:Индикатор бездны]
+#            Когда [c/B875F0:Пустотный осьминожек] или [c/E752B3:Жуткий взрыв] наносит урон, [c/5652E7:Индикатор бездны] заполняется, даже если это оружие не находится в руках
+#            Когда [c/5652E7:Индикатор бездны] заполнен, при использовании этого оружия активируется [c/AC49F5:Призыв Древнего]
+#            [c/AC49F5:Призыв Древнего] призывает вокруг ближайшего врага магические порталы
+#            После небольшой паузы появляются щупальца, накладывающие дебафф «{$BuffName.ShadowFlame}» на 7 секунд
+#            С каждым призванным [c/B875F0:Пустотным осьминожком] количество порталов [c/AC49F5:Призыва Древнего] увеличивается, а [c/E752B3:Жуткий взрыв] наносит больше урона
+#            Урон увеличивается по мере прохождения игры
+#            'Мы счастливые. Мы здесь. Мы на хайпе. Мы...'
 #            '''
 #    }
 #
@@ -5546,7 +5546,7 @@
 #        DisplayName: Апалистик
 #        Tooltip:
 #            '''
-#            5 summon tag damage
+#            5 урона от метки призывателя
 #            Striking foes with the weapon inflicts [c/4A91FF:Riptide] for 4 seconds
 #            When a minion strikes an enemy with [c/4A91FF:Riptide], they take 30% extra damage, removing [c/4A91FF:Riptide]
 #            Additionally, with this weapon held, minions have a 10% chance to apply [c/4776A7:Ocean's Culling] for 5 seconds upon striking foes
@@ -5561,7 +5561,7 @@
 #        DisplayName: Рождённый морем Апалистик
 #        Tooltip:
 #            '''
-#            18 summon tag damage
+#            18 урона от метки призывателя
 #            Striking foes with the weapon inflicts [c/4A91FF:Riptide] for 4 seconds
 #            When a minion strikes an enemy with [c/4A91FF:Riptide], they take 30% extra damage, removing [c/4A91FF:Riptide]
 #            Additionally, with this weapon held, minions have a 10% chance to apply [c/4776A7:Ocean's Culling] for 5 seconds upon striking foes
@@ -5580,15 +5580,15 @@
 #        DisplayName: Крючковорот арахнидов
 #        Tooltip:
 #            '''
-#            3 summon tag damage
-#            Attacks with this weapon whip in a wide arc while ignoring terrain, targetting foes struck
-#            Right click to deploy a [c/83CAEB:Mechanical Arachnid], which will hover and latch onto targets
-#            Only one [c/83CAEB:Mechanical Arachnid] can latch onto a target at a time
-#            [c/83CAEB:Mechanical Arachnids] will tether to each other when latched on, inflicting damage on foes between them rapidly
-#            Double tap DOWN to deploy a stationary [c/83CAEB:Mechanical Arachnid] after at least one non-stationary [c/83CAEB:Mechanical Arachnid] has been summoned
-#            Stationary [c/83CAEB:Mechanical Arachnids] deal no damage but non-stationary [c/83CAEB:Mechanical Arachnids] can tether to them to deal damage
-#            Striking foes that [c/83CAEB:Mechanical Arachnids] have latched on to with the whip deals critical damage and grants [c/3A8BF3:Web of Needles] for 4 seconds
-#            [c/3A8BF3:Web of Needles] increases all minion damage by 30%
+#            3 урона от метки призывателя
+#            Атаки этим оружием совершаются широким хлыстом, игнорируя препятствия и поражая всех врагов на пути
+#            Нажмите <right>, чтобы призвать [c/83CAEB:Механического арахнида], который будет атаковать врагов, к которым он прицепится
+#            К одному врагу одновременно может прицепиться только один [c/83CAEB:Механический арахнид]
+#            Когда [c/83CAEB:Механические арахниды] прикреплены к врагам, они соединяются друг с другом, быстро нанося урон всем врагам, оказавшимся между ними
+#            Дважды нажмите <down>, чтобы разместить неподвижного [c/83CAEB:Механического арахнида] после того, как был призван хотя бы один подвижный [c/83CAEB:Механический арахнид]
+#            Неподвижные [c/83CAEB:Механические арахниды] не наносят урон, но подвижные [c/83CAEB:Механические арахниды] могут соединяться с ними, чтобы наносить урон
+#            Удары хлыстом по врагам, к которым прицепились [c/83CAEB:Механические арахниды], наносят критический урон и дают бафф [c/3A8BF3:Сеть игл] на 4 секунды
+#            [c/3A8BF3:Сеть игл] увеличивает урон призывателя на 30%
 #            '''
 #    }
 #
@@ -5597,14 +5597,14 @@
 #        Tooltip:
 #            '''
 #            [c/F592BF:Это оружие не подвержено к штрафу Аспектного типа урона]
-#            Holding this weapon will equip yourself with the [c/6EF367:Luminary Armament], increasing defense by 30
-#            Right click to summon [c/70D38B:Artifice Siren] for 15 seconds at your cursor (1 minute cooldown)
-#            [c/70D38B:Artifice Siren] will obliterate nearby foes with hyperpowered beams of light, even when this weapon is not held
+#            Держа это оружие в руках, экипирует вас [c/6EF367:Свечивавшим боевым снаряжением], увеличивая защиту на 30
+#            Нажмите <right>, чтобы на 15 секунд призвать [c/70D38B:Сирену-механоида] в позицию курсора (перезарядка 1 минута)
+#            [c/70D38B:Сирена-механоид] уничтожает ближайших врагов гипермощными лучами света, даже когда оружие не находится в руках
 #            Текущий [c/F592BF:Аспектный тип урона] влияет на атаки оружия
-#            [c/FFAB4D:Melee]: The weapon swings much faster and defense is added to critical strike damage
-#            [c/EF4DFF:Magic]: Instead of swinging, the weapon will will conjure 6 explosive blasts in a fan pattern dealing 1/3 base damage
-#            [c/4DFF5B:Ranged]: Instead of swinging, the weapon will quickly fire piercing shots without consuming ammo, dealing 1/2 base damage
-#            [c/00CDFF:Summon]: The [c/6EF367:Luminary Armament] periodically attacks nearby foes and can deal critical strikes
+#            [c/FFAB4D:Ближний бой]: Взмахи оружием значительно быстрее, а к урону критического удара добавляется ваша защита
+#            [c/EF4DFF:Магический]: Вместо взмахов оружие призывает 6 взрывных зарядов веером, наносящих 1/3 базового урона оружия
+#            [c/4DFF5B:Стрелковый]: Вместо взмахов оружие быстро стреляет пронзающими снарядами, не расходуя боеприпасы, наносящими 1/2 базового урона оружия
+#            [c/00CDFF:Призыватель]: [c/6EF367:Свечивавшее боевое снаряжение] периодически атакует ближайших врагов и может наносить критические удары
 #            'Ради будущего!'
 #            '''
 #    }
@@ -6178,27 +6178,27 @@
 #    }
 #
 #    StarBitBlue: {
-#        DisplayName: Звёздный осколок
+#        DisplayName: Звёздный кусочек
 #        Tooltip: "[c/F1AF42:Это... не должно быть в вашем инвентаре]"
 #    }
 #
 #    StarBitGreen: {
-#        DisplayName: Звёздный осколок
+#        DisplayName: Звёздный кусочек
 #        Tooltip: "[c/F1AF42:Это... не должно быть в вашем инвентаре]"
 #    }
 #
 #    StarBitOrange: {
-#        DisplayName: Звёздный осколок
+#        DisplayName: Звёздный кусочек
 #        Tooltip: "[c/F1AF42:Это... не должно быть в вашем инвентаре]"
 #    }
 #
 #    StarBitPurple: {
-#        DisplayName: Звёздный осколок
+#        DisplayName: Звёздный кусочек
 #        Tooltip: "[c/F1AF42:Это... не должно быть в вашем инвентаре]"
 #    }
 #
 #    StarBitRed: {
-#        DisplayName: Звёздный осколок
+#        DisplayName: Звёздный кусочек
 #        Tooltip:
 #            '''
 #            Он красный
@@ -6207,7 +6207,7 @@
 #    }
 #
 #    StarBitYellow: {
-#        DisplayName: Звёздный осколок
+#        DisplayName: Звёздный кусочек
 #        Tooltip: "[c/F1AF42:Это... не должно быть в вашем инвентаре]"
 #    }
 #
@@ -7377,15 +7377,15 @@
 #        DisplayName: Грань Идзанаги
 #        Tooltip:
 #            '''
-#            Every fourth shot will always deal critical damage
-#            All critical damage from this weapon does quadruple damage instead of double
-#            Damage will increase with every shot
+#            Каждый четвёртый выстрел всегда наносит критический удар
+#            Весь критический урон от этого оружия увеличивается в четыре раза, а не в два
+#            С каждым выстрелом урон увеличивается
 #            После четвёртого выстрела оружию требуется время для перезарядки
-#            If you land enough shots, your next reload will gain the strength of [c/66B2D1:Honed Edge]
-#            Once you reload with [c/66B2D1:Honed Edge], the next shot will deal 500% the normal amount critically, and will then reload
-#            Gain 100 mana if [c/66B2D1:Honed Edge]'s empowered shot hits an enemy
-#            This mana increase does not apply if this weapon is attuned to Melee, but attack speed is drastically increased
-#            You have permanent Swiftness when this weapon is in your hands
+#            Если вы совершили достаточно выстрелов, ваша следующая перезарядка получит силу [c/66B2D1:Заточенной грани]
+#            Как только вы перезарядитесь с эффектом [c/66B2D1:Заточенной грани], следующий выстрел нанесёт критический урон в размере 500% от обычного, после чего оружие снова перезарядится
+#            Восстанавливает 100 маны, если усиленный выстрел [c/66B2D1:Заточенной грани] поразит врага
+#            Восстановление маны не происходит, если оружие настроено на урон ближнего боя, но при этом значительно увеличивается скорость атаки
+#            Пока вы держите это оружие в руках, на вас постоянно будет наложен бафф «{$BuffName.Swiftness}»
 #            'В цель! Зиодайн!'
 #            '''
 #    }
@@ -7555,7 +7555,7 @@
 #            '''
 #            [Part 1 of 2]
 #            Consume to unlock the story 'System.Func`1[System.String]' in the Archive
-#            Can also be sold for a high price at shops
+#            Можно продать по высокой цене
 #            '''
 #    }
 #
@@ -7563,18 +7563,18 @@
 #        DisplayName: Освещающая палочка
 #        Tooltip:
 #            '''
-#            Holding this weapon will conjure a friendly [c/F1D671:Starchild]
-#            Your defense is directly added to the [c/F1D671:Starchild]'s contact damage
-#            When the [c/F1D671:Starchild] deals damage to foes, there is a small chance that a [c/71F1CA:Star Bit] will appear
-#            If you pick up a [c/71F1CA:Star Bit] while holding this weapon, you will immediately fire a [c/E4559E:Starblast] at your cursor
-#            The [c/E4559E:Starblast] counts as Minion damage
-#            The [c/E4559E:Starblast] has unique effects depending on the color of [c/71F1CA:Star Bit] acquired
-#            [c/E45555:Red Star Bits] have higher base damage
-#            [c/EC8B35:Orange Star Bits] inflict Burn for 4 seconds
-#            [c/E4CE55:Yellow Star Bits] bind foes for 1 second
-#            [c/35EC43:Green Star Bits] have a 30% chance to crit
-#            [c/3596EC:Blue Star Bits] restore 10 Mana upon contact with an enemy
-#            [c/9E35EC:Purple Star Bits] inflict Starblight for 4 seconds
+#            Держа это оружие в руках, призывает дружественное [c/F1D671:Звёздное дитя]
+#            Ваша защита напрямую добавляется к контактному урону [c/F1D671:Звёздного дитя]
+#            Когда [c/F1D671:Звёздное дитя] наносит урон врагам, есть небольшой шанс, что появится [c/71F1CA:Кусочек звезды]
+#            Если подобрать [c/71F1CA:Кусочек звезды] с этим оружием в руках, вы немедленно выпустите [c/E4559E:Звёздный взрыв] в направлении курсора
+#            [c/E4559E:Кусочек звезды] наносит урон призывателя
+#            [c/E4559E:Звёздный взрыв] имеет уникальные эффекты, в зависимости от цвета подобранного [c/71F1CA:Кусочка звезды]
+#            [c/E45555:Красный кусочек звезды] имеет более высокий базовый урон
+#            [c/EC8B35:Оранжевый кусочек звезды] поджигает врагов на 4 секунды
+#            [c/E4CE55:Жёлтый кусочек звезды] сковывает врагов на 1 секунду
+#            [c/35EC43:Зелёный кусочек звезды] имеет 30% шанс нанести критический удар
+#            [c/3596EC:Синий кусочек звезды] восстанавливает 10 маны при контакте с врагом
+#            [c/9E35EC:Фиолетовый кусочек звезды] накладывает дебафф «{$Buffs.Starblight.DisplayName}» на 4 секунды
 #            '''
 #    }
 #
@@ -7620,7 +7620,7 @@
 #        DisplayName: Тотем Света
 #        Tooltip:
 #            '''
-#            Статуэтка, предположительно приобрётшая форму, чтобы даровать силу Воину света
+#            Статуэтка, якобы обрётшая форму, чтобы даровать силу Воину света
 #            Используется для создания артефактов и оружия
 #            '''
 #    }
@@ -7653,9 +7653,9 @@
 #        DisplayName: Инертный осколок
 #        Tooltip:
 #            '''
-#            A fragment of the past, devoid of both mana and hue alike
-#            Obtained on a planet bleached white
-#            Can be used to craft a unique accessory
+#            Осколок прошлого, лишённый как маны, так и красок
+#            Найден на обесцвеченной планете
+#            Используется для создания уникального аксессуара
 #            '''
 #    }
 #
@@ -7663,8 +7663,8 @@
 #        DisplayName: Усиленный тотем света
 #        Tooltip:
 #            '''
-#            An effigy supposedly given form to grant strength to the Warrior of Light
-#            Utilized in the creation of incredibly powerful artifacts and weapons
+#            Статуэтка, якобы обрётшая форму, чтобы даровать силу Воину света
+#            Используется для создания невероятно мощных артефактов и оружия
 #            '''
 #    }
 #
@@ -7673,7 +7673,7 @@
 #        Tooltip:
 #            '''
 #            Используется для создания наряда Астры
-#            Obtained through crafting or through defeating a powerful celestial foe
+#            Можно получить путём создания или победы над могущественным неземным врагом
 #            'Загадочный инструмент, колеблющийся в руках'
 #            '''
 #    }
@@ -7682,7 +7682,7 @@
 #        DisplayName: Полосчатый тенебрий
 #        Tooltip:
 #            '''
-#            Sold at a very high price to shops
+#            Можно продать по очень высокой цене
 #            'Скреплённые листы чёрного металла'
 #            '''
 #    }
@@ -7691,14 +7691,14 @@
 #        DisplayName: Мементо Мьюз
 #        Tooltip:
 #            '''
-#            Holding this weapon will cause the [c/D8305F:Rhythm Gauge] to appear
-#            Swing in tandem with the beat to deal increased damage and fire a powerful projectile
-#            Keeping up with with the rhythm will slowly increase critical hit ratio
-#            The combo has a limit of 12
-#            Once you have completed a combo, you will gain the ability to use a [c/FF749B:Rhythm Burst]
-#            Right click with [c/FF749B:Rhythm Burst] ready to temporarily ignore timing for 2 seconds
-#            [c/FF749B:Rhythm Burst] will reset your combo to 0
-#            'I'm not asking for much- do me a favor and die?'
+#            Держа это оружие в руках, активирует [c/D8305F:Индикатор ритма]
+#            Совершайте взмахи в такт ритму, чтобы наносить увеличенный урон и выпускать мощный снаряд
+#            Поддержание ритма постепенно увеличивает шанс критического удара
+#            Максимальная длина комбо составляет 12 атак
+#            Завершив комбо, вы получите возможность использовать [c/FF749B:Взрыв ритма]
+#            Нажмите <right>, когда [c/FF749B:Взрыв ритма] готов, чтобы временно игнорировать ритм атак в течение 2 секунд
+#            [c/FF749B:Взрыв ритма] сбрасывает ваше комбо до 0
+#            'Простите мою грубость... но не могли бы вы умереть, пожалуйста?'
 #            '''
 #    }
 #
@@ -7751,18 +7751,18 @@
 #        DisplayName: Наганадель
 #        Tooltip:
 #            '''
-#            Use right click to expend 25 mana, summoning up to 5 Aspected Blades
-#            Blades deal minor contact damage while idle
-#            Attack with blades present to launch them towards the cursor
-#            Use right click once all blades are summoned to launch all blades at once, dealing random effects
-#            Each blade has unique effects:
-#            The [c/54AFDF:Stardust Aspect] will restore 20 mana on hit, but deals half damage
-#            The [c/54DF80:Vortex Aspect] travels faster and farther, deals 600% damage on a critical hit and grants Swiftness
-#            The [c/DF8454:Solar Aspect] burns foes on hit and deals double damage to flaming enemies, but travels slower and has less range
-#            The [c/C654DF:Nebula Aspect] summons a barrage of falling stars from the sky on hit
-#            [c/BDD5B5:Naganadel] costs 50 mana to summon instead, but will apply most other effects with a lunar bonus effect
-#            If the destination is closer than the maximum range, the blades will deal residual damage as they fade away
-#            Blades will vanish when swapping weapons
+#            Нажмите <right>, чтобы потратить 25 маны и призвать до 5 клинков аспектов
+#            Клинки наносят незначительный урон при контакте, пока находятся в бездействии
+#            Атакуйте с активными клинками, чтобы запустить их в направлении курсора
+#            Повторно нажмите <right>, когда все клинки призваны, чтобы запустить их все сразу, вызывая случайные эффекты 
+#            Каждый клинок обладает уникальными эффектами:
+#            [c/54AFDF:Аспект звёздной пыли] восстанавливает 20 маны при попадании, но наносит половину урона
+#            [c/54DF80:Вихревой аспект] движется быстрее и дальше, наносит на 600% больше урона при критическом ударе и даёт бафф «{$BuffName.Swiftness}»
+#            [c/DF8454:Аспект солнечной вспышки] поджигает врагов при попадании и наносит двойной урон горящим врагам, но движется медленнее и имеет меньшую дальность атаки
+#            [c/C654DF:Аспект туманности] вызывает каскад падающих звёзд с неба при попадании
+#            [c/BDD5B5:Наганадель] требует для призыва 50 маны, но при этом применяет большинство эффектов других клинков с дополнительным лунным усилением
+#            Если цель находится ближе, чем максимальный радиус поражения, клинки нанесут оставшийся урон при рассеивании
+#            При смене оружия все клинки исчезают
 #            'Нет сожалений – путь лишь один'
 #            '''
 #    }
@@ -7771,7 +7771,7 @@
 #        DisplayName: Сделкодел Нео
 #        Tooltip:
 #            '''
-#            [c/F7D76A:Hold left click to charge the weapon; the longer the weapon is charged, the stronger the resulting attack will become]
+#            [c/F7D76A:Удерживайте <left>, чтобы зарядить оружие; чем дольше заряжается оружие, тем сильнее итоговая атака]
 #            Attacks with this weapon fire small pellets, inflicting Midas for 20 seconds on critical strikes
 #            Charged attacks will instead fire a [c/FBD63E:BIG SHOT], dealing 200% damage
 #            The [c/FBD63E:BIG SHOT] pierces up to 8 foes and ignores terrain
@@ -7786,23 +7786,23 @@
 #        DisplayName: Возвышенная Озма
 #        Tooltip:
 #            '''
-#            Holding this weapon conjures the [c/6A6A6A:Ascendant Array] to follow you
-#            Attacks with this weapon will execute a unique five-hit combo attack utilizing the [c/6A6A6A:Ascendant Array]
-#            Right click to consume 60 Mana, cycling through [c/CF2D2D:Ruby Execution], [c/E2BC3D:Topaz Execution], and [c/33AAE6:Sapphire Execution] attacks in order
-#            [c/CF2D2D:Ruby Execution]
-#            Upon activation, attack foes around your cursor for fast, powerful damage
-#            Gain Wrath for 2 seconds upon activation of [c/CF2D2D:Ruby Execution]
-#            [c/E2BC3D:Topaz Execution]
-#            After a short delay upon activation, creates piercing attacks at your cursor's location
-#            [c/E2BC3D:Topaz Execution] attacks stun foes for a very short duration
-#            [c/33AAE6:Sapphire Execution]
-#            Upon activation, create a virus field at your cursor, which deals damage to all foes in its vicinity over time
-#            [c/33AAE6:Sapphire Execution] turns 10% of damage dealt to health and Mana (Max 5 per tick)
-#            Critical strikes with this weapon grant [c/AD0000:Annihilation State] for 3 seconds
-#            [c/AD0000:Annihilation State] grants 30% increased damage and 10% increased critical strike chance
-#            Within [c/AD0000:Annihilation State], right click to unleash [c/B98080:Finale Descends] (2 minute cooldown)
-#            Foes caught between [c/B98080:Finale Descends] will take powerful damage over time until the attack resolves
-#            Additionally, [c/B98080:Finale Descends] inflicts Stun for 1 second per hit
+#            Держа это оружие в руках, вы призываете [c/6A6A6A:Возвышенный арсенал], который следует за вами
+#            Атаки этого оружия выполняют уникальную комбо-атаку из пяти ударов, используя [c/6A6A6A:Возвышенный арсенал]
+#            Нажмите <right>, чтобы потратить 60 маны и циклически выполнить по порядку [c/CF2D2D:Рубиновую казнь], [c/E2BC3D:Топазовую казнь] и [c/33AAE6:Сапфировую казнь]
+#            [c/CF2D2D:Рубиновая казнь]
+#            При активации наносит быстрый и мощный урон врагам вокруг курсора
+#            Даёт бафф «{$BuffName.Wrath}» на 2 секунды при активации [c/CF2D2D:Рубиновой казни]
+#            [c/E2BC3D:Топазовая казнь]
+#            После небольшой задержки с момента активации создаёт пронзающие атаки в позиции курсора
+#            Атаки [c/E2BC3D:Топазовой казни] оглушают врагов на очень короткое время
+#            [c/33AAE6:Сапфировая казнь]
+#            При активации создаёт поле вируса в позиции курсора, которое наносит постепенный урон всем находящимся поблизости врагам
+#            [c/33AAE6:Сапфировая казнь] преобразует 10% нанесённого урона в здоровье и ману (максимум 5 единиц за тик)
+#            Критические удары этим оружием активируют [c/AD0000:Состояние аннигиляции] на 3 секунды
+#            [c/AD0000:Состояние аннигиляции] увеличивает урон на 30% и шанс критического удара на 10%
+#            Во время [c/AD0000:Состояния аннигиляции] нажмите <right>, чтобы высвободить [c/B98080:Нисхождение финала] (перезарядка 2 минуты)
+#            Враги, оказавшиеся между [c/B98080:Нисхождением финала] получают мощный постепенный урон до окончания атаки
+#            Кроме того, [c/B98080:Нисхождение финала] накладывает дебафф «{$Buffs.Stun.DisplayName}» на 1 секунду за каждый удар
 #            'Я... чудовище...'
 #            '''
 #    }
@@ -8033,7 +8033,7 @@
 #        DisplayName: Фантом в зеркале
 #        Tooltip:
 #            '''
-#            8 summon tag damage
+#            8 урона от метки призывателя
 #            This weapon inflicts Frostburn for 2 seconds
 #            Right click to summon the [c/67B6D3:Phantom Dagger] with 100 Mana available; this will not consume Mana
 #            When the [c/67B6D3:Phantom Dagger] is present in the world, your Mana will drain and will not regenerate
@@ -8780,7 +8780,7 @@
 #        DisplayName: Тарталья
 #        Tooltip:
 #            '''
-#            [c/F7D76A:Hold left click to charge the weapon; the longer the weapon is charged, the stronger the resulting attack will become]
+#            [c/F7D76A:Удерживайте <left>, чтобы зарядить оружие; чем дольше заряжается оружие, тем сильнее итоговая атака]
 #            Charging the bow to its maximum before firing will turn the arrow into a unique [c/25ACF0:Riptide Bolt]
 #            [c/25ACF0:Riptide Bolts] will apply [c/4A91FF:Riptide] to foes struck for 12 seconds
 #            Right click to consume 200 mana, entering [c/2361C1:Raging Tides] for 8 seconds
@@ -8797,7 +8797,7 @@
 #        Tooltip:
 #            '''
 #            [c/8AC1F1:This weapon has a unique damage type; inherits bonuses from all damage classes]
-#            [c/F7D76A:Hold left click to charge the weapon; the longer the weapon is charged, the stronger the resulting attack will become]
+#            [c/F7D76A:Удерживайте <left>, чтобы зарядить оружие; чем дольше заряжается оружие, тем сильнее итоговая атака]
 #            Charged attacks will execute [c/8D0404:Guntrigger Execution], teleporting to your cursor (in range), granting Invincibility for 2 seconds, and slashing foes around you
 #            When charging the weapon, movement is disabled
 #            After use of [c/8D0404:Guntrigger Execution], you are inflicted with the debuff [c/B96B6B:Impact Recoil] for 12 seconds
@@ -9976,7 +9976,7 @@
 #        DisplayName: Двухступенчатый спин
 #        Tooltip:
 #            '''
-#            4 summon tag damage
+#            4 урона от метки призывателя
 #            Striking foes with this weapon grants Swiftness for 3 seconds
 #            Press the Weapon Action Key to sling a yo-yo forwards, travelling a short distance (Yo-yo returns after two seconds)
 #            Press the Weapon Action Key after the yo-yo has stopped movement will launch you towards the yo-yo, returning it
@@ -11030,7 +11030,7 @@
 #        DisplayName: Фениксовый звёздный вихрь
 #        Tooltip:
 #            '''
-#            2 summon tag damage
+#            2 урона от метки призывателя
 #            Summon tag damage scales with world progression
 #            Attacks with this weapon travel incredibly fast and inflict Starblight for 4 seconds
 #            Additionally, attacks inflict a stack of [c/F8FF8B:Elemental Surge] on hit
@@ -11045,7 +11045,7 @@
 #    }
 #
 #    EssenceOfThePhoenix: {
-#        DisplayName: Essence Of The Phoenix
+#        DisplayName: Эссенция феникса
 #        Tooltip:
 #            '''
 #            Obtained after defeating ???
@@ -11071,7 +11071,7 @@
 #    }
 #
 #    EssenceOfTheShieldHero: {
-#        DisplayName: Essence Of The Shield Hero
+#        DisplayName: Эссенция героя щита
 #        Tooltip:
 #            '''
 #            Obtained after defeating ???
@@ -11096,7 +11096,7 @@
 #    }
 #
 #    EssenceOfCurses: {
-#        DisplayName: Essence Of Curses
+#        DisplayName: Эссенция проклятий
 #        Tooltip:
 #            '''
 #            Obtained after defeating ???
@@ -11109,7 +11109,7 @@
 #        DisplayName: Плащ арбитра
 #        Tooltip:
 #            '''
-#            20 summon tag damage
+#            20 урона от метки призывателя
 #            Holding this weapon grants [c/9C936F:Degraded Singularity], increasing critical strike damage by 10% against foes with summon tag damage (Does not include [c/FAE88E:Fairy])
 #            Attacks with this weapon inflict [c/FAE88E:Fairy] for 3 seconds
 #            [c/FAE88E:Fairy] acts as a special variant of summon tag damage that affects all weapons
@@ -11130,7 +11130,7 @@
 #    }
 #
 #    EssenceOfASingularity: {
-#        DisplayName: Essence Of A Singularity
+#        DisplayName: Эссенция сингулярности
 #        Tooltip:
 #            '''
 #            Obtained after defeating The Warrior Of Light
@@ -11337,7 +11337,7 @@
 #        DisplayName: Inherited Case, M4A1
 #        Tooltip:
 #            '''
-#            [c/F7D76A:Hold left click to charge the weapon; if the weapon is fully charged, the attack varies]
+#            [c/F7D76A:Удерживайте <left>, чтобы зарядить оружие; if the weapon is fully charged, the attack varies]
 #            Additionally, this weapon can be [c/F7D76A:Overcharged], causing additional effects to occur
 #            After charging, fire bullets from your inventory (Musket balls are transformed into powerful, fast bullets)
 #            The second stage of [c/F7D76A:Overcharge] will additionally fire a barrage of lasers
@@ -11514,18 +11514,18 @@
 #    }
 #
 #    ArchitectLuminanceBuff: {
-#        DisplayName: Сияние Архитектора
+#        DisplayName: Ясность Архитектора
 #        Description: Власть над мощью Архитектора
 #    }
 #
 #    ArtificeSirenBuff: {
-#        DisplayName: Активированная искусная сирена
+#        DisplayName: Активированная сирена-механоид
 #        Description: Сверхмощный механический союзник аннигилирует ваших врагов
 #    }
 #
 #    ArtificeSirenCooldown: {
-#        DisplayName: Перезарядка искусной сирены
-#        Description: Искусная сирена не сработает, пока активен этот дебафф
+#        DisplayName: Перезарядка сирены-механоида
+#        Description: Сирена-механоид не сработает, пока активен этот дебафф
 #    }
 #
 #    AshenAmbitionActive: {
@@ -12044,13 +12044,13 @@
 #    }
 #
 #    HonedEdge: {
-#        DisplayName: Honed Edge
-#        Description: When reloading with Izanagi's Burden, the next shot will become extraordinarily powerful
+#        DisplayName: Заточенная грань
+#        Description: При перезарядке Грани Идзанаги следующий выстрел станет необычайно мощным
 #    }
 #
 #    HonedEdgeCooldown: {
-#        DisplayName: Honed Edge Cooldown
-#        Description: When this debuff ends, you will be able to use Honed Edge again
+#        DisplayName: Перезарядка заточенной грани
+#        Description: Заточенная грань не сработает, пока активен этот дебафф
 #    }
 #
 #    HopesBrillianceBuff: {
@@ -12389,22 +12389,22 @@
 #    }
 #
 #    AnnihilationState: {
-#        DisplayName: Annihilation State
+#        DisplayName: Состояние аннигиляции
 #        Description: ""
 #    }
 #
 #    FinaleDescendsCooldown: {
-#        DisplayName: Finale Descends Cooldown
-#        Description: Finale Descends не сработает, пока активен этот дебафф
+#        DisplayName: Перезарядка нисхождения финала
+#        Description: Нисхождение финала не сработает, пока активен этот дебафф
 #    }
 #
 #    OzmaAttack: {
-#        DisplayName: Ascendant Array's Attacks
+#        DisplayName: Атаки восходящего арсенала
 #        Description: ""
 #    }
 #
 #    OzmaBuff: {
-#        DisplayName: Ozma Ascendant
+#        DisplayName: Возвышенная Озма
 #        Description: ""
 #    }
 #
@@ -12559,8 +12559,8 @@
 #    }
 #
 #    RobotSpiderBuff: {
-#        DisplayName: Mechanical Arachnids
-#        Description: The mechanical arachnids aid you
+#        DisplayName: Механические арахниды
+#        Description: Вас помогают механические арахниды
 #    }
 #
 #    Ruination: {
@@ -12863,18 +12863,18 @@
 #    }
 #
 #    TakodachiBuff: {
-#        DisplayName: Void Octopi
-#        Description: The void octopi surround you
+#        DisplayName: Пустотная осьминожка
+#        Description: Вокруг вас кружит пустотная осьминожка
 #    }
 #
 #    TakodachiLaserBuff: {
-#        DisplayName: Takonomicon Annihilation Beam
+#        DisplayName: Луч аннигиляции Такономикона
 #        Description: ""
 #    }
 #
 #    TakodachiLaserBuffCooldown: {
-#        DisplayName: Takonomicon Laser Cooldown
-#        Description: Takonomicon's laser не сработает, пока активен этот дебафф
+#        DisplayName: Перезарядка лазера Такономикона
+#        Description: Лазер Такономикона не сработает, пока активен этот дебафф
 #    }
 #
 #    PrototokiaDualcast: {
@@ -13077,8 +13077,8 @@
 #    }
 #
 #    StarchildBuff: {
-#        DisplayName: Starchild
-#        Description: The starchild is aiding you
+#        DisplayName: Звёздное дитя
+#        Description: Вам помогает Звёздное дитя
 #    }
 #
 #    AdornmentAttackSpeedBuff: {
@@ -14509,10 +14509,10 @@
 #            Tooltip: Disables blur effect in menus/cutscenes.
 #        }
 #
-##        DisableBlur: {
-##            Label: Disable Screen Shake
-##            Tooltip: Disables screen shake effects from all sources.
-##        }
+#        DisableBlur: {
+#            Label: Disable Screen Shake
+#            Tooltip: Disables screen shake effects from all sources.
+#        }
 #    }
 #
 #    StarsAboveServersideConfig: {
