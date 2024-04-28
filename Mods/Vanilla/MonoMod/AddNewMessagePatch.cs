@@ -42,27 +42,8 @@ public class AddNewMessagePatch : ILoadable
         text = text switch
         {
             // StarsAbove
-            // "The Spatial Disk begins to resonate. Left click to interact." => "Пространственный диск резонирует. Нажмите ЛКМ для взаимодействия.",
-            // "Nalhaun, the Burnished King appears!" => "Налхан, Воронёный король появляется!",
-            // "Magical energy coalesces around you..." => "Вокруг вас сгущается магическая энергия...",
-            // "Penthesilea, The Witch of Ink draws near!" => "Пентесилея, Ведьма чернил, нарисовалась поблизости!",
-            // "The world shudders in anticipation..." => "Мир содрогается в ожидании...",
-            // "Arbitration descends!" => "Арбитраж снисходит!",
-            // "You have been judged..." => "Вас осудили",
-            // "You've been colored with ink!" => "Вас раскрасили чернилами!",
-            // "Time and space begin to crumble, their laws forsaken!" => "Время и пространство начинают распадаться, их законы забыты!",
             // "The expanse around you begins to contract..." => "Окружающее пространство начинает сжиматься...",
-            // "Two demons, locked in conflict, appear at your sides." => "",
-            // "You fall to the Witch of Ink..." => "Вы пали перед Ведьмой чернил...",
-            // "The Garden of Avalon stifles your healing!" => "Сад Авалона подавляет ваше исцеление!",
-            // "Penth is protected by a shield of frost!" => "Пентесилея защищена щитом мороза!",
-            // "Overwhelming power surrounds you..." => "Вокруг вас кипит сила...",
-            // "You feel the next attack is truly unsurvivable!" => "Вы чуствуете, что следующую атаку невозможно пережить!",
-            // "The Warrior Of Light has won..." => "",
-            // "The Warrior of Light is transcending his limits!" => "",
-            // "The fabric of this world begins to fray!" => "",
-            // "Your final days have arrived..." => "",
-            // "The Stellar Array reaches new heights!" => "",
+            // "The Stellar Array reaches new heights!" => "Звёздный ряд достигает новых высот!",
             
             // Thorium
             "It appears to be waiting for night..." => "Похоже, оно ждёт наступления ночи...",

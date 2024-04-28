@@ -21,9 +21,9 @@
 #    }
 #
 #    MiserysCompany: {
-#        Scythe: Scythe deployed!
-#        Shotgun: Shotgun deployed!
-#        Blade: Blade deployed!
+#        Scythe: Коса готова!
+#        Shotgun: Дробовик готов!
+#        Blade: Клинок готов!
 #    }
 #
 #    Adornment: {
@@ -143,16 +143,7 @@
 #
 #        Home: {
 #            Name: Родной мир
-#            Description:
-#                '''
-#                Не смотря на значительное удаление
-#                от обитаемой зоны из-за Ардора,
-#                эта удачная внешняя планета была
-#                спасена благодаря близости
-#                сверхмассивной звезды, нагревающей
-#                регион настолько, что он стал
-#                пригодным для жизни.
-#                '''
+#            Description: Не смотря на значительное удаление от обитаемой зоны из-за Ардора, эта удачная внешняя планета была спасена благодаря близости сверхмассивной звезды, нагревающей регион настолько, что он стал пригодным для жизни.
 #            Threat: Уровень угрозы: Н/Д
 #            Requirement: Для перехода не нужен Космограф
 #            Loot: Ресурсы: Н/Д
@@ -160,15 +151,7 @@
 #
 #        Observatory: {
 #            Name: Обсерватория Заполярье
-#            Description:
-#                '''
-#                Одна из многих обсерваторий,
-#                усеивающих галактику Мойра, и та,
-#                которую ваша Астра считает своим
-#                домом. В каждой обсерватории есть
-#                магический проводник, известний
-#                как Корень целестриады.
-#                '''
+#            Description: Одна из многих обсерваторий, усеивающих галактику Мойра, и та, которую ваша Астра считает своим домом. В каждой обсерватории есть магический проводник, известний как Корень целестриады.
 #            Threat: Уровень угрозы: Н/Д
 #            Requirement: Для перехода не нужен Космограф
 #            Loot: Ресурсы: Корень целестриады (Создание)
@@ -176,17 +159,7 @@
 #
 #        BleachedPlanet: {
 #            Name: Кейлум
-#            Description:
-#                '''
-#                Неизвестно, что погубило жизнь на
-#                этой планете, но теперь она
-#                превратилась в пустую оболочку
-#                своего прошлого: мелово-белый
-#                унылый мир. Лишь небольшая часть
-#                поверхности осталась проходимой:
-#                вся остальная рассыпается при
-#                малейшем прикосновении.
-#                '''
+#            Description: Неизвестно, что погубило жизнь на этой планете, но теперь она превратилась в пустую оболочку своего прошлого: мелово-белый унылый мир. Лишь небольшая часть поверхности осталась проходимой: вся остальная рассыпается при малейшем прикосновении.
 #            Threat: Уровень угрозы: C
 #            Requirement: Для перехода нужен Космограф (Ранг 2)
 #            Loot: Ресурсы: Редкие компоненты для аксессуаров
@@ -194,14 +167,7 @@
 #
 #        CrimsonPlanet: {
 #            Name: Скорпиус
-#            Description:
-#                '''
-#                Спутник, давно покинутый своей
-#                родной звездой и покрытый зловещим
-#                багрянцем. Неясно, связано ли это
-#                небесное тело с нынешним явлением
-#                кровавой луны.
-#                '''
+#            Description: Спутник, давно покинутый своей родной звездой и покрытый зловещим багрянцем. Неясно, связано ли это небесное тело с нынешним явлением кровавой луны.
 #            Threat: Уровень угрозы: C+
 #            Requirement: Для перехода нужен Космограф (Ранг 2)
 #            Loot: Ресурсы: Предметы из врагов багрянца
@@ -209,17 +175,7 @@
 #
 #        CygnusAsteroids: {
 #            Name: Астероидное поле Сигнус
-#            Description:
-#                '''
-#                Группа мраморных астероидов
-#                привлекает внимание своими
-#                необычными инопланетными руинами.
-#                Вероятно, эти руины являются ключом
-#                к пониманию истории первоначальных
-#                обитателей, однако в настоящее
-#                время проведение археологических
-#                исследований кажется невозможным.
-#                '''
+#            Description: Группа мраморных астероидов привлекает внимание своими необычными инопланетными руинами. Вероятно, эти руины являются ключом к пониманию истории первоначальных обитателей, однако в настоящее время проведение археологических исследований кажется невозможным.
 #            Threat: Уровень угрозы: D
 #            Requirement: Для перехода нужен Космограф (Ранг 1)
 #            Loot: Ресурсы: Призматические ядра
@@ -267,15 +223,7 @@
 #
 #        AlienPlanet: {
 #            Name: Лира
-#            Description:
-#                '''
-#                Загадочная планета, известная как
-#                Аномалия Айота. Существуют записи
-#                о периодическом излучении странных
-#                и мощных вибраций, схожих с биением
-#                сердца. Исследование ограничено
-#                из-за высококислотной поверхности.
-#                '''
+#            Description: Загадочная планета, известная как Аномалия Айота. Существуют записи о периодическом излучении странных и мощных вибраций, схожих с биением сердца. Исследование ограничено из-за высококислотной поверхности.
 #            Threat: Уровень угрозы: B++ аномальный
 #            Requirement: Для перехода нужен Космограф (Ранг 3)
 #            Loot: Ресурсы: Редкие враги
@@ -347,23 +295,15 @@
 #
 #        UltraPlant: {
 #            Name: Мегаэлектростанция
-#            Description:
-#                '''
-#                Неизвестная местность, населённая
-#                странными фигурами, как инертными,
-#                так и живыми. Постоянные всплески
-#                электричества делают её враждебной
-#                для перемещения и исследования.
-#                Автор: Hockerzocker
-#                '''
+#            Description: Неизвестная местность, населённая странными фигурами, как инертными, так и живыми. Постоянные всплески электричества делают её враждебной для перемещения и исследования. Автор: Hockerzocker
 #            Threat: Уровень угрозы: C-B
 #            Requirement: Для перехода нужен Космограф (Ранг 2)
 #            Loot: Ресурсы: Уникальное воспоминание оружия
 #        }
 #
 #        QuestionMark: {
-#            Name: " "
-#            Description: The Stellaglyph can't take you past this point yet... (Content will be added at a later date!)
+#            Name: ""
+#            Description: Космограф пока не может перенести вас дальше этого места. (Контент будет добавлен позже!)
 #            Threat: Н/Д
 #            Requirement: Н/Д
 #            Loot: Н/Д
@@ -430,7 +370,7 @@
 #
 #        MysticForging: {
 #            Name: "[c/C2BDFF:Ранг 1] [c/FFEED1:'Мистическая ковка]"
-#            Description: Critical strike chance is converted into on-hit damage at a 1%:0.5% ratio (Caps at 60%); Critical strikes are disabled unless triggered by a bonus effect. Gain up to 15% increased attack speed based on critical strike chance.
+#            Description: Шанс критического удара преобразуется в дополнительный урон при попадании в соотношении 1% к 0.5% (максимум 60%); критические удары невозможны без активации бонусным эффектом. Скорость атаки увеличивается до 15% в зависимости от шанса критического удара.
 #            Unlock: "[c/9D9D9D:Заблокировано:] Одолейте Пентесилею, Ведьму чернил"
 #        }
 #
@@ -601,13 +541,7 @@
 #Archive: {
 #    DefaultIdleDialogue: {
 #        Name: Стандартный диалог покоя
-#        Description:
-#            '''
-#            Диалог появляется
-#            если вы когда-то
-#            уже видели обычный
-#            диалог в покое.
-#            '''
+#        Description: Диалог появляется если вы когда-то уже видели обычный диалог в покое.
 #    }
 #
 #    UnlockConditions: {
@@ -647,24 +581,12 @@
 #
 #Dialogue: {
 #    IdleDialogueHardmode: {
-#        Asphodene:
-#            '''
-#            Просит, {0}.
-#            Но сейчас мне нечего сказать.
-#            '''
-#        Eridani:
-#            '''
-#            Извини, {0}...
-#            Но пока что сказать нечего.
-#            '''
+#        Asphodene: Прости, {0}. Но сейчас мне нечего сказать.
+#        Eridani: Извини, {0}... Но пока что сказать нечего.
 #    }
 #
 #    IdleDialogue: {
-#        Asphodene:
-#            '''
-#            Прости, в последнее время в голове
-#            пусто.
-#            '''
+#        Asphodene: Прости, в последнее время в голове пусто.
 #        Eridani: Извиняюсь. Сейчас мне особо нечего сказать...
 #    }
 #
@@ -676,13 +598,7 @@
 #            4: Keep up the good work!
 #            5: Here is another Essence for you. It looks to be a rather powerful melee weapon.
 #            6: That's it for now. Keep up the good work!
-#            7:
-#                '''
-#                Вот ещё одна Эссенция для тебя. Это
-#                огненный меч относится к магическому
-#                типу. Похоже, он взрывается при
-#                достаточном заряде.
-#                '''
+#            7: Вот ещё одна эссенция для тебя. Это огненный меч относится к магическому типу. Похоже, он взрывается при достаточном заряде.
 #            8: Я уверена, ты знаешь, что делать.
 #            9: An Essence is here for your use. This powerful Melee heirloom is said to cleave the way for those less fortunate.
 #            10: Good luck in crafting it.
@@ -706,13 +622,7 @@
 #            28: While dangerous, it looks to be pretty powerful. Surely you won't get hit.. right?
 #            29: This is a pretty unique weapon. When using it, it'll follow-up your attacks, and become stronger when you spend Mana.
 #            30: This Essence hails from a world embroiled in conflict... It boasts incredible power, but if you get too overzealous, it'll start to hurt you.
-#            31:
-#                '''
-#                Эта Эссенция создаёт оружие ближнего
-#                боя, способное трансформироваться в
-#                меч, косу или огнестрел. Подойдет для
-#                любой ситуации!
-#                '''
+#            31: Эта эссенция создаёт оружие ближнего боя, способное трансформироваться в меч, косу или огнестрел. Подойдет для любой ситуации!
 #            32: Okay, here's a new Essence for you. It's a huge Melee lance that can be swap between a lance form and a gun form. It looks to be pretty strong!
 #            33: Well {0}, take this Essence. This Melee weapon has an incredible burst, but the refractory period may be dangerous.. Give it a shot, though!
 #            34: Here's another Essence you can use! It has incredible synergy with Summons and gets stronger as you do, so if you plan on fighting with allies, this is it!
@@ -729,44 +639,13 @@
 #            45: I have a new Essence for you. This is a magical Summon-type weapon that seems to scale with your own potential. Interesting..!
 #            46: A Magic Essence is here this time. With cosmic energy, you can blast foes away with superpowered light. Sounds good to me!
 #            47: This Melee-type Essence should help. It looks to be a multiple-purpose power-suit with myriad attacks. Now that sounds cool!
-#            48:
-#                '''
-#                Эй, {0}, у меня есть для тебя
-#                Эссенция! По всей видимости, она
-#                позволит создать магическое оружие с
-#                мощным пронзающим уроном... Звучит
-#                весьма полезно.
-#                '''
-#            49:
-#                '''
-#                Я нашла ещё одну Эссенцию, которую
-#                ты можешь использовать... По-видимому,
-#                её можно применить для создания
-#                стрелкового оружия. Как использовать
-#                дальше - решай сам.
-#                '''
+#            48: Эй, {0}, у меня есть для тебя эссенция! По всей видимости, она позволит создать магическое оружие с мощным пронзающим уроном... Звучит весьма полезно.
+#            49: Я нашла ещё одну эссенцию, которую ты можешь использовать... По-видимому, её можно применить для создания стрелкового оружия. Как использовать дальше - решай сам.
 #            50: Okay- I've got it. Here's a Ranged-type Essence.. it looks to be something pretty powerful! Good luck.
-#            51:
-#                '''
-#                Это эссенция оружия призывателя.
-#                Внешне она напоминает кнут, но...
-#                может призывать миньонов? Вот это да.
-#                '''
-#            52:
-#                '''
-#                Чего? 'Пик'? Это же новомодное словцо.
-#                Ты же слышал его уже сто раз. Ну,
-#                типа... горный пик? Вершина... чего-то?
-#                Ладно, забудь.
-#                '''
+#            51: Эта эссенция оружия призывателя. Внешне она напоминает кнут, но... может призывать миньонов? Вот это да.
+#            52: Чего? 'Пик'? Это же новомодное словцо. Ты же слышал его уже сто раз. Ну, типа... горный пик? Вершина... чего-то? Ладно, забудь.
 #            53: Okay- this is a Melee weapon! My instincts tell me it's perfect for high-defense foes. What are you waiting for?
-#            54:
-#                '''
-#                Этот клинок ближнего боя способен
-#                аккумулировать энергию стихий. Даже
-#                просто держать его в руках - уже нечто
-#                особенное!
-#                '''
+#            54: Этот клинок ближнего боя способен аккумулировать энергию стихий. Даже просто держать его в руках - уже нечто особенное!
 #            55: This looks to be a Magic weapon. With its power, you can call down entire stars to defeat your foes!
 #            56: You're worried you'll run out eventually? Yeah.. no.
 #            57: This looks to be... a Magic weapon. Strange- it feels like an entire armory is contained in this Essence. How's that possible?
@@ -791,12 +670,7 @@
 #            76: Right. This Melee Essence dips into the void to defeat foes and absorb them after. Sounds pretty cool to me.
 #            77: I've acquired a new Essence for your use. It seems to borrow strength from Melee and Magic both- a versatile weapon, I like it!
 #            78: Looks like this Graveyard seems to have some connection to this Essence. Hopefully all these graves weren't just from you dying, right?
-#            79:
-#                '''
-#                Хм... эта Эссенция призывного типа
-#                сотворит какого-то управляемого дрона.
-#                Интересно, может ли он разговаривать?
-#                '''
+#            79: Хм... эта эссенция призывного типа сотворит какого-то управляемого дрона. Интересно, может ли он разговаривать?
 #            80: This is certainly a Melee weapon- furthermore, it seems to be one that excels at a distance, as well as providing extra firepower in close combat. Nice.
 #            81: I plundered a Ranged-sort of essence from the likeness of those pirates. Sea... water... Actually, looks like I'm nearly dry with jokes, so I'll anchor myself now.
 #            82: Well, I'm not sure what to make of this Essence, other than that it's a Summon weapon. Best you give it a go, before anything else goes haywire.
@@ -804,13 +678,7 @@
 #            84: Hmm... Perhaps you could even use it to dodge incoming attacks...?
 #            86: Looks like this Essence is both Magic and Melee aspected- it crackles with lightning already. How about giving it a shot?
 #            85: It looks to me like this Ranged-weapon has the ability to down hordes of foes pretty easily. Sounds like it'll come in handy- especially the giant coffin swings!
-#            87:
-#                '''
-#                Как насчёт этой Эссенции? Она даст
-#                усиленный барьер, который не только
-#                защитит тебя, но и позволит наносить
-#                урон, не боясь последствий.
-#                '''
+#            87: Как насчёт этой эссенции? Она даст усиленный барьер, который не только защитит тебя, но и позволит наносить урон, не боясь последствий.
 #            88: Seems that this Essence came from that voodoo doll we found in the Underworld- a strange sight. Are you certain that using a weapon like this is worth the risk?
 #            89: Who am I kidding- of course you're certain! You're MY Starbearer, after all! Just don't get TOO reckless, now.
 #            90: This Essence is aspected to this world's star- your sun! Needless to say, the power of the sun would be quite the boon- let's see this thing in action!
@@ -819,13 +687,7 @@
 #            93: You aren't going to believe this, but someone gave this Essence to me- how is that possible? They said something like 'It's just a game, so it's OK.' What even?
 #            94: This Ranged-essence seems to lead to a classic rocket-launcher weapon- I've heard of using explosives for traversal, so it shouldn't hurt to try, right?
 #            95: This Magic Essence is pretty unique: you can draw directly onto the world to cause different effects to occur.
-#            96:
-#                '''
-#                Похоже, здесь появилась Эссенция
-#                йо-йо - ещё и типа призывателя.
-#                Оказывается, она обладает некоторыми
-#                удобными средствами передвижения!
-#                '''
+#            96: Похоже, здесь появилась эссенция йо-йо - ещё и типа призывателя. Оказывается, она обладает некоторыми удобными средствами передвижения!
 #            97: This Summon-type weapon isn't like anything you've seen before, I think. Best to just give it a go- how good's your swordsmanship?
 #            98: With this Essence, you'll have a Magic-type weapon with some crazy stopping power! Let's give this one a 'shot'!
 #            99: This Summon weapon is an elegant blade- you can control it manually, or it will slice foes all on its own. Why can't everything do that?
@@ -835,13 +697,7 @@
 #
 #        Eridani: {
 #            1: Here's a Ranged-type essence. It looks like every fourth shot has increased offensive properties. Whatever the reason, it's powerful.
-#            2:
-#                '''
-#                Держи ещё одну Эссенцию. Она
-#                предназначена для создания оружия
-#                призывного типа. Ты ведь понимаешь,
-#                что это означает?
-#                '''
+#            2: Держи ещё одну эссенцию. Она предназначена для создания оружия призывного типа. Ты ведь понимаешь, что это означает?
 #            3: Чего ты ждешь? Попробуй уже.
 #            4: Так ты знал об этом? Неважно тогда.
 #            5: I have quite the unique Essence for you. It looks to be a chainsaw imbued with the strength of a dog god.. Or so it seems.
@@ -857,12 +713,7 @@
 #            15: Consider it if you're able.
 #            16: This Ranged weapon allows you to enter a Melee stance, dealing more damage to foes you've hit with arrows. It should be quite engaging.
 #            17: This powerful Melee relic allows for the expidenture of Mana to teleport and deal powerful damage. It's a new favorite of mine.
-#            18:
-#                '''
-#                Это оружие создано из самой силы
-#                Лунного лорда и его пространственных
-#                башен. Оно будет отлично тебе служить.
-#                '''
+#            18: Это оружие создано из самой силы Лунного лорда и его пространственных башен. Оно будет отлично тебе служить.
 #            19: From the Warrior of Light.. this Essence allows for the usage of Limit Break. It's an incredibly strong Magic weapon.
 #            20: The Light will cleanse your sins! Or something like that.
 #            21: This weapon can switch between Ranged and Magic. If you time its reload correctly, it always does critical damage.
@@ -876,14 +727,7 @@
 #            29: This Essence allows for the creation of unique dual blades which offer varying effects, and allows you to leave your body to overwhelm foes.
 #            30: This Essence is utilized in the creation of a Melee Weapon. What sets it apart is the ability to manifest as a sword, scythe, or gun.
 #            31: Here's a new weapon for you to craft. This lance can swap between close and long range, and it can also be charged to great effect.
-#            32:
-#                '''
-#                Эй, {0}, это тебе. Это сверхмощное
-#                оружие ближнего боя, которое обладает
-#                фазой взрывного урона, после чего
-#                следует фаза слабости. Удачи в его
-#                использовании.
-#                '''
+#            32: Эй, {0}, это тебе. Это сверхмощное оружие ближнего боя, которое обладает фазой взрывного урона, после чего следует фаза слабости. Удачи в его использовании.
 #            33: I have another Essence for you. This weapon is a Summon weapon that works in harmony with minions, and it gets stronger as you do.
 #            34: I have another Essence for you to use. This Summon-type wand calls forth this adorable little sentient star, and it just looks so.. squishable..
 #            35: ...Looking past that. You'll have to get up close to use the Star Bits, but they do quite a number on foes if you can land them.
@@ -896,44 +740,14 @@
 #            42: It looks like this next Essence is a strong one. Aspected Damage Type seems to empower the weapon further...
 #            43: I've located another Essence for your use. It seems this Ranged-type weapon is hyperfocused on movement. How about pairing it with some mobility tools..?
 #            44: Another Essence is yours. It's a strong Ranged weapon with incredibly good room-clearing power. How about that?
-#            45:
-#                '''
-#                Вот тебе ещё одна Эссенция. Похоже,
-#                это оружие призывного типа, которое
-#                становится сильнее с увеличением
-#                количества призванных миньонов.
-#                '''
+#            45: Вот тебе ещё одна эссенция. Похоже, это оружие призывного типа, которое становится сильнее с увеличением количества призванных миньонов.
 #            46: Here's a Magic-type Essence. With the power of the stars, you can melt even the strongest of foes. Give it a try..?
 #            47: A Melee Essence is here this time. With its strength, you can create a multifaceted weapon that swaps its arsenal instantly in combat.
-#            48:
-#                '''
-#                {0}, у меня есть для тебя Эссенция.
-#                Похоже, что из неё получится оружие
-#                призывного типа... и оно становится
-#                сильнее находясь в опасности? Тебе
-#                следует это проверить.
-#                '''
-#            49:
-#                '''
-#                Вот ещё одна мощная Эссенция. По всей
-#                видимости, это оружие ближнего боя,
-#                способное казнить врагам. Не следует
-#                недооценивать его потенциал.
-#                '''
+#            48: "{0}, у меня есть для тебя эссенция. Похоже, что из неё получится оружие призывного типа... и оно становится сильнее находясь в опасности? Тебе следует это проверить."
+#            49: Вот ещё одна мощная эссенция. По всей видимости, это оружие ближнего боя, способное казнить врагам. Не следует недооценивать его потенциал.
 #            50: Time for another essence- this time it's a Ranged-type weapon. Seems to be pretty powerful at general destruction.
-#            51:
-#                '''
-#                Вот ещё одно оружие. Похоже на хлыст,
-#                способный призывать роботов-пауков для
-#                атаки врагов.
-#                '''
-#            52:
-#                '''
-#                Это пауки... но не настоящие. Осознание
-#                этого факта может помочь преодолеть
-#                инстинктивную реакцию 'бей или беги'.
-#                Возьмите это на заметку!
-#                '''
+#            51: Вот ещё одно оружие. Похоже на хлыст, способный призывать роботов-пауков для атаки врагов.
+#            52: Это пауки... но не настоящие. Осознание этого факта может помочь преодолеть инстинктивную реакцию 'бей или беги'. Возьмите это на заметку!
 #            53: This is a Melee weapon. It has pretty good anti-armor properties- you can definitely put that to good use.
 #            54: Another weapon is here. It seems to be a Melee weapon- one that uses the power of the elements to attack foes.
 #            55: This Magic-type staff will be incredibly helpful, if I do say so myself. It has the strength to conjure entire stars!
@@ -959,21 +773,8 @@
 #            75: Here's a new weapon for your use. In truth, this Essence is a bit more than that; it's a pair of gloves.
 #            76: Of course, that's not the whole story- you can use these gloves to summon an entire arsenal of weapons.
 #            77: I know the prospect sounds daunting, but you'll deal some heavy damage if you can manage the weapons well.
-#            78:
-#                '''
-#                Отлично, это оружие ближнего боя -
-#                используя силу душ, ты способен
-#                рассекать огромные пространства вокруг
-#                себя и погружаться в пустоту для
-#                мгновенной телепортации.
-#                '''
-#            79:
-#                '''
-#                Похоже, у тебя появилась новая Эссенция.
-#                Она использует уникальный тип урона и
-#                мощные зарядные атаки, но, скорее всего,
-#                будет иметь некоторый урон от отдачи.
-#                '''
+#            78: Отлично, это оружие ближнего боя - используя силу душ, ты способен рассекать огромные пространства вокруг себя и погружаться в пустоту для мгновенной телепортации.
+#            79: Похоже, у тебя появилась новая эссенция. Она использует уникальный тип урона и мощные зарядные атаки, но, скорее всего, будет иметь некоторый урон от отдачи.
 #            80: This Graveyard seems to have connected to this Essence. I hope it'll help you avoid creating the Graveyard in the first place.
 #            81: While powerful, I believe it's a utility item, and not a weapon this time.
 #            82: This Magic Essence, while aspected to nature, seems rather volatile. Perhaps you'd be able to better use it in tandem with other weapons?
@@ -990,13 +791,7 @@
 #            93: A Magic-type essence. It seems to harbor incredible power, but it also seems to require sacrifices in return...
 #            94: How can I say this...? Unlike the other Essences, I felt a presence give this one to me. They said something like... 'It's just a game, so it's OK.'
 #            95: It seems to be able to absorb hostile energy and use it to empower you in turn. I, too, am curious on how it looks.
-#            96:
-#                '''
-#                Эта ракетница стрелкового типа имеет
-#                уникальный ближний бой в паре, но для
-#                её использования... ну, я надеюсь, у
-#                тебя ноги крепкие.
-#                '''
+#            96: Эта ракетница стрелкового типа имеет уникальный ближний бой в паре, но для её использования... ну, я надеюсь, у тебя ноги крепкие.
 #            97: Take into consideration this Magic essence: in short, it turns the world into a canvas you can interact and attack with.
 #            98: Here is a new Essence for your perusal- it'll deal Summon damage. It's rather close-ranged but boasts movement capabilities to help close the gap.
 #            99: You'd think this Summon-type essence wouldn't be a sword, but here it is. It has a very special power hidden within... Just don't unleash it indoors.
@@ -1016,198 +811,70 @@
 #    BossDialogue: {
 #        KingSlime: {
 #            Asphodene: {
-#                1:
-#                    '''
-#                    Ты победил Короля слизней, что ли?
-#                    Отличная работа!
-#                    '''
-#                2:
-#                    '''
-#                    Может, он и был довольно слабым, но
-#                    это, тем не менее, уверенный шаг вперёд.
-#                    '''
-#                3:
-#                    '''
-#                    Кто-то ещё видел того ниндзю? Или
-#                    только мне показалось?
-#                    '''
-#                4:
-#                    '''
-#                    Каким-то образом... он оказался
-#                    достаточно сильным, чтобы разблокировать
-#                    часть Звёздного ряда! Не забудь
-#                    проверить это позже, хорошо?
-#                    '''
-#                5:
-#                    '''
-#                    ...Ну, это пока всё. Продолжай в том же
-#                    духе.
-#                    '''
+#                1: Ты победил Короля слизней, что ли? Отличная работа!
+#                2: Может, он и был довольно слабым, но это, тем не менее, уверенный шаг вперёд.
+#                3: Кто-то ещё видел того ниндзю? Или только мне показалось?
+#                4: Каким-то образом... он оказался достаточно сильным, чтобы разблокировать часть Звёздного ряда! Не забудь проверить это позже, хорошо?
+#                5: "...Ну, это пока всё. Продолжай в том же духе."
 #            }
 #
 #            Eridani: {
-#                1:
-#                    '''
-#                    Многим может показаться, что Король
-#                    слизней был слаб, но на самом деле он
-#                    был очень опасен.
-#                    '''
-#                2:
-#                    '''
-#                    Будем надеяться, что он останется
-#                    мёртвым. Ибо слизням, знаешь ли, такое
-#                    совсем не по нраву.
-#                    '''
-#                3:
-#                    '''
-#                    Некий аспект этого врага разблокировал
-#                    часть Звёздного ряда. Возможно, он был
-#                    необычайно сильным на этот раз?
-#                    '''
-#                4:
-#                    '''
-#                    Впрочем, если он и вернётся, то ты легко его снова одолеешь; обычно так оно и бывает.
-#                    '''
+#                1: Многим может показаться, что Король слизней был слаб, но на самом деле он был очень опасен.
+#                2: Будем надеяться, что он останется мёртвым. Ибо слизням, знаешь ли, такое совсем не по нраву.
+#                3: Некий аспект этого врага разблокировал часть Звёздного ряда. Возможно, он был необычайно сильным на этот раз?
+#                4: Впрочем, если он и вернётся, то ты легко его снова одолеешь; обычно так оно и бывает.
 #            }
 #        }
 #
 #        CthulhuEye: {
 #            Asphodene: {
 #                1: "'Глаз Ктулху'?"
-#                2:
-#                    '''
-#                    Не означает ли это, что 'Ктулху' - не
-#                    единственный?
-#                    '''
-#                3:
-#                    '''
-#                    Если бы он когда-нибудь показал своё
-#                    лицо, то стал бы поистине грозным
-#                    врагом.
-#                    '''
-#                4:
-#                    '''
-#                    Давай подготовимся к этому событию...
-#                    На всякий случай.
-#                    '''
-#                5:
-#                    '''
-#                    Эй... сразить этого врага было вполне!
-#                    Похоже, в Звёздном ряде готова новая
-#                    способность.
-#                    '''
+#                2: Не означает ли это, что 'Ктулху' - не единственный?
+#                3: Если бы он когда-нибудь показал своё лицо, то стал бы поистине грозным врагом.
+#                4: Давай подготовимся к этому событию... На всякий случай.
+#                5: Эй... сразить этого врага было вполне! Похоже, в Звёздном ряде готова новая способность.
 #            }
 #
 #            Eridani: {
-#                1:
-#                    '''
-#                    Неужели Глаз Ктулху, несмотря на свой
-#                    вид, оказался не так страшен?
-#                    '''
-#                2:
-#                    '''
-#                    Похоже, что он сбросил свою шкуру,
-#                    чтобы показать целый арсенал зубов.
-#                    '''
-#                3:
-#                    '''
-#                    Не будь у меня дополнительной
-#                    информации, мне бы показалось, что он
-#                    пытался что-то доказать. Ну и чудик.
-#                    '''
-#                4:
-#                    '''
-#                    А кроме того... теперь у вас есть
-#                    доступ к новой способности в Звёздном
-#                    ряде. Пользуйся на здоровье!
-#                    '''
+#                1: Неужели Глаз Ктулху, несмотря на свой вид, оказался не так страшен?
+#                2: Похоже, что он сбросил свою шкуру, чтобы показать целый арсенал зубов.
+#                3: Не будь у меня дополнительной информации, мне бы показалось, что он пытался что-то доказать. Ну и чудик.
+#                4: А кроме того... теперь у вас есть доступ к новой способности в Звёздном ряде. Пользуйся на здоровье!
 #            }
 #        }
 #
 #        CorruptionBoss: {
 #            Asphodene: {
-#                1:
-#                    '''
-#                    Да уж. Похоже, что существует больше
-#                    одного 'Ктулху'. Не знаю почему, но я
-#                    не так уж и удивлена.
-#                    '''
+#                1: Да уж. Похоже, что существует больше одного 'Ктулху'. Не знаю почему, но я не так уж и удивлена.
 #                2: Glad we stopped that thing before it lived up to its name.
-#                3:
-#                    '''
-#                    Эти материалы... какие-то... Ого,
-#                    какой запах.
-#                    '''
+#                3: Эти материалы... какие-то... Ого, какой запах.
 #                4: Hey, the weapons that you can make from it look pretty powerful! What do you think?
-#                5:
-#                    '''
-#                    Похоже, в Звёздном ряде разблокировалась
-#                    новая способность. Тебе обязательно
-#                    стоит взглянуть на неё.
-#                    '''
+#                5: Похоже, в Звёздном ряде разблокировалась новая способность. Тебе обязательно стоит взглянуть на неё.
 #            }
 #
 #            Eridani: {
-#                1:
-#                    '''
-#                    Опять какой-то орган этого 'Ктулху'
-#                    атаковал магической манипуляцией...
-#                    Неприятно, правда?
-#                    '''
+#                1: Опять какой-то орган этого 'Ктулху' атаковал магической манипуляцией... Неприятно, правда?
 #                2: Этот 'Пожиратель миров' всего лишь большой червь. Я немного разочарована. Предлагаю пожаловаться тому, кто придумал это название.
-#                3:
-#                    '''
-#                    Похоже, ты разблокировал способность в
-#                    Звёздном ряде. Посмотри, что это, когда
-#                    будешь свободен.
-#                    '''
+#                3: Похоже, ты разблокировал способность в Звёздном ряде. Посмотри, что это, когда будешь свободен.
 #            }
 #        }
 #
 #        QueenBee: {
 #            Asphodene: {
-#                1:
-#                    '''
-#                    Что ж, думаю, мне следовало ожидать
-#                    чего-то подобного в джунглях.
-#                    '''
-#                2:
-#                    '''
-#                    Отличная работа. Похоже, что в Звёздном
-#                    ряде разблокировалась ещё одна
-#                    способность.
-#                    '''
+#                1: Что ж, думаю, мне следовало ожидать чего-то подобного в джунглях.
+#                2: Отличная работа. Похоже, что в Звёздном ряде разблокировалась ещё одна способность.
 #            }
 #
 #            Eridani: {
-#                1:
-#                    '''
-#                    Серьёзно? Гигантская пчела... Я бы,
-#                    наверное, выбрала её вместо маленьких
-#                    насекомых... Проще попасть, знаешь ли.
-#                    '''
-#                2:
-#                    '''
-#                    Хмм. По меньшей мере, мы разблокировали
-#                    способность в Звёздном ряде.
-#                    '''
+#                1: Серьёзно? Гигантская пчела... Я бы, наверное, выбрала её вместо маленьких насекомых... Проще попасть, знаешь ли.
+#                2: Хмм. По меньшей мере, мы разблокировали способность в Звёздном ряде.
 #            }
 #        }
 #
 #        Skeletron: {
 #            Asphodene: {
-#                1:
-#                    '''
-#                    Портной оказался просто гигантским,
-#                    зловещим скелетом-монстром... Но таким
-#                    милым. По крайней мере, теперь у тебя
-#                    есть доступ к Темнице.
-#                    '''
-#                2:
-#                    '''
-#                    И благодаря этому разблокировалась ещё
-#                    одна способность в Звёздном ряде.
-#                    '''
+#                1: Портной оказался просто гигантским, зловещим скелетом-монстром... Но таким милым. По крайней мере, теперь у тебя есть доступ к Темнице.
+#                2: И благодаря этому разблокировалась ещё одна способность в Звёздном ряде.
 #                3: Ну что ж, на этом пока всё.
 #            }
 #
@@ -1220,43 +887,15 @@
 #
 #        WallOfFlesh: {
 #            Asphodene: {
-#                1:
-#                    '''
-#                    Вот это... Я никогда раньше не видела
-#                    ничего подобного... вообще. Весь мир
-#                    словно переполнен новой магической
-#                    энергией.
-#                    '''
-#                2:
-#                    '''
-#                    Похоже, Стена плоти либо охраняла,
-#                    либо предотвращала что-то крайне
-#                    важное. Это моё предположение.
-#                    '''
-#                3:
-#                    '''
-#                    Просто чтобы ты знал, в Звёздном ряде
-#                    теперь появилось новое улучшение.
-#                    '''
-#                4:
-#                    '''
-#                    Ну что ж, пора продолжать наши
-#                    исследования! Пора браться за дело!
-#                    '''
+#                1: Вот это... Я никогда раньше не видела ничего подобного... вообще. Весь мир словно переполнен новой магической энергией.
+#                2: Похоже, Стена плоти либо охраняла, либо предотвращала что-то крайне важное. Это моё предположение.
+#                3: Просто чтобы ты знал, в Звёздном ряде теперь появилось новое улучшение.
+#                4: Ну что ж, пора продолжать наши исследования! Пора браться за дело!
 #            }
 #
 #            Eridani: {
-#                1:
-#                    '''
-#                    Ого... Мир претерпел значительные
-#                    изменения после победы над Стеной
-#                    плоти...
-#                    '''
-#                2:
-#                    '''
-#                    Я не встречала ничего подобного. Что
-#                    скрывало это существо?..
-#                    '''
+#                1: Ого... Мир претерпел значительные изменения после победы над Стеной плоти...
+#                2: Я не встречала ничего подобного. Что скрывало это существо?..
 #                3: You've also unlocked a new ability in the Array, but that was a foregone outcome, all things considered.
 #                4: Let's explore these new environs with caution.
 #            }
@@ -1280,23 +919,9 @@
 #
 #        Destroyer: {
 #            Asphodene: {
-#                1:
-#                    '''
-#                    'Уничтожитель...' Я, как правило,
-#                    предпочитаю молчать, но когда что-то
-#                    называется 'Уничтожителем', я ожидаю
-#                    увидеть не просто здоровенного червя.
-#                    '''
-#                2:
-#                    '''
-#                    Его абсурдная длина лишь ослабляла его.
-#                    Запомни это, {0}.
-#                    '''
-#                3:
-#                    '''
-#                    Похоже, в Звёздном ряде доступно ещё
-#                    одно улучшение.
-#                    '''
+#                1: "'Уничтожитель...' Я, как правило, предпочитаю молчать, но когда что-то называется 'Уничтожителем', я ожидаю увидеть не просто здоровенного червя."
+#                2: Его абсурдная длина лишь ослабляла его. Запомни это, {0}.
+#                3: Похоже, в Звёздном ряде доступно ещё одно улучшение.
 #                4: Ну, это всё, что я хотела сказать.
 #            }
 #
@@ -1396,52 +1021,17 @@
 #
 #        MoonLord: {
 #            Asphodene: {
-#                1:
-#                    '''
-#                    Ты справился! Лунный лорд побеждён. Я
-#                    знала, что у тебя получится.
-#                    '''
-#                2:
-#                    '''
-#                    Победа над Лунным лордом усилила твой
-#                    Звёздный ряд. Это заслуженная награда.
-#                    '''
-#                3:
-#                    '''
-#                    Мы прошли долгий путь... Ты стал
-#                    сильнее, чем я могла себе представить!
-#                    '''
-#                4:
-#                    '''
-#                    Мы заслужили хороший отдых. Но что-то
-#                    мне подсказывает, что наши проблемы
-#                    ещё не закончились...
-#                    '''
+#                1: Ты справился! Лунный лорд побеждён. Я знала, что у тебя получится.
+#                2: Победа над Лунным лордом усилила твой Звёздный ряд. Это заслуженная награда.
+#                3: Мы прошли долгий путь... Ты стал сильнее, чем я могла себе представить!
+#                4: Мы заслужили хороший отдых. Но что-то мне подсказывает, что наши проблемы ещё не закончились...
 #            }
 #
 #            Eridani: {
-#                1:
-#                    '''
-#                    Лунный лорд побеждён... Какая
-#                    триумфальная победа!
-#                    '''
-#                2:
-#                    '''
-#                    Похоже, что победа над ним даровало
-#                    Звёздному ряду ещё больше силы.
-#                    '''
-#                3:
-#                    '''
-#                    Боюсь, наше путешествие ещё не
-#                    окончено. Мы должны двигаться дальше.
-#                    Более того...
-#                    '''
-#                4:
-#                    '''
-#                    У меня такое предчувствие, что мирная
-#                    обстановка продлится недолго. Давай
-#                    будем начеку.
-#                    '''
+#                1: Лунный лорд побеждён... Какая триумфальная победа!
+#                2: Похоже, что победа над ним даровало Звёздному ряду ещё больше силы.
+#                3: Боюсь, наше путешествие ещё не окончено. Мы должны двигаться дальше. Более того...
+#                4: У меня такое предчувствие, что мирная обстановка продлится недолго. Давай будем начеку.
 #            }
 #        }
 #
@@ -1594,19 +1184,8 @@
 #            }
 #
 #            Eridani: {
-#                1:
-#                    '''
-#                    Поздравляю, ты победил Императрицу
-#                    света. Давай теперь оставим жучков в
-#                    покое, ладно?
-#                    '''
-#                4:
-#                    '''
-#                    Странно... У меня такое чувство, что
-#                    нам снова придётся использовать
-#                    насекомое для призыва босса. Это будет
-#                    весьма утомительно.
-#                    '''
+#                1: Поздравляю, ты победил Императрицу света. Давай теперь оставим жучков в покое, ладно?
+#                4: Странно... У меня такое чувство, что нам снова придётся использовать насекомое для призыва босса. Это будет весьма утомительно.
 #            }
 #        }
 #
@@ -1638,31 +1217,15 @@
 #    CalamityBossDialogue: {
 #        DesertScourge: {
 #            Asphodene: {
-#                1: You've defeated that evil serpent. I do wonder, though... Where did it come from?
-#                2: Looking closely, it seems to have been an aquatic monster.. once upon a time. So.. why was it in the desert?
-#                3: This world's secrets are still a mystery to us. Anyway, good job regardless.
+#                1: Ты одолел этого злобного змея. Но мне интересно... Откуда он взялся?
+#                2: Приглядевшись внимательнее, можно разглядеть, что некогда это было водное чудовище. Но... как оно очутилось в пустыне?
+#                3: Секреты этого мира всё ещё скрыты от нас. Но в любом случае, ты отлично справился.
 #            }
 #
 #            Eridani: {
-#                1:
-#                    '''
-#                    Ты справился с бичом песчаных земель.
-#                    Откуда он появился - я не знаю, да и
-#                    ты, небось, тоже. Но...
-#                    '''
-#                2:
-#                    '''
-#                    Очевидно, что это существо не было
-#                    предназначено для рытья туннелей.
-#                    Похоже, изначально оно было водным
-#                    зверем. Так что же оно тут делало?
-#                    Мир полон загадок...
-#                    '''
-#                3:
-#                    '''
-#                    Как бы то ни было... ты сражался
-#                    храбро. Уверена, добыча нам пригодится.
-#                    '''
+#                1: Ты справился с бичом песчаных земель. Откуда он появился - я не знаю, да и ты, небось, тоже. Но...
+#                2: Очевидно, что это существо не было предназначено для рытья туннелей. Похоже, изначально оно было водным зверем. Так что же оно тут делало? Мир полон загадок...
+#                3: Как бы то ни было... ты сражался храбро. Уверена, добыча нам пригодится.
 #            }
 #        }
 #
@@ -1674,27 +1237,9 @@
 #            }
 #
 #            Eridani: {
-#                1:
-#                    '''
-#                    С Крабулоном покончено. Когда я
-#                    впервые его увидела, то подумала, что
-#                    это какой-то мутировавший морской
-#                    зверь, вроде Пустынного бича.
-#                    '''
-#                2:
-#                    '''
-#                    Но... на самом деле всё гораздо более
-#                    ужасающе. Похоже, эти грибы-паразиты
-#                    просто использовали этого гигантского
-#                    краба в качестве хозяина для более
-#                    эффективного питания.
-#                    '''
-#                3:
-#                    '''
-#                    Как подумаю об этом, так воротит
-#                    начинает. Спасибо, что положил этому
-#                    конец.
-#                    '''
+#                1: С Крабулоном покончено. Когда я впервые его увидела, то подумала, что это какой-то мутировавший морской зверь, вроде Пустынного бича.
+#                2: Но... на самом деле всё гораздо более ужасающе. Похоже, эти грибы-паразиты просто использовали этого гигантского краба в качестве хозяина для более эффективного питания.
+#                3: Как подумаю об этом, так воротит начинает. Спасибо, что положил этому конец.
 #            }
 #        }
 #
@@ -1705,20 +1250,8 @@
 #            }
 #
 #            Eridani: {
-#                1:
-#                    '''
-#                    Ты избавил мир от Разума улья. Хотя он
-#                    и не являлся главным источником
-#                    искажения, подавление его влияния,
-#                    вероятно, помогло остановить дальнейшее
-#                    распространение зла.
-#                    '''
-#                2:
-#                    '''
-#                    Важно теперь внимательно следить за
-#                    потенциальными угрозами, которые может
-#                    нести в себе искажение.
-#                    '''
+#                1: Ты избавил мир от Разума улья. Хотя он и не являлся главным источником искажения, подавление его влияния, вероятно, помогло остановить дальнейшее распространение зла.
+#                2: Важно теперь внимательно следить за потенциальными угрозами, которые может нести в себе искажение.
 #            }
 #        }
 #
@@ -1729,19 +1262,8 @@
 #            }
 #
 #            Eridani: {
-#                1:
-#                    '''
-#                    Ты одолел улей Перфораторов и тех
-#                    мерзких червей, что сражались с ним.
-#                    Не знаю, как у тебя, но у меня
-#                    мурашки пробегают по коже от одного
-#                    только вида этих мясистых созданий!
-#                    '''
-#                2:
-#                    '''
-#                    Впрочем, все живые существа состоят из
-#                    плоти. Тьфу, ну ты понял, о чём я...
-#                    '''
+#                1: Ты одолел улей Перфораторов и тех мерзких червей, что сражались с ним. Не знаю, как у тебя, но у меня мурашки пробегают по коже от одного только вида этих мясистых созданий!
+#                2: Впрочем, все живые существа состоят из плоти. Тьфу, ну ты понял, о чём я...
 #            }
 #        }
 #
@@ -1855,8 +1377,8 @@
 #            }
 #
 #            Eridani: {
-#                1: We've defeated the Ravager. Once upon a time, it served as a grim last resort employed against the Jungle Tyrant. Now it can finally rest.
-#                2: Even in death, it stalked without purpose. I'm glad we bested it, but its existence does nothing but give credence to the tales of Yharim's overwhelming might.
+#                1: Мы победили Разрушителя. Некогда он служил грозным оружием в борьбе с Тираном джунглей. Теперь он может наконец обрести покой.
+#                2: Даже будучи мёртвым, он бесцельно скитался. Я рада, что нам удалось его одолеть, но его существование лишь подтверждает легенды о несокрушимой мощи Ярима.
 #            }
 #        }
 #
@@ -1885,28 +1407,9 @@
 #        }
 #
 #        VagrantEridani: {
-#            1:
-#                '''
-#                Погоди немного. Я забыла упомянуть об
-#                этом ранее, но у меня есть кое-что для
-#                тебя... Может, ты поможешь мне выяснить,
-#                откуда это.
-#                '''
-#            2:
-#                '''
-#                Это выглядит так знакомо, и всё же
-#                что-то мешает мне вспомнить, что это.
-#                Как же это раздражает. Я даже не могу
-#                вспомнить, когда я его получила.
-#                '''
-#            3:
-#                '''
-#                Говорят, что столкновение с
-#                препятствиями - признак того, что ты
-#                движешься в правильном направлении.
-#                Давай внимательнее рассмотрим это как
-#                можно скорее.
-#                '''
+#            1: Погоди немного. Я забыла упомянуть об этом ранее, но у меня есть кое-что для тебя... Может, ты поможешь мне выяснить, откуда это.
+#            2: Это выглядит так знакомо, и всё же что-то мешает мне вспомнить, что это. Как же это раздражает. Я даже не могу вспомнить, когда я его получила.
+#            3: Говорят, что столкновение с препятствиями - признак того, что ты движешься в правильном направлении. Давай внимательнее рассмотрим это как можно скорее.
 #        }
 #
 #        Nalhaun: {
@@ -1931,23 +1434,10 @@
 #        }
 #
 #        WarriorAsphodene: {
-#            1:
-#                '''
-#                Кажется, с небом что-то не так... Что
-#                происходит?..
-#                '''
-#            2:
-#                '''
-#                Ответ, который ты ищешь, не тот, на
-#                который ты надеешься.
-#                '''
+#            1: Кажется, с небом что-то не так... Что происходит?..
+#            2: Ответ, который ты ищешь, не тот, на который ты надеешься.
 #            3: Слу...
-#            4:
-#                '''
-#                Дай мне закончить, Асфодена. Время на
-#                исходе. Первый Звездоносец прибыл в
-#                этот мир.
-#                '''
+#            4: Дай мне закончить, Асфодена. Время на исходе. Первый Звездоносец прибыл в этот мир.
 #            5: Are you kidding me? After all that searching we did, he just waltzes up to us?
 #            6: He must have noticed your defeat of the Moon Lord- an eldritch beast such as it does not fall lightly.
 #            7: Yeah, we could tell. So... I assume you have a plan, or something?
@@ -1959,64 +1449,17 @@
 #        }
 #
 #        WarriorEridani: {
-#            1:
-#                '''
-#                Ты тоже это видишь, да? Небо какое-то
-#                аномально яркое.
-#                '''
-#            2:
-#                '''
-#                Ответ, который ты ищешь, может
-#                оказаться неутешительным.
-#                '''
+#            1: Ты тоже это видишь, да? Небо какое-то аномально яркое.
+#            2: Ответ, который ты ищешь, может оказаться неутешительным.
 #            3: Персей. Я...
-#            4:
-#                '''
-#                Дай мне закончить, Эридани. Время
-#                поджимает. Первый Звездоносец явился в
-#                этот мир.
-#                '''
-#            5:
-#                '''
-#                Мы столько времени его искали...
-#                почему он сам пришёл к нам?
-#                '''
-#            6:
-#                '''
-#                Он, должно быть, слышал о твоей победе
-#                над Лунным лордом. Такое существо не
-#                так-то просто убить.
-#                '''
-#            7:
-#                '''
-#                Да, это логично, но, с другой стороны,
-#                это делает нас виноватыми... Ну да
-#                ладно, у тебя есть какой-нибудь план?
-#                '''
-#            8:
-#                '''
-#                По всей видимости, его влияние на мир
-#                достигнет своего максимума в ближайшие
-#                несколько дней.
-#                '''
-#            9:
-#                '''
-#                Если у тебя есть ресурсы, которые
-#                можно добыть только ночью, то лучше
-#                поторопись.
-#                '''
-#            10:
-#                '''
-#                Я дал тебе артефакт из его родного
-#                мира; хотя я не знаю его предназначения,
-#                но полагаю, что он ускорит его прибытие.
-#                '''
-#            11:
-#                '''
-#                Используй это только после тщательной
-#                подготовки. Ставки никогда не были
-#                столь высоки.
-#                '''
+#            4: Дай мне закончить, Эридани. Время поджимает. Первый Звездоносец явился в этот мир.
+#            5: Мы столько времени его искали... почему он сам пришёл к нам?
+#            6: Он, должно быть, слышал о твоей победе над Лунным лордом. Такое существо не так-то просто убить.
+#            7: Да, это логично, но, с другой стороны, это делает нас виноватыми... Ну да ладно, у тебя есть какой-нибудь план?
+#            8: По всей видимости, его влияние на мир достигнет своего максимума в ближайшие несколько дней.
+#            9: Если у тебя есть ресурсы, которые можно добыть только ночью, то лучше поторопись.
+#            10: Я дал тебе артефакт из его родного мира; хотя я не знаю его предназначения, но полагаю, что он ускорит его прибытие.
+#            11: Используй это только после тщательной подготовки. Ставки никогда не были столь высоки.
 #            12: ...
 #        }
 #    }
@@ -2024,45 +1467,20 @@
 #    RegularIdleDialogue: {
 #        NormalIdleDialogue1: {
 #            Asphodene: {
-#                1:
-#                    '''
-#                    Сестру, небось, воротит от этих зомби,
-#                    которые каждую ночь выползают из своих
-#                    могил.
-#                    '''
+#                1: Сестру, небось, воротит от этих зомби, которые каждую ночь выползают из своих могил.
 #                2: А как же я?
-#                3:
-#                    '''
-#                    Пока у них есть деньги, это ведь
-#                    выгодно для нас, ведь так?
-#                    '''
+#                3: Пока у них есть деньги, это ведь выгодно для нас, ведь так?
 #            }
 #
 #            Eridani: {
-#                1:
-#                    '''
-#                    Каждую ночь из земли восстают эти
-#                    мерзкие существа...
-#                    '''
-#                2:
-#                    '''
-#                    Фу, гадость. Давай поскорее прикончим
-#                    их. И... не забудь потом принять душ.
-#                    '''
+#                1: Каждую ночь из земли восстают эти мерзкие существа...
+#                2: Фу, гадость. Давай поскорее прикончим их. И... не забудь потом принять душ.
 #            }
 #        }
 #
 #        NormalIdleDialogue2: {
-#            Asphodene.1:
-#                '''
-#                Можно и расслабиться, но не забывай
-#                про нашу цель, пожалуйста.
-#                '''
-#            Eridani.1:
-#                '''
-#                Не забывай отдыхать. Бери столько
-#                времени, сколько нужно.
-#                '''
+#            Asphodene.1: Можно и расслабиться, но не забывай про нашу цель, пожалуйста.
+#            Eridani.1: Не забывай отдыхать. Бери столько времени, сколько нужно.
 #        }
 #
 #        NormalIdleDialogue3: {
@@ -2072,17 +1490,8 @@
 #            }
 #
 #            Eridani: {
-#                1:
-#                    '''
-#                    Значение внешности оружия? Ну, оно
-#                    имеет значение, но удобство намного
-#                    перевешивает косметическую ценность.
-#                    '''
-#                2:
-#                    '''
-#                    Иногда, бывает... Сложно сделать выбор.
-#                    Понимаешь, о чем я?
-#                    '''
+#                1: Значение внешности оружия? Ну, оно имеет значение, но удобство намного перевешивает косметическую ценность.
+#                2: Иногда, бывает... Сложно сделать выбор. Понимаешь, о чем я?
 #            }
 #        }
 #
@@ -2094,23 +1503,9 @@
 #            }
 #
 #            Eridani: {
-#                1:
-#                    '''
-#                    Что за 'Звездоносец'? Неохота тебе это
-#                    говорить, но мы знаем о них только
-#                    понаслышке.
-#                    '''
-#                2:
-#                    '''
-#                    Мы появились при помощи заклинания
-#                    призыва, но, как странно, я не помню
-#                    момент призыва.
-#                    '''
-#                3:
-#                    '''
-#                    Мой брат меняет мои самые первые
-#                    воспоминания. Ну, а дальше...
-#                    '''
+#                1: Что за 'Звездоносец'? Неохота тебе это говорить, но мы знаем о них только понаслышке.
+#                2: Мы появились при помощи заклинания призыва, но, как странно, я не помню момент призыва.
+#                3: Мой брат меняет мои самые первые воспоминания. Ну, а дальше...
 #            }
 #        }
 #
@@ -2120,13 +1515,7 @@
 #                2: It would be a shame if you did. I made it for you, after all.
 #            }
 #
-#            Eridani.1:
-#                '''
-#                А ты пользуешься Звёздным рядом? Он
-#                поможет. Стой, не обращай внимания на
-#                то, что я сказала. Разумеется, ты в
-#                курсе, что он поможет...
-#                '''
+#            Eridani.1: А ты пользуешься Звёздным рядом? Он поможет. Стой, не обращай внимания на то, что я сказала. Разумеется, ты в курсе, что он поможет...
 #        }
 #
 #        NormalIdleDialogue6: {
@@ -2143,71 +1532,28 @@
 #
 #        NormalIdleDialogue7: {
 #            Asphodene: {
-#                1:
-#                    '''
-#                    У меня возникла идея касательно
-#                    оружия, {0}.
-#                    '''
+#                1: У меня возникла идея касательно оружия, {0}.
 #                2: Погоди.
-#                3:
-#                    '''
-#                    Ладно, забудь. Не будем об этом
-#                    говорить.
-#                    '''
-#                4:
-#                    '''
-#                    Оно было бы слишком габаритным, не
-#                    говоря уже об остальном. А ещё есть
-#                    проблема с нагревом...
-#                    '''
+#                3: Ладно, забудь. Не будем об этом говорить.
+#                4: Оно было бы слишком габаритным, не говоря уже об остальном. А ещё есть проблема с нагревом...
 #            }
 #
 #            Eridani: {
-#                1:
-#                    '''
-#                    Итак, вот такая идея оружия пришла мне
-#                    в голову, {0}.
-#                    '''
-#                2:
-#                    '''
-#                    Подожди-ка... На самом деле...
-#                    Ну ладно, неважно.
-#                    '''
-#                3:
-#                    '''
-#                    Даже если мы решим проблему с
-#                    энергопотреблением, нам всё равно
-#                    придётся решать проблему с весом...
-#                    '''
+#                1: Итак, вот такая идея оружия пришла мне в голову, {0}.
+#                2: Подожди-ка... На самом деле... Ну ладно, неважно.
+#                3: Даже если мы решим проблему с энергопотреблением, нам всё равно придётся решать проблему с весом...
 #            }
 #        }
 #
 #        NormalIdleDialogue8: {
 #            Asphodene: {
-#                1:
-#                    '''
-#                    Некоторые из этих горожан не слишком
-#                    приятные, да?
-#                    '''
-#                2:
-#                    '''
-#                    Всё так дорого стоит! И у всех
-#                    монополия!
-#                    '''
+#                1: Некоторые из этих горожан не слишком приятные, да?
+#                2: Всё так дорого стоит! И у всех монополия!
 #            }
 #
 #            Eridani: {
-#                1:
-#                    '''
-#                    Эти торговцы явно завышают цены на свои
-#                    товары!
-#                    '''
-#                2:
-#                    '''
-#                    Слушай, а если мы их чутка обдурим,
-#                    они заметят? Или может не стоит?
-#                    Ладно... не будем.
-#                    '''
+#                1: Эти торговцы явно завышают цены на свои товары!
+#                2: Слушай, а если мы их чутка обдурим, они заметят? Или может не стоит? Ладно... не будем.
 #            }
 #        }
 #
@@ -2390,27 +1736,13 @@
 #
 #        LightIdleDialogue: {
 #            Asphodene: {
-#                1:
-#                    '''
-#                    Этот нескончаемый свет сводит с ума...
-#                    Наверняка есть способ его остановить!
-#                    '''
-#                2:
-#                    '''
-#                    Персей сказал нам использовать
-#                    'Желание прародителя'. Возможно, оно
-#                    содержит ключ к разгадке?
-#                    '''
+#                1: Этот нескончаемый свет сводит с ума... Наверняка есть способ его остановить!
+#                2: Персей сказал нам использовать 'Желание прародителя'. Возможно, оно содержит ключ к разгадке?
 #            }
 #
 #            Eridani: {
 #                1: Этот вечный свет просто жуть...
-#                2:
-#                    '''
-#                    Персей дал нам 'Желание прародителя'.
-#                    Чувствую, что оно может стать ключом
-#                    к разгадке этой тайны.
-#                    '''
+#                2: Персей дал нам 'Желание прародителя'. Чувствую, что оно может стать ключом к разгадке этой тайны.
 #            }
 #        }
 #    }
@@ -2499,11 +1831,7 @@
 #                2: wip
 #            }
 #
-#            1:
-#                '''
-#                Похоже, тебя отравили. Я отправлю тебе открытку с пожеланиями
-#                скорейшего выздоровления.
-#                '''
+#            1: Похоже, тебя отравили. Я отправлю тебе открытку с пожеланиями скорейшего выздоровления.
 #            2: Похоже, твоя защита ослабла! Будь осторожен.
 #            3: You've been silenced! Magic is out of the question.
 #            4: I think you've been cursed. That's.. not good. You aren't able to use anything for now.
@@ -2566,65 +1894,25 @@
 #            61: A strong foe draws near. It's time to fight.
 #            62: Right. No more games. A powerful foe is approaching.
 #            63: Looks like danger's on the horizon, {0}. I've been itching for a fight!
-#            64:
-#                '''
-#                Глаз... приближается. Осторожнее, он большой. Он, кажется,
-#                становится сильнее, когда на последнем издыхании.
-#                '''
-#            65:
-#                '''
-#                Вот и владыка слизней! Думаю, у него есть что-то вроде
-#                телепортации...
-#                '''
-#            66:
-#                '''
-#                Колоссальный червь! Следи, откуда он вылезает, он будет
-#                пытаться атаковать твои слепые зоны!
-#                '''
-#            67:
-#                '''
-#                Это создание пытается напрямую атаковать твой разум!.. Не
-#                поддавайся обману миражей!
-#                '''
-#            68:
-#                '''
-#                Берегись... Королева пчёл пробудилась! Уворачивайся от её
-#                горизонтальных рывков!
-#                '''
-#            69:
-#                '''
-#                Не недооценивай этого монстра! Держись подальше от его черепа
-#                и рук!
-#                '''
-#            70:
-#                '''
-#                Эта штука гигантская! Если сможешь, постарайся построить путь
-#                для борьбы с ней.
-#                '''
-#            71:
-#                '''
-#                К нам направляются два огромных глаза! Что ж, посмотрим...
-#                Красный будет стрелять, а зелёный - таранить.
-#                '''
+#            64: Глаз... приближается. Осторожнее, он большой. Он, кажется, становится сильнее, когда на последнем издыхании.
+#            65: Вот и владыка слизней! Думаю, у него есть что-то вроде телепортации...
+#            66: Колоссальный червь! Следи, откуда он вылезает, он будет пытаться атаковать твои слепые зоны!
+#            67: Это создание пытается напрямую атаковать твой разум!.. Не поддавайся обману миражей!
+#            68: Берегись... Королева пчёл пробудилась! Уворачивайся от её горизонтальных рывков!
+#            69: Не недооценивай этого монстра! Держись подальше от его черепа и рук!
+#            70: Эта штука гигантская! Если сможешь, постарайся построить путь для борьбы с ней.
+#            71: К нам направляются два огромных глаза! Что ж, посмотрим... Красный будет стрелять, а зелёный - таранить.
 #            72: What in the world is that thing? A deer? It's only got one eye... aim for it!
 #            73: It's another colossal slime! It looks like it's going to summon some minions!
 #            74: A Hallow-aspected foe has appeared! Maybe leave the butterfly alone next time...?
 #            75: A giant mechanical worm.. What can we do..? How about trying to attack multiple parts of it at once?
-#            76:
-#                '''
-#                Это усовершенствованная версия Скелетрона... Попробуй сначала
-#                 атаковать руки, а не голову.
-#                 '''
+#            76: Это усовершенствованная версия Скелетрона... Попробуй сначала атаковать руки, а не голову.
 #            77: Plantera is awake! Be mindful of its vines. It would be great to have a huge arena to fight it in.
 #            78: An ancient mechanical monster.. Watch out for the traps in the temple while fighting it.
 #            79: You reeled in something crazy! Something tells me you should stay near the sea!
 #            80: It's one of those Lunatic Cultists.. Stop them before they unleash a calamity..!
 #            81: I can't believe it.. it's the Moon Lord! This is the final battle! We have to win this!
-#            82:
-#                '''
-#                Воин света приближается... Будь готов, когда он превзойдёт
-#                свои лимиты!
-#                '''
+#            82: Воин света приближается... Будь готов, когда он превзойдёт свои лимиты!
 #            83: Что-то в этом враге мне знакомо... Смотри в оба за его мечом - похоже, он может принимать разные формы!
 #            84: Don't underestimate this foe..! Keep grabbing the stolen lifeforce he's taking from you!
 #            85: This witch attacks with paint! Mind what color you're doused in!
@@ -2679,53 +1967,17 @@
 #            134: Tributes to the thing in the graveyard has summoned a powerful foe. I don't know what else you expected!
 #            135: The Abyssal Shadows are converging! I sense powerful dark magic from this sea creature..
 #            136: The elements themselves are on the hunt. Let's show them a thing or two!
-#            137:
-#                '''
-#                Здесь стоит невыносимая жара. Похоже, что в пустынях везде
-#                одинаково жарко.
-#                '''
-#            138:
-#                '''
-#                Вот мы и в джунглях. Будь осторожен при исследовании. А, и не
-#                забывай исследовать всё вокруг!
-#                '''
-#            139:
-#                '''
-#                Итак, это же океан. ...Может, ты хотел, чтобы я сказал море? Но
-#                я сказала океан.
-#                '''
+#            137: Здесь стоит невыносимая жара. Похоже, что в пустынях везде одинаково жарко.
+#            138: Вот мы и в джунглях. Будь осторожен при исследовании. А, и не забывай исследовать всё вокруг!
+#            139: Итак, это же океан. ...Может, ты хотел, чтобы я сказал море? Но я сказала океан.
 #            140: Ну, разве не классно тут, наверху?
-#            141:
-#                '''
-#                Преисподняя, значит? Интересно. Конечно, это и так понятно, но
-#                здесь чертовски опасно.
-#                '''
+#            141: Преисподняя, значит? Интересно. Конечно, это и так понятно, но здесь чертовски опасно.
 #            142: Мир тут разлагается от искажения. Не будем медлить.
-#            143:
-#                '''
-#                Здесь земля словно плоть. Мне кажется, нам не стоит здесь
-#                задерживаться. Но это и так понятно.
-#                '''
-#            144:
-#                '''
-#                Смотри, снег! Мне всегда нравился снег. Ну, конечно, тот, что
-#                из замёршей воды.
-#                '''
-#            145:
-#                '''
-#                Это же освящение, о котором рассказывают в легендах! Круто!
-#                Правда, тут всё хочет нас убить. Обидно.
-#                '''
-#            146:
-#                '''
-#                Вот это да! Это место поистине уникально. Такие грибы не каждый
-#                день увидишь.
-#                '''
-#            147:
-#                '''
-#                Здесь просто костяная тьма врагов! Не хочешь ли немного
-#                адреналина? Я вот хочу.
-#                '''
+#            143: Здесь земля словно плоть. Мне кажется, нам не стоит здесь задерживаться. Но это и так понятно.
+#            144: Смотри, снег! Мне всегда нравился снег. Ну, конечно, тот, что из замёршей воды.
+#            145: Это же освящение, о котором рассказывают в легендах! Круто! Правда, тут всё хочет нас убить. Обидно.
+#            146: Вот это да! Это место поистине уникально. Такие грибы не каждый день увидишь.
+#            147: Здесь просто костяная тьма врагов! Не хочешь ли немного адреналина? Я вот хочу.
 #            148: So this is the meteor impact we heard...
 #            149: This is.. the Brimstone Crag. Something dreadful happened here.
 #            150: So this is the Astral Infection. I've read about it, but actually seeing it...
@@ -2845,66 +2097,34 @@
 #            52: That doesn't look good.
 #            53: This could be going better..
 #            54: Oww..
-#            55: Yikes.
-#            56: This is.. bad..
+#            55: Ой.
+#            56: Это... плохо...
 #            57: Ох... не к добру это.
 #            58: They'll pay for that..
 #            59: A powerful foe approaches. Let's send it back to where it belongs.
-#            60:
-#                '''
-#                Ощущаю приближение мощной энергии. Готовы мы или нет, но
-#                настало время сражения.
-#                '''
+#            60: Ощущаю приближение мощной энергии. Готовы мы или нет, но настало время сражения.
 #            61: A strong opponent draws near. Prepare yourself.
 #            62: Stay alert, {0}. Something powerful is on its way.
-#            63: Danger approaches. We will show no mercy.
-#            64:
-#                '''
-#                Приближается. Что бы это ни было, оно опасно. Будь особенно
-#                осторожен, когда оно будет ослаблено; оно может впасть в ярость.
-#                '''
-#            65:
-#                '''
-#                Это же... гигантский слизень. Похоже, он способен двигаться
-#                очень быстро. Обрати внимание на это.
-#                '''
-#            66:
-#                '''
-#                Видимо, это Пожиратель миров. Он попытается застать тебя
-#                врасплох из-под земли.
-#                '''
+#            63: Опасность приближается. Мы не пощадим никого.
+#            64: Приближается. Что бы это ни было, оно опасно. Будь особенно осторожен, когда оно будет ослаблено; оно может впасть в ярость.
+#            65: Это же... гигантский слизень. Похоже, он способен двигаться очень быстро. Обрати внимание на это.
+#            66: Видимо, это Пожиратель миров. Он попытается застать тебя врасплох из-под земли.
 #            67: Берегись. Он пытается атаковать твой разум. Следи за миражами.
 #            68: Огромная пчела атакует! Не попадись в её мед!
-#            69:
-#                '''
-#                Портной превратился в... это... Держитесь подальше от его черепа
-#                и рук.
-#                '''
+#            69: Портной превратился в... это... Держитесь подальше от его черепа и рук.
 #            70: Эта штука невероятно сильна... Что бы ты ни делал, просто беги!..
-#            71:
-#                '''
-#                Глаз Ктулху вернулся? Погоди, их двое!.. Попробуй
-#                сконцентрироваться на одном из них!
-#                '''
+#            71: Глаз Ктулху вернулся? Погоди, их двое!.. Попробуй сконцентрироваться на одном из них!
 #            72: It's a cyclops... wait.. It has antlers... Is it a deer? Is it both..?
 #            73: Looks to be another type of gigantic slime. I have a feeling it'll use minions to do its bidding.
 #            74: Что-то опасное зреет в освящении ... Похоже, оно оно стремится вобрать в себя огромную силу в дневное время!
 #            75: The Destroyer approaches.. Let's try using area-of-effect attacks against it.
-#            76:
-#                '''
-#                Скелетрон вернулся, и он сильнее прежнего! Сначала сосредоточься
-#                на его конечностях.
-#                '''
+#            76: Скелетрон вернулся, и он сильнее прежнего! Сначала сосредоточься на его конечностях.
 #            77: The menace of the Jungle is attacking..! Don't get stuck on your surroundings!
 #            78: The Lizhard's beast is awake! Mind the Jungle Temple's traps during this fight.
 #            79: You've reeled in a dangerous foe! Stay near the sea lest it become enraged!
 #            80: It's a Lunatic Cultist.. You have to defeat them before they can summon calamity!
 #            81: The Moon Lord.. We come face to face with a god. We have to win this! There's no other option!
-#            82:
-#                '''
-#                Воин света приближается... Его крушение лимитов просто
-#                невероятно мощные!
-#                '''
+#            82: Воин света приближается... Его крушение лимитов просто невероятно мощные!
 #            83: Something about this foe seems familiar... Looks like he can manipulate space to some extent!
 #            84: Don't underestimate this king of eld! Take back the lifeforce he's stealing!
 #            85: She's covering you with paint. Take careful note of your color!
@@ -2957,53 +2177,17 @@
 #            132: I can sense an undead beast approaching! Get ready for a fight!
 #            133: The Abyssal Shadows are converging..! This sea monster holds dominion over dark magic!
 #            134: Primordial energy is forming all around you.. The elements themselves are on the attack!
-#            135:
-#                '''
-#                Да это же пустыня. Серьёзно... Я не переношу жару, а здесь
-#                просто адская жара.
-#                '''
-#            136:
-#                '''
-#                Вон, какая зелень! Это же джунгли! Место опасное, но и наградит
-#                тебя сполна.
-#                '''
-#            137:
-#                '''
-#                У тебя скоро закончится кислород. Не советую сгореть в атмосфере.
-#                Не спрашивай, откуда я знаю.
-#                '''
+#            135: Да это же пустыня. Серьёзно... Я не переношу жару, а здесь просто адская жара.
+#            136: Вон, какая зелень! Это же джунгли! Место опасное, но и наградит тебя сполна.
+#            137: У тебя скоро закончится кислород. Не советую сгореть в атмосфере. Не спрашивай, откуда я знаю.
 #            138: Ну вот, место покоя усопших. Давай посмотрим, что тут есть.
-#            139:
-#                '''
-#                Это океан... Его не переплыть, так что лучше оставить его в
-#                покое.
-#                '''
-#            140:
-#                '''
-#                Я чувствую исходящую от этого места зловещую ауру. Мне бы не
-#                хотелось здесь задерживаться.
-#                '''
+#            139: Это океан... Его не переплыть, так что лучше оставить его в покое.
+#            140: Я чувствую исходящую от этого места зловещую ауру. Мне бы не хотелось здесь задерживаться.
 #            141: Это место... отвратительное. Давай не будем здесь задерживаться.
-#            142:
-#                '''
-#                Самый обычный северный лес. Не то чтобы мне не нравились
-#                заснеженные места.
-#                '''
-#            143:
-#                '''
-#                Мы будто попали в сказку. Только было бы лучше, если бы тут не
-#                было столько враждебной живности.
-#                '''
-#            144:
-#                '''
-#                Гигантские светящиеся грибы... Cловно... приветствуют нас?
-#                Надо бы взять парочку с собой, на всякий случай.
-#                '''
-#            145:
-#                '''
-#                Ощущаю повсюду ловушки. Здесь также спрятано сильное оружие.
-#                Будь начеку.
-#                '''
+#            142: Самый обычный северный лес. Не то чтобы мне не нравились заснеженные места.
+#            143: Мы будто попали в сказку. Только было бы лучше, если бы тут не было столько враждебной живности.
+#            144: Гигантские светящиеся грибы... Cловно... приветствуют нас? Надо бы взять парочку с собой, на всякий случай.
+#            145: Ощущаю повсюду ловушки. Здесь также спрятано сильное оружие. Будь начеку.
 #            146: So this is the meteor impact we heard...
 #            147: The Brimstone Crag.. I can feel the horrors of the past..
 #            148: This is the Astral Infection. A subject I'm all too familiar with...
@@ -3031,11 +2215,7 @@
 #            170: Let's do this.
 #            171: Просто скажи, когда.
 #            172: Let's find an opening.
-#            173:
-#                '''
-#                Небесные координаты установлены. Добро пожаловать в Обсерваторию
-#                Заполярье.
-#                '''
+#            173: Небесные координаты установлены. Добро пожаловать в Обсерваторию Заполярье.
 #            174: We've made it. These are asteroids of interest. Let's look around.
 #            175: This is it. An entire planet that's devoid of color? The surface looks like it was wiped away somehow...
 #            176: Where is this place? It looks very familiar...
@@ -3079,13 +2259,7 @@
 #    VNDialogue: {
 #        SceneID: {
 #            0: {
-#                Dialogue.0:
-#                    '''
-#                    В вашей руке скрывается таинственный диск.
-#                    Мириады отблесков искрятся на его звёздной
-#                    поверхности. Он словно просит вас о помощи.
-#                    Не желаете ли заглянуть поглубже?
-#                    '''
+#                Dialogue.0:  В вашей руке скрывается таинственный диск. Мириады отблесков искрятся на его звёздной поверхности. Он словно просит вас о помощи. Не желаете ли заглянуть поглубже?
 #
 #                Choices: {
 #                    1: Продолжить.
@@ -3103,14 +2277,7 @@
 #            }
 #
 #            2: {
-#                Dialogue.0:
-#                    '''
-#                    Этот мир отличается от того, из которого
-#                    изначально прибыл ваш персонаж, и в нём
-#                    может быть более продвинутый прогресс, чем
-#                    у вашего персонажа. Синхронизировать
-#                    прогресс мира с прогрессом персонажа?
-#                    '''
+#                Dialogue.0: Этот мир отличается от того, из которого изначально прибыл ваш персонаж, и в нём может быть более продвинутый прогресс, чем у вашего персонажа. Синхронизировать прогресс мира с прогрессом персонажа?
 #
 #                Choices: {
 #                    1: Синхронизировать прогресс и сделать этот мир основным.
@@ -3121,24 +2288,9 @@
 #
 #            3: {
 #                Dialogue: {
-#                    0:
-#                        '''
-#                        Приветствую! Я Асфодена - Астра, а значит
-#                        ты - мой Звездоносец.
-#                        '''
-#                    1:
-#                        '''
-#                        Я поделюсь с тобой своей силой, чтобы мы
-#                        вместе смогли противостоять угрозам этого
-#                        мира... и, если всё пойдет по плану,
-#                        решить более глобальные проблемы.
-#                        '''
-#                    2:
-#                        '''
-#                        Есть ещё кое-что для тебя. Позволь мне
-#                        рассказать тебе, чем я могу тебе помочь.
-#                        Я настоятельно рекомендую!
-#                        '''
+#                    0: Приветствую! Я Асфодена - Астра, а значит ты - мой Звездоносец.
+#                    1: Я поделюсь с тобой своей силой, чтобы мы вместе смогли противостоять угрозам этого мира... и, если всё пойдет по плану, решить более глобальные проблемы.
+#                    2: Есть ещё кое-что для тебя. Позволь мне рассказать тебе, чем я могу тебе помочь. Я настоятельно рекомендую!
 #                    3: ""
 #                }
 #
@@ -3155,7 +2307,7 @@
 #                    1: The Spatial Disk can do a lot of other things, but for now, the Stellar Array is the most important. Remember to check it often!
 #                    2: One last thing.. I can turn energy from other worlds into direct power in the form of Essences. Combining these with other materials should be enough to create powerful Aspected Weapons.
 #                    3: Right, my power is yours. Let's show this world what we can do.
-#                    4: Mods.StarsAbove.Dialogue.VNDialogue.SceneID.4.Dialogue.4
+#                    4: ""
 #                }
 #
 #                Choices: {
@@ -3166,11 +2318,7 @@
 #
 #            5: {
 #                Dialogue: {
-#                    0:
-#                        '''
-#                        В таком случае... Моя сила - твоя.
-#                        Покажем этому миру, на что мы способны.
-#                        '''
+#                    0: В таком случае... Моя сила - твоя. Покажем этому миру, на что мы способны.
 #                    1: ""
 #                }
 #
@@ -3182,26 +2330,9 @@
 #
 #            6: {
 #                Dialogue: {
-#                    0:
-#                        '''
-#                        Рада знакомству. Моё имя Эридани...
-#                        Я Астра. А значит ты - мой Звездоносец.
-#                        '''
-#                    1:
-#                        '''
-#                        По условиям этого договора, мы должны
-#                        объединить наши усилия, и воздать
-#                        провосудие тем, кто стремится навредить
-#                        этому миру. Когда всё пойдёт хорошо, мы
-#                        распространим нашу миссию и на другие миры.
-#                        '''
-#                    2:
-#                        '''
-#                        Если желаешь, я могу дать подробное
-#                        объяснение того, чем могу помочь. Лично
-#                        я настоятельно рекомендую сделать это.
-#                        Ведь знание - сила, не правда ли?
-#                        '''
+#                    0: Рада знакомству. Моё имя Эридани... Я Астра. А значит ты - мой Звездоносец.
+#                    1: По условиям этого договора, мы должны объединить наши усилия, и воздать провосудие тем, кто стремится навредить этому миру. Когда всё пойдёт хорошо, мы распространим нашу миссию и на другие миры.
+#                    2: Если желаешь, я могу дать подробное объяснение того, чем могу помочь. Лично я настоятельно рекомендую сделать это. Ведь знание - сила, не правда ли?
 #                    3: ""
 #                }
 #
@@ -3213,32 +2344,10 @@
 #
 #            7: {
 #                Dialogue: {
-#                    0:
-#                        '''
-#                        Отлично. Приступим. Пространственный
-#                        диск, который ты использовал, даёт доступ
-#                        к Звёздному ряду. Побеждая сильных врагов,
-#                        он будет даровать тебе свою силу.
-#                        '''
-#                    1:
-#                        '''
-#                        Пространственный диск способен на многое,
-#                        но, согласно моей гипотезе, мы пока не
-#                        можем использовать его на полную. В
-#                        будущем, с укреплением нашей силы, нам
-#                        откроются и другие грани его силы.
-#                        '''
-#                    2: '''
-#                       Х-м-м... что ещё?.. А, точно. Я способна
-#                       преобразовывать скрытую энергию других
-#                       миров в кристаллизованную силу - эссенцию,
-#                       если пожелаешь. А ты можешь создавать из
-#                       этих эссенций Аспектное оружие.
-#                       '''
-#                    3: '''
-#                       На этом всё. Моя сила - твоя...
-#                       Я не подведу тебя.
-#                       '''
+#                    0: Отлично. Приступим. Пространственный диск, который ты использовал, даёт доступ к Звёздному ряду. Побеждая сильных врагов, он будет даровать тебе свою силу.
+#                    1: Пространственный диск способен на многое, но, согласно моей гипотезе, мы пока не можем использовать его на полную. В будущем, с укреплением нашей силы, нам откроются и другие грани его силы.
+#                    2: Х-м-м... что ещё?.. А, точно. Я способна преобразовывать скрытую энергию других миров в кристаллизованную силу - эссенцию, если пожелаешь. А ты можешь создавать из этих эссенций Аспектное оружие.
+#                    3: На этом всё. Моя сила - твоя... Я не подведу тебя.
 #                    4: ""
 #                }
 #
@@ -3250,11 +2359,7 @@
 #
 #            8: {
 #                Dialogue: {
-#                    0:
-#                        '''
-#                        В таком случае, моя сила в твоих руках.
-#                        Давай покажем всем, на что мы способны!
-#                        '''
+#                    0: В таком случае, моя сила в твоих руках. Давай покажем всем, на что мы способны!
 #                    1: ""
 #                }
 #
@@ -3266,90 +2371,19 @@
 #
 #            9: {
 #                Dialogue: {
-#                    0:
-#                        '''
-#                        Ясно... Прошу прощения за проверку. Знаю,
-#                        метод был немного грубоват, но для меня
-#                        это единственный способ оценить людей.
-#                        '''
-#                    1:
-#                        '''
-#                        В общем-то, я должен был догадаться. Мои
-#                        сёстры никогда не ошибаются.
-#                        '''
-#                    2:
-#                        '''
-#                        Ты что, серьёзно сказал... 'сестра'? Ты,
-#                        должно быть, шутишь...
-#                        '''
-#                    3:
-#                        '''
-#                        Извини, Эридани. Это должно помочь.
-#                        Вспомнила что-нибудь?
-#                        '''
-#                    4:
-#                        '''
-#                        Мы не общались целую вечность, и ты
-#                        появляешься только сейчас?..
-#                        '''
-#                    5:
-#                        '''
-#                        Послушай, Звездоносец, я тебе сейчас всё
-#                        объясню. В нашей галактике, на каждом из
-#                        бесчисленных миров, существуют Астры,
-#                        которые помогают их обитателям. Ты уже
-#                        знаком с нашей деятельностью.
-#                        '''
-#                    6: 
-#                        '''
-#                        Поскольку мы являемся проводниками энергии,
-#                        мы выбираем Звездоносца в качестве нашего
-#                        представителя. Важно понимать, что живые
-#                        существа являются наилучшими проводниками
-#                        маны, а мы, лишь частично обладаем жизнью.
-#                        '''
-#                    7:
-#                        '''
-#                        Вот только кандидат от первой Астры
-#                        оказался... не пригодным для этой роли.
-#                        Речь идёт о первом Звездоносце. По всей
-#                        видимости, он утратил рассудок и моральные
-#                        принципы.
-#                        '''
-#                    8:
-#                        '''
-#                        Ныне они продолжают бороздить галактику,
-#                        а Астра подчиняется всем прихотям своего
-#                        избранника. Они 'стремятся к добру', не
-#                        жалея при этом сил и средств, даже если
-#                        это приводит к жертвам.
-#                        '''
-#                    9:
-#                        '''
-#                        Это всё, конечно, догадки, но разрушения-то
-#                        реальные. Очевидно, что так продолжаться
-#                        не может. Мне понадобится твоя помощь в
-#                        будущем.
-#                        '''
-#                    10:
-#                        '''
-#                        В твоём нынешнем состоянии у тебя мало
-#                        шансов противостоять им. Тем не менее,
-#                        несмотря на то, что Эридани не подозревает
-#                        об этом, у всех Астр есть козырь в рукаве:
-#                        Астронова.
-#                        '''
-#                    11:
-#                        '''
-#                        Я уже передал ей свою силу, как только ты
-#                        победил в нашем поединке.
-#                        '''
-#                    12:
-#                        '''
-#                        На этом всё. Мне нужно продолжать следить
-#                        за Первым звездоносцем. Удачи. Скоро ты
-#                        мне понадобишься.
-#                        '''
+#                    0: Ясно... Прошу прощения за проверку. Знаю, метод был немного грубоват, но для меня это единственный способ оценить людей.
+#                    1: В общем-то, я должен был догадаться. Мои сёстры никогда не ошибаются.
+#                    2: Ты что, серьёзно сказал... 'сестра'? Ты, должно быть, шутишь...
+#                    3: Извини, Эридани. Это должно помочь. Вспомнила что-нибудь?
+#                    4: Мы не общались целую вечность, и ты появляешься только сейчас?..
+#                    5: Послушай, Звездоносец, я тебе сейчас всё объясню. В нашей галактике, на каждом из бесчисленных миров, существуют Астры, которые помогают их обитателям. Ты уже знаком с нашей деятельностью.
+#                    6: Поскольку мы являемся проводниками энергии, мы выбираем Звездоносца в качестве нашего представителя. Важно понимать, что живые существа являются наилучшими проводниками маны, а мы, лишь частично обладаем жизнью.
+#                    7: Вот только кандидат от первой Астры оказался... не пригодным для этой роли. Речь идёт о первом Звездоносце. По всей видимости, он утратил рассудок и моральные принципы.
+#                    8: Ныне они продолжают бороздить галактику, а Астра подчиняется всем прихотям своего избранника. Они 'стремятся к добру', не жалея при этом сил и средств, даже если это приводит к жертвам.
+#                    9: Это всё, конечно, догадки, но разрушения-то реальные. Очевидно, что так продолжаться не может. Мне понадобится твоя помощь в будущем.
+#                    10: В твоём нынешнем состоянии у тебя мало шансов противостоять им. Тем не менее, несмотря на то, что Эридани не подозревает об этом, у всех Астр есть козырь в рукаве: Астронова.
+#                    11: Я уже передал ей свою силу, как только ты победил в нашем поединке.
+#                    12: На этом всё. Мне нужно продолжать следить за Первым звездоносцем. Удачи. Скоро ты мне понадобишься.
 #                    13: I know he's a loner, but.. I wish we could have spoken more. Stay safe, Perseus. I can't help but feel he's hiding something from me, though. Just me?
 #                    14: Anyways, he was right. I do feel stronger- and my hair's gone all shiny! This power should be an amazing boon going forward.
 #                    15: Looks like my Stellar Nova is called 'Prototokia Aster.' Perhaps we'll get to use some more once we defeat more powerful foes?
@@ -3368,129 +2402,25 @@
 #
 #            10: {
 #                Dialogue: {
-#                    0:
-#                        '''
-#                        Ясно... Прошу прощения за проверку. Знаю,
-#                        метод был немного грубоват, но для меня
-#                        это единственный способ оценить людей.
-#                        '''
-#                    1:
-#                        '''
-#                        В общем-то, я должен был догадаться. Мои
-#                        сёстры никогда не ошибаются.
-#                        '''
-#                    2:
-#                        '''
-#                        Ты что, серьёзно сказал... 'сестра'? Ты,
-#                        должно быть, шутишь...
-#                        '''
-#                    3:
-#                        '''
-#                        Извини, Эридани. Это должно помочь.
-#                        Вспомнила что-нибудь?
-#                        '''
-#                    4:
-#                        '''
-#                        Мы не общались целую вечность, и ты
-#                        появляешься только сейчас?..
-#                        '''
-#                    5:
-#                        '''
-#                        Послушай, Звездоносец, я тебе сейчас всё
-#                        объясню. В нашей галактике, на каждом из
-#                        бесчисленных миров, существуют Астры,
-#                        которые помогают их обитателям. Ты уже
-#                        знаком с нашей деятельностью.
-#                        '''
-#                    6: 
-#                        '''
-#                        Поскольку мы являемся проводниками энергии,
-#                        мы выбираем Звездоносца в качестве нашего
-#                        представителя. Важно понимать, что живые
-#                        существа являются наилучшими проводниками
-#                        маны, а мы, лишь частично обладаем жизнью.
-#                        '''
-#                    7:
-#                        '''
-#                        Вот только кандидат от первой Астры
-#                        оказался... не пригодным для этой роли.
-#                        Речь идёт о Первом Звездоносце. По всей
-#                        видимости, он утратил рассудок и моральные
-#                        принципы.
-#                        '''
-#                    8:
-#                        '''
-#                        Ныне они продолжают бороздить галактику,
-#                        а Астра подчиняется всем прихотям своего
-#                        избранника. Они 'стремятся к добру', не
-#                        жалея при этом сил и средств, даже если
-#                        это приводит к жертвам.
-#                        '''
-#                    9:
-#                        '''
-#                        Это всё, конечно, догадки, но разрушения-то
-#                        реальные. Очевидно, что так продолжаться
-#                        не может. Мне понадобится твоя помощь в
-#                        будущем.
-#                        '''
-#                    10:
-#                        '''
-#                        В твоём нынешнем состоянии у тебя мало
-#                        шансов противостоять им. Тем не менее,
-#                        несмотря на то, что Эридани не подозревает
-#                        об этом, у всех Астр есть козырь в рукаве:
-#                        Астронова.
-#                        '''
-#                    11:
-#                        '''
-#                        Я уже передал ей свою силу, как только ты
-#                        победил в нашем поединке.
-#                        '''
-#                    12:
-#                        '''
-#                        На этом всё. Мне нужно продолжать следить
-#                        за Первым звездоносцем. Удачи. Скоро ты
-#                        мне понадобишься.
-#                        '''
-#                    13:
-#                        '''
-#                        Персей не из тех, кто предпочитает
-#                        задерживаться. Мне кажется, он что-то
-#                        утаивал от меня... В любом случае, эта
-#                        сила поражает воображение, но мне нужно
-#                        привыкнуть к ней.
-#                        '''
-#                    14:
-#                        '''
-#                        Моя Астронова носит название 'Прототокия
-#                        Астер'. Может быть, когда мы станем
-#                        сильнее, то сможем использовать и другие.
-#                        '''
-#                    15:
-#                        '''
-#                        Как только назначишь клавишу 'Астроновы'
-#                        сможешь экипировать её через
-#                        пространственный диск, как и раньше.
-#                        '''
-#                    16:
-#                        '''
-#                        Используя призматические ядра, ты можешь
-#                        создавать улучшения для Астронов.
-#                        Установка этих улучшений осуществляется
-#                        прямо в меню.
-#                        '''
-#                    17:
-#                        '''
-#                        Не забывай: чтобы воспользоваться
-#                        Астроновой, тебе нужна энергия Астроновы.
-#                        Накапливать её можно только в бою.
-#                        '''
-#                    18:
-#                        '''
-#                        Ну вот, как-то так. Знаю, что информации
-#                        было много, но прошу тебя использовать
-#                        Астронову с умом. На этом пока всё.
-#                        '''
+#                    0: Ясно... Прошу прощения за проверку. Знаю, метод был немного грубоват, но для меня это единственный способ оценить людей.
+#                    1: В общем-то, я должен был догадаться. Мои сёстры никогда не ошибаются.
+#                    2: Ты что, серьёзно сказал... 'сестра'? Ты, должно быть, шутишь...
+#                    3: Извини, Эридани. Это должно помочь. Вспомнила что-нибудь?
+#                    4: Мы не общались целую вечность, и ты появляешься только сейчас?..
+#                    5: Послушай, Звездоносец, я тебе сейчас всё объясню. В нашей галактике, на каждом из бесчисленных миров, существуют Астры, которые помогают их обитателям. Ты уже знаком с нашей деятельностью.
+#                    6: Поскольку мы являемся проводниками энергии, мы выбираем Звездоносца в качестве нашего представителя. Важно понимать, что живые существа являются наилучшими проводниками маны, а мы, лишь частично обладаем жизнью.
+#                    7: Вот только кандидат от первой Астры оказался... не пригодным для этой роли. Речь идёт о Первом Звездоносце. По всей видимости, он утратил рассудок и моральные принципы.
+#                    8: Ныне они продолжают бороздить галактику, а Астра подчиняется всем прихотям своего избранника. Они 'стремятся к добру', не жалея при этом сил и средств, даже если это приводит к жертвам.
+#                    9: Это всё, конечно, догадки, но разрушения-то реальные. Очевидно, что так продолжаться не может. Мне понадобится твоя помощь в будущем.
+#                    10: В твоём нынешнем состоянии у тебя мало шансов противостоять им. Тем не менее, несмотря на то, что Эридани не подозревает об этом, у всех Астр есть козырь в рукаве: Астронова.
+#                    11: Я уже передал ей свою силу, как только ты победил в нашем поединке.
+#                    12: На этом всё. Мне нужно продолжать следить за Первым звездоносцем. Удачи. Скоро ты мне понадобишься.
+#                    13: Персей не из тех, кто предпочитает задерживаться. Мне кажется, он что-то утаивал от меня... В любом случае, эта сила поражает воображение, но мне нужно привыкнуть к ней.
+#                    14: Моя Астронова носит название 'Прототокия Астер'. Может быть, когда мы станем сильнее, то сможем использовать и другие.
+#                    15: Как только назначишь клавишу 'Астроновы' сможешь экипировать её через пространственный диск, как и раньше.
+#                    16: Используя призматические ядра, ты можешь создавать улучшения для Астронов. Установка этих улучшений осуществляется прямо в меню.
+#                    17: Не забывай: чтобы воспользоваться Астроновой, тебе нужна энергия Астроновы. Накапливать её можно только в бою.
+#                    18: Ну вот, как-то так. Знаю, что информации было много, но прошу тебя использовать Астронову с умом. На этом пока всё.
 #                    19: ...Изменился ли цвет моих волос?
 #                    20: ""
 #                }
@@ -3517,33 +2447,10 @@
 #
 #            12: {
 #                Dialogue: {
-#                    0:
-#                        '''
-#                        Вижу, ты становишься сильнее... и делаешь
-#                        это быстро. Сначала я волновалась за тебя,
-#                        но теперь похоже, ты достаточно силён,
-#                        чтобы использовать это теперь.
-#                        '''
-#                    1:
-#                        '''
-#                        Это Астролябия. Если ты откроешь меню
-#                        Астры, то ранее заблокированная функция
-#                        станет доступной.
-#                        '''
-#                    2:
-#                        '''
-#                        Астролябия поможет тебе путешествовать по
-#                        галактике, но только если ты правильно её
-#                        настроишь. Я расскажу тебе больше, когда
-#                        ты используешь её, чтобы добраться до
-#                        Обсерватории Заполярье.
-#                        '''
-#                    3:
-#                        '''
-#                        Когда будешь готов, смело заходи в гости.
-#                        Я буду ждать твоего прибытия... и Асфодена
-#                        тоже.
-#                        '''
+#                    0: Вижу, ты становишься сильнее... и делаешь это быстро. Сначала я волновалась за тебя, но теперь похоже, ты достаточно силён, чтобы использовать это теперь.
+#                    1: Это Астролябия. Если ты откроешь меню Астры, то ранее заблокированная функция станет доступной.
+#                    2: Астролябия поможет тебе путешествовать по галактике, но только если ты правильно её настроишь. Я расскажу тебе больше, когда ты используешь её, чтобы добраться до Обсерватории Заполярье.
+#                    3: Когда будешь готов, смело заходи в гости. Я буду ждать твоего прибытия... и Асфодена тоже.
 #                }
 #
 #                Choices: {
@@ -3554,60 +2461,14 @@
 #
 #            13: {
 #                Dialogue: {
-#                    0:
-#                        '''
-#                        Наконец-то ты добрался! Это Обсерватория
-#                        Заполярье — обитель Астр. Хотя, конечно,
-#                        не всех, а только меня и Эри.
-#                        '''
-#                    1:
-#                        '''
-#                        Да, так и есть. Изначально обсерватории
-#                        не были предназначены для нас, но мы...
-#                        поддерживаем тут порядок. Ведь их прежние
-#                        обитатели давно покинули это место.
-#                        '''
-#                    2:
-#                        '''
-#                        Хотя мы и выглядим как местные, но мы
-#                        родом не из этой галактики. Мы прибыли
-#                        сюда после... ну, это непросто объяснить
-#                        вкратце.
-#                        '''
-#                    3:
-#                        '''
-#                        Давай представим, что вселенная - это
-#                        озеро, хорошо? Окей, отлично. А теперь
-#                        представим, что кто-то начинает лить в
-#                        это озеро масло... это же невозможно не
-#                        заметить.
-#                        '''
-#                    4:
-#                        '''
-#                        Надеюсь, это поможет объяснить происходящее.
-#                        В конце концов, мы обнаружили следующее:
-#                        '''
-#                    5:
-#                        '''
-#                        Эта галактика - галактика Мойра... и она
-#                        замерзает. Процесс происходит постепенно,
-#                        но чем дальше от центра, тем ситуация
-#                        ухудшается.
-#                        '''
-#                    6:
-#                        '''
-#                        Единственным фактором, который позволил
-#                        нам встретиться, является уникальная
-#                        пригодность этой планеты для жизни, даже
-#                        в таком отдалении от центра галактики.
-#                        Можешь поблагодарить за это Солнце.
-#                        '''
-#                    7:
-#                        '''
-#                        Обсерватория присвоила этому бедствию
-#                        название Ардор, поэтому мы будем называть
-#                        её так.
-#                        '''
+#                    0: Наконец-то ты добрался! Это Обсерватория Заполярье — обитель Астр. Хотя, конечно, не всех, а только меня и Эри.
+#                    1: Да, так и есть. Изначально обсерватории не были предназначены для нас, но мы... поддерживаем тут порядок. Ведь их прежние обитатели давно покинули это место.
+#                    2: Хотя мы и выглядим как местные, но мы родом не из этой галактики. Мы прибыли сюда после... ну, это непросто объяснить вкратце.
+#                    3: Давай представим, что вселенная - это озеро, хорошо? Окей, отлично. А теперь представим, что кто-то начинает лить в это озеро масло... это же невозможно не заметить.
+#                    4: Надеюсь, это поможет объяснить происходящее. В конце концов, мы обнаружили следующее:
+#                    5: Эта галактика - галактика Мойра... и она замерзает. Процесс происходит постепенно, но чем дальше от центра, тем ситуация ухудшается.
+#                    6: Единственным фактором, который позволил нам встретиться, является уникальная пригодность этой планеты для жизни, даже в таком отдалении от центра галактики. Можешь поблагодарить за это Солнце.
+#                    7: Обсерватория присвоила этому бедствию название Ардор, поэтому мы будем называть её так.
 #                }
 #
 #                Choices: {
@@ -3619,29 +2480,10 @@
 #
 #            14: {
 #                Dialogue: {
-#                    0:
-#                        '''
-#                        С удовольствием дала бы тебе прямой
-#                        ответ... но не знаю.
-#                        '''
-#                    1:
-#                        '''
-#                        Это серьёзная проблема, но для начала нам
-#                        нужно стать сильнее, прежде чем принимать
-#                        поспешные решения.
-#                        '''
-#                    2:
-#                        '''
-#                        Астролябия откроет тебе доступ к
-#                        исследованию космоса, как только создашь
-#                        работающий Космограф.
-#                        '''
-#                    3:
-#                        '''
-#                        Если хочешь, мы можем рассказать тебе
-#                        основы. Это не так уж сложно, но без
-#                        помощи можно быстро запутаться.
-#                        '''
+#                    0: С удовольствием дала бы тебе прямой ответ... но не знаю.
+#                    1: Это серьёзная проблема, но для начала нам нужно стать сильнее, прежде чем принимать поспешные решения.
+#                    2: Астролябия откроет тебе доступ к исследованию космоса, как только создашь работающий Космограф.
+#                    3: Если хочешь, мы можем рассказать тебе основы. Это не так уж сложно, но без помощи можно быстро запутаться.
 #                }
 #
 #                Choices: {
@@ -3652,38 +2494,11 @@
 #
 #            15: {
 #                Dialogue: {
-#                    0:
-#                        '''
-#                        Ну, мы тоже так думали, но, похоже, что
-#                        большая часть населения галактики
-#                        переместилась к центру, чтобы спастись от
-#                        холода.
-#                        '''
-#                    1:
-#                        '''
-#                        Астры могут извлекать Эссенции из
-#                        окружающей маны, но за время нашего
-#                        короткого путешествия по мирам мы узнали
-#                        только название галактики: Мойра.
-#                        '''
-#                    2:
-#                        '''
-#                        Несмотря на важность этого вопроса, мы
-#                        должны сначала стать сильнее, прежде
-#                        чем что-то предпринять.
-#                        '''
-#                    3:
-#                        '''
-#                        С Астролябией ты сможешь исследовать
-#                        космос с помощью работающего Космографа,
-#                        как только сделаешь его.
-#                        '''
-#                    4:
-#                        '''
-#                        Если хочешь, мы можем рассказать тебе
-#                        основы. Это не так уж сложно, но без
-#                        помощи можно быстро запутаться.
-#                        '''
+#                    0: Ну, мы тоже так думали, но, похоже, что большая часть населения галактики переместилась к центру, чтобы спастись от холода.
+#                    1: Астры могут извлекать эссенции из окружающей маны, но за время нашего короткого путешествия по мирам мы узнали только название галактики: Мойра.
+#                    2: Несмотря на важность этого вопроса, мы должны сначала стать сильнее, прежде чем что-то предпринять.
+#                    3: С Астролябией ты сможешь исследовать космос с помощью работающего Космографа, как только сделаешь его.
+#                    4: Если хочешь, мы можем рассказать тебе основы. Это не так уж сложно, но без помощи можно быстро запутаться.
 #                }
 #
 #                Choices: {
@@ -3694,24 +2509,9 @@
 #
 #            16: {
 #                Dialogue: {
-#                    0:
-#                        '''
-#                        Конечно, ты ничего не заметил... Я же
-#                        только что сказала, что твоя звезда
-#                        нагревает планету! Господи...
-#                        '''
-#                    1:
-#                        '''
-#                        В любом случае, с Астролябией ты сможешь
-#                        исследовать космос с помощью работающего
-#                        Космографа, как только сделаешь его.
-#                        '''
-#                    2:
-#                        '''
-#                        Если хочешь, мы можем рассказать тебе
-#                        основы. Это не так уж сложно, но без
-#                        помощи можно быстро запутаться.
-#                        '''
+#                    0: Конечно, ты ничего не заметил... Я же только что сказала, что твоя звезда нагревает планету! Господи...
+#                    1: В любом случае, с Астролябией ты сможешь исследовать космос с помощью работающего Космографа, как только сделаешь его.
+#                    2: Если хочешь, мы можем рассказать тебе основы. Это не так уж сложно, но без помощи можно быстро запутаться.
 #                }
 #
 #                Choices: {
@@ -3722,113 +2522,21 @@
 #
 #            17: {
 #                Dialogue: {
-#                    0:
-#                        '''
-#                        Хорошо. Для начала тебе потребуется
-#                        создать структуру, известную как Космограф.
-#                        '''
-#                    1:
-#                        '''
-#                        В обсерватории можно найти Корень
-#                        целестриады. В двух словах, используй его,
-#                        как станцию для создания. Он установлен на
-#                        постаменте, окружённом каменными столбами.
-#                        '''
-#                    2:
-#                        '''
-#                        Для создания Космографа просто объедини
-#                        по одному самоцвету каждого типа. Это, в
-#                        общем, самая сложная часть процесса.
-#                        '''
-#                    3:
-#                        '''
-#                        Теперь, если поставить Космограф в своём
-#                        доме, откроется портал, который можно
-#                        использовать с помощью меню Стеллария для
-#                        исследования галактики в рамках так
-#                        называемого космического путешествия.
-#                        '''
-#                    4:
-#                        '''
-#                        Просто выбери пункт назначения, чтобы
-#                        телепортироваться прямо туда... весьма
-#                        оригинальный способ путешествия, не
-#                        правда ли?
-#                        '''
-#                    5:
-#                        '''
-#                        Конечно, есть и минусы. Мы перенесём тебя
-#                        туда, а не просто отправим обычным способом
-#                        (например, на звездолёте), поэтому у тебя
-#                        будут недоступны большинство способностей
-#                        передвижения.
-#                        '''
-#                    6:
-#                        '''
-#                        И да, советую взять с собой что-то вроде
-#                        крюка-кошки, чтобы пользоваться ею в
-#                        космических путешествиях. Поверь мне на
-#                        слово.
-#                        '''
-#                    7:
-#                        '''
-#                        В этом есть смысл. Не забывай, что для
-#                        перемещения в другие локации, тебе нужно
-#                        быть рядом с вратами. А если ты застрял,
-#                        можешь просто телепортироваться домой или
-#                        в обсерваторию.
-#                        '''
-#                    8:
-#                        '''
-#                        Говоря о локациях... если во время своих
-#                        приключений встретишь врагов, можешь убить
-#                        их в надежде на получение полезных
-#                        предметов.
-#                        '''
-#                    9:
-#                        '''
-#                        Аномальные локации - это кладезь ценной
-#                        добычи и редких врагов, но если пробыть
-#                        там слишком долго...
-#                        '''
-#                    10:
-#                        '''
-#                        Скажем так: в галактике полно всяких
-#                        мерзких тварей, и они обожают такие
-#                        места. Как только они заметят тебя, они
-#                        тут же нападут.
-#                        '''
-#                    11:
-#                        '''
-#                        После посещения аномалии тебе предстоит
-#                        долгий период ожидания, прежде чем сможешь
-#                        посетить её снова. Поэтому важно
-#                        максимально эффективно использовать
-#                        каждое посещение.
-#                        '''
-#                    12:
-#                        '''
-#                        Улучшение Космографа открывает доступ к
-#                        новым локациям космического путешествия.
-#                        Для этого необходимо самостоятельно
-#                        создать улучшение Космографа, используя,
-#                        конечно же, Корень целестриады.
-#                        '''
-#                    13:
-#                        '''
-#                        Ну и последнее: существуют особые
-#                        структуры, называемые Звёздными светилами.
-#                        Если поставить их рядом с Космографом, ты
-#                        станешь сильнее во время космических
-#                        путешествий.
-#                        '''
-#                    14:
-#                        '''
-#                        Они будут чрезвычайно полезны в
-#                        долгосрочной перспективе, но их создание
-#                        достаточно трудоёмко. Возможно, где-то
-#                        есть их источник?
-#                        '''
+#                    0: Хорошо. Для начала тебе потребуется создать структуру, известную как Космограф.
+#                    1: В обсерватории можно найти Корень целестриады. В двух словах, используй его, как станцию для создания. Он установлен на постаменте, окружённом каменными столбами.
+#                    2: Для создания Космографа просто объедини по одному самоцвету каждого типа. Это, в общем, самая сложная часть процесса.
+#                    3: Теперь, если поставить Космограф в своём доме, откроется портал, который можно использовать с помощью меню Стеллария для исследования галактики в рамках так называемого космического путешествия.
+#                    4: Просто выбери пункт назначения, чтобы телепортироваться прямо туда... весьма оригинальный способ путешествия, не правда ли?
+#                    5: Конечно, есть и минусы. Мы перенесём тебя туда, а не просто отправим обычным способом (например, на звездолёте), поэтому у тебя будут недоступны большинство способностей передвижения.
+#                    6: И да, советую взять с собой что-то вроде крюка-кошки, чтобы пользоваться ею в космических путешествиях. Поверь мне на слово.
+#                    7: В этом есть смысл. Не забывай, что для перемещения в другие локации, тебе нужно быть рядом с вратами. А если ты застрял, можешь просто телепортироваться домой или в обсерваторию.
+#                    8: Говоря о локациях... если во время своих приключений встретишь врагов, можешь убить их в надежде на получение полезных предметов.
+#                    9: Аномальные локации - это кладезь ценной добычи и редких врагов, но если пробыть там слишком долго...
+#                    10: Скажем так: в галактике полно всяких мерзких тварей, и они обожают такие места. Как только они заметят тебя, они тут же нападут.
+#                    11: После посещения аномалии тебе предстоит долгий период ожидания, прежде чем сможешь посетить её снова. Поэтому важно максимально эффективно использовать каждое посещение.
+#                    12: Улучшение Космографа открывает доступ к новым локациям космического путешествия. Для этого необходимо самостоятельно создать улучшение Космографа, используя, конечно же, Корень целестриады.
+#                    13: Ну и последнее: существуют особые структуры, называемые Звёздными светилами. Если поставить их рядом с Космографом, ты станешь сильнее во время космических путешествий.
+#                    14: Они будут чрезвычайно полезны в долгосрочной перспективе, но их создание достаточно трудоёмко. Возможно, где-то есть их источник?
 #                    15: Ну вот, на этом всё. Ты всё запомнил?
 #                }
 #
@@ -4049,7 +2757,7 @@
 #            }
 #
 #            106: {
-#                Dialogue.0: " "
+#                Dialogue.0: ""
 #
 #                Choices: {
 #                    1: X
@@ -4322,17 +3030,9 @@
 #    EnterStarfarerMenu: {
 #        Asphodene: {
 #            1: What's up? Need something?
-#            2:
-#                '''
-#                Дай подумать... Нужна моя помощь?
-#                Ну, на то я и здесь.
-#                '''
+#            2: Дай подумать... Нужна моя помощь? Ну, на то я и здесь.
 #            3: You rang?
-#            4:
-#                '''
-#                Эй, {0}.
-#                Похоже, тебе нужна помощь?
-#                '''
+#            4: Эй, {0}. Похоже, тебе нужна помощь?
 #            5: Right. Let's get started. What do you need?
 #            6: Hmm... What do you need?
 #            7: Looks like you've unlocked something new. How about trying it out?
@@ -4341,23 +3041,10 @@
 #
 #        Eridani: {
 #            1: Требуется что-то?
-#            2:
-#                '''
-#                Нужна моя помощь, верно?
-#                Конечно, всё что захочешь.
-#                '''
-#            3:
-#                '''
-#                Требуется моя помощь?
-#                Я просто подумала, ну, просто...
-#                Неважно.
-#                '''
+#            2: Нужна моя помощь, верно? Конечно, всё что захочешь.
+#            3: Требуется моя помощь? Я просто подумала, ну, просто... Неважно.
 #            4: Случилось что-то?
-#            5:
-#                '''
-#                {0}...
-#                Предполагаю, тебе требуется моя помощь?
-#                '''
+#            5: "{0}... Предполагаю, тебе требуется моя помощь?"
 #            6: Итак, нужно что-то?
 #            7: It appears you've unlocked something. Let's make good use of it.
 #            8: I kind of feel like something else needs your attention right now...
@@ -4464,73 +3151,28 @@
 #        AfterNovaDialogue: {
 #            Asphodene: {
 #                1: Что далее по списку?
-#                2:
-#                    '''
-#                    Астронова успешно обновлена. Что-то
-#                    ещё?
-#                    '''
-#                3:
-#                    '''
-#                    Изменения Астроновы подтверждены.
-#                    Замечательно. Есть ещё что-то, чем я
-#                    могу помочь?
-#                    '''
+#                2: Астронова успешно обновлена. Что-то ещё?
+#                3: Изменения Астроновы подтверждены. Замечательно. Есть ещё что-то, чем я могу помочь?
 #            }
 #
 #            Eridani: {
-#                1:
-#                    '''
-#                    Изменения Астроновы зафиксированы.
-#                    Отлично. Требуется ли что-то ещё?
-#                    '''
-#                2:
-#                    '''
-#                    Завершил модифицировать Астронову?
-#                    Отлично.
-#                    '''
-#                3:
-#                    '''
-#                    Итак, мы изменили Астронову.
-#                    Что-нибудь ещё планируешь?
-#                    '''
+#                1: Изменения Астроновы зафиксированы. Отлично. Требуется ли что-то ещё?
+#                2: Завершил модифицировать Астронову? Отлично.
+#                3: Итак, мы изменили Астронову. Что-нибудь ещё планируешь?
 #            }
 #        }
 #
 #        AfterArrayDialogue: {
 #            Asphodene: {
-#                1:
-#                    '''
-#                    Хорошо, с Звёздным рядом разобрались.
-#                    Ещё что-нибудь нужно?
-#                    '''
-#                2:
-#                    '''
-#                    Вижу, ты закончил свои изменения в
-#                    Звёздном ряде. Отлично.
-#                    '''
-#                3:
-#                    '''
-#                    Звёздный ряд обновился. На этом пока
-#                    всё, если у тебя нет других вопросов.
-#                    '''
+#                1: Хорошо, с Звёздным рядом разобрались. Ещё что-нибудь нужно?
+#                2: Вижу, ты закончил свои изменения в Звёздном ряде. Отлично.
+#                3: Звёздный ряд обновился. На этом пока всё, если у тебя нет других вопросов.
 #            }
 #
 #            Eridani: {
-#                1:
-#                    '''
-#                    Отлично, Звёздный ряд был изменён.
-#                    Дальше по списку у нас...
-#                    '''
-#                2:
-#                    '''
-#                    Уже закончил со Звёздным рядом?
-#                    Прекрасно. Что-то ещё?
-#                    '''
-#                3:
-#                    '''
-#                    Итак, Звёздный ряд изменён. Ты
-#                    добился желаемого?
-#                    '''
+#                1: Отлично, Звёздный ряд был изменён. Дальше по списку у нас...
+#                2: Уже закончил со Звёздным рядом? Прекрасно. Что-то ещё?
+#                3: Итак, Звёздный ряд изменён. Ты добился желаемого?
 #            }
 #        }
 #
@@ -4542,21 +3184,8 @@
 #
 #    StarfarerMenuButtons: {
 #        Archive: {
-#            Asphodene:
-#                '''
-#                Итак... О чём хочешь почитать? Диалоги
-#                поделены на 4 группы: покой, боссы,
-#                оружие и длинные диалоги. Переключайся
-#                между группами и выбирай ту, которая
-#                тебя интересует.
-#                '''
-#            Eridani:
-#                '''
-#                Итак, о чём ты хочешь почитать?
-#                Диалоги поделены на 4 группы: покой,
-#                боссы, оружие и длинные диалоги.
-#                Выбирай, что тебе интересно посмотреть.
-#                '''
+#            Asphodene: Итак... О чём хочешь почитать? Диалоги поделены на 4 группы: покой, боссы, оружие и длинные диалоги. Переключайся между группами и выбирай ту, которая тебя интересует.
+#            Eridani: Итак, о чём ты хочешь почитать? Диалоги поделены на 4 группы: покой, боссы, оружие и длинные диалоги. Выбирай, что тебе интересно посмотреть.
 #        }
 #
 #        ExitArchive: {
@@ -4565,23 +3194,8 @@
 #        }
 #
 #        ArchiveHover: {
-#            Asphodene:
-#                '''
-#                Это Архив. На всякий случай, если ты
-#                не до конца понял мной сказанное,
-#                можешь перечитать это здесь. Или тебе
-#                недостаточно моего анализа? Кроме
-#                того, ты можешь вернуть потерянные
-#                предметы, например, Эссенции.
-#                '''
-#            Eridani:
-#                '''
-#                Это Архив. Если вдруг понадобиться
-#                повторить сказанное мной ранее, то
-#                всё это храниться здесь. Помимо этого,
-#                если потерял нечто вроде Эссенции,
-#                ты можешь восстановить всё здесь.
-#                '''
+#            Asphodene: Это Архив. На всякий случай, если ты не до конца понял мной сказанное, можешь перечитать это здесь. Или тебе недостаточно моего анализа? Кроме того, ты можешь вернуть потерянные предметы, например, эссенции.
+#            Eridani: Это Архив. Если вдруг понадобиться повторить сказанное мной ранее, то всё это храниться здесь. Помимо этого, если потерял нечто вроде эссенции, ты можешь восстановить всё здесь.
 #        }
 #
 #        Confirm: {
@@ -4599,24 +3213,8 @@
 #        }
 #
 #        VoyageHover: {
-#            Asphodene:
-#                '''
-#                Вот здесь мы можем получить доступ к
-#                Стелларию: волшебной карте ближайшей
-#                галактики с использованием Астролябии.
-#                Но помни, что для путешествия в любую
-#                точку, кроме обсерватории, необходимо,
-#                чтобы рядом находился Космограф.
-#                '''
-#            Eridani:
-#                '''
-#                Вот где пригодится Астролябия: с её
-#                помощью ты можешь получить доступ к
-#                Стелларию, карте галактики. Правда,
-#                если хочешь отправиться дальше
-#                обсерватории, тебе понадобится
-#                Космограф поблизости.
-#                '''
+#            Asphodene: Вот здесь мы можем получить доступ к Стелларию: волшебной карте ближайшей галактики с использованием Астролябии. Но помни, что для путешествия в любую точку, кроме обсерватории, необходимо, чтобы рядом находился Космограф.
+#            Eridani: Вот где пригодится Астролябия: с её помощью ты можешь получить доступ к Стелларию, карте галактики. Правда, если хочешь отправиться дальше обсерватории, тебе понадобится Космограф поблизости.
 #        }
 #
 #        Locked: {
@@ -4625,21 +3223,8 @@
 #        }
 #
 #        NovaHover: {
-#            Asphodene:
-#                '''
-#                Это меню Астронов. Здесь ты можешь
-#                посмотреть характеристики Астроновы,
-#                сменить её на другую или экипировать
-#                Звёздную призму, изменив её свойства.
-#                '''
-#            Eridani:
-#                '''
-#                Это меню Астронов. Ты можешь
-#                ознакомиться со Астроновами,
-#                переключаться между ними, а также
-#                экипировать Звёздные призмы, изменяющие
-#                эффекты Астронов.
-#                '''
+#            Asphodene: Это меню Астронов. Здесь ты можешь посмотреть характеристики Астроновы, сменить её на другую или экипировать Звёздную призму, изменив её свойства.
+#            Eridani: Это меню Астронов. Ты можешь ознакомиться со Астроновами, переключаться между ними, а также экипировать Звёздные призмы, изменяющие эффекты Астронов.
 #        }
 #
 #        ArrayBoss: {
@@ -4648,59 +3233,18 @@
 #        }
 #
 #        ArrayHover: {
-#            Asphodene:
-#                '''
-#                Здесь находится доступ к Звёздному
-#                ряду. Здесь мы можем экипировать
-#                пассивные способности, не забывая об
-#                их максимальной стоимости, а также
-#                сменить тип урона Аспектного оружия.
-#                '''
-#            Eridani:
-#                '''
-#                Это Звёздный ряд. Здесь ты можешь
-#                экипировать пассивные способности, при
-#                условии, что их общая стоимость не
-#                превышает максимальную. А ещё здесь
-#                ты можешь настроить тип урона
-#                Аспектного оружия.
-#                '''
+#            Asphodene: Здесь находится доступ к Звёздному ряду. Здесь мы можем экипировать пассивные способности, не забывая об их максимальной стоимости, а также сменить тип урона Аспектного оружия.
+#            Eridani: Это Звёздный ряд. Здесь ты можешь экипировать пассивные способности, при условии, что их общая стоимость не превышает максимальную. А ещё здесь ты можешь настроить тип урона Аспектного оружия.
 #        }
 #
 #        StarfarerAttire: {
-#            Asphodene:
-#                '''
-#                Если у тебя есть какой-нибудь наряд
-#                Астры, ты можешь поместить его прямо
-#                сюда. Это будет не только весьма
-#                полезно для меня, но и для тебя! И
-#                кстати, стиль - это также показатель
-#                мастерства!
-#                '''
-#            Eridani:
-#                '''
-#                Сюда ты можешь поместить наряд Астры.
-#                Он даст мне полезные бонусы, чтобы я
-#                могла лучше тебе помогать. Хотя я знаю,
-#                что твой вкус в одежде... необычный,
-#                но постарайся не слишком меня
-#                шокировать.
-#                '''
+#            Asphodene: Если у тебя есть какой-нибудь наряд Астры, ты можешь поместить его прямо сюда. Это будет не только весьма полезно для меня, но и для тебя! И кстати, стиль - это также показатель мастерства!
+#            Eridani: Сюда ты можешь поместить наряд Астры. Он даст мне полезные бонусы, чтобы я могла лучше тебе помогать. Хотя я знаю, что твой вкус в одежде... необычный, но постарайся не слишком меня шокировать.
 #        }
 #
 #        StarfarerVanity: {
-#            Asphodene:
-#                '''
-#                Я надену наряд Астры поверх слота для
-#                брони. Это называется слот для
-#                украшений, если я правильно поняла.
-#                '''
-#            Eridani:
-#                '''
-#                Это слот для украшений наряда Астры.
-#                Любой предмет, помещённый сюда, будет
-#                носиться поверх комплекта брони.
-#                '''
+#            Asphodene: Я надену наряд Астры поверх слота для брони. Это называется слот для украшений, если я правильно поняла.
+#            Eridani: Это слот для украшений наряда Астры. Любой предмет, помещённый сюда, будет носиться поверх комплекта брони.
 #        }
 #    }
 #}
@@ -4780,24 +3324,15 @@
 #            }
 #
 #            Reset: {
-#                Asphodene: Желаешь ли ты сбросить выбранную Астронову?
+#                Asphodene: Желаешь ли сбросить выбранную Астронову?
 #                Eridani: Если хочешь, мы можем сбросить Астронову.
 #            }
 #        }
 #
 #        PrototokiaAster: {
 #            Unlocked: {
-#                Asphodene:
-#                    '''
-#                    Это Прототокия Астер - универсальная Астронова,
-#                    накладывающая мощный дебафф.
-#                    '''
-#                Eridani:
-#                    '''
-#                    Позволь представить Прототокия Астер:
-#                    универсальная Астронова, накладывающая мощный
-#                    дебафф.
-#                    '''
+#                Asphodene: Это 'Прототокия Астер' - универсальная Астронова, накладывающая мощный дебафф.
+#                Eridani: Позволь представить 'Прототокия Астер': универсальная Астронова, накладывающая мощный дебафф.
 #            }
 #        }
 #
@@ -4808,25 +3343,20 @@
 #            }
 #
 #            Locked: {
-#                Asphodene: We don't have access to this yet. I feel we must defeat a certain monarch to get this. But who...?
-#                Eridani: We can't use this yet. Something tells me we must defeat a 'regal' enemy to obtain this.
+#                Asphodene: Пока у нас нет к этому доступа. I feel we must defeat a certain monarch to get this. But who...?
+#                Eridani: Мы пока не можем это использовать. Something tells me we must defeat a 'regal' enemy to obtain this.
 #            }
 #        }
 #
 #        KiwamiRyuken: {
 #            Unlocked: {
 #                Asphodene: A powerful counter-attack, Kiwami Ryuken. Time it right, and your foes will be dropped instantly.
-#                Eridani:
-#                    '''
-#                    Сокрушительная контратака: Кивами Рюкен. Если
-#                    правильно рассчитать время, можно нанести
-#                    колоссальный урон за короткое время.
-#                    '''
+#                Eridani: Сокрушительная контратака: 'Кивами Рюкен'. Если правильно рассчитать время, можно нанести колоссальный урон за короткое время.
 #            }
 #
 #            Locked: {
-#                Asphodene: We don't have access to this yet... Looks like we'll have to defeat a mechanical menace.
-#                Eridani: We can't use this yet. Looks like we'll have to defeat a mechanical menace.
+#                Asphodene: Пока у нас нет к этому доступа... Looks like we'll have to defeat a mechanical menace.
+#                Eridani: Мы пока не можем это использовать. Looks like we'll have to defeat a mechanical menace.
 #            }
 #        }
 #
@@ -4837,8 +3367,8 @@
 #            }
 #
 #            Locked: {
-#                Asphodene: We don't have access to this yet. We need to defeat a strong enough magic user...
-#                Eridani: We can't use this yet. We need to defeat a powerful magical entity.
+#                Asphodene: Пока у нас нет к этому доступа. We need to defeat a strong enough magic user...
+#                Eridani: Мы пока не можем это использовать. We need to defeat a powerful magical entity.
 #            }
 #        }
 #
@@ -4849,40 +3379,32 @@
 #            }
 #
 #            Locked: {
-#                Asphodene: We don't have access to this yet. We have to defeat a foe with some sort of spatial power.
-#                Eridani: We can't use this yet. We have to defeat a foe with spatial powers.
+#                Asphodene: Пока у нас нет к этому доступа. We have to defeat a foe with some sort of spatial power.
+#                Eridani: Мы пока не можем это использовать. We have to defeat a foe with spatial powers.
 #            }
 #        }
 #
 #        UnlimitedBladeWorks: {
 #            Unlocked: {
-#                Asphodene:
-#                    '''
-#                    С помощью 'Клинков бесконечный край', ты можешь
-#                    создать идеальное поле боя для своих способностей.
-#                    '''
-#                Eridani:
-#                    '''
-#                    С помощью этой Астроновы, 'Клинков бесконечный
-#                    край', можно создать мощное поле усиления.
-#                    '''
+#                Asphodene: С помощью 'Клинков бесконечный край', ты можешь создать идеальное поле боя для своих способностей.
+#                Eridani: С помощью этой Астроновы, 'Клинков бесконечный край', можно создать мощное поле усиления.
 #            }
 #
 #            Locked: {
-#                Asphodene: We don't have access to this yet.
-#                Eridani: We can't use this yet.
+#                Asphodene: Пока у нас нет к этому доступа.
+#                Eridani: Мы пока не можем это использовать.
 #            }
 #        }
 #
 #        GuardiansLight: {
 #            Unlocked: {
-#                Asphodene: The power of the Guardian's Light differ depending on your Aspected Damage type.
-#                Eridani: The capabilities of the Guardian's Light are altered depending on your Aspected Damage type.
+#                Asphodene: Мощность 'Стража света' зависит от выбранного Аспектного типа урона.
+#                Eridani: Способности 'Стража света' меняются в зависимости от выбранного Аспектного типа урона.
 #            }
 #
 #            Locked: {
-#                Asphodene: We don't have access to this yet.
-#                Eridani: We can't use this yet.
+#                Asphodene: У нас пока нет к этому доступа.
+#                Eridani: Мы пока не можем это использовать.
 #            }
 #        }
 #    }
@@ -4891,30 +3413,13 @@
 #        PrototokiaAster: {
 #            AbilityName: Прототокия Астер
 #            AbilitySubName: "[c/C2BDFF:Безграничный звёздный клинок]"
-#            AbilityDescription:
-#                '''
-#                Создаёт колоссальный клинок, рассекающий врагов надвое. Позволяет
-#                повторно использовать Прототокия Астер в течение 10 секунд без
-#                дополнительных затрат. Удары накладывают дебафф «Пустотная атрофия» с
-#                огромным постепенным уроном. Второе использование удваивает мощность
-#                «Пустотной атрофии», если это возможно. Этот дебафф длится 30 секунд.
-#                Критические удары Прототокии Астер возвращают часть затраченной энергии
-#                Астроновы. Каждое использование наносит 50% урона Астроновы.
-#                '''
-#            AstralBonus:
-#                '''
-#                Вы можете использовать Прототокию Астер в 3 раз, нанося 25% урона. Это
-#                использование не накладывает «Пустотную атрофию» и не усиливает её.
-#                '''
-#            UmbralBonus:
-#                '''
-#                Второй удар Прототокии Астер не усиливает «Пустотную атрофию», но
-#                увеличивает урон игрока на 400% в течение 5 секунд.
-#                '''
+#            AbilityDescription: Создаёт колоссальный клинок, рассекающий врагов надвое. Позволяет повторно использовать Прототокия Астер в течение 10 секунд без дополнительных затрат. Удары накладывают дебафф «Пустотная атрофия» с огромным постепенным уроном. Второе использование удваивает мощность «Пустотной атрофии», если это возможно. Этот дебафф длится 30 секунд. Критические удары Прототокии Астер возвращают часть затраченной энергии Астроновы. Каждое использование наносит 50% урона Астроновы.
+#            AstralBonus: Вы можете использовать Прототокию Астер в 3 раз, нанося 25% урона. Это использование не накладывает «Пустотную атрофию» и не усиливает её.
+#            UmbralBonus: Второй удар Прототокии Астер не усиливает «Пустотную атрофию», но увеличивает урон игрока на 400% в течение 5 секунд.
 #        }
 #
 #        ArsLaevateinn: {
-#            AbilityName: Ars Laevateinn
+#            AbilityName: Арс Леватейн
 #            AbilitySubName: "[c/F19559:Shine True, O Burning Bright Star]"
 #            AbilityDescription: Wield a blazing greatsword to return foes to ashes. Casting Ars Laevataeinn will mark a colossal region around you with infernal flames. Ars Laevateinn will pulse damage five times in the specified region, dealing 1/5th of the total damage with each hit. During this time, you will be granted 'Surtr's Twilight.' While this buff is active, all attacks will Burn foes for 8 seconds. If Burned foes are struck by Ars Laevateinn, they will take 5% extra damage.
 #            AstralBonus: Burning foes take 5% extra damage. If the attack was a critical strike, burning foes 5% more damage.
@@ -4924,38 +3429,21 @@
 #        KiwamiRyuken: {
 #            AbilityName: Кивами Рюкен
 #            AbilitySubName: "[c/36BDEC:Необузданная суть кулака дракона]"
-#            AbilityDescription:
-#                '''
-#                При использовании Кивами Рюкен на одну секунду открывается окно для
-#                получении удара, становясь при этом неуязвимым. При получении удара
-#                срабатывает контратака, наносящая невероятный урон в ближнем радиусе и
-#                направлении курсора. Однако выполнить контратаку будет невозможно, если
-#                враг находится вне зоны ближнего боя, хотя входящий урон всё равно
-#                блокируется. Если за отведённую секунду вы не подверглись атаке, 50%
-#                стоимости энергии Астроновы будет возвращено.
-#                '''
-#            AstralBonus:
-#                '''
-#                Контратака всегда наносит критический удар, если здоровье меньше 50%.
-#                При срабатывании контратаки восстанавливает 5 единиц энергии Астроновы.
-#                '''
-#            UmbralBonus:
-#                '''
-#                При срабатывании контратаки восстанавливает 40 единиц здоровья и маны.
-#                В случае неудачи дополнительно возвращает 10 единиц энергии Астроновы.
-#                '''
+#            AbilityDescription: При использовании Кивами Рюкен на одну секунду открывается окно для получении удара, становясь при этом неуязвимым. При получении удара срабатывает контратака, наносящая невероятный урон в ближнем радиусе и направлении курсора. Однако выполнить контратаку будет невозможно, если враг находится вне зоны ближнего боя, хотя входящий урон всё равно блокируется. Если за отведённую секунду вы не подверглись атаке, 50% стоимости энергии Астроновы будет возвращено.
+#            AstralBonus: Контратака всегда наносит критический удар, если здоровье меньше 50%. При срабатывании контратаки восстанавливает 5 единиц энергии Астроновы.
+#            UmbralBonus: При срабатывании контратаки восстанавливает 40 единиц здоровья и маны. В случае неудачи дополнительно возвращает 10 единиц энергии Астроновы.
 #        }
 #
 #        GardenOfAvalon: {
-#            AbilityName: Garden of Avalon
-#            AbilitySubName: "[c/ECB3FC:The Forever-Sealed Utopia]"
-#            AbilityDescription: Call forth the Garden of Avalon, infusing the world with radiant energy. Grant powerful Health and Mana regeneration periodically for 8 seconds, scaling with Stellar Nova Damage. Gain Invincibility for 2 seconds. If the cast would be critical, gain Health, modified by Stellar Nova crit modifiers. Additionally, upon a critical cast, gain the buff Solemn Aegis for 15 seconds, which negates one hit of damage independently of Invincibility.
-#            AstralBonus: Invincibility lasts for 4 seconds instead of 2. Instantly heal 100 HP upon casting Garden of Avalon.
-#            UmbralBonus: Gain an extra buff on cast: Dreamlike Charisma. (Can not stack.) Dreamlike Charisma increases damage by 16%, doubled above 100 Mana.
+#            AbilityName: Сад Авалона
+#            AbilitySubName: "[c/ECB3FC:Навеки запечатанная утопия]"
+#            AbilityDescription: Призывает Сад Авалона, наполняя мир лучистой энергией. Периодически даёт мощную регенерацию здоровья и маны в течение 8 секунд, эффект которого зависит от урона Астроновы. Даёт неуязвимость на 2 секунды. При критическом срабатывании восстанавливает здоровье, эффект которого зависит от критических показателей Астроновы. Также при критическом срабатывании даёт бафф «{$Buffs.SolemnAegis.DisplayName}» на 15 секунд, который аннулирует урон от одного удара независимо от неуязвимости.
+#            AstralBonus: Увеличивает время неуязвимости до 4 секунд, вместо 2. Мгновенно восстановливает 100 единиц здоровья при активации Сада Авалона.
+#            UmbralBonus: Даёт дополнительный бафф при активации: «{$Buffs.DreamlikeCharisma.DisplayName}» (Не складывается) «{$Buffs.DreamlikeCharisma.DisplayName}» увеличивает урон на 16%, и удваивает этот показатель при запасе маны выше 100.
 #        }
 #
 #        EdinGenesisQuasar: {
-#            AbilityName: Edin Genesis Quasar
+#            AbilityName: Эдин Квазарнез
 #            AbilitySubName: "[c/00FF93:The Moment a Planet Is Born]"
 #            AbilityDescription: Upon cast, become immobile and invincible temporarily. Gain 'Astarte Driver' for 25 seconds. Astarte Driver grants infinite flight and three Cosmic Charges. ALL attacks while Astarte Driver is active will inherit the stats of the Stellar Nova. Pressing the Starfarer Action Key with a Cosmic Charge available will launch a barrage of spatial projectiles (2 second use cooldown.) After activating Astarte Driver's stat-changing effect, the target will be immune for a very short period.
 #            AstralBonus: Critical hits do an additional {0} damage in Astarte Driver. You will gain a Cosmic Charge after defeating a foe with a critical hit. (Max 5 charges.)
@@ -4965,32 +3453,13 @@
 #        UnlimitedBladeWorks: {
 #            AbilityName: Клинков бесконечный край
 #            AbilitySubName: "[c/FC643B:Проецируемая реальность из кованого железа]"
-#            AbilityDescription:
-#                '''
-#                Призывает портал в мир клинков, создавая поле усиления на 20 секунд.
-#                После активации обрушивает на врагов шквал клинков, снижая их урон на
-#                10% на 20 секунд при попадании. Также, все союзники в радиусе действия
-#                получают бафф «{$Buffs.Bladeforged.DisplayName}», увеличивающий урон, отбрасывание, шанс
-#                критического удара и пробивание брони на 2%, достигая максимума 10% в
-#                зависимости от текущего запаса здоровья (максимум 500). Длительность
-#                баффа в секундах пропорциональна расходу энергии, делённому на 10.
-#                '''
-#            AstralBonus:
-#                '''
-#                Порог баффа «{$Buffs.Bladeforged.DisplayName}» увеличен до 15%, и теперь он увеличивает
-#                защиту в процентном отношении до 8. Также, он остаётся активным в течение
-#                10 секунд после окончания Астроновы.
-#                '''
-#            UmbralBonus:
-#                '''
-#                Бафф «{$Buffs.Bladeforged.DisplayName}» больше не увеличивает урон, но атакуя снарядами
-#                запускает последовательные атаки (перезарядка 3 секунды). Враги внутри
-#                поля получают на 10% больше урона.
-#                '''
+#            AbilityDescription: Призывает портал в мир клинков, создавая поле усиления на 20 секунд. После активации обрушивает на врагов шквал клинков, снижая их урон на 10% на 20 секунд при попадании. Также, все союзники в радиусе действия получают бафф «{$Buffs.Bladeforged.DisplayName}», увеличивающий урон, отбрасывание, шанс критического удара и пробивание брони на 2%, достигая максимума 10% в зависимости от текущего запаса здоровья (максимум 500). Длительность баффа в секундах пропорциональна расходу энергии, делённому на 10.
+#            AstralBonus: Порог баффа «{$Buffs.Bladeforged.DisplayName}» увеличен до 15%, и теперь он увеличивает защиту в процентном отношении до 8. Также, он остаётся активным в течение 10 секунд после окончания Астроновы.
+#            UmbralBonus: Бафф «{$Buffs.Bladeforged.DisplayName}» больше не увеличивает урон, но атакуя снарядами запускает последовательные атаки (перезарядка 3 секунды). Враги внутри поля получают на 10% больше урона.
 #        }
 #
 #        GuardiansLight: {
-#            AbilityName: Свет стража
+#            AbilityName: Страж света
 #            AbilitySubName: "[c/C0EEFF:Ясность воли странника]"
 #
 #            AbilityDescription: {
@@ -4998,38 +3467,24 @@
 #                Ranged: Wield paracausal energy through myriad abilities depending on Aspected Damage Type: Thundercrash if Melee, Golden Gun if Ranged, Nova Bomb if Magic, Needlestorm if Summoner, and Silence and Squall otherwise. Golden Gun: After activation, gain Bearer of Light for 10 seconds while unleashing a bolt of piercing light. You can press the Stellar Nova key 2 more times to repeat the attack while Bearer of Light is active, dealing 1/3 damage. Critical strikes explode, dealing 50% base damage.
 #                Magic: Wield paracausal energy through myriad abilities depending on Aspected Damage Type: Thundercrash if Melee, Golden Gun if Ranged, Nova Bomb if Magic, Needlestorm if Summoner, and Silence and Squall otherwise. Nova Bomb: After activation, gain Bearer of Light for 10 seconds while unleashing a powerful void projectile that tracks foes. After 2 seconds or after striking a foe, the attack will detonate in a large explosion. Inflicts Shadowflame for 10 seconds on foes struck by the blast.
 #                Summon: Wield paracausal energy through myriad abilities depending on Aspected Damage Type: Thundercrash if Melee, Golden Gun if Ranged, Nova Bomb if Magic, Needlestorm if Summoner, and Silence and Squall otherwise. Needlestorm: After activation, gain Bearer of Darkness for 10 seconds and unleash 5 Woven Needles. After striking a foe or a surface, the needles weave into Threadlings and attack nearby foes (treated as minions.) Damage is split between Woven Needles and Threadlings.
-#                Other:
-#                    '''
-#                    Овладейте паракаузальной энергией с помощью разнообразных способностей,
-#                    зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя,
-#                    Золотая пушка для стрелкового, Сверх бомба для магического, Шторм игл для
-#                    призывного, а также Молчание и Шквал в других случаях. Молчание и Шквал:
-#                    После активации даёт бафф «{$Buffs.BearerOfDarkness.DisplayName}» на 10 секунд при использовании
-#                    Молчания, накладывая дебафф «{$BuffName.Frostburn}» на 8 секунд. Сразу после
-#                    Молчания происходит Шквал, наносящий урон и создающий морозное поле при
-#                    попадании, которое наносит постепенный урон в течение 8 секунд.
-#                    '''
+#                Other: Владейте паракаузальной энергией, используя множество способностей, зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя, Золотая пушка для стрелкового, Сверх бомба для магического, Шторм игл для призывного, а в остальных случаях Молчание и Шквал. Молчание и Шквал: После активации даёт бафф «{$Buffs.BearerOfDarkness.DisplayName}» на 10 секунд, а также использует Молчание, накладывая дебафф «{$BuffName.Frostburn}» на 8 секунд. Сразу после этого следует Шквал, наносящий урон и создающий морозное поле при ударе, которое наносит постепенный урон в течение 8 секунд.
 #            }
 #
-#            AstralBonus:
-#                '''
-#                «{$Buffs.BearerOfLight.DisplayName}» увеличивает регенерации здоровья. «{$Buffs.BearerOfDarkness.DisplayName}» снижает
-#                получаемый урон на 10%. При получении смертельного урона любой из баффов
-#                поглощается и восстанавливает 30 здоровья.
-#                '''
+#            AstralBonus: "«{$Buffs.BearerOfLight.DisplayName}» увеличивает регенерацию здоровья. «{$Buffs.BearerOfDarkness.DisplayName}» снижает получаемый урон на 10%. При получении смертельного урона любой из баффов поглощается и восстанавливает 30 здоровья."
 #            UmbralBonus: Bearer of Light increases damage by 8%. Bearer of Darkness increases critical strike damage by 15%. While either buff is active, Aspected Damage Type penalty is negated.
 #        }
 #
-#        BaseDamage: ед. баз. урона
-#        BaseEnergyCost: ед. баз. рас. энер.
-#        Damage: ед. урона
+#        # Не используется
+#        BaseDamage: Базовый урон
+#        BaseEnergyCost: Базовый расход энергии
+#        Damage: Damage
 #        AttackDamage: Attack Damage
-#        CritChance: Крит. шанс
+#        CritChance: Шанс крит. удара
 #        CritDamage: Крит. урон
-#        EnergyCost: ед. расхода энер.
-#        BaseHealStrength: Base Heal Strength
-#        HealStrength: Heal Strength
-#        CritHealStrength: Crit Heal Strength
+#        EnergyCost: Расход энрегии
+#        BaseHealStrength: Базовая сила лечения
+#        HealStrength: Сила лечения
+#        CritHealStrength: Сила крит. лечения
 #    }
 #}
 #
@@ -5048,11 +3503,7 @@
 #    TsukiyomiBossChecklist: Boss Checklist обновляется, открывая скрытого врага!
 #    CanBeShimmeredSpoils: Можно преобразовать в звёздные частицы с помощью мерцания
 #    BlockedNova: Использование Астроновы невозможно из-за присутствия могущественного врага.
-#    CreditsHover:
-#        '''
-#        [Посмотреть перечень участников в
-#        создании мода!]
-#        '''
+#    CreditsHover: "[Посмотреть перечень участников в создании мода!]"
 #    Credits: # ПРОБЕЛЫ НЕ УДАЛЯТЬ!
 #        '''
 #        Участники
@@ -5239,7 +3690,7 @@
 #    Starfall: Starfall
 #    HypertunedStarfall: Hypertuned Starfall
 #    HypertunedInverseStarfall: Hypertuned Inverse Starfall
-#    MeteorShower: Meteor Shower
+#    MeteorShower: Метеоритный дождь
 #    DemiPrototokia: Demi-Prototokia
 #    StarSundering: Star Sundering
 #    GeneralRelativity: General Relativity
@@ -5268,20 +3719,20 @@
 #    FrozenArsenal: Frozen Arsenal
 #    ArmoryOfIce: Armory Of Ice
 #    ArcipluvianArcana: Arcipluvian Arcana
-#    InkOver: Ink Over
+#    InkOver: Вездесущие чернила
 #    ArtisticDissonance: Artistic Dissonance
-#    LinearMystics: Linear Mystics
-#    SplatteredSundering: Splattered Sundering
+#    LinearMystics: Линейные мистики
+#    SplatteredSundering: Обагрённое рассечение
 #    ElegantBrushwork: Elegant Brushwork
 #    EfflouresentBrushwork: Efflouresent Brushwork
-#    SpilledViolet: Spilled Violet
+#    SpilledViolet: Пролитый пурпур
 #    Rhabtophobia: Rhabtophobia
-#    BlottedWhims: Blotted Whims
+#    BlottedWhims: Запятнанная блажь
 #    ChromaticCascade: Chromatic Cascade
 #    TwinPrototokia: Twin Prototokia
 #    GeminiBurst: Gemini Burst
 #    InfernalIgnition: Infernal Ignition
-#    Relinquishment: Relinquishment
+#    Relinquishment: Отказ
 #    MonarchFeint: Monarch's Feint
 #    BurnishedBladework: Burnished Bladework
 #    IvoryAdmonishment: Ivory Admonishment
@@ -5308,8 +3759,8 @@
 #    Titanomachia: Titanomachia
 #    VisionsBeyond: Visions Beyond
 #    Argyropeia: Argyropeia
-#    TheBitterEnd: The Bitter End
-#    CoruscantSaber: Coruscant Saber
+#    TheBitterEnd: Горький конец
+#    CoruscantSaber: Сабля Корусанта
 #    ImbuedSaber: Imbued Saber
 #    ImbuedCoruscance: Imbued Coruscance
 #    SearingLight: Searing Light
@@ -5317,17 +3768,17 @@
 #    EphemeralEdge: Ephemeral Edge
 #    AbsoluteSummoning: Absolute Summoning
 #    PassageOfArms: Passage of Arms
-#    Ascendance: Ascendance
+#    Ascendance: Вознесение
 #    AbsoluteZero: Absolute Zero
 #    RadiantReprobation: Radiant Reprobation
 #    RefulgentReprobation: Refulgent Reprobation
 #    ResoluteReprobation: Resolute Reprobation
 #    AbsoluteFire: Absolute Fire
 #    AbsoluteIce: Absolute Ice
-#    Transplacement: Transplacement
+#    Transplacement: Перенос
 #    ScionsAndSinners: Scions And Sinners
-#    ToTheLimit: To The Limit
-#    ArsLaevateinn: Ars Laevateinn
+#    ToTheLimit: Круша лимиты
+#    ArsLaevateinn: Арс Леватейн
 #    GardenOfAvalon: Garden Of Avalon
 #    MortalInstants: Mortal Instants
 #    Katakrisis: Katakrisis
@@ -5335,7 +3786,7 @@
 #    AsAboveEverBelow: As Above, Ever Below
 #    EdinGenesisQuasar: Edin Genesis Quasar
 #    TheFirstAspect: The First Aspect
-#    ThreadsOfFate: Threads Of Fate
+#    ThreadsOfFate: Суперструны судьбы
 #    HypertunedMeteorShower: Hypertuned Meteor Shower
 #    Anosios: Anosios
 #    AnosiosTriumverate: AnosiosTriumverate
@@ -5517,9 +3968,9 @@
 #            Клинок воспламеняется, нанося увеличенный урон и поджигая врагов
 #            Горящие враги получают дополнительный урон при повторном поджоге
 #            Если маны недостаточно, оружие становится ослабленным и наносит половину урона
-#            Усиленные атаки этого оружия заряжают [c/FF5858:Индикатор Эгиды]
-#            При полном заряде [c/FF5858:Индикатора Эгиды] следующая атака взорвёт врага, нанося огромный критический урон и расходуя заряд [c/FF5858:Индикатора Эгиды]
-#            [c/FF5858:Индикатор Эгиды] также медленно заполняется, пока вы держите это оружие в руках
+#            Усиленные атаки этого оружия заряжают [c/FF5858:Шкалу Эгиды]
+#            При полном заряде [c/FF5858:Шкалы Эгиды] следующая атака взорвёт врага, нанося огромный критический урон и расходуя заряд [c/FF5858:Шкалы Эгиды]
+#            [c/FF5858:Шкала Эгиды] также медленно заполняется, пока вы держите это оружие в руках
 #            'Вот в чём мощь Эгиды!'
 #            '''
 #    }
@@ -5531,9 +3982,9 @@
 #            Призывает [c/B875F0:Пустотных осьминожек], которые атакуют врагов самонаводящимися лазерами
 #            Каждый призванный [c/B875F0:Пустотный осьминожек] увеличивает урон всех миньонов и оружия призывателя на 1%
 #            Нажмите <right>, чтобы запустить [c/E752B3:Жуткий взрыв] в направлении курсора в течение 3 секунд, испепеляя врагов по прямой линии перед вами (перезарядка 1 минута)
-#            При наличии хотя бы одного призванного [c/B875F0:Пустотного осьминожка] появляется [c/5652E7:Индикатор бездны]
-#            Когда [c/B875F0:Пустотный осьминожек] или [c/E752B3:Жуткий взрыв] наносит урон, [c/5652E7:Индикатор бездны] заполняется, даже если это оружие не находится в руках
-#            Когда [c/5652E7:Индикатор бездны] заполнен, при использовании этого оружия активируется [c/AC49F5:Призыв Древнего]
+#            При наличии хотя бы одного призванного [c/B875F0:Пустотного осьминожка] появляется [c/5652E7:Шкала бездны]
+#            Когда [c/B875F0:Пустотный осьминожек] или [c/E752B3:Жуткий взрыв] наносит урон, [c/5652E7:Шкала бездны] заполняется, даже если это оружие не находится в руках
+#            Когда [c/5652E7:Шкала бездны] заполнена, при использовании этого оружия активируется [c/AC49F5:Призыв Древнего]
 #            [c/AC49F5:Призыв Древнего] призывает вокруг ближайшего врага магические порталы
 #            После небольшой паузы появляются щупальца, накладывающие дебафф «{$BuffName.ShadowFlame}» на 7 секунд
 #            С каждым призванным [c/B875F0:Пустотным осьминожком] количество порталов [c/AC49F5:Призыва Древнего] увеличивается, а [c/E752B3:Жуткий взрыв] наносит больше урона
@@ -5547,32 +3998,32 @@
 #        Tooltip:
 #            '''
 #            5 урона от метки призывателя
-#            Striking foes with the weapon inflicts [c/4A91FF:Riptide] for 4 seconds
-#            When a minion strikes an enemy with [c/4A91FF:Riptide], they take 30% extra damage, removing [c/4A91FF:Riptide]
-#            Additionally, with this weapon held, minions have a 10% chance to apply [c/4776A7:Ocean's Culling] for 5 seconds upon striking foes
-#            When you strike a foe with [c/4776A7:Ocean's Culling] with this weapon, the foe will detonate, taking damage and spewing damaging bubbles around the area
-#            Bubbles count as Minion damage and have a 30% chance to crit
-#            If bubbles hit a foe with [c/4A91FF:Riptide], this chance is increased to 100%
-#            Damage scales with world progression
+#            Удары по врагам накладывают дебафф [c/4A91FF:Разрывное течение] на 4 секунды
+#            Когда миньон наносит удар врагу, на котором наложен дебафф [c/4A91FF:Разрывное течение], враг получает дополнительно 30% урона, а [c/4A91FF:Разрывное течение] снимается
+#            Кроме того, держа это оружие в руках, миньоны при атаке с 10% шансом могут наложить дебафф [c/4776A7:Упокоение океана] на 5 секунд
+#            При ударе по врагу этим оружием, на котором наложен дебафф [c/4776A7:Упокоение океана], враг взрывается, получая урон и создавая вокруг себя наносящие урон пузыри
+#            Урон пузырей считается уроном призывателя и с 30% шансом может нанести критический удар
+#            Если пузыри наносят удар врагу, на котором наложен дебафф [c/4A91FF:Разрывное течение], этот шанс увеличивается до 100%
+#            Урон увеличивается по мере прохождения игры
 #            '''
 #    }
 #
 #    ApalistikUpgraded: {
-#        DisplayName: Рождённый морем Апалистик
+#        DisplayName: Пучинный Апалистик
 #        Tooltip:
 #            '''
 #            18 урона от метки призывателя
-#            Striking foes with the weapon inflicts [c/4A91FF:Riptide] for 4 seconds
-#            When a minion strikes an enemy with [c/4A91FF:Riptide], they take 30% extra damage, removing [c/4A91FF:Riptide]
-#            Additionally, with this weapon held, minions have a 10% chance to apply [c/4776A7:Ocean's Culling] for 5 seconds upon striking foes
-#            When you strike a foe with [c/4776A7:Ocean's Culling] with this weapon, the foe will detonate, taking damage and spewing damaging bubbles around the area
-#            Bubbles count as Minion damage and have a 30% chance to crit
-#            If bubbles hit a foe with [c/4A91FF:Riptide], this chance is increased to 100%
-#            Right click to imbue yourself with [c/00FFC1:Seaborn Wrath] for 8 seconds
-#            Under the effects of [c/00FFC1:Seaborn Wrath], attacks with this weapon will fire bubbles in a spread pattern
-#            Additionally, minions will deal double damage
-#            After use, [c/00FFC1:Seaborn Wrath] has a 30 second cooldown
-#            Damage scales greatly with world progression
+#            Удары по врагам накладывают дебафф [c/4A91FF:Разрывное течение] на 4 секунды
+#            Когда миньон наносит удар врагу, на котором наложен дебафф [c/4A91FF:Разрывное течение], враг получает дополнительно 30% урона, а [c/4A91FF:Разрывное течение] снимается
+#            Кроме того, держа это оружие в руках, миньоны при атаке с 10% шансом могут наложить дебафф [c/4776A7:Упокоение океана] на 5 секунд
+#            При ударе по врагу этим оружием, на котором наложен дебафф [c/4776A7:Упокоение океана], враг взрывается, получая урон и создавая вокруг себя наносящие урон пузыри
+#            Урон пузырей считается уроном призывателя и с 30% шансом может нанести критический удар
+#            Если пузыри наносят удар врагу, на котором наложен дебафф [c/4A91FF:Разрывное течение], этот шанс увеличивается до 100%
+#            Нажмите <right>, чтобы усилить себя [c/00FFC1:Пучинным гневом] на 8 секунд
+#            Находясь под действием [c/00FFC1:Пучинного гнева], атаки этим оружием выпускают разброс пузырей
+#            Кроме того, миньоны будут наносить двойной урон
+#            После использования [c/00FFC1:Пучинный гнев] имеет 30 секунд перезарядки
+#            Урон значительно увеличивается по мере прохождения игры
 #            '''
 #    }
 #
@@ -5721,17 +4172,17 @@
 #            '''
 #            Один из легендарных нарядов из былых легенд
 #            Экипирование на Астру даёт следующие эффекты:
-#            [c/FF30AD:Cosmos of the Beginning]
-#            The Stellar Nova is locked to Edin Genesis Quasar
-#            Attacking foes during Astarte Driver will cause a follow-up attack to occur, dealing 1/3rd original damage again
-#            [c/30D6FF:Galactic Spirit Origin]
-#            Defeating foes refreshes the duration of Astarte Driver
-#            Taking damage charges the Stellar Nova Gauge by 3
-#            [c/3068FF:Luminant Starling]
-#            Incoming damage is reduced by 10%
-#            [c/A55396:Primeval Blasphemy]
-#            Deal 70% less damage when Astarte Driver is not active
-#            'Know that you are dimensions below me...'
+#            [c/FF30AD:Космическое начало]
+#            Астронова привязана к Эдин Квазарнез
+#            Атакуя врагов во время Форсажа Астарты вызывает повторную атаку, наносящую 1/3 от первоначального урона
+#            [c/30D6FF:Истоки галактического духа]
+#            Убийство врагов обновляет время действия Форсажа Астарты
+#            Получение урона заряжает шкалу Астроновы на 3 единицы
+#            [c/3068FF:Светящийся скворец]
+#            Снижает получаемый урон на 10%
+#            [c/A55396:Первозданное богохульство]
+#            Вы наносите на 70% меньше урона, когда Форсаж Астарты неактивен
+#            'Пойми, что ты на много порядков ниже меня...'
 #            '''
 #    }
 #
@@ -5799,7 +4250,7 @@
 #        Tooltip:
 #            '''
 #            Чит-предмет для отладки
-#            Resets the cooldown on obtaining Essences and fills the Stellar Nova Gauge
+#            Сбрасывает перезарядку на получение эссенций и заполняет шкалу Астроновы
 #            '''
 #    }
 #
@@ -5910,8 +4361,8 @@
 #        DisplayName: Древняя корона
 #        Tooltip:
 #            '''
-#            This crown howls with power
-#            [c/F1AF42:Summons Nalhaun, the Burnished King]
+#            Из этой короны исходит могучий рёв
+#            [c/F1AF42:Призывает Налхана, Воронёного короля]
 #            Этот босс доступен на раннем этапе, однако он может показаться слишком сложным
 #            Следует подготовиться и отложить этот бой до тех пор, пока вы не станете сильнее
 #            Не расходуется
@@ -5953,9 +4404,9 @@
 #        DisplayName: Иноземная банка газировки
 #        Tooltip:
 #            '''
-#            A questionable beverage
+#            Сомнительный напиток
 #            Без эффектов
-#            'Property of Joja Offworld'
+#            'Собственность Джоджи Иномирного'
 #            '''
 #    }
 #
@@ -6012,8 +4463,8 @@
 #        DisplayName: Высший крест
 #        Tooltip:
 #            '''
-#            This object feels worryingly wrong
-#            [c/F1AF42:Takes you to Katabasis, where Arbitration awaits]
+#            Этот предмет вызывает тревожное ощущение неправильности
+#            [c/F1AF42:Отправляет в Катабасис, где вас ждёт Арбитраж]
 #            Не расходуется
 #            '''
 #    }
@@ -6067,10 +4518,10 @@
 #        DisplayName: Мнемоническая печать
 #        Tooltip:
 #            '''
-#            The combined memories of worlds defeated by the First Starfarer
-#            Can be used to be taken to the [c/7FC1EF:Eternal Confluence]
-#            Use again within the center of the [c/7FC1EF:Eternal Confluence] to summon [c/F1AF42:Tsukiyomi, the First Starfarer]
-#            [c/7FC1EF:Will summon Tsukiyomi normally in Multiplayer]
+#            Слитые воедино воспоминания о мирах, уничтоженных Первой Астрой
+#            Можно использовать для путешествия к [c/7FC1EF:Вечному перекрёстку]
+#            Используйте повторно в центре [c/7FC1EF:Вечного перекрёстка], чтобы призвать [c/F1AF42:Цукиёми, Первую Астру]
+#            [c/7FC1EF:В мультиплеере Цукиёми призывается обычным образом]
 #            Не расходуется
 #            '...'
 #            '''
@@ -6396,18 +4847,18 @@
 #        DisplayName: Драхеланс
 #        Tooltip:
 #            '''
-#            Use right click to perform a Jump into the air (12 second cooldown) and become imbued with the [c/6090EC:Blood of the Dragon] for 5 seconds
-#            You will also be granted Featherfall for 1 second
-#            [c/6090EC:Blood of the Dragon] will apply the following effects:
-#            During [c/6090EC:Blood of the Dragon], the next attack will launch you towards your cursor after Featherfall ends
-#            Additionally, damage is increased by 40%, movement speed is increased, and fall damage is negated
-#            After two instances of [c/6090EC:Blood of the Dragon], the next Jump will instead grant [c/EC6060:Life of the Dragon] for 8 seconds
-#            [c/EC6060:Life of the Dragon] will apply the following effects:
-#            During [c/EC6060:Life of the Dragon], the next attack will fire a barrage of draconic fireballs that lower enemy defense
-#            Additionally, damage and critical strike chance is increased by 60% and fall damage is negated
-#            After the initial attack, every attack will launch you towards your target, dealing high amounts of bonus damage and granting Invincibility for 1 second
-#            Jump counters will be reset when swapping off this weapon
-#            'Born amidst the timeless conflict between men and dragons, forged that they might better pierce the scaled hides of their mortal foes'
+#            Нажмите <right>, чтобы совершить прыжок в воздух (перезарядка 12 секунд) и на 5 секунд обрести силу [c/6090EC:Крови дракона]
+#            Вы также получаете бафф «{$BuffName.Featherfall}» на 1 секунду
+#            [c/6090EC:Кровь дракона] имеет следующие эффекты:
+#            Во время действия [c/6090EC:Крови дракона] следующая атака после окончания баффа «{$BuffName.Featherfall}» запустит вас в направление курсора
+#            Кроме того, увеличивает урон на 40%, увеличивает скорость передвижения и защищает от урона при падении
+#            После двух применений [c/6090EC:Крови дракона] следующий прыжок активирует [c/EC6060:Жизнь дракона] на 8 секунд
+#            [c/EC6060:Жизнь дракона] имеет следующие эффекты:
+#            Во время действия [c/EC6060:Жизни дракона] следующая атака выпускает залп драконьих огненных шаров, которые снижают защиту врага
+#            Кроме того, увеличивает урон и шанс критического удара на 60%, и защищает от урона при падении
+#            После первой атаки, каждая последующая атака запускает вас к цели, нанося высокий дополнительный урон и давая неуязвимость на 1 секунду
+#            При смене оружия счётчик прыжков будет сброшен
+#            'Рождённое в разгар противостояния людей и драконов, выкованное чтобы лучше пронзать толстые шкуры своих заклятых врагов'
 #            '''
 #    }
 #
@@ -7220,9 +5671,9 @@
 #        DisplayName: Важно каждое мгновение
 #        Tooltip:
 #            '''
-#            Every fourth shot will always deal critical damage and grant Swiftness
-#            Damage will increase with every shot
-#            Every eighth shot will deal triple damage
+#            Каждый четвёртый выстрел всегда наносит критический удар и даёт бафф «{$BuffName.Swiftness}»
+#            Урон увеличивается с каждым выстрелом
+#            Каждый восьмой выстрел наносит тройной урон
 #            После четвёртого выстрела оружию требуется время для перезарядки
 #            'Я восстал из ила и грязи. Я - цветок лотоса. Я - сама красота'
 #            '''
@@ -7379,7 +5830,7 @@
 #            '''
 #            Каждый четвёртый выстрел всегда наносит критический удар
 #            Весь критический урон от этого оружия увеличивается в четыре раза, а не в два
-#            С каждым выстрелом урон увеличивается
+#            Урон увеличивается с каждым выстрелом
 #            После четвёртого выстрела оружию требуется время для перезарядки
 #            Если вы совершили достаточно выстрелов, ваша следующая перезарядка получит силу [c/66B2D1:Заточенной грани]
 #            Как только вы перезарядитесь с эффектом [c/66B2D1:Заточенной грани], следующий выстрел нанесёт критический урон в размере 500% от обычного, после чего оружие снова перезарядится
@@ -7429,7 +5880,7 @@
 #            When inflicted with specific debuffs, gain [c/B77CEC:Thermodynamics] depending on incoming debuffs
 #            On Fire, Shadowflame, Burning: Consume the debuff to increase the potency of [c/33FF93:Absorption] for 10 seconds, increasing the amount of [c/39EEB5:Potential Energy] acquired
 #            Frozen, Chilled, Frostburn: [c/39EEB5:Potential Energy] will drain at an increased rate
-#            Damage scales with world progression
+#            Урон увеличивается по мере прохождения игры
 #            'Можеть позаимствовать немного моей силы, всё равно это не канон. Ведь это всего лишь игра...'
 #            '''
 #    }
@@ -7691,7 +6142,7 @@
 #        DisplayName: Мементо Мьюз
 #        Tooltip:
 #            '''
-#            Держа это оружие в руках, активирует [c/D8305F:Индикатор ритма]
+#            Держа это оружие в руках, активирует [c/D8305F:Шкалу ритма]
 #            Совершайте взмахи в такт ритму, чтобы наносить увеличенный урон и выпускать мощный снаряд
 #            Поддержание ритма постепенно увеличивает шанс критического удара
 #            Максимальная длина комбо составляет 12 атак
@@ -7723,10 +6174,10 @@
 #        DisplayName: Компания несчастья
 #        Tooltip:
 #            '''
-#            Right click to cycle between [c/CE4A3F:Blade Mode], [c/3FCCCE:Scythe Mode], and [c/CE3FAD:Shotgun Mode] with a 2 second cooldown
-#            [c/CE4A3F:Blade Mode] allows for quick swings at close range
-#            [c/3FCCCE:Scythe Mode] throws a scythe with very long reach that can bypass walls with a cooldown
-#            [c/CE3FAD:Shotgun Mode] fires bullets in a spread pattern that does not use ammo, doing half damage per shot
+#            Нажатие <right> позволяет переключаться между режимами [c/CE4A3F:Клинка], [c/3FCCCE:Косы] и [c/CE3FAD:Дробовика] с перезарядкой в 2 секунды
+#            [c/CE4A3F:Режим клинка] совершает быстрые взмахи на ближней дистанции
+#            [c/3FCCCE:Режим косы] бросает на очень дальнюю дистанцию косу с небольшой перезарядкой, которая может проходить сквозь блоки
+#            [c/CE3FAD:Режим дробовика] стреляет дробью пуль, не расходуя боеприпасы, наносящими половину урона за выстрел
 #            '''
 #    }
 #
@@ -7734,16 +6185,16 @@
 #        DisplayName: Утренняя звезда
 #        Tooltip:
 #            '''
-#            Attacks with this weapon whip in a wide arc, exploding foes hit for 1/4 base damage and burning them for 4 seconds
-#            Press the Weapon Action key to summon [c/CBA09A:Alucard's Sword], consuming minion slots (up to 3) to summon a blade to attack foes
-#            Additional minion slots empower [c/CBA09A:Alucard's Sword], and at 3 slots, the blade hits much faster and has a 10% chance to deal critical strikes
-#            [c/CBA09A:Alucard's Sword] deals 10% more damage from after striking foes with this weapon for 4 seconds
-#            [c/CBA09A:Alucard's Sword] deals 30% more damage instead at 3 minion slots consumed
-#            Right click to consume 20 Mana, casting a random [c/3E7299:Arcane Art] (3 second cooldown)
-#            [c/8EE7E4:Frozen Crystals]: Unleash a spread of icy shards, inflicting Frostburn on foes for 3 seconds
-#            [c/B4E93A:Accursed Flames]: Unleash a burst of flame around you that inflicts Cursed Inferno for 3 seconds
-#            [c/F3E63E:Chain Lightning]: Unleash a concentrated lightning jolt, inflicting Ichor for 3 seconds and chaining to 5 nearby foes
-#            'A vampire, a hunter, and a scholar'
+#            Атаки этим оружием совершаются широким хлыстом, взрывая поражённых врагов, нанося им 1/4 базового урона и поджигая на 4 секунды
+#            Нажмите клавишу 'Действие оружия', чтобы призвать [c/CBA09A:Меч Алукарда], используя слоты призываемых миньонов (до 3) для призыва клинка, атакующего врагов
+#            Дополнительные слоты призываемых миньонов усиливают [c/CBA09A:Меч Алукарда], а при 3 слотах клинок атакует гораздо быстрее и наносит с 10% шансом критический удар
+#            [c/CBA09A:Меч Алукарда] наносит на 10% больше урона в течение 4 секунд после удара по врагу этим оружием
+#            [c/CBA09A:Меч Алукарда] наносит на 30% больше урона при использовании 3 слотов призываемых миньонов
+#            Нажмите <right>, потратив 20 маны, чтобы применить случайное [c/3E7299:Чародейное искусство] (перезарядка 3 секунды)
+#            [c/8EE7E4:Ледяные кристаллы]: Высвобождает разброс ледяных осколков, накладывая на врагов дебафф «{$BuffName.Frostburn}» на 3 секунды
+#            [c/B4E93A:Проклятое пламя]: Высвобождает вокруг вас взрыв пламени, накладывая на врагов дебафф «{$BuffName.CursedInferno}» на 3 секунды
+#            [c/F3E63E:Цепная молния]: Высвобождает концентрированный электрический разряд, накладывая на врагов дебафф «{$BuffName.Ichor}» на 3 секунды и перескакивая на 5 ближайших врагов
+#            'Вампир, охотник и учёный'
 #            '''
 #    }
 #
@@ -7772,12 +6223,12 @@
 #        Tooltip:
 #            '''
 #            [c/F7D76A:Удерживайте <left>, чтобы зарядить оружие; чем дольше заряжается оружие, тем сильнее итоговая атака]
-#            Attacks with this weapon fire small pellets, inflicting Midas for 20 seconds on critical strikes
-#            Charged attacks will instead fire a [c/FBD63E:BIG SHOT], dealing 200% damage
-#            The [c/FBD63E:BIG SHOT] pierces up to 8 foes and ignores terrain
-#            Additionally, enemies inflicted with Midas take 15% more damage from the [c/FBD63E:BIG SHOT]
-#            Critical strikes increase this modifier to 25%
-#            Defeating foes with the [c/FBD63E:BIG SHOT] is guaranteed to drop 5 silver
+#            Атаки этим оружием стреляют маленькими шариками, которые накладывают дебафф «{$BuffName.Midas}» на 20 секунд при критических ударах
+#            Заряженные атаки вместо обычных выпускают [c/FBD63E:БОЛЬШОЙ ВЫСТРЕЛ], наносящий 200% урона
+#            [c/FBD63E:БОЛЬШОЙ ВЫСТРЕЛ] пронзает до 8 врагов и игнорирует блоки
+#            Кроме того, враги, на которых наложен дебафф «{$BuffName.Midas}», получают на 15% больше урона от [c/FBD63E:БОЛЬШОГО ВЫСТРЕЛА]
+#            Критические удары увеличивают этот показатель до 25%
+#            Победив врага [c/FBD63E:БОЛЬШИМ ВЫСТРЕЛОМ], из него гарантированно выпадает 5 серебра
 #            'Теперь у тебя есть шанс стать...'
 #            '''
 #    }
@@ -8763,14 +7214,14 @@
 #        DisplayName: Суйсэйфон
 #        Tooltip:
 #            '''
-#            Использование этого предмета расходует ману, заполняя [c/c2f4ff:Индикатор выступления] и начинает ваше [c/40b9ff:Звёздное выступление]
+#            Использование этого предмета расходует ману, заполняя [c/c2f4ff:Шкалу выступления] и начинает ваше [c/40b9ff:Звёздное выступление]
 #            [c/40b9ff:Звёздное выступление] увеличивает урон на 15%
 #            [c/40b9ff:Звёздное выступление] увеличивает скорость передвижения на 40%
 #            [c/40b9ff:Звёздное выступление] увеличивает всем ближайшим членам команды (включая игрока) урон на 5%, а также восстановление маны и регенерацию здоровья
-#            [c/c2f4ff:Индикатор выступления] постепенно теряет заряд
-#            Передвижение во время [c/40b9ff:Звёздного выступления] заполняет [c/c2f4ff:Индикатор выступления]
-#            [c/c2f4ff:Индикатор выступления] теряет заряд пропорционально полученному урону (максимум 30% заряда за удар)
-#            Если [c/c2f4ff:Индикатор выступления] достигает 0, [c/40b9ff:Звёздное выступление] заканчивается и перезаряжается 2 минуты
+#            [c/c2f4ff:Шкала выступления] постепенно теряет заряд
+#            Передвижение во время [c/40b9ff:Звёздного выступления] заполняет [c/c2f4ff:Шкалу выступления]
+#            [c/c2f4ff:Шкала выступления] теряет заряд пропорционально полученному урону (максимум 30% заряда за удар)
+#            Если [c/c2f4ff:Шкала выступления] достигает 0, [c/40b9ff:Звёздное выступление] заканчивается и перезаряжается 2 минуты
 #            Если [c/40b9ff:Звёздное выступление] будет полностью выполнено, вы восстановите всё здоровья и ману, а перезарядка [c/40b9ff:Звёздного выступления] сократится до 1 минуты
 #            'Что бы ты не пела, ты всегда милашка'
 #            '''
@@ -9117,8 +7568,8 @@
 #        DisplayName: Амулет парного креста
 #        Tooltip:
 #            '''
-#            This charm appears to be pulling itself apart
-#            [c/F1AF42:Summons Dioskouroi, the Twin Forces]
+#            Этот амулет, похоже, разрывается на части
+#            [c/F1AF42:Призывает Диоскуров, Близнецов-воителей]
 #            Этот босс доступен на раннем этапе, однако он может показаться слишком сложным
 #            Следует подготовиться и отложить этот бой до тех пор, пока вы не станете сильнее
 #            Не расходуется
@@ -9991,11 +8442,11 @@
 #        DisplayName: Скорбящие карманные часы
 #        Tooltip:
 #            '''
-#            Damage variance is disabled
-#            Upon landing a critical strike, flip a coin
-#            If heads, damage is inflicted again; If tails, you become Vulnerable for 3 seconds
-#            Additionally, damage is reduced by 40% while Vulnerable and natural critical strikes are disabled
-#            Can only activate every 3 seconds
+#            Отключает разброс урона
+#            При нанесении критического удара подбрасывается монетку
+#            Если выпадает орёл, урон наносится повторно; если решка, вы становитесь уязвимым на 3 секунды
+#            Кроме того, снижает урон на 40% во время уязвимости, и отключает естественные критические удары
+#            Можно активировать лишь раз в 3 секунды
 #            '''
 #    }
 #
@@ -10281,7 +8732,7 @@
 #            Right click to summon powerful tornadoes on all nearby foes while inflicting [c/CCEDAA:Stormlash] for 1 second per hit (6 second cooldown)
 #            [c/9AFE35:Windwyrm State] ends when all [c/78F178:Dragonshift Energy] is depleted
 #            Swapping off this weapon will immediately end [c/9AFE35:Windwyrm State] and reset [c/78F178:Dragonshift Energy]
-#            Damage scales with world progression
+#            Урон увеличивается по мере прохождения игры
 #            '''
 #    }
 #
@@ -11031,7 +9482,7 @@
 #        Tooltip:
 #            '''
 #            2 урона от метки призывателя
-#            Summon tag damage scales with world progression
+#            Урон от метки призывателя увеличивается по мере прохождения игры
 #            Attacks with this weapon travel incredibly fast and inflict Starblight for 4 seconds
 #            Additionally, attacks inflict a stack of [c/F8FF8B:Elemental Surge] on hit
 #            Right click to summon [c/FF5D93:Catalyst Keys] to assail foes with long-range energy bolts, ignoring 25% of foe's defense
@@ -11202,22 +9653,22 @@
 #    }
 #
 #    WetCrowbar: {
-#        DisplayName: Wet Crowbar
+#        DisplayName: Мокрый лом
 #        Tooltip:
 #            '''
 #            [c/D294FF:Воспоминание оружия]
-#            Attacks against foes at full HP deal 30% increased damage; If this attack is a critical strike, deal 50% increased damage instead
+#            Атаки против врагов с полным запасом здоровья наносят на 30% больше урона; если эта атака является критическим ударом, вместо этого наносится на 50% больше урона
 #            '''
-#        TooltipAttached: Attacks against foes at full HP deal 30% increased damage; If this attack is a critical strike, deal 50% increased damage instead
+#        TooltipAttached: Атаки против врагов с полным запасом здоровья наносят на 30% больше урона; если эта атака является критическим ударом, вместо этого наносится на 50% больше урона
 #    }
 #
 #    AsphodeneTrophyItem: {
-#        DisplayName: Asphodene's Self Portrait
+#        DisplayName: Автопортрет Асфодены
 #        Tooltip: ""
 #    }
 #
 #    EridaniTrophyItem: {
-#        DisplayName: Eridani's Self Portrait
+#        DisplayName: Автопортрет Эридани
 #        Tooltip: ""
 #    }
 #
@@ -11441,48 +9892,16 @@
 #
 #    Cosmoturgy: {
 #        NoMemoriesInWeapon: There are no Memories Imprinted in this weapon
-#        InsertWeapon:
-#            '''
-#            Поместите Аспектное оружие в
-#            Станцию космотургии, чтобы начать
-#            процесс.
-#            '''
-#        InsertWeaponHover:
-#            '''
-#            Поместите Аспектное оружие в этот
-#            слот, чтобы инкрустировать
-#            воспоминания и получить бонусные
-#            эффекты.
-#            '''
-#        CurrentWeapon:
-#            '''
-#            Вы сейчас модифицируете оружие
-#            [c/4A91FF:{0}].
-#            '''
+#        InsertWeapon: Поместите Аспектное оружие в Станцию космотургии, чтобы начать процесс.
+#        InsertWeaponHover: Поместите Аспектное оружие в этот слот, чтобы инкрустировать воспоминания и получить бонусные эффекты.
+#        CurrentWeapon: Вы сейчас модифицируете оружие [c/4A91FF:{0}].
 #        WeaponStatus: It currently has 1 Memory Imprinted.
 #        WeaponStatusPlural: It currently has {0} Memories Imprinted.
-#        MemorySlot:
-#            '''
-#            Поместите в этот слот воспоминание,
-#            чтобы инкрустировать его в оружие.
-#            Инкрустированные воспоминания
-#            являются постоянными и не могут
-#            быть удалены, только перезаписаны.
-#            Дубликаты не учитываются.
-#            '''
-#        ConfirmImprint:
-#            '''
-#            Вы уверены, что хотите инкрустировать
-#            эти воспоминания? Это действие
-#            является необратимым.
-#            '''
+#        MemorySlot: Поместите в этот слот воспоминание, чтобы инкрустировать его в оружие. Инкрустированные воспоминания являются постоянными и не могут быть удалены, только перезаписаны. Дубликаты не учитываются.
+#        ConfirmImprint: Вы уверены, что хотите инкрустировать эти воспоминания? Это действие является необратимым.
 #        ConfirmImprintOverwrite: Are you sure you would like to Imprint these Memories? Some prior Memories will be overwritten.
 #        ConfirmImprintNoMemories: There are no applicable Memories able to be Imprinted.
-#        ConfirmImprintNoWeapon:
-#            '''
-#            В Станции космотургии отсутствует
-#            оружие.
-#            '''
+#        ConfirmImprintNoWeapon: В Станции космотургии отсутствует оружие.
 #        MemoriesImprinted: Memories have been Imprinted.
 #    }
 #}
@@ -11584,12 +10003,12 @@
 #    }
 #
 #    AstarteDriverEnemyCooldown: {
-#        DisplayName: Перезарядка форсажа Астарты (Враг)
+#        DisplayName: Перезарядка Форсажа Астарты (Враг)
 #        Description: Дебафф только для врага
 #    }
 #
 #    AstarteDriverPrep: {
-#        DisplayName: Подготовка форсажа Астарты
+#        DisplayName: Подготовка Форсажа Астарты
 #        Description: Звезды даруют вам силу... через секунду
 #    }
 #
@@ -11690,8 +10109,8 @@
 #    }
 #
 #    BluePaint: {
-#        DisplayName: Blue Paint
-#        Description: You've been covered in blue paint
+#        DisplayName: Синяя краска
+#        Description: Вы покрыты синей краской
 #    }
 #
 #    BossCooldown: {
@@ -11880,8 +10299,8 @@
 #    }
 #
 #    DreamlikeCharisma: {
-#        DisplayName: Dreamlike Charisma
-#        Description: Damage is increased, and increased further at above 100 Mana
+#        DisplayName: Сказочная харизма
+#        Description: Урон увеличен, и ещё больше увеличен при запасе маны выше 100
 #    }
 #
 #    DuckHuntBirdPetBuff: {
@@ -11990,11 +10409,11 @@
 #
 #    ForceOfNatureReloadBuff: {
 #        DisplayName: Перезарядка
-#        Description: " "
+#        Description: ""
 #    }
 #
 #    GardenOfAvalon: {
-#        DisplayName: The Garden of Avalon
+#        DisplayName: Сад Авалона
 #        Description: Periodically heal health and mana with the strength of the Stellar Nova
 #    }
 #
@@ -12010,7 +10429,7 @@
 #
 #    GenocideReloadBuff: {
 #        DisplayName: Перезарядка
-#        Description: " "
+#        Description: ""
 #    }
 #
 #    GhostPet: {
@@ -12029,8 +10448,8 @@
 #    }
 #
 #    GreenPaint: {
-#        DisplayName: Green Paint
-#        Description: You've been covered in green paint
+#        DisplayName: Зелёная краска
+#        Description: Вы покрыты зелёной краской
 #    }
 #
 #    GuilmonPetBuff: {
@@ -12264,7 +10683,7 @@
 #    }
 #
 #    LifeOfTheDragon: {
-#        DisplayName: Life of the Dragon
+#        DisplayName: Жизнь дракона
 #        Description: The strengthened gaze of the first brood grants mastery over the skies, resulting in increased damage, critical rate, lifesteal, and movement speed
 #    }
 #
@@ -12310,7 +10729,7 @@
 #
 #    MechanicalPrismBuff: {
 #        DisplayName: Mechanical Prism
-#        Description: " "
+#        Description: ""
 #    }
 #
 #    EdgeOfAnguish: {
@@ -12324,23 +10743,23 @@
 #    }
 #
 #    AlucardSwordBuff1: {
-#        DisplayName: Alucard's Sword
-#        Description: A powerful blade is aiding you
+#        DisplayName: Меч Алукарда
+#        Description: Вам помогает могущественный меч
 #    }
 #
 #    AlucardSwordBuff2: {
-#        DisplayName: Alucard's Sword
-#        Description: A powerful blade is aiding you
+#        DisplayName: Меч Алукарда
+#        Description: Вам помогает могущественный меч
 #    }
 #
 #    AlucardSwordBuff3: {
-#        DisplayName: Alucard's Sword
-#        Description: A powerful blade is aiding you
+#        DisplayName: Меч Алукарда
+#        Description: Вам помогает могущественный меч
 #    }
 #
 #    ArcaneArtCooldown: {
-#        DisplayName: Arcane Art Cooldown
-#        Description: Arcane Art не сработает, пока активен этот дебафф
+#        DisplayName: Перезарядка чародейного искусства
+#        Description: Чародейное искусство не сработает, пока активен этот дебафф
 #    }
 #
 #    MorningStarHeld: {
@@ -12374,8 +10793,8 @@
 #    }
 #
 #    OceanCulling: {
-#        DisplayName: Ocean's Culling
-#        Description: Weakened
+#        DisplayName: Упокоение океана
+#        Description: Ослаблен
 #    }
 #
 #    OmoriPetBuff: {
@@ -12384,8 +10803,8 @@
 #    }
 #
 #    OrangePaint: {
-#        DisplayName: Orange Paint
-#        Description: You've been covered in orange paint
+#        DisplayName: Оранжевая краска
+#        Description: Вы покрыты оранжевой краской
 #    }
 #
 #    AnnihilationState: {
@@ -12469,8 +10888,8 @@
 #    }
 #
 #    PurplePaint: {
-#        DisplayName: Purple Paint
-#        Description: You've been covered in purple paint
+#        DisplayName: Пурпурная краска
+#        Description: Вы покрыты пурпурной краской
 #    }
 #
 #    PyraPetBuff: {
@@ -12534,8 +10953,8 @@
 #    }
 #
 #    RedPaint: {
-#        DisplayName: Red Paint
-#        Description: You've been covered in red paint
+#        DisplayName: Красная краска
+#        Description: Вы покрыты красной краской
 #    }
 #
 #    RemoveStationarySpiders: {
@@ -12554,8 +10973,8 @@
 #    }
 #
 #    Riptide: {
-#        DisplayName: Riptide
-#        Description: Weakened
+#        DisplayName: Разрывное течение
+#        Description: Ослаблен
 #    }
 #
 #    RobotSpiderBuff: {
@@ -12609,13 +11028,13 @@
 #    }
 #
 #    SeabornCooldown: {
-#        DisplayName: Seaborn Wrath Cooldown
-#        Description: Seaborn Wrath не сработает, пока активен этот дебафф
+#        DisplayName: Перезарядка пучинного гнева
+#        Description: Пучинный гнев не сработает, пока активен этот дебафф
 #    }
 #
 #    SeabornWrath: {
-#        DisplayName: Seaborn Wrath
-#        Description: The ocean currents grant your minions extra damage and your weapon is strengthened
+#        DisplayName: Пучинный гнев
+#        Description: Океанические течения увеличивают урон призывателя и усиливают ваше оружие
 #    }
 #
 #    BloodstainedBelone: {
@@ -12654,8 +11073,8 @@
 #    }
 #
 #    SolemnAegis: {
-#        DisplayName: Solemn Aegis
-#        Description: The next instance of damage is ignored
+#        DisplayName: Священная Эгида
+#        Description: Следующее получение урона игнорируется
 #    }
 #
 #    SoulSapping: {
@@ -12843,7 +11262,7 @@
 #    }
 #
 #    ApalistikTagDamage: {
-#        DisplayName: Apalistik Tag Damage
+#        DisplayName: Урон от метки Апалистика
 #        Description: ""
 #    }
 #
@@ -12858,7 +11277,7 @@
 #    }
 #
 #    SeabornApalistikTagDamage: {
-#        DisplayName: Seaborn Apalistik Tag Damage
+#        DisplayName: Урон от метки Пучинного Апалистика
 #        Description: ""
 #    }
 #
@@ -13027,8 +11446,8 @@
 #    }
 #
 #    Vulnerable: {
-#        DisplayName: Vulnerability Up
-#        Description: Your defenses are drastically reduced
+#        DisplayName: Высокая уязвимость
+#        Description: Ваша защита значительно снижена
 #    }
 #
 #    WarriorEnd: {
@@ -13043,7 +11462,7 @@
 #
 #    Wormhole: {
 #        DisplayName: Wormhole
-#        Description: " "
+#        Description: ""
 #    }
 #
 #    WrathfulCeruleanFlame: {
@@ -13057,8 +11476,8 @@
 #    }
 #
 #    YellowPaint: {
-#        DisplayName: Yellow Paint
-#        Description: You've been covered in yellow paint
+#        DisplayName: Жёлтая краска
+#        Description: Вы покрыты жёлтой краской
 #    }
 #
 #    DeathsDance: {
@@ -13677,7 +12096,7 @@
 #    }
 #
 #    LamentingPocketwatchCooldown: {
-#        DisplayName: Lamenting Pocketwatch Cooldown
+#        DisplayName: Перезарядка скорбящих карманных часов
 #        Description: ""
 #    }
 #

@@ -1360,7 +1360,7 @@ Items: {
     }
 
     GoreySpine: {
-        DisplayName: Красный окрашенный хребет
+        DisplayName: Серое вещество
         Tooltip: Призывает Мозг Ктулху в любом биоме
     }
 
@@ -1409,7 +1409,7 @@ Items: {
     }
 
     FleshyDoll: {
-        DisplayName: Кукла из плоти
+        DisplayName: Кукла гида и спички
         Tooltip:
             '''
             Призывает Стену плоти
@@ -1452,12 +1452,12 @@ Items: {
     }
 
     SlimyCrown: {
-        DisplayName: Липкая корона
+        DisplayName: Склизкий указ
         Tooltip: Призывает Короля слизней
     }
 
     SuspiciousEye: {
-        DisplayName: Глаз, который можно рассматривать как подозрительный
+        DisplayName: Подозрительно выглядящие капли для глаз
         Tooltip: Призывает Глаз Ктулху
     }
 
@@ -1908,7 +1908,7 @@ Items: {
     }
 
     WormyFood: {
-        DisplayName: Червивый корм
+        DisplayName: Тухлая приманка
         Tooltip: Призывает Пожирателя миров в любом биоме
     }
 
