@@ -9,7 +9,7 @@
 //
 // namespace CalamityRuTranslate.Mods.StarsAbove;
 //
-// public class StarsAboveSystem : ModSystem
+// public partial class StarsAboveSystem : ModSystem
 // {
 //     private static ArchivePlayer ArchivePlayer => Main.LocalPlayer.GetModPlayer<ArchivePlayer>();
 //     
@@ -20,6 +20,8 @@
 //
 //     public override void ModifyInterfaceLayers(List<GameInterfaceLayer> layers)
 //     {
+//         StellarNovasStats();
+//         
 //         if (ArchivePlayer.archiveActive && ArchivePlayer.archivePopulated)
 //         {
 //             foreach (IdleArchiveListing archiveListing in ArchivePlayer.IdleArchiveList)
@@ -44,9 +46,9 @@
 //                     "Idle Conversation 16" => "Пустая болтовня 16",
 //                     "Idle Conversation 17" => "Пустая болтовня 17",
 //                     "Idle Conversation 18" => "Пустая болтовня 18",
-//                     "'A World Shrouded in Light'" => "'Мир, окутанный\nсветом'",
-//                     "Entering the Observatory" => "Прибытие в\nобсерваторию",
-//                     "Explaining Cosmic Voyages" => "Объяснение\nкосмических\nпутешествий",
+//                     "'A World Shrouded in Light'" => "'Мир, окутанный светом'",
+//                     "Entering the Observatory" => "Прибытие в обсерваторию",
+//                     "Explaining Cosmic Voyages" => "Объяснение космических путешествий",
 //                     "Idle in the Observatory" => "Покой в обсерватории",
 //                     "Idle in Space" => "Покой в космосе",
 //                     _ => archiveListing.Name
@@ -54,21 +56,21 @@
 //                 
 //                 archiveListing.ListInformation = archiveListing.ListInformation switch
 //                 {
-//                     "Pre Hardmode idle dialogue." => "Пре-хардмодный\nдиалог покоя.",
-//                     "Hardmode idle dialogue." => "Хардмодный диалог\nпокоя.",
-//                     "Idle dialogue during Light Everlasting." => "Диалог покоя во\nвремя Вечного света.",
-//                     "Dialogue on the Observatory Hyperborea." => "Диалог об\nОбсерватории\nЗаполярье",
-//                     "An explanation of the mechanics of Cosmic Voyages." => "Объяснение механики\nкосмических\nпутешествий.",
-//                     "Neutral dialogue within the Observatory Hyperborea." => "Нейтральный диалог\nв Обсерватории\nЗаполярье.",
-//                     "Neutral dialogue when on a normal-type Cosmic Voyage. Unused." => "Нейтральный диалог\nво время\nкосмического\nпутешествия\nобычного типа. Не\nиспользуется.",
+//                     "Pre Hardmode idle dialogue." => "Пре-хардмодный диалог покоя.",
+//                     "Hardmode idle dialogue." => "Хардмодный диалог покоя.",
+//                     "Idle dialogue during Light Everlasting." => "Диалог покоя во время Вечного света.",
+//                     "Dialogue on the Observatory Hyperborea." => "Диалог об Обсерватории Заполярье",
+//                     "An explanation of the mechanics of Cosmic Voyages." => "Объяснение механики космических путешествий.",
+//                     "Neutral dialogue within the Observatory Hyperborea." => "Нейтральный диалог в Обсерватории Заполярье.",
+//                     "Neutral dialogue when on a normal-type Cosmic Voyage. Unused." => "Нейтральный диалог во время космического путешествия обычного типа. Не используется.",
 //                     _ => archiveListing.ListInformation
 //                 };
 //                 
 //                 archiveListing.UnlockConditions = archiveListing.UnlockConditions switch
 //                 {
 //                     "Enter Hardmode" => "Нужен хардмод.",
-//                     "Unlocked after witnessing Light Everlasting for the first time." => "Открывается после\nпервого лицезрения\nВечного света.",
-//                     "Unlocked after entering the Observatory Hyperborea for the first time." => "Открывается после\nпервого посещения\nОбсерватории\nЗаполярье.",
+//                     "Unlocked after witnessing Light Everlasting for the first time." => "Открывается после первого лицезрения Вечного света.",
+//                     "Unlocked after entering the Observatory Hyperborea for the first time." => "Открывается после первого посещения Обсерватории Заполярье.",
 //                     _ => archiveListing.UnlockConditions
 //                 };
 //             }
@@ -235,9 +237,22 @@
 //                     "Pirate Invasion Weapon" => "",
 //                     "Queen Slime Weapon" => "",
 //                     "Any Mechanical Boss Weapon" => "",
-//                     "" => "",
-//                     "" => "",
-//                     "" => "",
+//                     "All Mechanical Bosses Weapon" => "",
+//                     "Dioskouroi Weapon" => "",
+//                     "Plantera Weapon" => "",
+//                     "Frost Queen Weapon" => "",
+//                     "Penthesilea Weapon" => "",
+//                     "Golem Weapon" => "",
+//                     "Martian Madness Weapon" => "",
+//                     "Nalhaun Weapon" => "",
+//                     "Duke Fishron Weapon" => "",
+//                     "Lunatic Cultist Weapon" => "",
+//                     "Moon Lord Weapon" => "",
+//                     "Warrior of Light Weapon" => "",
+//                     "Tsukiyomi Weapon" => "",
+//                     "Empress of Light Weapon" => "",
+//                     "Pumpkin King Weapon" => "",
+//                     "Deerclops Weapon" => "",
 //                     _ => archiveListing.Name
 //                 };
 //                 
@@ -261,13 +276,11 @@
 //                     "Defeat a pirate invasion, then wait." => "",
 //                     "Defeat Queen Slime." => "",
 //                     "Defeat Queen Slime, then wait." => "",
-//                     "" => "",
-//                     "" => "",
-//                     "" => "",
-//                     "" => "",
+//                     "Skeletron Prime Weapon" => "",
+//                     "Defeat all the mechanical bosses." => "",
 //                     _ => archiveListing.UnlockConditions
 //                 };
-//
+//             
 //                 if (archiveListing.ListInformation == $"Grants the Essence for either the [i:{ModContent.ItemType<Astral>()}] Aegis Driver or the [i:{ModContent.ItemType<Umbral>()}] Rad Gun")
 //                 {
 //                     archiveListing.ListInformation = "";
@@ -402,15 +415,235 @@
 //                 {
 //                     archiveListing.ListInformation = "";
 //                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] Armaments of the Sky Striker. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] Hullwrought. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] El Capitan's Hardware.")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for either [i:{ModContent.ItemType<Astral>()}] Phantom in the Mirror or [i:{ModContent.ItemType<Umbral>()}] Hollowheart Albion.")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for either [i:{ModContent.ItemType<Astral>()}] Crimson Outbreak or [i:{ModContent.ItemType<Umbral>()}] Voice of the Fallen.")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] Kifrosse. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] Dreamer's Inkwell. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for either [i:{ModContent.ItemType<Astral>()}] Stygian Nymph or [i:{ModContent.ItemType<Umbral>()}] Caesura of Despair.")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for either [i:{ModContent.ItemType<Astral>()}] Vision of Euthymia or [i:{ModContent.ItemType<Umbral>()}] Kroniic Principality.")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] Penthesilea's Muse. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for either [i:{ModContent.ItemType<Astral>()}] Plenilune Gaze or [i:{ModContent.ItemType<Umbral>()}] Tartaglia.")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] Gloves of the Black Silence. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] The Kiss of Death. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for either [i:{ModContent.ItemType<Astral>()}] Liberation Blazing or [i:{ModContent.ItemType<Umbral>()}] Unforgotten.")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] Claimh Solais. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] Boltstorm Axe. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for either [i:{ModContent.ItemType<Astral>()}] Key of the Sinner or [i:{ModContent.ItemType<Umbral>()}] Crimson Sakura Alpha.")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] Maniacal Justice. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] Kariumu's Favor. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for either [i:{ModContent.ItemType<Astral>()}] Rex Lapis or [i:{ModContent.ItemType<Umbral>()}] Yunlai Stiletto.")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] Twin Stars of Albiero. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] Catalyst's Memory. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] Umbra. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for either [i:{ModContent.ItemType<Astral>()}] Suistrume or [i:{ModContent.ItemType<Umbral>()}] Naganadel.")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] Shadowless Cerulean. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] Soul Reaver. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] Virtue's Edge. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for either [i:{ModContent.ItemType<Astral>()}] Key of the King's Law or [i:{ModContent.ItemType<Umbral>()}] Light Unrelenting.")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] Vermilion Riposte. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] Supreme Authority. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] Burning Desire. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] The Everlasting Pickaxe. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] Architect's Luminance. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] Cosmic Destroyer. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] Sunset of the Sun God. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] Arachnid Needlepoint. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] Mercy. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] Sakura's Vengeance. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] Eternal Star. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] Vermilion Daemon. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] Ozma Ascendant. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] Dreadnought Chemtank. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] The Blood Blade. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
+//                 
+//                 if (archiveListing.ListInformation == $"Grants the Essence for [i:{ModContent.ItemType<Spatial>()}] The Morning Star. ")
+//                 {
+//                     archiveListing.ListInformation = "";
+//                 }
 //             }
-//
+//             
 //             foreach (VNArchiveListing archiveListing in ArchivePlayer.VNArchiveList)
 //             {
 //                 archiveListing.Name = archiveListing.Name switch
 //                 {
-//                     "Intro Dialogue" => "",
-//                     "Eridani's Intro Dialogue" => "",
-//                     "Vagrant Post-Battle (Asphodene)" => "",
+//                     "Intro Dialogue" => "Вступительный диалог",
+//                     "Eridani's Intro Dialogue" => "Вступительный диалог Эридани",
+//                     "Vagrant Post-Battle (Asphodene)" => "Скиталец после битвы (Асфодена)",
 //                     "Vagrant Post-Battle (Eridani)" => "",
 //                     "The Astrolabe (Asphodene)" => "",
 //                     "The Astrolabe (Eridani)" => "",
@@ -424,7 +657,7 @@
 //                     "Garridine's Introduction (Eridani)" => "",
 //                     _ => archiveListing.Name
 //                 };
-//
+//             
 //                 archiveListing.ListInformation = archiveListing.ListInformation switch
 //                 {
 //                     "The Starfarer's introduction dialogue." => "",
@@ -436,15 +669,15 @@
 //                     "Garridine, the lupine machinist, makes her appearance." => "",
 //                     _ => archiveListing.ListInformation
 //                 };
-//
+//             
 //                 archiveListing.UnlockConditions = archiveListing.UnlockConditions switch
 //                 {
 //                     "Asphodene's intro dialogue." => "",
 //                     "Eridani's intro dialogue." => "",
 //                     "Defeat the Vagrant of Space and Time. (Asphodene)" => "",
 //                     "Defeat the Vagrant of Space and Time. (Eridani)" => "",
-//                     "Defeat the Eye of Cthulhu." => "",
-//                     "Visit the Observatory." => "",
+//                     "Defeat the Eye of Cthulhu." => "Одолейте Глаз Ктулху",
+//                     "Visit the Observatory." => "Посетите обсерваторию.",
 //                     "Meet Yojimbo during a Cosmic Voyage. (Asphodene)" => "",
 //                     "Meet Yojimbo during a Cosmic Voyage. (Eridani)" => "",
 //                     "Talk to Yojimbo during a Cosmic Voyage. (Random unlock)" => "",

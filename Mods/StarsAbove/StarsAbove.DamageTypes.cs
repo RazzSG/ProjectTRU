@@ -1,20 +1,15 @@
 ﻿// using System.Collections.Generic;
-// using CalamityRuTranslate.Common;
 // using CalamityRuTranslate.Common.Utilities;
+// using CalamityRuTranslate.Core.Config;
 // using Microsoft.Xna.Framework;
 // using StarsAbove.Systems;
 // using Terraria;
 // using Terraria.ModLoader;
 //
-// namespace CalamityRuTranslate.Mods.TheStarsAbove.GlobalModifications;
+// namespace CalamityRuTranslate.Mods.StarsAbove;
 //
-// public class StarsAboveModifiedDamageTypes : GlobalItem
+// public partial class StarsAboveGlobalItem
 // {
-//     public override bool IsLoadingEnabled(Mod mod)
-//     {
-//         return ModsCall.StarsAbove != null && TranslationHelper.IsRussianLanguage;
-//     }
-//     
 //     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
 //     {
 //         ItemHelper.TranslateTooltip(tooltips, "Damage", tooltip =>

@@ -101,7 +101,7 @@
 #        Leaving: Йодзимбо ушёл!
 #    }
 #
-#    Garridine.1: You needn't have come all this way- a letter would have sufficed. Hmm, how would the letter arrive? I see.
+#    Garridine.1: Вам не стоило так далеко тащиться... письма бы хватило. Хм, а как бы оно дошло? А, понятно.
 #
 #    Astrologian: {
 #        WizardDialogue: I'm not sure what to think of {0}. They're obviously a cosplayer- you'd expect them to know no magic... and yet..!
@@ -115,7 +115,7 @@
 #        BloodMoon: Хм, небесное тело неизвестной природы, по всей видимости, оказывает влияние на нашу луну. Вот досада.
 #        Party: Yeah, right. I'm not going outside, but I will partake in the food.
 #        Graveyard: Where in the world is all this accursed fog coming from?
-#        StrangePotion: Strange Potion
+#        StrangePotion: Странное зелье
 #        ThespianNotReadyCorruption: I have something you may be interested in, but you must prepare better. How about dealing with the issues in the Corruption first?
 #        ThespianNotReadyCrimson: I have something you may be interested in, but you must prepare better. How about dealing with the issues in the Crimson first?
 #        ThespianReady: Here's something you might take interest with: this potion has a magical trace I've never once encountered before- very powerful. It does no good languishing in my stockpile, so take it before I change my mind.
@@ -334,13 +334,13 @@
 #    Abilities: {
 #        Starshield: {
 #            Name: "[c/C2BDFF:Ранг 1] [c/FFEED1:'Звёздный щит']"
-#            Description: При получении урона, 10% от вашего максимального запаса здоровья добавляется к защите на 2 секунды (перезарядка 20 секунд). Кроме того, при активации щита вы получаете 20 маны и увеличиваете урон на 20% в течение всего времени действия щита
+#            Description: При получении урона вы получаете 10% от максимального запаса здоровья в виде защиты на 2 секунды (перезарядка 20 секунд). Кроме того, при активации щита вы также получаете 20 маны и наносите на 20% больше урона в течение его действия.
 #            Unlock: "[c/9D9D9D:Заблокировано:] Одолейте Глаз Ктулху"
 #        }
 #
 #        ButchersDozen: {
 #            Name: "[c/C2BDFF:Ранг 1] [c/FFEED1:'Мясницкая дюжина']"
-#            Description: После непрерывной серии из 12 убийств не выходя из боя, вы получаете дополнительные 5% урона и 30% скорости атаки на 4 секунды (счётчик убийств будет сброшен)
+#            Description: После непрерывной серии из 12 убийств без выхода из боя, вы получаете дополнительные 5% урона и 30% скорости атаки на 4 секунды (счётчик убийств будет сброшен).
 #            Unlock: "[c/9D9D9D:Заблокировано:] Одолейте Налхана, Воронёного короля"
 #        }
 #
@@ -352,19 +352,19 @@
 #
 #        IronWill: {
 #            Name: "[c/C2BDFF:Ранг 1] [c/FFEED1:'Железная воля']"
-#            Description: Увеличивает защиту на 6. Вы получаете на 30 меньше урона от атак, наносящих более 100 урона. Когда здоровья ниже 100, снижает получаемый урон от всех атак на 20%, не учитывая другие факторы защиты.
+#            Description: Увеличивает защиту на 6. Вы получаете на 30 меньше урона от атак, наносящих более 100 урона. Когда здоровья ниже 100, снижает получаемый урон от всех атак на 20%, не учитывая другие модификаторы защиты.
 #            Unlock: "[c/9D9D9D:Заблокировано:] Одолейте Пожирателя миров или Мозг Ктулху"
 #        }
 #
 #        UmbralEntropy: {
 #            Name: "[c/C2BDFF:Ранг 1] [c/FFEED1:'Энтропийная болезнь']"
-#            Description: Все атаки накладывают дебафф «{$Buffs.Starblight.DisplayName}» при критическом ударе. Вы получаете эффект кражи здоровья от врагов, поражённых дебаффом «{$Buffs.Starblight.DisplayName}». Исцеление ограничено 5 единицами здоровья в секунду.
+#            Description: Все атаки накладывают дебафф «{$Buffs.Starblight.DisplayName}» при критическом ударе. Вы получаете эффект кражи здоровья от врагов, на которых наложен дебафф «{$Buffs.Starblight.DisplayName}». Исцеление ограничено 5 единицами здоровья в секунду.
 #            Unlock: "[c/9D9D9D:Заблокировано:] Одолейте Лунного лорда"
 #        }
 #
 #        FlashFreeze: {
 #            Name: "[c/C2BDFF:Ранг 1] [c/FFEED1:'Замораживающая вспышка']"
-#            Description: При критическом ударе враги взрываются, получая половину первоначального урона. Кроме того, из цели извергаться снежинки, распространяя урон. Перезарядка 8 секунд.
+#            Description: При нанесении критического удара враги взрываются, получая половину первоначального урона. Кроме того, из цели извергаються снежинки, распространяя урон. Перезарядка 8 секунд.
 #            Unlock: "[c/9D9D9D:Заблокировано:] Одолейте Пентесилею, Ведьму чернил в режиме Эксперта"
 #        }
 #
@@ -375,9 +375,9 @@
 #        }
 #
 #        InnerAlchemy: {
-#            Name: "[c/C2BDFF:Ранг 1] [c/FFEED1:'Inner Alchemy']"
-#            Description: After not taking damage for 12 seconds, gain 10% increased damage, 25 defense, knockback resistance, and Health Regeneration. Buffs are lost on hit.
-#            Unlock: "[c/9D9D9D:Заблокировано:] Defeat Skeletron"
+#            Name: "[c/C2BDFF:Ранг 1] [c/FFEED1:'Внутренняя алхимия']"
+#            Description: Через 12 секунд без получения урона, увеличивает урон на 10%, защиту на 25, регенерацию здоровья и даёт невосприимчивость к отбрасыванию. Бонусы пропадают при получении урона.
+#            Unlock: "[c/9D9D9D:Заблокировано:] Одолейте Скелетрона"
 #        }
 #
 #        Hikari: {
@@ -388,7 +388,7 @@
 #
 #        CelestialEvanesence: {
 #            Name: "[c/C2BDFF:Ранг 1] [c/FFEED1:'Хрупкость неземного мгновения']"
-#            Description: Увеличивает шанс критического удара в зависимости от текущего запаса маны, делённого на 20. Критический удар восстанавливает 5% от нанесённого урона в виде маны. (Максимум 5 за удар)
+#            Description: Увеличивает шанс критического удара в зависимости от текущего запаса маны, делённого на 20. Критический удар восстанавливает 5% от нанесённого урона в виде маны (Максимум 5 за удар).
 #            Unlock: "[c/9D9D9D:Заблокировано:] Одолейте Dioskouroi, the Twin Forces"
 #        }
 #
@@ -428,8 +428,8 @@
 #        }
 #
 #        KiTwinburst: {
-#            Name: "[c/C2BDFF:Ранг 1] [c/FFEED1:'Ki Twinburst']"
-#            Description: All attacks are divided into two instances of damage.
+#            Name: "[c/C2BDFF:Ранг 1] [c/FFEED1:'Двойной всплеск ки']"
+#            Description: Все атаки делятся на два типа нанесения урона.
 #        }
 #
 #        ArborealEchoes: {
@@ -453,62 +453,62 @@
 #        }
 #
 #        HealthyConfidence: {
-#            Name: "[c/9C4FFF:Ранг 2] [c/FFD792:'Healthy Confidence']"
+#            Name: "[c/9C4FFF:Ранг 2] [c/FFD792:'Здравая вера']"
 #            Description: 15% of damage taken is restored as HP over time (10% of stored HP per second.)
 #            Unlock: "[c/9D9D9D:Заблокировано:] Have 400 or more natural Max HP"
 #        }
 #
 #        InfernalEnd: {
-#            Name: "[c/9C4FFF:Ранг 2] [c/FFD792:'Infernal End']"
+#            Name: "[c/9C4FFF:Ранг 2] [c/FFD792:'Адский финал']"
 #            Description: When below 100 HP, gain 50% increased damage and all attacks burn foes. Additionally, these effects will temporarily ignore the HP threshold for 3 seconds after taking damage.
-#            Unlock: "[c/9D9D9D:Заблокировано:] Defeat any Mechanical Boss"
+#            Unlock: "[c/9D9D9D:Заблокировано:] Одолейте любого механического босса"
 #        }
 #
 #        AvatarOfLight: {
-#            Name: "[c/9C4FFF:Ранг 2] [c/FFD792:'Avatar of Light']"
+#            Name: "[c/9C4FFF:Ранг 2] [c/FFD792:'Воплощение света']"
 #            Description: Half of Max Mana is added to Max HP. At 500 HP or above, gain 10 defense, 5% damage, and 3 Stellar Nova Energy Regeneration.
-#            Unlock: "[c/9D9D9D:Заблокировано:] Defeat Martian Madness"
+#            Unlock: "[c/9D9D9D:Заблокировано:] Одолейте событие «Марсианское безумие»"
 #        }
 #
 #        AstralMantle: {
-#            Name: "[c/9C4FFF:Ранг 2] [c/FFD792:'Astral Mantle']"
+#            Name: "[c/9C4FFF:Ранг 2] [c/FFD792:'Астральная мантия']"
 #            Description: 1/10th of current Mana is added to Defense (Max 5% of current Max HP.) Gain 5 Stellar Nova Energy Regeneration above 200 Mana.
-#            Unlock: "[c/9D9D9D:Заблокировано:] Defeat all Mechanical bosses"
+#            Unlock: "[c/9D9D9D:Заблокировано:] Одолейте всех механических боссов"
 #        }
 #
 #        Afterburner: {
-#            Name: "[c/9C4FFF:Ранг 2] [c/FFD792:'Afterburner']"
-#            Description: When Mana drops below 40, gain 150 Mana and all attacks critically strike for 4 seconds. 20 second cooldown.
-#            Unlock: "[c/9D9D9D:Заблокировано:] Defeat Plantera"
+#            Name: "[c/9C4FFF:Ранг 2] [c/FFD792:'Дожигатель']"
+#            Description: Когда запас маны падает ниже 40, вы получаете 150 маны и все атаки становятся критическими в течение 4 секунд. Перезарядка 20 секунд.
+#            Unlock: "[c/9D9D9D:Заблокировано:] Одолейте Плантеру"
 #        }
 #
 #        SpatialStratagem: {
-#            Name: "[c/9C4FFF:Ранг 2] [c/FFD792:'Spatial Stratagem']"
-#            Description: Upon taking damage, halve all damage taken for 2 seconds (Includes original hit) and gain 20% increased damage for 4 seconds. 30 second cooldown. (Taking damage during the cooldown resets the cooldown)
-#            Unlock: "[c/9D9D9D:Заблокировано:] Defeat ???"
+#            Name: "[c/9C4FFF:Ранг 2] [c/FFD792:'Пространственная стратагема']"
+#            Description: При получении урона снижает весь получаемый урон вдвое на 2 секунды (включая изначальный удар) и увеличивает наносимый урон на 20% на 4 секунды. Перезарядка 30 секунд (Получение урона во время перезарядки сбрасывает перезарядку).
+#            Unlock: "[c/9D9D9D:Заблокировано:] Одолейте ???"
 #        }
 #
 #        WeaknessExploit: {
-#            Name: "[c/9C4FFF:Ранг 2] [c/FFD792:'Weakness Exploit']"
-#            Description: 10% of critical strike damage is converted to true damage (Will not kill.) Attacking foes inflicted with vanilla debuffs will deal 15% bonus true damage.
-#            Unlock: "[c/9D9D9D:Заблокировано:] Defeat Golem in Expert Mode"
+#            Name: "[c/9C4FFF:Ранг 2] [c/FFD792:'Эксплуатация уязвимых мест']"
+#            Description: 10% критического урона превращается в чистый урон (Не приводит к убийству). Aтаки по врагам, на которых наложены ванильные дебаффы, наносят дополнительно 15% чистого урона.
+#            Unlock: "[c/9D9D9D:Заблокировано:] Одолейте Голема в режиме Эксперта"
 #        }
 #
 #        Aprismatism: {
-#            Name: "[c/9C4FFF:Ранг 2] [c/FFD792:'Aprismatism']"
-#            Description: Aspected Damage Type changes will now apply to all weapons.
-#            Unlock: "[c/9D9D9D:Заблокировано:] Defeat Thespian, the Act of Alchemy in Expert Mode"
+#            Name: "[c/9C4FFF:Ранг 2] [c/FFD792:'Апризматичность']"
+#            Description: Изменения Аспектного типа урона применяться ко всему оружию.
+#            Unlock: "[c/9D9D9D:Заблокировано:] Одолейте Театрала, Созданного алхимией в режиме Эксперта"
 #        }
 #
 #        UnbridledRadiance: {
-#            Name: "[c/D82BFF:Ранг 3] [c/FFC258:'Unbridled Radiance']"
-#            Description: Doubles the recharge rate of Stellar Nova Energy. Stellar Nova Energy does not deplete out of combat.
-#            Unlock: "[c/9D9D9D:Заблокировано:] Defeat all Terraria bosses and the Warrior of Light in Expert Mode"
+#            Name: "[c/D82BFF:Ранг 3] [c/FFC258:'Неукротимое сияние']"
+#            Description: Удваивает скорость восстановления энергии Астроновы. Энергия Астроновы не иссякает вне боя.
+#            Unlock: "[c/9D9D9D:Заблокировано:] Одолейте всех боссов Террарии и Воина света в режиме Эксперта"
 #        }
 #
 #        BetweenTheBoundary: {
 #            Name: "[c/D82BFF:Ранг 3] [c/FFC258:'Меж двух огней']"
-#            Description: Every 8 seconds, swap between Ebb (drastic Mana drain) and Flow (infinite Mana Regeneration.) Additionally, gain 40% increased damage and 20% increased attack speed during Flow.
+#            Description: Каждые 8 секунд чередует отлив (значительное истощение маны) и прилив (бесконечное восстановление маны). Во время прилива увеличивает урон на 40%, а скорость атаки - на 20%.
 #            Unlock: "[c/9D9D9D:Заблокировано:] Одолейте Воина света"
 #        }
 #
@@ -526,7 +526,7 @@
 #
 #        BeyondInfinity: {
 #            Name: "[c/D82BFF:Ранг 3] [c/FFC258:'Бесконечность не предел']"
-#            Description: Lower rarity Aspected Weapons gain drastic bonus damage based on their original rarity, up to 1200% base damage. Does not affect weapons with more than 100 base damage.
+#            Description: Аспектное оружие с низкой редкостью получает значительный бонус к урону, зависящий от его изначальной редкости, вплоть до 1200% от базового урона. Не влияет на оружие с базовый уроном более 100 единиц.
 #            Unlock: "[c/9D9D9D:Заблокировано:] Одолейте всех боссов Террарии"
 #        }
 #
@@ -846,10 +846,10 @@
 #        CorruptionBoss: {
 #            Asphodene: {
 #                1: Да уж. Похоже, что существует больше одного 'Ктулху'. Не знаю почему, но я не так уж и удивлена.
-#                2: Glad we stopped that thing before it lived up to its name.
+#                2: Рада, что мы остановили эту зверюгу, прежде чем она оправдала своё имя. 
 #                3: Эти материалы... какие-то... Ого, какой запах.
-#                4: Hey, the weapons that you can make from it look pretty powerful! What do you think?
-#                5: Похоже, в Звёздном ряде разблокировалась новая способность. Тебе обязательно стоит взглянуть на неё.
+#                4: Эй, оружие, которое можно сделать из этих материалов, выглядит довольно мощным. Что думаешь?
+#                5: Похоже, в Звёздном ряде разблокировалась новая способность. Тебе определённо стоит взглянуть на неё.
 #            }
 #
 #            Eridani: {
@@ -993,13 +993,13 @@
 #
 #        DukeFishron: {
 #            Asphodene: {
-#                1: Such a powerful creature hiding deep within the Ocean.. Luckily, you avoided being turned into fish food.
-#                2: Where did that saying even come from..? What IS fish food? More important questions left unanswered...
+#                1: Глубоко в океане таится такое могущественное существо... К счастью, тебе удалось избежать участи стать его рыбьим кормом.
+#                2: Откуда вообще взялось это выражение?.. Что ЗА рыбий корм? И это далеко не все вопросы, которые требуют ответа...
 #            }
 #
 #            Eridani: {
-#                1: Duke Fishron has been defeated. That was a close one, but you've o-fish-ally won. ...
-#                2: I might have fished too hard for that one. You know what..? Let's leave the puns to Asphodene. I concede there's a certain skill to it.
+#                1: Герцог Рыброн повержен. Это была напряжённая битва, но ты одержал рыбознательную победу...
+#                2: Пожалуй, перегнула палку с этой игрой слов.  Знаешь что?.. Давай оставим каламбуры Асфодене. Впрочем, признаю, это своего рода искусство.
 #            }
 #        }
 #
@@ -1559,8 +1559,8 @@
 #
 #        NormalIdleDialogue9: {
 #            Asphodene: {
-#                1: Don't forget about the Stellar Array!
-#                2: It would be a shame if you did. I made it for you, after all.
+#                1: Не забывай о Звёздном ряде!
+#                2: Было бы обидно, если бы ты про него забыл. Ведь я его для тебя создала.
 #            }
 #
 #            Eridani.1: А ты пользуешься Звёздным рядом?
@@ -1763,9 +1763,9 @@
 #            }
 #
 #            onSilence: {
-#                1: You've been silenced! Magic is out of the question.
+#                1: На тебя наложили безмолвие! О магии можешь забыть.
 #                2: Something's silenced you- guess it's time to get physical!
-#                3: Your magic has been sealed! Let's get back to basics.
+#                3: Your magic has been sealed!а
 #            }
 #
 #            onCurse: {
@@ -1833,7 +1833,7 @@
 #
 #            1: Похоже, тебя отравили. Я отправлю тебе открытку с пожеланиями скорейшего выздоровления.
 #            2: Похоже, твоя защита ослабла! Будь осторожен.
-#            3: You've been silenced! Magic is out of the question.
+#            3: На тебя наложили безмолвие! О магии можешь забыть.
 #            4: I think you've been cursed. That's.. not good. You aren't able to use anything for now.
 #            5: You've been frozen!
 #            6: You're burning up? Or freezing? It looks like it hurts regardless!
@@ -1844,10 +1844,10 @@
 #            11: Это, похоже, не к добру.
 #            12: Не хочу тебя расстраивать, но ты сейчас утонешь.
 #            13: You're losing a LOT of blood. Yikes. You can't regenerate health any more.
-#            14: "[You can't make out the words- looks like you've been confused.] "
-#            15: Whoops..
+#            14: "[You can't make out the words- looks like you've been confused.]"
+#            15: Опаньки...
 #            16: Sorry, little guy.
-#            17: Oops.
+#            17: Упс.
 #            18: That's one down.
 #            19: One more defeated!
 #            20: That takes care of that.
@@ -1865,10 +1865,10 @@
 #            32: Лёгкая прогулка.
 #            33: Right, that's that.
 #            34: How could we ever lose?
-#            35: It's over.
-#            36: No more of that.
-#            37: A good encounter.
-#            38: That was close..
+#            35: Всё кончено.
+#            36: Больше ни слова.
+#            37: Удачная встреча.
+#            38: Было близко...
 #            39: That was almost really bad.
 #            40: Thank goodness we killed it in time.
 #            41: Finally. You got it!
@@ -1989,10 +1989,10 @@
 #            156: This is a deep part of the ocean. Take care you don't drown...
 #            157: Looks like it started raining. Hopefully this doesn't put a damper on things.. heh.
 #            158: It's a blizzard! Don't get frostbite, now. That'd be embarassing.
-#            159: A sandstorm has kicked up. It gets everywhere, so be careful.
-#            160: Time and space bend to my will!
-#            161: Not on my watch!
-#            162: Turn back the clock..!
+#            159: Поднялась песчаная буря. Песок забивается во все щели, будь осторожен.
+#            160: Я подчиняю себе время и пространство!
+#            161: Не под моим присмотром!
+#            162: Обратить время вспять!..
 #            163: By your undying rage..!
 #            164: It's just a flesh wound.
 #            165: Embrace the abyss! Set yourself free!
@@ -2008,7 +2008,7 @@
 #            175: Ты добрался до обсерватории! Ну, что думаешь?
 #            176: Looks like you've arrived.  These are asteroids of interest- let's do some exploring.
 #            177: We've made it. This planet is strange.. The surface has been wiped clean... What happened?
-#            178: What is this place?
+#            178: Что это за место?
 #            179: It looks like we can't explore this yet... Maybe next time.
 #            180: Wow, this place is seriously covered in greenery. Looks like a fun trip- let's get to exploring!
 #            181: Okay, that slime's stopped holding back. Let's dig in our heels for a fight.
@@ -2036,7 +2036,7 @@
 #            203: Get ready, because I won't hold back!
 #            204: What IS that thing?! A being of pure void energy...
 #            205: It's even stronger now?! Hey, isn't this, like... really bad?
-#            206: You're kidding me.
+#            206: Да ты издеваешься.
 #            207: Well, let's show 'em what we can do.
 #            208: You've attracted that squid! So... what now? Beat it up, I guess?
 #            209: So this is that sentinel, huh? Looks pretty tough!
@@ -2057,7 +2057,7 @@
 #            12: Тебе срочно нужен глоток свежего воздуха, поспеши.
 #            13: That's a lot of blood.. You aren't regenerating health now, that's for sure.
 #            14: "[You can't make out the words- seems you've been confused] "
-#            15: Whoops.
+#            15: Опаньки.
 #            16: Did you mean to do that?
 #            17: Sorry, little one.
 #            18: Хорошая работа.
@@ -2077,12 +2077,12 @@
 #            32: Good going.
 #            33: Right, that's that.
 #            34: How could we ever lose?
-#            35: It's over.
-#            36: No more of that.
-#            37: A good encounter.
+#            35: Всё кончено.
+#            36: Больше ни слова.
+#            37: Удачная встреча.
 #            38: That was a little close for comfort..
 #            39: That's over with, but we're still in trouble.
-#            40: That was close.
+#            40: Было близко.
 #            41: Наконец-то. Этот враг был побеждён.
 #            42: You bested it, finally. Good job.
 #            43: What a powerful foe...
@@ -2130,7 +2130,7 @@
 #            85: She's covering you with paint. Take careful note of your color!
 #            86: It seems to be able to swap forms! Try to memorize its attacks..!
 #            87: Something's tunneling in the sand..! Try and get off the ground!
-#            88: A mycelium beast, huh? It's spewing mushrooms everywhere...
+#            88: Мицелиевое чудовище, а? Оно повсюду разбрасывает грибы...
 #            89: The corruption has spewed out a new beast. Look out for its barrage of minions.
 #            90: Flesh beasts draw near..! Focus your attention on the Hive!
 #            91: This foe radiates mystic ice. Stay away from it- those icy spikes are not for show.
@@ -2148,7 +2148,7 @@
 #            103: This is a descendant of a cosmic god! We can't lose to something like this!
 #            104: The Profaned Shard has summoned something! Prepare for a fight!
 #            105: Hey, those pheromones.. Looks like it attracted a feral beast.
-#            106: A deity of light and darkness approaches!. We musn't lose this..!
+#            106: Приближается божество света и тьмы! Нам нельзя его упустить!..
 #            107: Something just entered the upper atmosphere! Brace for impact!
 #            108: Wait. I sense something from the Dungeon's depths. Prepare yourself for a fight!
 #            109: A demon is approaching..! Watch out! Whatever it wants, it'll kill you for it!
@@ -2199,8 +2199,8 @@
 #            154: We're very deep in the ocean. These waters are trouble, I can tell that much.
 #            155: It's raining. Hopefully nothing important gets too wet.
 #            156: Looks like it's a blizzard. 'Cold' doesn't begin to cover it.
-#            157: A sandstorm has kicked up. Mind your eyes.
-#            158: Time and space bend to my will!
+#            157: Поднялась песчаная буря. Береги глаза.
+#            158: Я подчиняю себе время и пространство!
 #            159: Let's try that again, shall we?
 #            160: Chronal reversal complete..!
 #            161: March forth, and keep fighting!
@@ -2249,7 +2249,7 @@
 #            205: I trust you're ready for this?
 #            206: What is this void... thing? It's nothing short of terrifying.
 #            207: It's even stronger now?! Any other things I should know about?
-#            208: You're kidding me.
+#            208: Да ты издеваешься.
 #            209: Let's show this Glassweaver we mean business.
 #            210: Looks like it took the bait. Time to get to work!
 #            211: I'm going to wager a guess and say this is whom the Glassweaver spoke of. Don't get careless.
@@ -2935,11 +2935,11 @@
 #
 #            300: {
 #                Dialogue: {
-#                    0: When I awoke, I felt numb.
-#                    1: Aimless.
-#                    2: My memories were addled, incomplete, and terrifying. I succeeded, but doing what?
-#                    3: Most of all, I felt warm. For some reason, this banal sensation gave me immeasurable joy, but... it was dreadfully wrong.
-#                    4: I did not know it yet, but this was the moment that doomed this galaxy forever.
+#                    0: Очнувшись, я ощутил оцепенение.
+#                    1: Бесцельность.
+#                    2: Мои воспоминания были смутны, обрывочны и полны ужасов. Я преуспел, но в чём?
+#                    3: Больше всего я ощущал тепло. По непонятной причине это обыденное ощущение дарило мне безграничную радость, но... это было ужасно неправильно.
+#                    4: Я ещё не осознавал, но именно этот момент обрёк эту галактику вечную погибель.
 #                }
 #
 #                Choices: {
@@ -2965,11 +2965,11 @@
 #
 #            302: {
 #                Dialogue: {
-#                    0: The despondent fervor when you know you've just done something terrible... it never leaves me.
-#                    1: I decided that the only way I could atone was to try again to make things right.
-#                    2: I knew that I spent my energy already. I knew that failure was the most likely outcome. I know now, still. I continue to work towards this goal... I can't bear to think of anything past it.
-#                    3: Some inhabitants of this newborn galaxy stand in my way. My Warrior strikes them down... I do not deserve such a gallant champion.
-#                    4: Even now, he shoulders the blame. Guilt does not begin to describe the anguish I feel. When will I get used to it? Will I ever?
+#                    0: Всепоглощающее отчаяние, которое охватывает, когда осознаёшь, что совершил нечто ужасное... оно никогда не покидает меня. 
+#                    1: Я решил, что единственный путь к искуплению - попытаться всё исправить.
+#                    2: Я знал, что силы уже на исходе. Знал, что, скорее всего, потерплю неудачу. Знаю и сейчас. Но я продолжаю идти к своей цели... Я не могу думать ни о чём другом.
+#                    3: Некоторые обитатели этой новорождённой галактики встают у меня на пути. Мой воин сражает их... Я не заслуживаю такого доблестного защитника.
+#                    4: Даже сейчас он винит себя. Вина - ничто по сравнению с теми муками, что терзают меня. Когда же я к ней привыкну? Смогу ли когда-нибудь?
 #                }
 #
 #                Choices: {
@@ -3029,13 +3029,13 @@
 #
 #    EnterStarfarerMenu: {
 #        Asphodene: {
-#            1: What's up? Need something?
+#            1: Как дела? Что-то нужно?
 #            2: Дай подумать... Нужна моя помощь? Ну, на то я и здесь.
-#            3: You rang?
+#            3: Вызывал?
 #            4: Эй, {0}. Похоже, тебе нужна помощь?
 #            5: Right. Let's get started. What do you need?
 #            6: Hmm... What do you need?
-#            7: Looks like you've unlocked something new. How about trying it out?
+#            7: Похоже, ты разблокировал нечто новое. Как насчёт того, чтобы попробовать это?
 #            8: Uh, aren't we still in combat?
 #        }
 #
@@ -3253,22 +3253,22 @@
 #    StellarNovaDialogue: {
 #        StellarNovaQuotes: {
 #            1: {
-#                Special1: I'll never back down!
-#                Special2: Don't even think about running.
-#                Special3: With only one strike!
-#                Special4: Your wish is my command.
-#                Special5: Just give up! At this point, even I can't stop myself.
-#                Special6: I have no regrets; this is the only path.
-#                1: I've been waiting for this exact moment!
-#                2: I am not about to stop here.
-#                3: I'll reduce you to stardust!
-#                4: Let's finish this!
-#                5: Underestimate me if you want.
-#                6: Why hold back when you can solve the problem right now?
-#                7: Accept your fate.
-#                8: Your fate was sealed when you rose against us.
-#                9: I'll show you what I can really do.
-#                10: Wait, which one were we using again?
+#                Special1: Я ни за что не отступлю!
+#                Special2: О побеге и думать не смей.
+#                Special3: Одним ударом!
+#                Special4: Твоё желание для меня закон.
+#                Special5: Всё кончено! Даже я не могу остановить это.
+#                Special6: Я ни о чём не жалею; другого пути нет.
+#                1: Вот он, мой звёздный час!
+#                2: Я не остановлюсь на этом.
+#                3: Я сотру вас в звёздную пыль!
+#                4: Покончим с этим!
+#                5: Не стоит недооценивать меня.
+#                6: Зачем откладывать, если можно решить проблему прямо сейчас?
+#                7: Покорись своей судьбе.
+#                8: Вы сами подписали себе приговор, восстав против нас.
+#                9: Я покажу вам, на что я способна.
+#                10: Погоди, а какую из них мы уже использовали?
 #            }
 #
 #            2: {
@@ -3350,13 +3350,13 @@
 #
 #        KiwamiRyuken: {
 #            Unlocked: {
-#                Asphodene: A powerful counter-attack, Kiwami Ryuken. Time it right, and your foes will be dropped instantly.
+#                Asphodene: Мощнейшая контратака, 'Кивами Рюкен'. При точном применении ваши враги будут мгновенно повержены.
 #                Eridani: Сокрушительная контратака: 'Кивами Рюкен'. Если правильно рассчитать время, можно нанести колоссальный урон за короткое время.
 #            }
 #
 #            Locked: {
-#                Asphodene: Пока у нас нет к этому доступа... Looks like we'll have to defeat a mechanical menace.
-#                Eridani: Мы пока не можем это использовать. Looks like we'll have to defeat a mechanical menace.
+#                Asphodene: Пока у нас нет к этому доступа... Похоже, нам придётся сразиться с механической угрозой.
+#                Eridani: Мы пока не можем это использовать. Похоже, нам придётся сразиться с механической угрозой.
 #            }
 #        }
 #
@@ -3367,8 +3367,8 @@
 #            }
 #
 #            Locked: {
-#                Asphodene: Пока у нас нет к этому доступа. We need to defeat a strong enough magic user...
-#                Eridani: Мы пока не можем это использовать. We need to defeat a powerful magical entity.
+#                Asphodene: Пока у нас нет к этому доступа. Сперва нужно победить достаточно сильного обладателя магии...
+#                Eridani: Мы пока не можем это использовать. Сперва нужно победить могущественную магическую сущность.
 #            }
 #        }
 #
@@ -3420,7 +3420,7 @@
 #
 #        ArsLaevateinn: {
 #            AbilityName: Арс Леватейн
-#            AbilitySubName: "[c/F19559:Shine True, O Burning Bright Star]"
+#            AbilitySubName: "[c/F19559:Воссияй же, о яркая пылающая звезда]"
 #            AbilityDescription: Wield a blazing greatsword to return foes to ashes. Casting Ars Laevataeinn will mark a colossal region around you with infernal flames. Ars Laevateinn will pulse damage five times in the specified region, dealing 1/5th of the total damage with each hit. During this time, you will be granted 'Surtr's Twilight.' While this buff is active, all attacks will Burn foes for 8 seconds. If Burned foes are struck by Ars Laevateinn, they will take 5% extra damage.
 #            AstralBonus: Burning foes take 5% extra damage. If the attack was a critical strike, burning foes 5% more damage.
 #            UmbralBonus: Surtr's Twilight will additionally grant a 10% attack buff. Gain Mana Regeneration while Surtr's Twilight is active.
@@ -3444,7 +3444,7 @@
 #
 #        EdinGenesisQuasar: {
 #            AbilityName: Эдин Квазарнез
-#            AbilitySubName: "[c/00FF93:The Moment a Planet Is Born]"
+#            AbilitySubName: "[c/00FF93:Момент рождения планеты]"
 #            AbilityDescription: Upon cast, become immobile and invincible temporarily. Gain 'Astarte Driver' for 25 seconds. Astarte Driver grants infinite flight and three Cosmic Charges. ALL attacks while Astarte Driver is active will inherit the stats of the Stellar Nova. Pressing the Starfarer Action Key with a Cosmic Charge available will launch a barrage of spatial projectiles (2 second use cooldown.) After activating Astarte Driver's stat-changing effect, the target will be immune for a very short period.
 #            AstralBonus: Critical hits do an additional {0} damage in Astarte Driver. You will gain a Cosmic Charge after defeating a foe with a critical hit. (Max 5 charges.)
 #            UmbralBonus: Astarte Driver attacks will execute any foe below {0} HP. Gain 1 second of Invincibility when a Cosmic Charge is expended.
@@ -3463,15 +3463,15 @@
 #            AbilitySubName: "[c/C0EEFF:Ясность воли странника]"
 #
 #            AbilityDescription: {
-#                Melee: Wield paracausal energy through myriad abilities depending on Aspected Damage Type: Thundercrash if Melee, Golden Gun if Ranged, Nova Bomb if Magic, Needlestorm if Summoner, and Silence and Squall otherwise. Thundercrash: After activation, gain Bearer of Light for 10 seconds and fly towards your cursor, dealing incredibly powerful damage to the first foe struck. Gain Invincibility for 3 seconds upon activation, independent of the attack's duration.
-#                Ranged: Wield paracausal energy through myriad abilities depending on Aspected Damage Type: Thundercrash if Melee, Golden Gun if Ranged, Nova Bomb if Magic, Needlestorm if Summoner, and Silence and Squall otherwise. Golden Gun: After activation, gain Bearer of Light for 10 seconds while unleashing a bolt of piercing light. You can press the Stellar Nova key 2 more times to repeat the attack while Bearer of Light is active, dealing 1/3 damage. Critical strikes explode, dealing 50% base damage.
-#                Magic: Wield paracausal energy through myriad abilities depending on Aspected Damage Type: Thundercrash if Melee, Golden Gun if Ranged, Nova Bomb if Magic, Needlestorm if Summoner, and Silence and Squall otherwise. Nova Bomb: After activation, gain Bearer of Light for 10 seconds while unleashing a powerful void projectile that tracks foes. After 2 seconds or after striking a foe, the attack will detonate in a large explosion. Inflicts Shadowflame for 10 seconds on foes struck by the blast.
-#                Summon: Wield paracausal energy through myriad abilities depending on Aspected Damage Type: Thundercrash if Melee, Golden Gun if Ranged, Nova Bomb if Magic, Needlestorm if Summoner, and Silence and Squall otherwise. Needlestorm: After activation, gain Bearer of Darkness for 10 seconds and unleash 5 Woven Needles. After striking a foe or a surface, the needles weave into Threadlings and attack nearby foes (treated as minions.) Damage is split between Woven Needles and Threadlings.
+#                Melee: Владейте паракаузальной энергией, используя множество способностей, зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя, Золотая пушка для стрелкового, Сверх бомба для магического, Шторм игл для призывного, а в остальных случаях Молчание и Шквал. Раскат грома: После активации даёт бафф «{$Buffs.BearerOfLight.DisplayName}» на 10 секунд и летите к курсору, нанося невероятно мощный урон первому врагу, с которым столкнётесь. При активации даёт неуязвимость на 3 секунды, независимо от продолжительности атаки.
+#                Ranged: Владейте паракаузальной энергией, используя множество способностей, зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя, Золотая пушка для стрелкового, Сверх бомба для магического, Шторм игл для призывного, а в остальных случаях Молчание и Шквал. Golden Gun: After activation, gain Bearer of Light for 10 seconds while unleashing a bolt of piercing light. You can press the Stellar Nova key 2 more times to repeat the attack while Bearer of Light is active, dealing 1/3 damage. Critical strikes explode, dealing 50% base damage.
+#                Magic: Владейте паракаузальной энергией, используя множество способностей, зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя, Золотая пушка для стрелкового, Сверх бомба для магического, Шторм игл для призывного, а в остальных случаях Молчание и Шквал. Nova Bomb: After activation, gain Bearer of Light for 10 seconds while unleashing a powerful void projectile that tracks foes. After 2 seconds or after striking a foe, the attack will detonate in a large explosion. Inflicts Shadowflame for 10 seconds on foes struck by the blast.
+#                Summon: Владейте паракаузальной энергией, используя множество способностей, зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя, Золотая пушка для стрелкового, Сверх бомба для магического, Шторм игл для призывного, а в остальных случаях Молчание и Шквал. Needlestorm: After activation, gain Bearer of Darkness for 10 seconds and unleash 5 Woven Needles. After striking a foe or a surface, the needles weave into Threadlings and attack nearby foes (treated as minions.) Damage is split between Woven Needles and Threadlings.
 #                Other: Владейте паракаузальной энергией, используя множество способностей, зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя, Золотая пушка для стрелкового, Сверх бомба для магического, Шторм игл для призывного, а в остальных случаях Молчание и Шквал. Молчание и Шквал: После активации даёт бафф «{$Buffs.BearerOfDarkness.DisplayName}» на 10 секунд, а также использует Молчание, накладывая дебафф «{$BuffName.Frostburn}» на 8 секунд. Сразу после этого следует Шквал, наносящий урон и создающий морозное поле при ударе, которое наносит постепенный урон в течение 8 секунд.
 #            }
 #
 #            AstralBonus: "«{$Buffs.BearerOfLight.DisplayName}» увеличивает регенерацию здоровья. «{$Buffs.BearerOfDarkness.DisplayName}» снижает получаемый урон на 10%. При получении смертельного урона любой из баффов поглощается и восстанавливает 30 здоровья."
-#            UmbralBonus: Bearer of Light increases damage by 8%. Bearer of Darkness increases critical strike damage by 15%. While either buff is active, Aspected Damage Type penalty is negated.
+#            UmbralBonus: «{$Buffs.BearerOfLight.DisplayName}» увеличивает урон на 8%. «{$Buffs.BearerOfDarkness.DisplayName}» увеличивает шанс критического удара на 15%. Пока активен любой из этих баффов, штраф к урону аспектного типа урона не применяется.
 #        }
 #
 #        # Не используется
@@ -3601,7 +3601,7 @@
 #
 #        BossChecklistIntegration: {
 #            EntryName: Театрал, Созданный алхимией
-#            SpawnInfo: Challenge this strange enemy through inquiring about the Strange Potion with the Astrologian. She moves into town after you obtain a Weapon Memory or defeat the Vagrant of Space and Time.
+#            SpawnInfo: Чтобы бросить вызов этому необычному врагу, нужно расспросить Астролога о Странном зелье. Она появится в городе после того, как вы добудете воспоминание оружия или одолете Скитальца между измерениями.
 #            DespawnMessage: ""
 #        }
 #    }
@@ -3610,7 +3610,7 @@
 #        DisplayName: Поллукс, Закалённый огнём воин
 #
 #        BossChecklistIntegration: {
-#            EntryName: Dioskouroi, the Twin Forces
+#            EntryName: Диоскуры, Близнецы-воители
 #            SpawnInfo: Чтобы победить этих демонических близнецов необходимо использовать предмет {$Items.TwincruxPendant.DisplayName}, который выпадает после победы над Скелетроном. (Скиталец между измерениями должен быть побеждён)
 #            DespawnMessage: ""
 #        }
@@ -3651,7 +3651,7 @@
 #
 #        BossChecklistIntegration: {
 #            EntryName: Асфодена и Эридани
-#            SpawnInfo: Встретьтесь лицом к лицу со своими Астрами в этом дружеском сражении - разблокированном после победы над Плантерой (ВСЕ предыдущие боссы из The Stars Above должны быть повержены!)
+#            SpawnInfo: Встретьтесь лицом к лицу со своими Астрами в этом дружеском поединке... разблокированном после победы над Плантерой (ВСЕ предыдущие боссы из The Stars Above должны быть повержены!)
 #            DespawnMessage: ""
 #        }
 #    }
@@ -3661,7 +3661,7 @@
 #
 #        BossChecklistIntegration: {
 #            EntryName: Воин света
-#            SpawnInfo: After defeating the Moon Lord, strange events may occur. After 2 in game days (this can not be sped up through any means) you can obtain an item from your Starfarer to continue.
+#            SpawnInfo: После победы над Лунным лордом могут произойти странные события. Через 2 игровых дня (это нельзя ускорить никаким образом) вы сможете получить предмет от своей Астраы, чтобы продолжить.
 #            DespawnMessage: ""
 #        }
 #    }
@@ -3817,57 +3817,57 @@
 #    }
 #
 #Tiles: {
-#    VendingMachine.MapEntry: Торговый автомат
+#    VendingMachine.MapEntry: Торговый аппарат
 #    CelestriadRoot.MapEntry: "{$Items.CelestriadRoot.DisplayName}"
 #    Portal.MapEntry: Врата
 #    StellarFoci.MapEntry: Звёздное светило
 #    StellaglyphTier1.MapEntry: "{$Items.StellaglyphTier1.DisplayName}"
 #    StellaglyphTier2.MapEntry: "{$Items.StellaglyphTier2.DisplayName}"
 #    StellaglyphTier3.MapEntry: "{$Items.StellaglyphTier3.DisplayName}"
-#    AgilityFocusTier1Tile.MapEntry: ""
-#    AgilityFocusTier2Tile.MapEntry: ""
-#    AgilityFocusTier3Tile.MapEntry: ""
-#    ConstitutionFocusTier1Tile.MapEntry: ""
-#    ConstitutionFocusTier2Tile.MapEntry: ""
-#    ConstitutionFocusTier3Tile.MapEntry: ""
-#    LuckFocusTier1Tile.MapEntry: ""
-#    LuckFocusTier2Tile.MapEntry: ""
-#    LuckFocusTier3Tile.MapEntry: ""
-#    PowerFocusTier1Tile.MapEntry: ""
-#    PowerFocusTier2Tile.MapEntry: ""
-#    PowerFocusTier3Tile.MapEntry: ""
-#    ResistanceFocusTier1Tile.MapEntry: ""
-#    ResistanceFocusTier2Tile.MapEntry: ""
-#    ResistanceFocusTier3Tile.MapEntry: ""
-#    WealthFocusTier1Tile.MapEntry: ""
-#    WealthFocusTier2Tile.MapEntry: ""
-#    WealthFocusTier3Tile.MapEntry: ""
+#    AgilityFocusTier1Tile.MapEntry: "{$Items.AgilityFocusTier1.DisplayName}"
+#    AgilityFocusTier2Tile.MapEntry: "{$Items.AgilityFocusTier2.DisplayName}"
+#    AgilityFocusTier3Tile.MapEntry: "{$Items.AgilityFocusTier3.DisplayName}"
+#    ConstitutionFocusTier1Tile.MapEntry: "{$Items.ConstitutionFocusTier1.DisplayName}"
+#    ConstitutionFocusTier2Tile.MapEntry: "{$Items.ConstitutionFocusTier2.DisplayName}"
+#    ConstitutionFocusTier3Tile.MapEntry: "{$Items.ConstitutionFocusTier3.DisplayName}"
+#    LuckFocusTier1Tile.MapEntry: "{$Items.LuckFocusTier1.DisplayName}"
+#    LuckFocusTier2Tile.MapEntry: "{$Items.LuckFocusTier2.DisplayName}"
+#    LuckFocusTier3Tile.MapEntry: "{$Items.LuckFocusTier3.DisplayName}"
+#    PowerFocusTier1Tile.MapEntry: "{$Items.PowerFocusTier1.DisplayName}"
+#    PowerFocusTier2Tile.MapEntry: "{$Items.PowerFocusTier2.DisplayName}"
+#    PowerFocusTier3Tile.MapEntry: "{$Items.PowerFocusTier3.DisplayName}"
+#    ResistanceFocusTier1Tile.MapEntry: "{$Items.ResistanceFocusTier1.DisplayName}"
+#    ResistanceFocusTier2Tile.MapEntry: "{$Items.ResistanceFocusTier2.DisplayName}"
+#    ResistanceFocusTier3Tile.MapEntry: "{$Items.ResistanceFocusTier3.DisplayName}"
+#    WealthFocusTier1Tile.MapEntry: "{$Items.WealthFocusTier1.DisplayName}"
+#    WealthFocusTier2Tile.MapEntry: "{$Items.WealthFocusTier2.DisplayName}"
+#    WealthFocusTier3Tile.MapEntry: "{$Items.WealthFocusTier3.DisplayName}"
 #    ReprintedBlueprintTile.MapEntry: "{$Items.ReprintedBlueprint.DisplayName}"
 #    CosmoturgyStation.MapEntry: "{$Items.CosmoturgyStationItem.DisplayName}"
-#    CorundumOre.MapEntry: Corundum Ore
-#    NeonVeilPylon.MapEntry: Neon Veil Pylon
-#    CubicMountedSignageTile.MapEntry: Cubic Mounted Signage Tile
-#    DeliciousSignageTile.MapEntry: Delicious Signage Tile
-#    DisusedSignageTile.MapEntry: Disused Signage Tile
-#    GenericMountedSignageTile.MapEntry: Generic Mounted Signage Tile
-#    GeometricSignageTile.MapEntry: Geometric Signage Tile
-#    HologramPlinthTreeTile.MapEntry: Hologram Plinth Tree Tile
-#    LockerAlternateTile.MapEntry: Locker Alternate Tile
-#    LockerDefaultTile.MapEntry: Locker Default Tile
-#    PairedMountedSignageTile.MapEntry: Paired Mounted Signage Tile
-#    ParabolicSignageTile.MapEntry: Parabolic Signage Tile
-#    TrashBinTile.MapEntry: Trash Bin Tile
-#    TrashDefaultTile.MapEntry: Trash Default Tile
-#    VendingStationTile.MapEntry: Vending Station Tile
-#    VendorStationTile.MapEntry: Vendor Station Tile
-#    DangerousSignageTile.MapEntry: Dangerous Signage Tile
-#    EnergeticMountedSignageTile.MapEntry: Energetic Mounted Signage Tile
-#    HologramPlinthDrinkTile.MapEntry: Hologram Plinth Drink Tile
-#    HydratedMountedSignageTile.MapEntry: Hydrated Mounted Signage Tile
-#    LavenderSignageTile.MapEntry: Lavender Signage Tile
-#    OfflineMountedSignageTile.MapEntry: Offline Mounted Signage Tile
-#    RadialMountedSignageTile.MapEntry: Radial Mounted Signage Tile
-#    SmallOfflineMountedSignageTile.MapEntry: Small Offline Mounted Signage Tile
+#    CorundumOre.MapEntry: Корундовая руда
+#    NeonVeilPylon.MapEntry: "{$Items.NeonVeilPylonItem.DisplayName}"
+#    CubicMountedSignageTile.MapEntry: "{$Items.CubicMountedSignage.DisplayName}"
+#    DeliciousSignageTile.MapEntry: "{$Items.DeliciousSignage.DisplayName}"
+#    DisusedSignageTile.MapEntry: "{$Items.DisusedSignage.DisplayName}"
+#    GenericMountedSignageTile.MapEntry: "{$Items.GenericMountedSignage.DisplayName}"
+#    GeometricSignageTile.MapEntry: "{$Items.GeometricSignage.DisplayName}"
+#    HologramPlinthTreeTile.MapEntry: "{$Items.HologramPlinthTree.DisplayName}"
+#    LockerAlternateTile.MapEntry: "{$Items.LockerAlternate.DisplayName}"
+#    LockerDefaultTile.MapEntry: "{$Items.LockerDefault.DisplayName}"
+#    PairedMountedSignageTile.MapEntry: "{$Items.PairedMountedSignage.DisplayName}"
+#    ParabolicSignageTile.MapEntry: "{$Items.ParabolicSignage.DisplayName}"
+#    TrashBinTile.MapEntry: Контейнер для мусора
+#    TrashDefaultTile.MapEntry: "{$Items.Carefully Assorted Trash.DisplayName}"
+#    VendingStationTile.MapEntry: "{$Items.VendingStation.DisplayName}"
+#    VendorStationTile.MapEntry: "{$Items.VendorStation.DisplayName}"
+#    DangerousSignageTile.MapEntry: "{$Items.DangerousSignage.DisplayName}"
+#    EnergeticMountedSignageTile.MapEntry: "{$Items.EnergeticMountedSignage.DisplayName}"
+#    HologramPlinthDrinkTile.MapEntry: "{$Items.HologramPlinthDrink.DisplayName}"
+#    HydratedMountedSignageTile.MapEntry: "{$Items.HydratedMountedSignage.DisplayName}"
+#    LavenderSignageTile.MapEntry: "{$Items.LavenderSignage.DisplayName}"
+#    OfflineMountedSignageTile.MapEntry: "{$Items.OfflineMountedSignage.DisplayName}"
+#    RadialMountedSignageTile.MapEntry: "{$Items.RadialMountedSignage.DisplayName}"
+#    SmallOfflineMountedSignageTile.MapEntry: "{$Items.SmallOfflineMountedSignage.DisplayName}"
 #}
 #
 #Items: {
@@ -4258,7 +4258,7 @@
 #        DisplayName: Кровавый клинок
 #        Tooltip:
 #            '''
-#            Attacks with this weapon will rapidly sweep in an arc
+#            Атаки этого оружия совершают круговые взмахи
 #            Striking foes with this attack will heal a small portion of damage dealt as HP (Max 5 HP)
 #            Gain the buff [c/A20000:Bloodthirsting Blade] when wielding this weapon
 #            [c/A20000:Bloodthirsting Blade] grants powerful buffs as HP diminishes, but prevents natural life regeneration
@@ -4318,14 +4318,14 @@
 #        DisplayName: Цезура отчаяния
 #        Tooltip:
 #            '''
-#            Holding this weapon will transform you into a [c/E03166:Fae Nephilim]
-#            Attacks will pierce enemies and deal minion damage
-#            Flight time is infinite as a [c/E03166:Fae Nephilim] 
-#            Additionally, three [c/D36F6F:Nephilim Shards] and the [c/D36F9C:Irys] will surround you
-#            The [c/D36F6F:Nephilim Shards] will independently target and attack nearby foes
-#            The [c/D36F9C:Irys] will inflict [c/D7367F:Irys Gaze] on one nearby enemy, ignoring player targetting
-#            Foes affected by [c/D7367F:Irys Gaze] take 50 extra damage from all sources and allows for minions to crit at a 15% chance
-#            'Hope has descended'
+#            Держа это оружие в руках, превращает вас в [c/E03166:Фею-нефилима]
+#            Атаки будут пронзать врагов и наносить урон миньонов
+#            Вы получаете бесконечное время полёта в форме [c/E03166:Феи-нефилима]
+#            Кроме того, вас будут окружать три [c/D36F6F:Осколка нефилима] и [c/D36F9C:Айрис]
+#            [c/D36F6F:Осколки нефилима] будут самостоятельно выбирать и атаковать ближайших врагов
+#            [c/D36F9C:Айрис] накладывает дебафф [c/D7367F:Взгляд Айрис] на одного ближайшего врага, игнорируя цель игрока
+#            Враги, на которых наложен дебафф [c/D7367F:Взгляд Айрис], получают 50 единиц дополнительного урона от всех источников, а также миньоны получают 15% шанс нанести критический удар
+#            'И явилась надежда'
 #            '''
 #    }
 #
@@ -4347,13 +4347,22 @@
 #        DisplayName: Клив-Солаш
 #        Tooltip:
 #            '''
-#            Critical strikes with this weapon will grant a stack of [c/F1AF42:Radiance] (Up to 10)
-#            Right click with 5 stacks of [c/F1AF42:Radiance] to unleash the [c/F35B43:Radiant Soul], consuming all [c/F1AF42:Radiance]
-#            When the [c/F35B43:Radiant Soul] is unleashed, gain 1 second of Invincibility
-#            The [c/F35B43:Radiant Soul] will deal powerful critical damage to nearby foes in a large radius
-#            The [c/F35B43:Radiant Soul]'s damage is influenced by a portion of defense and current stacks of [c/F1AF42:Radiance]
-#            Gaining [c/F1AF42:Radiance] past 10 stacks will instead grant Ironskin for 4 seconds
-#            'An indefatigable sword- its blade glitters with light'
+#            Критические удары накапливают стаки [c/F1AF42:Сияния] (до 10)
+#            Нажмите <right> при 5 стаках [c/F1AF42:Сияния], чтобы высвободить [c/F35B43:Сияющую душу], расходуя все стаки [c/F1AF42:Сияния]
+#            Когда [c/F35B43:Сияющая душа] высвобождается, вы получаете бафф «{$Mods.CalamityRuTranslate.StarsAbove.Buffs.Invincibility.Name}» на 2 секунды
+#            [c/F35B43:Сияющая душа] наносит огромный критический урон ближайшим врагам в большом радиусе
+#            На урон [c/F35B43:Сияющей души] влияет часть защиты игрока и количество стаков [c/F1AF42:Сияния]
+#            После 10 стаков вы не накапливаете [c/F1AF42:Сияние], а получаете бафф «{$BuffName.Ironskin}» на 4 секунды
+#            Оружие увеличивается в размерах в зависимости от части вашей защиты
+#            'Неослабевающий меч со сверкающим лезвием'
+#            
+#            Критические удары этим оружием накапливают стаки [c/F1AF42:Сияния] (до 10)
+#            Нажмите <right> при 5 стаках [c/F1AF42:Сияния], чтобы высвободить [c/F35B43:Сияющую душу], расходуя все стаки [c/F1AF42:Сияния]
+#            При высвобождении [c/F35B43:Сияющей души] даёт неуязвимость на 1 секунду
+#            [c/F35B43:Сияющая душа] наносит огромный критический урон ближайшим врагам в большом радиусе
+#            Урон [c/F35B43:Сияющей души] зависит от части вашей защиты и количества накопленных стаков [c/F1AF42:Сияния]
+#            После 10 стаков вы не накапливаете [c/F1AF42:Сияние], а получаете бафф «{$BuffName.Ironskin}» на 4 секунды
+#            'Неослабевающий меч... со сверкающим лезвием'
 #            '''
 #    }
 #
@@ -4531,10 +4540,10 @@
 #        DisplayName: Мнемонический след IV
 #        Tooltip:
 #            '''
-#            Acquired from the Warrior of Light
-#            A trace of the First Starfarer's journey
-#            Use this item to gaze into the past- as long as you have gleaned the knowledge from the other Mnemonic Traces
-#            'What will is truly my own?'
+#            Получен от Воина света
+#            Отпечаток путешествия Первого Звездоносца
+#            Используйте этот предмет, чтобы заглянуть в прошлое... но только после того, как вы изучите знания из других Мнемонических следов
+#            'Какая воля будет истинно моей?'
 #            '''
 #    }
 #
@@ -4542,9 +4551,9 @@
 #        DisplayName: Мнемонический след III
 #        Tooltip:
 #            '''
-#            Acquired from Nalhaun, the Burnished King
-#            A trace of the First Starbearer's rampage
-#            Use this item to gaze into the past...
+#            Получен от Налхана, Воронёного короля
+#            Отпечаток безумства Первого Звездоносца
+#            Используйте этот предмет, чтобы заглянуть в прошлое...
 #            'Будь у меня хоть ещё один шанс'
 #            '''
 #    }
@@ -4553,9 +4562,9 @@
 #        DisplayName: Мнемонический след II
 #        Tooltip:
 #            '''
-#            Acquired from Penthesilea, the Witch of Ink
-#            A trace of the First Starbearer's rampage
-#            Use this item to gaze into the past...
+#            Получен от Пентесилеи, Ведьмы чернил
+#            Отпечаток безумства Первого Звездоносца
+#            Используйте этот предмет, чтобы заглянуть в прошлое...
 #            'Я признаю свои ошибки. Их много, и они никогда меня не покидают'
 #            '''
 #    }
@@ -4564,9 +4573,9 @@
 #        DisplayName: Мнемонический след I
 #        Tooltip:
 #            '''
-#            Acquired from Dioskouroi, the Twin Forces
-#            A trace of the First Starbearer's rampage
-#            Use this item to gaze into the past...
+#            Получен от Диоскуров, Близнецов-воителей
+#            Отпечаток безумства Первого Звездоносца
+#            Используйте этот предмет, чтобы заглянуть в прошлое...
 #            'Когда роза расвецёт, начало конца грядёт'
 #            '''
 #    }
@@ -4730,7 +4739,7 @@
 #        DisplayName: Воспоминание катализатора
 #        Tooltip:
 #            '''
-#            [c/8AC1F1:This weapon has a unique damage type; inherits bonuses from all damage classes]
+#            [c/8AC1F1:Это оружие имеет уникальный тип урона; наследует бонусы от всех классов урона]
 #            Holding this weapon activates it, granting the buff [c/EAC0ED:Catalyzed Blade], increasing movement speed by 10%
 #            Attacks with this weapon barrage foes with myriad stabs dealing 80% of base damage, with a 10% chance to fire a [c/F581FE:Shimmering Prism] that deals 50% of base damage
 #            The [c/F581FE:Shimmering Prism] pierces up to 3 foes and deals 30% extra damage to foes below 50% HP
@@ -4751,7 +4760,7 @@
 #        DisplayName: Перчатки чёрной тишины
 #        Tooltip:
 #            '''
-#            [c/8AC1F1:This weapon has a unique damage type; inherits bonuses from all damage classes]
+#            [c/8AC1F1:Это оружие имеет уникальный тип урона; наследует бонусы от всех классов урона]
 #            Right-click to choose from 3 random weapons from a pool of 9 different weapons, each with unique attack patterns (5 second cooldown)
 #            After choosing a weapon, gain a unique buff based on the chosen weapon that lasts for 12 seconds
 #            [c/6C6C6C:Durandal]: Attack in a wide arc with a high critical strike chance; gain 50% bonus critical strike damage against foes below 50% HP
@@ -4834,12 +4843,12 @@
 #        DisplayName: Дер Фрайшуц
 #        Tooltip:
 #            '''
-#            [c/8AC1F1:This weapon has a unique damage type; inherits bonuses from all damage classes at 70% efficiency, but inherits 150% from critical strike chance modifiers]
-#            Bullets will fire from your cursor
-#            Line of sight is not required, but bullets will inherit direction
-#            Critical rate and damage will increase with the amount of bullets fired, but the seventh shot will have recoil damage and damage allies
-#            If the recoil damage would kill you, the gun will misfire
-#            'This magical bullet can truly hit anyone- just like you say'
+#            [c/8AC1F1:Это оружие имеет уникальный тип урона; наследует бонусы от всех классов урона с 70% эффективностью, а от модификаторов шанса критического удара 150%]
+#            Стреляет пулями из позиции курсора
+#            Прямая видимость с врагом не требуется, но траектория пуль будет совпадать с направлением курсора
+#            Урон и шанс критического удара увеличиваются с количеством выстрелов, но седьмой выстрел тратит часть вашего здоровья и наносит урон дружественным НИПам
+#            Если последний выстрел может убить вас, оружие выстрелит с осечкой
+#            'Он никогда не промахивался... но седьмая пуля всегда поражала тех, кого он любил'
 #            '''
 #    }
 #
@@ -5617,14 +5626,14 @@
 #    }
 #
 #    StarfarerEssence: {
-#        DisplayName: Воспоминание Астры
+#        DisplayName: Поминовение Астры
 #        Tooltip:
 #            '''
-#            This Memory is indeed quite familiar to you
-#            [c/F1AF42:Petitions the Starfarers for a test]
-#            [c/FA5D5D:Once the final boss from The Stars Above have been defeated, this fight is drastically upgraded!]
-#            No extra rewards will be given for this special difficulty
-#            Warning: not recommended for casual playthroughs!
+#            Это воспоминание действительно вам очень знакомо
+#            [c/F1AF42:Обращается к Астрам с просьбой об испытании]
+#            [c/FA5D5D:После победы над финальным боссом The Stars Above, этот бой значительно усложняется!]
+#            За прохождение этой особой сложности дополнительных наград не предусмотрено
+#            Внимание: не рекомендуется для обычного прохождения!
 #            Не расходуется
 #            '''
 #    }
@@ -5633,20 +5642,20 @@
 #        DisplayName: Вечная звезда
 #        Tooltip:
 #            '''
-#            Holding this weapon causes the [c/C2A4AA:Eternal Gauge] to appear
-#            Conjure powerful random types of [c/FFB47A:Emblazoned Stars] from the sky to obliterate foes
-#            [c/FFB47A:Emblazoned Stars] deal damage 5 times before shattering
-#            Shattered [c/FFB47A:Emblazoned Stars] have a chance to leave behind [c/FF6988:Emblazoned Fragments] based on the type of star
-#            When picked up, these [c/FF6988:Emblazoned Fragments] grant powerful buffs for 8 seconds
-#            [c/FFDC59:Citrine] grants 20 Defense and 5% increased damage
-#            [c/FF59CD:Amethyst] grants Mana Regeneration and 5% increased damage
-#            [c/59CFFF:Cerulean] grants 120 Mana when collected and 5% increased damage
-#            [c/FF5959:Vermillion] grants 50 armor penetration and 5% increased damage
-#            [c/59FF68:Malachite] grants 10% critical strike chance and 5% increased damage
-#            Additionally, collecting [c/FF6988:Emblazoned Fragments] charges the [c/C2A4AA:Eternal Gauge]
-#            Once the [c/C2A4AA:Eternal Gauge] is full, right click to conjure the [c/59FFCD:Immemorial Supernova] at your cursor's location, draining the [c/C2A4AA:Eternal Gauge]
-#            The [c/59FFCD:Immemorial Supernova] will persist for 5 seconds, dealing damage to all foes in its vicinity
-#            Once the [c/59FFCD:Immemorial Supernova] expires, it will explode, dealing 500% damage damage to nearby foes
+#            Держа это оружие в руках, активирует [c/C2A4AA:Шкалу вечности]
+#            Призывает с неба мощные случайные типы [c/FFB47A:Блистающих звёзд], уничтожающие врагов
+#            [c/FFB47A:Блистающие звёзды] наносят урон 5 раз, прежде чем расколоться
+#            Расколовшиеся [c/FFB47A:Блистающие звёзды] с некоторым шансом оставляют после себя [c/FF6988:Блистающие фрагменты] в зависимости от типа звезды
+#            Подобранные [c/FF6988:Блистающие фрагменты] дают мощные баффы на 8 секунд
+#            [c/FFDC59:Цитрин] увеличивает защиту на 20 и урон 5%
+#            [c/FF59CD:Аметист] увеличивает восстановление маны и урон 5%
+#            [c/59CFFF:Лазурит] даёт 120 маны при подборе и увеличивает урон на 5%
+#            [c/FF5959:Киноварь] увеличивает пробивание брони на 50 и урон на 5%
+#            [c/59FF68:Малахит] увеличивает шанс критического удара на 10% и урон на 5%
+#            Кроме того, подбор [c/FF6988:Блистающих фрагментов] заряжает [c/C2A4AA:Шкалу вечности]
+#            После заполнения [c/C2A4AA:Шкалы вечности] нажмите <right>, чтобы призвать [c/59FFCD:Исконную сверхновую] в позицию курсора, расходуя всю [c/C2A4AA:Шкалу вечности]
+#            [c/59FFCD:Исконная сверхновая] существует 5 секунд, нанося урон всем врагам в радиусе её действия
+#            По истечении времени действия [c/59FFCD:Исконная сверхновая] взрывается, нанося врагам в зоне поражения 500% урона
 #            '''
 #    }
 #
@@ -5654,7 +5663,7 @@
 #        DisplayName: Неуничтожимая кирка
 #        Tooltip:
 #            '''
-#            [c/8AC1F1:This weapon has a unique damage type; inherits bonuses from all damage classes]
+#            [c/8AC1F1:Это оружие имеет уникальный тип урона; наследует бонусы от всех классов урона]
 #            Right click to place a dusting of [c/82D1D5:Everlasting Gunpowder] on yourself, which lasts for 6 seconds (20 second cooldown)
 #            Swinging the pickaxe near the [c/82D1D5:Everlasting Gunpowder] causes consecutive explosions towards your cursor, destroying tiles
 #            Press the Weapon Action Key to load [c/82D1D5:Everlasting Gunpowder] into the pickaxe
@@ -5727,14 +5736,13 @@
 #        DisplayName: Пустое сердце Альбиона
 #        Tooltip:
 #            '''
-#            Holding this weapon summons [c/D66AAB:Melusine] and [c/6AD6AF:Arondight] to circle you, aiming at your cursor
-#            Left click to fire from [c/D66AAB:Melusine]
-#            Attacking with [c/D66AAB:Melusine] fires a missile that has a 50% chance to apply On Fire to foes struck for 6 seconds
-#            Striking foes inflicted with Frostburn with [c/D66AAB:Melusine] will deal extra critical damage and remove Frostburn
-#            Right click to fire from [c/6AD6AF:Arondight]
-#            Striking foes inflicted with On Fire with [c/6AD6AF:Arondight] will deal extra critical damage and remove On Fire
-#            This weapon can not deal critical strikes unless criteria is met
-#            This weapon can not crit unless criteria is met
+#            Держа это оружие в руках, призывает кружащихся вокруг вас [c/D66AAB:Мелюзину] и [c/6AD6AF:Арондайта], нацеливаясь на ваш курсор
+#            Нажмите <left>, чтобы выстрелить из [c/D66AAB:Мелюзины]
+#            Атака из [c/D66AAB:Мелюзины] выпускает ракету, которая с 50% шансом накладывает на врагов дебафф «{$BuffName.Burning}» на 6 секунд
+#            Атаки по врагам из [c/D66AAB:Мелюзины], на которых наложен дебафф «{$BuffName.Frostburn}», наносят дополнительный критический урон и снимают с них «{$BuffName.Frostburn}»
+#            Нажмите <right>, чтобы выстрелить из [c/6AD6AF:Арондайта]
+#            Атаки по врагам из [c/D66AAB:Арондайта], на которых наложен дебафф «{$BuffName.Burning}», наносят дополнительный критический урон и снимают с них «{$BuffName.Burning}»
+#            Это оружие не может наносить критические удары, если не соблюдены условия
 #            'Мои крылья понесут тебя, пусть даже на краткий миг этого сновидения'
 #            '''
 #    }
@@ -5782,7 +5790,7 @@
 #        DisplayName: Симфония охотника
 #        Tooltip:
 #            '''
-#            Attacks with this weapon will sweep in an arc
+#            Атаки этого оружия совершают круговые взмахи
 #            Mana regeneration is increased when not actively attacking
 #            Right click while holding directional keys to play [c/72D16A:Hunter's Melodies] (20 second cooldown, reduced when striking foes with this weapon)
 #            [c/72D16A:Hunter's Melodies] grant unique buffs based on the direction pressed to yourself and nearby allies for 20 seconds
@@ -5870,7 +5878,7 @@
 #        DisplayName: Благосклонность Кариума
 #        Tooltip:
 #            '''
-#            [c/8AC1F1:This weapon has a unique damage type; inherits bonuses from all damage classes]
+#            [c/8AC1F1:Это оружие имеет уникальный тип урона; наследует бонусы от всех классов урона]
 #            Attacks barrage foes with close-ranged strikes; right-click to dash towards your cursor, becoming Invincible for a very short duration (1 second cooldown)
 #            Critical strikes grant Alacrity for 3 seconds, increasing attack and movement speed
 #            Hold the Weapon Action Key to slow yourself and activate [c/33FF93:Absorption], absorbing all incoming damage while draining HP (HP drain is magnified over time)
@@ -6157,7 +6165,7 @@
 #        DisplayName: Милость
 #        Tooltip:
 #            '''
-#            Attacks with this weapon will rapidly sweep in a short-ranged arc
+#            Атаки этого оружия совершают стремительные круговые взмахи на короткое расстояние
 #            Right click to unleash [c/DC3961:Edge of Anguish] (12 second cooldown)
 #            [c/DC3961:Edge of Anguish] will target the nearest enemy to your cursor and charge towards them
 #            Gain Invincibility for the duration of the dash and striking foes deals 300% damage
@@ -6262,7 +6270,7 @@
 #        DisplayName: Муза Пентесилеи
 #        Tooltip:
 #            '''
-#            Attacks with this weapon will sweep in a wide arc
+#            Атаки этого оружия совершают широкие круговые взмахи
 #            Every 15 seconds, the nearest boss enemy will be [c/E83D71:Inked] and will drip paint according to a specific color
 #            Right click to view all [c/889FCA:Mystic Pigments]
 #            Selecting a [c/889FCA:Mystic Pigment] will change your attacks to the specified color
@@ -6294,7 +6302,7 @@
 #        Tooltip:
 #            '''
 #            Нельзя получить
-#            Applies frostburn to foes and fires an icy projectile when in the confines of the underworld
+#            Накладывает на врагов дебафф «{$BuffName.Frostburn}» и стреляет ледяным снарядом, находясь в пределах преисподней
 #            'Роза отцвела, а шипы остались'
 #            '''
 #    }
@@ -6303,8 +6311,8 @@
 #        DisplayName: Кристалл Эгиды
 #        Tooltip:
 #            '''
-#            Summons the Aegis
-#            'Продолжай, мы точно победим'
+#            Призывает Эгиду
+#            'Продолжай в том же духе, и мы обязательно победим!'
 #            '''
 #    }
 #
@@ -6571,7 +6579,7 @@
 #    }
 #
 #    VendingMachine: {
-#        DisplayName: Иноземный торговый автомат
+#        DisplayName: Иноземный торговый аппарат
 #        Tooltip: ""
 #    }
 #
@@ -6900,9 +6908,9 @@
 #        DisplayName: Призма космического феникса
 #        Tooltip:
 #            '''
-#            Legacy item (Нельзя получить)
-#            [c/FF4F9F:Tier 3 Stellar Prism]
-#            Affix to a Stellar Nova to gain the following abilities:
+#            Предмет наследия (Нельзя получить)
+#            [c/FF4F9F:Звёздная призма - Ранг 3]
+#            Установите на Астронову, чтобы получить следующие характеристики:
 #            [c/C05CC8:Stellar Drive]
 #            Instantly gain 100 Mana when casting the Stellar Nova
 #            Gain all Mana instead if health is below 100
@@ -6919,9 +6927,9 @@
 #        DisplayName: Призма свергнутого короля
 #        Tooltip:
 #            '''
-#            Legacy item (Нельзя получить)
-#            [c/FF4F9F:Tier 3 Stellar Prism]
-#            Affix to a Stellar Nova to gain the following abilities:
+#            Предмет наследия (Нельзя получить)
+#            [c/FF4F9F:Звёздная призма - Ранг 3]
+#            Установите на Астронову, чтобы получить следующие характеристики:
 #            [c/6ECBA5:Harrowed Path]
 #            Upon cast of the Stellar Nova, gain 'Sovereign's Dominion'
 #            During Sovereign's Dominion, gain 30% Movement Speed and 10% Attack Damage
@@ -7111,7 +7119,7 @@
 #            Nearby foes are inflicted with Frostburn until they leave the radius
 #            [c/B9384E:Volcanic Wrath] increases attack and critical strike chance by 20% and inflicts On Fire for 2 seconds on hit
 #            Defeating foes will cause them to explode into a shower of flames, inflicting Cursed Flame for 8 seconds
-#            Holding this weapon will cause the [c/CE8EBD:Vengeance Gauge] to appear
+#            Держа это оружие в руках, активирует [c/CE8EBD:Vengeance Gauge]
 #            Defeating foes with this weapon will fill the [c/CE8EBD:Vengeance Gauge]
 #            Right click to consume the [c/CE8EBD:Vengeance Gauge] and gain the buff [c/DF2AAE:Elemental Chaos] for 14 seconds
 #            [c/DF2AAE:Elemental Chaos] grants all [c/FF71D8:Elemental Arts] buffs and the weapon will inflict all [c/FF71D8:Elemental Arts] debuffs on foes
@@ -7247,7 +7255,7 @@
 #        DisplayName: И точно я знаю одно
 #        Tooltip:
 #            '''
-#            [c/8AC1F1:This weapon has a unique damage type; inherits bonuses from all damage classes]
+#            [c/8AC1F1:Это оружие имеет уникальный тип урона; наследует бонусы от всех классов урона]
 #            [c/F7D76A:Удерживайте <left>, чтобы зарядить оружие; чем дольше заряжается оружие, тем сильнее итоговая атака]
 #            Charged attacks will execute [c/8D0404:Guntrigger Execution], teleporting to your cursor (in range), granting Invincibility for 2 seconds, and slashing foes around you
 #            When charging the weapon, movement is disabled
@@ -7282,7 +7290,7 @@
 #        DisplayName: Ультима Туле
 #        Tooltip:
 #            '''
-#            [c/8AC1F1:This weapon has a unique damage type; inherits bonuses from all damage classes]
+#            [c/8AC1F1:Это оружие имеет уникальный тип урона; наследует бонусы от всех классов урона]
 #            [c/F7D76A:Удерживайте <left>, чтобы зарядить оружие; если оружие полностью заряжено, тип атаки изменится]
 #            Holding this weapon will conjure 5 [c/14E6FF:Spatial Planets] to orbit you
 #            Uncharged attacks cleave a colossal area with powerful spatial damage
@@ -7364,8 +7372,8 @@
 #        DisplayName: Грань добродетели
 #        Tooltip:
 #            '''
-#            Attacks with this weapon swing in a wide arc
-#            Holding this weapon will cause the [c/4C3BB6:Virtue Gauge] to appear
+#            Атаки этого оружия совершают широкие взмахи
+#            Держа это оружие в руках, активирует [c/4C3BB6:Virtue Gauge]
 #            Attacks with this weapon will fill the [c/4C3BB6:Virtue Gauge] with [c/49C7EC:Astral Flux]
 #            Critical strikes will fill the [c/4C3BB6:Virtue Gauge] faster
 #            Right click when the [c/4C3BB6:Virtue Gauge] is full to cleave a tear in spacetime, spawning a [c/495DEC:Celestial Void] for 8 seconds (45 second cooldown)
@@ -7801,7 +7809,7 @@
 #        Tooltip:
 #            '''
 #            [c/F7D76A:Удерживайте <left>, чтобы зарядить оружие; если оружие полностью заряжено, тип атаки изменится]
-#            [c/8AC1F1:This weapon has a unique damage type; inherits bonuses from both Melee and Magic damage]
+#            [c/8AC1F1:Это оружие имеет уникальный тип урона; наследует бонусы от ближнего боя и магического типа урона]
 #            Additionally, this weapon can be [c/F7D76A:Overcharged], causing additional effects to occur
 #            Uncharged attacks with this weapon are disabled
 #            Charged attacks with this weapon vary depending on the amount of [c/F7D76A:Overcharge]
@@ -7922,7 +7930,7 @@
 #        DisplayName: Манифестация
 #        Tooltip:
 #            '''
-#            [c/8AC1F1:This weapon has a unique damage type; inherits bonuses from all damage classes at 70% efficiency, but inherits 150% from critical strike chance modifiers]
+#            [c/8AC1F1:Это оружие имеет уникальный тип урона; наследует бонусы от всех классов урона с 70% эффективностью, а от модификаторов шанса критического удара 150%]
 #            Attacks rapidly sweep in a colossal arc; all critical strike damage is increased by 20%
 #            Taking or dealing damage grants [c/D53B3B:Emotional Turbulence] (Critical strikes grant double [c/D53B3B:Emotional Turbulence] below 200 HP)
 #            Defeating foes increases [c/D53B3B:Emotional Turbulence] by 5% (doubled below 200 HP)
@@ -8360,7 +8368,7 @@
 #        DisplayName: Похороны света
 #        Tooltip:
 #            '''
-#            [c/8AC1F1:This weapon has a unique damage type; inherits bonuses from all damage classes]
+#            [c/8AC1F1:Это оружие имеет уникальный тип урона; наследует бонусы от всех классов урона]
 #            When this weapon is held, gain 100% armor penetration but defense is halved
 #            Attacks rapidly cleave a large area and attacks will build stacks of [c/16DBF3:Judgement] on foes struck (Critical strikes apply two stacks of [c/16DBF3:Judgement])
 #            Additionally, 50% of the damage is dealt as an additional slash at your cursor that does not build [c/16DBF3:Judgement]
@@ -8652,10 +8660,10 @@
 #        Tooltip:
 #            '''
 #            [c/F592BF:Это оружие не подвержено к штрафу Аспектного типа урона при смене типа на ближний бой или магический]
-#            Attacks with this weapon stab forwards, piercing foes
-#            Right click to dash towards your cursor (4 second cooldown)
-#            Press the Weapon Action Key to unleash [c/B9F1FA:Gossamer Storm], healing 15 HP and striking nearby foes 3 times (10 second cooldown)
-#            If [c/B9F1FA:Gossamer Storm] inflicts a critical strike, gain Alacrity for 5 seconds, increasing attack and movement speed
+#            Атаки этого оружия совершают прямые выпады, пронзая врагов
+#            Нажмите <right>, чтобы совершить рывок к курсору (перезарядка 4 секунды)
+#            Нажмите клавишу 'Действие оружия', чтобы высвободить [c/B9F1FA:Шёлковый шторм], восстанавливая 15 здоровья и нанося врагам вокруг 3 удара (перезарядка 10 секунд)
+#            Если [c/B9F1FA:Шёлковый шторм] наносит критический удар, вы получаете бафф «{$Buffs.Alacrity.DisplayName}» на 5 секунд, увеличивая скорость атаки и передвижения
 #            'Слабо, маленький призрак...'
 #            '''
 #    }
@@ -9012,9 +9020,9 @@
 #            '''
 #            [c/D294FF:Воспоминание оружия]
 #            Инкрустация в оружие даёт следующие эффекты:
-#            Press the Weapon Memory Key to gain 40% increased movement speed for 4 seconds (30 second cooldown)
+#            Нажмите клавишу 'Воспоминание оружия', чтобы увеличить скорость передвижения на 40% на 4 секунды (перезарядка 30 секунд)
 #            '''
-#        TooltipAttached: Press the Weapon Memory Key to gain 40% increased movement speed for 4 seconds (30 second cooldown)
+#        TooltipAttached: Нажмите клавишу 'Воспоминание оружия', чтобы увеличить скорость передвижения на 40% на 4 секунды (перезарядка 30 секунд)
 #    }
 #
 #    BottledChaos: {
@@ -9034,13 +9042,13 @@
 #            '''
 #            [c/D294FF:Воспоминание оружия]
 #            Инкрустация в оружие даёт следующие эффекты:
-#            Press the Weapon Memory Key to launch 3 flies that attack foes, dealing 1/3 weapon damage each (20 second cooldown)
-#            Cooldown is reduced by 1 second for every critical strike
+#            Нажмите клавишу 'Воспоминание оружия', чтобы запустить 3 мух, которые атакуют врагов, нанося 1/3 урона оружия каждая (перезарядка 20 секунд)
+#            Снижает перезарядку на 1 секунду за каждый критический удар
 #            '''
 #        TooltipAttached:
 #            '''
-#            Press the Weapon Memory Key to launch 3 flies that attack foes, dealing 1/3 weapon damage each (20 second cooldown)
-#            Cooldown is reduced by 1 second for every critical strike
+#            Нажмите клавишу 'Воспоминание оружия', чтобы запустить 3 мух, которые атакуют врагов, нанося 1/3 урона оружия каждая (перезарядка 20 секунд)
+#            Снижает перезарядку на 1 секунду за каждый критический удар
 #            '''
 #    }
 #
@@ -9158,15 +9166,15 @@
 #        DisplayName: Монолог дальних морей
 #        Tooltip:
 #            '''
-#            [c/8AC1F1:This weapon has a unique damage type; inherits bonuses from both Magic and Summon damage]
-#            Gain up to 30 bonus damage based on percentage of HP above 60% Max HP
-#            Press the Weapon Action Key to swap [c/A9D5F0:Arkhe Alignment] between [c/F0DFA9:Pneuma] and [c/6C5BE8:Ousia], changing this weapon's abilities
-#            While attuned to [c/F0DFA9:Pneuma], right click to summon the [c/5BBFE8:Singer of Seas], consuming 1 minion slot (Only one [c/5BBFE8:Singer of Seas] can be summoned at a time)
-#            The [c/5BBFE8:Singer of Seas] will heal all allies in a wide radius for 5% of this weapon's damage every 5 seconds (Increased to 10% below 200 HP)
-#            While attuned to [c/6C5BE8:Ousia], right click to summon 3 [c/5BBFE8:Salon Attendants], consuming 1 minion slot (Only one group of [c/5BBFE8:Salon Attendants] can be summoned at a time)
-#            The [c/5BBFE8:Salon Attendants] automatically attack nearby foes with homing bolts
-#            Gain Waterwalking while summons are present
-#            Summons will disappear when swapping [c/A9D5F0:Arkhe Alignment]
+#            [c/8AC1F1:Это оружие имеет уникальный тип урона;наследует бонусы от магического и призывного типа урона]
+#            Вы получаете до 30 единиц дополнительного урона в зависимости от процента здоровья, превышающего 60% максимального
+#            Нажмите клавишу 'Действие оружия', чтобы переключить [c/A9D5F0:Принадлежность архэ] между [c/F0DFA9:Пневмой] и [c/6C5BE8:Усией], изменяя способности этого оружия
+#            Во время связи с [c/F0DFA9:Пневмой], нажмите <right>, чтобы призвать [c/5BBFE8:Певца морей], используя 1 слот призываемых миньонов (Можно призвать только одного [c/5BBFE8:Певца морей])
+#            [c/5BBFE8:Певец морей] исцеляет всех союзников в широком радиусе на 5% от урона этого оружия каждые 5 секунд (Усиливает эффект до 10% при здоровье ниже 200)
+#            Во время связи с [c/6C5BE8:Усией], нажмите <right>, чтобы призвать 3 [c/5BBFE8:Служителя Салона], используя 1 слот призываемых миньонов (Можно призвать только одну группу [c/5BBFE8:Служителей Салона])
+#            [c/5BBFE8:Служители Салона] автоматически атакуют ближайших врагов самонаводящимися зарядами
+#            Вы получаете бафф «{$BuffName.WaterWalking}», пока призваны миньоны
+#            Миньоны исчезают при смене [c/A9D5F0:Принадлежности архэ]
 #            'Вдохнём жизнь в этот мир!'
 #            '''
 #    }
@@ -9468,12 +9476,12 @@
 #    }
 #
 #    EssenceOfSugar: {
-#        DisplayName: Essence Of Sugar
+#        DisplayName: Эссенция сахара
 #        Tooltip:
 #            '''
-#            Obtained after defeating Queen Slime
-#            A gift from your Starfarer
-#            Utilized in the creation of 'Candied Sugar Ball' (Summon)
+#            Можно получить в качестве награды за победу над Королевой пчёл
+#            Подарок вашей Астры
+#            Используется для создания '{$Items.CandiedSugarball.DisplayName}' (Призывной)
 #            '''
 #    }
 #
@@ -9499,9 +9507,9 @@
 #        DisplayName: Эссенция феникса
 #        Tooltip:
 #            '''
-#            Obtained after defeating ???
-#            A gift from your Starfarer
-#            Utilized in the creation of 'Starphoenix Funnel' (Summon)
+#            Можно получить в качестве награды за победу над ???
+#            Подарок вашей Астры
+#            Используется для создания '{$Items.StarphoenixFunnel.DisplayName}' (Призывной)
 #            '''
 #    }
 #
@@ -9525,9 +9533,9 @@
 #        DisplayName: Эссенция героя щита
 #        Tooltip:
 #            '''
-#            Obtained after defeating ???
-#            A gift from your Starfarer
-#            Utilized in the creation of 'Legendary Shield' (Other)
+#            Можно получить в качестве награды за победу над ???
+#            Подарок вашей Астры
+#            Используется для создания '{$Items.LegendaryShield.DisplayName}' (Другой)
 #            '''
 #    }
 #
@@ -9550,9 +9558,9 @@
 #        DisplayName: Эссенция проклятий
 #        Tooltip:
 #            '''
-#            Obtained after defeating ???
-#            A gift from your Starfarer
-#            Utilized in the creation of 'String of Curses' (Ranged)
+#            Можно получить в качестве награды за победу над ???
+#            Подарок вашей Астры
+#            Используется для создания '{$Items.StringOfCurses.DisplayName}' (Стрелковый)
 #            '''
 #    }
 #
@@ -9584,9 +9592,9 @@
 #        DisplayName: Эссенция сингулярности
 #        Tooltip:
 #            '''
-#            Obtained after defeating The Warrior Of Light
-#            A gift from your Starfarer
-#            Utilized in the creation of 'Cloak of An Arbiter' (Magic)
+#            Можно получить в качестве награды за победу над Воином света
+#            Подарок вашей Астры
+#            Используется для создания '{$Items.CloakOfAnArbiter.DisplayName}' (Магический)
 #            '''
 #    }
 #
@@ -9637,18 +9645,18 @@
 #    }
 #
 #    StrangeScrap: {
-#        DisplayName: Strange Scrap
+#        DisplayName: Загадочный металлолом
 #        Tooltip:
 #            '''
 #            [c/D294FF:Воспоминание оружия]
-#            Weapon value is reset to 0 when equipped
-#            Defeating foes increases this weapon's value by 1 copper, up to 8 platinum
-#            'A great asset to the Company'
+#            Сбрасывает стоимость этого оружия до 0
+#            Победа над врагами увеличивает стоимость этого оружия на 1 медную монету, вплоть до 8 платиных монет
+#            'Незаменимый актив для любой компании'
 #            '''
 #        TooltipAttached:
 #            '''
-#            Weapon value is reset to 0 when equipped
-#            Defeating foes increases this weapon's value by 1 copper, up to 8 platinum
+#            Сбрасывает стоимость этого оружия до 0
+#            Победа над врагами увеличивает стоимость этого оружия на 1 медную монету, вплоть до 8 платиных монет
 #            '''
 #    }
 #
@@ -9673,92 +9681,92 @@
 #    }
 #
 #    MiningPaintingItem: {
-#        DisplayName: Unorthodox Mining
-#        Tooltip: "'I just needed a little copper!'"
+#        DisplayName: Картина «Неортодоксальная добыча»
+#        Tooltip: "'Да мне всего-то немного меди надо было!'"
 #    }
 #
 #    DeepAsphalt: {
-#        DisplayName: Deep Asphalt
+#        DisplayName: Плотный асфальт
 #        Tooltip: ""
 #    }
 #
 #    NeonVeilPylonItem: {
-#        DisplayName: Neon Veil Pylon
+#        DisplayName: Пилон неоновой пелены
 #        Tooltip: ""
 #    }
 #
 #    Veilstone: {
-#        DisplayName: Veilstone
+#        DisplayName: Непроницаемый камень
 #        Tooltip: ""
 #    }
 #
 #    CubicMountedSignage: {
-#        DisplayName: Cubic Mounted Signage
+#        DisplayName: Кубическая настенная вывеска
 #        Tooltip: ""
 #    }
 #
 #    DeliciousSignage: {
-#        DisplayName: Delicious Signage
+#        DisplayName: Привлекательная вывеска
 #        Tooltip: ""
 #    }
 #
 #    DisusedSignage: {
-#        DisplayName: Disused Signage
+#        DisplayName: Неиспользуемая вывеска
 #        Tooltip: ""
 #    }
 #
 #    GenericMountedSignage: {
-#        DisplayName: Generic Mounted Signage
+#        DisplayName: Универсальная настенная вывеска
 #        Tooltip: ""
 #    }
 #
 #    GeometricSignage: {
-#        DisplayName: Geometric Signage
+#        DisplayName: Геометрическая вывеска
 #        Tooltip: ""
 #    }
 #
 #    HologramPlinthTree: {
-#        DisplayName: Hologram Plinth Tree
+#        DisplayName: Голографическое дерево на постаменте
 #        Tooltip: ""
 #    }
 #
 #    LockerAlternate: {
-#        DisplayName: Semi-Locked Locker
+#        DisplayName: Частично запертый шкафчик
 #        Tooltip: ""
 #    }
 #
 #    LockerDefault: {
-#        DisplayName: Locked Locker
+#        DisplayName: Запертый шкафчик
 #        Tooltip: ""
 #    }
 #
 #    PairedMountedSignage: {
-#        DisplayName: Paired Mounted Signage
+#        DisplayName: Парная настенная вывеска
 #        Tooltip: ""
 #    }
 #
 #    ParabolicSignage: {
-#        DisplayName: Parabolic Signage
+#        DisplayName: Параболическая вывеска
 #        Tooltip: ""
 #    }
 #
 #    TrashDefault: {
-#        DisplayName: Carefully Assorted Trash
+#        DisplayName: Тщательно отсортированный мусор
 #        Tooltip: ""
 #    }
 #
 #    VendingStation: {
-#        DisplayName: Vending Station
+#        DisplayName: Торговая станция
 #        Tooltip: ""
 #    }
 #
 #    VendorStation: {
-#        DisplayName: Vendor Station
+#        DisplayName: Торговый автомат
 #        Tooltip: ""
 #    }
 #
 #    CloakOfAnArbiterCape: {
-#        DisplayName: Cloak Of An Arbiter Cape
+#        DisplayName: Плащ арбитра
 #        Tooltip: ""
 #    }
 #
@@ -9766,7 +9774,7 @@
 #        DisplayName: Paradise Lost
 #        Tooltip:
 #            '''
-#            [c/8AC1F1:This weapon has a unique damage type; inherits bonuses from all damage classes at 70% efficiency, but inherits 150% from critical strike chance modifiers]
+#            [c/8AC1F1:Это оружие имеет уникальный тип урона; наследует бонусы от всех классов урона с 70% эффективностью, а от модификаторов шанса критического удара 150%]
 #            Holding this weapon grants the buff [c/E2DEB5:Plague's Prophet] (You can not use this weapon to attack while under the effect of [c/E2DEB5:Plague's Prophet])
 #            Right click while under the effect of [c/E2DEB5:Plague's Prophet] to [c/F7D76A:Baptise] a town NPC or player for 10 minutes
 #            Press the Weapon Action Key while under the effect of [c/E2DEB5:Plague's Prophet] to ascend into [c/FFD23B:Paradise Lost]
@@ -9874,6 +9882,11 @@
 #            'It will agree with you'
 #            '''
 #    }
+#
+#    DreadmotherClaw: {
+#        DisplayName: Dreadmother Claw
+#        Tooltip: ""
+#    }
 #}
 #
 #UIElements: {
@@ -9891,7 +9904,7 @@
 #    }
 #
 #    Cosmoturgy: {
-#        NoMemoriesInWeapon: There are no Memories Imprinted in this weapon
+#        NoMemoriesInWeapon: В это оружие не инкрустировано воспоминания
 #        InsertWeapon: Поместите Аспектное оружие в Станцию космотургии, чтобы начать процесс.
 #        InsertWeaponHover: Поместите Аспектное оружие в этот слот, чтобы инкрустировать воспоминания и получить бонусные эффекты.
 #        CurrentWeapon: Вы сейчас модифицируете оружие [c/4A91FF:{0}].
@@ -10125,17 +10138,17 @@
 #
 #    BubbaPetBuff: {
 #        DisplayName: Detective Dog
-#        Description: A smart dog is following you
+#        Description: За вами следует умная собака
 #    }
 #
 #    Burnout: {
 #        DisplayName: Burnout
-#        Description: Stats are halved
+#        Description: Характеристики снижены вдвое
 #    }
 #
 #    ButchersDozen: {
-#        DisplayName: Butcher's Dozen
-#        Description: Attack damage and swing speed has been increased
+#        DisplayName: Мясницкая дюжина
+#        Description: Урон и скорость атаки увеличены
 #    }
 #
 #    ButterflyTrance: {
@@ -10314,8 +10327,8 @@
 #    }
 #
 #    Ebb: {
-#        DisplayName: Ebb
-#        Description: The rift between worlds robs you of all mana
+#        DisplayName: Отлив
+#        Description: Межмировой разлом поглощает всю вашу ману
 #    }
 #
 #    EreshkigalPetBuff: {
@@ -10403,8 +10416,8 @@
 #    }
 #
 #    Flow: {
-#        DisplayName: Flow
-#        Description: The rift between worlds grants infinite mana, 40% increased damage, and 20% faster attack speed
+#        DisplayName: Прилив
+#        Description: Межмировой разлом даёт бесконечную ману, увеличивает урон на 40%, а скорость атаки - на 20%
 #    }
 #
 #    ForceOfNatureReloadBuff: {
@@ -10548,8 +10561,8 @@
 #    }
 #
 #    InnerAlchemy: {
-#        DisplayName: Inner Alchemy
-#        Description: Inner balance has been found, granting 10% increased damage, 25 defense, knockback resistance, and Health Regeneration
+#        DisplayName: Внутренняя алхимия
+#        Description: Внутреннее равновесие достигнуто; урон увеличен на 10%, защита на 25, увеличена регенерация здоровья и невосприимчивость к отбрасыванию
 #    }
 #
 #    Invincibility: {
@@ -10558,18 +10571,18 @@
 #    }
 #
 #    Invisibility: {
-#        DisplayName: Invisible
-#        Description: Can't see this
+#        DisplayName: Невидимость
+#        Description: И не увидать
 #    }
 #
 #    IrysBuff: {
-#        DisplayName: Fae Nephilim
-#        Description: Corporeal form has changed
+#        DisplayName: Фея-нефилим
+#        Description: Телесная форма изменилась
 #    }
 #
 #    IrysGaze: {
-#        DisplayName: Irys Gaze
-#        Description: Can be crit by minions
+#        DisplayName: Взгляд Айрис
+#        Description: Может получить критический удар от миньонов
 #    }
 #
 #    JumpCooldown: {
@@ -10578,13 +10591,13 @@
 #    }
 #
 #    KasumiPetBuff: {
-#        DisplayName: Starry-Eyed Idol
-#        Description: A starry-eyed idol is following you
+#        DisplayName: Айдол со звёздными глазами
+#        Description: За вами следует айдол со звёздными глазами
 #    }
 #
 #    KeyOfChronologyCooldown: {
-#        DisplayName: Key of Chronology Cooldown
-#        Description: Key of Chronology не сработает, пока активен этот дебафф
+#        DisplayName: Перезарядка ключа хронологии
+#        Description: Ключ хронологии не сработает, пока активен этот дебафф
 #    }
 #
 #    AmaterasuGrace: {
@@ -10893,8 +10906,8 @@
 #    }
 #
 #    PyraPetBuff: {
-#        DisplayName: Aegis
-#        Description: Keep this up, and we'll win for sure!
+#        DisplayName: Эгида
+#        Description: Продолжай в том же духе, и мы обязательно победим!
 #    }
 #
 #    Pyretic: {
@@ -11118,13 +11131,13 @@
 #    }
 #
 #    StarshieldBuff: {
-#        DisplayName: Starshield
-#        Description: A stellar barrier protects you, granting 10% of Max HP as defense as well as 20% increased damage
+#        DisplayName: Звёздный щит
+#        Description: Вас защищает звёздный барьер, увеличивая защиту на 10% от максимального запаса здоровья, а также наносимый урон на 20%
 #    }
 #
 #    StarshieldCooldown: {
-#        DisplayName: Starshield Cooldown
-#        Description: Starshield не сработает, пока активен этот дебафф
+#        DisplayName: Перезарядка звёздного щита
+#        Description: Звёздный щит не сработает, пока активен этот дебафф
 #    }
 #
 #    StellarListener: {
@@ -11168,19 +11181,17 @@
 #    }
 #
 #    BleachedWorldTurmoil: {
-#        DisplayName: "[c/EFB43E:Environmental Turmoil]"
+#        DisplayName: "[c/EFB43E:Окружающий бедлам]"
 #        Description:
 #            '''
 #            Exploring a planet bleached clean of ambient energy
-#
 #            Natural life regeneration is disabled
 #            Below 100 HP, you become Slowed
-#
 #            '''
 #    }
 #
 #    CityTurmoil: {
-#        DisplayName: "[c/EFB43E:Environmental Turmoil]"
+#        DisplayName: "[c/EFB43E:Окружающий бедлам]"
 #        Description:
 #            '''
 #            Exploring a bustling futuristic cityscape
@@ -11192,7 +11203,7 @@
 #    }
 #
 #    DeadPlanetTurmoil: {
-#        DisplayName: "[c/EFB43E:Environmental Turmoil]"
+#        DisplayName: "[c/EFB43E:Окружающий бедлам]"
 #        Description:
 #            '''
 #            Exploring a planet long lost
@@ -11204,7 +11215,7 @@
 #    }
 #
 #    DefaultTurmoil: {
-#        DisplayName: "[c/EFB43E:Environmental Turmoil]"
+#        DisplayName: "[c/EFB43E:Окружающий бедлам]"
 #        Description:
 #            '''
 #            Exploring ruins adrift in the great unknown
@@ -11215,7 +11226,7 @@
 #    }
 #
 #    MoonTurmoil: {
-#        DisplayName: "[c/EFB43E:Environmental Turmoil]"
+#        DisplayName: "[c/EFB43E:Окружающий бедлам]"
 #        Description:
 #            '''
 #            Temporarily transposed to an orbiting celestial body
@@ -11227,21 +11238,21 @@
 #    }
 #
 #    ObservatoryTurmoil: {
-#        DisplayName: "[c/EFB43E:Environmental Turmoil]"
+#        DisplayName: "[c/EFB43E:Окружающий бедлам]"
 #        Description:
 #            '''
-#            Exploring a structure of great import to the Starfarers
-#            Aspected Weapons deal double damage
+#            Исследуя строение, имеющее огромное значение для Астр:
+#            Аспектное оружие наносит двойной урон
 #            '''
 #    }
 #
 #    RuinedSpaceshipTurmoil: {
-#        DisplayName: "[c/EFB43E:Environmental Turmoil]"
+#        DisplayName: "[c/EFB43E:Окружающий бедлам]"
 #        Description:
 #            '''
-#            Exploring derelict, unknown ruins
-#            Defense is reduced by 50
-#            Mana regeneration is drastically increased
+#            Исследуя заброшенные, неизвестные руины:
+#            Защита снижена на 50
+#            Восстановление маны значительно ускорено
 #            '''
 #    }
 #
@@ -11906,17 +11917,17 @@
 #    }
 #
 #    StellarFocusOverlimit: {
-#        DisplayName: "[c/FF0046:Stellaglyph Overlimit]"
+#        DisplayName: "[c/FF0046:Перегрузка Космографа]"
 #        Description:
 #            '''
-#            Stellar Foci buffs will not apply, as there are too many Stellar Foci nearby the Stellaglyph
-#            Upgrade the Stellaglyph to support more Stellar Foci
+#            Баффы от звёздных светил не будут применяться, так как вблизи Космографа находится слишком много звёздных светил
+#            Улучшите Космограф, чтобы он мог поддерживать больше звёздных светил
 #            '''
 #    }
 #
 #    SubworldLootCooldown: {
-#        DisplayName: Subworld Loot Cooldown
-#        Description: Subworld Loot can not be claimed until this buff expires.
+#        DisplayName: Перезарядка добычи в подмирах
+#        Description: Добыча в подмирах недоступна, пока активен этот дебафф
 #    }
 #
 #    YojimboBuff: {
@@ -12141,7 +12152,7 @@
 #    }
 #
 #    GossamerAOECooldown: {
-#        DisplayName: Gossamer Storm Cooldown
+#        DisplayName: Перезарядка Шёлкового шторма
 #        Description: ""
 #    }
 #
@@ -12738,7 +12749,7 @@
 #        TownNPCDialogueName: the Bleached World Biome
 #    }
 #
-#    CityBiome.DisplayName: City
+#    CityBiome.DisplayName: Город
 #
 #    MoonBiome: {
 #        DisplayName: Луна
@@ -12751,18 +12762,18 @@
 #    }
 #
 #    SeaOfStarsBiome: {
-#        DisplayName: The Sea of Stars
-#        TownNPCDialogueName: the Sea Of Stars Biome
+#        DisplayName: Море звёзд
+#        TownNPCDialogueName: Море звёзд
 #    }
 #
 #    AstarteDriverBiome: {
-#        DisplayName: Deep Space
-#        TownNPCDialogueName: the Astarte Driver Biome
+#        DisplayName: Глубокий космос
+#        TownNPCDialogueName: Форсаж Астарты
 #    }
 #
 #    CorvusBiome: {
-#        DisplayName: Corvus
-#        TownNPCDialogueName: the Corvus Biome
+#        DisplayName: Корвус
+#        TownNPCDialogueName: Корвус
 #    }
 #
 #    FriendlySpaceBiome: {
@@ -12771,8 +12782,8 @@
 #    }
 #
 #    LyraBiome: {
-#        DisplayName: Lyra
-#        TownNPCDialogueName: the Lyra Biome
+#        DisplayName: Лира
+#        TownNPCDialogueName: Лира
 #    }
 #
 #    DreamingCityBiome: {
@@ -12939,7 +12950,7 @@
 #
 #        DisableTypePenalty: {
 #            Label: Отключить штраф к урону при смене аспектного типа
-#            Tooltip: При включении этой настройки убирается 10% штраф к урону при смене аспектного типа. Следует учитывать, что некоторые другие эффекты, также отменяющие этот штраф, могут стать слишком сильными.
+#            Tooltip: При включении этой настройки убирается 10% штраф к урону при смене аспектного типа урона. Следует учитывать, что некоторые другие эффекты, также отменяющие этот штраф, могут стать слишком сильными.
 #        }
 #
 #        DisableBossAggro: {
@@ -12979,7 +12990,7 @@
 #
 #        CombatTimer: {
 #            Label: Таймер боя
-#            Tooltip: Когда вы атакуете врага или вас атакуют, этот таймер отображает, сколько секунд вы находитесь 'в бою'.
+#            Tooltip: Когда вы атакуете врага или атакуют вас, этот таймер отображает, сколько секунд вы находитесь 'в бою'.
 #        }
 #    }
 #}

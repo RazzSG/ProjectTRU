@@ -1922,6 +1922,7 @@ UI: {
     NotExpertWarning: "[c/ff00000:ИНФЕРНУМ МОЖНО ВКЛЮЧИТЬ ТОЛЬКО В РЕЖИМЕ ЭКСПЕРТА]"
     AchievementsHeader: Предсмертные желания
     AchievementsLabelText: Следующий
+    InfernumIconText: Сложность Инфернум включена
     WishesHeader: Желания разработчиков
     WishesHoverTextButton: Открыть предсмертные желания
 
