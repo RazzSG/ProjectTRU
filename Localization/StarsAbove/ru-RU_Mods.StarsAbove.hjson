@@ -9875,23 +9875,23 @@
 #    }
 #
 #    DreadmotherClaw: {
-#        DisplayName: Dreadmother Claw
+#        DisplayName: Зловещая мать-коготь
 #        Tooltip: ""
 #    }
 #}
 #
 #UIElements: {
 #    BlackSilence: {
-#        Durandal: Durandal
-#        Zelkova: Zelkova
-#        Ranga: Ranga
-#        OldBoys: Old Boys
-#        Allas: Allas
-#        Mook: Mook
-#        AtelierLogic: Atelier Logic
-#        CrystalAtelier: Crystal Atelier
-#        WheelsIndustry: Wheels Industry
-#        FuriosoReady: Furioso is ready!
+#        Durandal: Дюрандаль
+#        Zelkova: "Мастерская\nДзельквы"
+#        Ranga: "Мастерская\nРанга"
+#        OldBoys: "Мастерская\nСтарых\nПриятелей"
+#        Allas: "Мастерская\nАллас"
+#        Mook: "Мастерская\nНоутумука"
+#        AtelierLogic: "Ателье\nЛогики"
+#        CrystalAtelier: "Ателье\nКристалла"
+#        WheelsIndustry: "Фабрика\nКолёс"
+#        FuriosoReady: Неистовство готово!
 #    }
 #
 #    Cosmoturgy: {
@@ -10223,7 +10223,7 @@
 #    }
 #
 #    ComboCooldown: {
-#        DisplayName: Combo Cooldown
+#        DisplayName: Перезарядка комбо
 #        Description: ""
 #    }
 #
@@ -11528,68 +11528,68 @@
 #    }
 #
 #    Alacrity: {
-#        DisplayName: Alacrity
-#        Description: Attack speed and movement speed are increased
+#        DisplayName: Расторопность
+#        Description: Скорость атаки и передвижения увеличены
 #    }
 #
 #    AllasBuff: {
-#        DisplayName: Black Silence: Allas
-#        Description: Gain 30% increased Movement Speed
+#        DisplayName: Чёрная тишина: Мастерская Аллас
+#        Description: Скорость передвижения увеличена на 30%
 #    }
 #
 #    AtelierLogicBuff: {
-#        DisplayName: Black Silence: Atelier Logic
-#        Description: Gain 20% increased Armor Penetration
+#        DisplayName: Чёрная тишина: Ателье логики
+#        Description: Пробивание брони увеличено на 20%
 #    }
 #
 #    BlackSilenceAttackCooldown: {
-#        DisplayName: Attack Cooldown
-#        Description: Ability is on cooldown
+#        DisplayName: Перезарядка атаки
+#        Description: Способность перезаряжается
 #    }
 #
 #    BlackSilenceChoiceCooldown: {
-#        DisplayName: Black Silence Choice Cooldown
-#        Description: Choosing to swap Black Silence weapons will fail to activate if this debuff is present
+#        DisplayName: Перезарядка смены оружия чёрной тишины
+#        Description: Смена оружия чёрной тишины не сработает, пока активен этот дебафф
 #    }
 #
 #    CrystalAtelierBuff: {
-#        DisplayName: Black Silence: Crystal Atelier
-#        Description: Reflect 80% of damage taken
+#        DisplayName: Чёрная тишина: Ателье кристалла
+#        Description: Отражает 80% полученного урона
 #    }
 #
 #    DurandalBuff: {
-#        DisplayName: Black Silence: Durandal
-#        Description: Critical strikes deal 50% increased damage to foes below 50% HP
+#        DisplayName: Чёрная тишина: Дюрандаль
+#        Description: Критические удары наносят на 50% больше урона врагам, у которых меньше 50% здоровья
 #    }
 #
 #    FuriosoBuff: {
-#        DisplayName: The Black Silence
-#        Description: Mastery of armaments, speed, and skill has granted a myriad of buffs while cycling through weapons of the Black Silence
+#        DisplayName: Чёрная тишина
+#        Description: Совершенное владение оружием, скорость и мастерство открывают доступ к множеству баффов при смене оружия из арсенала чёрной тишины
 #    }
 #
 #    MookBuff: {
-#        DisplayName: Black Silence: Mook
-#        Description: Inflict Bleed for 4 seconds on hit
+#        DisplayName: Чёрная тишина: Мастерская Ноутумука
+#        Description: Накладывает дебафф «{$BuffName.Bleeding}» на 4 секунды при ударе
 #    }
 #
 #    OldBoysBuff: {
-#        DisplayName: Black Silence: Old Boys
-#        Description: Gain 20 defense
+#        DisplayName: Чёрная тишина: Мастерская старых приятелей
+#        Description: Защита увеличена на 20
 #    }
 #
 #    RangaBuff: {
-#        DisplayName: Black Silence: Ranga
-#        Description: Deal 30% increased critical strike damage
+#        DisplayName: Чёрная тишина: Мастерская Ранга
+#        Description: Урон от критического удара увеличен на 30%
 #    }
 #
 #    WheelsIndustryBuff: {
-#        DisplayName: Black Silence: Wheels Industry
-#        Description: Deal 10% increased damage
+#        DisplayName: Чёрная тишина: Фабрика колёс
+#        Description: Урон увеличен на 10%
 #    }
 #
 #    ZelkovaBuff: {
-#        DisplayName: Black Silence: Zelkova
-#        Description: Deal 30% increased damage to foes below 50% HP
+#        DisplayName: Чёрная тишина: Мастерская Дзельквы
+#        Description: Наносит на 30% больше урона врагам, у которых меньше 50% здоровья
 #    }
 #
 #    MonarchPresence: {
