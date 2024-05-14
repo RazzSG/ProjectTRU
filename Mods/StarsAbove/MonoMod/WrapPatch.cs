@@ -24,11 +24,16 @@
 //         // Stellar Array
 //         if (limit == 60)
 //             limit = 70;
-//         
-//         // // Stellar Nova
-//         // if (limit == 71)
-//         //     limit = 73;
-//         
+//         // Nova Dialogue
+//         if (limit == 17)
+//             limit = 20;
+//         // Cosmoturgy
+//         if (limit == 37)
+//             limit = 36;
+//         // Celestial Compass
+//         if (limit == 34)
+//             limit = 35;
+//
 //         return orig.Invoke(text, limit);
 //     }
 // }

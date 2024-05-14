@@ -6,7 +6,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CalamityMod">
-      <HintPath>..\ModAssemblies\CalamityMod_v2.0.3.8.dll</HintPath>
+      <HintPath>..\ModAssemblies\CalamityMod_v2.0.4.1.dll</HintPath>
     </Reference>
     <Reference Include="Fargowiltas">
       <HintPath>..\ModAssemblies\Fargowiltas_v3.3.2.dll</HintPath>

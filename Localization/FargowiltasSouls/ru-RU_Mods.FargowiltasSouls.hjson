@@ -66,6 +66,20 @@
     Wood: Увеличивает множитель заполнения записей в бестиарии и получение знамён до 5
     AshWood: Снижает перезарядку огненных шаров
     NoUpgrade: Отсутствует улучшение
+    Umbraphile: Bats do more damage and travel faster
+    Plaguebringer:
+    	'''
+    	Debuffs spread from farther 
+    	Enemies are tagged to spread debuffs for longer
+    	'''
+    Reaver: More drastic stat changes
+    SnowRuffian: Grants some flight time
+    Daedalus: Grants wings if you don't have any, Can fly higher
+    Hydrothermic: Longer overheat charge, more attack speed increase
+    Wulfrum: The drone is faster and occasionally finds bonus items
+    DesertProwler: Stronger jumps
+    Marnite: Stronger daggers, +15% placement speed and +5 placement range
+    Aerospec: Total of 5 jumps, jumping grants more crit
 }
 
 SetBonus: {
@@ -311,7 +325,7 @@ Toggler: {
     TimsConcoctionEffect: Смесь Тима
     MasoCarrotEffect: Морковное отдаление
     RainbowSlimeMinion: Миньон «Радужный слизень»
-    RainbowHealEffect: Автоиспользование зелий лечения
+    RainbowHealEffect: Автоиспользование лечебных зелий
     NymphPerfumeEffect: Атаки создают сердца
     SqueakEffect: Игрушка-пищалка при ранении
     WretchedPouchEffect: Укрепление проклятых чар
@@ -536,7 +550,7 @@ EModeBalance: {
     CrossNecklaceNerf: Длительная неуязвимость не срабатывает при быстром получении последовательных ударов
     IceBladeFrostburn: Снаряды накладывают дебафф «{$BuffName.Frostburn2}» при попадании
     JungleRose: Увеличивает шанс выпадения плода Плантеры с врагов-хватателей
-    StarCloak: Снижает урон звёзд на 50% перед хардмодом
+    StarCloak: Снижает урон звёзд на 33% перед хардмодом
     WeatherPain: Увеличенная частота попаданий и пронзание
     HoundiusShootius: Увеличенная скорость огненных шаров
 }
@@ -1562,7 +1576,7 @@ Items: {
         DisplayName: Усиление охотницы
         Tooltip:
             '''
-            Снаряды игнорируют 6 единиц защиты врага и наносят дополнительно 3 единицы фиксированного урона
+            Снаряды игнорируют 6 ед. защиты врага и наносят дополнительно 3 единицы фиксированного урона
             Каждый последующий снаряд игнорирует на 6 единиц больше защиты и наносит на 3 единицы больше урона
             Эффект складывается до 10 раз
             Этот бонус не распространяется на самонаводящиеся снаряды и атаки миньонов
@@ -1782,7 +1796,7 @@ Items: {
         DisplayName: Усиление Красной Шапочки
         Tooltip:
             '''
-            Атаки игнорируют 10 защиты врага и наносят дополнительно 5 единиц фиксированного урона
+            Атаки игнорируют 10 ед. защиты врага и наносят дополнительно 5 единиц фиксированного урона
             Каждая последующая атака игнорирует на 10 единиц больше защиты и наносит на 5 единиц больше урона
             При достижении 10 стаков создаётся дождь из стрел
             По умолчанию используется ядовитый тип стрелы или тот, который находится первым в инвентаре
@@ -4032,7 +4046,7 @@ Items: {
             '''
             Нажмите <right>, чтобы создать тайфун
             Тайфун стреляет акулами во время атаки
-            Акулы игнорируют 20 единиц защиты врага
+            Акулы игнорируют 20 ед. защиты врага
             'Труп побеждённого врага, насаженный на палку...'
             '''
     }
@@ -4703,6 +4717,20 @@ Items: {
     CoffinRoominator: {
         DisplayName: Грободробитель
         Tooltip: ""
+    }
+    
+    GildedSceptre: {
+    	DisplayName: Царский скипетр
+    	Tooltip: 
+            '''
+            Начертите круг, чтобы активировать снаряды
+            Активированные снаряды будут преследовать ближайшего врага
+            '''
+    }
+    
+    AccursedAnkh: {
+    	DisplayName: Проклятый анх
+    	Tooltip: Держа в руках, увеличивает регенерацию здоровья и снимает дебаффы, но снижает защиту на 10
     }
 }
 

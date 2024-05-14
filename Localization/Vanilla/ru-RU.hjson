@@ -2587,7 +2587,7 @@
         AmberHook: Янтарный крюк
         AmberMinecart: Янтарная вагонетка
         AmberMosquito: Комар в янтаре
-        AmberRobe: Янтарное одеяние
+        AmberRobe: Янтарная мантия
         AmberSquirrelCage: Террариум с янтарной белкой
         AmberStaff: Янтарный посох
         AmberStoneBlock: Янтарный камень
@@ -2602,7 +2602,7 @@
         AmethystGemsparkWallOff: Неактивная искристая аметистовая стена
         AmethystHook: Аметистовый крюк
         AmethystMinecart: Аметистовая вагонетка
-        AmethystRobe: Аметистовое одеяние
+        AmethystRobe: Аметистовая мантия
         AmethystSquirrelCage: Террариум с аметистовой белкой
         AmethystStaff: Аметистовый посох
         AmethystStoneBlock: Аметистовый камень
@@ -3494,11 +3494,11 @@
         CorruptGoldfishBanner: Знамя искажённой золотой рыбки
         CorruptGrassEcho: Стена из искажённой травы
         CorruptHardenedSand: Затвердевший эбонитовый песок
-        CorruptHardenedSandWall: Стена из затвердевшего чёрного песка
+        CorruptHardenedSandWall: Стена из затвердевшего эбонитового песка
         CorruptPenguinBanner: Знамя искажённого пингвина
         CorruptPlanterBox: Кадка для смертоцвета
         CorruptSandstone: Эбонитовый песчаник
-        CorruptSandstoneWall: Чёрная песчаниковая стена
+        CorruptSandstoneWall: Эбонитовая песчаниковая стена
         CorruptSeeds: Семена искажения
         CorruptSlimeBanner: Знамя искажённого слизня
         CorruptStatue: Статуя искажения
@@ -11334,7 +11334,7 @@
         RecallPotion: Телепортирует вас домой
         ReconScope:
             '''
-            Увеличивает дальность обзора для огнестрельного оружия (<right>, чтобы отдалить)
+            Увеличивает дальность обзора для огнестрельного оружия (нажмите <right>, чтобы отдалить)
             Увеличивает стрелковый урон и шанс критического удара на 10%
             Враги реже выбирают вас в качестве цели
             'Противник обнаружен'
@@ -11779,7 +11779,7 @@
             '''
         SniperScope:
             '''
-            Увеличивает дальность обзора для огнестрельного оружия (<right>, чтобы отдалить)
+            Увеличивает дальность обзора для огнестрельного оружия (нажмите <right>, чтобы отдалить)
             Увеличивает стрелковый урон и шанс критического удара на 10%
             '''
         SnowBallaBanner: "{$CommonItemTooltip.BannerBonus}{$NPCName.SnowBalla}"

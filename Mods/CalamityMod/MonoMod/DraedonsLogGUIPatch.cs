@@ -7,7 +7,7 @@ using MonoMod.Cil;
 
 namespace CalamityRuTranslate.Mods.CalamityMod.MonoMod;
 
-public class DraedonsLogGUIPatch: ILPatcher
+public class DraedonsLogGUIPatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.Calamity != null && TranslationHelper.IsRussianLanguage;
         

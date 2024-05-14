@@ -12,14 +12,16 @@
 //     {
 //         if (StarsAbovePlayer.novaUIActive)
 //         {
-//             if (StarsAbovePlayer.chosenStellarNova != 4)
-//             {
-//                 StarsAbovePlayer.baseStats = $"Базовый урон: {StarsAbovePlayer.novaDamage}\nБазовый расход\nэнергии: {StarsAbovePlayer.novaGaugeMax}\n\nУрон: {Math.Round(StarsAbovePlayer.novaDamage * (1 + StarsAbovePlayer.novaDamageMod), 5)}\nШанс крит. удара: {StarsAbovePlayer.novaCritChance + StarsAbovePlayer.novaCritChanceMod}%\nКрит. урон: {Math.Round(StarsAbovePlayer.novaCritDamage * (1 + StarsAbovePlayer.novaCritDamageMod), 5)}\nРасход энергии: {StarsAbovePlayer.novaGaugeMax - StarsAbovePlayer.novaChargeMod}";
-//             }
-//             else
-//             {
-//                 StarsAbovePlayer.baseStats = $"Базовая сила леч.: {StarsAbovePlayer.novaDamage}\nБазовый расход\nэнергии: {StarsAbovePlayer.novaGaugeMax}\n\nСила лечения: {Math.Round(StarsAbovePlayer.novaDamage * (1 + StarsAbovePlayer.novaDamageMod), 5)}\nШанс крит. удара: {StarsAbovePlayer.novaCritChance + StarsAbovePlayer.novaCritChanceMod}%\nСила крит. леч.: {Math.Round(StarsAbovePlayer.novaCritDamage * (1 + StarsAbovePlayer.novaCritDamageMod), 5)}\nРасход энергии: {StarsAbovePlayer.novaGaugeMax - StarsAbovePlayer.novaChargeMod}";
-//             }
+//             string baseStatsFormat = "{0}: {1}\nБазовый расход энергии: {2}\n\n\n\n{0}: {3}\nШанс крит. удара: {4}%\n{5}: {6}\nРасход энергии: {7}";
+//             string statType = StarsAbovePlayer.chosenStellarNova != 4 ? "Базовый урон" : "Базовая сила лечения";
+//             string critType = StarsAbovePlayer.chosenStellarNova != 4 ? "Критический урон" : "Сила крит. лечения";
+//
+//             double finalDamage = Math.Round(StarsAbovePlayer.novaDamage * (1 + StarsAbovePlayer.novaDamageMod), 5);
+//             int finalCritChance = StarsAbovePlayer.novaCritChance + StarsAbovePlayer.novaCritChanceMod;
+//             double finalCritDamage = Math.Round(StarsAbovePlayer.novaCritDamage * (1 + StarsAbovePlayer.novaCritDamageMod), 5);
+//             int energyCost = StarsAbovePlayer.novaGaugeMax - StarsAbovePlayer.novaChargeMod;
+//
+//             StarsAbovePlayer.baseStats = string.Format(baseStatsFormat, statType, StarsAbovePlayer.novaDamage, StarsAbovePlayer.novaGaugeMax, finalDamage, finalCritChance, critType, finalCritDamage, energyCost);
 //         }
 //     }
 // }

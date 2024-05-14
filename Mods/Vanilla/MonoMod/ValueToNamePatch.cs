@@ -11,7 +11,7 @@ public class ValueToNameLong : OnPatcher
 {
     public override bool AutoLoad => true;
     
-    public override MethodInfo ModifiedMethod => typeof(PopupText).GetMethod("ValueToName", BindingFlags.Public | BindingFlags.Static, new []{typeof(long)});
+    public override MethodInfo ModifiedMethod => typeof(PopupText).GetMethod("ValueToName", BindingFlags.Public | BindingFlags.Static, [typeof(long)]);
     
     private delegate string ValueToNameDelegate(long coinValue);
 

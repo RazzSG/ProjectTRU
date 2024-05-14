@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using CalamityMod;
 using CalamityMod.Items.SummonItems;
+using CalamityMod.Items.Weapons.Summon;
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
 using Microsoft.Xna.Framework;
@@ -15,14 +16,6 @@ public partial class CalamityModGlobalItem : GlobalItem
     public override bool IsLoadingEnabled(Mod mod)
     {
         return ModInstances.Calamity != null && TranslationHelper.IsRussianLanguage;
-    }
-
-    public override void SetDefaults(Item item)
-    {
-        if (item.ModItem?.Mod == ModInstances.Calamity)
-        {
-            //item.ClearNameOverride();
-        }
     }
     
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
@@ -39,6 +32,15 @@ public partial class CalamityModGlobalItem : GlobalItem
                 tooltips.ReplaceText("Астральная пустыня", "Астральной пустыне");
             });
         }
+
+        if (item.type == ModContent.ItemType<LiliesOfFinality>())
+        {
+            ItemHelper.TranslateTooltip(tooltips, "Damage", _ =>
+            {
+                tooltips.ReplaceText("summon damage", "ед. урона призывателя");
+            });
+        }
+        
         global::CalamityMod.Items.CalamityGlobalItem calamityGlobalItem = item.GetGlobalItem<global::CalamityMod.Items.CalamityGlobalItem>();
         
         if (calamityGlobalItem.canFirePointBlankShots)

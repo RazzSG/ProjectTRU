@@ -147,8 +147,6 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             ArmorSetBonuses[ItemID.MythrilHelmet] = $"{Language.GetTextValue("ArmorSetBonus.MythrilMelee")}\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Mythril", 12)}";
             ArmorSetBonuses[ItemID.MythrilHood] = $"{Language.GetTextValue("ArmorSetBonus.MythrilCaster")}\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Mythril", 12)}";
             ArmorSetBonuses[ItemID.MythrilHat] = $"{Language.GetTextValue("ArmorSetBonus.MythrilRanged")}\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Mythril", 12)}";
-            ArmorSetBonuses[ItemID.ShadowHelmet] = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Shadow");
-            ArmorSetBonuses[ItemID.AncientShadowHelmet] = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Shadow");
             ArmorSetBonuses[ItemID.EskimoHood] = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Eskimo");
             ArmorSetBonuses[ItemID.PinkEskimoHood] = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Eskimo");
             ArmorSetBonuses[ItemID.ChlorophyteHeadgear] = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Chlorophyte", 5, 300, 10, 4.5);
@@ -168,7 +166,7 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             ArmorSetBonuses[ItemID.GoldHelmet] = $"{Language.GetTextValue("ArmorSetBonus.MetalTier2")}\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Gold")}";
             ArmorSetBonuses[ItemID.AncientGoldHelmet] = $"{Language.GetTextValue("ArmorSetBonus.MetalTier2")}\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Gold")}";
             ArmorSetBonuses[ItemID.PlatinumHelmet] = $"{Language.GetTextValue("ArmorSetBonus.Platinum")}\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Platinum")}";
-            ArmorSetBonuses[ItemID.MoltenHelmet] = $"{Language.GetTextValue("ArmorSetBonus.Molten")}\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Molten")}";
+            ArmorSetBonuses[ItemID.MoltenHelmet] = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Molten");
             ArmorSetBonuses[ItemID.MonkBrows] = $"{Language.GetTextValue("ArmorSetBonus.MonkTier2")}\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.MonkTier2")}";
             ArmorSetBonuses[ItemID.SquireGreatHelm] = $"{Language.GetTextValue("ArmorSetBonus.SquireTier2")}\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.SquireTier2")}";
             ArmorSetBonuses[ItemID.HuntressWig] = $"{Language.GetTextValue("ArmorSetBonus.HuntressTier2")}\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.HuntressTier2")}";
@@ -183,6 +181,8 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             ArmorSetBonuses[ItemID.NecroHelmet] = $"{Language.GetTextValue("ArmorSetBonus.Bone")}\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Necro", 7)}";
             ArmorSetBonuses[ItemID.FrostHelmet] = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Frost", 15);
             ArmorSetBonuses[ItemID.CrystalNinjaHelmet] = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.CrystalAssassin");
+            ArmorSetBonuses[ItemID.CrimsonHelmet] = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Crimson");
+            ArmorSetBonuses[ItemID.JungleHat] = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Jungle");
             ArmorSetBonuses[TranslationHelper.GetItemID("CalamityMod/AstralHelm")] = TranslationHelper.GetTextValue("CalamityMod/AstralHelm", "SetBonus");
             ArmorSetBonuses[TranslationHelper.GetItemID("CalamityMod/BrimflameScowl")] = TranslationHelper.GetTextValue("CalamityMod/BrimflameScowl", "SetBonus", "[Бонус комплекта брони]");
             ArmorSetBonuses[TranslationHelper.GetItemID("CalamityMod/DaedalusHeadMagic")] = TranslationHelper.GetTextValue("CalamityMod/DaedalusHeadMagic", "SetBonus");
@@ -192,7 +192,7 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             ArmorSetBonuses[TranslationHelper.GetItemID("CalamityMod/DaedalusHeadSummon")] = TranslationHelper.GetTextValue("CalamityMod/DaedalusHeadSummon", "SetBonus");
             ArmorSetBonuses[TranslationHelper.GetItemID("CalamityMod/FathomSwarmerVisage")] = TranslationHelper.GetTextValue("CalamityMod/FathomSwarmerVisage", "SetBonus");
             ArmorSetBonuses[TranslationHelper.GetItemID("CalamityMod/ForbiddenCirclet")] = TranslationHelper.GetTextValue("CalamityMod/ForbiddenCirclet", "SetBonus", "[Бонус комплекта брони]", "[X]");
-            ArmorSetBonuses[TranslationHelper.GetItemID("CalamityMod/LunicCorpsHelmet")] = TranslationHelper.GetTextValue("CalamityMod/LunicCorpsHelmet", "SetBonus");
+            ArmorSetBonuses[TranslationHelper.GetItemID("CalamityMod/LunicCorpsHelmet")] = TranslationHelper.GetTextValue("CalamityMod/LunicCorpsHelmet", "SetBonus", $"\n{TranslationHelper.GetTextValue("CalamityMod/LunicCorpsHelmet", "ShieldAdren")}");
             ArmorSetBonuses[TranslationHelper.GetItemID("CalamityMod/MolluskShellmet")] = TranslationHelper.GetTextValue("CalamityMod/MolluskShellmet", "SetBonus");
             ArmorSetBonuses[TranslationHelper.GetItemID("CalamityMod/PlaguebringerVisor")] = TranslationHelper.GetTextValue("CalamityMod/PlaguebringerVisor", "SetBonus");
             ArmorSetBonuses[TranslationHelper.GetItemID("CalamityMod/PlagueReaperMask")] = TranslationHelper.GetTextValue("CalamityMod/PlagueReaperMask", "SetBonus", "[Бонус комплекта брони]");

@@ -28,6 +28,8 @@ public class TownNpcNamesTranslation : GlobalNPC
             {"Jeffred", "Джеффред"},
             {"The Cooler Arthur", "Крутой Артур"},
             {"Markie", "Марки"},
+            {"Shark", "Шарк"},
+            {"Sagi", "Саги"},
         },
         [NPCID.Clothier] = new Dictionary<string, string>
         {
@@ -41,6 +43,7 @@ public class TownNpcNamesTranslation : GlobalNPC
         [NPCID.Demolitionist] = new Dictionary<string, string>
         {
             {"Tavish DeGroot", "Тавиш ДеГрут"},
+            {"Fimmy", "Фимми"},
         },
         [NPCID.Dryad] = new Dictionary<string, string>
         {
@@ -80,7 +83,7 @@ public class TownNpcNamesTranslation : GlobalNPC
             {"Alfred Rend", "Альфред Ренд"},
             {"Leeman", "Лиман"},
             {"Mihai", "Михай"},
-            {"Aka Retribution", "Ака Возмездие"},
+            {"Cooler Kevin", "Ледяной Кевин"},
         },
         [NPCID.Mechanic] = new Dictionary<string, string>
         {
@@ -88,6 +91,7 @@ public class TownNpcNamesTranslation : GlobalNPC
             {"Daawn", "Даан"},
             {"Robin", "Робин"},
             {"Curly", "Кудряшка"},
+            {"Cobalt", "Лазурка"},
         },
         [NPCID.Merchant] = new Dictionary<string, string>
         {
@@ -137,6 +141,7 @@ public class TownNpcNamesTranslation : GlobalNPC
         {
             {"Vorbis", "Ворбис"},
             {"Angel", "Энжел"},
+            {"Mòrag Ladair", "Мораг Лейдер"},
         },
         [NPCID.Stylist] = new Dictionary<string, string>
         {
@@ -189,6 +194,7 @@ public class TownNpcNamesTranslation : GlobalNPC
             {"Kiriku", "Кирику"},
             {"Lacuna", "Лакуна"},
             {"Mae Borowski", "Мэй Боровски"},
+            {"Fera", "Фира"},
         },
         [NPCID.TownDog] = new Dictionary<string, string>
         {
@@ -205,6 +211,7 @@ public class TownNpcNamesTranslation : GlobalNPC
             {"Katsafaros", "Катсафарос"},
             {"Bear", "Миша"},
             {"Felix", "Феликс"},
+            {"Tardo", "Тардо"},
             {"Lucerne", "Люцерн"},
             {"Milo", "Мило"},
             {"Octo", "Окто"},

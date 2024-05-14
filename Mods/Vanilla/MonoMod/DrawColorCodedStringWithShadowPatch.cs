@@ -1,4 +1,5 @@
-﻿using CalamityRuTranslate.Common.Utilities;
+﻿using CalamityRuTranslate.Common;
+using CalamityRuTranslate.Common.Utilities;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using ReLogic.Graphics;
@@ -26,6 +27,14 @@ public class DrawColorCodedStringWithShadowPatch : ILoadable
 
     private Vector2 DrawColorCodedStringWithShadowHook(On_ChatManager.orig_DrawColorCodedStringWithShadow_SpriteBatch_DynamicSpriteFont_string_Vector2_Color_float_Vector2_Vector2_float_float orig, SpriteBatch spritebatch, DynamicSpriteFont font, string text, Vector2 position, Color basecolor, float rotation, Vector2 origin, Vector2 basescale, float maxwidth, float spread)
     {
+        // if (ModInstances.Calamity != null)
+        // {
+        //     if (font == ModInstances.Calamity.Assets.Request<DynamicSpriteFont>("Fonts/CodebreakerDialog").Value)
+        //     {
+        //         font = CalamityRuTranslate.Instance.Assets.Request<DynamicSpriteFont>("Assets/Fonts/Mouse_Text").Value;
+        //     } 
+        // }
+        
         // Thorium
         if (text.Contains("Total:") && text.Contains("Thorium:"))
         {
@@ -86,6 +95,7 @@ public class DrawColorCodedStringWithShadowPatch : ILoadable
             "Next" => "Следующий",
             _ => text
         };
+        
         return orig.Invoke(spritebatch, font, text, position, basecolor, rotation, origin, basescale, maxwidth, spread);
     }
 }

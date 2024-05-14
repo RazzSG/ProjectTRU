@@ -13,12 +13,12 @@
 //     {
 //         { ModContent.NPCType<Astrologian>(),
 //             [
-//                 "Одетта", "Астеропа", "Майя", "Тайгета", "Целено", "Алкиона", "Меропа", "Электра", "Селена", "Сана",
-//                 "Тиферет", "Лунала"
+//                 "Одетта", "Астеропа", "Майя", "Тайгета", "Целено", "Алкиона",
+//                 "Меропа","Электра", "Селена", "Сана", "Тиферет", "Лунала"
 //             ]
 //         },
-//         { ModContent.NPCType<Garridine>(), ["Гарридина"]},
-//         { ModContent.NPCType<Yojimbo>(), ["Йодзимбо"]},
+//         { ModContent.NPCType<Garridine>(), ["Гарридина"] },
+//         { ModContent.NPCType<Yojimbo>(), ["Йодзимбо"] },
 //     };
 //     
 //     public override bool IsLoadingEnabled(Mod mod)

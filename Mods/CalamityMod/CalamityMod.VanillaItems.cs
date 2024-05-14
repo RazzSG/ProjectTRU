@@ -16,50 +16,29 @@ public partial class CalamityModGlobalItem
         {
             tooltip.Text = item.type switch
             {
-                ItemID.CobaltSword => tooltip.Text.Replace("Decreases enemy defense by 25% on hit", "Снижает защиту врага на 25% при ударе"),
-                ItemID.CobaltNaginata => tooltip.Text.Replace("Decreases enemy defense by 25% on hit", "Снижает защиту врага на 25% при ударе"),
+                ItemID.CobaltSword => tooltip.Text.Replace("Permanently decreases enemy defense by 25% on hit", "Постоянно снижает защиту врага на 25% при ударе"),
+                ItemID.CobaltNaginata => tooltip.Text.Replace("Permanently decreases enemy defense by 25% on hit", "Постоянно снижает защиту врага на 25% при ударе"),
                 ItemID.PalladiumSword => tooltip.Text.Replace("Increases natural life regen on hit", "Увеличивает естественную регенерацию здоровья при ударе"),
                 ItemID.PalladiumPike => tooltip.Text.Replace("Increases natural life regen on hit", "Увеличивает естественную регенерацию здоровья при ударе"),
-                ItemID.MythrilSword => tooltip.Text.Replace("Decreases enemy contact damage by 10% on hit", "Снижает контактный урон врага на 10% при ударе"),
-                ItemID.MythrilHalberd => tooltip.Text.Replace("Decreases enemy contact damage by 10% on hit", "Снижает контактный урон врага на 10% при ударе"),
+                ItemID.MythrilSword => tooltip.Text.Replace("Permanently decreases enemy contact damage by 10% on hit", "Постоянно снижает контактный урон врага на 10% при ударе"),
+                ItemID.MythrilHalberd => tooltip.Text.Replace("Permanently decreases enemy contact damage by 10% on hit", "Постоянно снижает контактный урон врага на 10% при ударе"),
                 ItemID.OrichalcumSword => tooltip.Text.Replace("Increases how frequently the Orichalcum set bonus triggers on hit", "При нанесении удара увеличивает частоту срабатывания бонуса орихалкового комплекта"),
                 ItemID.OrichalcumHalberd => tooltip.Text.Replace("Increases how frequently the Orichalcum set bonus triggers on hit", "При нанесении удара увеличивает частоту срабатывания бонуса орихалкового комплекта"),
-                ItemID.AdamantiteSword => tooltip.Text.Replace("Slows enemies on hit", "Замедляет врагов при ударе"),
                 ItemID.AdamantiteGlaive => tooltip.Text.Replace("Slows enemies on hit", "Замедляет врагов при ударе"),
-                ItemID.TitaniumSword => tooltip.Text.Replace("Deals increased damage to enemies with high knockback resistance", "Наносит увеличенный урон врагам с высоким сопротивлением к отбрасыванию"),
                 ItemID.TitaniumTrident => tooltip.Text.Replace("Deals increased damage to enemies with high knockback resistance", "Наносит увеличенный урон врагам с высоким сопротивлением к отбрасыванию"),
-                ItemID.Excalibur => tooltip.Text.Replace("Deals double damage to enemies above 75% life", "Наносит двойной урон врагам с уровнем здоровья выше 75%"),
-                ItemID.Gungnir => tooltip.Text.Replace("Deals double damage to enemies above 75% life", "Наносит двойной урон врагам с уровнем здоровья выше 75%"),
-                ItemID.TrueExcalibur => tooltip.Text.Replace("Deals double damage to enemies above 75% life", "Наносит двойной урон врагам с уровнем здоровья выше 75%"),
                 ItemID.CandyCaneSword => tooltip.Text.Replace("Heals you on hit", "Исцеляет при ударе"),
                 ItemID.FruitcakeChakram => tooltip.Text.Replace("Heals you on hit", "Исцеляет при ударе"),
                 ItemID.StylistKilLaKillScissorsIWish => tooltip.Text.Replace("Ignores 100% of enemy defense", "Игнорирует 100% защиты врага"),
-                ItemID.BluePhaseblade => tooltip.Text.Replace("Ignores 100% of enemy defense", "Игнорирует 100% защиты врага"),
-                ItemID.RedPhaseblade => tooltip.Text.Replace("Ignores 100% of enemy defense", "Игнорирует 100% защиты врага"),
-                ItemID.GreenPhaseblade => tooltip.Text.Replace("Ignores 100% of enemy defense", "Игнорирует 100% защиты врага"),
-                ItemID.PurplePhaseblade => tooltip.Text.Replace("Ignores 100% of enemy defense", "Игнорирует 100% защиты врага"),
-                ItemID.WhitePhaseblade => tooltip.Text.Replace("Ignores 100% of enemy defense", "Игнорирует 100% защиты врага"),
-                ItemID.YellowPhaseblade => tooltip.Text.Replace("Ignores 100% of enemy defense", "Игнорирует 100% защиты врага"),
                 ItemID.BluePhasesaber => tooltip.Text.Replace("Ignores 100% of enemy defense", "Игнорирует 100% защиты врага"),
                 ItemID.RedPhasesaber => tooltip.Text.Replace("Ignores 100% of enemy defense", "Игнорирует 100% защиты врага"),
                 ItemID.GreenPhasesaber => tooltip.Text.Replace("Ignores 100% of enemy defense", "Игнорирует 100% защиты врага"),
                 ItemID.PurplePhasesaber => tooltip.Text.Replace("Ignores 100% of enemy defense", "Игнорирует 100% защиты врага"),
                 ItemID.WhitePhasesaber => tooltip.Text.Replace("Ignores 100% of enemy defense", "Игнорирует 100% защиты врага"),
                 ItemID.YellowPhasesaber => tooltip.Text.Replace("Ignores 100% of enemy defense", "Игнорирует 100% защиты врага"),
-                ItemID.OrangePhaseblade => tooltip.Text.Replace("Ignores 100% of enemy defense", "Игнорирует 100% защиты врага"),
                 ItemID.OrangePhasesaber => tooltip.Text.Replace("Ignores 100% of enemy defense", "Игнорирует 100% защиты врага"),
-                ItemID.AntlionClaw => tooltip.Text.Replace("Ignores 50% of enemy defense", "Игнорирует 50% защиты врага"),
                 ItemID.BoneSword => tooltip.Text.Replace("Ignores 50% of enemy defense", "Игнорирует 50% защиты врага"),
                 ItemID.BreakerBlade => tooltip.Text.Replace("Ignores 50% of enemy defense", "Игнорирует 50% защиты врага"),
                 ItemID.FalconBlade => tooltip.Text.Replace("Holding this item grants +20% increased movement speed", $"Держа в руках этот предмет, увеличивает скорость передвижения на 20%"),
-                ItemID.SolarFlarePickaxe => tooltip.Text.Replace("Can mine Uelibloom Ore", $"Способна добывать цветонит"),
-                ItemID.VortexPickaxe => tooltip.Text.Replace("Can mine Uelibloom Ore", $"Способна добывать цветонит"),
-                ItemID.NebulaPickaxe => tooltip.Text.Replace("Can mine Uelibloom Ore", $"Способна добывать цветонит"),
-                ItemID.StardustPickaxe => tooltip.Text.Replace("Can mine Uelibloom Ore", $"Способна добывать цветонит"),
-                ItemID.SolarFlareDrill => tooltip.Text.Replace("Can mine Uelibloom Ore", $"Способен добывать цветонит"),
-                ItemID.VortexDrill => tooltip.Text.Replace("Can mine Uelibloom Ore", $"Способен добывать цветонит"),
-                ItemID.NebulaDrill => tooltip.Text.Replace("Can mine Uelibloom Ore", $"Способен добывать цветонит"),
-                ItemID.StardustDrill => tooltip.Text.Replace("Can mine Uelibloom Ore", $"Способен добывать цветонит"),
                 _ => tooltip.Text
             };
         });
@@ -75,11 +54,6 @@ public partial class CalamityModGlobalItem
             {
                 tooltip.Text = tooltip.Text.Replace("+0.05 luck", "+0.05 к удаче");
             });
-            
-            ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "CalamityMod" && l.Name == "PrefixStealthGenBoost", tooltip =>
-            {
-                tooltip.Text = tooltip.Text.Replace("stealth generation", "к скорости накопления скрытности");
-            });
         }
         
         if (item.master)
@@ -89,11 +63,6 @@ public partial class CalamityModGlobalItem
                 tooltips.ReplaceText("Мастер or Revengeance", "Мастер или Месть");
             });
         }
-        
-        ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "CalamityMod" && l.Name == "PrefixStealthDamageBoost", tooltip =>
-        {
-            tooltip.Text = tooltip.Text.Replace("stealth strike damage", "к урону скрытного удара");
-        });
         
         ItemHelper.TranslateTooltip(tooltips, "Tooltip0", tooltip =>
         {
@@ -114,7 +83,6 @@ public partial class CalamityModGlobalItem
                 ItemID.FleshKnuckles => $"{Language.GetTextValue("ItemTooltip.FleshKnuckles")}\nУвеличивает максимальный запас здоровья на 45",
                 ItemID.HeroShield => "Даёт невосприимчивость к отбрасыванию\nУвеличивает максимальный запас здоровья на 45",
                 ItemID.BerserkerGlove => "Увеличивает отбрасывание ближнего боя\nУвеличивает максимальный запас здоровья на 45",
-                ItemID.SuperAbsorbantSponge => $"{Language.GetTextValue("ItemTooltip.SuperAbsorbantSponge")}\nНельзя использовать в бездне",
                 ItemID.WarmthPotion => $"{Language.GetTextValue("ItemTooltip.WarmthPotion")}\nДаёт невосприимчивость к дебаффам «{Language.GetTextValue("BuffName.Chilled")}», «{Language.GetTextValue("BuffName.Frozen")}» и «{Language.GetTextValue("Mods.CalamityMod.Buffs.GlacialState.DisplayName")}»",
                 ItemID.ArcheryPotion => "Увеличивает скорость стрел на 20% и урон стрел на 5%",
                 ItemID.IronskinPotion => $"Увеличивает защиту на {tooltip.Text.Split(' ')[3]}",
@@ -134,8 +102,8 @@ public partial class CalamityModGlobalItem
                 ItemID.SuspiciousLookingEye => "Призывает Глаз Ктулху при использовании в ночное время\nВходит в ярость во время дня\nНе расходуется",
                 ItemID.QueenSlimeCrystal => "Призывает Королеву слизней при использовании в освящении\nНе расходуется",
                 ItemID.WormFood => "Призывает Пожирателя миров при использовании в искажении\nВходит в ярость за пределами подземного искажения\nНе расходуется",
-                ItemID.BlackBelt => "Даёт способность уклоняться от атак\nУклонение имеет 90 секунд перезарядки и распространяется на все другие уклонения и отражения",
-                ItemID.BrainOfConfusion => "Даёт способность уклоняться от атак\nУклонение имеет 90 секунд перезарядки и распространяется на все другие уклонения и отражения",
+                ItemID.BlackBelt => "Даёт способность уклоняться от атак\nУклонение не срабатывает против атак, которые наносят менее 5% урона от максимального запаса здоровья\nПерезарядка уклонения составляет от 15 до 90 секунд в зависимости от урона атаки, от которой вы уклонились\nЭта перезарядка распространяется на все другие уклонения и отражения",
+                ItemID.BrainOfConfusion => "Даёт способность уклоняться от атак\nУклонение не срабатывает против атак, которые наносят менее 5% урона от максимального запаса здоровья\nПерезарядка уклонения составляет от 15 до 90 секунд в зависимости от урона атаки, от которой вы уклонились\nЭта перезарядка распространяется на все другие уклонения и отражения",
                 ItemID.CrimsonHeart => $"{Language.GetTextValue("ItemTooltip.CrimsonHeart")}\nОбеспечивает небольшим количеством света в бездне",
                 ItemID.ShadowOrb => $"{Language.GetTextValue("ItemTooltip.ShadowOrb")}\nОбеспечивает небольшим количеством света в бездне",
                 ItemID.MagicLantern => $"{Language.GetTextValue("ItemTooltip.MagicLantern")}\nОбеспечивает небольшим количеством света в бездне",
@@ -161,23 +129,21 @@ public partial class CalamityModGlobalItem
                 ItemID.FlaskofVenom => $"Ближние и разбойные атаки, а также хлысты накладывают дебафф «{Language.GetTextValue("BuffName.Venom")}»",
                 ItemID.AncientChisel => "Увеличивает скорость добычи на 15%",
                 ItemID.FrozenTurtleShell => Language.GetTextValue("ItemTooltip.FrozenTurtleShell").Replace("25", "15"),
-                ItemID.Ale => "Увеличивает урон ближнего боя на 10%, но снижает защиту на 5%",
-                ItemID.Sake => "Увеличивает урон ближнего боя на 10%, но снижает защиту на 5%",
-                ItemID.ArmorPolish => $"{Language.GetTextValue("ItemTooltip.ArmorPolish")} и дебаффу «{Language.GetTextValue("Mods.CalamityMod.Buffs.ArmorCrunch.DisplayName")}»",
-                ItemID.ArmorBracing => $"{Language.GetTextValue("ItemTooltip.ArmorBracing")} и дебаффу «{Language.GetTextValue("Mods.CalamityMod.Buffs.ArmorCrunch.DisplayName")}»",
+                ItemID.Ale => "Увеличивает урон ближнего боя на 10%, но снижает защиту на 5%\nСчитается алкоголем для алкогольного отравления\nУпотребление более трёх разных алкогольных напитков может негативно сказаться на вашей печени",
+                ItemID.Sake => "Увеличивает урон ближнего боя на 10%, но снижает защиту на 5%\nСчитается алкоголем для алкогольного отравления\nУпотребление более трёх разных алкогольных напитков может негативно сказаться на вашей печени",
                 ItemID.CelestialStone => "Незначительно увеличивает урон,",
                 ItemID.ArcaneFlower => "Снижает расход маны на 12%",
-                ItemID.MagnetFlower => "Снижает расход маны на 12%",
+                ItemID.ManaCloak => "Снижает расход маны на 12%",
+                ItemID.MagnetFlower => "Снижает расход маны на 10%",
                 ItemID.Magiluminescence => "Увеличивает ускорение и торможение на 75%\nУвеличивает скорость передвижения на 15%. Этот бонус распространяется на аксессуары ботинок",
                 ItemID.EmpressFlightBooster => "Увеличивает время полёта крыльев на 25%",
                 ItemID.MagicQuiver => "Увеличивает урон от стрел на 5% и значительно увеличивает скорость стрел",
                 ItemID.MoltenQuiver => "Увеличивает урон от стрел на 7% и значительно увеличивает скорость стрел",
                 ItemID.MagicPowerPotion => Language.GetTextValue("ItemTooltip.MagicPowerPotion").Replace("20", "10"),
                 ItemID.FeatherfallPotion => $"{Language.GetTextValue("ItemTooltip.FeatherfallPotion")}\nОтключает все виды восстановления времени полёта в воздухе",
-                ItemID.MagicHat => Language.GetTextValue("ItemTooltip.MagicHat").Replace("6", "5"),
+                ItemID.MagicHat => "Увеличивает магический шанс критического удара на 6%",
                 ItemID.TitanGlove => "Увеличивает отбрасывание ближнего боя\nУвеличивает истинный урон ближнего боя на 10%",
                 ItemID.PowerGlove => "Увеличивает отбрасывание ближнего боя\nУвеличивает истинный урон ближнего боя на 10%",
-                ItemID.MechanicalGlove => "Увеличивает отбрасывание ближнего боя\nУвеличивает истинный урон ближнего боя на 10%",
                 ItemID.ObsidianSkull => $"Даёт невосприимчивость к дебаффам «{Language.GetTextValue("BuffName.Burning")}» и «{Language.GetTextValue("BuffName.OnFire")}»",
                 ItemID.AnkhShield => $"Даёт невосприимчивость к отбрасыванию и дебаффам «{Language.GetTextValue("BuffName.Burning")}» и «{Language.GetTextValue("BuffName.OnFire")}»",
                 ItemID.ObsidianSkullRose => $"Даёт невосприимчивость к дебаффам «{Language.GetTextValue("BuffName.Burning")}» и «{Language.GetTextValue("BuffName.OnFire")}»",
@@ -194,9 +160,9 @@ public partial class CalamityModGlobalItem
                 ItemID.AncientIronHelmet => "Увеличивает сопротивление урону на 3%",
                 ItemID.IronChainmail => "Увеличивает сопротивление урону на 3%",
                 ItemID.IronGreaves => "Увеличивает сопротивление урону на 3%",
-                ItemID.LeadHelmet => "Увеличивает сопротивление урону на 3%",
-                ItemID.LeadChainmail => "Увеличивает сопротивление урону на 3%",
-                ItemID.LeadGreaves => "Увеличивает сопротивление урону на 3%",
+                ItemID.LeadHelmet => "Увеличивает сопротивление урону на 2%",
+                ItemID.LeadChainmail => "Увеличивает сопротивление урону на 2%",
+                ItemID.LeadGreaves => "Увеличивает сопротивление урону на 2%",
                 ItemID.SilverHelmet => "Увеличивает шанс критического удара на 5%",
                 ItemID.SilverChainmail => "Увеличивает регенерацию здоровья на 1",
                 ItemID.SilverGreaves => "Увеличивает скорость передвижения на 8%",
@@ -208,7 +174,7 @@ public partial class CalamityModGlobalItem
                 ItemID.GoldChainmail => "Увеличивает сопротивление урону на 5%",
                 ItemID.GoldGreaves => "Увеличивает скорость передвижения на 10%",
                 ItemID.PlatinumHelmet => "Увеличивает урон на 6%",
-                ItemID.PlatinumChainmail => "Увеличивает шанс критического удара на 5%",
+                ItemID.PlatinumChainmail => "Увеличивает шанс критического удара на 3%",
                 ItemID.PlatinumGreaves => "Увеличивает скорость передвижения на 10%",
                 ItemID.ShadowHelmet => "Увеличивает урон на 5% и скорость прыжка на 7%",
                 ItemID.AncientShadowHelmet => "Увеличивает урон на 5% и скорость прыжка на 7%",
@@ -252,6 +218,9 @@ public partial class CalamityModGlobalItem
                 ItemID.PlatinumPickaxe => "Способна добывать демонит, багротан, метеорит, морскую призму и кристалл морской призмы",
                 ItemID.Picksaw => $"{Language.GetTextValue("ItemTooltip.Picksaw")}\nСпособна добывать магматит, расположенный в бездне",
                 ItemID.DeathSickle => $"Накладывает дебафф «{Language.GetTextValue("Mods.CalamityMod.Buffs.WhisperingDeath.DisplayName")}» при ударе",
+                ItemID.RifleScope => "Увеличивает дальность обзора для огнестрельного оружия (нажмите ПКМ, чтобы отдалить)",
+                ItemID.SniperScope => "Увеличивает дальность обзора для огнестрельного оружия (нажмите ПКМ, чтобы отдалить)\nЭффект прицела можно переключать с помощью настроек видимости",
+                ItemID.ReconScope => "Увеличивает дальность обзора для огнестрельного оружия (нажмите ПКМ, чтобы отдалить)\nЭффект прицела можно переключать с помощью настроек видимости",
                 _ => tooltip.Text
             };
         });
@@ -260,7 +229,6 @@ public partial class CalamityModGlobalItem
         {
             tooltip.Text = item.type switch
             {
-                ItemID.EmptyBucket => "1 ед. защиты\nНельзя использовать в бездне",
                 ItemID.GladiatorHelmet => "5 ед. защиты\nУвеличивает разбойный урон на 3%",
                 ItemID.GladiatorBreastplate => "6 ед. защиты\nУвеличивает разбойный шанс критического удара на 3",
                 ItemID.GladiatorLeggings => "5 ед. защиты\nУвеличивает скорость снарядов разбойника на 3%",
@@ -296,7 +264,8 @@ public partial class CalamityModGlobalItem
                 ItemID.MonkPants => "Увеличивает скорость передвижения на 20%",
                 ItemID.RodofDiscord => $"Вызывает «{Language.GetTextValue("BuffName.ChaosState")}»\nТелепортация невозможна, пока активен дебафф «{Language.GetTextValue("BuffName.ChaosState")}»",
                 ItemID.PowerGlove => "Увеличивает скорость атаки ближнего боя на 10%; не суммируется с предыдущим улучшением",
-                ItemID.MechanicalGlove => "Увеличивает урон ближнего боя на 12%\nУвеличивает скорость атаки ближнего боя на 12%; не суммируется с предыдущим улучшением",
+                ItemID.MechanicalGlove => "Увеличивает урон ближнего боя на 12%\nУвеличивает скорость атаки ближнего боя на 12%; не суммируется с предыдущим улучшением\nУвеличивает истинный урон ближнего боя на 10%",
+                ItemID.RifleScope => "Эффект прицела можно переключать с помощью настроек видимости",
                 _ => tooltip.Text
             };
         });
@@ -327,7 +296,6 @@ public partial class CalamityModGlobalItem
             
             tooltip.Text = item.type switch
             {
-                ItemID.BottledHoney => $"Восстанавливает 80 ед. здоровья\nНакладывает бафф «{Language.GetTextValue("BuffName.Honey")}» на 2 минуты",
                 _ => tooltip.Text
             };
         });
@@ -360,7 +328,8 @@ public partial class CalamityModGlobalItem
                 ItemID.CelestialStone => $"защиту, скорость добычи и отбрасывание призывателя\nСнижает урон от дебаффов «{Language.GetTextValue("Mods.CalamityMod.Buffs.Nightwither.DisplayName")}» и «{Language.GetTextValue("Mods.CalamityMod.Buffs.HolyFlames.DisplayName")}»",
                 ItemID.CelestialShell => "Незначительно увеличивает урон,",
                 ItemID.MoltenQuiver => $"Поджигает деревянные стрелы и все стрелы накладывают дебафф «{Language.GetTextValue("BuffName.OnFire3")}»",
-                ItemID.HellfireTreads => $"Оставляет за вами огненный след\nУмножает весь урон накладываемых игроком огненных дебаффов на 50%\nВсе атаки, включая миньонов, накладывают дебафф «{Language.GetTextValue("BuffName.OnFire3")}»",
+                ItemID.HellfireTreads => $"Оставляет за вами огненный след\nУвеличивает весь урон накладываемых игроком огненных дебаффов на 50%\nВсе атаки, включая миньонов, накладывают дебафф «{Language.GetTextValue("BuffName.OnFire3")}»",
+                ItemID.ArcaneFlower => $"Враги реже выбирают вас в качестве цели\nУвеличивает магический урон на 5%",
                 _ => tooltip.Text
             };
         });
@@ -378,7 +347,6 @@ public partial class CalamityModGlobalItem
         {
             tooltip.Text = item.type switch
             {
-                ItemID.SpaceGun => $"Использует {tooltip.Text.Split(' ')[1]} ед. маны",
                 _ => tooltip.Text
             };
         });
@@ -398,6 +366,35 @@ public partial class CalamityModGlobalItem
                 ItemID.RichGravestone3 => $"{Language.GetTextValue("LegacyTooltip.36")}\n20 любых надгробий превращают окружающую область в кладбище\nНа кладбище появляются новые предметы для продажи и рецепты",
                 ItemID.RichGravestone4 => $"{Language.GetTextValue("LegacyTooltip.36")}\n20 любых надгробий превращают окружающую область в кладбище\nНа кладбище появляются новые предметы для продажи и рецепты",
                 ItemID.RichGravestone5 => $"{Language.GetTextValue("LegacyTooltip.36")}\n20 любых надгробий превращают окружающую область в кладбище\nНа кладбище появляются новые предметы для продажи и рецепты",
+                ItemID.AdamantiteSword => tooltip.Text.Replace("Slows enemies on hit", "Замедляет врагов при ударе"),
+                ItemID.TitaniumSword => tooltip.Text.Replace("Deals increased damage to enemies with high knockback resistance", "Наносит увеличенный урон врагам с высоким сопротивлением к отбрасыванию"),
+                ItemID.Excalibur => tooltip.Text.Replace("Deals double damage to enemies above 75% life", "Наносит двойной урон врагам с уровнем здоровья выше 75%"),
+                ItemID.Gungnir => tooltip.Text.Replace("Deals double damage to enemies above 75% life", "Наносит двойной урон врагам с уровнем здоровья выше 75%"),
+                ItemID.TrueExcalibur => tooltip.Text.Replace("Deals double damage to enemies above 75% life", "Наносит двойной урон врагам с уровнем здоровья выше 75%"),
+                ItemID.BluePhaseblade => tooltip.Text.Replace("Ignores 100% of enemy defense", "Игнорирует 100% защиты врага"),
+                ItemID.RedPhaseblade => tooltip.Text.Replace("Ignores 100% of enemy defense", "Игнорирует 100% защиты врага"),
+                ItemID.GreenPhaseblade => tooltip.Text.Replace("Ignores 100% of enemy defense", "Игнорирует 100% защиты врага"),
+                ItemID.PurplePhaseblade => tooltip.Text.Replace("Ignores 100% of enemy defense", "Игнорирует 100% защиты врага"),
+                ItemID.WhitePhaseblade => tooltip.Text.Replace("Ignores 100% of enemy defense", "Игнорирует 100% защиты врага"),
+                ItemID.YellowPhaseblade => tooltip.Text.Replace("Ignores 100% of enemy defense", "Игнорирует 100% защиты врага"),
+                ItemID.OrangePhaseblade => tooltip.Text.Replace("Ignores 100% of enemy defense", "Игнорирует 100% защиты врага"),
+                ItemID.AntlionClaw => tooltip.Text.Replace("Ignores 50% of enemy defense", "Игнорирует 50% защиты врага"),
+                ItemID.SolarFlarePickaxe => tooltip.Text.Replace("Can mine Uelibloom Ore", "Способна добывать цветонит"),
+                ItemID.VortexPickaxe => tooltip.Text.Replace("Can mine Uelibloom Ore", "Способна добывать цветонит"),
+                ItemID.NebulaPickaxe => tooltip.Text.Replace("Can mine Uelibloom Ore", "Способна добывать цветонит"),
+                ItemID.StardustPickaxe => tooltip.Text.Replace("Can mine Uelibloom Ore", "Способна добывать цветонит"),
+                _ => tooltip.Text
+            };
+        });
+        
+        ItemHelper.TranslateTooltip(tooltips, "TileBoost", tooltip =>
+        {
+            tooltip.Text = item.type switch
+            {
+                ItemID.SolarFlareDrill => tooltip.Text.Replace("Can mine Uelibloom Ore", "Способен добывать цветонит"),
+                ItemID.VortexDrill => tooltip.Text.Replace("Can mine Uelibloom Ore", "Способен добывать цветонит"),
+                ItemID.NebulaDrill => tooltip.Text.Replace("Can mine Uelibloom Ore", "Способен добывать цветонит"),
+                ItemID.StardustDrill => tooltip.Text.Replace("Can mine Uelibloom Ore", "Способен добывать цветонит"),
                 _ => tooltip.Text
             };
         });

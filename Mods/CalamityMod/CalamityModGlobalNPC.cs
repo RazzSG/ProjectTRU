@@ -1,4 +1,5 @@
-﻿using CalamityRuTranslate.Common;
+﻿using CalamityMod.NPCs.TownNPCs;
+using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
 using Terraria;
 using Terraria.ID;
@@ -17,12 +18,15 @@ public class CalamityModGlobalNPC : GlobalNPC
     {
         if (npc.type == NPCID.Stylist)
         {
-            if (chat.Contains("Пожалуйста, не ловите космических вшей"))
+            if (chat.Contains("Прошу, не цепляй космических вшей"))
             {
                 chat = chat.Replace("Багрянец", "багряных");
                 chat = chat.Replace("Искажение", "искажённых");
             }
-            
+        }
+
+        if (npc.type == ModContent.NPCType<SEAHOE>())
+        {
             if (chat.Contains("Будь осторожен, когда атакуешь что-то в"))
             {
                 chat = chat.Replace("Багрянец", "багрянце");

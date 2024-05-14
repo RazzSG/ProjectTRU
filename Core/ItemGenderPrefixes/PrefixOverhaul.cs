@@ -458,15 +458,13 @@ public class CalamityItems : IItemGender
                 "EutrophicScimitar",
                 "ForsakenSaber",
                 "FourSeasonsGalaxia",
-                "LifefruitScythe",
+                "LifehuntScythe",
                 "Lucrecia",
                 "Mourningstar",
                 "Murasama",
                 "PerfectDark",
                 "Quagmire",
                 "Shimmerspark",
-                "SolarFlare",
-                "SoulEdge",
                 "StormSaber",
                 "TheMicrowave",
                 "Pandemic",
@@ -571,9 +569,12 @@ public class CalamityItems : IItemGender
                 "GodsParanoia",
                 "Malevolence",
                 "InfectedJewel",
-                "Purity",
                 "BlazingStar",
                 "OldDukeScales",
+                "VoidEdge",
+                "ChronomancersScythe",
+                "NitroExpressRifle",
+                "ToxicantTwister",
             };
             List<int> types = new List<int>();
             
@@ -681,6 +682,8 @@ public class CalamityItems : IItemGender
                 "Vigilance",
                 "HellionFlowerSpear",
                 "MirrorofKalandra",
+                "Purity",
+                "BurningRevelation",
             };
             List<int> types = new List<int>();
             
@@ -738,6 +741,7 @@ public class CalamityItems : IItemGender
                 "FlowersOfMortality",
                 "GlacialEmbrace",
                 "SaharaSlicers",
+                "LiliesOfFinality",
             };
             List<int> types = new List<int>();
             
