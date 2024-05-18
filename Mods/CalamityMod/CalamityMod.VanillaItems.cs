@@ -16,12 +16,12 @@ public partial class CalamityModGlobalItem
         {
             tooltip.Text = item.type switch
             {
-                ItemID.CobaltSword => tooltip.Text.Replace("Permanently decreases enemy defense by 25% on hit", "Постоянно снижает защиту врага на 25% при ударе"),
-                ItemID.CobaltNaginata => tooltip.Text.Replace("Permanently decreases enemy defense by 25% on hit", "Постоянно снижает защиту врага на 25% при ударе"),
+                ItemID.CobaltSword => tooltip.Text.Replace("Decreases enemy defense by 25% on hit\nThis effect lasts for 10 seconds", "Снижает защиту врага на 25% при ударе\nЭтот эффект длится 10 секунд"),
+                ItemID.CobaltNaginata => tooltip.Text.Replace("Decreases enemy defense by 25% on hit\nThis effect lasts for 10 seconds", "Снижает защиту врага на 25% при ударе\nЭтот эффект длится 10 секунд"),
                 ItemID.PalladiumSword => tooltip.Text.Replace("Increases natural life regen on hit", "Увеличивает естественную регенерацию здоровья при ударе"),
                 ItemID.PalladiumPike => tooltip.Text.Replace("Increases natural life regen on hit", "Увеличивает естественную регенерацию здоровья при ударе"),
-                ItemID.MythrilSword => tooltip.Text.Replace("Permanently decreases enemy contact damage by 10% on hit", "Постоянно снижает контактный урон врага на 10% при ударе"),
-                ItemID.MythrilHalberd => tooltip.Text.Replace("Permanently decreases enemy contact damage by 10% on hit", "Постоянно снижает контактный урон врага на 10% при ударе"),
+                ItemID.MythrilSword => tooltip.Text.Replace("Decreases enemy contact damage by 10% on hit\nThis effect lasts for 10 seconds", "Снижает контактный урон врага на 10% при ударе\nЭтот эффект длится 10 секунд"),
+                ItemID.MythrilHalberd => tooltip.Text.Replace("Decreases enemy contact damage by 10% on hit\nThis effect lasts for 10 seconds", "Снижает контактный урон врага на 10% при ударе\nЭтот эффект длится 10 секунд"),
                 ItemID.OrichalcumSword => tooltip.Text.Replace("Increases how frequently the Orichalcum set bonus triggers on hit", "При нанесении удара увеличивает частоту срабатывания бонуса орихалкового комплекта"),
                 ItemID.OrichalcumHalberd => tooltip.Text.Replace("Increases how frequently the Orichalcum set bonus triggers on hit", "При нанесении удара увеличивает частоту срабатывания бонуса орихалкового комплекта"),
                 ItemID.AdamantiteGlaive => tooltip.Text.Replace("Slows enemies on hit", "Замедляет врагов при ударе"),
@@ -176,15 +176,9 @@ public partial class CalamityModGlobalItem
                 ItemID.PlatinumHelmet => "Увеличивает урон на 6%",
                 ItemID.PlatinumChainmail => "Увеличивает шанс критического удара на 3%",
                 ItemID.PlatinumGreaves => "Увеличивает скорость передвижения на 10%",
-                ItemID.ShadowHelmet => "Увеличивает урон на 5% и скорость прыжка на 7%",
-                ItemID.AncientShadowHelmet => "Увеличивает урон на 5% и скорость прыжка на 7%",
-                ItemID.ShadowScalemail => "Увеличивает урон на 5% и скорость прыжка на 7%",
-                ItemID.AncientShadowScalemail => "Увеличивает урон на 5% и скорость прыжка на 7%",
-                ItemID.ShadowGreaves => "Увеличивает урон на 5% и скорость прыжка на 7%",
-                ItemID.AncientShadowGreaves => "Увеличивает урон на 5% и скорость прыжка на 7%",
-                ItemID.CrimsonHelmet => "Увеличивает урон на 5%\nУвеличивает регенерацию здоровья на 0.5",
-                ItemID.CrimsonScalemail => "Увеличивает урон на 5%\nУвеличивает регенерацию здоровья на 0.5",
-                ItemID.CrimsonGreaves => "Увеличивает урон на 5%\nУвеличивает регенерацию здоровья на 0.5",
+                ItemID.CrimsonHelmet => "Увеличивает урон на 6%\nУвеличивает регенерацию здоровья на 0.5",
+                ItemID.CrimsonScalemail => "Увеличивает урон на 6%\nУвеличивает регенерацию здоровья на 1",
+                ItemID.CrimsonGreaves => "Увеличивает урон на 6%\nУвеличивает регенерацию здоровья на 0.5",
                 ItemID.CobaltHat => "Увеличивает максимальный запас маны на 60",
                 ItemID.PalladiumBreastplate => "Увеличивает урон на 5%",
                 ItemID.PalladiumLeggings => "Увеличивает урон на 5%",
@@ -221,6 +215,7 @@ public partial class CalamityModGlobalItem
                 ItemID.RifleScope => "Увеличивает дальность обзора для огнестрельного оружия (нажмите ПКМ, чтобы отдалить)",
                 ItemID.SniperScope => "Увеличивает дальность обзора для огнестрельного оружия (нажмите ПКМ, чтобы отдалить)\nЭффект прицела можно переключать с помощью настроек видимости",
                 ItemID.ReconScope => "Увеличивает дальность обзора для огнестрельного оружия (нажмите ПКМ, чтобы отдалить)\nЭффект прицела можно переключать с помощью настроек видимости",
+                ItemID.FlameWakerBoots => $"Увеличивает весь урон накладываемых игроком огненных дебаффов на 25%\nВсе атаки, включая миньонов, накладывают дебафф «{Language.GetTextValue("BuffName.OnFire")}»\n{Language.GetTextValue("ItemTooltip.FlameWakerBoots")}",
                 _ => tooltip.Text
             };
         });
@@ -328,7 +323,7 @@ public partial class CalamityModGlobalItem
                 ItemID.CelestialStone => $"защиту, скорость добычи и отбрасывание призывателя\nСнижает урон от дебаффов «{Language.GetTextValue("Mods.CalamityMod.Buffs.Nightwither.DisplayName")}» и «{Language.GetTextValue("Mods.CalamityMod.Buffs.HolyFlames.DisplayName")}»",
                 ItemID.CelestialShell => "Незначительно увеличивает урон,",
                 ItemID.MoltenQuiver => $"Поджигает деревянные стрелы и все стрелы накладывают дебафф «{Language.GetTextValue("BuffName.OnFire3")}»",
-                ItemID.HellfireTreads => $"Оставляет за вами огненный след\nУвеличивает весь урон накладываемых игроком огненных дебаффов на 50%\nВсе атаки, включая миньонов, накладывают дебафф «{Language.GetTextValue("BuffName.OnFire3")}»",
+                ItemID.HellfireTreads => $"Оставляет за вами огненный след\nУвеличивает весь урон накладываемых игроком огненных дебаффов на 50%; не суммируется с предыдущим улучшением\nВсе атаки, включая миньонов, накладывают дебафф «{Language.GetTextValue("BuffName.OnFire3")}»",
                 ItemID.ArcaneFlower => $"Враги реже выбирают вас в качестве цели\nУвеличивает магический урон на 5%",
                 _ => tooltip.Text
             };
@@ -355,17 +350,17 @@ public partial class CalamityModGlobalItem
         {
             tooltip.Text = item.type switch
             {
-                ItemID.Tombstone => $"{Language.GetTextValue("LegacyTooltip.36")}\n20 любых надгробий превращают окружающую область в кладбище\nНа кладбище появляются новые предметы для продажи и рецепты",
-                ItemID.GraveMarker => $"{Language.GetTextValue("LegacyTooltip.36")}\n20 любых надгробий превращают окружающую область в кладбище\nНа кладбище появляются новые предметы для продажи и рецепты",
-                ItemID.CrossGraveMarker => $"{Language.GetTextValue("LegacyTooltip.36")}\n20 любых надгробий превращают окружающую область в кладбище\nНа кладбище появляются новые предметы для продажи и рецепты",
-                ItemID.Headstone => $"{Language.GetTextValue("LegacyTooltip.36")}\n20 любых надгробий превращают окружающую область в кладбище\nНа кладбище появляются новые предметы для продажи и рецепты",
-                ItemID.Gravestone => $"{Language.GetTextValue("LegacyTooltip.36")}\n20 любых надгробий превращают окружающую область в кладбище\nНа кладбище появляются новые предметы для продажи и рецепты",
-                ItemID.Obelisk => $"{Language.GetTextValue("LegacyTooltip.36")}\n20 любых надгробий превращают окружающую область в кладбище\nНа кладбище появляются новые предметы для продажи и рецепты",
-                ItemID.RichGravestone1 => $"{Language.GetTextValue("LegacyTooltip.36")}\n20 любых надгробий превращают окружающую область в кладбище\nНа кладбище появляются новые предметы для продажи и рецепты",
-                ItemID.RichGravestone2 => $"{Language.GetTextValue("LegacyTooltip.36")}\n20 любых надгробий превращают окружающую область в кладбище\nНа кладбище появляются новые предметы для продажи и рецепты",
-                ItemID.RichGravestone3 => $"{Language.GetTextValue("LegacyTooltip.36")}\n20 любых надгробий превращают окружающую область в кладбище\nНа кладбище появляются новые предметы для продажи и рецепты",
-                ItemID.RichGravestone4 => $"{Language.GetTextValue("LegacyTooltip.36")}\n20 любых надгробий превращают окружающую область в кладбище\nНа кладбище появляются новые предметы для продажи и рецепты",
-                ItemID.RichGravestone5 => $"{Language.GetTextValue("LegacyTooltip.36")}\n20 любых надгробий превращают окружающую область в кладбище\nНа кладбище появляются новые предметы для продажи и рецепты",
+                ItemID.Tombstone => $"{Language.GetTextValue("LegacyTooltip.36")}\n13 любых надгробий превращают окружающую область в кладбище\nНа кладбище появляются новые предметы для продажи и рецепты",
+                ItemID.GraveMarker => $"{Language.GetTextValue("LegacyTooltip.36")}\n13 любых надгробий превращают окружающую область в кладбище\nНа кладбище появляются новые предметы для продажи и рецепты",
+                ItemID.CrossGraveMarker => $"{Language.GetTextValue("LegacyTooltip.36")}\n13 любых надгробий превращают окружающую область в кладбище\nНа кладбище появляются новые предметы для продажи и рецепты",
+                ItemID.Headstone => $"{Language.GetTextValue("LegacyTooltip.36")}\n13 любых надгробий превращают окружающую область в кладбище\nНа кладбище появляются новые предметы для продажи и рецепты",
+                ItemID.Gravestone => $"{Language.GetTextValue("LegacyTooltip.36")}\n13 любых надгробий превращают окружающую область в кладбище\nНа кладбище появляются новые предметы для продажи и рецепты",
+                ItemID.Obelisk => $"{Language.GetTextValue("LegacyTooltip.36")}\n13 любых надгробий превращают окружающую область в кладбище\nНа кладбище появляются новые предметы для продажи и рецепты",
+                ItemID.RichGravestone1 => $"{Language.GetTextValue("LegacyTooltip.36")}\n13 любых надгробий превращают окружающую область в кладбище\nНа кладбище появляются новые предметы для продажи и рецепты",
+                ItemID.RichGravestone2 => $"{Language.GetTextValue("LegacyTooltip.36")}\n13 любых надгробий превращают окружающую область в кладбище\nНа кладбище появляются новые предметы для продажи и рецепты",
+                ItemID.RichGravestone3 => $"{Language.GetTextValue("LegacyTooltip.36")}\n13 любых надгробий превращают окружающую область в кладбище\nНа кладбище появляются новые предметы для продажи и рецепты",
+                ItemID.RichGravestone4 => $"{Language.GetTextValue("LegacyTooltip.36")}\n13 любых надгробий превращают окружающую область в кладбище\nНа кладбище появляются новые предметы для продажи и рецепты",
+                ItemID.RichGravestone5 => $"{Language.GetTextValue("LegacyTooltip.36")}\n13 любых надгробий превращают окружающую область в кладбище\nНа кладбище появляются новые предметы для продажи и рецепты",
                 ItemID.AdamantiteSword => tooltip.Text.Replace("Slows enemies on hit", "Замедляет врагов при ударе"),
                 ItemID.TitaniumSword => tooltip.Text.Replace("Deals increased damage to enemies with high knockback resistance", "Наносит увеличенный урон врагам с высоким сопротивлением к отбрасыванию"),
                 ItemID.Excalibur => tooltip.Text.Replace("Deals double damage to enemies above 75% life", "Наносит двойной урон врагам с уровнем здоровья выше 75%"),
