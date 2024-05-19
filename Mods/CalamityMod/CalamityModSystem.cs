@@ -6,21 +6,17 @@ using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
 using ReLogic.Content;
 using ReLogic.Graphics;
-using Terraria;
 using Terraria.ModLoader;
 
 namespace CalamityRuTranslate.Mods.CalamityMod;
 
 public class CalamityModSystem : ModSystem
 {
-    private Asset<DynamicSpriteFont> CodebreakerFont { get; set; }
+    private static Asset<DynamicSpriteFont> _codebreakerFont;
 
     public override void Load()
     {
-        if (Main.dedServ)
-            return;
-        
-        CodebreakerFont = Mod.Assets.Request<DynamicSpriteFont>("Assets/Fonts/Item_Stack");
+        _codebreakerFont ??= Mod.Assets.Request<DynamicSpriteFont>("Assets/Fonts/Item_Stack", AssetRequestMode.ImmediateLoad);
     }
 
     public override bool IsLoadingEnabled(Mod mod)
@@ -35,7 +31,7 @@ public class CalamityModSystem : ModSystem
         
         DynamicSpriteFont replaceFont = TRuConfig.Instance.NewRussianTerrariaFont
             ? Mod.Assets.Request<DynamicSpriteFont>("Assets/Fonts/Item_Stack").Value
-            : CodebreakerFont.Value;
+            : _codebreakerFont.Value;
         
         PropertyInfo dialogueFont = typeof(CodebreakerUI).GetCachedProperty("DialogFont");
         dialogueFont.SetValue(null, replaceFont);
