@@ -2575,31 +2575,31 @@
 #
 #        AquaticScourge: {
 #            Asphodene: {
-#                Name: Aquatic Scourge Dialogue
+#                Name: Диалог об Акватическом биче
 #                Description: ""
 #
 #                1: {
-#                    $parentVal: The Aquatic Scourge is no more, huh? So my hypothesis was correct; the Desert Scourge was displaced and dried... and we just fought its ancestor.
+#                    $parentVal: Кажется, с Акватическим бичом покончено, да? Значит, моя гипотеза подтвердилась: Пустынный бич был вытеснен и иссушён... а мы только что сразились с его предком.
 #                    E: Angry
 #                }
 #
 #                2: {
-#                    $parentVal: The Sea King told us of what transpired. Yharim's forces are powerful indeed.. We shouldn't let these misdeeds carry on.
+#                    $parentVal: Морской король поведал нам о случившемся. Сила армии Ярима поистине могущественна... Нельзя допустить повторения этих злодеяний.
 #                    E: Angry
 #                }
 #            }
 #
 #            Eridani: {
-#                Name: Aquatic Scourge Dialogue
+#                Name: Диалог об Акватическом биче
 #                Description: ""
 #
 #                1: {
-#                    $parentVal: The Aquatic Scourge is defeated. So this is what the Desert Scourge could have been, had the ocean not been reduced to a desert.
+#                    $parentVal: Акватический бич повержен. Вот каким мог бы быть Пустынный бич, если бы океан не превратился в пустыню.
 #                    E: Angry
 #                }
 #
 #                2: {
-#                    $parentVal: From what the Sea King tells us, that was another one of Yharim's doings. They bring destruction wherever they roam... We must put an end to them.
+#                    $parentVal: Со слов Морского короля, это ещё одно деяние Ярима. Они сеют хаос и разрушения везде, где появляются... Мы должны их остановить.
 #                    E: Angry
 #                }
 #            }
@@ -2791,7 +2791,7 @@
 #    BossItemDialogue: {
 #        VagrantAsphodene: {
 #            Name: Shattered Disk Item Dialogue
-#            Description: Grants a boss summoning item
+#            Description: Даёт предмет для призыва босса
 #            1: Hang on- I have something you might be interested in. I can't recall how I came across it, but...
 #
 #            2: {
@@ -2804,7 +2804,7 @@
 #
 #        VagrantEridani: {
 #            Name: Shattered Disk Item Dialogue
-#            Description: Grants a boss summoning item
+#            Description: Даёт предмет для призыва босса
 #            1: Погоди немного. Я забыла упомянуть об этом ранее, но у меня есть кое-что для тебя... Может, ты поможешь мне выяснить, откуда это.
 #            2: Это выглядит так знакомо, и всё же что-то мешает мне вспомнить, что это. Как же это раздражает. Я даже не могу вспомнить, когда я его получила.
 #
@@ -2818,7 +2818,7 @@
 #
 #        Nalhaun: {
 #            Name: Burnished Crown Dialogue
-#            Description: Grants a boss summoning item
+#            Description: Даёт предмет для призыва босса
 #
 #            1: {
 #                $parentVal: We meet again, {0}. Again, I have another foe for you to defeat.
@@ -2843,7 +2843,7 @@
 #
 #        Penth: {
 #            Name: Unsullied Canvas Dialogue
-#            Description: Grants a boss summoning item
+#            Description: Даёт предмет для призыва босса
 #
 #            1: {
 #                $parentVal: We meet again, {0}. Again, I need your assistance.
@@ -2868,7 +2868,7 @@
 #
 #        Dioskouroi: {
 #            Name: Twincrux Pendant Dialogue
-#            Description: Grants a boss summoning item
+#            Description: Даёт предмет для призыва босса
 #
 #            1: {
 #                $parentVal: We meet again, {0}. I need your help.
@@ -2893,7 +2893,7 @@
 #
 #        WarriorAsphodene: {
 #            Name: Warrior of Light Precursor Dialogue
-#            Description: Grants a boss summoning item
+#            Description: Даёт предмет для призыва босса
 #
 #            1: {
 #                $parentVal: Кажется, с небом что-то не так... Что происходит?..
@@ -2955,7 +2955,7 @@
 #
 #        WarriorEridani: {
 #            Name: Warrior of Light Precursor Dialogue
-#            Description: Grants a boss summoning item
+#            Description: Даёт предмет для призыва босса
 #
 #            1: {
 #                $parentVal: Ты тоже это видишь, да? Небо какое-то аномально яркое.
@@ -3518,10 +3518,10 @@
 #            Eridani: {
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
-#                1: Strip away the Hallowed's mask, and it may even be harsher than the Underworld itself.
+#                1: Сними маску с Освящённого, и его истинное лицо может оказаться ужаснее самой преисподней.
 #
 #                2: {
-#                    $parentVal: If you're off to farm Souls, stay safe. Even the best can can be caught off-guard.
+#                    $parentVal: Если отправляешься за душами, будь осторожен. Даже самый опытный может быть застигнут врасплох.
 #                    E: Angry
 #                }
 #            }
