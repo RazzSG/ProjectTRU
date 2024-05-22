@@ -636,7 +636,7 @@
 #                Name: Underworld Weapon Dialogue
 #                Description: Grants an Essence
 #                1: Держи ещё одну эссенцию. Она предназначена для создания оружия призывного типа. Ты ведь понимаешь, что это означает?
-#                
+#
 #                2: {
 #                    $parentVal: Чего ты ждешь? Попробуй уже.
 #                    E: Smug
@@ -666,7 +666,7 @@
 #                Name: King Slime Weapon Dialogue
 #                Description: Grants an Essence
 #                1: Вот ещё одна эссенция для тебя. Это огненный меч относится к магическому типу. Похоже, он взрывается, когда достаточно заряжен.
-#                
+#
 #                2: {
 #                    $parentVal: Складывается впечатление, будто он что-то ищет... Надеюсь, те, кто создал эту эссенцию, нашли то, что он ищет! ...Ну а мы пока позаимствуем эту силу.
 #                    E: Happy
@@ -1807,40 +1807,40 @@
 #
 #        CorruptionBoss: {
 #            Asphodene: {
-#                Name: World Evil Boss Dialogue
+#                Name: Диалог о боссе мирового зла
 #                Description: ""
 #
 #                1: {
-#                    $parentVal: So, the obviously corroded part of the world also had a big bad monster waiting inside of it. That does track.
+#                    $parentVal: Естественно, в этой гниющей части мира тоже таился здоровенный монстр. Вот так поворот.
 #                    E: Angry
 #                }
 #
-#                2: I'm starting to think that you just like the challenge... Well, something tells me there's more where that comes from.
+#                2: Похоже, тебе по душе такие испытания... Интуиция подсказывает, что это далеко не всё.
 #            }
 #
 #            Eridani: {
-#                Name: World Evil Boss Dialogue
+#                Name: Диалог о боссе мирового зла
 #                Description: ""
-#                1: I'm glad you've taken care of that evil looking fiend. Perhaps it's best we stay away from the oddly colored soil from now on?
+#                1: Рада, что ты справился с этим мерзким созданием! Может быть, нам стоит впредь избегать этой странной цветной почвы?
 #            }
 #        }
 #
 #        QueenBee: {
 #            Asphodene: {
-#                Name: Queen Bee Dialogue
+#                Name: Диалог о Королеве пчёл
 #                Description: ""
 #                1: Что ж, думаю, мне следовало ожидать чего-то подобного в джунглях.
-#                2: Отличная работа. Let's hope a bath takes all that honey off of you...
+#                2: Отличная работа. Надеюсь, ванна смоет с тебя весь этот мёд...
 #            }
 #
 #            Eridani: {
-#                Name: Queen Bee Dialogue
+#                Name: Диалог о Королеве пчёл
 #                Description: ""
-#                1: Серьёзно? Гигантская пчела... Я бы, наверное, выбрала её вместо маленьких насекомых... Проще попасть, знаешь ли.
-#                2: You'll probably encounter a few, considering you're now dripping with insanely sweet honey.
+#                1: Серьёзно? Гигантская пчела... Пожалуй, я бы предпочла поменьше... Легче прихлопнуть, знаешь ли.
+#                2: Тебе, наверное, стоит приготовиться к встрече с роем, раз уж ты теперь весь липкий от этого приторно-сладкого мёда.
 #
 #                3: {
-#                    $parentVal: Now that I'm thinking of how sticky that honey is, I am truly sorry. At least it's edible...?
+#                    $parentVal: Теперь, когда я думаю о том, насколько этот мёд липкий, мне действительно жаль тебя. По крайней мере, он съедобный?..
 #                    E: Worried
 #                }
 #            }
@@ -1873,7 +1873,7 @@
 #
 #        WallOfFlesh: {
 #            Asphodene: {
-#                Name: Wall of Flesh Dialogue
+#                Name: Диалог о Стене плоти
 #                Description: ""
 #                1: Вот это... Я никогда раньше не видела ничего подобного... вообще. Весь мир словно переполнен новой магической энергией.
 #                2: Похоже, Стена плоти либо охраняла, либо предотвращала что-то крайне важное. Это моё предположение.
@@ -1881,11 +1881,11 @@
 #            }
 #
 #            Eridani: {
-#                Name: Wall of Flesh Dialogue
+#                Name: Диалог о Стене плоти
 #                Description: ""
-#                1: Ого... Мир претерпел значительные изменения после победы над Стеной плоти...
-#                2: Я не встречала ничего подобного. Что скрывало это существо?..
-#                3: Let's explore these new environs with caution.
+#                1: Ничего себе... мир после победы над Стеной плоти кардинально изменился...
+#                2: Я не встречала ничего подобного. Что же скрывало это существо?..
+#                3: Давай с осторожностью исследовать эти новые земли.
 #            }
 #        }
 #
@@ -2125,7 +2125,7 @@
 #        WarriorOfLight: {
 #            Asphodene: {
 #                Name: Warrior of Light Dialogue
-#                Description: ""
+#                Description: Grants a key item
 #
 #                1: {
 #                    $parentVal: I see we were wrong.. The Warrior thought he was saving the galaxy, but it was truly the lies of the First Starfarer.. How cruel.
@@ -2144,7 +2144,7 @@
 #
 #            Eridani: {
 #                Name: Warrior of Light Dialogue
-#                Description: ""
+#                Description: Grants a key item
 #
 #                1: {
 #                    $parentVal: You have brought down the Warrior of Light. Nighttime has returned to this world- a wonderful respite.
@@ -2272,7 +2272,7 @@
 #
 #        Arbitration: {
 #            Asphodene: {
-#                Name: Диалог Арбитража
+#                Name: Диалог об Арбитраже
 #                Description: ""
 #                1: Этот враг был поистине ужасен. Рада, что тебе удалось его одолеть... кто знает, какой хаос он мог бы посеять, если бы его не остановили?
 #                2: Это лишний раз демонстрирует, насколько ужасны могут быть Аномалии!..
@@ -2280,11 +2280,11 @@
 #            }
 #
 #            Eridani: {
-#                Name: Диалог Арбитража
+#                Name: Диалог об Арбитраже
 #                Description: ""
-#                1: You have thoroughly defeated that voidsent being. Good work; I had no clue what would've happened had we lost.
-#                2: Truly, the horrors of Anomaly locations can not be understated.
-#                3: Even without my intervention, an Essence has appeared... it must be strong, to originate from such a fiend.
+#                1: Ты полностью сокрушил это порождение пустоты. Отличная работа; Не знаю, что случилось бы, если бы мы проиграли.
+#                2: Действительно, ужасы аномальных зон нельзя недооценивать.
+#                3: Даже без моего вмешательства здесь появилась эссенция... Должно быть, она очень сильная, раз исходит от такого чудовища.
 #            }
 #        }
 #
@@ -2607,23 +2607,23 @@
 #
 #        BrimstoneElemental: {
 #            Asphodene: {
-#                Name: Brimstone Elemental Dialogue
+#                Name: Диалог о Серном элементале
 #                Description: ""
-#                1: You've defeated the Brimstone Elemental. It seems they were once a revered goddess of the Underworld's mighty civilization, before it was destroyed.
+#                1: Ты одолел Серного элементаля. Говорят, некогда она была почитаемой богиней могущественной цивилизации преисподней, пока та не была уничтожена.
 #
 #                2: {
-#                    $parentVal: Whoever did this must be a fearsome foe, indeed. While I do like a challenge, there's no beating around the bush: we have to get stronger.
+#                    $parentVal: Кто бы это ни сделал, он, без сомнения, грозный враг. Хотя я люблю испытания, не будем ходить вокруг да около: нам нужно стать сильнее.
 #                    E: Angry
 #                }
 #            }
 #
 #            Eridani: {
-#                Name: Brimstone Elemental Dialogue
+#                Name: Диалог о Серном элементале
 #                Description: ""
-#                1: The fire-borne spirit is no more. The land of brimstone must have been powerful, to worship this spirit as such. We merely fought her at her weakest.
+#                1: Дух, рождённый из пламени, пал. Должно быть, земля серы была могущественна, раз поклонялась этому духу. Мы сражались с ней, когда она была слаба.
 #
 #                2: {
-#                    $parentVal: Whatever caused this destruction has to be stopped... but we must get stronger to do so.
+#                    $parentVal: То, что стало причиной этого разрушения, нужно остановить... но для этого нам нужно стать сильнее.
 #                    E: Angry
 #                }
 #            }
@@ -2842,51 +2842,51 @@
 #        }
 #
 #        Penth: {
-#            Name: Unsullied Canvas Dialogue
+#            Name: Диалог о незапятнанном холсте
 #            Description: Даёт предмет для призыва босса
 #
 #            1: {
-#                $parentVal: We meet again, {0}. Again, I need your assistance.
+#                $parentVal: "{0}, судьба вновь сводит нас вместе. Мне снова нужна твоя помощь."
 #                E: PerseusNeutral
 #            }
 #
 #            2: {
-#                $parentVal: This is the 'Unsullied Canvas.' It will draw the Witch of Ink out of hiding.
+#                $parentVal: Это '{$Items.UnsulliedCanvas.DisplayName}'. С его помощью мы выманим из укрытия Ведьму чернил.
 #                E: PerseusNeutral
 #            }
 #
 #            3: {
-#                $parentVal: This is another important step in the pursuit of the the First Starbearer.
+#                $parentVal: Это ещё один важный шаг в поисках Первого звездоносца.
 #                E: PerseusNeutral
 #            }
 #
 #            4: {
-#                $parentVal: Please prepare yourself. This will be a hard fight.
+#                $parentVal: Пожалуйста, подготовься. Нас ждёт непростой бой.
 #                E: PerseusNeutral
 #            }
 #        }
 #
 #        Dioskouroi: {
-#            Name: Twincrux Pendant Dialogue
+#            Name: Диалог об амулете парного креста
 #            Description: Даёт предмет для призыва босса
 #
 #            1: {
-#                $parentVal: We meet again, {0}. I need your help.
+#                $parentVal: "{0}, судьба снова сводит нас вместе. Мне нужна твоя помощь."
 #                E: PerseusNeutral
 #            }
 #
 #            2: {
-#                $parentVal: This is the 'Twincrux Pendant.' When used, it will call forth powerful warring demons.
+#                $parentVal: Это '{$Items.TwincruxPendant.DisplayName}'. При его использовании будут призваны могущественные демоны войны.
 #                E: PerseusNeutral
 #            }
 #
 #            3: {
-#                $parentVal: This foe was once bested by the First Starbearer. My hope is that by studying your conflict with this simulacrum, we may yet find clues to his location.
+#                $parentVal: Когда-то Первому звездоносцу удалось одолеть этого врага. Я надеюсь, что, изучив твою битву с этим симулякром, мы сможем найти подсказки о его местонахождении.
 #                E: PerseusNeutral
 #            }
 #
 #            4: {
-#                $parentVal: Prepare yourself well.
+#                $parentVal: Хорошенько подготовься.
 #                E: PerseusNeutral
 #            }
 #        }
@@ -3266,17 +3266,17 @@
 #            Eridani: {
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
-#                1: Remember, keeping a cool head in combat is important.
+#                1: Помни, в бою важно сохранять хладнокровие.
 #
 #                2: {
-#                    $parentVal: "'In the midst of chaos, there is opportunity.'"
+#                    $parentVal: "'В беспорядке и хаосе можно найти возможности для успеха.'"
 #                    E: Smug
 #                }
 #
-#                3: Remember that well. ...No, I didn't come up with that.
+#                3: Не забывай об этом. ...Нет, это не моя фраза.
 #
 #                4: {
-#                    $parentVal: It would have been pretty cool if I did, though.
+#                    $parentVal: Было бы круто, если бы я её придумала.
 #                    E: Happy
 #                }
 #            }
@@ -3286,10 +3286,10 @@
 #            Asphodene: {
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
-#                1: You're getting pretty strong! Think you can beat me in a fight?
+#                1: Ого, ты уже такой сильный! Думаешь, сможешь меня одолеть?
 #
 #                2: {
-#                    $parentVal: That was a joke. You probably could.
+#                    $parentVal: Шучу, я просто шучу. Хотя, кто знает, может быть и смог бы.
 #                    E: DeadInside
 #                }
 #            }
@@ -3297,17 +3297,17 @@
 #            Eridani: {
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
-#                1: You just keep getting stronger, huh? I'll have to work harder to keep up.
+#                1: Гляжу, ты становишься всё сильнее, а? Придётся и мне поднапрячься, чтобы не отставать.
 #
 #                2: {
-#                    $parentVal: Or not. Theoretically, if we fought, I'd probably win. Don't you think?
+#                    $parentVal: Или нет. Теоретически, если бы дело дошло до драки, то я бы, наверное, победила. Как думаешь? 
 #                    E: Smug
 #                }
 #
-#                3: Don't get any funny ideas, though. We're decidedly on the same team.
+#                3: Но не вздумай кичиться этим. Мы же заодно.
 #
 #                4: {
-#                    $parentVal: (I wonder if they caught my bluff.)
+#                    $parentVal: (Интересно, прокатил ли мой блеф?)
 #                    E: Worried
 #                }
 #            }
@@ -3333,12 +3333,12 @@
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
 #                1: {
-#                    $parentVal: Okay, theoretically, because I can resurrect you from the brink of death at your bed...
+#                    $parentVal: Окей, теоретически, раз я могу воскресить тебя прямо в постели...
 #                    E: Thinking
 #                }
 #
 #                2: {
-#                    $parentVal: What if- hear me out- we tied the bed to you. Boom, invincibility! Right? Right...
+#                    $parentVal: А что если... только подумай... мы привяжем тебя к кровати? Бац и ты неуязвим. Верно? Верно...
 #                    E: Happy
 #                }
 #            }
@@ -3347,11 +3347,11 @@
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
 #                1: {
-#                    $parentVal: Have you ever tried... using two weapons at once? Like, one weapon in each hand?
+#                    $parentVal: А ты пробовал... использовать два оружия одновременно? По одному в каждой руке?
 #                    E: Thinking
 #                }
 #
-#                2: You spend so much time in the air, your feet are open. Maybe we could quadruple our damage ou- It would be too difficult? I see. I guess I knew that.
+#                2: Ты же много времени проводишь в воздухе, поэтому ноги не защищены. Может, так урон вчетверо увеличим... Или это слишком сложно? Понятно. Так и думала.
 #            }
 #        }
 #
@@ -3359,8 +3359,8 @@
 #            Asphodene: {
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
-#                1: Yes, my hair does get a bit frazzled from time to time. Actually, Eri does my hair- could you tell?
-#                2: If I'm quick enough, I can leave the Observatory in the morning before she finds me. Heh.
+#                1: Да, волосы у меня иногда всклокочены. Вообще-то причёску мне делает Эри... разве не видно?
+#                2: Если шустро сработаю, смогу сбежать из Обсерватории утром, пока она не проснулась. Хе-хе.
 #            }
 #
 #            Eridani: {
@@ -3401,19 +3401,19 @@
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
 #                1: {
-#                    $parentVal: What I like? Waking up when I want to! Yes, I'd say that nears the top of the list.
+#                    $parentVal: Что мне нравится? Просыпаться, когда вздумается! Да, пожалуй, это на первом месте.
 #                    E: Happy
 #                }
 #
 #                2: {
-#                    $parentVal: Okay, it's a little vapid of me. I like fresh fruit too, is that better?
+#                    $parentVal: Ладно, признаю, звучит по-детски. А ещё я люблю свежие фрукты, как тебе такой ответ?
 #                    E: Thinking
 #                }
 #
-#                3: Oh, oh- magical food is the best. Once you've tried some, things aren't the same.
+#                3: Ох, ох... волшебная еда - это нечто. Попробовав раз, уже не можешь жить без неё.
 #
 #                4: {
-#                    $parentVal: Travelling is a blast, as well- if your heart doesn't flutter upon visiting new vistas, are you even alive?
+#                    $parentVal: Путешествия тоже взрывают мозг... если при виде новых пейзажей сердце не колотится, то ты вообще человек?
 #                    E: Happy
 #                }
 #            }
@@ -3422,14 +3422,14 @@
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
 #                1: {
-#                    $parentVal: Things that I like? Are you asking about banal things, or... Okay.
+#                    $parentVal: Что мне нравится? Хочешь узнать банальщину, или... Ладно.
 #                    E: Thinking
 #                }
 #
-#                2: Well, I do enjoy the night air. Surrounded by life and noise, yet everything's still. Right, tranquility and silence.
+#                2: Ну, мне нравится ночной воздух. Вокруг всё кипит, шумит, а ты стоишь посреди этого и тишина. Верно, спокойствие и тишина.
 #
 #                3: {
-#                    $parentVal: If you're looking for something more material, well... I concede, I have a bit of a sweet tooth.
+#                    $parentVal: А, ну если интересует что-то поконкретнее, материальное... Признаюсь, я сладкоежка.
 #                    E: Happy
 #                }
 #            }
@@ -5198,6 +5198,18 @@
 #                Eridani: Мы пока не можем это использовать.
 #            }
 #        }
+#
+#        FireflyTypeIV: {
+#            Unlocked: {
+#                Asphodene: With this Nova, I'll be able to fight alongside you on the front lines!
+#                Eridani: This Stellar Nova grants me access to a powerful mech suit, wherein I can assist you directly.
+#            }
+#
+#            Locked: {
+#                Asphodene: У нас пока нет к этому доступа.
+#                Eridani: Мы пока не можем это использовать.
+#            }
+#        }
 #    }
 #
 #    StellarNovaInfo: {
@@ -5252,7 +5264,6 @@
 #        GuardiansLight: {
 #            AbilityName: Страж света
 #            AbilitySubName: "[c/C0EEFF:Ясность воли странника]"
-#
 #            AbilityDescription: {
 #                Melee: Владейте паракаузальной энергией, используя множество способностей, зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя, Золотая пушка для стрелкового, Сверх бомба для магического, Шторм игл для призывного, а в остальных случаях Молчание и Шквал. Раскат грома: После активации даёт бафф «{$Buffs.BearerOfLight.DisplayName}» на 10 секунд и летите к курсору, нанося невероятно мощный урон первому врагу, с которым столкнётесь. При активации даёт неуязвимость на 3 секунды, независимо от продолжительности атаки.
 #                Ranged: Владейте паракаузальной энергией, используя множество способностей, зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя, Золотая пушка для стрелкового, Сверх бомба для магического, Шторм игл для призывного, а в остальных случаях Молчание и Шквал. Золотая пушка: После активации даёт бафф «{$Buffs.BearerOfLight.DisplayName}» на 10 секунд, высвобождая заряды пронзающего света. Пока активен «{$Buffs.BearerOfLight.DisplayName}», можно использовать Астронову во второй раз, чтобы повторить атаку, нанося 1/3 урона. Критические удары взрываются, нанося 50% базового урона.
@@ -5260,9 +5271,16 @@
 #                Summon: Владейте паракаузальной энергией, используя множество способностей, зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя, Золотая пушка для стрелкового, Сверх бомба для магического, Шторм игл для призывного, а в остальных случаях Молчание и Шквал. Шторм игл: После активации даёт бафф «{$Buffs.BearerOfDarkness.DisplayName}» на 10 секунд и высвобождает 5 сотканных игл. При попадании во врага или в поверхность, иглы превращаются в нитевиков и атакуют ближайших врагов (считаются миьонами). Урон делится между сотканными иглами и нитевиками.
 #                Other: Владейте паракаузальной энергией, используя множество способностей, зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя, Золотая пушка для стрелкового, Сверх бомба для магического, Шторм игл для призывного, а в остальных случаях Молчание и Шквал. Молчание и Шквал: После активации даёт бафф «{$Buffs.BearerOfDarkness.DisplayName}» на 10 секунд, а также использует Молчание, накладывая дебафф «{$BuffName.Frostburn}» на 8 секунд. Сразу после этого следует Шквал, наносящий урон и создающий морозное поле при ударе, которое наносит постепенный урон в течение 8 секунд.
 #            }
-#
 #            AstralBonus: "«{$Buffs.BearerOfLight.DisplayName}» увеличивает регенерацию здоровья. «{$Buffs.BearerOfDarkness.DisplayName}» снижает получаемый урон на 10%. При получении смертельного урона любой из баффов поглощается и восстанавливает 30 здоровья."
 #            UmbralBonus: «{$Buffs.BearerOfLight.DisplayName}» увеличивает урон на 8%. «{$Buffs.BearerOfDarkness.DisplayName}» увеличивает шанс критического удара на 15%. Пока активен любой из этих баффов, штраф к урону аспектного типа урона не применяется.
+#        }
+#
+#        FireflyTypeIV: {
+#            AbilityName: Светлячок тип-IV
+#            AbilitySubName: "[c/9EF78A:В наступившем дне, я расцвету во всей красе]"
+#            AbilityDescription: After a short delay, your Starfarer dons the Chrysalid Pyronexus and assists you in battle with powerful strikes. All Nova damage will inflict Hellfire for 4 seconds. After foes take a certain amount of Nova damage, they will trigger Complete Combustion, dealing 15% of the foe's Max HP as bonus damage, up to 2500% Stellar Nova damage. Critical Nova strikes inflict Complete Combustion much faster. Duration in seconds is proportional to Energy Cost divided by 8. (No Nova Energy while active)
+#            AstralBonus: Полное сгорание лечит на 5% от нанесённого урона, если применяется к боссу (максимум 100 здоровья за применение).
+#            UmbralBonus: Срабатывание Полного сгорания увеличивает длительность Chrysalid Pyronexus на 10 секунд (не более 40 секунд).
 #        }
 #
 #        # Не используется
@@ -6484,7 +6502,7 @@
 #    }
 #
 #    UnsulliedCanvas: {
-#        DisplayName: Незапятнанное полотно
+#        DisplayName: Незапятнанный холст
 #        Tooltip:
 #            '''
 #            Этот холст полон возможностей
@@ -6524,19 +6542,19 @@
 #        Tooltip:
 #            '''
 #            [c/8AC1F1:Это оружие обладает уникальным типом урона; наследует бонусы от всех классов урона]
-#            Holding this weapon activates it, granting the buff [c/EAC0ED:Catalyzed Blade], increasing movement speed by 10%
-#            Attacks with this weapon barrage foes with myriad stabs dealing 80% of base damage, with a 10% chance to fire a [c/F581FE:Shimmering Prism] that deals 50% of base damage
-#            The [c/F581FE:Shimmering Prism] pierces up to 3 foes and deals 30% extra damage to foes below 50% HP
-#            Right-click to conjure a [c/7B48CA:Dazzling Prismic] on your cursor that lasts for 20 seconds (1 minute cooldown)
-#            The [c/7B48CA:Dazzling Prismic] will shatter if too far away
-#            Gain 10% increased attack, 10 defense, and 10% movement speed when the [c/7B48CA:Dazzling Prismic] is present
-#            Taking damage will redirect 80% of the damage to the [c/7B48CA:Dazzling Prismic], up to 250 HP
-#            Once the HP threshold is reached, the [c/7B48CA:Dazzling Prismic] will shatter, granting [c/484CCA:Dazzling Aria] for 2 seconds
-#            [c/484CCA:Dazzling Aria] grants powerful health regeneration and increases defense by 50
-#            Press the Weapon Action Key when the [c/7B48CA:Dazzling Prismic] is present to launch the weapon towards it, shattering the [c/7B48CA:Dazzling Prismic]
-#            After shattering the [c/7B48CA:Dazzling Prismic] with this method, gain 70 HP instantly and additionally gain [c/FF61CA:Dazzling Bladedance] for 5 seconds
-#            [c/FF61CA:Dazzling Bladedance] increases melee speed by 30%
-#            The [c/7B48CA:Dazzling Prismic] will deal minor damage to foes caught in its radius after shattering for a short duration
+#            Держа это оружие в руках, даёт бафф [c/EAC0ED:Катализированный клинок], который увеличивает скорость передвижения на 10%
+#            Атаки этим оружием обрушивают на врагов мириады ударов, наносящих 80% базового урона, и с 10% шансом могут выстрелить [c/F581FE:Мерцающей призмой], которая наносит 50% базового урона
+#            [c/F581FE:Мерцающая призма] пронзает до 3 врагов и наносит на 30% больше урона врагам, у которых меньше 50% здоровья
+#            Нажмите <right>, чтобы призвать в позицию курсора [c/7B48CA:Ослепительную призму] на 20 секунд (перезарядка 1 минута)
+#            [c/7B48CA:Ослепительная призма] разрушается, если слишком далеко от неё отдалиться
+#            Пока [c/7B48CA:Ослепительная призма] призвана, она увеличивает урон на 10%, защиту на 10 и скорость передвижения на 10%
+#            При получении урона 80% этого урона перенаправляется на [c/7B48CA:Ослепительную призму], максимум до 250 здоровья
+#            По достижении этого порога [c/7B48CA:Ослепительная призма] разрушается, давая бафф [c/484CCA:Ослепительная ария] на 2 секунды
+#            [c/484CCA:Ослепительная ария] значительно ускоряет регенерацию здоровья и увеличивает защиту на 50
+#            Нажмите клавишу 'Действие оружия', когда [c/7B48CA:Ослепительная призма] активна, чтобы бросить в неё оружие, разрушив при этом [c/7B48CA:Ослепительную призму]
+#            После разрушения [c/7B48CA:Ослепительной призмы] мгновенно восстанавливает 70 здоровья и дополнительно даёт бафф [c/FF61CA:Ослепительный танец нлинков] на 5 секунд
+#            [c/FF61CA:Ослепительный танец нлинков] увеличивает скорость атаки ближнего боя на 30%
+#            После разрушения [c/7B48CA:Ослепительная призма] наносит незначительный урон врагам в радиусе поражения в течение короткого времени
 #            '''
 #    }
 #
@@ -6582,10 +6600,10 @@
 #        DisplayName: Багровая эпидемия
 #        Tooltip:
 #            '''
-#            Fires a highly accurate three round burst that inflicts [c/C70039:Nanite Plague]
-#            Enemies with [c/C70039:Nanite Plague] will take damage over time and will take more damage from this gun
-#            [c/C70039:Nanite Plague] stacks with every shot, and will increase damage taken by bullets further (Max 20 stacks)
-#            Crits on enemies afflicted with [c/C70039:Nanite Plague] will also deal triple damage
+#            Стреляет высокоточной очередью из 3 выстрелов, которые накладывают дебафф [c/C70039:{$Buffs.NanitePlague.DisplayName}]
+#            Враги, на которых наложен дебафф [c/C70039:{$Buffs.NanitePlague.DisplayName}] получают постепенный урон и больше урона от этого оружия
+#            [c/C70039:{$Buffs.NanitePlague.DisplayName}] суммируется с каждым выстрелом, увеличивая урон, наносимый пулями (максимум 20 стаков)
+#            Критические удары по врагам, на которых наложен дебафф [c/C70039:{$Buffs.NanitePlague.DisplayName}] наносят тройной урон
 #            '~директива = УБИТЬ пока они враги = ЗАПРОС: начать выполнение (директивы)~'
 #            '''
 #    }
@@ -7950,15 +7968,15 @@
 #        Tooltip:
 #            '''
 #            Атаки этого оружия совершают стремительные круговые взмахи на короткое расстояние
-#            Right click to unleash [c/DC3961:Edge of Anguish] (12 second cooldown)
-#            [c/DC3961:Edge of Anguish] will target the nearest enemy to your cursor and charge towards them
-#            Gain Invincibility for the duration of the dash and striking foes deals 300% damage
-#            Upon contact, inflict [c/FF3200:Infernal Hemorrhage] for 3 seconds, dealing powerful damage over time
-#            Additionally, deal 10% of the foe's missing HP as bonus true damage (Up to 2000)
-#            Critical strikes with this weapon's basic attacks reduce the cooldown of [c/DC3961:Edge of Anguish] by 1 second
-#            Allies striking foes under the influence of [c/FF3200:Infernal Hemorrhage] with projectiles grants Rage for 8 seconds
-#            Additionally, these attacks deal 2% of the foe's missing HP as bonus true damage (Up to 250)
-#            'From the depths of Noxian streets'
+#            Нажмите <right>, чтобы высвободить [c/DC3961:Грань страдания] (перезарядка 12 секунд)
+#            [c/DC3961:Грань страдания] выбирает ближайшего врага рядом с курсором и совершает стремительный рывок в его сторону
+#            Во время рывка вы неуязвимы, а ваши атаки по врагам наносят на 300% больше урона
+#            При контакте накладывает на врага дебафф [c/FF3200:{$Buffs.InfernalBleed.DisplayName}] на 3 секунды, наносящий мощный постепенный урон
+#            Кроме того, дополнительно наносит истинный урон в размере 10% от недостающего здоровья врага (максимум 2000)
+#            Критические удары обычными атаками этого оружия снижают время перезарядки [c/DC3961:Грани страдания] на 1 секунду
+#            Союзники, атакующие врагов снарядами на которых наложен дебафф [c/FF3200:{$Buffs.InfernalBleed.DisplayName}], получают бафф «{$BuffName.Rage}» на 8 секунд
+#            Кроме того, эти атаки наносят дополнительный истинный урон в размере 2% от недостающего здоровья врага (максимум 250)
+#            'Из тёмных переулков Ноксуса'
 #            '''
 #    }
 #
@@ -8145,7 +8163,7 @@
 #
 #    DragonEgg: {
 #        DisplayName: Драконье яйцо
-#        Tooltip: Summons a crimson dragonet
+#        Tooltip: Призывает багрового дракончика
 #    }
 #
 #    DustyCartridge: {
@@ -8155,14 +8173,14 @@
 #
 #    FerryLikeness: {
 #        DisplayName: Образ парома
-#        Tooltip: Summons a churning ferry
+#        Tooltip: Призывает дымящий паром
 #    }
 #
 #    FuneralPass: {
 #        DisplayName: Похоронный пропуск
 #        Tooltip:
 #            '''
-#            Summons the Funeral Director
+#            Призывает похоронного директора
 #            'Сайонара!'
 #            '''
 #    }
@@ -8171,8 +8189,8 @@
 #        DisplayName: Футуристичный призрак
 #        Tooltip:
 #            '''
-#            Summons a mysterious ghost
-#            Triggers a sound upon your death
+#            Призывает загадочное привидение
+#            Издаёт звук после вашей смерти
 #            '''
 #    }
 #
@@ -8180,9 +8198,9 @@
 #        DisplayName: Голографический жетон
 #        Tooltip:
 #            '''
-#            Summons the Detective Dog and Bubbled Shark
-#            Occupies both normal pet and light pet slots
-#            Equipping the item only summons the Bubbled Shark
+#            Призывает собаку-детектива и запузыренную акулу
+#            Занимает как обычный, так и слот для светящихся питомцев
+#            Экипировка предмета призывает только запузыренную акулу
 #            '''
 #    }
 #
@@ -8200,9 +8218,9 @@
 #        DisplayName: Загадочный монстрбол
 #        Tooltip:
 #            '''
-#            Summons the twin Mystic Hounds
-#            Occupies both normal pet and light pet slots
-#            Can't be equipped normally
+#            Призывает двух мистических гончих
+#            Занимает как обычный, так и слот для светящихся питомцев
+#            Нельзя экипировать обычным образом
 #            '''
 #    }
 #
@@ -12332,8 +12350,8 @@
 #    }
 #
 #    InfernalBleed: {
-#        DisplayName: Infernal Hemorrhage
-#        Description: Taking lethal damage over time
+#        DisplayName: Инфернальное кровоизлияние
+#        Description: Получение периодического смертельного урона
 #    }
 #
 #    InfernalEnd: {
@@ -12532,13 +12550,13 @@
 #    }
 #
 #    EdgeOfAnguish: {
-#        DisplayName: Edge of Anguish
+#        DisplayName: Грань страдания
 #        Description: ""
 #    }
 #
 #    EdgeOfAnguishCooldown: {
-#        DisplayName: Edge of Anguish Cooldown
-#        Description: When this debuff ends, you can use Edge of Anguish again
+#        DisplayName: Перезарядка грани страдания
+#        Description: Грань страдания не сработает, пока активен этот дебафф
 #    }
 #
 #    AlucardSwordBuff1: {
@@ -12577,7 +12595,7 @@
 #    }
 #
 #    NanitePlague: {
-#        DisplayName: Nanite Plague
+#        DisplayName: Нанитная чума
 #        Description: Потеря здоровья
 #    }
 #
@@ -13402,23 +13420,23 @@
 #    }
 #
 #    CatalystMemoryPrismicCooldown: {
-#        DisplayName: Dazzling Prismic Cooldown
-#        Description: Призыва Dazzling Prismic не сработает, пока активен этот дебафф
+#        DisplayName: Перезарядка ослепительной призмы
+#        Description: Призыв ослепительной призмы не сработает, пока активен этот дебафф
 #    }
 #
 #    CatalyzedBlade: {
-#        DisplayName: Catalyzed Blade
-#        Description: The empowered blade before you grants 10% increased movement speed
+#        DisplayName: Катализированный клинок
+#        Description: Усиленный клинок перед вами увеличивает скорость передвижения на 10%
 #    }
 #
 #    DazzlingAria: {
-#        DisplayName: Dazzling Aria
-#        Description: The shattered crystal grants 50 defense and powerful life regeneration
+#        DisplayName: Ослепительная ария
+#        Description: Расколотый кристалл увеличивает защиту на 50 и значительно ускоряет регенерацию здоровья
 #    }
 #
 #    DazzlingBladedance: {
-#        DisplayName: Dazzling Aria
-#        Description: The shattered crystal grants 30% increased attack speed
+#        DisplayName: Ослепительный танец клинков
+#        Description: Расколотый кристалл увеличивает скорость атаки на 30%
 #    }
 #
 #    ChronoclockMinionBuff: {
@@ -14464,6 +14482,11 @@
 #    ApostleBuff: {
 #        DisplayName: Апостол
 #        Description: ""
+#    }
+#    
+#    FireflyActive: {
+#        DisplayName: Firefly Type-IV
+#        Description: Your Starfarer has donned the Crysalid Pyronexus, assisting you in combat
 #    }
 #}
 #
