@@ -10312,7 +10312,7 @@
         LavaCrateHard: "{$CommonItemTooltip.RightClickToOpen}"
         LavaFishbowl: "'Нет, ты не можешь надеть его на голову'"
         LavaFishingHook: "{$CommonItemTooltip.LavaFishing}"
-        LavaMoss: 'Незабываемое зрелище, которое запомнится тебе навсегда'
+        LavaMoss: "'Незабываемое зрелище, которое запомнится тебе навсегда'"
         LavaRocket: Разбрызгивает лаву при столкновении
         LavaSkull:
             '''

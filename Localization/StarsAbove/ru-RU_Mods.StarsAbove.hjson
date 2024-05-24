@@ -2318,7 +2318,7 @@
 #
 #        QueenSlime: {
 #            Asphodene: {
-#                Name: Диалог Королевы слизней
+#                Name: Диалог о Королеве слизней
 #                Description: ""
 #                1: That's that. Queen Slime is defeated. What have we learned today? Apparently there's a royal court of slimes, and the King Slime wasn't just an outlier.
 #
@@ -2334,7 +2334,7 @@
 #            }
 #
 #            Eridani: {
-#                Name: Диалог Королевы слизней
+#                Name: Диалог о Королеве слизней
 #                Description: ""
 #                1: Right, we've defeated the Queen Slime. To be honest, I'm slightly curious: why are there 'kings' and 'queens' of the slime world?
 #
@@ -2396,7 +2396,7 @@
 #
 #        Thespian: {
 #            Asphodene: {
-#                Name: Диалог Театрала
+#                Name: Диалог о Театрале
 #                Description: ""
 #                1: Вот это была битва! Напомни мне, никогда больше не трогать странные зелья.
 #
@@ -2407,7 +2407,7 @@
 #            }
 #
 #            Eridani: {
-#                Name: Диалог Театрала
+#                Name: Диалог о Театрале
 #                Description: ""
 #                1: Looks like you came out of that fight with Thespian in one piece. What a curious phenomenon.
 #
@@ -2422,7 +2422,7 @@
 #    CalamityBossDialogue: {
 #        DesertScourge: {
 #            Asphodene: {
-#                Name: Desert Scourge Dialogue
+#                Name: Диалог о Пустынном биче
 #                Description: ""
 #                1: Ты одолел этого злобного змея. Но мне интересно... Откуда он взялся?
 #
@@ -2435,7 +2435,7 @@
 #            }
 #
 #            Eridani: {
-#                Name: Desert Scourge Dialogue
+#                Name: Диалог о Пустынном биче
 #                Description: ""
 #                1: Ты справился с бичом песчаных земель. Откуда он появился - я не знаю, да и ты, небось, тоже. Но...
 #                2: Очевидно, что это существо не было предназначено для рытья туннелей. Похоже, изначально оно было водным зверем. Так что же оно тут делало? Мир полон загадок...
@@ -2445,7 +2445,7 @@
 #
 #        Crabulon: {
 #            Asphodene: {
-#                Name: Crabulon Dialogue
+#                Name: Диалог о Крабулоне
 #                Description: ""
 #                1: Okay.. so that just happened. Now that I've got a better look at the corpse of this mushroom crab thing, the truth is revealed- and it's not pretty.
 #
@@ -2458,7 +2458,7 @@
 #            }
 #
 #            Eridani: {
-#                Name: Crabulon Dialogue
+#                Name: Диалог о Крабулоне
 #                Description: ""
 #                1: С Крабулоном покончено. Когда я впервые его увидела, то подумала, что это какой-то мутировавший морской зверь, вроде Пустынного бича.
 #
@@ -2473,14 +2473,14 @@
 #
 #        HiveMind: {
 #            Asphodene: {
-#                Name: Hive Mind Dialogue
+#                Name: Диалог о Разуме улья
 #                Description: ""
-#                1: The Hive Mind has been defeated. It isn't the only source of the Corruption, but killing it definitely didn't do the Corruption any favors.
-#                2: That's about it for now.
+#                1: Разум улья повержен. Он не был единственным источником искажения, но его уничтожение явно не улучшило ситуацию.
+#                2: На этом пока всё.
 #            }
 #
 #            Eridani: {
-#                Name: Hive Mind Dialogue
+#                Name: Диалог о Разуме улья
 #                Description: ""
 #                1: Ты избавил мир от Разума улья. Хотя он и не являлся главным источником искажения, подавление его влияния, вероятно, помогло остановить дальнейшее распространение зла.
 #                2: Важно теперь внимательно следить за потенциальными угрозами, которые может нести в себе искажение.
@@ -2693,14 +2693,14 @@
 #
 #        PlaguebringerGoliath: {
 #            Asphodene: {
-#                Name: Plaguebringer Goliath Dialogue
+#                Name: Диалог о Разносчице чумы, Голиаф
 #                Description: ""
-#                1: Nice, you've bested the Plaguebringer Goliath. The ingenuity of man never ceases to amaze, even if their knowledge usually is imparted in hyper-active death machines.
-#                2: Well, what can you do. There's people like us here to take care of that part.
+#                1: Отлично, ты одолел Разносчицу чумы, Голиаф. Человеческая изобретательность не перестаёт поражать, даже если она чаще всего рождает гиперактивные машины смерти.
+#                2: Ну что ж, таковы реалии. На то и мы здесь, чтобы с этим разбираться.
 #            }
 #
 #            Eridani: {
-#                Name: Plaguebringer Goliath Dialogue
+#                Name: Диалог о Разносчице чумы, Голиаф
 #                Description: ""
 #
 #                1: {
@@ -2719,22 +2719,22 @@
 #
 #        Ravager: {
 #            Asphodene: {
-#                Name: Ravager Dialogue
+#                Name: Диалог о Разрушителе
 #                Description: ""
 #
 #                1: {
-#                    $parentVal: The Ravager is gone from this world. It was concieved in retaliation against the conquests of the Jungle Tyrant, but it evidently did little in that regard.
+#                    $parentVal: Разрушитель канул в небытие. Сотворённый в пылу мести против Тирана джунглей, он, судя по всему, не добился желаемого.
 #                    E: Angry
 #                }
 #
 #                2: {
-#                    $parentVal: At the very least, we could finally stop it. If this is what humans were led to, what truly happened all those years ago that could lead to such desperation?
+#                    $parentVal: Но нам, по крайней мере, удалось его остановить. Если это плод отчаяния людей, то что же произошло много лет назад, чтобы довести их до такого состояния?
 #                    E: Angry
 #                }
 #            }
 #
 #            Eridani: {
-#                Name: Ravager Dialogue
+#                Name: Диалог о Разрушителе
 #                Description: ""
 #
 #                1: {
@@ -2790,20 +2790,20 @@
 #
 #    BossItemDialogue: {
 #        VagrantAsphodene: {
-#            Name: Shattered Disk Item Dialogue
+#            Name: Диалог о разбитом диске
 #            Description: Даёт предмет для призыва босса
-#            1: Hang on- I have something you might be interested in. I can't recall how I came across it, but...
+#            1: Погоди-ка... У меня есть кое-что, что тебе наверняка будет интересно. Не помню, где я это нашла, но...
 #
 #            2: {
-#                $parentVal: It feels like I should know what it is, but I just can't- kind of like it's stopping me from doing so.
+#                $parentVal: Такое чувство, что я должла знать, что это, но не могу... Словно что-то мешает.
 #                E: Worried
 #            }
 #
-#            3: At least that tells me one thing- it's important! I'd prefer you examine it as soon as you are able. No pressure. Okay, a little pressure.
+#            3: Ну, ясно одно... это важно! Лучше бы тебе на это поскорее взглянуть. Без спешки, конечно. Ну, разве что совсем чуть-чуть.
 #        }
 #
 #        VagrantEridani: {
-#            Name: Shattered Disk Item Dialogue
+#            Name: Диалог о разбитом диске
 #            Description: Даёт предмет для призыва босса
 #            1: Погоди немного. Я забыла упомянуть об этом ранее, но у меня есть кое-что для тебя... Может, ты поможешь мне выяснить, откуда это.
 #            2: Это выглядит так знакомо, и всё же что-то мешает мне вспомнить, что это. Как же это раздражает. Я даже не могу вспомнить, когда я его получила.
@@ -2813,30 +2813,30 @@
 #                E: Happy
 #            }
 #
-#            4: Who is 'they' you ask? Well, I never quite figured that one out.
+#            4: Кто это 'говорит', спрашиваешь? Ну, вот этого я так и не поняла.
 #        }
 #
 #        Nalhaun: {
-#            Name: Burnished Crown Dialogue
+#            Name: Диалог о воронёной короне
 #            Description: Даёт предмет для призыва босса
 #
 #            1: {
-#                $parentVal: We meet again, {0}. Again, I have another foe for you to defeat.
+#                $parentVal: "{0}, судьба вновь сводит нас вместе. И снова у меня есть враг, которого тебе предстоит победить."
 #                E: PerseusNeutral
 #            }
 #
 #            2: {
-#                $parentVal: I've given you the 'Ancient Crown.' With it, you can call forth a powerful foe, the Burnished King.
+#                $parentVal: Я даю тебе 'Древнюю корону'. С её помощью ты сможешь призвать могущественного врага - Воронёного короля.
 #                E: PerseusNeutral
 #            }
 #
 #            3: {
-#                $parentVal: If my hypothesis is correct, his defeat will resonate a clue towards the First Starbearer's location.
+#                $parentVal: Если моя гипотеза верна, его поражение укажет на путь к Первому звездоносцу.
 #                E: PerseusNeutral
 #            }
 #
 #            4: {
-#                $parentVal: Prepare yourself: this fight will not be easy.
+#                $parentVal: Приготовься: битва будет не из лёгких.
 #                E: PerseusNeutral
 #            }
 #        }
@@ -3269,7 +3269,7 @@
 #                1: Помни, в бою важно сохранять хладнокровие.
 #
 #                2: {
-#                    $parentVal: "'В беспорядке и хаосе можно найти возможности для успеха.'"
+#                    $parentVal: "'Даже в самых хаотичных и трудных ситуациях можно найти возможности для успеха.'"
 #                    E: Smug
 #                }
 #
@@ -3978,9 +3978,9 @@
 #            122: Well, no time like the present. His arsenal revolves around invader events- we've seen our share of those.
 #            123: Oh, you just HAD to throw that thing into lava, did you? Well, good luck, because Mutant is pissed. Didn't see that coming- wait, I did.
 #            124: The Storm Flare has called something down! Hmm? It looks to be lightning-aspected.
-#            125: Some sort of jellyfish monster is approaching. It looks like there's someone trapped inside..?
-#            126: It's a giant vampire bat! Mind yourself...
-#            127: The cavern's energy has congealed into a monster! What in the world..?
+#            125: Приближается монстр, похожий на медузу. Внутри, похоже, кто-то пленён?..
+#            126: Огромная летучая мышь-вампир! Берегись...
+#            127: Пещерная энергия материализовалась в монстра! Что за?..
 #            128: A knight has arisen from the marble cave! Look out- it's prepared to fight!
 #            129: It's an alien spaceship! It looks like it'll be stronger on low HP!
 #            130: Do you see that..? It looks like a giant snow spider! Let's kill it quickly..
@@ -4114,10 +4114,10 @@
 #
 #            4: {
 #                Dialogue: {
-#                    0: Okay, where to start... The Spatial Disk you used to form the contract can be used to access the Stellar Array, which provides abilities after defeating strong enemies. Nice, right?
-#                    1: The Spatial Disk can do a lot of other things, but for now, the Stellar Array is the most important. Remember to check it often!
-#                    2: One last thing.. I can turn energy from other worlds into direct power in the form of Essences. Combining these with other materials should be enough to create powerful Aspected Weapons.
-#                    3: Right, that should be everything. Let's get out there.
+#                    0: Хорошо, с чего начать... Пространственный диск, который ты использовал для заключения контракта, можно использовать для доступа к Звёздому ряду, который даёт способности после победы над могущественными врагами. Круто, правда?
+#                    1: Пространственный диск умеет многое другое, но пока Звёздный ряд — самое важное. Не забывай почаще его проверять!
+#                    2: И последнее... Я могу преобразовать энергию других миров в прямую силу в виде эссенций. Их сочетание с другими материалами позволит создать мощное Аспектное оружие.
+#                    3: Ну вот, кажется, всё. Пора за дело.
 #                    4: ""
 #                }
 #
@@ -4195,13 +4195,13 @@
 #                    10: В твоём нынешнем состоянии у тебя мало шансов противостоять им. Тем не менее, несмотря на то, что Эридани не подозревает об этом, у всех Астр есть козырь в рукаве: Астронова.
 #                    11: Я уже передал ей свою силу, как только ты победил в нашем поединке.
 #                    12: На этом всё. Мне нужно продолжать следить за Первым звездоносцем. Удачи. Скоро ты мне понадобишься.
-#                    13: I know he's a loner, but.. I wish we could have spoken more. Stay safe, Perseus. I can't help but feel he's hiding something from me, though. Just me?
-#                    14: Anyways, he was right. I do feel stronger- and my hair's gone all shiny! This power should be an amazing boon going forward.
-#                    15: Looks like my Stellar Nova is called 'Prototokia Aster.' Perhaps we'll get to use some more once we defeat more powerful foes?
-#                    16: After binding the Stellar Nova Key, you should be able to equip the Stellar Nova through the Spatial Disk, like usual.
-#                    17: You should have some Prismatic Cores already. With their power, I theorize you can upgrade Stellar Novas with crafting.
-#                    18: This is important. You need Stellar Nova Energy to cast Novas. You gain Nova energy in combat, and it depletes outside of combat.
-#                    19: OK. A lot has happened, but this is a huge step forward for us. Please use the Novas well! Bye for now.
+#                    13: Я понимаю, что он одиночка, но... Мне жаль, что мы не смогли больше поговорить. Береги себя, Персей. Хотя я не могу отделаться от мысли, что он что-то от меня скрывает. Не я одна?
+#                    14: И ведь он был прав. Я действительно чувствую себя сильнее... и волосы стали роскошными! Эта сила станет настоящим благом в будущем.
+#                    15: Похоже, моя Астронова называется 'Прототокия Астер'. Интересно, а нам откроются другие, когда мы одолеем более могущественных врагов?
+#                    16: Как только назначишь клавишу 'Астроновы' сможешь экипировать её через пространственный диск, как и раньше.
+#                    17: Должно быть, у тебя уже есть несколько призматических ядер. Думаю, с их помощью ты можешь улучшать Астроновы во время ремесла.
+#                    18: Это очень важно. Для применения Астроновы необходима энергия. Она накапливается в бою и тратится вне боя.
+#                    19: Окей. Вроде всё, информации много, но это большой шаг вперёд. Пожалуйста, используй Астроновы умело! До встречи.
 #                    20: ""
 #                }
 #
@@ -6003,17 +6003,17 @@
 #            '''
 #            Один из легендарных нарядов из былых легенд
 #            Экипирование на Астру даёт следующие эффекты:
-#            [c/E69DE9:The Promised Star]
-#            Gain 1 Stellar Nova Energy upon defeating foes
-#            When your Stellar Nova Gauge is below 50%, gain 1 additional Stellar Nova Energy
-#            [c/73E096:A Midsummer Night's Dream]
-#            Gain an extra Stellar Array Energy point
-#            [c/A185AD:Fleeting Memories]
-#            Taking damage inflicts Vulnerable for 4 seconds, halving defense
-#            [c/A176F1:Long Sought Paradise]
-#            After defeating a boss, gain [c/E1A8F3:Lucent Bliss] for 2 minutes
-#            [c/E1A8F3:Lucent Bliss] drastically increases maximum Luck and grants 200% base Luck
-#            'Perfect for escapades in dreamland'
+#            [c/E69DE9:Обещанная звезда]
+#            Даёт 1 едиинцу энергии Астроновы за убийство врагов
+#            Если индикатор энергии Астроноы ниже 50%, вы получаете дополнительно 1 единицу энергии Астроновы
+#            [c/73E096:Сон в летнюю ночь]
+#            Даёт дополнительный пункт энергии Астроновы
+#            [c/A185AD:Мимолётные воспоминания]
+#            При получении урона накладывает дебафф «{$Buffs.Vulnerable.DisplayName}» на 4 секунды, снижая защиту вдвое
+#            [c/A176F1:Долгожданный Рай]
+#            После победы над боссом даёт бафф [c/E1A8F3:{$Buffs.LucentBliss.DisplayName}] на 2 минуты
+#            [c/E1A8F3:{$Buffs.LucentBliss.DisplayName}] значительно увеличивает максимальный показателей удачи и даёт 200% базовой удачи
+#            'Идеально подходит для приключений в стране грёз'
 #            '''
 #    }
 #
@@ -7609,15 +7609,15 @@
 #        DisplayName: Игницион Астра
 #        Tooltip:
 #            '''
-#            REMOVED WEAPON
-#            Wielding this blade will suffuse your surroundings with the power of the Astral or Umbral Aspect
-#            Switch between aspects with right click (2 second cooldown)
-#            During [c/5dc2e3:Astral Aspect], striking foes will restore a portion of mana
-#            During [c/5dc2e3:Astral Aspect], Mana will be regenerated passively at an increased rate
-#            During [c/5dc2e3:Astral Aspect], Attack will be halved, but defenses will be raised
-#            During [c/b03fed:Umbral Aspect], every attack will swing the blade twice in a wide arc and additionally summon a myriad of astral projectiles to descend from the heavens
-#            During [c/b03fed:Umbral Aspect], foes struck with the blade will be cursed with Starblight permanently until they are defeated
-#            During [c/b03fed:Umbral Aspect], Mana will be continuously drained and Mana regeneration will be disabled, but attack will be increased
+#            УДАЛЁННОЕ ОРУЖИЕ
+#            Владение этим клинком наполняет окружающую среду силой Астрального или Теневого аспекта
+#            Переключайтесь между аспектами нажатием <right> (перезарядка 2 секунды)
+#            Во время [c/5dc2e3:Астрального аспекта] удары по врагам восстанавливают часть маны
+#            Во время [c/5dc2e3:Астрального аспекта] мана пассивно восстанавливается с увеличенной скоростью
+#            Во время [c/5dc2e3:Астрального аспекта] атаки наносят вдвое меньше урона, но защита увеличивается
+#            Во время [c/b03fed:Теневого аспекта] каждая атака наносит два удара клинком, а также вызывает множество астральных снарядов, падающих с небес
+#            Во время [c/b03fed:Теневого аспекта] враги, поражённые клинком, будут постоянно прокляты дебаффом «{$Buffs.Starblight.DisplayName}» до их поражения
+#            Во время [c/b03fed:Теневого аспекта] мана будет непрерывно расходоваться, а её восстановление будет отключено, но атаки будут сильнее
 #            'Вселенная стоит на грани гибели. Виной всему - Игницион Астра'
 #            '''
 #    }
@@ -7762,15 +7762,15 @@
 #        DisplayName: Огненная заря освобождения
 #        Tooltip:
 #            '''
-#            Swapping to this weapon grants the buff '[c/FF2B2B:Core of Flames]' for 20 seconds
-#            This buff has a 2 minute cooldown, beginning when [c/FF2B2B:Core of Flames] is applied
-#            When you are under the influence of [c/FF2B2B:Core of Flames] attacks cause a massive explosion on contact, burning foes for 3 seconds
-#            When the weapon is held without [c/FF2B2B:Core of Flames] active, you will be burned until the blade is stowed
-#            Right click to unleash [c/AD2500:Scarlet Outburst], spraying powerful flames around you as well as granting Invincibility for 2 seconds
-#            [c/AD2500:Scarlet Outburst] inflicts 50 unmitigatable self damage and burns you for 8 seconds
-#            [c/AD2500:Scarlet Outburst] can not be used when you are below 50 HP or if you are currently burning
-#            Below 100 HP, you gain drastic Health Regeneration when burning and [c/FF2B2B:Core of Flames] is active
-#            This healing is only applicable with this weapon held
+#            При переключении на это оружие вы получаете бафф [c/FF2B2B:Сердце пламени] на 20 секунд
+#            [c/FF2B2B:Сердце пламени] имеет 2 минуты перезарядки, начиная с момента его применения
+#            Во время действия [c/FF2B2B:Сердца пламени] ваши атаки вызывают мощный взрыв при попадании, поджигая врагов на 3 секунды
+#            Если держать это оружие без активного [c/FF2B2B:Сердца пламени], вы будете получать урон от горения до тех пор, пока клинок не будет убран
+#            Нажмите <right>, чтобы высвободить [c/AD2500:Алый всплеск], извергая вокруг себя мощные огненные вспышки и получая неуязвимость на 2 секунды
+#            [c/AD2500:Алый всплеск] наносит вам 50 единиц неизбежного урона и поджигает на 8 секунд
+#            [c/AD2500:Алый всплеск] нельзя использовать, если у вас меньше 50 здоровья или если вы уже горите
+#            При здоровье ниже 100 вы получаете усиленную регенерацию здоровья, когда горите и [c/FF2B2B:Сердце пламени] активно
+#            Это восстановление здоровья применимо только когда вы держите это оружие в руках
 #            'Боритесь за свободу этого мира'
 #            '''
 #    }
@@ -7779,10 +7779,10 @@
 #        DisplayName: Безжалостный свет
 #        Tooltip:
 #            '''
-#            Will fire a blade of light that will deal double damage and burn foes with 50 mana if mana is available
-#            Right click to unleash your inner potential, gaining the unrivaled strength of [c/F1AF42:Limit Break] for 20 seconds (1 minute cooldown)
-#            While under the influence of [c/F1AF42:Limit Break], health will be converted to mana without limit until mana is full
-#            Additionally, all damage is increased by 10% and all magic damage is increased by an additional 100%
+#            Выпускает клинок света, который наносит двойной урон и поджигает врагов при наличии 50 маны
+#            Нажмите <right>, чтобы раскрыть свой внутренний потенциал и обрести невиданную силу [c/F1AF42:Крушения лимитов] на 20 секунд (перезарядка 1 минута)
+#            Под действием [c/F1AF42:Крушения лимитов] здоровье будет неограниченно превращаться в ману до тех пор, пока мана не будет полностью восстановлена
+#            Кроме того, весь урон увеличивается на 10%, а весь магический урон - дополнительно на 100%
 #            'Я превзойду тебя!'
 #            '''
 #    }
@@ -7801,12 +7801,12 @@
 #        DisplayName: Мемуары шахтёра
 #        Tooltip:
 #            '''
-#            "After the last shipment. Sat and waited until extraction. He always liked this part."
-#            "'This is the only respite we can afford.' Talked big. Didn't save him."
-#            "Word says they went bankrupt. Can't afford to send us home. That's fine."
-#            "I already sent my last check over. They're in good hands, I tell myself."
-#            "Another lie. Like the others."
-#            The rest is illegible
+#            'После последней перевозки сел и ждал, пока всё выгрузят. Ему всегда нравился этот момент'
+#            'Это - единственный перерыв, который мы можем себе позволить', говорил здоровяк. А я не спас его
+#            'Ходят слухи, что они банкроты. Не могут отправить нас домой. Просто прекрасно'
+#            'Я уже отослал свою последнюю зарплату. Она в хороших руках, говорю я себе'
+#            'И снова лгу. Как и остальные'
+#            Остальная часть текста неразборчива
 #            '''
 #    }
 #
@@ -7814,8 +7814,8 @@
 #        DisplayName: Мемуары шахтёра 1
 #        Tooltip:
 #            '''
-#            [Part 1 of 2]
-#            Consume to unlock the story 'System.Func`1[System.String]' in the Archive
+#            [Часть 1 из 2]
+#            Используйте, чтобы разблокировать историю 'System.Func`1[System.String]' в Архиве
 #            Можно продать по высокой цене
 #            '''
 #    }
@@ -7890,7 +7890,7 @@
 #        DisplayName: Изобилующая цветами чернильница
 #        Tooltip:
 #            '''
-#            A bouquet of magical pigments
+#            Волшебная палитра красок
 #            Используется для создания '{$Items.PenthesileaMuse.DisplayName}'
 #            '''
 #    }
@@ -9125,17 +9125,17 @@
 #        Tooltip:
 #            '''
 #            [c/F7D76A:Удерживайте <left>, чтобы зарядить оружие; если оружие полностью заряжено, тип атаки изменится]
-#            Uncharged attacks will alternate between [c/C2E6C1:Mortal Steel] and [c/F10079:Spirit Azakana]
-#            [c/C2E6C1:Mortal Steel] has a 50% critical hit rate independent of other crit calculations
-#            [c/F10079:Spirit Azakana] has no knockback and can not crit but deals half of the damage again as true damage
-#            Charged attacks consume 30 mana and change depending on the preluding slash
-#            If the last attack was [c/C2E6C1:Mortal Steel], the charge attack will inflict Mortal Wounds, which deals damage over time for 10 seconds
-#            If the last attack was [c/F10079:Spirit Azakana], the charge attack will deal 2000% critical damage to Mortally Wounded foes and purge the debuff
-#            Right click to consume 40 mana to perform [c/8E60D1:Soul Unbound]
-#            [c/8E60D1:Soul Unbound] will launch you forwards and grant movement speed for 8 seconds
-#            Once [c/8E60D1:Soul Unbound] ends, all nearby foes take damage equal to 1/3 of damage you inflicted with this weapon during [c/8E60D1:Soul Unbound]
-#            Once [c/8E60D1:Soul Unbound] ends, you will be forced to return to the position where [c/8E60D1:Soul Unbound] was casted, and attacks will be disabled
-#            [c/8E60D1:Soul Unbound] has a 22 second cooldown
+#            Незаряженные атаки чередуются между [c/C2E6C1:Сталью смертного] и [c/F10079:Духом Азаканы]
+#            [c/C2E6C1:Сталь смертного] имеет 50% шанс критического удара, независимо от других расчетов критического удара
+#            [c/F10079:Дух Азаканы] не имеет отбрасывания и не может наносить критические удары, но наносит повторно половину урона в виде истинного урона
+#            Заряженные атаки расходуют 30 маны и меняются в зависимости от предыдущей атаки
+#            Если последней атакой была [c/C2E6C1:Сталь смертного], заряженная атака наложит дебафф «{$Buffs.MortalWounds.DisplayName}», наносящий постепенный урон в течение 10 секунд
+#            Если последней атакой была [c/F10079:Дух Азаканы], заряженная атака нанесёт 2000% критического урона врагам, на которых наложен дебафф «{$StarsAbove.Buffs.MortalWounds.DisplayName}» одновременно снимая этот дебафф
+#            Нажмите <right>, чтобы потратить 40 маны и выполнить [c/8E60D1:Освобождённую душу]
+#            [c/8E60D1:Освобождённая душа] запустит вас вперёд и увеличит скорость передвижения на 8 секунд
+#            По окончании [c/8E60D1:Освобождённой души] все ближайшие враги получат урон, равный 1/3 урона, который вы нанесли этим оружием во время [c/8E60D1:Освобождённой души]
+#            По окончании [c/8E60D1:Освобождённой души] вы принудительно вернётесь на место, где была использована [c/8E60D1:Освобождённая душа], и атаки будут отключены
+#            [c/8E60D1:Освобождённая душа] имеет 22 секунды перезарядки
 #            'Один для людей, второй для демонов'
 #            '''
 #    }
@@ -9156,19 +9156,19 @@
 #        DisplayName: Алый демон
 #        Tooltip:
 #            '''
-#            Holding this weapon prevents natural Mana Regeneration
-#            Attacks with this weapon will execute a three-hit combo attack
-#            Striking foes with the final swing of the combo attack will grant 15 Mana and inflict [c/B81E1E:Crimson Mark] for 12 seconds
-#            Right click to activate [c/F13791:Warp Strike] with 30 Mana, throwing the weapon towards your cursor while disabling normal attacks
-#            Striking a tile with [c/F13791:Warp Strike] will teleport you to the tile
-#            Striking a foe with [c/F13791:Warp Strike] will teleport you to their position and execute an attack, dealing 200% damage
-#            Additionally, this grants 1 second of Invincibility
-#            Striking a foe with [c/B81E1E:Crimson Mark] with the [c/F13791:Warp Strike] will grant one stack of [c/F48080:Spectral Arsenal], up to 3
-#            Additionally, this removes the [c/B81E1E:Crimson Mark]
-#            Each stack of [c/F48080:Spectral Arsenal] will cause a follow up blade to attack nearby foes for a short duration when executing normal attacks
-#            With 3 stacks of [c/F48080:Spectral Arsenal], right click will instead activate [c/C80000:Retribution], costing no Mana
-#            [c/C80000:Retribution] consumes all [c/F48080:Spectral Arsenal] stacks to summon a barrage of spectral blades towards your cursor for 3 seconds
-#            'I'm afraid you're out of luck'
+#            Держа это оружие в руках, предотвращает естественное восстановление маны
+#            Атаки этим оружием выполняют комбо-атаку из трёх ударов
+#            Завершающий удар комбо-атаки по врагу восполняет 15 маны и накладывает на него [c/B81E1E:Багряную метку] на 12 секунд
+#            Нажмите <right>, чтобы активировать [c/F13791:Молниеносный удар] за 30 маны, бросая оружие в направлении курсора и отключая обычные атаки
+#            Попадание по блоку [c/F13791:Молниеносным ударом] телепортирует вас на этот блок
+#            Попадание по врагу [c/F13791:Молниеносным ударом] телепортирует вас на его позицию и наносит 200% урона
+#            Кроме того, вы получаете 1 секунду неуязвимости
+#            Попадание по врагу с [c/B81E1E:Багряной меткой] с использованием [c/F13791:Молниеносного удара] даёт один стак [c/F48080:Спектрального арсенала], максимум 3 стака
+#            Кроме того, это снимает [c/B81E1E:Багряную метку]
+#            Каждый стак [c/F48080:Спектрального арсенала] при обычных атаках вызывает дополнительный клинок, который атакует ближайших врагов в течение короткого времени
+#            При наличии 3 стаков [c/F48080:Спектрального арсенала], нажатие <right> активирует [c/C80000:Воздаяние] без затрат маны
+#            [c/C80000:Воздаяние] расходует все стаки [c/F48080:Спектрального арсенала] и вызывает шквал спектральных клинков в направлении курсора в течение 3 секунд
+#            'Боюсь, вам не повезло'
 #            '''
 #    }
 #
@@ -11373,22 +11373,22 @@
 #        Tooltip:
 #            '''
 #            20 урона от метки призывателя
-#            Holding this weapon grants [c/9C936F:Degraded Singularity], increasing critical strike damage by 10% against foes with summon tag damage (Does not include [c/FAE88E:Fairy])
-#            Attacks with this weapon inflict [c/FAE88E:Fairy] for 3 seconds
+#            Держа это оружие в руках, даёт [c/9C936F:Ослабленную сингулярность], которая увеличивает урон от критического удара на 10% против врагов с меткой призывателя (не распространяется на [c/FAE88E:Метку феи])
+#            Атаки этого оружия накладывают [c/FAE88E:Метку феи] на 3 секунды
 #            [c/FAE88E:Fairy] acts as a special variant of summon tag damage that affects all weapons
-#            Right click to activate an ability, cycling between [c/9C936F:Degraded Lock], [c/9C936F:Degraded Chain], and [c/9C936F:Degraded Pillar] (6 second cooldown)
-#            [c/9C936F:Degraded Lock]: Damage foes centered on your cursor and reduce their attack by 90% for 2 seconds
-#            [c/9C936F:Degraded Chain]: Damage to all nearby foes while inflicting [c/EEC152:Ensnared] for 2 seconds, stunning non-boss foes
-#            [c/9C936F:Degraded Pillar]: Fire a fast piercing pillar towards your cursor that deals a guaranteed critical strike
-#            In Multiplayer, if all allies are dead and a boss is active, gain [c/F9C9AB:Singularity Resonance]
-#            In Singleplayer, gain [c/F9C9AB:Singularity Resonance] when below 100 HP if max HP is 400 or more while a boss is active
-#            Press the Weapon Action Key when [c/F9C9AB:Singularity Resonance] is active to unleash [c/FFC558:Embodied Singularity], replacing [c/9C936F:Degraded Singularity]
-#            Once active, [c/FFC558:Embodied Singularity] persists until death, combat ends, or this weapon is no longer held
-#            [c/FFC558:Embodied Singularity] increases all damage by 400%, critical strike damage by 150%, and afflicts all nearby foes with [c/FAE88E:Fairy], but reduces defense to 0
-#            Additionally, [c/9C936F:Degraded] ability cooldowns are reduced to 2 seconds
-#            During this time, periodically unleash [c/FFC558:Embodied Shockwave] every 6 seconds
-#            [c/FFC558:Embodied Shockwave] deals 400% critical damage to all nearby foes while inflicting [c/EEC152:Ensnared] for 1 second, and grants Invincibility for 1 second
-#            'Now, sink into everlasting quietude'
+#            Нажмите <right>, чтобы активировать способность, переключаясь между [c/9C936F:Ослабленным заточением], [c/9C936F:Ослабленной цепью] и [c/9C936F:Ослабленной колонной] (перезарядка 6 секунд)
+#            [c/9C936F:Ослабленное заточение]: Наносит урон врагам в центре вашего курсора и снижает их атаку на 90% на 2 секунды
+#            [c/9C936F:Ослабленная цепь]: Наносит урон всем ближайшим врагам, накладывает дебафф [c/EEC152:Скованный] на 2 секунды и оглушает врагов, не являющихся боссами
+#            [c/9C936F:Ослабленная колонна]: Запускает быструю пронзающую колонну в сторону курсора, которая гарантированно наносит критический удар
+#            В мультиплеере, если все союзники погибли, пока босс жив, вы получите [c/F9C9AB:Резонанс сингулярности]
+#            В одиночной игре, когда здоровье ниже 100, а максимальный запас здоровья 400 или больше, пока босс жив, вы получите [c/F9C9AB:Резонанс сингулярности]
+#            Нажмите клавишу 'Действие оружия', когда [c/F9C9AB:Резонанс сингулярности] активен, чтобы высвободить [c/FFC558:Воплощение сингулярности], заменив [c/9C936F:Ослабленную сингулярность]
+#            После активации [c/FFC558:Воплощение сингулярности] действует до смерти, окончания боя или до тех пор, пока это оружие не будет сменено
+#            [c/FFC558:Воплощение сингулярности] увеличивает весь наносимый урон на 400%, критический урон на 150% и накладывает на всех ближайших врагов [c/FAE88E:Метку феи], но при этом снижает защиту до 0
+#            Кроме того, снижает перезарядку [c/9C936F:Ослабленной] способности на 2 секунды
+#            В течение этого времени каждые 6 секунд периодически высвобождается [c/FFC558:Воплощение ударной волны]
+#            [c/FFC558:Воплощение ударной волны] наносит 400% критического урона всем ближайшим врагам, накладывает дебафф [c/EEC152:Скованный] на 1 секунду и даёт неуязвимость на 1 секунду
+#            'И ныне в безмолвье вечное уйди'
 #            '''
 #    }
 #
@@ -11431,19 +11431,19 @@
 #    }
 #
 #    OutbackWrangler: {
-#        DisplayName: Outback погонщик
+#        DisplayName: Укротитель дикой местности
 #        Tooltip:
 #            '''
 #            [c/D294FF:Воспоминание оружия]
 #            Миньоны атакуют врагов, поражённых этим оружием
-#            Нажмите клавишу 'Воспоминание оружия', чтобы обнулить ману и уничтожить всех миньонов (перезарядка 20 секунр)
+#            Нажмите клавишу 'Воспоминание оружия', чтобы обнулить ману и уничтожить всех миньонов (перезарядка 20 секунд)
 #            За каждого уничтоженного миньона вы получаете гарантированный критический удар (миньон должен занимать слоты призываемых миньонов)
 #            'Ну, ладно, наверное, сгодится'
 #            '''
 #        TooltipAttached:
 #            '''
 #            Миньоны атакуют врагов, поражённых этим оружием
-#            Нажмите клавишу 'Воспоминание оружия', чтобы обнулить ману и уничтожить всех миньонов (перезарядка 20 секунр)
+#            Нажмите клавишу 'Воспоминание оружия', чтобы обнулить ману и уничтожить всех миньонов (перезарядка 20 секунд)
 #            За каждого уничтоженного миньона вы получаете гарантированный критический удар (миньон должен занимать слоты призываемых миньонов)
 #            '''
 #    }
@@ -11579,43 +11579,43 @@
 #        Tooltip:
 #            '''
 #            [c/8AC1F1:Это оружие обладает уникальным типом урона; наследует бонусы от всех классов урона с 70% эффективностью, а от модификаторов шанса критического удара 150%]
-#            Держа это оружие в руках, даёт бафф [c/E2DEB5:Пророк чумы] (Вы не можете атаковать этим оружием, пока наложен бафф [c/E2DEB5:Пророк чумы])
-#            Во время действия [c/E2DEB5:Пророка чумы], нажмите <right>, чтобы [c/F7D76A:Крестить] жителя или игрока на 10 минут
-#            Press the Weapon Action Key while under the effect of [c/E2DEB5:Plague's Prophet] to ascend into [c/FFD23B:Paradise Lost]
-#            While in [c/FFD23B:Paradise Lost] state, damage can not be taken, but health drains over time and health regeneration is disabled (Ends prematurely if health drops below 10)
-#            Additionally, all nearby foes are inflicted with [c/D18888:Theophobia], reducing their damage by 20%
-#            Upon ascension, all [c/F7D76A:Baptised] town NPCs will transform into [c/EC9797:Apostles] and will be moved to your location ([c/F7D76A:Baptised] players will not be moved)
-#            [c/EC9797:Apostles] deal 50 more base damage with their attacks and have 400% increased defense; [c/EC9797:Apostles] will lose bonuses if [c/FFD23B:Paradise Lost] state ends
-#            Player [c/EC9797:Apostles] gain 15% increased damage, but health regeneration is disabled
-#            Within [c/FFD23B:Paradise Lost] state, attacks with this weapon explode at your cursor, dealing damage in a wide area multiple times
-#            Right click during [c/FFD23B:Paradise Lost] to unleash [c/EA1212:Advent], dealing 200% guaranteed critical damage to all nearby foes
-#            [c/EA1212:Advent] deals bonus damage based on the amount of active [c/EC9797:Apostles] (Damage bonus caps at 12 [c/EC9797:Apostles])
-#            Pressing the Weapon Action Key or swapping weapons in [c/FFD23B:Paradise Lost] state will end [c/FFD23B:Paradise Lost]
-#            Additionally, when [c/FFD23B:Paradise Lost] ends, incur Vulnerability for 60 seconds, halving defense ([c/FFD23B:Paradise Lost] can not be activated when Vulnerable)
+#            Держа это оружие в руках, даёт бафф [c/E2DEB5:Пророк чумы] (вы не можете атаковать этим оружием, пока действует бафф [c/E2DEB5:Пророк чумы])
+#            Нажмите <right> во время действия [c/E2DEB5:Пророка чумы], чтобы [c/F7D76A:Крестить] жителя или игрока на 10 минут
+#            Нажмите клавишу 'Действие оружия' во время действия [c/E2DEB5:Пророка чумы], чтобы вознестись в [c/FFD23B:Потерянный рай]
+#            В состоянии [c/FFD23B:Потерянного рая] вы не получаете урон, но здоровье постепенно убывает, а регенерация здоровья отключена (эффект преждевременно заканчивается, если здоровье падает ниже 10)
+#            Кроме того, все ближайшие враги подвергаются дебаффу [c/D18888:Теофобия], который снижает их урон на 20%
+#            При вознесении все [c/F7D76A:Крещёные] жители превращаются в [c/EC9797:Апостолов] и перемещаются к вам ([c/F7D76A:Крещёные] игроки не перемещаются)
+#            [c/EC9797:Апостолы] наносят на 50 единиц больше базового урона своими атаками и имеют на 400% больше защиты; [c/EC9797:Апостолы] теряют бонусы, если [c/FFD23B:Потерянный рай] заканчивается
+#            Игроки-[c/EC9797:Апостолы] получают 15% бонус к урону, но их регенерация здоровья отключена
+#            В состоянии [c/FFD23B:Потерянного рая] атаки этим оружием взрываются в месте курсора, нанося урон в большом радиусе несколько раз
+#            Нажмите <right> во время [c/FFD23B:Потерянного рая], чтобы активировать [c/EA1212:Пришествие] и нанести 200% гарантированного критического урона всем ближайшим врагам
+#            [c/EA1212:Пришествие] наносит дополнительный урон в зависимости от количества активных [c/EC9797:Апостолов] (максимальный бонус урона достигается при 12 [c/EC9797:Апостолах])
+#            Нажатие клавиши 'Действие оружия' или смена оружия во время действия [c/FFD23B:Потерянного рая] принудительно заканчивает [c/FFD23B:Потерянный рай]
+#            Кроме того, когда [c/FFD23B:Потерянный рай] заканчивается, вы получаете дебафф «{$Buffs.Vulnerable.DisplayName}» на 60 секунд, снижая защиту наполовину ([c/FFD23B:Потерянный рай] нельзя активировать в состоянии уязвимости)
 #            'А теперь восстаньте, мои слуги... Восстаньте и служите мне'
 #            '''
 #    }
 #
 #    InheritedCaseM4A1: {
-#        DisplayName: Inherited Case, M4A1
+#        DisplayName: Наследственный футляр, M4A1
 #        Tooltip:
 #            '''
-#            [c/F7D76A:Удерживайте <left>, чтобы зарядить оружие; if the weapon is fully charged, the attack varies]
-#            Additionally, this weapon can be [c/F7D76A:Overcharged], causing additional effects to occur
-#            After charging, fire bullets from your inventory (Musket balls are transformed into powerful, fast bullets)
-#            The second stage of [c/F7D76A:Overcharge] will additionally fire a barrage of lasers
-#            Upon reaching the final stage of [c/F7D76A:Overcharge], gain a random [c/C6F1AE:Auxiliary Armament] and return to the second stage of [c/F7D76A:Overcharge] (Can be repeated 4 times)
-#            [c/C6F1AE:Auxiliary Armaments] provide fire support during combat, but one will be destroyed when taking damage (Removed outside of combat)
-#            [c/F195F7:Auxiliary St-AR15]: Rapidly fires bursts of pinpoint accurate bullets
-#            [c/F5F546:Auxiliary RO635]: Fires a barrage of bullets that home in on two targets, piercing the first
-#            [c/F54646:Auxiliary M4-Sop2]: Fires an explosive howitzer towards the cursor, dealing 300% weapon damage; every 4th grenade tracks targets and flies faster
-#            [c/DA46F5:Auxiliary M16A1]: Generates an orbiting shield aimed towards the cursor that absorbs 6 projectiles; once destroyed, fire bullets in retaliation and regenerate after 8 seconds
-#            Right click to equip the [c/81C671:Inherited Case] after a short delay, changing attacks into powerful rocket bolts towards your cursor but reducing attack speed drastically
-#            Additionally, the weapon can not be charged in this state and active [c/C6F1AE:Auxiliary Armaments] will be lost
-#            This attack pierces up to 3 foes and explodes on hit; the final hit will burst in a massive explosion, dealing 300% damage as a critical strike
-#            Foes caught in the explosions will take heavy damage over time for a short duration
-#            While holding this weapon, attacks can not be dodged and damage reduction is negated
-#            'Commander, we are here'
+#            [c/F7D76A:Удерживайте <left>, чтобы зарядить оружие; если оружие полностью заряжено, тип атаки изменится]
+#            Кроме того, это оружие можно [c/F7D76A:Перегрузить], что вызывает дополнительные эффекты
+#            После заряда стреляет пулями из вашего инвентаря (превращает мушкетные пули в мощные, скоростные пули)
+#            На втором уровне [c/F7D76A:Перегрузки] дополнительно стреляет залпом лазеров
+#            При достижении последнего уровня [c/F7D76A:Перегрузки] даёт случайное [c/C6F1AE:Вспомогательное вооружение] и возвращает к второму уровню [c/F7D76A:Перегрузки] (можно повторить 4 раза)
+#            [c/C6F1AE:Вспомогательное вооружение] обеспечивают огневую поддержку во время боя, но одно из них будет уничтожено при получении урона (убирается вне боя)
+#            [c/F195F7:Вспомогательная St-AR15]: Быстро стреляет очередями точно направленных пуль
+#            [c/F5F546:Вспомогательная RO635]: Выпускает залп пуль, которые наводятся на две цели, пронзая первую
+#            [c/F54646:Вспомогательная M4-Sop2]: Выпускает взрывную гаубицу в направлении курсора, нанося 300% урона оружием; каждая четвёртая граната преследует цели и летит быстрее
+#            [c/DA46F5:Вспомогательная M16A1]: Создаёт вращающийся щит, направленный на курсор, который поглощает 6 снарядов; после разрушения щит стреляет пулями в ответ и восстанавливается через 8 секунд
+#            Нажмите <right>, чтобы экипировать после короткой задержки [c/81C671:Наследственный футляр], превращая атаки на мощные ракетные снаряды, летящие в сторону курсора, но значительно снижая скорость атаки
+#            Кроме того, в этом состоянии оружие не может быть заряжено, а активное [c/C6F1AE:Вспомогательное вооружение] будет потеряно
+#            Эта атака пронзает до 3 врагов и взрывается при попадании; последний удар вызывает массивный взрыв, наносящий 300% урона в виде критического удара
+#            Враги, попавшие в зону взрыва, будут получать значительный постепенный урон в течение короткого времени
+#            Пока вы держите это оружие в руках от вражеских атак невозможно уклониться, а сопротивление урону не учитывается
+#            'Командир, мы на месте'
 #            '''
 #    }
 #
@@ -12041,13 +12041,13 @@
 #    }
 #
 #    CoreOfFlames: {
-#        DisplayName: Core Of Flames
-#        Description: Liberation Blazing is at the apex of its power
+#        DisplayName: Сердце пламени
+#        Description: Огненная заря освобождения достигла вершины своей силы
 #    }
 #
 #    CoreOfFlamesCooldown: {
-#        DisplayName: Core of Flames Cooldown
-#        Description: Liberation Blazing will not activate Core of Flames when this debuff is active
+#        DisplayName: Перезарядка ядра пламени
+#        Description: Сердце пламени не сработает, пока активен этот дебафф
 #    }
 #
 #    CosmicConception: {
@@ -12515,23 +12515,23 @@
 #    }
 #
 #    LimitBreak: {
-#        DisplayName: Limit Break
-#        Description: All limits are being surpassed, directly turning health into mana and granting a drastic increase to the strength of magical attacks
+#        DisplayName: Крушение лимитов
+#        Description: Все лимиты преодолены: здоровье напрямую превращается в ману, а сила магических атак значительно увеличивается
 #    }
 #
 #    LimitBreakCooldown: {
-#        DisplayName: Limit Break Cooldown
-#        Description: When this debuff ends, you will be able to use Limit Break again
+#        DisplayName: Перезарядка крушения лимитов
+#        Description: Крушение лимитов не сработает, пока активен этот дебафф
 #    }
 #
 #    LivingDead: {
-#        DisplayName: Living Dead
-#        Description: Dark magic keeps you from death; if you are not healed to 150 HP before Living Dead ends, you will die
+#        DisplayName: Живой мертвец
+#        Description: Тёмная магия не даёт вам умереть; если вы не восстановите 150 здоровья до окончания действия баффа, то умрёте
 #    }
 #
 #    LivingDeadCooldown: {
-#        DisplayName: Living Dead Cooldown
-#        Description: Living Dead не сработает, пока активен этот дебафф
+#        DisplayName: Перезарядка живого мертвеца
+#        Description: Живой мертвец не сработает, пока активен этот дебафф
 #    }
 #
 #    MajimaPetBuff: {
@@ -12900,13 +12900,13 @@
 #    }
 #
 #    SoulUnbound: {
-#        DisplayName: Soul Unbound
-#        Description: You have let go of your mortal form, gaining Movement Speed
+#        DisplayName: Освобождённая душа
+#        Description: Вы покидаете свою смертную форму, увеличивая скорость передвижения
 #    }
 #
 #    SoulUnboundCooldown: {
-#        DisplayName: Soul Unbound Cooldown
-#        Description: When this debuff ends, you will be able to use Soul Unbound again
+#        DisplayName: Перезарядка освобождённой души
+#        Description: Освобождённая душа не сработает, пока активен этот дебафф
 #    }
 #
 #    SovereignDominion: {
@@ -12925,13 +12925,13 @@
 #    }
 #
 #    Starblight: {
-#        DisplayName: Starblight
-#        Description: Taking powerful damage over time
+#        DisplayName: Звёздная болезнь
+#        Description: Получение мощного постепенного урона
 #    }
 #
 #    LucentBliss: {
-#        DisplayName: Lucent Bliss
-#        Description: Faerie luck has blessed you, increasing maximum Luck and granting Luck
+#        DisplayName: Сияющее блаженство
+#        Description: Вас благословила фея удачи, увеличая удачу и максимальный показатель удачи
 #    }
 #
 #    StarshieldBuff: {
@@ -13195,27 +13195,27 @@
 #    }
 #
 #    CrimsonMark: {
-#        DisplayName: Crimson Mark
+#        DisplayName: Багряная метка
 #        Description: ""
 #    }
 #
 #    Retribution: {
-#        DisplayName: Retribution
-#        Description: Firing a barrage of spectral weapons
+#        DisplayName: Воздаяние
+#        Description: Стрельба шквалом спектрального оружия
 #    }
 #
 #    SpectralArsenal1: {
-#        DisplayName: Spectral Arsenal
+#        DisplayName: Спектральный арсенал
 #        Description: ""
 #    }
 #
 #    SpectralArsenal2: {
-#        DisplayName: Spectral Arsenal
+#        DisplayName: Спектральный арсенал
 #        Description: ""
 #    }
 #
 #    SpectralArsenal3: {
-#        DisplayName: Spectral Arsenal
+#        DisplayName: Спектральный арсенал
 #        Description: ""
 #    }
 #
@@ -14365,17 +14365,17 @@
 #    }
 #
 #    CrystalshotCooldown: {
-#        DisplayName: Crystalshot Cooldown
+#        DisplayName: Перезарядка кристаллострела
 #        Description: ""
 #    }
 #
 #    CrystalshotPrepped: {
-#        DisplayName: Crystalshot Prepped
+#        DisplayName: Готовый кристаллострел
 #        Description: ""
 #    }
 #
 #    OutbackWranglerCooldown: {
-#        DisplayName: Outback Wrangler Cooldown
+#        DisplayName: Перезарядка укротителя дикой местности
 #        Description: ""
 #    }
 #
@@ -14385,22 +14385,22 @@
 #    }
 #
 #    DegradedSingularity: {
-#        DisplayName: Degraded Singularity
-#        Description: Manifestations of a Singularity grant increased critical strike damage
+#        DisplayName: Ослабленная сингулярность
+#        Description: Проявления сингулярности увеличивают урон от критического удара
 #    }
 #
 #    EmbodiedSingularity: {
-#        DisplayName: Embodied Singularity
+#        DisplayName: Воплощёние сингулярности
 #        Description: Elegance, grace, and sheer destructive power are at your disposal, drastically increasing critical strike damage but reducing defense to 0
 #    }
 #
 #    Ensnared: {
-#        DisplayName: Ensnared
+#        DisplayName: Скованный
 #        Description: ""
 #    }
 #
 #    FairyTagDamage: {
-#        DisplayName: Fairy Tag Damage
+#        DisplayName: Метка феи
 #        Description: ""
 #    }
 #
@@ -14420,8 +14420,8 @@
 #    }
 #
 #    SingularityResonance: {
-#        DisplayName: Singularity Resonance
-#        Description: Dire conflict has incited inner power
+#        DisplayName: Резонанс сингулярности
+#        Description: Невероятная битва пробудила дремлющую в вас силу
 #    }
 #
 #    CelestialVoidCooldown: {
@@ -14430,8 +14430,8 @@
 #    }
 #
 #    AuxiliaryArmamentBuff: {
-#        DisplayName: Auxiliary Armaments
-#        Description: Assailing foes with myriad firearms
+#        DisplayName: Вспомогательное вооружение
+#        Description: Обстреливает врагов из различных видов огнестрельного оружия
 #    }
 #
 #    M16A1ShieldCooldown: {
@@ -14445,7 +14445,7 @@
 #    }
 #
 #    InheritedCaseActive: {
-#        DisplayName: Inherited Case Active
+#        DisplayName: Активный наследственный футляр
 #        Description: ""
 #    }
 #
@@ -14470,12 +14470,12 @@
 #    }
 #
 #    BaptisedBuff: {
-#        DisplayName: Baptised Buff
+#        DisplayName: Крещёный
 #        Description: ""
 #    }
 #
 #    TheophobiaBuff: {
-#        DisplayName: Theophobia Buff
+#        DisplayName: Теофобия
 #        Description: ""
 #    }
 #
@@ -14483,7 +14483,7 @@
 #        DisplayName: Апостол
 #        Description: ""
 #    }
-#    
+#
 #    FireflyActive: {
 #        DisplayName: Firefly Type-IV
 #        Description: Your Starfarer has donned the Crysalid Pyronexus, assisting you in combat

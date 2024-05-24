@@ -47,7 +47,7 @@ public class CombatTextPatch : ILoadable
             // "Stellar Prism acquired!" => "Получена звёздная призма",
             // "Prismatic Core acquired!" => "Получено призматическое ядро!",
             // "The Eye of Euthymia has 10 seconds left!" => "До готовности глаза эвтюмии осталось 10 секунд!",
-            // "The Core of Flames has 5 seconds left!" => "До готовности ядра пламени осталось 5 секунд!",
+            // "The Core of Flames has 5 seconds left!" => "До готовности сердца пламени осталось 5 секунд!",
             // "Boiling Blood has 5 seconds left!" => "До готовности кипящей крови осталось 5 секунд!",
             // "Liberation Blazing is ready to strike!" => "Огненная заря освобождения готова к удару!",
             // "The Timeframe vanishes..." => "Временной скачок истекает...",
