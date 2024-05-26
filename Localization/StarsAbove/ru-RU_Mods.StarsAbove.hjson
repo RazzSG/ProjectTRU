@@ -27,8 +27,8 @@
 #    }
 #
 #    Adornment: {
-#        Positive: Позитивный хаос!
-#        Negative:Негативный хаос!
+#        Positive: Положительный хаос!
+#        Negative: Отрицательный хаос!
 #    }
 #
 #    ManiacalJustice: {
@@ -5278,7 +5278,7 @@
 #        FireflyTypeIV: {
 #            AbilityName: Светлячок тип-IV
 #            AbilitySubName: "[c/9EF78A:В наступившем дне, я расцвету во всей красе]"
-#            AbilityDescription: After a short delay, your Starfarer dons the Chrysalid Pyronexus and assists you in battle with powerful strikes. All Nova damage will inflict Hellfire for 4 seconds. After foes take a certain amount of Nova damage, they will trigger Complete Combustion, dealing 15% of the foe's Max HP as bonus damage, up to 2500% Stellar Nova damage. Critical Nova strikes inflict Complete Combustion much faster. Duration in seconds is proportional to Energy Cost divided by 8. (No Nova Energy while active)
+#            AbilityDescription: After a short delay, your Starfarer dons the Chrysalid Pyronexus and assists you in battle with myriad attacks. All attacks deal 2 separate instances of Nova damage. After foes take a certain amount of Nova damage, they will trigger Complete Combustion, dealing 15% of the foe's Max HP as bonus damage, up to 2500% Stellar Nova damage. Critical Nova strikes inflict Complete Combustion much faster. Duration in seconds is proportional to Energy Cost divided by 8. (No Nova Energy while active)
 #            AstralBonus: Полное сгорание лечит на 5% от нанесённого урона, если применяется к боссу (максимум 100 здоровья за применение).
 #            UmbralBonus: Срабатывание Полного сгорания увеличивает длительность Chrysalid Pyronexus на 10 секунд (не более 40 секунд).
 #        }
@@ -8642,7 +8642,7 @@
 #            [c/FF5934:Звёздная призма - Ранг 2]
 #            Установите на Астронову, чтобы получить следующую способность:
 #            [c/6DE169:Гнев Лунного лорда]
-#            If the Stellar Nova costs 20 or more Stellar Nova Energy above its base energy value, damage is increased by 20%
+#            Если затраты энергии Астроновы превышают базовое значение на 20 или более единиц, урон увеличивается на 20%
 #            Увеличение урона добавляется после подсчёта обычного урона
 #            '''
 #    }
@@ -8919,16 +8919,16 @@
 #            Удары оглушают врагов на 1 секунду (Критические удары оглушают врагов на 4 секунды и дают кратковременную неуязвимость)
 #            [c/B0BEB3:Небесный залп] увеличивает скорость атаки и передвижения на 20%
 #            Атаки сопровождаются падающими звёздами, которые накладывают дебафф «{$BuffName.Ichor}» на 8 секунд
-#            [c/8AD8E6:Cooling Haze] increases Health and Mana Regeneration and inflicts Frostburn for 2 seconds on hit
-#            Nearby foes are inflicted with Frostburn until they leave the radius
-#            [c/B9384E:Volcanic Wrath] increases attack and critical strike chance by 20% and inflicts On Fire for 2 seconds on hit
-#            Defeating foes will cause them to explode into a shower of flames, inflicting Cursed Flame for 8 seconds
-#            Держа это оружие в руках, активирует [c/CE8EBD:Vengeance Gauge]
-#            Defeating foes with this weapon will fill the [c/CE8EBD:Vengeance Gauge]
-#            Right click to consume the [c/CE8EBD:Vengeance Gauge] and gain the buff [c/DF2AAE:Elemental Chaos] for 14 seconds
-#            [c/DF2AAE:Elemental Chaos] grants all [c/FF71D8:Elemental Arts] buffs and the weapon will inflict all [c/FF71D8:Elemental Arts] debuffs on foes
-#            [c/DF2AAE:Elemental Chaos] does not grant the unique abilities of each [c/FF71D8:Elemental Art]
-#            'Remember those who have passed, and they will forever live on'
+#            [c/8AD8E6:Хладная мгла] увеличивает регенерацию здоровья и маны, а также накладывает дебафф «{$BuffName.Frostburn}» на 2 секунды при ударе
+#            Ближайшие враги получают дебафф «{$BuffName.Frostburn}», пока находятся в радиусе действия
+#            [c/B9384E:Вулканический гнев] увеличивает урон и шанс критического удара на 20%, а также накладывает дебафф «{$BuffName.OnFire}» на 2 секунды при ударае
+#            Побеждённые враги взрываются, образуя ливень пламени, накладывающий дебафф «{$BuffName.CursedInferno}» на 8 секунд
+#            Держа это оружие в руках, активирует [c/CE8EBD:Шкалу возмездия]
+#            Побеждённые враги этим оружием заполняют [c/CE8EBD:Шкалу возмездия]
+#            Нажмите <right>, чтобы израсходовать [c/CE8EBD:Индикатор возмездия] и получить бафф [c/DF2AAE:Элементальный хаос] на 14 секунд
+#            [c/DF2AAE:Элементальный хаос] даёт все баффы [c/FF71D8:Элементальных искусств], а оружие накладывает все дебаффы [c/FF71D8:Элементальных искусств] на врагов
+#            [c/DF2AAE:Элементальный хаос] не даёт уникальные способности каждого из [c/FF71D8:Элементальных искусств]
+#            'Помни всех, кто покинул нас, и они будут жить вечно'
 #            '''
 #    }
 #
@@ -8936,18 +8936,18 @@
 #        DisplayName: Бестеневая лазурь
 #        Tooltip:
 #            '''
-#            Attacks with this weapon will sweep in a wide arc and charge the [c/3CC7FF:Cerulean Flame Gauge]
-#            Critical hits charge the [c/3CC7FF:Cerulean Flame Gauge] much faster
-#            Once the [c/3CC7FF:Cerulean Flame Gauge] is at maximum, right click to unleash [c/007BEE:Shadowless Ignition]
-#            [c/007BEE:Shadowless Ignition] will teleport you to your cursor, rendering you invincible and immobile
-#            During this time, you will unleash a barrage of powerful slashes at your location
-#            Foes caught within [c/007BEE:Shadowless Ignition] are binded and inflicted with Frostburn for 20 seconds
-#            The final strike of [c/007BEE:Shadowless Ignition] will deal bonus critical damage to one foe
-#            Once Shadowless Ignition ends, you will be launched in the opposite direction of your cursor and gain the buff [c/EE007E:Wrathful Cerulean Flame] for 8 seconds
-#            Attacks during [c/EE007E:Wrathful Cerulean Flame] will become drastically empowered, ensuring critical hits and gaining 50 armor penetration
-#            Once [c/EE007E:Wrathful Cerulean Flame] ends, you will be inflicted with [c/9E7F90:Burnout], lowering defensive and offensive stats by 50% for 20 seconds
-#            You can not charge the [c/3CC7FF:Cerulean Flame Gauge] while under the effects of [c/9E7F90:Burnout]
-#            'You will understand my choice one day... Forgive me'
+#            Атаки этого оружия совершают широкие круговые взмахи и заряжают [c/3CC7FF:Шкалу лазурного пламени]
+#            Критические удары заряжают [c/3CC7FF:Шкалу лазурного пламени] намного быстрее
+#            Когда [c/3CC7FF:Шкала лазурного пламени] достигает максимума, нажмите <right>, чтобы высвободить [c/007BEE:Бестеневое возгорание]
+#            [c/007BEE:Бестеневое возгорание] телепортирует вас к курсору, делая вас неуязвимым и неподвижным
+#            Во время этого вы обрушиваете шквал мощных разрезов в месте своего нахождения
+#            Враги, попавшие в зону действия [c/007BEE:Бестеневого возгорания], обездвиживаются и поражаются дебаффом «{$BuffName.Frostburn}» на 20 секунд
+#            Финальный удар [c/007BEE:Бестеневого возгорания] наносит дополнительный критический урон одному врагу
+#            Когда [c/007BEE:Бестеневое возгорание] заканчивается, вас устремляет в противоположном направлении от курсора и даёт бафф [c/EE007E:Яростное лазурное пламя] на 8 секунд
+#            Атаки во время [c/EE007E:Яростного лазурного пламени] значительно усиливаются, гарантируя критические удары и получают 50 единиц пробивания брони
+#            Когда [c/EE007E:Яростное лазурное пламя] заканчивается, на вас накладывается дебафф [c/9E7F90:Выгорание], который снижает защитные и атакующие характеристики на 50% на 20 в течение 20 секунд
+#            Вы не можете заряжать [c/3CC7FF:Шкалу лазурного пламени], находясь под эффектом [c/9E7F90:Выгорания]
+#            'Однажды вы поймёте мой выбор... Простите меня'
 #            '''
 #    }
 #
@@ -8955,11 +8955,11 @@
 #        DisplayName: Скофнунг
 #        Tooltip:
 #            '''
-#            Attacks with this weapon stab rapidly and have high knockback
-#            Holding this weapon conjures the [c/395A37:Blade of Grudges], which will target and attack foes
-#            The [c/395A37:Blade of Grudges] does half of your defense as damage to foes every 4 seconds (calculated seperately)
-#            When the [c/395A37:Blade of Grudges] inflicts a critical strike, gain [c/7E2626:Bloodstained Belone] for 8 seconds
-#            [c/7E2626:Bloodstained Belone] increases damage by 10%
+#            Атаки этим оружием совершаются быстрыми колющими взмахами и обладают сильным отбрасыванием
+#            Держа это оружие в руках, вы призываете [c/395A37:Клинок затаённой обиды], который самостоятельно выбирает цели и атакует врагов
+#            [c/395A37:Клинок затаённой обиды] каждые 4 секунды наносит урон врагам, равный половине вашей защиты (рассчитывается отдельно)
+#            Когда [c/395A37:Клинок затаённой обиды] наносит критический удар, вы получаете [c/7E2626:Окровавленную пелену] на 8 секунд
+#            [c/7E2626:Окровавленная пелена] увеличивает урон на 10%
 #            '''
 #    }
 #
@@ -8968,20 +8968,20 @@
 #        Tooltip:
 #            '''
 #            [c/F592BF:Это оружие не подвержено к штрафу Аспектного типа урона]
-#            Right click to access the [c/90B1BE:Aerial Forme] Selection Menu
-#            Each [c/90B1BE:Aerial Forme] grants unique buffs when this weapon is held and modifies weapon attacks
-#            [c/EC5656:Annihilation]: Damage is increased by 50%, but defenses are reduced by 30
-#            Attacks are changed into fast swings that inflict On Fire for 8 seconds
-#            Critical hits deal increased damage to targets inflicted with On Fire as well as expelling the debuff
-#            [c/56D1EC:Defender]: Gain 20 defense, enemies are more likely to target you, and 80% of damage taken is reflected to attackers
-#            Attacks are changed into a held ability that raises a shield in front of you, destroying nearby projectiles (2 second cooldown)
-#            Additionally, all allies in the radius gain 10 defense while the shield is active
-#            [c/ECCA56:Close Combat]: Gain Wrath for 2 seconds when attacking foes below 50% HP
-#            Attacks are changed into a barrage of quick close-ranged strikes that deal 120% damage
-#            Critical strikes launch a claw that pierces enemies
-#            [c/66EC56:Railgunner]: Critical strike chance is increased by 20%
-#            Attacks are changed into long range piercing bolts, dealing 150% damage
-#            Critical strikes deal 400% damage
+#            Нажмите <right>, чтобы открыть меню выбора [c/90B1BE:Воздушной формы]
+#            Каждая [c/90B1BE:Воздушная форма] даёт уникальные баффы когда вы держите это оружие и изменяет атаки оружия
+#            [c/EC5656:Аннигиляция]: Увеличивает урон на 50%, но снижает защиту на 30
+#            Атаки сменяются быстрыми взмахами, накладывающие дебафф «{$BuffName.OnFire}» на 8 секунд
+#            Критические удары наносят увеличенный урон врагам, на которых наложен дебафф «{$BuffName.OnFire}» и снимают этот дебафф
+#            [c/56D1EC:Защитник]: Увеличивает защиту на 20, враги чаще выбирают вас в качестве цели, и 80% полученного урона отражается обратно нападающему
+#            Атаки сменяются удерживаемой способностью, которая поднимает перед вами щит, уничтожающий ближайшие снаряды (перезарядка 2 секунды)
+#            Кроме того, пока щит активен, все союзники вокруг получают 10 защиты
+#            [c/ECCA56:Ближний бой]: Даёт бафф «{$BuffName.Wrath}» на 2 секунды при атаке врагов, у которых менее 50% здоровья
+#            Атаки сменяются в град быстрых ближних ударов, которые наносят 120% базового урона
+#            Критические удары запускают коготь, который пронзает врагов
+#            [c/66EC56:Рельсотронщик]: Увеличивает шанс критического удара на 20%
+#            Атаки сменяются дальнобойными пронзающими зарядами, наносящие 150% урона
+#            Критические удары наносят 400% урона
 #            '''
 #    }
 #
@@ -8989,14 +8989,14 @@
 #        DisplayName: Маяк цветущей искры
 #        Tooltip:
 #            '''
-#            Summons [c/49EAFA:Fleeting Sparks] to assail foes with homing electricity
-#            [c/49EAFA:Fleeting Sparks] will latch onto foes and ignore terrain when targetting
-#            Gain 15% increased Armor Penetration for summon weapons when this weapon is held
-#            Every time a [c/49EAFA:Fleeting Spark] attacks, it has a 10% chance to explode
-#            When a [c/49EAFA:Fleeting Spark] explodes, it deals 200% critical damage to nearby foes and returns
-#            Additionally, explosions have a 50% chance to generate a Mana Star
-#            Each attack increases the strength of the [c/49EAFA:Fleeting Spark] by 2% (Maximum 10% increased damage, resets upon exploding)
-#            'Keep a good distance - there!'
+#            Призывает [c/49EAFA:Мимолётные искры], которые атакуют врагов самонаводящейся электроэнергией
+#            [c/49EAFA:Мимолётные искры] цепляются к врагам и игнорируют блоки при наведении
+#            Держа это оружие в руках, увеличивает пробивание брони для оружия призывателя на 15%
+#            Каждый раз, когда [c/49EAFA:Мимолётная искра] атакует, у неё есть 10% шанс взорваться
+#            При взрыве [c/49EAFA:Мимолётная искра] наносит 200% критического урона ближайшим врагам и возвращается
+#            Кроме того, взрывы с 50% шансом создают звезду маны
+#            Каждая атака увеличивает силу [c/49EAFA:Мимолётной искры] на 2% (максимум 10% увеличенного урона; сбрасывается при взрыве)
+#            'Держите дистанцию - вот так!'
 #            '''
 #    }
 #
@@ -9010,15 +9010,15 @@
 #        Tooltip:
 #            '''
 #            [c/F7D76A:Удерживайте <left>, чтобы зарядить оружие; если оружие полностью заряжено, тип атаки изменится]
-#            Holding the weapon will cause the [c/8BD1D1:Duality Gauge] to appear, beginning 100% [c/C7FFFA:Sanctified]
-#            Left-click sweeps the weapon in a colossal area and influences the [c/8BD1D1:Duality Gauge] towards [c/C7FFFA:Sanctification]
-#            Right-click swings the weapon, striking foes multiple times and influences the [c/8BD1D1:Duality Gauge] towards [c/B60000:Volatility]
-#            When the [c/8BD1D1:Duality Gauge] is more than 50% [c/C7FFFA:Sanctified], gain access to [c/C7FFFA:Flash of Eternity]
-#            When the [c/8BD1D1:Duality Gauge] is more than 50% [c/B60000:Volatile], gain the buff [c/B60000:Claws of Nyx]
-#            When conditions are met, press the Weapon Action Key to activate [c/C7FFFA:Flash of Eternity], dashing towards your cursor (8 second cooldown)
-#            The first instance of damage taken during [c/C7FFFA:Flash of Eternity] is negated
-#            [c/B60000:Claws of Nyx] increases damage by 40% and crit chance by 20%
-#            'Darkness comes from within'
+#            Держа это оружие в руках, появляется [c/8BD1D1:Шкала двойственности], которая начинается со 100% [c/C7FFFA:Святости]
+#            Нажатие <left> наносит круговой удар по большой области и сдвигает [c/8BD1D1:Шкалу двойственности] в сторону [c/C7FFFA:Святости]
+#            Нажатие <right> взмахивает оружием, нанося несколько ударов по врагам и сдвигает [c/8BD1D1:Шкалу двойственности] в сторону [c/B60000:Нестабильности]
+#            Когда [c/8BD1D1:Шкала двойственности] смещена более чем на 50% в сторону [c/C7FFFA:Святости], становится доступна [c/C7FFFA:Вспышка вечности]
+#            Когда [c/8BD1D1:Шкала двойственности] смещена более чем на 50% в сторону [c/B60000:Нестабильности], активируется бафф [c/B60000:Когти Никс]
+#            Когда соблюдены все условия, нажмите клавишу 'Действие оружия' для активации [c/C7FFFA:Вспышки вечности], совершая рывок в сторону курсора (перезарядка 8 секунд)
+#            Первый полученный урон во время [c/C7FFFA:Вспышки вечности] будет аннулирован
+#            [c/B60000:Когти Никс] увеличивают урон на 40% и шанс критического удара на 20%
+#            'Тьма исходит изнутри'
 #            '''
 #    }
 #
@@ -9044,14 +9044,14 @@
 #        Tooltip:
 #            '''
 #            [c/F7D76A:Удерживайте <left>, чтобы зарядить оружие; чем дольше заряжается оружие, тем сильнее итоговая атака]
-#            Charging the bow to its maximum before firing will turn the arrow into a unique [c/25ACF0:Riptide Bolt]
-#            [c/25ACF0:Riptide Bolts] will apply [c/4A91FF:Riptide] to foes struck for 12 seconds
-#            Right click to consume 200 mana, entering [c/2361C1:Raging Tides] for 8 seconds
-#            Within [c/2361C1:Raging Tides], attacks are changed into rapid close-ranged melee strikes that deal double damage and mana will not regenerate
-#            Additionally, gain extra Movement Speed for the buff's duration
-#            Attacking foes afflicted with [c/4A91FF:Riptide] in this stance will deal extra damage
-#            This weapon does not use ammo
-#            'Shouldn't let your guard down!'
+#            Зарядив лук до максимума перед выстрелом, превращает стрелу в уникальный [c/25ACF0:Волновой разряд]
+#            [c/25ACF0:Волновой разряд] накладывают на врагов дебафф [c/4A91FF:Разрывное течение] на 12 секунд
+#            Нажмите <right>, чтобы потратить 200 маны и войти в стойку [c/2361C1:Бушующих волн] на 8 секунд
+#            В состоянии [c/2361C1:Бушующих волн] атаки меняются на короткие стремительные удары ближнего боя, наносящие двойной урон, однако отключается восстановление маны
+#            Также, на время действия баффа, вы получаете дополнительную скорость передвижения
+#            В этой стойке атаки по врагам, на которых наложен дебафф [c/4A91FF:Разрывное течение], наносят дополнительный урон
+#            Это оружие не использует боеприпасы
+#            'Надо было быть внимательнее!'
 #            '''
 #    }
 #
@@ -9080,13 +9080,13 @@
 #        DisplayName: Двойные звёзды Альбиеро
 #        Tooltip:
 #            '''
-#            Holding this weapon will conjure twin stars to orbit you, granting 100 extra Max Mana
-#            Attacking with this weapon fires powerful beams of piercing starlight
-#            This weapon drains mana at an incredibly high rate that can not be reduced by any means
-#            Critical strikes grant [c/47D9E7:Binary Magnitude] for a very short time
-#            During this time, beams leave devastating napalm in their wake
-#            Above 250 Mana, this weapon deals 50% more damage
-#            1/8th of Max Mana is added directly to damage
+#            Держа это оружие в руках, призывает вращающиеся вокруг вас двойные звёзды, увеличивающие максимальный запас маны на 100
+#            Атаки этим оружием запускают мощные лучи пронзающего звёздного света
+#            Это оружие невероятно быстро расходует ману, расход которой невозможно снизить никакими способами
+#            Критические удары дают [c/47D9E7:Бинарную магнитуду] на очень короткое время
+#            В течение этого времени лучи оставляют следы разрушительного напалма
+#            При запасе маны более 250 это оружие наносит на 50% больше урона
+#            1/8 от максимального запаса маны добавляется напрямую к урону
 #            '''
 #    }
 #
@@ -9220,6 +9220,20 @@
 #        DisplayName: Ксеноклинок
 #        Tooltip:
 #            '''
+#            [c/F7D76A:Зажмите <left>, чтобы зарядить оружие; если оружие полностью заряжено, атака изменяется]
+#            Незаряженные атаки рассекают в широкой области и восстанавливают 3 маны
+#            Заряженные атаки наносят двойной урон, имеют значительное отбрасывание и увеличенный радиус поражения
+#            Подготовка заряженных атак расходует ману
+#            После 2 незаряженных атак подряд следующая заряженная атака готовится чрезвычайно быстро
+#            Нажмите <right> для переключения [c/E35D5D:Стиля Ксеноклинка] между [c/C80000:Ударным], [c/52BEF3:Скоростным], [c/E3D55D:Защитным], [c/40EF28:Прыжковым] и [c/9923CD:Реактивным]
+#            Текущий [c/E35D5D:Стиль Ксеноклинка] накладывает особый бафф:
+#            [c/C80000:Ударный] дарует бафф «{$BuffName.Titan}», а заряжаемые атаки улучшаются в [c/C80000:Бич Мехона], гарантируя критический удар
+#            [c/52BEF3:Скоростной] дарует бафф «{$BuffName.Swiftness}» и отключает заряжаемые атаки, но обычные атаки становятся сильнее и быстрее
+#            [c/E3D55D:Защитный] дарует бафф «{$BuffName.Endurance}» и увеличивает защиту на 18 во время подготовки заряженной атаки, а расход маны останавливается
+#            [c/40EF28:Прыжковый] дарует бафф «{$BuffName.Featherfall}», и заряжаемые атаки запускают вас вперёд, расходуя 40 маны («{$BuffName.Featherfall}» спадает при менее чем 100 маны)
+#            [c/9923CD:Реактивный] дарует бафф «{$BuffName.Wrath}» и отключает обычные атаки, но заряжаемые атаки становятся быстрее
+#            'Так вот в чём сила Монадо!'
+#            
 #            [c/F7D76A:Удерживайте <left>, чтобы зарядить оружие; если оружие полностью заряжено, тип атаки изменится]
 #            Uncharged attacks slash in a wide area and will restore 3 mana
 #            Charged attacks deal double damage, have extraordinary knockback, and range is extended
@@ -9232,7 +9246,7 @@
 #            [c/E3D55D:Shield] grants Endurance when active, and you gain 18 defense when holding a readied charged attack and mana drain is stopped
 #            [c/40EF28:Jump] grants Featherfall when active, and charged attacks launch you forward, costing 40 mana (Featherfall is lost below 100 mana)
 #            [c/9923CD:Buster] grants Wrath when active and disables normal attacks, but charged attacks are faster
-#            'THIS is the Monado's power!'
+#            'ТАК вот в чём сила Монадо!'
 #            '''
 #    }
 #
@@ -9240,13 +9254,13 @@
 #        DisplayName: Грозовой стилет
 #        Tooltip:
 #            '''
-#            Right click to expend 80 mana, placing a [c/CB8EE3:Lightning Stiletto] at your cursor's location
-#            Once a [c/CB8EE3:Lightning Stiletto] is present, using right click again will teleport you to the position of the [c/CB8EE3:Lightning Stiletto]
-#            Additionally, your next attack will become [c/B703FF:Driving Thunder]
-#            [c/B703FF:Driving Thunder] will sweep in a wide arc, dealing 300% damage
-#            If [c/B703FF:Driving Thunder] defeats an opponent, the mana used for placing the [c/CB8EE3:Lightning Stiletto] will be refunded
-#            If you attempt to teleport to an unaccessable location, you will consume the [c/CB8EE3:Lightning Stiletto] without teleporting but still prepare [c/B703FF:Driving Thunder]
-#            'Woven from lightning itself, from a land where gods roam free'
+#            Нажмите <right>, чтобы потратить 80 маны и разместить в позиции курсора [c/CB8EE3:Громовой стилет]
+#            Если [c/CB8EE3:Громовой стилет] размещён, повторное нажатие <right> телепортирует вас в позицию [c/CB8EE3:Громового стилета]
+#            Кроме того, ваша следующая атака становится [c/B703FF:Разящим громом]
+#            [c/B703FF:Разящий гром] совершает широкий взмах, нанося 300% урона
+#            Если [c/B703FF:Разящий гром] убивает врага, мана, потраченная на размещение [c/CB8EE3:Громового стилета], восстанавливается
+#            Если вы попытаетесь телепортироваться в недоступное место, вы используете [c/CB8EE3:Громовой стилет] без телепортации, но при этом подготовите [c/B703FF:Разящий гром]
+#            'Сотканный из молний в землях, где боги живут без оков'
 #            '''
 #    }
 #
@@ -9279,18 +9293,18 @@
 #    }
 #
 #    AdornmentOfTheChaoticGod: {
-#        DisplayName: Цилиндр хаотичного бога
+#        DisplayName: Убранство хаотичного бога
 #        Tooltip:
 #            '''
-#            Summons an [c/6DE552:Adornment Manifest] to assail your foes (Only one can be summoned at a time)
-#            The [c/6DE552:Adornment Manifest] will fire magical [c/CAF5C1:Chaos Bolts] with unpredictable effects
-#            Additionally, other random objects may be fired on occasion
-#            Right click to roll the dice, activating a [c/2AFBA9:Pure Chaos] effect on the [c/6DE552:Adornment Manifest] for 6 seconds (12 second cooldown)
-#            60% chance [c/00D8AE:Positive Chaos]: Double attack speed, guarantee [c/CAF5C1:Chaos Bolt] critical strikes, or gain Invincibility
-#            30% chance [c/B700D8:Negative Chaos]: Inflict random debuffs on self for a short duration, or cause all projectiles to be random objects and damage is halved
-#            10% chance to apply all positive effects at the same time for half the duration
-#            Fire rate increases slightly based on the amount of minions summoned
-#            'Chaos can giveth, and chaos can taketh'
+#            Призывает [c/6DE552:Воплощение убранства], которое атакует ваших врагов (одновременно можно призвать только одно)
+#            [c/6DE552:Воплощение убранства] стреляет магическими [c/CAF5C1:Хаосными зарядами] с непредсказуемыми эффектами
+#            Также с некоторым шансом может выпустить другие случайные объекты
+#            Нажмите <right>, чтобы бросить кости и активировать эффект [c/2AFBA9:Чистого хаоса] на [c/6DE552:Воплощении убранства] на 6 секунд (перезарядка 12 секунд)
+#            60% шанс получить [c/00D8AE:Положительный хаос]: Удваивает скорость атаки, гарантирует критические удары [c/CAF5C1:Хаосными зарядами] или даёт неуязвимость
+#            30% шанс получить [c/B700D8:Отрицательный хаос]: Накладывает на себя случайные дебаффы на короткое время или превращает все снаряды в случайные объекты с уменьшением урона вдвое
+#            10% шанс получить одновременно все положительные эффекты, но с уменьшенной длительностью наполовину
+#            Скорость стрельбы слегка увеличивается в зависимости от количества призванных миньонов
+#            'Хаос способен как даровать, так и лишать'
 #            '''
 #    }
 #
@@ -9350,14 +9364,14 @@
 #        DisplayName: Хроночасы
 #        Tooltip:
 #            '''
-#            Summons a [c/EB9FDA:Fragment of Time] to aid you in combat, granting immunity to Slow (Only one can be summoned at a time)
-#            The [c/EB9FDA:Fragment of Time] will periodically nurture a [c/52BFDF:Time Bubble] centered on herself, which grows over time
-#            The [c/52BFDF:Time Bubble] will pop upon contact with an enemy, dealing damage and additionally exploding in a [c/9FD9EB:Time Pulse]
-#            The [c/9FD9EB:Time Pulse] deals damage in a large area, increasing in potency with the size of the [c/52BFDF:Time Bubble], and inflicts 18 summon tag damage
-#            After 10 seconds at max size, the [c/52BFDF:Time Bubble] explodes automatically (Can be manually detonated by pressing the Weapon Action Key)
-#            Standing within the [c/52BFDF:Time Bubble] will grant [c/E8579B:Alacrity], increasing attack speed by 20% and movement speed by 10%
-#            Additionally, taking damage within the [c/52BFDF:Time Bubble] will pop the [c/52BFDF:Time Bubble] prematurely, preventing that instance of damage (20 second cooldown)
-#            'Well, that sounds like a waste of time'
+#            Призывает [c/EB9FDA:Фрагмент времени], который помогает вам в бою, давая невосприимчивость к дебаффу «{$BuffName.Slow}» (можно призвать только один)
+#            [c/EB9FDA:Фрагмент времени] периодически создаёт [c/52BFDF:Пузырь времени] вокруг себя, который со временем увеличивается в размере
+#            [c/52BFDF:Пузырь времени] лопается при контакте с врагом, нанося урон и дополнительно взрываясь [c/9FD9EB:Импульсом времени]
+#            [c/9FD9EB:Импульс времени] наносит урон в большой области, усиливаясь с увеличением размера [c/52BFDF:Пузыря времени] и нанося 18 единиц урона от метки призывателя
+#            Через 10 секунд на максимальном размере [c/52BFDF:Пузырь времени] автоматически взрывается (можно взорвать вручную, нажав клавишу действия оружия)
+#            Находясь внутри [c/52BFDF:Пузыря времени], вы получаете бафф [c/E8579B:Расторопность], который увеличивает скорость атаки на 20% и скорость передвижения на 10%
+#            Кроме того, получение урона внутри [c/52BFDF:Пузыря времени] приводит к его преждевременному лопанию, предотвращая получаемый урон (перезарядка 20 секунд)
+#            'Ну, это звучит как пустая трата времени'
 #            '''
 #    }
 #
@@ -11212,16 +11226,16 @@
 #        DisplayName: Лук двух корон
 #        Tooltip:
 #            '''
-#            Holding this weapon grants [c/F3ADF4:Echo-String Rites], gaining a 1% chance to dodge attacks per debuff on attackers
-#            Attacks with this weapon activate [c/C39AFE:Asteroid Jaeger], firing a barrage of stellar arrows that ignore terrain, dealing 4% bonus damage per debuff on target
-#            [c/C39AFE:Asteroid Jaeger] additionally charges [c/E94DEC:Stellar Termination] when striking foes
-#            Right click to activate [c/8E4DEC:Depravity], instantly firing a barrage of stellar arrows from the sky for 3 seconds while granting Swiftness for the same duration (20 second cooldown)
-#            [c/8E4DEC:Depravity] deals 1/4th damage but inflicts random debuffs on opponents struck for 8 seconds (Does not charge [c/E94DEC:Stellar Termination]
-#            Once [c/E94DEC:Stellar Termination] is charged, pressing the Weapon Action Key will consume the gauge and activate [c/E94DEC:Stellar Termination]
-#            [c/E94DEC:Stellar Termination] fires a powerful barrage of energy towards your cursor after a short delay which extends debuff durations on foes by 2 seconds per hit (up to 20 seconds)
-#            Additionally, grant [c/B6FADC:Merculight] to all nearby allies, increasing critical strike damage by 30% for 15 seconds
-#            If Stellar Nova is fully charged, [c/B6FADC:Merculight] additionally grants 25% critical strike chance
-#            Once [c/E94DEC:Stellar Termination] ends, all foes struck by [c/E94DEC:Stellar Termination] explode for 300% damage
+#            Держа в руках это оружие, даёт бафф [c/F3ADF4:Ритуал эхо-струн], который увеличивает шанс уклонения от атак на 1% за каждый дебафф, наложенный на врага
+#            Атаки этим оружием активируют [c/C39AFE:Охотничий астероид], выпускающий залп звёздных стрел, которые игнорируют блоки и наносят на 4% больше урона за каждый дебафф на цели
+#            [c/C39AFE:Охотничий астероид] также заряжает [c/E94DEC:Звёздную казнь] при попадании по врагам
+#            Нажмите <right>, чтобы активировать [c/8E4DEC:Низвержение], мгновенно вызывая град звёздных стрел с неба в течение 3 секунд и давая бафф «{$BuffName.Swiftness}» на то же время (перезарядка 20 секунд)
+#            [c/8E4DEC:Низвержение] наносит 1/4 урона, но накладывает случайные дебаффы на поражённых врагов на 8 секунд (не заряжает [c/E94DEC:Звёздную казнь]
+#            Когда [c/E94DEC:Звёздная казнь] заряжена, нажмите клавишу 'Действие оружия', чтобы использовать заряд и активировать [c/E94DEC:Звёздную казнь]
+#            [c/E94DEC:Звёздная казнь] выпускает мощный залп энергии в сторону курсора после короткой задержки, увеличивая длительность дебаффов на врагах на 2 секунды за каждое попадание (до 20 секунд)
+#            Кроме того, даёт бафф [c/B6FADC:Меркулитовый свет] всем ближайшим союзникам, увеличивая урон от критических ударов на 30% на 15 секунд
+#            Если Астронова полностью заряжена, [c/B6FADC:Меркулитовый свет] дополнительно увеличивает шанс критического удара на 25%
+#            Когда [c/E94DEC:Звёздная казнь] заканчивается, все поражённые им враги взрываются, нанося 300% урона
 #            '''
 #    }
 #
@@ -11240,12 +11254,12 @@
 #        Tooltip:
 #            '''
 #            [c/F592BF:Это оружие не подвержено к штрафу Аспектного типа урона]
-#            Using this weapon marks a location based on your cursor (1 minute cooldown)
-#            While cooldown is active, defense and attack are reduced by 5%
-#            After 3 seconds, an orbital train will annihilate your marked location, dealing guaranteed critical damage to all foes caught in the crossfire
-#            This attack ignores terrain and destroys projectiles it makes contact with
-#            The first foe struck by this attack will additionally take 50% increased damage
-#            Inherits 10% of the Stellar Nova's scaled base damage
+#            Использование этого оружия помечает место маркером в позиции курсора (перезарядка 1 минута)
+#            Во время перезарядки защита и атака снижаются на 5%
+#            Через 3 секунды орбитальный поезд уничтожает помеченное место, нанося гарантированный критический урон всем врагам, попавшим под перекрёстный огонь
+#            Эта атака игнорирует блоки и уничтожает снаряды, с которыми сталкивается
+#            Первый враг, поражённый этой атакой, получит дополнительно на 50% больше урона
+#            Наследует 10% от масштабируемого базового урона Астроновы
 #            'Работает на печеньках'
 #            '''
 #    }
@@ -11264,18 +11278,18 @@
 #        DisplayName: Засахарённый сладкобол
 #        Tooltip:
 #            '''
-#            Use to summon a trio of [c/FAD1FE:Sweetened Monsters], consuming 2 minion slots (Only one trio can be summoned at a time)
-#            Press the Weapon Action Key to cycle between each [c/FAD1FE:Sweetened Monster], empowering them
-#            Each [c/FAD1FE:Sweetened Monster] utilizes different attacks
-#            [c/FEB2D8:Charsugar]: Attacks with short-ranged flame blasts which inflict Hellfire for 20 seconds on hit
-#            This attack is treated as flamethrower damage and can deal critical strikes
-#            When empowered: cooldown between attacks is reduced and damage is increased by 15
-#            [c/B2F5FE:Sugartle]: Fires a piercing bubble that has a 20% chance to inflict [c/4A91FF:Riptide] for 4 seconds
-#            When a minion strikes an enemy with [c/4A91FF:Riptide], they take 30% extra damage, removing [c/4A91FF:Riptide]
-#            When empowered: Riptide is guaranteed to be inflicted
-#            [c/C4FEB2:Bulbasugar]: Stays stationary while firing a spread of homing seeds
-#            Can be moved with re-use; inherits both minion and sentry bonuses
-#            When empowered: Fires 3 more seeds, and seeds have a 10% chance of dealing a critical strike
+#            Призывает трио [c/FAD1FE:Сладких монстров], занимая 2 слота призываемых миньонов (одновременно можно призвать только одно трио)
+#            Нажимайте клавишу 'Действие оружия', чтобы переключаться между каждым [c/FAD1FE:Сладким монстром], усиливая их
+#            Каждый [c/FAD1FE:Сладкий монстр] обладает уникальными атаками
+#            [c/FEB2D8:Чарамель]: Атакует короткими огненными взрывами, которые накладывают дебафф «{$BuffName.OnFire3}» на 20 секунд при попадании
+#            Эта атака считается огнемётным уроном и может наносить критические удары
+#            При усилении: Интервал между атаками сокращается, а урон увеличивается на 15 единиц
+#            [c/B2F5FE:Фруктл]: Выпускает пронзающий пузырь, который с 20% шансом накладывает дебафф [c/4A91FF:Разрывное течение] на 4 секунды
+#            Когда миньон поражает врага с дебаффом [c/4A91FF:Разрывное течение], тот получает на 30% больше урона и дебафф [c/4A91FF:Разрывное течение] снимается
+#            При усилении: Разрывное течение гарантированно накладывается
+#            [c/C4FEB2:Бульбасахар]: Остаётся на месте, стреляя разлетающимися самонаводящимися семенами
+#            Его можно переместить при повторном использовании; наследует бонусы как от миньонов, так и от стражей
+#            При усилении: Выпускает на 3 семени больше, и семена с 10% шансом могут нанести критический удар
 #            '''
 #    }
 #
@@ -11295,15 +11309,15 @@
 #            '''
 #            2 урона от метки призывателя
 #            Урон от метки призывателя увеличивается по мере прохождения игры
-#            Attacks with this weapon travel incredibly fast and inflict Starblight for 4 seconds
-#            Additionally, attacks inflict a stack of [c/F8FF8B:Elemental Surge] on hit
-#            Right click to summon [c/FF5D93:Catalyst Keys] to assail foes with long-range energy bolts, ignoring 25% of foe's defense
-#            [c/FF5D93:Catalyst Keys] inflict [c/F8FF8B:Elemental Surge] when attacking foes
-#            At 6 stacks of [c/F8FF8B:Elemental Surge] the next application will instead burst all stacks, dealing bonus damage
-#            Every time [c/F8FF8B:Elemental Surge] is removed in this manner, gain [c/F28C60:Alignment] (Up to 5)
-#            Once [c/F28C60:Alignment] is at maximum, press the Weapon Action Key to transform the [c/FF5D93:Catalyst Keys] for 4 seconds
-#            Transformed [c/FF5D93:Catalyst Keys] rapidly strike foes with close-ranged slashes, dealing bonus damage based on the foe's defense
-#            Transformed [c/FF5D93:Catalyst Keys] inflict [c/F8FF8B:Elemental Surge], but [c/F28C60:Alignment] can not be gained while transformed
+#            Атаки этим оружием невероятно быстры и накладывают дебафф «{$Buffs.Starblight.DisplayName}» на 4 секунды
+#            Дополнительно, атаки накладывают один стак [c/F8FF8B:Элементального выброса] при попадании
+#            Нажмите <right>, чтобы призвать [c/FF5D93:Ключи катализатора], которые атакуют врагов дальнобойными энергетическими зарядами, игнорируя 25% их защиты
+#            [c/FF5D93:Ключи катализатора] накладывают на врагов дебафф [c/F8FF8B:Элементальный выброс]
+#            При накоплении 6 стаков [c/F8FF8B:Элементального выброса], следующее применение взорвёт все накопленные стаки, нанося дополнительный урон
+#            При каждом снятии [c/F8FF8B:Элементального выброса] таким образом, вы получаете [c/F28C60:Резонанс] (до 5 раз)
+#            Когда [c/F28C60:Резонанс] достигнет максимума, нажмите клавишу 'Действие оружия', чтобы трансформировать [c/FF5D93:Ключи катализатора] на 4 секунды
+#            Трансформированные [c/FF5D93:Ключи катализатора] стремительно атакуют врагов рубящями ударами, нанося дополнительный урон, пропорциональный защите врага
+#            Трансформированные [c/FF5D93:Ключи катализатора] накладывают [c/F8FF8B:Элементальный выброс], но [c/F28C60:Резонанс] нельзя получить во время трансформации
 #            '''
 #    }
 #
@@ -11321,15 +11335,15 @@
 #        DisplayName: Легендарный щит
 #        Tooltip:
 #            '''
-#            This weapon can absorb Weapon Memories without limit, permanently gaining their abilities without consuming slots
-#            Can be equipped as an accessory, granting Weapon Memory benefits to the current held weapon, but reduces outgoing damage by 40% (Original Memories are ignored)
-#            Holding this weapon grants defense proportional to Max HP divided by 6
-#            Using this weapon readies the shield for 2 seconds, causing the next attack to heal HP based on its original unmitigated damage (6 second cooldown)
-#            Damage is still taken while this ability is active; sustained damage is reflected to all nearby foes and reflection potency increases based on defense
-#            While the shield is on cooldown, healing from potions is reduced by 80%
-#            While this weapon is equipped as an accessory, gain [c/CAF795:Heroic Curse] under the effect of applicable damaging debuffs
-#            [c/CAF795:Heroic Curse] negates the damage penalty of equipping the weapon as an accessory and additionally increases defense by 10
-#            When either held or equipped as an accessory, gain a directional dash and enemies are more likely to target you
+#            Это оружие может без ограничений поглощать Воспоминания оружия, навсегда получая их способности без использования слотов
+#            Можно экипировать как аксессуар, передавая бонусы Воспоминаний оружия используемому в данный момент оружию, но снижает наносимый урон на 40% (исходные Воспоминания игнорируются)
+#            Держа это оружие в руках, увеличивает защиту пропорционально максимальному запасу здоровья, делённому на 6
+#            Использование этого оружия поднимает щит на 2 секунды, заставляя следующую вражескую атаку восстанавливать вам здоровье на величину её изначального урона (перезарядка 6 секунд)
+#            Во время действия щита вы всё равно получаете урон; полученный урон отражается всем ближайшим врагам, а сила отражения увеличивается в зависимости от вашей защиты
+#            Пока щит находится на перезарядке, эффективность лечебных зелий снижается на 80%
+#            При использовании этого оружия в качестве аксессуара, под воздействием любого наносящего урон дебаффа, активируется бафф [c/CAF795:Героическое проклятие]
+#            [c/CAF795:Героическое проклятие] нивелирует штраф к урону если оружие экипировано как аксессуар и дополнительно увеличивает защиту на 10
+#            Когда вы держите это оружие в руках или оно экипировано как аксессуар, вы можете делать рывок в выбранном направлении, а также враги чаще выбирают вас в качестве цели
 #            '''
 #    }
 #
@@ -11348,13 +11362,13 @@
 #        DisplayName: Каскад проклятий
 #        Tooltip:
 #            '''					
-#            Critical strikes with this weapon deal 50% less damage, but inflict [c/62C29B:Necrosis] for 4 seconds
-#            Foes inflicted with [c/62C29B:Necrosis] have their attack and defense reduced by 15%
-#            Starlight has a 10% increased chance to drop when defeating foes, which can be picked up to restore 5 Stellar Nova Energy
-#            Gain Swiftness, Ironskin, and Heartreach when the Stellar Nova Gauge is filled
-#            Defeating foes with this weapon charges the Stellar Nova by 2 energy and grants [c/8662C2:Cursewrought] for 7 seconds
-#            [c/8662C2:Cursewrought] increases attack speed by 20%, critical strike chance by 20%, and damage dealt against foes with [c/62C29B:Necrosis] by 20%
-#            Defeating foes while under the effect of [c/8662C2:Cursewrought] refreshes the buff, heals 10 HP, and charges the Stellar Nova by an additional 2 energy
+#            Критические удары этим оружием наносят на 50% меньше урона, но накладывают дебафф [c/62C29B:Некроз] на 4 секунды
+#            Враги, на которых наложен дебафф [c/62C29B:Некроз], теряют 15% к атаке и защите
+#            Увеличивает шанс выпадения звёздного света из врагов на 10%, который можно подобрать, чтобы восстановить 5 единиц энергии Астроновы
+#            Даёт баффы «{$BuffName.Swiftness}», «{$BuffName.Ironskin}» и «{$BuffName.Heartreach}» при заполнении шкалы Астроновы
+#            Победа над врагами этим оружием заряжает Астронову на 2 единицы энергии и даёт бафф [c/8662C2:Зачарованный проклятием] на 7 секунд
+#            [c/8662C2:Зачарованный проклятием] увеличивает скорость атаки на 20%, шанс критического удара на 20% и урон против врагов, на которых наложен дебафф [c/62C29B:Некроз] на 20%
+#            Победа над врагами под действием [c/8662C2:Зачарованного проклятием] обновляет бафф, восстанавливает 10 здоровья и дополнительно заряжает Астронову на 2 единицы энергии
 #            '''
 #    }
 #
@@ -11946,7 +11960,7 @@
 #    }
 #
 #    Burnout: {
-#        DisplayName: Burnout
+#        DisplayName: Выгорание
 #        Description: Характеристики снижены вдвое
 #    }
 #
@@ -12720,8 +12734,8 @@
 #    }
 #
 #    RagingTidesStance: {
-#        DisplayName: Raging Tides Stance
-#        Description: Tartaglia's attacks have been changed to melee
+#        DisplayName: Стойка бушующих волн
+#        Description: Атаки Тартальи были изменены на атаки ближнего боя
 #    }
 #
 #    BlackEnchantment: {
@@ -12810,12 +12824,12 @@
 #    }
 #
 #    ElementalChaos: {
-#        DisplayName: Elemental Chaos
+#        DisplayName: Элементальный хаос
 #        Description: ""
 #    }
 #
 #    SakuraCoolingBuff: {
-#        DisplayName: Cooling Haze
+#        DisplayName: Хладная мгла
 #        Description: ""
 #    }
 #
@@ -12830,7 +12844,7 @@
 #    }
 #
 #    SakuraVolcanoBuff: {
-#        DisplayName: Volcanic Wrath
+#        DisplayName: Вулканический гнев
 #        Description: ""
 #    }
 #
@@ -12855,13 +12869,13 @@
 #    }
 #
 #    BloodstainedBelone: {
-#        DisplayName: Bloodstained Belone
-#        Description: Damage has been increased by 10%
+#        DisplayName: Окровавленная пелена
+#        Description: Урон увеличен на 10%
 #    }
 #
 #    SkofnungBuff: {
-#        DisplayName: Blade of Grudges
-#        Description: The Blade of Grudges serves you
+#        DisplayName: Клинок затаённой обиды
+#        Description: Вам помогает клинок затаённой обиды
 #    }
 #
 #    Shielded: {
@@ -12870,22 +12884,22 @@
 #    }
 #
 #    StrikerAttackBuff: {
-#        DisplayName: Aerial Forme: Annihilation
+#        DisplayName: Воздушная форма: Аннигиляция
 #        Description: ""
 #    }
 #
 #    StrikerMeleeBuff: {
-#        DisplayName: Aerial Forme: Close Combat
+#        DisplayName: Воздушная форма: Ближний бой
 #        Description: ""
 #    }
 #
 #    StrikerShieldBuff: {
-#        DisplayName: Aerial Forme: Defender
+#        DisplayName: Воздушная форма: Защитник
 #        Description: ""
 #    }
 #
 #    StrikerSniperBuff: {
-#        DisplayName: Aerial Forme: Railgunner
+#        DisplayName: Воздушная форма: Рельсотронщик
 #        Description: ""
 #    }
 #
@@ -12915,8 +12929,8 @@
 #    }
 #
 #    FleetingSparkBuff: {
-#        DisplayName: Fleeting Spark
-#        Description: Static electricity arcs from your minions
+#        DisplayName: Мимолётная искра
+#        Description: Из ваших миньонов исходят разряды статического электричества
 #    }
 #
 #    SpatialBurn: {
@@ -13275,8 +13289,8 @@
 #    }
 #
 #    WrathfulCeruleanFlame: {
-#        DisplayName: Wrathful Cerulean Flame
-#        Description: Attacks from Shadowless Cerulean pierce armor and crit
+#        DisplayName: Яростное лазурное пламя
+#        Description: Атаки Бестеневой лазури пробивают защиту и наносят критические удары
 #    }
 #
 #    YellowOrb: {
@@ -13310,28 +13324,28 @@
 #    }
 #
 #    AdornmentAttackSpeedBuff: {
-#        DisplayName: Pure Chaos (Attack Speed)
-#        Description: Chaotic energy has granted a boon
+#        DisplayName: Чистый хаос (Скорость атаки)
+#        Description: Хаотичная энергия даровала благо
 #    }
 #
 #    AdornmentCritBuff: {
-#        DisplayName: Pure Chaos (Critical Strikes)
-#        Description: Chaotic energy has granted a boon
+#        DisplayName: Чистый хаос (Критические удары)
+#        Description: Хаотичная энергия даровала благо
 #    }
 #
 #    AdornmentMinionBuff: {
-#        DisplayName: Adornment of the Chaotic God
-#        Description: A manifestation of chaos is attacking your foes
+#        DisplayName: Убранство хаотичного бога
+#        Description: Воплощение хаоса атакует ваших врагов
 #    }
 #
 #    AdornmentRandomObjectsBuff: {
-#        DisplayName: Pure Chaos (Random Objects)
-#        Description: Chaotic energy has granted a bane
+#        DisplayName: Чистый хаос (Случайные объекты)
+#        Description: Хаотичная энергия даровала проклятие
 #    }
 #
 #    PureChaosCooldown: {
-#        DisplayName: Pure Chaos Cooldown
-#        Description: Pure Chaos не сработает, пока активен этот дебафф
+#        DisplayName: Перезарядка чистого хаоса
+#        Description: Чистый хаос не сработает, пока активен этот дебафф
 #    }
 #
 #    Alacrity: {
@@ -13440,12 +13454,12 @@
 #    }
 #
 #    ChronoclockMinionBuff: {
-#        DisplayName: Fragment of Time
-#        Description: A fragment of time is aiding you
+#        DisplayName: Фрагмент времени
+#        Description: Вам помогает фрагмент времени
 #    }
 #
 #    TimeBubbleCooldown: {
-#        DisplayName: Time Bubble Cooldown
+#        DisplayName: Перезарядка пузыря времени
 #        Description: The Time Bubble will not shield you from damage if this debuff is present
 #    }
 #
@@ -14270,72 +14284,72 @@
 #    }
 #
 #    TwoCrownBowDepravity: {
-#        DisplayName: Two Crown Bow Depravity
+#        DisplayName: Низвержение лука двух корон
 #        Description: ""
 #    }
 #
 #    StellarTerminationBuff: {
-#        DisplayName: Stellar Termination Buff
+#        DisplayName: Звёздная казнь
 #        Description: ""
 #    }
 #
 #    StellarTerminationPreBuff: {
-#        DisplayName: Stellar Termination Pre Buff
+#        DisplayName: Звёздная казнь
 #        Description: ""
 #    }
 #
 #    TwoCrownBowDepravityCooldown: {
-#        DisplayName: Two Crown Bow Depravity Cooldown
+#        DisplayName: Перезарядка низвержения лука двух корон
 #        Description: ""
 #    }
 #
 #    EchoStringRites: {
-#        DisplayName: Echo String Rites
+#        DisplayName: Ритуал эхо-струн
 #        Description: ""
 #    }
 #
 #    Merculight: {
-#        DisplayName: Merculight
+#        DisplayName: Меркулитовый свет
 #        Description: ""
 #    }
 #
 #    OrbitalExpresswayPlushCooldown: {
-#        DisplayName: Orbital Expressway Plush Cooldown
+#        DisplayName: Перезарядка плюшевого орбитального экспресса
 #        Description: ""
 #    }
 #
 #    AlignmentBuff: {
-#        DisplayName: Alignment Active
-#        Description: Catalyst Keys are surging with power
+#        DisplayName: Резонанс резонанс
+#        Description: Ключи катализатора переполнены силой
 #    }
 #
 #    AlignmentStack1: {
-#        DisplayName: Alignment
+#        DisplayName: Резонанс
 #        Description: ""
 #    }
 #
 #    AlignmentStack2: {
-#        DisplayName: Alignment
+#        DisplayName: Резонанс
 #        Description: ""
 #    }
 #
 #    AlignmentStack3: {
-#        DisplayName: Alignment
+#        DisplayName: Резонанс
 #        Description: ""
 #    }
 #
 #    AlignmentStack4: {
-#        DisplayName: Alignment
+#        DisplayName: Резонанс
 #        Description: ""
 #    }
 #
 #    AlignmentStack5: {
-#        DisplayName: Alignment
+#        DisplayName: Резонанс
 #        Description: ""
 #    }
 #
 #    ElementalSurge: {
-#        DisplayName: Elemental Surge
+#        DisplayName: Элементальный выброс
 #        Description: ""
 #    }
 #
@@ -14350,18 +14364,18 @@
 #    }
 #
 #    SugarballMinionBuff: {
-#        DisplayName: Sweetened Monster
-#        Description: Sweetened monsters are aiding you
+#        DisplayName: Сладкие монстры
+#        Description: Вам помогают сладкие монстры
 #    }
 #
 #    Cursewrought: {
-#        DisplayName: Cursewrought
-#        Description: Cursed energy empowers your weapon
+#        DisplayName: Зачарованный проклятием
+#        Description: Проклятая энергия усиливает ваше оружие
 #    }
 #
 #    Necrosis: {
-#        DisplayName: Necrosis
-#        Description: Stats are reduced
+#        DisplayName: Некроз
+#        Description: Характеристики снижены
 #    }
 #
 #    CrystalshotCooldown: {
@@ -14415,8 +14429,8 @@
 #    }
 #
 #    LegendaryShieldRaised: {
-#        DisplayName: Legendary Shield Raised
-#        Description: Shield is raised, drastically reducing incoming damage
+#        DisplayName: Поднятый легендарный щит
+#        Description: Поднятый щит значительно снижает получаемый урон
 #    }
 #
 #    SingularityResonance: {
@@ -14450,12 +14464,12 @@
 #    }
 #
 #    HeroicCurse: {
-#        DisplayName: Heroic Curse
+#        DisplayName: Героическое проклятие
 #        Description: ""
 #    }
 #
 #    LegendaryShieldRaisedCooldown: {
-#        DisplayName: Legendary Shield Raised Cooldown
+#        DisplayName: Перезарядка поднятого легендарного щита
 #        Description: ""
 #    }
 #
