@@ -44,6 +44,7 @@ public class TownNpcNamesTranslation : GlobalNPC
         {
             {"Tavish DeGroot", "Тавиш ДеГрут"},
             {"Fimmy", "Фимми"},
+            {"Dorira", "Дорира"},
         },
         [NPCID.Dryad] = new Dictionary<string, string>
         {

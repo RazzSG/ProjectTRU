@@ -84,10 +84,10 @@
 #    EasterEgg: Вы одолели босса менее чем за 10 секунд, что, вероятнее всего, является новым рекордом! Может быть, вы чересчур сильны?
 #
 #    KissOfDeath: {
-#        Skyfish: Skyfish deployed!
-#        Thunderbird: Thunderbird deployed!
-#        BehemothTyphoon: Behemoth Typhoon deployed!
-#        FullyCharged: Uppercut fully charged!
+#        Skyfish: Выбрана небесная рыба!
+#        Thunderbird: Выбрана громовая птица!
+#        BehemothTyphoon: Выбран чудовищный тайфун!
+#        FullyCharged: Апперкот полностью заряжен!
 #    }
 #}
 #
@@ -616,25 +616,25 @@
 #        Skeleton: {
 #            Asphodene: {
 #                Name: Skeletron Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Here's another Essence you can use. It'll make a Ranged-type weapon with unique properties. Something tells me it's cursed, so..
 #                2: Good luck! Let it be known I did warn you.
 #            }
 #            Eridani: {
 #                Name: Skeletron Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Here's a Ranged-type essence. It looks like every fourth shot has increased offensive properties. Whatever the reason, it's powerful.
 #            }
 #        }
 #        Underworld: {
 #            Asphodene: {
 #                Name: Underworld Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Here is another Essence for you. Looks like this fancy sewing needle has some pretty powerful movement capabilities.
 #            }
 #            Eridani: {
 #                Name: Underworld Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Держи ещё одну эссенцию. Она предназначена для создания оружия призывного типа. Ты ведь понимаешь, что это означает?
 #
 #                2: {
@@ -651,12 +651,12 @@
 #        QueenBee: {
 #            Asphodene: {
 #                Name: Queen Bee Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Ещё одна эссенция для тебя. Это оружие ближнего боя, но, похоже, оно обладает собственным разумом?..
 #            }
 #            Eridani: {
 #                Name: Queen Bee Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: I have quite the unique Essence for you. It looks to be a chainsaw imbued with the strength of a dog god... Or so it seems.
 #                2: Whatever it may be, it should prove useful to you. You'd probably be better off ignoring the fact that it talks.
 #            }
@@ -664,7 +664,7 @@
 #        KingSlime: {
 #            Asphodene: {
 #                Name: King Slime Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Вот ещё одна эссенция для тебя. Это огненный меч относится к магическому типу. Похоже, он взрывается, когда достаточно заряжен.
 #
 #                2: {
@@ -674,7 +674,7 @@
 #            }
 #            Eridani: {
 #                Name: King Slime Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: I've gotten an Essence for you. This one will create a Magic-type weapon. Apparently, proper timing is needed to better utilize this weapon.
 #                2: I have no doubts you can get a handle on it easily. My apologies, saying 'no doubts' would be a lie. Maybe 1/4th of a doubt.
 #            }
@@ -682,24 +682,24 @@
 #        WallOfFlesh: {
 #            Asphodene: {
 #                Name: Wall of Flesh Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: An Essence is here for your use. It looks to be a rather powerful melee weapon... and rather cold. Do you have any spare gloves?
 #            }
 #            Eridani: {
 #                Name: Wall of Flesh Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Magic Essence channels void energies to empower you with unique attacks, but don't get too attached. Void stuff is always dangerous.
 #            }
 #        }
 #        MechBoss: {
 #            Asphodene: {
 #                Name: Mechanical Boss Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Magic weapon is one of my own invention, could you tell? You'll be able to enter a special state in the heat of combat. Sounds great, right? I know!
 #            }
 #            Eridani: {
 #                Name: Mechanical Boss Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: The weapon made from this Essence is based around music.. Timing your swings will be critical in using this to its fullest.
 #                2: Even holding it makes you feel a certain type of beat...
 #            }
@@ -707,13 +707,13 @@
 #        AllMechBoss: {
 #            Asphodene: {
 #                Name: All Mechanical Bosses Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Essence creates a Ranged gun that perpetuates itself after killing foes! Feel the heat!!
 #                2: Uhh.. ahem. Please consider it in your arsenal.
 #            }
 #            Eridani: {
 #                Name: All Mechanical Bosses Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Essence will create a Melee weapon made for slaying dragons. Huh, dragons are rather ubiquitous across the galaxy. I wonder why that is...?
 #                2: Anyways, the weapon will help you with aerial jumps... and piercing whoever's below you after that.
 #            }
@@ -721,25 +721,25 @@
 #        Plantera: {
 #            Asphodene: {
 #                Name: Plantera Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Essence is a Ranged weapon that defeats foes with a swarm of powerful nanites. Definitely on my shorthand list of ways I wouldn't wanna go.
 #
 #            }
 #            Eridani: {
 #                Name: Plantera Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Magic weapon (gun?) seems to excel with striking foe weak points, becoming stronger after multiple shots.
 #            }
 #        }
 #        Golem: {
 #            Asphodene: {
 #                Name: Golem Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Essence is a Ranged weapon that allows for powerful charged attacks. Fully charged, it splits and hits multiple foes!
 #            }
 #            Eridani: {
 #                Name: Golem Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Ranged weapon allows you to enter a close-ranged stance, dealing more damage to foes you've hit with arrows. It should be quite engaging.
 #                2: I know it's only an Essence, but it thirsts for combat... Whoever the original owner was, someone tell them to chill out.
 #            }
@@ -747,26 +747,26 @@
 #        LunaticCultist: {
 #            Asphodene: {
 #                Name: Lunatic Cultist Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Looks like this weapon will create a poweful Melee weapon, imbued with the powers of earth and stone. Sounds like a good deal to me!
 #
 #            }
 #            Eridani: {
 #                Name: Lunatic Cultist Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This powerful Melee relic allows for the expidenture of Mana to teleport and deal powerful damage. It's a new favorite of mine.
 #            }
 #        }
 #        MoonLord: {
 #            Asphodene: {
 #                Name: Moon Lord Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Essence will create a support item this time. It'll give powerful buffs to you and your friends if you can keep it up.
 #
 #            }
 #            Eridani: {
 #                Name: Moon Lord Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Это оружие создано из самой силы Лунного лорда и его пространственных башен. Оно будет отлично тебе служить.
 #            }
 #        }
@@ -774,14 +774,14 @@
 #        WarriorOfLight: {
 #            Asphodene: {
 #                Name: Warrior of Light Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: The Warrior of Light has inspired this Essence. It appears to be a key to a gateway of infinite weapons, doing Summon damage.
 #                2: If you feel inspired, try referring to your foes as mongrels.
 #            }
 #
 #            Eridani: {
 #                Name: Warrior of Light Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: From the Warrior of Light.. this Essence allows for the usage of a Limit Break- allowing you to turn HP into Mana. It's an incredibly strong Magic weapon.
 #                2: The Light will cleanse your sins! Or something to that effect.
 #            }
@@ -790,14 +790,14 @@
 #        Vagrant: {
 #            Asphodene: {
 #                Name: ??? Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Essence creates a Ranged weapon with a high Mana cost, and an incredibly high critical damage modifier.
 #                2: Exploitable? Surely. Theorycraft is all you.
 #            }
 #
 #            Eridani: {
 #                Name: ??? Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This weapon can switch between Ranged and Magic. If you time its reload correctly, it always does critical damage.
 #                2: I'm sure you can think of something that works around that...
 #            }
@@ -806,14 +806,14 @@
 #        DukeFishron: {
 #            Asphodene: {
 #                Name: Duke Fishron Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This is a Summon weapon. It seems to have very unique scaling properties, and attacks incredibly quickly.
 #                2: It's also a reflection of your heart... or something. I don't really get that stuff.
 #            }
 #
 #            Eridani: {
 #                Name: Duke Fishron Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This powerful weapon allows you to use Skill Orbs to unleash special moves. It also has a super-powered burst window. It's a Melee weapon.
 #                2: You'd be well off with it in your hands.. but it does mean you have to get up close. I don't envy you.
 #            }
@@ -822,14 +822,14 @@
 #        Nalhaun: {
 #            Asphodene: {
 #                Name: Nalhaun Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This is a Summoner weapon, but you'll use it like a Melee weapon. It has the power to swap places instantly with a set place.
 #                2: While dangerous, it looks to be pretty powerful. Surely you won't get hit.. Right?
 #            }
 #
 #            Eridani: {
 #                Name: Nalhaun Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This is a Summon weapon. Holding it summons two cannons to orbit you, and you can fire from both of them. Each of them apply a different debuff.
 #                2: The important part is using the other weapon to trigger the other weapon's debuff. You can figure it out.
 #            }
@@ -838,13 +838,13 @@
 #        Penthesilea: {
 #            Asphodene: {
 #                Name: Euthymia Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This is a pretty unique weapon. When using it, it'll follow-up your attacks, and become stronger when you spend Mana.
 #            }
 #
 #            Eridani: {
 #                Name: Time Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Here's another Summon weapon. You can attack normally with it, but striking foes with the Timepieces empowers the weapon's attacks.
 #                2: Did I mention you can go back in time? It's powerful, for sure.
 #            }
@@ -853,13 +853,13 @@
 #        LiberationAzakana: {
 #            Asphodene: {
 #                Name: Liberation Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Essence hails from a world embroiled in conflict... It boasts incredible power, but if you get too overzealous, it'll start to hurt you.
 #            }
 #
 #            Eridani: {
 #                Name: Azakana Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Essence allows for the creation of unique dual blades which offer varying effects, and allows you to leave your body to overwhelm foes.
 #            }
 #        }
@@ -867,13 +867,13 @@
 #        Misery: {
 #            Asphodene: {
 #                Name: Misery's Company Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Эта эссенция создаёт оружие ближнего боя, способное трансформироваться в меч, косу или огнестрел. Подойдет для любой ситуации!
 #            }
 #
 #            Eridani: {
 #                Name: Misery's Company Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Essence is utilized in the creation of a Melee Weapon. What sets it apart is the ability to manifest as a sword, scythe, or gun.
 #            }
 #        }
@@ -881,13 +881,13 @@
 #        Hullwrought: {
 #            Asphodene: {
 #                Name: Hullwrought Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Okay, here's a new Essence for you. It's a huge Melee lance that can be swap between a lance form and a gun form. It looks to be pretty strong!
 #            }
 #
 #            Eridani: {
 #                Name: Hullwrought Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Here's a new weapon for you to craft. This lance can swap between close and long range, and it can also be charged to great effect.
 #            }
 #        }
@@ -895,13 +895,13 @@
 #        ShadowlessCerulean: {
 #            Asphodene: {
 #                Name: Shadowless Cerulean Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Well {0}, take this Essence. This Melee weapon has an incredible burst, but the refractory period may be dangerous.. Give it a shot, though!
 #            }
 #
 #            Eridani: {
 #                Name: Shadowless Cerulean Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Эй, {0}, это тебе. Это сверхмощное оружие ближнего боя, которое обладает фазой взрывного урона, после чего следует фаза слабости. Удачи в его использовании.
 #            }
 #        }
@@ -909,13 +909,13 @@
 #        Apalistik: {
 #            Asphodene: {
 #                Name: Apalistik Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Here's another Essence you can use! It has incredible synergy with Summons and gets stronger as you do, so if you plan on fighting with allies, this is it!
 #            }
 #
 #            Eridani: {
 #                Name: Apalistik Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: I have another Essence for you. This weapon is a Summon weapon that works in harmony with minions, and it gets stronger as you do.
 #            }
 #        }
@@ -923,14 +923,14 @@
 #        Luminary: {
 #            Asphodene: {
 #                Name: Luminary Wand Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Right, I have an Essence for you. It's a Summon weapon that conjures this mysterious sentient star. It's.. too cute. Anyways..
 #                2: It looks to be a powerful weapon, but you'll have to collect the Star Bits for full effect- meaning getting in the way of danger. Good luck..!
 #            }
 #
 #            Eridani: {
 #                Name: Luminary Wand Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: I have another Essence for you to use. This Summon-type wand calls forth this adorable little sentient star, and it just looks so.. squishable..
 #                2: ...Looking past that. You'll have to get up close to use the Star Bits, but they do quite a number on foes if you can land them.
 #            }
@@ -939,13 +939,13 @@
 #        Xenoblade: {
 #            Asphodene: {
 #                Name: Xenoblade Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Okay. I've got another Essence for you. This Melee weapon can swap between five different forms, granting powerful buffs in the process.
 #            }
 #
 #            Eridani: {
 #                Name: Xenoblade Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: I've given you another Essence. This is a Melee weapon that can morph between five different forms, changing the weapon's usage. Interesting.
 #            }
 #        }
@@ -953,13 +953,13 @@
 #        DualityIrys: {
 #            Asphodene: {
 #                Name: Styigan Nymph Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Here's a Magic-type Essence. It'll make a scythe with incredible reach and balances between light and dark. Now THAT sounds cool. Right? Right.
 #            }
 #
 #            Eridani: {
 #                Name: Caesura of Despair Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Here is another Essence. For you. This is a Summon weapon that will transform you as well as summon crystal shards that weaken and attack nearby foes.
 #                2: Hmm.. It's the Essence of Hope, but is there something else lurking beneath the surface? Who knows..
 #            }
@@ -968,13 +968,13 @@
 #        Claimh: {
 #            Asphodene: {
 #                Name: Claimh Solais Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Here's another Essence for your use. This powerful Melee blade can deal powerful damage to all foes in your vicinity. How useful is that?
 #            }
 #
 #            Eridani: {
 #                Name: Claimh Solais Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Right... Here's another Essence. This Melee weapon allows you to damage all nearby foes in a huge area. It should be quite useful.
 #            }
 #        }
@@ -982,13 +982,13 @@
 #        PenthesileaMuse: {
 #            Asphodene: {
 #                Name: Penthesilea's Muse Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Here's another Essence you can prepare to use, from Penthesilea's strength. With its magical paint, we should be able to best powerful foes.
 #            }
 #
 #            Eridani: {
 #                Name: Penthesilea's Muse Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This is another Essence you can master. It will allow you to use Penthesilea's ink to supress foes and strike bosses powerfully.
 #            }
 #        }
@@ -996,13 +996,13 @@
 #        Kifrosse: {
 #            Asphodene: {
 #                Name: Kifrosse Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Here you go: an essence for usage in crafting. It looks like it'll apply powerful bouts of flame and frost alike. Not how I'd want to go out, personally.
 #            }
 #
 #            Eridani: {
 #                Name: Kifrosse Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Okay, I have another Essence for your battles. It summons a mystical fox that burns your enemies with icy energy. They might even deserve it, too.
 #            }
 #        }
@@ -1010,13 +1010,13 @@
 #        Architect: {
 #            Asphodene: {
 #                Name: Architect's Luminance Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Whoa, this is a powerful Essence. It's potential seems to be magnified based on your Aspected Damage Type. How about giving it a go?
 #            }
 #
 #            Eridani: {
 #                Name: Architect's Luminance Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: It looks like this next Essence is a strong one. Aspected Damage Type seems to empower the weapon further…
 #            }
 #        }
@@ -1024,13 +1024,13 @@
 #        ForceOfNature: {
 #            Asphodene: {
 #                Name: Force Of Nature Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Okay..! Time for another Essence! This looks to be a Ranged weapon with high damage output at close range.
 #            }
 #
 #            Eridani: {
 #                Name: Force Of Nature Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: I've located another Essence for your use. It seems this Ranged-type weapon is hyperfocused on movement. How about pairing it with some mobility tools..?
 #            }
 #        }
@@ -1038,13 +1038,13 @@
 #        Genocide: {
 #            Asphodene: {
 #                Name: Genocide Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This new Essence is great! It's a Ranged weapon with crazy high explosive potential. Just point it towards the bad guys.
 #            }
 #
 #            Eridani: {
 #                Name: Genocide Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Another Essence is yours. It's a strong Ranged weapon with incredibly good room-clearing power. How about that?
 #            }
 #        }
@@ -1052,13 +1052,13 @@
 #        Takonomicon: {
 #            Asphodene: {
 #                Name: Takonomicon Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: I have a new Essence for you. This is a magical Summon-type weapon that seems to scale with your own potential. Interesting..!
 #            }
 #
 #            Eridani: {
 #                Name: Takonomicon Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Вот тебе ещё одна эссенция. Похоже, это оружие призывного типа, которое становится сильнее с увеличением количества призванных миньонов.
 #            }
 #        }
@@ -1066,13 +1066,13 @@
 #        TwinStarsAlbiero: {
 #            Asphodene: {
 #                Name: Twin Stars of Albiero Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: A Magic Essence is here this time. With cosmic energy, you can blast foes away with superpowered light. Sounds good to me!
 #            }
 #
 #            Eridani: {
 #                Name: Twin Stars of Albiero Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Here's a Magic-type Essence. With the power of the stars, you can melt even the strongest of foes. Give it a try..?
 #            }
 #        }
@@ -1080,13 +1080,13 @@
 #        Armaments: {
 #            Asphodene: {
 #                Name: Armaments of the Sky Striker Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Melee-type Essence should help. It looks to be a multiple-purpose power-suit with myriad attacks. Now that sounds cool!
 #            }
 #
 #            Eridani: {
 #                Name: Armaments of the Sky Striker Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: A Melee Essence is here this time. With its strength, you can create a multifaceted weapon that swaps its arsenal instantly in combat.
 #            }
 #        }
@@ -1094,13 +1094,13 @@
 #        CarianKonpaku: {
 #            Asphodene: {
 #                Name: Carian Dark Moon Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Okay {0}, I have an Essence for you! It seems to create a Magic-type weapon with powerful piercing damage... It sounds rather helpful.
 #            }
 #
 #            Eridani: {
 #                Name: Konpaku Katana Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: "{0}, у меня есть для тебя эссенция. Похоже, что из неё получится оружие призывного типа... и оно становится сильнее находясь в опасности? Тебе следует это проверить."
 #            }
 #        }
@@ -1108,13 +1108,13 @@
 #        NeonAshen: {
 #            Asphodene: {
 #                Name: Neo Dealmaker Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Я нашла ещё одну эссенцию, которую ты можешь использовать... По-видимому, её можно применить для создания стрелкового оружия. Как использовать дальше - решай сам.
 #            }
 #
 #            Eridani: {
 #                Name: Ashen Ambition Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Вот ещё одна мощная эссенция. По всей видимости, это оружие ближнего боя, способное казнить врагам. Не следует недооценивать его потенциал.
 #            }
 #        }
@@ -1122,13 +1122,13 @@
 #        CosmicDestroyer: {
 #            Asphodene: {
 #                Name: Cosmic Destroyer Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Okay- I've got it. Here's a Ranged-type Essence.. it looks to be something pretty powerful! Good luck.
 #            }
 #
 #            Eridani: {
 #                Name: Cosmic Destroyer Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Time for another essence- this time it's a Ranged-type weapon. Seems to be pretty powerful at general destruction.
 #            }
 #        }
@@ -1136,14 +1136,14 @@
 #        Arachnid: {
 #            Asphodene: {
 #                Name: Arachnid Needlepoint Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Эта эссенция оружия призывателя. Внешне она напоминает кнут, но... может призывать миньонов? Вот это да.
 #                2: Чего? 'Пик'? Это же новомодное словцо. Ты же слышал его уже сто раз. Ну, типа... горный пик? Вершина... чего-то? Ладно, забудь.
 #            }
 #
 #            Eridani: {
 #                Name: Arachnid Needlepoint Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Вот ещё одно оружие. Похоже на хлыст, способный призывать роботов-пауков для атаки врагов.
 #                2: Это пауки... но не настоящие. Осознание этого факта может помочь преодолеть инстинктивную реакцию 'бей или беги'. Возьми это на заметку!
 #            }
@@ -1152,13 +1152,13 @@
 #        Mercy: {
 #            Asphodene: {
 #                Name: Mercy Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Okay- this is a Melee weapon! My instincts tell me it's perfect for high-defense foes. What are you waiting for?
 #            }
 #
 #            Eridani: {
 #                Name: Mercy Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This is a Melee weapon. It has pretty good anti-armor properties- you can definitely put that to good use.
 #            }
 #        }
@@ -1166,13 +1166,13 @@
 #        Sakura: {
 #            Asphodene: {
 #                Name: Sakura Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Этот клинок ближнего боя способен аккумулировать энергию стихий. Даже просто держать его в руках - уже нечто особенное!
 #            }
 #
 #            Eridani: {
 #                Name: Sakura Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Another weapon is here. It seems to be a Melee weapon- one that uses the power of the elements to attack foes.
 #            }
 #        }
@@ -1180,14 +1180,14 @@
 #        Eternal: {
 #            Asphodene: {
 #                Name: Eternal Star Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This looks to be a Magic weapon. With its power, you can call down entire stars to defeat your foes!
 #                2: You're worried you'll run out eventually? Yeah.. no.
 #            }
 #
 #            Eridani: {
 #                Name: Eternal Star Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Magic-type staff will be incredibly helpful, if I do say so myself. It has the strength to conjure entire stars!
 #                2: As long as they aren't REAL stars. There would be... a few problems.
 #            }
@@ -1196,14 +1196,14 @@
 #        Vermillion: {
 #            Asphodene: {
 #                Name: Vermillion Daemon Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This looks to be... a Magic weapon. Strange- it feels like an entire armory is contained in this Essence. How's that possible?
 #                2: Well, I'll let you figure that one out. Get to it- I'm curious too, you know?
 #            }
 #
 #            Eridani: {
 #                Name: Vermillion Daemon Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Here's another weapon- Magic, it seems. There's something strange about it- this Essence seems to hold the strength of myriad weapons together.
 #            }
 #        }
@@ -1211,14 +1211,14 @@
 #        Ozma: {
 #            Asphodene: {
 #                Name: Ozma Ascendant Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Here's a Magic weapon for your usage. Looks to me like it's pretty complicated- you're up to the task though, right?
 #                2: Just point the pointy bit towards the bad guys. Usually works for me.
 #            }
 #
 #            Eridani: {
 #                Name: Ozma Ascendant Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Here's another unique Magic weapon. Looks to be rather complicated, so good luck using it. Don't forget the ABCs- always be casting!
 #                2: Although, I'm not too sure that it applies here, so use your own judgement.
 #            }
@@ -1227,13 +1227,13 @@
 #        Dreadnought: {
 #            Asphodene: {
 #                Name: Dreadnought Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Right.. Here's a Ranged-type weapon Essence.  I hope you've built up your chemical tolerance- it seems to utilize chemical energy to deal powerful damage.
 #            }
 #
 #            Eridani: {
 #                Name: Dreadnought Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Essence sources a Ranged weapon. It has a high focus on tight mobility, meaning it'll put you into the front lines. The strength should compensate.
 #            }
 #        }
@@ -1241,13 +1241,13 @@
 #        BloodBlade: {
 #            Asphodene: {
 #                Name: The Blood Blade Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Behold- a new Essence! It's Melee damage this time. It has some incredible lifesteal powers- but also seems to drain your health on use? How about giving it a go?
 #            }
 #
 #            Eridani: {
 #                Name: The Blood Blade Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: A Melee-type Essence is prepared this time. It seems to me like it sacrifies your health for powerful area-of-effect damage. Use it well, but know the risks.
 #            }
 #        }
@@ -1255,13 +1255,13 @@
 #        MorningStar: {
 #            Asphodene: {
 #                Name: The Morning Star Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Here's a Summon weapon. It's.. Well, it's a whip, but it has some unique magical properties. It has good striking power, too!
 #            }
 #
 #            Eridani: {
 #                Name: The Morning Star Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Right, here's a Summon-type whip. It has some magic capability, but it's a bit random in its casting. Try and use it well.
 #            }
 #        }
@@ -1269,13 +1269,13 @@
 #        HunterSparkblossom: {
 #            Asphodene: {
 #                Name: Hunter's Symphony Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Listen close, {0}! Or not. This Magic weapon is a giant horn, but get this: you can whack people with it! Rad!
 #            }
 #
 #            Eridani: {
 #                Name: Sparkblossom's Beacon Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Be careful with this Essence- for some reason, it discharges static electricity all the time.
 #                2: It'll create a Summon weapon. Hopefully the electric properties carry over- it's sure to give our foes a shock.
 #            }
@@ -1284,14 +1284,14 @@
 #        Virtue: {
 #            Asphodene: {
 #                Name: Virtue's Edge Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Careful with this Essence- Apparently, only the worthy can wield it at full strength.
 #                2: An ancient civilization's magnum opus, it seems. Don't underestimate its destructive power.
 #            }
 #
 #            Eridani: {
 #                Name: Virtue's Edge Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Essence leads to a truly powerful weapon. It bears remnants of an ancient, advanced civilization.
 #                2: Evidently, they bore proficiency in spatial manipulation. I'd like you to give it a try, but it might reject the unworthy.
 #                3: At this point, I wonder if there was a weapon you weren't worthy to wield. Yes, I'm praising you.
@@ -1301,14 +1301,14 @@
 #        Riposte: {
 #            Asphodene: {
 #                Name: Vermilion Riposte Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Look here, another Essence..! It's going to be Magic-type. It seems to revolve around balancing Black and White Mana to attack.
 #                2: It seems that they were opposites, at least where this thing came from. Makes you wonder…!
 #            }
 #
 #            Eridani: {
 #                Name: Vermilion Riposte Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Magic-type Essence balances attack and healing through the dual-use of Black and White mana.
 #                2: Two opposite schools of learning, at least in this Essence's original world. Now isn't some interesting worldbuilding…
 #            }
@@ -1317,14 +1317,14 @@
 #        BurningDesire: {
 #            Asphodene: {
 #                Name: Burning Desire Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Thanks for waiting. Here's another Melee-type Essence for your use. While it's deceptively close-ranged, it has the potential for some crazy burst damage.
 #                2: Sure, it'll most likely burn you up from the inside. Just a little, though.
 #            }
 #
 #            Eridani: {
 #                Name: Burning Desire Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Apologies for the delay- here's an Essence. This Melee weapon has some recoil potential, but in exchange you could deal some explosive amounts of damage.
 #                2: I'd ask you to use it in moderation, but I'm sure you'll use it as much as you like. Bring some healing potions, at the very least.
 #            }
@@ -1333,14 +1333,14 @@
 #        EverlastingPickaxe: {
 #            Asphodene: {
 #                Name: The Everlasting Pickaxe Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Okay, here's an unorthodox Essence for you. While it functions as a pretty strong pickaxe, it looks like it also has some great damage potential.
 #                2: From my take, it seems to be a great off-hand weapon to pump out explosions. Everyone loves explosions, right?
 #            }
 #
 #            Eridani: {
 #                Name: The Everlasting Pickaxe Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Essence focuses on excavation as well as damage. You can use it to move earth at significant rates, and additionally deal powerful explosive damage.
 #            }
 #        }
@@ -1348,13 +1348,13 @@
 #        CapitanHardware: {
 #            Asphodene: {
 #                Name: El Capitan's Hardware Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Here's a Ranged weapon- it has both a useful primary fire and can unleash strong self-sustaining drones to attack as well.
 #            }
 #
 #            Eridani: {
 #                Name: El Capitan's Hardware Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Here's a Ranged weapon- it has both a useful primary fire and can unleash strong self-sustaining drones to attack as well.
 #            }
 #        }
@@ -1362,13 +1362,13 @@
 #        CatalystMemory: {
 #            Asphodene: {
 #                Name: Catalyst's Memory Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: I've got a new weapon for you: it's a powerful mid-range blade, with the ability to conjure a crystal which can alter your combat style. Interesting, huh?
 #            }
 #
 #            Eridani: {
 #                Name: Catalyst's Memory Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: I've a new Celestial weapon for your use. It'll be more powerful when you utilize its strength to summon a Prismic, which can assist you in battle.
 #            }
 #        }
@@ -1376,14 +1376,14 @@
 #        Gloves: {
 #            Asphodene: {
 #                Name: Gloves of the Black Silence Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This is an Essence that'll turn into a pair of gloves. Now, I know what you're thinking, but let me explain.
 #                2: These gloves can conjure a whole arsenal of weapons for you to wield. Complicated, but it'll be very powerful if used right.
 #            }
 #
 #            Eridani: {
 #                Name: Gloves of the Black Silence Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Here's a new weapon for your use. In truth, this Essence is a bit more than that; it's a pair of gloves.
 #                2: Of course, that's not the whole story- you can use these gloves to summon an entire arsenal of weapons.
 #                3: I know the prospect sounds daunting, but you'll deal some heavy damage if you can manage the weapons well.
@@ -1393,13 +1393,13 @@
 #        SoulReaver: {
 #            Asphodene: {
 #                Name: Soul Reaver Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Right. This Melee Essence dips into the void to defeat foes and absorb them after. Sounds pretty cool to me.
 #            }
 #
 #            Eridani: {
 #                Name: Soul Reaver Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Отлично, это оружие ближнего боя... используя силу душ, ты способен рассекать огромные пространства вокруг себя и погружаться в пустоту для мгновенной телепортации.
 #                2: To be honest, it's... Well, it's pretty cool, but you didn't hear that from me. That isn't hypocritical, so don't try to read too into it.
 #            }
@@ -1408,13 +1408,13 @@
 #        AurumEdge: {
 #            Asphodene: {
 #                Name: Aurum Edge Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: I've acquired a new Essence for your use. It seems to borrow strength from Melee and Magic both- a versatile weapon, I like it!
 #            }
 #
 #            Eridani: {
 #                Name: Placeholder Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Похоже, это новая эссенция для тебя. Она использует уникальный тип урона и мощные зарядные атаки... но, скорее всего, будет иметь некоторый урон от отдачи.
 #            }
 #        }
@@ -1422,13 +1422,13 @@
 #        Farewells: {
 #            Asphodene: {
 #                Name: Farewell Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Looks like this Graveyard seems to have some connection to this Essence. Hopefully all these graves weren't just from you dying, right?
 #            }
 #
 #            Eridani: {
 #                Name: Farewell Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Graveyard seems to have connected to this Essence. I hope it'll help you avoid creating the Graveyard in the first place.
 #                2: While powerful, I believe it's a utility item, and not a weapon this time.
 #            }
@@ -1437,13 +1437,13 @@
 #        IrminsulPod: {
 #            Asphodene: {
 #                Name: Pod Zero-42 Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Хм... эта эссенция призывного типа сотворит какого-то управляемого дрона. Интересно, может ли он разговаривать?
 #            }
 #
 #            Eridani: {
 #                Name: Irminsul's Dream Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Magic Essence, while aspected to nature, seems rather volatile. Perhaps you'd be able to better use it in tandem with other weapons?
 #            }
 #        }
@@ -1451,13 +1451,13 @@
 #        Umbra: {
 #            Asphodene: {
 #                Name: Umbra Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This is certainly a Melee weapon- furthermore, it seems to be one that excels at a distance, as well as providing extra firepower in close combat. Nice.
 #            }
 #
 #            Eridani: {
 #                Name: Umbra Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Melee weapon harnesses an aspect of time itself to help you in combat. It seems to have some impressive range, as well.
 #            }
 #        }
@@ -1465,13 +1465,13 @@
 #        SaltwaterScourge: {
 #            Asphodene: {
 #                Name: Saltwater Scourge Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: I plundered a Ranged-sort of essence from the likeness of those pirates. Sea... water... Actually, looks like I'm nearly dry with jokes, so I'll anchor myself now.
 #            }
 #
 #            Eridani: {
 #                Name: Saltwater Scourge Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: How about it; that previous... um, let's say 'get-together' with those pirates has churned up an Essence- Ranged damage, from what I can tell. Here you are.
 #            }
 #        }
@@ -1479,13 +1479,13 @@
 #        Chaos: {
 #            Asphodene: {
 #                Name: Chaos Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Well, I'm not sure what to make of this Essence, other than that it's a Summon weapon. Best you give it a go, before anything else goes haywire.
 #            }
 #
 #            Eridani: {
 #                Name: Chaos Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: I'm not sure how to define this Summon-type Essence, so I'll leave it as an exercise for you. Well... good luck.
 #            }
 #        }
@@ -1493,14 +1493,14 @@
 #        Chronoclock: {
 #            Asphodene: {
 #                Name: Chronoclock Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This watch is a Summon-type weapon- looks like it'll call forth a cute time-aspected ally. She'll help with support if you can work with her combat style.
 #                2: Hmm... Perhaps you could even use it to dodge incoming attacks...?
 #            }
 #
 #            Eridani: {
 #                Name: Chronoclock Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Summon-type weapon conjures a rather charming time-aspected being. She'll help with both offensive and defensive duties.
 #            }
 #        }
@@ -1508,13 +1508,13 @@
 #        KissOfDeath: {
 #            Asphodene: {
 #                Name: Kiss OfD eath Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: It looks to me like this Ranged-weapon has the ability to down hordes of foes pretty easily. Sounds like it'll come in handy- especially the giant coffin swings!
 #            }
 #
 #            Eridani: {
 #                Name: Kiss Of Death Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This essence is a Ranged-type weapon, but it seems to have a lot of close-ranged action. Don't get overzealous, but do try to make the most of it.
 #            }
 #        }
@@ -1522,13 +1522,13 @@
 #        Boltstorm: {
 #            Asphodene: {
 #                Name: Boltstorm Axe Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Looks like this Essence is both Magic and Melee aspected- it crackles with lightning already. How about giving it a shot?
 #            }
 #
 #            Eridani: {
 #                Name: Boltstorm Axe Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Seems like this is a Melee and Magic type Essence in tandem. From what I can see, it'll make a powerful weapon that channels the power of lightning.
 #            }
 #        }
@@ -1536,13 +1536,13 @@
 #        NanomachinaReactor: {
 #            Asphodene: {
 #                Name: Nanomachina Reactor Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Как насчёт этой эссенции? Она даст усиленный барьер, который не только защитит тебя, но и позволит наносить урон, не боясь последствий.
 #            }
 #
 #            Eridani: {
 #                Name: Nanomachina Reactor Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Essence is a support-type item. It'll provide a powerful barrier and allow you to sap life energy from your foes as well... It'll be quite the powerful tool.
 #            }
 #        }
@@ -1550,14 +1550,14 @@
 #        Sanguine: {
 #            Asphodene: {
 #                Name: Sanguine Despair Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Seems that this Essence came from that voodoo doll we found in the Underworld- a strange sight. Are you certain that using a weapon like this is worth the risk?
 #                2: Who am I kidding- of course you're certain! You chose me, after all! Just don't get TOO reckless, now.
 #            }
 #
 #            Eridani: {
 #                Name: Sanguine Despair Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Essence seems to have resonated from that strange poppet we found in the Underworld. Beware its dangers- your affinity with resurrection is... tentative.
 #            }
 #        }
@@ -1565,13 +1565,13 @@
 #        Sunset: {
 #            Asphodene: {
 #                Name: Sunset of the Sun God Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Essence is aspected to this world's star- your sun! Needless to say, the power of the sun would be quite the boon- let's see this thing in action!
 #            }
 #
 #            Eridani: {
 #                Name: Sunset of the Sun God Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: An Essence attuned to the power of our Sun- and it is quite radiant, indeed. Let's make good use of it.
 #            }
 #        }
@@ -1579,13 +1579,13 @@
 #        Mania: {
 #            Asphodene: {
 #                Name: Maniacal Justice Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Hmm, I'd advise healthy amounts of caution with this Essence- it's a Melee essence with high potential, but it looks like you're leaving your defenses open for it.
 #            }
 #
 #            Eridani: {
 #                Name: Maniacal Justice Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Essence exudes an unhealthy amount of madness- it's a Melee weapon that trades defensive prowess for offensive might. Do be careful.
 #            }
 #        }
@@ -1593,13 +1593,13 @@
 #        SupremeAuthority: {
 #            Asphodene: {
 #                Name: Supreme Authority Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Looks to me like this Magic Essence has some powerful potential, but I'm not quite sure what it requires in turn... Perhaps you should give it a look.
 #            }
 #
 #            Eridani: {
 #                Name: Supreme Authority Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: A Magic-type essence. It seems to harbor incredible power, but it also seems to require sacrifices in return…
 #            }
 #        }
@@ -1607,13 +1607,13 @@
 #        Kinetic: {
 #            Asphodene: {
 #                Name: Kariumu's Favor Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: You aren't going to believe this, but someone gave this Essence to me- how is that possible? They said something like 'It's just a game, so it's OK.' What even?
 #            }
 #
 #            Eridani: {
 #                Name: Kariumu's Favor Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: How can I say this...? Unlike the other Essences, I felt a presence give this one to me. They said something like... 'It's just a game, so it's OK.'
 #                2: It seems to be able to absorb hostile energy and use it to empower you in turn. I, too, am curious on how it looks.
 #            }
@@ -1622,7 +1622,7 @@
 #        ShockAndAwe: {
 #            Asphodene: {
 #                Name: Shock And Awe Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Ranged-essence seems to lead to a classic rocket-launcher weapon- I've heard of using explosives for traversal, so it shouldn't hurt to try, right?
 #
 #                2: {
@@ -1633,7 +1633,7 @@
 #
 #            Eridani: {
 #                Name: Shock And Awe Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Эта ракетница стрелкового типа имеет уникальный ближний бой в паре, но для её использования... ну, я надеюсь, у тебя ноги крепкие.
 #            }
 #        }
@@ -1641,13 +1641,13 @@
 #        Dreamer: {
 #            Asphodene: {
 #                Name: Dreamer's Inkwell Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Magic Essence is pretty unique: you can draw directly onto the world to cause different effects to occur.
 #            }
 #
 #            Eridani: {
 #                Name: Dreamer's Inkwell Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Take into consideration this Magic essence: in short, it turns the world into a canvas you can interact and attack with.
 #            }
 #        }
@@ -1655,13 +1655,13 @@
 #        Trickspin: {
 #            Asphodene: {
 #                Name: Trickspin Two-Step Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Похоже, здесь появилась эссенция йо-йо... ещё и призывного типа. Оказывается, она обладает некоторыми удобными средствами передвижения!
 #            }
 #
 #            Eridani: {
 #                Name: Trickspin Two-Step Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: Here is a new Essence for your perusal- it'll deal Summon damage. It's rather close-ranged but boasts movement capabilities to help close the gap.
 #            }
 #        }
@@ -1669,13 +1669,13 @@
 #        Dragalia: {
 #            Asphodene: {
 #                Name: Dragalia Found Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Summon-type weapon isn't like anything you've seen before, I think. Best to just give it a go- how good's your swordsmanship?
 #            }
 #
 #            Eridani: {
 #                Name: Dragalia Found Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: You'd think this Summon-type essence wouldn't be a sword, but here it is. It has a very special power hidden within... Just don't unleash it indoors.
 #            }
 #        }
@@ -1683,13 +1683,13 @@
 #        Gundbit: {
 #            Asphodene: {
 #                Name: Gund-bit Siege Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: With this Essence, you'll have a Magic-type weapon with some crazy stopping power! Let's give this one a 'shot'!
 #            }
 #
 #            Eridani: {
 #                Name: Gund-bit Siege Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: I hope you have steady aim- this Magic weapon has powerful piercing strength, as long as you keep your target in your sights.
 #            }
 #        }
@@ -1697,13 +1697,13 @@
 #        Wavedancer: {
 #            Asphodene: {
 #                Name: Wavedancer Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Summon weapon is an elegant blade- you can control it manually, or it will slice foes all on its own. Why can't everything do that?
 #            }
 #
 #            Eridani: {
 #                Name: Wavedancer Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Summon essence will create a mystical blade to aid you in combat- you can also control it magically, if you need better precision.
 #            }
 #        }
@@ -1711,13 +1711,13 @@
 #        Clarent: {
 #            Asphodene: {
 #                Name: Clarent Rebellion Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Melee blade has one goal in mind... You could probably guess from its name. It'll make a powerful weapon, that's for sure.
 #            }
 #
 #            Eridani: {
 #                Name: Clarent Rebellion Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: A Melee essence, huh? It looks like it has some powerful abilities. Just be glad it listens to you.
 #            }
 #        }
@@ -1725,13 +1725,13 @@
 #        SoliloquyHavoc: {
 #            Asphodene: {
 #                Name: Devoted Havoc Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: This Ranged weapon can empower some throwing weapons... Or, you could just blast foes away with bullets. You know, I like both of these options!
 #            }
 #
 #            Eridani: {
 #                Name: Soliloquy of Sovereign Seas Weapon Dialogue
-#                Description: Grants an Essence
+#                Description: Даёт эссенцию
 #                1: It seems this Summon essence creates powerful allies of water to give you the upper hand in combat. How brilliant!
 #            }
 #        }
@@ -1740,10 +1740,10 @@
 #    BossDialogue: {
 #        KingSlime: {
 #            Asphodene: {
-#                Name: King Slime Dialogue
+#                Name: Диалог о Короле слизней
 #                Description: ""
-#                1: Ты победил Короля слизней, что ли? Отличная работа!
-#                2: It does do feel like the beginning of a journey. Slimes often serve a good first foe.
+#                1: Ты победил Короля слизней, а? Отличная работа!
+#                2: Чувствуется, что это только начало пути. Слизни - это, как правило, неплохой выбор для первых врагов.
 #
 #                3: {
 #                    $parentVal: Кто-то ещё видел того ниндзю? Или только мне показалось?
@@ -1757,7 +1757,7 @@
 #            }
 #
 #            Eridani: {
-#                Name: King Slime Dialogue
+#                Name: Диалог о Короле слизней
 #                Description: ""
 #                1: Многим может показаться, что Король слизней был слаб, но на самом деле он был очень опасен.
 #
@@ -1775,7 +1775,7 @@
 #
 #        CthulhuEye: {
 #            Asphodene: {
-#                Name: Eye of Cthulhu Dialogue
+#                Name: Диалог о Глазе Ктулху
 #                Description: ""
 #                1: "'Глаз Ктулху'?"
 #
@@ -1793,7 +1793,7 @@
 #            }
 #
 #            Eridani: {
-#                Name: Eye of Cthulhu Dialogue
+#                Name: Диалог о Глазе Ктулху
 #                Description: ""
 #                1: Неужели Глаз Ктулху, несмотря на свой вид, оказался не так страшен?
 #                2: Похоже, что он сбросил свою шкуру, чтобы показать целый арсенал зубов.
@@ -1848,14 +1848,14 @@
 #
 #        Skeletron: {
 #            Asphodene: {
-#                Name: Skeletron Dialogue
+#                Name: Диалог о Скелетроне
 #                Description: ""
 #                1: Портной оказался просто гигантским, зловещим скелетом-монстром... Но таким милым. По крайней мере, теперь у тебя есть доступ к Темнице.
-#                2: Okay, I know you're chomping at the bit to go down and do some spelunking, but- Actually, never mind. I'm curious too. Let's get going.
+#                2: Ладно, я знаю, ты уже рвёшься туда спуститься и покопаться, но... Впрочем, ладно. Мне тоже интересно. Погнали.
 #            }
 #
 #            Eridani: {
-#                Name: Skeletron Dialogue
+#                Name: Диалог о Скелетроне
 #                Description: ""
 #                1: Этот несчастный портной, проклятый стать Скелетроном. Похоже, своим поражением он открыл нам путь в Темницу. Может, это звучит цинично, но...
 #
@@ -1891,14 +1891,14 @@
 #
 #        Twins: {
 #            Asphodene: {
-#                Name: Twins Dialogue
+#                Name: Диалог о Близнецах
 #                Description: ""
-#                1: So someone went and made two Eyes instead of one? Good for them, but in my opinion, the design is kind of ruined already.
-#                2: If you're going to make a robot eye, try and hide the obvious weak spot where the iris is. Well, I don't create giant evil robotic eyes, so they got me there.
+#                1: Значит, кто-то вместо одного Глаза сделал два? Отлично, им виднее. Правда, на мой взгляд, дизайн уже подпорчен.
+#                2: Если уж делать роботический глаз, то лучше спрятать очевидную уязвимость - радужку. Впрочем, я не занимаюсь созданием гигантских злых робоглазов, так что в этом они меня обошли.
 #            }
 #
 #            Eridani: {
-#                Name: Twins Dialogue
+#                Name: Диалог о Близнецах
 #                Description: ""
 #                1: Well, those mechanical facsimiles are dead. We're not rating boss monsters, or anything, but... I'm going to have to dock some points.
 #
@@ -1911,17 +1911,17 @@
 #
 #        Destroyer: {
 #            Asphodene: {
-#                Name: Destroyer Dialogue
+#                Name: Диалог об Уничтожителе
 #                Description: ""
 #                1: Уничтожитель... Я, как правило, предпочитаю молчать, но когда что-то называется 'Уничтожителем', я ожидаю увидеть не просто здоровенного червя.
 #                2: Его абсурдная длина лишь ослабляла его. Запомни это, {0}!
 #            }
 #
 #            Eridani: {
-#                Name: Destroyer Dialogue
+#                Name: Диалог об Уничтожителе
 #                Description: ""
-#                1: I guess the Destroyer was more bark than bite, huh. Maybe too much of the budget was spent on the design aspect.
-#                2: In theory, we could technically salvage some of its bits, but it's probably more trouble than its worth.
+#                1: Видать, Уничтожитель больше лаял, чем кусал. Наверное, львиная доля бюджета ушла на дизайн.
+#                2: Теоретически мы могли бы спасти некоторые его компоненты, но, скорее всего, это не стоит затраченных усилий.
 #            }
 #        }
 #
@@ -3300,7 +3300,7 @@
 #                1: Гляжу, ты становишься всё сильнее, а? Придётся и мне поднапрячься, чтобы не отставать.
 #
 #                2: {
-#                    $parentVal: Или нет. Теоретически, если бы дело дошло до драки, то я бы, наверное, победила. Как думаешь? 
+#                    $parentVal: Или нет. Теоретически, если бы дело дошло до драки, то я бы, наверное, победила. Как думаешь?
 #                    E: Smug
 #                }
 #
@@ -3366,9 +3366,9 @@
 #            Eridani: {
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
-#                1: Asphodene likes to follow rules as much as possible, but to be honest, there's a time and place for everything.
-#                2: Sometimes, you have to bend the regulations to help who you need. That's just how things work. If you're quick enough, nobody will even notice.
-#                3: Let's keep something straight though- there's usually other options, and you have to weigh those as well. Always resorting to crime is what bad people do.
+#                1: Асфодена старается максимально следовать правилам, но, честно говоря, всему своё время и место.
+#                2: Иногда приходится нарушать правила, чтобы помочь тем, кто в этом нуждается. Так уж устроен мир. Главное - быть достаточно ловким, чтобы никто не заметил.
+#                3: Но давай начистоту... обычно есть и другие варианты, и их тоже нужно взвесить. Постоянно прибегать к криминалу - удел негодяев.
 #            }
 #        }
 #
@@ -5265,22 +5265,22 @@
 #            AbilityName: Страж света
 #            AbilitySubName: "[c/C0EEFF:Ясность воли странника]"
 #            AbilityDescription: {
-#                Melee: Владейте паракаузальной энергией, используя множество способностей, зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя, Золотая пушка для стрелкового, Сверх бомба для магического, Шторм игл для призывного, а в остальных случаях Молчание и Шквал. Раскат грома: После активации даёт бафф «{$Buffs.BearerOfLight.DisplayName}» на 10 секунд и летите к курсору, нанося невероятно мощный урон первому врагу, с которым столкнётесь. При активации даёт неуязвимость на 3 секунды, независимо от продолжительности атаки.
-#                Ranged: Владейте паракаузальной энергией, используя множество способностей, зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя, Золотая пушка для стрелкового, Сверх бомба для магического, Шторм игл для призывного, а в остальных случаях Молчание и Шквал. Золотая пушка: После активации даёт бафф «{$Buffs.BearerOfLight.DisplayName}» на 10 секунд, высвобождая заряды пронзающего света. Пока активен «{$Buffs.BearerOfLight.DisplayName}», можно использовать Астронову во второй раз, чтобы повторить атаку, нанося 1/3 урона. Критические удары взрываются, нанося 50% базового урона.
-#                Magic: Владейте паракаузальной энергией, используя множество способностей, зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя, Золотая пушка для стрелкового, Сверх бомба для магического, Шторм игл для призывного, а в остальных случаях Молчание и Шквал. Сверх бомба: После активации даёт бафф «{$Buffs.BearerOfLight.DisplayName}» на 10 секунд, высвобождая мощный снаряд пустоты, который преследует врагов. Через 2 секунды или при попадании во врага снаряд детонирует, образуя мощный взрыв. Поражённые взрывом враги получают дебафф «{$BuffName.ShadowFlame}» на 10 секунд.
-#                Summon: Владейте паракаузальной энергией, используя множество способностей, зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя, Золотая пушка для стрелкового, Сверх бомба для магического, Шторм игл для призывного, а в остальных случаях Молчание и Шквал. Шторм игл: После активации даёт бафф «{$Buffs.BearerOfDarkness.DisplayName}» на 10 секунд и высвобождает 5 сотканных игл. При попадании во врага или в поверхность, иглы превращаются в нитевиков и атакуют ближайших врагов (считаются миьонами). Урон делится между сотканными иглами и нитевиками.
-#                Other: Владейте паракаузальной энергией, используя множество способностей, зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя, Золотая пушка для стрелкового, Сверх бомба для магического, Шторм игл для призывного, а в остальных случаях Молчание и Шквал. Молчание и Шквал: После активации даёт бафф «{$Buffs.BearerOfDarkness.DisplayName}» на 10 секунд, а также использует Молчание, накладывая дебафф «{$BuffName.Frostburn}» на 8 секунд. Сразу после этого следует Шквал, наносящий урон и создающий морозное поле при ударе, которое наносит постепенный урон в течение 8 секунд.
+#                Melee: Владейте паракаузальной энергией, используя множество способностей, зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя, Золотая пушка для стрелкового, Сверх бомба для магического, Иглошторм для призывного, а в остальных случаях Молчание и Шквал. Раскат грома: После активации даёт бафф «{$Buffs.BearerOfLight.DisplayName}» на 10 секунд и летите к курсору, нанося невероятно мощный урон первому врагу, с которым столкнётесь. При активации даёт неуязвимость на 3 секунды, независимо от продолжительности атаки.
+#                Ranged: Владейте паракаузальной энергией, используя множество способностей, зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя, Золотая пушка для стрелкового, Сверх бомба для магического, Иглошторм для призывного, а в остальных случаях Молчание и Шквал. Золотая пушка: После активации даёт бафф «{$Buffs.BearerOfLight.DisplayName}» на 10 секунд, высвобождая заряды пронзающего света. Пока активен «{$Buffs.BearerOfLight.DisplayName}», можно использовать Астронову во второй раз, чтобы повторить атаку, нанося 1/3 урона. Критические удары взрываются, нанося 50% базового урона.
+#                Magic: Владейте паракаузальной энергией, используя множество способностей, зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя, Золотая пушка для стрелкового, Сверх бомба для магического, Иглошторм для призывного, а в остальных случаях Молчание и Шквал. Сверх бомба: После активации даёт бафф «{$Buffs.BearerOfLight.DisplayName}» на 10 секунд, высвобождая мощный снаряд пустоты, который преследует врагов. Через 2 секунды или при попадании во врага снаряд детонирует, образуя мощный взрыв. Поражённые взрывом враги получают дебафф «{$BuffName.ShadowFlame}» на 10 секунд.
+#                Summon: Владейте паракаузальной энергией, используя множество способностей, зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя, Золотая пушка для стрелкового, Сверх бомба для магического, Иглошторм для призывного, а в остальных случаях Молчание и Шквал. Иглошторм: После активации даёт бафф «{$Buffs.BearerOfDarkness.DisplayName}» на 10 секунд и высвобождает 5 сотканных игл. При попадании во врага или в поверхность, иглы превращаются в нитевиков и атакуют ближайших врагов (считаются миьонами). Урон делится между сотканными иглами и нитевиками.
+#                Other: Владейте паракаузальной энергией, используя множество способностей, зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя, Золотая пушка для стрелкового, Сверх бомба для магического, Иглошторм для призывного, а в остальных случаях Молчание и Шквал. Молчание и Шквал: После активации даёт бафф «{$Buffs.BearerOfDarkness.DisplayName}» на 10 секунд, а также использует Молчание, накладывая дебафф «{$BuffName.Frostburn}» на 8 секунд. Сразу после этого следует Шквал, наносящий урон и создающий морозное поле при ударе, которое наносит постепенный урон в течение 8 секунд.
 #            }
 #            AstralBonus: "«{$Buffs.BearerOfLight.DisplayName}» увеличивает регенерацию здоровья. «{$Buffs.BearerOfDarkness.DisplayName}» снижает получаемый урон на 10%. При получении смертельного урона любой из баффов поглощается и восстанавливает 30 здоровья."
-#            UmbralBonus: «{$Buffs.BearerOfLight.DisplayName}» увеличивает урон на 8%. «{$Buffs.BearerOfDarkness.DisplayName}» увеличивает шанс критического удара на 15%. Пока активен любой из этих баффов, штраф к урону аспектного типа урона не применяется.
+#            UmbralBonus: "«{$Buffs.BearerOfLight.DisplayName}» увеличивает урон на 8%. «{$Buffs.BearerOfDarkness.DisplayName}» увеличивает шанс критического удара на 15%. Пока активен любой из этих баффов, штраф к урону аспектного типа урона не применяется."
 #        }
 #
 #        FireflyTypeIV: {
 #            AbilityName: Светлячок тип-IV
 #            AbilitySubName: "[c/9EF78A:В наступившем дне, я расцвету во всей красе]"
-#            AbilityDescription: After a short delay, your Starfarer dons the Chrysalid Pyronexus and assists you in battle with myriad attacks. All attacks deal 2 separate instances of Nova damage. After foes take a certain amount of Nova damage, they will trigger Complete Combustion, dealing 15% of the foe's Max HP as bonus damage, up to 2500% Stellar Nova damage. Critical Nova strikes inflict Complete Combustion much faster. Duration in seconds is proportional to Energy Cost divided by 8. (No Nova Energy while active)
+#            AbilityDescription: After a short delay, your Starfarer dons the Chrysalid Pyronexus and assists you in battle. All attacks deal 2 separate instances of Nova damage. After foes take a certain amount of Nova damage, they will trigger Complete Combustion, dealing 15% of the foe's Max HP as bonus damage, up to 2500% Stellar Nova damage. Critical Nova strikes inflict Complete Combustion much faster, but crit damage is lower. Duration in seconds is proportional to Energy Cost divided by 8. (No Nova Energy while active)
 #            AstralBonus: Полное сгорание лечит на 5% от нанесённого урона, если применяется к боссу (максимум 100 здоровья за применение).
-#            UmbralBonus: Срабатывание Полного сгорания увеличивает длительность Chrysalid Pyronexus на 10 секунд (не более 40 секунд).
+#            UmbralBonus: Срабатывание Полного сгорания also inflicts Rout, increasing all damage inflicted on the target by 20% for 5 seconds.
 #        }
 #
 #        # Не используется
@@ -5621,7 +5621,7 @@
 #    ShadowlessCerulean: Бестеневая лазурь
 #    Takonomicon: Takonomicon
 #    LuminaryWand: Освещающая палочка
-#    JetstreamBloodshed: Jetstream Bloodshed
+#    JetstreamBloodshed: Реактивное кровопролитие
 #    BuryTheLight: Bury The Light
 #    DeathInFourActs: Смерть в четырёх актах
 #    HypertunedDeathInFourActs: Hypertuned Death In Four Acts
@@ -6043,16 +6043,16 @@
 #        DisplayName: Пепельная амбиция
 #        Tooltip:
 #            '''
-#            Attacks pierce foes and have no knockback
-#            Right click to disappear, activating [c/926AD9:Ashen Execution] and saving your cursor's position (1 minute cooldown)
-#            After a short delay, teleport to your cursor and deal damage around you, instantly executing foes below this weapon's base damage * 5
-#            Foes below the execution threshold will glow
-#            Defeating foes in this manner instantly refreshes the cooldown of [c/926AD9:Ashen Execution] (2 second minimum) and grants one stack of [c/812ABA:Call of the Void]
-#            Each stack of [c/812ABA:Call of the Void] increases movement speed by 5%
-#            At 5 stacks of [c/812ABA:Call of the Void] all stacks are reset and [c/926AD9:Ashen Execution] has a 10 second cooldown
-#            Additionally, gain [c/FF7EF3:Ashen Strength] for 2 seconds, drastically restoring HP and increasing damage by 20%
-#            Failing to execute an enemy resets all stacks of [c/812ABA:Call of the Void]
-#            'Put these foolish ambitions to rest'
+#            Атаки пронзают врагов и не имеют отбрасывания
+#            Нажмите <right>, чтобы исчезнуть, активировав [c/926AD9:Пепельную казнь] и сохранив позицию курсора (перезарядка 1 минута)
+#            После небольшой задержки вы мгновенно телепортируетесь к курсору и наносите урон вокруг себя, мгновенно казня врагов с уровнем здоровья ниже базового урона оружия, умноженного на 5
+#            Враги, подпадающие под порог казни, будут светиться
+#            Убийство врагов таким образом мгновенно сбрасывает перезарядку [c/926AD9:Пепельной казни] (минимум 2 секунды) и даёт один стак [c/812ABA:Зова Пустоты]
+#            Каждый стак [c/812ABA:Зова Пустоты] увеличивает скорость передвижения на 5%
+#            При достижении 5 стаков [c/812ABA:Зов Пустоты] сбрасывается, и перезарядка [c/926AD9:Пепельной казни] составляет 10 секунд
+#            Кроме того, вы получаете [c/FF7EF3:Пепельную силу] на 2 секунды, которая значительно восстанавливает здоровье и увеличивает урон на 20%
+#            Неудачная казнь врага сбрасывает все стаки [c/812ABA:Зова Пустоты]
+#            'Отринь свои глупые амбиции'
 #            '''
 #    }
 #
@@ -6070,16 +6070,16 @@
 #        Tooltip:
 #            '''
 #            Атаки этого оружия совершают круговые взмахи
-#            Striking foes with this attack will heal a small portion of damage dealt as HP (Max 5 HP)
-#            Gain the buff [c/A20000:Bloodthirsting Blade] when wielding this weapon
-#            [c/A20000:Bloodthirsting Blade] grants powerful buffs as HP diminishes, but prevents natural life regeneration
-#            Damage, critical strike chance, and critical strike damage is increased based on missing HP
-#            Damage bonuses cap at 200% damage
-#            Right click to unleash [c/FF1B00:Blade Art: Dragon], consuming 20% of current HP (20 second cooldown)
-#            After a short delay during which you are invulnerable, [c/FF1B00:Blade Art: Dragon] activates
-#            [c/FF1B00:Blade Art: Dragon] deals 400% damage to all foes in a wide radius around you
-#            Defeating a foe with [c/FF1B00:Blade Art: Dragon] instantly refreshes the cooldown
-#            'So, let all become ash!'
+#            Удары по врагам этим оружием восстанавливают небольшую часть нанесённого урона в виде здоровья (до 5 единиц здоровья)
+#            При использовании этого оружия вы получаете бафф [c/A20000:Кровожадный клинок]
+#            [c/A20000:Кровожадный клинок] даёт мощные усиления по мере уменьшения здоровья, но предотвращает естественную регенерацию здоровья
+#            Урон, шанс критического удара и урон от критических ударов увеличиваются в зависимости от недостающего здоровья
+#            Бонусы к урону ограничены 200% урона
+#            Нажмите <right>, чтобы высвободить [c/FF1B00:Искусство клинка: Дракон], потратив 20% текущего здоровья (перезарядка 20 секунд)
+#            После короткой задержки, во время которой вы неуязвимы, активируется [c/FF1B00:Искусство клинка: Дракон]
+#            [c/FF1B00:Искусство клинка: Дракон] наносит 400% урона всем врагам в широком радиусе вокруг вас
+#            Победа над врагом с помощью [c/FF1B00:Искусства клинка: Дракон] мгновенно сбрасывает перезарядку
+#            'Так пусть всё станет пеплом!'
 #            '''
 #    }
 #
@@ -8732,16 +8732,16 @@
 #            Предмет наследия (Нельзя получить)
 #            [c/FF4F9F:Звёздная призма - Ранг 3]
 #            Установите на Астронову, чтобы получить следующие характеристики:
-#            [c/6ECBA5:Harrowed Path]
-#            Upon cast of the Stellar Nova, gain 'Sovereign's Dominion'
-#            During Sovereign's Dominion, gain 30% Movement Speed and 10% Attack Damage
-#            Sovereign's Dominion lasts for 15 seconds
-#            [c/527060:Blade of the Ruined King]
-#            Critical hits on foes below 50% HP will inflict Ruination, dealing damage over time
-#            Ruination lasts for 30 seconds and can be applied without use of the Stellar Nova
-#            During Sovereign's Dominion, critical hits on foes inflicted with Ruination will also heal you for a portion of damage
-#            [c/9AC89F:The Mist Recedes]
-#            Lose Stellar Nova Energy upon getting hit
+#            [c/6ECBA5:Мглистый путь]
+#            При использовании Сверхновой даёт бафф «{$Buffs.SovereignDominion.DisplayName}»
+#            Во время действия баффа «{$Buffs.SovereignDominion.DisplayName}» увеличивает скорость передвижения на 30% и урон на 10%
+#            «{$Buffs.SovereignDominion.DisplayName}» длится 15 секунд
+#            [c/527060:Клинок свергнутого короля]
+#            Критические удары по врагам с менее чем 50% здоровья накладывают дебафф «{$Buffs.Ruination.DisplayName}», нанося постепенный урон
+#            «{$Buffs.Ruination.DisplayName}» длится 30 секунд и можно накладывать без использования Астроновы
+#            Во время действия дебаффа  «{$Buffs.Ruination.DisplayName}» критические удары по врагам, на которых наложен дебафф «{$Buffs.Ruination.DisplayName}», также исцеляют вас на часть нанесённого урона
+#            [c/9AC89F:Уходящий туман]
+#            При получении урона вы теряете энергию для использования Астроновы
 #            [c/C77878:Призмы 3 ранга можно установить только в первый слот меню Астроновы]
 #            '''
 #    }
@@ -8925,7 +8925,7 @@
 #            Побеждённые враги взрываются, образуя ливень пламени, накладывающий дебафф «{$BuffName.CursedInferno}» на 8 секунд
 #            Держа это оружие в руках, активирует [c/CE8EBD:Шкалу возмездия]
 #            Побеждённые враги этим оружием заполняют [c/CE8EBD:Шкалу возмездия]
-#            Нажмите <right>, чтобы израсходовать [c/CE8EBD:Индикатор возмездия] и получить бафф [c/DF2AAE:Элементальный хаос] на 14 секунд
+#            Нажмите <right>, чтобы израсходовать [c/CE8EBD:Шкалу возмездия] и получить бафф [c/DF2AAE:Элементальный хаос] на 14 секунд
 #            [c/DF2AAE:Элементальный хаос] даёт все баффы [c/FF71D8:Элементальных искусств], а оружие накладывает все дебаффы [c/FF71D8:Элементальных искусств] на врагов
 #            [c/DF2AAE:Элементальный хаос] не даёт уникальные способности каждого из [c/FF71D8:Элементальных искусств]
 #            'Помни всех, кто покинул нас, и они будут жить вечно'
@@ -9061,18 +9061,18 @@
 #            '''
 #            [c/8AC1F1:Это оружие обладает уникальным типом урона; наследует бонусы от всех классов урона]
 #            [c/F7D76A:Удерживайте <left>, чтобы зарядить оружие; чем дольше заряжается оружие, тем сильнее итоговая атака]
-#            Charged attacks will execute [c/8D0404:Guntrigger Execution], teleporting to your cursor (in range), granting Invincibility for 2 seconds, and slashing foes around you
-#            When charging the weapon, movement is disabled
-#            After use of [c/8D0404:Guntrigger Execution], you are inflicted with the debuff [c/B96B6B:Impact Recoil] for 12 seconds
-#            [c/B96B6B:Impact Recoil] halves the damage of [c/8D0404:Guntrigger Execution] and removes Invincibility upon activation
-#            Timing the charged attack perfectly will deal 50% increased damage
-#            Right click to activate [c/FF7B7B:Guntrigger Parry] for 1 second (12 second cooldown)
-#            During this time, all damage sustained is negated and reflected to foes
-#            Successfully parrying an attack immediately removes [c/B96B6B:Impact Recoil] and grants the buff [c/EC2B65:Jetstream Bloodshed]
-#            [c/EC2B65:Jetstream Bloodshed] grants 30% increased damage and lasts until damage is taken or the weapon is no longer held
-#            At 100 HP or below, [c/FF7B7B:Guntrigger Parry] cooldown is doubled, but successful parries remove the cooldown
-#            Additionally, [c/EC2B65:Jetstream Bloodshed]'s damage buff is increased to 50% and natural life regeneration is disabled
-#            'Let's dance'
+#            Заряженные атаки выполняют [c/8D0404:Мгновенную расправу], телепортируя вас к курсору (в пределах досягаемости), давая неуязвимость на 2 секунды и нанося рубящие удары врагам вокруг вас
+#            Во время зарядки оружия вы не можете двигаться
+#            После использования [c/8D0404:Мгновенной расправы] на вас накладывается дебафф [c/B96B6B:Ударная отдача] на 12 секунд
+#            [c/B96B6B:Ударная отдача] уменьшает урон от [c/8D0404:Мгновенной расправы] вдвое и снимает неуязвимость при активации
+#            Идеально выполненная заряженная атака наносит на 50% больше урона
+#            Нажмите <right>, чтобы активировать [c/FF7B7B:Мгновенное парирование] на 1 секунду (перезарядка 12 секунд)
+#            В течение этого времени весь полученный урон блокируется и отражается обратно во врагов
+#            Успешное парирование атаки мгновенно снимает [c/B96B6B:Ударную отдачу] и даёт бафф [c/EC2B65:Реактивное кровопролитие]
+#            [c/EC2B65:Реактивное кровопролитие] увеличивает урон на 30% и действует до тех пор, пока вы не получите урон или не уберёте оружие
+#            Когда ваше здоровье 100 или ниже, время перезарядки [c/FF7B7B:Мгновенного парирования] удваивается, но успешные парирования сбрасывают перезарядку
+#            Кроме того, усиление урона от [c/EC2B65:Реактивного кровопролития] увеличивается до 50%, а естественная регенерация здоровья отключается
+#            'Потанцуем'
 #            '''
 #    }
 #
@@ -9177,14 +9177,14 @@
 #        Tooltip:
 #            '''
 #            Атаки этого оружия совершают широкие взмахи
-#            Держа это оружие в руках, активирует [c/4C3BB6:Virtue Gauge]
-#            Attacks with this weapon will fill the [c/4C3BB6:Virtue Gauge] with [c/49C7EC:Astral Flux]
-#            Critical strikes will fill the [c/4C3BB6:Virtue Gauge] faster
-#            Right click when the [c/4C3BB6:Virtue Gauge] is full to cleave a tear in spacetime, spawning a [c/495DEC:Celestial Void] for 8 seconds (45 second cooldown)
-#            The [c/495DEC:Celestial Void] will pulse powerful damage to all nearby foes, dragging them inwards
-#            Attacks with this weapon during this time will fill the [c/4C3BB6:Virtue Gauge] with [c/6C38E3:Umbral Flux]
-#            If the [c/4C3BB6:Virtue Gauge] is full once the [c/495DEC:Celestial Void] ends, it will collapse in a massive explosion, dealing 500% damage
-#            'Pierce through all matter!'
+#            Держа это оружие в руках, активирует [c/4C3BB6:Шкалу добродетели]
+#            Атаки этим оружием заполняют [c/4C3BB6:Шкалу добродетели] [c/49C7EC:Астральным потоком]
+#            Критические удары заполняют [c/4C3BB6:Шкалу добродетели] быстрее
+#            Нажмите <right>, когда [c/4C3BB6:Шкала добродетели] заполнена, чтобы разорвать пространство-время и призвать [c/495DEC:Неземную пустоту] на 8 секунд (перезарядка 45 секунд)
+#            [c/495DEC:Неземная пустота] наносит мощный урон всем ближайшим врагам, притягивая их к центру
+#            Атаки этим оружием в течение этого времени заполняют [c/4C3BB6:Шкалу добродетели] [c/6C38E3:Теневым потоком]
+#            Если [c/4C3BB6:Шкала добродетели] заполнена после окончания действия [c/495DEC:Неземной пустоты], она схлопнется в мощный взрыв, наносящий 500% урона
+#            'Режет всю материю, словно масло!'
 #            '''
 #    }
 #
@@ -9192,16 +9192,16 @@
 #        DisplayName: Глаз эвтюмии
 #        Tooltip:
 #            '''
-#            Use this item to summon the [c/C341E9:Eye of Euthymia] for 40 seconds
-#            This item can be re-used to replenish the duration of [c/C341E9:Eye of Euthymia]
-#            When striking foes with projectiles, the [c/C341E9:Eye of Euthymia] will follow-up, dealing 1/5th of damage dealt again, capping at 500
-#            This follow-up attack has a 2 second cooldown
-#            When Mana is consumed while the [c/C341E9:Eye of Euthymia] is present, it is directly added into the [c/8A71D6:Eternity Gauge], with a cap of 1000
-#            The [c/8A71D6:Eternity Gauge] will naturally increase to 500 over time
-#            The higher the [c/8A71D6:Eternity Gauge], the lower the cooldown of [c/C341E9:Eye of Euthymia]'s follow-up attack
-#            The [c/8A71D6:Eternity Gauge] will deplete upon taking damage proportional to half of the damage taken
-#            The [c/8A71D6:Eternity Gauge] will reset when the Eye of Euthymia disappears
-#            'Fulfill your promise; an everlasting Eternity'
+#            Используйте этот предмет, чтобы призвать [c/C341E9:Око Эвтимии] на 40 секунд
+#            Этот предмет можно использовать повторно, чтобы продлить длительность [c/C341E9:Ока Эвтимии]
+#            При поражении врагов снарядами [c/C341E9:Око Эвтимии] нанесёт дополнительный удар, наносящий 1/5 от нанесённого урона, максимум 500
+#            Эта дополнительная атака имеет 2 секунды перезарядки
+#            Когда мана расходуется, пока присутствует [c/C341E9:Око эвтюмии], она напрямую добавляется в [c/8A71D6:Шкалу Вечности], с пределом в 1000
+#            [c/8A71D6:Шкала Вечности] постепенно заряжается до 500
+#            Чем выше заряд [c/8A71D6:Шкалы Вечности], тем меньше перезарядка дополнительной атаки [c/C341E9:Ока Эвтюмии]
+#            При получении урона заряд [c/8A71D6:Шкалы Вечности] будет уменьшаться на половину полученного урона
+#            [c/8A71D6:Шкала Вечности] сбрасывается, когда [c/C341E9:Око эвтюмии] исчезает
+#            'Сдержи своё обещание; вечная Вечность'
 #            '''
 #    }
 #
@@ -9220,32 +9220,18 @@
 #        DisplayName: Ксеноклинок
 #        Tooltip:
 #            '''
-#            [c/F7D76A:Зажмите <left>, чтобы зарядить оружие; если оружие полностью заряжено, атака изменяется]
-#            Незаряженные атаки рассекают в широкой области и восстанавливают 3 маны
-#            Заряженные атаки наносят двойной урон, имеют значительное отбрасывание и увеличенный радиус поражения
-#            Подготовка заряженных атак расходует ману
-#            После 2 незаряженных атак подряд следующая заряженная атака готовится чрезвычайно быстро
-#            Нажмите <right> для переключения [c/E35D5D:Стиля Ксеноклинка] между [c/C80000:Ударным], [c/52BEF3:Скоростным], [c/E3D55D:Защитным], [c/40EF28:Прыжковым] и [c/9923CD:Реактивным]
-#            Текущий [c/E35D5D:Стиль Ксеноклинка] накладывает особый бафф:
-#            [c/C80000:Ударный] дарует бафф «{$BuffName.Titan}», а заряжаемые атаки улучшаются в [c/C80000:Бич Мехона], гарантируя критический удар
-#            [c/52BEF3:Скоростной] дарует бафф «{$BuffName.Swiftness}» и отключает заряжаемые атаки, но обычные атаки становятся сильнее и быстрее
-#            [c/E3D55D:Защитный] дарует бафф «{$BuffName.Endurance}» и увеличивает защиту на 18 во время подготовки заряженной атаки, а расход маны останавливается
-#            [c/40EF28:Прыжковый] дарует бафф «{$BuffName.Featherfall}», и заряжаемые атаки запускают вас вперёд, расходуя 40 маны («{$BuffName.Featherfall}» спадает при менее чем 100 маны)
-#            [c/9923CD:Реактивный] дарует бафф «{$BuffName.Wrath}» и отключает обычные атаки, но заряжаемые атаки становятся быстрее
-#            'Так вот в чём сила Монадо!'
-#            
 #            [c/F7D76A:Удерживайте <left>, чтобы зарядить оружие; если оружие полностью заряжено, тип атаки изменится]
-#            Uncharged attacks slash in a wide area and will restore 3 mana
-#            Charged attacks deal double damage, have extraordinary knockback, and range is extended
-#            Preparing charge attacks drain mana
-#            After 2 uncharged attacks in quick succession, the next charged attack is prepared incredibly fast
-#            Right click to cycle [c/E35D5D:Xenoblade Arts] between [c/C80000:Smash], [c/52BEF3:Speed], [c/E3D55D:Shield], [c/40EF28:Jump], and [c/9923CD:Buster]
-#            The current [c/E35D5D:Xenoblade Art] will grant a specific buff in the stance
-#            [c/C80000:Smash] grants Titan when active, and charged attacks are upgraded into [c/C80000:Mechon's Bane] guaranteeing critical damage
-#            [c/52BEF3:Speed] grants Swiftness when active and disables charged attacks, but normal attacks are stronger and faster
-#            [c/E3D55D:Shield] grants Endurance when active, and you gain 18 defense when holding a readied charged attack and mana drain is stopped
-#            [c/40EF28:Jump] grants Featherfall when active, and charged attacks launch you forward, costing 40 mana (Featherfall is lost below 100 mana)
-#            [c/9923CD:Buster] grants Wrath when active and disables normal attacks, but charged attacks are faster
+#            Незаряженные атаки наносят широкие рассекающие удары и восстанавливают 3 маны
+#            Заряженные атаки наносят двойной урон, обладают невероятным отбрасыванием и увеличенным радиусом поражения
+#            Подготовка заряженных атак расходует ману
+#            После 2 последовательных незаряженных атак следующая заряженная атака готовится чрезвычайно быстро
+#            Нажмите <right> для переключения [c/E35D5D:Искусства Ксеноклинка] между [c/C80000:Сокрушением], [c/52BEF3:Скоростью], [c/E3D55D:Защитой], [c/40EF28:Прыжком] и [c/9923CD:Крушителем]
+#            Текущее [c/E35D5D:Искусство Ксеноклинка] даёт особый бафф в данной стойке:
+#            [c/C80000:Сокрушение] даёт бафф «{$BuffName.Titan}», а заряжаемые атаки улучшаются до [c/C80000:Гибели Мехона], гарантируя критический удар
+#            [c/52BEF3:Скорость] даёт бафф «{$BuffName.Swiftness}» и отключает заряженные атаки, но обычные атаки становятся сильнее и быстрее
+#            [c/E3D55D:Защита] даёт бафф «{$BuffName.Endurance}» и увеличивает защиту на 18 во время подготовки заряженной атаки, при этом расход маны останавливается
+#            [c/40EF28:Прыжок] даёт бафф «{$BuffName.Featherfall}», а заряженные атаки запускают вас вперёд, расходуя 40 маны («{$BuffName.Featherfall}» спадает, когда запас маны падает ниже 100)
+#            [c/9923CD:Крушитель] даёт бафф «{$BuffName.Wrath}» и отключает обычные атаки, но заряженные атаки становятся быстрее
 #            'ТАК вот в чём сила Монадо!'
 #            '''
 #    }
@@ -9634,8 +9620,8 @@
 #            [c/F7D76A:Перегрузка] также отнимает ваше здоровье при достижении порогов [c/F7D76A:Перегрузки] (не снижает здоровье ниже 1)
 #            Заряженные атаки совершают огромный размашистый взмах, накладывая дебафф «{$BuffName.Frostburn}» на 4 секунды
 #            Заряженные атаки второго уровня отнимают 20 здоровья, но наносят 200% урона и накладывают дебафф «{$BuffName.ShadowFlame}» на 4 секунды
-#            При максимальной [c/F7D76A:Перегрузке] отнимает дополнительно 30 здоровья, но гарантирует нанесение критического удара и накладывает дебафф [c/FF4DF4:{$Buffs.Hyperburn.DisplayName}] на 4 секунды
-#            [c/FF4DF4:{$Buffs.Hyperburn.DisplayName}] наносит мощный постепенный урон и игнорирует большую часть сопротивлений
+#            При максимальной [c/F7D76A:Перегрузке] отнимает дополнительно 30 здоровья, но гарантирует нанесение критического удара и накладывает дебафф [c/FF4DF4:Гипергорение] на 4 секунды
+#            [c/FF4DF4:Гипергорение] наносит мощный постепенный урон и игнорирует большую часть сопротивлений
 #            '''
 #    }
 #
@@ -9643,13 +9629,13 @@
 #        DisplayName: Сон Ирминсуля
 #        Tooltip:
 #            '''
-#            Click and drag to draw a box; releasing left click will execute [c/6CDA61:Verdant Snapshot] (Attack will end once maximum size is reached)
-#            [c/6CDA61:Verdant Snapshot] inflicts damage to all foes in the box while inflicting [c/2EB24A:Verdant Embrace] for 12 seconds
-#            [c/2EB24A:Verdant Embrace] deals minor damage over time
-#            Additionally, when a foe with [c/2EB24A:Verdant Embrace] is inflicted with On Fire, Frostburn, Cursed Inferno, or Shadowflame, it will trigger a [c/94EF58:Verdant Burst]
-#            [c/94EF58:Verdant Burst] will inflict bonus damage equal to 10% of the foe's maximum HP (up to 120 HP per application, can not kill)
-#            However, both [c/2EB24A:Verdant Embrace] and the debuff that triggered [c/94EF58:Verdant Burst] will be cleansed
-#            'Let knowledge be yours'
+#            Нажмите и удерживайте <left>, чтобы нарисовать рамку; отпустите <left>, чтобы активировать [c/6CDA61:Изумрудный снимок] (атака завершается, когда рамка достигает максимального размера)
+#            [c/6CDA61:Изумрудный снимок] наносит урон всем врагам в рамке и накладывает дебафф [c/2EB24A:Изумрудное объятие] на 12 секунд
+#            [c/2EB24A:Изумрудное объятие] наносят незначительный постепенный урон
+#            Кроме того, если на врага с [c/2EB24A:Изумрудным объятием] наложить «{$BuffName.OnFire}», «{$BuffName.Frostburn}», «{$BuffName.CursedInferno}» или «{$BuffName.ShadowFlame}», то активируется [c/94EF58:Изумрудный взрыв]
+#            [c/94EF58:Изумрудный взрыв] наносит дополнительный урон, равный 10% от максимального запаса здоровья врага (до 120 здоровья за каждое срабатывание; не может убить)
+#            При этом, и [c/2EB24A:Изумрудное объятие], и дебафф, вызвавший [c/94EF58:Изумрудный взрыв], будут сняты
+#            'Да будет знание твоим'
 #            '''
 #    }
 #
@@ -9657,11 +9643,11 @@
 #        DisplayName: Прощание Кевеси
 #        Tooltip:
 #            '''
-#            Игра на этом инструменте даёт бафф [c/69B5FC:Странствия проводника] на 2 минуты
+#            Использование этого инструмента даёт бафф [c/69B5FC:Странствия проводника] на 2 минуты
 #            [c/69B5FC:Странствия проводника] увеличивает удачу и максимальный показатель удачи, а также скорость появления врагов (перезарядка 8 минут)
-#            Если победить врага, имея в инвентаре Прощание Кевеси во время действия [c/69B5FC:Странствия проводника], вы получите бафф [c/FC6969:{$Buffs.FarewellOfFlames.DisplayName}] на 10 секунд
-#            [c/FC6969:{$Buffs.FarewellOfFlames.DisplayName}] дополнительно увеличивает удачу
-#            Если использовать инструмент, владея при этом силой Теневого аспекта, то эффект увеличения удачи от [c/69B5FC:Странствия проводника] становится ещё сильнее
+#            Если во время действия [c/69B5FC:Странствия проводника] победить врага, имея в инвентаре Прощание Кевеси, вы получаете бафф [c/FC6969:Прощание с пламенем] на 10 секунд
+#            [c/FC6969:Прощание с пламенем] дополнительно увеличивает удачу
+#            Если использовать инструмент, обладая силой Теневого аспекта, то эффект увеличения удачи от [c/69B5FC:Странствия проводника] становится ещё сильнее
 #            '''
 #    }
 #
@@ -9669,18 +9655,18 @@
 #        DisplayName: Поцелуй смерти
 #        Tooltip:
 #            '''
-#            Right click to cycle between [c/F54F0C:Skyfish], [c/CF3C32:Thunderbird], and [c/CF1826:Behemoth Typhoon] with a short cooldown
-#            [c/F54F0C:Skyfish] unleashes a powerful minigun, rapidly firing piercing bullets that deal 20% increased damage to foes above 50% HP
-#            Each bullet will consume 2 mana (This mana cost can not be negated by any means)
-#            Bullets will apply [c/F3CE36:Security Level] for 12 seconds, marking the target
-#            [c/CF3C32:Thunderbird] allows for the deployment of homing bombs that ignore terrain, exploding and dealing 20% increased damage to foes below 50% HP
-#            Explosions will apply [c/F3CE36:Security Level] for 12 seconds, marking the target
-#            [c/CF1826:Behemoth Typhoon] swings a massive coffin, dealing 300% damage when released
-#            Attacks on foes with [c/F3CE36:Security Level] using [c/CF1826:Behemoth Typhoon]'s released attack cleanses the debuff, charging the [c/EB936A:Overdrive Gauge]
-#            Holding the Weapon Action Key will charge a powerful attack, consuming the [c/EB936A:Overdrive Gauge]
-#            Releasing the Weapon Action Key executes a powerful close-ranged strike, increasing in power with the amount of [c/EB936A:Overdrive Gauge] consumed
-#            If over half of the [c/EB936A:Overdrive Gauge] is consumed, the attack is guaranteed to be a critical strike
-#            'It's not a big deal'
+#            Нажимайте <right>, чтобы переключаться между [c/F54F0C:Небесной рыбой], [c/CF3C32:Громовой птицей] и [c/CF1826:Чудовищным тайфуном] с небольшой перезарядкой
+#            [c/F54F0C:Небесная рыба] освобождает мощный миниган, который стреляет быстрыми и пронзающими пулями, наносящими на 20% больше урона врагам с более чем 50% здоровья
+#            Каждая пуля расходует 2 маны (эту стоимость маны нельзя снизить никакими способами)
+#            Пули также накладывают [c/F3CE36:Уровень безопасности] на 12 секунд, помечая цель
+#            [c/CF3C32:Громовая птица] выпускает самонаводящиеся бомбы, которые игнорируют блоки и взрываются, нанося на 20% больше урона врагам с менее чем 50% здоровья
+#            Взрывы также накладывают [c/F3CE36:Уровень безопасности] на 12 секунд, помечая цель
+#            [c/CF1826:Чудовищный тайфун] размахивает огромным гробом, нанося 300% урона при его освобождении
+#            Атаки по врагам с [c/F3CE36:Уровнем безопасности], используя выпущенную атаку [c/CF1826:Чудовищного тайфуна], очищают дебаффы и заряжают [c/EB936A:Шкалу перегрузки]
+#            Удерживание клавиши 'Действие оружия' заряжает мощную атаку, которая расходует [c/EB936A:Шкалу перегрузки]
+#            Отпускание клавиши 'Действие оружия' выполняет мощный ближний удар, сила которого увеличивается в зависимости от количества использованной [c/EB936A:Шкалы перегрузки]
+#            Если потребляется более половины [c/EB936A:Шкалы перегрузки], атака гарантированно будет критической
+#            'Это не так уж и важно'
 #            '''
 #    }
 #
@@ -9690,15 +9676,15 @@
 #            '''
 #            [c/F592BF:Это оружие не подвержено к штрафу Аспектного типа урона при смене типа на ближний бой или магический]
 #            Текущий [c/F592BF:Аспектный тип урона] влияет на атаки оружия (Оружие нельзя использовать, если оно не имеет аспекта ближнего боя или магического)
-#            Right click to activate [c/FDD059:Gathering Levinstorm], enhancing the weapon's attacks for 8 seconds (30 second cooldown)
-#            [c/FFAB4D:Melee]: Attacks will throw the weapon at high velocity while ignoring terrain, piercing and causing lightning to radiate from struck foes
-#            While [c/FDD059:Gathering Levinstorm] is active, gain Swiftness and 15% increased critical strike chance
-#            Additionally, during [c/FDD059:Gathering Levinstorm], critical strikes cause the target to explode, taking the damage again
-#            [c/EF4DFF:Magic]: Swings will emit powerful mid-ranged lightning towards foes, dealing half damage each
-#            Lightning ignores terrain and has no pierce limit, but split lightning deals 1/2th original damage
-#            While [c/FDD059:Gathering Levinstorm] is active, gain 15% increased damage and critical strike chance
-#            Additionally, during [c/FDD059:Gathering Levinstorm], lightning critical strikes will cause lightning to strike from above, dealing half critical strike damage
-#            Follow-up lightning can not trigger this effect
+#            Нажмите <right>, чтобы активировать [c/FDD059:Сгущающуюся бурю], усиливая атаки оружия на 8 секунд (перезарядка 30 секунд)
+#            [c/FFAB4D:Ближний бой]: Атаки с высокой скоростью бросают оружие, которое игнорирует блоки, пронзает врагов и вызывает разряды молний из поражённых врагов
+#            Во время действия [c/FDD059:Сгущающейся бури], вы получаете бафф «{$BuffName.Swiftness}» и увеличиваете шанс критического удара на 15%
+#            Кроме того, критические удары вызывают взрыв цели, нанося повторный урон
+#            [c/EF4DFF:Магический]: Взмахи испускают мощную молнию средней дальности в сторону врагов, нанося половину урона
+#            Молния игнорирует блоки и не имеет ограничения на пронзание, но разделённые молнии наносят половину первоначального урона
+#            Во время действия [c/FDD059:Сгущающейся бури], урон и шанс критического удара увеличиваются на 15%
+#            Кроме того, критические удары молнией вызывают дополнительный удар молнии с неба, нанося половину критического урона
+#            Последующие удары молнией не могут активировать этот эффект
 #            '''
 #    }
 #
@@ -9729,18 +9715,18 @@
 #        DisplayName: Маниакальное правосудие
 #        Tooltip:
 #            '''
-#            Attacks with this weapon strikes foes multiple times with a close-ranged slash
-#            Striking foes grant 1 [c/FC578E:LV] (Critical strikes grant 5 [c/FC578E:LV] instead)
-#            Right click to unleash a [c/F4296D:SLAUGHTERING SLASH] at your cursor after a short delay, dealing 300% damage in a vertical slash (6 second cooldown)
-#            Additionally, the [c/F4296D:SLAUGHTERING SLASH] grants 2 [c/FC578E:LV] per hit
-#            [c/FC578E:LV] caps at 100 and will deplete quickly out of combat
-#            Taking damage resets [c/FC578E:LV] but reduces damage taken based on amount of [c/FC578E:LV]
-#            At 20 [c/FC578E:LV], attack speed is increased by 20% and the cooldown of [c/F4296D:SLAUGHTERING SLASH] is halved
-#            At 50 [c/FC578E:LV], attack speed is increased by an additional 10% and all attacks will now inflict [c/DA11B5:Karmic Retribution] for 10 seconds, dealing damage over time
-#            At 100 [c/FC578E:LV], all bonuses are removed, but pressing the Weapon Action Key will unleash a [c/C91515:SPECIAL ATTACK] for 15 seconds, consuming all [c/FC578E:LV]
-#            During the [c/C91515:SPECIAL ATTACK] attack speed and damage dealt is doubled and attacks are guaranteed critical strikes but damage taken is tripled
-#            Additionally, gain infinite flight time and a 25% chance to dodge any attack
-#            Once the [c/C91515:SPECIAL ATTACK] concludes, this weapon can not be used for 30 seconds
+#            Атаки этим оружием наносят множественные удары врагам в ближнем бою
+#            За каждый удар по врагу вы получаете 1 [c/FC578E:Уровень] (за критические удары вы получаете 5 [c/FC578E:Уровней])
+#            Нажмите <right>, чтобы после короткой задержки нанести [c/F4296D:УБИЙСТВЕННЫЙ РАЗРЕЗ] в позиции курсора, наносящий 300% урона (перезарядка 6 секунд)
+#            Кроме того, [c/F4296D:УБИЙСТВЕННЫЙ РАЗРЕЗ] даёт 2 [c/FC578E:Уровня] за каждое попадание
+#            Максимальное количество [c/FC578E:Уровней] - 100, которые быстро уменьшаются вне боя
+#            Получение урона сбрасывает [c/FC578E:Уровни], но снижает получаемый урон в зависимости от количества [c/FC578E:Уровней]
+#            При 20 [c/FC578E:Уровнях] скорость атаки увеличивается на 20%, а перезарядка [c/F4296D:УБИЙСТВЕННОГО РАЗРЕЗА] сокращается вдвое
+#            При 50 [c/FC578E:Уровнях] скорость атаки дополнительно увеличивается на 10%, и все атаки накладывают [c/DA11B5:Кармическое возмездие] на 10 секунд, нанося постепенный урон
+#            При 100 [c/FC578E:Уровнях] все бонусы снимаются, но нажатие клавиши 'Действие оружия' активирует [c/C91515:ОСОБУЮ АТАКУ] на 15 секунд, расходуя все [c/FC578E:Уровни]
+#            Во время [c/C91515:ОСОБОЙ АТАКИ] скорость атаки и наносимый урон удваиваются, все атаки становятся критическими, но получаемый урон утраивается
+#            Кроме того, вы получаете бесконечное время полёта и 25% шанс уклониться от любой атаки
+#            После завершения [c/C91515:ОСОБОЙ АТАКИ] это оружие нельзя использовать в течение 30 секунд
 #            '''
 #    }
 #
@@ -9749,19 +9735,19 @@
 #        Tooltip:
 #            '''
 #            [c/8AC1F1:Это оружие обладает уникальным типом урона; наследует бонусы от всех классов урона с 70% эффективностью, а от модификаторов шанса критического удара 150%]
-#            Attacks rapidly sweep in a colossal arc; all critical strike damage is increased by 20%
-#            Taking or dealing damage grants [c/D53B3B:Emotional Turbulence] (Critical strikes grant double [c/D53B3B:Emotional Turbulence] below 200 HP)
-#            Defeating foes increases [c/D53B3B:Emotional Turbulence] by 5% (doubled below 200 HP)
-#            Once [c/D53B3B:Emotional Turbulence] is full, automatically gain the buff [c/AE0000:E.G.O. Manifestation] while becoming Invincible for 2 seconds
-#            [c/AE0000:E.G.O. Manifestation] grants 30% increased damage, 40% increased attack speed, and 90% increased movement speed, but reduces defense by 30
-#            If [c/AE0000:E.G.O. Manifestation] is active, unique [c/FF0046:Great Split] attacks can be performed
-#            Execute [c/FF0046:Great Split: Vertical] with right click or [c/FF0046:Great Split: Horizontal] with the Weapon Action Key (Both attacks share a 1 minute cooldown)
-#            [c/FF0046:Great Split: Vertical] will grant Invincibility for 1 second and deal 800% guaranteed close-ranged critical damage after a short delay
-#            [c/FF0046:Great Split: Horizontal] will deal 300% guaranteed critical damage to all foes on the screen after a short delay
-#            Both [c/FF0046:Great Split] attacks will execute any non-boss enemy below 30% HP and additionally refill [c/D53B3B:Emotional Turbulence] to full upon activation
-#            If [c/AE0000:E.G.O. Manifestation] is active, [c/D53B3B:Emotional Turbulence] will passively decrease over time (Resets when not holding the weapon)
-#            The longer [c/AE0000:E.G.O. Manifestation] lasts, the faster [c/D53B3B:Emotional Turbulence] will drain
-#            If [c/D53B3B:Emotional Turbulence] is below 10% for 3 seconds, [c/AE0000:E.G.O. Manifestation] will end and you will be inflicted with Vulnerability for 10 seconds
+#            Атаки этим оружием выполняются мощными круговыми взмахами, увеличивая весь критический урон на 20%
+#            Получение или нанесение урона даёт [c/D53B3B:Эмоциональную нестабильность] (критические удары удваивают [c/D53B3B:Эмоциональную нестабильность], если здоровье ниже 200)
+#            Убийство врагов увеличивает [c/D53B3B:Эмоциональную нестабильность] на 5% (эффект удваивается, если здоровье ниже 200)
+#            Когда [c/D53B3B:Эмоциональная нестабильность] заполняется, автоматически активируется бафф [c/AE0000:Э.Г.О. Манифестация], который даёт неуязвимость на 2 секунды
+#            [c/AE0000:Э.Г.О. Манифестация] увеличивает урон на 30%, скорость атаки на 40% и скорость передвижения на 90%, но снижает защиту на 30
+#            Когда [c/AE0000:Э.Г.О. Манифестация] активна, доступны уникальные атаки [c/FF0046:Большого разреза]
+#            Нажатие <right> выполняет [c/FF0046:Большой разрез: Вертикальный], а нажатие клавиши "Действие оружия" — [c/FF0046:Большой разрез: Горизонтальный] (обе атаки имеют общую перезарядку в 1 минуту)
+#            [c/FF0046:Большой разрез: Вертикальный] даёт неуязвимость на 1 секунду и наносит гарантированный критический урон в ближнем бою в размере 800% после короткой задержки
+#            [c/FF0046:Большой разрез: Горизонтальный] наносит гарантированный критический урон в размере 300% всем врагам на экране после короткой задержки
+#            Обе атаки [c/FF0046:Большого разреза] казнят любого обычного врага с менее чем 30% здоровья и полностью восстанавливают [c/D53B3B:Эмоциональную нестабильность] при активации
+#            Если [c/AE0000:Э.Г.О. Манифестация] активна, [c/D53B3B:Эмоциональная нестабильность] постепенно уменьшается со временем (сбрасывается при смене оружия)
+#            Чем дольше длится [c/AE0000:Э.Г.О. Манифестация], тем быстрее расходуется [c/D53B3B:Эмоциональная нестабильность]
+#            Если [c/D53B3B:Эмоциональная нестабильность] опускается ниже 10% в течение 3 секунд, [c/AE0000:Э.Г.О. Манифестация] завершается, и вы получаете дебафф «{$Buffs.Vulnerable.DisplayName}» на 10 секунд
 #            'Начнём без прелюдий. Я вас всех размажу...'
 #            '''
 #    }
@@ -9779,14 +9765,15 @@
 #        DisplayName: Наномашинный реактор
 #        Tooltip:
 #            '''
-#            Use this item when at max Mana to consume all Mana and gain the buff [c/FF0046:Realized Nanomachina] for 20 seconds (12 second cooldown)
-#            While [c/FF0046:Realized Nanomachina] is active: gain a barrier proportional to 20% of Max HP (Max 100 HP), gain 10% damage reduction, and gain knockback immunity
-#            Additionally, for 2 seconds after activation, gain an additional 40% damage reduction
-#            Taking damage will subtract from the barrier, negating oncoming damage and granting 1 second of immunity
-#            While [c/FF0046:Realized Nanomachina] is active, striking foes will restore 5 HP and 5 Mana (6 second cooldown)
-#            Additionally, striking enemies will slowly fill the [c/A00F0F:Nanomachine Gauge]; once full, automatically restore the duration and barrier HP of [c/FF0046:Realized Nanomachina]
-#            Defeating foes increases the [c/A00F0F:Nanomachine Gauge] by 5%
-#            When [c/FF0046:Realized Nanomachina] ends, the [c/A00F0F:Nanomachine Gauge] is emptied (Will also empty out of combat)
+#            Используйте этот предмет при максимальной мане, чтобы израсходовать всю ману и получить бафф [c/FF0046:Совершенные наномашини] на 20 секунд (перезарядки 12 секунд)
+#            Пока активен бафф [c/FF0046:Совершенные наномашини]:
+#            Даёт барьер, равный 20% от максимального запаса здоровья (максимум 100 здоровья), невосприимчивость к отбрасыванию и увеличивает сопротивление урону на 10%
+#            В течение первых 2 секунд после активации дополнительно увеличивает сопротивление урону на 40%
+#            При получении урона барьер ослабевает, поглощая входящий урон и давая 1 секунду неуязвимости
+#            Удары по врагам восстанавливают 5 здоровья и 5 маны (перезарядка 6 секунд)
+#            Атаки по врагам постепенно заполняют [c/A00F0F:Шкалу наномашин]; при заполнении шкалы автоматически восстанавливаются длительность и здоровье барьера от баффа [c/FF0046:Совершенные наномашины]
+#            Победа над врагами увеличивает [c/A00F0F:Шкалу наномашин] на 5%
+#            Когда бафф [c/FF0046:Совершенные наномашини] заканчивается, [c/A00F0F:Шкала наномашин] обнуляется (также обнуляется вне боя)
 #            'Наномашины, сынок!'
 #            '''
 #    }
@@ -10051,13 +10038,13 @@
 #        DisplayName: Под Зеро-42
 #        Tooltip:
 #            '''
-#            Summons an [c/EBD484:Automaton Pod] (Consumes 2 minion slots; Only one can be summoned at a time)
-#            The [c/EBD484:Automaton Pod] will passively fire bullets at nearby foes
-#            Hold the Weapon Action Key to control the [c/E3DABA:Automaton Pod], activating [c/E9C64A:Gatling Salvo]
-#            [c/E9C64A:Gatling Salvo] fires a stream of bullets directly towards your cursor
-#            These bullets fire faster, travel faster, and deal 10% more damage, but consume 2 Mana per shot
-#            This cost can not be negated through any means, but mana regen delay is shortened
-#            Gain the buff Night Owl outside of combat and Hunter during combat
+#            Призывает [c/EBD484:Автономного пода] (занимает 2 слота призываемых миньонов; одновременно можно призвать только одного)
+#            [c/EBD484:Автономный под] автоматически стреляет пулями в ближайших врагов
+#            Удерживайте клавишу 'Действие оружия', чтобы управлять [c/E3DABA:Автономным подом], активируя [c/E9C64A:Свинцовый град]
+#            [c/E9C64A:Свинцовый град] выпускает поток пуль в направлении курсора
+#            Эти пули летят быстрее и наносят на 10% больше урона, но расходуют 2 единицы маны за выстрел
+#            Этот расход маны нельзя снизить никакими способами, однако задержка восстановления маны сокращается
+#            Даёт бафф «{$BuffName.NightOwl}» вне боя и «{$BuffName.Hunter}» во время боя
 #            'Слава человечеству'
 #            '''
 #    }
@@ -10077,19 +10064,19 @@
 #        DisplayName: Гроза морей
 #        Tooltip:
 #            '''
-#            Holding this weapon will periodically cleanse certain movement-related debuffs and guarantee enemies drop 15 silver on kill
-#            Attacks with this weapon alternate between a sword slash and firing short-ranged piercing cannonballs
-#            Sword attacks burn foes for 2 seconds on hit, deal 50% increased damage, and additionally grant Swiftness for 4 seconds
-#            Right click to consume 50 mana to place a [c/BB3B27:Powder Keg] on your cursor within range
-#            This mana cost can not be negated by any means
-#            You can have up to 2 [c/BB3B27:Powder Kegs] active at the same time, and kegs disappear after 20 seconds or when not holding this weapon
-#            After a short delay, the [c/BB3B27:Powder Keg] becomes active, and attacking it with this weapon will cause it to explode
-#            This explosion deals 400% damage while additionally granting Swiftness for 8 seconds
-#            Additionally, nearby [c/BB3B27:Powder Kegs] will also explode, dealing 50% more damage than if exploded directly
-#            Press the Weapon Action Key to gain 3 stacks of [c/E18121:Cannonfire Deluge] for 12 seconds (1 minute cooldown)
-#            With stacks of [c/E18121:Cannonfire Deluge], pressing the Weapon Action Key will consume a stack, causing a rain of explosive cannonballs to descend on your cursor
-#            Additionally, gain Swiftness for 12 seconds upon activation
-#            The final [c/E18121:Cannonfire Deluge] will end with a larger cannonball that deals 300% damage, stunning foes for 2 seconds
+#            Держа это оружие в руках, периодически очищает некоторые дебаффы, связанные с передвижением, и гарантирует выпадение 15 серебряных монет из убитых врагов
+#            Атаки этим оружием чередуются между ударом мечом и стрельбой пронзающей картечью на короткое расстояние
+#            Удары мечом поджигают врагов на 2 секунды, наносят на 50% больше урона и дают бафф «{$BuffName.Swiftness}» на 4 секунды
+#            Нажмите <right>, чтобы потратить 50 маны и разместить [c/BB3B27:Пороховую бочку] в пределах досягаемости курсора
+#            Эту стоимость маны нельзя снизить никакими способами
+#            Одновременно могут быть активны до 2 [c/BB3B27:Пороховых бочки], которые исчезают через 20 секунд или при смене оружия
+#            После короткой задержки [c/BB3B27:Пороховая бочка] активируется, и атака по ней этим оружием вызывает взрыв
+#            Этот взрыв наносит 400% урона и дополнительно даёт бафф «{$BuffName.Swiftness}» на 8 секунд
+#            Кроме того, взрыв также подрывает все ближайшие [c/BB3B27:Пороховые бочки], нанося на 50% больше урона, чем при прямом подрыве
+#            Нажмите клавишу 'Действие оружия', чтобы получить 3 стака [c/E18121:Пушечного обстрела] на 12 секунд (перезарядка 1 минута)
+#            При наличии стаков [c/E18121:Пушечного обстрела] повторное нажатие клавиши 'Действие оружия' расходует один стак, вызывая дождь из взрывающихся картечных снарядов на ваш курсор
+#            Кроме того, даёт бафф «{$BuffName.Swiftness}» на 12 секунд при активации
+#            Последний заряд [c/E18121:Пушечного обстрела] завершается большой картечью, которая наносит 300% урона и оглушает врагов на 2 секунды
 #            'Меня не победит ни огонь, ни пучина'
 #            '''
 #    }
@@ -10098,14 +10085,14 @@
 #        DisplayName: Кровавое отчаяние
 #        Tooltip:
 #            '''
-#            Attacks with this weapon consume 10 health per cast and follow your cursor, piercing up to three times (Health drain can kill)
-#            Holding this weapon grants the buff [c/EA6B69:Feral Despair], which increases damage by 0.5% per missing HP
-#            Right click to unleash [c/DA0300:Surging Vampirism], an erratic bolt of energy that deals damage in a massive explosion upon striking an enemy (30 second cooldown)
-#            [c/DA0300:Surging Vampirism] deals bonus damage based on missing HP (capping at 400%)
-#            Additionally, [c/DA0300:Surging Vampirism] heals based on 30% of damage dealt to the first foe struck
-#            The explosion of [c/DA0300:Surging Vampirism] heals an additional 5% of the damage dealt while inflicting Mortal Wounds for 8 seconds, dealing damage over time
-#            Attacks against a foe with Mortal Wounds deal 10% increased damage
-#            Critical strikes against a foe with Mortal Wounds deal 30% increased damage instead
+#            Атаки этим оружием расходуют 10 здоровья за каждое использование и следуют за курсором, пронзая до трёх врагов (потеря здоровья может привести к смерти)
+#            Держа это оружие в руках, даёт бафф [c/EA6B69:Дикое отчаяние], который увеличивает урон на 0.5% за каждую недостающую единицу здоровья
+#            Нажмите <right>, чтобы выпустить [c/DA0300:Прилив вампиризма] - нестабильный заряд энергии, наносящий урон массивным взрывом при попадании во врага (перезарядка 30 секунд)
+#            [c/DA0300:Прилив вампиризма] наносит дополнительный урон в зависимости от недостающего здоровья (максимум 400%)
+#            Кроме того, [c/DA0300:Прилив вампиризма] восстанавливает здоровье в размере 30% от нанесённого урона первому поражённому врагу
+#            Взрыв [c/DA0300:Прилива вампиризма] дополнительно восстанавливает 5% от нанесённого урона, одновременно накладывая дебафф «{$Buffs.MortalWounds.DisplayName}» на 8 секунд, наносящий постепенный урон
+#            Атаки против врагов, на которых наложен дебафф «{$Buffs.MortalWounds.DisplayName}» наносят на 10% больше урона
+#            Критические удары против врагов, на которых наложен дебафф «{$Buffs.MortalWounds.DisplayName}» наносят на 30% больше урона
 #            '''
 #    }
 #
@@ -10114,16 +10101,16 @@
 #        Tooltip:
 #            '''
 #            [c/F7D76A:Удерживайте <left>, чтобы зарядить оружие; если оружие полностью заряжено, тип атаки изменится]
-#            Holding this weapon enchants your cursor, causing nearby foes to become inflicted with Shadowflame for half a second
-#            Attacks with this weapon swing in a colossal arc around you
-#            Right click to unleash a long-ranged projectile slash, piercing foes and ignoring terrain but dealing halved base damage
-#            Charged attacks with this weapon will execute [c/8361FF:Soul Harvest], teleporting you to your cursor (in range) and dealing potent damage to foes around you
-#            [c/8361FF:Soul Harvest] will deal 50% increased damage to foes inflicted with Shadowflame
-#            Gain Invincibility briefly on use of [c/8361FF:Soul Harvest], but become inflicted with Vulnerability for 3 seconds as well, halving defenses
-#            After [c/8361FF:Soul Harvest] you will be inflicted with [c/966CA0:Soul Split] for 10 seconds, reducing the damage of [c/8361FF:Soul Harvest] by 2/3 while decreasing range
-#            Landing a critical strike with [c/8361FF:Soul Harvest] will reduce the duration of [c/966CA0:Soul Split] to 2 seconds
-#            Defeating foes will grant a stack of [c/8148C4:Dark Soul], granting 2% increased damage per stack (capping at 10 stacks)
-#            Lose all stacks of [c/8148C4:Dark Soul] after leaving combat
+#            Держа это оружие в руках, зачаровывает курсор, подвергая ближайших врагов дебаффу «{$BuffName.ShadowFlame}» на полсекунды
+#            Атаки этим оружием совершаются коллосальными круговыми взмахами
+#            Нажмите <right>, чтобы выпустить дальнобойный рассекающий снаряд, который пронзает врагов и игнорирует блоки, но наносит половину базового урона.
+#            Заряженные атаки этим оружием выполняют [c/8361FF:Жатву душ], телепортируя вас к курсору (в пределах досягаемости) и нанося значительный урон врагам вокруг
+#            [c/8361FF:Жатва душ] наносит на 50% больше урона врагам, на которых наложен дебафф «{$BuffName.ShadowFlame}»
+#            Использование [c/8361FF:Жатвы душ] даёт кратковременную неуязвимость, но накладывает на вас дебафф «{$Buffs.Vulnerable.DisplayName}» на 3 секунды, снижая защиту вдвое
+#            После использования [c/8361FF:Жатвы душ] накладывается дебафф [c/966CA0:Расщепление души] на 10 секунд, снижая урон от [c/8361FF:Жатвы душ] на две трети и уменьшая её радиус действия
+#            Критический удар с помощью [c/8361FF:Жатвы душ] сокращает длительность [c/966CA0:Расщепления души] на 2 секунды
+#            Побеждённые враги дают один стак [c/8148C4:Чёрной души], увеличивая урон на 2% за каждый стак (максимум 10 стаков)
+#            Все заряды [c/8148C4:Чёрной души] пропадают после выхода из боя
 #            '''
 #    }
 #
@@ -10132,14 +10119,14 @@
 #        Tooltip:
 #            '''
 #            [c/F592BF:Это оружие не подвержено к штрафу Аспектного типа урона]
-#            Right click to unleash [c/FFC500:Vasavi Shakti], leaping into the air, gaining Featherfall and Invincibility for 2 seconds (1 minute cooldown)
-#            [c/FFC500:Vasavi Shakti] channels a powerful beam of energy towards your cursor for 2 seconds
-#            [c/FFC500:Vasavi Shakti] will conclude with a colossal explosion, dealing 200% guaranteed critical damage and inflicting Daybroken for 8 seconds
-#            Текущий [c/F592BF:Аспектный тип урона] влияет на атаки оружия (Оружие нельзя использовать без [c/F592BF:Аспектного типа урона])
-#            [c/FFAB4D:Melee]: Rapidly stab in a close-ranged flurry; Charged attacks swing in a wide arc, burning foes for 8 seconds
-#            [c/EF4DFF:Magic]: Lightning spears converge on your cursor after a delay, causing lightning to arc from foes struck
-#            [c/4DFF5B:Ranged]: Attacks launch the spear at high velocity, dealing 200% damage and piercing infinitely without damage falloff
-#            [c/00CDFF:Summon]: Attacks extend a burning whip, inflicting Daybroken for 2 seconds on hit
+#            Нажмите <right>, чтобы активировать [c/FFC500:Васави Шакти], взлетев в воздух, получив бафф «{$BuffName.Featherfall}» и неуязвимость на 2 секунды (перезарядка 1 минута)
+#            [c/FFC500:Васави Шакти] направляет мощный луч энергии в сторону курсора в течение 2 секунд
+#            [c/FFC500:Васави Шакти] завершается колоссальным взрывом, наносящим 200% гарантированного критического урона и накладывающим дебафф «{$BuffName.Daybreak}» на 8 секунд
+#            Текущий [c/F592BF:Аспектный тип урона] влияет на атаки оружия (оружие нельзя использовать без [c/F592BF:Аспектного типа урона])
+#            [c/FFAB4D:Ближний бой]: Быстро совершает шквал прямых выпадов; заряженные атаки совершают широкий взмах, поджигая врагов на 8 секунд
+#            [c/EF4DFF:Магический]: Молниеносные копья сходятся в точке курсора после задержки, вызывая дуговые молнии от поражённых врагов
+#            [c/4DFF5B:Стрелковый]: Атаки запускают копьё на высокой скорости, нанося 200% урона и пронзая бесконечное количество врагов, не теряя урона при пронзании
+#            [c/00CDFF:Призыватель]: Атаки вытягивают пылающий хлыст, накладывающий дебафф «{$BuffName.Daybreak}» на 2 секунды при попадании
 #            'Одним ударом я принесу страшные разрушения!'
 #            '''
 #    }
@@ -10148,18 +10135,19 @@
 #        DisplayName: Высшая власть
 #        Tooltip:
 #            '''
-#            Attacks with this weapon swing in a close-ranged arc
-#            Right click friendly town NPCs to mark them as a [c/F1D761:Sacrifice] for 5 minutes
-#            Pressing the Weapon Action Key will consume all [c/F1D761:Sacrifices] and grant [c/DE8A2A:Deified] for 60 seconds (Unable to mark or consume [c/F1D761:Sacrifices] when [c/DE8A2A:Deified])
-#            While [c/DE8A2A:Deified], maximum HP and damage taken are halved, and most debuffs are resisted
-#            Additionally, directly gain stacks of [c/7A17C8:Dark Aura] depending on the amount of [c/F1D761:Sacrifices] consumed
-#            [c/DE8A2A:Deified] critical strikes grant stacks of [c/BE60E7:Encroaching] (Max 2 stacks)
-#            With two stacks of [c/BE60E7:Encroaching], right click to unleash [c/C100FF:Disappear] on your cursor after a short delay, gaining up to 200 bonus damage with [c/7A17C8:Dark Aura]
-#            Additionally, [c/C100FF:Disappear] deals 1% of the foe's Max HP in bonus damage, increased with [c/7A17C8:Dark Aura] up to 5% (Extra [c/7A17C8:Dark Aura] increases total damage by 0.1% per stack)
-#            Presing the Weapon Action Key while [c/DE8A2A:Deified] will reset the duration, but will consume 50% of current HP (Can be activated multiple times)
-#            Additionally, you will be inflicted with [c/903F3F:Atrophied Deification], preventing natural health regeneration
-#            Dying with [c/903F3F:Atrophied Deification] will curse all allies with Potion Sickness for 2 minutes
-#            If [c/DE8A2A:Deified] ends while a boss is active, inflict [c/5E5050:Mortality] for 15 seconds, slowing movement speed and doubling damage recieved
+#            Атаки этим оружием совершаются короткими круговыми взмахами
+#            Нажмите <right> по жителю, чтобы пометить его как [c/F1D761:Жертву] на 5 минут
+#            Нажатие клавиши 'Действие оружия' поглощает всех [c/F1D761:Жертв], давая бафф [c/DE8A2A:Обожествлённый] на 60 секунд (во время действия баффа нельзя помечать или поглощать [c/F1D761:Жертв])
+#            Во время [c/DE8A2A:Обожествления] максимальный запас здоровья и получаемый урон снижаются вдвое, а большинство дебаффов игнорируются
+#            Кроме того, даёт стаки [c/7A17C8:Тёмной ауры] в зависимости от количества поглощённых [c/F1D761:Жертв]
+#            Критические удары во время [c/DE8A2A:Обожествления] дают стаки [c/BE60E7:Посягательства] (максимум 2 стака)
+#            При наличии двух стаков [c/BE60E7:Посягательства], нажмите <right>, чтобы высвободить [c/C100FF:Исчезновение] в месте курсора после небольшой задержки, нанося до 200 бонусного урона с помощью [c/7A17C8:Тёмной ауры]
+#            Кроме того, [c/C100FF:Исчезновение] дополнительно наносит 1% урона от максимального запаса здоровья врага, который может быть увеличен до 5% под действием [c/7A17C8:Тёмной ауры]
+#            Каждый дополнительный стак [c/7A17C8:Тёмной ауры] увеличивает общий урон на 0.1%
+#            Нажатие клавиши 'Действие оружия' при активном [c/DE8A2A:Обожествлении] сбрасывает его длительность, но расходует 50% текущего здоровья (можно активировать несколько раз)
+#            Кроме того, вы получаете дебафф [c/903F3F:Ослабленное обожествление], предотвращающий естественную регенерацию здоровья
+#            Смерть во время [c/903F3F:Ослабленного обожествления] накладывает на всех союзников дебафф «{$BuffName.PotionSickness}» на 2 минуты
+#            Если [c/DE8A2A:Обожествление] заканчивается, пока любой босс жив, на вас накладывается дебафф [c/5E5050:Смертность] на 15 секунд, замедляющий скорость передвижения и удваивающий получаемый урон
 #            'Бойся, грешник'
 #            '''
 #    }
@@ -10168,17 +10156,17 @@
 #        DisplayName: Умбра
 #        Tooltip:
 #            '''
-#            Attacks with this weapon will sweep in an arc and unleash fast, piercing [c/A75BD9:Timeless Blades]
-#            Dealing damage with the weapon swing will grant [c/AF32CF:Timeless Potential] for 4 seconds
-#            [c/AF32CF:Timeless Potential] causes non-critical strikes to have a 30% chance to become critical and additionally grants a 10% chance to dodge attacks when active
-#            Additionally, if you would die due to taking lethal damage, [c/AF32CF:Timeless Potential] will be consumed, resurrecting you with 50 HP and 2 seconds of Invincibility
-#            If [c/AF32CF:Timeless Potential] is used to resurrect you, [c/AF32CF:Timeless Potential] will have a 2 minute cooldown until it can be obtained again
-#            [c/A75BD9:Timeless Blades] fill the [c/4A91FF:Timeless Gauge] by 2% upon striking a foe (Halved when [c/4A91FF:Timeless Gauge] is above 50%)
-#            [c/A75BD9:Timeless Blades] will pierce foes up to 3 times and have no damage falloff
-#            Right click to consume half of the [c/4A91FF:Timeless Gauge] to unleash an enhanced [c/A75BD9:Timeless Blade] that does not fill the [c/4A91FF:Timeless Gauge]
-#            Enhanced [c/A75BD9:Timeless Blades] are faster, can pierce up to 5 times, and deal 30% increased damage
-#            Critical strikes with enhanced [c/A75BD9:Timeless Blades] will additionally conjure additional [c/A75BD9:Timeless Blades] to strike the foe
-#            The amount of [c/A75BD9:Timeless Blades] summoned depend on the remaining pierces of the enhanced [c/A75BD9:Timeless Blade]
+#            Атаки этим оружием совершаются круговыми взмахами, высвобождая быстрые, пронзающие [c/A75BD9:Вневременные клинки]
+#            Нанесение урона взмахами этого оружия даёт бафф [c/AF32CF:Вневременной потенциал] на 4 секунды
+#            [c/AF32CF:Вневременной потенциал] с 30% шансом превращает некритические удары в критические, а также даёт 10% шанс уклониться от атак, когда он активен
+#            Кроме того, если вы получаете смертельный урон, [c/AF32CF:Вневременной потенциал] расходуется, воскрешая вас с 50 единицами здоровья и давая 2 секунды неуязвимости
+#            При использовании [c/AF32CF:Вневременного потенциала] для воскрешения, он перезаряжается в течение 2 минут, прежде чем его можно будет снова получить
+#            [c/A75BD9:Вневременные клинки] заполняют [c/4A91FF:Вневременную шкалу] на 2% при ударе по врагу (вдвое меньше, если [c/4A91FF:Вневременная шкала] выше 50%)
+#            [c/A75BD9:Вневременные клинки] пронзают врагов до 3 раз, не теряя урона при пронзании
+#            Нажмите <right>, чтобы израсходовать половину [c/4A91FF:Вневременной шкалы] и высвободить улучшенный [c/A75BD9:Вневременной клинок], который не заполняет [c/4A91FF:Вневременную шкалу]
+#            Улучшенные [c/A75BD9:Вневременные клинки] быстрее, могут пронзать до 5 раз и наносят на 30% больше урона
+#            Критические удары улучшенными [c/A75BD9:Вневременными клинками] призывают дополнительные [c/A75BD9:Вневременные клинки], которые поражают врагов
+#            Количество призванных [c/A75BD9:Вневременных клинков] зависит от оставшегося числа пронзаний улучшенного [c/A75BD9:Вневременного клинка]
 #            '''
 #    }
 #
@@ -10187,18 +10175,18 @@
 #        Tooltip:
 #            '''
 #            [c/8AC1F1:Это оружие обладает уникальным типом урона; наследует бонусы от всех классов урона]
-#            When this weapon is held, gain 100% armor penetration but defense is halved
-#            Attacks rapidly cleave a large area and attacks will build stacks of [c/16DBF3:Judgement] on foes struck (Critical strikes apply two stacks of [c/16DBF3:Judgement])
-#            Additionally, 50% of the damage is dealt as an additional slash at your cursor that does not build [c/16DBF3:Judgement]
-#            At 20 stacks of [c/16DBF3:Judgement] the next application of [c/16DBF3:Judgement] will burst in a barrage of slashes while removing all stacks of [c/16DBF3:Judgement]
-#            Right click to consume 50 mana, summoning [c/88F2FF:Mirage Blades] at your cursor which heal 5 HP upon striking foes (3 second cooldown)
-#            Striking foes with [c/88F2FF:Mirage Blades] and executing [c/16DBF3:Judgement] will charge the [c/654D9C:Judgement Gauge] (Drained when swapping weapons)
-#            Press the Weapon Action Key to execute [c/902FEC:Judgement Finale], disabling attacks and consuming the [c/654D9C:Judgement Gauge]
-#            Upon activation of [c/902FEC:Judgement Finale], dash forward after a short delay while unleashing a barrage of slashes
-#            [c/902FEC:Judgement Finale] resolves after a short delay, instantly defeating any non-boss foe struck
-#            Bosses will take 100x critical damage and 10% of their Max HP as damage instead
-#            You are invincible for the duration of [c/902FEC:Judgement Finale]
-#            'Now you're motivated'
+#            Держа это оружие в руках, увеличивает пробивание брони на 100%, но снижает защиту вдвое
+#            Атаки молниеносно рассекают большую область и накладывают на поражённых врагов стаки [c/16DBF3:Правосудия] (критические удары накладывают два стака [c/16DBF3:Правосудия])
+#            Кроме того, 50% урона наносится в виде дополнительного удара в точке курсора, который не накладывает [c/16DBF3:Правосудие]
+#            При накоплении 20 стаков [c/16DBF3:Правосудия] следующее применение [c/16DBF3:Правосудия] вызывает шквал ударов, сбрасывая все стаки [c/16DBF3:Правосудия]
+#            Нажмите <right>, чтобы потратить 50 маны и призвать [c/88F2FF:Лезвия миражей] в точке курсора, которые восстанавливают 5 здоровья при ударе по врагам (перезарядка 3 секунды)
+#            Удары [c/88F2FF:Лезвий миражей] по врагам и применение [c/16DBF3:Правосудия] заряжают [c/654D9C:Шкалу правосудия] (сбрасывается при смене оружия)
+#            Нажмите клавишу 'Действие оружия', чтобы выполнить [c/902FEC:Финальный удар правосудия], отключая атаки и расходуя [c/654D9C:Шкалу правосудия]
+#            При активации [c/902FEC:Финального удара правосудия] вы совершаете рывок вперёд после небольшой задержки, обрушивая на врага шквал ударов
+#            [c/902FEC:Финальный удар правосудия] завершается через короткое время, мгновенно убивая всех поражённых врагов, не являющихся боссами
+#            Боссы получают 100 раз больше урона от критических ударов и 10% урона от их максимального запаса здоровья
+#            Во время действия [c/902FEC:Финального удара правосудия] вы становитесь неуязвимым
+#            'Теперь ты мотивирован'
 #            '''
 #    }
 #
@@ -10237,15 +10225,15 @@
 #        DisplayName: Шок и трепет
 #        Tooltip:
 #            '''
-#            Attacks with this weapon fire a powerful rocket that explodes upon impact with heavy knockback
-#            Rocket contact damage and explosion damage occur separately
-#            Direct hits on airborne foes will guarantee a critical strike
-#            Rocket explosions will launch players and non-boss enemies and explosion proximity increases travel distance
-#            Launching yourself will deal 5% Max HP in self damage, but grants the buff [c/E74336:Death from Above] for 4 seconds (Buff is removed upon landing)
-#            During this time, rocket explosions deal 20% increased non-critical strike damage and 40% increased critical strike damage
-#            Right click to swing the [c/83D26E:Bargain Gardener], dealing damage to nearby foes (Critical strikes are disabled)
-#            Striking foes with the [c/83D26E:Bargain Gardener] while airborne under the effect of [c/E74336:Death from Above] will guarantee a 200% damage critical strike
-#            'Ka-boom!'
+#            Атаки этим оружием выпускают мощную ракету, которая взрывается при попадании, вызывая сильное отбрасывание
+#            Урон от попадания ракеты и урон от взрыва считаются отдельно
+#            Прямое попадание по летающим врагам гарантирует критический удар
+#            Взрыв ракеты отбрасывает игроков и обычных врагов, при этом близость к взрыву увеличивает дальность отбрасывания
+#            Подбрасывая себя, вы наносите себе урон, равный 5% от максимального запаса здоровья, но также получаете бафф [c/E74336:Смерть с небес] на 4 секунды (бафф снимается при приземлении)
+#            В течение действия баффа взрывы ракет наносят на 20% больше урона при обычных атаках и на 40% больше урона при критических атаках
+#            Нажмите <right>, чтобы взмахнуть [c/83D26E:Землекопом], нанося урон ближайшим врагам (критические удары отключены)
+#            Нанесение ударов по врагам [c/83D26E:Землекопом] в воздухе во время действия баффа [c/E74336:Смерть с небес] гарантирует критический удар с уроном в 200%
+#            'Ба-бах!'
 #            '''
 #    }
 #
@@ -10254,13 +10242,13 @@
 #        Tooltip:
 #            '''
 #            4 урона от метки призывателя
-#            Striking foes with this weapon grants Swiftness for 3 seconds
-#            Press the Weapon Action Key to sling a yo-yo forwards, travelling a short distance (Yo-yo returns after two seconds)
-#            Press the Weapon Action Key after the yo-yo has stopped movement will launch you towards the yo-yo, returning it
-#            Additionally, gain the buff [c/B9F1FA:Kick Start] for 3 seconds, causing the next attack with this weapon to deal 200% damage, consuming the buff
-#            Right click to prepare the [c/E08738:Killing Bear], gaining the buff [c/E03838:Me and My Killing Machine] for 8 seconds (30 second cooldown)
-#            During this time, striking foes with this weapon will cause the [c/E08738:Killing Bear] to deal a follow-up attack (1 second delay)
-#            The [c/E08738:Killing Bear]'s follow-up attacks will additionally grant [c/B9F1FA:Kick Start] for 2 seconds
+#            Удары по врагам этим оружием дают бафф «{$BuffName.Swiftness}» на 3 секунды
+#            Нажмите клавишу 'Действие оружия', чтобы бросить йо-йо вперёд на небольшое расстояние (йо-йо возвращается через две секунды)
+#            Нажмите клавишу 'Действие оружия' ещё раз после остановки йо-йо, чтобы подтянуться к нему, возвращая его обратно
+#            Кроме того, вы получаете бафф [c/B9F1FA:Мощный старт] на 3 секунды, который увеличивает урон следующей атаки этим оружием на 200%, после чего бафф пропадает
+#            Нажмите <right>, чтобы подготовить [c/E08738:Убийственного медведя], получив бафф [c/E03838:Я и моя машина для убийств] на 8 секунд (перезарядка 30 секунд)
+#            Во время действия этого баффа нанесение ударов по врагам будет вызывать дополнительную атаку от [c/E08738:Убийственного медведя] (задержка 1 секунда)
+#            Дополнительные атаки [c/E08738:Убийственного медведя] также дают [c/B9F1FA:Мощный старт] на 2 секунд
 #            '''
 #    }
 #
@@ -10505,17 +10493,17 @@
 #        DisplayName: Затянутый в бездну
 #        Tooltip:
 #            '''
-#            Attacks with this weapon unleashes [c/7444FF:Drown], firing a weak piercing bolt that strikes 2 times, dealing 15% bonus damage to foes afflicted with Shadowflame
-#            Right click to unleash [c/9036F5:Flood], firing a bolt of void energy that explodes on impact, dealing 400% damage while inflicting Shadowflame for 5 seconds (8 second cooldown)
-#            Taking damage or using [c/7444FF:Drown] increases [c/7A1AE7:Void Corruption] ([c/7A1AE7:Void Corruption] passively increases over time)
-#            Pressing the Weapon Action Key will consume 25% [c/7A1AE7:Void Corruption] to activate [c/73C84E:Suppress], healing 25 HP and 25% Max MP (2 second cooldown)
-#            Consecutive activations of [c/73C84E:Suppress] heals 5 HP instead
-#            When [c/7A1AE7:Void Corruption] reaches maxiumum, become afflicted with [c/E71A1A:Fiendish Corruption]
-#            While under the effects of [c/E71A1A:Fiendish Corruption], gain 12 defense, [c/7A1AE7:Void Corruption] drains over time, and weapon abilities are transformed
-#            [c/7444FF:Drown] becomes [c/CD1717:Corrupted Drown], transforming into a channeled beam that deals powerful damage, but no longer charges [c/7A1AE7:Void Corruption] and inflicts Slow on self when active
-#            [c/9036F5:Flood] becomes [c/B1296D:Corrupted Flood], dealing 1000% damage and cooldown is reduced to 4 seconds, but does not inflict Shadowflame
-#            [c/73C84E:Suppress] becomes [c/C84EB6:Corrupted Suppress], consuming 50 HP to restore 50% Max MP and increase [c/7A1AE7:Void Corruption] by 25%
-#            '..и вот оно явилось... для каждого из нас'
+#            Атаки этим оружием высвобождают [c/7444FF:Потопление], стреляя слабым пронзающим снарядом, который поражает врага дважды и наносит на 15% больше урона врагам с дебаффом «{$BuffName.ShadowFlame}»
+#            Нажатие <right> выпускает [c/9036F5:Наводнение], стреляя снарядом пустотной энергии, который взрывается при столкновении, нанося 400% урона и накладывая «{$BuffName.ShadowFlame}» на 5 секунд (перезарядка 8 секунд)
+#            При получении урона или использовании [c/7444FF:Потопления] накапливается [c/7A1AE7:Порча пустоты] ([c/7A1AE7:Порча пустоты] также накапливается пассивно)
+#            Нажатие клавиши 'Действие оружия' расходует 25% [c/7A1AE7:Порчи пустоты] и активирует [c/73C84E:Подавление], восстанавливая 25 единиц здоровья и 25% максимальной маны (перезарядка 2 секунды)
+#            Последующие применения [c/73C84E:Подавления] восстанавливают лишь 5 единиц здоровья
+#            Когда [c/7A1AE7:Порча пустоты] достигает максимума, на вас накладывается дебафф [c/E71A1A:Демоническая порча]
+#            Во время действия [c/E71A1A:Демонической порчи] защита увеличивается на 12, [c/7A1AE7:Порча пустоты] постепенно истощается, а способности оружия трансформируются
+#            [c/7444FF:Потопление] превращается в [c/CD1717:Осквернённое потопление], наносящее значительный урон направленным лучом, но больше не накапливающее [c/7A1AE7:Порчу пустоты] и накладывающее на вас дебафф «{$BuffName.Slow}»
+#            [c/9036F5:Наводнение] превращается в [c/B1296D:Осквернённое наводнение], наносящее 1000% урона и сокращающее перезарядку до 4 секунд, но больше не накладывающее дебафф «{$BuffName.ShadowFlame}»
+#            [c/73C84E:Подавление] превращается в [c/C84EB6:Осквернённое подавление], использующее 50 единиц здоровья для восстановления 50% максимальной маны и увеличения [c/7A1AE7:Порчи пустоты] на 25%
+#            '...и вот оно явилось... для каждого из нас'
 #            '''
 #    }
 #
@@ -10529,17 +10517,17 @@
 #    }
 #
 #    GundbitStaves: {
-#        DisplayName: Осколочная штурмовая винтовка
+#        DisplayName: Ганд-битовый заслон
 #        Tooltip:
 #            '''
-#            Holding this weapon summons [c/B6E3F5:Bit Staves] and grants [c/3899E1:Aerial Defensive Array], granting bonus defense based on current Mana (up to 10)
-#            Attacks with this weapon fire piercing lasers and mark targets, causing the [c/B6E3F5:Bit Staves] to orbit and attack
-#            Press the Weapon Action Key to recall all [c/B6E3F5:Bit Staves] to form a defensive shield for 3 seconds (20 second cooldown)
-#            During this time, the shield will follow your cursor and destroy all hostile projectiles in contact
-#            Additionally, while the shield is active the effect of [c/3899E1:Aerial Defensive Array] is amplified by 50%
-#            Right click to recall all [c/B6E3F5:Bit Staves], transforming the weapon after a short delay (30 second cooldown)
-#            After transformation, unleash an extremely powerful beam that ignores collision and strikes multiple times
-#            Only one effect that utilizes the [c/B6E3F5:Bit Staves] can be active at a time
+#            Держа это оружие в руках, призывает [c/B6E3F5:Бит-модули] и даёт [c/3899E1:Воздушную защитную систему], которая увеличивает защиту в зависимости от текущего запаса маны (до 10)
+#            Атаки этим оружием выпускают пронзающие лазеры и отмечают цели, заставляя [c/B6E3F5:Бит-модули] вращаться вокруг вас и атаковать
+#            Нажмите клавишу 'Действие оружия', чтобы вернуть все [c/B6E3F5:Бит-модули] и сформировать защитный щит на 3 секунды (перезарядка 20 секунд)
+#            Во время действия щита он следует за курсором и уничтожает все вражеские снаряды при контакте
+#            Кроме того, пока щит активен, эффект [c/3899E1:Воздушной защитной системы] усиливается на 50%
+#            Нажмите <right>, чтобы вернуть все [c/B6E3F5:Бит-модули], трансформировав оружие после короткой задержки (перезарядка 30 секунд)
+#            После трансформации высвобождается чрезвычайно мощный луч, который игнорирует блоки и наносит множество ударов
+#            Одновременно может быть активен только один эффект, использующий [c/B6E3F5:Бит-модули]
 #            '''
 #    }
 #
@@ -10547,17 +10535,17 @@
 #        DisplayName: Найденная драгалия
 #        Tooltip:
 #            '''
-#            Holding this weapon grants [c/CAFF93:Tempest's Dragonlight], granting 2 defense for every minion slot
-#            Attacks with this weapon execute a close-ranged combo, granting Invincibility for a short time before finishing the combo
-#            After completing a combo, gain [c/FFF593:Bondforged Blade] for 3 seconds, charging [c/78F178:Dragonshift Energy] when active
-#            Once [c/78F178:Dragonshift Energy] reaches 50% or more, press the Weapon Action Key to activate [c/9AFE35:Windwyrm State]
-#            [c/9AFE35:Windwyrm State] transforms yourself into a powerful dragon, healing 100 HP instantly while constantly draining [c/78F178:Dragonshift Energy]
-#            Additionally, taking damage subtracts [c/78F178:Dragonshift Energy] instead
-#            Within [c/9AFE35:Windwyrm State], attacks become powerful claw slashes that deal 200% damage in a large area and inflict [c/CCEDAA:Stormlash] for 3 seconds
-#            [c/CCEDAA:Stormlash] is consumed when minions deal damage and increases damage dealt by 1% for every minion slot
-#            Right click to summon powerful tornadoes on all nearby foes while inflicting [c/CCEDAA:Stormlash] for 1 second per hit (6 second cooldown)
-#            [c/9AFE35:Windwyrm State] ends when all [c/78F178:Dragonshift Energy] is depleted
-#            Swapping off this weapon will immediately end [c/9AFE35:Windwyrm State] and reset [c/78F178:Dragonshift Energy]
+#            Держа это оружие в руках, даёт бафф [c/CAFF93:Драконий свет бури], увеличивая защиту на 2 за каждый слот призываемых миньонов
+#            Атаки этим оружием выполняются серией комбо, давая кратковременную неуязвимость перед завершением комбо
+#            После завершения комбо, даёт бафф [c/FFF593:Bondforged Blade] на 3 секунды, который заряжает [c/78F178:Энергию драконьего превращения] пока активен
+#            Когда [c/78F178:Энергия драконьего превращения] достигает 50% или более, нажмите клавишу 'Действие оружия', чтобы активировать [c/9AFE35:Состояние ветродракона]
+#            [c/9AFE35:Состояние ветродракона] превращает вас в могущественного дракона, мгновенно восстанавливая 100 здоровья и постепенно истощая [c/78F178:Энергию драконьего превращения]
+#            Кроме того, получаемый урон уменьшает [c/78F178:Энергию драконьего превращения]
+#            В [c/9AFE35:Состоянии ветродракона] атаки превращаются в мощные рассекающие удары когтями, наносящие 200% урона и накладывающие дебафф [c/CCEDAA:Бурехлёст] на 3 секунды
+#            [c/CCEDAA:Бурехлёст] поглощается, когда миньоны наносят урон, и увеличивает наносимый урон на 1% за каждый слот призываемых миньонов
+#            Нажмите <right>, чтобы призвать мощные торнадо на всех ближайших врагов, одновременно накладывая [c/CCEDAA:Бурехлёст] на 1 секунду за каждое попадание (перезарядка 6 секунд)
+#            [c/9AFE35:Состояние ветродракона] заканчивается, когда вся [c/78F178:Энергию драконьего превращения] исчерпана
+#            Смена этого оружия немедленно завершает [c/9AFE35:Состояние ветродракона] и сбрасывает [c/78F178:Энергию драконьего превращения]
 #            Урон увеличивается по мере прохождения игры
 #            '''
 #    }
@@ -10566,13 +10554,14 @@
 #        DisplayName: Танцор волн
 #        Tooltip:
 #            '''
-#            Summons an oceanblessed blade to assail foes
-#            The weapon requires 3 minion slots available to be summoned but does not consume minion slots
-#            When holding this weapon, holding left click while the weapon is summoned will allow for manual control of the weapon with your cursor
-#            Additionally, damage is reduced or multipled up to 150% depending on speed and gain 2% critical strike chance per minion slot for this weapon only
-#            Critical strikes with this weapon will inflict [c/4A91FF:Riptide] for 2 seconds and grants Swiftness for 4 seconds
-#            [c/4A91FF:Riptide] increases the damage of the next minion attack by 30% (This weapon can detonate this effect)
-#            Press the Weapon Action Key when manually controlling the weapon to slash in an area around the weapon, inflicting [c/4A91FF:Riptide] for 2 seconds (4 second cooldown)
+#            Призывает благословённый океаном клинок, атакующий врагов
+#            Оружие требует наличия 3 свободных слотов призываемых миньонов, но не использует их
+#            Когда вы держите это оружие в руках, зажмите <left> при призванном клинке, чтобы управлять им с помощью курсора
+#            Урон оружия изменяется в зависимости от скорости управления и может достигать 150% от базового значения
+#            Увеличивает шанс критического удара на 2% за каждый слот призываемых миньонов
+#            Критические удары этим оружием накладывают дебафф [c/4A91FF:Разрывное течение] на 2 секунды и дают бафф «{$BuffName.Swiftness}» на 4 секунды
+#            [c/4A91FF:Разрывное течение] увеличивает урон следующей атаки миньона на 30% (этот эффект может быть активирован этим оружием)
+#            Нажмите клавишу 'Действие оружия' при ручном управлении клинком, чтобы совершить круговой взмах, накладывая [c/4A91FF:Разрывное течение] на 2 секунды (перезарядка 4 секунды)
 #            'Превращает стремительность и мощь океанского шторма в защиту своего владельца'
 #            '''
 #    }
@@ -10969,14 +10958,14 @@
 #        DisplayName: Кларент восстания
 #        Tooltip:
 #            '''
-#            Attacks with this weapon cleave nearby foes and grants Rage for 8 seconds on hit
-#            Holding this weapon amplifies the effects of Rage, Endurance, and Ironskin by 50%
-#            Dealing or taking damage grants stacks of [c/D81919:Rebellion] (Rebellion is lost out of combat)
-#            At certain thresholds of [c/D81919:Rebellion], manifest portions of the [c/EC2B65:Crimson Armor], gaining 5 defense per armor
-#            Once [c/D81919:Rebellion] is at maximum and all portions of the [c/EC2B65:Crimson Armor] are equipped, increase defense further and gain access to [c/8D0404:Clarent Blood Arthur]
-#            Additionally, gain a 3rd combo attack and striking foes now burst into red lightning (3rd combo strike empowers lightning)
-#            Right click to unleash [c/8D0404:Clarent Blood Arthur], dealing 200% damage in a powerful burst towards your cursor after a delay (1 minute cooldown)
-#            Additionally, this attack is a guaranteed critical strike against bosses
+#            Удары этим оружием рассекают ближайших врагов и дают бафф «{$BuffName.Rage}» на 8 секунд при попадании
+#            Держа это оружие в руках, усиливает эффекты баффов «{$BuffName.Rage}», «{$BuffName.Endurance}» и «{$BuffName.Ironskin}» на 50%
+#            Нанесение или получение урона накапливает стаки [c/D81919:Восстания] (стаки Восстания пропадают вне боя)
+#            При достижении определённых порогов [c/D81919:Восстания] появляются части [c/EC2B65:Багряной брони], каждая из которых увеличивает защиту на 5
+#            Когда [c/D81919:Восстание] достигает максимума и все части [c/EC2B65:Багряной брони] экипированы, защита увеличивается ещё больше, а также открывается доступ к [c/8D0404:Кларент кровь Артура]
+#            Кроме того, появляется третий комбо-удар, а атаки по врагам вызывают вспышки красной молнии (третий комбо-удар усиливает молнию)
+#            Нажмите <right>, чтобы высвободить [c/8D0404:Кларент кровь Артура], нанося 200% урона мощным взрывом в направлении курсора после небольшой задержки (перезарядка 1 минута)
+#            Эта атака также гарантированно наносит критический удар боссам
 #            '''
 #    }
 #
@@ -11361,7 +11350,7 @@
 #    StringOfCurses: {
 #        DisplayName: Каскад проклятий
 #        Tooltip:
-#            '''					
+#            '''
 #            Критические удары этим оружием наносят на 50% меньше урона, но накладывают дебафф [c/62C29B:Некроз] на 4 секунды
 #            Враги, на которых наложен дебафф [c/62C29B:Некроз], теряют 15% к атаке и защите
 #            Увеличивает шанс выпадения звёздного света из врагов на 10%, который можно подобрать, чтобы восстановить 5 единиц энергии Астроновы
@@ -11389,7 +11378,7 @@
 #            20 урона от метки призывателя
 #            Держа это оружие в руках, даёт [c/9C936F:Ослабленную сингулярность], которая увеличивает урон от критического удара на 10% против врагов с меткой призывателя (не распространяется на [c/FAE88E:Метку феи])
 #            Атаки этого оружия накладывают [c/FAE88E:Метку феи] на 3 секунды
-#            [c/FAE88E:Fairy] acts as a special variant of summon tag damage that affects all weapons
+#            [c/FAE88E:Метка феи] представляет собой особый вариант метки призывателя, которая влияет на всё оружие
 #            Нажмите <right>, чтобы активировать способность, переключаясь между [c/9C936F:Ослабленным заточением], [c/9C936F:Ослабленной цепью] и [c/9C936F:Ослабленной колонной] (перезарядка 6 секунд)
 #            [c/9C936F:Ослабленное заточение]: Наносит урон врагам в центре вашего курсора и снижает их атаку на 90% на 2 секунды
 #            [c/9C936F:Ослабленная цепь]: Наносит урон всем ближайшим врагам, накладывает дебафф [c/EEC152:Скованный] на 2 секунды и оглушает врагов, не являющихся боссами
@@ -11685,18 +11674,21 @@
 #            WORK IN PROGRESS!
 #            [c/F592BF:Это оружие не подвержено к штрафу Аспектного типа урона]
 #            Текущий [c/F592BF:Аспектный тип урона] влияет на атаки оружия (Оружие нельзя использовать без [c/F592BF:Аспектного типа урона])
+#            This weapon deals 20% more damage to foes afflicted by Shadowflame
 #            [c/FFAB4D:Melee]: The weapon transforms into a clawed gauntlet, allowing for a close-ranged combo
-#            Attacks will charge [Dread]; at max [Dread], the next combo finisher will cause a shockwave to detonate, dealing damage to all nearby foes
+#            Attacks will charge [Dread]; at max [Dread], the next combo finisher will cause a shockwave to detonate, striking nearby foes
 #            Gain brief Invincibility and restore 2% Max HP when defeating foes
 #            [c/EF4DFF:Magic]: The weapon transforms into a staff, and can now be [Charged]
-#            Uncharged attacks quickly fires a formation of rapid energy
-#            Charged attacks conjure two orbiting bolts that inflict [Darkrend] on hit for 12 seconds; [Darkrend] increases the damage foes take from this weapon by 20%					
-#            [c/4DFF5B:Ranged]: The weapon transforms into a gun, and gains 20 armor penetration
-#            Attacks fire homing energy blasts that arc lightning to nearby foes
+#            Uncharged attacks quickly fires a formation of rapid piercing energy
+#            Charged attacks conjure two orbiting bolts for 6 seconds that inflict Shadowflame for 12 seconds on hit
+#            Orbiting bolts additionally gain 100% armor penetration
+#            [c/4DFF5B:Ranged]: The weapon transforms into a gun, firing mid-ranged energy blasts
+#            Attacks rapidly arc lightning to nearby foes (Lightning arcs have 20% armor penetration)
 #            Gain [Alacrity] for 8 seconds when defeating foes, increasing attack and movement speed
 #            [c/00CDFF:Summon]: Summons [Dark Dread] and [Flying Dread], consuming 1 minion slot (Only one group of summons can be active at a time)
-#            [Dark Dread] leaps at foes, slashing in a wide arc; [Flying Dread] fires exploding projectiles, inflicting Shadowflame for 4 seconds on hit
-#            After striking foes 20 times, grant [Dark Confession] for 20 seconds, negating the next instance of damage
+#            Damage scales with unused minion slots; additionally, gain defense based on unused minion slots
+#            [Dark Dread] shadowsteps to foes and claws them with rapid strikes; [Flying Dread] fires exploding projectiles, inflicting Shadowflame for 4 seconds
+#            After either minion strikes foes 20 times, gain [Shadow Wall] for 20 seconds, negating the next instance of damage
 #            'It will agree with you'
 #            '''
 #    }
@@ -11884,17 +11876,17 @@
 #    }
 #
 #    BladeArtDragonCooldown: {
-#        DisplayName: Blade Art: Dragon Cooldown
-#        Description: Blade Art: Dragon не сработает, пока активен этот дебафф
+#        DisplayName: Перезарядка искусства клинка: Дракон
+#        Description: Искусство клинка: Дракон не сработает, пока активен этот дебафф
 #    }
 #
 #    BladeArtDragonPrepBuff: {
-#        DisplayName: Blade Art: Dragon
+#        DisplayName: Искусство клинка: Дракон
 #        Description: ""
 #    }
 #
 #    BloodBladeBuff: {
-#        DisplayName: Bloodthirsting Blade
+#        DisplayName: Кровожадный клинок
 #        Description: В зависимости от недостающего запаса здоровья даёт мощные баффы, однако регенерация здоровья отключена
 #    }
 #
@@ -11902,8 +11894,8 @@
 #        DisplayName: Кипящая кровь
 #        Description:
 #            '''
-#            Пылающая сила усиливает вас, увеличивая урон на 30%, защиту на 30, скорость атаки пропорционально потерянному здоровью и позволяя проводить дополнительные атаки
-#            Однако регенерация здоровья отключена, и вы медленно теряете здоровье
+#            Пылающая сила усиливает вас, увеличивая урон на 30%, защиту на 30 и скорость атаки пропорционально потерянному здоровью, а также позволяет проводить дополнительные атаки.
+#            Однако, регенерация здоровья отключена, и вы медленно теряете здоровье
 #            'Здесь недостаточно жарко!'
 #            '''
 #    }
@@ -11945,17 +11937,17 @@
 #    }
 #
 #    BossCooldown: {
-#        DisplayName: Boss Cooldown
-#        Description: The boss of the Dying Citadel will fail to spawn with this debuff
+#        DisplayName: Перезарядка босса
+#        Description: Босс Умирающей цитадели не появится, пока активен этот дебафф
 #    }
 #
 #    BossEnemySpawnMod: {
-#        DisplayName: Overwhelming Presence
-#        Description: The powerful foe before you prevents natural enemy spawns
+#        DisplayName: Подавляющее присутствие
+#        Description: Могущественный враг перед вами предотвращает естественное появление врагов
 #    }
 #
 #    BubbaPetBuff: {
-#        DisplayName: Detective Dog
+#        DisplayName: Собака-детектив
 #        Description: За вами следует умная собака
 #    }
 #
@@ -11976,21 +11968,21 @@
 #
 #    MoonlitCooldown: {
 #        DisplayName: Перезарядка лунного двуручника
-#        Description: When this debuff ends, you can use Moonlit Greatblade again
+#        Description: Лунный двуручник не сработает, пока активен этот дебафф
 #    }
 #
 #    MoonlitGreatblade: {
 #        DisplayName: Лунный двуручник
-#        Description: Otherworldly lunar energy grants you strength, but prevents mana regen
+#        Description: Потусторонняя лунная энергия наделяет вас силой, но препятствует восстановлению маны
 #    }
 #
 #    PrepDarkmoon: {
 #        DisplayName: Лунный двуручник
-#        Description: Otherworldly lunar energy grants you strength
+#        Description: Потусторонняя лунная энергия наделяет вас силой
 #    }
 #
 #    CastFinished: {
-#        DisplayName: Cast Finished
+#        DisplayName: Заклинание завершено
 #        Description: ""
 #    }
 #
@@ -12000,37 +11992,37 @@
 #    }
 #
 #    Chemtank1: {
-#        DisplayName: Dreadnought Chemtank Active
+#        DisplayName: Активный Химдоспех дредноута
 #        Description: ""
 #    }
 #
 #    Chemtank2: {
-#        DisplayName: Dreadnought Chemtank Active
+#        DisplayName: Активный Химдоспех дредноута
 #        Description: ""
 #    }
 #
 #    Chemtank3: {
-#        DisplayName: Dreadnought Chemtank Active
+#        DisplayName: Активный Химдоспех дредноута
 #        Description: ""
 #    }
 #
 #    Chemtank4: {
-#        DisplayName: Dreadnought Chemtank Active
+#        DisplayName: Активный Химдоспех дредноута
 #        Description: ""
 #    }
 #
 #    Chemtank5: {
-#        DisplayName: Dreadnought Chemtank Active
+#        DisplayName: Активный Химдоспех дредноута
 #        Description: ""
 #    }
 #
 #    Chemtank6: {
-#        DisplayName: Dreadnought Chemtank Active
+#        DisplayName: Активный Химдоспех дредноута
 #        Description: ""
 #    }
 #
 #    ChemtankBuff: {
-#        DisplayName: Dreadnought Chemtank
+#        DisplayName: Химдоспех дредноута
 #        Description: ""
 #    }
 #
@@ -12045,8 +12037,8 @@
 #    }
 #
 #    ClawsOfNyx: {
-#        DisplayName: Claws of Nyx
-#        Description: Damage and crit rate is increased
+#        DisplayName: Когти Никс
+#        Description: Урон и шанс критического удара увеличены
 #    }
 #
 #    ComboCooldown: {
@@ -12090,38 +12082,38 @@
 #    }
 #
 #    CosmicRecoil: {
-#        DisplayName: Cosmic Recoil
-#        Description: Limitless power has its cost
+#        DisplayName: Космическая отдача
+#        Description: Безграничная сила имеет свою цену
 #    }
 #
 #    CounterSurge: {
-#        DisplayName: Counter Surge
-#        Description: The Xenoblade's charged attack has been drastically empowered
+#        DisplayName: Контрскачок
+#        Description: Заряженная атака Ксеноклинка значительно усилена
 #    }
 #
 #    CrimsonDragonetPetBuff: {
-#        DisplayName: Crimson Dragonet
-#        Description: A crimson dragonet attends to you
+#        DisplayName: Багровый дракончик
+#        Description: Вас сопровождает багровый дракончик
 #    }
 #
 #    DashInvincibility: {
-#        DisplayName: Dash Invincibility
-#        Description: You will not take damage
+#        DisplayName: Неуязвимость рывка
+#        Description: Вы не получите урон
 #    }
 #
 #    DeathDefianceCooldown: {
-#        DisplayName: Death Defiance Cooldown
-#        Description: Death Defiance не сработает, пока активен этот дебафф
+#        DisplayName: Перезарядка неповиновения смерти
+#        Description: Неповиновение смерти не сработает, пока активен этот дебафф
 #    }
 #
 #    DeepFreeze: {
-#        DisplayName: Deep Freeze
-#        Description: If you are currently standing still when this buff expires, you will be frozen solid and take damage
+#        DisplayName: Глубокая заморозка
+#        Description: Если на момент окончания этого баффа вы стоите неподвижно, вас полностью заморозит и вы получите урон
 #    }
 #
 #    Determination: {
-#        DisplayName: Shadowbringer
-#        Description: Dream now of a dark tomorrow... Damage and defenses have been drastically increased
+#        DisplayName: Тененосец
+#        Description: Грядет тёмное завтра... Урон и защита значительно увеличены
 #    }
 #
 #    DownForTheCount: {
@@ -12135,13 +12127,13 @@
 #    }
 #
 #    DuckHuntBirdPetBuff: {
-#        DisplayName: Hunted Duck
-#        Description: It seems the name has become outdated
+#        DisplayName: Дикая утка
+#        Description: Похоже, название устарело
 #    }
 #
 #    DuckHuntDogPetBuff: {
-#        DisplayName: Duck Hunter
-#        Description: It seems the name has become outdated
+#        DisplayName: Охотник на уток
+#        Description: Похоже, название устарело
 #    }
 #
 #    Ebb: {
@@ -12150,8 +12142,8 @@
 #    }
 #
 #    EreshkigalPetBuff: {
-#        DisplayName: Princess of Kur
-#        Description: I'll have you know that I'm a proper goddess!
+#        DisplayName: Принцесса Иркалла
+#        Description: Чтоб вы знали, я настоящая богиня!
 #    }
 #
 #    EridaniBlessing: {
@@ -12160,8 +12152,8 @@
 #    }
 #
 #    EspeonPetBuff: {
-#        DisplayName: Mystic Hound
-#        Description: A pair of mystic hounds are following you
+#        DisplayName: Мистические гончии
+#        Description: За вами следует пара мистических гончих
 #    }
 #
 #    EverlastingGunpowderLoaded: {
@@ -12194,13 +12186,13 @@
 #    }
 #
 #    MalachiteBuff: {
-#        DisplayName: Malachite Fragment
-#        Description: Gain 10% increased critical strike chance and 5% increased damage
+#        DisplayName: Малахитовый фрагмент
+#        Description: Шанс критического удара увеличен на 10%, а урон на 5%
 #    }
 #
 #    VermillionBuff: {
-#        DisplayName: Vermillion Fragment
-#        Description: Gain 50 armor penetration and 5% increased damage
+#        DisplayName: Киноварный фрагмент
+#        Description: Пробивание брони увеличено на 50, а урон на 5%
 #    }
 #
 #    EverlastingLight: {
@@ -12214,23 +12206,23 @@
 #    }
 #
 #    EyeOfEuthymiaBuff: {
-#        DisplayName: Eye of Euthymia
-#        Description: The vision of lightning is with you
+#        DisplayName: Око эвтюмии
+#        Description: Вас сопровождает видение молнии
 #    }
 #
 #    FerryPetBuff: {
-#        DisplayName: Churning Ferry
-#        Description: A myserious boat is following you
+#        DisplayName: Дымящий паром
+#        Description: За вами следует таинственный паром
 #    }
 #
 #    FlashOfEternity: {
-#        DisplayName: Flash Of Eternity
-#        Description: The next instance of damage is negated
+#        DisplayName: Вспышка вечности
+#        Description: Следующее получение урона будет аннулировано
 #    }
 #
 #    FlashOfEternityCooldown: {
-#        DisplayName: Flash of Eternity Cooldown
-#        Description: When this debuff ends, you will be able to use Flash of Eternity again
+#        DisplayName: Перезарядка вспышки вечности
+#        Description: Вспышка Вечности не сработает, пока активен этот дебафф
 #    }
 #
 #    Flow: {
@@ -12245,12 +12237,12 @@
 #
 #    GardenOfAvalon: {
 #        DisplayName: Сад Авалона
-#        Description: Periodically heal health and mana with the strength of the Stellar Nova
+#        Description: Периодически восстанавливает здоровье и ману силой Астроновы
 #    }
 #
 #    GatewayBuff: {
-#        DisplayName: Gateway Open
-#        Description: Ready to traverse the cosmos
+#        DisplayName: Открытые врата
+#        Description: Готов к путешествию по космосу
 #    }
 #
 #    GenocideBuff: {
@@ -13085,22 +13077,22 @@
 #    }
 #
 #    ApalistikTagDamage: {
-#        DisplayName: Урон от метки Апалистика
+#        DisplayName: Метка Апалистика
 #        Description: ""
 #    }
 #
 #    KingTagDamage: {
-#        DisplayName: King Tag Damage
+#        DisplayName: Метка Ключа королевской власти
 #        Description: ""
 #    }
 #
 #    PhantomTagDamage: {
-#        DisplayName: Phantom Tag Damage
+#        DisplayName: Метка Фантома в зеркале
 #        Description: ""
 #    }
 #
 #    SeabornApalistikTagDamage: {
-#        DisplayName: Урон от метки Пучинного Апалистика
+#        DisplayName: Метка Пучинного Апалистика
 #        Description: ""
 #    }
 #
@@ -13130,26 +13122,26 @@
 #    }
 #
 #    GuntriggerParry: {
-#        DisplayName: Guntrigger Parry
+#        DisplayName: Мгновенное парирование
 #        Description: ""
 #    }
 #
 #    GuntriggerParryCooldown: {
-#        DisplayName: Guntrigger Parry Cooldown
-#        Description: Guntrigger Parry не сработает, пока активен этот дебафф
+#        DisplayName: Перезарядка мгновенного парирования
+#        Description: Мгновенное парирование не сработает, пока активен этот дебафф
 #    }
 #
 #    ImpactRecoil: {
-#        DisplayName: Impact Recoil
-#        Description: Guntrigger Execution has halved damage
+#        DisplayName: Ударная отдача
+#        Description: Мгновенная расправа наносит вдвое меньше урона
 #    }
 #
 #    JetstreamBloodshed: {
-#        DisplayName: Jetstream Bloodshed
+#        DisplayName: Реактивное кровопролитие
 #        Description:
 #            '''
-#            Damage is increased by 30% until damage is taken
-#            Increased to 50% at 100 HP or below
+#            Урон увеличен на 30% до получения урона
+#            Когда здоровье 100 или ниже урон увеличен до 50%
 #            '''
 #    }
 #
@@ -13234,7 +13226,7 @@
 #    }
 #
 #    CelestialVoidBuff: {
-#        DisplayName: Celestial Void
+#        DisplayName: Неземная пустота
 #        Description: You have torn a rift in spacetime!
 #    }
 #
@@ -13620,43 +13612,43 @@
 #    }
 #
 #    PodBuff: {
-#        DisplayName: Automaton Pod
-#        Description: An automaton pod is pressing the attack
+#        DisplayName: Автономный под
+#        Description: Автономный под начал атаку
 #    }
 #
 #    RexLapisMeteorCooldown: {
-#        DisplayName: Rex Lapis Meteor Cooldown
-#        Description: Rex Lapis's meteor will fail to activate if this debuff is present
+#        DisplayName: Перезарядка кометы Рекс Ляписа
+#        Description: Комета Рекс Ляписа не сработает, пока активен этот дебафф
 #    }
 #
 #    CannonfireDeluge1: {
-#        DisplayName: Cannonfire Deluge (1 Stack)
-#        Description: Cannonfire Deluge is stacking
+#        DisplayName: Пушечный обстрел (1 стак)
+#        Description: Пушечный обстрел накапливается
 #    }
 #
 #    CannonfireDeluge2: {
-#        DisplayName: Cannonfire Deluge (2 Stacks)
-#        Description: Mods.StarsAbove.Buffs.CannonfireDeluge2.Description
+#        DisplayName: Пушечный обстрел (2 стака)
+#        Description: ""
 #    }
 #
 #    CannonfireDeluge3: {
-#        DisplayName: Cannonfire Deluge (3 Stacks)
-#        Description: Mods.StarsAbove.Buffs.CannonfireDeluge3.Description
+#        DisplayName: Пушечный обстрел (3 стака)
+#        Description: ""
 #    }
 #
 #    CannonfireDelugeCooldown: {
-#        DisplayName: Cannonfire Deluge Cooldown
-#        Description: Ability is on cooldown
+#        DisplayName: Перезарядка пушечного обстрела
+#        Description: Пушечный обстрел не сработает, пока активен этот дебафф
 #    }
 #
 #    FeralDespair: {
-#        DisplayName: Feral Despair
-#        Description: Sanguine energy ebbs and flows in tandem with your life, granting increased damage based on missing HP
+#        DisplayName: Дикое отчаяние
+#        Description: Кровожадная энергия течёт в унисон с вашей жизнью, увеличивая урон в зависимости от недостающего здоровья
 #    }
 #
 #    SurgingVampirismCooldown: {
-#        DisplayName: Surging Vampirism Cooldown
-#        Description: Ability is on cooldown
+#        DisplayName: Перезарядка прилива вампиризма
+#        Description: Прилив вампиризма не сработает, пока активен этот дебафф
 #    }
 #
 #    DarkSoul: {
@@ -13787,17 +13779,17 @@
 #    }
 #
 #    Mortality: {
-#        DisplayName: Mortality
+#        DisplayName: Смертность
 #        Description: Movement has been slowed by 10% and damage taken has been doubled
 #    }
 #
 #    ChronoclockTagDamage: {
-#        DisplayName: ChronoclockTagDamage
+#        DisplayName: Метка Хроночасов
 #        Description: ""
 #    }
 #
-#    KarnaTagDamage: {
-#        DisplayName: KarnaTagDamage
+#        KarnaTagDamage: {
+#        DisplayName: ""
 #        Description: ""
 #    }
 #
@@ -13864,32 +13856,32 @@
 #    }
 #
 #    DeathFromAbove: {
-#        DisplayName: Death From Above
+#        DisplayName: Смерть с небес
 #        Description: Air superiority enables weapon special effects
 #    }
 #
 #    KickStartBuff: {
-#        DisplayName: Kick Start
-#        Description: The next attack with the weapon will deal double damage
+#        DisplayName: Мощный старт
+#        Description: Следующая атака этим оружием нанесёт двойной урон
 #    }
 #
 #    TrickspinLeapCooldown: {
-#        DisplayName: Trickspin Leap Cooldown
+#        DisplayName: Перезарядка Двухступенчатого спина
 #        Description: ""
 #    }
 #
 #    TrickspinTagDamage: {
-#        DisplayName: Trickspin Tag Damage
-#        Description: Mods.StarsAbove.Buffs.TrickspinTagDamage.Description
+#        DisplayName: Метка Двухступенчатого спина
+#        Description: ""
 #    }
 #
 #    MeAndMyKillingMachineBuff: {
-#        DisplayName: Me And My Killing Machine
+#        DisplayName: Я и моя машина для убийств
 #        Description: Killing Bear is prepared to follow up on attacks
 #    }
 #
 #    MeAndMyKillingMachineCooldown: {
-#        DisplayName: Me And My Killing Machine Cooldown
+#        DisplayName: Перезарядка Я и моя машина для убийств
 #        Description: ""
 #    }
 #
@@ -13914,7 +13906,7 @@
 #    }
 #
 #    MirageBladeCooldown: {
-#        DisplayName: Mirage Blade Cooldown
+#        DisplayName: Перезарядка лезвий миражей
 #        Description: ""
 #    }
 #
@@ -13974,7 +13966,7 @@
 #    }
 #
 #    DraggedBelowCooldown: {
-#        DisplayName: Dragged Below Flood Cooldown
+#        DisplayName: Перезарядка наводнения Затянутого в бездну
 #        Description: ""
 #    }
 #
@@ -14009,7 +14001,7 @@
 #    }
 #
 #    AerialDefensiveArray: {
-#        DisplayName: Aerial Defensive Array
+#        DisplayName: Воздушная защитная система
 #        Description: ""
 #    }
 #
@@ -14044,22 +14036,22 @@
 #    }
 #
 #    BondforgedBladeBuff: {
-#        DisplayName: Bondforged Blade
-#        Description: Charging draconic energy
+#        DisplayName: Клинок связанных уз
+#        Description: Заряжает драконью энергию
 #    }
 #
 #    DragonshiftSpecialAttackCooldownBuff: {
-#        DisplayName: Dragonshift Special Attack Cooldown
+#        DisplayName: Перезарядка особой атаки драконьего превращаения
 #        Description: ""
 #    }
 #
 #    TempestDragonlightBuff: {
-#        DisplayName: Tempest's Dragonlight
-#        Description: Gaining draconic defenses based on minion slots
+#        DisplayName: Драконий свет бури
+#        Description: Даёт драконью защиту в зависимости от слотов призываемых миньонов
 #    }
 #
 #    DragaliaTagDamage: {
-#        DisplayName: Dragalia Tag Damage
+#        DisplayName: Метка драгалии
 #        Description: ""
 #    }
 #
@@ -14069,12 +14061,12 @@
 #    }
 #
 #    WavedancerBuff: {
-#        DisplayName: Wavedancer's Edge
+#        DisplayName: Грань Танцора волн
 #        Description: ""
 #    }
 #
 #    WavedancerCooldown: {
-#        DisplayName: Wavedancer Cooldown
+#        DisplayName: Перезарядка Танцора волн
 #        Description: ""
 #    }
 #
@@ -14149,7 +14141,7 @@
 #    }
 #
 #    RebellionLaserBuff: {
-#        DisplayName: Rebellion Laser Buff
+#        DisplayName: Лазер восстания
 #        Description: ""
 #    }
 #
@@ -14249,7 +14241,7 @@
 #    }
 #
 #    OnyxJackalTagDamage: {
-#        DisplayName: Onyx Jackal Tag Damage
+#        DisplayName: Метка Ониксового шакала
 #        Description: ""
 #    }
 #
@@ -14274,7 +14266,7 @@
 #    }
 #
 #    RebellionLaserCooldown: {
-#        DisplayName: Rebellion Laser Cooldown
+#        DisplayName: Перезарядка лазера восстания
 #        Description: ""
 #    }
 #
@@ -14319,7 +14311,7 @@
 #    }
 #
 #    AlignmentBuff: {
-#        DisplayName: Резонанс резонанс
+#        DisplayName: Активный резонанс
 #        Description: Ключи катализатора переполнены силой
 #    }
 #
@@ -14439,7 +14431,7 @@
 #    }
 #
 #    CelestialVoidCooldown: {
-#        DisplayName: Celestial Void Cooldown
+#        DisplayName: Перезарядка неземной пустоты
 #        Description: ""
 #    }
 #
@@ -14459,7 +14451,7 @@
 #    }
 #
 #    InheritedCaseActive: {
-#        DisplayName: Активный наследственный футляр
+#        DisplayName: Активный Наследственный футляр
 #        Description: ""
 #    }
 #
@@ -14501,6 +14493,21 @@
 #    FireflyActive: {
 #        DisplayName: Firefly Type-IV
 #        Description: Your Starfarer has donned the Crysalid Pyronexus, assisting you in combat
+#    }
+#
+#    DreadmotherOrbitalBuff: {
+#        DisplayName: Dreadmother Orbital Buff
+#        Description: ""
+#    }
+#
+#    DreadmotherMinionBuff: {
+#        DisplayName: Dreadmother Minion Buff
+#        Description: Dreadful monsters are at your side
+#    }
+#
+#    ShadowWallBuff: {
+#        DisplayName: Shadow Wall Buff
+#        Description: Negating the next instance of damage
 #    }
 #}
 #

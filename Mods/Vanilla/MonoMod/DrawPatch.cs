@@ -22,6 +22,7 @@
 //         { "UI/StellarNova/edingenesisquasarIcon", $"{PATH}/edingenesisquasarIcon" },
 //         { "UI/StellarNova/unlimitedbladeworksIcon", $"{PATH}/unlimitedbladeworksIcon" },
 //         { "UI/StellarNova/guardianslightIcon", $"{PATH}/guardianslightIcon" },
+//         { "UI/StellarNova/fireflytypeIVIcon", $"{PATH}/fireflytypeIVIcon" },
 //         { "UI/CelestialCartography/LocationDescriptionTextBox", $"{PATH}/LocationDescriptionTextBox" },
 //         { "UI/CelestialCartography/LocationNames/Arbitration", $"{PATH}/Arbitration" },
 //         { "UI/CelestialCartography/LocationNames/Caelum", $"{PATH}/Caelum" },

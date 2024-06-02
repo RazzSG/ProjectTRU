@@ -53,6 +53,7 @@
 //         { AudioInstance.ER17, StarsAboveSounds.ER17 },
 //         { AudioInstance.ER18, StarsAboveSounds.ER18 },
 //         { AudioInstance.ERJoke, StarsAboveSounds.ERJoke },
+//         { StarsAboveAudio.StarfarerBoss_Intro, StarsAboveSounds.StarfarerBoss_Intro },
 //     };
 //     
 //     public bool IsLoadingEnabled(Mod mod)
@@ -77,6 +78,6 @@
 //             style = newStyle;
 //         }
 //
-//         return  orig.Invoke(ref style, position, updatecallback);
+//         return orig.Invoke(ref style, position, updatecallback);
 //     }
 // }

@@ -66,20 +66,8 @@
     Wood: Увеличивает множитель заполнения записей в бестиарии и получение знамён до 5
     AshWood: Снижает перезарядку огненных шаров
     NoUpgrade: Отсутствует улучшение
-    Umbraphile: Bats do more damage and travel faster
-    Plaguebringer:
-    	'''
-    	Debuffs spread from farther 
-    	Enemies are tagged to spread debuffs for longer
-    	'''
-    Reaver: More drastic stat changes
-    SnowRuffian: Grants some flight time
-    Daedalus: Grants wings if you don't have any, Can fly higher
-    Hydrothermic: Longer overheat charge, more attack speed increase
-    Wulfrum: The drone is faster and occasionally finds bonus items
-    DesertProwler: Stronger jumps
-    Marnite: Stronger daggers, +15% placement speed and +5 placement range
-    Aerospec: Total of 5 jumps, jumping grants more crit
+    Active: Активный
+    Inactive: Неактивный
 }
 
 SetBonus: {
@@ -218,7 +206,10 @@ DeathMessage: {
 }
 
 Toggler: {
+    DisableAllAttackEffects: Отключение всех эффектов атак миньонов
+    DisableAllMinionEffects: Отключение всех эффектов миньонов
     TimberHeader: "{$Mods.FargowiltasSouls.Items.TimberForce.DisplayName}"
+    WoodCompletionEffect: Древесное ускорение
     BorealEffect: Северные снежки
     MahoganyEffect: Красно-древесная скорость крюков
     EbonwoodEffect: Эбонитово-древесное теневое пламя
@@ -491,7 +482,7 @@ UI: {
     MinimalEffectsPreset: Предустановленные настройки минимума эффектов
     CustomPreset: Пользовательский набор {0} (ПКМ, чтобы сохранить)
     ReloadToggles: Перезагрузить настройки эффектов (ПКМ, чтобы сбросить)
-    NoToggles: Отсутствуют экипированные переключаемые эффекты
+    NoToggles: Отсутствуют экипированные эффекты
     DisplayAll: Отобразить всё
     DisplayEquipped: Отобразить экипированное
     SearchText: Поиск...
@@ -521,7 +512,7 @@ EModeBalance: {
     DemonScythe: Урон и скорость снижены на 40% до тех пор, пока не будет побеждён босс мирового зла
     HolyDodge: Активация святого уклонения временно снижает скорость атаки
     FrozenTurtleShell: Ледяной барьер немного снижает наносимый вами урон
-    BrainOfConfusion: Снижает наносимый вами урон при успешном уклонении
+    BrainOfConfusion: Шанс уклонения снижен вдвое
     ZenithNone: Без изменений
     ZenithHitRate: Значительно снижена частота попаданий, улучшается при победе над:
     VampireKnives: Сила кражи здоровья снижена, если здоровье больше 50%
@@ -546,7 +537,7 @@ EModeBalance: {
     MythrilHalberdRework: При отсутствии атак в течение 2 секунд, следующая удар наносит в раз 8 больше урона , который увеличивается с ростом скорости атаки
     OrichalcumHalberdRework: Выпускает цветочные лепестки при взмахе
     SuperStarCannon: Максимальное количество пронзаний снарядов снижено до 7
-    WarmthPotionNerf: Эффект снижения урона снижен вдвое
+    WarmthPotionNerf: Эффект снижения урона снижен вдвое и применяется после применения всех защитных модификаторов
     CrossNecklaceNerf: Длительная неуязвимость не срабатывает при быстром получении последовательных ударов
     IceBladeFrostburn: Снаряды накладывают дебафф «{$BuffName.Frostburn2}» при попадании
     JungleRose: Увеличивает шанс выпадения плода Плантеры с врагов-хватателей
@@ -1197,8 +1188,8 @@ Buffs: {
     }
     
     CorruptingBuff: {
-        DisplayName: Разложение
-        Description: Вы разлагаетесь
+        DisplayName: Иссушающий
+        Description: Вы иссушаетесь
     }
 
     TimeFrozenBuff: {
@@ -1247,13 +1238,13 @@ Buffs: {
     }
     
     CorruptedBuff: {
-        DisplayName: Бафф разложения
-        Description: ""
+        DisplayName: Иссушённый
+        Description: Вы иссушены
     }
 
     CorruptedBuffForce: {
-        DisplayName: Усиление баффа разложения
-        Description: ""
+        DisplayName: Иссушённый (Сила)
+        Description: Вы иссушены
     }
     
     GladiatorBuff: {
@@ -1297,6 +1288,11 @@ Buffs: {
     	DisplayName: Жемчужно-древесная звезда
     	Description: ""
     }
+    
+    MoonFangBuff: {
+        DisplayName: Лунный клык
+        Description: Невозможно восстанавливать здоровье
+    }
 }
 
 Common: {
@@ -1324,7 +1320,6 @@ Items: {
         Tooltip:
             '''
             Огненные дебаффы не наносят вам урона
-            Вышеуказанный эффект работает на жителей, когда экипирован или находятся в инвентаре
             Во время горения атаки сопровождаются огненными шарами
             Даёт невосприимчивость к дебаффу «{$BuffName.Oiled}»
             Снижает урон, наносимый при контакте с лавой
@@ -1494,9 +1489,9 @@ Items: {
         DisplayName: Эбонитово-древесное усиление
         Tooltip:
             '''
-            Окружает аурой, которая накапливает разложение на врагах
-            После 3 секунд накопления, они взрываются, заражая всех ближайших врагов
-            Заражённые враги имеют на 10 единиц меньше защиты и наносят на 20% меньше контактного урона
+            Окружает аурой, которая накапливает иссушение на врагах
+            После 3 секунд накопления, они взрываются, иссушая всех ближайших врагов
+            Иссушённые враги имеют на 10 единиц меньше защиты и наносят на 20% меньше контактного урона
             'Нераскрытый потенциал'
             '''
     }
@@ -2106,6 +2101,7 @@ Items: {
             '''
             Работает в инвентаре
             Не двигаясь, отображает местоположение сокровищ и врагов поблизости
+            Враги излучают свет ночью
             Даёт автоатаку предметам, не относящимися к оружию
             '''
     }
@@ -2138,7 +2134,7 @@ Items: {
     }
 
     EarthForce: {
-        DisplayName: Сила земли
+        DisplayName: Сила планеты
         Tooltip:
             '''
             [i:FargowiltasSouls/CobaltEnchant] Позволяет делать взрывной прыжок и при ударе вы взрываетесь
@@ -2219,7 +2215,7 @@ Items: {
     }
 
     TerraForce: {
-        DisplayName: Сила терры
+        DisplayName: Сила земли
         Tooltip:
             '''
             [i:FargowiltasSouls/CopperEnchant][i:FargowiltasSouls/ObsidianEnchant][i:FargowiltasSouls/LeadEnchant] Атаки создают молнии, взрывы и накладывают дебафф «{$Buffs.LeadPoisonBuff.DisplayName}»
@@ -2230,7 +2226,7 @@ Items: {
             [i:FargowiltasSouls/SilverEnchant] Нажмите <right>, чтобы прикрыться щитом
             [i:FargowiltasSouls/TungstenEnchant] Увеличивает размер оружия до 300% и снаряда каждые четверть секунды
             [i:FargowiltasSouls/ObsidianEnchant] Даёт невосприимчивость к лаве
-            [i:FargowiltasSouls/AshWoodEnchant] Атаки игрока и жителей сопровождаются огненными шарами
+            [i:FargowiltasSouls/AshWoodEnchant] Атаки игрока сопровождаются огненными шарами
             'Земля придаёт вам силу'
             '''
     }
@@ -2388,12 +2384,12 @@ Items: {
         Tooltip:
             '''
             [i:FargowiltasSouls/ChaliceoftheMoon] Даёт невосприимчивость к дебаффам «{$Buffs.SwarmingBuff.DisplayName}», «{$Buffs.AtrophiedBuff.DisplayName}», «{$Buffs.JammedBuff.DisplayName}», «{$Buffs.ReverseManaFlowBuff.DisplayName}» и «{$Buffs.AntisocialBuff.DisplayName}»
-            Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/MagicalBulb] «{$BuffName.Venom}», «{$Buffs.IvyVenomBuff.DisplayName}», [i:FargowiltasSouls/LihzahrdTreasureBox] «{$BuffName.Burning}», «{$Buffs.FusedBuff.DisplayName}», «{$Buffs.LowGroundBuff.DisplayName}», [i:FargowiltasSouls/CelestialRune] и «{$Buffs.MarkedforDeathBuff.DisplayName}»
+            Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/MagicalBulb] «{$BuffName.Venom}», «{$Buffs.IvyVenomBuff.DisplayName}», [i:FargowiltasSouls/LihzahrdTreasureBox] «{$BuffName.Burning}», «{$Buffs.FusedBuff.DisplayName}», «{$Buffs.LihzahrdCurseBuff.DisplayName}», «{$Buffs.LowGroundBuff.DisplayName}», [i:FargowiltasSouls/CelestialRune] и «{$Buffs.MarkedforDeathBuff.DisplayName}»
             [i:FargowiltasSouls/MagicalBulb] Нажмите клавишу «Магическое очищение», чтобы избавиться от большинства дебаффов
             [i:FargowiltasSouls/MagicalBulb] Увеличивает регенерацию здоровья в зависимости от окружающего уровня освещения
             [i:FargowiltasSouls/LihzahrdTreasureBox] Дважды нажмите <down> в воздухе, чтобы ускорить падение и создать огненное извержение при приземлении после падения с определённой высоты
             [i:FargowiltasSouls/CelestialRune] В зависимости от типа оружия, вы стреляете дополнительными атаками и извергаетесь древними пророчествами при получении урона
-            Призывает на помощь дружелюбного [i:FargowiltasSouls/ChaliceoftheMoon] культиста и [i:FargowiltasSouls/MagicalBulb] растение
+            [i:FargowiltasSouls/MagicalBulb] Призывает на помощь дружелюбное растение
             'Используйте это'
             '''
     }
@@ -2454,7 +2450,7 @@ Items: {
             '''
             Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/FusedLens] «{$BuffName.CursedInferno}», «{$BuffName.Ichor}», [i:FargowiltasSouls/GroundStick] «{$Buffs.LightningRodBuff.DisplayName}», [i:FargowiltasSouls/ReinforcedPlating] «{$Buffs.DefenselessBuff.DisplayName}», «{$Buffs.NanoInjectionBuff.DisplayName}» и отбрасыванию
             [i:FargowiltasSouls/FusedLens] Нажмите клавишу «Укрепление дебаффом», чтобы наложить на себя «{$BuffName.CursedInferno}» и «{$BuffName.Ichor}» на 30 секунд
-            [i:FargowiltasSouls/FusedLens] Когда на вас наложен дебафф «{$BuffName.Ichor}» и «{$BuffName.CursedInferno}», увеличивает скорость атаки и шанс критического удара на 15%а ваши удары накладывают «{$BuffName.Ichor}» и «{$BuffName.CursedInferno}»
+            [i:FargowiltasSouls/FusedLens] Когда на вас наложен дебафф «{$BuffName.Ichor}» и «{$BuffName.CursedInferno}», увеличивает скорость атаки и шанс критического удара на 15%, а ваши удары накладывают «{$BuffName.Ichor}» и «{$BuffName.CursedInferno}»
             [i:FargowiltasSouls/GroundStick] Атаки с небольшим шансом накладывают дебафф «{$Buffs.LightningRodBuff.DisplayName}» и сверхзаряжают при электрических атаках
             [i:FargowiltasSouls/GroundStick] За вас сражаются два дружелюбных зонда, которые также сверхзаряжаются вместе с вами
             [i:FargowiltasSouls/ReinforcedPlating] Снижает получаемый урон на 5%
@@ -2593,7 +2589,7 @@ Items: {
         DisplayName: Сундук с сокровищами яхщеров
         Tooltip:
             '''
-            Даёт невосприимчивость к дебаффам «{$BuffName.Burning}», «{$Buffs.FusedBuff.DisplayName}» и «{$Buffs.LowGroundBuff.DisplayName}»
+            Даёт невосприимчивость к дебаффам «{$BuffName.Burning}», «{$Buffs.FusedBuff.DisplayName}», «{$Buffs.LihzahrdCurseBuff.DisplayName}» и «{$Buffs.LowGroundBuff.DisplayName}»
             Дважды нажмите <down> в воздухе, чтобы ускорить падение и создать огненное извержение при приземлении после падения с определённой высоты
             'Слишком много ловушек, чтобы открыть'
             '''
@@ -2690,7 +2686,7 @@ Items: {
             '''
             Даёт невосприимчивость к дебаффу «{$Buffs.LethargicBuff.DisplayName}»
             Увеличивает скорость во время рывка на 50%
-            Во время рывка получаемый контактный урон снижается на 75%, а 100% контактного урона отражается обратно атакующему
+            Во время рывка получаемый контактный урон снижается на 15%, а 100% контактного урона отражается обратно атакующему
             Призывает две руки Скелетрона, атакующие врагов
             'Средство для роста костей побеждённого врага'
             '''
@@ -2987,8 +2983,7 @@ Items: {
         DisplayName: Душа колосса
         Tooltip:
             '''
-            Увеличивает максимальный запас здоровья на 100
-            Увеличивает сопротивление урону на 15%
+            Увеличивает сопротивление урону на 10%
             Увеличивает регенерацию здоровья на 5
             Даёт невосприимчивость к отбрасыванию, нескольким дебаффам, «{$BuffName.Shimmer}» и урону от падения
             Враги чаще выбирают вас в качестве цели
@@ -3087,7 +3082,7 @@ Items: {
             Ваши атаки [i:FargowiltasSouls/NymphsPerfume] создают сердца, [i:FargowiltasSouls/WretchedPouch] выпускают щупальца теневого пламени и [i:FargowiltasSouls/DarkenedHeart] создают маленьких пожирателей
             Ваши атаки [i:FargowiltasSouls/CelestialRune] стреляют дополнительными атаками и накладывают множество дебаффов режима Вечность
             Призывает [i:FargowiltasSouls/NecromanticBrew] руки Скелетрона, [i:FargowiltasSouls/GuttedHeart] проныр, [i:FargowiltasSouls/ConcentratedRainbowMatter] радужного слизня, [i:FargowiltasSouls/GroundStick] два дружелюбных зонда
-            Призывает [i:FargowiltasSouls/SkullCharm] глазное яблоко, [i:FargowiltasSouls/SaucerControlConsole] маленькую марсианскую тарелку, [i:FargowiltasSouls/MagicalBulb] растение, [i:FargowiltasSouls/CelestialRune] культиста и [i:FargowiltasSouls/GalacticGlobe] истинные Глаза Ктулху
+            Призывает [i:FargowiltasSouls/SkullCharm] глазное яблоко, [i:FargowiltasSouls/SaucerControlConsole] маленькую марсианскую тарелку, [i:FargowiltasSouls/MagicalBulb] растение и [i:FargowiltasSouls/GalacticGlobe] истинные Глаза Ктулху
             [i:FargowiltasSouls/SandsofTime] Используйте для телепортации на вашу последнюю точку смерти
             'Прими в свои объятия мастерство и вечность'
             '''

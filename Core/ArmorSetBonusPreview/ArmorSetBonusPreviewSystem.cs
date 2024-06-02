@@ -183,6 +183,10 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             ArmorSetBonuses[ItemID.CrystalNinjaHelmet] = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.CrystalAssassin");
             ArmorSetBonuses[ItemID.CrimsonHelmet] = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Crimson");
             ArmorSetBonuses[ItemID.JungleHat] = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Jungle");
+            ArmorSetBonuses[ItemID.NebulaHelmet] = $"{Language.GetTextValue("ArmorSetBonus.Nebula")}\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Nebula")}";
+            ArmorSetBonuses[ItemID.PalladiumMask] = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Palladium");
+            ArmorSetBonuses[ItemID.PalladiumHelmet] = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Palladium");
+            ArmorSetBonuses[ItemID.PalladiumHeadgear] = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Palladium");
             ArmorSetBonuses[TranslationHelper.GetItemID("CalamityMod/AstralHelm")] = TranslationHelper.GetTextValue("CalamityMod/AstralHelm", "SetBonus");
             ArmorSetBonuses[TranslationHelper.GetItemID("CalamityMod/BrimflameScowl")] = TranslationHelper.GetTextValue("CalamityMod/BrimflameScowl", "SetBonus", "[Бонус комплекта брони]");
             ArmorSetBonuses[TranslationHelper.GetItemID("CalamityMod/DaedalusHeadMagic")] = TranslationHelper.GetTextValue("CalamityMod/DaedalusHeadMagic", "SetBonus");

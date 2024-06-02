@@ -575,6 +575,7 @@ public class CalamityItems : IItemGender
                 "ChronomancersScythe",
                 "NitroExpressRifle",
                 "ToxicantTwister",
+                "Respiteblock",
             };
             List<int> types = new List<int>();
             
