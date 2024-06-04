@@ -60,5 +60,9 @@ public class TRuConfig : ModConfig
 
     [DefaultValue(true)]
     [ReloadRequired]
+    public bool NoxusBossLocalization;
+
+    [DefaultValue(true)]
+    [ReloadRequired]
     public bool VanillaLocalization;
 }

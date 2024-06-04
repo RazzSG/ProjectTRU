@@ -1,8 +1,9 @@
 displayName = Project tRU
 author = tRU Team
-version = 3.1.1.51
+version = 3.1.1.52
 hideCode = true
 hideResources = true
 translationMod = true
-weakReferences = CalamityMod, Fargowiltas, FargowiltasSouls, InfernumMode, ThoriumMod, Wikithis, SubworldLibrary
+weakReferences = CalamityMod, Fargowiltas, FargowiltasSouls, InfernumMode, ThoriumMod, Wikithis, SubworldLibrary, NoxusBoss
+sortAfter = NoxusBossRu
 homepage = https://discord.gg/zxMHFFpqCX

@@ -39,6 +39,7 @@ public class LoadTranslationsPatch : OnPatcher
 		    {"Mods.FargowiltasSouls", TRuConfig.Instance.FargowiltasSoulsLocalization},
 		    {"Mods.InfernumMode", TRuConfig.Instance.InfernumModeLocalization},
 		    {"Mods.ThoriumMod", TRuConfig.Instance.ThoriumModLocalization},
+		    {"Mods.NoxusBoss", TRuConfig.Instance.NoxusBossLocalization},
 	    };
 
 	    if (file == null)

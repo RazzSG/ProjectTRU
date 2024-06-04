@@ -17,6 +17,9 @@
     <Reference Include="InfernumMode">
       <HintPath>..\ModAssemblies\InfernumMode_v2.0.1.dll</HintPath>
     </Reference>
+    <Reference Include="NoxusBoss">
+      <HintPath>..\ModAssemblies\NoxusBoss_v1.1.25.dll</HintPath>
+    </Reference>
     <Reference Include="StarsAbove">
       <HintPath>..\ModAssemblies\StarsAbove_v2.0.8.2.dll</HintPath>
     </Reference>

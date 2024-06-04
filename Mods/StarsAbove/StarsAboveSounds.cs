@@ -4,7 +4,7 @@
 //
 // public class StarsAboveSounds
 // {
-// 	public static SoundStyle AS1 = new($"{nameof(CalamityRuTranslate)}/Assets/Sounds/StarsAbove/Asphodene/AS1");
+//     public static SoundStyle AS1 = new($"{nameof(CalamityRuTranslate)}/Assets/Sounds/StarsAbove/Asphodene/AS1");
 //     public static SoundStyle AS2 = new($"{nameof(CalamityRuTranslate)}/Assets/Sounds/StarsAbove/Asphodene/AS2");
 //     public static SoundStyle AS3 = new($"{nameof(CalamityRuTranslate)}/Assets/Sounds/StarsAbove/Asphodene/AS3");
 //     public static SoundStyle AS4 = new($"{nameof(CalamityRuTranslate)}/Assets/Sounds/StarsAbove/Asphodene/AS4");
@@ -42,11 +42,5 @@
 //     public static SoundStyle ER17 = new($"{nameof(CalamityRuTranslate)}/Assets/Sounds/StarsAbove/Eridani/ER17");
 //     public static SoundStyle ER18 = new($"{nameof(CalamityRuTranslate)}/Assets/Sounds/StarsAbove/Eridani/ER18");
 //     public static SoundStyle ERJoke = new($"{nameof(CalamityRuTranslate)}/Assets/Sounds/StarsAbove/Eridani/ERJoke");
-//     public static SoundStyle StarfarerBoss_Intro = new($"{nameof(CalamityRuTranslate)}/Assets/Sounds/StarsAbove/VoiceLines/BossLines/StarfarerIntro")
-//     {
-// 	    Variants = new[]
-// 	    {
-// 		    1,2
-// 	    }
-//     };
+//     public static SoundStyle StarfarerBoss_Intro = new($"{nameof(CalamityRuTranslate)}/Assets/Sounds/StarsAbove/VoiceLines/BossLines/StarfarerIntro", 2);
 // }

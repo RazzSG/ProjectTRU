@@ -1,5 +1,6 @@
 ﻿using CalamityRuTranslate.Common.Utilities;
 using Microsoft.Xna.Framework;
+using Terraria;
 using Terraria.GameContent.UI.Chat;
 using Terraria.ModLoader;
 
@@ -39,6 +40,32 @@ public class AddNewMessagePatch : ILoadable
             text = text.Replace("to", "на");
         }
 
+        // StarsAbove
+        // if (text.Contains("was obliterated!"))
+        //     text = text.Replace("was obliterated!", "стирается с лица земли!");
+        // if (text == $"{Main.LocalPlayer.name}'s body was broken, along with their limits.")
+        //     text = $"Тело {Main.LocalPlayer.name} было сломлено, а вместе с ним и его милиты.";
+        // if (text.Contains("died beyond their world."))
+        //     text = text.Replace("died beyond their world.", "умирает за пределами своего мира.");
+        // if (text.Contains("was lost in space."))
+        //     text = text.Replace("was lost in space.", "теряется в космосе.");
+        // if (text.Contains("drifted away from their home planet."))
+        //     text = text.Replace("drifted away from their home planet.", "удаляется от своей родной планеты.");
+        // if (text.Contains("was brought to kneel beyond their world."))
+        //     text = text.Replace("was brought to kneel beyond their world.", "вынужденно преклоняется за пределами своего мира.");
+        // if (text.Contains("died within another realm."))
+        //     text = text.Replace("died within another realm.", "умирает в другом мире.");
+        // if (text.Contains("crumbled under the weight of Living Dead."))
+        //     text = text.Replace("crumbled under the weight of Living Dead.", "");
+        // if (text.Contains("burnt to a crisp by continuing to move during Pyretic."))
+        //     text = text.Replace("burnt to a crisp by continuing to move during Pyretic.", "сжигается дотла, продолжая двигаться во время горячки.");
+        // if (text.Contains("froze to death by staying still during Deep Freeze"))
+        //     text = text.Replace("froze to death by staying still during Deep Freeze", "");
+        // if (text.Contains("died beyond their world."))
+        //     text = text.Replace("died beyond their world.", "");
+        // if (text.Contains("couldn't handle the vacuum of space."))
+        //     text = text.Replace("couldn't handle the vacuum of space.", "не выдерживает вакуума космоса.");
+        
         text = text switch
         {
             // StarsAbove

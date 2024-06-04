@@ -71,6 +71,11 @@ Configs: {
             Tooltip: Выключает перевод Thorium Mod.
         }
         
+        NoxusBossLocalization: {
+            Label: Calamity: Wrath of the Gods
+            Tooltip: Выключает перевод Calamity: Wrath of the Gods.
+        }
+        
         VanillaLocalization: {
             Label: Vanilla
             Tooltip: Выключает новый ванильный перевод.

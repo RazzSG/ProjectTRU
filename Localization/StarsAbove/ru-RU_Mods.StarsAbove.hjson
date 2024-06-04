@@ -5578,7 +5578,7 @@
 #    HopesConfluence: Hope's Confluence
 #    EphemeralEdge: Ephemeral Edge
 #    AbsoluteSummoning: Absolute Summoning
-#    PassageOfArms: Passage of Arms
+#    PassageOfArms: Испытание силой
 #    Ascendance: Вознесение
 #    AbsoluteZero: Absolute Zero
 #    RadiantReprobation: Radiant Reprobation
@@ -5955,25 +5955,26 @@
 #        DisplayName: Эгида наследия надежды
 #        Tooltip:
 #            '''
-#            Один из легендарных нарядов из былых легенд
+#            Один из легендарных нарядов из былых эпох
 #            Экипирование на Астру даёт следующие эффекты:
-#            [c/FFCA5A:Shining Journey]
-#            Attacking and taking damage will grant stacks of [c/FFCA5A:Hope's Brilliance] (Max 100 stacks)
-#            Every 10 stacks of [c/FFCA5A:Hope's Brilliance] increases Stellar Nova damage by 2%
-#            Striking a foe with the Stellar Nova will consume all stacks of [c/FFCA5A:Hope's Brilliance]
-#            [c/87E3DE:Passage of Arms]
-#            Enemies are more likely to target you
-#            Taking damage grants Ironskin, Regeneration, and Endurance for 8 seconds
-#            Additionally, gain the buff Nascent Aria for 3 seconds, increasing defense by 20 and boosting health regeneration
-#            [c/F94135:Proof of a Hero]
-#            Attacks will deal 40% less damage to foes not targetting you
-#            [c/8BB9F8:The Echo of Hope]
-#            Tier 3 Stellar Array Abilities gain bonus effects
-#            Beyond Infinity: All weapons below Cyan tier are treated as if they were one rarity lower when calculating damage bonus
-#            Key of Chronology: Cleanse Potion Sickness and gain Heartreach for 30 seconds upon activation
-#            Between the Boundary: Gain 40 defense during Flow, and lose 20 defense during Ebb
-#            Unbridled Radiance: Stellar Nova Energy can not drop below 10
-#            'Stand tall- my friend / May all of the dark deep inside you / Find Light again'
+#            [c/FFCA5A:Сияющее путешествие]
+#            Нанесение и получение урона накапливают стаки [c/FFCA5A:Искр надежды] (максимум 100 стаков)
+#            Каждые 10 стаков [c/FFCA5A:Искр надежды] увеличивают урон Астроновы на 2%
+#            Удары по врагу Астроновой расходует все стаки [c/FFCA5A:Искр надежды]
+#            [c/87E3DE:Испытание силой]
+#            Враги чаще выбирают вас в качестве цели
+#            При получении урона даёт баффы «{$BuffName.Ironskin}», «{$BuffName.Regeneration}» и «{$BuffName.Endurance}» на 8 секунд
+#            Кроме того, даёт бафф «{$Buffs.NascentAria.DisplayName}» на 3 секунды, который увеличивает защиту на 20 и ускоряет регенерацию здоровья
+#            [c/F94135:Доказательство героя]
+#            Атаки наносят на 40% меньше урона врагам, которые не выбрали вас целью
+#            Кроме того, атаки наносят на 70% меньше урона во время действия кадров неуязвимости
+#            [c/8BB9F8:Эхо надежды]
+#            Способности Звёздного ряда 3 ранга получают бонусные эффекты
+#            Бесконечность не предел: Всё оружие ниже бирюзового уровня редкости считается на один уровень ниже при расчёте бонуса к урону
+#            Ключ хронологии: Снимает дебафф «{$BuffName.PotionSickness}» и даёт «{$BuffName.Heartreach}» на 30 секунд после активации
+#            Меж двух огней: Увеличивает защиту на 40 во время прилива и снижает защиту на 20 во время отлива
+#            Неукротимое сияние: Энергия Астроновы не может опуститься ниже 10
+#            'Встань, мой друг / И пусть вся тьма внутри тебя / Вновь Свет найдёт'
 #            '''
 #    }
 #
@@ -5981,10 +5982,10 @@
 #        DisplayName: Генезис небесной принцессы
 #        Tooltip:
 #            '''
-#            Один из легендарных нарядов из былых легенд
+#            Один из легендарных нарядов из былых эпох
 #            Экипирование на Астру даёт следующие эффекты:
 #            [c/FF30AD:Космическое начало]
-#            Астронова привязана к Эдин Квазарнез
+#            Астронова связана с Эдин Квазарнез
 #            Атакуя врагов во время Форсажа Астарты вызывает повторную атаку, наносящую 1/3 от первоначального урона
 #            [c/30D6FF:Истоки галактического духа]
 #            Убийство врагов обновляет время действия Форсажа Астарты
@@ -6001,7 +6002,7 @@
 #        DisplayName: Наряд волшебного путешественника
 #        Tooltip:
 #            '''
-#            Один из легендарных нарядов из былых легенд
+#            Один из легендарных нарядов из былых эпох
 #            Экипирование на Астру даёт следующие эффекты:
 #            [c/E69DE9:Обещанная звезда]
 #            Даёт 1 едиинцу энергии Астроновы за убийство врагов
@@ -6010,9 +6011,9 @@
 #            Даёт дополнительный пункт энергии Астроновы
 #            [c/A185AD:Мимолётные воспоминания]
 #            При получении урона накладывает дебафф «{$Buffs.Vulnerable.DisplayName}» на 4 секунды, снижая защиту вдвое
-#            [c/A176F1:Долгожданный Рай]
-#            После победы над боссом даёт бафф [c/E1A8F3:{$Buffs.LucentBliss.DisplayName}] на 2 минуты
-#            [c/E1A8F3:{$Buffs.LucentBliss.DisplayName}] значительно увеличивает максимальный показателей удачи и даёт 200% базовой удачи
+#            [c/A176F1:Долгожданный рай]
+#            После победы над боссом даёт бафф [c/E1A8F3:Сияющее блаженство] на 2 минуты
+#            [c/E1A8F3:Сияющее блаженство] значительно увеличивает максимальный показателей удачи и даёт 200% базовой удачи
 #            'Идеально подходит для приключений в стране грёз'
 #            '''
 #    }
@@ -6021,7 +6022,7 @@
 #        DisplayName: Знакомый наряд
 #        Tooltip:
 #            '''
-#            Один из легендарных нарядов из былых легенд
+#            Один из легендарных нарядов из былых эпох
 #            Экипирование на Астру даёт следующие эффекты:
 #            [c/C0C0C0:Без эффектов]
 #            Предмет украшения
@@ -6032,7 +6033,7 @@
 #        DisplayName: Неизменная звёздная повседневность
 #        Tooltip:
 #            '''
-#            Один из легендарных нарядов из былых легенд
+#            Один из легендарных нарядов из былых эпох
 #            Экипирование на Астру даёт следующие эффекты:
 #            [c/C0C0C0:Без эффектов]
 #            Предмет украшения
@@ -6116,7 +6117,7 @@
 #            Третий удар совершается один раз, но наносит на 20% больше урона и даёт стак [c/FFC84A:Силового удара]
 #            [c/FFC84A:Силовой удар] увеличивает урон на 5% и защиту на 5 за каждый стак (до 5)
 #            При максимальном количестве стаков [c/FFC84A:Силового удара] нажмите <right>, чтобы использовать все стаки и войти в состояние [c/FF3E00:Кипящей крови] на 15 секунд
-#            Во время [c/FF3E00:Кипящей крови] увеличивает урон на 30% и защиту на 30, но регенерация здоровья отключается, а здоровье будет медленно убывать (не опустится ниже 1)
+#            Во время [c/FF3E00:Кипящей крови] увеличивает урон на 30% и защиту на 30, но регенерация здоровья отключается, а здоровье будет медленно убывать (не опуститься ниже 1)
 #            Кроме того, увеличивает скорость атаки в зависимости от потерянного здоровья, а ваши атаки будут усилены взрывными последовательными ударами
 #            Нажмите <right> во время [c/FF3E00:Кипящей крови], чтобы активировать [c/DC0000:Кипящий взрыв], завершающий [c/FF3E00:Кипящую кровь]
 #            [c/DC0000:Кипящий взрыв] наносит урон в огромной области вокруг вас в зависимости от потерянного здоровья и 1/4 урона, нанесённого во время [c/FF3E00:Кипящей крови]
@@ -7597,7 +7598,7 @@
 #            Нажмите <right>, удерживая клавиши направления, чтобы сыграть [c/72D16A:Охотничьи мелодии] (перезарядка 20 секунд, сокращается при атаках этим оружием)
 #            [c/72D16A:Охотничьи мелодии] дают уникальные баффы вам и ближайшим союзникам на 20 секунд в зависимости от нажатого направления
 #            Вверх: [c/49C0F0:Мелодия стойкости] даёт 12 защиты и невосприимчивость к отбрасыванию
-#            Вниз: [c/F04949:Мелодия живучести] увеличивает урон на 6%
+#            Вниз: [c/F04949:Мелодия испытания] увеличивает урон на 6%
 #            Влево: [c/49F059:Мелодия живучести] увеличивает скорость передвижения на 15% и восстанавливает 40 единиц здоровья при активации
 #            Вправо: [c/AC49F0:Мелодия мастерства] увеличивает шанс критического удара на 12%
 #            После 3 [c/72D16A:Охотничьих мелодий] нажмите <right>, чтобы сыграть [c/941818:Инфернальную мелодию]
@@ -10103,7 +10104,7 @@
 #            [c/F7D76A:Удерживайте <left>, чтобы зарядить оружие; если оружие полностью заряжено, тип атаки изменится]
 #            Держа это оружие в руках, зачаровывает курсор, подвергая ближайших врагов дебаффу «{$BuffName.ShadowFlame}» на полсекунды
 #            Атаки этим оружием совершаются коллосальными круговыми взмахами
-#            Нажмите <right>, чтобы выпустить дальнобойный рассекающий снаряд, который пронзает врагов и игнорирует блоки, но наносит половину базового урона.
+#            Нажмите <right>, чтобы выпустить дальнобойный рассекающий снаряд, который пронзает врагов и игнорирует блоки, но наносит половину базового урона
 #            Заряженные атаки этим оружием выполняют [c/8361FF:Жатву душ], телепортируя вас к курсору (в пределах досягаемости) и нанося значительный урон врагам вокруг
 #            [c/8361FF:Жатва душ] наносит на 50% больше урона врагам, на которых наложен дебафф «{$BuffName.ShadowFlame}»
 #            Использование [c/8361FF:Жатвы душ] даёт кратковременную неуязвимость, но накладывает на вас дебафф «{$Buffs.Vulnerable.DisplayName}» на 3 секунды, снижая защиту вдвое
@@ -10438,7 +10439,7 @@
 #        DisplayName: Облачение зимнего дождя
 #        Tooltip:
 #            '''
-#            Один из легендарных нарядов из былых легенд
+#            Один из легендарных нарядов из былых эпох
 #            Экипирование на Астру даёт следующие эффекты:
 #            [c/C0C0C0:Без эффектов]
 #            Предмет украшения
@@ -10449,7 +10450,7 @@
 #        DisplayName: Осень седьмой печати
 #        Tooltip:
 #            '''
-#            Один из легендарных нарядов из былых легенд
+#            Один из легендарных нарядов из былых эпох
 #            Экипирование на Астру даёт следующие эффекты:
 #            [c/C0C0C0:Без эффектов]
 #            Предмет украшения
@@ -10742,10 +10743,10 @@
 #            '''
 #            [c/D294FF:Воспоминание оружия]
 #            Инкрустация в оружие даёт следующие эффекты:
-#            Если у вас занят ровно один слот призываемых миньонов, то увеличивает урон на 7% за каждый неиспользуемый слот призываемых миньонов
+#            Если у вас занят ровно один слот призываемых миньонов, то увеличивает урон на 7% за каждый неиспользованный слот призываемых миньонов
 #            'Шах и мат'
 #            '''
-#        TooltipAttached: Если у вас занят ровно один слот призываемых миньонов, то увеличивает урон на 7% за каждый неиспользуемый слот призываемых миньонов
+#        TooltipAttached: Если у вас занят ровно один слот призываемых миньонов, то увеличивает урон на 7% за каждый неиспользованный слот призываемых миньонов
 #    }
 #
 #    PrimeCut: {
@@ -11668,33 +11669,106 @@
 #    }
 #
 #    DreadmotherDarkIdol: {
-#        DisplayName: Dreadmother's Dark Idol
+#        DisplayName: Тёмный идол матроны ужаса
 #        Tooltip:
 #            '''
-#            WORK IN PROGRESS!
 #            [c/F592BF:Это оружие не подвержено к штрафу Аспектного типа урона]
 #            Текущий [c/F592BF:Аспектный тип урона] влияет на атаки оружия (Оружие нельзя использовать без [c/F592BF:Аспектного типа урона])
-#            This weapon deals 20% more damage to foes afflicted by Shadowflame
-#            [c/FFAB4D:Melee]: The weapon transforms into a clawed gauntlet, allowing for a close-ranged combo
-#            Attacks will charge [Dread]; at max [Dread], the next combo finisher will cause a shockwave to detonate, striking nearby foes
-#            Gain brief Invincibility and restore 2% Max HP when defeating foes
-#            [c/EF4DFF:Magic]: The weapon transforms into a staff, and can now be [Charged]
-#            Uncharged attacks quickly fires a formation of rapid piercing energy
-#            Charged attacks conjure two orbiting bolts for 6 seconds that inflict Shadowflame for 12 seconds on hit
-#            Orbiting bolts additionally gain 100% armor penetration
-#            [c/4DFF5B:Ranged]: The weapon transforms into a gun, firing mid-ranged energy blasts
-#            Attacks rapidly arc lightning to nearby foes (Lightning arcs have 20% armor penetration)
-#            Gain [Alacrity] for 8 seconds when defeating foes, increasing attack and movement speed
-#            [c/00CDFF:Summon]: Summons [Dark Dread] and [Flying Dread], consuming 1 minion slot (Only one group of summons can be active at a time)
-#            Damage scales with unused minion slots; additionally, gain defense based on unused minion slots
-#            [Dark Dread] shadowsteps to foes and claws them with rapid strikes; [Flying Dread] fires exploding projectiles, inflicting Shadowflame for 4 seconds
-#            After either minion strikes foes 20 times, gain [Shadow Wall] for 20 seconds, negating the next instance of damage
-#            'It will agree with you'
+#            Это оружие наносит на 20% больше урона врагам, на которых наложен дебафф «{$BuffName.ShadowFlame}»
+#            [c/FFAB4D:Ближний бой]: Оружие превращается в когтистую перчатку, позволяющую проводить комбо-удары на ближней дистанции
+#            Атаки накапливают [c/D1AADF:Ужас]; при максимальном заряде [c/D1AADF:Ужаса] завершающая атака комбо-удара создаёт ударную волну, поражающую ближайших врагов
+#            При убийстве врагов даёт кратковременную неуязвимость и восстанавливает 2% максимального запаса здоровья
+#            [c/EF4DFF:Магический]: Оружие превращается в посох, который можно [c/F7D76A:Зарядить]
+#            Незаряженные атаки быстро выпускают залп пронзающей энергии
+#            Заряженные атаки призывают два вращающихся снаряда на 6 секунд, которые при попадании накладывают «{$BuffName.ShadowFlame}» на 12 секунд
+#            Вращающиеся снаряды дополнительно получают 100% пробивание брони
+#            [c/4DFF5B:Стрелковый]: Оружие превращается в пушку, стреляющую энергетическими зарядами на среднее расстояние
+#            Атакует быстрой дуговой молнией ближайших врагов (дуговая молния обладает 20% пробиванием брони)
+#            При убийстве врагов даёт бафф «{$Buffs.Alacrity.DisplayName}» на 8 секунд, который увеличивает скорость атаки и передвижения
+#            [c/00CDFF:Призыватель]: Призывает [c/B66FD0:Тёмный ужас] и [c/B040D9:Летающий ужас], занимая 1 слот призываемых миньонов (одновременно может быть активна лишь одна группа)
+#            Урон масштабируется с неиспользованными слотами призываемых миньонов; дополнительно, увеличивает защиту в зависимости от неиспользованных слотов призываемых миньонов
+#            [c/B66FD0:Тёмный ужас] телепортируется к врагам и наносит им быстрые удары когтями; [c/B040D9:Летающий ужас] стреляет взрывными снарядами, которые накладывают дебафф «{$BuffName.ShadowFlame}» на 4 секунды
+#            После того как любой миньон ударит врагов 20 раз, вы получаете [c/F2CDFF:Теневую стену] на 20 секунд, которая предотвращает следующий получаемый урон
+#            'Оно будет соответствовать вашим ожиданиям'
 #            '''
 #    }
 #
 #    DreadmotherClaw: {
-#        DisplayName: Dreadmother Claw
+#        DisplayName: Когти матроны ужаса
+#        Tooltip: ""
+#    }
+#    
+#    LunaYSol: {
+#        DisplayName: Luna y Sol
+#        Tooltip:
+#            '''
+#            Placeholder text
+#            'Placeholder'
+#            '''
+#    }
+#
+#    Wolvesbane: {
+#        DisplayName: Wolvesbane
+#        Tooltip:
+#            '''
+#            Attacks with this weapon fire quick blasts (Critical strike damage is increased by 20% for 3 seconds after a critical strike)
+#            Attacks charge [Wolf Pulse] when striking foes
+#            After 3 shots, the next shot is empowered and deals damage in a small blast
+#            Once [Wolf Pulse] is at maximum, right click to unsheathe the [Wolvesbane]
+#            The [Wolvesbane] will strike at nearby foes and unleash a powerful shockwave
+#            Additionally, gain Wrath until combat ends after [Wolvesbane] is unleashed
+#            '''
+#    }
+#    WolvesbaneRearmed: {
+#        DisplayName: Wolvesbane Rearmed
+#        Tooltip:
+#            '''
+#            Attacks with this weapon fire quick blasts (Critical strike damage is increased by 50% for 6 seconds after a critical strike)
+#            Attacks charge [Wolf Pulse] when striking foes
+#            After 3 shots, the next shot is empowered and deals damage in a small blast
+#            Once [Wolf Pulse] is at maximum, right click to unsheathe the [Wolvesbane], gaining Invincibility for 4 seconds
+#            The [Wolvesbane] will strike at nearby foes and unleash a powerful shockwave
+#            Gain Wrath while this weapon is held
+#            '''
+#    }
+#    WolvesbaneAwakened: {
+#        DisplayName: Wolvesbane Awakened
+#        Tooltip:
+#            '''
+#            Attacks with this weapon swing in a wide arc (Critical strike damage is increased by 50% for 6 seconds after a critical strike)
+#            Attacks charge [Wolf Pulse] when striking foes
+#            After 3 swings, the next attack is guaranteed to be a critical strike and explodes in a small blast
+#            Once [Wolf Pulse] is at maximum, press the Weapon Action Key to dash forward, activating [Wolvesbane's Legacy] and gaining Invincibility for 4 seconds
+#            [Wolvesbane's Legacy] unleashes powerful slashes and finishes with an explosive projectile that is a guaranteed critical strike
+#            Gain Wrath while this weapon is held 
+#            '''
+#    }
+#
+#    Phasmasaber: {
+#        DisplayName: Phasmasaber
+#        Tooltip:
+#            '''
+#            Placeholder text
+#            'Placeholder'
+#            '''
+#    }
+#
+#    QuisUtDeus: {
+#        DisplayName: Quis Ut Deus
+#        Tooltip:
+#            '''
+#            Attacks with this weapon fire rapid spatial bullets, dealing bonus damage based on target Max HP (Max 300% base damage)
+#            After every 5 hits, the next attack summons a falling star to strike the foe, dealing bonus damage
+#            When in combat, gain [Benedictio] (Buff is lost for 10 seconds upon taking damage)
+#            While under the effect of [Benedictio], all attacks become guaranteed critical strikes
+#            Right click to activate [Call of the Stars] for 8 seconds (2 minute cooldown)
+#            During this time, critical strikes deal 120% bonus damage to foes above 50% HP
+#            Critical strikes reduce the cooldown of [Call of the Stars] by 1 second on hit
+#            '''
+#    }
+#
+#    HologramPlinthBigTree: {
+#        DisplayName: Hologram Plinth Big Tree
 #        Tooltip: ""
 #    }
 #}
@@ -11894,7 +11968,7 @@
 #        DisplayName: Кипящая кровь
 #        Description:
 #            '''
-#            Пылающая сила усиливает вас, увеличивая урон на 30%, защиту на 30 и скорость атаки пропорционально потерянному здоровью, а также позволяет проводить дополнительные атаки.
+#            Пылающая сила усиливает вас, увеличивая урон на 30%, защиту на 30 и скорость атаки пропорционально потерянному здоровью, а также позволяет проводить дополнительные атаки
 #            Однако, регенерация здоровья отключена, и вы медленно теряете здоровье
 #            'Здесь недостаточно жарко!'
 #            '''
@@ -11918,7 +11992,7 @@
 #
 #    BloodOfTheDragon: {
 #        DisplayName: Кровь дракона
-#        Description: Взгляд первого выводка дарует господство над небесами, увеличивая урон и скорость передвижения
+#        Description: Взор первого выводка дарует господство над небесами, увеличивая урон и скорость передвижения
 #    }
 #
 #    BloopPetBuff: {
@@ -12246,8 +12320,8 @@
 #    }
 #
 #    GenocideBuff: {
-#        DisplayName: Bloodfest
-#        Description: Speed and crit rate is increased
+#        DisplayName: Кровавое пиршество
+#        Description: Скорость и шанс критического удара увеличены
 #    }
 #
 #    GenocideReloadBuff: {
@@ -12256,8 +12330,8 @@
 #    }
 #
 #    GhostPet: {
-#        DisplayName: Futuristic Spectre
-#        Description: It refers to you as 'Guardian'
+#        DisplayName: Футуристичный призрак
+#        Description: Он обращается к вам как к 'Стражу'
 #    }
 #
 #    Glitterglued: {
@@ -12266,8 +12340,8 @@
 #    }
 #
 #    GoingSupercriticalCooldown: {
-#        DisplayName: Going Supercritical Cooldown
-#        Description: Going Supercritical не сработает, пока активен этот дебафф
+#        DisplayName: Перезарядка сверхкритической жизни
+#        Description: Сверхкритическая жизнь не сработает, пока активен этот дебафф
 #    }
 #
 #    GreenPaint: {
@@ -12276,13 +12350,13 @@
 #    }
 #
 #    GuilmonPetBuff: {
-#        DisplayName: Digital Monster
-#        Description: A digital monster is following you
+#        DisplayName: Цифровой монстр
+#        Description: За вами следует цифровой монстр
 #    }
 #
 #    HanakoPetBuff: {
-#        DisplayName: Mysterious Ghost
-#        Description: A mysterious ghost follows you
+#        DisplayName: Таинственный призрак
+#        Description: За вами следует таинственный призрак
 #    }
 #
 #    HonedEdge: {
@@ -12296,23 +12370,23 @@
 #    }
 #
 #    HopesBrillianceBuff: {
-#        DisplayName: Hope's Brilliance
+#        DisplayName: Искра надежды
 #        Description: ""
 #    }
 #
 #    BracingSong: {
-#        DisplayName: Bracing Song
-#        Description: Powerful melodies grant 12 Defense and Knockback Resistance
+#        DisplayName: Мелодия стойкости
+#        Description: Могущественные мелодии увеличили защиту на 12 и дали сопротивление к отбрасыванию
 #    }
 #
 #    ChallengerSong: {
-#        DisplayName: Challenger Song
-#        Description: Powerful melodies grant 14% increased damage
+#        DisplayName: Мелодия испытания
+#        Description: Могущественные мелодии увеличили урон на 14%
 #    }
 #
 #    ExpertiseSong: {
-#        DisplayName: Expertise Song
-#        Description: Powerful melodies grant 8% increased critical strike chance
+#        DisplayName: Мелодия мастерства
+#        Description: Могущественные мелодии увеличили шанс критического удара на 8%
 #    }
 #
 #    HunterSymphonyCooldown: {
@@ -12341,18 +12415,18 @@
 #    }
 #
 #    VitalitySong: {
-#        DisplayName: Vitality Song
-#        Description: Powerful melodies grant 15% increased movement speed
+#        DisplayName: Мелодия живучести
+#        Description: Могущественные мелодии увеличили скорость передвижения на 15%
 #    }
 #
 #    HuTaoPetBuff: {
-#        DisplayName: Funeral Director
-#        Description: A miniature funeral director is following you
+#        DisplayName: Похоронный директор
+#        Description: За вами следует миниатюрный похоронный директор
 #    }
 #
 #    Ignited: {
-#        DisplayName: Ignited
-#        Description: Shadowless Cerulean surges forth
+#        DisplayName: Разгорающееся пламя
+#        Description: Бестеневая лазурь устремляется вперёд
 #    }
 #
 #    InfernalBleed: {
@@ -12361,8 +12435,8 @@
 #    }
 #
 #    InfernalEnd: {
-#        DisplayName: Infernal End
-#        Description: Anger after taking damage has temporarily granted 50% increased damage
+#        DisplayName: Адский финал
+#        Description: Гнев после получения урона временно увеличил урон на 50%
 #    }
 #
 #    InkCooldown: {
@@ -12396,8 +12470,8 @@
 #    }
 #
 #    JumpCooldown: {
-#        DisplayName: Jump Cooldown
-#        Description: When this debuff ends, you will be able to use Jump again
+#        DisplayName: Перезарядка прыжка
+#        Description: Прыжок не сработает, пока активен этот дебафф
 #    }
 #
 #    KasumiPetBuff: {
@@ -12411,8 +12485,8 @@
 #    }
 #
 #    AmaterasuGrace: {
-#        DisplayName: Amaterasu's Grace
-#        Description: Mystic energy grants effective damage against foes inflicted with frostburn
+#        DisplayName: Благодать Аматэрасу
+#        Description: Мистические энергии увеличили урон против врагов, на которых наложен дебафф «{$BuffName.Frostburn}»
 #    }
 #
 #    AmaterasuWinter: {
@@ -12477,7 +12551,7 @@
 #
 #    KiwamiRyuken: {
 #        DisplayName: Кивами Рюкен
-#        Description: Вы готовите смертельный контрудар.
+#        Description: Вы готовите смертельный контрудар
 #    }
 #
 #    KiwamiRyukenConfirm: {
@@ -12496,23 +12570,23 @@
 #    }
 #
 #    LatchedOn: {
-#        DisplayName: Latched On
-#        Description: Spider is on you
+#        DisplayName: Цепкий
+#        Description: На вас паук
 #    }
 #
 #    LeftDebuff: {
-#        DisplayName: Leftward Chaos
-#        Description: When this buff expires, you will be flung left
+#        DisplayName: Левосторонний хаос
+#        Description: Когда действие этого баффа закончится, вас отбросит влево
 #    }
 #
 #    LifeOfTheDragon: {
 #        DisplayName: Жизнь дракона
-#        Description: The strengthened gaze of the first brood grants mastery over the skies, resulting in increased damage, critical rate, lifesteal, and movement speed
+#        Description: Усиленный взор первого выводка дарует господство над небесами, увеличивая урон, шанс критического удара, вампиризм и скорость передвижения
 #    }
 #
 #    Lightblessed: {
-#        DisplayName: Lightblessed
-#        Description: The endless light grants you defense
+#        DisplayName: Благословлённый светом
+#        Description: Нескончаемый свет увеличил вашу защиту
 #    }
 #
 #    LightbreakStrike: {
@@ -12541,17 +12615,17 @@
 #    }
 #
 #    MajimaPetBuff: {
-#        DisplayName: Puppy of Shimano
-#        Description: Kiryu-chan!!
+#        DisplayName: Щенок Шимано
+#        Description: Кирью-чан!!
 #    }
 #
 #    MantisCatPetBuff: {
-#        DisplayName: Cat..?
-#        Description: It brought a friend
+#        DisplayName: Кот?..
+#        Description: Он привёл друга
 #    }
 #
 #    MechanicalPrismBuff: {
-#        DisplayName: Mechanical Prism
+#        DisplayName: Механическая призма
 #        Description: ""
 #    }
 #
@@ -12606,8 +12680,8 @@
 #    }
 #
 #    NascentAria: {
-#        DisplayName: Nascent Aria
-#        Description: Inner resolve is increasing defense and Health Regeneration
+#        DisplayName: Зарождающаяся ария
+#        Description: Внутренняя решимость увеличивает защиту и регенерацию здоровья
 #    }
 #
 #    NullRadiance: {
@@ -12621,8 +12695,8 @@
 #    }
 #
 #    OmoriPetBuff: {
-#        DisplayName: Monochrome Plush
-#        Description: It's been here as long as you can remember
+#        DisplayName: Монохромная плюшевая игрушка
+#        Description: Она здесь с тех пор, сколько вы себя помните
 #    }
 #
 #    OrangePaint: {
@@ -12671,8 +12745,8 @@
 #    }
 #
 #    LukaPetBuff: {
-#        DisplayName: Electronic Vocalist
-#        Description: An electronic vocalist is following you
+#        DisplayName: Электронный вокалист
+#        Description: За вами следует электронный вокалист
 #    }
 #
 #    MumeiPetBuff: {
@@ -12681,7 +12755,7 @@
 #    }
 #
 #    NecoArcPetBuff: {
-#        DisplayName: Chaotic Cat-Figure
+#        DisplayName: Хаотичная кошачья сущность
 #        Description: ???
 #    }
 #
@@ -12706,8 +12780,8 @@
 #    }
 #
 #    PortalReady: {
-#        DisplayName: "[c/DE5D5D:Gateway Proximity]"
-#        Description: The Celestial Cartography menu will allow you to explore the cosmos
+#        DisplayName: "[c/DE5D5D:Близость к вратам]"
+#        Description: Меню Стеллария позволит вам исследовать космос
 #    }
 #
 #    PurplePaint: {
@@ -12721,8 +12795,8 @@
 #    }
 #
 #    Pyretic: {
-#        DisplayName: Pyretic
-#        Description: If you are currently moving when this buff expires, you will be lit on fire and take damage
+#        DisplayName: Горячка
+#        Description: Если вы находитесь в движении в момент окончания действия этого баффа, вы загоритесь и получите урон
 #    }
 #
 #    RagingTidesStance: {
@@ -12741,13 +12815,13 @@
 #    }
 #
 #    RedMageCastDelay: {
-#        DisplayName: Cast Delay
+#        DisplayName: Отложенные чары
 #        Description: ""
 #    }
 #
 #    RedMageHeldBuff: {
-#        DisplayName: Duelist's Crimson
-#        Description: Exhibiting proficiency in maiming and mending
+#        DisplayName: Алый дуэлянт
+#        Description: Обладает мастерством в нанесении ран и исцелении
 #    }
 #
 #    RedMageStabbing: {
@@ -12761,7 +12835,7 @@
 #    }
 #
 #    VerstoneCasting: {
-#        DisplayName: Verstone Casting
+#        DisplayName: Применение алой глыбы
 #        Description: ""
 #    }
 #
@@ -12791,8 +12865,8 @@
 #    }
 #
 #    RightDebuff: {
-#        DisplayName: Rightward Chaos
-#        Description: When this buff expires, you will be flung right
+#        DisplayName: Правосторонний хаос
+#        Description: Когда действие этого баффа закончится, вас отбросит вправо
 #    }
 #
 #    Riptide: {
@@ -13717,7 +13791,7 @@
 #
 #    StellaglyphReady: {
 #        DisplayName: "[c/DE5D5D:Близость к Космографу]"
-#        Description: Меню Стеллария позволит вам путешествовать по вселенной
+#        Description: Меню Стеллария позволит вам исследовать космос
 #    }
 #
 #    StellarFocusOverlimit: {
@@ -14491,23 +14565,23 @@
 #    }
 #
 #    FireflyActive: {
-#        DisplayName: Firefly Type-IV
+#        DisplayName: Светлячок тип-IV
 #        Description: Your Starfarer has donned the Crysalid Pyronexus, assisting you in combat
 #    }
 #
 #    DreadmotherOrbitalBuff: {
-#        DisplayName: Dreadmother Orbital Buff
+#        DisplayName: Вращающийся снаряд матроны ужаса
 #        Description: ""
 #    }
 #
 #    DreadmotherMinionBuff: {
-#        DisplayName: Dreadmother Minion Buff
-#        Description: Dreadful monsters are at your side
+#        DisplayName: Миньон матроны ужаса
+#        Description: На вашей стороне ужасающие чудовища
 #    }
 #
 #    ShadowWallBuff: {
-#        DisplayName: Shadow Wall Buff
-#        Description: Negating the next instance of damage
+#        DisplayName: Теневая стена
+#        Description: Предотвращает следующий получаемый урон
 #    }
 #}
 #

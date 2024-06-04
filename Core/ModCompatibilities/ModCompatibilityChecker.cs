@@ -14,6 +14,7 @@ public class ModCompatibilityChecker : ModSystem
         new("FargowiltasSouls", new Version(1, 6, 10, 6), true),
         new("Fargowiltas", new Version(3, 3, 4), true),
         new("ThoriumMod", new Version(1, 7, 1, 6), true),
+        new("NoxusBoss", new Version(1, 1, 25), false),
     };
 
     public override bool IsLoadingEnabled(Mod mod)
@@ -44,6 +45,7 @@ public class ModCompatibilityChecker : ModSystem
             "InfernumMode" => "Calamity Mod Infernum Mode",
             "StarlightRiver" => "Starlight River",
             "StarsAbove" => "The Stars Above",
+            "NoxusBoss" => "Calamity: Wrath of the Gods",
             _ => throw new ArgumentException(internalName)
         };
     }

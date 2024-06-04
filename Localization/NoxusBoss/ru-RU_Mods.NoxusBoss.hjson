@@ -1,0 +1,1143 @@
+Bestiary: {
+    Aelithrysuwl: Несмотря на внешнее сходство с совами-одиночками, эти загадочные существа обладают удивительной общительностью. Они любят петь вместе в кронах деревьев. Блестящие глаза этих существ наводят на мысль о том, что они могут быть разумными.
+    Vivajuyfylae: Каждое из этих загадочных существ представляет собой, по сути, живую звезду. Они бесцельно порхают в завораживающем танце, время от времени образуя созвездия.
+    EntropicGod: Непостижимое существо, которое невозможно описать.
+    NoxusEgg: Аномальное яйцо чистой тьмы. Оно терпеливо ожидает своего часа уже несчётное количество веков.
+    ItemDropConditions.FirstTimeExclusive: Выпадает единожды.
+    NamelessDeityBoss1: Созидание.
+    NamelessDeityBoss2: Сияющий свет.
+    NamelessDeityBoss3: Небесные переплетения.
+    NamelessDeityBoss4: Сила.
+    NamelessDeityBoss5: Бесконечность.
+    NamelessDeityBoss6: Творец.
+    NamelessDeityBoss7: Всеведение.
+    NamelessDeityBoss8: Трансценденция.
+    NamelessDeityBoss9: Вечность.
+    NamelessDeityBoss10: Сверкающие соцветия.
+    NamelessDeityBoss11: Шёпот цветов.
+    NamelessDeityBoss12: Космическая красота.
+}
+
+Biomes: {
+    EternalGardenBiome: {
+        DisplayName: Вечный сад
+        TownNPCDialogueName: Вечный сад
+    }
+}
+
+Buffs: {
+    NoxusFumes: {
+        DisplayName: Испарения Ноксуса
+        Description: Вас окружают космические галлюцинации...
+    }
+
+    BabyNoxusBuff: {
+        DisplayName: Нокус
+        Description: Он теперь малышарик
+    }
+
+    BlackHolePetBuff: {
+        DisplayName: Чёрная дыра
+        Description: Пятистишие благодатное косинус бесконечный сокрыло
+    }
+
+    StarPetBuff: {
+        DisplayName: Звезда
+        Description: Свет будет вашим проводником
+    }
+}
+
+Items: {
+    Cattail: {
+        DisplayName: Рогоз
+        Tooltip: ""
+    }
+
+    CheatPermissionSlip: {
+        DisplayName: Разрешение на использование читов
+        Tooltip:
+            '''
+            Мои поздравления! Теперь можете скачивать мод DragonLens
+            Не переживайте, это не читы. Этот документ даёт вам разрешение
+            Давайте. Скачайте уже
+            Сейчас
+            '''
+    }
+
+    DeificTouch: {
+        DisplayName: Божественное прикосновение
+        Tooltip: Открывает световое измерение за курсором
+    }
+
+    DivineMonolith: {
+        DisplayName: Божественный монолит
+        Tooltip: Можно экипировать в слот для украшений
+    }
+
+    DivineWings: {
+        DisplayName: Божественные крылья
+        Tooltip:
+            '''
+            Горизонтальная скорость: 16.67
+            Множитель ускорения: 3.7
+            Высочайшая вертикальная скорость
+            Время полёта: ∞
+            'Вы прошли испытание'
+            '''
+    }
+
+    BlackHole: {
+        DisplayName: Чёрная дыра
+        Tooltip: "'Буквально просто чёрная дыра'"
+    }
+
+    EntropicDye: {
+        DisplayName: Энтропийный краситель
+        Tooltip: ""
+    }
+
+    EternalGardenMusicBox: {
+        DisplayName: Музыкальная шкатулка (Вечный сад)
+        Tooltip: Проигрывает 'Edenic Whispers' от ENNWAY!
+    }
+
+    FakeTerminus: {
+        DisplayName: Терминус
+        BaseTooltip: Артефакт невероятной древности, запечатанный на дне бездны в целях защиты
+        UnopenedTooltip: Его взор закрыт
+        OpenedTooltip: Его взор открыт. Испытание ждёт.
+        Tooltip:
+            '''
+            Replaced
+            Replaced2
+            '''
+    }
+
+    Genesis: {
+        DisplayName: Начало
+        Tooltip: Призывает Безбожное отродье, Ноксуса
+        AlternateTooltip: Нажмите ЛКМ, чтобы призвать Энтропийного бога, нажмите ПКМ, чтобы призвать Безбожное отродье
+    }
+
+    GoodApple: {
+        DisplayName: Запретный плод
+        Tooltip:
+            '''
+            Запретный плод от запретного дерева недалеко падает!
+            Вы должны пройти испытание
+            '''
+        TooltipPostNamelessDeity:
+            '''
+            Запретный плод от запретного дерева недалеко падает!
+            Увеличивает максимальный запас здоровья на 1
+            Можно использовать бесконечное количество раз
+            '''
+    }
+
+    GoodAppleResetter: {
+        DisplayName: Сбрасыватель запретного плода [ОТЛАДКА]
+        Tooltip: ""
+    }
+
+    LoreNoxus: {
+        DisplayName: История — Ноксус
+        Tooltip:
+            '''
+            [c/E3AF40:До ваших ушей доносится далёкий шёпот...]
+            Удерживайте 'Левый Shift', чтобы прислушаться
+            '''
+        Lore:
+            '''
+            Абсурд
+            Намерения и происхождение этой аномалии окутаны глубочайшей пучиной тайнства, но одно несомненно:
+
+            Не являясь ни богом, ни драконом, оно обладает исключительной, возвышенной силой, присущей одним им
+
+            Какое божественное вмешательство могло привести к столь необычным обстоятельствам, раскрывая вершину его гротескной силы?
+            Рука судьбы, искусно создающая узор бытия? Просто случайность? Или, может быть, это лишь неуправляемое проявление прихоти природы?
+            Боги и драконы... являются ли они высшим проявлением всего сущего? Могут ли в далёких мирах, за пределами Террарии, обитать иные, более могущественные существа?
+            Последние события являются источником множества вопросов, на которые пока нет ответов
+            '''
+    }
+
+    LoreNamelessDeity: {
+        DisplayName: История — Безымянное божество
+        Tooltip:
+            '''
+            [c/E3AF40:До ваших ушей доносится далёкий шёпот...]
+            Удерживайте 'Левый Shift', чтобы прислушаться
+            '''
+        Lore: ""
+        Determiner1: a
+        Determiner2: the
+        Verb1: refracts
+        Verb2: transcends
+        Verb3: divines
+        Verb4: foresees
+        Verb5: walks
+        Verb6: blazes
+        Verb7: fuses
+        Verb8: ascends
+        Verb9: traces
+        Verb10: treads
+        Verb11: glimpses
+        Verb12: succumbs
+        Verb13: discovers
+        Verb14: unlocks
+        Verb15: seeks
+        Verb16: triumphs
+        Verb17: navigates
+        Verb18: weaves
+        Verb19: resonates
+        Verb20: experiences
+        Verb21: times
+        Verb22: expands
+        Verb23: enlightens
+        Verb24: unveils
+        Verb25: births
+        Verb26: unifies
+        Verb27: embarks
+        Verb28: finds
+        Verb29: distills
+        Verb30: tests
+        Verb31: unfolds
+        Verb32: flutters
+        Verb33: graces
+        Verb34: wishes
+        Verb35: savors
+        Verb36: evades
+        Verb37: cherishes
+        Verb38: radiates
+        Verb39: perorates
+        Verb40: shines
+        Verb41: burns
+        Verb42: erases
+        Verb43: obliterates
+        Verb44: betrays
+        Verb45: accepts
+        Verb46: excises
+        Verb47: breathes
+        Verb48: projects
+        Verb49: understands
+        Verb50: bathes
+        Verb51: gasps
+        Verb52: eclipses
+        Verb53: illuminates
+        Verb54: beckons
+        Verb55: builds
+        Verb56: creates
+        Verb57: prays
+        Verb58: controls
+        Verb59: grasps
+        Verb60: flies
+        Verb61: melts
+        Verb62: dissolves
+        Verb63: repents
+        Verb64: subjugates
+        Verb65: flows
+        Verb66: decomposes
+        Verb67: energizes
+        Verb68: exempts
+        Verb69: realizes
+        Verb70: dotes
+        Verb71: drifts
+        Verb72: reels
+        Verb73: materializes
+        Verb74: generates
+        Verb75: purifies
+        Verb76: writes
+        Verb77: docks
+        Verb78: declines
+        Verb79: progenates
+        Verb80: remembers
+        Verb81: soars
+        Verb82: faces
+        Verb83: immortalizes
+        Verb84: orbits
+        Verb85: sectarianizes
+        Verb86: coalesces
+        Verb87: heals
+        Verb88: acknowledges
+        Verb89: petrifies
+        Verb90: silences
+        Verb91: freezes
+        Verb92: qualifies
+        Verb93: excels
+        Verb94: contemplates
+        Verb95: cures
+        Verb96: reanimates
+        Verb97: differentiates
+        Verb98: crawls
+        Verb99: devours
+        Verb100: terminates
+        Verb101: dissevers
+        Verb102: elucidates
+        Verb103: states
+        Verb104: mourns
+        Verb105: blossoms
+        Verb106: decays
+        Verb107: accedes
+        Verb108: acquiesces
+        Verb109: sets
+        Verb110: aspires
+        Verb111: haunts
+        Verb112: dwells
+        Verb113: ponders
+        Verb114: rejects
+        Verb115: broods
+        Verb116: collapses
+        Verb117: appears
+        Verb118: weeps
+        Verb119: confesses
+        Verb120: grins
+        Verb121: palpitates
+        Verb122: unforms
+        Verb123: quivers
+        Verb124: kowtows
+        Verb125: flagellates
+        Verb126: grows
+        Verb127: pulses
+        Verb128: deceives
+        Verb129: strikes
+        Verb130: warns
+        Verb131: nods
+        Verb132: ignores
+        Verb133: demeans
+        Verb134: surpasses
+        Verb135: composes
+        Verb136: demolishes
+        Verb137: celebrates
+        Verb138: speaks
+        Verb139: promises
+        Verb140: telegraphs
+        Verb141: performs
+        Verb142: senses
+        Verb143: anticipates
+        Verb144: annuls
+        Verb145: blows
+        Verb146: unfurls
+        Verb147: emerges
+        Verb148: decides
+        Verb149: abolishes
+        Verb150: writhes
+        Adjective1: ineffable
+        Adjective2: effulgent
+        Adjective3: transient
+        Adjective4: wistful
+        Adjective5: blissful
+        Adjective6: eternal
+        Adjective7: twisted
+        Adjective8: omniscient
+        Adjective9: omnipotent
+        Adjective10: benevolent
+        Adjective11: hopeful
+        Adjective12: sublime
+        Adjective13: vigorous
+        Adjective14: demoded
+        Adjective15: dispiteous
+        Adjective16: beautiful
+        Adjective17: gaudy
+        Adjective18: ephemeral
+        Adjective19: refulgent
+        Adjective20: wanton
+        Adjective21: unyielding
+        Adjective22: clandestine
+        Adjective23: wise
+        Adjective24: obdurate
+        Adjective25: insouciant
+        Adjective26: antediluvian
+        Adjective27: sacred
+        Adjective28: labyrinthine
+        Adjective29: enigmatic
+        Adjective30: introspective
+        Adjective31: nimble
+        Adjective32: distilled
+        Adjective33: intoxicating
+        Adjective34: honest
+        Adjective35: happy
+        Adjective36: excellent
+        Adjective37: apotheotic
+        Adjective38: halcyon
+        Adjective39: tranquil
+        Adjective40: peaceful
+        Adjective41: unwieldy
+        Adjective42: murderous
+        Adjective43: whimsical
+        Adjective44: blessed
+        Adjective45: edenic
+        Adjective46: cosmic
+        Adjective47: ancient
+        Adjective48: impressive
+        Adjective49: glorious
+        Adjective50: frigid
+        Adjective51: gilded
+        Adjective52: infallible
+        Adjective53: odd
+        Adjective54: devoted
+        Adjective55: fated
+        Adjective56: unsullied
+        Adjective57: grotesque
+        Adjective58: resplendent
+        Adjective59: infinite
+        Adjective60: stained
+        Adjective61: witty
+        Adjective62: flawed
+        Adjective63: eschatological
+        Adjective64: unholy
+        Adjective65: monosynaptic
+        Adjective66: episodical
+        Adjective67: inalienable
+        Adjective68: penitent
+        Adjective69: flickering
+        Adjective70: rapacious
+        Adjective71: abstract
+        Adjective72: complex
+        Adjective73: mystifying
+        Adjective74: puelline
+        Adjective75: sempiternal
+        Adjective76: zealous
+        Adjective77: ethereal
+        Adjective78: exothermic
+        Adjective79: dazzling
+        Adjective80: Pavlovian
+        Adjective81: enticing
+        Adjective82: resurrected
+        Adjective83: monochromatic
+        Adjective84: sleepy
+        Adjective85: muddled
+        Adjective86: empty
+        Adjective87: faded
+        Adjective88: ecstatic
+        Adjective89: content
+        Adjective90: dreamy
+        Adjective91: poetic
+        Adjective92: knighted
+        Adjective93: defensive
+        Adjective94: worried
+        Adjective95: hallowed
+        Adjective96: cupric
+        Adjective97: supercharged
+        Adjective98: reclusive
+        Adjective99: clever
+        Adjective100: complete
+        Adjective101: elven
+        Adjective102: bucolic
+        Adjective103: aged
+        Adjective104: Xeroc-blessed
+        Adjective105: efficient
+        Adjective106: callous
+        Adjective107: vivid
+        Adjective108: premature
+        Adjective109: brutal
+        Adjective110: intriguing
+        Adjective111: bizarre
+        Adjective112: unforgettable
+        Adjective113: creative
+        Adjective114: foreign
+        Adjective115: beastly
+        Adjective116: treasured
+        Adjective117: lonely
+        Adjective118: unstoppable
+        Adjective119: harmonious
+        Adjective120: hexagonal
+        Adjective121: pre-programmed
+        Adjective122: hijacked
+        Adjective123: opulent
+        Adjective124: technosapient
+        Adjective125: misdirected
+        Adjective126: knowledgeable
+        Adjective127: chivalric
+        Adjective128: eccentric
+        Adjective129: linguistic
+        Adjective130: transcribed
+        Adjective131: inaccurate
+        Adjective132: coterminous
+        Adjective133: farsighted
+        Adjective134: Plutonian
+        Adjective135: violet
+        Adjective136: tinted
+        Adjective137: pagan
+        Adjective138: obscured
+        Adjective139: infamous
+        Adjective140: stalwart
+        Adjective141: remiss
+        Adjective142: bejeweled
+        Adjective143: reverent
+        Adjective144: lurid
+        Adjective145: entombed
+        Adjective146: cloudy
+        Adjective147: Stygian
+        Adjective148: wretched
+        Adjective149: pernicious
+        Adjective150: debonair
+        Adjective151: hunted
+        Adjective152: innocent
+        Adjective153: indignant
+        Adjective154: withered
+        Adjective155: solemn
+        Adjective156: idyllic
+        Adjective157: unexpected
+        Adjective158: slanderous
+        Adjective159: inevitable
+        Adjective160: customary
+        Adjective161: silken
+        Adjective162: blind
+        Adjective163: dismal
+        Adjective164: scintillating
+        Adjective165: apropos
+        Adjective166: unobstructed
+        Adjective167: mirrored
+        Adjective168: willing
+        Adjective169: forceful
+        Adjective170: disturbed
+        Adjective171: symbolic
+        Adjective172: achromatic
+        Adjective173: inspired
+        Adjective174: legendary
+        Adjective175: natural
+        Adjective176: insular
+        Adjective177: impassioned
+        Adjective178: Hellenistic
+        Adjective179: determined
+        Adjective180: visionary
+        Adjective181: unspun
+        Adjective182: elusive
+        Adjective183: dissappointing
+        Adjective184: untested
+        Adjective185: resolute
+        Adjective186: curious
+        Adjective187: eldritch
+        Adjective188: persuasive
+        Adjective189: paralyzing
+        Adjective190: wrathful
+        Adjective191: forsaken
+        Adjective192: betrayed
+        Adjective193: pallid
+        Adjective194: insipid
+        Adjective195: malignant
+        Adjective196: temporary
+        Adjective197: grandiose
+        Adjective198: vilified
+        Adjective199: algebraic
+        Adjective200: eloquent
+        Noun1: cleric
+        Noun2: god
+        Noun3: being
+        Noun4: blade
+        Noun5: trial
+        Noun6: tapestry
+        Noun7: fire
+        Noun8: star
+        Noun9: ion
+        Noun10: painting
+        Noun11: nature
+        Noun12: warrior
+        Noun13: serf
+        Noun14: home
+        Noun15: digit
+        Noun16: logarithm
+        Noun17: season
+        Noun18: apple
+        Noun19: sinner
+        Noun20: word
+        Noun21: thread
+        Noun22: executioner
+        Noun23: blood
+        Noun24: nebula
+        Noun25: light
+        Noun26: cloak
+        Noun27: crown
+        Noun28: antigen
+        Noun29: slime
+        Noun30: agent
+        Noun31: wizard
+        Noun32: castle
+        Noun33: table
+        Noun34: laser
+        Noun35: yttrium
+        Noun36: brimstone
+        Noun37: terrain
+        Noun38: fruit
+        Noun39: mother
+        Noun40: priest
+        Noun41: epiphany
+        Noun42: gate
+        Noun43: interpolant
+        Noun44: wand
+        Noun45: wind
+        Noun46: pond
+        Noun47: hymn
+        Noun48: mist
+        Noun49: fortitude
+        Noun50: glade
+        Noun51: judge
+        Noun52: conquerer
+        Noun53: avarice
+        Noun54: titan
+        Noun55: cinquain
+        Noun56: destiny
+        Noun57: cynosure
+        Noun58: tree
+        Noun59: cell
+        Noun60: entropy
+        Noun61: life
+        Noun62: reaper
+        Noun63: snake
+        Noun64: ark
+        Noun65: covenant
+        Noun66: ankh
+        Noun67: insignia
+        Noun68: bell
+        Noun69: language
+        Noun70: gift
+        Noun71: saffron
+        Noun72: alchemist
+        Noun73: jaunt
+        Noun74: quadrant
+        Noun75: stamen
+        Noun76: iris
+        Noun77: censer
+        Noun78: platinum
+        Noun79: lava
+        Noun80: hand
+        Noun81: corner
+        Noun82: shadow
+        Noun83: calamity
+        Noun84: scrap
+        Noun85: spirit
+        Noun86: scale
+        Noun87: ash
+        Noun88: plasma
+        Noun89: dragon
+        Noun90: matter
+        Noun91: singularity
+        Noun92: world
+        Noun93: fossil
+        Noun94: galaxy
+        Noun95: sunshine
+        Noun96: necromancer
+        Noun97: moratorium
+        Noun98: annal
+        Noun99: time
+        Noun100: circle
+        Noun101: vane
+        Noun102: leaf
+        Noun103: axel
+        Noun104: wind
+        Noun105: eye
+        Noun106: key
+        Noun107: coral
+        Noun108: stardust
+        Noun109: theremin
+        Noun110: pen
+        Noun111: mercury
+        Noun112: obsidian
+        Noun113: portrait
+        Noun114: ambrosia
+        Noun115: tiger
+        Noun116: laiche
+        Noun117: concert
+        Noun118: ritual
+        Noun119: oni
+        Noun120: mantel
+        Noun121: invention
+        Noun122: fly
+        Noun123: astigmatism
+        Noun124: robot
+        Noun125: witch
+        Noun126: sophomore
+        Noun127: nightmare
+        Noun128: glue
+        Noun129: alphabet
+        Noun130: integer
+        Noun131: farm
+        Noun132: extraterrestrial
+        Noun133: inselberg
+        Noun134: train
+        Noun135: alderman
+        Noun136: stork
+        Noun137: moon
+        Noun138: hedge
+        Noun139: sapphire
+        Noun140: commander
+        Noun141: macaw
+        Noun142: brain
+        Noun143: vassal
+        Noun144: glass
+        Noun145: cosine
+        Noun146: satellite
+        Noun147: hunter
+        Noun148: ring
+        Noun149: man
+        Noun150: shell
+        Noun151: progeny
+        Noun152: magnesium
+        Noun153: granite
+        Noun154: empire
+        Noun155: assailant
+        Noun156: aether
+        Noun157: automata
+        Noun158: rainforest
+        Noun159: gatekeeper
+        Noun160: patron
+        Noun161: specialist
+        Noun162: quid
+        Noun163: flagstone
+        Noun164: byte
+        Noun165: lightyear
+        Noun166: affection
+        Noun167: Egyptian
+        Noun168: cannon
+        Noun169: chi
+        Noun170: orator
+        Noun171: frigate
+        Noun172: boffin
+        Noun173: offspring
+        Noun174: beacon
+        Noun175: philosopher
+        Noun176: goth
+        Noun177: attuner
+        Noun178: soldier
+        Noun179: text
+        Noun180: experiment
+        Noun181: realist
+        Noun182: cloth
+        Noun183: explorer
+        Noun184: limerick
+        Noun185: gene
+        Noun186: lamp
+        Noun187: cyanide
+        Noun188: extremist
+        Noun189: maker
+        Noun190: nepenthe
+        Noun191: shore
+        Noun192: flute
+        Noun193: empress
+        Noun194: swizzle
+        Noun195: racer
+        Noun196: vagrant
+        Noun197: caregiver
+        Noun198: despot
+        Noun199: observer
+        Noun200: scientist
+        Noun201: ogscule
+        Preposition1: about
+        Preposition2: above
+        Preposition3: across
+        Preposition4: after
+        Preposition5: against
+        Preposition6: along
+        Preposition7: among
+        Preposition8: around
+        Preposition9: as
+        Preposition10: at
+        Preposition11: before
+        Preposition12: behind
+        Preposition13: below
+        Preposition14: beneath
+        Preposition15: beside
+        Preposition16: betwixt
+        Preposition17: beyond
+        Preposition18: by
+        Preposition19: despite
+        Preposition20: during
+        Preposition21: except
+        Preposition22: for
+        Preposition23: from
+        Preposition24: into
+        Preposition25: like
+        Preposition26: nears
+        Preposition27: of
+        Preposition28: on
+        Preposition29: opposite
+        Preposition30: over
+        Preposition31: since
+        Preposition32: than
+        Preposition33: to
+        Preposition34: toward
+        Preposition35: under
+        Preposition36: until
+        Preposition37: up
+        Preposition38: upon
+        Preposition39: with
+        Preposition40: within
+        Preposition41: without
+        EasterEggSentence: Fr ong bussin
+        # This key is used for the purpose of defining the general layout of the language's grammar. Barring requirements below you can create any rules you want.
+        # This system relies on Phrase Structure Rules. It would be wise to research this independently to get a firmer grasp on how this works.
+        # In this context the rules are obviously very primitive and incapable of inferring necessary context to create natural sentences, but that is intentional.
+        # The form 'A = B, C, D ...' indicates what A should be replaced with when generating a random sentence. A is referred to as a 'keyword'.
+        # B, C, D, etc. are all possible options that the random number generator can choose from. Spacing is important, as spaces are used to delineate things in need of replacement.
+        # For this to work, a SENTENCE keyword is required (though its contents can vary), as it serves as the entry point for all text generation.
+        # DETERMINER, NOUN, PREPOSITION, ADJECTIVE, and VERB keywords are all valid, and are auto-generated in the mod's code from the various words listed nearby.
+        PhraseStructureRules:
+            '''
+            SENTENCE = SUBJECT PREDICATE OBJECT, SUBJECT PREDICATE
+            SUBJECT = NOUNPHRASE
+            PREDICATE = VERBPHRASE
+            OBJECT = NOUNPHRASE, PREPOSITION NOUNPHRASE
+            NOUNPHRASE = DETERMINER ADJECTIVE NOUN, DETERMINER NOUN
+            VERBPHRASE = VERB PREPOSITION NOUNPHRASE
+            '''
+        IncludeSpacesBetweenWords: True
+    }
+
+    MidnightMonolith: {
+        DisplayName: Полночный монолит
+        Tooltip: Можно экипировать в слот для украшений
+    }
+
+    NoxiousEvocator: {
+        DisplayName: Ядовитый призыватель
+        Tooltip: Материализует космические галлюцинации вокруг вас
+    }
+
+    NoxusEclipseCalculator: {
+        DisplayName: Калькулятор затмения Ноксуса [ОТЛАДКА]
+        Tooltip: Даёт информацию о предстоящих затмениях Ноксуса в течение следующих 100 дней
+        InfoTextPartial: Затмение Ноксуса состоится примерно через {0} дней, начиная с {1} и заканчиваясь {2}. Это будет частичное затмение.
+        InfoTextTotal: Затмение Ноксуса состоится примерно через {0} дней, начиная с {1} и заканчиваясь {2}. Это будет полное затмение.
+        InfoTextNoxusWorld: Затмение вечное.
+    }
+
+    NoxusMask: {
+        DisplayName: Маска Ноксуса
+        Tooltip: ""
+    }
+
+    NoxusRelicItem: {
+        DisplayName: Реликвия Ноксуса
+        Tooltip: ""
+    }
+
+    NoxusSprayer: {
+        DisplayName: Опрыскиватель Ноксуса
+        Tooltip:
+            '''
+            Выпускает струю хаотического тумана, испаряющего всё, к чему прикоснётся
+            'Гарантированно убивает 99.99% низших существ!'
+            '''
+    }
+
+    NoxusTrophy: {
+        DisplayName: Трофей Ноксуса
+        Tooltip: ""
+    }
+
+    NoxusWorldFogStarter: {
+        DisplayName: Набор для создания тумана мира Ноксуса [ОТЛАДКА]
+        Tooltip: ""
+    }
+
+    NuminousDye: {
+        DisplayName: Озаряющий краситель
+        Tooltip: ""
+    }
+
+    OblivionRattle: {
+        DisplayName: Погремушка забвения
+        Tooltip: ""
+    }
+
+    Rok: {
+        DisplayName: Камушек
+        Tooltip: Это просто обычный камень
+    }
+
+    Terminal: {
+        DisplayName: Терминал
+        Tooltip:
+            '''
+            Мы не считаем «Босс-раш» удовлетворительным в его нынешнем состоянии
+            Это довольно однообразное и утомительное испытание, лишь с небольшим количеством действительно интересных и сложных вызовов
+            Однако, учитывая изменения в функциональности оригинального Терминуса, мы решили добавить
+            альтернативный способ вызова события для тех, кто его ценит или находит полезным для тестирования
+            '''
+    }
+
+    ThePurifier: {
+        DisplayName: Очиститель
+        Tooltip:
+            '''
+            Возвращает мир в исходное состояние
+            Данный процесс может занять некоторое время, поэтому не стоит беспокоиться, если игра будет некоторое время бездействовать
+            Бомба взрывается через 15 секунд после броска
+            В случае случайного броска можно сохраниться и выйти, чтобы предотвратить взрыв
+            2012
+            '''
+    }
+
+    NamelessDeityMask: {
+        DisplayName: Маска Безымянного божества
+        Tooltip: "'Тебя подвергнут 1984-му'"
+    }
+
+    NamelessDeityMusicBox: {
+        DisplayName: Музыкальная шкатулка (Безымянное божество)
+        Tooltip: Проигрывает 'Twisted Garden' от Heart Plus Up! и ENNWAY!
+    }
+
+    NamelessDeityMusicBoxP3: {
+        DisplayName: Музыкальная шкатулка (Безымянное божество - Последняя фаза)
+        Tooltip: Проигрывает 'REPLACED VIA CODE DONT CHANGE THIS' от Heart Plus Up! и ENNWAY!
+    }
+
+    NamelessDeityRelicItem: {
+        DisplayName: Реликвия Безымянного божества
+        Tooltip: ""
+    }
+
+    NamelessDeityTrophy: {
+        DisplayName: Трофей Безымянного божества
+        Tooltip: По умолчанию глаз останется закрытым, пока к нему не подойдёт игрок. Его можно открыть с помощью проводов
+    }
+
+    Starseed: {
+        DisplayName: Звёздное семя
+        Tooltip: ""
+    }
+
+    StaircaseStarter: {
+        DisplayName: Генератор лестничных ступенек [ОТЛАДКА]
+        Tooltip: ""
+    }
+
+    Xenqiterthralyensyr: {
+        DisplayName: Картина «Xenqiterthralyensyr»
+        Tooltip: Имя автора этого произведения затерялось в веках
+    }
+}
+
+NPCs: {
+    NoxusEggCutscene.DisplayName: ???
+
+    NoxusEgg: {
+        DisplayName: Безбожное отродье, Ноксус
+        DisplayNameSingular: Безбожное отродье, Ноксус
+
+        BossChecklistIntegration: {
+            SpawnInfo: Используйте [i:NoxusBoss/Genesis].
+            DespawnMessage: "[c/7D5CC4:Ноксус бесследно исчезает.]"
+        }
+    }
+
+    EntropicGod: {
+        DisplayName: Энтропийный бог, Ноксус
+        DisplayNameSingular: Энтропийный бог, Ноксус
+
+        BossChecklistIntegration: {
+            SpawnInfo: Используйте [i:NoxusBoss/Genesis].
+            DespawnMessage: "[c/7D5CC4:Ноксус бесследно исчезает.]"
+        }
+
+        InfernumCompatibility.Title: Ноксус.
+    }
+
+    NamelessDeityBoss: {
+        DisplayName: Безымянное божество
+        DisplayNameSingular: Безымянное божество
+        SillyDeathCountSuffix: ", Мучитель ноухитеров"
+
+        BossChecklistIntegration: {
+            SpawnInfo: Используйте [i:CalamityMod/Terminus] после того, как он откроет свой взор.
+            DespawnMessage: "[c/FF463D:Вам не удалось пройти испытание.]"
+        }
+
+        InfernumCompatibility.Title: ??????????????????????????????????????????????????
+    }
+
+    DismalSeeker.DisplayName: Тоскливый искатель
+    Fogwood.DisplayName: Туманное дерево
+    Mirrorwalker.DisplayName: Зеркальный ходок
+    Aelithrysuwl.DisplayName: Aelithrysuwl
+    Vivajuyfylae.DisplayName: Vivajuyfylae
+}
+
+Tiles: {
+    EternalGardenMusicBoxTile.MapEntry: Музыкальная шкатулка
+    NamelessDeityMusicBoxTile.MapEntry: Музыкальная шкатулка
+}
+
+NamelessDeityDimensionMainMenu.DisplayName: Световое измерение
+
+Configs: {
+    NoxusBossConfig: {
+        DisplayName: Главная конфигурация
+
+        DisplayConfigMessage: {
+            Label: Отображение подсказки конфигурации
+            Tooltip: Переключает видимость всплывающего текстового сообщения, которое информирует игрока о том, что он может взаимодействовать с интерфейсом.
+            WarningText:
+                '''
+                Привет! Возможно, читая эти строки, ты задумался: 'Как избавиться от этого текста? Он меня раздражает'
+                Перейду сразу к сути. Из-за интенсивных визуальных эффектов, добавляемых модом, важно знать о настройках конфигурации, которые позволяют снизить их интенсивность.
+                Эта информация предоставлена детально, чтобы люди с фоточувствительностью могли осознать потенциальные риски перед использованием мода.
+                Конфигурацию можно найти, перейдя в раздел Настройки -> Конфигурация мода -> Calamity: Wrath of the Gods -> Главная конфигурация.
+                Чтобы убедиться, что ты правильно выполнил эти шаги, всплывающее сообщение можно отключить в конфигурации, установив для настройки 'Отображение подсказки конфигурации' значение ВЫКЛ.
+                '''
+        }
+
+        PhotosensitivityMode: {
+            Label: Режим светочувствительности
+            Tooltip:
+                '''
+                Переключает эффекты, связанные с внезапными, мигающими анимациями.
+                Эти изменения также затрагивают соответствующие настройки конфигурации, но при необходимости их можно вручную переопределить.
+                '''
+        }
+
+        ScreenShakeIntensity: {
+            Label: Интенсивность дрожания экрана
+            Tooltip:
+                '''
+                Изменяет интенсивность эффектов дрожания экрана. При значении 0 все эффекты дрожания экрана, вызванные этим модом, будут отключены.
+                Если в настройках Calamity отключено дрожание экрана, это значение также будет установлено на 0.
+                '''
+        }
+
+        ScreenShatterEffects: {
+            Label: Эффекты разбития экрана
+            Tooltip: Переключает эффекты разбития экрана. Отключите, если они вызывают дискомфорт.
+        }
+
+        VisualOverlayIntensity: {
+            Label: Интенсивность визуальных наложений
+            Tooltip: Регулирует интенсивность таких визуальных наложений, как размытие и хроматическая аберрация.
+        }
+    }
+}
+
+Dialog: {
+    PostWoFDefeatNoxusIndicator: Вокруг планеты начал кружить загадочный объект.
+    PostMLNightNoxusIndicator: Тёмная сущность приближается...
+    FinalBossDefeatNoxusIndicator: Тёмная сущность пробуждается...
+    FinalBossDefeatNoxusIndicator_SeenNoxus: Тёмная сущность пробуждается...
+    TerminusHintLine1: Хорошая работа, молодец.
+    TerminusHintLine2: Отправляйся на поиски Терминуса. Последнее испытание ждёт.
+    NamelessDeityEnterGardenText: Твоё последнее испытание начинается.
+    NamelessDeityEndScreenText: Ты прошёл испытание.
+    NamelessDeityEndScreenSkipText: Нажми ESCAPE, чтобы пропустить!
+    NamelessDeityPlayerDeathText: Ты не прошёл испытание.
+    NamelessDeityEndScreenMainMenuTip: Ты прошёл испытание. Ты прошёл испытание. Ты прошёл испытание. Ты прошёл испытание. Ты прошёл испытание. Ты прошёл испытание. Ты прошёл испытание. Ты прошёл испытание. Ты прошёл испытание. Ты прошёл испытание.
+    NamelessDeityNoxusSprayerTip: Не делай этого.
+    NamelessDeityStatusText: Ты прошёл испытание.
+    NamelessDeityStatusPercentageText: Ты прошёл испытание:
+    CattailText: РОГОЗ ПОСАЖЕН!
+    PurifierMultiplayerUseAlertText: "{0} активировал Очиститель. Мир будет сброшен через 15 секунд."
+    PurifierEntertainingRantText:
+        '''
+        Привет! Этот белый фон абсолютно нормален. Игра не сломана. Пожалуйста, не нужно сообщать о долгом ожидании, как о баге. Умоляю.
+        Сядь поудобнее, расслабься и выпей воды, если давно не пил. Или просто займись чем-нибудь другим. Решение за тобой.
+        Итак, как ты уже догадался, происходит полное пересоздание генерации мира.
+        Давай поговорим об этом, ладно? А конкретнее, почему этот процесс занимает так много времени и является таким необычным.
+        Давай начнём с того, что миры в Террарии - это просто гигантская сетка из блоков размером 8401 на 2401.
+        Её размер рассчитан так, чтобы вместить все миры вплоть до большого размера.
+        Эта сетка хранится в памяти с момента запуска игры и до момента её закрытия. Она занимает десятки мегабайт памяти, если быть точным.
+        Есть что-то вроде 'чанкинга', то есть разбиения мира на отдельные части. Однако это используется в основном в мультиплеере, поскольку передача всего мира по сети клиентам была бы непрактичной и с большой вероятностью привела бы к вылетам.
+        Вот почему, когда серверы начинают умирать, ты можешь упасть за пределы карты. Это происходит, когда ты выходишь за пределы одного из этих 'чанков', а сервер не успевает отправить тебе новые чанки.
+        Вернёмся к генерации мира. Всё в ней работает в рамках этой сетки. В отличии, например, от Minecraft, генерация мира в Террарии не является динамической и должна быть завершена за один проход.
+        К тому же, многие этапы генерации мира выполняются синхронно, то есть один за другим, в отличие от параллельного выполнения нескольких этапов одновременно.
+        Конечно, так нельзя делать для всего, поскольку в большинстве случаев это может привести к конфликтам. Но, как можно предположить, возможность параллельного выполнения там, где это возможно, будет действительно желательным преимуществом с точки зрения производительности.
+        В некоторых случаях отдельные этапы могут быть не очень производительными. И в определённых ситуациях этапы 'Обрабатывание жидкости' могут длиться несколько секунд.
+        Этап опустынивания, насколько я понимаю, заключается в большом количестве циклов. Сначала по горизонтали по всему пустынному биому.
+        Затем по вертикали, сверху вниз. Затем по всем 'кластерам' в пустыне, и, наконец, по всем блокам внутри кластера.
+        Однако, я считаю, что большинство этих проблем это не вина разработчиков игры. Это вина самих моддеров, которые не уделяют достаточно внимания оптимизации (и я, в том числе).
+        Ранее я делал одну странную штуку: я использовал рекурсию (то есть функцию, которая вызывает саму себя. Это немного сложно объяснить) для расчёта количества воды в определённой области Сернистого моря. Так вот, я делал это много-много раз подряд.
+        Это... полный треш.
+        Ну что ж! Я бы продолжил, но похоже, что твой мир почти полностью стёрт. Не хочу, чтобы меня внезапно прервали!
+        Я повторю этот монолог при следующем сбросе мира. Увидимся!
+        '''
+    CelesteMusicCreditText:
+        '''
+        Сейчас играет:
+        'wavedash.ppt'
+        От Lena Raine
+        '''
+    NamelessDeityStairwayText1: Приветствую, вторженец.
+    NamelessDeityStairwayText2: Лишь в уединении ты можешь созерцать божественное великолепие, окутывающее этот мир.
+    NamelessDeityStairwayText3: Судьба привела сюда тебя, дабы узнать своё предназначение.
+    NamelessDeityStairwayText4: Тёмный Владыка блуждает по твоим владениям. На тебе лежит обязанность одолеть его.
+    NamelessDeityStairwayText5: В триумфе наши судьбы переплетутся вновь, и ты столкнёшься с новым испытаньем.
+    NamelessDeityStairwayText6: Удачи.
+    NamelessDeityStairwayTextFanny1: Приветствую, втор...
+    NamelessDeityStairwayTextFanny2: Какого хрена ты здесь делаешь, Фанни?! Насколько помню, я от тебя отрёкся!
+    NamelessDeityStairwayTextFanny3: Эм-м-м-м-м-м-м-м, нет.
+    NamelessDeityStairwayTextFanny4: Короче, ты. Иди и прибей Ноксуса.
+    NamelessDeityStairwayTextFanny5: Ну... как закончишь, сразимся в моём саду, лады?
+    NamelessDeityStairwayTextFanny6: Молю, не приводи с собой Фанни.
+    OgsculeDontAnnoyCalDevsText: Этот необычный эффект не является частью базовой версии Calamity. Не раздражайте их разработчиков из-за него.
+    RodOfHarmonyRantSubtitle1: Убери этот Жезл гармонии с глаз моих, не хочу его даже видеть.
+    RodOfHarmonyRantSubtitle2: Нет, серьёзно, о чём думали Re-Logic? Жезл раздора без кулдауна? Серьёзно?
+    RodOfHarmonyRantSubtitle3: Пост-Мунлорд моды с ним идут НАХЕР...
+    RodOfHarmonyRantSubtitle4: Да ладно тебе, слушай.
+    RodOfHarmonyRantSubtitle5: Я хотел создать вселенную, справедливую и честную. Но Жезл гармонии портит абсолютно ВСЁ.
+    RodOfHarmonyRantSubtitle6: Поэтому обойдёшься без него.
+    RodOfHarmonyRantSubtitle7: Думал, что переиграешь меня, а в итоге переиграли именно ТЕБЯ.
+    RodOfHarmonyRantSubtitle8: Даже не отрицай.
+    RodOfHarmonyRantSubtitle9: Ты ведь умный, всё знаешь.
+    RodOfHarmonyRantSubtitle10: Наверняка же посмотрел эту битву в интернете.
+    RodOfHarmonyRantSubtitle11: Наверняка ты уже ЗНАЛ, что я это сделаю.
+    RodOfHarmonyRantSubtitle12: И чего ты ожидал? Я уже уничтожил ярость и адреналин, поэтому КОНЕЧНО ЖЕ я вздрючу и Жезл гармонии.
+    RodOfHarmonyRantSubtitle13: И сейчас я вздрючу ТЕБЯ.
+    RodOfHarmonyRantSubtitle14: Прозвучало как-то странно...
+    RodOfHarmonyRantSubtitle15: Короче говоря, в двух словах: я не люблю читеров.
+    RodOfHarmonyRantSubtitle16: Если не согласен, то тебе тут не место.
+    RodOfHarmonyRantSubtitle17: И вообще, тебе не стоило приносить сюда эту чёртову штуку.
+}
+
+FannyDialog: {
+    StairwayText1: Ступеньки?! Откуда они взялись? Куда всё пропало? Пойду-ка погуглю, может, чего найду...
+    StairwayText2: Ступеньки в видеоиграх, кажущиеся бесконечными...
+    StairwayText3: О! Я что-то про 'BLJ' нашёл. Может, попробуешь?
+    StairwayText4: Погоди, это из другой игры...
+    StairwayText5: Ну, тогда просто продолжай подниматься! В конце концов что-то да произойдёт...
+    StairwayTextTop1: Погодь, папа?! Это ты?
+    StairwayTextTop2: Уверен, что ты не про Злого Фанни?
+    StairwayTextTop3: Вот это грубо, пап...
+    StairwayTextTop4: Ноксус? Кто такой Ноксус? Пойду-ка погуглю, может чего найду...
+    StairwayTextTop5: О да! Помню, как я разнёс то место! Было весело!
+    StairwayTextTop6: У него нет выбора!
+    NoxusLoreText1: Вот это да, дружбан! Этот Ноксус был действительно сильным! Но, согласен, он довольно загадочный...
+    NoxusLoreText2: Серьёзно? Это же просто очередной бред. Ничего нового и интересного!
+    NoxusLoreText3: И зачем этот 'Ярим' вообще пытается связать это с драконами? Неужели это его единственная цель в жизни - быть бесполезным рассказчиком?!
+    NoxusLoreText4: Ну почему он не может просто показаться и говорить напрямую? Боится, что его запомнят как одномерного персонажа?
+    NoxusLoreText5: Боже, голова раскалывается.
+    RodOfHarmonyBreak: Ой, беда! Твой Жезл гармонии сломался! Будь осторожен, без него бой может стать намного сложнее!
+    RodOfHarmonyBreakEvil1: ХА-ХА-ХА-ХА-ХА! Да ты только посмотри-ка на это! Эта бессмысленная розовая палка наконец-то получила перезарядку! И эта перезарядка - ВЕЧНАЯ! Круто же, да?!
+    RodOfHarmonyBreakEvil2: Ну-ка, попробуй выиграть без своего дурацкого костыля, тупой одноклеточный!
+    NamelessDeityGFB1: Ну и бредятина. Не сражение, а лажа.
+    NamelessDeityGFB2:
+        '''
+        Доминику должно быть чертовски стыдно за себя. Сначала он крадет у Calamity Ксерока, а затем, как неуклюжий, безнадёжный страдалец от эффекта Даннинга-Крюгера, реализует его самым унылым, монотонным и вырвиглазным способом, какой только можно себе представить. Не, серьёзно? Сколько лазеров можно было так топорно впихнуть сюда?! И вообще, что это за графические эффекты?! Это же как в учебнике пример того, как создавать контент, на который тупые комментаторы на Ютубе могут отрубить свои мозги и глазеть, потому что "Ха-ха, красивый блик и шейдеры! Как уникально!"
+        А твой ФПС вообще превышает 15 в данный момент????
+        '''
+    NamelessDeityGFB3: Я не знаю, что тебе с этим делать. Честно говоря, я бы посоветовал просто выключить игру и заняться чем-нибудь действительно интересным, а не этим дерьмом.
+}
+
+Colors: {
+    CattailAnimationTextHex: 6FA024
+    NoxusTextHex: 745CBC
+    PurifierWarningTextHex: F00448
+    VanillaEventTextHex: 32FF82
+    NamelessDeityTextHex: FF3F5D
+}
+
+PlayerDeathMessages: {
+    NamelessDeity1: "{0} не удалось пройти испытание."
+    NamelessDeity2: Структура атомов {0} была разделена для того, дабы она была поглощена садом.
+    NamelessDeity3: "{0} блаженно отходит в мир иной, когда божественный свет поглощает."
+    NamelessDeity4: Форма {0} вскоре сольётся со звёздами.
+    NamelessDeity5: Дух {0} будет бродить по саду, пока тело его распадается.
+    NamelessDeity6: "{0} исполняет своё предназначение."
+    NamelessDeity7: "{0} узривает вечность и погибает."
+    NamelessDeity8: Судьба {0} предрешена.
+    NamelessDeity9: "{0} умирает вопреки героическим усилиям."
+    NamelessDeity10: "{0} безмятежно встречает свет."
+    NamelessDeity11: "{0} обретает единство со всем сущим."
+    NamelessDeity12: "{0} растворяется в эфире."
+    NamelessDeity13: "{0} растворяется в космическом узоре."
+    NamelessDeity14: "{0} становится звёздной пылью, переступив черту смертности."
+    NamelessDeity15: Путешествие {0} закончилось в священном объятии сада.
+    NamelessDeity16: "{0} сливается с симфонией Вселенной."
+    NamelessDeity17: "{0} растворяется в бесконечной решётке бытия."
+}
