@@ -147,6 +147,11 @@ Configs: {
             Tooltip: ""
         }
 
+        PermanentStationsNearby: {
+            Label: "[i:3198] Автоматические баффы рядом со станцией"
+            Tooltip: ""
+        }
+
         BossZen: {
             Label: "[i:3117] Во время битвы с боссами не появляются враги"
             Tooltip: ""
@@ -2932,7 +2937,7 @@ ExpandedTooltips: {
     UnlimitedBuff30: Бесконечный бафф при стаке в 30 в инвентаре, свинье-копилке или сейфе
     UnlimitedUse30: Бесконечное использование при стаке в 30
     PermanentEffectNearby: Постоянно даёт эффект ближайшим игрокам при размещении
-    WorksFromBanks: Работает из свиньи-копилки и сейфа
+    WorksFromBanks: Эффекты инвентаря также работают из свиньи-копилки и сейфа
     SoldBySquirrel: Продаётся белкой
     SomeMaterialsSold: Продаются некоторые материалы
     CraftableMaterialsSold: Продаются материалы для изготовления

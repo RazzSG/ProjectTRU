@@ -49,6 +49,7 @@
 //         { "UI/CelestialCartography/LocationNames/UltraPlant", $"{PATH}/UltraPlant" },
 //         { "UI/CelestialCartography/LocationNames/Vagrant", $"{PATH}/Vagrant" },
 //         { "UI/CelestialCartography/LocationNames/WarriorOfLight", $"{PATH}/WarriorOfLight" },
+//         { "UI/StellarNova/NovaTextBox", $"{PATH}/NovaTextBox" },
 //     };
 //     
 //     private delegate void DrawDelegate(SpriteBatch self, Texture2D texture, Rectangle destinationRectangle, Color color);

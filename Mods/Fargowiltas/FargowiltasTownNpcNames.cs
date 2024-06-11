@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
+using CalamityRuTranslate.Core.Config;
 using Fargowiltas.NPCs;
 using Terraria;
 using Terraria.ModLoader;
@@ -34,7 +35,7 @@ public class FargowiltasTownNpcNames : GlobalNPC
     
     public override bool IsLoadingEnabled(Mod mod)
     {
-        return ModInstances.Fargowiltas != null && TranslationHelper.IsRussianLanguage;
+        return ModInstances.Fargowiltas != null && TRuConfig.Instance.FargowiltasLocalization && TranslationHelper.IsRussianLanguage;
     }
 
     public override void ModifyNPCNameList(NPC npc, List<string> nameList)

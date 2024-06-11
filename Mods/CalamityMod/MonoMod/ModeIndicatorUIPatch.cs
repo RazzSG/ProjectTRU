@@ -5,6 +5,7 @@ using CalamityMod.Systems;
 using CalamityMod.UI.ModeIndicator;
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
+using CalamityRuTranslate.Core.Config;
 using CalamityRuTranslate.Core.MonoMod;
 using Terraria.Localization;
 
@@ -12,7 +13,7 @@ namespace CalamityRuTranslate.Mods.CalamityMod.MonoMod;
 
 public class ModeIndicatorUIPatch : OnPatcher
 {
-    public override bool AutoLoad => ModInstances.Calamity != null && TranslationHelper.IsRussianLanguage;
+    public override bool AutoLoad => ModInstances.Calamity != null && TRuConfig.Instance.CalamityModLocalization && TranslationHelper.IsRussianLanguage;
     
     public override MethodInfo ModifiedMethod => typeof(ModeIndicatorUI).GetCachedMethod(nameof(ModeIndicatorUI.GetDifficultyStatus));
 

@@ -1,5 +1,6 @@
 ﻿using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
+using CalamityRuTranslate.Core.Config;
 using FargowiltasSouls.Content.UI;
 using Terraria;
 using Terraria.ModLoader;
@@ -10,7 +11,7 @@ public class FargowiltasSoulsSystem : ModSystem
 {
     public override bool IsLoadingEnabled(Mod mod)
     {
-        return !Main.dedServ && ModInstances.FargowiltasSouls != null && TranslationHelper.IsRussianLanguage;
+        return !Main.dedServ && ModInstances.FargowiltasSouls != null && TRuConfig.Instance.FargowiltasSoulsLocalization && TranslationHelper.IsRussianLanguage;
     }
 
     public override void PostSetupContent()

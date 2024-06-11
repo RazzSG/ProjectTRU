@@ -30,7 +30,6 @@
 //             "Perseus" => "Персей",
 //             "Yojimbo" => "Йодзимбо",
 //             "Garridine" => "Гарридина",
-//             "No Stellar Nova has been selected." => "Ни одна Астронова не была выбрана.",
 //             _ => text
 //         };
 //         

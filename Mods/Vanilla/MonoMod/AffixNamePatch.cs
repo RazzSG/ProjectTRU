@@ -1,6 +1,7 @@
 using CalamityMod.Items;
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
+using CalamityRuTranslate.Core.Config;
 using CalamityRuTranslate.Core.ItemGenderPrefixes;
 using Terraria;
 using Terraria.ModLoader;
@@ -48,7 +49,7 @@ public class AffixNameWithCalamity : ILoadable
 {
     public bool IsLoadingEnabled(Mod mod)
     {
-        return ModInstances.Calamity != null && TranslationHelper.IsRussianLanguage;
+        return ModInstances.Calamity != null && TRuConfig.Instance.CalamityModLocalization && TranslationHelper.IsRussianLanguage;
     }
 
     public void Load(Mod mod)

@@ -14,14 +14,14 @@ public class CalamityModSystem : ModSystem
 {
     private static Asset<DynamicSpriteFont> _codebreakerFont;
 
+    public override bool IsLoadingEnabled(Mod mod)
+    {
+        return ModInstances.Calamity != null && TRuConfig.Instance.CalamityModLocalization && TranslationHelper.IsRussianLanguage;
+    }
+
     public override void Load()
     {
         _codebreakerFont ??= Mod.Assets.Request<DynamicSpriteFont>("Assets/Fonts/Item_Stack", AssetRequestMode.ImmediateLoad);
-    }
-
-    public override bool IsLoadingEnabled(Mod mod)
-    {
-        return ModInstances.Calamity != null && TranslationHelper.IsRussianLanguage;
     }
 
     public override void PostSetupContent()

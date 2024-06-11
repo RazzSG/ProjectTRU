@@ -1,31 +1,28 @@
-﻿using System;
-using System.Reflection;
+﻿using System.Reflection;
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
 using CalamityRuTranslate.Core.MonoMod;
+using Mono.Cecil.Cil;
+using MonoMod.Cil;
 using NoxusBoss.Assets.Fonts;
-using ReLogic.Content;
-using ReLogic.Graphics;
-using Terraria.GameContent;
+using Terraria.ModLoader;
 
 namespace CalamityRuTranslate.Mods.NoxusBoss.MonoMod;
 
-public class FontRegistryPatch : OnPatcher
+public class FontRegistryPatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.NoxusBoss != null && TRuConfig.Instance.NoxusBossLocalization && TranslationHelper.IsRussianLanguage;
 
     public override MethodInfo ModifiedMethod => typeof(FontRegistry).GetCachedMethod("get_NamelessDeityText");
 
-    private delegate DynamicSpriteFont NamelessDeityText(FontRegistry self);
-
-    public override Delegate Delegate => ReplaceFont;
-    
-    private DynamicSpriteFont ReplaceFont(NamelessDeityText orig, FontRegistry self)
+    public override ILContext.Manipulator PatchMethod { get; } = il =>
     {
-        if (FontRegistry.CanLoadFonts)
-            return CalamityRuTranslate.Instance.Assets.Request<DynamicSpriteFont>("Assets/Fonts/FairyMuffinRoundPop", AssetRequestMode.ImmediateLoad).Value;
-
-        return FontAssets.MouseText.Value;
-    }
+        ILCursor cursor = new(il);
+        cursor.TryGotoNext(i => i.MatchCall<ModType>("get_Mod"));
+        cursor.Index++;
+        cursor.EmitPop();
+        cursor.Emit(OpCodes.Ldsfld, typeof(CalamityRuTranslate).GetField("Instance"));
+        TranslationHelper.ModifyIL(il, "Assets/Fonts/NamelessDeityText", "Assets/Fonts/FairyMuffinRoundPop");
+    };
 }

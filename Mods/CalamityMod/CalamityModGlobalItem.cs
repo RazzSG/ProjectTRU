@@ -4,6 +4,7 @@ using CalamityMod.Items.SummonItems;
 using CalamityMod.Items.Weapons.Summon;
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
+using CalamityRuTranslate.Core.Config;
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
@@ -15,7 +16,7 @@ public partial class CalamityModGlobalItem : GlobalItem
 {
     public override bool IsLoadingEnabled(Mod mod)
     {
-        return ModInstances.Calamity != null && TranslationHelper.IsRussianLanguage;
+        return ModInstances.Calamity != null && TRuConfig.Instance.CalamityModLocalization && TranslationHelper.IsRussianLanguage;
     }
     
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)

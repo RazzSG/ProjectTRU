@@ -9,7 +9,7 @@
 //
 // public class WrapPatch : OnPatcher
 // {
-//     public override bool AutoLoad => ModInstances.StarsAbove != null && TRuConfig.Instance.NewRussianTerrariaFont && TranslationHelper.IsRussianLanguage;
+//     public override bool AutoLoad => ModInstances.StarsAbove != null && TRuConfig.Instance.StarsAboveLocalization && TRuConfig.Instance.NewRussianTerrariaFont && TranslationHelper.IsRussianLanguage;
 //     
 //     public override MethodInfo ModifiedMethod => ModInstances.StarsAbove.Code.GetType("StarsAbove.Utilities.LangHelper").GetCachedMethod("Wrap");
 //

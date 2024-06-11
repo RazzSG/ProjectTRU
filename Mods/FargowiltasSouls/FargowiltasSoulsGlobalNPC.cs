@@ -1,5 +1,6 @@
 ﻿using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
+using CalamityRuTranslate.Core.Config;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -10,7 +11,7 @@ public class FargowiltasSoulsGlobalNPC : GlobalNPC
 {
     public override bool IsLoadingEnabled(Mod mod)
     {
-        return ModInstances.FargowiltasSouls != null && TranslationHelper.IsRussianLanguage;
+        return ModInstances.FargowiltasSouls != null && TRuConfig.Instance.FargowiltasSoulsLocalization && TranslationHelper.IsRussianLanguage;
     }
 
     public override void AI(NPC npc)

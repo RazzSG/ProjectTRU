@@ -1,6 +1,7 @@
 ﻿using System.Reflection;
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
+using CalamityRuTranslate.Core.Config;
 using InfernumMode.Assets.Fonts;
 using InfernumMode.Common.DataStructures;
 using InfernumMode.Content.Credits;
@@ -15,7 +16,7 @@ public class InfernumModeSystem : ModSystem
 {
     public override bool IsLoadingEnabled(Mod mod)
     {
-        return ModInstances.Calamity != null && ModInstances.Infernum != null && TranslationHelper.IsRussianLanguage;
+        return ModInstances.Infernum != null && TRuConfig.Instance.InfernumModeLocalization && TranslationHelper.IsRussianLanguage;
     }
 
     public override void PostSetupContent()

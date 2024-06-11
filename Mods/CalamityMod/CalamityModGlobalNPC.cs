@@ -1,6 +1,7 @@
 ﻿using CalamityMod.NPCs.TownNPCs;
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
+using CalamityRuTranslate.Core.Config;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -11,7 +12,7 @@ public class CalamityModGlobalNPC : GlobalNPC
 {
     public override bool IsLoadingEnabled(Mod mod)
     {
-        return ModInstances.Calamity != null && TranslationHelper.IsRussianLanguage;
+        return ModInstances.Calamity != null && TRuConfig.Instance.CalamityModLocalization && TranslationHelper.IsRussianLanguage;
     }
 
     public override void GetChat(NPC npc, ref string chat)

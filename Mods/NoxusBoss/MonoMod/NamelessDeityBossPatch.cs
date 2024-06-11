@@ -22,6 +22,5 @@ public class NamelessDeityBossPatch : ILPatcher
         cursor.Index++;
         cursor.EmitPop();
         cursor.Emit(OpCodes.Ldsfld, typeof(CalamityRuTranslate).GetField("Instance"));
-        MonoModHooks.DumpIL(CalamityRuTranslate.Instance, il);
     };
 }

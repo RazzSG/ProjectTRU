@@ -54,11 +54,44 @@
 //         { AudioInstance.ER18, StarsAboveSounds.ER18 },
 //         { AudioInstance.ERJoke, StarsAboveSounds.ERJoke },
 //         { StarsAboveAudio.StarfarerBoss_Intro, StarsAboveSounds.StarfarerBoss_Intro },
+//         { StarsAboveAudio.Tsukiyomi_Struggle, StarsAboveSounds.Tsukiyomi_Struggle },
+//         { StarsAboveAudio.Tsukiyomi_NowhereYouCanRun, StarsAboveSounds.Tsukiyomi_NowhereYouCanRun },
+//         { StarsAboveAudio.Tsukiyomi_AfraidOfTheDark, StarsAboveSounds.Tsukiyomi_AfraidOfTheDark },
+//         { StarsAboveAudio.Tsukiyomi_TryHarder, StarsAboveSounds.Tsukiyomi_TryHarder },
+//         { StarsAboveAudio.Tsukiyomi_ForgettingSomething, StarsAboveSounds.Tsukiyomi_ForgettingSomething },
+//         { StarsAboveAudio.Tsukiyomi_Journey, StarsAboveSounds.Tsukiyomi_Journey },
+//         { StarsAboveAudio.Tsukiyomi_Stronger, StarsAboveSounds.Tsukiyomi_Stronger },
+//         { StarsAboveAudio.Tsukiyomi_Insignificant, StarsAboveSounds.Tsukiyomi_Insignificant },
+//         { StarsAboveAudio.Tsukiyomi_TakeThisOutside, StarsAboveSounds.Tsukiyomi_TakeThisOutside },
+//         { StarsAboveAudio.Tsukiyomi_ThousandStars, StarsAboveSounds.Tsukiyomi_ThousandStars },
+//         { StarsAboveAudio.Tsukiyomi_CarianDarkMoon, StarsAboveSounds.Tsukiyomi_CarianDarkMoon },
+//         { StarsAboveAudio.Tsukiyomi_BuryTheLight, StarsAboveSounds.Tsukiyomi_BuryTheLight },
+//         { StarsAboveAudio.Tsukiyomi_TheOnlyThingIKnowForReal, StarsAboveSounds.Tsukiyomi_TheOnlyThingIKnowForReal },
+//         { StarsAboveAudio.Tsukiyomi_VoiceOfTheOutbreak, StarsAboveSounds.Tsukiyomi_VoiceOfTheOutbreak },
+//         { StarsAboveAudio.Tsukiyomi_ShadowlessCerulean, StarsAboveSounds.Tsukiyomi_ShadowlessCerulean },
+//         { StarsAboveAudio.Tsukiyomi_DeathInFourActs, StarsAboveSounds.Tsukiyomi_DeathInFourActs },
+//         { StarsAboveAudio.Tsukiyomi_CaesuraOfDespair, StarsAboveSounds.Tsukiyomi_CaesuraOfDespair },
+//         { StarsAboveAudio.Tsukiyomi_StygianNymph, StarsAboveSounds.Tsukiyomi_StygianNymph },
+//         { StarsAboveAudio.Tsukiyomi_MementoMuse, StarsAboveSounds.Tsukiyomi_MementoMuse },
+//         { StarsAboveAudio.Tsukiyomi_LuminaryWand, StarsAboveSounds.Tsukiyomi_LuminaryWand },
+//         { StarsAboveAudio.Tsukiyomi_Takonomicon, StarsAboveSounds.Tsukiyomi_Takonomicon },
+//         { StarsAboveAudio.Tsukiyomi_KeyOfTheKingsLaw, StarsAboveSounds.Tsukiyomi_KeyOfTheKingsLaw },
+//         { StarsAboveAudio.Penthesilea_AlrightMyTurn, StarsAboveSounds.Penthesilea_AlrightMyTurn },
+//         { StarsAboveAudio.Penthesilea_HandsOn, StarsAboveSounds.Penthesilea_HandsOn },
+//         { StarsAboveAudio.Penthesilea_HelloLittlePaintbrush, StarsAboveSounds.Penthesilea_HelloLittlePaintbrush },
+//         { StarsAboveAudio.Penthesilea_IDontThinkYoullLikeWhatComesNext, StarsAboveSounds.Penthesilea_IDontThinkYoullLikeWhatComesNext },
+//         { StarsAboveAudio.Penthesilea_MoreWhereThatCameFrom, StarsAboveSounds.Penthesilea_MoreWhereThatCameFrom },
+//         { StarsAboveAudio.Penthesilea_QuicklyNow, StarsAboveSounds.Penthesilea_QuicklyNow },
+//         { StarsAboveAudio.Penthesilea_RainButPrettier, StarsAboveSounds.Penthesilea_RainButPrettier },
+//         { StarsAboveAudio.Penthesilea_TooMuchColor, StarsAboveSounds.Penthesilea_TooMuchColor },
+//         { StarsAboveAudio.Penthesilea_WhatColor, StarsAboveSounds.Penthesilea_WhatColor },
+//         { StarsAboveAudio.Penthesilea_WouldntItBeSoFunny, StarsAboveSounds.Penthesilea_WouldntItBeSoFunny },
+//         { StarsAboveAudio.Penthesilea_WrappedThingsUp, StarsAboveSounds.Penthesilea_WrappedThingsUp },
 //     };
 //     
 //     public bool IsLoadingEnabled(Mod mod)
 //     {
-//         return ModInstances.StarsAbove != null && TranslationHelper.IsRussianLanguage;
+//         return ModInstances.StarsAbove != null && TRuConfig.Instance.StarsAboveLocalization && TranslationHelper.IsRussianLanguage;
 //     }
 //
 //     public void Load(Mod mod)

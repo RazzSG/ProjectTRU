@@ -4,6 +4,7 @@ using System.Reflection;
 using CalamityMod;
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
+using CalamityRuTranslate.Core.Config;
 using CalamityRuTranslate.Core.MonoMod;
 using Terraria;
 
@@ -11,7 +12,7 @@ namespace CalamityRuTranslate.Mods.CalamityMod.MonoMod;
 
 public class CalamityUtilsPatch : OnPatcher
 {
-    public override bool AutoLoad => ModInstances.Calamity != null && TranslationHelper.IsRussianLanguage;
+    public override bool AutoLoad => ModInstances.Calamity != null && TRuConfig.Instance.CalamityModLocalization && TranslationHelper.IsRussianLanguage;
 
     public override MethodInfo ModifiedMethod => typeof(CalamityUtils).GetCachedMethod(nameof(CalamityUtils.GenerateRandomAlphanumericString));
 

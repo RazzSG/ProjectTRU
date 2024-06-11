@@ -422,5 +422,24 @@ public partial class CalamityModGlobalItem
                 _ => tooltip.Text
             };
         });
+        
+        ItemHelper.TranslateTooltip(tooltips, "Equipable", tooltip =>
+        {
+            if (item.type is ItemID.GrapplingHook or ItemID.AmethystHook or ItemID.SquirrelHook or ItemID.TopazHook
+                or ItemID.SapphireHook or ItemID.EmeraldHook or ItemID.RubyHook or ItemID.AmberHook
+                or ItemID.DiamondHook or ItemID.WebSlinger or ItemID.SkeletronHand or ItemID.SlimeHook
+                or ItemID.FishHook or ItemID.IvyWhip or ItemID.BatHook or ItemID.CandyCaneHook or ItemID.DualHook
+                or ItemID.WormHook or ItemID.TendonHook or ItemID.IlluminantHook or ItemID.ThornHook
+                or ItemID.AntiGravityHook or ItemID.SpookyHook or ItemID.ChristmasHook or ItemID.LunarHook
+                or ItemID.StaticHook or ItemID.QueenSlimeHook)
+            {
+                tooltip.Text = tooltip.Text
+                    .Replace("Reach", "Дальность")
+                    .Replace("tiles", "блоков")
+                    .Replace("Launch Velocity", "Скорость вылета")
+                    .Replace("Reelback Velocity", "Скорость возврата")
+                    .Replace("Pull Velocity", "Скорость притягивания");
+            }
+        });
     }
 }

@@ -105,24 +105,24 @@
 #
 #    Astrologian: {
 #        WizardDialogue: Не знаю, что и думать о {0}. Косплеер, как ни крути... волшебства от него не ждёшь... а тут на тебе!..
-#        FirstDialogue: Salulations, friend. My collection magecraft has led me to you- I see you've found a celestial relic. If you are willing to part with some coin, a portion of my collection can be yours- or, I can also sell you the means to utilize it.
+#        FirstDialogue: Приветствую, друг мой. Моя страсть к изучению магических реликвий привела меня к тебе... Вижу, тебе удалось найти неземную реликвию. Если готов расстаться с монетами, часть моей коллекции может стать твоей... или же я могу продать тебе знания для её использования.
 #        StandardDialogue1: Похоже, я на грани банкротства.
 #        StandardDialogue2: Похоже, сегодня меня ждёт неудача. Или, может быть, наоборот, удача? Вот бы мне увидеть получше.
 #        StandardDialogue3: Тебя интересуют Астры? Это общеизвестный феномен, но их влияние на мир по большей части уже стало частью истории. Странно, что ты спрашиваешь.
 #        StandardDialogue4: В мире астрологии недостаточно просто ориентироваться в знаках зодиака и созвездиях. Для истинного понимания этой науки требуются глубокие познания в магии и науке.
-#        StandardDialogue5: I collect and categorize celestial relics. You most likely are not interested in the majority of them.
-#        StandardDialogue6: Yes, things are expensive- that's just how it is. How am I to buy anything?
+#        StandardDialogue5: Я коллекционирую и каталогизирую неземные реликвии. Скорее всего, большинство из них тебя не заинтересует.
+#        StandardDialogue6: Да уж, цены нынче кусаются... ну, что поделать. Как тут вообще что-то купить?
 #        BloodMoon: Хм, небесное тело неизвестной природы, по всей видимости, оказывает влияние на нашу луну. Вот досада.
-#        Party: Yeah, right. I'm not going outside, but I will partake in the food.
-#        Graveyard: Where in the world is all this accursed fog coming from?
+#        Party: Да ладно тебе. На улицу я ни ногой, но поесть нахаляву не откажусь.
+#        Graveyard: Откуда, во имя всех богов, взялся весь этот проклятый туман?
 #        StrangePotion: Странное зелье
-#        ThespianNotReadyCorruption: I have something you may be interested in, but you must prepare better. How about dealing with the issues in the Corruption first?
-#        ThespianNotReadyCrimson: I have something you may be interested in, but you must prepare better. How about dealing with the issues in the Crimson first?
-#        ThespianReady: Here's something you might take interest with: this potion has a magical trace I've never once encountered before- very powerful. It does no good languishing in my stockpile, so take it before I change my mind.
-#        RareDialogue1: Haha, you say I resemble other members of my profession? Have you ever considered... they're also me?
-#        RareDialogue2: Have you guessed? Yes, I'm faekin- a faerie. No, I don't do magic tricks.
-#        AstralDialogue: I can sense the Astral Aspect upon you- if you were not aware, 'aspect' is a misnomer. In fact, being Astral aspected is more of a polarity. How you are aspected itself is a wonder... You must be hiding something.
-#        UmbralDialogue: I can sense the Umbral Aspect upon you- if you were not aware, 'aspect' is a misnomer. In fact, being Umbral aspected is more of a polarity. How you are aspected itself is a wonder... You must be hiding something.
+#        ThespianNotReadyCorruption: У меня есть кое-что, что тебя заинтересует, но сначала тебе нужно подготовиться. Может, сначала разберешься с проблемами в искажении?
+#        ThespianNotReadyCrimson: У меня есть кое-что, что тебя заинтересует, но сначала тебе нужно подготовиться. Может, сначала разберешься с проблемами в багрянце?
+#        ThespianReady: Возможно, это тебя заинтересует: в этом зелье есть магический след, с которым я никогда не сталкивалась ранее... невероятно мощный. Пропадать ему без дела ни к чему, так что бери, пока я не передумала.
+#        RareDialogue1: Ха-ха, ты говоришь, что я напоминаю других людей моей профессии? А ты не задумывался... что они тоже могут быть мной?
+#        RareDialogue2: Догадался? Да, я идентифицирую себя как... фею. И нет, я не занимаюсь магическими фокусами.
+#        AstralDialogue: Я ощущаю в тебе Астральный аспект... знаешь, 'аспект' - не совсем подходящее слово. На самом деле, быть носителем Астрального аспекта - это как обладать полярностью. Сам факт, что ты обладаешь этим аспектом, - уже удивительно... Ты явно что-то скрываешь.
+#        UmbralDialogue: Я ощущаю в тебе Теневой аспект... знаешь, 'аспект' - не совсем подходящее слово. На самом деле, быть носителем Теневого аспекта - это как обладать полярностью. Сам факт, что ты обладаешь этим аспектом, - уже удивительно... Ты явно что-то скрываешь.
 #    }
 #}
 #
@@ -413,18 +413,18 @@
 #        }
 #
 #        Catharsis: {
-#            Name: "[c/C2BDFF:Ранг 1] [c/FFEED1:'Catharsis']"
-#            Description: When health is reduced through any means, deal damage to all nearby foes based on 20% of the damage of your current held weapon.
+#            Name: "[c/C2BDFF:Ранг 1] [c/FFEED1:'Катарсис']"
+#            Description: При снижении здоровья любым способом, насосит урон всем ближайшим врагам, равный 20% урона вашего текущего оружия.
 #        }
 #
 #        FabledFashion: {
-#            Name: "[c/C2BDFF:Ранг 1] [c/FFEED1:'Fabled Fashion']"
-#            Description: Equipped vanity armor is treated as if it is normal armor (Set bonuses do not apply.) Outgoing damage is reduced by 50%, defense is reduced by 50%, and maximum health is reduced by 150.
+#            Name: "[c/C2BDFF:Ранг 1] [c/FFEED1:'Легендарная мода']"
+#            Description: Экипированная броня в слот крашений воспринимается как обычная броня (бонусы комплектов не работают). Снижает наносимый урон и защиту на 50%, а максимальный запас здоровья на 150.
 #        }
 #
 #        KineticConversion: {
-#            Name: "[c/C2BDFF:Ранг 1] [c/FFEED1:'Kinetic Conversion']"
-#            Description: A portion of movement velocity is added to outgoing damage. Gain brief Invincibility when dashing or moving quickly. (40 second cooldown.)
+#            Name: "[c/C2BDFF:Ранг 1] [c/FFEED1:'Кинетическое преобразование']"
+#            Description: Часть скорости движения добавляется к наносимому урону. Даёт кратковременную неуязвимость при рывке или быстром перемещении (перезарядка 40 секунд).
 #        }
 #
 #        KiTwinburst: {
@@ -472,7 +472,7 @@
 #
 #        AstralMantle: {
 #            Name: "[c/9C4FFF:Ранг 2] [c/FFD792:'Астральная мантия']"
-#            Description: 1/10th of current Mana is added to Defense (Max 5% of current Max HP.) Gain 5 Stellar Nova Energy Regeneration above 200 Mana.
+#            Description: 1/10 часть от текущего запаса маны добавляется к защите (максимум 5% от текущего максимального запаса здоровья) Кроме того, вы получаете 5 единиц восстановления энергии Астроновы при наличии более 200 маны.
 #            Unlock: "[c/9D9D9D:Заблокировано:] Одолейте всех механических боссов"
 #        }
 #
@@ -615,25 +615,25 @@
 #    WeaponDialogue: {
 #        Skeleton: {
 #            Asphodene: {
-#                Name: Skeletron Weapon Dialogue
+#                Name: Диалог об оружии Скелетрона
 #                Description: Даёт эссенцию
-#                1: Here's another Essence you can use. It'll make a Ranged-type weapon with unique properties. Something tells me it's cursed, so..
-#                2: Good luck! Let it be known I did warn you.
+#                1: Вот ещё одна эссенция, которую ты можешь использовать. С её помощью ты сможешь создать стрелковое оружие с уникальными свойствами. Чутье подсказывает мне, что оно проклято, так что...
+#                2: Удачи! Не говори потом, что я тебя не предупреждала.
 #            }
 #            Eridani: {
-#                Name: Skeletron Weapon Dialogue
+#                Name: Диалог об оружии Скелетрона
 #                Description: Даёт эссенцию
-#                1: Here's a Ranged-type essence. It looks like every fourth shot has increased offensive properties. Whatever the reason, it's powerful.
+#                1: Вот тебе эссенция для оружия стрелкового типа. Особенность в том, что каждый четвёртый выстрел наносит увеличенный урон. Непонятно, почему так, но штука мощная.
 #            }
 #        }
 #        Underworld: {
 #            Asphodene: {
-#                Name: Underworld Weapon Dialogue
+#                Name: Диалог об оружии преисподней
 #                Description: Даёт эссенцию
-#                1: Here is another Essence for you. Looks like this fancy sewing needle has some pretty powerful movement capabilities.
+#                1: Вот ещё одна эссенция для тебя. Похоже, эта изысканная швейная игла обладает довольно мощными способностями к перемещению.
 #            }
 #            Eridani: {
-#                Name: Underworld Weapon Dialogue
+#                Name: Диалог об оружии преисподней
 #                Description: Даёт эссенцию
 #                1: Держи ещё одну эссенцию. Она предназначена для создания оружия призывного типа. Ты ведь понимаешь, что это означает?
 #
@@ -650,20 +650,20 @@
 #        }
 #        QueenBee: {
 #            Asphodene: {
-#                Name: Queen Bee Weapon Dialogue
+#                Name: Диалог об оружии Королевы пчёл
 #                Description: Даёт эссенцию
 #                1: Ещё одна эссенция для тебя. Это оружие ближнего боя, но, похоже, оно обладает собственным разумом?..
 #            }
 #            Eridani: {
-#                Name: Queen Bee Weapon Dialogue
+#                Name: Диалог об оружии Королевы пчёл
 #                Description: Даёт эссенцию
-#                1: I have quite the unique Essence for you. It looks to be a chainsaw imbued with the strength of a dog god... Or so it seems.
-#                2: Whatever it may be, it should prove useful to you. You'd probably be better off ignoring the fact that it talks.
+#                1: У меня для тебя кое-что уникальное. Похоже, это бензопила, наделённая силой собачьего бога... Или что-то в этом роде.
+#                2: Как бы там ни было, это тебе пригодится. Советую не обращать внимания на то, что она разговаривает.
 #            }
 #        }
 #        KingSlime: {
 #            Asphodene: {
-#                Name: King Slime Weapon Dialogue
+#                Name: Диалог об оружии Короля слизней
 #                Description: Даёт эссенцию
 #                1: Вот ещё одна эссенция для тебя. Это огненный меч относится к магическому типу. Похоже, он взрывается, когда достаточно заряжен.
 #
@@ -673,20 +673,20 @@
 #                }
 #            }
 #            Eridani: {
-#                Name: King Slime Weapon Dialogue
+#                Name: Диалог об оружии Короля слизней
 #                Description: Даёт эссенцию
-#                1: I've gotten an Essence for you. This one will create a Magic-type weapon. Apparently, proper timing is needed to better utilize this weapon.
-#                2: I have no doubts you can get a handle on it easily. My apologies, saying 'no doubts' would be a lie. Maybe 1/4th of a doubt.
+#                1: Я получила для тебя эссенцию. Она предназначена для создания оружия магического типа. Похоже, для лучшего использования этого оружия нужно правильно подобрать момент.
+#                2: Не сомневаюсь, что ты легко с этим справишься. Прости, говорить 'не сомневаюсь' было бы ложью. Возможно, у меня есть четверть сомнения.
 #            }
 #        }
 #        WallOfFlesh: {
 #            Asphodene: {
-#                Name: Wall of Flesh Weapon Dialogue
+#                Name: Диалог об оружии Стены плоти
 #                Description: Даёт эссенцию
-#                1: An Essence is here for your use. It looks to be a rather powerful melee weapon... and rather cold. Do you have any spare gloves?
+#                1: Рядом с тобой лежит Эссенция. Судя по всему, это довольно мощное оружие ближнего боя... и довольно холодное. Есть у тебя свободные перчатки?
 #            }
 #            Eridani: {
-#                Name: Wall of Flesh Weapon Dialogue
+#                Name: Диалог об оружии Стены плоти
 #                Description: Даёт эссенцию
 #                1: This Magic Essence channels void energies to empower you with unique attacks, but don't get too attached. Void stuff is always dangerous.
 #            }
@@ -1492,14 +1492,14 @@
 #
 #        Chronoclock: {
 #            Asphodene: {
-#                Name: Chronoclock Weapon Dialogue
+#                Name: Диалог об оружии Хроночасы
 #                Description: Даёт эссенцию
 #                1: This watch is a Summon-type weapon- looks like it'll call forth a cute time-aspected ally. She'll help with support if you can work with her combat style.
 #                2: Hmm... Perhaps you could even use it to dodge incoming attacks...?
 #            }
 #
 #            Eridani: {
-#                Name: Chronoclock Weapon Dialogue
+#                Name: Диалог об оружии Хроночасы
 #                Description: Даёт эссенцию
 #                1: This Summon-type weapon conjures a rather charming time-aspected being. She'll help with both offensive and defensive duties.
 #            }
@@ -2380,17 +2380,17 @@
 #
 #        Deerclops: {
 #            Asphodene: {
-#                Name: Deerclops Dialogue
+#                Name: Диалог о Циклоп-олене
 #                Description: ""
-#                1: Okay, we've taken care of that strange abomination. I have no idea where it even came from.
-#                2: Why did it even attack us? Was it trying not to starve? Huh.
+#                1: Ну что ж, мы покончили с этим странным уродцем. Понятия не имею, откуда он вообще взялся.
+#                2: Почему он на нас напал? Он что, пытался не умереть с голоду? Кто ж его знает.
 #            }
 #
 #            Eridani: {
-#                Name: Deerclops Dialogue
+#                Name: Диалог о Циклоп-олене
 #                Description: ""
-#                1: Great work- you've defeated that strange deer thing.
-#                2: It was a little terrifying, but luckily it seems its previous prey was confined to the ground. Looks like we had home turf advantage here.
+#                1: Отлично сработано... ты победил это странное оленеобразное существо.
+#                2: Было жутковато, но, к счастью, оно похоже не нападало на тех, кто находился в воздухе. Видимо, наше поле боя ей не подошло.
 #            }
 #        }
 #
@@ -2409,10 +2409,10 @@
 #            Eridani: {
 #                Name: Диалог о Театрале
 #                Description: ""
-#                1: Looks like you came out of that fight with Thespian in one piece. What a curious phenomenon.
+#                1: Смотри-ка, ты выбрался из схватки с Театралом в целости и сохранности. Какое любопытное явление.
 #
 #                2: {
-#                    $parentVal: An alchemist reanimated by a clown that only appears at night time. Hey, am I missing a punchline here?
+#                    $parentVal: Алхимика оживил клоун, который появляется лишь под покровом ночи. Что-то не пойму, в чём подвох?
 #                    E: Worried
 #                }
 #            }
@@ -2513,7 +2513,7 @@
 #
 #        SlimeGod: {
 #            Asphodene: {
-#                Name: Slime God Dialogue
+#                Name: Диалог о Боге слизней
 #                Description: ""
 #                1: The Slime God is no more! It turns out that those huge red and purple slimes weren't actually part of the Slime God, but just strong minions.
 #
@@ -2534,11 +2534,11 @@
 #            }
 #
 #            Eridani: {
-#                Name: Slime God Dialogue
+#                Name: Диалог о Боге слизней
 #                Description: ""
-#                1: Finally. The Slime God has been slain. Of course, this doesn't mean the end of slime as we know it. Seriously, they're just everywhere.
-#                2: I'm pretty sure they can split to make more. ...I'm no expert on the etymology of slimes or anything.
-#                3: It couldn't be a bad way to pass the time, though. Maybe I'll do some light reading.
+#                1: Ну наконец-то. Бог слизней повержен. Разумеется, это не значит, что слизней больше не будет. Серьёзно, их по-прежнему везде пруд пруди.
+#                2: Я почти уверена, что они способны размножаться делением. ...Хотя я не эксперт по слизням или их этимологии.
+#                3: Изучение этой темы может стать интересным способом скоротать время. Может, даже почитаю что-нибудь об этом.
 #            }
 #        }
 #
@@ -3376,10 +3376,10 @@
 #            Asphodene: {
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
-#                1: From looking at her, you probably get the impression that Eridani is a bit of a "honor student" type, right?
+#                1: Глядя на Эридани, сразу думаешь, что она 'прилежная ученица', верно?
 #
 #                2: {
-#                    $parentVal: Think again! She does whatever the heck she wants most of the time. Luckily she still has her moral compass, or I'd set her straight!
+#                    $parentVal: Но не тут-то было! В действительности она поступает как ей заблагорассудится. Благо, хоть совесть у неё осталась, а то я бы ей задала трёпку!
 #                    E: Smug
 #                }
 #            }
@@ -3388,11 +3388,11 @@
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
 #                1: {
-#                    $parentVal: Asphodene is technically the older one... but I bet you couldn't tell.
+#                    $parentVal: Технически, Асфодена старше... но по ней этого не скажешь.
 #                    E: Thinking
 #                }
 #
-#                2: She has that sort of air about her. No, I wouldn't say childlike- more like... chaotic? Yes, chaotic.
+#                2: В ней есть что-то такое... эдакое. Нет, не детское, а скорее... бунтарское? Да, бунтарское.
 #            }
 #        }
 #
@@ -3440,17 +3440,17 @@
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
 #                1: {
-#                    $parentVal: Things that I dislike? Let's see...
+#                    $parentVal: Что мне не нравится? Дай подумать...
 #                    E: Thinking
 #                }
 #
 #                2: {
-#                    $parentVal: I hate being weak, but being too strong makes things boring, which isn't what I want either. You get it, right?
+#                    $parentVal:  Я терпеть не могу быть слабой, но и быть слишком сильной тоже скучно, а это не то, чего я хочу. Понимаешь, да?
 #                    E: Worried
 #                }
 #
 #                3: {
-#                    $parentVal: Oh, I also really don't like being sick, but who does?
+#                    $parentVal: О, и ещё я очень не люблю болеть, ну а кто любит?
 #                    E: Angry
 #                }
 #            }
@@ -3476,15 +3476,15 @@
 #            Asphodene: {
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
-#                1: My hobbies, huh. Well, I collect knicknacks from the places I visit. That's cool, right?
+#                1: Мои увлечения, хм. Ну, я собираю разные вещицы из мест, где побывала. Необычно, правда?
 #
 #                2: {
-#                    $parentVal: I also, uh, try to create new weapons. Most of them are a little volatile, but I am getting better!
+#                    $parentVal: А ещё я, э-э, пробую создавать новое оружие. Пока что не без происшествий, но я совершенствуюсь!
 #                    E: Thinking
 #                }
 #
 #                3: {
-#                    $parentVal: I also play the piano! Not great, but... It's a step by step process. When I mean step by step, I really mean it.
+#                    $parentVal: Иногда играю на пианино. Не профессионально, конечно, но... как говорится, всё приходит со временем.
 #                    E: Happy
 #                }
 #            }
@@ -3561,14 +3561,14 @@
 #    PromptDialogue: {
 #        Asphodene: {
 #            onPoison: {
-#                1: Looks like you've been poisoned. I'll send you a get well card.
-#                2: Poison, huh? Perhaps a glass of milk would... Never mind.
+#                1: Похоже, тебя отравили. Я отправлю тебе открытку с пожеланиями скорейшего выздоровления.
+#                2: Отрава, значит? А может, стаканчик молока... Ладно, забудь.
 #                3: You look sick- but I guess you don't need me to say that.
 #                4: If you have an antidote, now's the time...
 #            }
 #
 #            onIchor: {
-#                1: It looks like your defenses are lowered! Be careful.
+#                1: Похоже, твоя защита ослабла! Будь осторожен.
 #                2: That substance is weakening your armor- don't get caught unaware.
 #                3: Eww, you've been covered in Ichor. Mind your health.
 #            }
@@ -4197,7 +4197,7 @@
 #                    12: На этом всё. Мне нужно продолжать следить за Первым звездоносцем. Удачи. Скоро ты мне понадобишься.
 #                    13: Я понимаю, что он одиночка, но... Мне жаль, что мы не смогли больше поговорить. Береги себя, Персей. Хотя я не могу отделаться от мысли, что он что-то от меня скрывает. Не я одна?
 #                    14: И ведь он был прав. Я действительно чувствую себя сильнее... и волосы стали роскошными! Эта сила станет настоящим благом в будущем.
-#                    15: Похоже, моя Астронова называется 'Прототокия Астер'. Интересно, а нам откроются другие, когда мы одолеем более могущественных врагов?
+#                    15: Похоже, моя Астронова называется Прототокия Астер. Интересно, а нам откроются другие, когда мы одолеем более могущественных врагов?
 #                    16: Как только назначишь клавишу 'Астроновы' сможешь экипировать её через пространственный диск, как и раньше.
 #                    17: Должно быть, у тебя уже есть несколько призматических ядер. Думаю, с их помощью ты можешь улучшать Астроновы во время ремесла.
 #                    18: Это очень важно. Для применения Астроновы необходима энергия. Она накапливается в бою и тратится вне боя.
@@ -4227,7 +4227,7 @@
 #                    11: Я уже передал ей свою силу, как только ты победил в нашем поединке.
 #                    12: На этом всё. Мне нужно продолжать следить за Первым звездоносцем. Удачи. Скоро ты мне понадобишься.
 #                    13: Персей не из тех, кто предпочитает задерживаться. Мне кажется, он что-то утаивал от меня... В любом случае, эта сила поражает воображение, но мне нужно привыкнуть к ней.
-#                    14: Моя Астронова носит название 'Прототокия Астер'. Может быть, когда мы станем сильнее, то сможем использовать и другие.
+#                    14: Моя Астронова носит название Прототокия Астер. Может быть, когда мы станем сильнее, то сможем использовать и другие.
 #                    15: Как только назначишь клавишу 'Астроновы' сможешь экипировать её через пространственный диск, как и раньше.
 #                    16: Используя призматические ядра, ты можешь создавать улучшения для Астронов. Установка этих улучшений осуществляется прямо в меню.
 #                    17: Не забывай: чтобы воспользоваться Астроновой, тебе нужна энергия Астроновы. Накапливать её можно только в бою.
@@ -4368,15 +4368,15 @@
 #
 #            19: {
 #                Dialogue: {
-#                    0: My eyes betrayin' me? A landwalker and a... familiar, all the way out'n deep space?
-#                    1: You're one to talk! If you weren't aware, you're glowing BRIGHT BLUE. Also, I kind of take offense to the term familiar...
-#                    2: "'Pologies, not tryin' to start anythin'- Anywho, never met'n a lumenkin before, eh? Now that's a sparker. Name's... uh... Yojimbo."
-#                    3: Settin' aside your magical companion, I'm thinkin' you hail from somewhere nearby... Guess the Ardor ain't cleared this region fully yet.
-#                    4: "'ell, this'll be ash. Contracts out here are already a chore, so if you plan on gettin' in the way, it'd be makin' my job a great deal harder."
-#                    5: No, we weren't planning on fighting you... Actually, if you have any help you can offer, we'll take it.
-#                    6: Do I seriously give off the impression that I'd be givin' you a hand? Good, because I'm feelin' mighty generous this time.
-#                    7: If you're really in the business of needin' help, next time you see me I'll give you a few pointers to stayin' sharp out 'ere.
-#                    8: I'm feelin' like I've just gone an' made a huge mistake. Why am I the sort to keep doin' this to myself?
+#                    0: Неужели мне мерещится? Землянин и... фамильяр, аж из глубин космоса?
+#                    1: Тебе ли говорить! Если ты не в курсе, то сам светишься ЯРКО-СИНИМ. И вообще, меня немного задевает слово фамильяр...
+#                    2: Извини, не хотел ссориться... В общем, ты никогда раньше не встречал люменкинов, да? Вот это да. Меня зовут... э-э... Йодзимбо.
+#                    3: Если не брать в расчёт твою магическую спутницу, полагаю, ты родом откуда-то поблизости... Похоже, Ардор ещё не полностью охватил этот регион.
+#                    4: Слушайте, времени в обрез. Тут и так с контрактами мороки хватает, так что если собираетесь вставь у меня на пути, то только усложните мне работу.
+#                    5: Нет, мы не собирались с тобой драться... Вообще-то, если можешь помочь, мы не против.
+#                    6: Я серьёзно выгляжу как тот, кто станет вам помогать? Хорошо, потому что на этот раз я, можно сказать, сама доброта.
+#                    7: Если вам действительно нужна помощь, то в следующий раз, когда увидимся, я дам вам пару советов, как выжить в этих краях.
+#                    8: Вот чёрт, похоже, я только что совершил огромную ошибку. Зачем я постоянно ввязываюсь в подобное?
 #                }
 #
 #                Choices: {
@@ -4387,15 +4387,15 @@
 #
 #            20: {
 #                Dialogue: {
-#                    0: My eyes betrayin' me? A human and a... familiar, all the way out'n deep space?
-#                    1: First off, I am NOT a familiar. Secondly, if you're what this region calls normal, this galaxy is much more exotic than I thought.
-#                    2: "'Pologies, not tryin' to start anythin'- Anywho, never met'n a lumenkin before, eh? Now that's a sparker. Name's... uh... Yojimbo."
-#                    3: Settin' aside your magical companion, I'm thinkin' you hail from somewhere nearby... Guess the Ardor ain't cleared this region fully yet.
-#                    4: "'ell, this'll be ash. Contracts out here are already a chore, so if you plan on gettin' in the way, it'd be makin' my job a great deal harder."
-#                    5: Well, I certainly wasn't gunning for a fight. On the other hand, we'll accept any offer of assistance you can provide.
-#                    6: Do I seriously give off the impression that I'd be givin' you a hand? Good, because I'm feelin' mighty generous this time.
-#                    7: If you're really in the business of needin' help, next time you see me I'll give you a few pointers to stayin' sharp out 'ere.
-#                    8: I'm feelin' like I've just gone an' made a huge mistake. Why am I the sort to keep doin' this to myself?
+#                    0: Неужели мне мерещится? Человек и... фамильяр, аж из глубин космоса?
+#                    1: Во-первых, я НЕ фамильяр. А во-вторых, если тебя здесь считают нормальным, то эта галактика гораздо более необычна, чем я предполагала.
+#                    2: Извини, не хотел ссориться... В общем, ты никогда раньше не встречал люменкинов, да? Вот это да. Меня зовут... э-э... Йодзимбо.
+#                    3: Если не брать в расчёт твою магическую спутницу, полагаю, ты родом откуда-то поблизости... Похоже, Ардор ещё не полностью охватил этот регион.
+#                    4: Слушайте, времени в обрез. Тут и так с контрактами мороки хватает, так что если собираетесь вставь у меня на пути, то только усложните мне работу.
+#                    5: Что ж, я точно не собиралась затевать драку. Но, с другой стороны, мы будем рады любой помощи, которую ты можешь предложить.
+#                    6: Я серьёзно выгляжу как тот, кто станет вам помогать? Хорошо, потому что на этот раз я, можно сказать, сама доброта.
+#                    7: Если вам действительно нужна помощь, то в следующий раз, когда увидимся, я дам вам пару советов, как выжить в этих краях.
+#                    8: Вот чёрт, похоже, я только что совершил огромную ошибку. Зачем я постоянно ввязываюсь в подобное?
 #                }
 #
 #                Choices: {
@@ -4502,17 +4502,17 @@
 #
 #            101: {
 #                Dialogue: {
-#                    0: You'd be interested in the Empire, I'd wager. Good, 'cause I'll spare a moment for a chat.
-#                    1: In terms of big ol' space empires, ours, Mare Luminis, ain't that bad- if you're human.
-#                    2: They tolerate xenos and such, but you'd never find yourself safe 'n the inner system.
-#                    3: Are they in the business o' snuffin' lives? Nah, but you'd be booted to a rimworld faster than a ray o' light.
-#                    4: Outside the inner system, you'd best believe thing's be different. Nobody's feedin' their family without workin' with the xenos.
-#                    5: Sure, the Empire's gotten themselves an ol' no-tolerance party, but patrols ain't turnin' down bribes, last time I did some checkin'.
-#                    6: Their tech is is a right marvel, an' the inner system is paradise made real 'n all, but I ain't interested.
-#                    7: "'Course, there are xenos who ARE innta that sort, and humans sidin' with 'em, to boot. Even heard the crown prince is on their side."
-#                    8: All that nonsense is deep within First Region turf, an' like I said earlier, best I'd be stayin' far away- ain't passin' for a human lookin' like this, I tell ya. Tried.
-#                    9: You're human, o' course, and your flyin' princess over yonder passes for 'un, so you'd best be lookin' their way for more info- nobody'd turn you down.
-#                    10: "'Pologies, but that'd be all I've got on this one."
+#                    0: Ставлю, что тебе было бы интересно узнать об Империи. Отлично, тогда я могу немного поболтать.
+#                    1: Среди всех этих огромных космических империй, наша, Маре Люминис, не так уж плоха... по крайней мере, для людей.
+#                    2: Они терпимо относятся к ксеносам и подобным расам, однако во внутренней системе тебе вряд ли безопасно.
+#                    3: Они, конечно, не то чтобы жизни отбирают, но на задворки планеты выкинут быстрее луча света.
+#                    4: За пределами внутренней системы, поверь мне, всё обстоит иначе. Там никто не сможет накормить семью, не сотрудничая с ксеносами.
+#                    5: Да, в Империи появилась партия с политикой нулевой терпимости, но, насколько мне известно, патрули не прочь брать взятки.
+#                    6: Технологии у них поистине восхитительны, а внутренняя система – это просто рай на земле, но меня подобное не интересует.
+#                    7: Разумеется, есть ксеносы, которым это по душе, и люди, которые их поддерживают. Даже ходят слухи, что наследный принц на их стороне.
+#                    8: Все эти беспорядки происходят глубоко на территории Первого региона, и, как я уже сказал, лучше держаться подальше... с такой внешностью за человека меня не примут, уж поверь. Я пытался.
+#                    9: Ты, конечно, человек, и твоя летающая принцесса там тоже сойдёт за человека, так что тебе лучше обратиться к ним за информацией ... тебе они точно не откажут.
+#                    10: Извини, но это всё, что я знаю.
 #                }
 #
 #                Choices: {
@@ -4523,15 +4523,15 @@
 #
 #            102: {
 #                Dialogue: {
-#                    0: You'd be wantin' a better grasp of your own galaxy? Ain't your home a bit too behind them times?
-#                    1: Guess it ain't my place to start anythin'- I do go aroun' soundin' like an' old timer... Time spent in the Third Region, innit.
-#                    2: No problem. Moirae'd be probably what you'd go an' call normal- well, barrin' the Ardor.
-#                    3: The Empire segments the galaxy into three Regions, ta better keep tabs 'n the galaxy. Best believe they'd be keepin' the First Region on high watch.
-#                    4: We'd be in the Third Region, but nobody's headed to re-chart them stars with the Ardor in full force out here 'n all. They ain't stayin' still, thats for sure.
-#                    5: Anywhos, the secon' region is a big ol' mess right now. With all them xenos movin' inwards 'cause of the cold, people simply ain't got 'nuff room- who can blame 'em.
-#                    6: Nothin' major yet- and I'm no bettin' man- but there'd be no suprisin' me if a big ol' conflict sparked up soon like.
-#                    7: Will the Empire barge on in is anyone's guess, I wager. They're in their own ashpile of troubles already, with the drainin' mana too. Thing's 're lookin' bleak, but it ain't my problem.
-#                    8: All I gotta do is stay alive 'n kill monsters. I s'pose you'd call me one o' the lucky 'uns- mayhaps 'cause I just don't give 'nuff of a care.
+#                    0: Хочешь побольше узнать о своей собственной галактике? Неужели у тебя на родине всё настолько отстало?
+#                    1: Наверное, мне не стоит лезть не в свое де... Кажется, я говорю, как старый ворчун... Время, проведённое в Третьем регионе даёт о себе знать.
+#                    2: Ничего страшного. Мойра - это, наверное, то, что ты назвал бы нормальным местом... ну, за исключением Ардора.
+#                    3: Империя разделила галактику на три региона, чтобы лучше контролировать её. Поверь, за Первым регионом они следят особенно пристально.
+#                    4: Мы находимся в Третьем регионе, но никто не собирается переоткрывать здесь звёзды, пока Ардор вовсю орудует здесь. А он, уж точно, не стоит на месте.
+#                    5: В общем, сейчас Второй регион в полном беспорядке. Из-за холода все эти ксеносы лезут сюда, людям просто не хватает места... кто их осудит.
+#                    6: Пока ничего серьезного не произошло, и я не любитель делать ставки, но я не удивлюсь, если скоро вспыхнет большой конфликт.
+#                    7: Будет ли Империя вмешиваться - неизвестно. Они и так по уши в собственных проблемах, с этим высасыванием маны. Дела выглядят мрачно, но это не моя забота.
+#                    8: Моя задача - выживать и убивать монстров. Думаю, меня можно назвать одним из везунчиков... возможно, потому что мне просто наплевать.
 #                }
 #
 #                Choices: {
@@ -5115,50 +5115,55 @@
 #            }
 #
 #            Reset: {
-#                Asphodene: Желаешь ли сбросить выбранную Астронову?
+#                Asphodene: Желаешь сбросить выбранную Астронову?
 #                Eridani: Если хочешь, мы можем сбросить Астронову.
 #            }
 #        }
 #
+#        Prisms: {
+#            Asphodene: Здесь можно вставить Звёздные призмы, меняя эффекты Астроновы. Не забывай про бонусы комплекта!
+#            Eridani: Вставляй сюда Звёздные призмы для изменения эффектов Астроновы. Также не забудь про бонусы комплекта.
+#        }
+#
 #        PrototokiaAster: {
 #            Unlocked: {
-#                Asphodene: Это 'Прототокия Астер' - универсальная Астронова, накладывающая мощный дебафф.
-#                Eridani: Позволь представить 'Прототокия Астер': универсальная Астронова, накладывающая мощный дебафф.
+#                Asphodene: Представляю Прототокию Астер - универсальную Астронова, которая накладывает мощный дебафф.
+#                Eridani: А это Прототокия Астер: универсальная Астронова, способная накладывать мощный дебафф.
 #            }
 #        }
 #
 #        ArsLaevateinn: {
 #            Unlocked: {
-#                Asphodene: "'Арс Леватейн'. Если тебе нужно быстро очистить область, эта Астронова для тебя."
-#                Eridani: Эта Астронова, 'Арс Леватейн', специализируется на нанесении огромного урона в определённой области.
+#                Asphodene: Арс Леватейн. Если тебе нужно быстро зачистить местность, то эта Астронова именно для этого.
+#                Eridani: Эта Астронова, Арс Леватейн, специализируется на нанесении колоссального урона по ограниченной области.
 #            }
 #
 #            Locked: {
-#                Asphodene: Пока у нас нет к этому доступа. Похоже, нам нужно победить какого-то монарха. Но кого?..
+#                Asphodene: У нас пока нет к этому доступа. Похоже, нам нужно победить какого-то монарха. Но кого?..
 #                Eridani: Мы пока не можем это использовать. Есть предчувствие, что нам необходимо сразить 'коронованного' врага.
 #            }
 #        }
 #
 #        KiwamiRyuken: {
 #            Unlocked: {
-#                Asphodene: Мощнейшая контратака, 'Кивами Рюкен'. При точном применении твои враги будут мгновенно повержены.
-#                Eridani: Сокрушительная контратака: 'Кивами Рюкен'. Если правильно рассчитать время, можно нанести колоссальный урон за короткое время.
+#                Asphodene: Мощнейшая контратака, Кивами Рюкен. Если вовремя её применить, враги будут мгновенно повержены.
+#                Eridani: Мощнейшая контратака: Кивами Рюкен. Если правильно рассчитать время, можно нанести колоссальный урон за короткое время.
 #            }
 #
 #            Locked: {
-#                Asphodene: Пока у нас нет к этому доступа... Похоже, нам придётся сразиться с механической угрозой.
-#                Eridani: Мы пока не можем это использовать. Похоже, нам придётся сразиться с механической угрозой.
+#                Asphodene: У нас пока нет к этому доступа... Похоже, нам придётся одолеть механическую угрозу.
+#                Eridani: Мы пока не можем это использовать. Похоже, нам придётся одолеть механическую угрозу.
 #            }
 #        }
 #
 #        GardenOfAvalon: {
 #            Unlocked: {
-#                Asphodene: Влиятельная Астронова поддержки, 'Сад Авалона', наделяет могущественным исцеленим и неуязвимостью.
+#                Asphodene: Влиятельная Астронова поддержки, Сад Авалона, наделяет могущественным исцеленим и неуязвимостью.
 #                Eridani: Эта Астронова наделяет мощным постепенным исцелением, а также кратковременной неуязвимостью.
 #            }
 #
 #            Locked: {
-#                Asphodene: Пока у нас нет к этому доступа. Сперва нужно победить достаточно сильного обладателя магии...
+#                Asphodene: У нас пока нет к этому доступа. Сперва нужно победить достаточно сильного обладателя магии...
 #                Eridani: Мы пока не можем это использовать. Сперва нужно победить могущественную магическую сущность.
 #            }
 #        }
@@ -5170,27 +5175,27 @@
 #            }
 #
 #            Locked: {
-#                Asphodene: Пока у нас нет к этому доступа. Нам нужно одолеть врага, владеющего некой пространственной силой.
+#                Asphodene: У нас пока нет к этому доступа. Нам нужно одолеть врага, владеющего некой пространственной силой.
 #                Eridani: Мы пока не можем это использовать. Нам нужно одолеть врага, владеющего пространственными силами.
 #            }
 #        }
 #
 #        UnlimitedBladeWorks: {
 #            Unlocked: {
-#                Asphodene: С помощью 'Клинков бесконечный край', ты можешь создать идеальное поле боя для своих способностей.
-#                Eridani: С помощью этой Астроновы, 'Клинков бесконечный край', можно создать мощное поле усиления.
+#                Asphodene: С помощью Клинков бесконечный край, ты можешь создать идеальное поле боя для своих способностей.
+#                Eridani: С помощью этой Астроновы, Клинков бесконечный край, можно создать мощное поле усиления.
 #            }
 #
 #            Locked: {
-#                Asphodene: Пока у нас нет к этому доступа.
+#                Asphodene: У нас пока нет к этому доступа.
 #                Eridani: Мы пока не можем это использовать.
 #            }
 #        }
 #
 #        GuardiansLight: {
 #            Unlocked: {
-#                Asphodene: Мощность 'Стража света' зависит от выбранного Аспектного типа урона.
-#                Eridani: Способности 'Стража света' меняются в зависимости от выбранного Аспектного типа урона.
+#                Asphodene: Мощность Света стража зависит от выбранного Аспектного типа урона.
+#                Eridani: Способности Света стража меняются в зависимости от выбранного Аспектного типа урона.
 #            }
 #
 #            Locked: {
@@ -5201,8 +5206,8 @@
 #
 #        FireflyTypeIV: {
 #            Unlocked: {
-#                Asphodene: With this Nova, I'll be able to fight alongside you on the front lines!
-#                Eridani: This Stellar Nova grants me access to a powerful mech suit, wherein I can assist you directly.
+#                Asphodene: С этой Астроновой я смогу сражаться бок о бок с тобой на передовой!
+#                Eridani: Эта Астронова позволяет мне использовать мощный меха-костюм, в котором я смогу помогать тебе в бою.
 #            }
 #
 #            Locked: {
@@ -5216,7 +5221,7 @@
 #        PrototokiaAster: {
 #            AbilityName: Прототокия Астер
 #            AbilitySubName: "[c/C2BDFF:Безграничный звёздный клинок]"
-#            AbilityDescription: Создаёт колоссальный клинок, рассекающий врагов надвое. Позволяет повторно использовать Прототокия Астер в течение 10 секунд без дополнительных затрат. Удары накладывают дебафф «Пустотная атрофия» с огромным постепенным уроном. Второе использование удваивает мощность «Пустотной атрофии», если это возможно. Этот дебафф длится 30 секунд. Критические удары Прототокии Астер возвращают часть затраченной энергии Астроновы. Каждое использование наносит 50% урона Астроновы.
+#            AbilityDescription: Создаёт колоссальный клинок, рассекающий врагов надвое. Позволяет повторно использовать Прототокия Астер в течение 10 секунд без дополнительных затрат. Удары накладывают дебафф «Пустотная атрофия» с огромным постепенным уроном. Второе использование удваивает мощность «Пустотной атрофии», если это возможно. Длительность дебаффа зависит от длительности эффекта. Критические удары Прототокии Астер возвращают часть затраченной энергии Астроновы. Каждое использование наносит 50% урона Астроновы.
 #            AstralBonus: Вы можете использовать Прототокию Астер в 3 раз, нанося 25% урона. Это использование не накладывает «Пустотную атрофию» и не усиливает её.
 #            UmbralBonus: Второй удар Прототокии Астер не усиливает «Пустотную атрофию», но увеличивает урон игрока на 400% в течение 5 секунд.
 #        }
@@ -5224,7 +5229,7 @@
 #        ArsLaevateinn: {
 #            AbilityName: Арс Леватейн
 #            AbilitySubName: "[c/F19559:Воссияй же, о яркая пылающая звезда]"
-#            AbilityDescription: Вооружитесь пылающим большим мечом, обращая врагов в пепел. При использовании Арс Леватейна покрывает колоссальную область вокруг вас адским пламенем. Арс Леватейн пульсирует 5 раз в этой области, нанося 1/5 от общего урона с каждым ударом. В это время вы получаете бафф «{$Buffs.SurtrTwilight.DisplayName}». Пока активен этот бафф, все атаки будут поджигать врагов на 8 секунд. Если горящие враги попадают под удар Арс Леватейна, они дополнительно получают 5% урона.
+#            AbilityDescription: Вооружитесь пылающим большим мечом, обращая врагов в пепел. При использовании Арс Леватейна покрывает колоссальную область вокруг вас адским пламенем. Арс Леватейн пульсирует 5 раз в этой области, нанося 1/5 от общего урона с каждым ударом. В это время вы получаете бафф «{$Buffs.SurtrTwilight.DisplayName}». Пока активен этот бафф, все атаки будут накладывать на врагов «{$BuffName.OnFire3}» в зависимости от длительности эффекта. Если горящие враги попадают под удар Арс Леватейна, они дополнительно получают 5% урона.
 #            AstralBonus: Горящие враги получают на 5% больше урона. Если удар был критическим, горящие враги получат ещё на 5% больше урона.
 #            UmbralBonus: «{$Buffs.SurtrTwilight.DisplayName}» дополнительно увеличивает урон на 10%. Вы получаете бафф «{$BuffName.ManaRegeneration}», пока активен этот бафф.
 #        }
@@ -5232,7 +5237,7 @@
 #        KiwamiRyuken: {
 #            AbilityName: Кивами Рюкен
 #            AbilitySubName: "[c/36BDEC:Необузданная суть кулака дракона]"
-#            AbilityDescription: При использовании Кивами Рюкен на одну секунду открывается окно для получении удара, становясь при этом неуязвимым. При получении удара срабатывает контратака, наносящая невероятный урон в ближнем радиусе и направлении курсора. Однако выполнить контратаку будет невозможно, если враг находится вне зоны ближнего боя, хотя входящий урон всё равно блокируется. Если за отведённую секунду вы не подверглись атаке, 50% стоимости энергии Астроновы будет возвращено.
+#            AbilityDescription: При использовании Кивами Рюкен на одну секунду открывается окно в зависимости от длительности эффекта для получении удара, становясь при этом неуязвимым. При получении удара срабатывает контратака, наносящая невероятный урон в ближнем радиусе и направлении курсора. Однако выполнить контратаку будет невозможно, если враг находится вне зоны ближнего боя, хотя входящий урон всё равно блокируется. Если за отведённую секунду вы не подверглись атаке, 50% стоимости энергии Астроновы будет возвращено.
 #            AstralBonus: Контратака всегда наносит критический удар, если здоровье меньше 50%. При срабатывании контратаки восстанавливает 5 единиц энергии Астроновы.
 #            UmbralBonus: При срабатывании контратаки восстанавливает 40 единиц здоровья и маны. В случае неудачи дополнительно возвращает 10 единиц энергии Астроновы.
 #        }
@@ -5240,15 +5245,15 @@
 #        GardenOfAvalon: {
 #            AbilityName: Сад Авалона
 #            AbilitySubName: "[c/ECB3FC:Навеки запечатанная утопия]"
-#            AbilityDescription: Призывает Сад Авалона, наполняя мир лучистой энергией. Периодически даёт мощную регенерацию здоровья и маны в течение 8 секунд, эффект которого зависит от урона Астроновы. Даёт неуязвимость на 2 секунды. При критическом срабатывании восстанавливает здоровье, эффект которого зависит от критических показателей Астроновы. Также при критическом срабатывании даёт бафф «{$Buffs.SolemnAegis.DisplayName}» на 15 секунд, который аннулирует урон от одного удара независимо от неуязвимости.
+#            AbilityDescription: Призывает Сад Авалона, наполняя мир лучистой энергией. Периодически даёт мощную регенерацию здоровья и маны, эффект которого зависит от урона Астроновы и длительности эффекта. Даёт неуязвимость на 2 секунды. При критическом срабатывании восстанавливает здоровье, эффект которого зависит от критических показателей Астроновы. Также при критическом срабатывании даёт бафф «{$Buffs.SolemnAegis.DisplayName}» на 15 секунд, который аннулирует урон от одного удара независимо от неуязвимости.
 #            AstralBonus: Увеличивает время неуязвимости до 4 секунд, вместо 2. Мгновенно восстановливает 100 единиц здоровья при активации Сада Авалона.
-#            UmbralBonus: Даёт дополнительный бафф при активации: «{$Buffs.DreamlikeCharisma.DisplayName}» (Не складывается) «{$Buffs.DreamlikeCharisma.DisplayName}» увеличивает урон на 16%, и удваивает этот показатель при запасе маны выше 100.
+#            UmbralBonus: Даёт дополнительный бафф при активации: «{$Buffs.DreamlikeCharisma.DisplayName}» (не складывается) «{$Buffs.DreamlikeCharisma.DisplayName}» увеличивает урон на 16%, и удваивает этот показатель при запасе маны выше 100.
 #        }
 #
 #        EdinGenesisQuasar: {
 #            AbilityName: Эдин Квазарнез
 #            AbilitySubName: "[c/00FF93:Момент рождения планеты]"
-#            AbilityDescription: При использовании вы становитесь неподвижным и неуязвимым на короткий промежуток времени. Даёт бафф «{$Buffs.AstarteDriver.DisplayName}» на 25 секунд. «{$Buffs.AstarteDriver.DisplayName}» даёт бесконечный полёт и 3 Космических заряда. ВСЕ атаки во время действия «Форсажа Астарты» наследуют характеристики Астроновы. Нажатие клавиши 'Астронова' при наличии Космического заряда выпускает залп пространственных снарядов (перезарядка 2 секунды). После активации эффекта изменения характеристик, вызванного «Форсажем Астарты», цель становится неуязвимой на очень короткий промежуток времени.
+#            AbilityDescription: При использовании вы становитесь неподвижным и неуязвимым на короткий промежуток времени. Даёт бафф «{$Buffs.AstarteDriver.DisplayName}» в зависимости от длительности эффекта. «{$Buffs.AstarteDriver.DisplayName}» даёт бесконечный полёт и 3 Космических заряда. ВСЕ атаки во время действия «Форсажа Астарты» наследуют характеристики Астроновы. Нажатие клавиши 'Астронова' при наличии Космического заряда выпускает залп пространственных снарядов (перезарядка 2 секунды). После активации эффекта изменения характеристик, вызванного «Форсажем Астарты», цель становится неуязвимой на очень короткий промежуток времени.
 #            AstralBonus: Критические удары во время «Форсажа Астарты» наносят дополнительно {0} урона. Вы получаете Космический заряд при убийстве врага критическим ударом (максимум 5 зарядов).
 #            UmbralBonus: Атаки «Форсажа Астарты» мгновенно убивают любого врага, у которого осталось меньше {0} здоровья. При использовании Космического Заряда даёт неязвимость на 1 секунду.
 #        }
@@ -5256,31 +5261,31 @@
 #        UnlimitedBladeWorks: {
 #            AbilityName: Клинков бесконечный край
 #            AbilitySubName: "[c/FC643B:Проецируемая реальность из кованого железа]"
-#            AbilityDescription: Призывает портал в мир клинков, создавая поле усиления на 20 секунд. После активации обрушивает на врагов шквал клинков, снижая их урон на 10% на 20 секунд при попадании. Также, все союзники в радиусе действия получают бафф «{$Buffs.Bladeforged.DisplayName}», увеличивающий урон, отбрасывание, шанс критического удара и пробивание брони на 2%, достигая максимума 10% в зависимости от текущего запаса здоровья (максимум 500). Длительность баффа в секундах пропорциональна расходу энергии, делённому на 10.
+#            AbilityDescription: Призывает портал в мир клинков, создавая поле усиления в зависимости от длительности эффекта. После активации обрушивает на врагов шквал клинков, снижая их урон на 10% на 20 секунд при попадании. Также, все союзники в радиусе действия получают бафф «{$Buffs.Bladeforged.DisplayName}», увеличивающий урон, отбрасывание, шанс критического удара и пробивание брони на 2%, достигая максимума 10% в зависимости от текущего запаса здоровья (максимум 500). Длительность баффа в секундах пропорциональна расходу энергии, делённому на 10.
 #            AstralBonus: Порог баффа «{$Buffs.Bladeforged.DisplayName}» увеличен до 15%, и теперь он увеличивает защиту в процентном отношении до 8. Также, он остаётся активным в течение 10 секунд после окончания Астроновы.
 #            UmbralBonus: Бафф «{$Buffs.Bladeforged.DisplayName}» больше не увеличивает урон, но атакуя снарядами запускает последовательные атаки (перезарядка 3 секунды). Враги внутри поля получают на 10% больше урона.
 #        }
 #
 #        GuardiansLight: {
-#            AbilityName: Страж света
+#            AbilityName: Свет стража
 #            AbilitySubName: "[c/C0EEFF:Ясность воли странника]"
 #            AbilityDescription: {
-#                Melee: Владейте паракаузальной энергией, используя множество способностей, зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя, Золотая пушка для стрелкового, Сверх бомба для магического, Иглошторм для призывного, а в остальных случаях Молчание и Шквал. Раскат грома: После активации даёт бафф «{$Buffs.BearerOfLight.DisplayName}» на 10 секунд и летите к курсору, нанося невероятно мощный урон первому врагу, с которым столкнётесь. При активации даёт неуязвимость на 3 секунды, независимо от продолжительности атаки.
-#                Ranged: Владейте паракаузальной энергией, используя множество способностей, зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя, Золотая пушка для стрелкового, Сверх бомба для магического, Иглошторм для призывного, а в остальных случаях Молчание и Шквал. Золотая пушка: После активации даёт бафф «{$Buffs.BearerOfLight.DisplayName}» на 10 секунд, высвобождая заряды пронзающего света. Пока активен «{$Buffs.BearerOfLight.DisplayName}», можно использовать Астронову во второй раз, чтобы повторить атаку, нанося 1/3 урона. Критические удары взрываются, нанося 50% базового урона.
-#                Magic: Владейте паракаузальной энергией, используя множество способностей, зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя, Золотая пушка для стрелкового, Сверх бомба для магического, Иглошторм для призывного, а в остальных случаях Молчание и Шквал. Сверх бомба: После активации даёт бафф «{$Buffs.BearerOfLight.DisplayName}» на 10 секунд, высвобождая мощный снаряд пустоты, который преследует врагов. Через 2 секунды или при попадании во врага снаряд детонирует, образуя мощный взрыв. Поражённые взрывом враги получают дебафф «{$BuffName.ShadowFlame}» на 10 секунд.
-#                Summon: Владейте паракаузальной энергией, используя множество способностей, зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя, Золотая пушка для стрелкового, Сверх бомба для магического, Иглошторм для призывного, а в остальных случаях Молчание и Шквал. Иглошторм: После активации даёт бафф «{$Buffs.BearerOfDarkness.DisplayName}» на 10 секунд и высвобождает 5 сотканных игл. При попадании во врага или в поверхность, иглы превращаются в нитевиков и атакуют ближайших врагов (считаются миьонами). Урон делится между сотканными иглами и нитевиками.
-#                Other: Владейте паракаузальной энергией, используя множество способностей, зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя, Золотая пушка для стрелкового, Сверх бомба для магического, Иглошторм для призывного, а в остальных случаях Молчание и Шквал. Молчание и Шквал: После активации даёт бафф «{$Buffs.BearerOfDarkness.DisplayName}» на 10 секунд, а также использует Молчание, накладывая дебафф «{$BuffName.Frostburn}» на 8 секунд. Сразу после этого следует Шквал, наносящий урон и создающий морозное поле при ударе, которое наносит постепенный урон в течение 8 секунд.
+#                Melee: Владейте паракаузальной энергией, используя множество способностей, зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя, Золотая пушка для стрелкового, Сверх бомба для магического, Иглошторм для призывного, и Молчание и Шквал для прочего. Раскат грома: После активации даёт бафф «{$Buffs.BearerOfLight.DisplayName}» в зависимости от длительности эффекта и устремляет к курсору, нанося невероятно мощный урон первому врагу, с которым столкнётесь. При активации даёт неуязвимость на 3 секунды, независимо от продолжительности атаки.
+#                Ranged: Владейте паракаузальной энергией, используя множество способностей, зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя, Золотая пушка для стрелкового, Сверх бомба для магического, Иглошторм для призывного, и Молчание и Шквал для прочего. Золотая пушка: После активации даёт бафф «{$Buffs.BearerOfLight.DisplayName}» в зависимости от длительности эффекта, высвобождая заряды пронзающего света. Пока активен «{$Buffs.BearerOfLight.DisplayName}», можно использовать Астронову во второй раз, чтобы повторить атаку, нанося 1/3 урона. Критические удары взрываются, нанося 50% базового урона.
+#                Magic: Владейте паракаузальной энергией, используя множество способностей, зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя, Золотая пушка для стрелкового, Сверх бомба для магического, Иглошторм для призывного, и Молчание и Шквал для прочего. Сверх бомба: После активации даёт бафф «{$Buffs.BearerOfLight.DisplayName}» в зависимости от длительности эффекта, высвобождая мощный снаряд пустоты, преследующий врагов. Через 2 секунды или при попадании во врага снаряд детонирует, образуя мощный взрыв. Взрыв накладывает на врагов дебафф «{$BuffName.ShadowFlame}» на 10 секунд.
+#                Summon: Владейте паракаузальной энергией, используя множество способностей, зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя, Золотая пушка для стрелкового, Сверх бомба для магического, Иглошторм для призывного, и Молчание и Шквал для прочего. Иглошторм: После активации даёт бафф «{$Buffs.BearerOfDarkness.DisplayName}» в зависимости от длительности эффекта и высвобождает 5 сотканных игл. При попадании во врага или в поверхность, иглы превращаются в нитевиков и атакуют ближайших врагов (считаются миьонами). Урон делится между сотканными иглами и нитевиками.
+#                Other: Владейте паракаузальной энергией, используя множество способностей, зависящих от типа урона Аспектного оружия: Раскат грома для ближнего боя, Золотая пушка для стрелкового, Сверх бомба для магического, Иглошторм для призывного, и Молчание и Шквал для прочего. Молчание и Шквал: После активации даёт бафф «{$Buffs.BearerOfDarkness.DisplayName}» в зависимости от длительности эффекта, а также использует Молчание, накладывая дебафф «{$BuffName.Frostburn}» на 8 секунд. Сразу после этого следует Шквал, наносящий урон и создающий морозное поле при ударе, которое наносит постепенный урон в течение 8 секунд.
 #            }
 #            AstralBonus: "«{$Buffs.BearerOfLight.DisplayName}» увеличивает регенерацию здоровья. «{$Buffs.BearerOfDarkness.DisplayName}» снижает получаемый урон на 10%. При получении смертельного урона любой из баффов поглощается и восстанавливает 30 здоровья."
 #            UmbralBonus: "«{$Buffs.BearerOfLight.DisplayName}» увеличивает урон на 8%. «{$Buffs.BearerOfDarkness.DisplayName}» увеличивает шанс критического удара на 15%. Пока активен любой из этих баффов, штраф к урону аспектного типа урона не применяется."
 #        }
 #
 #        FireflyTypeIV: {
-#            AbilityName: Светлячок тип-IV
+#            AbilityName: Светлячок-IV
 #            AbilitySubName: "[c/9EF78A:В наступившем дне, я расцвету во всей красе]"
-#            AbilityDescription: After a short delay, your Starfarer dons the Chrysalid Pyronexus and assists you in battle. All attacks deal 2 separate instances of Nova damage. After foes take a certain amount of Nova damage, they will trigger Complete Combustion, dealing 15% of the foe's Max HP as bonus damage, up to 2500% Stellar Nova damage. Critical Nova strikes inflict Complete Combustion much faster, but crit damage is lower. Duration in seconds is proportional to Energy Cost divided by 8. (No Nova Energy while active)
+#            AbilityDescription: После небольшой задержки ваша Астра облачается в Кокон пламени и помогает вам в бою. Все его атаки наносят урон Астроновой дважды. Когда враги получают определённое количество урона от Астроновы, активируется Полное сгорание, наносящее бонусный урон в размере 15% от максимального запаса здоровья врага, вплоть до 2500% урона Астроновы. Критические удары Астроновы активируют Полное сгорание значительно быстрее, но их урон ниже. Время действия зависит от длительности эффекта.
 #            AstralBonus: Полное сгорание лечит на 5% от нанесённого урона, если применяется к боссу (максимум 100 здоровья за применение).
-#            UmbralBonus: Срабатывание Полного сгорания also inflicts Rout, increasing all damage inflicted on the target by 20% for 5 seconds.
+#            UmbralBonus: Срабатывание Полного сгорания также накладывает Fleeting Embers, increasing all damage inflicted on the target by 20% for 5 seconds.
 #        }
 #
 #        # Не используется
@@ -5294,6 +5299,93 @@
 #        BaseHealStrength: Базовая сила лечения
 #        HealStrength: Сила лечения
 #        CritHealStrength: Сила крит. лечения
+#        EffectDuration: Длительность эффекта
+#        NoNova: Ни одна Астронова не была выбрана.
+#    }
+#
+#    StellarPrisms: {
+#        Acquired: Получена звёздная призма!
+#        Info: Установите на Астронову, чтобы получить следующие характеристики:
+#        Damage: ✦ {0}% урон
+#        CritRate: ✦ {0}% шанс критического удара
+#        CritDamage: ✦ {0}% Критический урон
+#        EnergyCost: ✦ -{0} стоимость энергии
+#        EffectDuration: ✦ {0}с длительность эффекта
+#        SetBonusNone: Нет активного бонуса комплекта
+#
+#        ExtraSetBonus: {
+#            Alchemic: {
+#                Name: Alchemic
+#                Bonus: Inflict most negative debuffs to foes struck with the Stellar Nova (Debuffs last for 12 seconds)
+#            }
+#
+#            Castellic: {
+#                Name: Castellic
+#                Bonus: The first enemy struck with the Stellar Nova is stunned for 2 seconds, and 10% of damage dealt is spread to adjacent foes
+#            }
+#
+#            Everflame: {
+#                Name: Everflame
+#                Bonus: The Stellar Nova deals 40% increased damage to non-boss enemies, but can no longer deal critical strikes to bosses
+#            }
+#
+#            Lucent: {
+#                Name: Lucent
+#                Bonus: After damage calculation, all Stellar Nova hits become critical, but damage is reduced by 70%
+#            }
+#
+#            Phylactic: {
+#                Name: Phylactic
+#                Bonus: Upon use of the Stellar Nova, gain 50% of the Stellar Nova Gauge back after 5 seconds (4 minute cooldown)
+#            }
+#
+#            Radiant: {
+#                Name: Radiant
+#                Bonus: Critical strikes with the Stellar Nova deal an additional 5% of the foe's Max HP (Max 40,000 damage; 4 second cooldown)
+#            }
+#
+#            Refulgent: {
+#                Name: Refulgent
+#                Bonus: Upon cast of the Stellar Nova, gain 'Lightblessed', increasing defenses by 30
+#            }
+#
+#            Verdant: {
+#                Name: Verdant
+#                Bonus: При использовании Астроновы, восстанавливает 100 единиц здоровья и даёт бафф «{$BuffName.Wrath}» на 20 секунд, но вы получаете дебафф «{$Buffs.Vulnerable.DisplayName}» на это же время
+#            }
+#        }
+#
+#        Deadbloom: {
+#            Name: Настойка мёртвоцвета
+#            SetBonus1: Увеличивает урон по врагам с дебаффами на 12%
+#            SetBonus2: Увеличивает критический урон по врагам с дебаффами на 30%
+#            SetBonus3: 20% шанса критического удара добавляется к длительности эффекта
+#            FlavorTooltip: Мёртвоцветы гниют на падали только в Великом перевале, эта загадка столь же озадачивающая, сколь и любопытная.
+#        }
+#
+#        CrescentMeteor: {
+#            Name: Серповидный метеор
+#            SetBonus1: Energy cost reduction from Prisms is reversed, increasing cost
+#            SetBonus2: Возвращает 20 единиц энергии после использования Астроновы
+#            SetBonus3: Увеличивает восстановление энергии Астроновы на 25%
+#            FlavorTooltip: Серповидный метеор - это наверняка знак добрых вестей, которые грядут в галактике Мойра
+#        }
+#        
+#        LuminousHallow: {
+#            Name: Сказки былого
+#            SetBonus1: Увеличивает урон на 15% за каждую неиспользованную единицу энергии Звёздного ряда
+#            SetBonus2: Увеличивает критический урон на 25% за каждую неиспользованную единицу энергии Звёздного ряда
+#            SetBonus3: Если в Звёздном ряде нет занятой энергии, критический урон увеличивается на 300%
+#            FlavorTooltip: Легенда, ставшая явью, освящённое место известно, но никогда не отмечено на картах
+#        }
+#    
+#        DreadMechanical: {
+#            Name: Механический ритм
+#            SetBonus1: Даёт неуязвимость на 2 секунды при использовании Астроновы
+#            SetBonus2: Увеличивает время неуязвимости до 4 секунд
+#            SetBonus3: Увеличивает время неуязвимости до 10 секунд (+30 стоимости энергии)
+#            FlavorTooltip: В галактике Мойра железное сердце не считается чем-то особенным
+#        }
 #    }
 #}
 #
@@ -5412,7 +5504,7 @@
 #
 #        BossChecklistIntegration: {
 #            EntryName: Театрал, Созданный алхимией
-#            SpawnInfo: Чтобы бросить вызов этому необычному врагу, нужно расспросить Астролога о Странном зелье. Она появится в городе после того, как вы добудете воспоминание оружия или одолете Скитальца между измерениями.
+#            SpawnInfo: Чтобы бросить вызов этому необычному врагу, вам нужно будет расспросить Астролога о Странном зелье. Астролог появится в городе после того, как вы добудете воспоминание оружия или одолеете Скитальца между измерениями.
 #            DespawnMessage: ""
 #        }
 #    }
@@ -5422,7 +5514,7 @@
 #
 #        BossChecklistIntegration: {
 #            EntryName: Диоскуры, Близнецы-воители
-#            SpawnInfo: Чтобы победить этих демонических близнецов необходимо использовать предмет {$Items.TwincruxPendant.DisplayName}, который выпадает после победы над Скелетроном (Скиталец между измерениями должен быть побеждён).
+#            SpawnInfo: Чтобы победить этих демонических близнецов необходимо использовать [i:StarsAbove/TwincruxPendant], который выпадает после победы над Скелетроном (Скиталец между измерениями должен быть побеждён).
 #            DespawnMessage: ""
 #        }
 #    }
@@ -5432,7 +5524,7 @@
 #
 #        BossChecklistIntegration: {
 #            EntryName: Пентесилея, Ведьма чернил
-#            SpawnInfo: Чтобы противостоять этому грозному врагу, используйте предмет {$Items.UnsulliedCanvas.DisplayName}, который вам передала ваша Астра после победы над Близнецами (Скиталец между измерениями должен быть побеждён).
+#            SpawnInfo: Чтобы противостоять этому грозному врагу, используйте [i:StarsAbove/UnsulliedCanvas], который вам передала ваша Астра после победы над Близнецами (Скиталец между измерениями должен быть побеждён).
 #            DespawnMessage: ""
 #        }
 #    }
@@ -5442,7 +5534,7 @@
 #
 #        BossChecklistIntegration: {
 #            EntryName: Налхан, Воронёный король
-#            SpawnInfo: Противостоять этому старому монарху поможет {$Items.AncientShard.DisplayName}, которую вам передала ваша Астра после победы над Големом (Скиталец между измерениями должен быть побеждён).
+#            SpawnInfo: Противостоять этому старому монарху поможет [i:StarsAbove/AncientShard], которую вам передала ваша Астра после победы над Големом (Скиталец между измерениями должен быть побеждён).
 #            DespawnMessage: ""
 #        }
 #    }
@@ -5452,7 +5544,7 @@
 #
 #        BossChecklistIntegration: {
 #            EntryName: Арбитраж
-#            SpawnInfo: Этот таинственный враг скрывается в аномальных подмирах... если провести в них слишком много времени, вы окажетесь в Катабасисе, где он вас уже поджидает. Победив этого босса, вы получите предмет, который мгновенно перенесёт вас обратно в Катабасис. В режиме совместимости мультиплеера вы можете получить этот предмет, отправившись в Лиру.
+#            SpawnInfo: Этот таинственный враг скрывается в аномальных подмирах... если провести в них слишком много времени, вы рискуете попасть в Катабасис, где он уже поджидает. Победив этого босса, вы получите предмет, который мгновенно перенесёт вас обратно в Катабасис. В режиме совместимости мультиплеера вы можете получить этот предмет, отправившись в Лиру.
 #            DespawnMessage: ""
 #        }
 #    }
@@ -5472,7 +5564,7 @@
 #
 #        BossChecklistIntegration: {
 #            EntryName: Воин света
-#            SpawnInfo: После победы над Лунным лордом могут произойти странные события. Через 2 игровых дня (это нельзя ускорить никаким образом) вы сможете получить предмет от своей Астраы, чтобы продолжить.
+#            SpawnInfo: После победы над Лунным лордом вас могут ожидать неожиданные события. Через 2 игровых дня (этот процесс нельзя ускорить) вы получите от своей Астры предмет, необходимый для дальнейшего прохождения.
 #            DespawnMessage: ""
 #        }
 #    }
@@ -5482,7 +5574,7 @@
 #
 #        BossChecklistIntegration: {
 #            EntryName: Цукиёми, Первая Астра
-#            SpawnInfo: Наконец-то пришло время. Соедините все Мнемонические следы с Корнем целестриады, чтобы создать Мнемоническую печать. Используйте её для телепортации на арену сражения с боссом Цукиёми.
+#            SpawnInfo: Наконец-то пришло время. Соедините все Мнемонические следы с [i:StarsAbove/CelestriadRoot], чтобы создать [i:StarsAbove/MnemonicSigil]. Используйте её для телепортации на арену сражения с Цукиёми.
 #            DespawnMessage: ""
 #        }
 #    }
@@ -5590,7 +5682,7 @@
 #    ScionsAndSinners: Scions And Sinners
 #    ToTheLimit: Круша лимиты
 #    ArsLaevateinn: Арс Леватейн
-#    GardenOfAvalon: Garden Of Avalon
+#    GardenOfAvalon: Сад Авалона
 #    MortalInstants: Mortal Instants
 #    Katakrisis: Katakrisis
 #    ParadiseLost: Потерянный рай
@@ -5679,6 +5771,7 @@
 #    OfflineMountedSignageTile.MapEntry: "{$Items.OfflineMountedSignage.DisplayName}"
 #    RadialMountedSignageTile.MapEntry: "{$Items.RadialMountedSignage.DisplayName}"
 #    SmallOfflineMountedSignageTile.MapEntry: "{$Items.SmallOfflineMountedSignage.DisplayName}"
+#    HologramPlinthBigTreeTile.MapEntry: "{$Items.HologramPlinthBigTree.DisplayName}"
 #}
 #
 #Items: {
@@ -5687,7 +5780,7 @@
 #        Tooltip:
 #            '''
 #            [c/2DD2FE:Реликвия звездочёта]
-#            Увеличивает урон на 8% за каждую неиспользованную единицу энергии Звёздного ряда
+#            Увеличивает урон на 8% за каждую неиспользованную энергию Звёздного ряда
 #            Увеличивает защиту на 8 когда Звёздный ряд заполнен
 #            [c/ADEEFF:Одновременно может быть экипирована только одна реликвия звездочёта]
 #            'Из страннейшего мира'
@@ -10247,9 +10340,9 @@
 #            Нажмите клавишу 'Действие оружия', чтобы бросить йо-йо вперёд на небольшое расстояние (йо-йо возвращается через две секунды)
 #            Нажмите клавишу 'Действие оружия' ещё раз после остановки йо-йо, чтобы подтянуться к нему, возвращая его обратно
 #            Кроме того, вы получаете бафф [c/B9F1FA:Мощный старт] на 3 секунды, который увеличивает урон следующей атаки этим оружием на 200%, после чего бафф пропадает
-#            Нажмите <right>, чтобы подготовить [c/E08738:Убийственного медведя], получив бафф [c/E03838:Я и моя машина для убийств] на 8 секунд (перезарядка 30 секунд)
-#            Во время действия этого баффа нанесение ударов по врагам будет вызывать дополнительную атаку от [c/E08738:Убийственного медведя] (задержка 1 секунда)
-#            Дополнительные атаки [c/E08738:Убийственного медведя] также дают [c/B9F1FA:Мощный старт] на 2 секунд
+#            Нажмите <right>, чтобы подготовить [c/E08738:Медвежьего убийцу], получив бафф [c/E03838:Я и моя машина для убийств] на 8 секунд (перезарядка 30 секунд)
+#            Во время действия этого баффа нанесение ударов по врагам будет вызывать дополнительную атаку от [c/E08738:Медвежьего убийцы] (задержка 1 секунда)
+#            Дополнительные атаки [c/E08738:Медвежьего убийцы] также дают [c/B9F1FA:Мощный старт] на 2 секунд
 #            '''
 #    }
 #
@@ -11679,7 +11772,7 @@
 #            Атаки накапливают [c/D1AADF:Ужас]; при максимальном заряде [c/D1AADF:Ужаса] завершающая атака комбо-удара создаёт ударную волну, поражающую ближайших врагов
 #            При убийстве врагов даёт кратковременную неуязвимость и восстанавливает 2% максимального запаса здоровья
 #            [c/EF4DFF:Магический]: Оружие превращается в посох, который можно [c/F7D76A:Зарядить]
-#            Незаряженные атаки быстро выпускают залп пронзающей энергии
+#            Незаряженные атаки быстро выпускают залп самонаводящейся энергии
 #            Заряженные атаки призывают два вращающихся снаряда на 6 секунд, которые при попадании накладывают «{$BuffName.ShadowFlame}» на 12 секунд
 #            Вращающиеся снаряды дополнительно получают 100% пробивание брони
 #            [c/4DFF5B:Стрелковый]: Оружие превращается в пушку, стреляющую энергетическими зарядами на среднее расстояние
@@ -11697,7 +11790,7 @@
 #        DisplayName: Когти матроны ужаса
 #        Tooltip: ""
 #    }
-#    
+#
 #    LunaYSol: {
 #        DisplayName: Luna y Sol
 #        Tooltip:
@@ -11711,23 +11804,26 @@
 #        DisplayName: Wolvesbane
 #        Tooltip:
 #            '''
+#            [c/F592BF:This weapon is unaffected by Aspected Damage Type penalty when aspected to Ranged or Melee damage]
 #            Attacks with this weapon fire quick blasts (Critical strike damage is increased by 20% for 3 seconds after a critical strike)
+#            Right click to fire [Pulse Impact], dealing 200% guaranteed critical damage in a small explosion (Charges [Wolf Pulse] by 50% on explosion) (8 second cooldown)
 #            Attacks charge [Wolf Pulse] when striking foes
-#            After 3 shots, the next shot is empowered and deals damage in a small blast
-#            Once [Wolf Pulse] is at maximum, right click to unsheathe the [Wolvesbane]
-#            The [Wolvesbane] will strike at nearby foes and unleash a powerful shockwave
-#            Additionally, gain Wrath until combat ends after [Wolvesbane] is unleashed
+#            Once [Wolf Pulse] is above 50%, press the Weapon Action Key to unsheathe the [Wolvesbane], consuming 50% [Wolf Pulse]
+#            The [Wolvesbane] will strike at nearby foes and unleash a powerful shockwave, dealing 300% damage as a guaranteed critical strike
+#            Damage is halved after every pierce
+#            Additionally, gain Wrath for 8 seconds after [Wolvesbane] is unleashed
 #            '''
 #    }
 #    WolvesbaneRearmed: {
 #        DisplayName: Wolvesbane Rearmed
 #        Tooltip:
 #            '''
+#            [c/F592BF:This weapon is unaffected by Aspected Damage Type penalty when aspected to Ranged or Melee damage]
 #            Attacks with this weapon fire quick blasts (Critical strike damage is increased by 50% for 6 seconds after a critical strike)
+#            Right click to fire [Pulse Impact], dealing 200% guaranteed critical damage in a small explosion (Charges [Wolf Pulse] by 50% on explosion) (8 second cooldown)
 #            Attacks charge [Wolf Pulse] when striking foes
-#            After 3 shots, the next shot is empowered and deals damage in a small blast
-#            Once [Wolf Pulse] is at maximum, right click to unsheathe the [Wolvesbane], gaining Invincibility for 4 seconds
-#            The [Wolvesbane] will strike at nearby foes and unleash a powerful shockwave
+#            Once [Wolf Pulse] is at 50%, press the Weapon Action Key to unsheathe the [Wolvesbane], consuming 50% [Wolf Pulse] and gaining Invincibility for 2 seconds
+#            The [Wolvesbane] will strike at nearby foes and unleash a powerful shockwave, dealing 300% damage as a guaranteed critical strike
 #            Gain Wrath while this weapon is held
 #            '''
 #    }
@@ -11735,10 +11831,11 @@
 #        DisplayName: Wolvesbane Awakened
 #        Tooltip:
 #            '''
+#            [c/F592BF:This weapon is unaffected by Aspected Damage Type penalty when aspected to Ranged or Melee damage]
 #            Attacks with this weapon swing in a wide arc (Critical strike damage is increased by 50% for 6 seconds after a critical strike)
-#            Attacks charge [Wolf Pulse] when striking foes
 #            After 3 swings, the next attack is guaranteed to be a critical strike and explodes in a small blast
-#            Once [Wolf Pulse] is at maximum, press the Weapon Action Key to dash forward, activating [Wolvesbane's Legacy] and gaining Invincibility for 4 seconds
+#            Attacks charge [Wolf Pulse] when striking foes (Critical strikes charge [Wolf Pulse] faster)
+#            Once [Wolf Pulse] is at 50%, press the Weapon Action Key to dash forward, activating [Wolvesbane's Legacy], consuming 50% [Wolf Pulse] and gaining Invincibility for 4 seconds
 #            [Wolvesbane's Legacy] unleashes powerful slashes and finishes with an explosive projectile that is a guaranteed critical strike
 #            Gain Wrath while this weapon is held 
 #            '''
@@ -11762,13 +11859,34 @@
 #            When in combat, gain [Benedictio] (Buff is lost for 10 seconds upon taking damage)
 #            While under the effect of [Benedictio], all attacks become guaranteed critical strikes
 #            Right click to activate [Call of the Stars] for 8 seconds (2 minute cooldown)
-#            During this time, critical strikes deal 120% bonus damage to foes above 50% HP
+#            During this time, critical strikes deal 70% increased damage and attacks gain 20% Armor Penetration
+#            Additionally, the next instance of damage is negated (Buff is lost upon triggering this effect)
 #            Critical strikes reduce the cooldown of [Call of the Stars] by 1 second on hit
 #            '''
 #    }
 #
 #    HologramPlinthBigTree: {
 #        DisplayName: Hologram Plinth Big Tree
+#        Tooltip: ""
+#    }
+#
+#    DeadbloomPrism: {
+#        DisplayName: Deadbloom Prism
+#        Tooltip: ""
+#    }
+#    
+#    CrescentMeteorPrism: {
+#        DisplayName: Crescent Meteor Prism
+#        Tooltip: ""
+#    }
+#
+#    DreadMechanicalPrism: {
+#        DisplayName: Dread Mechanical Prism
+#        Tooltip: ""
+#    }
+#
+#    LuminousHallowPrism: {
+#        DisplayName: Luminous Hallow Prism
 #        Tooltip: ""
 #    }
 #}
@@ -12855,7 +12973,7 @@
 #    }
 #
 #    RemoveStationarySpiders: {
-#        DisplayName: Remove Stationary Spiders!
+#        DisplayName: Удаление неподвижных пауков!
 #        Description: ""
 #    }
 #
@@ -12880,13 +12998,13 @@
 #    }
 #
 #    Ruination: {
-#        DisplayName: Ruination
-#        Description: You matter so little!
+#        DisplayName: Свержение
+#        Description: Вы ничего не значите!
 #    }
 #
 #    RyukenStun: {
-#        DisplayName: Ryuken Stun
-#        Description: Ow.
+#        DisplayName: Оглушение Рюкена
+#        Description: Ауч
 #    }
 #
 #    ElementalChaos: {
@@ -12915,13 +13033,13 @@
 #    }
 #
 #    Satanael: {
-#        DisplayName: Satanael
-#        Description: "'You would slay gods to protect the justice you believe in...'"
+#        DisplayName: Сатанаил
+#        Description: "'Ты собираешься уничтожать богов во имя справедливости, в которую веришь...'"
 #    }
 #
 #    SatedAnguish: {
-#        DisplayName: Sated Anguish
-#        Description: The detriments of Lucifer's Bargain have been negated... for now
+#        DisplayName: Насыщенное страдание
+#        Description: Последствия сделки с Люцифером сведены на нет... на какое-то время
 #    }
 #
 #    SeabornCooldown: {
@@ -12945,8 +13063,8 @@
 #    }
 #
 #    Shielded: {
-#        DisplayName: Shielded
-#        Description: An ally is granting you increased defenses
+#        DisplayName: Защищён
+#        Description: Союзник увеличил вашу защиту
 #    }
 #
 #    StrikerAttackBuff: {
@@ -12975,8 +13093,8 @@
 #    }
 #
 #    SoulSapping: {
-#        DisplayName: Soul Sapping
-#        Description: Nalhaun is draining your soul; if the Soul Gauge drops to zero, you'll die
+#        DisplayName: Истощение души
+#        Description: Налхан истощает вашу душу; если Шкала души опустится до нуля, вы умрёте
 #    }
 #
 #    SoulUnbound: {
@@ -12990,8 +13108,8 @@
 #    }
 #
 #    SovereignDominion: {
-#        DisplayName: Sovereign's Dominion
-#        Description: You matter so little!
+#        DisplayName: Владения владыки
+#        Description: Вы ничего не значите!
 #    }
 #
 #    FleetingSparkBuff: {
@@ -13000,8 +13118,8 @@
 #    }
 #
 #    SpatialBurn: {
-#        DisplayName: Disintegration
-#        Description: Touched by the vacuum of space
+#        DisplayName: Дезинтеграция
+#        Description: Прикосновение к космическому вакууму
 #    }
 #
 #    Starblight: {
@@ -13025,13 +13143,13 @@
 #    }
 #
 #    StellarListener: {
-#        DisplayName: Stellar Listener
-#        Description: The nearby performance invigorates you, granting an increase to damage, mana regeneration, and health regeneration
+#        DisplayName: Звёздный слушатель
+#        Description: Ближайшее выступление бодрит вас, увеличивая урон, восстановление маны и регенерацию здоровья
 #    }
 #
 #    StellarOverload: {
-#        DisplayName: Stellar Overload
-#        Description: The Stellar Array is above capacity, reducing damage by half and defense to 0
+#        DisplayName: Звёздная перегрузка
+#        Description: Звёздный ряд переполнен, снижая урон вдвое и защиту до 0
 #    }
 #
 #    StellarPerformance: {
@@ -13045,22 +13163,22 @@
 #    }
 #
 #    StellarSickness: {
-#        DisplayName: Stellar Sickness
-#        Description: Attack and defenses are halved as you adjust to your newfound strength
+#        DisplayName: Звёздная болезнь
+#        Description: Пока вы привыкаете к своей возросшей силе, атака и защита снижены вдвое
 #    }
 #
 #    Stun: {
-#        DisplayName: Stun
-#        Description: Stuck
+#        DisplayName: Оглушение
+#        Description: Не двинуться
 #    }
 #
 #    Subduced: {
-#        DisplayName: Subduced
-#        Description: Offensive and defensive stats are halved
+#        DisplayName: Подавленный
+#        Description: Атакующие и защитные характеристики снижены вдвое
 #    }
 #
 #    BifrostCooldown: {
-#        DisplayName: "[c/EFB43E:Bifrost Cooldown]"
+#        DisplayName: "[c/EFB43E:Перезарядка Биврёста]"
 #        Description: ""
 #    }
 #
@@ -13220,53 +13338,28 @@
 #    }
 #
 #    PerfectGuntrigger: {
-#        DisplayName: Perfect Guntrigger
+#        DisplayName: Идеальная мгновенная расправа
 #        Description: ""
 #    }
 #
 #    TwinStarsBuff: {
-#        DisplayName: Twin Stars
-#        Description: Twin stars radiate near you
+#        DisplayName: Двойные звёзды
+#        Description: Вокруг вас сияют двойные звёзды
 #    }
 #
 #    TyphoonPrismCooldown: {
-#        DisplayName: Typhoon Prism Cooldown
-#        Description: Typhoon Prism's ability will not activate when this debuff is active
+#        DisplayName: Перезарядка тайфунной призмы
+#        Description: Способность тайфунной призмы не сработает, пока активен этот дебафф
 #    }
 #
 #    Ultima: {
-#        DisplayName: Edge of the Universe
-#        Description: Blade in hand, etched in fate
-#    }
-#
-#    UmbralAspect: {
-#        DisplayName: Umbral Attunement
-#        Description: The Umbral Aspect grants extra attack and speed and allows for astral destruction at the cost of constant Mana drain
-#    }
-#
-#    UmbralAspectBow: {
-#        DisplayName: Umbral Attunement
-#        Description: The Umbral Aspect grants extra attack and critical chance based on Astral Attunement's charges and allows for astral destruction at the cost of constant health and mana drain
-#    }
-#
-#    UmbralAspectDepleted: {
-#        DisplayName: Umbral Depletion
-#        Description: The Umbral Aspect has drained your energy; Swap to Astral Aspect to recover
-#    }
-#
-#    UmbralAspectDepletedBow: {
-#        DisplayName: Umbral Depletion
-#        Description: The Umbral Aspect has drained your energy; Swap to Astral Aspect to recover
-#    }
-#
-#    UmbralRapture: {
-#        DisplayName: Umbral Rapture
-#        Description: Gain HP and Invincibility when on Eridani's tiles
+#        DisplayName: Край вселенной
+#        Description: Клинок в руке, высеченный судьбой
 #    }
 #
 #    UmbreonPetBuff: {
-#        DisplayName: Mystic Hound
-#        Description: A pair of mystic hounds are following you
+#        DisplayName: Мистические гончии
+#        Description: За вами следует пара мистических гончих
 #    }
 #
 #    UniversalManipulation: {
@@ -13301,12 +13394,12 @@
 #
 #    CelestialVoidBuff: {
 #        DisplayName: Неземная пустота
-#        Description: You have torn a rift in spacetime!
+#        Description: Вы создали разрыв в пространстве-времени!
 #    }
 #
 #    VitchPetBuff: {
-#        DisplayName: Fox Vixen
-#        Description: She'll kill you and charge extra for disposal
+#        DisplayName: Злобная лисица
+#        Description: Мало того что убьёт вас, так ещё и возьмёт дополнительную плату за утилизацию тела
 #    }
 #
 #    VoidAtrophy1: {
@@ -13325,8 +13418,8 @@
 #    }
 #
 #    VoidStrength: {
-#        DisplayName: Strength Of The Void
-#        Description: Damage is increased drastically
+#        DisplayName: Сила пустоты
+#        Description: Урон значительно увеличен
 #    }
 #
 #    VoyageCooldown: {
@@ -13340,17 +13433,17 @@
 #    }
 #
 #    WarriorEnd: {
-#        DisplayName: Warrior End
+#        DisplayName: Конец Воина
 #        Description: ""
 #    }
 #
 #    WarriorPetBuff: {
-#        DisplayName: Discount Warrior of Light
-#        Description: I will transcend you!
+#        DisplayName: Жалкая копия Воина света
+#        Description: Я превзойду тебя!
 #    }
 #
 #    Wormhole: {
-#        DisplayName: Wormhole
+#        DisplayName: Червоточина
 #        Description: ""
 #    }
 #
@@ -13375,13 +13468,13 @@
 #    }
 #
 #    PhantomMinion: {
-#        DisplayName: Phantom Spirit
-#        Description: A phantom spirit is attacking foes
+#        DisplayName: Призрачный дух
+#        Description: Призрачный дух атакует врагов
 #    }
 #
 #    YoumuCooldown: {
-#        DisplayName: Phantom Slash Cooldown
-#        Description: When this buff expires, you can use Phantom Slash again
+#        DisplayName: Перезарядка фантомного разреза
+#        Description: Фантомный разрез не сработает, пока активен этот дебафф
 #    }
 #
 #    StarchildBuff: {
@@ -13480,23 +13573,23 @@
 #    }
 #
 #    MonarchPresence: {
-#        DisplayName: The Monarch's Presence
-#        Description: Proximity to a powerful foe is lowering defense by 20
+#        DisplayName: Присутствие монарха
+#        Description: Близость к могущественному врагу снижает защиту на 20%
 #    }
 #
 #    NalhaunSword: {
-#        DisplayName: Manifest Laevateinn
+#        DisplayName: Материализация Леватейна
 #        Description: ???
 #    }
 #
 #    TsukiyomiTeleport: {
-#        DisplayName: Tsukiyomi's Teleport
+#        DisplayName: Телепорт Цукиёми
 #        Description: ???
 #    }
 #
 #    Bedazzled: {
-#        DisplayName: Bedazzled
-#        Description: Awash in crystalline light, gaining 10% increased attack, 10 defense, and 10% movement speed
+#        DisplayName: Ослепляющий блеск
+#        Description: Окутанный кристаллическим сиянием, урон и скорость передвижения увеличены на 10%, а защита на 10
 #    }
 #
 #    CatalystMemoryPrismicCooldown: {
@@ -13526,12 +13619,12 @@
 #
 #    TimeBubbleCooldown: {
 #        DisplayName: Перезарядка пузыря времени
-#        Description: The Time Bubble will not shield you from damage if this debuff is present
+#        Description: Пузырь времени не защитит вас от урона, пока активен этот дебафф
 #    }
 #
 #    Conversationalist: {
-#        DisplayName: Conversationalist
-#        Description: Enemy spawns have been reduced
+#        DisplayName: Переговорщик
+#        Description: Скорость появления врагов снижена
 #    }
 #
 #    EverlastingLightPreview: {
@@ -13834,12 +13927,12 @@
 #    }
 #
 #    AuthoritySacrificeMark: {
-#        DisplayName: Supreme Authority Mark
-#        Description: Marked for death
+#        DisplayName: Марка верховной власти
+#        Description: Отмеченный на смерть
 #    }
 #
 #    DarkAura: {
-#        DisplayName: Dark Aura
+#        DisplayName: Тёмная аура
 #        Description: ""
 #    }
 #
@@ -13873,21 +13966,21 @@
 #    }
 #
 #    TimelessPotential: {
-#        DisplayName: Timeless Potential
-#        Description: Endless possibilities lay before you, granting a variety of bonuses
+#        DisplayName: Вневременной потенциал
+#        Description: Безграничные возможности открываются перед вами, давая разнообразные бонусы
 #    }
 #
 #    TimelessPotentialCooldown: {
-#        DisplayName: Timeless Potential Cooldown
-#        Description: Timeless Potential will fail to be obtained if this debuff is present
+#        DisplayName: Перезарядка вневременного потенциала
+#        Description: Вневременной потенциал не сработает, пока активен этот дебафф
 #    }
 #
 #    ManaSicknessAlter: {
-#        DisplayName: Mana Sickness
+#        DisplayName: Истощение маны
 #        Description: Весь урон снижен на {0}%
 #    }
 #
-#    DarkAuraBuff.Description: "{0} sacrifice(s) have been consumed"
+#    DarkAuraBuff.Description: "{^0:Была;Были;Было} {^0:пожертвована;пожертвованы;пожертвовано} {0} {^0:жертва;жертвы;жертв}"
 #
 #    SpectrumAbsorption: {
 #        DisplayName: Преломляющее поглощение
@@ -13900,38 +13993,38 @@
 #    }
 #
 #    SpectrumDashCooldown: {
-#        DisplayName: Spectrum Dash Cooldown
-#        Description: Mods.StarsAbove.Buffs.SpectrumDashCooldown.Description
+#        DisplayName: Перезарядка спектрального рывка
+#        Description: ""
 #    }
 #
 #    SpectrumFrostAffinity: {
-#        DisplayName: Spectrum Frost Affinity
-#        Description: Aspected to frost, changing attacks but becoming weak to flame
+#        DisplayName: Сродство с морозным спектром
+#        Description: Сродство с морозом изменяет на атаки, но делает уязвимым к огню
 #    }
 #
 #    BrilliantSpectrumBuff: {
-#        DisplayName: Brilliant Spectrum
-#        Description: Refractive energy is empowering your physical capabilities
+#        DisplayName: Сияющий спектр
+#        Description: Преломляющая энергия усиливает ваши физические способности
 #    }
 #
 #    InkwellGlobalDelay: {
-#        DisplayName: Inkwell Global Delay
+#        DisplayName: Глобальная задержка чернильницы
 #        Description: ""
 #    }
 #
 #    InkwellWaterDelay: {
-#        DisplayName: Inkwell Water Delay
+#        DisplayName: Задержка чернильницы воды
 #        Description: ""
 #    }
 #
 #    InkwellWindDelay: {
-#        DisplayName: Inkwell Wind Delay
+#        DisplayName: Задержка чернильницы ветра
 #        Description: ""
 #    }
 #
 #    DeathFromAbove: {
 #        DisplayName: Смерть с небес
-#        Description: Air superiority enables weapon special effects
+#        Description: Господство в воздухе активирует особые эффекты оружия
 #    }
 #
 #    KickStartBuff: {
@@ -13951,7 +14044,7 @@
 #
 #    MeAndMyKillingMachineBuff: {
 #        DisplayName: Я и моя машина для убийств
-#        Description: Killing Bear is prepared to follow up on attacks
+#        Description: Медвежий убийца готов к последующим атакам
 #    }
 #
 #    MeAndMyKillingMachineCooldown: {
@@ -13960,17 +14053,17 @@
 #    }
 #
 #    MeAndMyKillingMachineFollowUpCooldown: {
-#        DisplayName: Me And My Killing Machine Follow Up Cooldown
+#        DisplayName: Перезарядка поддержки Я и моя машина для убийств
 #        Description: ""
 #    }
 #
 #    WarriorFireImbueBuff: {
-#        DisplayName: Warrior Fire Imbue Buff
+#        DisplayName: Усиление огнём Воина света
 #        Description: ""
 #    }
 #
 #    WarriorIceImbueBuff: {
-#        DisplayName: Warrior Ice Imbue Buff
+#        DisplayName: Усиление льдом Воина света
 #        Description: ""
 #    }
 #
@@ -14275,7 +14368,7 @@
 #    }
 #
 #    KineticConversionCooldown: {
-#        DisplayName: Kinetic Conversion Cooldown
+#        DisplayName: Перезарядка кинетического преобразования
 #        Description: ""
 #    }
 #
@@ -14285,7 +14378,7 @@
 #    }
 #
 #    ArmsthriftBuffStrong: {
-#        DisplayName: Усиление арсенала
+#        DisplayName: Усиленный арсенал
 #        Description: ""
 #    }
 #
@@ -14485,13 +14578,13 @@
 #    }
 #
 #    LockDebuff: {
-#        DisplayName: Lock Debuff
+#        DisplayName: Блокировка дебаффа
 #        Description: ""
 #    }
 #
 #    HerosBulwark: {
-#        DisplayName: Hero's Bulwark
-#        Description: The legendary shield's aegis furthers your abilities
+#        DisplayName: Щит героя
+#        Description: Легендарная эгида щита усиливает ваши способности
 #    }
 #
 #    LegendaryShieldRaised: {
@@ -14515,12 +14608,12 @@
 #    }
 #
 #    M16A1ShieldCooldown: {
-#        DisplayName: M16A1 Shield Cooldown
+#        DisplayName: Перезарядка щита M16A1
 #        Description: ""
 #    }
 #
 #    M16A1Counterfire: {
-#        DisplayName: M16A1 Counterfire
+#        DisplayName: Ответный огонь M16A1
 #        Description: ""
 #    }
 #
@@ -14546,7 +14639,7 @@
 #
 #    PlagueProphetBuff: {
 #        DisplayName: Пророк чумы
-#        Description: Rise, my servants. Rise and serve me.
+#        Description: Восстаньте, слуги мои. Восстаньте и служите мне.
 #    }
 #
 #    BaptisedBuff: {
@@ -14565,8 +14658,8 @@
 #    }
 #
 #    FireflyActive: {
-#        DisplayName: Светлячок тип-IV
-#        Description: Your Starfarer has donned the Crysalid Pyronexus, assisting you in combat
+#        DisplayName: Светлячок-IV
+#        Description: Ваша Астра облачилась в Кокон пламени, помогая вам в сражении
 #    }
 #
 #    DreadmotherOrbitalBuff: {
@@ -14583,6 +14676,16 @@
 #        DisplayName: Теневая стена
 #        Description: Предотвращает следующий получаемый урон
 #    }
+#    
+#    SwiftstrikeBuff: {
+#        DisplayName: Swiftstrike Buff
+#        Description: ""
+#    }
+#    
+#    WolvesbaneBlastCooldown: {
+#        DisplayName: Wolvesbane Blast Cooldown
+#        Description: ""
+#    }
 #}
 #
 #Bestiary: {
@@ -14597,7 +14700,7 @@
 #    CastorBoss: The Force of Fire, a Baleborn. The Baleborn are an incredibly competitive race of demonkin, and their blood relations have served only to further kindle the fires of conflict. They are completely engrossed in their duel, aware of nothing but their opponent's actions. Ironically, this has made them quite mediocre fighters against any other opponent. They were utterly destroyed by the First Starbearer, attacking him as he unwittingly interfered with their eternal battle.
 #    PolluxBoss: The Forces of Ice and Fire, twin Baleborn. The Baleborn are an incredibly competitive race of demonkin, and their blood relations have served only to further kindle the fires of conflict. They are completely engrossed in their duel, aware of nothing but their opponent's actions. Ironically, this has made them quite mediocre fighters against any other opponent. They were utterly destroyed by the First Starbearer, attacking him as he unwittingly interfered with their eternal battle.
 #    VagrantBoss: The enigmatic Starfarer Perseus. His outward appearance is that of utmost confidence... but he's just kind of a dork trying to look cool. His sisters agree on this. He continues to have power over spatial distances, but seems to have lost the power to control time (but not the moniker.)
-#    WarriorOfLight: The Warrior of Light, or the First Starbearer, once championed justice in the galaxy through his actions and the aid of his Starfarer. He once ruled a peaceful world, but was forced to watch helplessly as his people met their demise, vowing to never again let others share the same fate- no matter the cost.
+#    WarriorOfLight: Воин света, или Первый звездоносец, некогда защищал справедливость в галактике своими деяниями и с помощью своей верной спутницы, Астры. Он правил мирным миром, но был вынужден беспомощно наблюдать за гибелью своего народа. Это событие сломило его, но не его дух. Он поклялся, что никогда больше не позволит другим пережить то, что пережил он сам... чего бы это ни стоило.
 #    AsteroidWorm: Эти невероятно выносливые существа развили способность бесцельно дрейфовать в космическом вакууме. Их эволюция, возможно, не является наилучшим примером эволюционного процесса. Их питание скудно, но потребность в пище практически отсутствует. Они обладают прочной внешней оболочкой, но их атакующая сила невысока.
 #    Soulless: An unfortunate victim of whatever apocalypse befell Caelum. Mana keeps their incarnation alive, but whatever trace of thought they may have once had has long since departed.
 #    Yojimbo: A mysterious lumenkin, his name seems to change depending on when and where you come across him. He's a bounty hunter, but is willing to part with some knowledge if you pry enough...
@@ -14606,7 +14709,7 @@
 #    AmethystSwordsinner: Foot soldier of a wide-reaching paramilitary organization, referred to as the Amethyst. Utilizes a hardlight blade with ferocious efficiency, specifically for countering ranged offense.
 #    Tsukiyomi2: ???
 #    ThespianBoss: Легендарный алхимик, давно умерший, вновь воскрешён ужасающим агентом хаоса. Для такого, как он, вы должны действовать так, как он требует, иначе вы встретите свою преждевременную смерть...
-#    StarfarerBoss: Yep, it's us.
+#    StarfarerBoss: Угу, это мы.
 #}
 #
 #Prefix: {
@@ -14643,8 +14746,8 @@
 #
 #Biomes: {
 #    BleachedWorldBiome: {
-#        DisplayName: The Bleached World
-#        TownNPCDialogueName: the Bleached World Biome
+#        DisplayName: Обесцвеченный мир
+#        TownNPCDialogueName: Обесцвеченный мир
 #    }
 #
 #    CityBiome.DisplayName: Город

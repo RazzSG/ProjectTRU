@@ -44,7 +44,7 @@ public class CombatTextPatch : ILoadable
             // "Fully charged!" => "Полный заряд!",
             // "Blade Will activated!" => "Воли клинка активирована!",
             // "Mystic Form" => "Мистическая форма",
-            // "Stellar Prism acquired!" => "Получена звёздная призма",
+            // "Stellar Prism acquired!" => "Получена звёздная призма!",
             // "Prismatic Core acquired!" => "Получено призматическое ядро!",
             // "The Eye of Euthymia has 10 seconds left!" => "До готовности глаза эвтюмии осталось 10 секунд!",
             // "The Core of Flames has 5 seconds left!" => "До готовности сердца пламени осталось 5 секунд!",

@@ -2,6 +2,7 @@
 using System.Reflection;
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
+using CalamityRuTranslate.Core.Config;
 using CalamityRuTranslate.Core.MonoMod;
 using Fargowiltas.UI;
 using MonoMod.Cil;
@@ -10,7 +11,7 @@ namespace CalamityRuTranslate.Mods.Fargowiltas.MonoMod;
 
 public class StatButtonUIRebuildStatList : OnPatcher
 {
-    public override bool AutoLoad => ModInstances.Fargowiltas != null && TranslationHelper.IsRussianLanguage;
+    public override bool AutoLoad => ModInstances.Fargowiltas != null && TRuConfig.Instance.FargowiltasLocalization && TranslationHelper.IsRussianLanguage;
     
     public override MethodInfo ModifiedMethod => typeof(StatSheetUI).GetCachedMethod(nameof(StatSheetUI.AddStat), new []{typeof(string), typeof(int)});
     
@@ -30,7 +31,7 @@ public class StatButtonUIRebuildStatList : OnPatcher
 
 public class StatButtonAddStat : ILPatcher
 {
-    public override bool AutoLoad => ModInstances.Fargowiltas != null && TranslationHelper.IsRussianLanguage;
+    public override bool AutoLoad => ModInstances.Fargowiltas != null && TRuConfig.Instance.FargowiltasLocalization && TranslationHelper.IsRussianLanguage;
 
     public override MethodInfo ModifiedMethod => typeof(StatSheetUI).GetCachedMethod(nameof(StatSheetUI.AddStat), new []{typeof(string), typeof(int)});
 
