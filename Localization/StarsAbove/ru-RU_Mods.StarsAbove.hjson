@@ -70,7 +70,7 @@
 #
 #    Arbitration: {
 #        SeveredFate: Судьба разорванна; восстановите нить судьбы или сгиньте...
-#        VisionsBeyond: Древние силы даруют вам видения потустороннего мира... Неподвижность и концентрация помогут вам воспроизвести этот эффект
+#        VisionsBeyond: Древние силы даруют вам видения потустороннего мира... Неподвижность и концентрация помогут вам воспроизвести этот эффект...
 #    }
 #
 #    Penthesilea: {
@@ -585,33 +585,21 @@
 #Dialogue: {
 #    IdleDialogueHardmode: {
 #        Asphodene: {
-#            1: {
-#                $parentVal: Прости, {0}. Но сейчас мне нечего сказать.
-#                E: Worried
-#            }
+#            1: Прости, {0}. Но сейчас мне нечего сказать.
 #        }
 #
 #        Eridani: {
-#            1: {
-#                $parentVal: Извини, {0}... Но пока что сказать нечего.
-#                E: Worried
-#            }
+#            1: Извини, {0}... Но пока что сказать нечего.
 #        }
 #    }
 #
 #    IdleDialogue: {
 #        Asphodene: {
-#            1: {
-#                $parentVal: Прости, в последнее время в голове пусто.
-#                E: Worried
-#            }
+#            1: Прости, в последнее время в голове пусто.
 #        }
 #
 #        Eridani: {
-#            1: {
-#                $parentVal: Извиняюсь. Сейчас мне особо нечего сказать...
-#                E: Worried
-#            }
+#            1: Извиняюсь. Сейчас мне особо нечего сказать...
 #        }
 #    }
 #
@@ -642,16 +630,8 @@
 #                Name: Диалог об оружии преисподней
 #                Description: Даёт эссенцию
 #                1: Держи ещё одну эссенцию. Она предназначена для создания оружия призывного типа. Ты ведь понимаешь, что это означает?
-#
-#                2: {
-#                    $parentVal: Чего ты ждешь? Попробуй уже.
-#                    E: Smug
-#                }
-#
-#                3: {
-#                    $parentVal: Так ты знал об этом? Неважно тогда.
-#                    E: Worried
-#                }
+#                2: Чего ты ждешь? Попробуй уже.
+#                3: Так ты знал об этом? Неважно тогда.
 #            }
 #        }
 #
@@ -675,11 +655,7 @@
 #                Name: Диалог об оружии Короля слизней
 #                Description: Даёт эссенцию
 #                1: Вот ещё одна эссенция для тебя. Это огненный меч относится к магическому типу. Похоже, он взрывается, когда достаточно заряжен.
-#
-#                2: {
-#                    $parentVal: Складывается впечатление, будто он что-то ищет... Надеюсь, те, кто создал эту эссенцию, нашли то, что он ищет! ...Ну а мы пока позаимствуем эту силу.
-#                    E: Happy
-#                }
+#                2: Складывается впечатление, будто он что-то ищет... Надеюсь, те, кто создал эту эссенцию, нашли то, что он ищет! ...Ну а мы пока позаимствуем эту силу.
 #            }
 #
 #            Eridani: {
@@ -1646,11 +1622,7 @@
 #                Name: Shock And Awe Weapon Dialogue
 #                Description: Даёт эссенцию
 #                1: This Ranged-essence seems to lead to a classic rocket-launcher weapon- I've heard of using explosives for traversal, so it shouldn't hurt to try, right?
-#
-#                2: {
-#                    $parentVal: Is that irony? I think so- maybe not? To be clear, it WILL hurt to try, but it'll also be quite fun!
-#                    E: Happy
-#                }
+#                2: Is that irony? I think so- maybe not? To be clear, it WILL hurt to try, but it'll also be quite fun!
 #            }
 #
 #            Eridani: {
@@ -1766,32 +1738,16 @@
 #                Description: ""
 #                1: Ты победил Короля слизней, а? Отличная работа!
 #                2: Чувствуется, что это только начало пути. Слизни - это, как правило, неплохой выбор для первых врагов.
-#
-#                3: {
-#                    $parentVal: Кто-то ещё видел того ниндзю? Или только мне показалось?
-#                    E: Thinking
-#                }
-#
-#                4: {
-#                    $parentVal: ...Ну, это пока всё. Продолжай в том же духе.
-#                    E: Happy
-#                }
+#                3: Кто-то ещё видел того ниндзю? Или только мне показалось?
+#                4: ...Ну, это пока всё. Продолжай в том же духе.
 #            }
 #
 #            Eridani: {
 #                Name: Диалог о Короле слизней
 #                Description: ""
 #                1: Многим может показаться, что Король слизней был слаб, но на самом деле он был очень опасен.
-#
-#                2: {
-#                    $parentVal: Будем надеяться, что он останется мёртвым. Ибо слизням, знаешь ли, такое совсем не по нраву.
-#                    E: Angry
-#                }
-#
-#                3: {
-#                    $parentVal: Впрочем, если он и вернётся, то ты легко его снова одолеешь; обычно так оно и бывает.
-#                    E: Happy
-#                }
+#                2: Будем надеяться, что он останется мёртвым. Ибо слизням, знаешь ли, такое совсем не по нраву.
+#                3: Впрочем, если он и вернётся, то ты легко его снова одолеешь; обычно так оно и бывает.
 #            }
 #        }
 #
@@ -1800,17 +1756,8 @@
 #                Name: Диалог о Глазе Ктулху
 #                Description: ""
 #                1: "'Глаз Ктулху'?"
-#
-#                2: {
-#                    $parentVal: Не означает ли это, что 'Ктулху' - не единственный?
-#                    E: Thinking
-#                }
-#
-#                3: {
-#                    $parentVal: Если бы он когда-нибудь показал своё лицо, то стал бы поистине грозным врагом.
-#                    E: Worried
-#                }
-#
+#                2: Не означает ли это, что 'Ктулху' - не единственный?
+#                3: Если бы он когда-нибудь показал своё лицо, то стал бы поистине грозным врагом.
 #                4: Давай подготовимся к этому событию... На всякий случай.
 #            }
 #
@@ -1819,11 +1766,7 @@
 #                Description: ""
 #                1: Неужели Глаз Ктулху, несмотря на свой вид, оказался не так страшен?
 #                2: Похоже, что он сбросил свою шкуру, чтобы показать целый арсенал зубов.
-#
-#                3: {
-#                    $parentVal: Не будь у меня дополнительной информации, мне бы показалось, что он пытался что-то доказать. Ну и чудик.
-#                    E: Angry
-#                }
+#                3: Не будь у меня дополнительной информации, мне бы показалось, что он пытался что-то доказать. Ну и чудик.
 #            }
 #        }
 #
@@ -1831,12 +1774,7 @@
 #            Asphodene: {
 #                Name: Диалог о боссе мирового зла
 #                Description: ""
-#
-#                1: {
-#                    $parentVal: Естественно, в этой гниющей части мира тоже таился здоровенный монстр. Вот так поворот.
-#                    E: Angry
-#                }
-#
+#                1: Естественно, в этой гниющей части мира тоже таился здоровенный монстр. Вот так поворот.
 #                2: Похоже, тебе по душе такие испытания... Интуиция подсказывает, что это далеко не всё.
 #            }
 #
@@ -1860,11 +1798,7 @@
 #                Description: ""
 #                1: Серьёзно? Гигантская пчела... Пожалуй, я бы предпочла поменьше... Легче прихлопнуть, знаешь ли.
 #                2: Тебе, наверное, стоит приготовиться к встрече с роем, раз уж ты теперь весь липкий от этого приторно-сладкого мёда.
-#
-#                3: {
-#                    $parentVal: Теперь, когда я думаю о том, насколько этот мёд липкий, мне действительно жаль тебя. По крайней мере, он съедобный?..
-#                    E: Worried
-#                }
+#                3: Теперь, когда я думаю о том, насколько этот мёд липкий, мне действительно жаль тебя. По крайней мере, он съедобный?..
 #            }
 #        }
 #
@@ -1880,16 +1814,8 @@
 #                Name: Диалог о Скелетроне
 #                Description: ""
 #                1: Этот несчастный портной, проклятый стать Скелетроном. Похоже, своим поражением он открыл нам путь в Темницу. Может, это звучит цинично, но...
-#
-#                2: {
-#                    $parentVal: Если чьи-то эмоции материализуются в чудовище... то, возможно, проклятие не единственная причина.
-#                    E: Thinking
-#                }
-#
-#                3: {
-#                    $parentVal: Если кто спросит, я тебе этого не говорила.
-#                    E: Worried
-#                }
+#                2: Если чьи-то эмоции материализуются в чудовище... то, возможно, проклятие не единственная причина.
+#                3: Если кто спросит, я тебе этого не говорила.
 #            }
 #        }
 #
@@ -1923,11 +1849,7 @@
 #                Name: Диалог о Близнецах
 #                Description: ""
 #                1: Well, those mechanical facsimiles are dead. We're not rating boss monsters, or anything, but... I'm going to have to dock some points.
-#
-#                2: {
-#                    $parentVal: Why would you ever even think about using flesh for the exterior? In terms of material, you've got to have better options, if you're already going all this way...
-#                    E: Angry
-#                }
+#                2: Why would you ever even think about using flesh for the exterior? In terms of material, you've got to have better options, if you're already going all this way...
 #            }
 #        }
 #
@@ -1951,32 +1873,16 @@
 #            Asphodene: {
 #                Name: Skeletron Prime Dialogue
 #                Description: ""
-#                1: {
-#                    $parentVal: You've done it! Skeletron Prime has been defeated. A 'prime' example of a monster, huh?
-#                    E: Happy
-#                }
-#
+#                1: You've done it! Skeletron Prime has been defeated. A 'prime' example of a monster, huh?
 #                2: The appendages were a smart idea. Almost got you a few times there.
-#
-#                3: {
-#                    $parentVal: A prime example of... wait, I just said that. Ugh.
-#                    E: Worried
-#                }
+#                3: A prime example of... wait, I just said that. Ugh.
 #            }
 #
 #            Eridani: {
 #                Name: Skeletron Prime Dialogue
 #                Description: ""
-#
-#                1: {
-#                    $parentVal: На этом наш бой со Скелетроном Праймом завершён. Он, конечно, выглядел впечатляюще... если ты до мозга костей циник.
-#                    E: Angry
-#                }
-#
-#                2: {
-#                    $parentVal: Если тебя это задело, прошу прощения. Можешь быть циником сколько душе угодно. В любом случае...
-#                    E: Worried
-#                }
+#                1: На этом наш бой со Скелетроном Праймом завершён. Он, конечно, выглядел впечатляюще... если ты до мозга костей циник.
+#                2: Если тебя это задело, прошу прощения. Можешь быть циником сколько душе угодно. В любом случае...
 #            }
 #        }
 #
@@ -1985,21 +1891,13 @@
 #                Name: Диалог о победе над всеми механическими боссами
 #                Description: ""
 #                1: Actually.. It looks like you've bested all the Mechanical Bosses! This is definitely, 100% a step forward.
-#
-#                2: {
-#                    $parentVal: I'd take stock of our resources from this point on- looks like things won't get any easier.
-#                    E: Worried
-#                }
+#                2: I'd take stock of our resources from this point on- looks like things won't get any easier.
 #            }
 #
 #            Eridani: {
 #                Name: Диалог о победе над всеми механическими боссами
 #                Description: ""
-#
-#                1: {
-#                    $parentVal: It seems that was the last of the Mechanical Bosses. This is a great step forward!
-#                    E: Happy
-#                }
+#                1: It seems that was the last of the Mechanical Bosses. This is a great step forward!
 #                2: Let's prepare for our further trials. From how things have been progressing, it's only going to get harder.
 #            }
 #        }
@@ -2025,26 +1923,14 @@
 #                Name: Диалог о Големе
 #                Description: ""
 #                1: You've done it! Golem is no more- you're unstoppable.
-#
-#                2: {
-#                    $parentVal: Something about our next enemy feels.. dangerous. It seems spatial energy has congregated around the Dungeon's entrance.
-#                    E: Worried
-#                }
+#                2: Something about our next enemy feels.. dangerous. It seems spatial energy has congregated around the Dungeon's entrance.
 #            }
 #
 #            Eridani: {
 #                Name: Диалог о Големе
 #                Description: ""
-#
-#                1: {
-#                    $parentVal: Голем, чудовище из Храма яхрещов, повержен. Что касается механических чудовищ, я немного... разочарована?
-#                    E: Thinking
-#                }
-#
-#                2: {
-#                    $parentVal: Перед Темницей появилось нечто странное. Похоже, это не из нашего мира... Будь готов к любым неожиданностям.
-#                    E: Angry
-#                }
+#                1: Голем, чудовище из Храма яхрещов, повержен. Что касается механических чудовищ, я немного... разочарована?
+#                2: Перед Темницей появилось нечто странное. Похоже, это не из нашего мира... Будь готов к любым неожиданностям.
 #            }
 #        }
 #
@@ -2053,27 +1939,14 @@
 #                Name: Duke Fishron Dialogue
 #                Description: ""
 #                1: Глубоко в океане таится такое могущественное существо... К счастью, тебе удалось избежать участи стать его рыбьим кормом.
-#
-#                2: {
-#                    $parentVal: Откуда вообще взялось это выражение?.. Что ЗА рыбий корм? И это далеко не все вопросы, которые требуют ответа...
-#                    E: Thinking
-#                }
-#
-#                3: {
-#                    $parentVal: What do you mean it isn't important? Duh, of course it's an important question. All questions are important.
-#                    E: Happy
-#                }
+#                2: Откуда вообще взялось это выражение?.. Что ЗА рыбий корм? И это далеко не все вопросы, которые требуют ответа...
+#                3: What do you mean it isn't important? Duh, of course it's an important question. All questions are important.
 #            }
 #
 #            Eridani: {
 #                Name: Duke Fishron Dialogue
 #                Description: ""
-#
-#                1: {
-#                    $parentVal: Герцог Рыброн повержен. Это была напряжённая битва, но ты одержал рыбознательную победу...
-#                    E: Smug
-#                }
-#
+#                1: Герцог Рыброн повержен. Это была напряжённая битва, но ты одержал рыбознательную победу...
 #                2: Пожалуй, перегнула палку с этой игрой слов. Знаешь что?.. Давай оставим каламбуры Асфодене. Впрочем, признаю, это своего рода искусство.
 #            }
 #        }
@@ -2082,44 +1955,18 @@
 #            Asphodene: {
 #                Name: Диалог о Культисте-лунатике
 #                Description: ""
-#
-#                1: {
-#                    $parentVal: Эти небесные башни не предвещают ничего хорошего... мы не можем ни на минуту расслабиться.
-#                    E: Worried
-#                }
-#
-#                2: {
-#                    $parentVal: Но не падай духом... мы с этим справимся. Это всего лишь ещё один враг, которого нужно одолеть, верно? Ха-ха...
-#                    E: Worried
-#                }
-#
-#                3: {
-#                    $parentVal: Прежде чем ты уйдёшь, мне нужно кое-что сказать. Я чувствую что-то ещё, помимо башен.
-#                    E: Angry
-#                }
-#
+#                1: Эти небесные башни не предвещают ничего хорошего... мы не можем ни на минуту расслабиться.
+#                2: Но не падай духом... мы с этим справимся. Это всего лишь ещё один враг, которого нужно одолеть, верно? Ха-ха...
+#                3: Прежде чем ты уйдёшь, мне нужно кое-что сказать. Я чувствую что-то ещё, помимо башен.
 #                4: Не могу точно понять, что именно, но у меня есть ощущение, что вскоре тебе придётся воспользоваться ночным временем.
 #            }
 #
 #            Eridani: {
 #                Name: Диалог о Культисте-лунатике
 #                Description: ""
-#
-#                1: {
-#                    $parentVal: I knew it.. something wasn't right about that Cultist. These Celestial Pillars do not inspire confidence.
-#                    E: Worried
-#                }
-#
-#                2: {
-#                    $parentVal: With our current circumstances, I think you're the only one with a good enough shot at besting this threat.
-#                    E: Angry
-#                }
-#
-#                3: {
-#                    $parentVal: One more thing: I can sense something other than the Pillars approaching. It is entirely different in nature.
-#                    E: Worried
-#                }
-#
+#                1: I knew it.. something wasn't right about that Cultist. These Celestial Pillars do not inspire confidence.
+#                2: With our current circumstances, I think you're the only one with a good enough shot at besting this threat.
+#                3: One more thing: I can sense something other than the Pillars approaching. It is entirely different in nature.
 #                4: This is only a hunch, but I would advise you to proceed with any tasks that require the night soon.
 #            }
 #        }
@@ -2146,45 +1993,23 @@
 #
 #        WarriorOfLight: {
 #            Asphodene: {
-#                Name: Warrior of Light Dialogue
+#                Name: Диалог о Воине света
 #                Description: Даёт ключевой предмет
-#
-#                1: {
-#                    $parentVal: I see we were wrong.. The Warrior thought he was saving the galaxy, but it was truly the lies of the First Starfarer.. How cruel.
-#                    E: Worried
-#                }
-#
-#                2: {
-#                    $parentVal: Anyways, the Warrior of Light is defeated... Night has returned to this world, finally!
-#                    E: Happy
-#                }
-#
+#                1: I see we were wrong.. The Warrior thought he was saving the galaxy, but it was truly the lies of the First Starfarer.. How cruel.
+#                2: Anyways, the Warrior of Light is defeated... Night has returned to this world, finally!
 #                3: We finally have the last piece of the puzzle. The First Starfarer showed her hand, and this means we have a chance.
 #                4: Once you've collected all the Mnemonic Traces, craft them together with use of the Celestriad Root.
 #                5: I probably don't need to tell you this, but she's not going to parley. Prepare for a hard fight.. Perhaps the hardest fight so far.
 #            }
 #
 #            Eridani: {
-#                Name: Warrior of Light Dialogue
+#                Name: Диалог о Воине света
 #                Description: Даёт ключевой предмет
-#
-#                1: {
-#                    $parentVal: You have brought down the Warrior of Light. Nighttime has returned to this world- a wonderful respite.
-#                    E: Happy
-#                }
-#
-#                2: {
-#                    $parentVal: It seems we were misguided. The Warrior believed he was saving the galaxy, but it was, in truth, all lies from his Starfarer.
-#                    E: Angry
-#                }
-#
+#                1: You have brought down the Warrior of Light. Nighttime has returned to this world- a wonderful respite.
+#                2: It seems we were misguided. The Warrior believed he was saving the galaxy, but it was, in truth, all lies from his Starfarer.
 #                3: With this final Mnemonic Trace.. I see.. It all makes sense now. {0}, I need you to combine all of the Mnemonic Traces together.
 #                4: You'll have to utilize the Observatory's Celestriad Root.
-#
-#                5: {
-#                    $parentVal: Remember: the First Starfarer. We can not let this opportunity slip away. This will likely be the fight of our lives.. Prepare yourself well.
-#                    E: Angry
-#                }
+#                5: Remember: the First Starfarer. We can not let this opportunity slip away. This will likely be the fight of our lives.. Prepare yourself well.
 #            }
 #        }
 #
@@ -2208,11 +2033,7 @@
 #                Description: Grants the Essence for a powerful weapon
 #                1: Seriously, this is a incredible achievement- I've had this Essence tucked away, as it was too powerful to use, but...
 #                2: With what you've accomplished, I think you're able to finally wield it.
-#
-#                3: {
-#                    $parentVal: Be sure to treat the finished product with care.
-#                    E: Smug
-#                }
+#                3: Be sure to treat the finished product with care.
 #            }
 #
 #            Eridani: {
@@ -2226,30 +2047,20 @@
 #
 #        Dioskouroi: {
 #            Asphodene: {
-#                Name: Dioskouroi Dialogue
+#                Name: Диалог о Диоскурах
 #                Description: Даёт ключевой предмет
 #                1: Now that was a strange fight... I don't even think those twins even realized we were there!
 #                2: They weren't human, but probably a sort of demonkin. I felt some Starfarer trace on them- perhaps the First Starbearer defeated them in the past.
-#
-#                3: {
-#                    $parentVal: I don't know why Perseus told US to fight them, or even how we were able to. Unless... maybe Perseus found a way to turn Essences into their past selves? Hmm...
-#                    E: Thinking
-#                }
-#
+#                3: I don't know why Perseus told US to fight them, or even how we were able to. Unless... maybe Perseus found a way to turn Essences into their past selves? Hmm...
 #                4: Our battle seems to have left a strange remnant object- I'll leave it in your care. You should probably take care of it.
 #            }
 #
 #            Eridani: {
-#                Name: Dioskouroi Dialogue
+#                Name: Диалог о Диоскурах
 #                Description: Даёт ключевой предмет
 #                1: Even though we're the ones who bested them, those demon twins barely even gave us a glance.
 #                2: From the remnant mana on them, those twins were most likely laid low by the First Starbearer ages ago.
-#
-#                3: {
-#                    $parentVal: As for why Perseus told us to fight them... I don't know. I'm not even sure how we were able to fight them- Perhaps we fought an Essence given agency?
-#                    E: Thinking
-#                }
-#
+#                3: As for why Perseus told us to fight them... I don't know. I'm not even sure how we were able to fight them- Perhaps we fought an Essence given agency?
 #                4: There's this strange object left over after the battle. I would take good care of it, if I were you. I believe it will be useful later.
 #            }
 #        }
@@ -2317,11 +2128,7 @@
 #                1: It.. it's over. Tsukiyomi has vanished. We're still missing so many clues. She doesn't seem out of it, so what caused her to do what she did?
 #                2: Hopefully one day, we'll find the answers to the questions we seek... I have a feeling this journey isn't over yet.
 #                3: I've gathered some of the leftover residue from the fight. It will likely have use as a stand-in to an Essence, for creating a weapon.
-#
-#                4: {
-#                    $parentVal: With this victory... There may be more evils ahead, but know that nothing is insurmountable. We've come this far.
-#                    E: Happy
-#                }
+#                4: With this victory... There may be more evils ahead, but know that nothing is insurmountable. We've come this far.
 #            }
 #
 #            Eridani: {
@@ -2330,11 +2137,7 @@
 #                1: Мы наконец-то сделали это. Цукиёми окончательно повержена. Её больше нет, и, будем надеяться, наши проблемы с ней тоже закончились.
 #                2: Но меня тревожат её мотивы... Она творила чудовищные вещи... злоба ли ею двигала, или же она преследовала некую высшую цель?.. Надеюсь, мы когда-нибудь узнаем ответ.
 #                3: Мне удалось поглотить остаточную энергию и преобразовать её в Пространственное воспоминание. Ты можешь использовать её как эссенцию.
-#
-#                4: {
-#                    $parentVal: Впереди ещё много дел, но не стоит унывать; раз мы проделали такой долгий путь, то теперь нас ничто не остановит.
-#                    E: Happy
-#                }
+#                4: Впереди ещё много дел, но не стоит унывать; раз мы проделали такой долгий путь, то теперь нас ничто не остановит.
 #            }
 #        }
 #
@@ -2343,37 +2146,17 @@
 #                Name: Диалог о Королеве слизней
 #                Description: ""
 #                1: That's that. Queen Slime is defeated. What have we learned today? Apparently there's a royal court of slimes, and the King Slime wasn't just an outlier.
-#
-#                2: {
-#                    $parentVal: That doesn't even make any sense. They're slime. I seriously, seriously don't think slime has the capacity to think.
-#                    E: Thinking
-#                }
-#
-#                3: {
-#                    $parentVal: Who knows- maybe they're smarter than us. Then again, I'd be really annoyed if my intelligence was dwarfed by some gelatin, so let's say they aren't.
-#                    E: Angry
-#                }
+#                2: That doesn't even make any sense. They're slime. I seriously, seriously don't think slime has the capacity to think.
+#                3: Who knows- maybe they're smarter than us. Then again, I'd be really annoyed if my intelligence was dwarfed by some gelatin, so let's say they aren't.
 #            }
 #
 #            Eridani: {
 #                Name: Диалог о Королеве слизней
 #                Description: ""
 #                1: Right, we've defeated the Queen Slime. To be honest, I'm slightly curious: why are there 'kings' and 'queens' of the slime world?
-#
-#                2: {
-#                    $parentVal: How much power do the royal slimes even have? Are they legitimate rulers?
-#                    E: Thinking
-#                }
-#
-#                3: {
-#                    $parentVal: Does the royal slime court send their subjects to attack random people? Do they even have the right to own property?
-#                    E: Thinking
-#                }
-#
-#                4: {
-#                    $parentVal: Fight back, oppressed slimes! Take back your freedom!
-#                    E: Angry
-#                }
+#                2: How much power do the royal slimes even have? Are they legitimate rulers?
+#                3: Does the royal slime court send their subjects to attack random people? Do they even have the right to own property?
+#                4: Fight back, oppressed slimes! Take back your freedom!
 #            }
 #        }
 #
@@ -2382,21 +2165,13 @@
 #            Description: ""
 #            Asphodene: {
 #                1: Отлично поработали... Императрица света повержена. Никто не хочет об этом говорить, но я скажу...  то у неё был большой нос, или она улыбалась? Не разглядела.
-#
-#                2: {
-#                    $parentVal: Возможно, если бы она хоть раз замерла, я бы смогла получше рассмотреть. Досадно, правда?
-#                    E: Worried
-#                }
+#                2: Возможно, если бы она хоть раз замерла, я бы смогла получше рассмотреть. Досадно, правда?
 #            }
 #
 #            Eridani: {
 #                Name: Диалог об Императрице света
 #                Description: ""
-#
-#                1: {
-#                    $parentVal: Поздравляю, ты победил Императрицу света. Давай теперь оставим жучков в покое, ладно?
-#                    E: Worried
-#                }
+#                1: Поздравляю, ты победил Императрицу света. Давай теперь оставим жучков в покое, ладно?
 #            }
 #        }
 #
@@ -2421,22 +2196,14 @@
 #                Name: Диалог о Театрале
 #                Description: ""
 #                1: Вот это была битва! Напомни мне, никогда больше не трогать странные зелья.
-#
-#                2: {
-#                    $parentVal: Хотя, погоди, это не моя вина. Напомни мне напомнить тебе, никогда больше не трогать странные зелья.
-#                    E: Worried
-#                }
+#                2: Хотя, погоди, это не моя вина. Напомни мне напомнить тебе, никогда больше не трогать странные зелья.
 #            }
 #
 #            Eridani: {
 #                Name: Диалог о Театрале
 #                Description: ""
 #                1: Смотри-ка, ты выбрался из схватки с Театралом в целости и сохранности. Какое любопытное явление.
-#
-#                2: {
-#                    $parentVal: Алхимика оживил клоун, который появляется лишь под покровом ночи. Что-то не пойму, в чём подвох?
-#                    E: Worried
-#                }
+#                2: Алхимика оживил клоун, который появляется лишь под покровом ночи. Что-то не пойму, в чём подвох?
 #            }
 #        }
 #    }
@@ -2447,12 +2214,7 @@
 #                Name: Диалог о Пустынном биче
 #                Description: ""
 #                1: Ты одолел этого злобного змея. Но мне интересно... Откуда он взялся?
-#
-#                2: {
-#                    $parentVal: Приглядевшись внимательнее, можно разглядеть, что некогда это было водное чудовище. Но... как оно очутилось в пустыне?
-#                    E: Angry
-#                }
-#
+#                2: Приглядевшись внимательнее, можно разглядеть, что некогда это было водное чудовище. Но... как оно очутилось в пустыне?
 #                3: Секреты этого мира всё ещё скрыты от нас. Но в любом случае, ты отлично справился.
 #            }
 #
@@ -2470,12 +2232,7 @@
 #                Name: Диалог о Крабулоне
 #                Description: ""
 #                1: Итак... это только что произошло. Теперь, когда я лучше разглядела труп этого грибоголового краба, истина оказалась... не такой приятной.
-#
-#                2: {
-#                    $parentVal: Похоже, грибы оживили труп краба и использовали его как марионетку. Это... мерзко.
-#                    E: Angry
-#                }
-#
+#                2: Похоже, грибы оживили труп краба и использовали его как марионетку. Это... мерзко.
 #                3: Ладно, не будем зацикливаться на этом неприятном факте. Он мёртв! Кстати, отличная работа.
 #            }
 #
@@ -2483,12 +2240,7 @@
 #                Name: Диалог о Крабулоне
 #                Description: ""
 #                1: С Крабулоном покончено. Когда я впервые его увидела, то подумала, что это какой-то мутировавший морской зверь, вроде Пустынного бича.
-#
-#                2: {
-#                    $parentVal: Но... на самом деле всё гораздо более ужасающе. Похоже, эти грибы-паразиты просто использовали этого гигантского краба в качестве хозяина для более эффективного питания.
-#                    E: Angry
-#                }
-#
+#                2: Но... на самом деле всё гораздо более ужасающе. Похоже, эти грибы-паразиты просто использовали этого гигантского краба в качестве хозяина для более эффективного питания.
 #                3: Как подумаю об этом, так воротит начинает. Спасибо, что положил этому конец.
 #            }
 #        }
@@ -2514,22 +2266,14 @@
 #                Name: Диалог о Перфораторах
 #                Description: ""
 #                1: Ты одолел улей Перфораторов. А ведь любопытно, что побуждает багрянец концентрировать своё злобу в форме этих губчатых, мясистых чудовищ?
-#
-#                2: {
-#                    $parentVal: Без сомнения, он стремился заполучить чистую почву, чтобы ещё больше распространить зло по миру. Конечно, теперь ему это больше не удастся.
-#                    E: Angry
-#                }
+#                2: Без сомнения, он стремился заполучить чистую почву, чтобы ещё больше распространить зло по миру. Конечно, теперь ему это больше не удастся.
 #            }
 #
 #            Eridani: {
 #                Name: Диалог о Перфораторах
 #                Description: ""
 #                1: Ты одолел улей Перфораторов и тех мерзких червей, что сражались с ним. Не знаю, как у тебя, но у меня мурашки пробегают по коже от одного только вида этих мясистых созданий!
-#
-#                2: {
-#                    $parentVal: Впрочем, все живые существа состоят из плоти. Тьфу, ну ты понял, о чём я...
-#                    E: Angry
-#                }
+#                2: Впрочем, все живые существа состоят из плоти. Тьфу, ну ты понял, о чём я...
 #            }
 #        }
 #
@@ -2537,22 +2281,10 @@
 #            Asphodene: {
 #                Name: Диалог о Боге слизней
 #                Description: ""
-#                1: The Slime God is no more! It turns out that those huge red and purple slimes weren't actually part of the Slime God, but just strong minions.
-#
-#                2: {
-#                    $parentVal: I'm glad we've defeated it, but I seriously doubt this defeat means the end of all slimes. Sadly, there's just.. so many of them.
-#                    E: Angry
-#                }
-#
-#                3: {
-#                    $parentVal: Wait a second.. Why am I worried? They explode in like three seconds! I mean, if we keep killing them, they'll go extinct!
-#                    E: Smug
-#                }
-#
-#                4: {
-#                    $parentVal: In a few centuries or so... Ugh.
-#                    E: Worried
-#                }
+#                1: Бога слизней больше нет! Оказалось, что те огромные красные и фиолетовые слизни на самом деле были не частью Бога слизней, а всего лишь его сильными прихвостнями.
+#                2: Я рада, что мы его победили, но вряд ли это означает, что все слизни исчезнут. Печально, но их просто... невероятно много.
+#                3: Хотя, погоди-ка... Чего я переживаю? Они же лопаются за три секунды! То есть, если мы продолжим их уничтожать, они рано или поздно вымрут!
+#                4: Ну, может, за пару столетий... Эх.
 #            }
 #
 #            Eridani: {
@@ -2569,29 +2301,16 @@
 #                Name: Диалог о Криогене
 #                Description: ""
 #                1: Ты победил Криогена! И... как оказалось, 'Криоген' был тюрьмой для этого Архимага.
-#
-#                2: {
-#                    $parentVal: Судя по его словам, его заточил в Криогене Тиран джунглей Ярим. Если я не ошибаюсь, мы уже слышали о нём раньше.
-#                    E: Angry
-#                }
-#
-#                3: {
-#                    $parentVal: Кем бы он ни был, он, похоже, доставил этому миру немало бед.
-#                    E: Angry
-#                }
+#                2: Судя по его словам, его заточил в Криогене Тиран джунглей Ярим. Если я не ошибаюсь, мы уже слышали о нём раньше.
+#                3: Кем бы он ни был, он, похоже, доставил этому миру немало бед.
 #            }
 #
 #            Eridani: {
 #                Name: Диалог о Криогене
 #                Description: ""
-#                1: Cryogen has been slain. And out from its corpse arrives this Archmage sort. From what he has to say, he was trapped there by an evil king...
-#
-#                2: {
-#                    $parentVal: Yharim, the Jungle Tyrant. Their reputation precedes them.. I have a feeling that they've been the source for many of this world's ailments.
-#                    E: Angry
-#                }
-#
-#                3: We must endeavor to unravel more of this story. I trust you're in agreement.
+#                1: Криоген повержен. А из его останков появляется некий Архимаг. Он поведал о своём заточении, учинённом злобным королём...
+#                2: Яримом, Тираном джунглей. Его репутация опережает его самого... У меня есть подозрение, что именно он является источником многих бед этого мира.
+#                3: Нам следует глубже разобраться в этой истории. Надеюсь, ты со мной согласен.
 #            }
 #        }
 #
@@ -2599,31 +2318,15 @@
 #            Asphodene: {
 #                Name: Диалог об Акватическом биче
 #                Description: ""
-#
-#                1: {
-#                    $parentVal: Кажется, с Акватическим бичом покончено, да? Значит, моя гипотеза подтвердилась: Пустынный бич был вытеснен и иссушён... а мы только что сразились с его предком.
-#                    E: Angry
-#                }
-#
-#                2: {
-#                    $parentVal: Морской король поведал нам о случившемся. Сила армии Ярима поистине могущественна... Нельзя допустить повторения этих злодеяний.
-#                    E: Angry
-#                }
+#                1: Кажется, с Акватическим бичом покончено, да? Значит, моя гипотеза подтвердилась: Пустынный бич был вытеснен и иссушён... а мы только что сразились с его предком.
+#                2: Морской король поведал нам о случившемся. Сила армии Ярима поистине могущественна... Нельзя допустить повторения этих злодеяний.
 #            }
 #
 #            Eridani: {
 #                Name: Диалог об Акватическом биче
 #                Description: ""
-#
-#                1: {
-#                    $parentVal: Акватический бич повержен. Вот каким мог бы быть Пустынный бич, если бы океан не превратился в пустыню.
-#                    E: Angry
-#                }
-#
-#                2: {
-#                    $parentVal: Со слов Морского короля, это ещё одно деяние Ярима. Они сеют хаос и разрушения везде, где появляются... Мы должны их остановить.
-#                    E: Angry
-#                }
+#                1: Акватический бич повержен. Вот каким мог бы быть Пустынный бич, если бы океан не превратился в пустыню.
+#                2: Со слов Морского короля, это ещё одно деяние Ярима. Они сеют хаос и разрушения везде, где появляются... Мы должны их остановить.
 #            }
 #        }
 #
@@ -2632,22 +2335,14 @@
 #                Name: Диалог о Серном элементале
 #                Description: ""
 #                1: Ты одолел Серного элементаля. Говорят, некогда она была почитаемой богиней могущественной цивилизации преисподней, пока та не была уничтожена.
-#
-#                2: {
-#                    $parentVal: Кто бы это ни сделал, он, без сомнения, грозный враг. Хотя я люблю испытания, не будем ходить вокруг да около: нам нужно стать сильнее.
-#                    E: Angry
-#                }
+#                2: Кто бы это ни сделал, он, без сомнения, грозный враг. Хотя я люблю испытания, не будем ходить вокруг да около: нам нужно стать сильнее.
 #            }
 #
 #            Eridani: {
 #                Name: Диалог о Серном элементале
 #                Description: ""
 #                1: Дух, рождённый из пламени, пал. Должно быть, земля серы была могущественна, раз поклонялась этому духу. Мы сражались с ней, когда она была слаба.
-#
-#                2: {
-#                    $parentVal: То, что стало причиной этого разрушения, нужно остановить... но для этого нам нужно стать сильнее.
-#                    E: Angry
-#                }
+#                2: То, что стало причиной этого разрушения, нужно остановить... но для этого нам нужно стать сильнее.
 #            }
 #        }
 #
@@ -2656,22 +2351,14 @@
 #                Name: Диалог о Клоне Каламитас
 #                Description: ""
 #                1: ...Каламитас больше нет. Или, по крайней мере, так мы думали. То, с чем мы столкнулись, было всего лишь копией настоящей. Даже так, это был невероятно сильный враг.
-#
-#                2: {
-#                    $parentVal: Нам нужно стараться стать сильнее. Мы обязаны! Кто, если не мы, остановит таких чудовищ, расхаживающих по миру?..
-#                    E: Angry
-#                }
+#                2: Нам нужно стараться стать сильнее. Мы обязаны! Кто, если не мы, остановит таких чудовищ, расхаживающих по миру?..
 #            }
 #
 #            Eridani: {
 #                Name: Диалог о Клоне Каламитас
 #                Description: ""
 #                1: Мы одолели Каламитас... но... это был лишь клон настоящего врага. Даже будучи копией, она стала одним из самых сложных наших испытаний.
-#
-#                2: {
-#                    $parentVal: Кто знает, на что способен оригинал. Нам нужно стать сильнее.
-#                    E: Angry
-#                }
+#                2: Кто знает, на что способен оригинал. Нам нужно стать сильнее.
 #            }
 #        }
 #
@@ -2679,16 +2366,16 @@
 #            Asphodene: {
 #                Name: Диалог о Левиафан
 #                Description: ""
-#                1: Наконец-то мы одолели Анахту и её Левиафан! Вот это была битва... Ты храбро сражался, даже когда казалось, что победа невозможна.
+#                1: Наконец-то мы одолели Анахиту и её Левиафан! Вот это была битва... Ты храбро сражался, даже когда казалось, что победа невозможна.
 #                2: Надеюсь, то, что мы добыли из их останков, поможет нам в будущем. Да уж, мы в ударе!
 #            }
 #
 #            Eridani: {
 #                Name: Диалог о Левиафан
 #                Description: ""
-#                1: You've defeated the Leviathan and Anahita. A battle well fought- when the Leviathan appeared, I feared the worst.
-#                2: I'll try not to doubt you in the future. After all, you've got my help.
-#                3: I am helping, right? Right...
+#                1: Ты одолел Левиафан и Анахиту. Битва была славной... Когда появилась Левиафан, я уже было приготовилась к худшему.
+#                2: Постараюсь впредь не сомневаться в тебе. В конце концов, я тебе помогаю.
+#                3: Я ведь помогаю, верно? Верно...
 #            }
 #        }
 #
@@ -2696,12 +2383,7 @@
 #            Asphodene: {
 #                Name: Диалог об Аструм Ареусе
 #                Description: ""
-#
-#                1: {
-#                    $parentVal: Мы справились с Аструм Ареусом. Ещё одно доказательство того, что астральная инфекция не щадит никого. Даже новейшие механизмы не в силах противостоять ей.
-#                    E: Angry
-#                }
-#
+#                1: Мы справились с Аструм Ареусом. Ещё одно доказательство того, что астральная инфекция не щадит никого. Даже новейшие механизмы не в силах противостоять ей.
 #                2: Тем не менее, это явное доказательство того, что мы становимся сильнее. Можешь представить, как бы мы сражались с ним сразу после битвы со Скелетроном? Вот именно!
 #            }
 #
@@ -2724,17 +2406,8 @@
 #            Eridani: {
 #                Name: Диалог о Разносчице чумы, Голиаф
 #                Description: ""
-#
-#                1: {
-#                    $parentVal: Серьёзно... что там происходит с этим джунглями? Хорошо хоть Разносчица чумы, Голиаф повержена. Но я всё равно не могу выкинуть это из головы. Я совершенно не переношу насекомых.
-#                    E: Angry
-#                }
-#
-#                2: {
-#                    $parentVal: Насекомые, насекомые... Они везде, куда я ни посмотрю!..
-#                    E: Angry
-#                }
-#
+#                1: Серьёзно... что там происходит с этим джунглями? Хорошо хоть Разносчица чумы, Голиаф повержена. Но я всё равно не могу выкинуть это из головы. Я совершенно не переношу насекомых.
+#                2: Насекомые, насекомые... Они везде, куда я ни посмотрю!..
 #                3: Давай просто пойдем дальше. Отлично справились с этим монстром.
 #            }
 #        }
@@ -2743,31 +2416,15 @@
 #            Asphodene: {
 #                Name: Диалог о Разрушителе
 #                Description: ""
-#
-#                1: {
-#                    $parentVal: Разрушитель канул в небытие. Сотворённый в пылу мести против Тирана джунглей, он, судя по всему, не добился желаемого.
-#                    E: Angry
-#                }
-#
-#                2: {
-#                    $parentVal: Но нам, по крайней мере, удалось его остановить. Если это плод отчаяния людей, то что же произошло много лет назад, чтобы довести их до такого состояния?
-#                    E: Angry
-#                }
+#                1: Разрушитель канул в небытие. Сотворённый в пылу мести против Тирана джунглей, он, судя по всему, не добился желаемого.
+#                2: Но нам, по крайней мере, удалось его остановить. Если это плод отчаяния людей, то что же произошло много лет назад, чтобы довести их до такого состояния?
 #            }
 #
 #            Eridani: {
 #                Name: Диалог о Разрушителе
 #                Description: ""
-#
-#                1: {
-#                    $parentVal: Мы победили Разрушителя. Некогда он служил грозным оружием в борьбе с Тираном джунглей. Теперь он может наконец обрести покой.
-#                    E: Angry
-#                }
-#
-#                2: {
-#                    $parentVal: Даже будучи мёртвым, он бесцельно скитался. Я рада, что нам удалось его одолеть, но его существование лишь подтверждает легенды о несокрушимой мощи Ярима.
-#                    E: Angry
-#                }
+#                1: Мы победили Разрушителя. Некогда он служил грозным оружием в борьбе с Тираном джунглей. Теперь он может наконец обрести покой.
+#                2: Даже будучи мёртвым, он бесцельно скитался. Я рада, что нам удалось его одолеть, но его существование лишь подтверждает легенды о несокрушимой мощи Ярима.
 #            }
 #        }
 #
@@ -2775,36 +2432,18 @@
 #            Asphodene: {
 #                Name: Диалог об Аструм Деусе
 #                Description: ""
-#                1: We've defeated Astrum Deus. Astrum Deus is- or was- one of myriad cosmic beings with lots of power. Etymology around these things is hard, so let's just call it a god.
-#
-#                2: {
-#                    $parentVal: However... Astrum Deus can regenerate itself. Through assimilating life around its corpse, it can eventually return to the cosmos. It's kin to the story of the ouroboros.
-#                    E: Angry
-#                }
-#
-#                3: {
-#                    $parentVal: Let's return to what I said earlier. Astrum Deus was something akin to a god. What we fought was much weaker. What in the world was able to defeat a deity of that caliber?
-#                    E: Angry
-#                }
-#
-#                4: This was a well fought victory... Even so, stay vigilant. I have a feeling our culprit is closer than we think.
+#                1: Мы одолели Аструм Деуса. Аструм Деус он... или был... одним из бесчисленных космических существ, обладающих огромной силой. Этимология таких существ сложна, поэтому давай просто называть его богом.
+#                2: Однако... Аструм Деус способен восстанавливаться. Поглощая жизнь вокруг своих останков, со временем он может вернуться в космос. Это напоминает легенду о Уроборосе.
+#                3: Вернёмся к тому, что я сказала ранее. Аструм Деус был чем-то вроде бога. То, что мы одолели, было лишь его ослабленной версией. Кто, во имя всего сущего, мог одолеть такое сильное божество?
+#                4: Это была тяжёлая, но славная победа... И всё же, расслабляться рано. У меня такое чувство, что наш виновник ближе, чем мы думаем.
 #            }
 #
 #            Eridani: {
 #                Name: Диалог об Аструм Деусе
 #                Description: ""
 #                1: Отличная работа. Ты одолел Аструм Деуса. У меня есть кое-какие личные сведения, так что позволь поделиться...
-#
-#                2: {
-#                    $parentVal: Аструм Деус является одним из многих космических божеств. Согласно имеющимся знаниям, он способен ассимилировать жизненные формы вблизи своих останков для регенерации.
-#                    E: Angry
-#                }
-#
-#                3: {
-#                    $parentVal: Возникает вопрос... Так что же тогда бродит по нашим землям, способное одолеть настоящего бога? То, с чем мы сражались, было просто детёнышем по сравнению с ним.
-#                    E: Angry
-#                }
-#
+#                2: Аструм Деус является одним из многих космических божеств. Согласно имеющимся знаниям, он способен ассимилировать жизненные формы вблизи своих останков для регенерации.
+#                3: Возникает вопрос... Так что же тогда бродит по нашим землям, способное одолеть настоящего бога? То, с чем мы сражались, было просто детёнышем по сравнению с ним.
 #                4: Но давай пока отложим эти мысли. Хотя меня кое-что тревожит, это наша победа. Поздравляю.
 #            }
 #        }
@@ -2815,12 +2454,7 @@
 #            Name: Диалог о разбитом диске
 #            Description: Даёт предмет для призыва босса
 #            1: Погоди-ка... У меня есть кое-что, что тебе наверняка будет интересно. Не помню, где я это нашла, но...
-#
-#            2: {
-#                $parentVal: Такое чувство, что я должла знать, что это, но не могу... Словно что-то мешает.
-#                E: Worried
-#            }
-#
+#            2: Такое чувство, что я должла знать, что это, но не могу... Словно что-то мешает.
 #            3: Ну, ясно одно... это важно! Лучше бы тебе на это поскорее взглянуть. Без спешки, конечно. Ну, разве что совсем чуть-чуть.
 #        }
 #
@@ -2829,215 +2463,69 @@
 #            Description: Даёт предмет для призыва босса
 #            1: Погоди немного. Я забыла упомянуть об этом ранее, но у меня есть кое-что для тебя... Может, ты поможешь мне выяснить, откуда это.
 #            2: Это выглядит так знакомо, и всё же что-то мешает мне вспомнить, что это. Как же это раздражает. Я даже не могу вспомнить, когда я его получила.
-#
-#            3: {
-#                $parentVal: Говорят, что столкновение с препятствиями - признак того, что ты движешься в правильном направлении. Давай внимательнее рассмотрим это как можно скорее.
-#                E: Happy
-#            }
-#
+#            3: Говорят, что столкновение с препятствиями - признак того, что ты движешься в правильном направлении. Давай внимательнее рассмотрим это как можно скорее.
 #            4: Кто это 'говорит', спрашиваешь? Ну, вот этого я так и не поняла.
 #        }
 #
 #        Nalhaun: {
 #            Name: Диалог о воронёной короне
 #            Description: Даёт предмет для призыва босса
-#
-#            1: {
-#                $parentVal: "{0}, судьба вновь сводит нас вместе. И снова у меня есть враг, которого тебе предстоит победить."
-#                E: PerseusNeutral
-#            }
-#
-#            2: {
-#                $parentVal: Я даю тебе 'Древнюю корону'. С её помощью ты сможешь призвать могущественного врага - Воронёного короля.
-#                E: PerseusNeutral
-#            }
-#
-#            3: {
-#                $parentVal: Если моя гипотеза верна, его поражение укажет на путь к Первому звездоносцу.
-#                E: PerseusNeutral
-#            }
-#
-#            4: {
-#                $parentVal: Приготовься: битва будет не из лёгких.
-#                E: PerseusNeutral
-#            }
+#            1: "{0}, судьба вновь сводит нас вместе. И снова у меня есть враг, которого тебе предстоит победить."
+#            2: Я даю тебе 'Древнюю корону'. С её помощью ты сможешь призвать могущественного врага - Воронёного короля.
+#            3: Если моя гипотеза верна, его поражение укажет на путь к Первому звездоносцу.
+#            4: Приготовься: битва будет не из лёгких.
 #        }
 #
 #        Penth: {
 #            Name: Диалог о незапятнанном холсте
 #            Description: Даёт предмет для призыва босса
-#
-#            1: {
-#                $parentVal: "{0}, судьба вновь сводит нас вместе. Мне снова нужна твоя помощь."
-#                E: PerseusNeutral
-#            }
-#
-#            2: {
-#                $parentVal: Это '{$Items.UnsulliedCanvas.DisplayName}'. С его помощью мы выманим из укрытия Ведьму чернил.
-#                E: PerseusNeutral
-#            }
-#
-#            3: {
-#                $parentVal: Это ещё один важный шаг в поисках Первого звездоносца.
-#                E: PerseusNeutral
-#            }
-#
-#            4: {
-#                $parentVal: Пожалуйста, подготовься. Нас ждёт непростой бой.
-#                E: PerseusNeutral
-#            }
+#            1: "{0}, судьба вновь сводит нас вместе. Мне снова нужна твоя помощь."
+#            2: Это '{$Items.UnsulliedCanvas.DisplayName}'. С его помощью мы выманим из укрытия Ведьму чернил.
+#            3: Это ещё один важный шаг в поисках Первого звездоносца.
+#            4: Пожалуйста, подготовься. Нас ждёт непростой бой.
 #        }
 #
 #        Dioskouroi: {
 #            Name: Диалог об амулете парного креста
 #            Description: Даёт предмет для призыва босса
-#
-#            1: {
-#                $parentVal: "{0}, судьба снова сводит нас вместе. Мне нужна твоя помощь."
-#                E: PerseusNeutral
-#            }
-#
-#            2: {
-#                $parentVal: Это '{$Items.TwincruxPendant.DisplayName}'. При его использовании будут призваны могущественные демоны войны.
-#                E: PerseusNeutral
-#            }
-#
-#            3: {
-#                $parentVal: Когда-то Первому звездоносцу удалось одолеть этого врага. Я надеюсь, что, изучив твою битву с этим симулякром, мы сможем найти подсказки о его местонахождении.
-#                E: PerseusNeutral
-#            }
-#
-#            4: {
-#                $parentVal: Хорошенько подготовься.
-#                E: PerseusNeutral
-#            }
+#            1: "{0}, судьба снова сводит нас вместе. Мне нужна твоя помощь."
+#            2: Это '{$Items.TwincruxPendant.DisplayName}'. При его использовании будут призваны могущественные демоны войны.
+#            3: Когда-то Первому звездоносцу удалось одолеть этого врага. Я надеюсь, что, изучив твою битву с этим симулякром, мы сможем найти подсказки о его местонахождении.
+#            4: Хорошенько подготовься.
 #        }
 #
 #        WarriorAsphodene: {
 #            Name: Предварительный диалог о Воине света
 #            Description: Даёт предмет для призыва босса
-#
-#            1: {
-#                $parentVal: Кажется, с небом что-то не так... Что происходит?..
-#                E: Worried
-#            }
-#
-#            2: {
-#                $parentVal: Ответ, который ты ищешь, не тот, на который ты надеешься.
-#                E: PerseusNeutral
-#            }
-#
-#            3: {
-#                $parentVal: Слу...
-#                E: Worried
-#            }
-#
-#            4: {
-#                $parentVal: Дай мне закончить, Асфодена. Время на исходе. Первый Звездоносец прибыл в этот мир.
-#                E: PerseusNeutral
-#            }
-#
-#            5: {
-#                $parentVal: Are you kidding me? After all that searching we did, he just waltzes up to us?
-#                E: Angry
-#            }
-#
-#            6: {
-#                $parentVal: He must have noticed your defeat of the Moon Lord- an eldritch beast such as it does not fall lightly.
-#                E: PerseusNeutral
-#            }
-#
-#            7: Yeah, we could tell. So... I assume you have a plan, or something?
-#
-#            8: {
-#                $parentVal: From what I can derive, there's only a few more days until his grip over this world reaches its peak.
-#                E: PerseusNeutral
-#            }
-#
-#            9: {
-#                $parentVal: If you have resources that require the night to acquire, I implore you acquire them soon.
-#                E: PerseusNeutral
-#            }
-#
-#            10: {
-#                $parentVal: I've given you an artifact from his homeworld; while I know not its purpose, I believe it will hasten his arrival.
-#                E: PerseusNeutral
-#            }
-#
-#            11: {
-#                $parentVal: Use it only if you are prepared. The stakes have never been higher.
-#                E: PerseusNeutral
-#            }
-#
-#            12: {
-#                $parentVal: ...
-#                E: Angry
-#            }
+#            1: Кажется, с небом что-то не так... Что происходит?..
+#            2: Ответ, который ты ищешь, не тот, на который ты надеешься.
+#            3: Слу...
+#            4: Дай мне закончить, Асфодена. Время на исходе. Первый Звездоносец прибыл в этот мир.
+#            5: Ты издеваешься? После всех наших поисков он просто так является к нам?
+#            6: Он, должно быть, слышал о твоей победе над Лунным лордом. Такое существо не так-то просто убить.
+#            7: Да, мы это заметили. Итак... полагаю, у тебя есть план или что-то в этом роде?
+#            8: По всей видимости, его влияние на мир достигнет своего максимума в ближайшие несколько дней.
+#            9: Если у тебя есть ресурсы, которые можно добыть только ночью, то лучше поторопись.
+#            10: Я дал тебе артефакт из его родного мира; хотя я не знаю его предназначения, но полагаю, что он ускорит его прибытие.
+#            11: Используй это только после тщательной подготовки. Ставки никогда не были столь высоки.
+#            12: ...
 #        }
 #
 #        WarriorEridani: {
 #            Name: Предварительный диалог о Воине света
 #            Description: Даёт предмет для призыва босса
-#
-#            1: {
-#                $parentVal: Ты тоже это видишь, да? Небо какое-то аномально яркое.
-#                E: Worried
-#            }
-#
-#            2: {
-#                $parentVal: Ответ, который ты ищешь, может оказаться неутешительным.
-#                E: PerseusNeutral
-#            }
-#
-#            3: {
-#                $parentVal: Персей. Я...
-#                E: Angry
-#            }
-#
-#            4: {
-#                $parentVal: Дай мне закончить, Эридани. Время поджимает. Первый Звездоносец явился в этот мир.
-#                E: PerseusNeutral
-#            }
-#
-#            5: {
-#                $parentVal: Мы столько времени его искали... почему он сам пришёл к нам?
-#                E: Thinking
-#            }
-#
-#            6: {
-#                $parentVal: Он, должно быть, слышал о твоей победе над Лунным лордом. Такое существо не так-то просто убить.
-#                E: PerseusNeutral
-#            }
-#
-#            7: {
-#                $parentVal: Да, это логично, но, с другой стороны, это делает нас виноватыми... Ну да ладно, у тебя есть какой-нибудь план?
-#                E: Worried
-#            }
-#
-#            8: {
-#                $parentVal: По всей видимости, его влияние на мир достигнет своего максимума в ближайшие несколько дней.
-#                E: PerseusNeutral
-#            }
-#
-#            9: {
-#                $parentVal: Если у тебя есть ресурсы, которые можно добыть только ночью, то лучше поторопись.
-#                E: PerseusNeutral
-#            }
-#
-#            10: {
-#                $parentVal: Я дал тебе артефакт из его родного мира; хотя я не знаю его предназначения, но полагаю, что он ускорит его прибытие.
-#                E: PerseusNeutral
-#            }
-#
-#            11: {
-#                $parentVal: Используй это только после тщательной подготовки. Ставки никогда не были столь высоки.
-#                E: PerseusNeutral
-#            }
-#
-#            12: {
-#                $parentVal: ...
-#                E: Worried
-#            }
+#            1: Ты тоже это видишь, да? Небо какое-то аномально яркое.
+#            2: Ответ, который ты ищешь, может оказаться неутешительным.
+#            3: Персей. Я...
+#            4: Дай мне закончить, Эридани. Время поджимает. Первый Звездоносец явился в этот мир.
+#            5: Мы столько времени его искали... почему он сам пришёл к нам?
+#            6: Он, должно быть, слышал о твоей победе над Лунным лордом. Такое существо не так-то просто убить.
+#            7: Да, это логично, но, с другой стороны, это делает нас виноватыми... Ну да ладно, у тебя есть какой-нибудь план?
+#            8: По всей видимости, его влияние на мир достигнет своего максимума в ближайшие несколько дней.
+#            9: Если у тебя есть ресурсы, которые можно добыть только ночью, то лучше поторопись.
+#            10: Я дал тебе артефакт из его родного мира; хотя я не знаю его предназначения, но полагаю, что он ускорит его прибытие.
+#            11: Используй это только после тщательной подготовки. Ставки никогда не были столь высоки.
+#            12: ...
 #        }
 #    }
 #
@@ -3046,36 +2534,16 @@
 #            Asphodene: {
 #                Name: Диалог покоя (Пре-хардмод)
 #                Description: ""
-#
-#                1: {
-#                    $parentVal: Сестру, небось, воротит от этих зомби, которые каждую ночь выползают из своих могил.
-#                    E: Happy
-#                }
-#
-#                2: {
-#                    $parentVal: А как же я?
-#                    E: Thinking
-#                }
-#
-#                3: {
-#                    $parentVal: Пока у них есть деньги, это ведь выгодно для нас, ведь так?
-#                    E: Smug
-#                }
+#                1: Сестру, небось, воротит от этих зомби, которые каждую ночь выползают из своих могил.
+#                2: А как же я?
+#                3: Пока у них есть деньги, это ведь выгодно для нас, ведь так?
 #            }
 #
 #            Eridani: {
 #                Name: Диалог покоя (Пре-хардмод)
 #                Description: ""
-#
-#                1: {
-#                    $parentVal: Эти мерзкие твари каждую ночь из земли лезут...
-#                    E: Worried
-#                }
-#
-#                2: {
-#                    $parentVal: Фе, гадость. Давай поскорее прикончим их. И... не забудь потом помыть руки.
-#                    E: Angry
-#                }
+#                1: Эти мерзкие твари каждую ночь из земли лезут...
+#                2: Фе, гадость. Давай поскорее прикончим их. И... не забудь потом помыть руки.
 #            }
 #        }
 #
@@ -3083,13 +2551,13 @@
 #            Asphodene: {
 #                Name: Диалог покоя (Пре-хардмод)
 #                Description: ""
-#                1: Rest is quite important. Don't neglect breaks, or else!
+#                1: Нельзя пренебрегать отдыхом. Делай перерывы, иначе потом пожалеешь!
 #            }
 #
 #            Eridani: {
 #                Name: Диалог покоя (Пре-хардмод)
 #                Description: ""
-#                1: It's important to take breaks from time to time. You've probably heard this a lot already, but it's still relevant!
+#                1: Важно иногда делать перерывы. Знаю, это всем давно известно, но не помешает напомнить!
 #            }
 #        }
 #
@@ -3098,22 +2566,14 @@
 #                Name: Диалог покоя (Пре-хардмод)
 #                Description: ""
 #                1: Честно говоря, я обожаю вычурные пушки. Немного 'блеска' никогда никому не вредило.
-#
-#                2: {
-#                    $parentVal: Разве что тем, кто их получает.
-#                    E: Smug
-#                }
+#                2: Разве что тем, кто их получает.
 #            }
 #
 #            Eridani: {
 #                Name: Диалог покоя (Пре-хардмод)
 #                Description: ""
 #                1: Значение внешности оружия? Ну, оно имеет значение, но удобство намного перевешивает косметическую ценность.
-#
-#                2: {
-#                    $parentVal: Иногда, бывает... Сложно сделать выбор. Понимаешь, о чем я?
-#                    E: Worried
-#                }
+#                2: Иногда, бывает... Сложно сделать выбор. Понимаешь, о чем я?
 #            }
 #        }
 #
@@ -3169,11 +2629,7 @@
 #                1: У меня возникла идея касательно оружия, '{0}'.
 #                2: Погоди.
 #                3: Ладно, забудь. Не будем об этом говорить.
-#
-#                4: {
-#                    $parentVal: Оно было бы слишком габаритным, не говоря уже об остальном. А ещё есть проблема с нагревом...
-#                    E: Worried
-#                }
+#                4: Оно было бы слишком габаритным, не говоря уже об остальном. А ещё есть проблема с нагревом...
 #            }
 #
 #            Eridani: {
@@ -3181,11 +2637,7 @@
 #                Description: ""
 #                1: Итак, вот такая идея оружия пришла мне в голову, {0}.
 #                2: Подожди-ка... На самом деле... Ну ладно, неважно.
-#
-#                3: {
-#                    $parentVal: Даже если мы решим проблему с энергопотреблением, нам всё равно придётся решать проблему с весом...
-#                    E: Worried
-#                }
+#                3: Даже если мы решим проблему с энергопотреблением, нам всё равно придётся решать проблему с весом...
 #            }
 #        }
 #
@@ -3193,29 +2645,15 @@
 #            Asphodene: {
 #                Name: Диалог покоя (Пре-хардмод)
 #                Description: ""
-#                1: {
-#                    $parentVal: Некоторые из этих горожан не слишком приятные, да?
-#                    E: Worried
-#                }
-#
-#                2: {
-#                    $parentVal: Всё так дорого стоит! И у всех монополия!
-#                    E: Angry
-#                }
+#                1: Некоторые из этих горожан не слишком приятные, да?
+#                2: Всё так дорого стоит! И у всех монополия!
 #            }
 #
 #            Eridani: {
 #                Name: Диалог покоя (Пре-хардмод)
 #                Description: ""
-#                1: {
-#                    $parentVal: Эти торговцы явно завышают цены на свои товары!
-#                    E: Angry
-#                }
-#
-#                2: {
-#                    $parentVal: Слушай, а если мы их чутка обдурим, они заметят? Или может не стоит? Ладно... не будем.
-#                    E: Worried
-#                }
+#                1: Эти торговцы явно завышают цены на свои товары!
+#                2: Слушай, а если мы их чутка обдурим, они заметят? Или может не стоит? Ладно... не будем.
 #            }
 #        }
 #
@@ -3252,28 +2690,15 @@
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
 #                1: Мне нравится твой наряд! Видимо, у нас совпадает вкус.
-#
-#                2: {
-#                    $parentVal: А вот обувь, пожалуй, можно снять.
-#                    E: Worried
-#                }
+#                2: А вот обувь, пожалуй, можно снять.
 #            }
 #
 #            Eridani: {
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
 #                1: Твоя экипировка в порядке? С виду... сойдёт.
-#
-#                2: {
-#                    $parentVal: Эм, скажу сразу: если что-то скажешь про мой наряд...
-#                    E: Angry
-#                }
-#
-#                3: {
-#                    $parentVal: Я, наверное, расплачусь.
-#                    E: Worried
-#                }
-#
+#                2: Эм, скажу сразу: если что-то скажешь про мой наряд...
+#                3: Я, наверное, расплачусь.
 #                4: Что? Ну это правда.
 #            }
 #        }
@@ -3282,34 +2707,17 @@
 #            Asphodene: {
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
-#
-#                1: {
-#                    $parentVal: Отдыхай, когда чувствуешь необходимость.
-#                    E: Worried
-#                }
-#
-#                2: {
-#                    $parentVal: Ни к чему терять контроль над собой в пылу битвы.
-#                    E: Neutral
-#                }
+#                1: Отдыхай, когда чувствуешь необходимость.
+#                2: Ни к чему терять контроль над собой в пылу битвы.
 #            }
 #
 #            Eridani: {
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
 #                1: Помни, в бою важно сохранять хладнокровие.
-#
-#                2: {
-#                    $parentVal: "'Даже в самых хаотичных и трудных ситуациях можно найти возможности для успеха.'"
-#                    E: Smug
-#                }
-#
+#                2: "'Даже в самых хаотичных и трудных ситуациях можно найти возможности для успеха.'"
 #                3: Не забывай об этом. ...Нет, это не моя фраза.
-#
-#                4: {
-#                    $parentVal: Было бы круто, если бы я её придумала.
-#                    E: Happy
-#                }
+#                4: Было бы круто, если бы я её придумала.
 #            }
 #        }
 #
@@ -3318,29 +2726,16 @@
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
 #                1: Ого, ты уже такой сильный! Думаешь, сможешь меня одолеть?
-#
-#                2: {
-#                    $parentVal: Шучу, я просто шучу. Хотя, кто знает, может быть и смог бы.
-#                    E: DeadInside
-#                }
+#                2: Шучу, я просто шучу. Хотя, кто знает, может быть и смог бы.
 #            }
 #
 #            Eridani: {
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
 #                1: Гляжу, ты становишься всё сильнее, а? Придётся и мне поднапрячься, чтобы не отставать.
-#
-#                2: {
-#                    $parentVal: Или нет. Теоретически, если бы дело дошло до драки, то я бы, наверное, победила. Как думаешь?
-#                    E: Smug
-#                }
-#
+#                2: Или нет. Теоретически, если бы дело дошло до драки, то я бы, наверное, победила. Как думаешь?
 #                3: Но не вздумай кичиться этим. Мы же заодно.
-#
-#                4: {
-#                    $parentVal: (Интересно, прокатил ли мой блеф?)
-#                    E: Worried
-#                }
+#                4: (Интересно, прокатил ли мой блеф?)
 #            }
 #        }
 #
@@ -3349,39 +2744,28 @@
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
 #                1: Трудно даже представить, откуда взялись эти монстры.
-#
-#                2: {
-#                    $parentVal: Похоже, какой-то лич где-то нанюхался поганок и пустился во все тяжкие? А может, портал в измерение первобытного супа открылся?
-#                    E: Thinking
-#                }
+#                2: Похоже, какой-то лич где-то нанюхался поганок и пустился во все тяжкие? А может, портал в измерение первобытного супа открылся?
 #            }
 #
-#            Eridani.1: Уж кто-кто, а создатели этих монстров фантазией не обделены.
+#            Eridani: {
+#                Name: Диалог покоя (Хардмод)
+#                Description: ""
+#                1: Уж кто-кто, а создатели этих монстров фантазией не обделены.
+#            }
 #        }
 #
 #        HardIdleDialogue8: {
 #            Asphodene: {
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
-#                1: {
-#                    $parentVal: Окей, теоретически, раз я могу воскресить тебя прямо в постели...
-#                    E: Thinking
-#                }
-#
-#                2: {
-#                    $parentVal: А что если... только подумай... мы привяжем тебя к кровати? Бац и ты неуязвим. Верно? Верно...
-#                    E: Happy
-#                }
+#                1: Окей, теоретически, раз я могу воскресить тебя прямо в постели...
+#                2: А что если... только подумай... мы привяжем тебя к кровати? Бац и ты неуязвим. Верно? Верно...
 #            }
 #
 #            Eridani: {
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
-#                1: {
-#                    $parentVal: А ты пробовал... использовать два оружия одновременно? По одному в каждой руке?
-#                    E: Thinking
-#                }
-#
+#                1: А ты пробовал... использовать два оружия одновременно? По одному в каждой руке?
 #                2: Ты же много времени проводишь в воздухе, поэтому ноги не защищены. Может, так урон вчетверо увеличим... Или это слишком сложно? Понятно. Так и думала.
 #            }
 #        }
@@ -3408,21 +2792,13 @@
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
 #                1: Глядя на Эридани, сразу думаешь, что она 'прилежная ученица', верно?
-#
-#                2: {
-#                    $parentVal: Но не тут-то было! В действительности она поступает как ей заблагорассудится. Благо, хоть совесть у неё осталась, а то я бы ей задала трёпку!
-#                    E: Smug
-#                }
+#                2: Но не тут-то было! В действительности она поступает как ей заблагорассудится. Благо, хоть совесть у неё осталась, а то я бы ей задала трёпку!
 #            }
 #
 #            Eridani: {
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
-#                1: {
-#                    $parentVal: Технически, Асфодена старше... но по ней этого не скажешь.
-#                    E: Thinking
-#                }
-#
+#                1: Технически, Асфодена старше... но по ней этого не скажешь.
 #                2: В ней есть что-то такое... эдакое. Нет, не детское, а скорее... бунтарское? Да, бунтарское.
 #            }
 #        }
@@ -3431,38 +2807,18 @@
 #            Asphodene: {
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
-#                1: {
-#                    $parentVal: Что мне нравится? Просыпаться, когда вздумается! Да, пожалуй, это на первом месте.
-#                    E: Happy
-#                }
-#
-#                2: {
-#                    $parentVal: Ладно, признаю, звучит по-детски. А ещё я люблю свежие фрукты, как тебе такой ответ?
-#                    E: Thinking
-#                }
-#
+#                1: Что мне нравится? Просыпаться, когда вздумается! Да, пожалуй, это на первом месте.
+#                2: Ладно, признаю, звучит по-детски. А ещё я люблю свежие фрукты, как тебе такой ответ?
 #                3: Ох, ох... волшебная еда - это нечто. Попробовав раз, уже не можешь жить без неё.
-#
-#                4: {
-#                    $parentVal: Путешествия тоже взрывают мозг... если при виде новых пейзажей сердце не колотится, то ты вообще человек?
-#                    E: Happy
-#                }
+#                4: Путешествия тоже взрывают мозг... если при виде новых пейзажей сердце не колотится, то ты вообще человек?
 #            }
 #
 #            Eridani: {
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
-#                1: {
-#                    $parentVal: Что мне нравится? Хочешь узнать банальщину, или... Ладно.
-#                    E: Thinking
-#                }
-#
+#                1: Что мне нравится? Хочешь узнать банальщину, или... Ладно.
 #                2: Ну, мне нравится ночной воздух. Вокруг всё кипит, шумит, а ты стоишь посреди этого и тишина. Верно, спокойствие и тишина.
-#
-#                3: {
-#                    $parentVal: А, ну если интересует что-то поконкретнее, материальное... Признаюсь, я сладкоежка.
-#                    E: Happy
-#                }
+#                3: А, ну если интересует что-то поконкретнее, материальное... Признаюсь, я сладкоежка.
 #            }
 #        }
 #
@@ -3470,35 +2826,16 @@
 #            Asphodene: {
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
-#                1: {
-#                    $parentVal: Что мне не нравится? Дай подумать...
-#                    E: Thinking
-#                }
-#
-#                2: {
-#                    $parentVal:  Я терпеть не могу быть слабой, но и быть слишком сильной тоже скучно, а это не то, чего я хочу. Понимаешь, да?
-#                    E: Worried
-#                }
-#
-#                3: {
-#                    $parentVal: О, и ещё я очень не люблю болеть, ну а кто любит?
-#                    E: Angry
-#                }
+#                1: Что мне не нравится? Дай подумать...
+#                2: Я терпеть не могу быть слабой, но и быть слишком сильной тоже скучно, а это не то, чего я хочу. Понимаешь, да?
+#                3: О, и ещё я очень не люблю болеть, ну а кто любит?
 #            }
 #
 #            Eridani: {
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
-#                1: {
-#                    $parentVal: Что меня бесит? Ну, кроме багов... Ладно, можно немного поворчать?
-#                    E: Thinking
-#                }
-#
-#                2: {
-#                    $parentVal: Бывает, начнёшь что-то делать, вкалываешь, почти заканчиваешь, и тут всё рушится к чертям. А потом...
-#                    E: Worried
-#                }
-#
+#                1: Что меня бесит? Ну, кроме багов... Ладно, можно немного поворчать?
+#                2: Бывает, начнёшь что-то делать, вкалываешь, почти заканчиваешь, и тут всё рушится к чертям. А потом...
 #                3: Со второй попытки еле-еле доходишь до середины, и опять всё идёт наперекосяк. Сложно придумать что-то более деморализующее...
 #            }
 #        }
@@ -3508,28 +2845,15 @@
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
 #                1: Мои увлечения, хм. Ну, я собираю разные вещицы из мест, где побывала. Необычно, правда?
-#
-#                2: {
-#                    $parentVal: А ещё я, э-э, пробую создавать новое оружие. Пока что не без происшествий, но я совершенствуюсь!
-#                    E: Thinking
-#                }
-#
-#                3: {
-#                    $parentVal: Иногда играю на пианино. Не профессионально, конечно, но... как говорится, всё приходит со временем.
-#                    E: Happy
-#                }
+#                2:  А ещё я, э-э, пробую создавать новое оружие. Пока что не без происшествий, но я совершенствуюсь!
+#                3: Иногда играю на пианино. Не профессионально, конечно, но... как говорится, всё приходит со временем.
 #            }
 #
 #            Eridani: {
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
 #                1: Увлечения? Ну, первым делом на ум приходит алхимия. Да, алхимия вроде как уже давно изучена... но это если рассматривать её в масштабах всей планеты.
-#
-#                2: {
-#                    $parentVal: А если смешать основы с двух разных планет, да ещё и с такой разницей во времени, то тут всё становится очень даже запутанным.
-#                    E: Happy
-#                }
-#
+#                2: А если смешать основы с двух разных планет, да ещё и с такой разницей во времени, то тут всё становится очень даже запутанным.
 #                3: Короче говоря, да, голова идёт кругом... именно поэтому это просто хобби, а не что-то большее. Я не гений, конечно, но мне нравится разбираться в этом.
 #            }
 #        }
@@ -3539,22 +2863,14 @@
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
 #                1: На самом деле... Освящение - это сплошной обман.
-#
-#                2: {
-#                    $parentVal: Для такого милого биома, он ОЧЕНЬ сильно хочет тебя убить.
-#                    E: Worried
-#                }
+#                2: Для такого милого биома, он ОЧЕНЬ сильно хочет тебя убить.
 #            }
 #
 #            Eridani: {
 #                Name: Диалог покоя (Хардмод)
 #                Description: ""
 #                1: Сними маску с Освящённого, и его истинное лицо может оказаться ужаснее самой преисподней.
-#
-#                2: {
-#                    $parentVal: Если отправляешься за душами, будь осторожен. Даже самый опытный может быть застигнут врасплох.
-#                    E: Angry
-#                }
+#                2: Если отправляешься за душами, будь осторожен. Даже самый опытный может быть застигнут врасплох.
 #            }
 #        }
 #
@@ -3562,29 +2878,15 @@
 #            Asphodene: {
 #                Name: Диалог покоя (Вечный свет)
 #                Description: ""
-#                1: {
-#                    $parentVal: Этот нескончаемый свет сводит с ума... Наверняка есть способ его остановить!
-#                    E: Angry
-#                }
-#
-#                2: {
-#                    $parentVal: Персей сказал нам использовать 'Желание прародителя'. Возможно, оно содержит ключ к разгадке?
-#                    E: Worried
-#                }
+#                1: Этот нескончаемый свет сводит с ума... Наверняка есть способ его остановить!
+#                2: Персей сказал нам использовать 'Желание прародителя'. Возможно, оно содержит ключ к разгадке?
 #            }
 #
 #            Eridani: {
 #                Name: Диалог покоя (Вечный свет)
 #                Description: ""
-#                1: {
-#                    $parentVal: Этот вечный свет просто жуть...
-#                    E: Angry
-#                }
-#
-#                2: {
-#                    $parentVal: Персей дал нам 'Желание прародителя'. Чувствую, что оно может стать ключом к разгадке этой тайны.
-#                    E: Angry
-#                }
+#                1: Этот вечный свет просто жуть...
+#                2: Персей дал нам 'Желание прародителя'. Чувствую, что оно может стать ключом к разгадке этой тайны.
 #            }
 #        }
 #    }
@@ -3622,23 +2924,23 @@
 #            }
 #
 #            onFrostburn: {
-#                1: You're burning up? Or freezing? It looks like it hurts regardless!
+#                1: Ты горишь? Или замерзаешь? Неважно, это точно адская боль!
 #                2: Yikes- a mix of fire and ice? Hang in there!
 #                3: Well, that looks like it hurts.
 #            }
 #
 #            onWebbed: {
-#                1: Ew. It looks like you're covered in webs.
+#                1: Бее. Ты весь в паутине.
 #                2: Covered in webs... Don't fret, it usually comes off after a few washes.
 #            }
 #            onStoned: {
-#                1: You've been petrified! How does that even work?
-#                2: You've been turned to stone?! Can you even hear me?
+#                1: Тебя обратили в камень! Как такое возможно?
+#                2: Ты превратился в камень?! Ты меня вообще слышишь?
 #            }
 #
 #            onBurning: {
-#                1: You're standing on something REALLY hot. I'm no expert on thermodynamics, but you should not do that.
-#                2: You should probably move...
+#                1: Ты стоишь на чём-то ЧЕРТОВСКИ горячем. Я не эксперт по термодинамике, но тебе не стоит этого делать.
+#                2: Тебе лучше отойти...
 #            }
 #
 #            onSuffocation: {
@@ -3676,12 +2978,12 @@
 #            1: Похоже, тебя отравили. Я отправлю тебе открытку с пожеланиями скорейшего выздоровления.
 #            2: Похоже, твоя защита ослабла! Будь осторожен.
 #            3: На тебя наложили безмолвие! О магии можешь забыть.
-#            4: I think you've been cursed. That's.. not good. You aren't able to use anything for now.
-#            5: You've been frozen!
-#            6: You're burning up? Or freezing? It looks like it hurts regardless!
-#            7: Ew. It looks like you're covered in webs..
-#            8: You've been petrified! How does that even work?
-#            9: You're standing on something REALLY hot. I'm no expert on thermodynamics, but you should not do that.
+#            4: Похоже, тебя прокляли. И это... не очень хорошо. Сейчас ты ничего не сможешь использовать.
+#            5: Ты полностью замёрз!
+#            6: Ты горишь? Или замерзаешь? Неважно, это точно адская боль!
+#            7: Бее. Ты весь в паутине.
+#            8: Тебя обратили в камень! Как такое возможно?
+#            9: Ты стоишь на чём-то ЧЕРТОВСКИ горячем. Я не эксперт по термодинамике, но тебе не стоит этого делать.
 #            10: Ты умираешь, и быстро. Выбирайся отсюда!
 #            11: Это, похоже, не к добру.
 #            12: Не хочу тебя расстраивать, но ты сейчас утонешь.
@@ -4458,17 +3760,17 @@
 #
 #            22: {
 #                Dialogue: {
-#                    0: I see- this far from the Heart people are no stranger to a lack of courtesy- barging into one's home like so. Am I correct?
-#                    1: I'm so sorry... We thought, you know, because everything else is abandoned around here, this place would be too... Sorry.
-#                    2: Truly? No matter- I am nothing if not the forgiving sort... I think. Wait, forget that last bit.
-#                    3: Ahem. Friendly faces scant wander this far, so offering hospitality is the least I can do- to a Starfarer, as well. My name is Garridine.
-#                    4: In truth, automatons prove not the most capable of conversationalists. I would not be opposed to your visits.
-#                    5: That sounds great to me. Finding a friendly face so far from civilization is a great help to us as well.
-#                    6: In that case... I would appreciate it if you would allow me to analyze your equipment and weapons you have created.
-#                    7: I haven't had occassion to learn about recent advancements, owing in no small part to the Ardor- if I were to get a glimpse, it would be quite the boon.
-#                    8: To make this worth your time, I'll craft some Stellar Foci for you after a visit.
-#                    9: Hmm... that would prove useful- especially avoiding having to craft them ourselves.
-#                    10: Wonderful. Let us hope this relationship is a fruitful one.
+#                    0: Да уж... так далеко от Сердца, видимо, люди не привыкли к вежливости... врываться вот так в чужой дом. Я права?
+#                    1: Ох, прости... Мы думали, раз тут всё вокруг заброшено, то и это место будет... Прости.
+#                    2: Правда? Ладно, неважно... Скажем так, я склонна к снисходительности... наверное. Ладно, забудь последнюю часть.
+#                    3: Кхе-кхе. Дружелюбные лица редко забредают так далеко, поэтому оказать гостеприимство – это меньшее, что я могу сделать... тем более для Астры. Меня зовут Гарридина.
+#                    4: Сказать по правде, автоматоны не самые разговорчивые собеседники. Я не против, если ты будешь навещать меня.
+#                    5: Чудесно. Вдали от цивилизации встретить дружелюбное лицо – это большая удача и для нас.
+#                    6: В таком случае... Я была бы признательна, если бы ты позволил мне изучить твоё снаряжение и оружие, которое ты создал.
+#                    7: У меня не было возможности узнать о последних достижениях, во многом из-за Ардора... если бы я могла взглянуть на них, это было бы настоящим подарком.
+#                    8: Чтобы ты не пожалел о потраченном времени, я изготовлю для тебя несколько Звёздных светил после твоего визита.
+#                    9: Хм... это было бы очень кстати, особенно если не придется делать их вручную.
+#                    10: Прекрасно. Надеюсь, наше сотрудничество будет плодотворным.
 #                }
 #
 #                Choices: {
@@ -5377,7 +4679,7 @@
 #
 #            Refulgent: {
 #                Name: Сияющий
-#                Bonus: При использовании Астроновы, вы получаете бафф «{$Buffs.Lightblessed.DisplayName}», увеличивает защиту на 30%
+#                Bonus: При использовании Астроновы, вы получаете бафф «{$Buffs.Lightblessed.DisplayName}», увеличивающий защиту на 30%
 #            }
 #
 #            Verdant: {
@@ -5388,7 +4690,7 @@
 #
 #        Deadbloom: {
 #            Name: Настойка мёртвоцвета
-#            SetBonus1: Атаки по врагам с дебаффом наносят на 12%
+#            SetBonus1: Атаки по врагам с дебаффом наносят на 12% больше урона
 #            SetBonus2: Критические удары по врагам с дебаффом наносят на 30% больше урона
 #            SetBonus3: 20% шанса критического удара добавляется к длительности эффекта
 #            FlavorTooltip: Мёртвоцветы гниют на падали только в Великом перевале, эта загадка столь же озадачивающая, сколь и любопытная.
@@ -14084,7 +13386,7 @@
 #    }
 #
 #    DraggedBelowSuppressCooldown: {
-#        DisplayName: Затянутый в бездну :  Suppress Cooldown
+#        DisplayName: Затянутый в бездну : Перезарядка подавления
 #        Description: ""
 #    }
 #
