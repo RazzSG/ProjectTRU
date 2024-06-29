@@ -971,7 +971,7 @@
 #            }
 #
 #            Eridani: {
-#                Name: иалог об оружии Клив-Солаш
+#                Name: Диалог об оружии Клив-Солаш
 #                Description: Даёт эссенцию
 #                1: Right... Here's another Essence. This Melee weapon allows you to damage all nearby foes in a huge area. It should be quite useful.
 #            }
@@ -979,13 +979,13 @@
 #
 #        PenthesileaMuse: {
 #            Asphodene: {
-#                Name: Penthesilea's Muse Weapon Dialogue
+#                Name: Диалог об оружии Муза Пентесилеи
 #                Description: Даёт эссенцию
 #                1: Here's another Essence you can prepare to use, from Penthesilea's strength. With its magical paint, we should be able to best powerful foes.
 #            }
 #
 #            Eridani: {
-#                Name: Penthesilea's Muse Weapon Dialogue
+#                Name: Диалог об оружии Муза Пентесилеи
 #                Description: Даёт эссенцию
 #                1: This is another Essence you can master. It will allow you to use Penthesilea's ink to supress foes and strike bosses powerfully.
 #            }
@@ -993,13 +993,13 @@
 #
 #        Kifrosse: {
 #            Asphodene: {
-#                Name: Kifrosse Weapon Dialogue
+#                Name: Диалог об оружии Кифросс
 #                Description: Даёт эссенцию
 #                1: Here you go: an essence for usage in crafting. It looks like it'll apply powerful bouts of flame and frost alike. Not how I'd want to go out, personally.
 #            }
 #
 #            Eridani: {
-#                Name: Kifrosse Weapon Dialogue
+#                Name: Диалог об оружии Кифросс
 #                Description: Даёт эссенцию
 #                1: Okay, I have another Essence for your battles. It summons a mystical fox that burns your enemies with icy energy. They might even deserve it, too.
 #            }
@@ -1007,13 +1007,13 @@
 #
 #        Architect: {
 #            Asphodene: {
-#                Name: Architect's Luminance Weapon Dialogue
+#                Name: Диалог об оружии Ясность Архитектора
 #                Description: Даёт эссенцию
 #                1: Whoa, this is a powerful Essence. It's potential seems to be magnified based on your Aspected Damage Type. How about giving it a go?
 #            }
 #
 #            Eridani: {
-#                Name: Architect's Luminance Weapon Dialogue
+#                Name: Диалог об оружии Ясность Архитектора
 #                Description: Даёт эссенцию
 #                1: It looks like this next Essence is a strong one. Aspected Damage Type seems to empower the weapon further…
 #            }
@@ -1021,13 +1021,13 @@
 #
 #        ForceOfNature: {
 #            Asphodene: {
-#                Name: Force Of Nature Weapon Dialogue
+#                Name: Диалог об оружии Неумолимая сила
 #                Description: Даёт эссенцию
 #                1: Okay..! Time for another Essence! This looks to be a Ranged weapon with high damage output at close range.
 #            }
 #
 #            Eridani: {
-#                Name: Force Of Nature Weapon Dialogue
+#                Name: Диалог об оружии Неумолимая сила
 #                Description: Даёт эссенцию
 #                1: I've located another Essence for your use. It seems this Ranged-type weapon is hyperfocused on movement. How about pairing it with some mobility tools..?
 #            }
@@ -1035,13 +1035,13 @@
 #
 #        Genocide: {
 #            Asphodene: {
-#                Name: Genocide Weapon Dialogue
+#                Name: Диалог об оружии Геноцид
 #                Description: Даёт эссенцию
 #                1: This new Essence is great! It's a Ranged weapon with crazy high explosive potential. Just point it towards the bad guys.
 #            }
 #
 #            Eridani: {
-#                Name: Genocide Weapon Dialogue
+#                Name: Диалог об оружии Геноцид
 #                Description: Даёт эссенцию
 #                1: Another Essence is yours. It's a strong Ranged weapon with incredibly good room-clearing power. How about that?
 #            }
@@ -1049,13 +1049,13 @@
 #
 #        Takonomicon: {
 #            Asphodene: {
-#                Name: Takonomicon Weapon Dialogue
+#                Name: Диалог об оружии Такономикон
 #                Description: Даёт эссенцию
 #                1: I have a new Essence for you. This is a magical Summon-type weapon that seems to scale with your own potential. Interesting..!
 #            }
 #
 #            Eridani: {
-#                Name: Takonomicon Weapon Dialogue
+#                Name: Диалог об оружии Такономикон
 #                Description: Даёт эссенцию
 #                1: Вот тебе ещё одна эссенция. Похоже, это оружие призывного типа, которое становится сильнее с увеличением количества призванных миньонов.
 #            }
@@ -1063,13 +1063,13 @@
 #
 #        TwinStarsAlbiero: {
 #            Asphodene: {
-#                Name: Twin Stars of Albiero Weapon Dialogue
+#                Name: Диалог об оружии Двойные звёзды Альбиеро
 #                Description: Даёт эссенцию
 #                1: A Magic Essence is here this time. With cosmic energy, you can blast foes away with superpowered light. Sounds good to me!
 #            }
 #
 #            Eridani: {
-#                Name: Twin Stars of Albiero Weapon Dialogue
+#                Name: Диалог об оружии Двойные звёзды Альбиеро
 #                Description: Даёт эссенцию
 #                1: Here's a Magic-type Essence. With the power of the stars, you can melt even the strongest of foes. Give it a try..?
 #            }
@@ -1177,14 +1177,14 @@
 #
 #        Eternal: {
 #            Asphodene: {
-#                Name: Eternal Star Weapon Dialogue
+#                Name: Диалог об оружии Вечная звезда
 #                Description: Даёт эссенцию
 #                1: This looks to be a Magic weapon. With its power, you can call down entire stars to defeat your foes!
 #                2: You're worried you'll run out eventually? Yeah.. no.
 #            }
 #
 #            Eridani: {
-#                Name: Eternal Star Weapon Dialogue
+#                Name: Диалог об оружии Вечная звезда
 #                Description: Даёт эссенцию
 #                1: This Magic-type staff will be incredibly helpful, if I do say so myself. It has the strength to conjure entire stars!
 #                2: As long as they aren't REAL stars. There would be... a few problems.
@@ -1193,14 +1193,14 @@
 #
 #        Vermillion: {
 #            Asphodene: {
-#                Name: Vermillion Daemon Weapon Dialogue
+#                Name: Диалог об оружии Алый демон
 #                Description: Даёт эссенцию
 #                1: This looks to be... a Magic weapon. Strange- it feels like an entire armory is contained in this Essence. How's that possible?
 #                2: Well, I'll let you figure that one out. Get to it- I'm curious too, you know?
 #            }
 #
 #            Eridani: {
-#                Name: Vermillion Daemon Weapon Dialogue
+#                Name: Диалог об оружии Алый демон
 #                Description: Даёт эссенцию
 #                1: Here's another weapon- Magic, it seems. There's something strange about it- this Essence seems to hold the strength of myriad weapons together.
 #            }
@@ -1208,14 +1208,14 @@
 #
 #        Ozma: {
 #            Asphodene: {
-#                Name: Ozma Ascendant Weapon Dialogue
+#                Name: Диалог об оружии Возвышенная Озма
 #                Description: Даёт эссенцию
 #                1: Here's a Magic weapon for your usage. Looks to me like it's pretty complicated- you're up to the task though, right?
 #                2: Just point the pointy bit towards the bad guys. Usually works for me.
 #            }
 #
 #            Eridani: {
-#                Name: Ozma Ascendant Weapon Dialogue
+#                Name: Диалог об оружии Возвышенная Озма
 #                Description: Даёт эссенцию
 #                1: Here's another unique Magic weapon. Looks to be rather complicated, so good luck using it. Don't forget the ABCs- always be casting!
 #                2: Although, I'm not too sure that it applies here, so use your own judgement.
@@ -1224,13 +1224,13 @@
 #
 #        Dreadnought: {
 #            Asphodene: {
-#                Name: Dreadnought Weapon Dialogue
+#                Name: Диалог об оружии Химдоспех дредноута
 #                Description: Даёт эссенцию
 #                1: Right.. Here's a Ranged-type weapon Essence.  I hope you've built up your chemical tolerance- it seems to utilize chemical energy to deal powerful damage.
 #            }
 #
 #            Eridani: {
-#                Name: Dreadnought Weapon Dialogue
+#                Name: Диалог об оружии Химдоспех дредноута
 #                Description: Даёт эссенцию
 #                1: This Essence sources a Ranged weapon. It has a high focus on tight mobility, meaning it'll put you into the front lines. The strength should compensate.
 #            }
@@ -1238,13 +1238,13 @@
 #
 #        BloodBlade: {
 #            Asphodene: {
-#                Name: The Blood Blade Weapon Dialogue
+#                Name: Диалог об оружии Кровавый клинок
 #                Description: Даёт эссенцию
 #                1: Behold- a new Essence! It's Melee damage this time. It has some incredible lifesteal powers- but also seems to drain your health on use? How about giving it a go?
 #            }
 #
 #            Eridani: {
-#                Name: The Blood Blade Weapon Dialogue
+#                Name: Диалог об оружии Кровавый клинок
 #                Description: Даёт эссенцию
 #                1: A Melee-type Essence is prepared this time. It seems to me like it sacrifies your health for powerful area-of-effect damage. Use it well, but know the risks.
 #            }
@@ -1252,13 +1252,13 @@
 #
 #        MorningStar: {
 #            Asphodene: {
-#                Name: The Morning Star Weapon Dialogue
+#                Name: Диалог об оружии Утренняя звезда
 #                Description: Даёт эссенцию
 #                1: Here's a Summon weapon. It's.. Well, it's a whip, but it has some unique magical properties. It has good striking power, too!
 #            }
 #
 #            Eridani: {
-#                Name: The Morning Star Weapon Dialogue
+#                Name: Диалог об оружии Утренняя звезда
 #                Description: Даёт эссенцию
 #                1: Right, here's a Summon-type whip. It has some magic capability, but it's a bit random in its casting. Try and use it well.
 #            }
@@ -1266,13 +1266,13 @@
 #
 #        HunterSparkblossom: {
 #            Asphodene: {
-#                Name: Hunter's Symphony Weapon Dialogue
+#                Name: Диалог об оружии Симфония охотника
 #                Description: Даёт эссенцию
 #                1: Listen close, {0}! Or not. This Magic weapon is a giant horn, but get this: you can whack people with it! Rad!
 #            }
 #
 #            Eridani: {
-#                Name: Sparkblossom's Beacon Weapon Dialogue
+#                Name: Диалог об оружии Маяк цветущей искры
 #                Description: Даёт эссенцию
 #                1: Be careful with this Essence- for some reason, it discharges static electricity all the time.
 #                2: It'll create a Summon weapon. Hopefully the electric properties carry over- it's sure to give our foes a shock.
@@ -1281,14 +1281,14 @@
 #
 #        Virtue: {
 #            Asphodene: {
-#                Name: Virtue's Edge Weapon Dialogue
+#                Name: Диалог об оружии Грань добродетели
 #                Description: Даёт эссенцию
 #                1: Careful with this Essence- Apparently, only the worthy can wield it at full strength.
 #                2: An ancient civilization's magnum opus, it seems. Don't underestimate its destructive power.
 #            }
 #
 #            Eridani: {
-#                Name: Virtue's Edge Weapon Dialogue
+#                Name: Диалог об оружии Грань добродетели
 #                Description: Даёт эссенцию
 #                1: This Essence leads to a truly powerful weapon. It bears remnants of an ancient, advanced civilization.
 #                2: Evidently, they bore proficiency in spatial manipulation. I'd like you to give it a try, but it might reject the unworthy.
@@ -1298,14 +1298,14 @@
 #
 #        Riposte: {
 #            Asphodene: {
-#                Name: Vermilion Riposte Weapon Dialogue
+#                Name: Диалог об оружии Киноварное парирование
 #                Description: Даёт эссенцию
 #                1: Look here, another Essence..! It's going to be Magic-type. It seems to revolve around balancing Black and White Mana to attack.
 #                2: It seems that they were opposites, at least where this thing came from. Makes you wonder…!
 #            }
 #
 #            Eridani: {
-#                Name: Vermilion Riposte Weapon Dialogue
+#                Name: Диалог об оружии Киноварное парирование
 #                Description: Даёт эссенцию
 #                1: This Magic-type Essence balances attack and healing through the dual-use of Black and White mana.
 #                2: Two opposite schools of learning, at least in this Essence's original world. Now isn't some interesting worldbuilding…
@@ -1314,14 +1314,14 @@
 #
 #        BurningDesire: {
 #            Asphodene: {
-#                Name: Burning Desire Weapon Dialogue
+#                Name: Диалог об оружии Пылающая страсть
 #                Description: Даёт эссенцию
 #                1: Thanks for waiting. Here's another Melee-type Essence for your use. While it's deceptively close-ranged, it has the potential for some crazy burst damage.
 #                2: Sure, it'll most likely burn you up from the inside. Just a little, though.
 #            }
 #
 #            Eridani: {
-#                Name: Burning Desire Weapon Dialogue
+#                Name: Диалог об оружии Пылающая страсть
 #                Description: Даёт эссенцию
 #                1: Apologies for the delay- here's an Essence. This Melee weapon has some recoil potential, but in exchange you could deal some explosive amounts of damage.
 #                2: I'd ask you to use it in moderation, but I'm sure you'll use it as much as you like. Bring some healing potions, at the very least.
@@ -1330,14 +1330,14 @@
 #
 #        EverlastingPickaxe: {
 #            Asphodene: {
-#                Name: The Everlasting Pickaxe Weapon Dialogue
+#                Name: Диалог об оружии Неуничтожимая кирка
 #                Description: Даёт эссенцию
 #                1: Okay, here's an unorthodox Essence for you. While it functions as a pretty strong pickaxe, it looks like it also has some great damage potential.
 #                2: From my take, it seems to be a great off-hand weapon to pump out explosions. Everyone loves explosions, right?
 #            }
 #
 #            Eridani: {
-#                Name: The Everlasting Pickaxe Weapon Dialogue
+#                Name: Диалог об оружии Неуничтожимая кирка
 #                Description: Даёт эссенцию
 #                1: This Essence focuses on excavation as well as damage. You can use it to move earth at significant rates, and additionally deal powerful explosive damage.
 #            }
@@ -1345,13 +1345,13 @@
 #
 #        CapitanHardware: {
 #            Asphodene: {
-#                Name: El Capitan's Hardware Weapon Dialogue
+#                Name: Диалог об оружии Железо Эль Капитана
 #                Description: Даёт эссенцию
 #                1: Here's a Ranged weapon- it has both a useful primary fire and can unleash strong self-sustaining drones to attack as well.
 #            }
 #
 #            Eridani: {
-#                Name: El Capitan's Hardware Weapon Dialogue
+#                Name: Диалог об оружии Железо Эль Капитана
 #                Description: Даёт эссенцию
 #                1: Here's a Ranged weapon- it has both a useful primary fire and can unleash strong self-sustaining drones to attack as well.
 #            }
@@ -1373,14 +1373,14 @@
 #
 #        Gloves: {
 #            Asphodene: {
-#                Name: Gloves of the Black Silence Weapon Dialogue
+#                Name: Диалог об оружии Перчатки чёрной тишины
 #                Description: Даёт эссенцию
 #                1: This is an Essence that'll turn into a pair of gloves. Now, I know what you're thinking, but let me explain.
 #                2: These gloves can conjure a whole arsenal of weapons for you to wield. Complicated, but it'll be very powerful if used right.
 #            }
 #
 #            Eridani: {
-#                Name: Gloves of the Black Silence Weapon Dialogue
+#                Name: Диалог об оружии Перчатки чёрной тишины
 #                Description: Даёт эссенцию
 #                1: Here's a new weapon for your use. In truth, this Essence is a bit more than that; it's a pair of gloves.
 #                2: Of course, that's not the whole story- you can use these gloves to summon an entire arsenal of weapons.
@@ -1405,13 +1405,13 @@
 #
 #        AurumEdge: {
 #            Asphodene: {
-#                Name: Aurum Edge Weapon Dialogue
+#                Name: Диалог об оружии Золотая грань
 #                Description: Даёт эссенцию
 #                1: I've acquired a new Essence for your use. It seems to borrow strength from Melee and Magic both- a versatile weapon, I like it!
 #            }
 #
 #            Eridani: {
-#                Name: Placeholder Weapon Dialogue
+#                Name: Диалог-заглушка об оружии
 #                Description: Даёт эссенцию
 #                1: Похоже, это новая эссенция для тебя. Она использует уникальный тип урона и мощные зарядные атаки... но, скорее всего, будет иметь некоторый урон от отдачи.
 #            }
@@ -1419,13 +1419,13 @@
 #
 #        Farewells: {
 #            Asphodene: {
-#                Name: Farewell Weapon Dialogue
+#                Name: Диалог об оружии Прощания
 #                Description: Даёт эссенцию
 #                1: Looks like this Graveyard seems to have some connection to this Essence. Hopefully all these graves weren't just from you dying, right?
 #            }
 #
 #            Eridani: {
-#                Name: Farewell Weapon Dialogue
+#                Name: Диалог об оружии Прощания
 #                Description: Даёт эссенцию
 #                1: This Graveyard seems to have connected to this Essence. I hope it'll help you avoid creating the Graveyard in the first place.
 #                2: While powerful, I believe it's a utility item, and not a weapon this time.
@@ -1434,13 +1434,13 @@
 #
 #        IrminsulPod: {
 #            Asphodene: {
-#                Name: Pod Zero-42 Weapon Dialogue
+#                Name: Диалог об оружии Под Зеро-42
 #                Description: Даёт эссенцию
 #                1: Хм... эта эссенция призывного типа сотворит какого-то управляемого дрона. Интересно, может ли он разговаривать?
 #            }
 #
 #            Eridani: {
-#                Name: Irminsul's Dream Weapon Dialogue
+#                Name: Диалог об оружии Сон Ирминсуля
 #                Description: Даёт эссенцию
 #                1: This Magic Essence, while aspected to nature, seems rather volatile. Perhaps you'd be able to better use it in tandem with other weapons?
 #            }
@@ -1448,13 +1448,13 @@
 #
 #        Umbra: {
 #            Asphodene: {
-#                Name: Umbra Weapon Dialogue
+#                Name: Диалог об оружии Умбра
 #                Description: Даёт эссенцию
 #                1: This is certainly a Melee weapon- furthermore, it seems to be one that excels at a distance, as well as providing extra firepower in close combat. Nice.
 #            }
 #
 #            Eridani: {
-#                Name: Umbra Weapon Dialogue
+#                Name: Диалог об оружии Умбра
 #                Description: Даёт эссенцию
 #                1: This Melee weapon harnesses an aspect of time itself to help you in combat. It seems to have some impressive range, as well.
 #            }
@@ -1462,13 +1462,13 @@
 #
 #        SaltwaterScourge: {
 #            Asphodene: {
-#                Name: Saltwater Scourge Weapon Dialogue
+#                Name: Диалог об оружии Гроза морей
 #                Description: Даёт эссенцию
 #                1: I plundered a Ranged-sort of essence from the likeness of those pirates. Sea... water... Actually, looks like I'm nearly dry with jokes, so I'll anchor myself now.
 #            }
 #
 #            Eridani: {
-#                Name: Saltwater Scourge Weapon Dialogue
+#                Name: Диалог об оружии Гроза морей
 #                Description: Даёт эссенцию
 #                1: How about it; that previous... um, let's say 'get-together' with those pirates has churned up an Essence- Ranged damage, from what I can tell. Here you are.
 #            }
@@ -1476,13 +1476,13 @@
 #
 #        Chaos: {
 #            Asphodene: {
-#                Name: Chaos Weapon Dialogue
+#                Name: Диалог об оружии хаоса
 #                Description: Даёт эссенцию
 #                1: Well, I'm not sure what to make of this Essence, other than that it's a Summon weapon. Best you give it a go, before anything else goes haywire.
 #            }
 #
 #            Eridani: {
-#                Name: Chaos Weapon Dialogue
+#                Name: Диалог об оружии хаоса
 #                Description: Даёт эссенцию
 #                1: I'm not sure how to define this Summon-type Essence, so I'll leave it as an exercise for you. Well... good luck.
 #            }
@@ -1505,13 +1505,13 @@
 #
 #        KissOfDeath: {
 #            Asphodene: {
-#                Name: Kiss OfD eath Weapon Dialogue
+#                Name: Диалог об оружии Поцелуй смерти
 #                Description: Даёт эссенцию
 #                1: It looks to me like this Ranged-weapon has the ability to down hordes of foes pretty easily. Sounds like it'll come in handy- especially the giant coffin swings!
 #            }
 #
 #            Eridani: {
-#                Name: Kiss Of Death Weapon Dialogue
+#                Name: Диалог об оружии Поцелуй смерти
 #                Description: Даёт эссенцию
 #                1: This essence is a Ranged-type weapon, but it seems to have a lot of close-ranged action. Don't get overzealous, but do try to make the most of it.
 #            }
@@ -1519,13 +1519,13 @@
 #
 #        Boltstorm: {
 #            Asphodene: {
-#                Name: Boltstorm Axe Weapon Dialogue
+#                Name: Диалог об оружии Топор ревущих молний
 #                Description: Даёт эссенцию
 #                1: Looks like this Essence is both Magic and Melee aspected- it crackles with lightning already. How about giving it a shot?
 #            }
 #
 #            Eridani: {
-#                Name: Boltstorm Axe Weapon Dialogue
+#                Name: Диалог об оружии Топор ревущих молний
 #                Description: Даёт эссенцию
 #                1: Seems like this is a Melee and Magic type Essence in tandem. From what I can see, it'll make a powerful weapon that channels the power of lightning.
 #            }
@@ -1533,13 +1533,13 @@
 #
 #        NanomachinaReactor: {
 #            Asphodene: {
-#                Name: Nanomachina Reactor Weapon Dialogue
+#                Name: Диалог об оружии Наномашинный реактор
 #                Description: Даёт эссенцию
 #                1: Как насчёт этой эссенции? Она даст усиленный барьер, который не только защитит тебя, но и позволит наносить урон, не боясь последствий.
 #            }
 #
 #            Eridani: {
-#                Name: Nanomachina Reactor Weapon Dialogue
+#                Name: Диалог об оружии Наномашинный реактор
 #                Description: Даёт эссенцию
 #                1: This Essence is a support-type item. It'll provide a powerful barrier and allow you to sap life energy from your foes as well... It'll be quite the powerful tool.
 #            }
@@ -1547,14 +1547,14 @@
 #
 #        Sanguine: {
 #            Asphodene: {
-#                Name: Sanguine Despair Weapon Dialogue
+#                Name: Диалог об оружии Кровавое отчаяние
 #                Description: Даёт эссенцию
 #                1: Seems that this Essence came from that voodoo doll we found in the Underworld- a strange sight. Are you certain that using a weapon like this is worth the risk?
 #                2: Who am I kidding- of course you're certain! You chose me, after all! Just don't get TOO reckless, now.
 #            }
 #
 #            Eridani: {
-#                Name: Sanguine Despair Weapon Dialogue
+#                Name: Диалог об оружии Кровавое отчаяние
 #                Description: Даёт эссенцию
 #                1: This Essence seems to have resonated from that strange poppet we found in the Underworld. Beware its dangers- your affinity with resurrection is... tentative.
 #            }
@@ -1562,13 +1562,13 @@
 #
 #        Sunset: {
 #            Asphodene: {
-#                Name: Sunset of the Sun God Weapon Dialogue
+#                Name: Диалог об оружии Рассвет солнечного божества
 #                Description: Даёт эссенцию
-#                1: This Essence is aspected to this world's star- your sun! Needless to say, the power of the sun would be quite the boon- let's see this thing in action!
+#                1: Эта эссенция связана с небесным светилом твоего мира - солнцем! Излишне говорить, что мощь солнца станет истинным даром... давай же узрим это явление воочию!
 #            }
 #
 #            Eridani: {
-#                Name: Sunset of the Sun God Weapon Dialogue
+#                Name: Диалог об оружии Рассвет солнечного божества
 #                Description: Даёт эссенцию
 #                1: An Essence attuned to the power of our Sun- and it is quite radiant, indeed. Let's make good use of it.
 #            }
@@ -1576,13 +1576,13 @@
 #
 #        Mania: {
 #            Asphodene: {
-#                Name: Maniacal Justice Weapon Dialogue
+#                Name: Диалог об оружии Маниакальное правосудие
 #                Description: Даёт эссенцию
 #                1: Hmm, I'd advise healthy amounts of caution with this Essence- it's a Melee essence with high potential, but it looks like you're leaving your defenses open for it.
 #            }
 #
 #            Eridani: {
-#                Name: Maniacal Justice Weapon Dialogue
+#                Name: Диалог об оружии Маниакальное правосудие
 #                Description: Даёт эссенцию
 #                1: This Essence exudes an unhealthy amount of madness- it's a Melee weapon that trades defensive prowess for offensive might. Do be careful.
 #            }
@@ -1590,27 +1590,27 @@
 #
 #        SupremeAuthority: {
 #            Asphodene: {
-#                Name: Supreme Authority Weapon Dialogue
+#                Name: Диалог об оружии Высшая власть
 #                Description: Даёт эссенцию
 #                1: Looks to me like this Magic Essence has some powerful potential, but I'm not quite sure what it requires in turn... Perhaps you should give it a look.
 #            }
 #
 #            Eridani: {
-#                Name: Supreme Authority Weapon Dialogue
+#                Name: Диалог об оружии Высшая власть
 #                Description: Даёт эссенцию
-#                1: A Magic-type essence. It seems to harbor incredible power, but it also seems to require sacrifices in return…
+#                1: Эссенция магического типа. Кажется, она таит в себе невероятную силу, но, похоже, требует взамен жертв...
 #            }
 #        }
 #
 #        Kinetic: {
 #            Asphodene: {
-#                Name: Kariumu's Favor Weapon Dialogue
+#                Name: Диалог об оружии Благосклонность Кариума
 #                Description: Даёт эссенцию
 #                1: You aren't going to believe this, but someone gave this Essence to me- how is that possible? They said something like 'It's just a game, so it's OK.' What even?
 #            }
 #
 #            Eridani: {
-#                Name: Kariumu's Favor Weapon Dialogue
+#                Name: Диалог об оружии Благосклонность Кариума
 #                Description: Даёт эссенцию
 #                1: How can I say this...? Unlike the other Essences, I felt a presence give this one to me. They said something like... 'It's just a game, so it's OK.'
 #                2: It seems to be able to absorb hostile energy and use it to empower you in turn. I, too, am curious on how it looks.
@@ -1619,14 +1619,14 @@
 #
 #        ShockAndAwe: {
 #            Asphodene: {
-#                Name: Shock And Awe Weapon Dialogue
+#                Name: Диалог об оружии Шок и трепет
 #                Description: Даёт эссенцию
 #                1: This Ranged-essence seems to lead to a classic rocket-launcher weapon- I've heard of using explosives for traversal, so it shouldn't hurt to try, right?
 #                2: Is that irony? I think so- maybe not? To be clear, it WILL hurt to try, but it'll also be quite fun!
 #            }
 #
 #            Eridani: {
-#                Name: Shock And Awe Weapon Dialogue
+#                Name: Диалог об оружии Шок и трепет
 #                Description: Даёт эссенцию
 #                1: Эта ракетница стрелкового типа имеет уникальный ближний бой в паре, но для её использования... ну, я надеюсь, у тебя ноги крепкие.
 #            }
@@ -1642,21 +1642,21 @@
 #            Eridani: {
 #                Name: Диалог об оружии Чернильница мечтателя
 #                Description: Даёт эссенцию
-#                1: Take into consideration this Magic essence: in short, it turns the world into a canvas you can interact and attack with.
+#                1: Обрати внимание на эту магическую эссенцию: говоря кратко, она делает мир чем-то вроде холста, с которым ты можешь не только рисовать, но и сражаться.
 #            }
 #        }
 #
 #        Trickspin: {
 #            Asphodene: {
-#                Name: Trickspin Two-Step Weapon Dialogue
+#                Name: Диалог об оружии Двухступенчатый спин
 #                Description: Даёт эссенцию
 #                1: Похоже, здесь появилась эссенция йо-йо... ещё и призывного типа. Оказывается, она обладает некоторыми удобными средствами передвижения!
 #            }
 #
 #            Eridani: {
-#                Name: Trickspin Two-Step Weapon Dialogue
+#                Name: Диалог об оружии Двухступенчатый спин
 #                Description: Даёт эссенцию
-#                1: Here is a new Essence for your perusal- it'll deal Summon damage. It's rather close-ranged but boasts movement capabilities to help close the gap.
+#                1: Глянь-ка на эту новую эссенцию... она наносит урон призывателя. Её радиус действия довольно ограничен, однако она может похвастаться возможностями перемещения для сокращения дистанции с врагом.
 #            }
 #        }
 #
@@ -1676,13 +1676,13 @@
 #
 #        Gundbit: {
 #            Asphodene: {
-#                Name: Gund-bit Siege Weapon Dialogue
+#                Name: Диалог об оружии Ганд-битовый заслон
 #                Description: Даёт эссенцию
 #                1: With this Essence, you'll have a Magic-type weapon with some crazy stopping power! Let's give this one a 'shot'!
 #            }
 #
 #            Eridani: {
-#                Name: Gund-bit Siege Weapon Dialogue
+#                Name: Диалог об оружии Ганд-битовый заслон
 #                Description: Даёт эссенцию
 #                1: I hope you have steady aim- this Magic weapon has powerful piercing strength, as long as you keep your target in your sights.
 #            }
@@ -1704,13 +1704,13 @@
 #
 #        Clarent: {
 #            Asphodene: {
-#                Name: Clarent Rebellion Weapon Dialogue
+#                Name: Диалог об оружии Кларент восстания
 #                Description: Даёт эссенцию
 #                1: This Melee blade has one goal in mind... You could probably guess from its name. It'll make a powerful weapon, that's for sure.
 #            }
 #
 #            Eridani: {
-#                Name: Clarent Rebellion Weapon Dialogue
+#                Name: Диалог об оружии Кларент восстания
 #                Description: Даёт эссенцию
 #                1: A Melee essence, huh? It looks like it has some powerful abilities. Just be glad it listens to you.
 #            }
@@ -1718,13 +1718,13 @@
 #
 #        SoliloquyHavoc: {
 #            Asphodene: {
-#                Name: Devoted Havoc Weapon Dialogue
+#                Name: Диалог об оружии Монолог дальних морей
 #                Description: Даёт эссенцию
 #                1: This Ranged weapon can empower some throwing weapons... Or, you could just blast foes away with bullets. You know, I like both of these options!
 #            }
 #
 #            Eridani: {
-#                Name: Soliloquy of Sovereign Seas Weapon Dialogue
+#                Name: Диалог об оружии Монолог дальних морей
 #                Description: Даёт эссенцию
 #                1: It seems this Summon essence creates powerful allies of water to give you the upper hand in combat. How brilliant!
 #            }
@@ -1929,7 +1929,7 @@
 #            Eridani: {
 #                Name: Диалог о Големе
 #                Description: ""
-#                1: Голем, чудовище из Храма яхщеров, повержен. Что касается механических чудовищ, я немного... разочарована?
+#                1: Голем, чудище из Храма яхщеров, повержен. Что касается механических чудовищ, я немного... разочарована?
 #                2: Перед Темницей появилось нечто странное. Похоже, это не из нашего мира... Будь готов к любым неожиданностям.
 #            }
 #        }
@@ -2029,7 +2029,7 @@
 #
 #        VanillaAndWarrior: {
 #            Asphodene: {
-#                Name: Powerful Weapon Dialogue
+#                Name: Диалог о могуственном оружии
 #                Description: Grants the Essence for a powerful weapon
 #                1: Seriously, this is a incredible achievement- I've had this Essence tucked away, as it was too powerful to use, but...
 #                2: With what you've accomplished, I think you're able to finally wield it.
@@ -2037,7 +2037,7 @@
 #            }
 #
 #            Eridani: {
-#                Name: Powerful Weapon Dialogue
+#                Name: Диалог о могуственном оружии
 #                Description: Grants the Essence for a powerful weapon
 #                1: I'm in awe... In truth, I've had this Essence locked away- it was far too powerful to wield. However...
 #                2: It would be silly of me to keep it from you now. With everything you've done, it belongs to you now.
@@ -2067,7 +2067,7 @@
 #
 #        Nalhaun: {
 #            Asphodene: {
-#                Name: Nalhaun Dialogue
+#                Name: Диалог о Налхане
 #                Description: Даёт ключевой предмет
 #                1: So that was the Burnished King. His blade was incredibly powerful, not to mention the magic at his disposal. It was a triumph you survived that.
 #                2: From what I can tell, it looks like the Burnished King was defeated by the First Starbearer. Also, there's this strange item here, too.
@@ -2076,7 +2076,7 @@
 #            }
 #
 #            Eridani: {
-#                Name: Nalhaun Dialogue
+#                Name: Диалог о Налхане
 #                Description: Даёт ключевой предмет
 #                1: The Burnished King has fallen. What a powerful foe. I shudder to think how we would have fared had we fought him in his prime.
 #                2: From what it looks like, The Burnished King was laid low by the First Starbearer nigh on a hundred years prior.
@@ -2919,8 +2919,8 @@
 #            }
 #
 #            onFrozen: {
-#                1: You've been frozen! Oh, you probably knew that.
-#                2: A total freeze? Great. Get ready to react once you're free.
+#                1: Тебя заморозило! Хотя, чего это я, ты и так это понял.
+#                2: Полная заморозка? Зашибись. Как разморозишься, сразу в бой.
 #            }
 #
 #            onFrostburn: {
@@ -2961,7 +2961,7 @@
 #            }
 #
 #            onBleeding: {
-#                1: You're losing a LOT of blood. Yikes. You can't regenerate health any more.
+#                1: Ты теряешь ОГРОМНОЕ количество крови. Плохо дело. Ты больше не можешь регенерировать здоровье.
 #                2: You may be the strongest one here, but you're also bleeding profusely.
 #            }
 #
@@ -2987,18 +2987,18 @@
 #            10: Ты умираешь, и быстро. Выбирайся отсюда!
 #            11: Это, похоже, не к добру.
 #            12: Не хочу тебя расстраивать, но ты сейчас утонешь.
-#            13: You're losing a LOT of blood. Yikes. You can't regenerate health any more.
+#            13: Ты теряешь ОГРОМНОЕ количество крови. Плохо дело. Ты больше не можешь регенерировать здоровье.
 #            14: Не разобрать ни слова... видимо, ты в замешательстве.
 #            15: Опаньки...
 #            16: Прости, малыш.
 #            17: Упс.
 #            18: Один готов.
 #            19: Ещё один враг повержен!
-#            20: That takes care of that.
+#            20: Дело сделано.
 #            21: Ещё один враг пал!
 #            22: Отлично справляешься!
 #            23: Хорошая работа. Одно дело сделано.
-#            24: There it goes!
+#            24: Прочь!
 #            25: Получили по заслугам!
 #            26: Вот так им и надо!
 #            27: Не связывайтесь с нами!
@@ -3013,28 +3013,28 @@
 #            36: Больше ни слова.
 #            37: Удачная встреча.
 #            38: Было близко...
-#            39: That was almost really bad.
-#            40: Thank goodness we killed it in time.
-#            41: Finally. You got it!
-#            42: And that takes care of that one.
-#            43: That was a strong one.
+#            39: Это едва не обернулось катастрофой.
+#            40: Фух, слава богу, что мы прикончили его вовремя.
+#            41: Ну наконец-то. Ты сделал это!
+#            42: Ну, с этим мы разобрались.
+#            43: Этот был весьма крепким орешком.
 #            44: Решающий критический удар!
 #            45: Они ощутили это на себе!
 #            46: Идеально рассчитанная атака.
 #            47: Отлично, ты попал в уязвимое место.
 #            48: Критический удар!..
 #            49: Прекрасный удар. Это, безусловно, критическое попадание.
-#            50: Wow. I felt that one..
-#            51: That's.. not good.
-#            52: Ouch...
-#            53: That wasn't good at all..
-#            54: You should probably heal after that one.
-#            55: Barely a scratch.. right?
-#            56: That wasn't supposed to happen..
-#            57: I don't think you can walk that one off.
-#            58: ...Ouch.
-#            59: A powerful foe approaches! We aren't going to lose this.
-#            60: An incredibly strong foe draws near! Let's give them a fight to remember!
+#            50: Вау. Меня аж тряхнуло...
+#            51: Так... это не к добру.
+#            52: Ауч...
+#            53: Ну и дела, хуже некуда...
+#            54: Было бы разумно немного подлечиться после такого.
+#            55: Почти что без царапин... правда?
+#            56: Этого не должно было произойти...
+#            57: Я не уверена, что ты сможешь просто отойти от этого.
+#            58: ...Ай-яй.
+#            59: Приближается сильный враг! Мы не дадим ему победить.
+#            60: Приближается невероятно сильный враг! Дадим ему бой, который он не забудет!
 #            61: A strong foe draws near. It's time to fight.
 #            62: Right. No more games. A powerful foe is approaching.
 #            63: Looks like danger's on the horizon, {0}. I've been itching for a fight!
@@ -3096,21 +3096,21 @@
 #            119: The very earth trembles before this foe. Draedon's toys have become stronger...
 #            120: Heads up, {0}! Looks like that machine's blotting out the whole sky!
 #            121: Whoa, look at this thing. What a go-getter! Oh, right- strategy. Looks like you can aim for its arms, so try that.
-#            122: Aww, this pint-sized witch wants a fight? Alright then! It looks like you'll be barraged with debuffs- Get the heals ready.
-#            123: Hah? Just look at this muppet... thinking he's better than us or something! Give him a good whallop!
-#            124: Let's get this show started! He'll be attacking with the power of worldly invaders, if you remember those!
-#            125: If I had a nickel for times you've thrown voodoo dolls into lava... Never mind. Mutant's super upset, super strong, and super coming straight for you.
-#            126: A lightning bird is approaching! It's not too powerful, but don't get careless.
-#            127: Hey. Doesn't that jellyfish look a little too big? Whatever its issue is, it's coming this way!
-#            128: Ugh, what is that thing? A vampire? Quick, find some silver! Or is that werewolves..?
-#            129: Looks like the granite has woken up..? Time to bury it where it belongs.
-#            130: This gladiator looks stronger than the others. Let's give it a fight to remember!
-#            131: It's an alien spaceship! It looks like it'll be stronger on low HP!
-#            132: Watch yourself.. looks like a Borean Strider is nearby.
-#            133: Looks like a Beholder's reacted with the Void Lens. Let's stab it in its big ugly eye..!
-#            134: Tributes to the thing in the graveyard has summoned a powerful foe. I don't know what else you expected!
-#            135: The Abyssal Shadows are converging! I sense powerful dark magic from this sea creature..
-#            136: The elements themselves are on the hunt. Let's show them a thing or two!
+#            122: Надо же, эта крошечная колдунья хочет битвы? Пусть будет так! Похоже, тебя закидают всякими дебаффами... будь готов к лечению.
+#            123: Что? Взгляни на этого выскочку... Думает, что он лучше нас! Проучи его хорошенько!
+#            124: Начинаем веселуху! Его атаки будут обладать мощью инопланетных захватчиков, если ты ещё не забыл о них!
+#            125: Если б мне давали по пятаку каждый раз, когда ты бросаешь куклы вуду в лаву... А, ладно. Мутант крайне разгневан, невероятно силён и стремительно приближается к тебе.
+#            126: К нам летит громовая птица! Хоть она и не очень сильна, не следует проявлять беспечность.
+#            127: Послушай. Тебе не кажется, что эта медуза несколько великовата? Что бы с ней ни происходило, она движется в нашу сторону!
+#            128: О, что это за существо? Вампир? Скорее, найди серебро! Или это против оборотней?..
+#            129: Гляди-ка, гранит зашевелился?.. Пора закопать его обратно, где ему самое место.
+#            130: Сей гладиатор выглядит сильнее остальных. Давай устроим ему незабываемый поединок!
+#            131: Космический корабль пришельцев! Осторожно, на низком здоровье он становится сильнее!
+#            132: Смотри в оба... Похоже, поблизости бродит Борейский шагатель.
+#            133: Похоже, Созерцатель вступил в реакцию с пустотной линзой. Давай проткнём его большой уродливый глаз!..
+#            134: Подношения существу на кладбище призвали могущественного врага. Не знаю, чего ещё ты ожидал!
+#            135: Тени бездны собираются воедино! От этого морского существа так и разит могущественной тёмной магией...
+#            136: Сами стихии вышли на охоту. Пришло время преподать им урок!
 #            137: Здесь стоит невыносимая жара. Похоже, что в пустынях везде одинаково жарко.
 #            138: Вот мы и в джунглях. Будь осторожен при исследовании. А, и не забывай исследовать всё вокруг!
 #            139: Итак, это же океан. ...Может, ты хотел, чтобы я сказал море? Но я сказала океан.
@@ -3122,16 +3122,16 @@
 #            145: Это же освящение, о котором рассказывают в легендах! Круто! Правда, тут всё хочет нас убить. Обидно.
 #            146: Вот это да! Это место поистине уникально. Такие грибы не каждый день увидишь.
 #            147: Здесь просто костяная тьма врагов! Не хочешь ли немного адреналина? Я вот хочу.
-#            148: So this is the meteor impact we heard...
-#            149: This is.. the Brimstone Crag. Something dreadful happened here.
-#            150: So this is the Astral Infection. I've read about it, but actually seeing it...
-#            151: Wow.. This place is quite unique. I can't quite explain.
-#            152: Whatever was done to this place is irreversible. This ocean has been stained red with blood.
-#            153: You're entering the true depths of the ocean. I hope you realize how dangerous this is!
-#            154: This cavern seems to be made of hard granite.. Curious.
-#            155: This cave exhudes royalty. Perhaps it has to do with the abundance of marble.
-#            156: This is a deep part of the ocean. Take care you don't drown...
-#            157: Looks like it started raining. Hopefully this doesn't put a damper on things.. heh.
+#            148: Значит, это тот самый метеоритный удар, который мы слышали...
+#            149: Это... Серная скала. Здесь произошло нечто ужасное.
+#            150: Значит, вот она, астральная инфекция. Я читала о ней, но видеть своими глазами...
+#            151: Поразительно... Это место поистине уникально. Мне трудно выразить это словами.
+#            152: Содеянное в этом месте, необратимо. Океан здесь окрасился в красный цвет крови.
+#            153: Ты погружаешься в истинные глубины океана. Надеюсь, вы осознаёшь, насколько это опасно!
+#            154: Эта пещера, похоже, состоит из твёрдого гранита. Как любопытно.
+#            155: В этой пещере чувствуется царская роскошь. Видимо, всё из-за изобилия мрамора.
+#            156: Ты попал в глубокие воды океана. Смотри, не захлебнись...
+#            157: Смотрю, дождик начался. Как бы это не испортило наши планы... хех.
 #            158: Это метель! Не допускай обморожения, а то будет неловко.
 #            159: Поднялась песчаная буря. Песок забивается во все щели, будь осторожен.
 #            160: Я подчиняю себе время и пространство!
@@ -3150,16 +3150,16 @@
 #            173: Просто скажи, когда.
 #            174: Вперёд.
 #            175: Ты добрался до обсерватории! Ну, что думаешь?
-#            176: Looks like you've arrived. These are asteroids of interest- let's do some exploring.
-#            177: We've made it. This planet is strange.. The surface has been wiped clean... What happened?
+#            176: Кажется, мы на месте. Эти астероиды выглядят интересно... давай исследуем их.
+#            177: Мы на месте. Эта планета... странная. Поверхность будто стёрта... Что же произошло?
 #            178: Что это за место?
 #            179: Похоже, нам пока не удастся исследовать это место... Может быть, в следующий раз.
-#            180: Wow, this place is seriously covered in greenery. Looks like a fun trip- let's get to exploring!
-#            181: Okay, that slime's stopped holding back. Let's dig in our heels for a fight.
-#            182: Not the treasure I was expecting... Prepare yourself, that evil spirit's planning a dastardly attack.
-#            183: Something about this foe rubs me the wrong way. Don't let your guard down, lest it do something with this 'Planetarium' thing.
-#            184: It's getting seriously cold around you. Heads up: this snowflake-shaped being is coming your way.
-#            185: Don't make light of this foe- it's seriously dangerous. Hehe- but seriously, this thing's no joke. Take caution.
+#            180: Вау, это место просто утопает в зелени! Похоже, нас ждёт увлекательное путешествие... айда исследовать!
+#            181: Окей, этот слизень больше не сдерживается. Пора закатать рукава и приготовиться к битве.
+#            182: Это не то сокровище, на которое я рассчитывал... Будь начеку, этот злобный дух задумал коварный удар.
+#            183: Что-то в этом враге настораживает меня. ДНе расслабляйся, а то он может что-то учудить с этим 'Планетарием'.
+#            184: Вокруг становится по-настоящему холодно. Смотри в оба: к тебе движется снежинкообразное.
+#            185: Не недооценивай этого врага... он действительно опасен. Хе-хе... но в самом деле, это не шутка. Будь осторожен.
 #            186: I love throwing explosives as much as the next guy, but it seems you've been punished for that. Prepare for a fight.
 #            187: There were definitely living beings here- maybe ten thousand or so years ago. Goes without saying anything they used to own is ours now once we find it!
 #            188: While this IS an abandoned mining facility, I doubt they left without picking clean any ore nearby. We might find other useful things, however.
@@ -3168,18 +3168,18 @@
 #            191: This is a pretty large patch of Corruption- but as long as it isn't moving anywhere, it shouldn't be a threat we need to stop. Still, it's a bit of a eyesore.
 #            192: An entire moon covered in Crimson- yuck. I wouldn't want to be stranded here, so mind where the Gateway is and you should be fine.
 #            193: Isn't this strange? Nobody would seriously think of making a space station out of wood, right? Huh- I could have sworn there was someone living here...?
-#            194: A desert scarab is coming straight for you- and it's covered in armor!
-#            195: Those jellyfish seem to have coalesed- looks like it has some powerful lightning abilities!
-#            196: Something in this briar stirs- if you haven't already, time to prep for a fight.
-#            197: Hey, eyes up! A bird-like creature is coming straight for you... Doesn't look like any bird I've seen before!
-#            198: Something's barreling through the asteroid field at a rapid pace! Don't get reckless...!
-#            199: A demon approaches! I guess it makes sense- we are in the Underworld, after all! Let's give them a warm welcome.
-#            200: I don't know what you just used, but a terrifying skull monster is on its way. Guess I should've seen this coming.
-#            201: A huge crystalline foe approaches- needless to say, prepare for a fight.
+#            194: На тебя надвигается пустынный скарабей... и он весь покрытый бронёй!
+#            195: Похоже, эти медузы слились в нечто единое... теперь они обладают мощными электрическими способностями!
+#            196: Что-то шевелится в этих зарослях... если ты ещё не готов, самое время приготовиться к битве.
+#            197: Эй, взгляни наверх! Прямо на тебя несётся нечто, напоминающее птицу... Не припомню, чтобы видела такую птицу раньше!
+#            198: Что-то мчится через астероидное поле с огромной скоростью! Не лезь на рожон!..
+#            199: Приближается демон! Оно и неудивительно... всё-таки мы в преисподней! Встретим его как полагается.
+#            200: Не знаю, чем ты там сейчас, но ужасающее черепоподобное чудовище приближается. Видать, стоило ожидать чего-то такого.
+#            201: На нас надвигается гигантский кристаллический враг... ясное дело, нужно быть готовым к битве.
 #            202: Чёрт возьми; похоже, то зелье сработало. Не расслабляйся!
-#            203: Get ready, because I won't hold back!
-#            204: What IS that thing?! A being of pure void energy...
-#            205: It's even stronger now?! Hey, isn't this, like... really bad?
+#            203: Будьте готов, ибо я не стану церемониться!
+#            204: Это вообще ЧТО такое?! Какое-то существо из чистой энергии пустоты...
+#            205: Оно стало ещё сильнее?! Слушай, это же... полная жесть?
 #            206: Да ты издеваешься.
 #            207: Что ж, давай покажем, на что мы горазды.
 #            208: Ну вот, теперь этот кальмар к тебе прицепился! И... что теперь? Наверное, придётся его отлупить?
@@ -3213,7 +3213,7 @@
 #            24: Им никогда нас не одолеть.
 #            25: Разнёс в клочья.
 #            26: Вот им.
-#            27: Отличные бой.
+#            27: Отличный бой.
 #            28: Легкотня.
 #            29: Как с куста.
 #            30: Проще простого.
@@ -3245,7 +3245,7 @@
 #            56: Это... плохо...
 #            57: Ох... не к добру это.
 #            58: Они поплатятся за это...
-#            59: Приближается могущественный враг. Давайте-ка укажем ему на его место.
+#            59: Приближается могущественный враг. Давай-ка укажем ему на его место.
 #            60: Ощущаю приближение мощной энергии. Готовы мы или нет, но настало время сражения.
 #            61: Сильный враг на подходе. Приготовься.
 #            62: Будь начеку, {0}. Приближается нечто могущественное.
@@ -3259,68 +3259,68 @@
 #            70: Эта штука невероятно сильна... Что бы ты ни делал, просто беги!..
 #            71: Глаз Ктулху вернулся? Погоди, их двое!.. Попробуй сконцентрироваться на одном из них!
 #            72: Это циклоп... погоди... у него оленьи рога... Это олень? Или помесь?..
-#            73: Looks to be another type of gigantic slime. I have a feeling it'll use minions to do its bidding.
+#            73: Похоже, это ещё одна разновидность гигантских слизней. Чует моё сердце, она будет натравливать на нас своих прихвостней.
 #            74: Что-то опасное зреет в освящении ... Похоже, оно оно стремится вобрать в себя огромную силу в дневное время!
-#            75: The Destroyer approaches.. Let's try using area-of-effect attacks against it.
+#            75: Уничтожитель приближается... Давай-ка попробуем использовать против него атаки с широким радиусом поражения.
 #            76: Скелетрон вернулся, и он сильнее прежнего! Сначала сосредоточься на его конечностях.
-#            77: The menace of the Jungle is attacking..! Don't get stuck on your surroundings!
-#            78: The Lizhard's beast is awake! Mind the Jungle Temple's traps during this fight.
-#            79: You've reeled in a dangerous foe! Stay near the sea lest it become enraged!
+#            77: Опасность из джунглей атакует!.. Не дай им окружить тебя!
+#            78: Чудище яхщеров пробудилось! Остерегайся ловушек Храма джунглей во время этой битвы
+#            79: Ты привлёк внимание опасного врага! Оставайся вблизи моря, дабы не вызвать его ярость!
 #            80: Это Культист-лунатик... Необходимо остановить его, пока он призвал бедствие!
 #            81: Лунный лорд... Мы стоим перед самим богом. Мы должны победить! Иного выхода у нас нет!
 #            82: Воин света приближается... Его крушение лимитов просто невероятно мощные!
-#            83: Something about this foe seems familiar... Looks like he can manipulate space to some extent!
-#            84: Don't underestimate this king of eld! Take back the lifeforce he's stealing!
+#            83: В этом враге есть что-то знакомое... Судя по всему, он может частично управлять пространством!
+#            84: Не робей перед этим древним королём! Верни украденную им жизненную силу!
 #            85: Тебя покрывают краской! Запомни свой цвет!
 #            86: Похоже, он может менять формы! Постарайся запомнить его атаки!..
 #            87: Под песком что-то роет!.. Быстрее оторвись от земли!
 #            88: Мицелиевое чудовище, а? Оно повсюду разбрасывает грибы...
-#            89: The corruption has spewed out a new beast. Look out for its barrage of minions.
+#            89: Искажение породило новое чудовище. Берегись его орд прихвостней.
 #            90: Чудовища из плоти приближаются!.. Сосредоточься на улье!
 #            91: Этот враг излучает мистический холод. Держись от него подальше... эти ледяные шипы не для красоты.
 #            92: Пустынный бич возвращается... Я так и знала... Вот его истинное нутро.
 #            93: Огромная змея ползёт к нам... Она может тебя сожрать... Не лезь на рожон.
-#            94: That Charred Idol has summoned a flaming spirit.. It can teleport everywhere- don't lose track of it.
-#            95: Calamitas.. With a name like that, it begs respect. We've seen what it can do. You musn't lose this fight.
-#            96: It's Anahita singing again. Do you want to fight her once more?
-#            97: Can you hear that, {0}? Something's singing in the ocean?
-#            98: Ah.. It looks like you've angered her. I hope you're prepared for a fight..
-#            99: What in the world.. It's massive! Take caution; the playing field has changed!
-#            100: It's a mechanical beast, but it's been corrupted by the Astral Infection. Stay cautious.
-#            101: Ugh. It's a disgusting bug, but now it has artillery. When it gets wounded, those missiles will likely detonate.
-#            102: Yuck. It's a huge pile of flesh and bones. From what I can tell, getting too close will end you fast.
-#            103: This is a descendant of a cosmic god! We can't lose to something like this!
-#            104: The Profaned Shard has summoned something! Prepare for a fight!
-#            105: Hey, those pheromones.. Looks like it attracted a feral beast.
+#            94: Этот обугленный идол призвал огненного духа... Он может мгновенно перемещаться в любое место... не упускай его из виду.
+#            95: Каламитас... Одно имя внушает трепет. Мы видели, на что она способна. Не проиграй эту битву.
+#            96: Анахита снова запела. Хочешь с ней ещё раз сразиться?
+#            97: Слушай, {0}, ты это слышишь? Что-то поёт в океане?
+#            98: Увы... Похоже, ты разгневал её. Надеюсь, ты подготовился к битве...
+#            99: Ничего себе... Да оно огромное! Поосторожнее там; правила игры поменялись!
+#            100: Это механическое чудище, заражённое астральной инфекцией. Будь предельно осторожен.
+#            101: Бр-р. Это мерзкое насекомое, а теперь ещё и с артиллерийским вооружением. Стоит её задеть, и эти ракеты, скорее всего, взорвутся.
+#            102: Фу. Огромная куча мяса и костей. Похоже, близкий контакт с этой кучей не сулит тебе ничего хорошего.
+#            103: Перед нами потомок космического бога! Мы не можем проиграть такому существу!
+#            104: Осквернённый осколок призвал нечто! Готовься к битве!
+#            105: Ой-ой, эти феромоны... Видать, привлекли дикого зверя.
 #            106: Приближается божество света и тьмы! Нам нельзя его упустить!..
-#            107: Something just entered the upper atmosphere! Brace for impact!
-#            108: Wait. I sense something from the Dungeon's depths. Prepare yourself for a fight!
-#            109: A demon is approaching..! Watch out! Whatever it wants, it'll kill you for it!
-#            110: The ghosts of the dungeon.. They're fusing together! Prepare yourself!
-#            111: Something descends from the acid rain! It's looking for a fight!
-#            112: The Devourer of Gods has appeared! You must give this battle your all!
-#            113: The Jungle Dragon roars. Let's throw a wrench in Yharim's plans.
-#            114: Where's it going? Were we.. not strong enough?
-#            115: No way.. Its power is ineffable. {0}.. We have to win this!
-#            116: Draedon is here... Be mindful of his tactics. His knowledge spans the world over.
-#            117: Stay sharp. Multiple foes detected. Draedon's inventions are on the move.
-#            118: Quick- find higher ground! A colossal mechanical serpent draws near!
-#            119: ...Never mind the absurdity of the giant mechanical squirrel. Focus on attacking its head and arms to stop its most dangerous attacks.
-#            120: Huh? She looks weak, but she's actually kind of powerful... If you get hit, you'll be slammed with debuffs; keep your healing ready.
-#            121: Who does this guy think he is, wielding celestial power all willy-nilly? Not to mention... Ugh- I don't have to spell it out, do I?
-#            122: Well, no time like the present. His arsenal revolves around invader events- we've seen our share of those.
-#            123: Oh, you just HAD to throw that thing into lava, did you? Well, good luck, because Mutant is pissed. Didn't see that coming- wait, I did.
-#            124: The Storm Flare has called something down! Hmm? It looks to be lightning-aspected.
+#            107: Нечто вошло в верхние слои атмосферы! Приготовься к столкновению!
+#            108: Постой. Я ощущаю нечто, исходящее из глубин Темницы. Приготовься к сражению!
+#            109: Демон приближается!.. Будь начеку! Что бы ему ни было нужно, он не пощадит тебя!
+#            110: Призраки Темницы... Они сливаются воедино! Приготовься!
+#            111: Нечто нисходит из кислотного дождя! Оно жаждет битвы!
+#            112: Явился Пожиратель богов! Ты обязан вложить в этот бой всю свою силу!
+#            113: Дракон джунглей издаёт рёв. Настало время помешать замыслам Ярима.
+#            114: Куда оно удаляется? Неужели мы... оказались слабаками?
+#            115: Немыслимо... Его могущество не передать словами. {0}... Мы обязаны одержать победу!
+#            116: Дрэйдон здесь... Остерегайся его стратегий. Его эрудиция не знает границ.
+#            117: Гляди в оба. Замечены враги. Творения Дрэйдона активизировались.
+#            118: Быстрее... взберись на возвышенность! Гигантский механический змей на подходе!
+#            119: ...Забудь о нелепости этой гигантской механической белки. Бей ей по голове да по рукам, чтоб остановить её самые опасные атаки.
+#            120: Хм? На вид салабачка, а на деле сильная... От одного удара навешает кучу дебаффов; держи лечение наготове.
+#            121: Кем он себя возомнил, разбрасываясь неземной силой направо и налево? И это ещё не всё... Ох, неужели мне нужно объяснять, что я имею в виду?
+#            122: Ну что, время не ждёт. Его арсенал основывается на событиях с вторжениями... мы уже сталкивались с ними не раз.
+#            123: Небось, не мог удержаться и бросил эту штуковину в лаву, да? Ну что ж, пеняй на себя, Мутант теперь взбешён! Не ожидал такого... ах да, я же сам это предвидела.
+#            124: Вспышка бури призвала что-то с небес! Хм? Выглядит так, словно это существо связано с молнией.
 #            125: Приближается монстр, похожий на медузу. Внутри, похоже, кто-то пленён?..
 #            126: Огромная летучая мышь-вампир! Берегись...
 #            127: Пещерная энергия материализовалась в монстра! Что за?..
-#            128: A knight has arisen from the marble cave! Look out- it's prepared to fight!
-#            129: It's an alien spaceship! It looks like it'll be stronger on low HP!
-#            130: Do you see that..? It looks like a giant snow spider! Let's kill it quickly..
-#            131: A Beholder..? Don't get reckless.. These foes are incredibly fearsome!
-#            132: I can sense an undead beast approaching! Get ready for a fight!
-#            133: The Abyssal Shadows are converging..! This sea monster holds dominion over dark magic!
-#            134: Primordial energy is forming all around you.. The elements themselves are on the attack!
+#            128: Из мраморной пещеры восстал рыцарь! Берегись... он жаждет битвы!
+#            129: Космический корабль пришельцев! Осторожно, на низком здоровье он становится сильнее!
+#            130: Ты это видишь?.. Похоже, это гигантский снежный паук! Давай убьём его как можно скорее...
+#            131: Созерцатель?.. Не лезь на рожон... Эти враги невероятно опасны!
+#            132: Чувствую приближение нежити! Готовься к битве!
+#            133: Тени бездны сгущаются!.. Это морское чудовище повелевает тёмной магией!
+#            134: Первородная энергия бурлит вокруг вас... Элементы готовы обрушиться на вас!
 #            135: Да это же пустыня. Серьёзно... Я не переношу жару, а здесь просто адская жара.
 #            136: Вон, какая зелень! Это же джунгли! Место опасное, но и наградит тебя сполна.
 #            137: У тебя скоро закончится кислород. Не советую сгореть в атмосфере. Не спрашивай, откуда я знаю.
@@ -3332,15 +3332,15 @@
 #            143: Мы будто попали в сказку. Только было бы лучше, если бы тут не было столько враждебной живности.
 #            144: Гигантские светящиеся грибы... Cловно... приветствуют нас? Надо бы взять парочку с собой, на всякий случай.
 #            145: Ощущаю повсюду ловушки. Здесь также спрятано сильное оружие. Будь начеку.
-#            146: Значит, это и был тот метеоритный удар, о котором мы слышали...
+#            146: Значит, это тот самый метеоритный удар, который мы слышали...
 #            147: Серная скала... Словно ощущаю ужасы прошлого...
-#            148: This is the Astral Infection. A subject I'm all too familiar with...
-#            149: This place is quite beautiful. Who knew it would be under the desert..?
-#            150: This was once a pleasant coastline. What happened here..?
-#            151: You've decided to breach the ocean's depths. Please consider how dangerous this really is..
-#            152: This cavern seems to be all granite. Some rogue spirits have made their home here.
-#            153: So this is a Marble Cavern. Perhaps we can use the material to build?
-#            154: We're very deep in the ocean. These waters are trouble, I can tell that much.
+#            148: Перед нами астральная инфекция. Явление, с которой я, увы, слишком хорошо знакома...
+#            149: Невероятно красивое место. Кто бы мог знать, что под пустыней скрывается такая красота?..
+#            150: Некогда здесь был живописный берег. Что же здесь произошло?..
+#            151: Ты решил погрузиться в морские пучины. Помни, это очень опасно!..
+#            152: Пещера, похоже, целиком из гранита. Да и нечисть тут завелась, окаянная.
+#            153: Вот она, мраморная пещера. Быть может, мы сможем использовать этот материал в строительстве?
+#            154: Мы забрались чертовски глубоко в океан. Эти воды опасны, в этом я уверена.
 #            155: Дождь льёт как из ведра. Лишь бы ничего ценного не промоклo.
 #            156: Похоже, началась метель. И 'холод' это просто мягко сказано.
 #            157: Поднялась песчаная буря. Береги глаза.
@@ -3360,29 +3360,29 @@
 #            171: Просто скажи, когда.
 #            172: Пора найти брешь.
 #            173: Небесные координаты установлены. Добро пожаловать в Обсерваторию Заполярье.
-#            174: We've made it. These are asteroids of interest. Let's look around.
-#            175: This is it. An entire planet that's devoid of color? The surface looks like it was wiped away somehow...
+#            174: Добрались. Это те самые астероиды. Давай осмотримся.
+#            175: Невероятно. Неужели это целая планета, начисто лишённая цвета? Поверхность выглядит так, будто ее каким-то образом стёрли...
 #            176: Где мы находимся? Это место мне кажется очень знакомым...
 #            177: Похоже, нам пока не удастся исследовать это место... Может быть, в следующий раз.
-#            178: A being of the apocalypse has appeared. It wields destruction in all its appendages!
-#            179: This huge amalgamate draws from the world's evils! Killing one slime will empower the other!
-#            180: Looks like this biome's governed mostly by foliage- a bit more tasteful than the Jungle, I'd say. Let's look around.
-#            181: Seems like you've bothered that slime enough- it seems to have drastically altered its fighting style.
-#            182: A Pharaoh in the depths of a pyramid? That sounds about right- but looks like you'll have to deal with what comes next.
-#            183: I'm getting a bad feeling from this enemy... Let's dispatch of it quickly, lest it do something else with this 'Planetarium.'
-#            184: Hey, the temperature of your surroundings is dropping dramatically. I'm sure you can see the source of this anomaly- deal with it, fast.
-#            185: Whatever this thing is, it's hard to even look at. Be careful, it's powerful and lethal.
-#            186: I think whatever you've done must have had some serious repercussions- a strange entity has emerged, and is heading your way.
-#            188: Hmm, it seems to be a cluster of uninhabited asteroids. There was definitely life here, but it must have been thousands of years ago.
-#            189: Looks to be an old mining station. From the looks of it, it was abandoned before the Ardor took root. There won't be any ore left, sadly.
-#            190: What a strange world- it seems its ambient mana has been entirely drained, leaving the place looking pale white- a unique phenomenon.
-#            191: Looks like you arrived underground- if you can make it to the surface, it'll look more like home. The creatures here are familiar, which is pretty strange.
-#            192: The Corruption is a known entity in the universe, but this place is different- it feels as if something larger was Corrupted into this object. Stay alert.
+#            178: Явилось существо апокалипсиса. Все его конечности вооружены разрушительной силой!
+#            179: Это огромное слияние черпает силу из мирового зла! Убийство одного слизня усилит другого!
+#            180: Похоже, в этом биоме преобладает растительность... я бы даже сказала, она более утончённая, чем в джунглях. Давай осмотримся.
+#            181: Видимо, ты слишком досадил этому слизню... Похоже, он радикально поменял тактику боя.
+#            182: Фараон в недрах пирамиды? Звучит правдоподобно... однако будь готов к тому, что за этим последует.
+#            183: Что-то мне не по себе от этого врага... Давай-ка быстренько покончим с ним, пока он не учинил что-нибудь ещё с этим 'Планетарием'.
+#            184: Эй, тут температура окружающей среды стремительно падает. Наверняка ты уже заметил причину этой аномалии... устрани её как можно скорее.
+#            185: Что бы это ни было, на него трудно даже смотреть. Поосторожнее там, оно могущественно и смертоносно.
+#            186: Полагаю, твои действия повлекли за собой серьёзные последствия... появилась странная сущность, и она направляется к тебе.
+#            188: Хм, судя по всему, перед нами кластер безжизненных астероидов. Здесь определённо была жизнь, но, похоже, очень давно, тысячи лет назад.
+#            189: Похоже на старую горнодобывающую станцию. Судя по всему, она была заброшена ещё до того, как укоренился Ардор. Увы, никаких полезных ископаемых здесь уже не найти.
+#            190: Ну и странный же мир... Будто всю здешнюю ману выкачали, отчего местность приобрела бледно-белый оттенок... поистине уникальное явление.
+#            191: Похоже, ты оказался под землёй... Если сумеешь достичь поверхности, обстановка станет более привычной. Удивительно, но местные создания кажутся знакомыми.
+#            192: Искажение - обыденное явление во вселенной, но это место иное... словно нечто большое было искажено и превратилось в этот объект. Будь начеку.
 #            193: Луна, насквозь пронизанная багрянцем... Как только соберешь всё, что тебе нужно, валим отсюда поскорее.
 #            194: Похоже, Ардор безжалостно прошёлся по этому месту... Какая ужасная участь.
 #            195: Никогда бы в жизни не подумала, что увижу деревянную космическую станцию... Погодите-ка, а здесь кто-то ещё живёт?
-#            196: You've got to be kidding me. It's a horrid, scuttling bug- in armor, no less. Avoid its disgusting minions or else!
-#            197: The Moon Jellies have combined into a sort of figure? It looks like it wants a fight, so prepare yourself!
+#            196: Ты, должно быть, прикалываешься. Это ж отвратительное, копошащееся насекомое... да ещё и в броне. Держись подальше от его гадких прихвостней, а то огребёшь по полной!
+#            197: Лунные медузы слились в некое подобие существа? Похоже, оно настроено на сражение, так что приготовься!
 #            198: Эй, будь начеку... То, что ты только что использовал, разбудило какое-то природное существо, и оно уже на пути к тебе.
 #            199: Похоже, ты разозлил эту доисторическую птицу... Надеюсь, у тебя есть план, как свалить её с высоты.
 #            200: Что-то с низкой орбиты мчится прямо к тебе... приготовься к бою.
