@@ -1051,7 +1051,7 @@
 #            Asphodene: {
 #                Name: Диалог об оружии Такономикон
 #                Description: Даёт эссенцию
-#                1: I have a new Essence for you. This is a magical Summon-type weapon that seems to scale with your own potential. Interesting..!
+#                1: У меня для тебя новая эссенция. Это магическое оружие призывного типа, которое, похоже, усиливается вместе с твоим потенциалом. Интересно!..
 #            }
 #
 #            Eridani: {
@@ -3035,9 +3035,9 @@
 #            58: ...Ай-яй.
 #            59: Приближается сильный враг! Мы не дадим ему победить.
 #            60: Приближается невероятно сильный враг! Дадим ему бой, который он не забудет!
-#            61: A strong foe draws near. It's time to fight.
-#            62: Right. No more games. A powerful foe is approaching.
-#            63: Looks like danger's on the horizon, {0}. I've been itching for a fight!
+#            61: Сильный враг приближается. Настал час битвы.
+#            62: Довольно забав. К нам приближается сильный враг.
+#            63: Похоже, на горизонте замаячила опасность, {0}. Мне не терпится вступить в бой!
 #            64: Глаз... приближается. Осторожнее, он большой. Кажется, он становится сильнее на последних издыханиях.
 #            65: Вот и владыка слизней! Думаю, у него есть что-то вроде телепортации...
 #            66: Колоссальный червь! Следи, откуда он вылезает, он будет пытаться атаковать твои слепые зоны!
@@ -3046,56 +3046,56 @@
 #            69: Не недооценивай этого монстра! Держись подальше от его черепа и рук!
 #            70: Эта штука гигантская! Если сможешь, постарайся построить путь для борьбы с ней.
 #            71: К нам направляются два огромных глаза! Что ж, посмотрим... Красный будет стрелять, а зелёный - таранить.
-#            72: What in the world is that thing? A deer? It's only got one eye... aim for it!
-#            73: It's another colossal slime! It looks like it's going to summon some minions!
-#            74: A Hallow-aspected foe has appeared! Maybe leave the butterfly alone next time...?
-#            75: A giant mechanical worm.. What can we do..? How about trying to attack multiple parts of it at once?
+#            72: Что это за существо? Олень? Но у него всего один глаз... целься в него!
+#            73: Ещё один гигантский слизень! Похоже, она собирается призвать себе помощников!
+#            74: Явился враг, связанный с освящением! Может, впредь стоит оставить бабочку в покое?..
+#            75: Гигантский механический червь... Что же можно сделать?.. А что, если одновременно атаковать несколько его частей?
 #            76: Это усовершенствованная версия Скелетрона... Попробуй сначала атаковать руки, а не голову.
-#            77: Plantera is awake! Be mindful of its vines. It would be great to have a huge arena to fight it in.
-#            78: An ancient mechanical monster.. Watch out for the traps in the temple while fighting it.
-#            79: You reeled in something crazy! Something tells me you should stay near the sea!
-#            80: It's one of those Lunatic Cultists.. Stop them before they unleash a calamity..!
-#            81: I can't believe it.. it's the Moon Lord! This is the final battle! We have to win this!
+#            77: Плантера пробудилась! Остерегайся её лоз. Лучше всего иметь огромную арену для битвы.
+#            78: Древний механический монстр... Не забудь про ловушки в Храме, когда будешь с ним сражаться.
+#            79: Ничего себе улов! Чувствую, тебе стоит держаться поближе к морю!
+#            80: Это один из Культистов-лунатиков!.. Останови их, пока они не развязали бедствие!..
+#            81: Я не могу поверить... это же Лунный лорд! Это финальная битва! Мы просто обязаны победить!
 #            82: Воин света приближается... Будь готов, когда он превзойдёт свои лимиты!
 #            83: Что-то в этом враге мне знакомо... Смотри в оба за его мечом - похоже, он может принимать разные формы!
-#            84: Don't underestimate this foe..! Keep grabbing the stolen lifeforce he's taking from you!
-#            85: This witch attacks with paint! Mind what color you're doused in!
-#            86: This thing changes its attack patterns! Take note of its stances, or else!
-#            87: There's something coming from below, and fast! Prepare yourself.. this is one strong worm!
-#            88: It's a massive moving mass of mycelium.. Let's take out the trash!
-#            89: A corrupted beast draws near! Kill its minions quickly, lest it overwhelm you!
-#            90: What in the world is that thing? Aim for that disgusting Hive before it's too late!
-#            91: So this is the source of all the world's slimes. Don't get hasty; I'm certain those slimes will split when hurt!
-#            92: Something is strange about this thing, but I don't know what. Don't get frozen... but you could probably already tell.
-#            93: Hey, it's the Desert Scourge- but not so dried up! We've seen one before, how bad could this one be?
-#            94: It's a giant sea serpent! Hang on... This thing is SERIOUSLY dangerous!
-#            95: The flames have brought forth a demonic spirit! Take care to watch your footing, lest you succumb to lava!
-#            96: This thing... it's a herald of destruction.. You know what devestation it can bring. Don't lose..!
-#            97: ...It's Anahita again. Are you going to challenge the Leviathan?
-#            98: ...Do you hear that? Whatever it is.. it sounds really dangerous.
-#            99: That demon of the sea is fighting back! I hope you're ready for this...
-#            100: Whoa. This thing is enormous!! Who knew she had this up her sleeve..?
-#            101: The Astral Infection has corrupted whatever this was. Don't underestimate it. The Infection can do anything...
-#            102: Oh, great.. a giant robotic bug. It kind of looks like the Queen Bee, so try and remember her attacks!
-#            103: This is.. an amalgamation of flesh and machinery.. Above everything, try and stay away from it!
-#            104: A descendant of a cosmic god! {0}, don't get reckless!
-#            105: Something's reacting to the Profaned Shard! Prepare for a fight!
-#            106: You've summoned a draconic monster..! It looks to be incredibly quick!
-#            107: The fiery god of both light and dark descends.. No way we're losing to this thing!
-#            108: A spatial worm is approaching! Don't get careless.
-#            109: That rune has summoned some sort of.. void entity..?
-#            110: Someone.. or something.. is approaching. It can shapeshift at will! Get ready!
-#            111: Something's awake. The Dungeon's volatile spirits have coalesed...
-#            112: The acid ocean has spat out a monster! Wait until it gets tired to strike!
-#            113: The Devourer of Gods has arrived! Fight! Fight with all your strength!
-#            114: Yharim's loyal beast, in the flesh..! Let's send this tyrant down a peg!
-#            115: Huh? Where's it going? We were in the middle of something!
-#            116: We bow to no one! Let's bring this witch down!
-#            117: This is Yharim's loyal scientist. His knowledge is nigh-infinite.. Stay cautious.
-#            118: Twin mechanical eyes- incredibly powerful. Don't get overwhelmed..!
-#            119: The very earth trembles before this foe. Draedon's toys have become stronger...
-#            120: Heads up, {0}! Looks like that machine's blotting out the whole sky!
-#            121: Whoa, look at this thing. What a go-getter! Oh, right- strategy. Looks like you can aim for its arms, so try that.
+#            84: Не недооценивай этого врага!.. Продолжай забирать у него твою жизненную силу!
+#            85: Эта ведьма атакует краской! Внимательно следи, каким цветом тебя забрызгает!
+#            86: Это существо постоянно меняет паттерн атак! Следи за его движениями, иначе пожалеешь!
+#            87: Снизу что-то приближается, и очень быстро! Готовься... этот червь невероятно силён!
+#            88: Это колоссальная живая масса мицелия... Пришло время убрать этот мусор!
+#            89: Искажённое чудовище приближается! Быстро уничтожь его прихвостней, иначе оно тебя сокрушит!
+#            90: Что это за существо? Целься в этот омерзительный улей, пока не стало слишком поздно!
+#            91: Итак, это источник всех слизней в мире. Не суетись; уверена, что эти слизни разделятся, если их ранить!
+#            92: В этом существе есть что-то странное, но я не могу понять, что именно. Не дай себя заморозить... впрочем, ты уже догадался об этом.
+#            93: Эй, глянь-ка, это ж Пустынный бич... только не такой иссохший! Мы уже видали такого, чего нам этот-то сделает?
+#            94: Это гигантский морской змей! Погоди-ка... Это создание НЕВЕРОЯТНО опасно!
+#            95: Из пламени возник демонический дух! Смотри под ноги, а то в лаву свалишься!
+#            96: Сие создание... вестник гибели... Тебе ведомы, какие беды оно может принести. Не проиграй!
+#            97: ...Это снова Анахита. Ты собираешься бросить вызов Левиафану?
+#            98: ...Ты это слышишь? Не знаю, что это... но звучит жесть как опасно.
+#            99: Этот морской демон даёт отпор! Надеюсь, ты готов к этому...
+#            100: Офигеть. Эта штука просто огромная!! Кто бы мог подумать, что она скрывала подобное?..
+#            101: Астральная инфекция исказила сущность этого создания. Не стоит её недооценивать. Инфекция способна на всё...
+#            102: Ах, класс... гигантское роботизированное членистоногое. Чем-то смахивает на Королеву пчёл, так что вспоминай её атаки!
+#            103: Это... сплав плоти и механизмов... Прежде всего, старайся держаться от него подальше!
+#            104: Это же потомок космического бога! {0}, не лезь на рожон!
+#            105: Нечто реагирует на осквернённый осколок! Приготовься к битве!
+#            106: Ты призвал драконоподобное чудовище!.. Судя по всему, оно обладает поразительной скоростью!
+#            107: Нисходит огненное божество, властвующее над светом и тьмой... Мы ни за что не проиграем этому созданию!
+#            108: Приближается пространственный червь! Смотри в оба.
+#            109: Эта руна призвала некую... пустотную сущность?..
+#            110: Кто-то... или что-то... приближается. Оно способно менять облик по своему желанию! Приготовься!
+#            111: Нечто пробудилось. Неуловимые призраки Темницы слились воедино...
+#            112: Из глубин кислотного океана вырвалось чудовище! Не торопитесь, дай ему утомиться, и тогда мы его сразим!
+#            113: Явился Пожиратель богов! В бой! Сражайся изо всех сил!
+#            114: Верный зверь Ярима во всей своей красе... Пора поставить этого тирана на место!
+#            115: Что? Куда он делся? Мы ведь были в самом разгаре!
+#            116: Никто не заставит нас преклониться! Пора разделаться с этой ведьмой!
+#            117: Перед тобой преданный учёный Ярима. Он знает практически всё... Будь осторожен.
+#            118: Эти механические глаза-близнецы... невероятно сильны. Не теряй голову!..
+#            119: Сама земля содрогается перед этим врагом. Игрушки Дрэйдона стали ещё сильнее...
+#            120: Осторожно, {0}! Смотри, эта машина, похоже, полностью затмила небо!
+#            121: Вау, взгляни на это создание. Какая настойчивость! Ой, точно... нам же нужен план. Похоже, можно атаковать руки, давай так и сделаем.
 #            122: Надо же, эта крошечная колдунья хочет битвы? Пусть будет так! Похоже, тебя закидают всякими дебаффами... будь готов к лечению.
 #            123: Что? Взгляни на этого выскочку... Думает, что он лучше нас! Проучи его хорошенько!
 #            124: Начинаем веселуху! Его атаки будут обладать мощью инопланетных захватчиков, если ты ещё не забыл о них!
@@ -3160,14 +3160,14 @@
 #            183: Что-то в этом враге настораживает меня. ДНе расслабляйся, а то он может что-то учудить с этим 'Планетарием'.
 #            184: Вокруг становится по-настоящему холодно. Смотри в оба: к тебе движется снежинкообразное.
 #            185: Не недооценивай этого врага... он действительно опасен. Хе-хе... но в самом деле, это не шутка. Будь осторожен.
-#            186: I love throwing explosives as much as the next guy, but it seems you've been punished for that. Prepare for a fight.
-#            187: There were definitely living beings here- maybe ten thousand or so years ago. Goes without saying anything they used to own is ours now once we find it!
-#            188: While this IS an abandoned mining facility, I doubt they left without picking clean any ore nearby. We might find other useful things, however.
-#            189: I can't find any trace of ambient mana- someone, or something, must have drained this entire world dry. Let's check out that structure in the distance.
-#            190: This planet should look a lot like your own Jungle, but it seems you've ended up underground- which decidedly does not look familiar. The monsters here are, though- strange.
-#            191: This is a pretty large patch of Corruption- but as long as it isn't moving anywhere, it shouldn't be a threat we need to stop. Still, it's a bit of a eyesore.
-#            192: An entire moon covered in Crimson- yuck. I wouldn't want to be stranded here, so mind where the Gateway is and you should be fine.
-#            193: Isn't this strange? Nobody would seriously think of making a space station out of wood, right? Huh- I could have sworn there was someone living here...?
+#            186: Я, как и многие, люблю бросать взрывчатку, но, похоже, за это тебе придётся ответить. Готовься к бою.
+#            187: Тут явно обитали живые существа... что-то около десяти тысяч лет назад. А всё их добро теперь наше, как только его найдём!
+#            188: Хотя это и заброшенная шахта, не думаю, что они оставили здесь хоть немного руды. Впрочем, мы всё равно можем обнаружить здесь что-то полезное.
+#            189: Не могу найти ни малейших признаков окружающей маны... похоже, кто-то или что-то полностью иссушило этот мир. Давай исследуем ту структуру на горизонте.
+#            190: Эта планета должна была выглядеть как твои джунгли, но ты как-то оказался под землёй... тут всё совсем по-другому. А вот монстры... какие-то странные.
+#            191: Это весьма значительная область искажения... но если она не распространяется, то не представляет собой угрозу с которой нам нужно бороться. Всё же, зрелище это не из приятных.
+#            192: Целая луна, покрытая багрянцем... омерзительно. Мне бы не хотелось тут застрять, так что не теряй из виду портал, и всё будет нормально.
+#            193: Разве это не странно? Никто ведь всерьёз не подумал бы строить космическую станцию из дерева, верно? Эй... Могу поклясться, что здесь кто-то жил?..
 #            194: На тебя надвигается пустынный скарабей... и он весь покрытый бронёй!
 #            195: Похоже, эти медузы слились в нечто единое... теперь они обладают мощными электрическими способностями!
 #            196: Что-то шевелится в этих зарослях... если ты ещё не готов, самое время приготовиться к битве.
@@ -5739,12 +5739,12 @@
 #        DisplayName: Отладочный диск
 #        Tooltip:
 #            '''
-#            Resets some player data from The Stars Above
-#            Includes Starfarer, Stellar Array passives, dialogue, and Stellar Nova
-#            Not updated- please create a new character
-#            Affects all active players
-#            Does not work during a Cosmic Voyage
-#            May cause issues; this is a debug item
+#            Сбрасывает некоторые данные игрока из The Stars Above
+#            Включает Астру, Звёздный ряд, диалоги и Астронову
+#            Если не сработало... создайте нового персонажа
+#            Влияет на всех активных игроков
+#            Не работает во время космического путешествия
+#            Может вызвать проблемы; предмет отладки
 #            '''
 #    }
 #
@@ -7861,7 +7861,7 @@
 #        DisplayName: Музыкальная шкатулка (Скиталец между измерениями)
 #        Tooltip:
 #            '''
-#            'Cosmic Will' - The Stars Above OST
+#            'Cosmic Will' - The Stars Above
 #            Оригинальный саундтрек
 #            '''
 #    }
@@ -7885,7 +7885,7 @@
 #        DisplayName: Музыкальная шкатулка (Обсерватория Заполярье)
 #        Tooltip:
 #            '''
-#            'Sky Unsundered' - FFXIV Endwalker OST
+#            'Sky Unsundered' - FFXIV Endwalker
 #            Композитор: Masayoshi Soken
 #            '''
 #    }
@@ -7917,7 +7917,7 @@
 #        DisplayName: Музыкальная шкатулка (Налхан, Воронёный король - Фаза 2)
 #        Tooltip:
 #            '''
-#            'Might Of The Hellblade' - Bravely Default 2 OST
+#            'Might Of The Hellblade' - Bravely Default 2
 #            Композитор: REVO
 #            '''
 #    }
@@ -7935,7 +7935,7 @@
 #        DisplayName: Музыкальная шкатулка (Налхан, Воронёный король - Фаза 1)
 #        Tooltip:
 #            '''
-#            'Shadows Cast By The Mighty: Swift Judgement' - Bravely Default 2 OST
+#            'Shadows Cast By The Mighty: Swift Judgement' - Bravely Default 2
 #            Композитор: REVO
 #            '''
 #    }
@@ -7944,7 +7944,7 @@
 #        DisplayName: Музыкальная шкатулка (Заглавная тема Stars Above)
 #        Tooltip:
 #            '''
-#            'Sunset, Stardust' - Stars Above OST
+#            'Sunset, Stardust' - Stars Above
 #            Оригинальный саундтрек
 #            '''
 #    }
@@ -7953,7 +7953,7 @@
 #        DisplayName: Музыкальная шкатулка (Воин света - Фаза 1)
 #        Tooltip:
 #            '''
-#            'To The Edge' - FFXIV Shadowbringers OST
+#            'To The Edge' - FFXIV Shadowbringers
 #            Композитор: Masayoshi Soken
 #            '''
 #    }
@@ -7962,7 +7962,7 @@
 #        DisplayName: Музыкальная шкатулка (Не используется)
 #        Tooltip:
 #            '''
-#            'Two Dragons' - Yakuza 0 OST
+#            'Two Dragons' - Yakuza 0
 #            Композитор: Hidenori Shoji
 #            '''
 #    }
@@ -7971,7 +7971,7 @@
 #        DisplayName: Музыкальная шкатулка (Вечный свет)
 #        Tooltip:
 #            '''
-#            'Unmatching Pieces' - FFXIV Shadowbringers OST
+#            'Unmatching Pieces' - FFXIV Shadowbringers
 #            Композитор: Masayoshi Soken
 #            '''
 #    }
@@ -7980,7 +7980,7 @@
 #        DisplayName: Музыкальная шкатулка (Море звёзд)
 #        Tooltip:
 #            '''
-#            'One Small Step' - FFXIV Endwalker OST
+#            'One Small Step' - FFXIV Endwalker
 #            Композитор: Masayoshi Soken
 #            '''
 #    }
@@ -9525,7 +9525,7 @@
 #        DisplayName: Музыкальная шкатулка (Цукиёми, Первая Астра: Не-Эксперт)
 #        Tooltip:
 #            '''
-#            'The Extreme' - Final Fantasy 8 OST
+#            'The Extreme' - Final Fantasy 8
 #            Аранжировка: Daiki Ishikawa - Композитор: Nobuo Uematsu
 #            '''
 #    }
@@ -9740,7 +9740,7 @@
 #            4 урона от метки призывателя
 #            Удары по врагам этим оружием дают бафф «{$BuffName.Swiftness}» на 3 секунды
 #            Нажмите клавишу 'Действие оружия', чтобы бросить йо-йо вперёд на небольшое расстояние (йо-йо возвращается через две секунды)
-#            Нажмите клавишу 'Действие оружия' ещё раз после остановки йо-йо, чтобы подтянуться к нему, возвращая его обратно
+#            Нажмите повторно клавишу 'Действие оружия' после остановки йо-йо, чтобы подтянуться к нему, возвращая его обратно
 #            Кроме того, вы получаете бафф [c/B9F1FA:Мощный старт] на 3 секунды, который увеличивает урон следующей атаки этим оружием на 200%, после чего бафф пропадает
 #            Нажмите <right>, чтобы подготовить [c/E08738:Медвежьего убийцу], получив бафф [c/E03838:Я и моя машина для убийств] на 8 секунд (перезарядка 30 секунд)
 #            Во время действия этого баффа нанесение ударов по врагам будет вызывать дополнительную атаку от [c/E08738:Медвежьего убийцы] (задержка 1 секунда)
@@ -9764,7 +9764,7 @@
 #        DisplayName: Музыкальная шкатулка (Мимолётное мгновение)
 #        Tooltip:
 #            '''
-#            'Fleeting Moment' - FFXIV Endwalker OST
+#            'Fleeting Moment' - FFXIV Endwalker
 #            Композитор: Masayoshi Soken
 #
 #            '''
@@ -10263,7 +10263,7 @@
 #            Инкрустация в оружие даёт следующие эффекты:
 #            Если при использовании <left> с этим оружием расходуется мана, восстанавливается 1 здоровье (перезарядка после 3 использований)
 #            '''
-#        TooltipAttached: Если при использовании <left> с этим оружием расходуется мана, восстанавливается 1 здоровье (перезарядка после 3 использований)
+#        TooltipAttached: Если при использовании ЛКМ с этим оружием расходуется мана, восстанавливается 1 здоровье (перезарядка после 3 использований)
 #    }
 #
 #    ElectricGuitarPick: {
@@ -10298,7 +10298,7 @@
 #            Инкрустация в оружие даёт следующие эффекты:
 #            Если это оружие обладает способностью на <right>, то при её использовании заряжает энергию Астроновы на 4 (перезарядка 4 секунды)
 #            '''
-#        TooltipAttached: Если это оружие обладает способностью на <right>, то при её использовании заряжает энергию Астроновы на 4 (перезарядка 4 секунды)
+#        TooltipAttached: Если это оружие обладает способностью на ПКМ, то при её использовании заряжает энергию Астроновы на 4 (перезарядка 4 секунды)
 #    }
 #
 #    Rageblade: {
@@ -10665,13 +10665,13 @@
 #        Tooltip:
 #            '''
 #            [c/D294FF:Воспоминание оружия]
-#            Если у этого оружия есть способность на <right>, то её использование теперь активирует бафф [c/6ECBA5:Клинок свергнутого короля] на 2 секунды (перезарядка 10 секунд)
+#            Если у оружия есть способность на <right>, то её использование теперь активирует бафф [c/6ECBA5:Клинок свергнутого короля] на 2 секунды (перезарядка 10 секунд)
 #            [c/6ECBA5:Клинок свергнутого короля] увеличивает урон на 15% и восстанавливает 20% здоровья от урона, нанесённого следующим ударом
 #            'Ты ничего не значишь!'
 #            '''
 #        TooltipAttached:
 #            '''
-#            Если у этого оружия есть способность на <right>, то её использование теперь активирует бафф [c/6ECBA5:Клинок свергнутого короля] на 2 секунды (перезарядка 10 секунд)
+#            Если у оружия есть способность на ПКМ, то её использование теперь активирует бафф [c/6ECBA5:Клинок свергнутого короля] на 2 секунды (перезарядка 10 секунд)
 #            [c/6ECBA5:Клинок свергнутого короля] увеличивает урон на 15% и восстанавливает 20% здоровья от урона, нанесённого следующим ударом
 #            '''
 #    }
@@ -10688,17 +10688,17 @@
 #    }
 #
 #    ChartTheCosmosMusicBox: {
-#        DisplayName: Музыкальная шкатулка (Chart The Cosmos)
+#        DisplayName: Музыкальная шкатулка (Исследование космоса)
 #        Tooltip: ""
 #    }
 #
 #    EvenStarsMustFallMusicBox: {
-#        DisplayName: Музыкальная шкатулка (Even Stars Must Fall)
+#        DisplayName: Музыкальная шкатулка (Даже звёздам суждено падать)
 #        Tooltip: ""
 #    }
 #
 #    LegendsYetUnspunMusicBox: {
-#        DisplayName: Музыкальная шкатулка (Legends Yet Unspun)
+#        DisplayName: Музыкальная шкатулка (Нерассказанные легенды)
 #        Tooltip: ""
 #    }
 #
@@ -10907,14 +10907,14 @@
 #            '''
 #            [c/D294FF:Воспоминание оружия]
 #            При атаке врагов из них с некоторым шансом может выпасть кристальный патрон, который можно подобрать (до 6 штук)
-#            Если у этого оружия есть способность на <right>, то при её использовании оно выпускает разброс снарядов на короткое расстояние, наносящих 40% урона оружия каждым снарядом (перезарядка 12 секунд)
+#            Если у оружия есть способность на <right>, то при её использовании оно выпускает разброс снарядов на короткое расстояние, наносящих 40% урона оружия каждым снарядом (перезарядка 12 секунд)
 #            За каждый подобранный кристальный патрон выпускается до 12 снарядов
 #            'Огонь!! (разжигают камнями)'
 #            '''
 #        TooltipAttached:
 #            '''
 #            При атаке врагов из них с некоторым шансом может выпасть кристальный патрон, который можно подобрать (до 6 штук)
-#            Если у этого оружия есть способность на <right>, то при её использовании оно выпускает разброс снарядов на короткое расстояние, наносящих 40% урона оружия каждым снарядом (перезарядка 12 секунд)
+#            Если у оружия есть способность на ПКМ, то при её использовании оно выпускает разброс снарядов на короткое расстояние, наносящих 40% урона оружия каждым снарядом (перезарядка 12 секунд)
 #            За каждый подобранный кристальный патрон выпускается до 12 снарядов
 #            '''
 #    }
@@ -14204,7 +14204,7 @@
 #
 #        DisableStarfarerCommentaryBuffs: {
 #            Label: Отключить комментарии Астры о баффах/дебаффах
-#            Tooltip: Вы больше не будете получать комментарии от Астры при получении баффов/дебаффов
+#            Tooltip: Вы больше не будете получать комментарии от Астры при получении баффов/дебаффов.
 #        }
 #
 #        DisableStarfarerCommentaryCombat: {
