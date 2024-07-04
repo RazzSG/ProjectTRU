@@ -1,4 +1,6 @@
-﻿#DeathReason: {
+﻿#Subworlds.Observatory.DisplayName: Обсерватория Заполярье
+#
+#DeathReason: {
 #    SanguineDespair: " истощает себя до последней капли жизни."
 #    SupremeAuthority: " возвращается в пустоту."
 #    Thespian: " не следует сценарию."
@@ -32,10 +34,10 @@
 #    }
 #
 #    ManiacalJustice: {
-#        Stack20: Уровень: 20
-#        Stack50: Уровень: 50
-#        Stack100: Уровень: МАКСИМАЛЬНЫЙ
-#        NotEnoughStacks: Уровень: {0}/100
+#        Stack20: УР: 20
+#        Stack50: УР: 50
+#        Stack100: УР: МАКСИМАЛЬНЫЙ
+#        NotEnoughStacks: УР: {0}/100
 #    }
 #
 #    Nalhaun: {
@@ -391,7 +393,7 @@
 #
 #        CelestialEvanesence: {
 #            Name: "[c/C2BDFF:Ранг 1] [c/FFEED1:'Хрупкость неземного мгновения']"
-#            Description: Увеличивает шанс критического удара в зависимости от текущего запаса маны, делённого на 20. Критический удар восстанавливает 5% от нанесённого урона в виде маны (Максимум 5 за удар).
+#            Description: Увеличивает шанс критического удара в зависимости от текущего запаса маны, делённого на 20. Критический удар восстанавливает 5% от нанесённого урона в виде маны (максимум 5 за удар).
 #            Unlock: "[c/9D9D9D:Заблокировано:] Одолейте Диоскуров, Близнецов-воителей"
 #        }
 #
@@ -487,13 +489,13 @@
 #
 #        SpatialStratagem: {
 #            Name: "[c/9C4FFF:Ранг 2] [c/FFD792:'Пространственная стратагема']"
-#            Description: При получении урона снижает весь получаемый урон вдвое на 2 секунды (включая изначальный удар) и увеличивает наносимый урон на 20% на 4 секунды. Перезарядка 30 секунд (Получение урона во время перезарядки сбрасывает перезарядку).
+#            Description: При получении урона снижает весь получаемый урон вдвое на 2 секунды (включая изначальный удар) и увеличивает наносимый урон на 20% на 4 секунды. Перезарядка 30 секунд (получение урона во время перезарядки сбрасывает перезарядку).
 #            Unlock: "[c/9D9D9D:Заблокировано:] Одолейте ???"
 #        }
 #
 #        WeaknessExploit: {
 #            Name: "[c/9C4FFF:Ранг 2] [c/FFD792:'Эксплуатация уязвимых мест']"
-#            Description: 10% критического урона превращается в чистый урон (Не приводит к убийству). Aтаки по врагам, на которых наложены ванильные дебаффы, наносят дополнительно 15% чистого урона.
+#            Description: 10% критического урона превращается в чистый урон (не приводит к убийству). Aтаки по врагам, на которых наложены ванильные дебаффы, наносят дополнительно 15% чистого урона.
 #            Unlock: "[c/9D9D9D:Заблокировано:] Одолейте Голема"
 #        }
 #
@@ -690,8 +692,8 @@
 #            Eridani: {
 #                Name: Диалог об оружии механического босса
 #                Description: Даёт эссенцию
-#                1: The weapon made from this Essence is based around music.. Timing your swings will be critical in using this to its fullest.
-#                2: Even holding it makes you feel a certain type of beat...
+#                1: Оружие, созданное из этой эссенции, пропитано музыкой... Для его эффективного использования необходимо чётко выдерживать ритм взмахов.
+#                2: Даже просто держа его в руках, чувствуешь определённый такт...
 #            }
 #        }
 #
@@ -699,15 +701,15 @@
 #            Asphodene: {
 #                Name: Диалог об оружии всех механических боссов
 #                Description: Даёт эссенцию
-#                1: This Essence creates a Ranged gun that perpetuates itself after killing foes! Feel the heat!!
-#                2: Uhh.. ahem. Please consider it in your arsenal.
+#                1: Эта эссенция создаёт стрелковое оружие, которое самовоспроизводится после убийства врагов! Ощути жар!!
+#                2: Кхм... прости. Поразмышляй о его включении в свой арсенал.
 #            }
 #
 #            Eridani: {
 #                Name: Диалог об оружии всех механических боссов
 #                Description: Даёт эссенцию
-#                1: This Essence will create a Melee weapon made for slaying dragons. Huh, dragons are rather ubiquitous across the galaxy. I wonder why that is...?
-#                2: Anyways, the weapon will help you with aerial jumps... and piercing whoever's below you after that.
+#                1: Эта эссенция создаст оружие ближнего боя, идеально подходящее для охоты на драконов. Кстати, драконы, похоже, обитают по всей галактике. Интересно, почему так?..
+#                2: Как бы там ни было, это оружие поможет тебе совершать воздушные прыжки... и пронзать врагов, оказавшихся под тобой.
 #            }
 #        }
 #
@@ -730,14 +732,14 @@
 #            Asphodene: {
 #                Name: Диалог об оружии Голема
 #                Description: Даёт эссенцию
-#                1: This Essence is a Ranged weapon that allows for powerful charged attacks. Fully charged, it splits and hits multiple foes!
+#                1: Эта эссенция представляет собой стрелковое оружие, позволяющее совершать мощные заряженные атаки. Когда оно полностью заряжено, оно разделяется и поражает сразу несколько целей!
 #            }
 #
 #            Eridani: {
 #                Name: Диалог об оружии Голема
 #                Description: Даёт эссенцию
-#                1: This Ranged weapon allows you to enter a close-ranged stance, dealing more damage to foes you've hit with arrows. It should be quite engaging.
-#                2: I know it's only an Essence, but it thirsts for combat... Whoever the original owner was, someone tell them to chill out.
+#                1: Это стрелковое оружие позволяет войти в боевую стойку, нанося больше урона врагам, которых вы поразили стрелами. Сражаться с её помощью должно быть довольно увлекательно.
+#                2: Пусть это всего лишь эссенция, но она жаждет сражений... Кто бы ни был её прежним владельцем, кто-нибудь скажите ей успокоиться.
 #            }
 #        }
 #
@@ -773,8 +775,8 @@
 #            Asphodene: {
 #                Name: Диалог об оружии Воина света
 #                Description: Даёт эссенцию
-#                1: The Warrior of Light has inspired this Essence. It appears to be a key to a gateway of infinite weapons, doing Summon damage.
-#                2: If you feel inspired, try referring to your foes as mongrels.
+#                1: Эта эссенция вдохновлена Воином света. Похоже, она открывает доступ к бесконечному арсеналу оружия, которое наносит урон призывателя. 
+#                2: Если почувствуешь вдохновение, попробуй обращаться к своим врагам как к отребью.
 #            }
 #
 #            Eridani: {
@@ -835,13 +837,13 @@
 #
 #        Penthesilea: {
 #            Asphodene: {
-#                Name: Диалог об оружии Глаз эвтюмии
+#                Name: Диалог об оружии {$Items.VisionOfEuthymia.DisplayName}
 #                Description: Даёт эссенцию
 #                1: This is a pretty unique weapon. When using it, it'll follow-up your attacks, and become stronger when you spend Mana.
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Кроническое господство
+#                Name: Диалог об оружии {$Items.KroniicAccelerator.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Here's another Summon weapon. You can attack normally with it, but striking foes with the Timepieces empowers the weapon's attacks.
 #                2: Did I mention you can go back in time? It's powerful, for sure.
@@ -850,13 +852,13 @@
 #
 #        LiberationAzakana: {
 #            Asphodene: {
-#                Name: Диалог об оружии Огненная заря освобождения
+#                Name: Диалог об оружии {$Items.LiberationBlazing.DisplayName}
 #                Description: Даёт эссенцию
-#                1: This Essence hails from a world embroiled in conflict... It boasts incredible power, but if you get too overzealous, it'll start to hurt you.
+#                1: Эта эссенция родом из мира, погрязшего в войнах... Она обладает невероятной силой, но если слишком увлечёшься, она начнёт наносить тебе вред.
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Незабытый
+#                Name: Диалог об оружии {$Items.Unforgotten.DisplayName}
 #                Description: Даёт эссенцию
 #                1: This Essence allows for the creation of unique dual blades which offer varying effects, and allows you to leave your body to overwhelm foes.
 #            }
@@ -864,13 +866,13 @@
 #
 #        Misery: {
 #            Asphodene: {
-#                Name: Диалог об оружии Компания несчастья
+#                Name: Диалог об оружии {$Items.MiserysCompany.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Эта эссенция создаёт оружие ближнего боя, способное трансформироваться в меч, косу или огнестрел. Подойдет для любой ситуации!
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Компания несчастья
+#                Name: Диалог об оружии {$Items.MiserysCompany.DisplayName}
 #                Description: Даёт эссенцию
 #                1: This Essence is utilized in the creation of a Melee Weapon. What sets it apart is the ability to manifest as a sword, scythe, or gun.
 #            }
@@ -878,13 +880,13 @@
 #
 #        Hullwrought: {
 #            Asphodene: {
-#                Name: Диалог об оружии Железный кованный
+#                Name: Диалог об оружии {$Items.Hullwrought.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Okay, here's a new Essence for you. It's a huge Melee lance that can be swap between a lance form and a gun form. It looks to be pretty strong!
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Железный кованный
+#                Name: Диалог об оружии {$Items.Hullwrought.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Here's a new weapon for you to craft. This lance can swap between close and long range, and it can also be charged to great effect.
 #            }
@@ -892,13 +894,13 @@
 #
 #        ShadowlessCerulean: {
 #            Asphodene: {
-#                Name: Диалог об оружии Бестеневая лазурь
+#                Name: Диалог об оружии {$Items.ShadowlessCerulean.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Ну что ж, {0}, возьми эту эссенцию. Это оружие ближнего боя обладает потрясающим взрывным уроном, но вот время перезарядки может может быть опасным... Но всё же попробуй его в деле!
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Бестеневая лазурь
+#                Name: Диалог об оружии {$Items.ShadowlessCerulean.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Эй, {0}, это тебе. Это сверхмощное оружие ближнего боя, которое обладает фазой взрывного урона, после чего следует фаза слабости. Удачи в его использовании.
 #            }
@@ -906,13 +908,13 @@
 #
 #        Apalistik: {
 #            Asphodene: {
-#                Name: Диалог об оружии Апалистик
+#                Name: Диалог об оружии {$Items.Apalistik.DisplayName}
 #                Description: Даёт эссенцию
-#                1: Here's another Essence you can use! It has incredible synergy with Summons and gets stronger as you do, so if you plan on fighting with allies, this is it!
+#                1: Вот ещё одна эссенция, которую ты можешь использовать! Она обладает невероятной синергией с миньонами и становится сильнее вместе с тобой. Так что если планируешь сражаться с союзниками, это именно то, что нужно!
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Апалистик
+#                Name: Диалог об оружии {$Items.Apalistik.DisplayName}
 #                Description: Даёт эссенцию
 #                1: I have another Essence for you. This weapon is a Summon weapon that works in harmony with minions, and it gets stronger as you do.
 #            }
@@ -920,14 +922,14 @@
 #
 #        Luminary: {
 #            Asphodene: {
-#                Name: Диалог об оружии Освещающая палочка
+#                Name: Диалог об оружии {$Items.LuminaryWand.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Right, I have an Essence for you. It's a Summon weapon that conjures this mysterious sentient star. It's.. too cute. Anyways..
 #                2: It looks to be a powerful weapon, but you'll have to collect the Star Bits for full effect- meaning getting in the way of danger. Good luck..!
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Освещающая палочка
+#                Name: Диалог об оружии {$Items.LuminaryWand.DisplayName}
 #                Description: Даёт эссенцию
 #                1: I have another Essence for you to use. This Summon-type wand calls forth this adorable little sentient star, and it just looks so.. squishable..
 #                2: ...Looking past that. You'll have to get up close to use the Star Bits, but they do quite a number on foes if you can land them.
@@ -936,13 +938,13 @@
 #
 #        Xenoblade: {
 #            Asphodene: {
-#                Name: Диалог об оружии Ксеноклинок
+#                Name: Диалог об оружии {$Items.Xenoblade.DisplayName}
 #                Description: Даёт эссенцию
-#                1: Okay. I've got another Essence for you. This Melee weapon can swap between five different forms, granting powerful buffs in the process.
+#                1: Окей. У меня есть для тебя ещё одна эссенция. Это оружие для ближнего боя может переключаться между пятью разными формами, давая при этом мощные баффы.
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Ксеноклинок
+#                Name: Диалог об оружии {$Items.Xenoblade.DisplayName}
 #                Description: Даёт эссенцию
 #                1: I've given you another Essence. This is a Melee weapon that can morph between five different forms, changing the weapon's usage. Interesting.
 #            }
@@ -950,13 +952,13 @@
 #
 #        DualityIrys: {
 #            Asphodene: {
-#                Name: Диалог об оружии Стигийская нимфа
+#                Name: Диалог об оружии {$Items.StygianNymph.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Here's a Magic-type Essence. It'll make a scythe with incredible reach and balances between light and dark. Now THAT sounds cool. Right? Right.
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Цезура отчаяния
+#                Name: Диалог об оружии {$Items.CaesuraOfDespair.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Here is another Essence. For you. This is a Summon weapon that will transform you as well as summon crystal shards that weaken and attack nearby foes.
 #                2: Hmm.. It's the Essence of Hope, but is there something else lurking beneath the surface? Who knows..
@@ -965,13 +967,13 @@
 #
 #        Claimh: {
 #            Asphodene: {
-#                Name: Диалог об оружии Клив-Солаш
+#                Name: Диалог об оружии {$Items.ClaimhSolais.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Here's another Essence for your use. This powerful Melee blade can deal powerful damage to all foes in your vicinity. How useful is that?
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Клив-Солаш
+#                Name: Диалог об оружии {$Items.ClaimhSolais.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Right... Here's another Essence. This Melee weapon allows you to damage all nearby foes in a huge area. It should be quite useful.
 #            }
@@ -979,13 +981,13 @@
 #
 #        PenthesileaMuse: {
 #            Asphodene: {
-#                Name: Диалог об оружии Муза Пентесилеи
+#                Name: Диалог об оружии {$Items.PenthesileaMuse.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Here's another Essence you can prepare to use, from Penthesilea's strength. With its magical paint, we should be able to best powerful foes.
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Муза Пентесилеи
+#                Name: Диалог об оружии {$Items.PenthesileaMuse.DisplayName}
 #                Description: Даёт эссенцию
 #                1: This is another Essence you can master. It will allow you to use Penthesilea's ink to supress foes and strike bosses powerfully.
 #            }
@@ -993,13 +995,13 @@
 #
 #        Kifrosse: {
 #            Asphodene: {
-#                Name: Диалог об оружии Кифросс
+#                Name: Диалог об оружии {$Items.Kifrosse.DisplayName}
 #                Description: Даёт эссенцию
-#                1: Here you go: an essence for usage in crafting. It looks like it'll apply powerful bouts of flame and frost alike. Not how I'd want to go out, personally.
+#                1: Вот, держи: эссенция для использования в создании предметов. Похоже, она способна применять мощные всплески как пламени, так и льда. Лично я бы не хотела встретить свой конец таким образом.
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Кифросс
+#                Name: Диалог об оружии {$Items.Kifrosse.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Okay, I have another Essence for your battles. It summons a mystical fox that burns your enemies with icy energy. They might even deserve it, too.
 #            }
@@ -1007,55 +1009,55 @@
 #
 #        Architect: {
 #            Asphodene: {
-#                Name: Диалог об оружии Ясность Архитектора
+#                Name: Диалог об оружии {$Items.ArchitectLuminance.DisplayName}
 #                Description: Даёт эссенцию
-#                1: Whoa, this is a powerful Essence. It's potential seems to be magnified based on your Aspected Damage Type. How about giving it a go?
+#                1: Ого, это поистине могущественная эссенция. Кажется, её потенциал усиливается в зависимости от твоего Аспектого типа урона. Как насчёт того, чтобы её опробовать?
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Ясность Архитектора
+#                Name: Диалог об оружии {$Items.ArchitectLuminance.DisplayName}
 #                Description: Даёт эссенцию
-#                1: It looks like this next Essence is a strong one. Aspected Damage Type seems to empower the weapon further…
+#                1: Грядущая эссенция, по-видимому, весьма могущественна. Судя по всему, Аспектный тип урона дополнительно усиливает оружие...
 #            }
 #        }
 #
 #        ForceOfNature: {
 #            Asphodene: {
-#                Name: Диалог об оружии Неумолимая сила
+#                Name: Диалог об оружии {$Items.ForceOfNature.DisplayName}
 #                Description: Даёт эссенцию
-#                1: Okay..! Time for another Essence! This looks to be a Ranged weapon with high damage output at close range.
+#                1: Ладно!.. Время для очередной эссенции! Похоже, это стрелковое оружие, обладающее высокой эффективностью на близком расстоянии.
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Неумолимая сила
+#                Name: Диалог об оружии {$Items.ForceOfNature.DisplayName}
 #                Description: Даёт эссенцию
-#                1: I've located another Essence for your use. It seems this Ranged-type weapon is hyperfocused on movement. How about pairing it with some mobility tools..?
+#                1: Я нашла ещё одну эссенцию для тебя. Похоже, это стрелковое оружие особенно эффективно при активном движении. Как насчет того, чтобы дополнить его инструментами для повышения мобильности?..
 #            }
 #        }
 #
 #        Genocide: {
 #            Asphodene: {
-#                Name: Диалог об оружии Геноцид
+#                Name: Диалог об оружии {$Items.Genocide.DisplayName}
 #                Description: Даёт эссенцию
-#                1: This new Essence is great! It's a Ranged weapon with crazy high explosive potential. Just point it towards the bad guys.
+#                1: Эта новая эссенция превосходна! Это стрелковое оружие с невероятно высоким разрушительным потенциалом. Просто направь его на плохих парней.
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Геноцид
+#                Name: Диалог об оружии {$Items.Genocide.DisplayName}
 #                Description: Даёт эссенцию
-#                1: Another Essence is yours. It's a strong Ranged weapon with incredibly good room-clearing power. How about that?
+#                1: Ты получил ещё одну эссенцию. Это мощное стрелковое оружие, отлично подходит для расчистки помещений. Что скажешь?
 #            }
 #        }
 #
 #        Takonomicon: {
 #            Asphodene: {
-#                Name: Диалог об оружии Такономикон
+#                Name: Диалог об оружии {$Items.AncientBook.DisplayName}
 #                Description: Даёт эссенцию
 #                1: У меня для тебя новая эссенция. Это магическое оружие призывного типа, которое, похоже, усиливается вместе с твоим потенциалом. Интересно!..
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Такономикон
+#                Name: Диалог об оружии {$Items.AncientBook.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Вот тебе ещё одна эссенция. Похоже, это оружие призывного типа, которое становится сильнее с увеличением количества призванных миньонов.
 #            }
@@ -1063,41 +1065,41 @@
 #
 #        TwinStarsAlbiero: {
 #            Asphodene: {
-#                Name: Диалог об оружии Двойные звёзды Альбиеро
+#                Name: Диалог об оружии {$Items.TwinStars.DisplayName}
 #                Description: Даёт эссенцию
-#                1: A Magic Essence is here this time. With cosmic energy, you can blast foes away with superpowered light. Sounds good to me!
+#                1: На этот раз магическая эссенция. Используя космическую энергию, ты можешь сокрушить врагов сверхмощным светом. По мне, так клёво!
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Двойные звёзды Альбиеро
+#                Name: Диалог об оружии {$Items.TwinStars.DisplayName}
 #                Description: Даёт эссенцию
-#                1: Here's a Magic-type Essence. With the power of the stars, you can melt even the strongest of foes. Give it a try..?
+#                1: Тут у нас эссенция магического типа. Обладая силой звёзд, ты можешь сжечь до тла даже сильнейших врагов. Быть может, хочешь попробовать?..
 #            }
 #        }
 #
 #        Armaments: {
 #            Asphodene: {
-#                Name: Armaments of the Sky Striker Weapon Dialogue
+#                Name: Диалог об оружии {$Items.SkyStrikerArms.DisplayName}
 #                Description: Даёт эссенцию
-#                1: This Melee-type Essence should help. It looks to be a multiple-purpose power-suit with myriad attacks. Now that sounds cool!
+#                1: Эта эссенция ближнего боя должна быть весьма полезна. Похоже, это многоцелевой силовой костюм с множеством различных атак. Вот это я понимаю!
 #            }
 #
 #            Eridani: {
-#                Name: Armaments of the Sky Striker Weapon Dialogue
+#                Name: Диалог об оружии {$Items.SkyStrikerArms.DisplayName}
 #                Description: Даёт эссенцию
-#                1: A Melee Essence is here this time. With its strength, you can create a multifaceted weapon that swaps its arsenal instantly in combat.
+#                1: На сей раз тут эссенция ближнего Боя. Её мощь позволяет создать многогранное оружие, мгновенно меняющее свой арсенал в пылу сражения.
 #            }
 #        }
 #
 #        CarianKonpaku: {
 #            Asphodene: {
-#                Name: Carian Dark Moon Weapon Dialogue
+#                Name: Диалог об оружии {$Items.CarianDarkMoon.DisplayName}
 #                Description: Даёт эссенцию
-#                1: Okay {0}, I have an Essence for you! It seems to create a Magic-type weapon with powerful piercing damage... It sounds rather helpful.
+#                1: Что ж, {0}, у меня есть для тебя эссенция! Похоже, она создаёт оружие магического типа с мощным пронзающим уроном... Звучит весьма многообещающе.
 #            }
 #
 #            Eridani: {
-#                Name: Konpaku Katana Weapon Dialogue
+#                Name: Диалог об оружии {$Items.KonpakuKatana.DisplayName}
 #                Description: Даёт эссенцию
 #                1: "{0}, у меня есть для тебя эссенция. Похоже, что из неё получится оружие призывного типа... и оно становится сильнее находясь в опасности? Тебе следует это проверить."
 #            }
@@ -1105,13 +1107,13 @@
 #
 #        NeonAshen: {
 #            Asphodene: {
-#                Name: Neo Dealmaker Weapon Dialogue
+#                Name: Диалог об оружии {$Items.NeoDealmaker.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Я нашла ещё одну эссенцию, которую ты можешь использовать... По-видимому, её можно применить для создания стрелкового оружия. Как использовать дальше - решай сам.
 #            }
 #
 #            Eridani: {
-#                Name: Ashen Ambition Weapon Dialogue
+#                Name: Диалог об оружии {$Items.AshenAmbition.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Вот ещё одна мощная эссенция. По всей видимости, это оружие ближнего боя, способное казнить врагам. Не следует недооценивать его потенциал.
 #            }
@@ -1119,28 +1121,28 @@
 #
 #        CosmicDestroyer: {
 #            Asphodene: {
-#                Name: Cosmic Destroyer Weapon Dialogue
+#                Name: Диалог об оружии {$Items.CosmicDestroyer.DisplayName}
 #                Description: Даёт эссенцию
-#                1: Okay- I've got it. Here's a Ranged-type Essence.. it looks to be something pretty powerful! Good luck.
+#                1: Хорошо... Я поняла. Вот эссенция стрелкового типа... похоже, это нечто весьма могущественное! Ну, ни пуха.
 #            }
 #
 #            Eridani: {
-#                Name: Cosmic Destroyer Weapon Dialogue
+#                Name: Диалог об оружии {$Items.CosmicDestroyer.DisplayName}
 #                Description: Даёт эссенцию
-#                1: Time for another essence- this time it's a Ranged-type weapon. Seems to be pretty powerful at general destruction.
+#                1: TНастал черёд следующей эссенции... в этот раз это оружие стрелкового типа. Похоже, оно обладает внушительной разрушительной мощью.
 #            }
 #        }
 #
 #        Arachnid: {
 #            Asphodene: {
-#                Name: Arachnid Needlepoint Weapon Dialogue
+#                Name: Диалог об оружии {$Items.ArachnidNeedlepoint.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Эта эссенция оружия призывателя. Внешне она напоминает кнут, но... может призывать миньонов? Вот это да.
 #                2: Чего? 'Пик'? Это же новомодное словцо. Ты же слышал его уже сто раз. Ну, типа... горный пик? Вершина... чего-то? Ладно, забудь.
 #            }
 #
 #            Eridani: {
-#                Name: Arachnid Needlepoint Weapon Dialogue
+#                Name: Диалог об оружии {$Items.ArachnidNeedlepoint.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Вот ещё одно оружие. Похоже на хлыст, способный призывать роботов-пауков для атаки врагов.
 #                2: Это пауки... но не настоящие. Осознание этого факта может помочь преодолеть инстинктивную реакцию 'бей или беги'. Возьми это на заметку!
@@ -1149,58 +1151,58 @@
 #
 #        Mercy: {
 #            Asphodene: {
-#                Name: Mercy Weapon Dialogue
+#                Name: Диалог об оружии {$Items.Mercy.DisplayName}
 #                Description: Даёт эссенцию
-#                1: Okay- this is a Melee weapon! My instincts tell me it's perfect for high-defense foes. What are you waiting for?
+#                1: Вот, гляди... это оружие ближнего боя! Нутром чую, что оно идеально подойдёт против врагов с высокой защитой. Ну, чего ты ждёшь?
 #            }
 #
 #            Eridani: {
-#                Name: Mercy Weapon Dialogue
+#                Name: Диалог об оружии {$Items.Mercy.DisplayName}
 #                Description: Даёт эссенцию
-#                1: This is a Melee weapon. It has pretty good anti-armor properties- you can definitely put that to good use.
+#                1: Это оружие ближнего боя. Оно хорошо пробивает вражескую броню... ты точно сможешь найти этому хорошее применение.
 #            }
 #        }
 #
 #        Sakura: {
 #            Asphodene: {
-#                Name: Sakura Weapon Dialogue
+#                Name: Диалог об оружии {$Items.SakuraVengeance.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Этот клинок ближнего боя способен аккумулировать энергию стихий. Даже просто держать его в руках - уже нечто особенное!
 #            }
 #
 #            Eridani: {
-#                Name: Sakura Weapon Dialogue
+#                Name: Диалог об оружии {$Items.SakuraVengeance.DisplayName}
 #                Description: Даёт эссенцию
-#                1: Another weapon is here. It seems to be a Melee weapon- one that uses the power of the elements to attack foes.
+#                1: Вот и следующее оружие. По всей видимости, это оружие ближнего боя... черпающее мощь стихий для сокрушения врагов.
 #            }
 #        }
 #
 #        Eternal: {
 #            Asphodene: {
-#                Name: Диалог об оружии Вечная звезда
+#                Name: Диалог об оружии {$Items.EternalStar.DisplayName}
 #                Description: Даёт эссенцию
-#                1: This looks to be a Magic weapon. With its power, you can call down entire stars to defeat your foes!
-#                2: You're worried you'll run out eventually? Yeah.. no.
+#                1: Это, похоже, магическое оружие. Им можно целые звёзды на врагов обрушивать!
+#                2: Беспокоишься, что они когда-нибудь закончатся? Да не... расслабься.
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Вечная звезда
+#                Name: Диалог об оружии {$Items.EternalStar.DisplayName}
 #                Description: Даёт эссенцию
-#                1: This Magic-type staff will be incredibly helpful, if I do say so myself. It has the strength to conjure entire stars!
-#                2: As long as they aren't REAL stars. There would be... a few problems.
+#                1: Этот посох магического типа будет невероятно полезен, смею заметить. Его мощь позволяет призывать целые звёзды! 
+#                2: Естественно, не НАСТОЯЩИЕ звёзды. Иначе мы столкнулись бы... с опредёленными трудностями.
 #            }
 #        }
 #
 #        Vermillion: {
 #            Asphodene: {
-#                Name: Диалог об оружии Алый демон
+#                Name: Диалог об оружии {$Items.VermillionDaemon.DisplayName}
 #                Description: Даёт эссенцию
 #                1: This looks to be... a Magic weapon. Strange- it feels like an entire armory is contained in this Essence. How's that possible?
 #                2: Well, I'll let you figure that one out. Get to it- I'm curious too, you know?
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Алый демон
+#                Name: Диалог об оружии {$Items.VermillionDaemon.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Here's another weapon- Magic, it seems. There's something strange about it- this Essence seems to hold the strength of myriad weapons together.
 #            }
@@ -1208,14 +1210,14 @@
 #
 #        Ozma: {
 #            Asphodene: {
-#                Name: Диалог об оружии Возвышенная Озма
+#                Name: Диалог об оружии {$Items.Ozma.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Here's a Magic weapon for your usage. Looks to me like it's pretty complicated- you're up to the task though, right?
 #                2: Just point the pointy bit towards the bad guys. Usually works for me.
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Возвышенная Озма
+#                Name: Диалог об оружии {$Items.Ozma.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Here's another unique Magic weapon. Looks to be rather complicated, so good luck using it. Don't forget the ABCs- always be casting!
 #                2: Although, I'm not too sure that it applies here, so use your own judgement.
@@ -1224,55 +1226,55 @@
 #
 #        Dreadnought: {
 #            Asphodene: {
-#                Name: Диалог об оружии Химдоспех дредноута
+#                Name: Диалог об оружии {$Items.DreadnoughtChemtank.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Right.. Here's a Ranged-type weapon Essence.  I hope you've built up your chemical tolerance- it seems to utilize chemical energy to deal powerful damage.
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Химдоспех дредноута
+#                Name: Диалог об оружии {$Items.DreadnoughtChemtank.DisplayName}
 #                Description: Даёт эссенцию
-#                1: This Essence sources a Ranged weapon. It has a high focus on tight mobility, meaning it'll put you into the front lines. The strength should compensate.
+#                1: Эта эссенция черпает силу из стрелкового оружия. Она делает упор на высокую мобильность, поэтому тебе придётся быть в самой гуще боя. Но высокая сила оружия должна компенсировать этот риск.
 #            }
 #        }
 #
 #        BloodBlade: {
 #            Asphodene: {
-#                Name: Диалог об оружии Кровавый клинок
+#                Name: Диалог об оружии {$Items.BloodBlade.DisplayName}
 #                Description: Даёт эссенцию
-#                1: Behold- a new Essence! It's Melee damage this time. It has some incredible lifesteal powers- but also seems to drain your health on use? How about giving it a go?
+#                1: Взгляни... новая эссенция! На этот раз она наносит урон ближнего боя. У неё есть невероятная кража здоровья... но, похоже, при использовании она также истощает твоё здоровье? Как насчёт попробовать?
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Кровавый клинок
+#                Name: Диалог об оружии {$Items.BloodBlade.DisplayName}
 #                Description: Даёт эссенцию
-#                1: A Melee-type Essence is prepared this time. It seems to me like it sacrifies your health for powerful area-of-effect damage. Use it well, but know the risks.
+#                1: Так, на этот раз у нас эссенция ближнего боя. Похоже, она отнимает твоё здоровье, но взамен даёт сильный урон по области. Пользуйся с умом, но не забывай об опасности.
 #            }
 #        }
 #
 #        MorningStar: {
 #            Asphodene: {
-#                Name: Диалог об оружии Утренняя звезда
+#                Name: Диалог об оружии {$Items.MorningStar.DisplayName}
 #                Description: Даёт эссенцию
-#                1: Here's a Summon weapon. It's.. Well, it's a whip, but it has some unique magical properties. It has good striking power, too!
+#                1: Вот оружие призывателя. Это... Что ж, это хлыст, но он обладает уникальными магическими свойствами. К тому же, у него отличная разрушительная сила!
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Утренняя звезда
+#                Name: Диалог об оружии {$Items.MorningStar.DisplayName}
 #                Description: Даёт эссенцию
-#                1: Right, here's a Summon-type whip. It has some magic capability, but it's a bit random in its casting. Try and use it well.
+#                1: Так, это хлыст призывного типа. Он обладает некоторыми магическими свойствами, однако его заклинания несколько непредсказуемы. Постарайся использовать его эффективно.
 #            }
 #        }
 #
 #        HunterSparkblossom: {
 #            Asphodene: {
-#                Name: Диалог об оружии Симфония охотника
+#                Name: Диалог об оружии {$Items.HunterSymphony.DisplayName}
 #                Description: Даёт эссенцию
-#                1: Listen close, {0}! Or not. This Magic weapon is a giant horn, but get this: you can whack people with it! Rad!
+#                1: Слушай внимательно, {0}! Хотя можешь и не слушать. Это магическое оружие - огромный рог, но вот что удивительно: им можно лупить людей! Потрясающе!
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Маяк цветущей искры
+#                Name: Диалог об оружии {$Items.SparkblossomBeacon.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Be careful with this Essence- for some reason, it discharges static electricity all the time.
 #                2: It'll create a Summon weapon. Hopefully the electric properties carry over- it's sure to give our foes a shock.
@@ -1281,14 +1283,14 @@
 #
 #        Virtue: {
 #            Asphodene: {
-#                Name: Диалог об оружии Грань добродетели
+#                Name: Диалог об оружии {$Items.VirtuesEdge.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Careful with this Essence- Apparently, only the worthy can wield it at full strength.
 #                2: An ancient civilization's magnum opus, it seems. Don't underestimate its destructive power.
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Грань добродетели
+#                Name: Диалог об оружии {$Items.VirtuesEdge.DisplayName}
 #                Description: Даёт эссенцию
 #                1: This Essence leads to a truly powerful weapon. It bears remnants of an ancient, advanced civilization.
 #                2: Evidently, they bore proficiency in spatial manipulation. I'd like you to give it a try, but it might reject the unworthy.
@@ -1298,14 +1300,14 @@
 #
 #        Riposte: {
 #            Asphodene: {
-#                Name: Диалог об оружии Киноварное парирование
+#                Name: Диалог об оружии {$Items.RedMage.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Look here, another Essence..! It's going to be Magic-type. It seems to revolve around balancing Black and White Mana to attack.
 #                2: It seems that they were opposites, at least where this thing came from. Makes you wonder…!
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Киноварное парирование
+#                Name: Диалог об оружии {$Items.RedMage.DisplayName}
 #                Description: Даёт эссенцию
 #                1: This Magic-type Essence balances attack and healing through the dual-use of Black and White mana.
 #                2: Two opposite schools of learning, at least in this Essence's original world. Now isn't some interesting worldbuilding…
@@ -1314,14 +1316,14 @@
 #
 #        BurningDesire: {
 #            Asphodene: {
-#                Name: Диалог об оружии Пылающая страсть
+#                Name: Диалог об оружии {$Items.BurningDesire.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Thanks for waiting. Here's another Melee-type Essence for your use. While it's deceptively close-ranged, it has the potential for some crazy burst damage.
 #                2: Sure, it'll most likely burn you up from the inside. Just a little, though.
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Пылающая страсть
+#                Name: Диалог об оружии {$Items.BurningDesire.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Apologies for the delay- here's an Essence. This Melee weapon has some recoil potential, but in exchange you could deal some explosive amounts of damage.
 #                2: I'd ask you to use it in moderation, but I'm sure you'll use it as much as you like. Bring some healing potions, at the very least.
@@ -1330,42 +1332,42 @@
 #
 #        EverlastingPickaxe: {
 #            Asphodene: {
-#                Name: Диалог об оружии Неуничтожимая кирка
+#                Name: Диалог об оружии {$Items.EverlastingPickaxe.DisplayName}
 #                Description: Даёт эссенцию
-#                1: Okay, here's an unorthodox Essence for you. While it functions as a pretty strong pickaxe, it looks like it also has some great damage potential.
-#                2: From my take, it seems to be a great off-hand weapon to pump out explosions. Everyone loves explosions, right?
+#                1: Ну что, вот тебе необычная эссенция. Она служит не только мощной киркой, но и отличным оружием с огромным потенциалом для нанесения урона.
+#                2: Как по мне, отлично подходит для того, чтобы устраивать взрывы. Кто же не любит взрывы, правда?
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Неуничтожимая кирка
+#                Name: Диалог об оружии {$Items.EverlastingPickaxe.DisplayName}
 #                Description: Даёт эссенцию
-#                1: This Essence focuses on excavation as well as damage. You can use it to move earth at significant rates, and additionally deal powerful explosive damage.
+#                1: Эта эссенция позволяет не только быстро рыть землю, но и наносить мощные взрывные удары.
 #            }
 #        }
 #
 #        CapitanHardware: {
 #            Asphodene: {
-#                Name: Диалог об оружии Железо Эль Капитана
+#                Name: Диалог об оружии {$Items.ElCapitansHardware.DisplayName}
 #                Description: Даёт эссенцию
-#                1: Here's a Ranged weapon- it has both a useful primary fire and can unleash strong self-sustaining drones to attack as well.
+#                1: Это стрелковое оружие... оно обладает не только эффективной основной атакой, но и может выпускать мощных автономных дронов для дополнительной поддержки.
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Железо Эль Капитана
+#                Name: Диалог об оружии {$Items.ElCapitansHardware.DisplayName}
 #                Description: Даёт эссенцию
-#                1: Here's a Ranged weapon- it has both a useful primary fire and can unleash strong self-sustaining drones to attack as well.
+#                1: Это стрелковое оружие... оно обладает не только эффективной основной атакой, но и может выпускать мощных автономных дронов для дополнительной поддержки.
 #            }
 #        }
 #
 #        CatalystMemory: {
 #            Asphodene: {
-#                Name: Диалог об оружии Воспоминание катализатора
+#                Name: Диалог об оружии {$Items.CatalystMemory.DisplayName}
 #                Description: Даёт эссенцию
 #                1: У меня есть для тебя новое оружие: мощный клинок среднего радиуса действия, способный призывать кристалл, изменяющий стиль боя. Необычно, не правда ли?
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Воспоминание катализатора
+#                Name: Диалог об оружии {$Items.CatalystMemory.DisplayName}
 #                Description: Даёт эссенцию
 #                1: У меня есть новое неземное оружие для тебя. Его мощь значительно возрастёт, если использовать его для призыва призмы, которая поможет тебе в сражении.
 #            }
@@ -1373,14 +1375,14 @@
 #
 #        Gloves: {
 #            Asphodene: {
-#                Name: Диалог об оружии Перчатки чёрной тишины
+#                Name: Диалог об оружии {$Items.BlackSilenceWeapon.DisplayName}
 #                Description: Даёт эссенцию
 #                1: This is an Essence that'll turn into a pair of gloves. Now, I know what you're thinking, but let me explain.
 #                2: These gloves can conjure a whole arsenal of weapons for you to wield. Complicated, but it'll be very powerful if used right.
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Перчатки чёрной тишины
+#                Name: Диалог об оружии {$Items.BlackSilenceWeapon.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Here's a new weapon for your use. In truth, this Essence is a bit more than that; it's a pair of gloves.
 #                2: Of course, that's not the whole story- you can use these gloves to summon an entire arsenal of weapons.
@@ -1390,13 +1392,13 @@
 #
 #        SoulReaver: {
 #            Asphodene: {
-#                Name: Диалог об оружии Жнец душ
+#                Name: Диалог об оружии {$Items.SoulReaver.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Да, интересно. Эта эссенция ближнего боя черпает силы из пустоты, чтобы побеждать врагов и поглощать их. Звучит довольно круто, как по мне.
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Жнец душ
+#                Name: Диалог об оружии {$Items.SoulReaver.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Итак, это оружие ближнего боя... используя силу душ, оно способно рассекать огромные пространства вокруг себя и погружаться в пустоту для мгновенной телепортации.
 #                2: Откровенно говоря, это оружие... впечатляет, но прошу держать это в секрете. Не стоит усматривать в моих словах скрытого смысла или попытки преувеличить достоинства этого оружия.
@@ -1405,9 +1407,9 @@
 #
 #        AurumEdge: {
 #            Asphodene: {
-#                Name: Диалог об оружии Золотая грань
+#                Name: Диалог об оружии {$Items.GoldenKatana.DisplayName}
 #                Description: Даёт эссенцию
-#                1: I've acquired a new Essence for your use. It seems to borrow strength from Melee and Magic both- a versatile weapon, I like it!
+#                1: Я раздобыла для тебя новую эссенцию. Она, кажется, объединяет мощь ближнего боя и магии... универсальное оружие, я в восторге!
 #            }
 #
 #            Eridani: {
@@ -1421,56 +1423,56 @@
 #            Asphodene: {
 #                Name: Диалог об оружии Прощания
 #                Description: Даёт эссенцию
-#                1: Looks like this Graveyard seems to have some connection to this Essence. Hopefully all these graves weren't just from you dying, right?
+#                1: Слушай, похоже, это кладбище как-то связано с этой эссенцией. Ты ведь не так часто отбрасывал коньки, чтобы все эти могилы были твоими, да?
 #            }
 #
 #            Eridani: {
 #                Name: Диалог об оружии Прощания
 #                Description: Даёт эссенцию
-#                1: This Graveyard seems to have connected to this Essence. I hope it'll help you avoid creating the Graveyard in the first place.
-#                2: While powerful, I believe it's a utility item, and not a weapon this time.
+#                1: Вполне возможно, что это кладбище каким-то образом связано с этой эссенцией. Надеюсь, она поможет тебе не создавать новые кладбища.
+#                2: Несмотря на свою силу, полагаю, что это скорее полезный предмет, нежели оружие.
 #            }
 #        }
 #
 #        IrminsulPod: {
 #            Asphodene: {
-#                Name: Диалог об оружии Под Зеро-42
+#                Name: Диалог об оружии {$Items.PodZero42.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Хм... эта эссенция призывного типа сотворит какого-то управляемого дрона. Интересно, может ли он разговаривать?
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Сон Ирминсуля
+#                Name: Диалог об оружии {$Items.IrminsulDream.DisplayName}
 #                Description: Даёт эссенцию
-#                1: This Magic Essence, while aspected to nature, seems rather volatile. Perhaps you'd be able to better use it in tandem with other weapons?
+#                1: Эта магическая эссенция, хотя и связана с природой, кажется довольно нестабильной. Быть может, тебе удастся использовать её более эффективно в сочетании с другим оружием?
 #            }
 #        }
 #
 #        Umbra: {
 #            Asphodene: {
-#                Name: Диалог об оружии Умбра
+#                Name: Диалог об оружии {$Items.Umbra.DisplayName}
 #                Description: Даёт эссенцию
-#                1: This is certainly a Melee weapon- furthermore, it seems to be one that excels at a distance, as well as providing extra firepower in close combat. Nice.
+#                1: Ого, это стопроцентно оружие ближнего боя... К тому же, оно отлично работает и на расстоянии, а ещё обеспечивает дополнительную огневую мощь в ближнем бою. Просто класс!
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Умбра
+#                Name: Диалог об оружии {$Items.Umbra.DisplayName}
 #                Description: Даёт эссенцию
-#                1: This Melee weapon harnesses an aspect of time itself to help you in combat. It seems to have some impressive range, as well.
+#                1: Это оружие ближнего боя использует аспект самого времени, помогая тебе в бою. Помимо этого, оно обладает впечатляющим радиусом действия.
 #            }
 #        }
 #
 #        SaltwaterScourge: {
 #            Asphodene: {
-#                Name: Диалог об оружии Гроза морей
+#                Name: Диалог об оружии {$Items.SaltwaterScourge.DisplayName}
 #                Description: Даёт эссенцию
-#                1: I plundered a Ranged-sort of essence from the likeness of those pirates. Sea... water... Actually, looks like I'm nearly dry with jokes, so I'll anchor myself now.
+#                1: Я стянула у тех пиратов что-то вроде стрелковой эссенции. Море... вода... Похоже, мои шутки уже иссякли, так что пришвартуюсь на этом.
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Гроза морей
+#                Name: Диалог об оружии {$Items.SaltwaterScourge.DisplayName}
 #                Description: Даёт эссенцию
-#                1: How about it; that previous... um, let's say 'get-together' with those pirates has churned up an Essence- Ranged damage, from what I can tell. Here you are.
+#                1: Как тебе такое; та прошлая... ну, назовем её 'встречей' с пиратами, принесла мне одну эссенцию... Насколько я вижу, она стрелкового типа. Вот, держи.
 #            }
 #        }
 #
@@ -1478,26 +1480,26 @@
 #            Asphodene: {
 #                Name: Диалог об оружии хаоса
 #                Description: Даёт эссенцию
-#                1: Well, I'm not sure what to make of this Essence, other than that it's a Summon weapon. Best you give it a go, before anything else goes haywire.
+#                1: Признаться, я затрудняюсь дать оценку этой эссенции, за исключением того, что это оружие призывного типа. Давай-ка ты её опробуешь, прежде чем что-нибудь ещё выйдет из-под контроля.
 #            }
 #
 #            Eridani: {
 #                Name: Диалог об оружии хаоса
 #                Description: Даёт эссенцию
-#                1: I'm not sure how to define this Summon-type Essence, so I'll leave it as an exercise for you. Well... good luck.
+#                1: Я затрудняюсь дать определение этой эссенции призывного типа, так что разбирайся с ней сам. Что ж... удачи.
 #            }
 #        }
 #
 #        Chronoclock: {
 #            Asphodene: {
-#                Name: Диалог об оружии Хроночасы
+#                Name: Диалог об оружии {$Items.Chronoclock.DisplayName}
 #                Description: Даёт эссенцию
 #                1: This watch is a Summon-type weapon- looks like it'll call forth a cute time-aspected ally. She'll help with support if you can work with her combat style.
 #                2: Hmm... Perhaps you could even use it to dodge incoming attacks...?
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Хроночасы
+#                Name: Диалог об оружии {$Items.Chronoclock.DisplayName}
 #                Description: Даёт эссенцию
 #                1: This Summon-type weapon conjures a rather charming time-aspected being. She'll help with both offensive and defensive duties.
 #            }
@@ -1505,27 +1507,27 @@
 #
 #        KissOfDeath: {
 #            Asphodene: {
-#                Name: Диалог об оружии Поцелуй смерти
+#                Name: Диалог об оружии {$Items.KissOfDeath.DisplayName}
 #                Description: Даёт эссенцию
-#                1: It looks to me like this Ranged-weapon has the ability to down hordes of foes pretty easily. Sounds like it'll come in handy- especially the giant coffin swings!
+#                1: По-моему, это стрелковое оружие запросто может уничтожать целые полчища врагов. Думаю, оно окажется весьма кстати... особенно впечатляют сокрушительные взмахи гигантским гробом!
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Поцелуй смерти
+#                Name: Диалог об оружии {$Items.KissOfDeath.DisplayName}
 #                Description: Даёт эссенцию
-#                1: This essence is a Ranged-type weapon, but it seems to have a lot of close-ranged action. Don't get overzealous, but do try to make the most of it.
+#                1: Эта эссенция хоть и относится оружию стрелкового типа, судя по всему, таит в себе немало приёмов и для ближнего боя. Не стоит торопиться с выводами, но постарайся максимально использовать все её возможности.
 #            }
 #        }
 #
 #        Boltstorm: {
 #            Asphodene: {
-#                Name: Диалог об оружии Топор ревущих молний
+#                Name: Диалог об оружии {$Items.LevinstormAxe.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Looks like this Essence is both Magic and Melee aspected- it crackles with lightning already. How about giving it a shot?
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Топор ревущих молний
+#                Name: Диалог об оружии {$Items.LevinstormAxe.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Seems like this is a Melee and Magic type Essence in tandem. From what I can see, it'll make a powerful weapon that channels the power of lightning.
 #            }
@@ -1533,13 +1535,13 @@
 #
 #        NanomachinaReactor: {
 #            Asphodene: {
-#                Name: Диалог об оружии Наномашинный реактор
+#                Name: Диалог об оружии {$Items.Nanomachina.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Как насчёт этой эссенции? Она даст усиленный барьер, который не только защитит тебя, но и позволит наносить урон, не боясь последствий.
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Наномашинный реактор
+#                Name: Диалог об оружии {$Items.Nanomachina.DisplayName}
 #                Description: Даёт эссенцию
 #                1: This Essence is a support-type item. It'll provide a powerful barrier and allow you to sap life energy from your foes as well... It'll be quite the powerful tool.
 #            }
@@ -1547,14 +1549,14 @@
 #
 #        Sanguine: {
 #            Asphodene: {
-#                Name: Диалог об оружии Кровавое отчаяние
+#                Name: Диалог об оружии {$Items.SanguineDespair.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Seems that this Essence came from that voodoo doll we found in the Underworld- a strange sight. Are you certain that using a weapon like this is worth the risk?
 #                2: Who am I kidding- of course you're certain! You chose me, after all! Just don't get TOO reckless, now.
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Кровавое отчаяние
+#                Name: Диалог об оружии {$Items.SanguineDespair.DisplayName}
 #                Description: Даёт эссенцию
 #                1: This Essence seems to have resonated from that strange poppet we found in the Underworld. Beware its dangers- your affinity with resurrection is... tentative.
 #            }
@@ -1562,13 +1564,13 @@
 #
 #        Sunset: {
 #            Asphodene: {
-#                Name: Диалог об оружии Рассвет солнечного божества
+#                Name: Диалог об оружии {$Items.SunsetOfTheSunGod.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Эта эссенция связана с небесным светилом твоего мира - солнцем! Излишне говорить, что мощь солнца станет истинным даром... давай же узрим это явление воочию!
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Рассвет солнечного божества
+#                Name: Диалог об оружии {$Items.SunsetOfTheSunGod.DisplayName}
 #                Description: Даёт эссенцию
 #                1: An Essence attuned to the power of our Sun- and it is quite radiant, indeed. Let's make good use of it.
 #            }
@@ -1576,13 +1578,13 @@
 #
 #        Mania: {
 #            Asphodene: {
-#                Name: Диалог об оружии Маниакальное правосудие
+#                Name: Диалог об оружии {$Items.ManiacalJustice.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Hmm, I'd advise healthy amounts of caution with this Essence- it's a Melee essence with high potential, but it looks like you're leaving your defenses open for it.
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Маниакальное правосудие
+#                Name: Диалог об оружии {$Items.ManiacalJustice.DisplayName}
 #                Description: Даёт эссенцию
 #                1: This Essence exudes an unhealthy amount of madness- it's a Melee weapon that trades defensive prowess for offensive might. Do be careful.
 #            }
@@ -1590,13 +1592,13 @@
 #
 #        SupremeAuthority: {
 #            Asphodene: {
-#                Name: Диалог об оружии Высшая власть
+#                Name: Диалог об оружии {$Items.SupremeAuthority.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Looks to me like this Magic Essence has some powerful potential, but I'm not quite sure what it requires in turn... Perhaps you should give it a look.
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Высшая власть
+#                Name: Диалог об оружии {$Items.SupremeAuthority.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Эссенция магического типа. Кажется, она таит в себе невероятную силу, но, похоже, требует взамен жертв...
 #            }
@@ -1604,13 +1606,13 @@
 #
 #        Kinetic: {
 #            Asphodene: {
-#                Name: Диалог об оружии Благосклонность Кариума
+#                Name: Диалог об оружии {$Items.BrilliantSpectrum.DisplayName}
 #                Description: Даёт эссенцию
 #                1: You aren't going to believe this, but someone gave this Essence to me- how is that possible? They said something like 'It's just a game, so it's OK.' What even?
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Благосклонность Кариума
+#                Name: Диалог об оружии {$Items.BrilliantSpectrum.DisplayName}
 #                Description: Даёт эссенцию
 #                1: How can I say this...? Unlike the other Essences, I felt a presence give this one to me. They said something like... 'It's just a game, so it's OK.'
 #                2: It seems to be able to absorb hostile energy and use it to empower you in turn. I, too, am curious on how it looks.
@@ -1619,14 +1621,14 @@
 #
 #        ShockAndAwe: {
 #            Asphodene: {
-#                Name: Диалог об оружии Шок и трепет
+#                Name: Диалог об оружии {$Items.ShockAndAwe.DisplayName}
 #                Description: Даёт эссенцию
 #                1: This Ranged-essence seems to lead to a classic rocket-launcher weapon- I've heard of using explosives for traversal, so it shouldn't hurt to try, right?
 #                2: Is that irony? I think so- maybe not? To be clear, it WILL hurt to try, but it'll also be quite fun!
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Шок и трепет
+#                Name: Диалог об оружии {$Items.ShockAndAwe.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Эта ракетница стрелкового типа имеет уникальный ближний бой в паре, но для её использования... ну, я надеюсь, у тебя ноги крепкие.
 #            }
@@ -1634,13 +1636,13 @@
 #
 #        Dreamer: {
 #            Asphodene: {
-#                Name: Диалог об оружии Чернильница мечтателя
+#                Name: Диалог об оружии {$Items.DreamersInkwell.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Эта магическая эссенция поистине уникальна: она позволяет рисовать на поверхности мира, создавая различные эффекты.
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Чернильница мечтателя
+#                Name: Диалог об оружии {$Items.DreamersInkwell.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Обрати внимание на эту магическую эссенцию: говоря кратко, она делает мир чем-то вроде холста, с которым ты можешь не только рисовать, но и сражаться.
 #            }
@@ -1648,13 +1650,13 @@
 #
 #        Trickspin: {
 #            Asphodene: {
-#                Name: Диалог об оружии Двухступенчатый спин
+#                Name: Диалог об оружии {$Items.TrickspinTwoStep.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Похоже, здесь появилась эссенция йо-йо... ещё и призывного типа. Оказывается, она обладает некоторыми удобными средствами передвижения!
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Двухступенчатый спин
+#                Name: Диалог об оружии {$Items.TrickspinTwoStep.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Глянь-ка на эту новую эссенцию... она наносит урон призывателя. Её радиус действия довольно ограничен, однако она может похвастаться возможностями перемещения для сокращения дистанции с врагом.
 #            }
@@ -1662,13 +1664,13 @@
 #
 #        Dragalia: {
 #            Asphodene: {
-#                Name: Диалог об оружии Найденная драгалия
+#                Name: Диалог об оружии {$Items.DragaliaFound.DisplayName}
 #                Description: Даёт эссенцию
 #                1: This Summon-type weapon isn't like anything you've seen before, I think. Best to just give it a go- how good's your swordsmanship?
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Найденная драгалия
+#                Name: Диалог об оружии {$Items.DragaliaFound.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Кто бы мог подумать, что эссенция призывного типа оказалась не чем иным, как мечом. В нём таится особая сила... Только не вздумай использовать его в помещении.
 #            }
@@ -1676,13 +1678,13 @@
 #
 #        Gundbit: {
 #            Asphodene: {
-#                Name: Диалог об оружии Ганд-битовый заслон
+#                Name: Диалог об оружии {$Items.GundbitStaves.DisplayName}
 #                Description: Даёт эссенцию
 #                1: With this Essence, you'll have a Magic-type weapon with some crazy stopping power! Let's give this one a 'shot'!
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Ганд-битовый заслон
+#                Name: Диалог об оружии {$Items.GundbitStaves.DisplayName}
 #                Description: Даёт эссенцию
 #                1: I hope you have steady aim- this Magic weapon has powerful piercing strength, as long as you keep your target in your sights.
 #            }
@@ -1690,13 +1692,13 @@
 #
 #        Wavedancer: {
 #            Asphodene: {
-#                Name: Диалог об оружии Танцор волн
+#                Name: Диалог об оружии {$Items.Wavedancer.DisplayName}
 #                Description: Даёт эссенцию
 #                1: This Summon weapon is an elegant blade- you can control it manually, or it will slice foes all on its own. Why can't everything do that?
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Танцор волн
+#                Name: Диалог об оружии {$Items.Wavedancer.DisplayName}
 #                Description: Даёт эссенцию
 #                1: Эта эссенция призывателя позволяет создать мистический клинок, который поможет тебе в бою... ты также можешь взять его под магический контроль, если тебе нужна большая точность ударов.
 #            }
@@ -1704,29 +1706,29 @@
 #
 #        Clarent: {
 #            Asphodene: {
-#                Name: Диалог об оружии Кларент восстания
+#                Name: Диалог об оружии {$Items.RebellionBloodArthur.DisplayName}
 #                Description: Даёт эссенцию
-#                1: This Melee blade has one goal in mind... You could probably guess from its name. It'll make a powerful weapon, that's for sure.
+#                1: Этому клинку ближнего боя присуща одна цель... Ты, вероятно, уже догадался по его названию. Несомненно, он станет мощным оружием.
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Кларент восстания
+#                Name: Диалог об оружии {$Items.RebellionBloodArthur.DisplayName}
 #                Description: Даёт эссенцию
-#                1: A Melee essence, huh? It looks like it has some powerful abilities. Just be glad it listens to you.
+#                1: Эссенция ближнего боя? Судя по всему, у неё невероятные способности. Радуйся, что она тебя слушается.
 #            }
 #        }
 #
 #        SoliloquyHavoc: {
 #            Asphodene: {
-#                Name: Диалог об оружии Монолог дальних морей
+#                Name: Диалог об оружии {$Items.SoliloquyOfSovereignSeas.DisplayName}
 #                Description: Даёт эссенцию
-#                1: This Ranged weapon can empower some throwing weapons... Or, you could just blast foes away with bullets. You know, I like both of these options!
+#                1: Это стрелковое оружие может усилить некоторые метательные штуки... Или же ты можешь просто сметать врагов пулями. Признаться, мне нравятся оба эти варианта!
 #            }
 #
 #            Eridani: {
-#                Name: Диалог об оружии Монолог дальних морей
+#                Name: Диалог об оружии {$Items.SoliloquyOfSovereignSeas.DisplayName}
 #                Description: Даёт эссенцию
-#                1: It seems this Summon essence creates powerful allies of water to give you the upper hand in combat. How brilliant!
+#                1: Видимо, эта эссенция призыва создаёт могущественных водных союзников, которые дают тебе преимущество в бою. Какое блестящее решение!
 #            }
 #        }
 #    }
@@ -1848,8 +1850,8 @@
 #            Eridani: {
 #                Name: Диалог о Близнецах
 #                Description: ""
-#                1: Well, those mechanical facsimiles are dead. We're not rating boss monsters, or anything, but... I'm going to have to dock some points.
-#                2: Why would you ever even think about using flesh for the exterior? In terms of material, you've got to have better options, if you're already going all this way...
+#                1: Итак, эти механические аналоги уничтожены. Мы, конечно, не оцениваем боссов, но... мне придётся снять несколько баллов.
+#                2: Как вообще пришло в голову использовать органическую ткань для внешнего слоя? Если уж так заморочились, то должны были найти материал получше...
 #            }
 #        }
 #
@@ -1890,15 +1892,15 @@
 #            Asphodene: {
 #                Name: Диалог о победе над всеми механическими боссами
 #                Description: ""
-#                1: Actually.. It looks like you've bested all the Mechanical Bosses! This is definitely, 100% a step forward.
-#                2: I'd take stock of our resources from this point on- looks like things won't get any easier.
+#                1: Слушай... Похоже, ты одолел всех механических боссов! Это однозначно большой шаг вперёд.
+#                2: Давай-ка проверим наши запасы... похоже, дальше будет только сложнее.
 #            }
 #
 #            Eridani: {
 #                Name: Диалог о победе над всеми механическими боссами
 #                Description: ""
-#                1: It seems that was the last of the Mechanical Bosses. This is a great step forward!
-#                2: Let's prepare for our further trials. From how things have been progressing, it's only going to get harder.
+#                1: Похоже, это был последний из механических боссов. Это значительный шаг вперёд!
+#                2: Давай готовиться к следующим испытаниям. Судя по тому, как развиваются события, дальше будет только сложнее.
 #            }
 #        }
 #
@@ -1906,15 +1908,15 @@
 #            Asphodene: {
 #                Name: Диалог о Плантере
 #                Description: ""
-#                1: And there it goes.. the terror of the jungle, Plantera. Congratulations on your victory.
-#                2: I sense the Dungeon has changed... and that temple in the Jungle is now available. It's your choice what to tackle next.
+#                1: И вот она пала... ужас джунглей, Плантера. Поздравляю с победой.
+#                2: Похоже, в Темнице что-то поменялось... и тот храм в Джунглях отныне открыт. Сам решай, за что браться дальше.
 #            }
 #
 #            Eridani: {
 #                Name: Диалог о Плантере
 #                Description: ""
-#                1: That marks the end of Plantera. Very good work. You should be able to access the Jungle Temple now.
-#                2: I also believe there's new materials to be found within the Dungeon. We'll just have to... take it by force.
+#                1: На этом завершается эпопея с Плантерой. Превосходная работа. Теперь ты сможешь попасть в Храм джунглей.
+#                2: Кстати, похоже, в Темнице появились новые материалы. Нам только надо... взять их силой.
 #            }
 #        }
 #
@@ -1947,7 +1949,7 @@
 #                Name: Диалог о Герцоге Рыброне
 #                Description: ""
 #                1: Герцог Рыброн повержен. Это была напряжённая битва, но ты одержал рыбознательную победу...
-#                2: Пожалуй, перегнула палку с этой игрой слов. Знаешь что?.. Давай оставим каламбуры Асфодене. Впрочем, признаю, это своего рода искусство.
+#                2: Пожалуй, я перегнула палку с этой игрой слов. Знаешь что?.. Давай оставим каламбуры Асфодене. Впрочем, признаю, это своего рода искусство.
 #            }
 #        }
 #
@@ -1964,10 +1966,10 @@
 #            Eridani: {
 #                Name: Диалог о Культисте-лунатике
 #                Description: ""
-#                1: I knew it.. something wasn't right about that Cultist. These Celestial Pillars do not inspire confidence.
-#                2: With our current circumstances, I think you're the only one with a good enough shot at besting this threat.
-#                3: One more thing: I can sense something other than the Pillars approaching. It is entirely different in nature.
-#                4: This is only a hunch, but I would advise you to proceed with any tasks that require the night soon.
+#                1: Я так и знала... что-то с этим Культистом было не чисто. От этих Небесных башен мурашки по коже.
+#                2: В текущей ситуации, думаю, только у тебя есть шанс разобраться с этой напастью.
+#                3: И ещё кое-что: я чувствую приближение чего-то помимо башен. Оно совершенно иной природы. 
+#                4: Это просто интуиция, но я советую тебе пошевеливаться и сделать все ночные дела как можно скорее!
 #            }
 #        }
 #
@@ -1995,21 +1997,21 @@
 #            Asphodene: {
 #                Name: Диалог о Воине света
 #                Description: Даёт ключевой предмет
-#                1: I see we were wrong.. The Warrior thought he was saving the galaxy, but it was truly the lies of the First Starfarer.. How cruel.
-#                2: Anyways, the Warrior of Light is defeated... Night has returned to this world, finally!
-#                3: We finally have the last piece of the puzzle. The First Starfarer showed her hand, and this means we have a chance.
-#                4: Once you've collected all the Mnemonic Traces, craft them together with use of the Celestriad Root.
-#                5: I probably don't need to tell you this, but she's not going to parley. Prepare for a hard fight.. Perhaps the hardest fight so far.
+#                1: Похоже, мы ошибались... Воин верил, что спасает галактику, но на самом деле это были коварные уловки Первой Астры... Как жестоко.
+#                2: В любом случае, Воин света повержен... Ночь наконец-то вернулась в этот мир!
+#                3: Теперь у нас есть последний фрагмент головоломки. Первая Астра раскрыла свои намерения, и это значит, что у нас появился шанс. 
+#                4: Собери все Мнемонические следы и объедини их с помощью Корня целестриады. 
+#                5: Думаю, это и так понятно, но она не собирается вести переговоры. Готовься к трудной битве... Возможно, самой тяжёлой до сих пор.
 #            }
 #
 #            Eridani: {
 #                Name: Диалог о Воине света
 #                Description: Даёт ключевой предмет
-#                1: You have brought down the Warrior of Light. Nighttime has returned to this world- a wonderful respite.
-#                2: It seems we were misguided. The Warrior believed he was saving the galaxy, but it was, in truth, all lies from his Starfarer.
-#                3: With this final Mnemonic Trace.. I see.. It all makes sense now. {0}, I need you to combine all of the Mnemonic Traces together.
-#                4: You'll have to utilize the Observatory's Celestriad Root.
-#                5: Remember: the First Starfarer. We can not let this opportunity slip away. This will likely be the fight of our lives.. Prepare yourself well.
+#                1: Ты сразил Воина Света. Ночь вновь вернулась в этот мир... наконец-то можно вздохнуть свободно.
+#                2: Похоже, мы ошибались. Воин верил, что спасает галактику, но на самом деле это была ложь его Астры.
+#                3: С этим последним Мнемоническим следом... Теперь всё обретает смысл. {0}, мне нужно, чтобы ты собрал все Мнемонические следы вместе.
+#                4: Для этого используй Корень целестриады в Обсерватории.
+#                5: Помни о Первой Астре. Мы не можем упустить этот шанс. Это, вероятно, будет самая важная битва в нашей жизни... Подготовься как следует.
 #            }
 #        }
 #
@@ -2069,19 +2071,19 @@
 #            Asphodene: {
 #                Name: Диалог о Налхане
 #                Description: Даёт ключевой предмет
-#                1: So that was the Burnished King. His blade was incredibly powerful, not to mention the magic at his disposal. It was a triumph you survived that.
-#                2: From what I can tell, it looks like the Burnished King was defeated by the First Starbearer. Also, there's this strange item here, too.
-#                3: I guess we'll add it to the collection- no harm in that.
-#                4: I think we can reuse his attacks as a weapon in our arsenal, as a new Stellar Nova. Maybe because of the Starbearer's influence?
+#                1: Итак, это был Воронёный король. Его клинок обладал невероятной силой, не говоря уже о его магических способностях. То, что ты выжил - настоящий триумф.
+#                2: Судя по всему, Воронёного короля когда-то победил Первый Звездоносец. А ещё здесь есть этот странный предмет.
+#                3: Думаю, добавим его в коллекцию ... хуже точно не будет.
+#                4: Кажется, мы можем использовать его атаки как оружие в нашем арсенале, в качестве новой Астроновы. Может, это как-то связано с влиянием Звездоносца?
 #            }
 #
 #            Eridani: {
 #                Name: Диалог о Налхане
 #                Description: Даёт ключевой предмет
-#                1: The Burnished King has fallen. What a powerful foe. I shudder to think how we would have fared had we fought him in his prime.
-#                2: From what it looks like, The Burnished King was laid low by the First Starbearer nigh on a hundred years prior.
-#                3: Let's take care of this strange object- it must have some significance. While we're on the topic...
-#                4: His weapon, Ars Laevateinn. We can use it for ourselves, as a Stellar Nova. Maybe because of the Starbearer's influence?
+#                1: Воронёный король пал. Какой могущественный враг. Страшно представить, как бы мы с ним справились, будь он в лучшей форме.
+#                2: Судя по всему, Воронёного короля сразил Первый Звездоносец почти столетие назад.
+#                3: Давай займемся этим странным предметом... он должен иметь какое-то значение. Кстати, об этом...
+#                4: Его оружие, Арс Леватейн. Мы можем использовать его сами, как Астронову. Может, это как-то связано с влиянием Звездоносца?
 #            }
 #        }
 #
@@ -2125,10 +2127,10 @@
 #            Asphodene: {
 #                Name: Диалог о Цукиёми
 #                Description: Даёт ключевой предмет
-#                1: It.. it's over. Tsukiyomi has vanished. We're still missing so many clues. She doesn't seem out of it, so what caused her to do what she did?
-#                2: Hopefully one day, we'll find the answers to the questions we seek... I have a feeling this journey isn't over yet.
-#                3: I've gathered some of the leftover residue from the fight. It will likely have use as a stand-in to an Essence, for creating a weapon.
-#                4: With this victory... There may be more evils ahead, but know that nothing is insurmountable. We've come this far.
+#                1: Всё... всё кончено. Цукиёми исчезла. У нас всё ещё так много неразгаданных загадок. Она не казалась безумной, так что же её заставило так поступить?
+#                2: Надеюсь, когда-нибудь мы найдем ответы на все эти вопросы... Чувствую, наше приключение ещё не закончилось.
+#                3: Я собрала остатки энергии после битвы. Наверное, сгодится вместо эссенции для создания оружия.
+#                4: После такой победы... Впереди могут быть новые зловещие силы, но знай – нет ничего, с чем бы мы не справились. Мы уже так далеко зашли.
 #            }
 #
 #            Eridani: {
@@ -2153,10 +2155,10 @@
 #            Eridani: {
 #                Name: Диалог о Королеве слизней
 #                Description: ""
-#                1: Right, we've defeated the Queen Slime. To be honest, I'm slightly curious: why are there 'kings' and 'queens' of the slime world?
-#                2: How much power do the royal slimes even have? Are they legitimate rulers?
-#                3: Does the royal slime court send their subjects to attack random people? Do they even have the right to own property?
-#                4: Fight back, oppressed slimes! Take back your freedom!
+#                1: Итак, мы одолели Королеву слизней. Если честно, мне интересно: с какого перепугу у слизней есть 'короли' и 'королевы'?
+#                2: HНасколько велика власть этих королевских особей? Они вообще законные правители?
+#                3: Это что, королевский двор слизней отправляет своих подданных нападать на случайных прохожих? А у них вообще есть право на собственность?
+#                4: Восстаньте, угнетённые слизни! Верните себе свободу!
 #            }
 #        }
 #
@@ -2659,7 +2661,7 @@
 #
 #        HardIdleDialogue1: {
 #            Asphodene: {
-#                Name: Диалог покоя (Пре-хардмод)
+#                Name: Диалог покоя (Хардмод)
 #                Description: ""
 #                1: Итак, что у нас на повестке дня? Давай посмотрим...
 #                2: Ты уже обустроил свой городок? Готов к добыче ресурсов? Хочешь сразиться с новым боссом?
@@ -2667,7 +2669,7 @@
 #            }
 #
 #            Eridani: {
-#                Name: Диалог покоя (Пре-хардмод)
+#                Name: Диалог покоя (Хардмод)
 #                Description: ""
 #                1: Могу я предложить, что тебе делать дальше? Хм...
 #                2: Если тебе нужно больше места в городе, это можно устроить. И возможно, тебе стоит добыть ещё руды, если конечно ты уже не готов к битве со следующим боссом?
@@ -2676,13 +2678,31 @@
 #        }
 #
 #        HardIdleDialogue2: {
-#            Asphodene.1: Хм. Может быть, мне пора обновить репертуар эпичных фраз, когда я использую Астронову?
-#            Eridani.1: Есть множество историй о героях, берущих силы у других, но никто никогда не рассказывают, насколько тяжело это для того, кто их отдаёт...
+#            Asphodene: {
+#                Name: Диалог покоя (Хардмод)
+#                Description: ""
+#                1: Хм. Может быть, мне пора обновить репертуар эпичных фраз, когда я использую Астронову?
+#            }
+#
+#            Eridani: {
+#                Name: Диалог покоя (Хардмод)
+#                Description: ""
+#                1: Есть множество историй о героях, берущих силы у других, но никто никогда не рассказывают, насколько тяжело это для того, кто их отдаёт...
+#            }
 #        }
 #
 #        HardIdleDialogue3: {
-#            Asphodene.1: Хм... Интересно, чем же сейчас занимается Эри?
-#            Eridani.1: Интересно, как там моя сестра?
+#            Asphodene: {
+#                Name: Диалог покоя (Хардмод)
+#                Description: ""
+#                1: Хм... Интересно, чем же сейчас занимается Эри?
+#            }
+#
+#            Eridani: {
+#                Name: Диалог покоя (Хардмод)
+#                Description: ""
+#                1: Интересно, как там моя сестра?
+#            }
 #        }
 #
 #        HardIdleDialogue4: {
@@ -2896,26 +2916,26 @@
 #            onPoison: {
 #                1: Похоже, тебя отравили. Я отправлю тебе открытку с пожеланиями скорейшего выздоровления.
 #                2: Отрава, значит? А может, стаканчик молока... Ладно, забудь.
-#                3: You look sick- but I guess you don't need me to say that.
-#                4: If you have an antidote, now's the time...
+#                3: Что-то ты неважно выглядишь... хотя тебе, наверное, и так это ясно.
+#                4: Если у тебя есть противоядие, сейчас самое время его...
 #            }
 #
 #            onIchor: {
 #                1: Похоже, твоя защита ослабла! Будь осторожен.
-#                2: That substance is weakening your armor- don't get caught unaware.
-#                3: Eww, you've been covered in Ichor. Mind your health.
+#                2: Это субстанция ослабляет твою броню... не позволь застать себя врасплох.
+#                3: Фу, ты весь покрыт ихором. Следи за своим здоровьем.
 #            }
 #
 #            onSilence: {
 #                1: На тебя наложили безмолвие! О магии можешь забыть.
-#                2: Something's silenced you- guess it's time to get physical!
-#                3: Your magic has been sealed!а
+#                2: Что-то лишило тебя голоса.... похоже, настало время для рукопашной!
+#                3: Твоя магия запечатана! Давай вернемся к основам.
 #            }
 #
 #            onCurse: {
-#                1: I think you've been cursed. That's... not good. You aren't able to use anything for now.
-#                2: A curse... your items can't be used- let's try to fall back.
-#                3: Looks like you've had your items sealed. High time for a tactical retreat.
+#                1: Кажется, тебя прокляли. Это... паршиво. Ты пока ничего не можешь использовать.
+#                2: Проклятие... твои вещи не работают... давай-ка отступать.
+#                3: Похоже, твои предметы запечатаны. Самое время для тактического отступления.
 #            }
 #
 #            onFrozen: {
@@ -2925,13 +2945,13 @@
 #
 #            onFrostburn: {
 #                1: Ты горишь? Или замерзаешь? Неважно, это точно адская боль!
-#                2: Yikes- a mix of fire and ice? Hang in there!
-#                3: Well, that looks like it hurts.
+#                2: Ох... смесь огня и льда? Держись там!
+#                3: Что ж, это выглядит болезненным.
 #            }
 #
 #            onWebbed: {
 #                1: Бее. Ты весь в паутине.
-#                2: Covered in webs... Don't fret, it usually comes off after a few washes.
+#                2: Весь в паутине... Не парься, обычно отстирывается за пару заходов.
 #            }
 #            onStoned: {
 #                1: Тебя обратили в камень! Как такое возможно?
@@ -2949,25 +2969,25 @@
 #            }
 #
 #            onFire: {
-#                1: Well, that isn't good.
-#                2: Don't think I need to tell you that being on fire does not help the ol' lifespan.
-#                3: Uh, did you mean to start melting?
-#                4: Why yes, you can catch fire. Unfortunately.
+#                1: Что ж, это не сулит ничего хорошего.
+#                2: Думаю, ты и сам понимаешь, что горение не способствует долголетию.
+#                3: Эй, ты что, специально решил растаять?
+#                4: Представь себе, ты можешь вспыхнуть. Увы и ах.
 #            }
 #
 #            onDrowning: {
-#                1: I hate to break this to you, but you're about to drown.
-#                2: Whatever you're swimming for, it can wait.
+#                1: Не хочу тебя расстраивать, но ты вот-вот утонешь.
+#                2: Чего бы ты там ни искал в воде, оно подождёт.
 #            }
 #
 #            onBleeding: {
 #                1: Ты теряешь ОГРОМНОЕ количество крови. Плохо дело. Ты больше не можешь регенерировать здоровье.
-#                2: You may be the strongest one here, but you're also bleeding profusely.
+#                2: Ты, может, и самый сильный тут, но кровищи из тебя хлещет немерено.
 #            }
 #
 #            onConfusion: {
 #                1: Не разобрать ни слова... видимо, ты в замешательстве.
-#                2: Something hit you on the head? You're looking a little loopy. Okay, more than a little loopy.
+#                2: Тебе что, по голове прилетело? У тебя несколько рассеянный вид. Пожалуй, даже более чем рассеянный.
 #            }
 #
 #            onKillCritter: {
@@ -3015,8 +3035,8 @@
 #            38: Было близко...
 #            39: Это едва не обернулось катастрофой.
 #            40: Фух, слава богу, что мы прикончили его вовремя.
-#            41: Ну наконец-то. Ты сделал это!
-#            42: Ну, с этим мы разобрались.
+#            41: Победа! И как раз вовремя.
+#            42: Неплохо справились, скажу тебе!
 #            43: Этот был весьма крепким орешком.
 #            44: Решающий критический удар!
 #            45: Они ощутили это на себе!
@@ -3038,7 +3058,7 @@
 #            61: Сильный враг приближается. Настал час битвы.
 #            62: Довольно забав. К нам приближается сильный враг.
 #            63: Похоже, на горизонте замаячила опасность, {0}. Мне не терпится вступить в бой!
-#            64: Глаз... приближается. Осторожнее, он большой. Кажется, он становится сильнее на последних издыханиях.
+#            64: Выглядит проблемно. Будь на чеку... это нечто крупное... и, похоже, просто так оно не сдастся!
 #            65: Вот и владыка слизней! Думаю, у него есть что-то вроде телепортации...
 #            66: Колоссальный червь! Следи, откуда он вылезает, он будет пытаться атаковать твои слепые зоны!
 #            67: Это создание пытается напрямую атаковать твой разум!.. Не поддавайся обману миражей!
@@ -3058,7 +3078,7 @@
 #            81: Я не могу поверить... это же Лунный лорд! Это финальная битва! Мы просто обязаны победить!
 #            82: Воин света приближается... Будь готов, когда он превзойдёт свои лимиты!
 #            83: Что-то в этом враге мне знакомо... Смотри в оба за его мечом - похоже, он может принимать разные формы!
-#            84: Не недооценивай этого врага!.. Продолжай забирать у него твою жизненную силу!
+#            84: Не недооценивай этого врага!..
 #            85: Эта ведьма атакует краской! Внимательно следи, каким цветом тебя забрызгает!
 #            86: Это существо постоянно меняет паттерн атак! Следи за его движениями, иначе пожалеешь!
 #            87: Снизу что-то приближается, и очень быстро! Готовься... этот червь невероятно силён!
@@ -3184,6 +3204,17 @@
 #            207: Что ж, давай покажем, на что мы горазды.
 #            208: Ну вот, теперь этот кальмар к тебе прицепился! И... что теперь? Наверное, придётся его отлупить?
 #            209: Так это и есть тот самый страж? Должна признать, выглядит внушительно!
+#            210: Интересно, что мы здесь найдём?
+#            211: Какое интересное место!
+#            212: Новое место для исследования!
+#            213: Нечто новенькое на горизонте.
+#            214: Видать, новое что-то.
+#            215: Где это мы?
+#            216: (Смех)
+#            217: Небо аж слепит... добром это не кончится!
+#            218: Опять льёт?
+#            219:Кажется, дождь собирается.
+#            220: Это было круто! Ты ни разу не попал под удар!
 #        }
 #
 #        Eridani: {
@@ -3227,8 +3258,8 @@
 #            38: Это было немного рискованно.
 #            39: Ну, с этим разобрались, но мы всё ещё в беде.
 #            40: Было близко.
-#            41: Наконец-то. Этот враг был побеждён.
-#            42: Наконец-то ты справился. Отлично сработано.
+#            41: Очередная наша победа!
+#            42: Исход был предрешён... но исход заслуженный!
 #            43: Какой могущественный враг...
 #            44: Идеальная атака!
 #            45: Критический удар!
@@ -3270,7 +3301,7 @@
 #            81: Лунный лорд... Мы стоим перед самим богом. Мы должны победить! Иного выхода у нас нет!
 #            82: Воин света приближается... Его крушение лимитов просто невероятно мощные!
 #            83: В этом враге есть что-то знакомое... Судя по всему, он может частично управлять пространством!
-#            84: Не робей перед этим древним королём! Верни украденную им жизненную силу!
+#            84: Не робей перед этим древним королём!
 #            85: Тебя покрывают краской! Запомни свой цвет!
 #            86: Похоже, он может менять формы! Постарайся запомнить его атаки!..
 #            87: Под песком что-то роет!.. Быстрее оторвись от земли!
@@ -3321,22 +3352,22 @@
 #            132: Чувствую приближение нежити! Готовься к битве!
 #            133: Тени бездны сгущаются!.. Это морское чудовище повелевает тёмной магией!
 #            134: Первородная энергия бурлит вокруг вас... Элементы готовы обрушиться на вас!
-#            135: Да это же пустыня. Серьёзно... Я не переношу жару, а здесь просто адская жара.
-#            136: Вон, какая зелень! Это же джунгли! Место опасное, но и наградит тебя сполна.
+#            135: Здесь стало довольно жарко... должно быть, это пустыня. Чувствую, что нам придётся часто сюда наведываться... нравится нам это или нет.
+#            136: Этот зелёный край наверняка джунгли. Перед тем как сунуться в её глубины, стоит убедиться, что мы хорошо экипированы.
 #            137: У тебя скоро закончится кислород. Не советую сгореть в атмосфере. Не спрашивай, откуда я знаю.
 #            138: Ну вот, место покоя усопших. Давай посмотрим, что тут есть.
 #            139: Это океан... Его не переплыть, так что лучше оставить его в покое.
 #            140: Я чувствую исходящую от этого места зловещую ауру. Мне бы не хотелось здесь задерживаться.
 #            141: Это место... отвратительное. Давай не будем здесь задерживаться.
-#            142: Самый обычный северный лес. Не то чтобы мне не нравились заснеженные места.
-#            143: Мы будто попали в сказку. Только было бы лучше, если бы тут не было столько враждебной живности.
-#            144: Гигантские светящиеся грибы... Cловно... приветствуют нас? Надо бы взять парочку с собой, на всякий случай.
-#            145: Ощущаю повсюду ловушки. Здесь также спрятано сильное оружие. Будь начеку.
+#            142: Ну надо же, настоящий снежный пейзаж. Берегись переохлаждения... хотя, думаю, с тобой всё будет в порядке.
+#            143: Мы будто попали в сказку. Только было бы намного лучше, если бы тут не было столько враждебной живности.
+#            144: Пещера, усеянная гигантскими светящимися грибами... Она кажется такой... приветливой? Давай захватим несколько грибов домой, на всякий случай.
+#            145: Ощущаю повсюду ловушки... Здесь также спрятано сильное оружие. Будь начеку.
 #            146: Значит, это тот самый метеоритный удар, который мы слышали...
 #            147: Серная скала... Словно ощущаю ужасы прошлого...
 #            148: Перед нами астральная инфекция. Явление, с которой я, увы, слишком хорошо знакома...
 #            149: Невероятно красивое место. Кто бы мог знать, что под пустыней скрывается такая красота?..
-#            150: Некогда здесь был живописный берег. Что же здесь произошло?..
+#            150: Насколько я могу судить, некогда здесь был живописный берег. Что же здесь произошло?..
 #            151: Ты решил погрузиться в морские пучины. Помни, это очень опасно!..
 #            152: Пещера, похоже, целиком из гранита. Да и нечисть тут завелась, окаянная.
 #            153: Вот она, мраморная пещера. Быть может, мы сможем использовать этот материал в строительстве?
@@ -3397,6 +3428,17 @@
 #            209: Дадим этому Стеклодуву понять, что мы не лыком шиты.
 #            210: Похоже, он клюнул. Время действовать!
 #            211: Рискну предположить, что это тот, о ком говорил Стеклодув. Не расслабляйся.
+#            212: Очередная терра инкогнита!
+#            213: Какое любопытное место...
+#            214: Продолжаем наше исследование.
+#            215: Кажется, этот мир ещё полон загадок.
+#            216: Кажется, мы на новой территории?
+#            217: Куда это мы попали?
+#            218: (Смех)
+#            219: Значит, это и есть Вечный свет... аж мурашки по коже.
+#            220: Опять дождь накрапывает...
+#            221: Кажется, начинается дождь.
+#            222: Исключительный результат! Похоже, ты даже не получил ни единой царапины!
 #        }
 #    }
 #
@@ -3805,6 +3847,129 @@
 #                    6: Может мы что-то упускаем. А вдруг нас прокляли! Я бы спросила Персея напрямую, но ты же знаешь, какой он... придурок.
 #                    7: Ладно, спасибо за небольшой спарринг-тренировку. Дай знать, если захочешь повторить.
 #                    8: Да... такое чувство, будто ей нравится, когда всё вокруг взрывается.
+#                }
+#
+#                Choices: {
+#                    1: X
+#                    2: X
+#                }
+#            }
+#
+#            25: {
+#                Dialogue: {
+#                    0: Может уже прекратишь этот фарс? Даже притворяться не умеешь... мне отлично видно.
+#                    1: Мог бы и повежливее изъясняться, но да не суть. Впрочем, что сам делаешь в баре? Не рановато ли тебе пить?
+#                    2: Мы не вовремя? Нет, стойте, вы кто вообще? Хотя хорошо, что сразу не напали.
+#                    3: Ну, меня Андир зовут. Я уже пытался заставить эту волчицу назвать СВОЁ имя, но собеседник из неё ужасный.
+#                    4: Сделаю вид, что не слышала. Если бы попросил вежливо, сказала бы.
+#                    5: Ну?
+#                    6: Ну? Что ну?
+#                    7: Имя гну... Мы же только что обсуждали.
+#                    8: Ах, да. Гарридина я.
+#                    9: Спасибо. Не так уж и сложно, а?
+#                    10: Ладно, ладно. Пока не начали заново, мне интересно, что вы тут делаете. Вы явно не местные.
+#                    11: Не вижу смысла скрывать... Я здесь из-за своего исследования сей планеты, полной жизни. Не самая интересная история, прошу простить.
+#                    12: Место, без сомнения, загадочное. Не подобно иным в сей части галактики.
+#                    13: Ну, хотя бы в этом согласны. А я... Может, мы сможем быть полезны друг другу.
+#                    14: Надеюсь никаких заданий на побегушках...
+#                    15: У меня есть несколько интересных предложений. Не волнуйтесь, предложу награду. Сообщите, если интересно.
+#                    16: Мне здесь предложить нечего, придётся вам посетить меня на космическом корабле моём. Ну...
+#                    17: Признаю, полезно иметь союзников в месте сем странном. Придумаю задания, за кои сможете получить награду.
+#                    18: А нельзя просто так награды получить?
+#                    19: О, но это куда скучнее. Ты же Астра, верно? Насколько знаю, вам нравится веселье.
+#                    20: Короче, я задержусь здесь на некоторое время. Возможно, к нашей следующей встрече у меня будет задание для вас.
+#                    21: Какое странное и подозрительное замечание... Хм. Она милая, так что вряд ли злая, но стоит узнать побольше.
+#                    22: Андир же имеет в себе нечто особенное. Слишком он молод, чтобы путешествовать одному, так что точно не так прост.
+#                    23: Давай держать связь с ними. Больше союзников всегда пригодится.
+#                }
+#
+#                Choices: {
+#                    1: X
+#                    2: X
+#                }
+#            }
+#
+#            26: {
+#                Dialogue: {
+#                    0: Может уже прекратишь этот фарс? Даже притворяться не умеешь... мне отлично видно.
+#                    1: Мог бы и повежливее изъясняться, но да не суть. Впрочем, что сам делаешь в баре? Не рановато ли тебе пить?
+#                    2: Кажется, у нас тут небольшая ссора... Но хоть не подрались сразу, уже неплохо. Может, назовёте свои имена?
+#                    3: Ну, меня Андир зовут. Я уже пытался заставить эту волчицу назвать СВОЁ имя, но собеседник из неё ужасный.
+#                    4: Сделаю вид, что не слышала. Если бы попросил вежливо, сказала бы.
+#                    5: Ну?
+#                    6: Ну? Что 'ну'?
+#                    7: Имя гну... Мы же только что обсуждали.
+#                    8: Ах, да. Гарридина я.
+#                    9: Спасибо. Не так уж и сложно, а?
+#                    10: Стойте. Пока не продолжили ссориться, я хотела бы узнать вашу цель визита сюда.
+#                    11: Не вижу смысла скрывать... Я здесь из-за своего исследования сей планеты, полной жизни. Не самая интересная история, прошу простить.
+#                    12: Место, без сомнения, загадочное. Не подобно иным в сей части галактики.
+#                    13: Ну, хотя бы в этом согласны. А я... Может, мы сможем быть полезны друг другу.
+#                    14: Дай угадаю, ты хочешь, чтобы мы нашли что-то интересное для тебя?
+#                    15: У меня есть несколько интересных предложений. Не волнуйтесь, предложу награду. Сообщите, если интересно.
+#                    16: Мне здесь предложить нечего, придётся вам посетить меня на космическом корабле моём. Ну...
+#                    17: Признаю, полезно иметь союзников в месте сем странном. Придумаю задания, за кои сможете получить награду.
+#                    18: Задания обязательны? Может, просто поможешь за плату?
+#                    19: О, но это куда скучнее. Ты же Астра, верно? Насколько знаю, вам нравится веселье.
+#                    20: Короче, я задержусь здесь на некоторое время. Возможно, к нашей следующей встрече у меня будет задание для вас.
+#                    21: Достаточно неожиданно. Откуда она знает про Астр? Мои подозрения усилились, но злых намерений я не чувствую.
+#                    22: Андир же... странный. Для такого молодого парня у него аура, словно у опытного путешественника. Надеюсь, узнаем о нём больше.
+#                    23: Нам стоит иметь их в виду. Союзники тут явно пригодятся.
+#                }
+#
+#                Choices: {
+#                    1: X
+#                    2: X
+#                }
+#            }
+#
+#            27: {
+#                Dialogue.0: Извини, задач нет. Может найдёшь ещё кого, если настолько хочешь быть продуктивным?
+#
+#                Choices: {
+#                    1: X
+#                    2: X
+#                }
+#            }
+#
+#            28: {
+#                Dialogue: {
+#                    0: Кстати, насчёт 'слишком молод для алкоголя'. Сколько тебе лет на самом деле?
+#                    1: Неважно. Внешность - просто способ отвлечь разговор от настоящих дел.
+#                    2: Хотя использовать мои социальные уловки возможности особой не было. Местные тут атакуют всех подряд. Кстати об этом...
+#                    3: Я включил временное поле невидимости для себя и для этой волчицы, чтобы нас не беспокоили.
+#                    4: Значит не такой уж ты и бездушный. Как мило с твоей стороны, Анди!
+#                    5: Значит вот что ты думала обо мне после первой встречи? Теперь я рад, что не могу расширить это поле на тебя. И не называй меня Анди.
+#                    6: Окей, прости. Заслужила.
+#                    7: Продолжим разговор. Кажется, ты уже сталкивался с серьёзными противниками, верно? Я говорю именно с тобой, а не с твоей космической подругой.
+#                    8: В Неоне есть такое место — Маяк... Когда я там сражаюсь, кажется, словно что-то начинает проявляться.
+#                    9: У меня есть теория, что если там погибнет кто-то действительно сильный, это вызовет нечто особенное. Но странно, что оно проявляется только если я помню, что уже победил этого противника.
+#                    10: Если сможешь, попробуй победить сильного врага, которого ты уже побеждал. Какие улики найдёшь после этого?
+#                    11: Я бы хотел это изучить. Всё, что найдешь после боя, можешь оставить себе.
+#                    12: На этом всё. Удачи.
+#                }
+#
+#                Choices: {
+#                    1: X
+#                    2: X
+#                }
+#            }
+#
+#            29: {
+#                Dialogue: {
+#                    0: Гарридина права, выглядишь ты молодо. Можно ли тебе здесь быть?
+#                    1: Неважно. Внешность - просто способ отвлечь разговор от настоящих дел.
+#                    2: Хотя использовать мои социальные уловки возможности особой не было. Местные тут атакуют всех подряд. Кстати об этом...
+#                    3: Я включил временное поле невидимости для себя и для этой волчицы, чтобы нас не беспокоили.
+#                    4: Мило с твоей стороны. А можешь расширить его на нас?
+#                    5: Извини, но тогда придётся долго сидеть на одном месте. Сомневаюсь, что кто-то из вас согласится на это.
+#                    6: Ну, ты, пожалуй, прав...
+#                    7: Продолжим разговор. Кажется, ты уже сталкивался с серьёзными противниками, верно? Я говорю именно с тобой, а не с твоей космической подругой.
+#                    8: В Неоне есть такое место — Маяк... Когда я там сражаюсь, кажется, словно что-то начинает проявляться.
+#                    9: У меня есть теория, что если там погибнет кто-то действительно сильный, это вызовет нечто особенное. Но странно, что оно проявляется только если я помню, что уже победил этого противника.
+#                    10: Если сможешь, попробуй победить сильного врага, которого ты уже побеждал. Какие улики найдёшь после этого?
+#                    11: Я бы хотел это изучить. Всё, что найдешь после боя, можешь оставить себе.
+#                    12: На этом всё. Удачи.
 #                }
 #
 #                Choices: {
@@ -4390,6 +4555,20 @@
 #            Asphodene: Я надену наряд Астры поверх слота для брони. Это называется слот для украшений, если я правильно поняла.
 #            Eridani: Это слот для украшений наряда Астры. Любой предмет, помещённый сюда, будет носиться поверх комплекта брони.
 #        }
+#
+#        StarfarerOutfitChanged: {
+#            Asphodene: {
+#                1: Хм. Знаешь что? Мне нравится!
+#                2: Как думаешь, мне идёт?
+#                3: А знаешь, я даже не прочь так постоянно одеваться!
+#            }
+#
+#            Eridani: {
+#                1: Хм. Действительно, мне очень подходит!
+#                2: Довольно удобно! Никаких нареканий.
+#                3: Вау, мне хорошо подходит! Ну, мне так кажется.
+#            }
+#        }
 #    }
 #}
 #
@@ -4562,9 +4741,9 @@
 #        ArsLaevateinn: {
 #            AbilityName: Арс Леватейн
 #            AbilitySubName: "[c/F19559:Воссияй же, о яркая пылающая звезда]"
-#            AbilityDescription: Вооружитесь пылающим большим мечом, обращая врагов в пепел. При использовании Арс Леватейна покрывает колоссальную область вокруг вас адским пламенем. Арс Леватейн пульсирует 5 раз в этой области, нанося 1/5 от общего урона с каждым ударом. В это время вы получаете бафф «{$Buffs.SurtrTwilight.DisplayName}». Пока активен этот бафф, все атаки будут накладывать на врагов «{$BuffName.OnFire3}» в зависимости от длительности эффекта. Если горящие враги попадают под удар Арс Леватейна, они дополнительно получают 5% урона.
-#            AstralBonus: Горящие враги получают на 5% больше урона. Если удар был критическим, горящие враги получат ещё на 5% больше урона.
-#            UmbralBonus: «{$Buffs.SurtrTwilight.DisplayName}» дополнительно увеличивает урон на 10%. Вы получаете бафф «{$BuffName.ManaRegeneration}», пока активен этот бафф.
+#            AbilityDescription: Вооружитесь пылающим большим мечом, обращая врагов в пепел. При использовании Арс Леватейна покрывает колоссальную область вокруг вас адским пламенем. Арс Леватейн пульсирует 5 раз в этой области, нанося 1/5 от общего урона с каждым ударом. В это время вы получаете бафф «{$Buffs.SurtrTwilight.DisplayName}». Пока активен этот бафф, все атаки будут накладывать на врагов «{$BuffName.OnFire3}» в зависимости от длительности эффекта. Если враги, поражённые адским огнём, попадают под удар Арс Леватейна, они дополнительно получают 5% урона.
+#            AstralBonus: Горящие враги получают на 5% больше урона. Если удар был критическим, враги, поражённые адским огнём, получают ещё дополнительно 5% урона.
+#            UmbralBonus: «{$Buffs.SurtrTwilight.DisplayName}» дополнительно увеличивает урон на 10%. Пока активен этот бафф, вы также получаете бафф «{$BuffName.ManaRegeneration}».
 #        }
 #
 #        KiwamiRyuken: {
@@ -4659,22 +4838,22 @@
 #
 #            Everflame: {
 #                Name: Вечнопламенный
-#                Bonus: The Stellar Nova deals 40% increased damage to non-boss enemies, but can no longer deal critical strikes to bosses
+#                Bonus: Астронова наносит на 40% больше урона обычным врагам, но больше не может наносить критические удары боссам
 #            }
 #
 #            Lucent: {
 #                Name: Световой
-#                Bonus: After damage calculation, all Stellar Nova hits become critical, but damage is reduced by 70%
+#                Bonus: После расчёта урона все удары Астроновы становятся критическими, но урон снижается на 70%
 #            }
 #
 #            Phylactic: {
 #                Name: Филактический
-#                Bonus: Upon use of the Stellar Nova, gain 50% of the Stellar Nova Gauge back after 5 seconds (4 minute cooldown)
+#                Bonus: При использовании Астроновы восстанавливается 50% шкалы Астроновы через 5 секунд (перезарядка 4 минуты)
 #            }
 #
 #            Radiant: {
 #                Name: Лучевой
-#                Bonus: Critical strikes with the Stellar Nova deal an additional 5% of the foe's Max HP (Max 40,000 damage; 4 second cooldown)
+#                Bonus: Критические удары Астроновой наносят дополнительно 5% урона от максимального запаса здоровья врага (максимум 40.000 урона; перезарядка 4 секунды)
 #            }
 #
 #            Refulgent: {
@@ -4756,8 +4935,10 @@
 #    SpeedUpLight: Вечный свет становится катализатором, предотвращающим наступление ночи...
 #    TsukiyomiBossChecklist: Boss Checklist обновляется, открывая скрытого врага!
 #    CanBeShimmeredSpoils: Можно преобразовать в звёздные частицы с помощью мерцания
-#    BlockedNova: Использование Астроновы невозможно из-за присутствия могущественного врага.
+#    BlockedNova: Вы сейчас не можете использовать Астронову!
+#    LockedChest: Сундук заперт таинственной силой...
 #    CreditsHover: "[Посмотреть перечень участников в создании мода!]"
+#    Wiki: "[Посетите нашу официальную вики!]"
 #    Credits: # ПРОБЕЛЫ НЕ УДАЛЯТЬ!
 #        '''
 #        Участники
@@ -4766,6 +4947,7 @@
 #        [c/FFF6CD:Sunset, Stardust: PaperLuigi]
 #        [c/FFF6CD:Legends Yet Unspun: ShadyCicada]
 #        [c/FFF6CD:Chart the Cosmos / Even Stars Must Fall: EchoLane]
+#        [c/FFF6CD:Analog Memory: Yuda Prasetia N]
 #        [c/F19559:- Актёры озвучки -]
 #        [c/FFF6CD:Асфодена и Эридани: Kiera Rhodes]
 #        [c/F19559:- Особая благодарность -]
@@ -4773,11 +4955,12 @@
 #        [c/DADADA:Внешняя музыка/аудио: Studio EIM, Kairiki Bear, Masayoshi Soken, REVO, Daiki Ishikawa, Nobuo Uematsu, Michael Salvatori]
 #        [c/DADADA:Строители подмиров для соревнования: Tatriskel, hakomari, Izanagi The wanderer of stars, UnkownSToast, Hockerzocker]
 #        [c/DADADA:Discord-модераторы: the_alu, ifune, loligeddon, polluxe, not02]
+#        [c/DADADA:Смотрители вики!]
 #        [c/DADADA:Переводчики на испанский: Tofu and Zeldris]
 #        [c/DADADA:Переводчики на китайский: Koibumi Group(灾厄维基汉化组)]
 #        [c/DADADA:Переводчики на французкий: Maksou and Ariaclipse]
 #        [c/DADADA:Библиотеки: SubworldLibrary, StructureHelper]
-#        [c/DADADA:Открытый исходный код: ScalarVector, tomat, jopojelly, John Snail, Kazzymodus, Mirsario, Lion8cake]
+#        [c/DADADA:Открытый исходный код: ScalarVector, tomat, jopojelly, John Snail, Kazzymodus, Mirsario, Lion8cake, Rhoenicx]
 #
 #
 #        '''
@@ -5130,6 +5313,11 @@
 #    HologramPlinthBigTreeTile.MapEntry: "{$Items.HologramPlinthBigTree.DisplayName}"
 #    AndyerNPCTile.MapEntry: Андир
 #    GarridineNPCTile.MapEntry: Гарридина
+#
+#    NeonVeilChest: {
+#        MapEntry0: Хранилище Неона
+#        MapEntry1: Хранилище Неона (Заперт)
+#    }
 #}
 #
 #Items: {
@@ -5186,7 +5374,7 @@
 #        DisplayName: Чашка с блёскоклеем
 #        Tooltip:
 #            '''
-#            При нанесении ударов по врагу с 5% шансом накладывает дебафф «{$Buffs.Glitterglued.DisplayName}» на 4 секунды
+#            При нанесении ударов по врагам с 5% шансом накладывает дебафф «{$Buffs.Glitterglued.DisplayName}» на 4 секунды
 #            Атаки по врагам, на которых наложен дебафф «{$Buffs.Glitterglued.DisplayName}», с 30% шансом превращают некритические удары в критические
 #            'Лучше не нюхать'
 #            '''
@@ -5514,7 +5702,7 @@
 #    }
 #
 #    FamiliarLookingAttire: {
-#        DisplayName: Обычный наряд
+#        DisplayName: Привычный наряд
 #        Tooltip:
 #            '''
 #            Один из легендарных нарядов былых эпох
@@ -6044,13 +6232,13 @@
 #            Нажмите <right>, чтобы призвать в позицию курсора [c/7B48CA:Ослепительную призму] на 20 секунд (перезарядка 1 минута)
 #            [c/7B48CA:Ослепительная призма] разрушается, если слишком далеко от неё отдалиться
 #            Пока [c/7B48CA:Ослепительная призма] призвана, она увеличивает урон на 10%, защиту на 10 и скорость передвижения на 10%
-#            При получении урона, 80% этого урона перенаправляется на [c/7B48CA:Ослепительную призму], максимум до 250 здоровья
-#            По достижении этого порога, [c/7B48CA:Ослепительная призма] разрушается, давая бафф [c/484CCA:Ослепительная ария] на 2 секунды
+#            При получении урона 80% этого урона перенаправляется на [c/7B48CA:Ослепительную призму], максимум до 250 здоровья
+#            По достижении этого порога [c/7B48CA:Ослепительная призма] разрушается, давая бафф [c/484CCA:Ослепительная ария] на 2 секунды
 #            [c/484CCA:Ослепительная ария] значительно ускоряет регенерацию здоровья и увеличивает защиту на 50
 #            Нажмите клавишу 'Действие оружия', когда [c/7B48CA:Ослепительная призма] активна, чтобы бросить в неё оружие, разрушив при этом [c/7B48CA:Ослепительную призму]
 #            После разрушения [c/7B48CA:Ослепительной призмы] мгновенно восстанавливает 70 здоровья и дополнительно даёт бафф [c/FF61CA:Ослепительный танец нлинков] на 5 секунд
 #            [c/FF61CA:Ослепительный танец нлинков] увеличивает скорость атаки ближнего боя на 30%
-#            После разрушения, [c/7B48CA:Ослепительная призма] наносит незначительный урон врагам в радиусе поражения в течение короткого времени
+#            После разрушения [c/7B48CA:Ослепительная призма] наносит незначительный урон врагам в радиусе поражения в течение короткого времени
 #            '''
 #    }
 #
@@ -6967,8 +7155,8 @@
 #            Нажмите клавишу 'Действие оружия', чтобы зарядить кирку [c/82D1D5:Вечным порохом]
 #            Когда [c/82D1D5:Вечный порох] заряжен, добыча блоков становится недоступной, но атакующие возможности расширяются, а урон увеличивается на 80%
 #            Атаки превращаются в поочерёдные круговые взмахи, запускающие часть [c/82D1D5:Вечного пороха] в направлении курсора (перезарядка 4 секунды)
-#            При контакте с врагом, [c/82D1D5:Вечный порох] детонирует несколько раз и исчезает
-#            При контакте с блоком, [c/82D1D5:Вечный порох] детонирует один раз и исчезает
+#            При контакте с врагом [c/82D1D5:Вечный порох] детонирует несколько раз и исчезает
+#            При контакте с блоком [c/82D1D5:Вечный порох] детонирует один раз и исчезает
 #            Повторное нажатие клавиши 'Действие оружия', когда [c/82D1D5:Вечный порох] заряжен, возвращает кирку в исходное состояние
 #            'Я буду ждать... на дне подземного мира'
 #            '''
@@ -7340,7 +7528,7 @@
 #        Tooltip:
 #            '''
 #            [c/956BE3:Наряд Астры прошлого]
-#            Рваные ошмётки легендарного наряда былых легенд
+#            Рваные ошмётки легендарного наряда из былых легенд
 #            Используется для создания '{$Items.AegisOfHopesLegacy.DisplayName}'
 #            '''
 #    }
@@ -7368,7 +7556,7 @@
 #        Tooltip:
 #            '''
 #            [c/956BE3:Наряд Астры прошлого]
-#            Рваные ошмётки легендарного наряда былых легенд
+#            Рваные ошмётки легендарного наряда из былых легенд
 #            Используется для создания '{$Items.CelestialPrincessGenesis.DisplayName}'
 #            '''
 #    }
@@ -7401,7 +7589,7 @@
 #        Tooltip:
 #            '''
 #            [c/956BE3:Наряд Астры прошлого]
-#            Рваные ошмётки легендарного наряда былых легенд
+#            Рваные ошмётки легендарного наряда из былых легенд
 #            Используется для создания '{$Items.FaerieVoyagerAttire.DisplayName}'
 #            '''
 #    }
@@ -7586,7 +7774,7 @@
 #        Tooltip:
 #            '''
 #            Атаки этим оружием пронзают врагов и отскакивают от блоков до 4 раз
-#            Удары по врагам заряжают [c/96BB7F:Шкалу отступника] (Критические удары дают больше заряда)
+#            Удары по врагам заряжают [c/96BB7F:Шкалу отступника] (критические удары дают больше заряда)
 #            Удары по боссам дают дополнительный заряд для [c/96BB7F:Шкалы отступника]
 #            Когда [c/96BB7F:Шкала отступника] заполнена на более чем на 50%, нажмите <right>, чтобы потратить [c/96BB7F:Шкалу отступника] и выстрелить [c/F9CF49:Гиро-диском], который действует 4 секунды
 #            [c/F9CF49:Гиро-диск] автоматически наводится на ближайших врагов и атакует их
@@ -8198,7 +8386,6 @@
 #            '''
 #            Сверкающий катализатор из другого измерения
 #            Используется в пространственном создании или может быть продано по высокой цене в магазинах
-#            [c/FF0D5D:Используется для создания улучшений Астронов]
 #            '''
 #    }
 #
@@ -8412,7 +8599,7 @@
 #            '''
 #            Каждые 30 секунд оружие переключается между 4 [c/FF71D8:Элементальными исскуствами]
 #            [c/55B168:Раскол земли] увеличивает защиту на 10 и сопротивление урону на 25%
-#            Удары оглушают врагов на 1 секунду (Критические удары оглушают врагов на 4 секунды и дают кратковременную неуязвимость)
+#            Удары оглушают врагов на 1 секунду (критические удары оглушают врагов на 4 секунды и дают кратковременную неуязвимость)
 #            [c/B0BEB3:Небесный залп] увеличивает скорость атаки и передвижения на 20%
 #            Атаки сопровождаются падающими звёздами, которые накладывают дебафф «{$BuffName.Ichor}» на 8 секунд
 #            [c/8AD8E6:Хладная мгла] увеличивает регенерацию здоровья и маны, а также накладывает дебафф «{$BuffName.Frostburn}» на 2 секунды при ударе
@@ -9171,7 +9358,7 @@
 #        Tooltip:
 #            '''
 #            [c/F592BF:Это оружие не подвержено к штрафу Аспектного типа урона при смене типа на ближний бой или магический]
-#            Текущий [c/F592BF:Аспектный тип урона] влияет на атаки оружия (Оружие нельзя использовать, если оно не имеет аспекта ближнего боя или магического)
+#            Текущий [c/F592BF:Аспектный тип урона] влияет на атаки оружия (оружие нельзя использовать, если оно не имеет аспекта ближнего боя или магического)
 #            Нажмите <right>, чтобы активировать [c/FDD059:Сгущающуюся бурю], усиливая атаки оружия на 8 секунд (перезарядка 30 секунд)
 #            [c/FFAB4D:Ближний бой]: Атаки с высокой скоростью бросают оружие, которое игнорирует блоки, пронзает врагов и вызывает разряды молний из поражённых врагов
 #            Во время действия [c/FDD059:Сгущающейся бури], вы получаете бафф «{$BuffName.Swiftness}» и увеличиваете шанс критического удара на 15%
@@ -9217,9 +9404,9 @@
 #            Кроме того, [c/F4296D:УБИЙСТВЕННЫЙ РАЗРЕЗ] даёт 2 [c/FC578E:УР] за каждое попадание
 #            Максимальное количество [c/FC578E:УР] - 100, которые быстро уменьшаются вне боя
 #            Получение урона сбрасывает [c/FC578E:УР], но снижает получаемый урон в зависимости от количества [c/FC578E:УР]
-#            При 20 [c/FC578E:УР], скорость атаки увеличивается на 20%, а перезарядка [c/F4296D:УБИЙСТВЕННОГО РАЗРЕЗА] сокращается вдвое
-#            При 50 [c/FC578E:УР], скорость атаки дополнительно увеличивается на 10%, и все атаки накладывают [c/DA11B5:Кармическое возмездие] на 10 секунд, нанося постепенный урон
-#            При 100 [c/FC578E:УР], все бонусы снимаются, но нажатие клавиши 'Действие оружия' активирует [c/C91515:ОСОБУЮ АТАКУ] на 15 секунд, расходуя все [c/FC578E:УР]
+#            При 20 [c/FC578E:УР] скорость атаки увеличивается на 20%, а перезарядка [c/F4296D:УБИЙСТВЕННОГО РАЗРЕЗА] сокращается вдвое
+#            При 50 [c/FC578E:УР] скорость атаки дополнительно увеличивается на 10%, и все атаки накладывают [c/DA11B5:Кармическое возмездие] на 10 секунд, нанося постепенный урон
+#            При 100 [c/FC578E:УР] все бонусы снимаются, но нажатие клавиши 'Действие оружия' активирует [c/C91515:ОСОБУЮ АТАКУ] на 15 секунд, расходуя все [c/FC578E:УР]
 #            Во время [c/C91515:ОСОБОЙ АТАКИ] скорость атаки и наносимый урон удваиваются, все атаки становятся критическими, но получаемый урон утраивается
 #            Кроме того, вы получаете бесконечное время полёта и 25% шанс уклониться от любой атаки
 #            После завершения [c/C91515:ОСОБОЙ АТАКИ] это оружие нельзя использовать в течение 30 секунд
@@ -9234,16 +9421,16 @@
 #            Атаки этим оружием выполняются мощными круговыми взмахами, увеличивая весь критический урон на 20%
 #            Получение или нанесение урона даёт [c/D53B3B:Эмоциональную нестабильность] (критические удары удваивают [c/D53B3B:Эмоциональную нестабильность], если здоровье ниже 200)
 #            Убийство врагов увеличивает [c/D53B3B:Эмоциональную нестабильность] на 5% (эффект удваивается, если здоровье ниже 200)
-#            Когда [c/D53B3B:Эмоциональная нестабильность] заполняется, автоматически активируется бафф [c/AE0000:Э.Г.О. Манифестация], который даёт неуязвимость на 2 секунды
-#            [c/AE0000:Э.Г.О. Манифестация] увеличивает урон на 30%, скорость атаки на 40% и скорость передвижения на 90%, но снижает защиту на 30
-#            Когда [c/AE0000:Э.Г.О. Манифестация] активна, доступны уникальные атаки [c/FF0046:Большого разреза]
+#            Когда [c/D53B3B:Эмоциональная нестабильность] заполняется, автоматически активируется бафф [c/AE0000:Манифестация Э.Г.О.], который даёт неуязвимость на 2 секунды
+#            [c/AE0000:Манифестация Э.Г.О.] увеличивает урон на 30%, скорость атаки на 40% и скорость передвижения на 90%, но снижает защиту на 30
+#            Когда [c/AE0000:Манифестация Э.Г.О.] активна, доступны уникальные атаки [c/FF0046:Большого разреза]
 #            Нажатие <right> выполняет [c/FF0046:Большой разрез: Вертикальный], а нажатие клавиши "Действие оружия" — [c/FF0046:Большой разрез: Горизонтальный] (обе атаки имеют общую перезарядку в 1 минуту)
 #            [c/FF0046:Большой разрез: Вертикальный] даёт неуязвимость на 1 секунду и наносит гарантированный критический урон в ближнем бою в размере 800% после короткой задержки
 #            [c/FF0046:Большой разрез: Горизонтальный] наносит гарантированный критический урон в размере 300% всем врагам на экране после короткой задержки
 #            Обе атаки [c/FF0046:Большого разреза] казнят любого обычного врага с менее чем 30% здоровья и полностью восстанавливают [c/D53B3B:Эмоциональную нестабильность] при активации
-#            Если [c/AE0000:Э.Г.О. Манифестация] активна, [c/D53B3B:Эмоциональная нестабильность] постепенно уменьшается (сбрасывается при смене оружия)
-#            Чем дольше длится [c/AE0000:Э.Г.О. Манифестация], тем быстрее расходуется [c/D53B3B:Эмоциональная нестабильность]
-#            Если [c/D53B3B:Эмоциональная нестабильность] опускается ниже 10% в течение 3 секунд, [c/AE0000:Э.Г.О. Манифестация] завершается, и вы получаете дебафф «{$Buffs.Vulnerable.DisplayName}» на 10 секунд
+#            Если [c/AE0000:Манифестация Э.Г.О.] активна, [c/D53B3B:Эмоциональная нестабильность] постепенно уменьшается (сбрасывается при смене оружия)
+#            Чем дольше длится [c/AE0000:Манифестация Э.Г.О.], тем быстрее расходуется [c/D53B3B:Эмоциональная нестабильность]
+#            Если [c/D53B3B:Эмоциональная нестабильность] опускается ниже 10% в течение 3 секунд, [c/AE0000:Манифестация Э.Г.О.] завершается, и вы получаете дебафф «{$Buffs.Vulnerable.DisplayName}» на 10 секунд
 #            'Начнём без прелюдий. Я вас всех размажу...'
 #            '''
 #    }
@@ -9534,7 +9721,7 @@
 #        DisplayName: Бот Зеро-42
 #        Tooltip:
 #            '''
-#            Призывает [c/EBD484:Автономного бота] (занимает 2 слота призываемых миньонов; одновременно можно призвать только одного)
+#            Призывает [c/EBD484:Автономного пода] (занимает 2 слота призываемых миньонов; одновременно можно призвать только одного)
 #            [c/EBD484:Автономный бот] автоматически стреляет пулями в ближайших врагов
 #            Удерживайте клавишу 'Действие оружия', чтобы управлять [c/E3DABA:Автономным подом], активируя [c/E9C64A:Свинцовый град]
 #            [c/E9C64A:Свинцовый град] выпускает поток пуль в направлении курсора
@@ -10077,9 +10264,9 @@
 #            '''
 #            [c/D294FF:Воспоминание оружия]
 #            Инкрустация в оружие даёт следующие эффекты:
-#            Увеличивает урон на 8%, находясь в воздухе
+#            Увеличивает урон на 8% в воздухе
 #            '''
-#        TooltipAttached: Увеличивает урон на 8%, находясь в воздухе
+#        TooltipAttached: Увеличивает урон на 8% в воздухе
 #    }
 #
 #    KnightsShovelhead: {
@@ -10150,12 +10337,12 @@
 #            [c/D294FF:Воспоминание оружия]
 #            Инкрустация в оружие даёт следующие эффекты:
 #            При снижении здоровья любым способом даёт один стак [c/BD3535:Проклятой грани] (максимум 5) (фиксированная перезарядка 2 секунды)
-#            При достижении 5 стаков [c/BD3535:Проклятой грани], следующая атака расходует все стаки, увеличивая урон на 40% и восстанавливая 20% максимального запаса здоровья
+#            При достижении 5 стаков [c/BD3535:Проклятой грани] следующая атака расходует все стаки, увеличивая урон на 40% и восстанавливая 20% максимального запаса здоровья
 #            '''
 #        TooltipAttached:
 #            '''
 #            При снижении здоровья любым способом даёт один стак [c/BD3535:Проклятой грани] (максимум 5) (фиксированная перезарядка 2 секунды)
-#            При достижении 5 стаков [c/BD3535:Проклятой грани], следующая атака расходует все стаки, увеличивая урон на 40% и восстанавливая 20% максимального запаса здоровья
+#            При достижении 5 стаков [c/BD3535:Проклятой грани] следующая атака расходует все стаки, увеличивая урон на 40% и восстанавливая 20% максимального запаса здоровья
 #            '''
 #    }
 #
@@ -11168,7 +11355,7 @@
 #        Tooltip:
 #            '''
 #            [c/F592BF:Это оружие не подвержено к штрафу Аспектного типа урона]
-#            Текущий [c/F592BF:Аспектный тип урона] влияет на атаки оружия (Оружие нельзя использовать без [c/F592BF:Аспектного типа урона])
+#            Текущий [c/F592BF:Аспектный тип урона] влияет на атаки оружия (оружие нельзя использовать без [c/F592BF:Аспектного типа урона])
 #            Это оружие наносит на 20% больше урона врагам, на которых наложен дебафф «{$BuffName.ShadowFlame}»
 #            [c/FFAB4D:Ближний бой]: Оружие превращается в когтистую перчатку, позволяющую проводить комбо-удары на ближней дистанции
 #            Атаки накапливают [c/D1AADF:Ужас]; при максимальном заряде [c/D1AADF:Ужаса] завершающая атака комбо-удара создаёт ударную волну, поражающую ближайших врагов
@@ -11323,8 +11510,13 @@
 #    }
 #
 #    RenegadeTechnomancerSynthweavePrecursor: {
-#        DisplayName: Renegade Technomancer Synthweave Precursor
-#        Tooltip: ""
+#        DisplayName: Неактивная синтетическая ткань техноманта-отступника
+#        Tooltip: 
+#            '''
+#            [c/956BE3:Наряд Астры прошлого]
+#            Рваные ошмётки легендарного наряда из былых легенд
+#            Используется для создания '{$Items.RenegadeTechnomancerSynthweave.DisplayName}'
+#            '''
 #    }
 #
 #    PaleHeartPrism: {
@@ -11346,6 +11538,21 @@
 #        DisplayName: Отладочный блок Гарридины
 #        Tooltip: ""
 #    }
+#
+#    DebugPromptTester: {
+#        DisplayName: Тестировщик отладочных уведомлений
+#        Tooltip: ""
+#    }
+#
+#    NeonVeilChestItem: {
+#        DisplayName: Хранилище Неона
+#        Tooltip: ""
+#    }
+#
+#    NeonVeilChestKey: {
+#        DisplayName: Ключ от хранилища
+#        Tooltip: Перепрограммированные данные, которые могут привести в действие Хранилище Неона, давая доступ к его содержимому
+#    }
 #}
 #
 #UIElements: {
@@ -11358,7 +11565,7 @@
 #        Mook: "Мастерская\nМук"
 #        AtelierLogic: "Ателье\nлогики"
 #        CrystalAtelier: "Кристальное\nателье"
-#        WheelsIndustry: "Колесная\nпромышленность"
+#        WheelsIndustry: "Колёсная\nпромышленность"
 #        FuriosoReady: Ярость готова!
 #    }
 #
@@ -11784,7 +11991,7 @@
 #        DisplayName: Заряженный вечный порох
 #        Description:
 #            '''
-#            Неуничтожимая кирка получила новые атакующие способности
+#            Вечная кирка получила новые атакующие способности
 #            Урон увеличен на 80%
 #            '''
 #    }
@@ -12226,7 +12433,7 @@
 #
 #    NullRadiance: {
 #        DisplayName: Нулевое сияние
-#        Description: Ваш свет меркнет, снижая урон в два раза
+#        Description: Ваш свет меркнет, снижая наносимый урон в два раза
 #    }
 #
 #    OceanCulling: {
@@ -12905,12 +13112,12 @@
 #    }
 #
 #    RangaBuff: {
-#        DisplayName: Чёрная тишина: Мастерская Ранга
+#        DisplayName: Чёрная тишина: Колёсная промышленность
 #        Description: Урон от критического удара увеличен на 30%
 #    }
 #
 #    WheelsIndustryBuff: {
-#        DisplayName: Чёрная тишина: Колёсная промышленность
+#        DisplayName: Чёрная тишина: Фабрика колёс
 #        Description: Урон увеличен на 10%
 #    }
 #
@@ -13039,7 +13246,7 @@
 #    }
 #
 #    VerdantEmbrace: {
-#        DisplayName: Изумрудное объятие (только враг)
+#        DisplayName: Изумрудное объятие (Только враг)
 #        Description: ""
 #    }
 #
@@ -14025,13 +14232,13 @@
 #    AstralCell: Необычный синий объект, который питается водяным паром.
 #    NalhaunBossPhase2: Некогда великий монарх, проклятый бессмертием из-за предательства своего королевского двора. Он жил в одиночестве на пустой планете, пока Первый Звездоносец не положил конец его долгому и трагическому правлению, поскольку тот мог помешать его планам. Хотя у него, возможно, и был шанс проявить всю свою мощь, он был отягощен ужасной гражданской войной, разрывающей его мир на части.
 #    PaintedAttendantA: Пентесилея использует это, чтобы... дать вам по щам. Лучшие маги знают, что иногда кулаки - лучший аргумент.
-#    PenthesileaBoss: An incredibly powerful mage, the Painted Witch once ruled a planet entirely 'drawn' by her. Ever the trickster, she mastered expert magecraft simply to play pranks upon the works of her colleagues, a testament to her ingenuity. She met her end at the hands of the First Starbearer after a long conflict- if she were to persist, she would interfere with his plans...
-#    PrismLoot: The latent magical energy of Prismatic Cores can sometimes influence them to drift around the galaxy. Catch one, and you'll be rewarded!
+#    PenthesileaBoss: Невероятно могущественная волшебница, известная как Раскрашенная ведьма, некогда правила планетой, полностью 'нарисованной' ею. Будучи неисправимой проказницей, она достигла вершин магического мастерства исключительно для того, чтобы подшучивать над работами своих коллег, что свидетельствует о её незаурядной находчивости. Она встретила свой конец от рук Первого Звездоносца после долгого противостояния... если бы она выжила, то помешала бы его планам...
+#    PrismLoot: Дремлющая магическая энергия призматических ядер иногда побуждает их блуждать по галактике. Поймав одно, вы получите награду!
 #    SpectreOfLight: Герой из другого мира, призванный Первым Звездоносцем для вторжения на эту землю.
-#    TsukiyomiBoss: The First Starfarer, Tsukiyomi, who holds dominion over orbiting celestial bodies. The gravitational pull of a planet and its natural satellites gives her power. She led the Warrior of Light astray- using his strength and goodwill to conquer and destroy myriad stars... and yet...
+#    TsukiyomiBoss: Цукиёми, Первая Астра, властвующая над вращающимися небесными телами. Гравитационное притяжение планеты и её естественных спутников даёт ей силу. Она совратила Воина света с истинного пути... используя его силу и добрую волю для покорения и уничтожения бесчисленных звёзд... и всё же...
 #    CastorBoss: Воитель огня, Дитя рока. Дети рока - невероятно воинственный вид демонов, чьи кровные узы лишь разжигают пламя конфликта. Они полностью поглощены своими поединками, не замечая ничего, кроме действий оппонента. Иронично, но такая одержимость делает их довольно посредственными бойцами против любого другого врага. Они были полностью истреблены Первым Звездоносцем, напав на него, когда он непреднамеренно вмешался в их вечную битву.
 #    PolluxBoss: Воители льда и огня, близнецы, Дети рока. Дети рока - невероятно воинственный вид демонов, чьи кровные узы лишь разжигают пламя конфликта. Они полностью поглощены своими поединками, не замечая ничего, кроме своего соперника. Иронично, что такая одержимость сделало их довольно посредственными бойцами против любого другого врага. Они были полностью истреблены Первым Звездоносцем, напав на него, когда он невольно вмешался в их вечную битву.
-#    VagrantBoss: The enigmatic Starfarer Perseus. His outward appearance is that of utmost confidence... but he's just kind of a dork trying to look cool. His sisters agree on this. He continues to have power over spatial distances, but seems to have lost the power to control time (but not the moniker.)
+#    VagrantBoss: Загадочный Астра Персей. Его внешний вид говорит о непоколебимой самоуверенности... но на самом деле он просто чудак, пытающийся выглядеть круто. Его сёстры с этим согласны. Он продолжает властвовать над пространственными расстояниями, но, по-видимому, потерял способность управлять временем (хотя и сохранил соответствующее прозвище).
 #    WarriorOfLight: Воин света, или Первый Звездоносец, некогда защищал справедливость в галактике своими деяниями и с помощью своей верной спутницы, Астры. Он правил мирным миром, но был вынужден беспомощно наблюдать за гибелью своего народа. Это событие сломило его, но не его дух. Он поклялся, что никогда больше не позволит другим пережить то, что пережил он сам... чего бы это ни стоило.
 #    AsteroidWorm: Эти невероятно выносливые существа развили способность бесцельно дрейфовать в космическом вакууме. Их эволюция, возможно, не является наилучшим примером эволюционного процесса. Их питание скудно, но потребность в пище практически отсутствует. Они обладают прочной внешней оболочкой, но их атакующая сила невелика.
 #    Soulless: Несчастная жертва апокалипсиса, который обрушился на Кейлум. Его жизненные функции поддерживаются маной, но все следы разума, которые когда-то у них были, давно исчезли.
@@ -14146,6 +14353,8 @@
 #    StarsAboveTip7: The Stars Above: Не задерживайтесь на аномальных планетах слишком долго, так как может появиться невероятно опасный враг! Однако, победив его, можно получить ценные награды...
 #    StarsAboveTip8: The Stars Above: Воспоминания оружия могут стать ключом к победе, но только Аспектное оружие может их использовать!
 #    StarsAboveTip9: The Stars Above: Эффекты воспоминаний оружия не суммируются на одном оружии! Пробуйте разные комбинации!
+#    StarsAboveTip10: The Stars Above: В глубинах преисподней таится странная аномалия, достойная изучения...
+#    StarsAboveTip11: The Stars Above: Астроновы можно усиливать с помощью звёздных призм... бонусы комплекта действительно важны!
 #}
 #
 #DamageClasses: {
