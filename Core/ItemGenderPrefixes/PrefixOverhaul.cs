@@ -317,6 +317,7 @@ public class VanillaItems : IItemGender
         ItemID.RedsWings,
         ItemID.ReflectiveShades,
         ItemID.JimsDroneVisor,
+        ItemID.TheRottedFork,
     };
 }
 
@@ -1461,6 +1462,145 @@ public class ThoriumModItems : IItemGender
     }
 }
 
+public class StarsAboveItems : IItemGender
+{
+    public List<int> Feminine
+    {
+        get
+        {
+            string[] items = {
+                "Luciferium",
+                "Persephone",
+                "Glitterglue",
+                "ChartTheCosmosMusicBox",
+                "ElpisMusicBox",
+                "EvenStarsMustFallMusicBox",
+                "FleetingMomentMusicBox",
+                "LegendsYetUnspunMusicBox",
+                "MageOfVioletMusicBox",
+                "MightOfTheHellbladeMusicBox",
+                "SecondWarningMusicBox",
+                "ShadowsCastByTheMightyMusicBox",
+                "SunsetStardustMusicBox",
+                "ToTheEdgeMusicBox",
+                "UnmatchingPiecesMusicBox",
+                "VoyageMusicBox",
+                "EverlastingPickaxe",
+                "IgnitionAstra",
+                "OriginInfinity",
+                "UltimaThule",
+                "VirtuesEdge",
+                "CarianDarkMoon",
+                "DreamersInkwell",
+                "EternalStar",
+                "HunterSymphony",
+                "Ozma",
+                "RadGun",
+                "StygianNymph",
+                "SupremeAuthority",
+                "AshenAmbition",
+                "BurningDesire",
+                "CrimsonSakuraAlpha",
+                "InugamiRipsaw",
+                "LiberationBlazing",
+                "Mercy",
+                "MiserysCompany",
+                "PenthesileaMuse",
+                "SakuraVengeance",
+                "ShadowlessCerulean",
+                "Umbra",
+                "ArchitectLuminance",
+                "GoldenKatana",
+                "GossamerNeedle",
+                "Manifestation",
+                "Wolvesbane",
+                "WolvesbaneAwakened",
+                "WolvesbaneRearmed",
+                "CrimsonOutbreak",
+                "DeathInFourActs",
+                "ForceOfNature",
+                "IzanagiEdge",
+                "SaltwaterScourge",
+                "Tartaglia",
+                "CaesuraOfDespair",
+                "DragaliaFound",
+                "KonpakuKatana",
+                "LuminaryWand",
+                "MorningStar",
+            };
+        
+            List<int> types = new List<int>();
+            if (ModInstances.StarsAbove != null)
+            {
+                types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("StarsAbove", itemName).Type));
+            }
+            return types;
+        }
+    }
+
+    public List<int> Neuter
+    {
+        get
+        {
+            string[] items = {
+                "CrystallizedAbsence",
+                "GaleflameFeather",
+                "EveryMomentMatters",
+                "CatalystMemory",
+                "TheOnlyThingIKnowForReal",
+                "RedMage",
+                "SanguineDespair",
+                "VenerationOfButterflies",
+                "KarlanTruesilver",
+                "ManiacalJustice",
+                "ElCapitansHardware",
+                "RideTheBull",
+                "AdornmentOfTheChaoticGod",
+                "HollowheartAlbion",
+                "KroniicAccelerator",
+            };
+        
+            List<int> types = new List<int>();
+            if (ModInstances.StarsAbove != null)
+            {
+                types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("StarsAbove", itemName).Type));
+            }
+            return types;
+        }
+    }
+
+    public List<int> Plural
+    {
+        get
+        {
+            string[] items = {
+                "BlackSilenceWeapon",
+                "BuryTheLight",
+                "TwinStars",
+                "Chronoclock",
+                "RupturedHeaven",
+            };
+    
+            List<int> types = new List<int>();
+            if (ModInstances.StarsAbove != null)
+            {
+                types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("StarsAbove", itemName).Type));
+            }
+            return types;
+        }
+    }
+}
+
+public class StarsAboveItemsCreator : IItemGenderCreator
+{
+    public string ModName => "StarsAbove";
+
+    public IItemGender Create()
+    {
+        return new StarsAboveItems();
+    }
+}
+
 public class PrefixOverhaul
 {
     private List<int> _feminine = new();
@@ -1471,7 +1611,8 @@ public class PrefixOverhaul
         new CalamityItemsCreator(),
         new FargoSoulsItemsCreator(),
         new InfernumModeItemsCreator(),
-        new ThoriumModItemsCreator()
+        new ThoriumModItemsCreator(),
+        new StarsAboveItemsCreator()
     };
 
     //Мужской, Женский, Средний, Множественный

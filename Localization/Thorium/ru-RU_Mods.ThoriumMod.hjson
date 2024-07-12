@@ -18916,7 +18916,7 @@ NPCs: {
     }
 
     BoreanStrider: {
-        DisplayName: Борейская шагательница
+        DisplayName: Борейский шагатель
         BestiaryFlavorText: Вид арахнидов, одержимый выживанием в суровых условиях террарийской вьюги. Такая целеустремлённость делает их опасными для всех.
 
         BossChecklistIntegration: {

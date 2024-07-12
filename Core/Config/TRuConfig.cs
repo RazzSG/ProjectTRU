@@ -62,9 +62,9 @@ public class TRuConfig : ModConfig
     [ReloadRequired]
     public bool NoxusBossLocalization;
 
-    // [DefaultValue(true)]
-    // [ReloadRequired]
-    // public bool StarsAboveLocalization;
+    [DefaultValue(true)]
+    [ReloadRequired]
+    public bool StarsAboveLocalization;
 
     [DefaultValue(true)]
     [ReloadRequired]

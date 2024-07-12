@@ -60,7 +60,7 @@ Items: {
             Мои поздравления! Теперь можете скачивать мод DragonLens
             Не переживайте, это не читы. Этот документ даёт вам разрешение
             Давайте. Скачайте уже
-            Сейчас.
+            Сейчас
             '''
     }
 
@@ -98,7 +98,7 @@ Items: {
 
     EternalGardenMusicBox: {
         DisplayName: Музыкальная шкатулка (Вечный сад)
-        Tooltip: 'Edenic Whispers' от ENNWAY!
+        Tooltip: "'Edenic Whispers' от ENNWAY!"
     }
 
     FakeTerminus: {
@@ -262,12 +262,12 @@ Items: {
 
     NamelessDeityMusicBox: {
         DisplayName: Музыкальная шкатулка (Безымянное божество)
-        Tooltip: 'Twisted Garden' от Heart Plus Up! и ENNWAY!
+        Tooltip: "'Twisted Garden' от Heart Plus Up! и ENNWAY!"
     }
 
     NamelessDeityMusicBoxP3: {
         DisplayName: Музыкальная шкатулка (Безымянное божество - Последняя фаза)
-        Tooltip: 'REPLACED VIA CODE DONT CHANGE THIS' от Heart Plus Up! и ENNWAY!
+        Tooltip: "'REPLACED VIA CODE DONT CHANGE THIS' от Heart Plus Up! и ENNWAY!"
     }
 
     NamelessDeityRelicItem: {
@@ -404,8 +404,8 @@ Dialog: {
     TerminusHintLine2: Отправляйся на поиски Терминуса. Последнее испытание ждёт.
     NamelessDeityEnterGardenText: Последнее испытание начинается.
     NamelessDeityEndScreenText: Ты прошёл испытание.
-    NamelessDeityEndScreenSkipText: Нажмите ESCAPE, чтобы пропустить!
-    NamelessDeityPlayerDeathText: Вы не прошли испытание
+    NamelessDeityEndScreenSkipText: Нажми ESCAPE, чтобы пропустить!
+    NamelessDeityPlayerDeathText: Ты не прошёл испытание.
     NamelessDeityEndScreenMainMenuTip: Ты прошёл испытание. Ты прошёл испытание. Ты прошёл испытание. Ты прошёл испытание. Ты прошёл испытание. Ты прошёл испытание. Ты прошёл испытание. Ты прошёл испытание. Ты прошёл испытание. Ты прошёл испытание.
     NamelessDeityNoxusSprayerTip: Не делай этого.
     NamelessDeityStatusText: Ты прошёл испытание.

@@ -34,6 +34,7 @@ public class ArmorSetBonusPreviewSystem : ModSystem
         AddCalamityArmorSetBonuses();
         AddFargoSoulsArmorSetBonuses();
         AddThoriumArmorSetBonuses();
+        AddStarsAboveSetBonuses();
     }
 
     private void AddVanillaArmorSetBonuses()
@@ -426,6 +427,16 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             ArmorSetBonuses[TranslationHelper.GetItemID("ThoriumMod/ValadiumHelmet")] = "Нажмите ВВЕРХ для изменения гравитации. В перевёрнутом состоянии увеличивает стрелковый урон на 15%";
             ArmorSetBonuses[TranslationHelper.GetItemID("ThoriumMod/BlueKnightHelmet")] = "Выглядишь хорошо!";
             ArmorSetBonuses[TranslationHelper.GetItemID("ThoriumMod/GlitteringHelmet")] = "Выглядишь хорошо!";
+        }
+    }
+
+    private void AddStarsAboveSetBonuses()
+    {
+        if (ModInstances.StarsAbove != null)
+        {
+            ArmorSetBonuses[TranslationHelper.GetItemID("StarsAbove/NeopursuantHeadbooster")] = $"Если надета {TranslationHelper.GetTextValue("StarsAbove/NeopursuantPlasteel", "DisplayName")}: {Language.GetTextValue("Mods.StarsAbove.Common.NeopursuantSetBonusFullMetalArcanist")}\nЕсли надето {TranslationHelper.GetTextValue("StarsAbove/NeopursuantRoguegarb", "DisplayName")}: {Language.GetTextValue("Mods.StarsAbove.Common.NeopursuantSetBonusInfiltrator")}";
+            ArmorSetBonuses[TranslationHelper.GetItemID("StarsAbove/NeopursuantDualShield")] = $"Если надета {TranslationHelper.GetTextValue("StarsAbove/NeopursuantPlasteel", "DisplayName")}: {Language.GetTextValue("Mods.StarsAbove.Common.NeopursuantSetBonusBackupBattery")}\nЕсли надето {TranslationHelper.GetTextValue("StarsAbove/NeopursuantRoguegarb", "DisplayName")}: {Language.GetTextValue("Mods.StarsAbove.Common.NeopursuantSetBonusEnviroSavant")}";
+            ArmorSetBonuses[TranslationHelper.GetItemID("StarsAbove/NeopursuantHiGuard")] = $"Если надета {TranslationHelper.GetTextValue("StarsAbove/NeopursuantPlasteel", "DisplayName")}: {Language.GetTextValue("Mods.StarsAbove.Common.NeopursuantSetBonusCataphractArms")}\nЕсли надето {TranslationHelper.GetTextValue("StarsAbove/NeopursuantRoguegarb", "DisplayName")}: {Language.GetTextValue("Mods.StarsAbove.Common.NeopursuantSetBonusViralUpload")}";
         }
     }
 }

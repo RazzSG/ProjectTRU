@@ -40,6 +40,7 @@ public class LoadTranslationsPatch : OnPatcher
 		    {"Mods.InfernumMode", TRuConfig.Instance.InfernumModeLocalization},
 		    {"Mods.ThoriumMod", TRuConfig.Instance.ThoriumModLocalization},
 		    {"Mods.NoxusBoss", TRuConfig.Instance.NoxusBossLocalization},
+		    {"Mods.StarsAbove", TRuConfig.Instance.StarsAboveLocalization},
 	    };
 
 	    if (file == null)

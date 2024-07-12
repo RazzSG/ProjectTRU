@@ -76,6 +76,11 @@ Configs: {
             Tooltip: Выключает перевод Calamity: Wrath of the Gods.
         }
         
+        StarsAboveLocalization: {
+            Label: The Stars Above
+            Tooltip: Выключает перевод The Stars Above.
+        }
+        
         VanillaLocalization: {
             Label: Vanilla
             Tooltip: Выключает новый ванильный перевод.

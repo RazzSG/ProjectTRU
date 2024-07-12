@@ -4094,9 +4094,9 @@
         FallenStarfish: Упавшая звезда-рыба
         FallenTuxedoPants: Брюки падшего
         FallenTuxedoShirt: Смокинг падшего
-        FamiliarPants: Обычные брюки
-        FamiliarShirt: Обычная рубашка
-        FamiliarWig: Обычный парик
+        FamiliarPants: Привычные брюки
+        FamiliarShirt: Привычная рубашка
+        FamiliarWig: Привычный парик
         FancyDishes: Причудливые тарелки
         FancyGreyWallpaper: Причудливые серые обои
         Fangs: Картина «Клыки»
@@ -6149,8 +6149,8 @@
         PinkSlimeBlock: Розовая затвердевшая слизь
         PinkString: Розовая верёвочка
         PinkThread: Розовые нитки
-        PinkTiledWall: Розовая облицовка
-        PinkTiledWallUnsafe: Проклятая розовая облицовка
+        PinkTiledWall: Розовая облицовочная стена
+        PinkTiledWallUnsafe: Проклятая розовая облицовочная стена
         PinkTorch: Розовый факел
         PinkVase: Розовая ваза
         PinkandBlackDye: Розово-чёрный краситель

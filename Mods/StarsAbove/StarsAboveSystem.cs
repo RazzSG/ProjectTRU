@@ -1,77 +1,346 @@
-// using System.Collections.Generic;
-// using CalamityRuTranslate.Common;
-// using CalamityRuTranslate.Common.Utilities;
-// using StarsAbove.Systems;
-// using Terraria;
-// using Terraria.ModLoader;
-// using Terraria.UI;
-//
-// namespace CalamityRuTranslate.Mods.StarsAbove;
-//
-// public partial class StarsAboveSystem : ModSystem
-// {
-//     private static ArchivePlayer ArchivePlayer => Main.LocalPlayer.GetModPlayer<ArchivePlayer>();
-//     
-//     public override bool IsLoadingEnabled(Mod mod)
-//     {
-//         return ModInstances.StarsAbove != null && TranslationHelper.IsRussianLanguage;
-//     }
-//     
-//     public override void ModifyInterfaceLayers(List<GameInterfaceLayer> layers)
-//     {
-//         StellarNovasStats();
-//         
-//         if (ArchivePlayer.archiveActive && ArchivePlayer.archivePopulated)
-//         {
-//             foreach (ArchiveListing archiveListing in ArchivePlayer.VNArchiveList)
-//             {
-//                 archiveListing.Name = archiveListing.Name switch
-//                 {
-//                     "Intro Dialogue" => "Вступительный диалог",
-//                     "Eridani's Intro Dialogue" => "Вступительный диалог Эридани",
-//                     "Vagrant Post-Battle (Asphodene)" => "Скиталец после битвы (Асфодена)",
-//                     "Vagrant Post-Battle (Eridani)" => "Скиталец после битвы (Эридани)",
-//                     "The Astrolabe (Asphodene)" => "Астролябия (Асфодена)",
-//                     "The Astrolabe (Eridani)" => "Астролябия (Эридани)",
-//                     "The Observatory's Introduction" => "Знакомство с Обсерваторией",
-//                     "Yojimbo's Introduction (Asphodene)" => "Знакомство с Йодзимбо (Асфодена)",
-//                     "Yojimbo's Introduction (Eridani)" => "Знакомство с Йодзимбо (Эридани)",
-//                     "Yojimbo: About the galaxy..." => "Йодзимбо: О галактике...",
-//                     "Yojimbo: About the Empire..." => "Йодзимбо: Об империи...",
-//                     "Yojimbo: About the Ardor..." => "Йодзимбо: Об Ардоре...",
-//                     "Garridine's Introduction (Asphodene)" => "Знакомство с Гарридиной (Асфодена)",
-//                     "Garridine's Introduction (Eridani)" => "Знакомство с Гарридиной (Эридани)",
-//                     _ => archiveListing.Name
-//                 };
-//             
-//                 archiveListing.ListInformation = archiveListing.ListInformation switch
-//                 {
-//                     "The Starfarer's introduction dialogue." => "Вступительный диалог Астры.",
-//                     "Perseus's introduction." => " Знакомство с Персеем.",
-//                     "Acquisition of the Astrolabe." => "Получение Астролябии.",
-//                     "Explaining Cosmic Voyages and the Astrolabe." => "Объяснение космических путешествий и Астролябии.",
-//                     "Yojimbo, the lumenkin bounty hunter, makes his appearance." => "",
-//                     "Yojimbo's comments on the state of the galaxy." => "",
-//                     "Garridine, the lupine machinist, makes her appearance." => "",
-//                     _ => archiveListing.ListInformation
-//                 };
-//             
-//                 archiveListing.UnlockConditions = archiveListing.UnlockConditions switch
-//                 {
-//                     "Asphodene's intro dialogue." => "Вступительный диалог Асфодены.",
-//                     "Eridani's intro dialogue." => "Вступительный диалог Эридани.",
-//                     "Defeat the Vagrant of Space and Time. (Asphodene)" => "Одолейте Скитальца между измерениями (Асфодена).",
-//                     "Defeat the Vagrant of Space and Time. (Eridani)" => "Одолейте Скитальца между измерениями (Эридани).",
-//                     "Defeat the Eye of Cthulhu." => "Одолейте Глаз Ктулху",
-//                     "Visit the Observatory." => "Посетите обсерваторию.",
-//                     "Meet Yojimbo during a Cosmic Voyage. (Asphodene)" => "Познакомьтесь с Йодзимбо во время космического путешествия (Асфодена).",
-//                     "Meet Yojimbo during a Cosmic Voyage. (Eridani)" => "Познакомьтесь с Йодзимбо во время космического путешествия (Эридани).",
-//                     "Talk to Yojimbo during a Cosmic Voyage. (Random unlock)" => "Поговорите с Йодзимбо во время космического путешествия (Случайная разблокировка).",
-//                     "Meet Garridine during a Cosmic Voyage. (Asphodene)" => "Познакомьтесь с Гарридиной во время космического путешествия (Асфодена).",
-//                     "Meet Garridine during a Cosmic Voyage. (Eridani)" => "Познакомьтесь с Гарридиной во время космического путешествия (Эридани).",
-//                     _ => archiveListing.UnlockConditions
-//                 };
-//             }
-//         }
-//     }
-// }
+using System.Collections.Generic;
+using CalamityRuTranslate.Common;
+using CalamityRuTranslate.Common.Utilities;
+using CalamityRuTranslate.Core.Config;
+using StarsAbove;
+using StarsAbove.Systems;
+using Terraria;
+using Terraria.Audio;
+using Terraria.ModLoader;
+using Terraria.UI;
+
+namespace CalamityRuTranslate.Mods.StarsAbove;
+
+public partial class StarsAboveSystem : ModSystem
+{
+    public static ArchivePlayer ArchivePlayer => Main.LocalPlayer.GetModPlayer<ArchivePlayer>();
+    public static StarsAbovePlayer StarsAbovePlayer => Main.LocalPlayer.GetModPlayer<StarsAbovePlayer>();
+    public static StarsAboveAudio AudioInstance => ModContent.GetInstance<StarsAboveAudio>();
+    public static bool NovaUIActive => Main.player[Main.myPlayer].TryGetModPlayer(out StarsAbovePlayer player) && player.novaUIActive;
+    public static bool CelestialCartographyActive => Main.player[Main.myPlayer].TryGetModPlayer(out CelestialCartographyPlayer player) && player.CelestialCartographyActive;
+    public static bool StarfarerDialogueActive => Main.player[Main.myPlayer].TryGetModPlayer(out StarsAbovePlayer player) && player.starfarerDialogue;
+    public static bool VNDialogueActive => Main.player[Main.myPlayer].TryGetModPlayer(out StarsAbovePlayer player) && player.VNDialogueActive;
+
+    public static Dictionary<SoundStyle, SoundStyle> SoundMap = new()
+    {
+        { AudioInstance.AS1, StarsAboveSoundRegistry.AS1 },
+        { AudioInstance.AS2, StarsAboveSoundRegistry.AS2 },
+        { AudioInstance.AS3, StarsAboveSoundRegistry.AS3 },
+        { AudioInstance.AS4, StarsAboveSoundRegistry.AS4 },
+        { AudioInstance.AS5, StarsAboveSoundRegistry.AS5 },
+        { AudioInstance.AS6, StarsAboveSoundRegistry.AS6 },
+        { AudioInstance.AS7, StarsAboveSoundRegistry.AS7 },
+        { AudioInstance.AS8, StarsAboveSoundRegistry.AS8 },
+        { AudioInstance.AS9, StarsAboveSoundRegistry.AS9 },
+        { AudioInstance.AS10, StarsAboveSoundRegistry.AS10 },
+        { AudioInstance.AS11, StarsAboveSoundRegistry.AS11 },
+        { AudioInstance.AS12, StarsAboveSoundRegistry.AS12 },
+        { AudioInstance.AS13, StarsAboveSoundRegistry.AS13 },
+        { AudioInstance.AS14, StarsAboveSoundRegistry.AS14 },
+        { AudioInstance.AS15, StarsAboveSoundRegistry.AS15 },
+        { AudioInstance.AS16, StarsAboveSoundRegistry.AS16 },
+        { AudioInstance.AS17, StarsAboveSoundRegistry.AS17 },
+        { AudioInstance.AS18, StarsAboveSoundRegistry.AS18 },
+        { AudioInstance.ASJoke, StarsAboveSoundRegistry.ASJoke },
+        { AudioInstance.ER1, StarsAboveSoundRegistry.ER1 },
+        { AudioInstance.ER2, StarsAboveSoundRegistry.ER2 },
+        { AudioInstance.ER3, StarsAboveSoundRegistry.ER3 } ,
+        { AudioInstance.ER4, StarsAboveSoundRegistry.ER4 },
+        { AudioInstance.ER5, StarsAboveSoundRegistry.ER5 },
+        { AudioInstance.ER6, StarsAboveSoundRegistry.ER6 },
+        { AudioInstance.ER7, StarsAboveSoundRegistry.ER7 },
+        { AudioInstance.ER8, StarsAboveSoundRegistry.ER8 },
+        { AudioInstance.ER9, StarsAboveSoundRegistry.ER9 },
+        { AudioInstance.ER10, StarsAboveSoundRegistry.ER10 },
+        { AudioInstance.ER11, StarsAboveSoundRegistry.ER11 },
+        { AudioInstance.ER12, StarsAboveSoundRegistry.ER12 },
+        { AudioInstance.ER13, StarsAboveSoundRegistry.ER13 },
+        { AudioInstance.ER14, StarsAboveSoundRegistry.ER14 },
+        { AudioInstance.ER15, StarsAboveSoundRegistry.ER15 },
+        { AudioInstance.ER16, StarsAboveSoundRegistry.ER16 },
+        { AudioInstance.ER17, StarsAboveSoundRegistry.ER17 },
+        { AudioInstance.ER18, StarsAboveSoundRegistry.ER18 },
+        { AudioInstance.ERJoke, StarsAboveSoundRegistry.ERJoke },
+        { StarsAboveAudio.StarfarerBoss_Intro, StarsAboveSoundRegistry.StarfarerBoss_Intro },
+        { StarsAboveAudio.Tsukiyomi_Struggle, StarsAboveSoundRegistry.Tsukiyomi_Struggle },
+        { StarsAboveAudio.Tsukiyomi_NowhereYouCanRun, StarsAboveSoundRegistry.Tsukiyomi_NowhereYouCanRun },
+        { StarsAboveAudio.Tsukiyomi_AfraidOfTheDark, StarsAboveSoundRegistry.Tsukiyomi_AfraidOfTheDark },
+        { StarsAboveAudio.Tsukiyomi_TryHarder, StarsAboveSoundRegistry.Tsukiyomi_TryHarder },
+        { StarsAboveAudio.Tsukiyomi_ForgettingSomething, StarsAboveSoundRegistry.Tsukiyomi_ForgettingSomething },
+        { StarsAboveAudio.Tsukiyomi_Journey, StarsAboveSoundRegistry.Tsukiyomi_Journey },
+        { StarsAboveAudio.Tsukiyomi_Stronger, StarsAboveSoundRegistry.Tsukiyomi_Stronger },
+        { StarsAboveAudio.Tsukiyomi_Insignificant, StarsAboveSoundRegistry.Tsukiyomi_Insignificant },
+        { StarsAboveAudio.Tsukiyomi_TakeThisOutside, StarsAboveSoundRegistry.Tsukiyomi_TakeThisOutside },
+        { StarsAboveAudio.Tsukiyomi_ThousandStars, StarsAboveSoundRegistry.Tsukiyomi_ThousandStars },
+        { StarsAboveAudio.Tsukiyomi_CarianDarkMoon, StarsAboveSoundRegistry.Tsukiyomi_CarianDarkMoon },
+        { StarsAboveAudio.Tsukiyomi_BuryTheLight, StarsAboveSoundRegistry.Tsukiyomi_BuryTheLight },
+        { StarsAboveAudio.Tsukiyomi_TheOnlyThingIKnowForReal, StarsAboveSoundRegistry.Tsukiyomi_TheOnlyThingIKnowForReal },
+        { StarsAboveAudio.Tsukiyomi_VoiceOfTheOutbreak, StarsAboveSoundRegistry.Tsukiyomi_VoiceOfTheOutbreak },
+        { StarsAboveAudio.Tsukiyomi_ShadowlessCerulean, StarsAboveSoundRegistry.Tsukiyomi_ShadowlessCerulean },
+        { StarsAboveAudio.Tsukiyomi_DeathInFourActs, StarsAboveSoundRegistry.Tsukiyomi_DeathInFourActs },
+        { StarsAboveAudio.Tsukiyomi_CaesuraOfDespair, StarsAboveSoundRegistry.Tsukiyomi_CaesuraOfDespair },
+        { StarsAboveAudio.Tsukiyomi_StygianNymph, StarsAboveSoundRegistry.Tsukiyomi_StygianNymph },
+        { StarsAboveAudio.Tsukiyomi_MementoMuse, StarsAboveSoundRegistry.Tsukiyomi_MementoMuse },
+        { StarsAboveAudio.Tsukiyomi_LuminaryWand, StarsAboveSoundRegistry.Tsukiyomi_LuminaryWand },
+        { StarsAboveAudio.Tsukiyomi_Takonomicon, StarsAboveSoundRegistry.Tsukiyomi_Takonomicon },
+        { StarsAboveAudio.Tsukiyomi_KeyOfTheKingsLaw, StarsAboveSoundRegistry.Tsukiyomi_KeyOfTheKingsLaw },
+        { StarsAboveAudio.Penthesilea_AlrightMyTurn, StarsAboveSoundRegistry.Penthesilea_AlrightMyTurn },
+        { StarsAboveAudio.Penthesilea_HandsOn, StarsAboveSoundRegistry.Penthesilea_HandsOn },
+        { StarsAboveAudio.Penthesilea_HelloLittlePaintbrush, StarsAboveSoundRegistry.Penthesilea_HelloLittlePaintbrush },
+        { StarsAboveAudio.Penthesilea_IDontThinkYoullLikeWhatComesNext, StarsAboveSoundRegistry.Penthesilea_IDontThinkYoullLikeWhatComesNext },
+        { StarsAboveAudio.Penthesilea_MoreWhereThatCameFrom, StarsAboveSoundRegistry.Penthesilea_MoreWhereThatCameFrom },
+        { StarsAboveAudio.Penthesilea_QuicklyNow, StarsAboveSoundRegistry.Penthesilea_QuicklyNow },
+        { StarsAboveAudio.Penthesilea_RainButPrettier, StarsAboveSoundRegistry.Penthesilea_RainButPrettier },
+        { StarsAboveAudio.Penthesilea_TooMuchColor, StarsAboveSoundRegistry.Penthesilea_TooMuchColor },
+        { StarsAboveAudio.Penthesilea_WhatColor, StarsAboveSoundRegistry.Penthesilea_WhatColor },
+        { StarsAboveAudio.Penthesilea_WouldntItBeSoFunny, StarsAboveSoundRegistry.Penthesilea_WouldntItBeSoFunny },
+        { StarsAboveAudio.Penthesilea_WrappedThingsUp, StarsAboveSoundRegistry.Penthesilea_WrappedThingsUp },
+        { StarsAboveAudio.Nalhaun_AndNowTheScalesWillTip, StarsAboveSoundRegistry.Nalhaun_AndNowTheScalesWillTip },
+        { StarsAboveAudio.Nalhaun_AThousandBolts, StarsAboveSoundRegistry.Nalhaun_AThousandBolts },
+        { StarsAboveAudio.Nalhaun_ComeShowMeMore, StarsAboveSoundRegistry.Nalhaun_ComeShowMeMore },
+        { StarsAboveAudio.Nalhaun_EscapeIsNotSoEasilyGranted, StarsAboveSoundRegistry.Nalhaun_EscapeIsNotSoEasilyGranted },
+        { StarsAboveAudio.Nalhaun_EvenTheStrongestShields, StarsAboveSoundRegistry.Nalhaun_EvenTheStrongestShields },
+        { StarsAboveAudio.Nalhaun_Fools, StarsAboveSoundRegistry.Nalhaun_Fools },
+        { StarsAboveAudio.Nalhaun_MyDefenses, StarsAboveSoundRegistry.Nalhaun_MyDefenses },
+        { StarsAboveAudio.Nalhaun_NalhaunDeathQuote, StarsAboveSoundRegistry.Nalhaun_NalhaunDeathQuote },
+        { StarsAboveAudio.Nalhaun_NalhaunIntroQuote, StarsAboveSoundRegistry.Nalhaun_NalhaunIntroQuote },
+        { StarsAboveAudio.Nalhaun_PityDisplay, StarsAboveSoundRegistry.Nalhaun_PityDisplay },
+        { StarsAboveAudio.Nalhaun_RuinationIsCome, StarsAboveSoundRegistry.Nalhaun_RuinationIsCome },
+        { StarsAboveAudio.Nalhaun_TheGodsWillNotBeWatching, StarsAboveSoundRegistry.Nalhaun_TheGodsWillNotBeWatching },
+        { StarsAboveAudio.Nalhaun_TheHeartsOfMen, StarsAboveSoundRegistry.Nalhaun_TheHeartsOfMen },
+        { StarsAboveAudio.Nalhaun_UponMyHolyBlade, StarsAboveSoundRegistry.Nalhaun_UponMyHolyBlade },
+        { StarsAboveAudio.Nalhaun_WereYouExpectingRust, StarsAboveSoundRegistry.Nalhaun_WereYouExpectingRust },
+        { StarsAboveAudio.WarriorOfLight_EveryDream, StarsAboveSoundRegistry.WarriorOfLight_EveryDream },
+        { StarsAboveAudio.WarriorOfLight_FlamesOfBattle, StarsAboveSoundRegistry.WarriorOfLight_FlamesOfBattle },
+        { StarsAboveAudio.WarriorOfLight_NowToTakeYourMeasure, StarsAboveSoundRegistry.WarriorOfLight_NowToTakeYourMeasure },
+        { StarsAboveAudio.WarriorOfLight_WillLightEmbrace, StarsAboveSoundRegistry.WarriorOfLight_WillLightEmbrace },
+        { StarsAboveAudio.WarriorOfLight_TheseMagicksAreNotForYou, StarsAboveSoundRegistry.WarriorOfLight_TheseMagicksAreNotForYou },
+        { StarsAboveAudio.WarriorOfLight_JudgedWorthyToExist, StarsAboveSoundRegistry.WarriorOfLight_JudgedWorthyToExist },
+        { StarsAboveAudio.WarriorOfLight_ForVictory, StarsAboveSoundRegistry.WarriorOfLight_ForVictory },
+        { StarsAboveAudio.WarriorOfLight_PowerFromBeyond, StarsAboveSoundRegistry.WarriorOfLight_PowerFromBeyond },
+        { StarsAboveAudio.WarriorOfLight_BegoneSpawnOfShadow, StarsAboveSoundRegistry.WarriorOfLight_BegoneSpawnOfShadow },
+        { StarsAboveAudio.WarriorOfLight_CladInPrayerIAmInvincible, StarsAboveSoundRegistry.WarriorOfLight_CladInPrayerIAmInvincible },
+        { StarsAboveAudio.WarriorOfLight_DarknessMustBeDestroyed, StarsAboveSoundRegistry.WarriorOfLight_DarknessMustBeDestroyed },
+        { StarsAboveAudio.WarriorOfLight_FinalPhaseGrunt, StarsAboveSoundRegistry.WarriorOfLight_FinalPhaseGrunt },
+        { StarsAboveAudio.WarriorOfLight_ForVictoryIRenderUpMyAll, StarsAboveSoundRegistry.WarriorOfLight_ForVictoryIRenderUpMyAll },
+        { StarsAboveAudio.WarriorOfLight_GleamingSteelLightMyPath, StarsAboveSoundRegistry.WarriorOfLight_GleamingSteelLightMyPath },
+        { StarsAboveAudio.WarriorOfLight_HopeGrantMeStrength, StarsAboveSoundRegistry.WarriorOfLight_HopeGrantMeStrength },
+        { StarsAboveAudio.WarriorOfLight_IAmSalvationGivenForm, StarsAboveSoundRegistry.WarriorOfLight_IAmSalvationGivenForm },
+        { StarsAboveAudio.WarriorOfLight_IWillNotFall, StarsAboveSoundRegistry.WarriorOfLight_IWillNotFall },
+        { StarsAboveAudio.WarriorOfLight_IWillStrikeYouDown, StarsAboveSoundRegistry.WarriorOfLight_IWillStrikeYouDown },
+        { StarsAboveAudio.WarriorOfLight_MankindsFirstHeroAndHisFinalHope, StarsAboveSoundRegistry.WarriorOfLight_MankindsFirstHeroAndHisFinalHope },
+        { StarsAboveAudio.WarriorOfLight_MySoulKnowsNoSurrender, StarsAboveSoundRegistry.WarriorOfLight_MySoulKnowsNoSurrender },
+        { StarsAboveAudio.WarriorOfLight_RadiantBraver, StarsAboveSoundRegistry.WarriorOfLight_RadiantBraver },
+        { StarsAboveAudio.WarriorOfLight_RefulgentEther, StarsAboveSoundRegistry.WarriorOfLight_RefulgentEther },
+        { StarsAboveAudio.WarriorOfLight_TheBitterEnd, StarsAboveSoundRegistry.WarriorOfLight_TheBitterEnd },
+        { StarsAboveAudio.WarriorOfLight_ToMeWarriorsOfLight, StarsAboveSoundRegistry.WarriorOfLight_ToMeWarriorsOfLight },
+        { StarsAboveAudio.WarriorOfLight_WarriorOfLightDeathQuote, StarsAboveSoundRegistry.WarriorOfLight_WarriorOfLightDeathQuote },
+        { StarsAboveAudio.WarriorOfLight_WarriorOfLightIntroQuote, StarsAboveSoundRegistry.WarriorOfLight_WarriorOfLightIntroQuote },
+        { StarsAboveAudio.WarriorOfLight_YourDemiseShallBeOurSalvation, StarsAboveSoundRegistry.WarriorOfLight_YourDemiseShallBeOurSalvation },
+        { StarsAboveAudio.WarriorOfLight_YouStillStand, StarsAboveSoundRegistry.WarriorOfLight_YouStillStand },
+        { StarsAboveAudio.AsphodeneAccident0, StarsAboveSoundRegistry.AsphodeneAccident0 },
+        { StarsAboveAudio.AsphodeneBossAngry0, StarsAboveSoundRegistry.AsphodeneBossAngry0 },
+        { StarsAboveAudio.AsphodeneBossAngry1, StarsAboveSoundRegistry.AsphodeneBossAngry1 },
+        { StarsAboveAudio.AsphodeneBossAngry2, StarsAboveSoundRegistry.AsphodeneBossAngry2 },
+        { StarsAboveAudio.AsphodeneBossAngry3, StarsAboveSoundRegistry.AsphodeneBossAngry3 },
+        { StarsAboveAudio.AsphodeneBossLowHP0, StarsAboveSoundRegistry.AsphodeneBossLowHP0 },
+        { StarsAboveAudio.AsphodeneBossLowHP1, StarsAboveSoundRegistry.AsphodeneBossLowHP1 },
+        { StarsAboveAudio.AsphodeneBossNeutral0, StarsAboveSoundRegistry.AsphodeneBossNeutral0 },
+        { StarsAboveAudio.AsphodeneBossNeutral1, StarsAboveSoundRegistry.AsphodeneBossNeutral1 },
+        { StarsAboveAudio.AsphodeneBossNeutral2, StarsAboveSoundRegistry.AsphodeneBossNeutral2 },
+        { StarsAboveAudio.AsphodeneBossPerfect, StarsAboveSoundRegistry.AsphodeneBossPerfect },
+        { StarsAboveAudio.AsphodeneBossSuprised0, StarsAboveSoundRegistry.AsphodeneBossSuprised0 },
+        { StarsAboveAudio.AsphodeneBossSuprised1, StarsAboveSoundRegistry.AsphodeneBossSuprised1 },
+        { StarsAboveAudio.AsphodeneBossWorried0, StarsAboveSoundRegistry.AsphodeneBossWorried0 },
+        { StarsAboveAudio.AsphodeneBossWorried1, StarsAboveSoundRegistry.AsphodeneBossWorried1 },
+        { StarsAboveAudio.AsphodeneBossWorried2, StarsAboveSoundRegistry.AsphodeneBossWorried2 },
+        { StarsAboveAudio.AsphodeneBossWorried3, StarsAboveSoundRegistry.AsphodeneBossWorried3 },
+        { StarsAboveAudio.AsphodeneVictory0, StarsAboveSoundRegistry.AsphodeneVictory0 },
+        { StarsAboveAudio.AsphodeneVictory1, StarsAboveSoundRegistry.AsphodeneVictory1 },
+        { StarsAboveAudio.EridaniAccident0, StarsAboveSoundRegistry.EridaniAccident0 },
+        { StarsAboveAudio.EridaniBossAngry0, StarsAboveSoundRegistry.EridaniBossAngry0 },
+        { StarsAboveAudio.EridaniBossAngry1, StarsAboveSoundRegistry.EridaniBossAngry1 },
+        { StarsAboveAudio.EridaniBossAngry2, StarsAboveSoundRegistry.EridaniBossAngry2 },
+        { StarsAboveAudio.EridaniBossLowHP0, StarsAboveSoundRegistry.EridaniBossLowHP0 },
+        { StarsAboveAudio.EridaniBossLowHP1, StarsAboveSoundRegistry.EridaniBossLowHP1 },
+        { StarsAboveAudio.EridaniBossNeutral0, StarsAboveSoundRegistry.EridaniBossNeutral0 },
+        { StarsAboveAudio.EridaniBossNeutral1, StarsAboveSoundRegistry.EridaniBossNeutral1 },
+        { StarsAboveAudio.EridaniBossNeutral2, StarsAboveSoundRegistry.EridaniBossNeutral2 },
+        { StarsAboveAudio.EridaniBossNeutral3, StarsAboveSoundRegistry.EridaniBossNeutral3 },
+        { StarsAboveAudio.EridaniBossNeutral4, StarsAboveSoundRegistry.EridaniBossNeutral4 },
+        { StarsAboveAudio.EridaniBossNeutral5, StarsAboveSoundRegistry.EridaniBossNeutral5 },
+        { StarsAboveAudio.EridaniBossPerfect, StarsAboveSoundRegistry.EridaniBossPerfect },
+        { StarsAboveAudio.EridaniBossSuprised0, StarsAboveSoundRegistry.EridaniBossSuprised0 },
+        { StarsAboveAudio.EridaniBossWorried0, StarsAboveSoundRegistry.EridaniBossWorried0 },
+        { StarsAboveAudio.EridaniBossWorried1, StarsAboveSoundRegistry.EridaniBossWorried1 },
+        { StarsAboveAudio.EridaniVictory0, StarsAboveSoundRegistry.EridaniVictory0 },
+        { StarsAboveAudio.EridaniVictory1, StarsAboveSoundRegistry.EridaniVictory1 },
+        { StarsAboveAudio.AExplore0, StarsAboveSoundRegistry.AExplore0 },
+        { StarsAboveAudio.AExplore1, StarsAboveSoundRegistry.AExplore1 },
+        { StarsAboveAudio.AExplore2, StarsAboveSoundRegistry.AExplore2 },
+        { StarsAboveAudio.AExplore3, StarsAboveSoundRegistry.AExplore3 },
+        { StarsAboveAudio.AExplore4, StarsAboveSoundRegistry.AExplore4 },
+        { StarsAboveAudio.AExploreRare0, StarsAboveSoundRegistry.AExploreRare0 },
+        { StarsAboveAudio.ALaugh0, StarsAboveSoundRegistry.ALaugh0 },
+        { StarsAboveAudio.ALight0, StarsAboveSoundRegistry.ALight0 },
+        { StarsAboveAudio.ARain0, StarsAboveSoundRegistry.ARain0 },
+        { StarsAboveAudio.ARain1, StarsAboveSoundRegistry.ARain1 },
+        { StarsAboveAudio.EExplore0, StarsAboveSoundRegistry.EExplore0 },
+        { StarsAboveAudio.EExplore1, StarsAboveSoundRegistry.EExplore1 },
+        { StarsAboveAudio.EExplore2, StarsAboveSoundRegistry.EExplore2 },
+        { StarsAboveAudio.EExplore3, StarsAboveSoundRegistry.EExplore3 },
+        { StarsAboveAudio.EExplore4, StarsAboveSoundRegistry.EExplore4 },
+        { StarsAboveAudio.EExploreRare0, StarsAboveSoundRegistry.EExploreRare0 },
+        { StarsAboveAudio.ELaugh0, StarsAboveSoundRegistry.ELaugh0 },
+        { StarsAboveAudio.ELight0, StarsAboveSoundRegistry.ELight0 },
+        { StarsAboveAudio.ERain0, StarsAboveSoundRegistry.ERain0 },
+        { StarsAboveAudio.ERain1, StarsAboveSoundRegistry.ERain1 },
+        { StarsAboveAudio.AOutfit0, StarsAboveSoundRegistry.AOutfit0 },
+        { StarsAboveAudio.AOutfit1, StarsAboveSoundRegistry.AOutfit1 },
+        { StarsAboveAudio.AOutfit2, StarsAboveSoundRegistry.AOutfit2 },
+        { StarsAboveAudio.EOutfit0, StarsAboveSoundRegistry.EOutfit0 },
+        { StarsAboveAudio.EOutfit1, StarsAboveSoundRegistry.EOutfit1 },
+        { StarsAboveAudio.EOutfit2, StarsAboveSoundRegistry.EOutfit2 },
+        { StarsAboveAudio.AsphodeneAmbush0, StarsAboveSoundRegistry.AsphodeneAmbush0 },
+        { StarsAboveAudio.AsphodeneHurtAccident0, StarsAboveSoundRegistry.AsphodeneHurtAccident0 },
+        { StarsAboveAudio.AsphodeneHurtMajor0, StarsAboveSoundRegistry.AsphodeneHurtMajor0 },
+        { StarsAboveAudio.AsphodeneHurtMajor1, StarsAboveSoundRegistry.AsphodeneHurtMajor1 },
+        { StarsAboveAudio.AsphodeneHurtMajor2, StarsAboveSoundRegistry.AsphodeneHurtMajor2 },
+        { StarsAboveAudio.AsphodeneHurtMinor0, StarsAboveSoundRegistry.AsphodeneHurtMinor0 },
+        { StarsAboveAudio.AsphodeneHurtMinor1, StarsAboveSoundRegistry.AsphodeneHurtMinor1 },
+        { StarsAboveAudio.AsphodeneHurtMinor2, StarsAboveSoundRegistry.AsphodeneHurtMinor2 },
+        { StarsAboveAudio.AsphodeneReady0, StarsAboveSoundRegistry.AsphodeneReady0 },
+        { StarsAboveAudio.EridaniAmbush0, StarsAboveSoundRegistry.EridaniAmbush0 },
+        { StarsAboveAudio.EridaniHurtAccident0, StarsAboveSoundRegistry.EridaniHurtAccident0 },
+        { StarsAboveAudio.EridaniHurtMajor0, StarsAboveSoundRegistry.EridaniHurtMajor0 },
+        { StarsAboveAudio.EridaniHurtMajor1, StarsAboveSoundRegistry.EridaniHurtMajor1 },
+        { StarsAboveAudio.EridaniHurtMajor2, StarsAboveSoundRegistry.EridaniHurtMajor2 },
+        { StarsAboveAudio.EridaniHurtMinor0, StarsAboveSoundRegistry.EridaniHurtMinor0 },
+        { StarsAboveAudio.EridaniHurtMinor1, StarsAboveSoundRegistry.EridaniHurtMinor1 },
+        { StarsAboveAudio.EridaniHurtMinor2, StarsAboveSoundRegistry.EridaniHurtMinor2 },
+        { StarsAboveAudio.EridaniReady0, StarsAboveSoundRegistry.EridaniReady0 },
+        { StarsAboveAudio.AsphodeneDialogueStart0, StarsAboveSoundRegistry.AsphodeneDialogueStart0 },
+        { StarsAboveAudio.AsphodeneDialogueStart1, StarsAboveSoundRegistry.AsphodeneDialogueStart1 },
+        { StarsAboveAudio.AsphodeneIdle0, StarsAboveSoundRegistry.AsphodeneIdle0 },
+        { StarsAboveAudio.AsphodeneIdle1, StarsAboveSoundRegistry.AsphodeneIdle1 },
+        { StarsAboveAudio.AsphodeneNewUnlock0, StarsAboveSoundRegistry.AsphodeneNewUnlock0 },
+        { StarsAboveAudio.AsphodeneNewUnlock1, StarsAboveSoundRegistry.AsphodeneNewUnlock1 },
+        { StarsAboveAudio.AsphodeneNewUnlock2, StarsAboveSoundRegistry.AsphodeneNewUnlock2 },
+        { StarsAboveAudio.AsphodeneNewUnlock3, StarsAboveSoundRegistry.AsphodeneNewUnlock3 },
+        { StarsAboveAudio.AsphodeneNewUnlock4, StarsAboveSoundRegistry.AsphodeneNewUnlock4 },
+        { StarsAboveAudio.EridaniDialogueStart0, StarsAboveSoundRegistry.EridaniDialogueStart0 },
+        { StarsAboveAudio.EridaniDialogueStart1, StarsAboveSoundRegistry.EridaniDialogueStart1 },
+        { StarsAboveAudio.EridaniIdle0, StarsAboveSoundRegistry.EridaniIdle0 },
+        { StarsAboveAudio.EridaniIdle1, StarsAboveSoundRegistry.EridaniIdle1 },
+        { StarsAboveAudio.EridaniNewUnlock0, StarsAboveSoundRegistry.EridaniNewUnlock0 },
+        { StarsAboveAudio.EridaniNewUnlock1, StarsAboveSoundRegistry.EridaniNewUnlock1 },
+        { StarsAboveAudio.EridaniNewUnlock2, StarsAboveSoundRegistry.EridaniNewUnlock2 },
+        { StarsAboveAudio.EridaniNewUnlock3, StarsAboveSoundRegistry.EridaniNewUnlock3 },
+        { StarsAboveAudio.EridaniNewUnlock4, StarsAboveSoundRegistry.EridaniNewUnlock4 },
+        { StarsAboveAudio.AsphodeneAngry0, StarsAboveSoundRegistry.AsphodeneAngry0 },
+        { StarsAboveAudio.AsphodeneAngry1, StarsAboveSoundRegistry.AsphodeneAngry1 },
+        { StarsAboveAudio.AsphodeneDeadInside0, StarsAboveSoundRegistry.AsphodeneDeadInside0 },
+        { StarsAboveAudio.AsphodeneWorried0, StarsAboveSoundRegistry.AsphodeneWorried0 },
+        { StarsAboveAudio.AsphodeneSmug0, StarsAboveSoundRegistry.AsphodeneSmug0 },
+        { StarsAboveAudio.AsphodeneSmug1, StarsAboveSoundRegistry.AsphodeneSmug1 },
+        { StarsAboveAudio.AsphodeneHappy0, StarsAboveSoundRegistry.AsphodeneHappy0 },
+        { StarsAboveAudio.AsphodeneHappy1, StarsAboveSoundRegistry.AsphodeneHappy1 },
+        { StarsAboveAudio.AsphodeneNeutral0, StarsAboveSoundRegistry.AsphodeneNeutral0 },
+        { StarsAboveAudio.AsphodeneThinking0, StarsAboveSoundRegistry.AsphodeneThinking0 },
+        { StarsAboveAudio.AsphodeneThinking1, StarsAboveSoundRegistry.AsphodeneThinking1 },
+        { StarsAboveAudio.AsphodeneThinking2, StarsAboveSoundRegistry.AsphodeneThinking2 },
+        { StarsAboveAudio.AsphodeneDialogueEnd0, StarsAboveSoundRegistry.AsphodeneDialogueEnd0 },
+        { StarsAboveAudio.AsphodeneDialogueEnd1, StarsAboveSoundRegistry.AsphodeneDialogueEnd1 },
+        { StarsAboveAudio.EridaniAngry0, StarsAboveSoundRegistry.EridaniAngry0 },
+        { StarsAboveAudio.EridaniAngry1, StarsAboveSoundRegistry.EridaniAngry1 },
+        { StarsAboveAudio.EridaniDeadInside0, StarsAboveSoundRegistry.EridaniDeadInside0 },
+        { StarsAboveAudio.EridaniWorried0, StarsAboveSoundRegistry.EridaniWorried0 },
+        { StarsAboveAudio.EridaniSmug0, StarsAboveSoundRegistry.EridaniSmug0 },
+        { StarsAboveAudio.EridaniSmug1, StarsAboveSoundRegistry.EridaniSmug1 },
+        { StarsAboveAudio.EridaniHappy0, StarsAboveSoundRegistry.EridaniHappy0 },
+        { StarsAboveAudio.EridaniHappy1, StarsAboveSoundRegistry.EridaniHappy1 },
+        { StarsAboveAudio.EridaniNeutral0, StarsAboveSoundRegistry.EridaniNeutral0 },
+        { StarsAboveAudio.EridaniThinking0, StarsAboveSoundRegistry.EridaniThinking0 },
+        { StarsAboveAudio.EridaniThinking1, StarsAboveSoundRegistry.EridaniThinking1 },
+        { StarsAboveAudio.EridaniThinking2, StarsAboveSoundRegistry.EridaniThinking2 },
+        { StarsAboveAudio.EridaniDialogueEnd0, StarsAboveSoundRegistry.EridaniDialogueEnd0 },
+        { StarsAboveAudio.EridaniDialogueEnd1, StarsAboveSoundRegistry.EridaniDialogueEnd1 },
+        { StarsAboveAudio.AsphodeneMenu0, StarsAboveSoundRegistry.AsphodeneMenu0 },
+        { StarsAboveAudio.AsphodeneMenu1, StarsAboveSoundRegistry.AsphodeneMenu1 },
+        { StarsAboveAudio.AsphodeneMenu2, StarsAboveSoundRegistry.AsphodeneMenu2 },
+        { StarsAboveAudio.AsphodeneMenu3, StarsAboveSoundRegistry.AsphodeneMenu3 },
+        { StarsAboveAudio.AsphodeneMenu4, StarsAboveSoundRegistry.AsphodeneMenu4 },
+        { StarsAboveAudio.AsphodeneMenu5, StarsAboveSoundRegistry.AsphodeneMenu5 },
+        { StarsAboveAudio.AsphodeneMenuCombat0, StarsAboveSoundRegistry.AsphodeneMenuCombat0 },
+        { StarsAboveAudio.EridaniMenu0, StarsAboveSoundRegistry.EridaniMenu0 },
+        { StarsAboveAudio.EridaniMenu1, StarsAboveSoundRegistry.EridaniMenu1 },
+        { StarsAboveAudio.EridaniMenu2, StarsAboveSoundRegistry.EridaniMenu2 },
+        { StarsAboveAudio.EridaniMenu3, StarsAboveSoundRegistry.EridaniMenu3 },
+        { StarsAboveAudio.EridaniMenu4, StarsAboveSoundRegistry.EridaniMenu4 },
+        { StarsAboveAudio.EridaniMenu5, StarsAboveSoundRegistry.EridaniMenu5 },
+        { StarsAboveAudio.EridaniMenuCombat0, StarsAboveSoundRegistry.EridaniMenuCombat0 },
+    };
+    
+    public override bool IsLoadingEnabled(Mod mod)
+    {
+        return ModInstances.StarsAbove != null && TRuConfig.Instance.StarsAboveLocalization && TranslationHelper.IsRussianLanguage;
+    }
+    
+    public override void ModifyInterfaceLayers(List<GameInterfaceLayer> layers)
+    {
+        StellarNovasStats();
+        
+        if (ArchivePlayer.archiveActive && ArchivePlayer.archivePopulated)
+        {
+            foreach (ArchiveListing archiveListing in ArchivePlayer.VNArchiveList)
+            {
+                archiveListing.Name = archiveListing.Name switch
+                {
+                    "Intro Dialogue" => "Начальный диалог с Асфоденой",
+                    "Eridani's Intro Dialogue" => "Начальный диалог с Эридани",
+                    "Vagrant Post-Battle (Asphodene)" => "Скиталец после сражения (Асфодена)",
+                    "Vagrant Post-Battle (Eridani)" => "Скиталец после сражения (Эридани)",
+                    "The Astrolabe (Asphodene)" => "Астролябия (Асфодена)",
+                    "The Astrolabe (Eridani)" => "Астролябия (Эридани)",
+                    "The Observatory's Introduction" => "Введение в Обсерваторию",
+                    "Yojimbo's Introduction (Asphodene)" => "Знакомство с Йодзимбо (Асфодена)",
+                    "Yojimbo's Introduction (Eridani)" => "Знакомство с Йодзимбо (Эридани)",
+                    "Yojimbo: About the galaxy..." => "Йодзимбо: О галактике...",
+                    "Yojimbo: About the Empire..." => "Йодзимбо: Об империи...",
+                    "Yojimbo: About the Ardor..." => "Йодзимбо: О Коллапсе...",
+                    "Garridine's Introduction (Asphodene)" => "Знакомство с Гарридиной (Асфодена)",
+                    "Garridine's Introduction (Eridani)" => "Знакомство с Гарридиной (Эридани)",
+                    _ => archiveListing.Name
+                };
+            
+                archiveListing.ListInformation = archiveListing.ListInformation switch
+                {
+                    "The Starfarer's introduction dialogue." => "Вступительный диалог Астры.",
+                    "Perseus's introduction." => "Знакомство с Персеем.",
+                    "Acquisition of the Astrolabe." => "Получение Астролябии.",
+                    "Explaining Cosmic Voyages and the Astrolabe." => "Объяснение космических путешествий и Астролябии.",
+                    "Yojimbo, the lumenkin bounty hunter, makes his appearance." => "Появление Йодзимбо, охотника за головами из расы люменкинов.",
+                    "Yojimbo's comments on the state of the galaxy." => "Комментарии Йодзимбо о положении дел в галактике.",
+                    "Garridine, the lupine machinist, makes her appearance." => "Появление Гарридины, механика из волчьей расы.",
+                    _ => archiveListing.ListInformation
+                };
+            
+                archiveListing.UnlockConditions = archiveListing.UnlockConditions switch
+                {
+                    "Asphodene's intro dialogue." => "Вступительный диалог Асфодены.",
+                    "Eridani's intro dialogue." => "Вступительный диалог Эридани.",
+                    "Defeat the Vagrant of Space and Time. (Asphodene)" => "Одолейте Скитальца между измерениями (Асфодена).",
+                    "Defeat the Vagrant of Space and Time. (Eridani)" => "Одолейте Скитальца между измерениями (Эридани).",
+                    "Defeat the Eye of Cthulhu." => "Одолейте Глаз Ктулху",
+                    "Visit the Observatory." => "Посетите обсерваторию.",
+                    "Meet Yojimbo during a Cosmic Voyage. (Asphodene)" => "Встретьте Йодзимбо во время космического путешествия (Асфодена).",
+                    "Meet Yojimbo during a Cosmic Voyage. (Eridani)" => "Встретьте Йодзимбо во время космического путешествия (Эридани).",
+                    "Talk to Yojimbo during a Cosmic Voyage. (Random unlock)" => "Поговорите с Йодзимбо во время космического путешествия (Случайная разблокировка).",
+                    "Meet Garridine during a Cosmic Voyage. (Asphodene)" => "Встретьте Гарридину во время космического путешествия (Асфодена).",
+                    "Meet Garridine during a Cosmic Voyage. (Eridani)" => "Встретьте Гарридину во время космического путешествия (Эридани).",
+                    _ => archiveListing.UnlockConditions
+                };
+            }
+        }
+    }
+}

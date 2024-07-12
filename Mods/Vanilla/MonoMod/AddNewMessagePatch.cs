@@ -41,34 +41,34 @@ public class AddNewMessagePatch : ILoadable
         }
 
         // StarsAbove
-        // if (text.Contains("was obliterated!"))
-        //     text = text.Replace("was obliterated!", "стирается с лица земли!");
-        // if (text.Contains("'s body was broken, along with their limits."))
-        //     text = $"Тело {Main.LocalPlayer.name} было сломлено, а вместе с ним и его лимиты.";
-        // if (text.Contains("died beyond their world."))
-        //     text = text.Replace("died beyond their world.", "умирает за пределами своего мира.");
-        // if (text.Contains("was lost in space."))
-        //     text = text.Replace("was lost in space.", "теряется в космосе.");
-        // if (text.Contains("drifted away from their home planet."))
-        //     text = text.Replace("drifted away from their home planet.", "удаляется от своей родной планеты.");
-        // if (text.Contains("was brought to kneel beyond their world."))
-        //     text = text.Replace("was brought to kneel beyond their world.", "вынужденно преклоняется за пределами своего мира.");
-        // if (text.Contains("died within another realm."))
-        //     text = text.Replace("died within another realm.", "умирает в другом мире.");
-        // if (text.Contains("crumbled under the weight of Living Dead."))
-        //     text = text.Replace("crumbled under the weight of Living Dead.", "Не выдерживает натиск живого мертвеца.");
-        // if (text.Contains("burnt to a crisp by continuing to move during Pyretic."))
-        //     text = text.Replace("burnt to a crisp by continuing to move during Pyretic.", "сжигается дотла, продолжая двигаться во время горячки.");
-        // if (text.Contains("froze to death by staying still during Deep Freeze"))
-        //     text = text.Replace("froze to death by staying still during Deep Freeze", "замерзает до смерти, оставшись неподвижным во время глубокой заморозки.");
-        // if (text.Contains("couldn't handle the vacuum of space."))
-        //     text = text.Replace("couldn't handle the vacuum of space.", "не выдерживает вакуума космоса.");
+        if (text.Contains("was obliterated!"))
+            text = text.Replace("was obliterated!", "стирается с лица земли!");
+        if (text.Contains("'s body was broken, along with their limits."))
+            text = "ломает лимиты, вместе со своим телом.";
+        if (text.Contains("died beyond their world."))
+            text = text.Replace("died beyond their world.", "умирает за пределами родного мира.");
+        if (text.Contains("was lost in space."))
+            text = text.Replace("was lost in space.", "теряется в космосе.");
+        if (text.Contains("drifted away from their home planet."))
+            text = text.Replace("drifted away from their home planet.", "удаляется от своей родной планеты.");
+        if (text.Contains("was brought to kneel beyond their world."))
+            text = text.Replace("was brought to kneel beyond their world.", "вынужденно преклоняется за пределами родного мира.");
+        if (text.Contains("died within another realm."))
+            text = text.Replace("died within another realm.", "умирает в иной реальности.");
+        if (text.Contains("crumbled under the weight of Living Dead."))
+            text = text.Replace("crumbled under the weight of Living Dead.", "не выдерживает силу живого мертвеца.");
+        if (text.Contains("burnt to a crisp by continuing to move during Pyretic."))
+            text = text.Replace("burnt to a crisp by continuing to move during Pyretic.", "продолжает двигаться во время горячки, сгорая дотла.");
+        if (text.Contains("froze to death by staying still during Deep Freeze"))
+            text = text.Replace("froze to death by staying still during Deep Freeze", "остаётся неподвижным во время глубокой заморозки, замерзая до смерти.");
+        if (text.Contains("couldn't handle the vacuum of space."))
+            text = text.Replace("couldn't handle the vacuum of space.", "не выдерживает вакуума космоса.");
         
         text = text switch
         {
             // StarsAbove
-            // "The expanse around you begins to contract..." => "Окружающее пространство начинает сжиматься...",
-            // "The Stellar Array reaches new heights!" => "Звёздный ряд достигает новых высот!",
+            "The expanse around you begins to contract..." => "Окружающее пространство начинает сжиматься...",
+            "The Stellar Array reaches new heights!" => "Звёздный ряд достигает новых высот!",
             
             // Thorium
             "It appears to be waiting for night..." => "Похоже, оно ждёт наступления ночи...",
