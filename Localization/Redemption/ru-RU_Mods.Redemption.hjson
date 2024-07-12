@@ -110,119 +110,119 @@
 #
 #TitleCard: {
 #    FowlEmperor: {
-#        Name: Fowl Emperor
-#        Modifier: A Pompous Rooster
+#        Name: Император Кудах
+#        Modifier: Напыщенный петух
 #    }
 #
 #    Erhan: {
-#        Name: Erhan
-#        Modifier: Anglonic High Priest
+#        Name: Эрхан
+#        Modifier: Верховный жрец Ангулона
 #    }
 #
 #    Thorn: {
-#        Name: Thorn
-#        Modifier: Bane of the Forest
+#        Name: Тёрн
+#        Modifier: Погибель леса
 #    }
 #
 #    SoI: {
-#        Name: Seed of Infection
-#        Modifier: An Infectious Growth
+#        Name: Семя заражения
+#        Modifier: Инфекционный нарыв
 #    }
 #
 #    Keeper: {
-#        Name: The Keeper
-#        Modifier: Octavia von Gailon
+#        Name: Хранительница
+#        Modifier: Октавия фон Гэйлон
 #    }
 #
 #    KeeperSpirit: {
-#        Name: The Keeper's Echo
-#        Modifier: A Lingering Essence
+#        Name: Отголосок Хранительницы
+#        Modifier: Застрявшая сущность
 #    }
 #
 #    SkullDigger: {
-#        Name: Skull Digger
-#        Modifier: The Keeper's First Creation
+#        Name: Черепокоп
+#        Modifier: Первое создание Хранительницы
 #    }
 #
 #    Calavia: {
-#        Name: Calavia
-#        Modifier: Warrior of the Iron Realm
+#        Name: Калавия
+#        Modifier: Солдат Железного царства
 #    }
 #
 #    Golem: {
-#        Name: Eaglecrest Golem
-#        Modifier: Guardian of Eaglecrest Meadows
+#        Name: Голем Иглекреста
+#        Modifier: Страж лугов Иглекреста
 #    }
 #
 #    KS3: {
-#        Name: King Slayer III
-#        Modifier: Prototype Multium
+#        Name: Цареубийца III
+#        Modifier: Прототип Мультиум
 #    }
 #
 #    Behemoth: {
-#        Name: Irradiated Behemoth
-#        Modifier: An Unfortunate Scientist
+#        Name: Облученный исполин
+#        Modifier: Неудачливый учёный
 #    }
 #
 #    Blisterface: {
-#        Name: Blisterface
-#        Modifier: An Unfortunate Goldfish
+#        Name: Нарыволицый
+#        Modifier: Неудачливая золотая рыбка
 #    }
 #
 #    Janitor: {
-#        Name: The Janitor
-#        Modifier: A Janitor
+#        Name: Уборщик
+#        Modifier: Уборщик
 #    }
 #
 #    Volt: {
-#        Name: Protector Volt
-#        Modifier: Omega Division Commander
+#        Name: Защитник Вольт
+#        Modifier: Командир Омега-дивизиона
 #    }
 #
 #    MACE: {
-#        Name: MACE Project
-#        Modifier: Incomplete War Machine
+#        Name: Проект Б.У.Л.А.В.А.
+#        Modifier: Незаконченная машина войны
 #    }
 #
 #    Cleaver: {
-#        Name: Omega Cleaver
-#        Modifier: 1st Omega Prototype
+#        Name: Омега-двуручник
+#        Modifier: Омега-прототип №1
 #    }
 #
 #    Gigapora: {
-#        Name: Omega Gigapora
-#        Modifier: 2nd Omega Prototype
+#        Name: Омега-гиганожка
+#        Modifier: Омега-прототип №2
 #    }
 #
 #    OO: {
-#        Name: Omega Obliterator
-#        Modifier: 3rd Omega Prototype
+#        Name: Омега-облитератор
+#        Modifier: Омега-прототип №3
 #    }
 #
 #    PZ: {
-#        Name: Kari Johansson
-#        Modifier: Patient Zero
+#        Name: Кари Йоханссон
+#        Modifier: Нулевой пациент
 #    }
 #
 #    Ukko: {
-#        Name: Ukko
-#        Modifier: Ancient God of Weather
+#        Name: Укко
+#        Modifier: Древнее божество погоды
 #    }
 #
 #    Akka: {
-#        Name: Akka
-#        Modifier: Ancient Goddess of Nature
+#        Name: Акка
+#        Modifier: Древняя богиня природы
 #    }
 #
 #    Neb: {
-#        Name: Nebuleus
-#        Modifier: Angel of the Cosmos
-#        Ultimate: Ultimate Form
+#        Name: Небулеус
+#        Modifier: Ангел космоса
+#        Ultimate: Высшая форма
 #    }
 #
 #    Stage3Scientist: {
-#        Name: Stage 3 Infected Scientist
-#        Modifier: Crystal Horror
+#        Name: Учёный третьей стадии заражения
+#        Modifier: Кристальный ужас
 #    }
 #}
 #
@@ -361,7 +361,7 @@
 #    }
 #
 #    Death: {
-#        Infested: " burst into larva!"
+#        Infested: " взрывается личинками!"
 #        DirtyWound: " had an infection"
 #        Swarmed: " got nibbled to death"
 #        Xenomite: " was turned into a crystal"
@@ -872,37 +872,37 @@
 #
 #Cutscene: {
 #    NewbIntro: {
-#        1: What do you think, Jo-
-#        2: Who are you?!
-#        3: Where am I?
-#        4: Heyo, I'm Newb![1] Want to be friends?
+#        1: Что думаешь, Джо-
+#        2: Кто ты?!
+#        3: И где я?
+#        4: Здаров, я Ньюб![1] Будем друзьями?
 #    }
 #
 #    TreebarkDryad: {
-#        1: Now,[0.1] now.[0.5] Watch where you swing that axe of yours...[1] I don't want you chopping down any of my friends.
-#        2: "It will do no good,[0.1] young "
-#        3: man
-#        4: lady
-#        5: .[0.5] We bring no harm to you.[1] Chopping us down will only bring bad omens.
+#        1: Тише,[0.1] тише.[0.5] Смотри где размахиваешь своим топором...[1] я не хочу, чтобы ты разрубил моих друзей.
+#        2: "Это ни к чему хорошему не приведет,[0.1] "
+#        3: молодой человек
+#        4: молодая девушка
+#        5: .[0.5] Мы не приносим вам вреда.[1] Наше убийство приносит лишь несчастья.
 #    }
 #
 #    DaerelIntro: {
-#        1: Woah!
-#        2: Ow, my head hurts..
-#        3: Hey Zephos,[0.1] do you know where we are?
-#        4: "[@a]Uh..[0.5] Zephos?"
-#        5: "[@b]Oh, hi there![0.1] Didn't notice you."
-#        6: You haven't seen my friend around here,[0.1] have you?
+#        1: Воу!
+#        2: Ай, голова болит...
+#        3: Эй, Зефос,[0.1] не знаешь где мы?
+#        4: "[@a]Эм...[0.5] Зефос?"
+#        5: "[@b]Ой, привет![0.1] Извини, не сразу заметил."
+#        6: Не видел здесь моего друга,[0.1] нет?
 #        7: Guess he didn't jump in.[0.5] Oh well,[0.1] I'll head back to get him.
 #        8: I'm going to need a place for me to stay if I come back,[0.1] so, see you soon I suppose.
 #    }
 #
 #    ZephosIntro: {
-#        1: WAH!
-#        2: Jeez,[0.1] bad landing.
-#        3: Ey Daerel,[0.1] know where we are?
-#        4: "[@a]Uh..[0.5] Daerel?"
-#        5: "[@b]Oh,[0.1] hey there![0.1] Didn't notice you."
+#        1: ААА!
+#        2: Ох,[0.1] не и плохая посадка.
+#        3: Эй, Дейрел,[0.1] не знаешь где мы?
+#        4: "[@a]Э...[0.5] Дейрел?"
+#        5: "[@b]Ох,[0.1] привет![0.1] Не сразу заметил."
 #        6: You haven't happened upon a boy cloaked in black,[0.1] have you?
 #        7: Guess he didn't jump in.[0.5] Oh well![0.1] I'll head back to get him.
 #        8: I'll come back once I find him,[0.1] so ya better have a place for us to stay!
@@ -968,8 +968,8 @@
 #    }
 #
 #    Keeper: {
-#        1: Thank...
-#        2: You...
+#        1: Спа...
+#        2: ...сибо...
 #    }
 #
 #    SkullDigger: {
@@ -1148,46 +1148,46 @@
 #    }
 #
 #    WielderBot: {
-#        Funny1: I came here to kick gum
-#        Funny2: and chew ass...
-#        Funny3: ...And I'm all out of ass.
-#        Defeat: ...Nah.
+#        Funny1: Я пришёл пожевать зад
+#        Funny2: и надрать жевачку...
+#        Funny3: ...как видишь, зад у меня кончился.
+#        Defeat: ...мля.
 #    }
 #
 #    OO: {
 #        Intro: {
-#            1: Yo.
-#            2: So much for a surprise attack...
-#            2Alt: I guess I can't fool you twice,[0.1] huh.
-#            3: "[@a]Hang on,[0.1] I got a call from Girus."
-#            4: "'I wasted too much energy too quickly?'"
-#            5: "'I'm an idiot?'"
-#            6: You're scrapping my personality drive after this fight?
-#            7: "[@b]Ah well,[0.1] request accepted..."
-#            8: Anyway...
+#            1: Йоу.
+#            2: Вот тебе и неожиданная атака...
+#            2Alt: А тебя не обмануть дважды,[0.1] ха.
+#            3: "[@a]Подожди,[0.1] у меня звонок от Гирус."
+#            4: "'Я впустую потратил кучу энергии?'"
+#            5: "'Я идиот?'"
+#            6: После этой битвы ты сломаешь мой личностный диск?
+#            7: "[@b]Ну что ж,[0.1] просьба принята..."
+#            8: Начинаю...
 #        }
 #
-#        Ready: Ready for obliteration?
-#        DownedReady: PREPARE FOR OBLITERATION.
+#        Ready: Готов к облитерации?
+#        DownedReady: ГОТОВЬСЯ К ОБЛИТЕРАЦИИ.
 #
 #        Desperation: {
-#            1: SYSTEM OVERLOAD...
-#            2: Overload?[0.5] Damn right I'm overloading!
-#            3: My circuits are burning with energy![0.1] This is truly exhilarating!
-#            4: "[@d]OVERHEATING...[0.1] OVERHEATING...[0.1] OVERHEATING...[0.1]"
-#            5: Hahaha.[0.5] [@e]HAHAHAHAHAHAHA!
-#            6: THE POWER OF THE SUN IN MY VERY CORE!
-#            D1: SYSTEM OVERLOAD...
-#            D2: "[@d][@e]OVERHEATING...[0.1] OVERHEATING...[0.1] OVERHEATING...[0.1]"
-#            7: EYE BEAM! EYE BEAM! EYE BEAM! EYE BEAM!
-#            8: CRITICAL CONDITION REACHED...[0.5] SELF DESTRUCTING...
-#            9: Is it getting hot in here[0.1] or is it just m[@c]
+#            1: ПЕРЕГРУЗКА СИСТЕМ...
+#            2: Перегрузка?[0.5] Да, чёрт возьми, я перегружен!
+#            3: Мои проводники аж искрятся![0.1] Как же весело!
+#            4: "[@d]ПЕРЕГРЕВ...[0.1] ПЕРЕГРЕВ...[0.1] ПЕРЕГРЕВ...[0.1]"
+#            5: Хахаха.[0.5] [@e]ХАХАХАХАХАХАХА!
+#            6: МОЩЬ СОЛНЦА У МЕНЯ В ЯДРЕ!
+#            D1: ПЕРЕГРУЗКА СИСТЕМ...
+#            D2: "[@d][@e]ПЕРЕГРЕВ...[0.1] ПЕРЕГРЕВ...[0.1] ПЕРЕГРЕВ...[0.1]"
+#            7: ЛАЗЕР! ЛАЗЕР! ЛАЗЕР! ЛАЗЕР!
+#            8: СОСТОЯНИЕ СИСТЕМ КРИТИЧЕСКОЕ...[0.5] САМОУНИЧТОЖЕНИЕ...
+#            9: Мне кажется[0.1] или становится жар[@c]
 #        }
 #
 #        Success: {
-#            1: Alright,[0.1] target eliminated.
-#            2: Returning to base...
-#            D1: Target eliminated...
+#            1: Отлично,[0.1] цель уничтожена.
+#            2: Возвращаюсь на базу...
+#            D1: Цель уничтожена...
 #        }
 #    }
 #
@@ -1564,20 +1564,20 @@
 #
 #    Daerel: {
 #        Unconscious: Daerel the Wayfarer was knocked unconscious...
-#        Stay1: Feel free to stay here
-#        Stay2: Who are you?
-#        Advice: Advice
-#        Bow: Restring Bow (10 silver)
-#        Poison: Poison Weapon (25 silver)
+#        Stay1: Будь как дома
+#        Stay2: Кто ты?
+#        Advice: Совет
+#        Bow: Пристрелять лук (10 сер.монет)
+#        Poison: Отравить оружие (25 сер.монет)
 #    }
 #
 #    Zephos: {
 #        Unconscious: Zephos the Wayfarer was knocked unconscious...
-#        Stay1: Feel free to stay here
-#        Stay2: Who are you?
-#        Advice: Advice
-#        Sharpen: Sharpen (5 silver)
-#        ShineArmor: Shine Armor (15 silver)
+#        Stay1: Будь как дома
+#        Stay2: Кто ты?
+#        Advice: Совет
+#        Sharpen: Наточить (5 сер.монет)
+#        ShineArmor: Отполировать броню (15 сер.монет)
 #    }
 #
 #    SpiritWalkerMan: {
@@ -4233,7 +4233,7 @@
 #        DisplayName: King Slayer III Mask
 #        Tooltip:
 #            '''
-#            'Was he a slayer of kings or the king of slayers?'
+#            'Был ли он убийцей царей или царём убийц?'
 #            'Or maybe he thought it was a cool name'
 #            '''
 #    }
@@ -4254,7 +4254,7 @@
 #    }
 #
 #    OOMask: {
-#        DisplayName: Obliterator Mask
+#        DisplayName: Маска Облитератора
 #        Tooltip: "'Yo.'"
 #    }
 #
@@ -6899,12 +6899,12 @@
 #    }
 #
 #    KeeperRelic: {
-#        DisplayName: Keeper Relic
+#        DisplayName: Реликвия Хранительницы
 #        Tooltip: ""
 #    }
 #
 #    KeeperTrophy: {
-#        DisplayName: The Keeper Trophy
+#        DisplayName: Трофей Хранительницы
 #        Tooltip: ""
 #    }
 #
@@ -7100,8 +7100,8 @@
 #    }
 #
 #    AbandonedTeddy: {
-#        DisplayName: Abandoned Teddy
-#        Tooltip: Let the Keeper's spirit rest
+#        DisplayName: Брошенный мишка
+#        Tooltip: Позволяет духу Хранительницы упокоится
 #    }
 #
 #    AkkaBag: {
@@ -7193,7 +7193,7 @@
 #    }
 #
 #    KeeperBag: {
-#        DisplayName: Treasure Bag (The Keeper)
+#        DisplayName: Мешок с сокровищами (Хранительница)
 #        Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 #    }
 #
@@ -7563,7 +7563,7 @@
 #    }
 #
 #    AncientSigil: {
-#        DisplayName: Ancient Sigil
+#        DisplayName: Древний символ
 #        Tooltip:
 #            '''
 #            Reawakens an ancient power...
@@ -7573,7 +7573,7 @@
 #    }
 #
 #    AnomalyDetector: {
-#        DisplayName: Anomaly Detector
+#        DisplayName: Детектор аномалий
 #        Tooltip:
 #            '''
 #            Summons a strange portal...
@@ -7592,7 +7592,7 @@
 #    }
 #
 #    DemonScroll: {
-#        DisplayName: Forbidden Ritual
+#        DisplayName: Запретный ритуал
 #        Tooltip:
 #            '''
 #            May draw unwanted attention
@@ -7602,16 +7602,16 @@
 #    }
 #
 #    EaglecrestSpelltome: {
-#        DisplayName: Eaglecrest Spelltome
+#        DisplayName: Книга заклинаний Иглекреста
 #        Tooltip:
 #            '''
-#            Calls upon Eaglecrest Golem
+#            Призывает Голема Иглекреста
 #            Sold by Zephos/Daerel after Eater of Worlds/Brain of Cthulhu is defeated
 #            '''
 #    }
 #
 #    EggCrown: {
-#        DisplayName: Egg Crown
+#        DisplayName: Яичная корона
 #        Tooltip:
 #            '''
 #            Summons a regal rooster
@@ -7629,7 +7629,7 @@
 #    }
 #
 #    HeartOfThorns: {
-#        DisplayName: Heart of Thorns
+#        DisplayName: Терновое сердце
 #        Tooltip:
 #            '''
 #            Summons an unfortunate curse-bearer
@@ -7644,68 +7644,68 @@
 #    }
 #
 #    NebSummon: {
-#        DisplayName: Galaxy Stone
+#        DisplayName: Галактический камень
 #        Tooltip:
 #            '''
-#            Summons the Angel of the Cosmos
-#            Only usable at night
-#            Not consumable
+#            Призывает Ангела космоса
+#            Можно использовать только ночью
+#            Не расходуется
 #            '''
 #    }
 #
 #    OmegaTransmitter: {
-#        DisplayName: Omega Transmitter
+#        DisplayName: Омега-передатчик
 #        Tooltip:
 #            '''
-#            Summons an Omega Prototype
-#            Right-click to switch which prototype to summon
-#            Only usable at night
-#            Only usable after Plantera has been defeated
-#            Not consumable
+#            Призывает Омега-прототипы
+#            Нажмите ПКМ, чтобы сменить призываемый прототип
+#            Можно использовать только ночью
+#            Можно использовать только после победы над Плантерой
+#            Не расходуется
 #            '''
-#        Nothing: Nothing happens...
+#        Nothing: Ничего не происходит...
 #        NoOther: No other Prototypes available...
-#        First: 1st Omega Prototype
-#        Second: 2nd Omega Prototype
-#        Third: 3rd Omega Prototype
-#        Fourth: 4th Omega Prototype
+#        First: Омега-прототип №1
+#        Second: Омега-прототип №2
+#        Third: Омега-прототип №3
+#        Fourth: Омега-прототип №4
 #        TooltipNone: No Omega Prototypes can be called right now
 #        TooltipFirst:
 #            '''
-#            1st Omega Prototype
-#            'The corrupted blade draws near the power, thus beginning the final hour'
+#            Омега-прототип №1
+#            'Нечестивое лезвие тянется к силе, весь мир будет погребён навечно в могиле'
 #            '''
 #        TooltipSecond:
 #            '''
-#            2nd Omega Prototype
-#            'Mechanical whirls beneath the ground, be wary of the deadly sound'
+#            Омега-прототип №2
+#            'Механический лязг раздаётся под твердью, будь осторожен в играх со смертью'
 #            '''
 #        TooltipThird:
 #            '''
-#            3rd Omega Prototype
-#            'Feel the sense of frustration, prepare for obliteration'
+#            Омега-прототип №3
+#            'Почувствуйте же деморализацию, приготовьтесь к облитерации'
 #            Only usable after the first 2 Omega Prototypes have been defeated
 #            '''
 #        TooltipFourth:
 #            '''
-#            4th Omega Prototype
-#            'As the noise dies down, the end draws near; ******* **** **** ******, *** ****** ** ****'
+#            Омега-прототип №4
+#            'Звук раздаётся снизу, гибель становится ближе; ******* **** **** ******, *** ****** ** ****'
 #            Only usable after Nebuleus has been defeated
 #            '''
 #    }
 #
 #    WeddingRing: {
-#        DisplayName: Wedding Ring
+#        DisplayName: Обручальное кольцо
 #        Tooltip:
 #            '''
 #            Attracts the attention of a sorrowful mistress
-#            Only usable at night
-#            Not consumable
+#            Можно использовать только ночью
+#            Не расходуется
 #            '''
 #    }
 #
 #    ThornBag: {
-#        DisplayName: Treasure Bag (Thorn)
+#        DisplayName: Мешок с сокровищами (Тёрн)
 #        Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 #    }
 #
@@ -7780,7 +7780,7 @@
 #    }
 #
 #    Divinity: {
-#        DisplayName: Divinity
+#        DisplayName: Божественность
 #        Tooltip:
 #            '''
 #            Hold left-click to conjure a tiny sun and charge it up, draining mana
@@ -7834,7 +7834,7 @@
 #            '''
 #            Fires a barrage of nanites that enter enemies and destroy them from within
 #            Ignores a substantial amount of enemy defense
-#            'Nanomachines, son'
+#            'Наномашины, сынок'
 #            '''
 #    }
 #
@@ -8865,7 +8865,7 @@
 #    }
 #
 #    KeepersClaw: {
-#        DisplayName: Keeper's Claw
+#        DisplayName: Когти Хранительницы
 #        Tooltip:
 #            '''
 #            Hitting enemies with the slash inflicts Necrotic Gouge, causing them to burst into blood upon death
@@ -9078,7 +9078,7 @@
 #    }
 #
 #    KeepersKnife: {
-#        DisplayName: Keeper's Knife
+#        DisplayName: Нож Хранительницы
 #        Tooltip:
 #            '''
 #            Hitting enemies inflict Necrotic Gouge
@@ -10318,143 +10318,143 @@
 #}
 #
 #NPCs: {
-#    Akka.DisplayName: Akka
+#    Akka.DisplayName: Акка
 #
 #    EaglecrestGolem2: {
 #        DisplayName: "{$Mods.Redemption.NPCs.EaglecrestGolem.DisplayName}"
 #
 #        BossChecklistIntegration: {
 #            SpawnInfo: Place down and encase the [i:Redemption/GolemEye] within the stones of its origins, and it's true power will present itself.
-#            EntryName: Eaglecrest Golem Rematch
+#            EntryName: Матч-реванш против голема Иглекреста
 #        }
 #    }
 #
 #    EaglecrestRockPile2.DisplayName: "{$Mods.Redemption.NPCs.EaglecrestRockPile.DisplayName}"
 #
 #    Ukko: {
-#        DisplayName: Ukko
+#        DisplayName: Укко
 #
 #        BossChecklistIntegration: {
-#            SpawnInfo: Use an [i:Redemption/AncientSigil] at day.
-#            EntryName: Ancient Deity Duo
+#            SpawnInfo: Используйте [i:Redemption/AncientSigil] днём.
+#            EntryName: Древний божественный дуэт
 #        }
 #    }
 #
 #    OmegaCleaver: {
-#        DisplayName: Omega Cleaver
+#        DisplayName: Омега-двуручник
 #
 #        BossChecklistIntegration: {
-#            SpawnInfo: Use a [i:Redemption/OmegaTransmitter] at night after Plantera has been defeated.
-#            EntryName: 1st Omega Prototype
+#            SpawnInfo: Используйте [i:Redemption/OmegaTransmitter] ночью после победы над Плантерой.
+#            EntryName: Омега-прототип №1
 #        }
 #    }
 #
-#    Wielder.DisplayName: Wielder Bot
-#    Bible_Platform.DisplayName: Platform
-#    Bible_Platform2.DisplayName: Platform
+#    Wielder.DisplayName: Бот-владыка
+#    Bible_Platform.DisplayName: Платформа
+#    Bible_Platform2.DisplayName: Платформа
 #
 #    Erhan: {
-#        DisplayName: Erhan, Anglonic High Priest
+#        DisplayName: Эрхан, Верховный жрец Ангулона
 #
 #        BossChecklistIntegration: {
 #            DespawnMessage: Erhan bravely flew away...
 #            SpawnInfo: Use a [i:Redemption/DemonScroll]. Can be found at the surface portal.
-#            EntryName: Erhan
+#            EntryName: Эрхан
 #        }
 #    }
 #
-#    ErhanSpirit.DisplayName: Erhan's Spirit
+#    ErhanSpirit.DisplayName: Дух Эрхана
 #    PalebatImp.DisplayName: Palebat Imp
 #    Chickadier.DisplayName: Chickadier
 #    Chickenvoy.DisplayName: Chick Envoy
 #    CoopCrate.DisplayName: Coop Crate
 #
 #    FowlEmperor: {
-#        DisplayName: Fowl Emperor
+#        DisplayName: Император Кудах
 #
 #        BossChecklistIntegration: {
-#            DespawnMessage: The emperor tires of your shenanigans...
-#            SpawnInfo: Use an [i:Redemption/EggCrown] at day.
+#            DespawnMessage: Император устал от ваших выходок...
+#            SpawnInfo: Используйте [i:Redemption/EggCrown] днём.
 #        }
 #    }
 #
 #    FowlEmperor_Crown.DisplayName: Very Hittable Looking Crown
 #
 #    Gigapora: {
-#        DisplayName: Omega Gigapora
+#        DisplayName: Омега-гиганожка
 #
 #        BossChecklistIntegration: {
-#            SpawnInfo: Use a [i:Redemption/OmegaTransmitter] at night after Golem has been defeated.
-#            EntryName: 2nd Omega Prototype
+#            SpawnInfo: Используйте [i:Redemption/OmegaTransmitter] ночью после победы над Големом.
+#            EntryName: Омега-прототип №1
 #        }
 #    }
 #
-#    Gigapora_BodySegment.DisplayName: Omega Gigapora
+#    Gigapora_BodySegment.DisplayName: Омега-гиганожка
 #    Gigapora_ShieldCore.DisplayName: Shield Core
 #    Porakone.DisplayName: "{$Mods.Redemption.NPCs.Wielder.DisplayName}"
 #
 #    Keeper: {
-#        DisplayName: The Keeper
-#        BossChecklistIntegration.SpawnInfo: Use a [i:Redemption/WeddingRing] at night.
+#        DisplayName: Хранительница
+#        BossChecklistIntegration.SpawnInfo: Используйте [i:Redemption/WeddingRing] ночью.
 #    }
 #
-#    KeeperSpirit.DisplayName: The Keeper's Echo
+#    KeeperSpirit.DisplayName: Отголосок Хранительницы
 #
 #    KS3: {
-#        DisplayName: King Slayer III
+#        DisplayName: Цареубийца III
 #        BossChecklistIntegration.SpawnInfo: Use a [i:Redemption/CyberTech] at day, or attack Androids on the surface and allow them to teleport away.
 #    }
 #
-#    KS3_Clone.DisplayName: King Slayer III... ?
+#    KS3_Clone.DisplayName: Цареубийца III?.. 
 #    KS3_Magnet.DisplayName: Energy Magnet Drone Mk.I
 #    KS3_MissileDrone.DisplayName: Missile Drone Mk.I
 #    KS3_ScannerDrone.DisplayName: Scanner Drone Mk.I
-#    SpaceKeeper.DisplayName: Space Keeper
-#    Nebuleus_Clone.DisplayName: Nebuleus Mirage
+#    SpaceKeeper.DisplayName: Хранитель космоса
+#    Nebuleus_Clone.DisplayName: Иллюзия Небулеус
 #    Nebuleus2_Clone.DisplayName: "{$Mods.Redemption.NPCs.Nebuleus_Clone.DisplayName}"
 #
 #    Nebuleus: {
-#        DisplayName: Nebuleus, Angel of the Cosmos
+#        DisplayName: Небулеус, Ангел космоса
 #
 #        BossChecklistIntegration: {
 #            SpawnInfo: Use a [i:Redemption/NebSummon] at night, dropped from Star Serpents in the sky.
-#            EntryName: Nebuleus
+#            EntryName: Небулеус
 #        }
 #    }
 #
 #    Nebuleus2.DisplayName: "{$Mods.Redemption.NPCs.Nebuleus.DisplayName}"
 #
 #    OO: {
-#        DisplayName: Omega Obliterator
+#        DisplayName: Омега-облитератор
 #
 #        BossChecklistIntegration: {
 #            SpawnInfo: Use a [i:Redemption/OmegaTransmitter] at night after Moon Lord has been defeated.
-#            EntryName: 3rd Omega Prototype
+#            EntryName: Омега-прототип №3
 #        }
 #    }
 #
 #    PZ: {
-#        DisplayName: Patient Zero
+#        DisplayName: Нулевой пациент
 #        BossChecklistIntegration.SpawnInfo: Hit the closed eye of Patient Zero in the Abandoned Laboratory. Use a [i:Redemption/LabHologramDevice] in the arena to resummon.
 #    }
 #
 #    PZ_Body_Holo.DisplayName: "{$Mods.Redemption.NPCs.PZ.DisplayName}"
-#    PZ_Kari.DisplayName: Kari Johansson
+#    PZ_Kari.DisplayName: Кари Йоханссон
 #    SeedGrowth.DisplayName: Hive Growth
 #
 #    SoI: {
-#        DisplayName: Seed of Infection
-#        BossChecklistIntegration.SpawnInfo: Use an [i:Redemption/AnomalyDetector].
+#        DisplayName: Семя заражения
+#        BossChecklistIntegration.SpawnInfo: Используйте [i:Redemption/AnomalyDetector].
 #    }
 #
 #    Thorn: {
-#        DisplayName: Thorn, Bane of the Forest
-#        XmasName: Everthorn, Bane of the Holidays
+#        DisplayName: Тёрн, Погибель леса
+#        XmasName: Зеленотёрн, Погибель праздников
 #
 #        BossChecklistIntegration: {
-#            DespawnMessage: Thorn returned to his blighted forest...
-#            SpawnInfo: Use a [i:Redemption/HeartOfThorns] at day. Can be found on the surface near spawn.
-#            EntryName: Thorn
+#            DespawnMessage: Тёрн возвращается в заражённый лес...
+#            SpawnInfo: Используйте [i:Redemption/HeartOfThorns] днём. Can be found on the surface near spawn.
+#            EntryName: Тёрн
 #        }
 #    }
 #
@@ -10469,7 +10469,7 @@
 #    JohnSnail.DisplayName: John Snail
 #    Kabucra.DisplayName: Kabucra
 #    KabucraSpawner.DisplayName: Kabucra Spawner
-#    LongChicken.DisplayName: L o n g  Chicken
+#    LongChicken.DisplayName: Д л и н н а я  курица
 #    MoonflareBat.DisplayName: Moonflare Bat
 #    SandskinSpider.DisplayName: Sandskin Spider
 #    SpiderSwarmer.DisplayName: Spider Swarmer
@@ -10517,7 +10517,7 @@
 #    DaerelUnconscious.DisplayName: "{$Mods.Redemption.NPCs.Daerel_Intro.DisplayName}"
 #
 #    Fallen: {
-#        DisplayName: Fallen
+#        DisplayName: Падший
 #
 #        TownNPCMood: {
 #            Content: "{$Mods.Redemption.TownNPCMood.Fallen.Content}"
@@ -10560,7 +10560,7 @@
 #    LostSoulNPC.DisplayName: Lost Soul
 #
 #    Newb: {
-#        DisplayName: Fool
+#        DisplayName: Дурак
 #
 #        TownNPCMood: {
 #            Content: "{$Mods.Redemption.TownNPCMood.Newb.Content}"
@@ -10584,7 +10584,7 @@
 #        Census.SpawnCondition: Dig up the dirt mound beneath the surface portal
 #    }
 #
-#    Newb_Intro.DisplayName: Newb
+#    Newb_Intro.DisplayName: Ньюб
 #
 #    Noza_NPC: {
 #        DisplayName: Noza, Tamer of Evil
@@ -10650,7 +10650,7 @@
 #        Census.SpawnCondition: Defeat the Seed of Infection and have a suitable house
 #    }
 #
-#    TBot_Intro.DisplayName: Adam
+#    TBot_Intro.DisplayName: Адам
 #    TBotUnconscious.DisplayName: "{$Mods.Redemption.NPCs.TBot_Intro.DisplayName}"
 #
 #    TreebarkDryad: {
@@ -10685,7 +10685,7 @@
 #        Census.SpawnCondition: Have a suitable house in a Corruption world, after meeting him at the surface portal after the first night
 #    }
 #
-#    Zephos_Intro.DisplayName: Zephos
+#    Zephos_Intro.DisplayName: Зефос
 #    ZephosUnconscious.DisplayName: "{$Mods.Redemption.NPCs.Zephos_Intro.DisplayName}"
 #    Android.DisplayName: Android Mk.I
 #    PrototypeSilver.DisplayName: Prototype Silver Mk.I
@@ -10696,17 +10696,17 @@
 #    BlisteredScientist.DisplayName: Blistered Scientist
 #    BlisteredFish.DisplayName: Blistered Fish
 #    BlisteredFish2.DisplayName: "{$Mods.Redemption.NPCs.BlisteredFish.DisplayName}"
-#    Blisterface.DisplayName: Blisterface
+#    Blisterface.DisplayName: Нарыволицый
 #    Blisterface_Holo.DisplayName: "{$Mods.Redemption.NPCs.Blisterface.DisplayName}"
 #    BloatedScientist.DisplayName: Bloated Scientist
-#    CraneOperator.DisplayName: Crane Operator
-#    JanitorBot.DisplayName: The Janitor
+#    CraneOperator.DisplayName: Оператор крана
+#    JanitorBot.DisplayName: Уборщик
 #    JanitorBot_Cleaning.DisplayName: "{$Mods.Redemption.NPCs.JanitorBot.DisplayName}"
 #    JanitorBot_Defeated.DisplayName: "{$Mods.Redemption.NPCs.JanitorBot.DisplayName}"
 #    JanitorBot_Holo.DisplayName: "{$Mods.Redemption.NPCs.JanitorBot.DisplayName}"
 #    JanitorBot_NPC.DisplayName: "{$Mods.Redemption.NPCs.JanitorBot.DisplayName}"
 #    LabSentryDrone.DisplayName: Laboratory Drone
-#    MACEProject.DisplayName: MACE Project
+#    MACEProject.DisplayName: Проект Б.У.Л.А.В.А.
 #    MACEProject_Holo.DisplayName: "{$Mods.Redemption.NPCs.MACEProject.DisplayName}"
 #    MACEProject_Off.DisplayName: "{$Mods.Redemption.NPCs.MACEProject.DisplayName}"
 #    OozeBlob.DisplayName: Ooze Blob
