@@ -1,21 +1,21 @@
 ﻿#TownNPCMood: {
 #    Daerel: {
-#        Content: I'm rather content right now.
-#        NoHome: Hey, I'd quite like a roof under my head if that's alright with you.
-#        FarFromHome: Could you please get me back to my house? This land is quite scary.
-#        LoveSpace: I like the space I have here, plenty of room to practice my archery.
-#        DislikeCrowded: I'm somewhat of an introvert, so all these people near me is quite unnerving.
-#        HateCrowded: I'm somewhat of an introvert, so all these people near me is quite unnerving.
-#        LoveBiome: I think {BiomeName} is perfect, calm and tranquil.
-#        LikeBiome: I think {BiomeName} is a very nice place, I hardly see any snow where I was from.
-#        DislikeBiome: I don't really like {BiomeName}, I'd hate to have a run-in with skeletons!
-#        HateBiome: Why'd you put me in {BiomeName}? You know how hostile jungles are!?
-#        LoveNPC: Me and {NPCName} are great friends, thank you for letting us live in the same town.
-#        LikeNPC: "{NPCName} is good company, she's great at styling my hair too... That's not weird, right?"
-#        DislikeNPC: "{NPCName} keeps trying to get me to buy his dirt."
-#        HateNPC: Psst, could you move {NPCName} far away from me, I'm already super broke as is.
-#        LikeNPC_Princess: I like {NPCName}.
-#        Princess_LovesNPC: I like {NPCName}.
+#        Content: Сейчас я вполне доволен.
+#        NoHome: Слушай, мне бы не помешала крыша над головой, если ты не против.
+#        FarFromHome: Можешь, пожалуйста, проводить меня домой? Здесь очень страшно.
+#        LoveSpace: Мне тут нравится, места много - есть где потренироваться в стрельбе из лука.
+#        DislikeCrowded: Я по натуре интроверт, так что все эти люди рядом меня реально напрягают.
+#        HateCrowded: Я по натуре интроверт, так что все эти люди рядом меня реально напрягают.
+#        LoveBiome: Я считаю, что {BiomeName} просто идеален, спокоен и умиротворён.
+#        LikeBiome: Я считаю, что {BiomeName} – восхитительное место. Там, откуда я родом, снега почти не бывает.
+#        DislikeBiome: Признаться, мне не по душе {BiomeName}. Не хотелось бы столкнуться там со скелетами!
+#        HateBiome: Какого лешего ты разместил меня в {BiomeName}? Или ты не знаешь, как опасны джунгли?!
+#        LoveNPC: Мы с {NPCName} не разлей вода, спасибо за то, что разрешил нам жить в одном городе.
+#        LikeNPC: "{NPCName} - классная подружка, ещё и волосы мне укладывает... Это ведь не странно, правда?"
+#        DislikeNPC: "{NPCName} не устаёт уговаривать меня купить его грязь."
+#        HateNPC: Псс, не мог бы ты отселить от меня куда-нибудь {NPCName}? Я и так еле-еле свожу концы с концами.
+#        LikeNPC_Princess: Мне нравится {NPCName}.
+#        Princess_LovesNPC: Мне нравится {NPCName}.
 #    }
 #
 #    Fallen: {
@@ -387,8 +387,8 @@
 #    }
 #
 #    Other: {
-#        Warning1: WARNING: Unable to locate a certain structure, new world is recommended!
-#        Warning2: WARNING: Unable to locate important structure, new world is required!
+#        Warning1: ПРЕДУПРЕЖДЕНИЕ: Не удалось найти определённую структуру, рекомендуется создать новый мир!
+#        Warning2: ПРЕДУПРЕЖДЕНИЕ: Не удалось найти важную структуру, рекомендуется создать новый мир!
 #        Caution: CAUTION: You have a Funni config enabled that affects world gen. If you created a world just now, check which one you have enabled and disable it for next time.
 #        Keeper1: Shrieks echo through the night...
 #        Keeper2: The Keeper noticed the abandoned teddy you're holding...
@@ -3058,14 +3058,14 @@
 #            Wouldn't you like to know! I'm a bit early to the party - apparently I'm meant to be in the "full 0.8 update"... Whatever that means.
 #            But I got impatient so here I am! With nothing to do! There isn't even anything unique here!
 #            '''
-#        Dialogue1: Nice horns, did your MOM make them for you? WHEHEHEHEHE!
-#        Dialogue2: EEK! Get that holy weapon AWAY from me!
-#        Dialogue3: Yuck! What's with that ring over your head? No goody-two-shoes in MY bastion!
-#        Dialogue4TBot: What is a SILLY LITTLE METAL BUCKET doing in MY bastion!?
-#        Dialogue5TBot: What even are you? Some sort of bucket cosplayer!? Wehehehe!
-#        Dialogue4: What is a SILLY LITTLE HUMAN doing in MY bastion!?
-#        Dialogue5: Look at ITTY BITTY you! Whehehehe! Humans look so STUPID!
-#        Dialogue6: Wow! I forgot how TINY humans were! Whehehehe!
+#        Dialogue1: Клёвые рожки! Твоя МАМАША, что ль, постаралась? ВА-ХА-ХА-ХА-ХА!
+#        Dialogue2: АХ! У-убери эту святую хреновину от меня ПОДАЛЬШЕ!
+#        Dialogue3: Фи! Что за сияющий круг над твоей головой? Святошей в МОЕЙ крепости ещё не хватало!
+#        Dialogue4TBot: Откуда в моей крепости взялась эта НИЧТОЖНАЯ ЖЕСТЯНАЯ КАСТРЮЛЯ?!
+#        Dialogue5TBot: Ты кто вообще такой? Косплеер какого-то ведра?! Ух-ха-ха-ха!
+#        Dialogue4: Как посмел этот ничтожный человечишка проникнуть в МОЮ крепость?!
+#        Dialogue5: Ты глянь, какая МАЛЯВКА! Уха-ха-ха! Людишки такие ДУРАЦКИЕ на вид!
+#        Dialogue6: Ого! Я и забыла какие людишки БУКАШКИ! Ва-ха-ха-ха!
 #    }
 #
 #    SkullDigger: {
