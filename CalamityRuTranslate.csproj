@@ -21,7 +21,7 @@
       <HintPath>..\ModAssemblies\NoxusBoss_v1.1.25.dll</HintPath>
     </Reference>
     <Reference Include="StarsAbove">
-      <HintPath>..\ModAssemblies\StarsAbove_v2.1.1.0.dll</HintPath>
+      <HintPath>..\ModAssemblies\StarsAbove_v2.1.1.2.dll</HintPath>
     </Reference>
     <Reference Include="ThoriumMod">
       <HintPath>..\ModAssemblies\ThoriumMod_v1.7.1.4.dll</HintPath>
