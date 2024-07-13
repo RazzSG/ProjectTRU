@@ -1,112 +1,4 @@
-﻿#TownNPCMood: {
-#    Daerel: {
-#        Content: Сейчас я вполне доволен.
-#        NoHome: Слушай, мне бы не помешала крыша над головой, если ты не против.
-#        FarFromHome: Можешь, пожалуйста, проводить меня домой? Здесь очень страшно.
-#        LoveSpace: Мне тут нравится, места много - есть где потренироваться в стрельбе из лука.
-#        DislikeCrowded: Я по натуре интроверт, так что все эти люди рядом меня реально напрягают.
-#        HateCrowded: Я по натуре интроверт, так что все эти люди рядом меня реально напрягают.
-#        LoveBiome: Я считаю, что {BiomeName} просто идеален, спокоен и умиротворён.
-#        LikeBiome: Я считаю, что {BiomeName} – восхитительное место. Там, откуда я родом, снега почти не бывает.
-#        DislikeBiome: Признаться, мне не по душе {BiomeName}. Не хотелось бы столкнуться там со скелетами!
-#        HateBiome: Какого лешего ты разместил меня в {BiomeName}? Или ты не знаешь, как опасны джунгли?!
-#        LoveNPC: Мы с {NPCName} не разлей вода, спасибо за то, что разрешил нам жить в одном городе.
-#        LikeNPC: "{NPCName} - классная подружка, ещё и волосы мне укладывает... Это ведь не странно, правда?"
-#        DislikeNPC: "{NPCName} не устаёт уговаривать меня купить его грязь."
-#        HateNPC: Псс, не мог бы ты отселить от меня куда-нибудь {NPCName}? Я и так еле-еле свожу концы с концами.
-#        LikeNPC_Princess: Мне нравится {NPCName}.
-#        Princess_LovesNPC: Мне нравится {NPCName}.
-#    }
-#
-#    Fallen: {
-#        Content: Nice little place ya got here.
-#        NoHome: I'd prefer to have a house.
-#        FarFromHome: Could ya take me back to my home?
-#        LoveSpace: This place is a wee bit spacious, not complaining though, I quite like it.
-#        DislikeCrowded: All these humans are makin' my bones rattle.
-#        HateCrowded: All these humans are makin' my bones rattle.
-#        LoveBiome: The caverns are perfect for us Fallen, not many humans come and go here.
-#        LikeBiome: Aah, {BiomeName} reminds me of when I was still alive in Gathuram. Good times they were.
-#        DislikeBiome: I'm staying in {BiomeName}? Not my preferred place to live, I'd hate to have a run-in with aggressive humans!
-#        HateBiome: I hate it here, {BiomeName} has some holy energy in it makin' my flesh crawl.
-#        LoveNPC: "{NPCName} sells some nifty gadgets, knows how to rip people off too. I like that."
-#        LikeNPC: "{NPCName} got somethin' about him I like."
-#        DislikeNPC: "{NPCName} keeps lookin' at me with suspicion. Probably wants to 'purify' me."
-#        HateNPC: "{NPCName} keeps thinking I'm some dying old man, insisting that she'll heal me. Please get me away from her."
-#        LikeNPC_Princess: I like {NPCName}, she's alright.
-#        Princess_LovesNPC: I like {NPCName}, he reminds me of an old man.
-#    }
-#
-#    Newb: {
-#        Content: I like it here!
-#        NoHome: Where's home?
-#        FarFromHome: I am so lost...can you lead me back?
-#        LoveSpace: So little people, yay!
-#        DislikeCrowded: Too many faces!
-#        HateCrowded: Too many faces!
-#        LoveBiome: I love {BiomeName}! It gives me nice memories of...uhhh...
-#        LikeBiome: I like {BiomeName}. Green is nice.
-#        DislikeBiome: Too boring here, I hate sand!
-#        HateBiome: ...{BiomeName} makes me feel sad, for some reason.
-#        LoveNPC: "{NPCName} knows magic like me!"
-#        LikeNPC: I like {NPCName}!
-#        DislikeNPC: I feel evil within {NPCName}, very bad!
-#        HateNPC: My hatred towards {NPCName} is beyond your mortal comprehension.
-#        LikeNPC_Princess: "{NPCName} reminds me of...me, somehow! I like her."
-#        Princess_LovesNPC: "{NPCName} is goofy, I like him!"
-#    }
-#
-#    TBot: {
-#        Content: Feeling rather content, thank you for asking.
-#        NoHome: I don't like being exposed to the elements. Do you have any housing or shelter I could inhabit for now?
-#        FarFromHome: ... I believe we're very lost. I'm not familiar with our surroundings.
-#        LoveSpace: It's rather quiet around here.
-#        DislikeCrowded: Other tenants seem unhappy with the amount of crowding here, and frankly, so am I.
-#        HateCrowded: Other tenants seem unhappy with the amount of crowding here, and frankly, so am I.
-#        LoveBiome: I like this environment. It's very pleasant.
-#        LikeBiome: This environment is mildly pleasant.
-#        DislikeBiome: My current environment is rather... undesirable.
-#        HateBiome: ... Just like home. I really do not like this environment.
-#        LoveNPC: "{NPCName}'s knowledge on medicine rivals that of mine! It's really impressive."
-#        LikeNPC: "{NPCName} and I have things in common. We get along well."
-#        DislikeNPC: I find {NPCName} rather unsettling.
-#        HateNPC: "{NPCName} reminds me of home. I'd rather not be reminded of that place."
-#        LikeNPC_Princess: I like {NPCName}.
-#        Princess_LovesNPC: I like {NPCName}.
-#    }
-#
-#    Zephos: {
-#        Content: I'm alright.
-#        NoHome: Yo, mind if you give me a house to stay in?
-#        FarFromHome: Yo bro, I can't find my house, you wanna help me out?
-#        LoveSpace: This place is super spacious, good for practicing my swordsmanship!
-#        DislikeCrowded: Is it crowded in here or what!
-#        HateCrowded: Is it crowded in here or what!
-#        LoveBiome: Staying at {BiomeName} reminds me of when I was a young pirate, sailing the seas!
-#        LikeBiome: I think {BiomeName} is nice, I can hear the birds singing and flowers blooming.
-#        DislikeBiome: Not a fan of {BiomeName}, I'd rather live on the surface.
-#        HateBiome: It's so cold here, I'm shaking in my boots!
-#        LoveNPC: "{NPCName} and I are great friends, so living near each other is great!"
-#        LikeNPC: "{NPCName} is cool, I'd like to sail the seas with him sometime."
-#        DislikeNPC: "{NPCName} wants to get his greedy little fingers on my money!"
-#        HateNPC: "{NPCName} will never take my money! NEVER!!"
-#        LikeNPC_Princess: I like {NPCName}.
-#        Princess_LovesNPC: I like {NPCName}.
-#    }
-#}
-#
-#Emotes: {
-#    AdamTownNPCEmote.Command: moradam
-#    DaerelTownNPCEmote.Command: mordaerel
-#    ForestNymphTownNPCEmote.Command: morforestnymph
-#    HappinsTownNPCEmote.Command: morhappins
-#    NewbTownNPCEmote.Command: mornewb
-#    OkvotTownNPCEmote.Command: morokvot
-#    TenvonTownNPCEmote.Command: mortenvon
-#    ZephosTownNPCEmote.Command: morzephos
-#}
-#
-#Currencies.AntiqueDorulCurrency: antique doruls
+﻿#Currencies.AntiqueDorulCurrency: antique doruls
 #
 #TitleCard: {
 #    FowlEmperor: {
@@ -141,7 +33,7 @@
 #
 #    SkullDigger: {
 #        Name: Черепокоп
-#        Modifier: Первое создание Хранительницы
+#        Modifier: Первое детище Хранительницы
 #    }
 #
 #    Calavia: {
@@ -160,13 +52,13 @@
 #    }
 #
 #    Behemoth: {
-#        Name: Облученный исполин
+#        Name: Облучённый исполин
 #        Modifier: Неудачливый учёный
 #    }
 #
 #    Blisterface: {
 #        Name: Нарыволицый
-#        Modifier: Неудачливая золотая рыбка
+#        Modifier: Невезучая золотая рыбка
 #    }
 #
 #    Janitor: {
@@ -181,7 +73,7 @@
 #
 #    MACE: {
 #        Name: Проект Б.У.Л.А.В.А.
-#        Modifier: Незаконченная машина войны
+#        Modifier: Незавершённая машина войны
 #    }
 #
 #    Cleaver: {
@@ -195,7 +87,7 @@
 #    }
 #
 #    OO: {
-#        Name: Омега-облитератор
+#        Name: Омега-Облитератор
 #        Modifier: Омега-прототип №3
 #    }
 #
@@ -228,10 +120,10 @@
 #
 #FlavorTextBestiary: {
 #    Multiplier: Elemental Multipliers
-#    Daerel: A traveller from mainland Epidotra who is friends with Zephos. Most skilled at archery and stealth.
-#    Zephos: A traveller from mainland Epidotra who is friends with Daerel. Most skilled at swordplay.
-#    Fallen: Fallen are a category of undead with a soul strong enough to form pale brown flesh. Most being aggressive towards humans, this one is a rare case who can sell ritualist equipment and repair fragments of ancient weapons.
-#    TBot1: Quiet, mildly melancholic but happy to help you, Adam is an android and the leader of a small group called the Alpha. They are your go-to guide for all-things Liden.
+#    Daerel: Путешественник с материковой части Эпидотры, и по совместительству друг Зефоса. Мастерски владеет луком и искусством скрытности.
+#    Zephos: Путешественник с материковой части Эпидотры, и по совместительству друг Дэрела. Мастер фехтования.
+#    Fallen: Падшие представляют собой вид нежити, обладающий душой, достаточно мощной, чтобы сформировать бледно-коричневую плоть. В основном они враждебны к людям, но этот уникальный представитель может продавать ритуальное снаряжение и восстанавливать фрагменты древнего оружия.
+#    TBot1: Молчаливый, немного меланхоличный, но всегда готовый помочь, Адам является андроидом и возглавляет небольшую группу под названием Альфа. Он основной источник информации обо всём, что связано с Лиденом.
 #    TBot2: '''"I may be the only one of my kind to honor all Three Laws... I can't assure the others will take you in with open arms like I did. Stay safe out there."'''
 #    LostSoul: Lost Souls search around the world to look for corpses to infuse with. They roam catacombs and graveyards, sometimes taking many days to find a compatible vessel.
 #    BoneSpider: A skeletal spider ready to spook you at any moment! Don't worry, it's not technically a spider; spiders don't have bones.
@@ -362,19 +254,19 @@
 #
 #    Death: {
 #        Infested: " взрывается личинками!"
-#        DirtyWound: " had an infection"
-#        Swarmed: " got nibbled to death"
-#        Xenomite: " was turned into a crystal"
-#        Radiation: " was irradiated"
-#        Incandesence: " was too glorious"
-#        Ensnared: " got consumed by the thorns"
-#        Nuclear1: " saw a second sunrise"
-#        Nuclear2: " was wiped off the face of "
-#        Nuclear3: " experienced doomsday"
-#        Nuclear4: " became a shadow on the ground"
-#        Nuclear5: " went out with a bang"
-#        Nuclear6: " couldn't find the fridge in time"
-#        DoorStuck: " experienced DOOR STUCK."
+#        DirtyWound: " заражается инфекцией."
+#        Swarmed: " растерзан в клочья."
+#        Xenomite: " превращается в кристалл."
+#        Radiation: " подвергается облучению."
+#        Incandesence: " становится слишком великолепным."
+#        Ensnared: " оказывается в плену шипов."
+#        Nuclear1: " наблюдает второй рассвет."
+#        Nuclear2: " стирается с лица земли "
+#        Nuclear3: " застал апокалипсис."
+#        Nuclear4: " превратился в тень на земле."
+#        Nuclear5: " завершает жизнь с огоньком."
+#        Nuclear6: " не находит вовремя холодильник."
+#        DoorStuck: " застревает в ДВЕРЯХ."
 #    }
 #
 #    Event: {
@@ -414,15 +306,15 @@
 #        HolyBonus: "[i:Redemption/Holy] Increased damage to undead and demons"
 #        IceBonus: "[i:Redemption/Ice] Chance to freeze slimes and slow down infected enemies"
 #        NatureBonus: "[i:Redemption/Nature] Has a chance to drop a defence-increasing Nature Boon upon hitting enemies inflicted with a non-fire debuff"
-#        PoisonBonus: "[i:Redemption/Poison] Increased damage to poisoned enemies"
+#        PoisonBonus: "[i:Redemption/Poison] Наносит больше урона отравленным целям"
 #        PsychicBonus: "[i:Redemption/Psychic] Ignores enemy Guard Points"
 #        ShadowBonus: "[i:Redemption/Shadow] Slain enemies have a chance to drop a pickup which increases Shadow damage"
 #        ThunderBonus: "[i:Redemption/Thunder] Electrifies and deals extra damage if the target is in water"
 #        WaterBonus: "[i:Redemption/Water] Increased damage to demons and can electrify robotic targets"
-#        WindBonus: "[i:Redemption/Wind] Deals extra knockback to airborne targets"
+#        WindBonus: "[i:Redemption/Wind] Наносит дополнительное отбрасывание воздушным целям"
 #    }
 #
-#    RodOfHarmonyLine: Causes the chaos state while a Redemption boss is active
+#    RodOfHarmonyLine: Накладывает дебафф «{$BuffName.ChaosState}» во время битвы с боссами из Redemption
 #
 #    ArmorSetBonus: {
 #        VanillaArmor: {
@@ -435,7 +327,7 @@
 #            Damage: " elemental damage"
 #        }
 #
-#        LivingWood: Immune to poison, increases your max number of minions
+#        LivingWood: Даёт невосприимчивость к дебаффу «{$BuffName.Poisoned}» и увеличивает призываемое число миньонов на 1
 #        CommonGuardHelm1: 12% increased melee speed
 #        CommonGuardHelm2: Reduces damage taken by 6%
 #
@@ -872,7 +764,7 @@
 #
 #Cutscene: {
 #    NewbIntro: {
-#        1: Что думаешь, Джо-
+#        1: Что думаешь, Джо...
 #        2: Кто ты?!
 #        3: И где я?
 #        4: Здаров, я Ньюб![1] Будем друзьями?
@@ -880,32 +772,32 @@
 #
 #    TreebarkDryad: {
 #        1: Тише,[0.1] тише.[0.5] Смотри где размахиваешь своим топором...[1] я не хочу, чтобы ты разрубил моих друзей.
-#        2: "Это ни к чему хорошему не приведет,[0.1] "
+#        2: "Это ни к чему хорошему не приведёт,[0.1] "
 #        3: молодой человек
 #        4: молодая девушка
-#        5: .[0.5] Мы не приносим вам вреда.[1] Наше убийство приносит лишь несчастья.
+#        5: .[0.5] Мы безвредны для тебя.[1] Наша гибель станет предвестником несчастий.
 #    }
 #
 #    DaerelIntro: {
 #        1: Воу!
-#        2: Ай, голова болит...
+#        2: Ай, как же болит голова...
 #        3: Эй, Зефос,[0.1] не знаешь где мы?
 #        4: "[@a]Эм...[0.5] Зефос?"
-#        5: "[@b]Ой, привет![0.1] Извини, не сразу заметил."
-#        6: Не видел здесь моего друга,[0.1] нет?
-#        7: Guess he didn't jump in.[0.5] Oh well,[0.1] I'll head back to get him.
-#        8: I'm going to need a place for me to stay if I come back,[0.1] so, see you soon I suppose.
+#        5: "[@b]Ой, привет![0.1] Не сразу тебя заметил."
+#        6: Не видел здесь моего приятеля,[0.1] нет?
+#        7: Похоже, он не прыгнул.[0.5] Что ж,[0.1] вернусь за ним.
+#        8: Если вернусь, мне нужно будет где-то остановиться,[0.1] так что, до скорого.
 #    }
 #
 #    ZephosIntro: {
-#        1: ААА!
-#        2: Ох,[0.1] не и плохая посадка.
-#        3: Эй, Дейрел,[0.1] не знаешь где мы?
-#        4: "[@a]Э...[0.5] Дейрел?"
-#        5: "[@b]Ох,[0.1] привет![0.1] Не сразу заметил."
-#        6: You haven't happened upon a boy cloaked in black,[0.1] have you?
-#        7: Guess he didn't jump in.[0.5] Oh well![0.1] I'll head back to get him.
-#        8: I'll come back once I find him,[0.1] so ya better have a place for us to stay!
+#        1: А-А-А!
+#        2: Ох ё-моё,[0.1] жёстко приземлился.
+#        3: Эй, Дэрел,[0.1] не в курсе, где мы?
+#        4: "[@a]Э-э...[0.5] Дэрел?"
+#        5: "[@b]Ой,[0.1] привет![0.1] Не сразу тебя заметил."
+#        6: Не видел здесь парня в чёрном плаще,[0.1] нет?
+#        7: Похоже, он не прыгнул.[0.5] Ладно![0.1] Вернусь за ним.
+#        8: Вернусь, как только его найду,[0.1] так что будь добр подготовить место для ночлега!
 #    }
 #
 #    Erhan: {
@@ -1159,11 +1051,11 @@
 #            1: Йоу.
 #            2: Вот тебе и неожиданная атака...
 #            2Alt: А тебя не обмануть дважды,[0.1] ха.
-#            3: "[@a]Подожди,[0.1] у меня звонок от Гирус."
+#            3: "[@a]Погодь,[0.1] Гирус звонит."
 #            4: "'Я впустую потратил кучу энергии?'"
 #            5: "'Я идиот?'"
-#            6: После этой битвы ты сломаешь мой личностный диск?
-#            7: "[@b]Ну что ж,[0.1] просьба принята..."
+#            6: После этой битвы ты сотрёшь мою личность?
+#            7: "[@b]Что ж,[0.1] запрос принят..."
 #            8: Начинаю...
 #        }
 #
@@ -1175,19 +1067,19 @@
 #            2: Перегрузка?[0.5] Да, чёрт возьми, я перегружен!
 #            3: Мои проводники аж искрятся![0.1] Как же весело!
 #            4: "[@d]ПЕРЕГРЕВ...[0.1] ПЕРЕГРЕВ...[0.1] ПЕРЕГРЕВ...[0.1]"
-#            5: Хахаха.[0.5] [@e]ХАХАХАХАХАХАХА!
+#            5: Ха-ха-ха.[0.5] [@e]ХА-ХА-ХА-ХА-ХА-ХА-ХА!
 #            6: МОЩЬ СОЛНЦА У МЕНЯ В ЯДРЕ!
 #            D1: ПЕРЕГРУЗКА СИСТЕМ...
 #            D2: "[@d][@e]ПЕРЕГРЕВ...[0.1] ПЕРЕГРЕВ...[0.1] ПЕРЕГРЕВ...[0.1]"
 #            7: ЛАЗЕР! ЛАЗЕР! ЛАЗЕР! ЛАЗЕР!
 #            8: СОСТОЯНИЕ СИСТЕМ КРИТИЧЕСКОЕ...[0.5] САМОУНИЧТОЖЕНИЕ...
-#            9: Мне кажется[0.1] или становится жар[@c]
+#            9: Мне кажется[0.1] или становится жар...[@c]
 #        }
 #
 #        Success: {
-#            1: Отлично,[0.1] цель уничтожена.
+#            1: Отлично,[0.1] цель ликвидирована.
 #            2: Возвращаюсь на базу...
-#            D1: Цель уничтожена...
+#            D1: Цель ликвидирована...
 #        }
 #    }
 #
@@ -1565,19 +1457,19 @@
 #    Daerel: {
 #        Unconscious: Daerel the Wayfarer was knocked unconscious...
 #        Stay1: Будь как дома
-#        Stay2: Кто ты?
+#        Stay2: Ты кто такой?
 #        Advice: Совет
-#        Bow: Пристрелять лук (10 сер.монет)
-#        Poison: Отравить оружие (25 сер.монет)
+#        Bow: Пристрелять лук (10 сер. монет)
+#        Poison: Отравить оружие (25 сер. монет)
 #    }
 #
 #    Zephos: {
 #        Unconscious: Zephos the Wayfarer was knocked unconscious...
 #        Stay1: Будь как дома
-#        Stay2: Кто ты?
+#        Stay2: Ты кто такой?
 #        Advice: Совет
-#        Sharpen: Наточить (5 сер.монет)
-#        ShineArmor: Отполировать броню (15 сер.монет)
+#        Sharpen: Наточить (5 сер. монет)
+#        ShineArmor: Отполировать броню (15 сер. монет)
 #    }
 #
 #    SpiritWalkerMan: {
@@ -1644,8 +1536,8 @@
 #
 #    TBot: {
 #        Unconscious: Adam the Friendly T-Bot was knocked unconscious...
-#        FloppyDisc: Read Floppy Disk
-#        NextPage: Next Page (1/2)
+#        FloppyDisc: Прочитать дискету
+#        NextPage: След. страница (1/2)
 #        Next: " (2/2)"
 #    }
 #
@@ -2366,22 +2258,22 @@
 #    }
 #
 #    ShineArmour2Buff: {
-#        DisplayName: Shined Armor II
-#        Description: Increased defense
+#        DisplayName: Отполированная броня II
+#        Description: Защита увеличена
 #    }
 #
 #    ShineArmour3Buff: {
-#        DisplayName: Shined Armor III
-#        Description: Greatly increased defense
+#        DisplayName: Отполированная броня III
+#        Description: Защита значительно увеличена
 #    }
 #
 #    ShineArmourBuff: {
-#        DisplayName: Shined Armor
-#        Description: Increased defense
+#        DisplayName: Отполированная броня
+#        Description: Защита увеличена
 #    }
 #
 #    SoulBaubleBuff: {
-#        DisplayName: Magic Absorption
+#        DisplayName: Поглощение магии
 #        Description: Increased magic damage from draining enemies
 #    }
 #
@@ -2447,7 +2339,7 @@
 #
 #    IslandDebuff: {
 #        DisplayName: Island Debuff
-#        Description: Mods.Redemption.Buffs.IslandDebuff.Description
+#        Description: ""
 #    }
 #
 #    SoakedDebuff: {
@@ -3547,8 +3439,8 @@
 #        DisplayName: Ranger's Mutagen
 #        Tooltip:
 #            '''
-#            15% increased ranged damage
-#            10% increased ranged critical strike chance
+#            Увеличивает стрелковый урон на 15%
+#            Увеличивает стрелковый шанс критического удара на 10%
 #            '''
 #    }
 #
@@ -3787,37 +3679,37 @@
 #    }
 #
 #    TrappedSoulBauble: {
-#        DisplayName: Trapped Soul Bauble
+#        DisplayName: Подвеска пленённой души
 #        Tooltip:
 #            '''
-#            The player occasionally emits a strong force, causing every enemy caught in the blast to give a small magic damage boost
-#            10% increased {0} elemental damage and resistance
-#            +20 max mana
+#            Периодически испускает сильный импульс, заставляя каждого врага, попавшего в зону взрыва, увеличить магический урон
+#            Увеличивает урон и сопротивление к элементу {0} на 10%
+#            Увеличивает максимальный запас маны на 20
 #            '''
-#        ArcaneS: Mods.Redemption.Items.TrappedSoulBauble.ArcaneS
+#        ArcaneS: ""
 #    }
 #
 #    AlignmentChanger: {
-#        DisplayName: Alignment Changer
+#        DisplayName: Переключатель мировозрения
 #        Tooltip:
 #            '''
-#            Left-click to increase alignment by 1
-#            Right-click to decrease alignment by 1
-#            Non-Consumable
+#            Нажмите <left>, чтобы увеличить мировозрение на 1
+#            Нажмите <right>, чтобы снизить мировозрение на 1
+#            Не расходуется
 #            '''
 #    }
 #
 #    HardlightBoots: {
-#        DisplayName: Hardlight Boots
+#        DisplayName: Светопрочные ботинки
 #        Tooltip:
 #            '''
-#            5% increased damage
-#            10% increased movement speed
+#            Увеличивает урон на 5%
+#            Увеличивает скорость передвижения на 10%
 #            '''
 #    }
 #
 #    HardlightCasque: {
-#        DisplayName: Hardlight Casque
+#        DisplayName: Светопрочная каска
 #        Tooltip:
 #            '''
 #            13% increased ritual damage
@@ -3827,26 +3719,26 @@
 #    }
 #
 #    HardlightCowl: {
-#        DisplayName: Hardlight Cowl
+#        DisplayName: Светопрочный клобук
 #        Tooltip:
 #            '''
-#            13% increased magic damage
-#            5% increased magic critical strike chance
-#            +50 max mana
+#            Увеличивает магический урон на 13%
+#            Увеличивает магический шанс критического удара на 5%
+#            Увеличивает максимальный запас маны на 50
 #            '''
 #    }
 #
 #    HardlightHelm: {
-#        DisplayName: Hardlight Helm
+#        DisplayName: Светопрочный шлем
 #        Tooltip:
 #            '''
-#            13% increased melee damage
-#            5% increased melee critical strike chance
+#            Увеличивает урон ближнего боя на 13%
+#            Увеличивает шанс критического удара ближнего боя на 5%
 #            '''
 #    }
 #
 #    HardlightHood: {
-#        DisplayName: Hardlight Hood
+#        DisplayName: Светопрочный капюшон
 #        Tooltip:
 #            '''
 #            13% increased summon damage
@@ -3855,44 +3747,44 @@
 #    }
 #
 #    HardlightPlate: {
-#        DisplayName: Hardlight Plate
-#        Tooltip: 10% increased damage
+#        DisplayName: Светопрочные латы
+#        Tooltip: Увеличивает урон на 10%
 #    }
 #
 #    HardlightVisor: {
-#        DisplayName: Hardlight Visor
+#        DisplayName: Светопрочный визор
 #        Tooltip:
 #            '''
-#            13% increased ranged damage
-#            5% increased ranged critical strike chance
+#            Увеличивает стрелковый урон на 13%
+#            Увеличивает стрелковый шанс критического удара на 5%
 #            Increased Energy regeneration if an Energy Pack is in your inventory
 #            '''
 #    }
 #
 #    XenomiteHelmet: {
-#        DisplayName: Xenomite Helmet
+#        DisplayName: Ксеномитовый шлем
 #        Tooltip:
 #            '''
-#            7% increased damage
-#            10% increased critical strike chance
+#            Увеличивает урон на 7%
+#            Увеличивает шанс критического удара на 10%
 #            '''
 #    }
 #
 #    XenomiteLeggings: {
-#        DisplayName: Xenomite Leggings
+#        DisplayName: Ксеномитовые поножи
 #        Tooltip:
 #            '''
-#            4% increased damage and critical strike chance
-#            8% increased movement speed
+#            Увеличивает урон и шанс критического удара на 4%
+#            Увеличивает скорость передвижения на 8%
 #            '''
 #    }
 #
 #    XenomitePlate: {
-#        DisplayName: Xenomite Plate
+#        DisplayName: Ксеномитовые латы
 #        Tooltip:
 #            '''
-#            5% increased damage
-#            7% increased critical strike chance
+#            Увеличивает урон на 5%
+#            Увеличивает шанс критического удара на 7%
 #            '''
 #    }
 #
@@ -4088,18 +3980,18 @@
 #
 #    LivingWoodBody: {
 #        DisplayName: Living Wood Body
-#        Tooltip: +1 increased summon damage
+#        Tooltip: Увеличивает урон призывателя на 1
 #    }
 #
 #    LivingWoodHelmet: {
 #        DisplayName: Living Wood Helmet
-#        Tooltip: +1 increased summon damage
+#        Tooltip: Увеличивает урон призывателя на 1
 #    }
 #
 #    LivingWoodLeggings: {
 #        DisplayName: Living Wood Leggings
 #        Tooltip: ""
-#    }
+#    } 
 #
 #    PureIronChestplate: {
 #        DisplayName: Pure-Iron Chestplate
@@ -4683,254 +4575,254 @@
 #    }
 #
 #    Datalog: {
-#        DisplayName: Data Log #1
+#        DisplayName: Бортовой журнал №1
 #        Tooltip: ""
 #    }
 #
 #    Datalog10: {
-#        DisplayName: Data Log #182501
+#        DisplayName: Бортовой журнал №182501
 #        Tooltip: ""
 #    }
 #
 #    Datalog11: {
-#        DisplayName: Data Log #182573
+#        DisplayName: Бортовой журнал №182573
 #        Tooltip: ""
 #    }
 #
 #    Datalog12: {
-#        DisplayName: Data Log #184753
+#        DisplayName: Бортовой журнал №184753
 #        Tooltip: ""
 #    }
 #
 #    Datalog13: {
-#        DisplayName: Data Log #184989
+#        DisplayName: Бортовой журнал №184989
 #        Tooltip: ""
 #    }
 #
 #    Datalog14: {
-#        DisplayName: Data Log #466105
+#        DisplayName: Бортовой журнал №466105
 #        Tooltip: ""
 #    }
 #
 #    Datalog15: {
-#        DisplayName: Data Log #466476
+#        DisplayName: Бортовой журнал №466476
 #        Tooltip: ""
 #    }
 #
 #    Datalog16: {
-#        DisplayName: Data Log #500198
+#        DisplayName: Бортовой журнал №500198
 #        Tooltip: ""
 #    }
 #
 #    Datalog17: {
-#        DisplayName: Data Log #545675
+#        DisplayName: Бортовой журнал №545675
 #        Tooltip: ""
 #    }
 #
 #    Datalog18: {
-#        DisplayName: Data Log #999735
+#        DisplayName: Бортовой журнал №999735
 #        Tooltip: ""
 #    }
 #
 #    Datalog19: {
-#        DisplayName: Data Log #1000000
+#        DisplayName: Бортовой журнал №1000000
 #        Tooltip: ""
 #    }
 #
 #    Datalog2: {
-#        DisplayName: Data Log #2
+#        DisplayName: Бортовой журнал №2
 #        Tooltip: ""
 #    }
 #
 #    Datalog20: {
-#        DisplayName: Data Log #1012875
+#        DisplayName: Бортовой журнал №1012875
 #        Tooltip: ""
 #    }
 #
 #    Datalog21: {
-#        DisplayName: Data Log #3650000
+#        DisplayName: Бортовой журнал №3650000
 #        Tooltip: ""
 #    }
 #
 #    Datalog22: {
-#        DisplayName: Data Log #5385430
+#        DisplayName: Бортовой журнал №5385430
 #        Tooltip: ""
 #    }
 #
 #    Datalog23: {
-#        DisplayName: Data Log #25338300
+#        DisplayName: Бортовой журнал №25338300
 #        Tooltip: ""
 #    }
 #
 #    Datalog24: {
-#        DisplayName: Data Log #36500001
+#        DisplayName: Бортовой журнал №36500001
 #        Tooltip: ""
 #    }
 #
 #    Datalog25: {
-#        DisplayName: Data Log #164550614
+#        DisplayName: Бортовой журнал №164550614
 #        Tooltip: ""
 #    }
 #
 #    Datalog26: {
-#        DisplayName: Data Log #364635000
+#        DisplayName: Бортовой журнал №364635000
 #        Tooltip: ""
 #    }
 #
 #    Datalog27: {
-#        DisplayName: Data Log #365000000
+#        DisplayName: Бортовой журнал №365000000
 #        Tooltip: ""
 #    }
 #
 #    Datalog28: {
-#        DisplayName: Data Log #389035250
+#        DisplayName: Бортовой журнал №389035250
 #        Tooltip: ""
 #    }
 #
 #    Datalog3: {
-#        DisplayName: Data Log #3
+#        DisplayName: Бортовой журнал №3
 #        Tooltip: ""
 #    }
 #
 #    Datalog4: {
-#        DisplayName: Data Log #6
+#        DisplayName: Бортовой журнал №6
 #        Tooltip: ""
 #    }
 #
 #    Datalog5: {
-#        DisplayName: Data Log #335
+#        DisplayName: Бортовой журнал №335
 #        Tooltip: ""
 #    }
 #
 #    Datalog6: {
-#        DisplayName: Data Log #722
+#        DisplayName: Бортовой журнал №722
 #        Tooltip: ""
 #    }
 #
 #    Datalog7: {
-#        DisplayName: Data Log #919
+#        DisplayName: Бортовой журнал №919
 #        Tooltip: ""
 #    }
 #
 #    Datalog8: {
-#        DisplayName: Data Log #180499
+#        DisplayName: Бортовой журнал №180499
 #        Tooltip: ""
 #    }
 #
 #    Datalog9: {
-#        DisplayName: Data Log #182500
+#        DisplayName: Бортовой журнал №182500
 #        Tooltip: ""
 #    }
 #
 #    FloppyDisk1: {
-#        DisplayName: Floppy Disk
-#        Tooltip: "'A very old floppy disk. A T-Bot might be able to decode the data...'"
+#        DisplayName: Дискета
+#        Tooltip: "'Древняя дискета. Возможно, Т-бот сможет дешифровать данные...'"
 #    }
 #
 #    FloppyDisk2: {
-#        DisplayName: Floppy Disk
+#        DisplayName: Дискета
 #        Tooltip:
 #            '''
-#            'A very old floppy disk. A T-Bot might be able to decode the data...'
+#            'Древняя дискета. Возможно, Т-бот сможет дешифровать данные...'
 #            (1/2)
 #            '''
 #    }
 #
 #    FloppyDisk2_1: {
-#        DisplayName: Floppy Disk
+#        DisplayName: Дискета
 #        Tooltip:
 #            '''
-#            'A very old floppy disk. A T-Bot might be able to decode the data...'
+#            'Древняя дискета. Возможно, Т-бот сможет дешифровать данные...'
 #            (2/2)
 #            '''
 #    }
 #
 #    FloppyDisk3: {
-#        DisplayName: Floppy Disk
+#        DisplayName: Дискета
 #        Tooltip:
 #            '''
-#            'A very old floppy disk. A T-Bot might be able to decode the data...'
+#            'Древняя дискета. Возможно, Т-бот сможет дешифровать данные...'
 #            (1/2)
 #            '''
 #    }
 #
 #    FloppyDisk3_1: {
-#        DisplayName: Floppy Disk
+#        DisplayName: Дискета
 #        Tooltip:
 #            '''
-#            'A very old floppy disk. A T-Bot might be able to decode the data...'
+#            'Древняя дискета. Возможно, Т-бот сможет дешифровать данные...'
 #            (2/2)
 #            '''
 #    }
 #
 #    FloppyDisk5: {
-#        DisplayName: Floppy Disk
+#        DisplayName: Дискета
 #        Tooltip:
 #            '''
-#            'A very old floppy disk. A T-Bot might be able to decode the data...'
+#            'Древняя дискета. Возможно, Т-бот сможет дешифровать данные...'
 #            (1/4)
 #            '''
 #    }
 #
 #    FloppyDisk5_1: {
-#        DisplayName: Floppy Disk
+#        DisplayName: Дискета
 #        Tooltip:
 #            '''
-#            'A very old floppy disk. A T-Bot might be able to decode the data...'
+#            'Древняя дискета. Возможно, Т-бот сможет дешифровать данные...'
 #            (2/4)
 #            '''
 #    }
 #
 #    FloppyDisk5_2: {
-#        DisplayName: Floppy Disk
+#        DisplayName: Дискета
 #        Tooltip:
 #            '''
-#            'A very old floppy disk. A T-Bot might be able to decode the data...'
+#            'Древняя дискета. Возможно, Т-бот сможет дешифровать данные...'
 #            (3/4)
 #            '''
 #    }
 #
 #    FloppyDisk5_3: {
-#        DisplayName: Floppy Disk
+#        DisplayName: Дискета
 #        Tooltip:
 #            '''
-#            'A very old floppy disk. A T-Bot might be able to decode the data...'
+#            'Древняя дискета. Возможно, Т-бот сможет дешифровать данные...'
 #            (4/4)
 #            '''
 #    }
 #
 #    FloppyDisk6: {
-#        DisplayName: Floppy Disk
+#        DisplayName: Дискета
 #        Tooltip:
 #            '''
-#            'A very old floppy disk. A T-Bot might be able to decode the data...'
+#            'Древняя дискета. Возможно, Т-бот сможет дешифровать данные...'
 #            (1/2)
 #            '''
 #    }
 #
 #    FloppyDisk6_1: {
-#        DisplayName: Floppy Disk
+#        DisplayName: Дискета
 #        Tooltip:
 #            '''
-#            'A very old floppy disk. A T-Bot might be able to decode the data...'
+#            'Древняя дискета. Возможно, Т-бот сможет дешифровать данные...'
 #            (2/2)
 #            '''
 #    }
 #
 #    FloppyDisk7: {
-#        DisplayName: Floppy Disk
+#        DisplayName: Дискета
 #        Tooltip:
 #            '''
-#            'A very old floppy disk. A T-Bot might be able to decode the data...'
+#            'Древняя дискета. Возможно, Т-бот сможет дешифровать данные...'
 #            (1/2)
 #            '''
 #    }
 #
 #    FloppyDisk7_1: {
-#        DisplayName: Floppy Disk
+#        DisplayName: Дискета
 #        Tooltip:
 #            '''
-#            'A very old floppy disk. A T-Bot might be able to decode the data...'
+#            'Древняя дискета. Возможно, Т-бот сможет дешифровать данные...'
 #            (2/2)
 #            '''
 #    }
@@ -4961,7 +4853,7 @@
 #    }
 #
 #    CyberPlating: {
-#        DisplayName: Cyber Plating
+#        DisplayName: Киберпластина
 #        Tooltip: ""
 #    }
 #
@@ -5000,8 +4892,8 @@
 #    }
 #
 #    Xenomite: {
-#        DisplayName: Xenomite
-#        Tooltip: "'Infects living things'"
+#        DisplayName: Ксеномит
+#        Tooltip: "'Инфицирует живые организмы'"
 #    }
 #
 #    Corium: {
@@ -5010,12 +4902,12 @@
 #    }
 #
 #    EmptyMutagen: {
-#        DisplayName: Empty Mutagen
+#        DisplayName: Пустой мутаген
 #        Tooltip: ""
 #    }
 #
 #    GildedStar: {
-#        DisplayName: Galaxy Star
+#        DisplayName: Звезда галактики
 #        Tooltip: ""
 #    }
 #
@@ -5040,13 +4932,13 @@
 #    }
 #
 #    RoboBrain: {
-#        DisplayName: Obliterator Brain
-#        Tooltip: "'Not so smart now, are ya?'"
+#        DisplayName: Мозг Облитератора
+#        Tooltip: "'Не такой уж ты и умный, да?'"
 #    }
 #
 #    Shadesoul: {
-#        DisplayName: Shadesoul
-#        Tooltip: "'A soul of pure negativity'"
+#        DisplayName: Призрачная душа
+#        Tooltip: "'Душа абсолютного негатива'"
 #    }
 #
 #    VesselFragment: {
@@ -5060,11 +4952,11 @@
 #    }
 #
 #    Archcloth: {
-#        DisplayName: Archcloth
+#        DisplayName: Архиткань
 #        Tooltip:
 #            '''
-#            Used to craft cosmetic items
-#            'Expensive, purple cloth only used by the Nobles of Anglon'
+#            Используется для создания косметических предметов
+#            'Роскошная пурпурная ткань, доступная лишь аристократам Ангулона'
 #            '''
 #    }
 #
@@ -5079,8 +4971,8 @@
 #    }
 #
 #    CursedGem: {
-#        DisplayName: Cursed Gem
-#        Tooltip: "'A gem... or an eye?'"
+#        DisplayName: Проклятый самоцвет
+#        Tooltip: "'Самоцвет... или же глаз?'"
 #    }
 #
 #    DragonLeadAlloy: {
@@ -5135,27 +5027,27 @@
 #    }
 #
 #    LivingTwig: {
-#        DisplayName: Living Twig
+#        DisplayName: Живая ветка
 #        Tooltip:
 #            '''
-#            'It's moving...
-#            Oh nevermind, it's just the wind.'
+#            'Она шевелится...
+#            Ай, забудь, это просто ветерок'
 #            '''
 #    }
 #
 #    LostSoul: {
-#        DisplayName: Lost Soul
-#        Tooltip: "'The incarnation of Willpower'"
+#        DisplayName: Заблудшая душа
+#        Tooltip: "'Воплощение силы воли'"
 #    }
 #
 #    MoonflareFragment: {
-#        DisplayName: Moonflare Fragment
-#        Tooltip: "'Shines in the moon's reflective light'"
-#        NoMoon: There is no moonlight to reflect...
+#        DisplayName: Осколок лунного зарева
+#        Tooltip: "'Сверкает в отражении лунного света'"
+#        NoMoon: Отсутствует лунный свет для отражения...
 #    }
 #
 #    PureIronAlloy: {
-#        DisplayName: Pure-Iron Alloy
+#        DisplayName: Сверхчистый железный сплав
 #        Tooltip: ""
 #    }
 #
@@ -5171,16 +5063,16 @@
 #
 #    ZweihanderFragment1: {
 #        DisplayName: Rusty Zweihander Hilt
-#        Tooltip: "'A piece of a strange weapon...'"
+#        Tooltip: "'Фрагмент загадочного оружия...'"
 #    }
 #
 #    ZweihanderFragment2: {
 #        DisplayName: Rusty Zweihander Blade
-#        Tooltip: "'A piece of a strange weapon...'"
+#        Tooltip: "'Фрагмент загадочного оружия...'"
 #    }
 #
 #    NextPageArrow: {
-#        DisplayName: Click 'Next Page' to continue dialogue
+#        DisplayName: Нажмите 'След. страница', чтобы продолжить диалог
 #        Tooltip: ""
 #    }
 #
@@ -7147,7 +7039,7 @@
 #    }
 #
 #    EnergyCell: {
-#        DisplayName: Energy Cell
+#        DisplayName: Энергетическая ячейка
 #        Tooltip:
 #            '''
 #            Right-click to recharge +100 Energy if an Energy Pack is in your inventory
@@ -7156,16 +7048,16 @@
 #    }
 #
 #    ErhanBag: {
-#        DisplayName: Treasure Bag (Erhan)
+#        DisplayName: Мешок с сокровищами (Эрхан)
 #        Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 #    }
 #
 #    GalaxyHeart: {
-#        DisplayName: Galaxy Heart
+#        DisplayName: Сердце галактики
 #        Tooltip:
 #            '''
-#            Permanently increases maximum life by 50
-#            Can only be used if the max amount of life fruit has been consumed
+#            Навсегда увеличивает максимальный запас здоровья на 50
+#            Можно использовать только в том случае, если было съедено максимальное количество фруктов жизни
 #            '''
 #    }
 #
@@ -7187,7 +7079,7 @@
 #        DisplayName: Joe's Banjo
 #        Tooltip:
 #            '''
-#            Playable Instrument
+#            Музыкальный инструмент
 #            'Kazooie not included'
 #            '''
 #    }
@@ -7212,11 +7104,11 @@
 #    }
 #
 #    MedicKit: {
-#        DisplayName: Medic Kit
+#        DisplayName: Аптечка
 #        Tooltip:
 #            '''
-#            Permanently increases maximum life by 50
-#            Can only be used if the max amount of life fruit has been consumed
+#            Навсегда увеличивает максимальный запас здоровья на 50
+#            Можно использовать только в том случае, если было съедено максимальное количество фруктов жизни
 #            '''
 #    }
 #
@@ -7658,18 +7550,18 @@
 #        Tooltip:
 #            '''
 #            Призывает Омега-прототипы
-#            Нажмите ПКМ, чтобы сменить призываемый прототип
+#            Нажмите <right>, чтобы сменить призываемый прототип
 #            Можно использовать только ночью
 #            Можно использовать только после победы над Плантерой
 #            Не расходуется
 #            '''
 #        Nothing: Ничего не происходит...
-#        NoOther: No other Prototypes available...
+#        NoOther: Дополнительные прототипы отсутствуют...
 #        First: Омега-прототип №1
 #        Second: Омега-прототип №2
 #        Third: Омега-прототип №3
 #        Fourth: Омега-прототип №4
-#        TooltipNone: No Omega Prototypes can be called right now
+#        TooltipNone: Омега-прототипы в настоящее время недоступны для призыва
 #        TooltipFirst:
 #            '''
 #            Омега-прототип №1
@@ -7684,13 +7576,13 @@
 #            '''
 #            Омега-прототип №3
 #            'Почувствуйте же деморализацию, приготовьтесь к облитерации'
-#            Only usable after the first 2 Omega Prototypes have been defeated
+#            Можно использовать только после победы над первыми 2 Омега-прототипами
 #            '''
 #        TooltipFourth:
 #            '''
 #            Омега-прототип №4
 #            'Мир становится тише, гибель становится ближе; ******* **** **** ******, *** ****** ** ****'
-#            Only usable after Nebuleus has been defeated
+#            Можно использовать только после победы над Небулеус
 #            '''
 #    }
 #
@@ -7698,7 +7590,7 @@
 #        DisplayName: Обручальное кольцо
 #        Tooltip:
 #            '''
-#            Attracts the attention of a sorrowful mistress
+#            Привлекает взор скорбящей барышни
 #            Можно использовать только ночью
 #            Не расходуется
 #            '''
@@ -7710,22 +7602,22 @@
 #    }
 #
 #    Trumpet: {
-#        DisplayName: Trumpet
+#        DisplayName: Труба
 #        Tooltip:
 #            '''
-#            Playable Instrument
-#            'Doot'
+#            Музыкальный инструмент
+#            'Дут'
 #            '''
 #    }
 #
 #    UkkoBag: {
-#        DisplayName: Treasure Bag (Ukko)
+#        DisplayName: Мешок с сокровищами (Укко)
 #        Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 #    }
 #
 #    Violin: {
 #        DisplayName: Violin
-#        Tooltip: Playable Instrument
+#        Tooltip: Музыкальный инструмент
 #    }
 #
 #    ZoneAccessPanel1: {
@@ -10425,7 +10317,7 @@
 #    Nebuleus2.DisplayName: "{$Mods.Redemption.NPCs.Nebuleus.DisplayName}"
 #
 #    OO: {
-#        DisplayName: Омега-облитератор
+#        DisplayName: Омега-Облитератор
 #
 #        BossChecklistIntegration: {
 #            SpawnInfo: Use a [i:Redemption/OmegaTransmitter] at night after Moon Lord has been defeated.
@@ -10492,50 +10384,50 @@
 #        DisplayName: Wayfarer
 #
 #        TownNPCMood: {
-#            LoveBiome: "{$Mods.Redemption.TownNPCMood.Daerel.LoveBiome}"
-#            HateCrowded: "{$Mods.Redemption.TownNPCMood.Daerel.HateCrowded}"
-#            DislikeCrowded: "{$Mods.Redemption.TownNPCMood.Daerel.DislikeCrowded}"
-#            LoveSpace: "{$Mods.Redemption.TownNPCMood.Daerel.LoveSpace}"
-#            FarFromHome: "{$Mods.Redemption.TownNPCMood.Daerel.FarFromHome}"
-#            NoHome: "{$Mods.Redemption.TownNPCMood.Daerel.NoHome}"
-#            Content: "{$Mods.Redemption.TownNPCMood.Daerel.Content}"
-#            LikeBiome: "{$Mods.Redemption.TownNPCMood.Daerel.LikeBiome}"
-#            DislikeBiome: "{$Mods.Redemption.TownNPCMood.Daerel.DislikeBiome}"
-#            HateBiome: "{$Mods.Redemption.TownNPCMood.Daerel.HateBiome}"
-#            LoveNPC: "{$Mods.Redemption.TownNPCMood.Daerel.LoveNPC}"
-#            LikeNPC: "{$Mods.Redemption.TownNPCMood.Daerel.LikeNPC}"
-#            DislikeNPC: "{$Mods.Redemption.TownNPCMood.Daerel.DislikeNPC}"
-#            HateNPC: "{$Mods.Redemption.TownNPCMood.Daerel.HateNPC}"
-#            LikeNPC_Princess: "{$Mods.Redemption.TownNPCMood.Daerel.LikeNPC_Princess}"
-#            Princess_LovesNPC: "{$Mods.Redemption.TownNPCMood.Daerel.Princess_LovesNPC}"
+#            LoveBiome:  Я считаю, что {BiomeName} просто идеален, спокоен и умиротворён.
+#            HateCrowded: Я по натуре интроверт, так что все эти люди рядом меня реально напрягают.
+#            DislikeCrowded: Я по натуре интроверт, так что все эти люди рядом меня реально напрягают.
+#            LoveSpace: Мне тут нравится, места много - есть где потренироваться в стрельбе из лука.
+#            FarFromHome: Можешь, пожалуйста, проводить меня домой? Здесь очень страшно.
+#            NoHome: Слушай, мне бы не помешала крыша над головой, если ты не против.
+#            Content: Сейчас я вполне доволен.
+#            LikeBiome: Я считаю, что {BiomeName} – восхитительное место. Там, откуда я родом, снега почти не бывает.
+#            DislikeBiome: Признаться, мне не по душе {BiomeName}. Не хотелось бы столкнуться там со скелетами!
+#            HateBiome: Какого лешего ты разместил меня в {BiomeName}? Или ты не знаешь, как опасны джунгли?!
+#            LoveNPC: Мы с {NPCName} не разлей вода, спасибо за то, что разрешил нам жить в одном городе.
+#            LikeNPC:  "{NPCName} - классная подружка, ещё и волосы мне укладывает... Это ведь не странно, правда?"
+#            DislikeNPC: "{NPCName} не устаёт уговаривать меня купить его грязь."
+#            HateNPC: Псс, не мог бы ты отселить от меня куда-нибудь {NPCName}? Я и так еле-еле свожу концы с концами.
+#            LikeNPC_Princess: Мне нравится {NPCName}.
+#            Princess_LovesNPC: Мне нравится {NPCName}.
 #        }
 #
 #        Census.SpawnCondition: Have a suitable house in a Crimson world, after meeting him at the surface portal after the first night
 #    }
 #
-#    Daerel_Intro.DisplayName: Daerel
+#    Daerel_Intro.DisplayName: Дэрел
 #    DaerelUnconscious.DisplayName: "{$Mods.Redemption.NPCs.Daerel_Intro.DisplayName}"
 #
 #    Fallen: {
 #        DisplayName: Падший
 #
 #        TownNPCMood: {
-#            Content: "{$Mods.Redemption.TownNPCMood.Fallen.Content}"
-#            NoHome: "{$Mods.Redemption.TownNPCMood.Fallen.NoHome}"
-#            FarFromHome: "{$Mods.Redemption.TownNPCMood.Fallen.FarFromHome}"
-#            LoveSpace: "{$Mods.Redemption.TownNPCMood.Fallen.LoveSpace}"
-#            DislikeCrowded: "{$Mods.Redemption.TownNPCMood.Fallen.DislikeCrowded}"
-#            HateCrowded: "{$Mods.Redemption.TownNPCMood.Fallen.HateCrowded}"
-#            LoveBiome: "{$Mods.Redemption.TownNPCMood.Fallen.LoveBiome}"
-#            LikeBiome: "{$Mods.Redemption.TownNPCMood.Fallen.LikeBiome}"
-#            DislikeBiome: "{$Mods.Redemption.TownNPCMood.Fallen.DislikeBiome}"
-#            HateBiome: "{$Mods.Redemption.TownNPCMood.Fallen.HateBiome}"
-#            LoveNPC: "{$Mods.Redemption.TownNPCMood.Fallen.LoveNPC}"
-#            LikeNPC: "{$Mods.Redemption.TownNPCMood.Fallen.LikeNPC}"
-#            DislikeNPC: "{$Mods.Redemption.TownNPCMood.Fallen.DislikeNPC}"
-#            HateNPC: "{$Mods.Redemption.TownNPCMood.Fallen.HateNPC}"
-#            LikeNPC_Princess: "{$Mods.Redemption.TownNPCMood.Fallen.LikeNPC_Princess}"
-#            Princess_LovesNPC: "{$Mods.Redemption.TownNPCMood.Fallen.Princess_LovesNPC}"
+#            Content: Nice little place ya got here.
+#            NoHome: I'd prefer to have a house.
+#            FarFromHome: Could ya take me back to my home?
+#            LoveSpace: This place is a wee bit spacious, not complaining though, I quite like it.
+#            DislikeCrowded: All these humans are makin' my bones rattle.
+#            HateCrowded: All these humans are makin' my bones rattle.
+#            LoveBiome: The caverns are perfect for us Fallen, not many humans come and go here.
+#            LikeBiome: Aah, {BiomeName} reminds me of when I was still alive in Gathuram. Good times they were.
+#            DislikeBiome: I'm staying in {BiomeName}? Not my preferred place to live, I'd hate to have a run-in with aggressive humans!
+#            HateBiome: I hate it here, {BiomeName} has some holy energy in it makin' my flesh crawl.
+#            LoveNPC: "{NPCName} sells some nifty gadgets, knows how to rip people off too. I like that."
+#            LikeNPC: "{NPCName} got somethin' about him I like."
+#            DislikeNPC: "{NPCName} keeps lookin' at me with suspicion. Probably wants to 'purify' me."
+#            HateNPC: "{NPCName} keeps thinking I'm some dying old man, insisting that she'll heal me. Please get me away from her."
+#            LikeNPC_Princess: I like {NPCName}, she's alright.
+#            Princess_LovesNPC: I like {NPCName}, he reminds me of an old man.
 #        }
 #
 #        Census.SpawnCondition: Defeat the Keeper and have a suitable house
@@ -10563,22 +10455,22 @@
 #        DisplayName: Дурак
 #
 #        TownNPCMood: {
-#            Content: "{$Mods.Redemption.TownNPCMood.Newb.Content}"
-#            NoHome: "{$Mods.Redemption.TownNPCMood.Newb.NoHome}"
-#            FarFromHome: "{$Mods.Redemption.TownNPCMood.Newb.FarFromHome}"
-#            LoveSpace: "{$Mods.Redemption.TownNPCMood.Newb.LoveSpace}"
-#            DislikeCrowded: "{$Mods.Redemption.TownNPCMood.Newb.DislikeCrowded}"
-#            HateCrowded: "{$Mods.Redemption.TownNPCMood.Newb.HateCrowded}"
-#            LoveBiome: "{$Mods.Redemption.TownNPCMood.Newb.LoveBiome}"
-#            LikeBiome: "{$Mods.Redemption.TownNPCMood.Newb.LikeBiome}"
-#            DislikeBiome: "{$Mods.Redemption.TownNPCMood.Newb.DislikeBiome}"
-#            HateBiome: "{$Mods.Redemption.TownNPCMood.Newb.HateBiome}"
-#            LoveNPC: "{$Mods.Redemption.TownNPCMood.Newb.LoveNPC}"
-#            LikeNPC: "{$Mods.Redemption.TownNPCMood.Newb.LikeNPC}"
-#            DislikeNPC: "{$Mods.Redemption.TownNPCMood.Newb.DislikeNPC}"
-#            HateNPC: "{$Mods.Redemption.TownNPCMood.Newb.HateNPC}"
-#            LikeNPC_Princess: "{$Mods.Redemption.TownNPCMood.Newb.LikeNPC_Princess}"
-#            Princess_LovesNPC: "{$Mods.Redemption.TownNPCMood.Newb.Princess_LovesNPC}"
+#            Content: I like it here!
+#            NoHome: Where's home?
+#            FarFromHome: I am so lost...can you lead me back?
+#            LoveSpace: So little people, yay!
+#            DislikeCrowded: Too many faces!
+#            HateCrowded: Too many faces!
+#            LoveBiome: I love {BiomeName}! It gives me nice memories of...uhhh...
+#            LikeBiome: I like {BiomeName}. Green is nice.
+#            DislikeBiome: Too boring here, I hate sand!
+#            HateBiome: ...{BiomeName} makes me feel sad, for some reason.
+#            LoveNPC: "{NPCName} knows magic like me!"
+#            LikeNPC: I like {NPCName}!
+#            DislikeNPC: I feel evil within {NPCName}, very bad!
+#            HateNPC: My hatred towards {NPCName} is beyond your mortal comprehension.
+#            LikeNPC_Princess: "{NPCName} reminds me of...me, somehow! I like her."
+#            Princess_LovesNPC: "{NPCName} is goofy, I like him!"
 #        }
 #
 #        Census.SpawnCondition: Dig up the dirt mound beneath the surface portal
@@ -10629,22 +10521,22 @@
 #        DisplayName: Friendly T-Bot
 #
 #        TownNPCMood: {
-#            Content: "{$Mods.Redemption.TownNPCMood.TBot.Content}"
-#            NoHome: "{$Mods.Redemption.TownNPCMood.TBot.NoHome}"
-#            FarFromHome: "{$Mods.Redemption.TownNPCMood.TBot.FarFromHome}"
-#            LoveSpace: "{$Mods.Redemption.TownNPCMood.TBot.LoveSpace}"
-#            DislikeCrowded: "{$Mods.Redemption.TownNPCMood.TBot.DislikeCrowded}"
-#            HateCrowded: "{$Mods.Redemption.TownNPCMood.TBot.HateCrowded}"
-#            LoveBiome: "{$Mods.Redemption.TownNPCMood.TBot.LoveBiome}"
-#            LikeBiome: "{$Mods.Redemption.TownNPCMood.TBot.LikeBiome}"
-#            DislikeBiome: "{$Mods.Redemption.TownNPCMood.TBot.DislikeBiome}"
-#            HateBiome: "{$Mods.Redemption.TownNPCMood.TBot.HateBiome}"
-#            LoveNPC: "{$Mods.Redemption.TownNPCMood.TBot.LoveNPC}"
-#            LikeNPC: "{$Mods.Redemption.TownNPCMood.TBot.LikeNPC}"
-#            DislikeNPC: "{$Mods.Redemption.TownNPCMood.TBot.DislikeNPC}"
-#            HateNPC: "{$Mods.Redemption.TownNPCMood.TBot.HateNPC}"
-#            LikeNPC_Princess: "{$Mods.Redemption.TownNPCMood.TBot.LikeNPC_Princess}"
-#            Princess_LovesNPC: "{$Mods.Redemption.TownNPCMood.TBot.Princess_LovesNPC}"
+#            Content: Feeling rather content, thank you for asking.
+#            NoHome: I don't like being exposed to the elements. Do you have any housing or shelter I could inhabit for now?
+#            FarFromHome: ... I believe we're very lost. I'm not familiar with our surroundings.
+#            LoveSpace: It's rather quiet around here.
+#            DislikeCrowded: Other tenants seem unhappy with the amount of crowding here, and frankly, so am I.
+#            HateCrowded: Other tenants seem unhappy with the amount of crowding here, and frankly, so am I.
+#            LoveBiome: I like this environment. It's very pleasant.
+#            LikeBiome: This environment is mildly pleasant.
+#            DislikeBiome: My current environment is rather... undesirable.
+#            HateBiome: ... Just like home. I really do not like this environment.
+#            LoveNPC: "{NPCName}'s knowledge on medicine rivals that of mine! It's really impressive."
+#            LikeNPC: "{NPCName} and I have things in common. We get along well."
+#            DislikeNPC: I find {NPCName} rather unsettling.
+#            HateNPC: "{NPCName} reminds me of home. I'd rather not be reminded of that place."
+#            LikeNPC_Princess: I like {NPCName}.
+#            Princess_LovesNPC: I like {NPCName}.
 #        }
 #
 #        Census.SpawnCondition: Defeat the Seed of Infection and have a suitable house
@@ -10664,22 +10556,22 @@
 #        DisplayName: Wayfarer
 #
 #        TownNPCMood: {
-#            Content: "{$Mods.Redemption.TownNPCMood.Zephos.Content}"
-#            NoHome: "{$Mods.Redemption.TownNPCMood.Zephos.NoHome}"
-#            FarFromHome: "{$Mods.Redemption.TownNPCMood.Zephos.FarFromHome}"
-#            LoveSpace: "{$Mods.Redemption.TownNPCMood.Zephos.LoveSpace}"
-#            DislikeCrowded: "{$Mods.Redemption.TownNPCMood.Zephos.DislikeCrowded}"
-#            HateCrowded: "{$Mods.Redemption.TownNPCMood.Zephos.HateCrowded}"
-#            LoveBiome: "{$Mods.Redemption.TownNPCMood.Zephos.LoveBiome}"
-#            LikeBiome: "{$Mods.Redemption.TownNPCMood.Zephos.LikeBiome}"
-#            DislikeBiome: "{$Mods.Redemption.TownNPCMood.Zephos.DislikeBiome}"
-#            HateBiome: "{$Mods.Redemption.TownNPCMood.Zephos.HateBiome}"
-#            LoveNPC: "{$Mods.Redemption.TownNPCMood.Zephos.LoveNPC}"
-#            LikeNPC: "{$Mods.Redemption.TownNPCMood.Zephos.LikeNPC}"
-#            DislikeNPC: "{$Mods.Redemption.TownNPCMood.Zephos.DislikeNPC}"
-#            HateNPC: "{$Mods.Redemption.TownNPCMood.Zephos.HateNPC}"
-#            LikeNPC_Princess: "{$Mods.Redemption.TownNPCMood.Zephos.LikeNPC_Princess}"
-#            Princess_LovesNPC: "{$Mods.Redemption.TownNPCMood.Zephos.Princess_LovesNPC}"
+#            Content: I'm alright.
+#            NoHome: Yo, mind if you give me a house to stay in?
+#            FarFromHome: Yo bro, I can't find my house, you wanna help me out?
+#            LoveSpace: This place is super spacious, good for practicing my swordsmanship!
+#            DislikeCrowded: Is it crowded in here or what!
+#            HateCrowded: Is it crowded in here or what!
+#            LoveBiome: Staying at {BiomeName} reminds me of when I was a young pirate, sailing the seas!
+#            LikeBiome: I think {BiomeName} is nice, I can hear the birds singing and flowers blooming.
+#            DislikeBiome: Not a fan of {BiomeName}, I'd rather live on the surface.
+#            HateBiome: It's so cold here, I'm shaking in my boots!
+#            LoveNPC: "{NPCName} and I are great friends, so living near each other is great!"
+#            LikeNPC: "{NPCName} is cool, I'd like to sail the seas with him sometime."
+#            DislikeNPC: "{NPCName} wants to get his greedy little fingers on my money!"
+#            HateNPC: "{NPCName} will never take my money! NEVER!!"
+#            LikeNPC_Princess: I like {NPCName}.
+#            Princess_LovesNPC: I like {NPCName}.
 #        }
 #
 #        Census.SpawnCondition: Have a suitable house in a Corruption world, after meeting him at the surface portal after the first night
