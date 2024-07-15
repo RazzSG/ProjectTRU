@@ -2551,7 +2551,7 @@ Items: {
     }
 
     EpicMouthpiece: {
-        DisplayName: Эпический загубник
+        DisplayName: Эпический мундштук
         Tooltip:
             '''
             Увеличивает симфонический урон на {0}%
@@ -2959,7 +2959,7 @@ Items: {
     }
 
     Mouthpiece: {
-        DisplayName: Загубник
+        DisplayName: Мундштук
         Tooltip:
             '''
             Увеличивает скорость симфонической игры на инструменте на {0}%

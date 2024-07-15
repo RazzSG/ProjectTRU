@@ -1,4 +1,3 @@
-﻿﻿#Currencies.AntiqueDorulCurrency: antique doruls
 ﻿#Currencies.AntiqueDorulCurrency: античных дорулав
 #
 #TitleCard: {
@@ -120,7 +119,6 @@
 #}
 #
 #FlavorTextBestiary: {
-#    Multiplier: Elemental Multipliers
 #    Multiplier: Множители элементального типа
 #    Daerel: Путешественник с материковой части Эпидотры, и по совместительству друг Зефоса. Мастерски владеет луком и искусством скрытности.
 #    Zephos: Путешественник с материковой части Эпидотры, и по совместительству друг Дэрела. Мастер фехтования.
@@ -216,7 +214,6 @@
 #    ShadesoulNPC: Willpower exists in Epidotra - the happier or more you desire life, the stronger and bigger your soul can become, and vice versa. If someone loses their will to live, their soul can become so small it inverts and they become soulless. The soulless only emerged after the Age of the False Gods.
 #    ScannerDrone: A drone used to collect data and store it within the SoS.
 #    CorruptChicken: How could a being so pure become so tainted? Such is the way of life.
-#    ViciousChicken: "{$Mods.Redemption.FlavorTextBestiary.CorruptChicken}"
 #    ViciousChicken: "{$FlavorTextBestiary.CorruptChicken}"
 #    HeadlessChicken: *Ghastly bwark*
 #    GhostfireChicken: *Ghostly bwark*
@@ -376,16 +373,12 @@
 #                '''
 #            Keybind:
 #                '''
-#                6% increased damage
-#                Increased Energy regeneration if an Energy Pack is in your inventory
 #                Увеличивает урон на 6%
 #                Увеличивает регенерацию энергии, пока Энергоячейка находится в инвентаре
 #                Select a keybind for [Special Ability Key] in Controls
 #                '''
 #            Bonus1:
 #                '''
-#                6% increased damage
-#                Increased Energy regeneration if an Energy Pack is in your inventory
 #                Увеличивает урон на 6%
 #                Увеличивает регенерацию энергии, пока Энергоячейка находится в инвентаре
 #                '''
@@ -394,7 +387,6 @@
 #
 #        Xenium.Bonus:
 #            '''
-#            Increased Energy regeneration if an Energy Pack is in your inventory
 #            Увеличивает регенерацию энергии, пока Энергоячейка находится в инвентаре
 #            Double tap Down to enter [c/BCF160:Cannon Mode]:
 #            While in Cannon Mode, all weapons are disabled and attacking fires aimable grenades
@@ -404,9 +396,6 @@
 #}
 #
 #SpecialTooltips: {
-#    Viewer: Hold [Shift] to view lore
-#    Unbreakable: "[c/ff0000:Unbreakable]"
-#    Unbreakable5000: "[c/ff0000:Unbreakable (5000% Pickaxe Power)]"
 #    Viewer: Удерживайте [Shift], чтобы увидеть историю
 #    Unbreakable: "[c/ff0000:Неразрушимый]"
 #    Unbreakable5000: "[c/ff0000:Неразрушимый (Нужно 5000% мощности кирки)]"
@@ -1607,7 +1596,6 @@
 #
 #    KS3: {
 #        0: Why are you here?
-#        1: Crashed Spaceship?
 #        1: Разбившийся космический корабль?
 #        2: Offer Uranium
 #        3: You aren't fighting me?
@@ -2185,15 +2173,12 @@
 #    }
 #
 #    StoneskinBuff: {
-#        DisplayName: Stoneskin
-#        Description: Mods.Redemption.BuffDescription.StoneskinBuff
 #        DisplayName: Каменная кожа
 #        Description: ""
 #    }
 #
 #    TidalWakeDebuff: {
 #        DisplayName: The Succ
-#        Description: Mods.Redemption.BuffDescription.TidalWakeDebuff
 #        Description: ""
 #    }
 #
@@ -2204,7 +2189,6 @@
 #
 #    ViralityDebuff: {
 #        DisplayName: Virality
-#        Description: Mods.Redemption.BuffDescription.ViralityDebuff
 #        Description: ""
 #    }
 #
@@ -2725,8 +2709,6 @@
 #        Dialogue9: This island's gotta lotta chickens! Ever wonder where they came from? Back in Anglon, there are way deadlier chickens, called Anglonic Forest Hens. Funny story, I was with Daerel on one of his walks through the forest, then out of nowhere a giant hen charges through the bushes straight at him! I've never seen him run so fast!
 #        Dialogue10: I swear I saw a Blobble around here. I didn't expect them to be here, they're native to, uh, Ithon I think. Don't quote me on that though, Daerel's a lot better at remembering useless info than I.
 #        Dialogue11: You never told me there'd be undead here! What, they're called zombies? Well where I'm from they're called undead. There's also a few skeletons out here, normally they like to stay underground. This island is pretty weird. How do you live here?
-#        NoMoneyDialogue1: "{$Mods.Redemption.Dialogue.Daerel.NoMoneyDialogue1}"
-#        NoMoneyDialogue2: "{$Mods.Redemption.Dialogue.Daerel.NoMoneyDialogue2}"
 #        NoMoneyDialogue1: "{$Dialogue.Daerel.NoMoneyDialogue1}"
 #        NoMoneyDialogue2: "{$Dialogue.Daerel.NoMoneyDialogue2}"
 #        AdviceDialogue1: Honestly, I'm surprised you still come to me for advice! I know I certainly ain't the smartest fella out there. But anyway, I've recently been seeing peculiar lookin' wyverns in the sky - purple and gold. Give it a check!
@@ -3775,7 +3757,6 @@
 #            '''
 #            Увеличивает стрелковый урон на 13%
 #            Увеличивает стрелковый шанс критического удара на 5%
-#            Increased Energy regeneration if an Energy Pack is in your inventory
 #            Увеличивает регенерацию энергии, пока Энергоячейка находится в инвентаре
 #            '''
 #    }
@@ -3840,8 +3821,6 @@
 #        DisplayName: Hikarite Greathelm
 #        Tooltip:
 #            '''
-#            16% increased damage
-#            9% increased critical strike chance
 #            Увеличивает урон на 16%
 #            Увеличивает шанс критического удара на 9%
 #            '''
@@ -4907,7 +4886,7 @@
 #        DisplayName: Uranium
 #        Tooltip:
 #            '''
-#            Right-click to recharge +15 Energy if an Energy Pack is in your inventory
+#            Нажмите <right>, чтобы восполнить 15 энергии, если Энергоячейка находится в инвентаре
 #            Requires a Picksaw to mine
 #            '''
 #    }
@@ -4938,13 +4917,13 @@
 #    }
 #
 #    MoltenScrap: {
-#        DisplayName: Molten Scrap
+#        DisplayName: Раскалённый металлолом
 #        Tooltip: ""
 #    }
 #
 #    Plutonium: {
-#        DisplayName: Plutonium
-#        Tooltip: Right-click to recharge +30 Energy if an Energy Pack is in your inventory
+#        DisplayName: Плутоний
+#        Tooltip: Нажмите <right>, чтобы восполнить 30 энергии, если Энергоячейка находится в инвентаре
 #    }
 #
 #    RawXenium: {
@@ -5099,300 +5078,250 @@
 #
 #    AncientGladestoneGolemBanner: {
 #        DisplayName: Ancient Gladestone Golem Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.AncientGladestoneGolem.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.AncientGladestoneGolem.DisplayName}"
 #    }
 #
 #    AndroidBanner: {
 #        DisplayName: Android Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.Android.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.Android.DisplayName}"
 #    }
 #
 #    BlisteredScientistBanner: {
 #        DisplayName: Blistered Scientist Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.BlisteredScientist.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.BlisteredScientist.DisplayName}"
 #    }
 #
 #    BloatedGhoulBanner: {
 #        DisplayName: Bloated Ghoul Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.BloatedGhoul.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.BloatedGhoul.DisplayName}"
 #    }
 #
 #    BloatedGoldfishBanner: {
 #        DisplayName: Bloated Goldfish Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.BloatedGoldfish.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.BloatedGoldfish.DisplayName}"
 #    }
 #
 #    BloatedScientistBanner: {
 #        DisplayName: Bloated Scientist Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.BloatedScientist.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.BloatedScientist.DisplayName}"
 #    }
 #
 #    BloatedSwarmerBanner: {
 #        DisplayName: Bloated Swarmer Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.BloatedSwarmer.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.BloatedSwarmer.DisplayName}"
 #    }
 #
 #    BlobbleBanner: {
 #        DisplayName: Blobble Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.Blobble.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.Blobble.DisplayName}"
 #    }
 #
 #    BobTheBlobBanner: {
 #        DisplayName: Bob the Blob Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.BobTheBlob.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.BobTheBlob.DisplayName}"
 #    }
 #
 #    BoneSpiderBanner: {
 #        DisplayName: Bone Spider Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.BoneSpider.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.BoneSpider.DisplayName}"
 #    }
 #
 #    ChickenBanner: {
 #        DisplayName: Chicken Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.Chicken.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.Chicken.DisplayName}"
 #    }
 #
 #    ChickenBomberBanner: {
 #        DisplayName: Chicken Bomber Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.ChickenBomber.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.ChickenBomber.DisplayName}"
 #    }
 #
 #    ChickenScratcherBanner: {
 #        DisplayName: Chicken Scratcher Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.ChickenScratcher.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.ChickenScratcher.DisplayName}"
 #    }
 #
 #    CoastScarabBanner: {
 #        DisplayName: Coast Scarab Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.CoastScarab.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.CoastScarab.DisplayName}"
 #    }
 #
 #    CorpseWalkerPriestBanner: {
 #        DisplayName: Corpse-Walker Priest Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.CorpseWalkerPriest.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.CorpseWalkerPriest.DisplayName}"
 #    }
 #
 #    DevilsTongueBanner: {
 #        DisplayName: Devil's Tongue Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.DevilsTongue.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.DevilsTongue.DisplayName}"
 #    }
 #
 #    EpidotrianSkeletonBanner: {
 #        DisplayName: Epidotrian Skeleton Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.EpidotrianSkeleton.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.EpidotrianSkeleton.DisplayName}"
 #    }
 #
 #    ForestNymphBanner: {
 #        DisplayName: Forest Nymph Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.ForestNymph.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.ForestNymph.DisplayName}"
 #    }
 #
 #    GrandLarvaBanner: {
 #        DisplayName: Grand Larva Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.GrandLarva.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.GrandLarva.DisplayName}"
 #    }
 #
 #    HazmatZombieBanner: {
 #        DisplayName: Hazmat Zombie Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.HazmatZombie.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.HazmatZombie.DisplayName}"
 #    }
 #
 #    HeadlessChickenBanner: {
 #        DisplayName: Headless Chicken Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.HeadlessChicken.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.HeadlessChicken.DisplayName}"
 #    }
 #
 #    JollyMadmanBanner: {
 #        DisplayName: Jolly Madman Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.JollyMadman.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.JollyMadman.DisplayName}"
 #    }
 #
 #    KabucraBanner: {
 #        DisplayName: Kabucra Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.Kabucra.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.Kabucra.DisplayName}"
 #    }
 #
 #    LivingBloomBanner: {
 #        DisplayName: Living Bloom Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.LivingBloom.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.LivingBloom.DisplayName}"
 #    }
 #
 #    MoonflareBatBanner: {
 #        DisplayName: Moonflare Bat Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.MoonflareBat.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.MoonflareBat.DisplayName}"
 #    }
 #
 #    MutatedLivingBloomBanner: {
 #        DisplayName: Mutated Living Bloom Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.MutatedLivingBloom.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.MutatedLivingBloom.DisplayName}"
 #    }
 #
 #    NuclearShadowBanner: {
 #        DisplayName: Nuclear Shadow Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.NuclearShadow.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.NuclearShadow.DisplayName}"
 #    }
 #
 #    NuclearSlimeBanner: {
 #        DisplayName: Nuclear Slime Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.NuclearSlime.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.NuclearSlime.DisplayName}"
 #    }
 #
 #    OozeBlobBanner: {
 #        DisplayName: Ooze Blob Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.OozeBlob.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.OozeBlob.DisplayName}"
 #    }
 #
 #    OozingScientistBanner: {
 #        DisplayName: Oozing Scientist Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.OozingScientist.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.OozingScientist.DisplayName}"
 #    }
 #
 #    PrototypeSilverBanner: {
 #        DisplayName: Prototype Silver Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.PrototypeSilver.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.PrototypeSilver.DisplayName}"
 #    }
 #
 #    RadioactiveJellyBanner: {
 #        DisplayName: Radioactive Physalia Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.RadioactiveJelly.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.RadioactiveJelly.DisplayName}"
 #    }
 #
 #    RadioactiveSlimeBanner: {
 #        DisplayName: Radioactive Slime Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.RadioactiveSlime.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.RadioactiveSlime.DisplayName}"
 #    }
 #
 #    SandskinSpiderBanner: {
 #        DisplayName: Sandskin Spider Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.SandskinSpider.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.SandskinSpider.DisplayName}"
 #    }
 #
 #    SickenedBunnyBanner: {
 #        DisplayName: Sickened Bunny Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.SickenedBunny.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.SickenedBunny.DisplayName}"
 #    }
 #
 #    SickenedDemonEyeBanner: {
 #        DisplayName: Sickened Demon Eye Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.SickenedDemonEye.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.SickenedDemonEye.DisplayName}"
 #    }
 #
 #    SicklyPenguinBanner: {
 #        DisplayName: Sickly Penguin Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.SicklyPenguin.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.SicklyPenguin.DisplayName}"
 #    }
 #
 #    SicklyWolfBanner: {
 #        DisplayName: Sickly Wolf Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.SicklyWolf.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.SicklyWolf.DisplayName}"
 #    }
 #
 #    SkeletonAssassinBanner: {
 #        DisplayName: Skeleton Assassin Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.SkeletonAssassin.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.SkeletonAssassin.DisplayName}"
 #    }
 #
 #    SkeletonDuelistBanner: {
 #        DisplayName: Skeleton Duelist Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.SkeletonDuelist.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.SkeletonDuelist.DisplayName}"
 #    }
 #
 #    SkeletonFlagbearerBanner: {
 #        DisplayName: Skeleton Flagbearer Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.SkeletonFlagbearer.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.SkeletonFlagbearer.DisplayName}"
 #    }
 #
 #    SkeletonNobleBanner: {
 #        DisplayName: Skeleton Noble Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.SkeletonNoble.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.SkeletonNoble.DisplayName}"
 #    }
 #
 #    SkeletonWandererBanner: {
 #        DisplayName: Skeleton Wanderer Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.SkeletonWanderer.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.SkeletonWanderer.DisplayName}"
 #    }
 #
 #    SkeletonWardenBanner: {
 #        DisplayName: Skeleton Warden Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.SkeletonWarden.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.SkeletonWarden.DisplayName}"
 #    }
 #
 #    SneezyFlinxBanner: {
 #        DisplayName: Sneezy Snow Flinx Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.SneezyFlinx.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.SneezyFlinx.DisplayName}"
 #    }
 #
 #    SpacePaladinBanner: {
 #        DisplayName: Space Paladin Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.SpacePaladin.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.SpacePaladin.DisplayName}"
 #    }
 #
 #    TreeBugBanner: {
 #        DisplayName: Tree Bug Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.TreeBug.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.TreeBug.DisplayName}"
 #    }
 #
 #    VagrantSpiritBanner: {
 #        DisplayName: Vagrant Spirit Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.VagrantSpirit.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.VagrantSpirit.DisplayName}"
 #    }
 #
 #    ElderWoodChest: {
-#        DisplayName: Elder Wood Chest
 #        DisplayName: Сундук из древней древесины
 #        Tooltip: ""
 #    }
 #
 #    Holochest: {
-#        DisplayName: Holochest
 #        DisplayName: Голографический сундук
 #        Tooltip: ""
 #    }
@@ -5493,43 +5422,36 @@
 #    }
 #
 #    ElderWoodPiano: {
-#        DisplayName: Elder Wood Piano
 #        DisplayName: Пианино из древней древесины
 #        Tooltip: ""
 #    }
 #
 #    ElderWoodPlatform: {
-#        DisplayName: Elder Wood Platform
 #        DisplayName: Платформа из древней древесины
 #        Tooltip: ""
 #    }
 #
 #    ElderWoodSink: {
-#        DisplayName: Elder Wood Sink
 #        DisplayName: Раковина из древней древесины
 #        Tooltip: ""
 #    }
 #
 #    ElderWoodSofa: {
-#        DisplayName: Elder Wood Sofa
 #        DisplayName: Диван из древней древесины
 #        Tooltip: ""
 #    }
 #
 #    ElderWoodTable: {
-#        DisplayName: Elder Wood Table
 #        DisplayName: Стол из древней древесины
 #        Tooltip: ""
 #    }
 #
 #    ElderWoodWorkBench: {
-#        DisplayName: Elder Wood Work Bench
 #        DisplayName: Верстак из древней древесины
 #        Tooltip: ""
 #    }
 #
 #    BiohazardSign: {
-#        DisplayName: Biohazard Sign
 #        DisplayName: Знак с биологической опасностью
 #        Tooltip: ""
 #    }
@@ -5540,13 +5462,11 @@
 #    }
 #
 #    BrokenLabBackDoor2: {
-#        DisplayName: Broken Laboratory Back Door
 #        DisplayName: Повреждённая запасная дверь лаборатории
 #        Tooltip: ""
 #    }
 #
 #    ElectricitySign: {
-#        DisplayName: Electricity Sign
 #        DisplayName: Знак с электричеством
 #        Tooltip: ""
 #    }
@@ -5586,14 +5506,11 @@
 #    }
 #
 #    LabBackDoor: {
-#        DisplayName: Laboratory Back Door
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 #        DisplayName: Запасная дверь лаборатории
 #        Tooltip: "{$SpecialTooltips.Unbreakable5000}"
 #    }
 #
 #    LabBackDoor2: {
-#        DisplayName: Laboratory Back Door
 #        DisplayName: Запасная дверь лаборатории
 #        Tooltip: ""
 #    }
@@ -5715,7 +5632,6 @@
 #
 #    SewerHole: {
 #        DisplayName: Sewer Hole
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable5000}"
 #    }
 #
@@ -5799,18 +5715,18 @@
 #    }
 #
 #    EaglecrestGolemPlush: {
-#        DisplayName: Eaglecrest Golem Plushie
+#        DisplayName: Плюшевая игрушка Голема Иглекреста
 #        Tooltip: ""
 #    }
 #
 #    EmeraldHeartPainting: {
-#        DisplayName: Emerald Heart
-#        Tooltip: "'D. Juice'"
+#        DisplayName: Картина «Изумрудное сердце»
+#        Tooltip: "'Д. Джус'"
 #    }
 #
 #    EnergyStation: {
-#        DisplayName: Energy Station
-#        Tooltip: Place down and right-click to recharge your Energy if an Energy Pack is in your inventory
+#        DisplayName: Энергетическая станция
+#        Tooltip: Разместите на землю и нажмите <right>, чтобы восполнить энергию, если Энергоячейка находится в инвентаре
 #    }
 #
 #    FowlEmperorPainting: {
@@ -5845,7 +5761,6 @@
 #            [c/ffea9b:Holding back a fate of endless slumber,]
 #            [c/ffea9b:I want to stay to keep you strong,]
 #            [c/ffea9b:Side by side is where we belong...']
-#            {$Mods.Redemption.SpecialTooltips.Unbreakable5000}
 #            {$SpecialTooltips.Unbreakable5000}
 #            '''
 #    }
@@ -5858,7 +5773,6 @@
 #            [c/ffea9b:Too many battles lost to tell,]
 #            [c/ffea9b:If I could turn back time to find you,]
 #            [c/ffea9b:I'd find our confidence as well']
-#            {$Mods.Redemption.SpecialTooltips.Unbreakable5000}
 #            {$SpecialTooltips.Unbreakable5000}
 #            '''
 #    }
@@ -5887,7 +5801,6 @@
 #            [c/ffea9b:Hate to bloodshed; From rise to fall]
 #            [c/ffea9b:If I never have to die,]
 #            [c/ffea9b:Am I alive at all?']
-#            {$Mods.Redemption.SpecialTooltips.Unbreakable5000}
 #            {$SpecialTooltips.Unbreakable5000}
 #            '''
 #    }
@@ -5927,7 +5840,6 @@
 #            [c/ffea9b:Haunted by the memories,]
 #            [c/ffea9b:Moments of hope aren't what they used to be,]
 #            [c/ffea9b:They're only reflections of a dream']
-#            {$Mods.Redemption.SpecialTooltips.Unbreakable5000}
 #            {$SpecialTooltips.Unbreakable5000}
 #            '''
 #    }
@@ -6200,7 +6112,6 @@
 #        Tooltip:
 #            '''
 #            4x20
-#            {$Mods.Redemption.SpecialTooltips.Unbreakable5000}
 #            {$SpecialTooltips.Unbreakable5000}
 #            '''
 #    }
@@ -6210,14 +6121,12 @@
 #        Tooltip:
 #            '''
 #            4x10
-#            {$Mods.Redemption.SpecialTooltips.Unbreakable5000}
 #            {$SpecialTooltips.Unbreakable5000}
 #            '''
 #    }
 #
 #    ShadestonePillar: {
 #        DisplayName: Shadestone Pillar
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable5000}"
 #    }
 #
@@ -6369,7 +6278,6 @@
 #    }
 #
 #    NebBox: {
-#        DisplayName: Music Box (Nebuleus)
 #        DisplayName: Музыкальная шкатулка (Небулеус)
 #        Tooltip: musicman - Interstellar Isolation
 #    }
@@ -6385,13 +6293,11 @@
 #    }
 #
 #    OmegaBox2: {
-#        DisplayName: Music Box (Omega Obliterator)
 #        DisplayName: Музыкальная шкатулка (Омега-Облитератор)
 #        Tooltip: Universe - Hailfire
 #    }
 #
 #    PZMusicBox: {
-#        DisplayName: Music Box (Patient Zero)
 #        DisplayName: Музыкальная шкатулка (Нулевой пациент)
 #        Tooltip: Universe - Xenostate
 #    }
@@ -6468,7 +6374,6 @@
 #
 #    AncientHallBrick: {
 #        DisplayName: Ancient Hall Brick
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable5000}"
 #    }
 #
@@ -6489,7 +6394,6 @@
 #
 #    Bedrock: {
 #        DisplayName: Bedrock
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable}"
 #    }
 #
@@ -6505,7 +6409,6 @@
 #
 #    DangerTape: {
 #        DisplayName: Danger Tape
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable5000}"
 #    }
 #
@@ -6516,7 +6419,6 @@
 #
 #    DangerTapeWall: {
 #        DisplayName: Danger Tape Wall
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable5000}"
 #    }
 #
@@ -6526,13 +6428,11 @@
 #    }
 #
 #    ElderWood: {
-#        DisplayName: Elder Wood
 #        DisplayName: Древняя древесина
 #        Tooltip: ""
 #    }
 #
 #    ElderWoodWall: {
-#        DisplayName: Elder Wood Wall
 #        DisplayName: Стена из древней древесины
 #        Tooltip: ""
 #    }
@@ -6619,7 +6519,6 @@
 #
 #    GreenLaser: {
 #        DisplayName: Green Laser Block
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable5000}"
 #    }
 #
@@ -6700,7 +6599,6 @@
 #
 #    LabPlatingUnsafe: {
 #        DisplayName: Laboratory Panel (Unsafe)
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable5000}"
 #    }
 #
@@ -6714,7 +6612,6 @@
 #        Tooltip:
 #            '''
 #            'Filled with green sludge'
-#            {$Mods.Redemption.SpecialTooltips.Unbreakable5000}
 #            {$SpecialTooltips.Unbreakable5000}
 #            '''
 #    }
@@ -6724,7 +6621,6 @@
 #        Tooltip:
 #            '''
 #            'Filled with green sludge'
-#            {$Mods.Redemption.SpecialTooltips.Unbreakable5000}
 #            {$SpecialTooltips.Unbreakable5000}
 #            '''
 #    }
@@ -6746,7 +6642,6 @@
 #
 #    OvergrownLabPlating: {
 #        DisplayName: Overgrown Laboratory Panel (Unsafe)
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable5000}"
 #    }
 #
@@ -6767,13 +6662,11 @@
 #
 #    PrisonBars: {
 #        DisplayName: Prison Bars
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable}"
 #    }
 #
 #    RedLaser: {
 #        DisplayName: Red Laser Block
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable5000}"
 #    }
 #
@@ -6789,7 +6682,6 @@
 #
 #    ShadestoneBrick: {
 #        DisplayName: Shadestone Brick
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable}"
 #    }
 #
@@ -6810,7 +6702,6 @@
 #
 #    ShadestoneSlab: {
 #        DisplayName: Shadestone Beam
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable}"
 #    }
 #
@@ -6841,13 +6732,11 @@
 #
 #    ShipGlass: {
 #        DisplayName: Reinforced Glass
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable}"
 #    }
 #
 #    SlayerShipPanel: {
 #        DisplayName: Slayer's Ship Panel
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable}"
 #    }
 #
@@ -7113,19 +7002,15 @@
 #    }
 #
 #    AlignmentTeller: {
-#        DisplayName: Chalice of Alignment
 #        DisplayName: Чаша мировозрения
 #        Tooltip:
 #            '''
-#            Tells you your current alignment
-#            [c/ffea9b:A sentient treasure, cursed to judge those who wield it]
 #            Показывает текущее мировозрение
 #            [c/ffea9b:Разумное сокровище, проклятое судить тех, кто им владеет]
 #            '''
 #    }
 #
 #    AncientGoldCoin: {
-#        DisplayName: Antique Dorul
 #        DisplayName: Античный дорул
 #        Tooltip:
 #            '''
@@ -7135,19 +7020,15 @@
 #    }
 #
 #    BleachedSolution: {
-#        DisplayName: Bleached Solution
 #        DisplayName: Обесцвеченный раствор
 #        Tooltip:
 #            '''
-#            Used by the Clentaminator
-#            Spreads the Wasteland
 #            Используется «Очистителем»
 #            Распространяет пустошь
 #            '''
 #    }
 #
 #    ChaliceFragments: {
-#        DisplayName: Chalice Fragments
 #        DisplayName: Фрагмент чаши
 #        Tooltip: Holding this in your hand will point to an ancient structure
 #    }
@@ -7161,7 +7042,7 @@
 #        DisplayName: Энергетическая ячейка
 #        Tooltip:
 #            '''
-#            Right-click to recharge +100 Energy if an Energy Pack is in your inventory
+#            Нажмите <right>, чтобы восполнить 100 энергии, если Энергоячейка находится в инвентаре
 #            Automatically recharges when your Energy is low
 #            '''
 #    }
@@ -7181,12 +7062,9 @@
 #    }
 #
 #    Holokey: {
-#        DisplayName: Holokey
 #        DisplayName: Голографический ключ
 #        Tooltip:
 #            '''
-#            Unlocks Holochests found in a crashed spaceship
-#            Only one is needed
 #            Отпирает голографические сундуки, найденные в разбившемся космическом корабле
 #            Нужен только один
 #            '''
@@ -7783,14 +7661,9 @@
 #    }
 #
 #    EnergyPack: {
-#        DisplayName: Energy Pack
 #        DisplayName: Энергоячейка
 #        Tooltip:
 #            '''
-#            While in inventory, allows the user to use energy-based weaponry
-#            Energy-based weaponry can pierce through Guard Points
-#            Can be stacked up to 3 times, each giving +100 energy
-#            Having more than 3 in your inventory will not increase energy further
 #            Пока находится в инвентаре, позволяет использовать энергетическое оружие
 #            Энергетическое оружие пробивает барьер врага
 #            Складывается до 3 штук, каждая из которых увеличивает энергию на 100
@@ -9332,13 +9205,10 @@
 #
 #    BigMaceTurret: {
 #        DisplayName: Laboratory MACE Turret
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable5000}"
 #    }
 #
 #    BrokenLabBackDoor: {
-#        DisplayName: Broken Laboratory Back Door
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 #        DisplayName: Повреждённая запасная дверь лаборатории
 #        Tooltip: "{$SpecialTooltips.Unbreakable5000}"
 #    }
@@ -9348,7 +9218,6 @@
 #        Tooltip:
 #            '''
 #            Gives Hazmat Suit
-#            {$Mods.Redemption.SpecialTooltips.Unbreakable5000}
 #            {$SpecialTooltips.Unbreakable5000}
 #            '''
 #    }
@@ -9360,7 +9229,6 @@
 #
 #    KariBed: {
 #        DisplayName: Kari's Hospital Bed
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable}"
 #    }
 #
@@ -9369,7 +9237,6 @@
 #        Tooltip:
 #            '''
 #            Closes when a boss is active
-#            {$Mods.Redemption.SpecialTooltips.Unbreakable}
 #            {$SpecialTooltips.Unbreakable}
 #            '''
 #    }
@@ -9379,7 +9246,6 @@
 #        Tooltip:
 #            '''
 #            Closes when any of the Lab Minibosses/Bosses are active
-#            {$Mods.Redemption.SpecialTooltips.Unbreakable}
 #            {$SpecialTooltips.Unbreakable}
 #            '''
 #    }
@@ -9394,14 +9260,12 @@
 #        Tooltip:
 #            '''
 #            Opens using a Keycard
-#            {$Mods.Redemption.SpecialTooltips.Unbreakable5000}
 #            {$SpecialTooltips.Unbreakable5000}
 #            '''
 #    }
 #
 #    LabPhoto: {
 #        DisplayName: Laboratory Photo
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable}"
 #    }
 #
@@ -9417,13 +9281,11 @@
 #
 #    OpenVent: {
 #        DisplayName: Open Vent
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable5000}"
 #    }
 #
 #    RadPillDeco: {
 #        DisplayName: Radiation Pill (Deco)
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable5000}"
 #    }
 #
@@ -9437,26 +9299,22 @@
 #        Tooltip:
 #            '''
 #            Gives the Cursed Gem
-#            {$Mods.Redemption.SpecialTooltips.Unbreakable}
 #            {$SpecialTooltips.Unbreakable}
 #            '''
 #    }
 #
 #    AnglonPortalItem: {
 #        DisplayName: Anglon Portal
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable}"
 #    }
 #
 #    GathuramPortalItem: {
 #        DisplayName: Gathuram Portal
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable}"
 #    }
 #
 #    GoldenGatewayItem: {
 #        DisplayName: Golden Gateway
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable}"
 #    }
 #
@@ -9477,19 +9335,16 @@
 #
 #    GiantShadesteelChain: {
 #        DisplayName: Giant Shadesteel Chain
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable5000}"
 #    }
 #
 #    ShadePortcullis: {
 #        DisplayName: Shade Portcullis
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable5000}"
 #    }
 #
 #    ShadesteelGate: {
 #        DisplayName: Shadesteel Gate
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable5000}"
 #    }
 #
@@ -9500,7 +9355,6 @@
 #
 #    ShadestoneGate: {
 #        DisplayName: Shadestone Gate
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable}"
 #    }
 #
@@ -9646,25 +9500,21 @@
 #
 #    LabPlatingWallUnsafe: {
 #        DisplayName: Lab Wall (Unsafe)
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable}"
 #    }
 #
 #    MossyLabPlatingWall: {
 #        DisplayName: Mossy Lab Wall (Unsafe)
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable}"
 #    }
 #
 #    MossyLabWall: {
 #        DisplayName: Mossy Lab Wall (Full) (Unsafe)
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable}"
 #    }
 #
 #    VentWall: {
 #        DisplayName: Vent Wall
-#        Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 #        Tooltip: "{$SpecialTooltips.Unbreakable}"
 #    }
 #
@@ -9860,13 +9710,11 @@
 #
 #    HaymakerBanner: {
 #        DisplayName: Haymaker Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.Haymaker.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.Haymaker.DisplayName}"
 #    }
 #
 #    RoosterBoosterBanner: {
 #        DisplayName: Rooster Booster Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.RoosterBooster.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.RoosterBooster.DisplayName}"
 #    }
 #
@@ -10075,12 +9923,12 @@
 #    }
 #
 #    EaglecrestGolemRelic: {
-#        DisplayName: Eaglecrest Golem Relic
+#        DisplayName: Реликвия Голема Иглекреста
 #        Tooltip: ""
 #    }
 #
 #    EaglecrestGolemTrophy: {
-#        DisplayName: Eaglecrest Golem Trophy
+#        DisplayName: Трофей Голема Иглекреста
 #        Tooltip: ""
 #    }
 #
@@ -10238,8 +10086,6 @@
 #            '''
 #            Critters are attracted to you
 #            Shy critters won't fear you
-#            {$Mods.Redemption.Items.ErleasFlower.Tooltip}
-#            {$Mods.Redemption.Items.SpiderSerum.Tooltip}
 #            {$Items.ErleasFlower.Tooltip}
 #            {$Items.SpiderSerum.Tooltip}
 #            '''
@@ -10290,19 +10136,16 @@
 #
 #    BloatedClingerBanner: {
 #        DisplayName: Bloated Clinger Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.BloatedClinger.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.BloatedClinger.DisplayName}"
 #    }
 #
 #    BloatedDiggerBanner: {
 #        DisplayName: Bloated Digger Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.BloatedDiggerHead.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.BloatedDiggerHead.DisplayName}"
 #    }
 #
 #    BloatedFaceMonsterBanner: {
 #        DisplayName: Bloated Face Monster Banner
-#        Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.BloatedFaceMonster.DisplayName}"
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.BloatedFaceMonster.DisplayName}"
 #    }
 #
@@ -10370,16 +10213,14 @@
 #    Akka.DisplayName: Акка
 #
 #    EaglecrestGolem2: {
-#        DisplayName: "{$Mods.Redemption.NPCs.EaglecrestGolem.DisplayName}"
 #        DisplayName: "{$NPCs.EaglecrestGolem.DisplayName}"
 #
 #        BossChecklistIntegration: {
 #            SpawnInfo: Place down and encase the [i:Redemption/GolemEye] within the stones of its origins, and it's true power will present itself.
-#            EntryName: Матч-реванш против голема Иглекреста
+#            EntryName: Матч-реванш против Голема Иглекреста
 #        }
 #    }
 #
-#    EaglecrestRockPile2.DisplayName: "{$Mods.Redemption.NPCs.EaglecrestRockPile.DisplayName}"
 #    EaglecrestRockPile2.DisplayName: "{$NPCs.EaglecrestRockPile.DisplayName}"
 #
 #    Ukko: {
@@ -10442,7 +10283,6 @@
 #
 #    Gigapora_BodySegment.DisplayName: Омега-гиганожка
 #    Gigapora_ShieldCore.DisplayName: Shield Core
-#    Porakone.DisplayName: "{$Mods.Redemption.NPCs.Wielder.DisplayName}"
 #    Porakone.DisplayName: "{$NPCs.Wielder.DisplayName}"
 #
 #    Keeper: {
@@ -10463,7 +10303,6 @@
 #    KS3_ScannerDrone.DisplayName: Scanner Drone Mk.I
 #    SpaceKeeper.DisplayName: Хранитель космоса
 #    Nebuleus_Clone.DisplayName: Иллюзия Небулеус
-#    Nebuleus2_Clone.DisplayName: "{$Mods.Redemption.NPCs.Nebuleus_Clone.DisplayName}"
 #    Nebuleus2_Clone.DisplayName: "{$NPCs.Nebuleus_Clone.DisplayName}"
 #
 #    Nebuleus: {
@@ -10475,7 +10314,6 @@
 #        }
 #    }
 #
-#    Nebuleus2.DisplayName: "{$Mods.Redemption.NPCs.Nebuleus.DisplayName}"
 #    Nebuleus2.DisplayName: "{$NPCs.Nebuleus.DisplayName}"
 #
 #    OO: {
@@ -10492,7 +10330,6 @@
 #        BossChecklistIntegration.SpawnInfo: Hit the closed eye of Patient Zero in the Abandoned Laboratory. Use a [i:Redemption/LabHologramDevice] in the arena to resummon.
 #    }
 #
-#    PZ_Body_Holo.DisplayName: "{$Mods.Redemption.NPCs.PZ.DisplayName}"
 #    PZ_Body_Holo.DisplayName: "{$NPCs.PZ.DisplayName}"
 #    PZ_Kari.DisplayName: Кари Йоханссон
 #    SeedGrowth.DisplayName: Hive Growth
@@ -10569,7 +10406,6 @@
 #    }
 #
 #    Daerel_Intro.DisplayName: Дэрел
-#    DaerelUnconscious.DisplayName: "{$Mods.Redemption.NPCs.Daerel_Intro.DisplayName}"
 #    DaerelUnconscious.DisplayName: "{$NPCs.Daerel_Intro.DisplayName}"
 #
 #    Fallen: {
@@ -10598,7 +10434,6 @@
 #    }
 #
 #    ForestNymph_Friendly: {
-#        DisplayName: "{$Mods.Redemption.NPCs.ForestNymph.DisplayName}"
 #        DisplayName: "{$NPCs.ForestNymph.DisplayName}"
 #        Census.SpawnCondition:
 #            '''
@@ -10609,13 +10444,10 @@
 #
 #    GathuramPortal.DisplayName: Mysterious Gateway
 #    GiftDrone.DisplayName: Gift Drone
-#    GiftDrone2.DisplayName: "{$Mods.Redemption.NPCs.GiftDrone.DisplayName}"
-#    GiftDrone3.DisplayName: "{$Mods.Redemption.NPCs.GiftDrone.DisplayName}"
 #    GiftDrone2.DisplayName: "{$NPCs.GiftDrone.DisplayName}"
 #    GiftDrone3.DisplayName: "{$NPCs.GiftDrone.DisplayName}"
 #    GoldenPortal.DisplayName: Golden Gateway
 #    HazmatCorpse_Ghost.DisplayName: Hazmat Ghost
-#    KS3Sitting.DisplayName: "{$Mods.Redemption.NPCs.KS3.DisplayName}"
 #    KS3Sitting.DisplayName: "{$NPCs.KS3.DisplayName}"
 #    LostSoulNPC.DisplayName: Lost Soul
 #
@@ -10651,7 +10483,6 @@
 #        ShortName: Noza
 #    }
 #
-#    SkullDiggerFriendly.DisplayName: "{$Mods.Redemption.NPCs.SkullDigger.DisplayName}"
 #    SkullDiggerFriendly.DisplayName: "{$NPCs.SkullDigger.DisplayName}"
 #    SkullDiggerFriendly_Spirit.DisplayName: Skull Digger's Spirit
 #    SoullessPortal.DisplayName: Shadesoul Gateway
@@ -10671,21 +10502,11 @@
 #    }
 #
 #    SpiritNiricLady.DisplayName: Old Spirit Lady
-#    AncientGladestoneGolem_SS.DisplayName: "{$Mods.Redemption.NPCs.AncientGladestoneGolem.DisplayName}"
 #    AncientGladestoneGolem_SS.DisplayName: "{$NPCs.AncientGladestoneGolem.DisplayName}"
 #    Asher_SS.DisplayName: Asher
-#    EpidotrianSkeleton_SS.DisplayName: "{$Mods.Redemption.NPCs.EpidotrianSkeleton.DisplayName}"
-#    ForestNymph_SS.DisplayName: "{$Mods.Redemption.NPCs.ForestNymph.DisplayName}"
 #    EpidotrianSkeleton_SS.DisplayName: "{$NPCs.EpidotrianSkeleton.DisplayName}"
 #    ForestNymph_SS.DisplayName: "{$NPCs.ForestNymph.DisplayName}"
 #    MossyGoliath_SS.DisplayName: Mossy Goliath
-#    SkeletonAssassin_SS.DisplayName: "{$Mods.Redemption.NPCs.SkeletonAssassin.DisplayName}"
-#    SkeletonDuelist_SS.DisplayName: "{$Mods.Redemption.NPCs.SkeletonDuelist.DisplayName}"
-#    SkeletonFlagbearer_SS.DisplayName: "{$Mods.Redemption.NPCs.SkeletonFlagbearer.DisplayName}"
-#    SkeletonNoble_SS.DisplayName: "{$Mods.Redemption.NPCs.SkeletonNoble.DisplayName}"
-#    SkeletonWanderer_SS.DisplayName: "{$Mods.Redemption.NPCs.SkeletonWanderer.DisplayName}"
-#    SkeletonWarden_SS.DisplayName: "{$Mods.Redemption.NPCs.SkeletonWarden.DisplayName}"
-#    SkullDigger_SS.DisplayName: "{$Mods.Redemption.NPCs.SkullDigger.DisplayName}"
 #    SkeletonAssassin_SS.DisplayName: "{$NPCs.SkeletonAssassin.DisplayName}"
 #    SkeletonDuelist_SS.DisplayName: "{$NPCs.SkeletonDuelist.DisplayName}"
 #    SkeletonFlagbearer_SS.DisplayName: "{$NPCs.SkeletonFlagbearer.DisplayName}"
@@ -10722,7 +10543,6 @@
 #    }
 #
 #    TBot_Intro.DisplayName: Адам
-#    TBotUnconscious.DisplayName: "{$Mods.Redemption.NPCs.TBot_Intro.DisplayName}"
 #    TBotUnconscious.DisplayName: "{$NPCs.TBot_Intro.DisplayName}"
 #
 #    TreebarkDryad: {
@@ -10758,66 +10578,50 @@
 #    }
 #
 #    Zephos_Intro.DisplayName: Зефос
-#    ZephosUnconscious.DisplayName: "{$Mods.Redemption.NPCs.Zephos_Intro.DisplayName}"
 #    ZephosUnconscious.DisplayName: "{$NPCs.Zephos_Intro.DisplayName}"
 #    Android.DisplayName: Android Mk.I
 #    PrototypeSilver.DisplayName: Prototype Silver Mk.I
 #    SlayerSpawner.DisplayName: Slayer Spawner
 #    SpacePaladin.DisplayName: Space Paladin Mk.I
 #    IrradiatedBehemoth.DisplayName: Irradiated Behemoth
-#    IrradiatedBehemoth_Holo.DisplayName: "{$Mods.Redemption.NPCs.IrradiatedBehemoth.DisplayName}"
 #    IrradiatedBehemoth_Holo.DisplayName: "{$NPCs.IrradiatedBehemoth.DisplayName}"
 #    BlisteredScientist.DisplayName: Blistered Scientist
 #    BlisteredFish.DisplayName: Blistered Fish
-#    BlisteredFish2.DisplayName: "{$Mods.Redemption.NPCs.BlisteredFish.DisplayName}"
 #    BlisteredFish2.DisplayName: "{$NPCs.BlisteredFish.DisplayName}"
 #    Blisterface.DisplayName: Нарыволицый
-#    Blisterface_Holo.DisplayName: "{$Mods.Redemption.NPCs.Blisterface.DisplayName}"
 #    Blisterface_Holo.DisplayName: "{$NPCs.Blisterface.DisplayName}"
 #    BloatedScientist.DisplayName: Bloated Scientist
 #    CraneOperator.DisplayName: Оператор крана
 #    JanitorBot.DisplayName: Уборщик
-#    JanitorBot_Cleaning.DisplayName: "{$Mods.Redemption.NPCs.JanitorBot.DisplayName}"
-#    JanitorBot_Defeated.DisplayName: "{$Mods.Redemption.NPCs.JanitorBot.DisplayName}"
-#    JanitorBot_Holo.DisplayName: "{$Mods.Redemption.NPCs.JanitorBot.DisplayName}"
-#    JanitorBot_NPC.DisplayName: "{$Mods.Redemption.NPCs.JanitorBot.DisplayName}"
 #    JanitorBot_Cleaning.DisplayName: "{$NPCs.JanitorBot.DisplayName}"
 #    JanitorBot_Defeated.DisplayName: "{$NPCs.JanitorBot.DisplayName}"
 #    JanitorBot_Holo.DisplayName: "{$NPCs.JanitorBot.DisplayName}"
 #    JanitorBot_NPC.DisplayName: "{$NPCs.JanitorBot.DisplayName}"
 #    LabSentryDrone.DisplayName: Laboratory Drone
 #    MACEProject.DisplayName: Проект Б.У.Л.А.В.А.
-#    MACEProject_Holo.DisplayName: "{$Mods.Redemption.NPCs.MACEProject.DisplayName}"
-#    MACEProject_Off.DisplayName: "{$Mods.Redemption.NPCs.MACEProject.DisplayName}"
 #    MACEProject_Holo.DisplayName: "{$NPCs.MACEProject.DisplayName}"
 #    MACEProject_Off.DisplayName: "{$NPCs.MACEProject.DisplayName}"
 #    OozeBlob.DisplayName: Ooze Blob
 #    OozingScientist.DisplayName: Oozing Scientist
 #    ProtectorVolt.DisplayName: Protector Volt
-#    ProtectorVolt_NPC.DisplayName: "{$Mods.Redemption.NPCs.ProtectorVolt.DisplayName}"
-#    ProtectorVolt_Start.DisplayName: "{$Mods.Redemption.NPCs.ProtectorVolt.DisplayName}"
 #    ProtectorVolt_NPC.DisplayName: "{$NPCs.ProtectorVolt.DisplayName}"
 #    ProtectorVolt_Start.DisplayName: "{$NPCs.ProtectorVolt.DisplayName}"
 #
 #    EaglecrestGolem: {
-#        DisplayName: Eaglecrest Golem
+#        DisplayName: Голем Иглекреста
 #        BossChecklistIntegration.SpawnInfo: Naturally spawns on the surface at day after Eater of Worlds/Brain of Cthulhu is defeated.
 #    }
 #
-#    EaglecrestGolem_Sleep.DisplayName: Sleeping Stones
-#    EaglecrestRockPile.DisplayName: Eaglecrest Rock Pile
+#    EaglecrestGolem_Sleep.DisplayName: Дремлющие камни
+#    EaglecrestRockPile.DisplayName: Груда камней Иглекреста
 #
 #    SkullDigger: {
 #        DisplayName: Skull Digger
 #        BossChecklistIntegration.SpawnInfo: Roams the caverns, seeking revenge...
 #    }
 #
-#    BabbyDragonBody.DisplayName: "{$Mods.Redemption.NPCs.BabbyDragonHead.DisplayName}"
 #    BabbyDragonBody.DisplayName: "{$NPCs.BabbyDragonHead.DisplayName}"
 #    BabbyDragonHead.DisplayName: Star Serpent
-#    BabbyDragonLeg.DisplayName: "{$Mods.Redemption.NPCs.BabbyDragonHead.DisplayName}"
-#    BabbyDragonTail1.DisplayName: "{$Mods.Redemption.NPCs.BabbyDragonHead.DisplayName}"
-#    BabbyDragonTail2.DisplayName: "{$Mods.Redemption.NPCs.BabbyDragonHead.DisplayName}"
 #    BabbyDragonLeg.DisplayName: "{$NPCs.BabbyDragonHead.DisplayName}"
 #    BabbyDragonTail1.DisplayName: "{$NPCs.BabbyDragonHead.DisplayName}"
 #    BabbyDragonTail2.DisplayName: "{$NPCs.BabbyDragonHead.DisplayName}"
@@ -10860,11 +10664,6 @@
 #    SicklyPenguin.DisplayName: Sickly Penguin
 #    SicklyWolf.DisplayName: Sickly Wolf
 #    SneezyFlinx.DisplayName: Sneezy Snow Flinx
-#    KS3_Start.DisplayName: "{$Mods.Redemption.NPCs.KS3.DisplayName}"
-#    Neb_Start.DisplayName: "{$Mods.Redemption.NPCs.Nebuleus.DisplayName}"
-#    PZ_Inactive.DisplayName: "{$Mods.Redemption.NPCs.PZ.DisplayName}"
-#    IrradiatedBehemoth_Inactive.DisplayName: "{$Mods.Redemption.NPCs.IrradiatedBehemoth.DisplayName}"
-#    Blisterface_Inactive.DisplayName: "{$Mods.Redemption.NPCs.Blisterface.DisplayName}"
 #    KS3_Start.DisplayName: "{$NPCs.KS3.DisplayName}"
 #    Neb_Start.DisplayName: "{$NPCs.Nebuleus.DisplayName}"
 #    PZ_Inactive.DisplayName: "{$NPCs.PZ.DisplayName}"
@@ -10878,8 +10677,6 @@
 #        BossChecklistIntegration.SpawnInfo: Appears at the Underground Portal sometime after Skeletron is defeated.
 #    }
 #
-#    Calavia_Intro.DisplayName: "{$Mods.Redemption.NPCs.Calavia.DisplayName}"
-#    Calavia_NPC.DisplayName: "{$Mods.Redemption.NPCs.Calavia.DisplayName}"
 #    Calavia_Intro.DisplayName: "{$NPCs.Calavia.DisplayName}"
 #    Calavia_NPC.DisplayName: "{$NPCs.Calavia.DisplayName}"
 #
@@ -10894,10 +10691,8 @@
 #    ViciousChicken.DisplayName: Vicious Chicken
 #    Stage3Scientist.DisplayName: Stage 3 Infected Scientist
 #    BloatedClinger.DisplayName: Bloated Clinger
-#    BloatedDiggerBody.DisplayName: "{$Mods.Redemption.NPCs.BloatedDiggerHead.DisplayName}"
 #    BloatedDiggerBody.DisplayName: "{$NPCs.BloatedDiggerHead.DisplayName}"
 #    BloatedDiggerHead.DisplayName: Bloated Digger
-#    BloatedDiggerTail.DisplayName: "{$Mods.Redemption.NPCs.BloatedDiggerHead.DisplayName}"
 #    BloatedDiggerTail.DisplayName: "{$NPCs.BloatedDiggerHead.DisplayName}"
 #    BloatedFaceMonster.DisplayName: Bloated Face Monster
 #}
@@ -10959,22 +10754,11 @@
 #    HolochestTile_Locked.MapEntry: Locked Holochest
 #    LabChestTileLocked_Locked.MapEntry: Locked High Security Crate
 #    LabChestTileLocked2_Locked.MapEntry: Locked High Security Crate
-#    ArchclothThroneTile.MapEntry: Archcloth Throne
-#    BabyHiveTile.MapEntry: Baby Infection Hive
-#    BigMaceTurretTile.MapEntry: Laboratory MACE Turret
-#    BiohazardSignTile.MapEntry: Biohazard Sign
 #    ArchclothThroneTile.MapEntry: "{$Items.ArchclothThrone.DisplayName}"
 #    BabyHiveTile.MapEntry: "{$Items.BabyHive.DisplayName}"
 #    BigMaceTurretTile.MapEntry: "{$Items.BigMaceTurret.DisplayName}"
 #    BiohazardSignTile.MapEntry: "{$Items.BiohazardSign.DisplayName}"
 #    BotHangerTile.MapEntry: Bot Hanger
-#    BrokenLabBackDoor2Tile.MapEntry: Broken Laboratory Door
-#    BrokenLabBackDoorTile.MapEntry: Broken Laboratory Door
-#    ElectricitySignTile.MapEntry: Electricity Sign
-#    EmptyBotHangerTile.MapEntry: Empty Bot Hanger
-#    GirusCorruptorTile.MapEntry: Girus Corruptor
-#    HazmatCorpseTile.MapEntry: Hazmat Corpse
-#    HospitalBedTile.MapEntry: Hospital Bed
 #    BrokenLabBackDoor2Tile.MapEntry: Повреждённая дверь лаборатории
 #    BrokenLabBackDoorTile.MapEntry: Повреждённая дверь лаборатории
 #    ElectricitySignTile.MapEntry: "{$Items.ElectricitySign.DisplayName}"
@@ -10985,23 +10769,12 @@
 #    InfectedCorpse1Tile.MapEntry: Infected Corpse
 #    InfectedCorpse2Tile.MapEntry: Infected Corpse
 #    InfectedCorpse3Tile.MapEntry: Infected Corpse
-#    JanitorEquipmentTile.MapEntry: Janitor Equipment
-#    KariBedTile.MapEntry: Kari's Hospital Bed
 #    JanitorEquipmentTile.MapEntry: "{$Items.JanitorEquipment.DisplayName}"
 #    KariBedTile.MapEntry: "{$Items.KariBed.DisplayName}"
 #    LabBackDoor2Tile.MapEntry: Laboratory Door
 #    LabBackDoorTile.MapEntry: Laboratory Door
 #    LabBossDoorTile.MapEntry: Reinforced Door
 #    LabBossDoorTileH.MapEntry: Reinforced Door
-#    LabCabinetTile.MapEntry: Laboratory Cabinet
-#    LabCeilingLampTile.MapEntry: Laboratory Ceiling Lamp
-#    LabCeilingMonitorTile.MapEntry: Laboratory Ceiling Monitor
-#    LabComputerTile.MapEntry: Laboratory Computer
-#    LabCrate2Tile.MapEntry: Reinforced Laboratory Crate
-#    LabCrateTile.MapEntry: Laboratory Crate
-#    LabIntercomTile.MapEntry: Laboratory Intercom
-#    LabKeycardDoorClosed.MapEntry: Keycard Door
-#    LabKeycardDoorOpen.MapEntry: Keycard Door
 #    LabCabinetTile.MapEntry: "{$Items.LabCabinet.DisplayName}"
 #    LabCeilingLampTile.MapEntry: "{$Items.LabCeilingLamp.DisplayName}"
 #    LabCeilingMonitorTile.MapEntry: "{$Items.LabCeilingMonitor.DisplayName}"
@@ -11015,27 +10788,6 @@
 #    LabRailTile_L.MapEntry: Laboratory Railing
 #    LabRailTile_Mid.MapEntry: Laboratory Railing
 #    LabRailTile_R.MapEntry: Laboratory Railing
-#    LabReactorTile.MapEntry: Laboratory Reactor
-#    LabReceptionCouchTile.MapEntry: Laboratory Reception Couch
-#    LabReceptionDeskTile.MapEntry: Laboratory Reception Desk
-#    LabReceptionMonitorsTile.MapEntry: Laboratory Reception Monitors
-#    LabWallFanTile.MapEntry: Laboratory Wall Fan
-#    LabWorkbenchTile.MapEntry: Laboratory Work Bench
-#    MossTubeTile.MapEntry: Mossy Laboratory Tube
-#    RadiationPillTile.MapEntry: Radiation Pill
-#    RadioactiveSignTile.MapEntry: Radioactive Sign
-#    ServerCabinetTile.MapEntry: Server Cabinet
-#    SewerHoleTile.MapEntry: Sewer Hole
-#    SkullSignTile.MapEntry: Skull Sign
-#    Stage3CorpseTile.MapEntry: Crystallized Corpse
-#    TestTubesTile.MapEntry: Test Tubes
-#    WideLabConsoleTile.MapEntry: Wide Laboratory Console
-#    XeniumRefineryTile.MapEntry: Xenium Refinery
-#    XeniumSmelterTile.MapEntry: Xenium Smelter
-#    AncientAltarTile.MapEntry: Ancient Altar
-#    AnglonPortalTile.MapEntry: Anglon Portal
-#    BorealStatuetteTile.MapEntry: Boreal Statuette
-#    ChickenCoopTile.MapEntry: Chicken Coop
 #    LabReactorTile.MapEntry: "{$Items.LabReactor.DisplayName}"
 #    LabReceptionCouchTile.MapEntry: "{$Items.LabReceptionCouch.DisplayName}"
 #    LabReceptionDeskTile.MapEntry: "{$Items.LabReceptionDesk.DisplayName}"
@@ -11058,21 +10810,6 @@
 #    BorealStatuetteTile.MapEntry: "{$Items.BorealStatuette.DisplayName}"
 #    ChickenCoopTile.MapEntry: "{$Items.ChickenCoop.DisplayName}"
 #    DoppelsSwordTile.MapEntry: Doppel's Steel Sword
-#    EaglecrestGolemPlushTile.MapEntry: Eaglecrest Golem Plushie
-#    EnergyStationTile.MapEntry: Energy Station
-#    GathicCryoFurnaceTile.MapEntry: Gathic Cryo-Furnace
-#    GathuramPortalTile.MapEntry: Gathuram Portal
-#    GoldenGatewayTile.MapEntry: Golden Gateway
-#    HangingTiedTile.MapEntry: Hanging Tied
-#    KingChessPieceTile.MapEntry: Marble King Chess Piece
-#    NirinCogBigTile.MapEntry: Niric Cog
-#    NirinCogMediumTile.MapEntry: Niric Cog
-#    NozaCageHangingTile.MapEntry: Cage
-#    NozaCageLargeTile.MapEntry: Cage
-#    NozaCageSmallTile.MapEntry: Cage
-#    NozaCageTile.MapEntry: Cage
-#    NuclearWarheadTile.MapEntry: Nuclear Warhead
-#    SlayerMedalTile.MapEntry: Medal
 #    EaglecrestGolemPlushTile.MapEntry: "{$Items.EaglecrestGolemPlush.DisplayName}"
 #    EnergyStationTile.MapEntry: "{$Items.EnergyStation.DisplayName}"
 #    GathicCryoFurnaceTile.MapEntry: "{$Items.GathicCryoFurnace.DisplayName}"
@@ -11089,11 +10826,6 @@
 #    NuclearWarheadTile.MapEntry: "{$Items.NuclearWarhead.DisplayName}"
 #    SlayerMedalTile.MapEntry:  "{$Items.SlayerMedal.DisplayName}"
 #    SoulCandlesTile.MapEntry: Soul Candles
-#    ThornPlushTile.MapEntry: Thorn Plushie
-#    TrojanChickenTile.MapEntry: Trojan Chicken Replica
-#    PetrifiedCrateTile.MapEntry: Petrified Crate
-#    ShadesteelGateClose.MapEntry: Shadesteel Gate
-#    ShadesteelGateOpen.MapEntry: Shadesteel Gate
 #    ThornPlushTile.MapEntry: "{$Items.ThornPlush.DisplayName}"
 #    TrojanChickenTile.MapEntry: "{$Items.TrojanChicken.DisplayName}"
 #    PetrifiedCrateTile.MapEntry: "{$Items.PetrifiedCrate.DisplayName}"
@@ -11104,46 +10836,25 @@
 #    ShadesteelPortcullisClose.MapEntry: Shadesteel Portcullis
 #    ShadesteelPortcullisClose_Unlocked.MapEntry: Shadesteel Portcullis
 #    ShadesteelPortcullisOpen.MapEntry: Shadesteel Portcullis
-#    ShadestoneCrateTile.MapEntry: Shadestone Crate
-#    ShadestoneGateTile.MapEntry: Shadestone Gate
-#    ShadestoneMirrorTile.MapEntry: Shadestone Mirror
-#    WaxCandlesTile.MapEntry: Wax Candles
 #    ShadestoneCrateTile.MapEntry: "{$Items.ShadestoneCrate.DisplayName}"
 #    ShadestoneGateTile.MapEntry: "{$Items.ShadestoneGate.DisplayName}"
 #    ShadestoneMirrorTile.MapEntry: "{$Items.ShadestoneMirror.DisplayName}"
 #    WaxCandlesTile.MapEntry: "{$Items.WaxCandles.DisplayName}"
 #    AndroidInactiveTile.MapEntry: Inactive Android Mk.I
 #    BiocontainerTile.MapEntry: Life Fruit Bio-Container
-#    ChessTable4DTile.MapEntry: 4D Chess Table
 #    ChessTable4DTile.MapEntry: "{$Items.ChessTable4D.DisplayName}"
 #    DroneShelfTile.MapEntry: Drone Shelves
 #    PrototypeSilverInactiveTile.MapEntry: Inactive Prototype Silver Mk.I
 #    SlayerChairTile.MapEntry: Slayer's Gaming Chair
-#    SlayerFabricatorTile.MapEntry: Cyber Fabricator
-#    SolarPanelTile.MapEntry: Solar Panels
-#    CryoCrystalTile.MapEntry: Gathic Cryo-Crystal
 #    SlayerFabricatorTile.MapEntry: "{$Items.SlayerFabricator.DisplayName}"
 #    SolarPanelTile.MapEntry: "{$Items.SolarPanel.DisplayName}"
 #    CryoCrystalTile.MapEntry: "{$Items.GathicCryoCrystal.DisplayName}"
 #    DemonScrollTile.MapEntry: Forbidden Ritual
 #    GrubNestTile.MapEntry: Grub Nest
-#    NewbMound.MapEntry: Newb Mound
 #    NewbMound.MapEntry: "{$Items.NewbMoundItem.DisplayName}"
 #    NiricAutomatonRemainsTile.MapEntry: Automaton Remains
-#    ShadePots.MapEntry: Pot
 #    ShadePots.MapEntry: "{$MapObject.Pot}"
 #    SkeletonRemainsTile1.MapEntry: Skeletal Remains
-#    SkeletonRemainsTile1_Special.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
-#    SkeletonRemainsTile2.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
-#    SkeletonRemainsTile3.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
-#    SkeletonRemainsTile3_Special.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
-#    SkeletonRemainsTile4.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
-#    SkeletonRemainsTile4_Special.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
-#    SkeletonRemainsTile5.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
-#    SkeletonRemainsTile5_Special.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
-#    SkeletonRemainsTile6.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
-#    SkeletonRemainsTile7.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
-#    SkeletonRemainsTile7_Special.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
 #    SkeletonRemainsTile1_Special.MapEntry: "{$Tiles.SkeletonRemainsTile1.MapEntry}"
 #    SkeletonRemainsTile2.MapEntry: "{$Tiles.SkeletonRemainsTile1.MapEntry}"
 #    SkeletonRemainsTile3.MapEntry: "{$Tiles.SkeletonRemainsTile1.MapEntry}"
@@ -11156,29 +10867,16 @@
 #    SkeletonRemainsTile7.MapEntry: "{$Tiles.SkeletonRemainsTile1.MapEntry}"
 #    SkeletonRemainsTile7_Special.MapEntry: "{$Tiles.SkeletonRemainsTile1.MapEntry}"
 #    XenomiteCrystalBigTile.MapEntry: Xenomite Crystals
-#    XenomiteCrystalTile.MapEntry: Xenomite
 #    XenomiteCrystalTile.MapEntry: "{$Items.Xenomite.DisplayName}"
 #    DragonLeadOre2Tile.MapEntry: Stone?
-#    DragonLeadOreTile.MapEntry: Dragon-Lead Ore
 #    DragonLeadOreTile.MapEntry: "{$Items.DragonLeadOre.DisplayName}"
 #    MasksTile.MapEntry: Vessel Fragments
-#    PlutoniumTile.MapEntry: Plutonium
 #    PlutoniumTile.MapEntry: "{$Items.Plutonium.DisplayName}"
 #    SolidCoriumTile.MapEntry: Solid Corium
-#    UraniumTile.MapEntry: Uranium
-#    XenomiteShardTile.MapEntry: Xenomite Shard
-#    AnglonicMysticBlossomTile.MapEntry: Anglonic Mystic Blossom
 #    UraniumTile.MapEntry: "{$Items.Uranium.DisplayName}"
 #    XenomiteShardTile.MapEntry: "{$Items.XenomiteShard.DisplayName}"
 #    AnglonicMysticBlossomTile.MapEntry: "{$Items.AnglonicMysticBlossom.DisplayName}"
 #    HeartOfThornsTile.MapEntry: Heart of Thorns
-#    BedrockTile.MapEntry: Bedrock
-#    BlackHardenedSludgeTile.MapEntry: Black Hardened Sludge
-#    HardenedSludgeTile.MapEntry: Hardened Sludge
-#    JunkMetalTile.MapEntry: Cyberscrap
-#    PlantMatterTile.MapEntry: Plant Matter
-#    PrisonBarsBeamTile.MapEntry: Prison Bars
-#    PrisonBarsTile.MapEntry: Prison Bars
 #    BedrockTile.MapEntry: "{$Items.Bedrock.DisplayName}"
 #    BlackHardenedSludgeTile.MapEntry: "{$Items.BlackHardenedSludgeSafe.DisplayName}"
 #    HardenedSludgeTile.MapEntry: "{$Items.HardenedSludgeSafe.DisplayName}"
@@ -11187,11 +10885,8 @@
 #    PrisonBarsBeamTile.MapEntry: "{$Items.PrisonBars.DisplayName}"
 #    PrisonBarsTile.MapEntry: "{$Items.PrisonBars.DisplayName}"
 #    ShadestoneBrickMossyTile.MapEntry: Mossy Shadestone Brick
-#    ShadestoneBrickTile.MapEntry: Shadestone Brick
 #    ShadestoneBrickTile.MapEntry: "{$Items.ShadestoneBrick.DisplayName}"
 #    ShadestoneMossyTile.MapEntry: Mossy Shadestone
-#    ShadestoneRubbleTile.MapEntry: Shadestone Rubble
-#    ShadestoneSlabTile.MapEntry: Shadestone Beam
 #    ShadestoneRubbleTile.MapEntry: "{$Items.ShadestoneRubble.DisplayName}"
 #    ShadestoneSlabTile.MapEntry: "{$Items.ShadestoneSlab.DisplayName}"
 #    ShadestoneTile.MapEntry: Shadestone
@@ -11199,20 +10894,6 @@
 #    IrradiatedBorealSapling.MapEntry: Petrified Boreal Sapling
 #    IrradiatedPalmSapling.MapEntry: Petrified Palm Sapling
 #    IrradiatedPuritySapling.MapEntry: Petrified Sapling
-#    ShadestoneBathtubTile.MapEntry: Shadestone Bathtub Tile
-#    ShadestoneBookcaseTile.MapEntry: Shadestone Bookcase Tile
-#    ShadestoneCandelabraTile.MapEntry: Shadestone Candelabra Tile
-#    ShadestoneCandleTile.MapEntry: Shadestone Candle Tile
-#    ShadestoneMirrorTile2.MapEntry: Shadestone Mirror Tile2
-#    ShadestonePianoTile.MapEntry: Shadestone Piano Tile
-#    ShadestoneSofaTile.MapEntry: Shadestone Sofa Tile
-#    WoodenBallistaTile.MapEntry: Wooden Ballista
-#    MoonflareCandleTile.MapEntry: Moonflare Candle
-#    InfectedCorpse1Fake.MapEntry: "{$Mods.Redemption.Tiles.InfectedCorpse1Tile.MapEntry}"
-#    InfectedCorpse2Fake.MapEntry: "{$Mods.Redemption.Tiles.InfectedCorpse1Tile.MapEntry}"
-#    InfectedCorpse3Fake.MapEntry: "{$Mods.Redemption.Tiles.InfectedCorpse1Tile.MapEntry}"
-#    HangingTiedTileFake.MapEntry: "{$Mods.Redemption.Tiles.HangingTiedTile.MapEntry}"
-#    SquirrelStatueTile.MapEntry: Squirrel Sculpture
 #    ShadestoneBathtubTile.MapEntry: "{$Items.ShadestoneBathtub.DisplayName}"
 #    ShadestoneBookcaseTile.MapEntry: "{$Items.ShadestoneBookcase.DisplayName}"
 #    ShadestoneCandelabraTile.MapEntry: "{$Items.ShadestoneCandelabra.DisplayName}"
@@ -11228,13 +10909,6 @@
 #    HangingTiedTileFake.MapEntry: "{$Tiles.HangingTiedTile.MapEntry}"
 #    SquirrelStatueTile.MapEntry: "{$Tiles.SquirrelStatue.MapEntry}"
 #    GrubNestTileFake.MapEntry: Grub Nest
-#    SkeletonRemainsTile1Fake.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
-#    SkeletonRemainsTile2Fake.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
-#    SkeletonRemainsTile3Fake.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
-#    SkeletonRemainsTile4Fake.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
-#    SkeletonRemainsTile5Fake.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
-#    SkeletonRemainsTile6Fake.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
-#    SkeletonRemainsTile7Fake.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
 #    SkeletonRemainsTile1Fake.MapEntry: "{$Tiles.SkeletonRemainsTile1.MapEntry}"
 #    SkeletonRemainsTile2Fake.MapEntry: "{$Tiles.SkeletonRemainsTile1.MapEntry}"
 #    SkeletonRemainsTile3Fake.MapEntry: "{$Tiles.SkeletonRemainsTile1.MapEntry}"
@@ -11244,17 +10918,13 @@
 #    SkeletonRemainsTile7Fake.MapEntry: "{$Tiles.SkeletonRemainsTile1.MapEntry}"
 #    XenomiteCrystalBigTileFake.MapEntry: Xenomite Crystal
 #    XenomiteCrystalTileFake.MapEntry: Xenomite Crystal
-#    BlackHardenedSludgeTileSafe.MapEntry: Black Hardened Sludge
-#    HardenedSludgeTileSafe.MapEntry: Hardened Sludge
 #    BlackHardenedSludgeTileSafe.MapEntry: "{$Items.BlackHardenedSludgeSafe.DisplayName}"
 #    HardenedSludgeTileSafe.MapEntry: "{$Items.HardenedSludgeSafe.DisplayName}"
 #}
 #
 #Keybinds: {
-#    "Special Ability Key.DisplayName": Special Ability Key
 #    "Special Ability Key.DisplayName": Особая способность
 #    "Spirit Walker Key.DisplayName": Spirit Walker Key
-#    "Skip Dialogue Key.DisplayName": Skip Dialogue Key
 #    "Skip Dialogue Key.DisplayName": Пропуск диалога
 #}
 #
@@ -11302,7 +10972,6 @@
 #Configs: {
 #    RedeConfigClient: {
 #        DisplayName: Redemption Config Client
-#        DisplayName: Клиентская конфигурация Redemption
 #
 #        DialogueWaitTime: {
 #            Label: Extra Dialogue Wait Time

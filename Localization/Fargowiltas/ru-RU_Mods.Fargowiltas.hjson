@@ -1104,7 +1104,7 @@ Items: {
     }
 
     DeerThing2: {
-        DisplayName: Странность оленя
+        DisplayName: Необычный череп оленя
         Tooltip: Призывает Циклопа-оленя в любом биоме
     }
 
@@ -2939,10 +2939,10 @@ ExpandedTooltips: {
     UnlimitedUse30: Бесконечное использование при стаке в 30
     PermanentEffectNearby: Постоянно даёт эффект ближайшим игрокам при размещении
     WorksFromBanks: Эффекты инвентаря также работают из свиньи-копилки и сейфа
-    SoldBySquirrel: Продаётся белкой
-    SomeMaterialsSold: Продаются некоторые материалы
-    CraftableMaterialsSold: Продаются материалы для изготовления
-    SoldAtThirtyStack: Продаётся от тридцати штук
+    SoldBySquirrel: Продаётся белкой: при получении
+    SomeMaterialsSold: Некоторые материалы, продаваемые белкой: при получении
+    CraftableMaterialsSold: Материалы для создания, продаваемые белкой: при получении
+    SoldAtThirtyStack: Продаётся белкой: при получении стака в 30 штук
     SoldBy: Продаёт
     SeveralVendors: несколько НИПов
 }
