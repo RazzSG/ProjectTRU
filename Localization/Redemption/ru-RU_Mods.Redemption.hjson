@@ -1874,7 +1874,7 @@
 #    }
 #
 #    XeniumTurretBuff: {
-#        DisplayName: Xenium Autoturret
+#        DisplayName: Ксениевая автотурель
 #        Description: Pewpewpewpewpewpew
 #    }
 #
@@ -1943,13 +1943,13 @@
 #    }
 #
 #    OcciePetBuff: {
-#        DisplayName: Occie
+#        DisplayName: Окси
 #        Description: Octavia's kitty cat!
 #    }
 #
 #    PetChickenBuff: {
-#        DisplayName: Chicken Pet
-#        Description: Cluck cluck
+#        DisplayName: Ручная курочка
+#        Description: Цып-цып
 #    }
 #
 #    XenomiteElementalPetBuff: {
@@ -1958,23 +1958,23 @@
 #    }
 #
 #    TiedPetBuff: {
-#        DisplayName: Tied
-#        Description: '''"Spooked"'''
+#        DisplayName: Тид
+#        Description: "'''Напуган'''"
 #    }
 #
 #    NebPetBuff: {
-#        DisplayName: Chibi Nebby
-#        Description: Nebbity Nobbity Nibbity Nuu, this small star gril be followin' you
+#        DisplayName: Чиби-Небби
+#        Description: Нибити-нобити-ну, звёздная крошка с тобой на бегу
 #    }
 #
 #    ToasterPetBuff: {
-#        DisplayName: Household Heatray
+#        DisplayName: Бытовой обогреватель
 #        Description: Its heating filament is inadequate to its needs
 #    }
 #
 #    MiniGigaporaPetBuff: {
 #        DisplayName: Mini Gigapora
-#        Description: You know the drill
+#        Description: Вам не привыкать
 #    }
 #
 #    XenoemiaBuff: {
@@ -3196,7 +3196,7 @@
 #
 #Items: {
 #    MechanicalSheath: {
-#        DisplayName: Mechanical Sheath
+#        DisplayName: Механические ножны
 #        Tooltip:
 #            '''
 #            Hitting enemies with physical melee has a chance to summon a Phantom Cleaver above their heads
@@ -3205,12 +3205,12 @@
 #    }
 #
 #    CleaverHandle: {
-#        DisplayName: Cleaver Handle
+#        DisplayName: Рукоятка двуручника
 #        Tooltip: Summons an Omini Cleaver
 #    }
 #
 #    GasMask: {
-#        DisplayName: Gas Mask
+#        DisplayName: Противогаз
 #        Tooltip:
 #            '''
 #            Grants immunity to Radioactive Fallout
@@ -3219,7 +3219,7 @@
 #    }
 #
 #    GeigerMuller: {
-#        DisplayName: Geiger-Muller
+#        DisplayName: Счётчик Гейгера-Мюллера
 #        Tooltip: Lab issued Geiger counter. The louder it gets, the higher the chance of you getting irradiated.
 #        Status1: No
 #        Status2: Low
@@ -3235,7 +3235,7 @@
 #    }
 #
 #    GracesGuidance: {
-#        DisplayName: Grace's Guidance
+#        DisplayName: Наставничество Грейс
 #        Tooltip:
 #            '''
 #            12% increased {0} elemental damage and resistance
@@ -3248,7 +3248,7 @@
 #    }
 #
 #    HazmatSuit: {
-#        DisplayName: Hazmat Suit
+#        DisplayName: Защитный комбинезон
 #        Tooltip:
 #            '''
 #            Grants immunity to the Abandoned Lab and Wasteland water
@@ -3258,7 +3258,7 @@
 #    }
 #
 #    HazmatSuit2: {
-#        DisplayName: Hazmat Suit
+#        DisplayName: Защитный комбинезон
 #        Tooltip:
 #            '''
 #            Grants immunity to the Abandoned Lab and Wasteland water
@@ -3268,7 +3268,7 @@
 #    }
 #
 #    HazmatSuit3: {
-#        DisplayName: Hazmat Suit (Classic)
+#        DisplayName: Защитный комбинезон (Классический)
 #        Tooltip:
 #            '''
 #            Grants immunity to the Abandoned Lab and Wasteland water
@@ -3278,7 +3278,7 @@
 #    }
 #
 #    HazmatSuit4: {
-#        DisplayName: Hazmat Suit (Finland)
+#        DisplayName: Защитный комбинезон (Финлядния)
 #        Tooltip:
 #            '''
 #            Grants immunity to the Abandoned Lab and Wasteland water
@@ -3288,7 +3288,7 @@
 #    }
 #
 #    Holoshield: {
-#        DisplayName: Holoshield
+#        DisplayName: Голографический щит
 #        Tooltip:
 #            '''
 #            6% damage reduction
@@ -3299,7 +3299,7 @@
 #    }
 #
 #    InfectionShield: {
-#        DisplayName: Infected Thornshield
+#        DisplayName: Заражённый терновый щит
 #        Tooltip:
 #            '''
 #            Double tap a direction to dash
@@ -3342,17 +3342,17 @@
 #    }
 #
 #    PowerDrill: {
-#        DisplayName: Power Drill
+#        DisplayName: Электродрель
 #        Tooltip: Summons a Mini Gigapora
 #    }
 #
 #    RitualistEmblem: {
-#        DisplayName: Ritualist Emblem
+#        DisplayName: Эмблема ритуалиста
 #        Tooltip: 15% increased ritual damage
 #    }
 #
 #    SacredCross: {
-#        DisplayName: Sacred Cross
+#        DisplayName: Священный крест
 #        Tooltip:
 #            '''
 #            12% increased {0} elemental damage and resistance
@@ -3363,27 +3363,27 @@
 #    }
 #
 #    SlayerController: {
-#        DisplayName: Slayer's Gamer Controller
-#        Tooltip: Changes your cursor to a cyan crosshair while inventory is closed
+#        DisplayName: Геймпад Убийцы
+#        Tooltip: Меняет курсор на бирюзовый прицел, когда инвентарь закрыт
 #    }
 #
 #    SlayerProjector: {
-#        DisplayName: Slayer Projector
-#        Tooltip: Summons a hologram of King Slayer to judge you
+#        DisplayName: Проектор Убийцы
+#        Tooltip: Призывает голограмму Цареубийцы для вынесения вам приговора
 #    }
 #
 #    XenomiteJetpack: {
-#        DisplayName: Xenomite Jetpack
+#        DisplayName: Ксеномитовый реактивный ранец
 #        Tooltip: "{$CommonItemTooltip.FlightAndSlowfall}"
 #    }
 #
 #    GildedBonnet: {
-#        DisplayName: Gilded Bonnet
-#        Tooltip: Summons a chibi Nebby to give you moral support!
+#        DisplayName: Золотистый капор
+#        Tooltip: Призывает чиби-Небби, которая будет вас подбадривать!
 #    }
 #
 #    HamSandwich: {
-#        DisplayName: Ham Sandwich
+#        DisplayName: Сэндвич с ветчиной
 #        Tooltip:
 #            '''
 #            'Unleash doomsday upon this fragile universe'
@@ -3392,7 +3392,7 @@
 #    }
 #
 #    HeartOfInfection: {
-#        DisplayName: Heart of Infection
+#        DisplayName: Источник заражения
 #        Tooltip:
 #            '''
 #            The player occasionally emits a life-draining force that steals life from debuffed enemies
@@ -3402,7 +3402,7 @@
 #    }
 #
 #    HEVSuit: {
-#        DisplayName: HEV Suit
+#        DisplayName: Защитный костюм H.E.V.
 #        Tooltip:
 #            '''
 #            Grants immunity to the Abandoned Lab and Wasteland water
@@ -3413,12 +3413,12 @@
 #    }
 #
 #    JyrinaMount: {
-#        DisplayName: Ukon Ratsu
-#        Tooltip: Summons Jyrina and a ridable Lightning Chariot
+#        DisplayName: Скакун Укко
+#        Tooltip: Призывает Гром и ездовую громовую колесницу
 #    }
 #
 #    MutagenMagic: {
-#        DisplayName: Sorcerer's Mutagen
+#        DisplayName: Мутаген мага
 #        Tooltip:
 #            '''
 #            15% increased magic damage
@@ -3427,7 +3427,7 @@
 #    }
 #
 #    MutagenMelee: {
-#        DisplayName: Warrior's Mutagen
+#        DisplayName: Мутаген воина
 #        Tooltip:
 #            '''
 #            15% increased melee damage
@@ -3436,7 +3436,7 @@
 #    }
 #
 #    MutagenRanged: {
-#        DisplayName: Ranger's Mutagen
+#        DisplayName: Мутаген стрелка
 #        Tooltip:
 #            '''
 #            Увеличивает стрелковый урон на 15%
@@ -3445,7 +3445,7 @@
 #    }
 #
 #    MutagenRitualist: {
-#        DisplayName: Ritualist's Mutagen
+#        DisplayName: Мутаген ритуалиста
 #        Tooltip:
 #            '''
 #            15% increased ritual damage
@@ -3454,7 +3454,7 @@
 #    }
 #
 #    MutagenSummon: {
-#        DisplayName: Summoner's Mutagen
+#        DisplayName: Мутаген призывателя
 #        Tooltip:
 #            '''
 #            15% increased summon damage
@@ -3463,17 +3463,17 @@
 #    }
 #
 #    MysteriousXenomiteFragment: {
-#        DisplayName: Mysterious Xenomite Fragment
-#        Tooltip: Summons a lil Xenomite Elemental to light your way!
+#        DisplayName: Загадочный ксеномитовый фрагмент
+#        Tooltip: Призывает маленького ксеномитового элементаля, который будет освещать ваш путь!
 #    }
 #
 #    NebWings: {
-#        DisplayName: Nebuleus Wings
+#        DisplayName: Крылья Небулеус
 #        Tooltip: "{$CommonItemTooltip.FlightAndSlowfall}"
 #    }
 #
 #    ObliterationDrive: {
-#        DisplayName: Obliteration Drive
+#        DisplayName: Привод Облитератора
 #        Tooltip:
 #            '''
 #            Double tap a direction while airborne to dash
@@ -3484,21 +3484,21 @@
 #    }
 #
 #    StrangeSkull: {
-#        DisplayName: Mysterious Skull
-#        Tooltip: Summons a certain spooky skeleton
+#        DisplayName: Загадочный череп
+#        Tooltip: Призывает некого жуткого скелета
 #    }
 #
 #    ToasterPet: {
-#        DisplayName: Household Heatray
+#        DisplayName: Бытовой обогреватель
 #        Tooltip:
 #            '''
-#            Summons a toaster to follow you
-#            'Remember, all toasters toast toast!'
+#            Призывает тостер, который следует за вами
+#            'Запомните, все тостеры тостерят тосты!'
 #            '''
 #    }
 #
 #    VasaraPendant: {
-#        DisplayName: Vasara Pendant
+#        DisplayName: Подвеска-молот
 #        Tooltip:
 #            '''
 #            Taking damage stirs up the ire of Ukko from within you
@@ -3508,17 +3508,17 @@
 #    }
 #
 #    Xenoemia: {
-#        DisplayName: Xenoemia
+#        DisplayName: Ксеномия
 #        Tooltip: Makes you become one with the infection
 #    }
 #
 #    BouquetOfThorns: {
-#        DisplayName: Bouquet of Thorns
+#        DisplayName: Букет колючек
 #        Tooltip: Summons a bouquet of thorns to follow you
 #    }
 #
 #    CircletOfBrambles: {
-#        DisplayName: Circlet of Brambles
+#        DisplayName: Венец из колючек
 #        Tooltip:
 #            '''
 #            Every 5th use of a magic weapon shoots a spread of stingers
@@ -3528,7 +3528,7 @@
 #    }
 #
 #    CrownOfTheKing: {
-#        DisplayName: Crown of the King
+#        DisplayName: Корона короля
 #        Tooltip:
 #            '''
 #            Become the Mighty King Chicken!
@@ -3537,7 +3537,7 @@
 #    }
 #
 #    CrystallizedKnowledge: {
-#        DisplayName: Crystallized Knowledge
+#        DisplayName: Кристаллизованные знания
 #        Tooltip:
 #            '''
 #            Hitting enemies using a weapon with any element will cause elemental crystals to gradually appear, circling around the user
@@ -3575,16 +3575,16 @@
 #    }
 #
 #    EggShield: {
-#        DisplayName: Egg Shelld
+#        DisplayName: Скорлупень
 #        Tooltip:
 #            '''
-#            Decreases knockback the user receives
-#            When below 25% health, you will completely ignore knockback
+#            Снижает эффект отбрасывания, который получает владелец
+#            Когда здоровья ниже 25%, отбрасывание полностью игнорируется
 #            '''
 #    }
 #
 #    ErhanCross: {
-#        DisplayName: Erhan's Cross
+#        DisplayName: Крест Эрхана
 #        Tooltip:
 #            '''
 #            Summons a holy shield to orbit around the user, reflecting most projectiles
@@ -3595,7 +3595,7 @@
 #    }
 #
 #    ForestCore: {
-#        DisplayName: Forest Core
+#        DisplayName: Сердце леса
 #        Tooltip:
 #            '''
 #            Increased chance of Nature Boons to drop from the {0} elemental bonus
@@ -3605,12 +3605,12 @@
 #    }
 #
 #    Grain: {
-#        DisplayName: Pile o' Grain
-#        Tooltip: Summons a pet chicken
+#        DisplayName: Горсть зерна
+#        Tooltip: Призывает ручную курочку
 #    }
 #
 #    HeartInsignia: {
-#        DisplayName: Heart Insignia
+#        DisplayName: Сердце-медальон
 #        Tooltip:
 #            '''
 #            Picking up hearts give a short boost to life regen
@@ -3619,7 +3619,7 @@
 #    }
 #
 #    KeepersCirclet: {
-#        DisplayName: Keeper's Circlet
+#        DisplayName: Венец Хранительницы
 #        Tooltip:
 #            '''
 #            Humanoid skeletons become friendly
@@ -3628,12 +3628,12 @@
 #    }
 #
 #    LeatherSheath: {
-#        DisplayName: Leather Sheath
+#        DisplayName: Кожаные ножны
 #        Tooltip: The first hit landing on an enemy using a physical melee attack has a guaranteed critical strike
 #    }
 #
 #    NecklaceOfPerception: {
-#        DisplayName: Necklace of Perception
+#        DisplayName: Ожерелье проницательности
 #        Tooltip:
 #            '''
 #            Increases movement speed after taking damage
@@ -3644,7 +3644,7 @@
 #    }
 #
 #    NecklaceOfSight: {
-#        DisplayName: Necklace of Sight
+#        DisplayName: Ожерелье зоркости
 #        Tooltip:
 #            '''
 #            Increases movement speed while an enemy is close
@@ -3654,17 +3654,17 @@
 #    }
 #
 #    OcciesCollar: {
-#        DisplayName: Occie's Collar
-#        Tooltip: Summons Occie, Octavia's cat, to follow you
+#        DisplayName: Ошейник Окси
+#        Tooltip: Призывает Окси, кошку Октавии, следовать за вами
 #    }
 #
 #    RopeHook: {
-#        DisplayName: Rope Hook
-#        Tooltip: Affected by gravity
+#        DisplayName: Верёвочный крюк
+#        Tooltip: Подвержен гравитации
 #    }
 #
 #    ShellNecklace: {
-#        DisplayName: Shell Necklace
+#        DisplayName: Ракушечное ожерелье
 #        Tooltip:
 #            '''
 #            10% increased {0} elemental damage and resistance
@@ -3674,7 +3674,7 @@
 #    }
 #
 #    StonePuppet: {
-#        DisplayName: Stone Puppet
+#        DisplayName: Каменная марионетка
 #        Tooltip: Summons a baby rockpile to dance for you
 #    }
 #
@@ -3913,7 +3913,7 @@
 #
 #    XeniumBreastplate: {
 #        DisplayName: Xenium Breastplate
-#        Tooltip: 10% increased damage
+#        Tooltip: Увеличивает урон на 10%
 #    }
 #
 #    XeniumLeggings: {
@@ -4103,17 +4103,17 @@
 #
 #    IntruderArmour: {
 #        DisplayName: Intruder's Body Armor
-#        Tooltip: "'From Intrusion, with love'"
+#        Tooltip: "'С любовью от Вторжения'"
 #    }
 #
 #    IntruderMask: {
 #        DisplayName: Intruder's Mask
-#        Tooltip: "'From Intrusion, with love'"
+#        Tooltip: "'С любовью от Вторжения'"
 #    }
 #
 #    IntruderPants: {
 #        DisplayName: Intruder's Armored Pants
-#        Tooltip: "'From Intrusion, with love'"
+#        Tooltip: "'С любовью от Вторжения'"
 #    }
 #
 #    KeepersVeil: {
@@ -4122,36 +4122,36 @@
 #    }
 #
 #    KingSlayerMask: {
-#        DisplayName: King Slayer III Mask
+#        DisplayName: Маска Цареубийцы III
 #        Tooltip:
 #            '''
 #            'Был ли он убийцей царей или царём убийц?'
-#            'Or maybe he thought it was a cool name'
+#            'Или он просто счёл, что это круто звучит'
 #            '''
 #    }
 #
 #    NebuleusMask: {
-#        DisplayName: Nebuleus Mask
+#        DisplayName: Маска Небулеус
 #        Tooltip: ""
 #    }
 #
 #    NebuleusVanity: {
-#        DisplayName: Nebuleus Robes
+#        DisplayName: Одеяние Небулеус
 #        Tooltip: ""
 #    }
 #
 #    OldTophat: {
-#        DisplayName: Old Tophat
-#        Tooltip: "'It seems to emit a ghostly essence'"
+#        DisplayName: Старый цилиндр
+#        Tooltip: "'Похоже, от него исходит призрачная энергия'"
 #    }
 #
 #    OOMask: {
 #        DisplayName: Маска Облитератора
-#        Tooltip: "'Yo.'"
+#        Tooltip: "'Йо.'"
 #    }
 #
 #    PZMask: {
-#        DisplayName: Patient Zero Mask
+#        DisplayName: Маска Нулевого пациента
 #        Tooltip: ""
 #    }
 #
@@ -4272,8 +4272,8 @@
 #    }
 #
 #    ThornMask: {
-#        DisplayName: Thorn Mask
-#        Tooltip: "'Looks painful...'"
+#        DisplayName: Маска Тёрна
+#        Tooltip: "'Выглядит так, будто это больно...'"
 #    }
 #
 #    UkkoMask: {
@@ -4283,17 +4283,17 @@
 #
 #    BadNeutralRoute: {
 #        DisplayName: Bad Route
-#        Tooltip: This will decrease alignment unless you make a good decision
+#        Tooltip: Снижает мировозрение, если вы не примете правильное решение
 #    }
 #
 #    BadRedemptionRoute: {
 #        DisplayName: Bad Route
-#        Tooltip: This will decrease alignment while opening oppertunities to restore it
+#        Tooltip: Снижает мировозрение, но создаёт условия для его восстановления
 #    }
 #
 #    BadRoute: {
 #        DisplayName: Bad Route
-#        Tooltip: This will decrease alignment
+#        Tooltip: Снижает мировозрение
 #    }
 #
 #    AntiJohnSnailItem: {
@@ -4302,7 +4302,7 @@
 #    }
 #
 #    BlackChickenItem: {
-#        DisplayName: Black Chicken
+#        DisplayName: Чёрная курочка
 #        Tooltip: ""
 #    }
 #
@@ -4312,12 +4312,12 @@
 #    }
 #
 #    ChickenGoldItem: {
-#        DisplayName: Gold Chicken
+#        DisplayName: Золотая курочка
 #        Tooltip: ""
 #    }
 #
 #    ChickenItem: {
-#        DisplayName: Chicken
+#        DisplayName: Курочка
 #        Tooltip: ""
 #    }
 #
@@ -4327,7 +4327,7 @@
 #    }
 #
 #    FlyBait: {
-#        DisplayName: Fly
+#        DisplayName: Муха
 #        Tooltip: ""
 #    }
 #
@@ -4848,8 +4848,8 @@
 #    }
 #
 #    CorruptedXenomite: {
-#        DisplayName: Corrupted Xenomite
-#        Tooltip: "'An efficient power source, freed of infectious properties'"
+#        DisplayName: Осквернённый ксеномит
+#        Tooltip: "'Эффективный источник энергии, лишённый инфекционных свойств'"
 #    }
 #
 #    CyberPlating: {
@@ -4863,7 +4863,7 @@
 #    }
 #
 #    OmegaPowerCell: {
-#        DisplayName: Omega Power Cell
+#        DisplayName: Омега-батарейка
 #        Tooltip: ""
 #    }
 #
@@ -4873,21 +4873,21 @@
 #    }
 #
 #    Plating: {
-#        DisplayName: Plating
+#        DisplayName: Пластина
 #        Tooltip: ""
 #    }
 #
 #    ToxicBile: {
-#        DisplayName: Toxic Bile
+#        DisplayName: Токсичная желчь
 #        Tooltip: ""
 #    }
 #
 #    Uranium: {
-#        DisplayName: Uranium
+#        DisplayName: Уран
 #        Tooltip:
 #            '''
 #            Нажмите <right>, чтобы восполнить 15 энергии, если Энергоячейка находится в инвентаре
-#            Requires a Picksaw to mine
+#            Необходим Киркопил для добычи
 #            '''
 #    }
 #
@@ -4897,8 +4897,8 @@
 #    }
 #
 #    Corium: {
-#        DisplayName: Corium
-#        Tooltip: Holding this will cause severe radiation poisoning without proper equipment
+#        DisplayName: Кориум
+#        Tooltip: Без надлежащего оборудования держание этого предмета вызывает серьёзное радиационное отравление
 #    }
 #
 #    EmptyMutagen: {
@@ -4947,7 +4947,7 @@
 #    }
 #
 #    XeniumAlloy: {
-#        DisplayName: Xenium Alloy
+#        DisplayName: Сплав ксения
 #        Tooltip: ""
 #    }
 #
@@ -5661,16 +5661,16 @@
 #    }
 #
 #    XeniumRefinery: {
-#        DisplayName: Xenium Refinery
+#        DisplayName: Ксениевый комбинат
 #        Tooltip:
 #            '''
-#            Used to craft Xenium
+#            Используется для создания ксения
 #            Found in the Abandoned Laboratory
 #            '''
 #    }
 #
 #    XeniumSmelter: {
-#        DisplayName: Xenium Smelter
+#        DisplayName: Ксениевая плавильня
 #        Tooltip:
 #            '''
 #            Used to melt scraps of metal
@@ -6593,17 +6593,17 @@
 #    }
 #
 #    LabPlating: {
-#        DisplayName: Laboratory Panel
+#        DisplayName: Панель лаборатории
 #        Tooltip: ""
 #    }
 #
 #    LabPlatingUnsafe: {
-#        DisplayName: Laboratory Panel (Unsafe)
+#        DisplayName: Панель лаборатории (Небезопасная)
 #        Tooltip: "{$SpecialTooltips.Unbreakable5000}"
 #    }
 #
 #    LabPlatingWall: {
-#        DisplayName: Laboratory Panel Wall
+#        DisplayName: Панельная стена лаборатории
 #        Tooltip: ""
 #    }
 #
@@ -6761,7 +6761,7 @@
 #    }
 #
 #    CleaverRelic: {
-#        DisplayName: Omega Cleaver Relic
+#        DisplayName: Реликвия Омега-двуручника
 #        Tooltip: ""
 #    }
 #
@@ -6821,7 +6821,7 @@
 #    }
 #
 #    OmegaCleaverTrophy: {
-#        DisplayName: Omega Cleaver Trophy
+#        DisplayName: Трофей Омега-двуручника
 #        Tooltip: ""
 #    }
 #
@@ -6978,16 +6978,16 @@
 #        Tooltip:
 #            '''
 #            Undowns all Redemption bosses
-#            Non-Consumable
+#            Не расходуется
 #            '''
 #    }
 #
 #    UndownerRedePoints: {
-#        DisplayName: Alignment Resetter
+#        DisplayName: Сбрасыватель мировозрения
 #        Tooltip:
 #            '''
-#            Sets alignment to 0
-#            Non-Consumable
+#            Устанавливает мировозрение на 0
+#            Не расходуется
 #            '''
 #    }
 #
@@ -7132,7 +7132,7 @@
 #    }
 #
 #    OmegaCleaverBag: {
-#        DisplayName: Treasure Box (Omega Cleaver)
+#        DisplayName: Музыкальная шкатулка (Омега-двуручник)
 #        Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 #    }
 #
@@ -7993,45 +7993,45 @@
 #    }
 #
 #    CorruptedDAN: {
-#        DisplayName: Corrupted D.A.N
+#        DisplayName: Осквернённый Д.Э.Н
 #        Tooltip:
 #            '''
 #            Fires two blasts of rockets per use
 #            Continuing to hold left-click will spin the weapon while firing, creating a spiral of homing rockets
 #            (15 [i:Redemption/EnergyCell]) Continuing to hold left-click while aiming downwards will charge a red beam that'll cause eruptions on impact
-#            66% chance to not consume ammo, 90% chance during the homing rocket spiral
+#            66% шанс не использовать боеприпасы, 90% chance during the homing rocket spiral
 #            '''
 #    }
 #
 #    CorruptedDoubleRifle: {
-#        DisplayName: Corrupted Double Rifle
+#        DisplayName: Осквернённая двустволка
 #        Tooltip:
 #            '''
 #            Converts normal bullets into high velocity bullets
 #            (3[i:Redemption/EnergyCell]) Every 3rd shot fires a small laser beam if an Energy Pack is in your inventory, dealing {0} damage
-#            33% chance not to consume ammo
+#            33% шанс не использовать боеприпасы
 #            '''
 #    }
 #
 #    DAN: {
-#        DisplayName: D.A.N
+#        DisplayName: Д.Э.Н
 #        Tooltip:
 #            '''
-#            Fires two blasts of bullets per use
-#            Continuing to hold left-click will spin the weapon while firing, creating a spiral of bullets
-#            (15[i:Redemption/EnergyCell]) Continuing to hold left-click while aiming downwards will charge a purple beam that'll cause eruptions on impact
-#            66% chance to not consume ammo, 90% chance during the bullet spiral
-#            'From Intrusion, with love'
+#            Выпускает два залпа пуль за одно использование
+#            Продолжительное удерживание <left> во время стрельбы раскручивает оружие, создавая спираль из пуль
+#            (15[i:Redemption/EnergyCell]) Продолжительное удерживание <left> при прицеливании вниз заряжает фиолетовый луч, вызывающий извержения при столкновении
+#            66% шанс не использовать боеприпасы, 90% шанс не использовать боеприпасы во время спирали из пуль
+#            'С любовью от Вторжения'
 #            '''
 #    }
 #
 #    DoubleRifle: {
-#        DisplayName: Double Rifle
+#        DisplayName: Двустволка
 #        Tooltip:
 #            '''
-#            Converts normal bullets into high velocity bullets
-#            33% chance not to consume ammo
-#            'From Intrusion, with love'
+#            Превращает обычные пули в высокоскоростные
+#            33% шанс не использовать боеприпасы
+#            'С любовью от Вторжения'
 #            '''
 #    }
 #
@@ -8234,7 +8234,7 @@
 #    }
 #
 #    XeniumStaff: {
-#        DisplayName: Xenium Staff
+#        DisplayName: Ксениевый посох
 #        Tooltip:
 #            '''
 #            Casts two harmless bubble mines
@@ -8342,7 +8342,7 @@
 #    }
 #
 #    XeniumLance: {
-#        DisplayName: Xenium Lance
+#        DisplayName: Ксениевый протазан
 #        Tooltip:
 #            '''
 #            Left click to do a close ranged combo attack
@@ -8430,7 +8430,7 @@
 #    }
 #
 #    XeniumElectrolaser: {
-#        DisplayName: Xenium Electrolaser
+#        DisplayName: Ксениевый электролазер
 #        Tooltip:
 #            '''
 #            Hold left-click to fire blasts of electrified laser beams, which gradually increase in accuracy
@@ -8441,7 +8441,7 @@
 #    }
 #
 #    CosmosChains: {
-#        DisplayName: Chains of the Cosmos
+#        DisplayName: Цепи космоса
 #        Tooltip:
 #            '''
 #            20 summon tag damage
@@ -8452,7 +8452,7 @@
 #    }
 #
 #    Pihlajasauva: {
-#        DisplayName: Pihlajasauva
+#        DisplayName: Рябиновая трость
 #        Tooltip:
 #            '''
 #            {$CommonItemTooltip.Sentry}
@@ -8464,7 +8464,7 @@
 #    }
 #
 #    PortableHoloProjector: {
-#        DisplayName: Portable Hologram Projector
+#        DisplayName: Портативный голографический проектор
 #        Tooltip:
 #            '''
 #            Summon a hologram-projected minion to fight for you
@@ -8473,7 +8473,7 @@
 #    }
 #
 #    XeniumDrone: {
-#        DisplayName: Xenium Autoturret
+#        DisplayName: Ксениевая автотурель
 #        Tooltip:
 #            '''
 #            Summons a friendly Xenium Autoturret to fight for you
@@ -8483,12 +8483,12 @@
 #    }
 #
 #    AquaArrow: {
-#        DisplayName: Aqua Arrow
-#        Tooltip: Makes targets wet
+#        DisplayName: Водная стрела
+#        Tooltip: Оставляет цели мокрыми
 #    }
 #
 #    MoonflareArrow: {
-#        DisplayName: Moonflare Arrow
+#        DisplayName: Стрела лунного блика
 #        Tooltip:
 #            '''
 #            Burns targets while the moon is out
@@ -8497,17 +8497,17 @@
 #    }
 #
 #    XenomiteBullet: {
-#        DisplayName: Xenomite Bullet
+#        DisplayName: Ксениевая пуля
 #        Tooltip: Infects hit enemies
 #    }
 #
 #    BlightedRoot: {
-#        DisplayName: Blighted Root
+#        DisplayName: Осквернённый корень
 #        Tooltip: i am BEGGING to be updated
 #    }
 #
 #    BronzeWand: {
-#        DisplayName: Bronze Wand
+#        DisplayName: Бронзовая палочка
 #        Tooltip:
 #            '''
 #            Casts two unstable zig-zagging water orbs
@@ -8522,7 +8522,7 @@
 #    }
 #
 #    CalciteWand: {
-#        DisplayName: Calcite Wand
+#        DisplayName: Кальцитовая палочка
 #        Tooltip:
 #            '''
 #            Drops stalactites at cursor point
@@ -8531,7 +8531,7 @@
 #    }
 #
 #    CantripStaff: {
-#        DisplayName: Cantrip Staff
+#        DisplayName: Колдовской посох
 #        Tooltip:
 #            '''
 #            Casts a ball of ember
@@ -8597,12 +8597,12 @@
 #    }
 #
 #    Icefall: {
-#        DisplayName: Icefall
+#        DisplayName: Ледопад
 #        Tooltip: Lowers the air temperature at cursor point, forming damaging ice crystals that eventually fall to gravity
 #    }
 #
 #    Mistfall: {
-#        DisplayName: Mistfall
+#        DisplayName: Туманный водопад
 #        Tooltip: Lowers the air temperature at cursor point, slowing enemies caught in the mist
 #    }
 #
@@ -9499,17 +9499,17 @@
 #    }
 #
 #    LabPlatingWallUnsafe: {
-#        DisplayName: Lab Wall (Unsafe)
+#        DisplayName: Стена лаборатории (Небезопасная)
 #        Tooltip: "{$SpecialTooltips.Unbreakable}"
 #    }
 #
 #    MossyLabPlatingWall: {
-#        DisplayName: Mossy Lab Wall (Unsafe)
+#        DisplayName: Мшистая стена лаборатории (Небезопасная)
 #        Tooltip: "{$SpecialTooltips.Unbreakable}"
 #    }
 #
 #    MossyLabWall: {
-#        DisplayName: Mossy Lab Wall (Full) (Unsafe)
+#        DisplayName: Мшистая стена лаборатории (Полная) (Небезопасная)
 #        Tooltip: "{$SpecialTooltips.Unbreakable}"
 #    }
 #
@@ -9734,21 +9734,21 @@
 #    }
 #
 #    ChickenSoup: {
-#        DisplayName: Chicken Soup
+#        DisplayName: Куриный суп
 #        Tooltip:
 #            '''
 #            {$CommonItemTooltip.MinorStats}
-#            'Waiter, there's a beak in my soup'
+#            'Официант, в моём супе птичий клюв!'
 #            '''
 #    }
 #
 #    ChickendWand: {
-#        DisplayName: Chickend Wand
+#        DisplayName: Куриная палочка
 #        Tooltip: Lobs an arching egg that hatches into a chick upon impact
 #    }
 #
 #    DawnHerald: {
-#        DisplayName: Dawn Herald
+#        DisplayName: Предвестник рассвета
 #        Tooltip:
 #            '''
 #            {$CommonItemTooltip.Sentry}
@@ -10356,7 +10356,7 @@
 #    ChickenGold.DisplayName: Gold Chicken
 #    ChickenSpawner.DisplayName: Chicken Spawner
 #    CoastScarab.DisplayName: Coast Scarab
-#    Fly.DisplayName: Fly
+#    Fly.DisplayName: Муха
 #    GrandLarva.DisplayName: Grand Larva
 #    JohnSnail.DisplayName: John Snail
 #    Kabucra.DisplayName: Kabucra
@@ -10370,15 +10370,15 @@
 #    ChickenScratcher.DisplayName: Chicken Scratcher
 #
 #    Cockatrice: {
-#        DisplayName: Cockatrice
-#        BossChecklistIntegration.SpawnInfo: Appears in the last 3 waves of the Fowl Morning.
+#        DisplayName: Кокатрикс
+#        BossChecklistIntegration.SpawnInfo: Появляется в последних трёх волнах события «Кудах-заря».
 #    }
 #
-#    Haymaker.DisplayName: Haymaker
-#    HeadlessChicken.DisplayName: Headless Chicken
-#    RoosterBooster.DisplayName: Rooster Booster
-#    AnglonPortal.DisplayName: Mysterious Gateway
-#    Chalice_Intro.DisplayName: Chalice of Alignment
+#    Haymaker.DisplayName: Курица-крушитель
+#    HeadlessChicken.DisplayName: Курица без головы
+#    RoosterBooster.DisplayName: Коко-кряк
+#    AnglonPortal.DisplayName: Загадочные врата
+#    Chalice_Intro.DisplayName: Чаша мировозрения
 #
 #    Daerel: {
 #        DisplayName: Wayfarer
@@ -10426,8 +10426,8 @@
 #            LikeNPC: "{NPCName} got somethin' about him I like."
 #            DislikeNPC: "{NPCName} keeps lookin' at me with suspicion. Probably wants to 'purify' me."
 #            HateNPC: "{NPCName} keeps thinking I'm some dying old man, insisting that she'll heal me. Please get me away from her."
-#            LikeNPC_Princess: I like {NPCName}, she's alright.
-#            Princess_LovesNPC: I like {NPCName}, he reminds me of an old man.
+#            LikeNPC_Princess: Мне нравится {NPCName}, она ничего так.
+#            Princess_LovesNPC: Мне нравится {NPCName}, она мне чем-то старика напоминает.
 #        }
 #
 #        Census.SpawnCondition: Defeat the Keeper and have a suitable house
@@ -10452,21 +10452,21 @@
 #    LostSoulNPC.DisplayName: Lost Soul
 #
 #    Newb: {
-#        DisplayName: Дурак
+#        DisplayName: Дурень
 #
 #        TownNPCMood: {
-#            Content: I like it here!
-#            NoHome: Where's home?
-#            FarFromHome: I am so lost...can you lead me back?
-#            LoveSpace: So little people, yay!
-#            DislikeCrowded: Too many faces!
-#            HateCrowded: Too many faces!
+#            Content: Мне здесь нравится!
+#            NoHome: И где же мой дом?
+#            FarFromHome: Я совсем заблудился... проводишь меня обратно?
+#            LoveSpace: Меньше народу - больше кислороду!
+#            DislikeCrowded: Чересчур многолюдно!
+#            HateCrowded: Чересчур многолюдно!
 #            LoveBiome: I love {BiomeName}! It gives me nice memories of...uhhh...
 #            LikeBiome: I like {BiomeName}. Green is nice.
-#            DislikeBiome: Too boring here, I hate sand!
+#            DislikeBiome: Скукота смертная, этот песок уже осточертел!
 #            HateBiome: ...{BiomeName} makes me feel sad, for some reason.
 #            LoveNPC: "{NPCName} knows magic like me!"
-#            LikeNPC: I like {NPCName}!
+#            LikeNPC: Мне нравится {NPCName}!
 #            DislikeNPC: I feel evil within {NPCName}, very bad!
 #            HateNPC: My hatred towards {NPCName} is beyond your mortal comprehension.
 #            LikeNPC_Princess: "{NPCName} reminds me of...me, somehow! I like her."
@@ -10535,8 +10535,8 @@
 #            LikeNPC: "{NPCName} and I have things in common. We get along well."
 #            DislikeNPC: I find {NPCName} rather unsettling.
 #            HateNPC: "{NPCName} reminds me of home. I'd rather not be reminded of that place."
-#            LikeNPC_Princess: I like {NPCName}.
-#            Princess_LovesNPC: I like {NPCName}.
+#            LikeNPC_Princess: Мне нравится {NPCName}.
+#            Princess_LovesNPC: Мне нравится {NPCName}.
 #        }
 #
 #        Census.SpawnCondition: Defeat the Seed of Infection and have a suitable house
@@ -10570,8 +10570,8 @@
 #            LikeNPC: "{NPCName} is cool, I'd like to sail the seas with him sometime."
 #            DislikeNPC: "{NPCName} wants to get his greedy little fingers on my money!"
 #            HateNPC: "{NPCName} will never take my money! NEVER!!"
-#            LikeNPC_Princess: I like {NPCName}.
-#            Princess_LovesNPC: I like {NPCName}.
+#            LikeNPC_Princess: Мне нравится {NPCName}.
+#            Princess_LovesNPC: Мне нравится {NPCName}.
 #        }
 #
 #        Census.SpawnCondition: Have a suitable house in a Corruption world, after meeting him at the surface portal after the first night
@@ -10935,8 +10935,8 @@
 #    DownedBehemoth: After Irradiated Behemoth is defeated
 #    DownedBlisterface: After Blisterface is defeated
 #    DownedEaglecrestGolem: After Eaglecrest Golem is defeated
-#    DownedFowlEmperor: After Fowl Emperor is defeated
-#    DownedFowlMorning: After Fowl Morning is defeated
+#    DownedFowlEmperor: После победы над Императором Кудах
+#    DownedFowlMorning: После победы над событием «Кудах-заря»
 #    DownedJanitor: After Janitor is defeated
 #    DownedKeeper: After the Keeper is defeated
 #    DownedMACE: After MACE Project is defeated
@@ -11068,6 +11068,6 @@
 #
 #    FowlMorning: {
 #        SpawnInfo: Use a [i:Redemption/FowlWarHorn] before midday.
-#        EntryName: Fowl Morning
+#        EntryName: Кудах-заря
 #    }
 #}
