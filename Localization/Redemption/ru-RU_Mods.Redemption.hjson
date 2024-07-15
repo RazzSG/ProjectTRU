@@ -32,7 +32,7 @@
 #    }
 #
 #    SkullDigger: {
-#        Name: Черепокоп
+#        Name: Череполицый землекоп
 #        Modifier: Первое детище Хранительницы
 #    }
 #
@@ -42,8 +42,8 @@
 #    }
 #
 #    Golem: {
-#        Name: Голем Иглекреста
-#        Modifier: Страж лугов Иглекреста
+#        Name: Голем Клювогорья
+#        Modifier: Страж лугов Клювогорья
 #    }
 #
 #    KS3: {
@@ -229,65 +229,65 @@
 #
 #StatusMessage: {
 #    Progression: {
-#        ThornDowned: The forest flora blooms...
-#        GoodSkeletron: Crystals form in the icy caverns...
-#        BadSkeletron: The caverns are heated with dragon bone...
-#        LabOpen: The laboratory's defense systems have malfunctioned...
-#        LabAccessPanel1: Alpha sector laser security has been deactivated
-#        LabAccessPanel2: Gamma sector laser security has been deactivated
-#        LabAccessPanel3: Sigma sector laser security has been deactivated
-#        LabAccessPanel4: Omicron sector laser security has been deactivated
-#        LabAccessPanel5: Vault laser security has been deactivated
-#        LabAccessPanel6: All laser security has been deactivated
-#        LabAccessPanelUsed1: Alpha laser security already deactivated
-#        LabAccessPanelUsed2: Gamma laser security already deactivated
-#        LabAccessPanelUsed3: Sigma laser security already deactivated
-#        LabAccessPanelUsed4: Omicron laser security already deactivated
-#        LabAccessPanelUsed5: Vault laser security already deactivated
-#        LabAccessPanelUsed6: Laser security already deactivated
-#        OmegaCall: A new Omega Prototype can be called using the Omega Transmitter
-#        FoolLeft: The Fool has left...
-#        WastelandGrow: An infection grows in the wasteland...
-#        PortalRumble: A portal rumbles... (Check the Map for location)
-#        WayfarerReturn: " the Wayfarer has returned!"
+#        ThornDowned: Цветёт растительность леса...
+#        GoodSkeletron: Кристаллы формируются в пещерных глубинах...
+#        BadSkeletron: Драконьи кости разогревают пещерные недра...
+#        LabOpen: Защитные системы лаборатории заклинивают...
+#        LabAccessPanel1: Лазерная защита альфа-сектора деактивирована
+#        LabAccessPanel2: Лазерная защита гамма-сектора деактивирована
+#        LabAccessPanel3: Лазерная защита сигма-сектора деактивирована
+#        LabAccessPanel4: Лазерная защита омикрон-сектора деактивирована
+#        LabAccessPanel5: Лазерная защита хранилища деактивирована
+#        LabAccessPanel6: Вся лазерная защита деактивирована
+#        LabAccessPanelUsed1: Лазерная защита альфа-сектора уже деактивирована
+#        LabAccessPanelUsed2: Лазерная защита гамма-сектора уже деактивирована
+#        LabAccessPanelUsed3: Лазерная защита сигма-сектора уже деактивирована
+#        LabAccessPanelUsed4: Лазерная защита омикрн-сектора уже деактивирована
+#        LabAccessPanelUsed5: Лазерная защита хранилища уже деактивирована
+#        LabAccessPanelUsed6: Вся лазерная защита уже деактивирована
+#        OmegaCall: Можно призывать новый омега-прототип используя омега-передатчик
+#        FoolLeft: Дурак ушёл...
+#        WastelandGrow: Инфекция разрастается в пустошах...
+#        PortalRumble: Портал дрожит... (проверьте местоположение на карте)
+#        WayfarerReturn: ", Странник возвращается!"
 #    }
 #
 #    Death: {
 #        Infested: " взрывается личинками!"
 #        DirtyWound: " заражается инфекцией."
-#        Swarmed: " растерзан в клочья."
+#        Swarmed: " разрывается в клочья."
 #        Xenomite: " превращается в кристалл."
 #        Radiation: " подвергается облучению."
 #        Incandesence: " становится слишком великолепным."
 #        Ensnared: " оказывается в плену шипов."
 #        Nuclear1: " наблюдает второй рассвет."
 #        Nuclear2: " стирается с лица земли "
-#        Nuclear3: " застал апокалипсис."
-#        Nuclear4: " превратился в тень на земле."
+#        Nuclear3: " застаёт апокалипсис."
+#        Nuclear4: " превращается в тень на земле."
 #        Nuclear5: " завершает жизнь с огоньком."
 #        Nuclear6: " не находит вовремя холодильник."
 #        DoorStuck: " застревает в ДВЕРЯХ."
 #    }
 #
 #    Event: {
-#        ChickRetreat: The chickens retreat!
-#        SkeletonParty1: The skeletons are plotting a party at dusk...
-#        SkeletonParty2: The skeletons are partying!
-#        SkeletonParty3: The skeletons reconsidered partying tonight...
-#        SkeletonParty4: The skeletons got bored and went home!
-#        Again: " Again."
+#        ChickRetreat: Курицы отступают!
+#        SkeletonParty1: Скелеты планируют вечернюю вечеринку...
+#        SkeletonParty2: Скелеты устраивают вечеринку!
+#        SkeletonParty3: Скелеты передумали устраивать вечеринку...
+#        SkeletonParty4: Скелете заскучали и вернулись домой!
+#        Again: " Опять."
 #    }
 #
 #    Other: {
 #        Warning1: ПРЕДУПРЕЖДЕНИЕ: Не удалось найти определённую структуру, рекомендуется создать новый мир!
 #        Warning2: ПРЕДУПРЕЖДЕНИЕ: Не удалось найти важную структуру, рекомендуется создать новый мир!
-#        Caution: CAUTION: You have a Funni config enabled that affects world gen. If you created a world just now, check which one you have enabled and disable it for next time.
-#        Keeper1: Shrieks echo through the night...
-#        Keeper2: The Keeper noticed the abandoned teddy you're holding...
-#        Keeper3: The Keeper's spirit fades away... ?
-#        SkullDigger: Skull Digger's Spirit fades away...
-#        GolemSpawn: A sleeping stone appears...
-#        NebGone: Nebuleus is nowhere to be seen...
+#        Caution: ПРЕДУПРЕЖДЕНИЕ: You have a Funni config enabled that affects world gen. If you created a world just now, check which one you have enabled and disable it for next time.
+#        Keeper1: Эхо раздаётся в ночи...
+#        Keeper2: Хранительница замечает брошенного мишку в ваших руках...
+#        Keeper3: Дух Хранительницы упокаивается?.. 
+#        SkullDigger: Дух Череполицего землекопа упокаивается...
+#        GolemSpawn: Появляются спящие камни...
+#        NebGone: Небулеус нигде не видно...
 #    }
 #}
 #
@@ -396,7 +396,7 @@
 #}
 #
 #SpecialTooltips: {
-#    Viewer: Удерживайте [Shift], чтобы увидеть историю
+#    Viewer: Удерживайте 'Левый Shift', чтобы увидеть историю
 #    Unbreakable: "[c/ff0000:Неразрушимый]"
 #    Unbreakable5000: "[c/ff0000:Неразрушимый (Нужно 5000% мощности кирки)]"
 #
@@ -488,48 +488,48 @@
 #    }
 #
 #    KS3Datalog: {
-#        DatalogViewer: Hold [Shift] to view datalog
+#        DatalogViewer: Удерживайте 'Левый Shift', чтобы прочитать бортовой журнал
 #        Datalog1:
 #            '''
-#            'I have successfully reached the outer thermosphere and escaped my world's Reset.
-#            I understand the challenge before me, a normal human's lifespan sounds miniscule
-#            compared to the time I must travel through space, but it is my goal to withstand this infinite voyage.
-#            I just hope it'll all be worth it when I return to the new world. I've decided to write these
-#            logs every day until I return, and preserve my encounters for when I get back.
-#            But that's a million years from now. I just hope I won't regret it.'
+#            'Я успешно достиг верхних слоев атмосферы и избежал Сброса моего мира.
+#            Я понимаю, что теперь уже нет пути назад. Период жизни нормального человека кажется ничтожным,
+#            в сравнение со временем, что мне предстоит пробыть в космосе, но моя цель - выдержать это бесконечное путешествие.
+#            Я просто надеюсь, что всё это будет того стоить, когда вернусь в новый мир. Я решил писать эти
+#            журналы каждый день, до самого моего возвращения, и записывать все мои наблюдения.
+#            Но до этого момента еще миллион лет. Надеюсь я не пожалею об этом.'
 #            '''
 #        Datalog2:
 #            '''
-#            'If I ever forget why I'm doing this, I will write it down here.
-#            When a Great Era ends, all life dies and the world resets. I am from a previous era
-#            and successfully escaped into space, as the reset won't affect me outside of the world.
-#            A reset apparently takes a million years, so I must travel through space during that time period,
-#            and with luck, I should come back here a million years from now, and see the new world in all it's beauty.
-#            As far as I know, I am the sole survivor, and the first living thing to ever escape.
-#            I transferred my human mind into a robotic body as no living thing can break through the planet's barrier,
-#            and I won't need to worry about thirst, hunger, or sleep.'
+#            'На случай, если забуду, зачем делаю всё это, запишу здесь.
+#            Когда Великая Эпоха заканчивается, всё живое умирает, а мир Сбрасывается. Я выходец прошлой эпохи,
+#            что успешно сбежал в космос, поскольку Сброс не может влиять на что-то за пределами планеты.
+#            Сброс занимает миллион лет, поэтому, в течение этого периода времени, я должен путешествовать по космосу.
+#            И, если мне повезёт, я должен вернуться сюда через миллион лет, чтобы увидеть новый мир во всей его красоте.
+#            Насколько знаю, я единственный выживший, и первое живое существо, что смогло сбежать.
+#            Я перенёс свой человеческий разум в роботизированное тело, чтобы сохранить в нём бесконечное количество воспоминаний,
+#            и чтобы мне не нужно было волноваться о жажде, голоде или сне.'
 #            '''
 #        Datalog3:
 #            '''
-#            'Strange.
-#            I'm starting to get symptoms of thirst and tiredness...
-#            This shouldn't be happening. Without a soul, stomach, or eyes, these basic human needs are expendable.
-#            If, for whatever reason these needs still affect me, this could make this voyage a nightmare.
-#            The placebo method of satisfying these requirements are unable to be practiced without modifications to my vessel,
-#            and many other ideas to resolve this disaster require more than what this tiny escape-craft provides.
-#            So, I have no way of stopping these symptoms as of yet. I'm still 2 years from reaching the nearest planet - Nabu III.
-#            Actually, I should come up with a new name for my robotic body... Something other than Survival Robot Mk. 78.'
+#            'Странно.
+#            У меня начинают проявляться симптомы жажды и усталости...
+#            Этого не должно происходить. Без души, желудка и глаз, эти базовые человеческие потребности не должны быть помехой.
+#            Если эти эффекты продолжат действовать, весь полёт станет лишь ужасней.
+#            Метод плацебо для их удовлетворения невозможен без внесения изменений в моё тело,
+#            да и прочие идеи по устранению проблемы требуют большее, чем то, что есть на моём крошечном спасательном корабле.
+#            Итак, я пока не знаю, как остановить эти симптомы. Я ещё в двух годах полёта до ближайшей планеты - Набу III.
+#            На самом деле, я должен дать новое имя своему робо-телу... Что-то, отличное от Выживший Робот модели 78.'
 #            '''
 #        Datalog4:
 #            '''
-#            'My worst fear is coming true.
-#            I have a strong feeling of frailty and thirst, and my hunger has begun to take hold.
-#            It's only been 6 days. Roughly 359,000,000 days to go...
-#            I've tried all I can with the limited resources, but these painful feelings can't go away.
-#            The human mind is more complicated than I imagined, and being combined with all this technical junk
-#            only makes it harder for me to look into it! If only I had more time back then,
-#            I could've looked through this body's code and easily discovered the error!
-#            Letting this phantom pain consume me is all I can do until I reach the next planet.'
+#            'Мои худшие опасения сбываются.
+#            У меня сильные симптомы жажды и истощения, кроме того, начал нарастать голод.
+#            Всего 6 дней прошло. Осталось ещё примерно 359,000,000...
+#            Я пытался как-то это исправить, используя мои ограниченные ресурсы, но болезненные чувства не пропадают.
+#            Человеческий разум гораздо более сложная штука, чем я думал. А соединение с технической частью
+#            делает процесс ещё сложней! Если бы раньше у меня было больше времени,
+#            я просто посмотрел бы в код этого тела и с лёгкостью выявил ошибку!
+#            Я могу только позволить этой фантомной боли овладеть мной, пока не доберусь до следующей планеты.'
 #            '''
 #        Datalog5:
 #            '''
@@ -542,14 +542,14 @@
 #            '''
 #        Datalog6:
 #            '''
-#            'Finally!
-#            I am close enough to Nabu III to get a scan of the planet. All data has been logged:
-#            Seems to be a standard ocean planet with a radius of 5605.77km.
-#            It's primary composition is of iron at 35.3%, and the gravitational pull is 7.84 m/s².
-#            A similar cycle to my world with an axis tilt of 28.37*. Atmospheric pressure of 91.83 kPa.
-#            The majority of the surface is covered in ice sheets, with the rest being an ocean.
-#            The atmosphere is 78.4% sulphur dioxide, and the average temperature is -10*C.
-#            Basically, an uninhabitable frozen planet... Great.'
+#            'Наконец-то!
+#            Я достаточно приблизился к Набу III, чтобы просканировать планету. Информация следующая:
+#            Выглядит как стандартная океаническая планета с радиусом 5605.77км.
+#            Основной состав на 35.3% железо, а гравитационное притяжение 7.84м/с².
+#            Дневной цикл схож с моим миром, с наклоном оси 28.37°. Атмосферное давление 91.83кПа.
+#            Большая часть планеты покрыта льдом, оставшаяся территория это океан.
+#            Атмосфера на 78.4% оксид серы, со средней температурой в районе -10°C.
+#            Стандартная необитаемая ледяная планета, если кратко... Замечательно.'
 #            '''
 #        Datalog7:
 #            '''
@@ -697,7 +697,7 @@
 #            The SoS's scanner picked up a lifeform in the engine room, so I should probably check it out.
 #            I can't be asked to do anything really. But whatever.'
 #            '''
-#        Datalog23: "'Nice'"
+#        Datalog23: "'Отлично'"
 #        Datalog24:
 #            '''
 #            'It's been 10% of a million years now. Yay.
@@ -724,11 +724,11 @@
 #            '''
 #        Datalog27:
 #            '''
-#            'Today is the millionth year in space!
-#            Unfortunately, I won't be able to see the new Great Era for some time.
-#            I'm still lost in space.'
+#            'Сегодня миллионый год в космосе!
+#            К несчастью, ещё некоторое время я не смогу стать свидетелем новой Великой Эпохи.
+#            Я до сих пор потерян в космосе.'
 #            '''
-#        Datalog28: "'I've made it back, I'm home again.'"
+#        Datalog28: "'Я вернулся, я снова дома.'"
 #    }
 #
 #    ThankYouLetter: {
@@ -775,7 +775,7 @@
 #        2: "Это ни к чему хорошему не приведёт,[0.1] "
 #        3: молодой человек
 #        4: молодая девушка
-#        5: .[0.5] Мы безвредны для тебя.[1] Наша гибель станет предвестником несчастий.
+#        5: .[0.5] Мы безвредны для вашего вида.[1] Наша гибель станет предвестником несчастий.
 #    }
 #
 #    DaerelIntro: {
@@ -802,61 +802,61 @@
 #
 #    Erhan: {
 #        Intro: {
-#            1: Great heavens!!
-#            2: Doth thine brain be stuck in a well!?
-#            3: To summon a demon,[0.1] so close to my land...[0.5] 'Tis heresy!
-#            4: "[@b]Repent![0.5] Repent for thy sins!"
-#            5: "[@c]Lest I smack'eth thine buttocks with the Hand of Judgement!"
+#            1: Боже правый!
+#            2: Тебя в детстве в колодец роняли?!
+#            3: Демона призвать,[0.1] да так близко к моей земле...[0.5] Ересь!
+#            4: "[@b]Покайся![0.5] Покайся за свои грехи!"
+#            5: "[@c]Да отлуплю я твой зад своей дланью правосудия!"
 #        }
 #
 #        Resummon: {
-#            Normal: CEASE!
+#            Normal: ИЗЫДИ!
 #
 #            Underworld: {
-#                1: CEA-
-#                2: ...[1] A-[0.1]are we in...
-#                3: "[@j]Why didst thou summon me here!?[0.5] I dareth not fight in such demonic lands!!"
-#                4: Farewell!
+#                1: ИЗЫ-
+#                2: ...[1] Э-э,[0.1] мы что...
+#                3: "[@j]Зачем призвал ты меня здесь?![0.5] Страшно мне сражаться в этих землях!"
+#                4: Пока!
 #            }
 #        }
 #
 #        Interval: {
-#            1: Huzzah! [0.5]*pant*[0.5] A shield!
-#            2: But alas,[0.1] this shield is useless against a blade!
-#            3: *pant* *pant*[0.5] Alright'eth![0.5] I hath regained my breath.[0.5] Have at thee!
+#            1: Ура! [0.5]*вздох*[0.5] Щит!
+#            2: Но жаль,[0.1] что щит бесполезен против клинка!
+#            3: *вздох* *вздох*[0.5] Ох![0.5] Я отдышался.[0.5] Получай!
 #        }
 #
 #        Interaction: {
-#            Egg: Thou shall not egg a priest!
-#            Grenade1: Oh...[0.5] So that is how it's used'eth...
-#            Grenade2: What in God's name!?
-#            Bible1: How dare'eth![0.1] Doth thou use the sacred texts against me!?
-#            Bible2: Cease this boondoggling bible betrayal!
-#            BJustice: Expel my father's weapon from thy grasp'eth this instant!
-#            Egg1: Thou shall not egg a priest!
+#            Egg: Не смей кидать яйца в жреца!
+#            Grenade1: Ох...[0.5] Значит вот как её использовать...
+#            Grenade2: Боже правый, что это было?!
+#            Bible1: Как смеешь ты![0.1] Используешь священные текста против меня?!
+#            Bible2: Сию секунду прекрати это богохульство!
+#            BJustice: Выбрось из рук своих оружие моего отца!
+#            Egg1: Не смей кидать яйца в жреца!
 #        }
 #
 #        Defeat: {
-#            1: I foresee my defeat creeping up on me.
-#            2: Well...
-#            3: If all else fail'eth...
-#            4: Grenade.
-#            5: "[@g]How doth one use this thing?[@h]"
+#            1: Я предвидел своё поражение.
+#            2: Что же...
+#            3: Ничего больше не остаётся...
+#            4: Граната.
+#            5: "[@g]Как её использовать?[@h]"
 #        }
 #
 #        Choice: {
-#            1: It would[0.1] appear'eth,[0.3] I hath lost.
-#            2: If,[0.3] mayhaps you shan't[0.1] spare my life...
-#            3: Send master Hallowed Knight[0.3] my regards.
-#            4: Well...[0.5] 'Til we meet again!
+#            1: Как вижу,[0.1] потерпел я[0.3] поражение.
+#            2: Если,[0.3] быть может,[0.1] не пощадишь меня...
+#            3: Отправь мастеру Святому рыцарю[0.3] мои соболезнования.
+#            4: Что же...[0.5] До встречи!
 #        }
 #    }
 #
 #    ErhanS: {
-#        Funny: GOD IS REAL AND HE SENT ME BACK TO KICK YOUR ASS.
-#        1: Thou may inquire,[0.1] how hath I returned...
-#        2: I am but the holiest of men,[0.1] thus the Lord has returned me to beat thine buttocks once more!
-#        3: Guess whom'st've's back!
+#        Funny: БОГ СУЩЕСТВУЕТ И ОН ОТПРАВИЛ МЕНЯ ОБРАТНО, ДАБЫ НАБИТЬ ТЕБЕ ЗАД
+#        1: Как вижу я вернулся,[0.1] что же...
+#        2: Я священный из мужей,[0.1] и раз Господь отправил меня обратно, я должен вновь лупить зад!
+#        3: Догадайся кто возвратился!
 #    }
 #
 #    Keeper: {
@@ -865,14 +865,14 @@
 #    }
 #
 #    SkullDigger: {
-#        Fight1: Mistress Octavia,[0.1] are you harmed?
-#        Fight2: My lady,[0.1] you need not worry,[0.1] I shall crush this vermin.
-#        Fight3: Prepare to reap what you sow...
-#        Fight4: I have finally found you,[0.1] vermin..
-#        Defeat1: My dear mistress,[0.1] I have failed you.
-#        Defeat2: It seems our torment stays eternal.
-#        1: Thank...
-#        2: You...
+#        Fight1: Мадам Октавия,[0.1] вы в порядке?
+#        Fight2: Моя леди,[0.1] не беспокойтесь,[0.1] я раздавлю это насекомое.
+#        Fight3: Приготовься пожнать то, что посеял...
+#        Fight4: Я наконец нашёл тебя,[0.1] насекомое..
+#        Defeat1: Моя госпожа,[0.1] я подвёл вас.
+#        Defeat2: Видимо нет конца нашим мукам.
+#        1: Спа...
+#        2: ...сибо...
 #    }
 #
 #    TBotIntro: {
@@ -894,7 +894,7 @@
 #        Warhead6: .[0.1].[0.1].[0.1]Err,[0.1] that is if you DO decide to detonate one.
 #    }
 #
-#    SoI: A portal to another world has opened!
+#    SoI: Открывается портал в другой мир!
 #
 #    Calavia: {
 #        Fight: {
@@ -922,121 +922,121 @@
 #    }
 #
 #    AndroidScan: {
-#        Human: Human
-#        Robot: Robot
-#        Chicken: Chicken
-#        Scan: " scanned..."
-#        Unknown: Unknown entity
-#        Target: Target
+#        Human: Человек
+#        Robot: Робот
+#        Chicken: Курица
+#        Scan: " сканирование..."
+#        Unknown: Неизвестное существо
+#        Target: Цель,
 #    }
 #
 #    KS3: {
 #        HeadHologram: {
-#            1: Hey,[0.1] get lost.
-#            2: "[@f1]You really aren't worth my time,[0.1] ya know."
-#            3A: So stop bothering me,[0.1] I have a certain android I need to 'lecture'.
-#            3B: So stop bothering me,[0.1] I don't care about you.
-#            3C: So stop bothering me and we can all go about our day.
-#            3D: So stop bothering me and leave me to my 4D chess.
-#            4: "[@f0]I'll beat you up if you annoy me again."
+#            1: Эй,[0.1] проваливай.
+#            2: "[@f1]Даже времени моего не стоишь,[0.1] серьёзно."
+#            3A: Короче, оставь меня в покое,[0.1] мне тут одного андройда надо проучить.
+#            3B: Короче, оставь меня в покое,[0.1] мне на тебя плевать.
+#            3C: Короче, оставь меня в покое и иди заниматься своими делами.
+#            3D: Короче, оставь меня в покое и оставь меня с моими 4D-шахматами.
+#            4: "[@f0]Если продолжишь раздражать, я тебя отметелю."
 #        }
 #
 #        Intro: {
-#            DroneBreak: Did you seriously just destroy my drones?
-#            DroneIfChicken: Alright listen here you little chicken nugget.
-#            DroneIfRobot: Alright listen here you little scrap of metal.
-#            DroneHuman: Alright listen here you little fleshbag.
-#            NoDroneIfRobot: Ah,[0.1] this little scrap of metal decided to save me the trouble of finding it.
-#            NoDroneIfChicken: Ah,[0.1] this little chicken nugget decided to save me the trouble of finding it.
-#            NoDroneIfHuman: Ah,[0.1] this little fleshbag decided to save me the trouble of finding it.
-#            Start: Eh,[0.1] not like I got a shortage of them,[0.1] but I'm still gonna blast ya for it!
-#            StartGood: I warned you,[0.1] so don't go crying to your mummy when I crush you into the ground!
-#            StartSSR: Do you understand how annoying it is to be spam-pinged by my units because of your trigger-happy arse?[1] Maybe I should teach you a lesson!
-#            StartEvil: You were on my hitlist,[0.1] so lets skip the small talk and get on with it!
-#            KeeperDowned1: "[@b0][@h0]Actually...[0.5] You were the one that fought the Keeper, weren't you!"
-#            KeeperDowned2: "[@h2]That was my job!"
-#            KeeperDowned3: "[@h0]Great,[0.1] now I have even more reason to pummel you to ash!"
+#            DroneBreak: Ты сейчас серьёзно моих дронов сломал?
+#            DroneIfChicken: Всё, тебе хана, петушок.
+#            DroneIfRobot: Всё, тебе хана, кусок металлолома.
+#            DroneHuman: Всё, тебе хана, мешок плоти.
+#            NoDroneIfRobot: Ах,[0.1] кусок металлолома сэкономил мне время на свои поиски.
+#            NoDroneIfChicken: Ах,[0.1] петушок сэкономил мне время на свои поиски.
+#            NoDroneIfHuman: Ах,[0.1] мешок плоти сэкономил мне время на свои поиски.
+#            Start: Эм,[0.1] не то что бы у меня их было мало,[0.1] но я всё равно пристрелю тебя за них!
+#            StartGood: Я предупредил,[0.1] поэтому не плачься своей мамочке, когда я втопчу тебя в грязь!
+#            StartSSR: Ты хоть представляешь как раздражает, когда каждый бот сигналит мне из-за твоей тупорылой задницы?[1] Надо преподать тебе урок!
+#            StartEvil: Твоя рожа у меня в списке на убийство,[0.1] так что давай просто приступать к делу!
+#            KeeperDowned1: "[@b0][@h0]Стоп...[0.5] это ведь ты Хранительницу прибил!"
+#            KeeperDowned2: "[@h2]Стащил мою работу!"
+#            KeeperDowned3: "[@h0]Зашибись,[0.1] у меня появилась ещё одна причина испепелить тебя!"
 #        }
 #
 #        Resummon: {
-#            Downed1: "[@h1]Why must you summon me again?"
-#            Downed2: "[@h2]Could you maybe possibly probably potentially LEAVE ME ALONE?"
-#            Downed3: "[@h1]Really,[0.1] a rematch?[0.5] Fine."
-#            Downed4: "[@h1]Why don't you go preemptively die and save me the effort."
-#            Downed5: "[@h4]What?[0.5] Do you want to fight me again?"
-#            1: "[@h3]Could've sworn you died..."
-#            2: Ready for a rematch?
-#            3: Welp,[0.1] time to win again!
-#            4: Still wanna fight?
-#            5: "[@h3]You're quite a resilient fellow..."
+#            Downed1: "[@h1]Ну вот зачем ты опять меня вызвал?"
+#            Downed2: "[@h2]Может быть ты, пожалуйста, если не затруднит, СВАЛИШЬ В ЗАКАТ?"
+#            Downed3: "[@h1]Серьёзно,[0.1] реванш хочешь?[0.5] Ладно."
+#            Downed4: "[@h1]Сдохни пораньше только, не хочу время тратить."
+#            Downed5: "[@h4]Что?[0.5] Опять подраться хочешь?"
+#            1: "[@h3]Могу поклясться, что ты сдох..."
+#            2: Готов к реваншу?
+#            3: Ну ладно,[0.1] пора ещё раз победить!
+#            4: До сих пор драться хочешь?
+#            5: "[@h3]А ты упёртый..."
 #        }
 #
 #        Interval1: {
-#            Effort1: What a nuisance.[1] It would seem my Auto-Shield is ineffective to your attacks.
-#            Effort2: What a nuisance.[1] Your petty projectiles are going through my Auto-Shield.
-#            Effort3: What a nuisance.[1] You are only wasting both of our efforts here.
-#            RunAway: Why'd you summon me if you're just gonna run away the entire time?
-#            End: Might as well blow you to pieces with a few missiles.
+#            Effort1: Как же раздражаешь.[1] Кажется, мой авто-щит не помогает от твоих атак.
+#            Effort2: Как же раздражаешь.[1] Твои снаряды проходят сквозь мой авто-щит.
+#            Effort3: Как же раздражаешь.[1] Зря только тратишь моё и своё время.
+#            RunAway: Зачем ты меня вообще вызывал, если только и делаешь, что убегаешь?
+#            End: С таким же успехом я мог бы уничтожить тебя несколькими ракетами.
 #        }
 #
 #        Interval2: {
-#            StartIfRobot: This rusty little tincan is more persistent than I thought...
-#            StartIfChicken: The concept of losing to a chicken does not bode well with me...
-#            StartIfHuman: You pack more of a punch than I thought for such a small fleshbag...
-#            Ranged: You like shooting things,[0.1] correct?[0.5] Well try shooting me now.
-#            Normal: Go ahead,[0.1] shoot me if you can.
-#            Joke1: "[@h3]I might even have to take you seriously..."
-#            Joke2: "[@h0]PAH![0.5] What a joke!"
+#            StartIfRobot: Какая же упёртая ржавая консервная банка...
+#            StartIfChicken: Как-то не хочется мне проигрывать курице...
+#            StartIfHuman: Для такого маленького мешка плоти, удар у тебя поставлен хорошо...
+#            Ranged: Любишь стрелять,[0.1] да?[0.5] Ну, попробуй пострелять по мне теперь.
+#            Normal: Ну давай,[0.1] стреляй в меня.
+#            Joke1: "[@h3]Возможно, мне даже придется начать воспринимать тебя всерьёз..."
+#            Joke2: "[@h0]ХАХ![0.5] Ну и шутка!"
 #        }
 #
 #        Interval3: {
-#            1: This is getting ridiculous![0.5] Shouldn't you be getting tired?
-#            2: "[@h3]*Ahem*[1] Your persistence is admirable,[0.1] I'll give you that."
-#            3: "[@h2]But you better realise I'm hardly trying.[1][@h1] I ain't bluffing either."
+#            1: Уже даже не смешно![0.5] А ты не должен, ну, уставать там?
+#            2: "[@h3]*Кхм*[1] Твоя настойчивость похвально,[0.1] признаю."
+#            3: "[@h2]Но, пойми, я и сам сильно не стараюсь.[1][@h1] Честно."
 #        }
 #
 #        Interval4: {
-#            Stop: If you stop attacking,[0.1] I'll go back to more [0.1]IMPORTANT[0.1] business.
-#            RunAway: You've just been flying away the entire fight.[1] Seriously.
-#            Normal: I'm too tired to get mad about this nonsense.
-#            Alright: Alright alright alright!
-#            Draw1: "[@h1]We'll...[0.5] call it a draw then."
-#            Draw2: "[@h2]If you agree to stop,[0.1] I'll go back to more [0.1]IMPORTANT[0.1] business."
-#            Draw3: "[@h3]But,[0.1] if you so choose,[0.1] we can continue...[1] But I won't be happy if I lose."
+#            Stop: Если остановишься,[0.1] я вернусь к своему очень [0.1]ВАЖНОМУ[0.1] делу.
+#            RunAway: Да и ты всю битву только и улетаешь на крыльях.[1] Не круто.
+#            Normal: Я уже устал беситься из-за этой фигни.
+#            Alright: Ладно, ладно, ладно!
+#            Draw1: "[@h1]Давай...[0.5] сойдёмся на ничьей."
+#            Draw2: "[@h2]Если согласишься,[0.1] я вернусь к своему очень [0.1]ВАЖНОМУ[0.1] делу."
+#            Draw3: "[@h3]Но,[0.1] если хочешь,[0.1] мы можем продолжить...[1] но проигрыш мне настроения не добавит."
 #        }
 #
 #        Spare: {
-#            Accept: Tie it is then.[1] Now don't distract me again.
-#            Adios: "[@h1]Adios,[0.1] dingus."
+#            Accept: Ничья значит, хорошо.[1] Больше не отвлекай меня.
+#            Adios: "[@h1]Адьос,[0.1] придурок."
 #        }
 #
 #        Continue: {
-#            Accept: I see how it is...
-#            Overclock1: Once again,[0.1] you really are eager to win...
-#            Overclock2: I'm disappointed I actually have to overclock this vessel...
-#            Overclock3: ... I guess you like doing things the hard way.
-#            IfRobot: ... And for a heap of scrap no less.
-#            IfChicken: ... And for what?[0.5] A bloody chicken!?
-#            IfHuman: ... And for an annoying brat no less.
-#            Begin: "[@h0]Let's begin.[@c]"
+#            Accept: Ясно, понятно...
+#            Overclock1: Опять.[0.1] А ты решительно настроен победить...
+#            Overclock2: Грустно даже, что сосуд придётся разгонять...
+#            Overclock3: ...как же тебе нравится всё усложнять.
+#            IfRobot: ...из-за какого-то куска металла.
+#            IfChicken: ...и из-за кого?[0.5] Гребанной курицы?!
+#            IfHuman: ...из-за какого-то сопляка.
+#            Begin: "[@h0]Начнём.[@c]"
 #        }
 #    }
 #
 #    KS3Clone: {
 #        Intro: {
-#            1: SCANNING TARGET...
-#            2: TARGET DEEMED -[0.5] 'A WASTE OF TIME'
-#            3: RELAYING MESSAGE-[0.5] 'KING SLAYER NO LONGER HAS TIME FOR YOU'
+#            1: СКАНИРОВАНИЕ ЦЕЛИ...
+#            2: ОЦЕНКА ЦЕЛИ -[0.5] 'ПУСТАЯ ТРАТА ВРЕМЕНИ'
+#            3: РЕТРАНСЛЯЦИЯ СООБЩЕНИЯ-[0.5] 'У ЦАРЕУБИЙЦЫ НЕТ НА ТЕБЯ ВРЕМЕНИ'
 #        }
 #    }
 #
 #    KS3Message: {
-#        Attacked1: Well aren't you a little trigger-happy.
-#        Attacked2: You know there's like[0.1] a million of us, right?[1] Anyway,[0.1] I've come to relay a message from King Slayer -
-#        Message: '''"I'll be heading off to the other world soon,[0.1] so if you have any unfinished business with me,[0.3] I'd get on that sooner rather than later."'''
-#        Variant: Screw you too I guess.
-#        1: Don't attack.
-#        2: I've come to relay a message from King Slayer -
+#        Attacked1: Вы только посмотрите на этот гиперактивный веник.
+#        Attacked2: Ты ведь в курсе,[0.1] что нас около миллиона, да?[1] Неважно,[0.1] я здесь чтобы передать сообщение от Цареубийцы -
+#        Message: '''"Я скоро отправляюсь в другой мир,[0.1] поэтому, если нужно от меня что,[0.3] то поторопись."'''
+#        Variant: Да пошёл ты.
+#        1: Не атакуй.
+#        2: Я здесь, чтобы передать сообщение от Цареубийцы -
 #    }
 #
 #    WielderBot: {
@@ -1088,7 +1088,7 @@
 #            1: Halt!
 #            2: You aren't supposed to be here!
 #            R1: Hm? Are you supposed to be let through?
-#            R2: One second...
+#            R2: Секунду...
 #            R3: Everything seems to be in order.[0.5] Move along.
 #        }
 #
@@ -1200,19 +1200,19 @@
 #        Name: Nebuleus:
 #
 #        Shout: {
-#            StarBlast: Star Blast!
-#            Starfall: Starfall!
+#            StarBlast: Звёздный взрыв!
+#            Starfall: Звездопад!
 #            PiercingNebula: Piercing Nebula!
-#            Chains: Chains of the Cosmos!
-#            Eyes: Eyes of the Cosmos!
-#            SuperStarfall: Super Starfall!
+#            Chains: Цепи космоса!
+#            Eyes: Глаза космоса!
+#            SuperStarfall: Супер-звездопад!
 #            ErraticStarBlast: Erratic Star Blast!
 #            PiercingNebulaBurst: Piercing Nebula Burst!
-#            CrystalStars: Crystal Stars!
+#            CrystalStars: Кристальные звёзды!
 #            PiercingNebula2: Mirror Miragá!
 #            Moonbeam: Kuunvalo!
 #            MeteoricSwarm: Meteor Armada!
-#            Constellations: Constellations!
+#            Constellations: Созвездия!
 #            CosmicFulgura: Cosmic Fulgura!
 #        }
 #
@@ -1303,7 +1303,7 @@
 #        }
 #    }
 #
-#    LabDrone: INTRUDER DETECTED...
+#    LabDrone: ЗАМЕЧЕНО ВТОРЖЕНИЕ...
 #}
 #
 #GenericTerms: {
@@ -1313,26 +1313,26 @@
 #    }
 #
 #    Choice: {
-#        Yes: Yes
-#        No: No
-#        CallDraw: Call Draw
-#        Continue: Continue
-#        Spare: Spare
-#        Fight: Fight
-#        Refuse: Refuse
-#        Accept: Accept
+#        Yes: Да
+#        No: Нет
+#        CallDraw: Объявить ничью
+#        Continue: Продолжить
+#        Spare: Пощадить
+#        Fight: Сражаться
+#        Refuse: Отказать
+#        Accept: Принять
 #    }
 #}
 #
 #UI: {
 #    Choice: {
-#        MyPlayer: Open Inventory to make your choice
-#        OtherPlayer: "{0} must make a choice"
+#        MyPlayer: Откройте инвентарь, чтобы сделать выбор
+#        OtherPlayer: "Игрок {0} должен сделать выбор"
 #    }
 #
 #    Chalice: {
-#        Name: Chalice of Alignment
-#        Alignment: Alignment
+#        Name: Чаша мировозрения
+#        Alignment: Мировозрение
 #        ItemInterested: "[c/ffea9b:There is something to say about the item you hold]"
 #        GGInterested: "[c/ffea9b:The Chalice has something to say about this place]"
 #        HeartOfThorns:
@@ -1441,32 +1441,32 @@
 #}
 #
 #DialogueBox: {
-#    Cycle: Cycle Options
-#    CycleD: Cycle Dialogue
-#    Quest: Quest
-#    New: New Dialogue Available
-#    EnterGateway: Enter Gateway
-#    Who: Who are you?
-#    Talk: Talk
+#    Cycle: Сменить опцию
+#    CycleD: Сменить диалог
+#    Quest: Задание
+#    New: Доступен новый диалог
+#    EnterGateway: Войти во Врата
+#    Who: Кто ты?
+#    Talk: Говорить
 #    Crux: Request Crux
-#    AboutYou: About you?
-#    Back: Back
-#    HomeRequirements: Home Requirements
-#    RevivialPotion: Use Revival Potion
+#    AboutYou: О тебе?
+#    Back: Назад
+#    HomeRequirements: Требования к жилью
+#    RevivialPotion: Использовать зелье возрождения
 #
 #    Daerel: {
-#        Unconscious: Daerel the Wayfarer was knocked unconscious...
+#        Unconscious: Странник Дэрел теряет сознание...
 #        Stay1: Будь как дома
-#        Stay2: Ты кто такой?
+#        Stay2: Кто ты такой?
 #        Advice: Совет
 #        Bow: Пристрелять лук (10 сер. монет)
 #        Poison: Отравить оружие (25 сер. монет)
 #    }
 #
 #    Zephos: {
-#        Unconscious: Zephos the Wayfarer was knocked unconscious...
+#        Unconscious: Странник Зефос теряет сознание...
 #        Stay1: Будь как дома
-#        Stay2: Ты кто такой?
+#        Stay2: Кто ты такой?
 #        Advice: Совет
 #        Sharpen: Наточить (5 сер. монет)
 #        ShineArmor: Отполировать броню (15 сер. монет)
@@ -1474,57 +1474,57 @@
 #
 #    SpiritWalkerMan: {
 #        1: Spirit Walking?
-#        2: Dead Ringer?
-#        3: Lost Souls & Vagrants?
-#        4: Other uses for Dead Ringer?
-#        5: About you?
+#        2: Мёртвый звонарь?
+#        3: Затерянные души и скитальцы?
+#        4: Иные использования мёртвого звонаря?
+#        5: О тебе?
 #        Tophat: Request Old Tophat's Crux
 #        Crux: Request Crux
 #    }
 #
 #    SpiritNiricLady: {
-#        1: New kingdom?
-#        2: Your corpse?
-#        3: Nirin?
-#        4: Disaster?
-#        5: About you?
+#        1: Новое королевство?
+#        2: Твой труп?
+#        3: Нирин?
+#        4: Бедствие?
+#        5: О тебе?
 #        Offer: Offer 6 Diamonds
 #        Crux: Request Crux
 #    }
 #
 #    SpiritGathicMan: {
 #        1: Olden Ruins?
-#        2: God of Decay?
-#        3: False Gods?
-#        4: Dead Ringer?
-#        5: About you?
+#        2: Бог разложения?
+#        3: Ложные боги?
+#        4: Мёртвый звонарь?
+#        5: О тебе?
 #        Offer: Offer Grave Steel Battleaxe
 #        Crux: Request Crux
 #    }
 #
 #    SpiritDruid: {
-#        1: About you?
-#        2: Thamor?
-#        3: How did you get here?
+#        1: О тебе?
+#        2: Тамор?
+#        3: Как ты сюда попал?
 #        Offer: Offer Nature's Gift
 #        Crux: Request Crux
 #    }
 #
 #    SpiritCommonGuard: {
-#        1: Anglon?
-#        2: Ricusa?
-#        3: Demons?
-#        4: About you?
+#        1: Ангулон?
+#        2: Ригуса?
+#        3: Демоны?
+#        4: О тебе?
 #        Offer: Offer Noble's Halberd
 #        Crux: Request Crux
 #    }
 #
 #    SpiritAssassin: {
-#        1: About you?
-#        2: What?
-#        3: Gathuram?
-#        4: Gothrione?
-#        5: Demon?
+#        1: О тебе?
+#        2: Что?
+#        3: Гатурам?
+#        4: Готрион?
+#        5: Демон?
 #        Offer: Offer 3 Nightshade
 #        Crux: Request Crux
 #    }
@@ -1535,15 +1535,15 @@
 #    }
 #
 #    TBot: {
-#        Unconscious: Adam the Friendly T-Bot was knocked unconscious...
+#        Unconscious: Дружелюбный Т-бот Адам теряет сознание...
 #        FloppyDisc: Прочитать дискету
 #        NextPage: След. страница (1/2)
 #        Next: " (2/2)"
 #    }
 #
 #    SkullDigger: {
-#        Talk: Talk
-#        Give: Give Wedding Ring
+#        Talk: Говорить
+#        Give: Дать обручальное кольцо
 #        Crux: Request Crux
 #    }
 #
@@ -1595,36 +1595,36 @@
 #    }
 #
 #    KS3: {
-#        0: Why are you here?
+#        0: Зачем ты здесь?
 #        1: Разбившийся космический корабль?
-#        2: Offer Uranium
-#        3: You aren't fighting me?
-#        4: Are you a human?
-#        5: Hall of Heroes?
-#        6: Abandoned Lab?
-#        7: Epidotra?
-#        8: Other world?
-#        9: Data Logs
+#        2: Дать уран
+#        3: Ты не сражаешься со мной?
+#        4: Ты человек?
+#        5: Зал героев?
+#        6: Заброшенная лаборатория?
+#        7: Эпидотра?
+#        8: Другой мир?
+#        9: Бортовые журналы
 #    }
 #
 #    Volt: {
-#        1: Other T-Bots?
-#        2: Adam?
-#        3: Insurgents
-#        4: Scavengers?
-#        5: MACE Project?
-#        6: What's at the bottom of the lab?
-#        7: Girus?
+#        1: Другие Т-боты?
+#        2: Адам?
+#        3: Повстанцы
+#        4: Мусорщики?
+#        5: Проект БУЛАВА?
+#        6: Что на дне лаборатории?
+#        7: Гирус?
 #        8: '''"The unlucky ones"?'''
-#        9: Why follow Girus?
-#        10: Challenge!
+#        9: Зачем следовать за Гирус?
+#        10: Битва!
 #    }
 #
 #    Janitor: {
-#        1: What's up?
-#        2: Other T-Bots?
-#        3: Protector Volt?
-#        4: MACE Project?
+#        1: Как дела?
+#        2: Другие Т-боты?
+#        3: Защитник Вольт?
+#        4: Проект БУЛАВА?
 #    }
 #}
 #
@@ -2278,12 +2278,12 @@
 #    }
 #
 #    SunAuraBuff: {
-#        DisplayName: Sun Aura
+#        DisplayName: Солнечная аура
 #        Description: Empowered by ancient lihzahrd powers
 #    }
 #
 #    VasaraHealBuff: {
-#        DisplayName: Shaman's Aura
+#        DisplayName: Аура шамана
 #        Description: Greatly increased life regeneration
 #    }
 #
@@ -2298,13 +2298,13 @@
 #    }
 #
 #    WellFed4: {
-#        DisplayName: Delightfully Indulged
+#        DisplayName: Изысканный шведский стол
 #        Description: Massive improvements to all stats
 #    }
 #
 #    GonkPetBuff: {
-#        DisplayName: Samus
-#        Description: From the hit game: Doom
+#        DisplayName: Самус
+#        Description: Из хит-игры: Doom
 #    }
 #
 #    LantardPetBuff: {
@@ -2328,8 +2328,8 @@
 #    }
 #
 #    UnconPetBuff: {
-#        DisplayName: Tremor
-#        Description: No, not the mod
+#        DisplayName: Тремор
+#        Description: Нет, не мод
 #    }
 #
 #    WaasephiPetBuff: {
@@ -2654,7 +2654,7 @@
 #        Dialogue6: I'm only a fan of rain while in the confines of a cosy home, not when it's dampening my clothes.
 #        Dialogue7: I got some pretty nice loot I can sell you, I kinda need money right now.
 #        Dialogue8: My favourite colour is green, not sure why I'm telling you though...
-#        Dialogue9: Cats are obviously superior to dogs.
+#        Dialogue9: Естественно кошки лучше собак.
 #        Dialogue10: Have you seen a guy with slicked back, hazel hair? He carries a sword and wears a green tunic last I saw. I lost him before travelling through the portal, hope he's doing alright.
 #        Dialogue11: One time me and Zephos were in a cave, and then a skeleton with flowers stuck in its ribcage appeared. Zephos thought it was a powerful druid skeleton. He likes to exaggerate. It didn't have any magic, it was just a normal skeleton.
 #        Dialogue12: Cool Bug Fact: Coast Scarabs are small beetles that live on sandy beaches and eat grains of sand as their primary diet. When wet, their cyan shells will shine. Their shell is normally used to make cyan dyes.
@@ -4142,7 +4142,7 @@
 #
 #    OldTophat: {
 #        DisplayName: Старый цилиндр
-#        Tooltip: "'Похоже, от него исходит призрачная энергия'"
+#        Tooltip: "'От него словно исходит призрачная энергия'"
 #    }
 #
 #    OOMask: {
@@ -4156,8 +4156,8 @@
 #    }
 #
 #    SkullDiggerMask: {
-#        DisplayName: Skull Digger's Mask
-#        Tooltip: "'Made of bone'"
+#        DisplayName: Маска Череполицего землекопа
+#        Tooltip: "'Изготовлена из кости'"
 #    }
 #
 #    SkySquiresGreaves: {
@@ -4181,7 +4181,7 @@
 #    }
 #
 #    AdamHead: {
-#        DisplayName: Adam Head
+#        DisplayName: Голова Адама
 #        Tooltip: ""
 #    }
 #
@@ -4273,11 +4273,11 @@
 #
 #    ThornMask: {
 #        DisplayName: Маска Тёрна
-#        Tooltip: "'Выглядит так, будто это больно...'"
+#        Tooltip: "'Выглядит болезненно...'"
 #    }
 #
 #    UkkoMask: {
-#        DisplayName: Ukko Mask
+#        DisplayName: Маска Укко
 #        Tooltip: ""
 #    }
 #
@@ -5715,7 +5715,7 @@
 #    }
 #
 #    EaglecrestGolemPlush: {
-#        DisplayName: Плюшевая игрушка Голема Иглекреста
+#        DisplayName: Плюшевый Голем Клювогорья
 #        Tooltip: ""
 #    }
 #
@@ -6233,47 +6233,47 @@
 #    }
 #
 #    ErhanBox: {
-#        DisplayName: Music Box (Erhan)
+#        DisplayName: Музыкальная шкатулка (Эрхан)
 #        Tooltip: Sc0p3r - Holy Inquisition
 #    }
 #
 #    ForestBossBox: {
-#        DisplayName: Music Box (Epidotrian Opponent)
+#        DisplayName: Музыкальная шкатулка (эпидотриец)
 #        Tooltip: PeriTune - Dramatic4
 #    }
 #
 #    ForestBossBox2: {
-#        DisplayName: Music Box (Ancient Deity Duo)
+#        DisplayName: Музыкальная шкатулка (Друвний дуэт божеств)
 #        Tooltip: Yuri O - Nature's Wrath
 #    }
 #
 #    FowlMorningBox: {
-#        DisplayName: Music Box (Fowl Morning)
+#        DisplayName: Музыкальная шкатулка (Кудах-заря)
 #        Tooltip: Sc0p3r - Dawn of the Coop
 #    }
 #
 #    HallOfHeroesBox: {
-#        DisplayName: Music Box (Hall of Heroes)
+#        DisplayName: Музыкальная шкатулка (Зал героев)
 #        Tooltip: ""
 #    }
 #
 #    KeeperBox: {
-#        DisplayName: Music Box (The Keeper)
+#        DisplayName: Музыкальная шкатулка (Хранительница)
 #        Tooltip: SpectralAves - Haunting Loneliness
 #    }
 #
 #    KSBox: {
-#        DisplayName: Music Box (King Slayer III)
+#        DisplayName: Музыкальная шкатулка (Цареубийца III)
 #        Tooltip: William 'GoukisanNG' Prevett - Betrayal of Fear
 #    }
 #
 #    LabBossMusicBox: {
-#        DisplayName: Music Box (Abandoned Lab Minibosses)
+#        DisplayName: Музыкальная шкатулка (Заброшенная лаборатория, минибосс)
 #        Tooltip: inSignia - Safety Violation
 #    }
 #
 #    LabMusicBox: {
-#        DisplayName: Music Box (Abandoned Lab)
+#        DisplayName: Музыкальная шкатулка (Заброшенная лаборатория)
 #        Tooltip: inSignia - Facility of Contagion
 #    }
 #
@@ -6283,12 +6283,12 @@
 #    }
 #
 #    NebBox2: {
-#        DisplayName: Music Box (Nebuleus' Final Form)
+#        DisplayName: Музыкальная шкатулка (Небулеус, финальная форма)
 #        Tooltip: musicman - Hypernova
 #    }
 #
 #    OmegaBox: {
-#        DisplayName: Music Box (Omega Prototypes)
+#        DisplayName: Музыкальная шкатулка (Омега-прототипы)
 #        Tooltip: musicman - Armageddon Interface
 #    }
 #
@@ -6303,22 +6303,22 @@
 #    }
 #
 #    SlayerShipBox: {
-#        DisplayName: Music Box (Slayer's Crashed Ship)
+#        DisplayName: Музыкальная шкатулка (Разбившийся корабль Цареубийцы)
 #        Tooltip: PeriTune - Suspense3
 #    }
 #
 #    SoIBox: {
-#        DisplayName: Music Box (Seed of Infection)
+#        DisplayName: Музыкальная шкатулка (Семя заражения)
 #        Tooltip: musicman - Virogenesis
 #    }
 #
 #    WastelandBox: {
-#        DisplayName: Music Box (Wasteland)
+#        DisplayName: Музыкальная шкатулка (Пустошь)
 #        Tooltip: Musearys - The Wastelands
 #    }
 #
 #    SkullDiggerBox: {
-#        DisplayName: Music Box (Skull Digger)
+#        DisplayName: Музыкальная шкатулка (Череполицый землекоп)
 #        Tooltip: Yuri O - The Loudness of Silence
 #    }
 #
@@ -6348,12 +6348,12 @@
 #    }
 #
 #    Nightshade: {
-#        DisplayName: Nightshade
+#        DisplayName: Ночносвет
 #        Tooltip: "'A purple plant that blooms in the night'"
 #    }
 #
 #    NightshadeSeeds: {
-#        DisplayName: Nightshade Seeds
+#        DisplayName: Семена ночносвета
 #        Tooltip: ""
 #    }
 #
@@ -7034,8 +7034,8 @@
 #    }
 #
 #    DeadRinger: {
-#        DisplayName: Dead Ringer
-#        Tooltip: Right-click a soulful corpse with this artifact to call upon its spirit
+#        DisplayName: Мёртвый звонарь
+#        Tooltip: Нажмите <right> на труп с душой, чтобы вызвать его дух
 #    }
 #
 #    EnergyCell: {
@@ -7311,7 +7311,7 @@
 #    }
 #
 #    Pomegranate: {
-#        DisplayName: Pomegranate
+#        DisplayName: Гранат
 #        Tooltip:
 #            '''
 #            Massive improvements to all stats
@@ -7365,7 +7365,7 @@
 #        Tooltip:
 #            '''
 #            {$CommonItemTooltip.MediumStats}
-#            'Tastes like marshmallow'
+#            'На вкус как зефир'
 #            '''
 #    }
 #
@@ -7494,10 +7494,10 @@
 #    }
 #
 #    EaglecrestSpelltome: {
-#        DisplayName: Книга заклинаний Иглекреста
+#        DisplayName: Книга заклинаний Клювогорья
 #        Tooltip:
 #            '''
-#            Призывает Голема Иглекреста
+#            Призывает Голема Клювогорья
 #            Sold by Zephos/Daerel after Eater of Worlds/Brain of Cthulhu is defeated
 #            '''
 #    }
@@ -7565,23 +7565,23 @@
 #        TooltipFirst:
 #            '''
 #            Омега-прототип №1
-#            'Нечестивое лезвие тянется к силе, весь мир будет погребён навечно в могиле'
+#            'Нечестивое лезвие тянется к силе, оставит весь мир навечно в могиле'
 #            '''
 #        TooltipSecond:
 #            '''
 #            Омега-прототип №2
-#            'Механический лязг раздаётся под твердью, будь осторожен в играх со смертью'
+#            'Лязг механизмов раздаётся под твердью, будь осторожен в играх со смертью'
 #            '''
 #        TooltipThird:
 #            '''
 #            Омега-прототип №3
-#            'Почувствуйте же деморализацию, приготовьтесь к облитерации'
+#            'Почувствуй бессилие, тебя ждёт поражение'
 #            Можно использовать только после победы над первыми 2 Омега-прототипами
 #            '''
 #        TooltipFourth:
 #            '''
 #            Омега-прототип №4
-#            'Мир становится тише, гибель становится ближе; ******* **** **** ******, *** ****** ** ****'
+#            'Затишье кричит о зла приближения; ******* **** **** ******, *** ****** ** ****'
 #            Можно использовать только после победы над Небулеус
 #            '''
 #    }
@@ -7736,7 +7736,7 @@
 #    }
 #
 #    Pommisauva: {
-#        DisplayName: Pommisauva
+#        DisplayName: Поммисаува
 #        Tooltip:
 #            '''
 #            Casts a bomb, only 3 can be cast in a row
@@ -8786,12 +8786,12 @@
 #    }
 #
 #    SilverRapier: {
-#        DisplayName: Серебряная рапира
-#        Tooltip: Проникает сквозь защиту врагов
+#        DisplayName: Silver Rapier
+#        Tooltip: Pierces through enemy defense
 #    }
 #
 #    SkullDiggerFlail: {
-#        DisplayName: Череполиций землекоп Череполицего землекопа
+#        DisplayName: Череполицый землекоп череполицего землекопа
 #        Tooltip:
 #            '''
 #            Spinning the weapon around you will conjure {0} mirages
@@ -9923,27 +9923,27 @@
 #    }
 #
 #    EaglecrestGolemRelic: {
-#        DisplayName: Реликвия Голема Иглекреста
+#        DisplayName: Реликвия Голема Клювогорья
 #        Tooltip: ""
 #    }
 #
 #    EaglecrestGolemTrophy: {
-#        DisplayName: Трофей Голема Иглекреста
+#        DisplayName: Трофей Голема Клювогорья
 #        Tooltip: ""
 #    }
 #
 #    SkullDiggerRelic: {
-#        DisplayName: Skull Digger Relic
+#        DisplayName: Реликвия Череполицего землекопа
 #        Tooltip: ""
 #    }
 #
 #    SkullDiggerTrophy: {
-#        DisplayName: Skull Digger Trophy
+#        DisplayName: Трофей Череполицего землекопа
 #        Tooltip: ""
 #    }
 #
 #    RaveyardBox: {
-#        DisplayName: Music Box (Raveyard)
+#        DisplayName: Музыкальная шкатулка (Тусовище)
 #        Tooltip: PeriTune - Spook3
 #    }
 #
@@ -9963,7 +9963,7 @@
 #    }
 #
 #    SpiritRealmBox: {
-#        DisplayName: Music Box (Spirit Realm)
+#        DisplayName: Музыкальная шкатулка (Царство духов)
 #        Tooltip: Yuri O - Spectral Interloper
 #    }
 #
@@ -10036,7 +10036,7 @@
 #    }
 #
 #    FowlEmperorBox: {
-#        DisplayName: Music Box (Fowl Emperor)
+#        DisplayName: Музыкальная шкатулка (Император Кудах)
 #        Tooltip: Sc0p3r - Fowl Play
 #    }
 #
@@ -10217,7 +10217,7 @@
 #
 #        BossChecklistIntegration: {
 #            SpawnInfo: Place down and encase the [i:Redemption/GolemEye] within the stones of its origins, and it's true power will present itself.
-#            EntryName: Матч-реванш против Голема Иглекреста
+#            EntryName: Матч-реванш против Голема Клювогорья
 #        }
 #    }
 #
@@ -10484,7 +10484,7 @@
 #    }
 #
 #    SkullDiggerFriendly.DisplayName: "{$NPCs.SkullDigger.DisplayName}"
-#    SkullDiggerFriendly_Spirit.DisplayName: Skull Digger's Spirit
+#    SkullDiggerFriendly_Spirit.DisplayName: Дух Череполицего землекопа
 #    SoullessPortal.DisplayName: Shadesoul Gateway
 #    SpiritAssassin.DisplayName: Spirit Assassin
 #
@@ -10608,12 +10608,12 @@
 #    ProtectorVolt_Start.DisplayName: "{$NPCs.ProtectorVolt.DisplayName}"
 #
 #    EaglecrestGolem: {
-#        DisplayName: Голем Иглекреста
+#        DisplayName: Голем Клювогорья
 #        BossChecklistIntegration.SpawnInfo: Naturally spawns on the surface at day after Eater of Worlds/Brain of Cthulhu is defeated.
 #    }
 #
 #    EaglecrestGolem_Sleep.DisplayName: Дремлющие камни
-#    EaglecrestRockPile.DisplayName: Груда камней Иглекреста
+#    EaglecrestRockPile.DisplayName: Груда камней Клювогорья
 #
 #    SkullDigger: {
 #        DisplayName: Череполицый землекоп
