@@ -184,7 +184,7 @@
 #    DevilsTongue: A carnivorous cactus that grows in deserts. Produces painful clouds of pollen to attract flies to their doom.
 #    EpidotrianSkeleton: These skeletons are from Epidotra's mainland, they are slightly taller and smarter than the island's ones. Their strength is dependent on their soul, which is also known as Willpower.
 #    SkeletonWanderer: A skeleton from Epidotra's mainland. It wears rusty pauldrons and wields a rusty spear.
-#    SkeletonNoble: A strong skeleton wearing the equipment of Anglon's Common Guard. These are tough brutes that won't be taken down easily.
+#    SkeletonNoble: Сильный скелет, облачённый в снаряжение рядового гвардейца Ангулона. Этих крепких громил не так-то легко одолеть.
 #    SkeletonFlagbearer: Every squad needs a guy holding a big flag. This stubby skeleton's dance can rally any undead who lay witness! Non-undead just look at the silly dance with embarrassment...
 #    SkeletonDuelist: Skeletons with skillful swordplay. Be careful in close-quarter combat with these bone heads, or else you might find your head on the floor.
 #    SkeletonWarden: A blindfolded skeleton from Anglon. It defends other undead with its tower shield and slams any attackers that get too close.
@@ -2393,18 +2393,18 @@
 #    }
 #
 #    AsterisPetBuff: {
-#        DisplayName: Chibi Asteris
-#        Description: In case you ever wanted a li'l peacekeeper to keep you company.
+#        DisplayName: Чиби-Астерис
+#        Description: Для тех, кто мечтал о малютке-миротворце в качестве компаньона
 #    }
 #
 #    CloudCallerPetBuff: {
-#        DisplayName: Cloud Doggy
-#        Description: Bork
+#        DisplayName: Облачко-пёсель
+#        Description: Тяв
 #    }
 #
 #    SkirmishBuff: {
-#        DisplayName: Skirmish
-#        Description: Greatly increased enemy spawn rate
+#        DisplayName: Стычка
+#        Description: Скорость появления врагов значительно увеличена
 #    }
 #
 #    UkkonenBuff: {
@@ -2418,85 +2418,85 @@
 #    }
 #
 #    MoonflareCandleBuff: {
-#        DisplayName: Moonflare Candle
-#        Description: Wards off the effects of a Graveyard
+#        DisplayName: Свеча лунного блика
+#        Description: Защищает от влияние кладбища
 #    }
 #}
 #
 #Biomes: {
 #    WastelandPurityBiome: {
-#        DisplayName: Wasteland
-#        TownNPCDialogueName: the Wasteland
+#        DisplayName: Пустошь
+#        TownNPCDialogueName: Пустошь
 #    }
 #
 #    WastelandSnowBiome: {
-#        DisplayName: Snow Wasteland
-#        TownNPCDialogueName: the snowy Wasteland
+#        DisplayName: Снежная пустошь
+#        TownNPCDialogueName: Снежная пустошь
 #    }
 #
 #    WastelandDesertBiome: {
-#        DisplayName: Desert Wasteland
-#        TownNPCDialogueName: the Desert Wasteland
+#        DisplayName: Пустынная пустошь
+#        TownNPCDialogueName: Пустынная пустошь
 #    }
 #
 #    WastelandCorruptionBiome: {
-#        DisplayName: Corrupt Wasteland
-#        TownNPCDialogueName: the Corrupt Wasteland
+#        DisplayName: Пустошь искажения
+#        TownNPCDialogueName: Пустошь искажения
 #    }
 #
 #    WastelandCrimsonBiome: {
-#        DisplayName: Crimson Wasteland
-#        TownNPCDialogueName: the Crimson Wasteland
+#        DisplayName: Пустошь багрянца
+#        TownNPCDialogueName: Пустошь багрянца
 #    }
 #
 #    LabBiome: {
-#        DisplayName: Abandoned Laboratory
-#        TownNPCDialogueName: the Abandoned Laboratory
+#        DisplayName: Заброшенная лаборатория
+#        TownNPCDialogueName: Заброшенная лаборатория
 #    }
 #
 #    SlayerShipBiome: {
-#        DisplayName: Slayer's Crashed Cruiser
-#        TownNPCDialogueName: Slayer's Crashed Cruiser
+#        DisplayName: Потерпевший крушение крейсер Убийцы
+#        TownNPCDialogueName: Потерпевший крушение крейсер Убийцы
 #    }
 #
 #    LidenBiome: {
-#        DisplayName: Liden
-#        TownNPCDialogueName: Liden
+#        DisplayName: Лидэн
+#        TownNPCDialogueName: Лидэн
 #    }
 #
 #    LidenBiomeAlpha: {
-#        DisplayName: The Alpha
-#        TownNPCDialogueName: The Alpha
+#        DisplayName: Альфа
+#        TownNPCDialogueName: Альфа
 #    }
 #
 #    LidenBiomeOmega: {
-#        DisplayName: The Omega
-#        TownNPCDialogueName: The Omega
+#        DisplayName: Омега
+#        TownNPCDialogueName: Омега
 #    }
 #
 #    FowlMorningBiome: {
-#        DisplayName: Fowl Morning
-#        TownNPCDialogueName: the Fowl Morning
+#        DisplayName: Кудах-заря
+#        TownNPCDialogueName: Кудах-заря
 #    }
 #
 #    BlazingBastionBiome: {
-#        DisplayName: Blazing Bastion
-#        TownNPCDialogueName: the Blazing Bastion
+#        DisplayName: Пылающая цитадель
+#        TownNPCDialogueName: Пылающая цитадель
 #    }
 #
 #    SoullessBiome: {
-#        DisplayName: Soulless Caverns
-#        TownNPCDialogueName: the Soulless Caverns
+#        DisplayName: Бездушные пещеры
+#        TownNPCDialogueName: Бездушные пещеры
 #    }
 #
 #    SpaceBiome: {
-#        DisplayName: Deep Space
-#        TownNPCDialogueName: Deep Space
+#        DisplayName: Глубокий космос
+#        TownNPCDialogueName: Глубокий космос
 #    }
 #
 #    RuinedKingdomBiome: {
-#        DisplayName: Ruined Kingdom
-#        TownNPCDialogueName: the Ruined Kingdom
+#        DisplayName: Разрушенное королевство
+#        TownNPCDialogueName: Разрушенное королевство
 #    }
 #}
 #
@@ -2504,20 +2504,20 @@
 #    CruxHealthTooltip: "{0:+0;-#}% health"
 #    CruxDefenseTooltip: "{0:+0;-#}% defense"
 #    SpiritExtractTooltip: "{0:+0;-#}% spirit extraction chance"
-#    HealthyPrefix.DisplayName: Healthy
-#    DepressedPrefix.DisplayName: Depressed
-#    CrestfallenPrefix.DisplayName: Crestfallen
-#    DeterminedPrefix.DisplayName: Determined
-#    FrenziedPrefix.DisplayName: Frenzied
-#    GladPrefix.DisplayName: Glad
-#    GlumPrefix.DisplayName: Glum
-#    HardyPrefix.DisplayName: Hardy
-#    IrkedPrefix.DisplayName: Irked
-#    JovialPrefix.DisplayName: Jovial
-#    LoyalPrefix.DisplayName: Loyal
-#    StalwartPrefix.DisplayName: Stalwart
-#    UnyieldingPrefix.DisplayName: Unyielding
-#    VexedPrefix.DisplayName: Vexed
+#    HealthyPrefix.DisplayName: Невредимый
+#    DepressedPrefix.DisplayName: Подавленный
+#    CrestfallenPrefix.DisplayName: Удручённый
+#    DeterminedPrefix.DisplayName: Решительный
+#    FrenziedPrefix.DisplayName: Неистовый
+#    GladPrefix.DisplayName: Радостный
+#    GlumPrefix.DisplayName: Мрачный
+#    HardyPrefix.DisplayName: Стойкий
+#    IrkedPrefix.DisplayName: Раздражённый
+#    JovialPrefix.DisplayName: Жизнерадостный
+#    LoyalPrefix.DisplayName: Преданный
+#    StalwartPrefix.DisplayName: Непоколебимый
+#    UnyieldingPrefix.DisplayName: Непреклонный
+#    VexedPrefix.DisplayName: Раздосадованный
 #    BlasphemousPrefix.DisplayName: Blasphemous
 #    CovertPrefix.DisplayName: Covert
 #    ForbiddenPrefix.DisplayName: Forbidden
@@ -2952,10 +2952,10 @@
 #            '''
 #        Dialogue1: Клёвые рожки! Твоя МАМАША, что ль, постаралась? ВА-ХА-ХА-ХА-ХА!
 #        Dialogue2: АХ! У-убери эту святую хреновину от меня ПОДАЛЬШЕ!
-#        Dialogue3: Фи! Что за сияющий круг над твоей головой? Святошей в МОЕЙ крепости ещё не хватало!
-#        Dialogue4TBot: Откуда в моей крепости взялась эта НИЧТОЖНАЯ ЖЕСТЯНАЯ КАСТРЮЛЯ?!
+#        Dialogue3: Фи! Что за сияющий круг над твоей головой? Святошей в МОЕЙ цитадели ещё не хватало!
+#        Dialogue4TBot: Откуда в моей цитадели взялась эта НИЧТОЖНАЯ ЖЕСТЯНАЯ КАСТРЮЛЯ?!
 #        Dialogue5TBot: Ты кто вообще такой? Косплеер какого-то ведра?! Ух-ха-ха-ха!
-#        Dialogue4: Как посмел этот ничтожный человечишка проникнуть в МОЮ крепость?!
+#        Dialogue4: Как посмел этот ничтожный человечишка проникнуть в МОЮ цитадель?!
 #        Dialogue5: Ты глянь, какая МАЛЯВКА! Уха-ха-ха! Людишки такие ДУРАЦКИЕ на вид!
 #        Dialogue6: Ого! Я и забыла какие людишки БУКАШКИ! Ва-ха-ха-ха!
 #    }
@@ -4117,8 +4117,8 @@
 #    }
 #
 #    KeepersVeil: {
-#        DisplayName: Keeper's Veil
-#        Tooltip: "'For a wedding that never came to be...'"
+#        DisplayName: Вуаль Хранительницы
+#        Tooltip: "'Для бракосочетания, которому не суждено было свершиться...'"
 #    }
 #
 #    KingSlayerMask: {
@@ -4302,7 +4302,7 @@
 #    }
 #
 #    BlackChickenItem: {
-#        DisplayName: Чёрная курочка
+#        DisplayName: Чёрная курица
 #        Tooltip: ""
 #    }
 #
@@ -4312,12 +4312,12 @@
 #    }
 #
 #    ChickenGoldItem: {
-#        DisplayName: Золотая курочка
+#        DisplayName: Золотая курица
 #        Tooltip: ""
 #    }
 #
 #    ChickenItem: {
-#        DisplayName: Курочка
+#        DisplayName: Курица
 #        Tooltip: ""
 #    }
 #
@@ -4347,7 +4347,7 @@
 #    }
 #
 #    KabucraItem: {
-#        DisplayName: Kabucra
+#        DisplayName: Кабучра
 #        Tooltip: ""
 #    }
 #
@@ -4357,12 +4357,12 @@
 #    }
 #
 #    LongChickenItem: {
-#        DisplayName: L o n g  Chicken
+#        DisplayName: Д л и н н а я  курица
 #        Tooltip: ""
 #    }
 #
 #    MoonflareBatItem: {
-#        DisplayName: Moonflare Bat
+#        DisplayName: Летучая мышь лунного блика
 #        Tooltip: ""
 #    }
 #
@@ -4417,7 +4417,7 @@
 #    }
 #
 #    LizzyBody: {
-#        DisplayName: Beezard Outfit
+#        DisplayName: Костюм пчелозавра
 #        Tooltip: ""
 #    }
 #
@@ -4431,17 +4431,17 @@
 #    }
 #
 #    LizzyHead: {
-#        DisplayName: Beezard Hood
+#        DisplayName: Капюшон пчелозавра
 #        Tooltip: ""
 #    }
 #
 #    LizzyLegs: {
-#        DisplayName: Beezard Pants
+#        DisplayName: Штаны пчелозавра
 #        Tooltip: ""
 #    }
 #
 #    LizzyTail: {
-#        DisplayName: Beezard Abdomen
+#        DisplayName:  Брюшко пчелозавра
 #        Tooltip: ""
 #    }
 #
@@ -4451,17 +4451,17 @@
 #    }
 #
 #    MedicBackpack: {
-#        DisplayName: Medic Backpack Kit
+#        DisplayName: Рюкзак с медицинским набором
 #        Tooltip: ""
 #    }
 #
 #    MedicLegs: {
-#        DisplayName: Medic Boots
+#        DisplayName: Ботинки медика
 #        Tooltip: ""
 #    }
 #
 #    MedicOutfit: {
-#        DisplayName: Medic Outfit
+#        DisplayName: Костюм медика
 #        Tooltip: ""
 #    }
 #
@@ -5187,7 +5187,7 @@
 #    }
 #
 #    KabucraBanner: {
-#        DisplayName: Kabucra Banner
+#        DisplayName: Знамя кабучры
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.Kabucra.DisplayName}"
 #    }
 #
@@ -5197,7 +5197,7 @@
 #    }
 #
 #    MoonflareBatBanner: {
-#        DisplayName: Moonflare Bat Banner
+#        DisplayName: Знамя летучей мыши лунного блика
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.MoonflareBat.DisplayName}"
 #    }
 #
@@ -5387,18 +5387,18 @@
 #    }
 #
 #    ElderWoodChair: {
-#        DisplayName: Elder Wood Chair
+#        DisplayName: Кресло из древней древесины
 #        Tooltip: ""
 #    }
 #
 #    ElderWoodChandelier: {
-#        DisplayName: Elder Wood Chandelier
+#        DisplayName: Люстра из древней древесины
 #        Tooltip: ""
 #    }
 #
 #    ElderWoodClock: {
-#        DisplayName: Elder Wood Clock
-#        Tooltip: "'Strange... It has only 8 numbers'"
+#        DisplayName: Часы из древней древесины
+#        Tooltip: "'Как странно... Там всего 8 цифр'"
 #    }
 #
 #    ElderWoodDoor: {
@@ -5412,12 +5412,12 @@
 #    }
 #
 #    ElderWoodLamp: {
-#        DisplayName: Elder Wood Lamp
+#        DisplayName: Лампа из древней древесины
 #        Tooltip: ""
 #    }
 #
 #    ElderWoodLantern: {
-#        DisplayName: Elder Wood Lantern
+#        DisplayName: Фонарь из древней древесины
 #        Tooltip: ""
 #    }
 #
@@ -5526,22 +5526,22 @@
 #    }
 #
 #    LabChair: {
-#        DisplayName: Laboratory Chair
+#        DisplayName: Стул лаборатории
 #        Tooltip: ""
 #    }
 #
 #    LabComputer: {
-#        DisplayName: Laboratory Computer
+#        DisplayName: Компьютер лаборатории
 #        Tooltip: ""
 #    }
 #
 #    LabCrate: {
-#        DisplayName: Laboratory Crate
+#        DisplayName: Ящик лаборатории
 #        Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 #    }
 #
 #    LabCrate2: {
-#        DisplayName: Reinforced Laboratory Crate
+#        DisplayName: Укреплённый ящик лаборатории
 #        Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 #    }
 #
@@ -5556,7 +5556,7 @@
 #    }
 #
 #    LabPlatform: {
-#        DisplayName: Laboratory Platform
+#        DisplayName: Платформа лаборатории
 #        Tooltip: ""
 #    }
 #
@@ -5596,12 +5596,12 @@
 #    }
 #
 #    LabTable: {
-#        DisplayName: Laboratory Table
+#        DisplayName: Стол лаборатории
 #        Tooltip: ""
 #    }
 #
 #    LabToilet: {
-#        DisplayName: Laboratory Toilet
+#        DisplayName: Унитаз лаборатории
 #        Tooltip: ""
 #    }
 #
@@ -6190,17 +6190,17 @@
 #    }
 #
 #    ChessTable4D: {
-#        DisplayName: 4D Chess Table
+#        DisplayName: 4D-шахматный стол
 #        Tooltip: ""
 #    }
 #
 #    CyberChair: {
-#        DisplayName: Cyber Chair
+#        DisplayName: Киберстул
 #        Tooltip: ""
 #    }
 #
 #    CyberTable: {
-#        DisplayName: Cyber Table
+#        DisplayName: Киберстол
 #        Tooltip: ""
 #    }
 #
@@ -7460,7 +7460,7 @@
 #            '''
 #            Reawakens an ancient power...
 #            Only usable at day
-#            Not consumable
+#            Не расходуется
 #            '''
 #    }
 #
@@ -7469,7 +7469,7 @@
 #        Tooltip:
 #            '''
 #            Summons a strange portal...
-#            Not consumable
+#            Не расходуется
 #            '''
 #    }
 #
@@ -7479,7 +7479,7 @@
 #            '''
 #            Transmits a signal towards a colossal spaceship
 #            Only usable at day
-#            Not consumable
+#            Не расходуется
 #            '''
 #    }
 #
@@ -7489,7 +7489,7 @@
 #            '''
 #            May draw unwanted attention
 #            Requires the user to have at least 140 max life
-#            Not consumable
+#            Не расходуется
 #            '''
 #    }
 #
@@ -7526,7 +7526,7 @@
 #            '''
 #            Summons an unfortunate curse-bearer
 #            Only usable at day
-#            Not consumable
+#            Не расходуется
 #            '''
 #    }
 #
@@ -8768,7 +8768,7 @@
 #    }
 #
 #    NoblesHalberd: {
-#        DisplayName: Noble's Halberd
+#        DisplayName: Алебарда аристократа
 #        Tooltip:
 #            '''
 #            Right-click to thrust the halberd
@@ -8786,12 +8786,12 @@
 #    }
 #
 #    SilverRapier: {
-#        DisplayName: Silver Rapier
-#        Tooltip: Pierces through enemy defense
+#        DisplayName: Серебряная рапира
+#        Tooltip: Проникает сквозь защиту врагов
 #    }
 #
 #    SkullDiggerFlail: {
-#        DisplayName: Skull Digger's Skull Digger
+#        DisplayName: Череполиций землекоп Череполицего землекопа
 #        Tooltip:
 #            '''
 #            Spinning the weapon around you will conjure {0} mirages
@@ -8867,7 +8867,7 @@
 #        DisplayName: Fan o' Shivs
 #        Tooltip:
 #            '''
-#            Not consumable
+#            Не расходуется
 #            Consumes throwing knives if any are in your inventory, increasing damage
 #            'I'm sorry, Edwin...'
 #            '''
@@ -9968,35 +9968,35 @@
 #    }
 #
 #    GalacticBand: {
-#        DisplayName: Galactic Band
+#        DisplayName: Галактическая повязка
 #        Tooltip:
 #            '''
-#            Summons a chibi Asteris
-#            'Belongs to someone from a dimension another'
+#            Призывает чиби-Астерис
+#            'Принадлежит кому-то из иного измерения'
 #            '''
 #    }
 #
 #    MercenarysChestplate: {
-#        DisplayName: Mercenary's Chestplate
+#        DisplayName: Нагрудник наёмника
 #        Tooltip: ""
 #    }
 #
 #    MercenarysHelmet: {
-#        DisplayName: Mercenary's Helmet
+#        DisplayName: Шлем наёмника
 #        Tooltip: ""
 #    }
 #
 #    MercenarysLeggings: {
-#        DisplayName: Mercenary's Leggings
+#        DisplayName: Поножи наёмника
 #        Tooltip: ""
 #    }
 #
 #    CloudCallersTalisman: {
-#        DisplayName: Cloud Caller's Talisman
+#        DisplayName: Талисман облачного заклинателя
 #        Tooltip:
 #            '''
-#            Summons a cloud with a dog's face
-#            'Here to make your day a bit brighter'
+#            Призывает облако с собачьей мордочкой
+#            'Чтобы сделать ваш день чуточку светлее'
 #            '''
 #    }
 #
@@ -10116,8 +10116,8 @@
 #    }
 #
 #    MoonflareCandle: {
-#        DisplayName: Moonflare Candle
-#        Tooltip: Holding this wards off the effects of a Graveyard
+#        DisplayName: Свеча лунного блика
+#        Tooltip: Держва в руках, защищает от влияния кладбища
 #    }
 #
 #    ChickenMeshiPainting: {
@@ -10352,17 +10352,17 @@
 #
 #    AntiJohnSnail.DisplayName: ANTI JOHN SNAIL
 #    BoneSpider.DisplayName: Bone Spider
-#    Chicken.DisplayName: Chicken
+#    Chicken.DisplayName: Курица
 #    ChickenGold.DisplayName: Gold Chicken
 #    ChickenSpawner.DisplayName: Chicken Spawner
 #    CoastScarab.DisplayName: Coast Scarab
 #    Fly.DisplayName: Муха
 #    GrandLarva.DisplayName: Grand Larva
 #    JohnSnail.DisplayName: John Snail
-#    Kabucra.DisplayName: Kabucra
-#    KabucraSpawner.DisplayName: Kabucra Spawner
+#    Kabucra.DisplayName: Кабучра
+#    KabucraSpawner.DisplayName: Кабучра
 #    LongChicken.DisplayName: Д л и н н а я  курица
-#    MoonflareBat.DisplayName: Moonflare Bat
+#    MoonflareBat.DisplayName: Летучая мышь лунного блика
 #    SandskinSpider.DisplayName: Sandskin Spider
 #    SpiderSwarmer.DisplayName: Spider Swarmer
 #    TreeBug.DisplayName: Tree Bug
@@ -10449,7 +10449,7 @@
 #    GoldenPortal.DisplayName: Golden Gateway
 #    HazmatCorpse_Ghost.DisplayName: Hazmat Ghost
 #    KS3Sitting.DisplayName: "{$NPCs.KS3.DisplayName}"
-#    LostSoulNPC.DisplayName: Lost Soul
+#    LostSoulNPC.DisplayName: Заблудшая душа
 #
 #    Newb: {
 #        DisplayName: Дурень
@@ -10479,8 +10479,8 @@
 #    Newb_Intro.DisplayName: Ньюб
 #
 #    Noza_NPC: {
-#        DisplayName: Noza, Tamer of Evil
-#        ShortName: Noza
+#        DisplayName: Ноза, Укротительница зла
+#        ShortName: Ноза
 #    }
 #
 #    SkullDiggerFriendly.DisplayName: "{$NPCs.SkullDigger.DisplayName}"
@@ -10616,8 +10616,8 @@
 #    EaglecrestRockPile.DisplayName: Груда камней Иглекреста
 #
 #    SkullDigger: {
-#        DisplayName: Skull Digger
-#        BossChecklistIntegration.SpawnInfo: Roams the caverns, seeking revenge...
+#        DisplayName: Череполицый землекоп
+#        BossChecklistIntegration.SpawnInfo: Скитается по пещерам, жаждая отмщения...
 #    }
 #
 #    BabbyDragonBody.DisplayName: "{$NPCs.BabbyDragonHead.DisplayName}"
@@ -10630,21 +10630,21 @@
 #    Blobble.DisplayName: Blobble
 #    CavernSkeletonSpawner.DisplayName: Cavern Skeleton Spawner
 #    CorpseWalkerPriest.DisplayName: Corpse-Walker Priest
-#    DancingSkeleton.DisplayName: Dancing Skeleton
+#    DancingSkeleton.DisplayName: Пляшущий скелет
 #    DevilsTongue.DisplayName: Devil's Tongue
 #    EpidotrianSkeleton.DisplayName: Epidotrian Skeleton
 #    ForestNymph.DisplayName: Forest Nymph
 #    GathicTomb_Spawner.DisplayName: Gathic Tomb Spawner
 #    JollyMadman.DisplayName: Jolly Madman
 #    LivingBloom.DisplayName: Living Bloom
-#    RaveyardSkeleton.DisplayName: Dancing Skeleton
+#    RaveyardSkeleton.DisplayName: Пляшущий скелет
 #    RaveyardSkeletonSpawner.DisplayName: Raveyard Skeleton Spawner
-#    SkeletonAssassin.DisplayName: Skeleton Assassin
-#    SkeletonDuelist.DisplayName: Skeleton Duelist
-#    SkeletonFlagbearer.DisplayName: Skeleton Flagbearer
-#    SkeletonNoble.DisplayName: Skeleton Noble
-#    SkeletonWanderer.DisplayName: Skeleton Wanderer
-#    SkeletonWarden.DisplayName: Skeleton Warden
+#    SkeletonAssassin.DisplayName: Скелет-убийца
+#    SkeletonDuelist.DisplayName: Скелет-дуэлянт
+#    SkeletonFlagbearer.DisplayName: Скелет-знаменосец
+#    SkeletonNoble.DisplayName: Скелет-аристократ
+#    SkeletonWanderer.DisplayName: Скелет-странник
+#    SkeletonWarden.DisplayName: Скелет-страж
 #    SurfaceSkeletonSpawner.DisplayName: Surface Skeleton Spawner
 #    VagrantSpirit.DisplayName: Vagrant Spirit
 #    BloatedGhoul.DisplayName: Bloated Ghoul
