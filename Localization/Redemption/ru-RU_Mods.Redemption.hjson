@@ -17,8 +17,8 @@
 #    }
 #
 #    SoI: {
-#        Name: Семя заражения
-#        Modifier: Инфекционный нарыв
+#        Name: Семя инфекции
+#        Modifier: Заражённый нарыв
 #    }
 #
 #    Keeper: {
@@ -113,7 +113,7 @@
 #    }
 #
 #    Stage3Scientist: {
-#        Name: Учёный третьей стадии заражения
+#        Name: Учёный третьей стадии инфицирования
 #        Modifier: Кристальный ужас
 #    }
 #}
@@ -1085,7 +1085,7 @@
 #
 #    Volt: {
 #        Start: {
-#            1: Halt!
+#            1: Стоять!
 #            2: You aren't supposed to be here!
 #            R1: Hm? Are you supposed to be let through?
 #            R2: Секунду...
@@ -1093,7 +1093,7 @@
 #        }
 #
 #        Defeat: {
-#            Refight: Enough.
+#            Refight: Достаточно.
 #            1: ... Are you allowed through?[0.5] Let me check.
 #            2: ... Oh?
 #            3: ... You're allowed through?
@@ -1111,7 +1111,7 @@
 #        }
 #
 #        Defeat: {
-#            1: Okay,[0.1] okay!
+#            1: Ладно,[0.1] ладно!
 #            2: Alright fine,[0.1] you probably can handle yourself here.
 #            3: Here,[0.1] have this Lab Access thing and get lost!
 #            4: "[@a]I got moppin' to do."
@@ -1123,183 +1123,183 @@
 #
 #    Girus: {
 #        Encounter1: {
-#            1: Hello, I don't believe we've met.
-#            2: You don't know anything about me, but I know a lot about you.
-#            3: Let's keep it that way for now.
-#            4: Here, I've sent a drone to offer you a gift, please accept it.
-#            5: Till we meet again.
+#            1: Здравствуй. Верю, мы раньше не встречались.
+#            2: Ты ничего не знаешь обо мне, но я многое знаю о тебе.
+#            3: Давайте пока всё так и оставим.
+#            4: Кстати, я отправила дрона с подарком, пожалуйста, прими его.
+#            5: До встречи.
 #        }
 #
 #        Encounter2: {
-#            1: That was a little disappointing to be honest.
-#            2: I suppose that's what's to be expected from minimal changes to TeoChrome's original design.
-#            3: Oh well! I got some results that'll prove useful later on.
-#            4: Come again later, and I should have another machine ready to test.
-#            5: Shouldn't be too long, I'll be reusing some old machine gathering dust in the basement.
+#            1: Если честно, это было немного разочаровывающе.
+#            2: Но чего ещё стоило ожидать от устаревших моделей ТеоХрома?
+#            3: Ладно! Я всё равно получила интересные данные, которые могут пригодиться.
+#            4: Возвращайся позже, у меня будет новая машина для тестирования.
+#            5: Много времени не займёт, я просто обновлю одну старую модель, что пылится в подвале.
 #        }
 #
 #        Encounter3: {
-#            1: Hah, not bad!
-#            2: A little sad how useless TeoChrome's shield technology was,
-#            3: Can't completely encompass something as the Shield projector will throw a hissy-fit if it's inside.
-#            4: I did get some ideas on how to use this to my advantage, though...
-#            5: Anyways! Same as last time, I'll ready another machine for a test.
-#            6: Might take a bit longer though, as I'll try out a design of my own. Until then.
+#            1: Хах, неплохо!
+#            2: Немного грустно, что защитная технология ТеоХрома оказалась такой бесполезной.
+#            3: Невозможно полностью охватить объект, а если проектор щита окажется внутри, будет барахлить.
+#            4: Но у меня появились идеи, как это использовать...
+#            5: Неважно! Как и в прошлый раз, я подготовлю новую машину для тестирования.
+#            6: Хотя это займёт немного больше времени, я попробую создать свой собственный дизайн. До встречи.
 #        }
 #
 #        Encounter4: {
 #            v1: {
-#                1: Oh, this is a bit awkward.
-#                2: You still haven't defeated the previous challenges, even now?
-#                3: Well, I suppose a little overpreparation never hurt anyone.
-#                4: Here, I've sent a keycard your way. Consider it a little gift in advance.
+#                1: Ох, это немного неловко.
+#                2: Ты до сих пор не справился с предыдущими испытаниями?
+#                3: Ладно, небольшая переподготовка ещё никому не повредила.
+#                4: Вот, я отправила тебе ключ-карту. Считай это небольшим авансом.
 #                5:
 #                    '''
-#                    ... You'll still need to take on the first two Prototypes first.
-#                    As a formality of course.
+#                    ...Но сначала тебе придётся победить первые два прототипа.
+#                    Хотя это чистая формальность.
 #                    '''
 #            }
 #
 #            v2: {
-#                1: Goodness, you are boring.
-#                2: The Lab's security has been disabled for weeks!
-#                3: It's frankly quite astonishing that you never noticed.
-#                4: Anyway, take this keycard and I'll fill you in there.
+#                1: Боже, какой ты скучный.
+#                2: Система безопасности лаборатории уже несколько недель как отключена!
+#                3: Удивительно даже, что ты этого не заметил.
+#                4: Ладно, возьми эту ключ-карту, а я введу тебя в курс дела.
 #            }
 #
 #            v3: {
-#                1: I'm terribly sorry for the impromptu contact.
-#                2: As per our last chat, your next trial is a machine of my own making.
+#                1: Прошу прощения за столь неожиданный контакт.
+#                2: Как мы и говорили в прошлый раз, твоё следующее испытание — моя собственная разработка.
 #                3:
 #                    '''
-#                    Despite my best efforts though, I simply couldn't hold back on making
-#                    it a little more... challenging, than what you're quite ready for.
+#                    Но я не смогла удержаться от того, чтобы сделать его
+#                    чуть... сложнее, чем ты ожидаешь.
 #                    '''
-#                4: So!
-#                5: I've elected to give you private access to the lower sections of my base of operations.
-#                6: I am quite sure you'll find some old toys TeoChrome left behind down there.
-#                7: You'll have to excuse the mess though.
-#                8: Anyway, I'm eagerly anticipating your next trial.
-#                9: You're going to love it.
+#                4: Итак!
+#                5: Я решила предоставить тебе приватный доступ в нижние отсеки моей базы.
+#                6: Уверена, ты там найдёшь несколько старых игрушек, оставленных ТеоХромом.
+#                7: Заранее извини за беспорядок.
+#                8: В любом случае, жду тебя на следующем испытании.
+#                9: Тебе это обязательно понравится.
 #            }
 #        }
 #
 #        Encounter5: {
-#            1: Well done! If you're wondering about the AI, I put it elsewhere for safekeeping.
-#            2: I'd rather not discard something I spent ages on creating.
-#            3: This research has proven very fruitful; I'm getting excited from thinking of how to put it all to good use!
-#            4: Ah, right. The last test is coming up not too far from now!
-#            5: And I've got something amazing to show you! Ah, but it'll have to be a secret until then.
-#            v1: Alright, I'll say this. It's a collaborative project between me and 'a mutual of ours'
-#            v2: Alright, I'll say this. It's a collaborative project between me and one of the few to best you.
-#            v3: Alright, I'll say this. It's a collaborative project between me and another.
+#            1: Отличная работа! Если тебя интересует ИИ, я спрятала его в другом месте для сохранности.
+#            2: Не хотелось бы расставаться с тем, на разработку чего потратила вечность.
+#            3: Исследование оказалось очень плодотворным; я в восторге от того, как всё это использовать!
+#            4: Ах, да. Не за горами последний тест!
+#            5: И я хочу показать тебе кое-что потрясающее! Но пока это секрет.
+#            v1: Ладно, скажу так. Это совместный проект между мной и 'нашим общим знакомым'.
+#            v2: Ладно, скажу так. Это совместный проект между мной и одним из немногих, кто одолел тебя.
+#            v3: Ладно, скажу так. Это совместный проект между мной и ещё кое-кем.
 #        }
 #    }
 #
 #    Nebuleus: {
-#        Name: Nebuleus:
+#        Name: Небулеус:
 #
 #        Shout: {
 #            StarBlast: Звёздный взрыв!
 #            Starfall: Звездопад!
-#            PiercingNebula: Piercing Nebula!
+#            PiercingNebula: Меч туманности!
 #            Chains: Цепи космоса!
 #            Eyes: Глаза космоса!
 #            SuperStarfall: Супер-звездопад!
-#            ErraticStarBlast: Erratic Star Blast!
-#            PiercingNebulaBurst: Piercing Nebula Burst!
-#            CrystalStars: Кристальные звёзды!
-#            PiercingNebula2: Mirror Miragá!
-#            Moonbeam: Kuunvalo!
-#            MeteoricSwarm: Meteor Armada!
+#            ErraticStarBlast: Хаотичный звёздный взрыв!
+#            PiercingNebulaBurst: Мечевой туманный взрыв!
+#            CrystalStars: Кристаллы звёзд!
+#            PiercingNebula2: Зеркальная иллюзия!
+#            Moonbeam: Лунное сияние!
+#            MeteoricSwarm: Метеоритный шторм!
 #            Constellations: Созвездия!
-#            CosmicFulgura: Cosmic Fulgura!
+#            CosmicFulgura: Космическая молния!
 #        }
 #
 #        Intro: {
-#            1: Ah, you have brought me here yourself.
-#            2: My eyes have loomed upon thee long enough, it is time to take action.
-#            2Alt: Forgive my prying eyes, for I have been observing thee from afar.
-#            3: The daring hunt of all that threaten you brings a chill through my body.
-#            4: Thy presence is all-consuming within my thoughts, but I shan't run from this opportunity gifted to me.
-#            5: The chatter ends here. Prove to me your resolve, and I will show my own.
-#            6: If you lose to me, you may be spared from watchers far greater than I.
+#            1: Ах, значит, ты сам меня позвал.
+#            2: Мои глаза давно наблюдали за тобой, настала действовать пора.
+#            2Alt: Извини мой взор любопытства, ведь давно слежу я за тобой.
+#            3: Дерзкая твоя охота на всё, что только может представлять угрозу, одну дрожь вызывает.
+#            4: Мои мысли всецело твоим присутствием полны, но от дарованной возможности отказаться трудно.
+#            5: Хватит слов. Докажи свою решимость, я же покажу свою.
+#            6: Коль мне проиграешь, возможно, пощадят тебя наблюдатели, что сильней меня стократ.
 #        }
 #
 #        Resummon: {
-#            1: You... are still alive?
-#            2: You still want to fight?
+#            1: Ты... жив?
+#            2: До сих пор драться хочешь?
 #        }
 #
 #        Interval: {
-#            1: What purpose drives you? What is your goal?
-#            2: Do you even have a motive for your actions?
-#            3: Still fighting? Well I'm not done yet!
+#            1: Какое предназначение тобой движет? Какая цель?
+#            2: Есть ли мотив у действий твоих, смысл?
+#            3: До сих пор сражаешься? Ну чтож, я тоже ещё не закончила!
 #        }
 #
 #        Transition: {
-#            1: I would appear to be fighting a hopeless battle...
-#            2: Ever since this island suddenly appeared, I have been watching.
+#            1: Возможно, безнадёжную битву я веду...
+#            2: Как только этот остров явился миру, я наблюдала.
 #            3:
 #                '''
-#                I've seen you be slain countless times,
-#                However you never truly die.
+#                Я видела твои бесчисленные поражения, где ты пал,
+#                Но истинно никогда не погибал.
 #                '''
-#            4: It seems most cannot or simply will not comprehend this.
-#            5: But I do.
+#            4: Кажется, большинство не могут или просто не хотят понимать данный феномен.
+#            5: Но я понимаю.
 #            6:
 #                '''
-#                Whether it be intelligence, power, or something else,
-#                I still remember...
+#                Будь то интеллект, сила или нечто иное,
+#                Я всё ещё помню...
 #                '''
-#            7: Time in the confines of this island seems to be dictated by powers unknown.
-#            8: ... Say, if you killed someone unaffected by such powers...
-#            9: ... Would they die for good?
-#            10: Whatever the case may be, I no longer wish to fight you...
-#            11: You hath proven thy resolve.
-#            11Alt: Not like I could do anything to stop you.
-#            12: And I... hath failed once more.
-#            12Alt: I hope you find it in thine heart to stop thy rampage.
-#            13: I will be leaving forthwith, but we can always spar again. Farewell.
-#            13Alt: If you don't wish to fight me now, I'll leave you be.
-#            14: You still want to fight?
-#            15: Of course it wouldn't be that easy...
-#            16: You've had thy chance at redemption, so don't blame me...
-#            17: ... When you die a thousand times!
+#            7: Время на этом острове диктуется силами, мне неведомыми.
+#            8: ...Скажи, коли убьёшь кого-либо без подобных сил...
+#            9: ...умрёт ли он навсегда?
+#            10: Каков бы не был ответ, желания сражаться с тобой более нет...
+#            11: Ты доказал свою решимость.
+#            11Alt: И нет способа тебя остановить.
+#            12: А я же... вновь потерпела неудачу.
+#            12Alt: Надеюсь, в глубинах сердца ты найдёшь способ обуздать неистовство своё.
+#            13: На этом покидаю тебя, но для спарринга всегда открыта. Пока.
+#            13Alt: Если сражаться со мною не желаешь, я уйду, не причиняя вреда.
+#            14: До сих пор желаешь битвы?
+#            15: Я знала, что не будет так легко...
+#            16: У тебя был шанс на искупление, потому не вини...
+#            17: ...если умрёшь сотню раз!
 #            Spare1:
 #                '''
-#                Thank you...
-#                Please, continue slaying evil, this world could do with a hero.
+#                Спасибо...
+#                Продолжай карать зло, этому миру нужен свой герой.
 #                '''
 #            Spare2:
 #                '''
-#                Thank you...
-#                At first I thought the concept of mercy was foreign to you.
+#                Спасибо...
+#                Изначально полагала я, что милосердие тебе чуждо.
 #                '''
 #        }
 #
 #        P2: {
 #            1:
 #                '''
-#                I still have this hope in my mind that you're mortal,
-#                so even if I can't figure out how to be rid of you...
+#                До сих пор питаю надежду, что ты всё же смертен
+#                и коли я не смогу понять, как убить тебя окончательно...
 #                '''
-#            2: ... There are still many foes greater than I!
-#            3: ... Epidotra's Protector...
-#            4: ... The Royal Knight...
-#            5: ... and the Demigod of Light...
-#            6: But enough talk, I'm your opponent!
+#            2: ...есть враги куда сильней меня!
+#            3: ...Защитник Эпидотры...
+#            4: ...Королевский рыцарь...
+#            5: ...и Полубог света...
+#            6: Но довольно разговоров, я твой противник!
 #        }
 #
 #        Defeat: {
-#            1: ... That was all I had.
-#            2: And yet I still lost...
-#            3: Fighting you and that traitor have confirmed my suspicions.
-#            4: I'm weak.
-#            5: I don't deserve being part of their group. I was only a burden.
-#            6: If the Demigod ever comes for you, don't let him know I'm still alive.
-#            7: I fear what he might think of me, and I don't want to face him.
-#            8: I don't expect sympathy from you, but I'll be gone for good now. Goodbye.
+#            1: ...это были все мои силы.
+#            2: Но и с ними я потерпела поражение...
+#            3: Сражаясь с тобой и тем предателем, я убедилась в одном.
+#            4: Я слаба.
+#            5: Я не заслуживаю быть их частью. Лишь бремя, тянущее вниз.
+#            6: Если Полубог однажды придёт к тебе, не говори ему, что я жива.
+#            7: Страшно, что он может обо мне подумать, и я не хочу его встречать.
+#            8: Симпатии от тебя не чаю, но теперь я ухожу навсегда. Прощай.
 #        }
 #    }
 #
@@ -1415,7 +1415,7 @@
 #        NebDefeat: Trust me when I say this, you've dug yourself a 1000-feet hole here.
 #        ForestNymphHoused: Sometimes it is the little acts of kindness that count.
 #        TreebarkFelled: Assisting the extinction of these dwindling dryads is not something I approve of.
-#        EaglecrestDefeat: Living stones? Never seen that before.
+#        EaglecrestDefeat: Живые камни? Никогда такого не видела.
 #        SkullDiggerDefeat: A saddening conclusion to this protector and mistress, but perhaps there is another way..?
 #        CalaviaChoice: She is wishing to be spared.
 #        CalaviaKilled: How ruthless...
@@ -3205,8 +3205,8 @@
 #    }
 #
 #    CleaverHandle: {
-#        DisplayName: Рукоятка двуручника
-#        Tooltip: Summons an Omini Cleaver
+#        DisplayName: Эфес двуручника
+#        Tooltip: Призывает омни-двуручник
 #    }
 #
 #    GasMask: {
@@ -3214,13 +3214,13 @@
 #        Tooltip:
 #            '''
 #            Grants immunity to Radioactive Fallout
-#            'Hudda hudda!'
+#            'Худда худда!'
 #            '''
 #    }
 #
 #    GeigerMuller: {
 #        DisplayName: Счётчик Гейгера-Мюллера
-#        Tooltip: Lab issued Geiger counter. The louder it gets, the higher the chance of you getting irradiated.
+#        Tooltip: Выпущенный Лабораторией счётчик Гейгера. Чем громче он звучит, тем выше вероятность облучения.
 #        Status1: No
 #        Status2: Low
 #        Status3: Medium
@@ -3235,7 +3235,7 @@
 #    }
 #
 #    GracesGuidance: {
-#        DisplayName: Наставничество Грейс
+#        DisplayName: Видение благодати
 #        Tooltip:
 #            '''
 #            12% increased {0} elemental damage and resistance
@@ -3299,7 +3299,7 @@
 #    }
 #
 #    InfectionShield: {
-#        DisplayName: Заражённый терновый щит
+#        DisplayName: Инфицированный терновый щит
 #        Tooltip:
 #            '''
 #            Double tap a direction to dash
@@ -3320,7 +3320,7 @@
 #    }
 #
 #    PocketShieldGenerator: {
-#        DisplayName: Pocket-Shield Generator
+#        DisplayName: Портативный генератор щита
 #        Tooltip:
 #            '''
 #            Summons a bubble shield that can protect the user from a high amount of damage before breaking
@@ -3331,7 +3331,7 @@
 #    }
 #
 #    PowerCellWristband: {
-#        DisplayName: Power Cell Wristband
+#        DisplayName: Браслет с топливной ячейкой
 #        Tooltip:
 #            '''
 #            4% increased critical strike chance for {0} and {1} elemental weapons
@@ -3343,12 +3343,12 @@
 #
 #    PowerDrill: {
 #        DisplayName: Электродрель
-#        Tooltip: Summons a Mini Gigapora
+#        Tooltip: Призывает мининожку
 #    }
 #
 #    RitualistEmblem: {
 #        DisplayName: Эмблема ритуалиста
-#        Tooltip: 15% increased ritual damage
+#        Tooltip: Увеличивает ритуальный урон на 15%
 #    }
 #
 #    SacredCross: {
@@ -3363,12 +3363,12 @@
 #    }
 #
 #    SlayerController: {
-#        DisplayName: Геймпад Убийцы
+#        DisplayName: Геймпад Цареубийцы
 #        Tooltip: Меняет курсор на бирюзовый прицел, когда инвентарь закрыт
 #    }
 #
 #    SlayerProjector: {
-#        DisplayName: Проектор Убийцы
+#        DisplayName: Проектор Цареубийцы
 #        Tooltip: Призывает голограмму Цареубийцы для вынесения вам приговора
 #    }
 #
@@ -3387,12 +3387,12 @@
 #        Tooltip:
 #            '''
 #            'Unleash doomsday upon this fragile universe'
-#            Summons !!??
+#            Призывает !!??
 #            '''
 #    }
 #
 #    HeartOfInfection: {
-#        DisplayName: Источник заражения
+#        DisplayName: Сердце инфекции
 #        Tooltip:
 #            '''
 #            The player occasionally emits a life-draining force that steals life from debuffed enemies
@@ -3473,7 +3473,7 @@
 #    }
 #
 #    ObliterationDrive: {
-#        DisplayName: Привод Облитератора
+#        DisplayName: Привод облитерации
 #        Tooltip:
 #            '''
 #            Double tap a direction while airborne to dash
@@ -3550,27 +3550,27 @@
 #    }
 #
 #    CuddlyTeratoma: {
-#        DisplayName: Cuddly Teratoma
+#        DisplayName: Ласковая опухоль
 #        Tooltip: Summons a teratoma to latch onto you
 #    }
 #
 #    DevilishResin: {
-#        DisplayName: Devilish Resin
+#        DisplayName: Дьявольская смола
 #        Tooltip:
 #            '''
 #            Critters are attracted to you
 #            Shy critters won't fear you
-#            'YOU STINK!'
+#            'ТЫ ВОНЯЕШЬ!'
 #            '''
 #    }
 #
 #    DevilsAdvocate: {
-#        DisplayName: Devil's Advocate
+#        DisplayName: Адвокат дьявола
 #        Tooltip: Summons a tiny angel and devil to follow you
 #    }
 #
 #    DurableBowString: {
-#        DisplayName: Durable Bow String
+#        DisplayName: Прочная тетива для лука
 #        Tooltip: 20% increased velocity of arrow-based weaponry
 #    }
 #
@@ -3789,7 +3789,7 @@
 #    }
 #
 #    HikariteBreastplate: {
-#        DisplayName: Hikarite Breastplate
+#        DisplayName: Хикаритовый нагрудник
 #        Tooltip:
 #            '''
 #            14% increased damage
@@ -3803,7 +3803,7 @@
 #    }
 #
 #    HikariteGreaves: {
-#        DisplayName: Hikarite Greaves
+#        DisplayName: Хикаритовые поножи
 #        Tooltip:
 #            '''
 #            13% increased damage
@@ -3818,7 +3818,7 @@
 #    }
 #
 #    HikariteHelmet: {
-#        DisplayName: Hikarite Greathelm
+#        DisplayName: Большой хикаритовый шлем
 #        Tooltip:
 #            '''
 #            Увеличивает урон на 16%
@@ -4828,22 +4828,22 @@
 #    }
 #
 #    AIChip: {
-#        DisplayName: Circuit
+#        DisplayName: Электросхема
 #        Tooltip: ""
 #    }
 #
 #    BlackholeFragment: {
-#        DisplayName: Blackhole Fragment
+#        DisplayName: Фрагмент чёрной дыры
 #        Tooltip: "'Flakes of matter around you are being sucked into this fragment'"
 #    }
 #
 #    Capacitor: {
-#        DisplayName: Capacitor
+#        DisplayName: Конденсатор
 #        Tooltip: ""
 #    }
 #
 #    CarbonMyofibre: {
-#        DisplayName: Carbon Myofibre
+#        DisplayName: Углеродная миофибра
 #        Tooltip: ""
 #    }
 #
@@ -6308,7 +6308,7 @@
 #    }
 #
 #    SoIBox: {
-#        DisplayName: Музыкальная шкатулка (Семя заражения)
+#        DisplayName: Музыкальная шкатулка (Семя инфекции)
 #        Tooltip: musicman - Virogenesis
 #    }
 #
@@ -10335,7 +10335,7 @@
 #    SeedGrowth.DisplayName: Hive Growth
 #
 #    SoI: {
-#        DisplayName: Семя заражения
+#        DisplayName: Семя инфекции
 #        BossChecklistIntegration.SpawnInfo: Используйте [i:Redemption/AnomalyDetector].
 #    }
 #
@@ -10350,23 +10350,23 @@
 #        }
 #    }
 #
-#    AntiJohnSnail.DisplayName: ANTI JOHN SNAIL
-#    BoneSpider.DisplayName: Bone Spider
+#    AntiJohnSnail.DisplayName: АНТИ ДЖОН-УЛИТКА
+#    BoneSpider.DisplayName: Костяной паук
 #    Chicken.DisplayName: Курица
-#    ChickenGold.DisplayName: Gold Chicken
+#    ChickenGold.DisplayName: Золотая курица
 #    ChickenSpawner.DisplayName: Chicken Spawner
-#    CoastScarab.DisplayName: Coast Scarab
+#    CoastScarab.DisplayName: Пляжный скарабей
 #    Fly.DisplayName: Муха
-#    GrandLarva.DisplayName: Grand Larva
-#    JohnSnail.DisplayName: John Snail
+#    GrandLarva.DisplayName: Большая личинка
+#    JohnSnail.DisplayName: Джон-улитка
 #    Kabucra.DisplayName: Кабучра
 #    KabucraSpawner.DisplayName: Кабучра
 #    LongChicken.DisplayName: Д л и н н а я  курица
 #    MoonflareBat.DisplayName: Летучая мышь лунного блика
 #    SandskinSpider.DisplayName: Sandskin Spider
 #    SpiderSwarmer.DisplayName: Spider Swarmer
-#    TreeBug.DisplayName: Tree Bug
-#    ChickenBomber.DisplayName: Chicken Bomber
+#    TreeBug.DisplayName: Древесный жук
+#    ChickenBomber.DisplayName: Курица-подрывник
 #    ChickenScratcher.DisplayName: Chicken Scratcher
 #
 #    Cockatrice: {
@@ -10381,7 +10381,7 @@
 #    Chalice_Intro.DisplayName: Чаша мировозрения
 #
 #    Daerel: {
-#        DisplayName: Wayfarer
+#        DisplayName: Странник
 #
 #        TownNPCMood: {
 #            LoveBiome:  Я считаю, что {BiomeName} просто идеален, спокоен и умиротворён.
@@ -10442,11 +10442,11 @@
 #            '''
 #    }
 #
-#    GathuramPortal.DisplayName: Mysterious Gateway
+#    GathuramPortal.DisplayName: Мистические врата
 #    GiftDrone.DisplayName: Gift Drone
 #    GiftDrone2.DisplayName: "{$NPCs.GiftDrone.DisplayName}"
 #    GiftDrone3.DisplayName: "{$NPCs.GiftDrone.DisplayName}"
-#    GoldenPortal.DisplayName: Golden Gateway
+#    GoldenPortal.DisplayName: Золотые врата
 #    HazmatCorpse_Ghost.DisplayName: Hazmat Ghost
 #    KS3Sitting.DisplayName: "{$NPCs.KS3.DisplayName}"
 #    LostSoulNPC.DisplayName: Заблудшая душа
@@ -10461,11 +10461,11 @@
 #            LoveSpace: Меньше народу - больше кислороду!
 #            DislikeCrowded: Чересчур многолюдно!
 #            HateCrowded: Чересчур многолюдно!
-#            LoveBiome: I love {BiomeName}! It gives me nice memories of...uhhh...
-#            LikeBiome: I like {BiomeName}. Green is nice.
-#            DislikeBiome: Скукота смертная, этот песок уже осточертел!
-#            HateBiome: ...{BiomeName} makes me feel sad, for some reason.
-#            LoveNPC: "{NPCName} knows magic like me!"
+#            LoveBiome: Я люблю {BiomeName}! Навевает воспоминания о... эээ...
+#            LikeBiome: Мне нравится {BiomeName}. Зелёный цвет хороший.
+#            DislikeBiome: Скука смертная, этот песок уже осточертел!
+#            HateBiome: ...{BiomeName} по какой-то причине навевает грусть.
+#            LoveNPC: "{NPCName} знает магию, как и я!"
 #            LikeNPC: Мне нравится {NPCName}!
 #            DislikeNPC: I feel evil within {NPCName}, very bad!
 #            HateNPC: My hatred towards {NPCName} is beyond your mortal comprehension.
@@ -10490,7 +10490,7 @@
 #
 #    SpiritCommonGuard: {
 #        DisplayName: Spirit Common Guard
-#        ShortName: Kleo
+#        ShortName: Клео
 #    }
 #
 #    SpiritCurrent.DisplayName: Spirit Current
@@ -10498,7 +10498,7 @@
 #
 #    SpiritGathicMan: {
 #        DisplayName: Old Spirit Man
-#        ShortName: Bromal
+#        ShortName: Бромал
 #    }
 #
 #    SpiritNiricLady.DisplayName: Old Spirit Lady
@@ -10515,10 +10515,10 @@
 #    SkeletonWarden_SS.DisplayName: "{$NPCs.SkeletonWarden.DisplayName}"
 #    SkullDigger_SS.DisplayName: "{$NPCs.SkullDigger.DisplayName}"
 #    SpiritWalkerMan.DisplayName: Spirit Stranger
-#    SpiritwalkerSoul.DisplayName: Lost Soul
+#    SpiritwalkerSoul.DisplayName: Заблудшая душа
 #
 #    TBot: {
-#        DisplayName: Friendly T-Bot
+#        DisplayName: Дружелюбный Т-бот
 #
 #        TownNPCMood: {
 #            Content: Feeling rather content, thank you for asking.
@@ -10553,7 +10553,7 @@
 #    WraithSlayer_Samurai.DisplayName: Cursed Samurai
 #
 #    Zephos: {
-#        DisplayName: Wayfarer
+#        DisplayName: Странник
 #
 #        TownNPCMood: {
 #            Content: I'm alright.
@@ -10934,7 +10934,7 @@
 #    DownedADD: After Ancient Diety Duo is defeated
 #    DownedBehemoth: After Irradiated Behemoth is defeated
 #    DownedBlisterface: After Blisterface is defeated
-#    DownedEaglecrestGolem: After Eaglecrest Golem is defeated
+#    DownedEaglecrestGolem: После победы над Големом Клювогорья
 #    DownedFowlEmperor: После победы над Императором Кудах
 #    DownedFowlMorning: После победы над событием «Кудах-заря»
 #    DownedJanitor: After Janitor is defeated
