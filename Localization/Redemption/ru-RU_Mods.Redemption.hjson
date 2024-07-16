@@ -398,7 +398,7 @@
 #SpecialTooltips: {
 #    Viewer: Удерживайте 'Левый Shift', чтобы увидеть историю
 #    Unbreakable: "[c/ff0000:Неразрушимый]"
-#    Unbreakable5000: "[c/ff0000:Неразрушимый (Нужно 5000% мощности кирки)]"
+#    Unbreakable5000: "[c/ff0000:Неразрушимый (нужно 5000% мощности кирки)]"
 #
 #    CommonGuard: {
 #        CommonGuardGreaves:
@@ -735,30 +735,30 @@
 #        Missed:
 #            '''
 #
-#            Things you didn't do this playthrough, but can do for the next:
+#            Вещи, которые вы не сделали в этом прохождении, но можете в следующем:
 #            '''
-#        HoldShift: Hold [Shift] to view what you've missed
-#        SpiritWalker: -Gaining a spiritual ability
-#        Chalice: -Gaining an important object of judgement
-#        Newb: -Finding a suspicious entity beneath a portal
-#        FowlEmperor: -Fighting a mighty rooster
-#        Thorn: -Fighting a blighted bane of the forest [c/bbf160:(Good Route)]
-#        Erhan: -Fighting a high priest [c/ff5533:(Bad Route)]
-#        Keeper: -Fighting a sorrowful undead
-#        ForestNymph: -Befriending a being of nature and giving it a tree-home [c/bbf160:(Good Route)]
-#        SkullDigger: -Fighting an undead protector underground [c/ff5533:(Bad Route)]
-#        KeeperSaved: -Bringing peace to an undead mistress [c/bbf160:(Good Route)]
-#        SkullDiggerSaved: -Bringing peace to an undead protector [c/bbf160:(Good Route)]
-#        Golem: -Fighting a strange boulder in the overworld
-#        SoI: -Fighting an infectious anomaly
-#        Nuke: -Detonating a nuclear warhead
-#        Lab: -Discovering an underground laboratory
-#        KS3: -Fighting a depressed robot
-#        KS3Quest: -Helping a depressed robot preform ship repairs [c/bbf160:(Good Route)]
-#        Omega: -Fighting a trio of deadly machines
-#        PatientZero: -Fighting the laboratory's final challenge
-#        ADD: -Figuring out the Eaglecrest Golem's secret
-#        UltimateNeb: -Fighting the Angel of the Cosmos' last stand [c/ff5533:(Bad Route)]
+#        HoldShift: Удерживайте 'Левый Shift', чтобы посмотреть, что вы пропустили
+#        SpiritWalker: -Спиритическая способность
+#        Chalice: -Важный объект правосудия
+#        Newb: -Загадочная сущность под порталом
+#        FowlEmperor: -Битва с могучим петухом
+#        Thorn: -Битва с заражённой погибелью леса [c/bbf160:(хороший путь)]
+#        Erhan: -Битва с верховным жрецом [c/ff5533:(плохой путь)]
+#        Keeper: -Битва со скорбящей нежитью
+#        ForestNymph: -Дружба с созданием природы и постройка для него дерева-дома [c/bbf160:(хороший путь)]
+#        SkullDigger: -Битва с мёртвым защитником под землёй [c/ff5533:(плохой путь)]
+#        KeeperSaved: -Упокоение мёртвой госпожи [c/bbf160:(хороший путь)]
+#        SkullDiggerSaved: -Упокоение мёртвого защитника [c/bbf160:(хороший путь)]
+#        Golem: -Битва со странным камнем
+#        SoI: -Битва с аномалией инфекции
+#        Nuke: -Детонация ядерной боеголовки
+#        Lab: -Подземная лаборатория
+#        KS3: -Депрессивный робот, нуждающийся в помощи
+#        KS3Quest: -Помощь депрессивному роботу в починке корабля [c/bbf160:(хороший путь)]
+#        Omega: -Битва с тремя смертельными машинами
+#        PatientZero: -Последнее испытание лаборатории
+#        ADD: -Секрет Голема Клювогорья
+#        UltimateNeb: -Битва с последней формой Ангела космоса [c/ff5533:(плохой путь)]
 #    }
 #}
 #
@@ -785,7 +785,7 @@
 #        4: "[@a]Эм...[0.5] Зефос?"
 #        5: "[@b]Ой, привет![0.1] Не сразу тебя заметил."
 #        6: Не видел здесь моего приятеля,[0.1] нет?
-#        7: Похоже, он не прыгнул.[0.5] Что ж,[0.1] вернусь за ним.
+#        7: Похоже, он не прыгнул.[0.5] Что ж,[0.1] пойду за ним.
 #        8: Если вернусь, мне нужно будет где-то остановиться,[0.1] так что, до скорого.
 #    }
 #
@@ -797,7 +797,7 @@
 #        5: "[@b]Ой,[0.1] привет![0.1] Не сразу тебя заметил."
 #        6: Не видел здесь парня в чёрном плаще,[0.1] нет?
 #        7: Похоже, он не прыгнул.[0.5] Ладно![0.1] Вернусь за ним.
-#        8: Вернусь, как только его найду,[0.1] так что будь добр подготовить место для ночлега!
+#        8: Вернусь сюда, как только его найду,[0.1] так что будь добр подготовить место для ночлега!
 #    }
 #
 #    Erhan: {
@@ -846,7 +846,7 @@
 #
 #        Choice: {
 #            1: Как вижу,[0.1] потерпел я[0.3] поражение.
-#            2: Если,[0.3] быть может,[0.1] не пощадишь меня...
+#            2: Если,[0.3] ты[0.1] не пощадишь меня...
 #            3: Отправь мастеру Святому рыцарю[0.3] мои соболезнования.
 #            4: Что же...[0.5] До встречи!
 #        }
@@ -876,19 +876,19 @@
 #    }
 #
 #    TBotIntro: {
-#        Normal1: AH!
-#        Normal2: ...I-[0.1]I thought you were someone else.[0.5] Sorry about that.
-#        Normal3: Anyways,[0.1] hello.[0.5] I'm Adam,[0.1] and I'm an Android originating from a faraway snowy wasteland.
-#        Normal4: "[@b]Seeing as I won't be returning to that frozen hell for a good while,[0.1] mind if I stay here?[0.5] I assume you've some shelter to stay at."
-#        Normal5: ...The resemblance between them is uncanny...
-#        Robot1: HUH?
-#        Robot2: How-[0.1] Wh-[0.1] I-
-#        Robot3: *Sigh*[0.1] I wasn't expecting to see the likes of us here.
-#        Robot4: Not going back there now.[0.5] Since you're here and not there,[0.1] I can safely assume you're not with Her..?
-#        Robot5: "[@a]...Alright.[0.5] We can safely ignore each other then."
-#        Warhead1: Ah,[0.1] I should caution if you get the Nuclear Warhead.
-#        Warhead2: Radiation is a serious hazard for humans like you,[0.1] but an avoidable one.
-#        Warhead3: If you see a glowing blue material near the crater,[0.1] don't get too close.[0.5] That'd be Plutonium.
+#        Normal1: ААА!
+#        Normal2: Я...[0.1] я перепутал тебя с кое-кем.[0.5] Извиняюсь.
+#        Normal3: Однако,[0.1] здраствуй.[0.5] Я Адам,[0.1] андройд из далёких зимних земель.
+#        Normal4: "[@b]В тот ледяной ад я ещё долго ни ногой,[0.1] так что не против, если я останусь?[0.5] Жилище, полагаю, есть, верно?"
+#        Normal5: ...Как они похожи...
+#        Robot1: ХА?
+#        Robot2: Как...[0.1] Чт...[0.1] Я...
+#        Robot3: *Вздох*[0.1] Не ожидал увидеть здесь одного из нас.
+#        Robot4: Больше я туда не вернусь.[0.5] И раз уж ты здесь,[0.1] полагаю, ты не с Ней?..
+#        Robot5: "[@a]...Хорошо.[0.5] Значит мы можем просто игнорировать друг друга."
+#        Warhead1: Ах,[0.1] должен предостеречь на случай, если получишь ядерную боеголовку.
+#        Warhead2: Радиация для людей представляет серьёзную опасность,[0.1] но её можно и избежать.
+#        Warhead3: Если возле кратера увидишь светящийся синий материал,[0.1] не подходи.[0.5] Это плутоний.
 #        Warhead4: A Geiger-Muller will warn you of irradiated areas,[0.2] and if you do get sick,[0.1] take a Radiation Pill as soon as possible.
 #        Warhead5: I will sell these once you set the nuke off.
 #        Warhead6: .[0.1].[0.1].[0.1]Err,[0.1] that is if you DO decide to detonate one.
@@ -898,26 +898,26 @@
 #
 #    Calavia: {
 #        Fight: {
-#            Defeat1: Taborti! Taborti![0.2] I yield! I yield!
-#            Defeat2: Grant me mercy!
-#            Defeat3: "[0.2] Call your servants off!"
-#            Mercy1: You understood?[0.2] So you aren't a khru?
-#            Mercy2: Apologies for the startled reaction,[0.1] I never expected to meet a khen here.
-#            Mercy3: I am actually in need of some assistance,[0.1] I'll explain more by the portal.
+#            Defeat1: Таборти! Таборти![0.2] Сдаюсь! Сдаюсь!
+#            Defeat2: Смилостивись!
+#            Defeat3: "[0.2] Отзови своих слуг!"
+#            Mercy1: Неужели понял?[0.2] Значит ты не хру?
+#            Mercy2: Извини за изначальную реакцию,[0.1] не ожидала увидеть здесь хена.
+#            Mercy3: Знаешь, мне кое-какая помощь нужна,[0.1] объясню около портала.
 #        }
 #
 #        Talk: {
-#            1: Oi!
+#            1: Оуи!
 #            2: I wouldn't take that spirit back to Arum if I were ya.
 #            3: And why would that be?
 #            4: Forgive my bluntness,[0.1] but the barons of Arum are nothing but rancorous demons.
 #            5: "[@b]Excuse me?[0.5] I haven't seen a single droplet of malice from them,[0.1] and I've been workin' with them for years!"
 #            6: As have I...[0.3][@c][@d] in a more direct sense.[0.5][@g] Just trust me lassie,[0.1] break free Kyretha's spirit.[0.5] Let her truly rest.
 #            7: To doubt the wisdom of a liberated spirit would be most imprudent.
-#            8: .[0.1].[0.1].[0.5] [@e]Gorhal'on.[0.5][@f] Taborti.[0.6] I'll free it after I go through the portal.
-#            9: Is that a promise?
-#            10: Bi'oruen.
-#            11: Very well.
+#            8: .[0.1].[0.1].[0.5] [@e]Горхаль'он.[0.5][@f] Таборти.[0.6] I'll free it after I go through the portal.
+#            9: Это обещание?
+#            10: Би'оурен.
+#            11: Очень хорошо.
 #        }
 #    }
 #
@@ -1488,7 +1488,7 @@
 #        3: Нирин?
 #        4: Бедствие?
 #        5: О тебе?
-#        Offer: Offer 6 Diamonds
+#        Offer: Предложить 6 алмазов
 #        Crux: Запрос сущности
 #    }
 #
@@ -1506,7 +1506,7 @@
 #        1: О тебе?
 #        2: Тамор?
 #        3: Как ты сюда попал?
-#        Offer: Offer Nature's Gift
+#        Offer: Предложить дар природы
 #        Crux: Запрос сущности
 #    }
 #
@@ -8625,7 +8625,7 @@
 #    }
 #
 #    BladeOfTheMountain: {
-#        DisplayName: Blade of the Mountain
+#        DisplayName: Клинок горы
 #        Tooltip:
 #            '''
 #            Parries physical or {0} projectiles, including your own Icefall crystals
@@ -8999,7 +8999,7 @@
 #    }
 #
 #    CruxCardForestNymph: {
-#        DisplayName: Crux Card: Forest Nymph
+#        DisplayName: Карта сущности: Лесная нимфа
 #        Tooltip:
 #            '''
 #            Summons the spirit of a Forest Nymph
@@ -9010,7 +9010,7 @@
 #    }
 #
 #    CruxCardGathicSkeletons: {
-#        DisplayName: Crux Card: Gathic Soldiers
+#        DisplayName: Карта сущности: Гатрийские гвардейцы
 #        Tooltip:
 #            '''
 #            Summons the spirits of 2 Skeleton Wanderers and a Duelist
@@ -9032,7 +9032,7 @@
 #    }
 #
 #    CruxCardMossyGoliath: {
-#        DisplayName: Crux Card: Mossy Goliath
+#        DisplayName: Карта сущности: Мшистый великан
 #        Tooltip:
 #            '''
 #            Summons the great spirit of a Mossy Goliath
@@ -9043,7 +9043,7 @@
 #    }
 #
 #    CruxCardSkeleton: {
-#        DisplayName: Crux Card: Bone Duo
+#        DisplayName: Карта сущности: Костяной дуэт
 #        Tooltip:
 #            '''
 #            Summons the spirits of 2 Epidotrian Skeletons
@@ -9065,7 +9065,7 @@
 #    }
 #
 #    CruxCardSkullDigger: {
-#        DisplayName: Crux Card: Skull Digger
+#        DisplayName: Карта сущности: Череполицый землекоп
 #        Tooltip:
 #            '''
 #            Summons the great spirit of Skull Digger
@@ -9076,7 +9076,7 @@
 #    }
 #
 #    CruxCardTied: {
-#        DisplayName: Crux Card: Asher
+#        DisplayName: Карта сущности: Ашер
 #        Tooltip:
 #            '''
 #            Summons the spirit of Asher
@@ -9103,12 +9103,12 @@
 #    }
 #
 #    HolyBible: {
-#        DisplayName: Holy Bible
+#        DisplayName: Святая библия
 #        Tooltip:
 #            '''
 #            Tosses the book, stopping at cursor point
 #            Shoots 4 short-ranged rays of light
-#            'You dare question the words of the mighty Jimmy!?'
+#            'Смеешь подвергать сомнению слова великого Джимми?!'
 #            '''
 #    }
 #
@@ -9139,12 +9139,12 @@
 #    }
 #
 #    MagmaStaff: {
-#        DisplayName: Magma Staff
+#        DisplayName: Посох магмы
 #        Tooltip: Summons a Magma Cube to fight for you
 #    }
 #
 #    MoonflareStaff: {
-#        DisplayName: Moonflare Staff
+#        DisplayName: Посох лунной вспышки
 #        Tooltip:
 #            '''
 #            Summons a Moonflare Guardian to fight for you
@@ -9522,7 +9522,7 @@
 #    }
 #
 #    ThankYouLetter: {
-#        DisplayName: Letter
+#        DisplayName: Письмо
 #        Tooltip:
 #            '''
 #            It reads - '[c/E5F3FB:Thank you for playing the mod, hope you had fun.]
@@ -9536,7 +9536,7 @@
 #        Tooltip:
 #            '''
 #            A witch's staff that shoots a chaotic assortment of spells
-#            'From Noita, with love'
+#            'Из Noita, с любовью'
 #            '''
 #    }
 #
@@ -9603,7 +9603,7 @@
 #    }
 #
 #    Axe: {
-#        DisplayName: Axe
+#        DisplayName: Топор
 #        Tooltip: ""
 #    }
 #
@@ -9669,7 +9669,7 @@
 #    }
 #
 #    EggPet: {
-#        DisplayName: The Egg
+#        DisplayName: Яйцо
 #        Tooltip:
 #            '''
 #            Summons The Egg
@@ -10232,14 +10232,14 @@
 #        DisplayName: Эрхан, Верховный жрец Ангулона
 #
 #        BossChecklistIntegration: {
-#            DespawnMessage: Erhan bravely flew away...
-#            SpawnInfo: Use a [i:Redemption/DemonScroll]. Can be found at the surface portal.
+#            DespawnMessage: Эрхан браво улетает...
+#            SpawnInfo: Используйте [i:Redemption/DemonScroll]. Можно найти около портала на поверхности.
 #            EntryName: Эрхан
 #        }
 #    }
 #
 #    ErhanSpirit.DisplayName: Дух Эрхана
-#    PalebatImp.DisplayName: Palebat Imp
+#    PalebatImp.DisplayName: Бледный бес
 #    Chickadier.DisplayName: Chickadier
 #    Chickenvoy.DisplayName: Chick Envoy
 #    CoopCrate.DisplayName: Coop Crate
@@ -10253,7 +10253,7 @@
 #        }
 #    }
 #
-#    FowlEmperor_Crown.DisplayName: Very Hittable Looking Crown
+#    FowlEmperor_Crown.DisplayName: Хрупко выглядящая корона
 #
 #    Gigapora: {
 #        DisplayName: Омега-гигасверло
@@ -10265,7 +10265,7 @@
 #    }
 #
 #    Gigapora_BodySegment.DisplayName: Омега-гигасверло
-#    Gigapora_ShieldCore.DisplayName: Shield Core
+#    Gigapora_ShieldCore.DisplayName: Ядро щита
 #    Porakone.DisplayName: "{$NPCs.Wielder.DisplayName}"
 #
 #    Keeper: {
@@ -10281,9 +10281,9 @@
 #    }
 #
 #    KS3_Clone.DisplayName: Цареубийца III?.. 
-#    KS3_Magnet.DisplayName: Energy Magnet Drone Mk.I
-#    KS3_MissileDrone.DisplayName: Missile Drone Mk.I
-#    KS3_ScannerDrone.DisplayName: Scanner Drone Mk.I
+#    KS3_Magnet.DisplayName: Дрон-магнит Mk.I
+#    KS3_MissileDrone.DisplayName: Дрон-ракета Mk.I
+#    KS3_ScannerDrone.DisplayName: Дрон-сканнер Mk.I
 #    SpaceKeeper.DisplayName: Хранитель космоса
 #    Nebuleus_Clone.DisplayName: Иллюзия Небулеус
 #    Nebuleus2_Clone.DisplayName: "{$NPCs.Nebuleus_Clone.DisplayName}"
@@ -10486,7 +10486,7 @@
 #
 #    SpiritNiricLady.DisplayName: Old Spirit Lady
 #    AncientGladestoneGolem_SS.DisplayName: "{$NPCs.AncientGladestoneGolem.DisplayName}"
-#    Asher_SS.DisplayName: Asher
+#    Asher_SS.DisplayName: Ашер
 #    EpidotrianSkeleton_SS.DisplayName: "{$NPCs.EpidotrianSkeleton.DisplayName}"
 #    ForestNymph_SS.DisplayName: "{$NPCs.ForestNymph.DisplayName}"
 #    MossyGoliath_SS.DisplayName: Mossy Goliath
@@ -10656,7 +10656,7 @@
 #    Calavia_SS.DisplayName: Kyretha
 #
 #    Calavia: {
-#        DisplayName: Calavia
+#        DisplayName: Калавия
 #        BossChecklistIntegration.SpawnInfo: Appears at the Underground Portal sometime after Skeletron is defeated.
 #    }
 #
@@ -10907,18 +10907,18 @@
 #
 #Keybinds: {
 #    "Special Ability Key.DisplayName": Особая способность
-#    "Spirit Walker Key.DisplayName": Spirit Walker Key
+#    "Spirit Walker Key.DisplayName": Служитель духа
 #    "Skip Dialogue Key.DisplayName": Пропуск диалога
 #}
 #
 #Conditions: {
-#    DownedThorn: After Thorn is defeated
-#    DownedErhan: After Erhan is defeated
-#    DownedADD: After Ancient Diety Duo is defeated
+#    DownedThorn: После победы над Тёрном
+#    DownedErhan: После победы над Эрханом
+#    DownedADD: После победы над Древним божественным дуэтом
 #    DownedBehemoth: After Irradiated Behemoth is defeated
 #    DownedBlisterface: After Blisterface is defeated
 #    DownedEaglecrestGolem: После победы над Големом Клювогорья
-#    DownedFowlEmperor: После победы над Императором Кудах
+#    DownedFowlEmperor: После победы над Императором Кудахом
 #    DownedFowlMorning: После победы над событием «Кудах-заря»
 #    DownedJanitor: After Janitor is defeated
 #    DownedKeeper: After the Keeper is defeated
@@ -11032,7 +11032,7 @@
 #        }
 #
 #        FunniAncient: {
-#            Label: Ancient World
+#            Label: Древний мир
 #            Tooltip: Generating a new world will convert tiles to their ancient or gathic version, and gathic tombs will gen more frequently
 #        }
 #    }
@@ -11050,7 +11050,7 @@
 #    }
 #
 #    FowlMorning: {
-#        SpawnInfo: Use a [i:Redemption/FowlWarHorn] before midday.
+#        SpawnInfo: Используйте [i:Redemption/FowlWarHorn] до полудня.
 #        EntryName: Кудах-заря
 #    }
 #}
