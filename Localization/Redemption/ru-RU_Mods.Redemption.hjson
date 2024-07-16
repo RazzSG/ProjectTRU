@@ -82,7 +82,7 @@
 #    }
 #
 #    Gigapora: {
-#        Name: Омега-гиганожка
+#        Name: Омега-гигасверло
 #        Modifier: Омега-прототип №2
 #    }
 #
@@ -229,8 +229,8 @@
 #
 #StatusMessage: {
 #    Progression: {
-#        ThornDowned: Цветёт растительность леса...
-#        GoodSkeletron: Кристаллы формируются в пещерных глубинах...
+#        ThornDowned: Растительность леса цветёт...
+#        GoodSkeletron: Кристаллы формируются в ледяных пещерах...
 #        BadSkeletron: Драконьи кости разогревают пещерные недра...
 #        LabOpen: Защитные системы лаборатории заклинивают...
 #        LabAccessPanel1: Лазерная защита альфа-сектора деактивирована
@@ -246,9 +246,9 @@
 #        LabAccessPanelUsed5: Лазерная защита хранилища уже деактивирована
 #        LabAccessPanelUsed6: Вся лазерная защита уже деактивирована
 #        OmegaCall: Можно призывать новый омега-прототип используя омега-передатчик
-#        FoolLeft: Дурак ушёл...
-#        WastelandGrow: Инфекция разрастается в пустошах...
-#        PortalRumble: Портал дрожит... (проверьте местоположение на карте)
+#        FoolLeft: Дурень ушёл...
+#        WastelandGrow: В пустоши разрастается инфекция...
+#        PortalRumble: Портал грохочет... (Проверьте местоположение на карте)
 #        WayfarerReturn: ", Странник возвращается!"
 #    }
 #
@@ -273,20 +273,20 @@
 #        ChickRetreat: Курицы отступают!
 #        SkeletonParty1: Скелеты планируют вечернюю вечеринку...
 #        SkeletonParty2: Скелеты устраивают вечеринку!
-#        SkeletonParty3: Скелеты передумали устраивать вечеринку...
-#        SkeletonParty4: Скелете заскучали и вернулись домой!
+#        SkeletonParty3: Скелеты передумали устраивать вечернюю вечеринку...
+#        SkeletonParty4: Скелеты заскучали, и разошлись по домам!
 #        Again: " Опять."
 #    }
 #
 #    Other: {
 #        Warning1: ПРЕДУПРЕЖДЕНИЕ: Не удалось найти определённую структуру, рекомендуется создать новый мир!
 #        Warning2: ПРЕДУПРЕЖДЕНИЕ: Не удалось найти важную структуру, рекомендуется создать новый мир!
-#        Caution: ПРЕДУПРЕЖДЕНИЕ: You have a Funni config enabled that affects world gen. If you created a world just now, check which one you have enabled and disable it for next time.
-#        Keeper1: Эхо раздаётся в ночи...
+#        Caution: ПРЕДУПРЕЖДЕНИЕ: У вас включена конфигурация Весёлости, влияющая на генерацию мира. Если вы недавно создали мир, проверьте, какая настройка включена, и выключите её перед следующим созданием мира.
+#        Keeper1: Крики эхом раздаются в ночи...
 #        Keeper2: Хранительница замечает брошенного мишку в ваших руках...
 #        Keeper3: Дух Хранительницы упокаивается?.. 
 #        SkullDigger: Дух Череполицего землекопа упокаивается...
-#        GolemSpawn: Появляются спящие камни...
+#        GolemSpawn: Появляются дремлющие камни...
 #        NebGone: Небулеус нигде не видно...
 #    }
 #}
@@ -496,7 +496,7 @@
 #            в сравнение со временем, что мне предстоит пробыть в космосе, но моя цель - выдержать это бесконечное путешествие.
 #            Я просто надеюсь, что всё это будет того стоить, когда вернусь в новый мир. Я решил писать эти
 #            журналы каждый день, до самого моего возвращения, и записывать все мои наблюдения.
-#            Но до этого момента еще миллион лет. Надеюсь я не пожалею об этом.'
+#            Но до этого момента ещё миллион лет. Надеюсь я не пожалею об этом.'
 #            '''
 #        Datalog2:
 #            '''
@@ -925,9 +925,9 @@
 #        Human: Человек
 #        Robot: Робот
 #        Chicken: Курица
-#        Scan: " сканирование..."
+#        Scan: " - сканирование завершено..."
 #        Unknown: Неизвестное существо
-#        Target: Цель,
+#        Target: Цель
 #    }
 #
 #    KS3: {
@@ -1327,7 +1327,7 @@
 #UI: {
 #    Choice: {
 #        MyPlayer: Откройте инвентарь, чтобы сделать выбор
-#        OtherPlayer: "Игрок {0} должен сделать выбор"
+#        OtherPlayer: Игрок {0} должен сделать выбор
 #    }
 #
 #    Chalice: {
@@ -1448,7 +1448,7 @@
 #    EnterGateway: Войти во Врата
 #    Who: Кто ты?
 #    Talk: Говорить
-#    Crux: Request Crux
+#    Crux: Запрос сущности
 #    AboutYou: О тебе?
 #    Back: Назад
 #    HomeRequirements: Требования к жилью
@@ -1474,12 +1474,12 @@
 #
 #    SpiritWalkerMan: {
 #        1: Spirit Walking?
-#        2: Мёртвый звонарь?
+#        2: Смертозвон?
 #        3: Затерянные души и скитальцы?
-#        4: Иные использования мёртвого звонаря?
+#        4: Иные использования смертозвона?
 #        5: О тебе?
 #        Tophat: Request Old Tophat's Crux
-#        Crux: Request Crux
+#        Crux: Запрос сущности
 #    }
 #
 #    SpiritNiricLady: {
@@ -1489,17 +1489,17 @@
 #        4: Бедствие?
 #        5: О тебе?
 #        Offer: Offer 6 Diamonds
-#        Crux: Request Crux
+#        Crux: Запрос сущности
 #    }
 #
 #    SpiritGathicMan: {
 #        1: Olden Ruins?
 #        2: Бог разложения?
 #        3: Ложные боги?
-#        4: Мёртвый звонарь?
+#        4: Смертозвон?
 #        5: О тебе?
 #        Offer: Offer Grave Steel Battleaxe
-#        Crux: Request Crux
+#        Crux: Запрос сущности
 #    }
 #
 #    SpiritDruid: {
@@ -1507,7 +1507,7 @@
 #        2: Тамор?
 #        3: Как ты сюда попал?
 #        Offer: Offer Nature's Gift
-#        Crux: Request Crux
+#        Crux: Запрос сущности
 #    }
 #
 #    SpiritCommonGuard: {
@@ -1516,7 +1516,7 @@
 #        3: Демоны?
 #        4: О тебе?
 #        Offer: Offer Noble's Halberd
-#        Crux: Request Crux
+#        Crux: Запрос сущности
 #    }
 #
 #    SpiritAssassin: {
@@ -1526,7 +1526,7 @@
 #        4: Готрион?
 #        5: Демон?
 #        Offer: Offer 3 Nightshade
-#        Crux: Request Crux
+#        Crux: Запрос сущности
 #    }
 #
 #    Fallen: {
@@ -1544,7 +1544,7 @@
 #    SkullDigger: {
 #        Talk: Говорить
 #        Give: Дать обручальное кольцо
-#        Crux: Request Crux
+#        Crux: Запрос сущности
 #    }
 #
 #    ForestNymph: {
@@ -1561,7 +1561,7 @@
 #        SFollow: Stop Following
 #        DHair: Decorate Hair
 #        SHair: Style Hair
-#        Crux: Request Crux
+#        Crux: Запрос сущности
 #    }
 #
 #    Calavia: {
@@ -1666,7 +1666,7 @@
 #
 #    NoitaBombCooldown: {
 #        DisplayName: Bomb Cooldown
-#        Description: You cannot use the Pommisauva
+#        Description: Вы не можете использовать Взрывной посох
 #    }
 #
 #    XeniumElectrolaserCooldown: {
@@ -1680,8 +1680,8 @@
 #    }
 #
 #    CruxCardCooldown: {
-#        DisplayName: Crux Card Cooldown
-#        Description: You cannot summon spirits
+#        DisplayName: Перезарядка карты сущности
+#        Description: Вы не можете призвать духов
 #    }
 #
 #    AntibodiesDebuff: {
@@ -1692,8 +1692,8 @@
 #    }
 #
 #    BileDebuff: {
-#        DisplayName: Burning Acid
-#        Description: Reduced defence
+#        DisplayName: Сжигающая кислота
+#        Description: Защита снижена
 #    }
 #
 #    BlackenedHeartDebuff: {
@@ -1717,13 +1717,13 @@
 #    }
 #
 #    FatigueDebuff: {
-#        DisplayName: Fatigue
-#        Description: You are overwhelmed with tiredness.
+#        DisplayName: Изнеможение
+#        Description: Вас охватывает сильная усталость
 #    }
 #
 #    FeverDebuff: {
-#        DisplayName: Fever
-#        Description: You feel extremely ill.
+#        DisplayName: Лихорадка
+#        Description: У вас сильное недомогание
 #    }
 #
 #    FleshCrystalsDebuff: {
@@ -1742,18 +1742,18 @@
 #    }
 #
 #    HairLossDebuff: {
-#        DisplayName: Hair Loss
-#        Description: Your hair is gone!
+#        DisplayName: Облысение
+#        Description: Вы полностью облысели!
 #    }
 #
 #    HazardLaserDebuff: {
-#        DisplayName: Incinerated!
-#        Description: You are being lasered!
+#        DisplayName: Испепеление!
+#        Description: Вас сжигает лазерный луч!
 #    }
 #
 #    HeadacheDebuff: {
-#        DisplayName: Headache
-#        Description: Sudden and pounding pain from the inside of your skull.
+#        DisplayName: Головная боль
+#        Description: Внезапная и пульсирующая боль внутри черепа
 #    }
 #
 #    HeavyRadiationDebuff: {
@@ -1772,23 +1772,23 @@
 #    }
 #
 #    NauseaDebuff: {
-#        DisplayName: Nausea
-#        Description: You feel sick
+#        DisplayName: Тошнота
+#        Description: Вы чувствуете себя плохо
 #    }
 #
 #    NecrosisDebuff: {
-#        DisplayName: Necrosis
-#        Description: My extremities... numb... black and dead...
+#        DisplayName: Гангрена
+#        Description: Мои конечности... онемели... почернели и омертвели...
 #    }
 #
 #    PillSickness: {
 #        DisplayName: Pill Sickness
-#        Description: You feel sick
+#        Description: Вы чувствуете себя плохо
 #    }
 #
 #    RadiationDebuff: {
-#        DisplayName: Irradiated
-#        Description: You are dying of radiation!
+#        DisplayName: Облучённый
+#        Description: Вы умираете от радиации!
 #    }
 #
 #    RadioactiveFalloutDebuff: {
@@ -1802,8 +1802,8 @@
 #    }
 #
 #    SkinBurnDebuff: {
-#        DisplayName: Skin Burn
-#        Description: Your skin is burning!
+#        DisplayName: Ожог кожи
+#        Description: Ваша кожа горит!
 #    }
 #
 #    SnippedDebuff: {
@@ -1837,9 +1837,7 @@
 #    }
 #
 #    AndroidMinionBuff: {
-#        # Minions
 #        DisplayName: Android Minion
-#        # Minions
 #        Description: A small android will fight for you
 #    }
 #
@@ -1875,7 +1873,7 @@
 #
 #    XeniumTurretBuff: {
 #        DisplayName: Ксениевая автотурель
-#        Description: Pewpewpewpewpewpew
+#        Description: Пиу-пиу-пиу-пиу-пиу-пиу
 #    }
 #
 #    MicroshieldCoreBuff: {
@@ -1904,16 +1902,12 @@
 #    }
 #
 #    JyrinaMountBuff: {
-#        # Mounts
 #        DisplayName: Ukko's Steed
-#        # Mounts
 #        Description: Is that the sound of an approaching thunderstorm I hear?
 #    }
 #
 #    BabyRockpileBuff: {
-#        # Pets
 #        DisplayName: Baby Rockpile
-#        # Pets
 #        Description: Never seen a pile of rocks dance before
 #    }
 #
@@ -1933,18 +1927,18 @@
 #    }
 #
 #    HalPetBuff: {
-#        DisplayName: Ham Sandwich
-#        Description: '''"Fear me"'''
+#        DisplayName: Сэндвич с ветчиной
+#        Description: "'''Бойся меня'''"
 #    }
 #
 #    KS3PetBuff: {
-#        DisplayName: Slayer Projector
+#        DisplayName: Проектор Цареубийцы
 #        Description: He's bored and needs some entertainment
 #    }
 #
 #    OcciePetBuff: {
 #        DisplayName: Окси
-#        Description: Octavia's kitty cat!
+#        Description: Кошечка Октавии!
 #    }
 #
 #    PetChickenBuff: {
@@ -1954,11 +1948,11 @@
 #
 #    XenomiteElementalPetBuff: {
 #        DisplayName: Xenomite Elemental
-#        Description: Cute.
+#        Description: Миленький
 #    }
 #
 #    TiedPetBuff: {
-#        DisplayName: Тид
+#        DisplayName: Тайд
 #        Description: "'''Напуган'''"
 #    }
 #
@@ -1969,11 +1963,11 @@
 #
 #    ToasterPetBuff: {
 #        DisplayName: Бытовой обогреватель
-#        Description: Its heating filament is inadequate to its needs
+#        Description: Мощности нагревательной нити не хватает
 #    }
 #
 #    MiniGigaporaPetBuff: {
-#        DisplayName: Mini Gigapora
+#        DisplayName: Мини-гигасверло
 #        Description: Вам не привыкать
 #    }
 #
@@ -2003,8 +1997,8 @@
 #    }
 #
 #    BileFlaskBuff: {
-#        DisplayName: Weapon Imbue: Bile
-#        Description: Melee attacks inflict Burning Acid
+#        DisplayName: Смазанное оружие: Желчь
+#        Description: Атаки ближнего боя накладывают дебафф «{$Buffs.BileFlask.DisplayName}»
 #    }
 #
 #    BolineFlowerBuff: {
@@ -2043,13 +2037,13 @@
 #    }
 #
 #    EnergyRegenBuff: {
-#        DisplayName: Energy Regeneration
-#        Description: Increased Energy regen
+#        DisplayName: Регенерация энергии
+#        Description: Регенерация энергии увеличена
 #    }
 #
 #    EnergyStationBuff: {
-#        DisplayName: Energy Regeneration
-#        Description: Increased Energy regen
+#        DisplayName: Регенерация энергии
+#        Description: Регенерация энергии увеличена
 #    }
 #
 #    EvilJellyBuff: {
@@ -2068,13 +2062,13 @@
 #    }
 #
 #    HammerBuff: {
-#        DisplayName: Heavy
-#        Description: Increased fall speed
+#        DisplayName: Тяжесть
+#        Description: Скорость падения увеличена
 #    }
 #
 #    HammerBuff2: {
-#        DisplayName: Heavy
-#        Description: Increased fall speed
+#        DisplayName: Тяжесть
+#        Description: Скорость падения увеличена
 #    }
 #
 #    HeartInsigniaBuff: {
@@ -3220,18 +3214,7 @@
 #
 #    GeigerMuller: {
 #        DisplayName: Счётчик Гейгера-Мюллера
-#        Tooltip: Выпущенный Лабораторией счётчик Гейгера. Чем громче он звучит, тем выше вероятность облучения.
-#        Status1: No
-#        Status2: Low
-#        Status3: Medium
-#        Status4: High
-#        Status5: Very high
-#        Status6: Extreme
-#        StatusEnd: " doses of radiation detected on self, "
-#        Note1: nothing to note.
-#        Note2: have TeoChrome-issued pills on hand just in case.
-#        Note3: high chance of irradiation and suffering ARS.
-#        Note4: Acute Radiation Syndrome detected.
+#        Tooltip: Выданный лабораторией дозиметр. Чем громче звук, тем выше вероятность облучения.
 #    }
 #
 #    GracesGuidance: {
@@ -3343,7 +3326,7 @@
 #
 #    PowerDrill: {
 #        DisplayName: Электродрель
-#        Tooltip: Призывает мининожку
+#        Tooltip: Призывает мини-гигасверло
 #    }
 #
 #    RitualistEmblem: {
@@ -3387,7 +3370,7 @@
 #        Tooltip:
 #            '''
 #            'Unleash doomsday upon this fragile universe'
-#            Призывает !!??
+#            Призывает ??!!
 #            '''
 #    }
 #
@@ -3818,7 +3801,7 @@
 #    }
 #
 #    HikariteHelmet: {
-#        DisplayName: Большой хикаритовый шлем
+#        DisplayName: Хикаритовый большой шлем
 #        Tooltip:
 #            '''
 #            Увеличивает урон на 16%
@@ -3832,12 +3815,12 @@
 #    }
 #
 #    ShadeBody: {
-#        DisplayName: Shadeplate
+#        DisplayName: Нагрудник полумрака
 #        Tooltip: 10% increased ritual damage
 #    }
 #
 #    ShadeHead: {
-#        DisplayName: Shadehead
+#        DisplayName: Шлем полумрака
 #        Tooltip:
 #            '''
 #            10% increased ritual damage
@@ -3846,7 +3829,7 @@
 #    }
 #
 #    ShadeLeggings: {
-#        DisplayName: Shade Greaves
+#        DisplayName: Поножи полумрака
 #        Tooltip:
 #            '''
 #            8% increased ritual damage
@@ -3856,7 +3839,7 @@
 #    }
 #
 #    ShinkiteChestplate: {
-#        DisplayName: Shinkite Chestplate
+#        DisplayName: Шинкитовый нагрудник
 #        Tooltip:
 #            '''
 #            25% increased melee damage
@@ -3865,7 +3848,7 @@
 #    }
 #
 #    ShinkiteHelmet: {
-#        DisplayName: Shinkite Helmet
+#        DisplayName: Шинкитовый шлем
 #        Tooltip:
 #            '''
 #            35% increased melee damage
@@ -3874,7 +3857,7 @@
 #    }
 #
 #    ShinkiteLeggings: {
-#        DisplayName: Shinkite Leggings
+#        DisplayName: Шинкитовые поножи
 #        Tooltip:
 #            '''
 #            20% increased melee speed
@@ -3883,7 +3866,7 @@
 #    }
 #
 #    VortiHat: {
-#        DisplayName: Vorti Hat
+#        DisplayName: Шляпа Ворти
 #        Tooltip:
 #            '''
 #            10% increased magic damage
@@ -3893,7 +3876,7 @@
 #    }
 #
 #    VortiPants: {
-#        DisplayName: Vorti Boots
+#        DisplayName: Ботинки Ворти
 #        Tooltip:
 #            '''
 #            25% increased magic damage
@@ -3902,7 +3885,7 @@
 #    }
 #
 #    VortiRobes: {
-#        DisplayName: Vorti Robes
+#        DisplayName: Одеяние Ворти
 #        Tooltip:
 #            '''
 #            12% increased magic damage
@@ -3912,12 +3895,12 @@
 #    }
 #
 #    XeniumBreastplate: {
-#        DisplayName: Xenium Breastplate
+#        DisplayName: Ксениевый нагрудник
 #        Tooltip: Увеличивает урон на 10%
 #    }
 #
 #    XeniumLeggings: {
-#        DisplayName: Xenium Leggings
+#        DisplayName: Ксениевые поножи
 #        Tooltip:
 #            '''
 #            10% increased damage
@@ -3927,7 +3910,7 @@
 #    }
 #
 #    XeniumVisor: {
-#        DisplayName: Xenium Visor
+#        DisplayName: Ксениевый визор
 #        Tooltip:
 #            '''
 #            10% increased damage
@@ -3936,27 +3919,27 @@
 #    }
 #
 #    CommonGuardGreaves: {
-#        DisplayName: Common Guard Greaves
+#        DisplayName: Поножи гвардейца
 #        Tooltip: 7% increased melee speed
 #    }
 #
 #    CommonGuardHelm1: {
-#        DisplayName: Common Guard Helm
+#        DisplayName: Шлем гвардейца
 #        Tooltip: +2 increased melee damage
 #    }
 #
 #    CommonGuardHelm2: {
-#        DisplayName: Common Guard Bucket Helm
+#        DisplayName: Горшковый шлем гвардейца
 #        Tooltip: +1 increased melee damage
 #    }
 #
 #    CommonGuardPlateMail: {
-#        DisplayName: Common Guard Plate Mail
+#        DisplayName: Латы гвардейца
 #        Tooltip: Reduces damage taken by 4%
 #    }
 #
 #    DragonLeadGreaves: {
-#        DisplayName: Dragon-Lead Greaves
+#        DisplayName: Дракониковые поножи
 #        Tooltip:
 #            '''
 #            8% increased critical strike chance
@@ -3965,7 +3948,7 @@
 #    }
 #
 #    DragonLeadRibplate: {
-#        DisplayName: Dragon-Lead Ribplate
+#        DisplayName: Драконитовые рёберные латы
 #        Tooltip:
 #            '''
 #            7% increased damage
@@ -3974,27 +3957,27 @@
 #    }
 #
 #    DragonLeadSkull: {
-#        DisplayName: Dragon-Lead Skull
+#        DisplayName: Драконитовый череп
 #        Tooltip: 7% increased damage
 #    }
 #
 #    LivingWoodBody: {
-#        DisplayName: Living Wood Body
+#        DisplayName: Нагрудник живого дерева
 #        Tooltip: Увеличивает урон призывателя на 1
 #    }
 #
 #    LivingWoodHelmet: {
-#        DisplayName: Living Wood Helmet
+#        DisplayName: Шлем живого дерева
 #        Tooltip: Увеличивает урон призывателя на 1
 #    }
 #
 #    LivingWoodLeggings: {
-#        DisplayName: Living Wood Leggings
+#        DisplayName: Поножи живого дерева
 #        Tooltip: ""
 #    } 
 #
 #    PureIronChestplate: {
-#        DisplayName: Pure-Iron Chestplate
+#        DisplayName: Нагрудник из сверхчистого железа
 #        Tooltip:
 #            '''
 #            7% increased damage
@@ -4003,36 +3986,36 @@
 #    }
 #
 #    PureIronGreaves: {
-#        DisplayName: Pure-Iron Greaves
+#        DisplayName: Поножи из сверхчистого железа
 #        Tooltip: 8% increased critical strike chance
 #    }
 #
 #    PureIronHelmet: {
-#        DisplayName: Pure-Iron Helmet
+#        DisplayName: Шлем из сверхчистого железа
 #        Tooltip: 7% increased damage
 #    }
 #
 #    AntiquePureIronHelmet: {
-#        DisplayName: Antique Pure-Iron Helmet
+#        DisplayName: Античный шлем из сверхчистого железа
 #        Tooltip: 7% increased damage
 #    }
 #
 #    JollyHelm: {
-#        DisplayName: Sunset Helm
+#        DisplayName: Шлем заката
 #        Tooltip: "'Comes from an ashen world'"
 #    }
 #
 #    KabucraShell: {
-#        DisplayName: Kabucra Shell
+#        DisplayName: Панцирь кабучры
 #        Tooltip:
 #            '''
 #            25% damage reduction and knockback immunity towards falling entities
-#            'Time for crab'
+#            'Крабовый час'
 #            '''
 #    }
 #
 #    AkkaMask: {
-#        DisplayName: Akka Mask
+#        DisplayName: Маска Акки
 #        Tooltip: ""
 #    }
 #
@@ -4043,61 +4026,61 @@
 #
 #    HallamHoodie: {
 #        DisplayName: Halm's Casual Hoodie
-#        Tooltip: "'Great for impersonating devs!'"
+#        Tooltip: "'Отлично подходит для подражания внешности разработчиков!'"
 #    }
 #
 #    HallamLeggings: {
 #        DisplayName: Halm's Casual Jeans
-#        Tooltip: "'Great for impersonating devs!'"
+#        Tooltip: "'Отлично подходит для подражания внешности разработчиков!'"
 #    }
 #
 #    TiedsLeggings: {
-#        DisplayName: Tied's Marvelous Leggings
-#        Tooltip: "'Great for impersonating devs!'"
+#        DisplayName: Изумительные поножи Тайда
+#        Tooltip: "'Отлично подходит для подражания внешности разработчиков!'"
 #    }
 #
 #    TiedsMask: {
-#        DisplayName: Tied's Mask
-#        Tooltip: "'Great for impersonating devs!'"
+#        DisplayName: Маска Тайда
+#        Tooltip: "'Отлично подходит для подражания внешности разработчиков!'"
 #    }
 #
 #    TiedsSuit: {
-#        DisplayName: Tied's Marvelous Suit
-#        Tooltip: "'Great for impersonating devs!'"
+#        DisplayName: Изумительный камзол Тайда
+#        Tooltip: "'Отлично подходит для подражания внешности разработчиков!'"
 #    }
 #
 #    DrillHeadHead: {
-#        DisplayName: Drill Head Head
+#        DisplayName: Бурильная голова
 #        Tooltip: "'How much drill would a drill head head if a drill head could head drill?'"
 #    }
 #
 #    DruidHat: {
-#        DisplayName: Druid's Hat
+#        DisplayName: Шляпа друида
 #        Tooltip: ""
 #    }
 #
 #    EaglecrestHead: {
-#        DisplayName: Eaglecrest Cowl
+#        DisplayName: Клобук Клювогорья
 #        Tooltip: ""
 #    }
 #
 #    EpidotrianSkull: {
-#        DisplayName: Epidotrian Skull
+#        DisplayName: Череп эпидотрийца
 #        Tooltip: ""
 #    }
 #
 #    ErhanHelmet: {
-#        DisplayName: Erhan Helmet
+#        DisplayName: Шлем Эрхана
 #        Tooltip: ""
 #    }
 #
 #    FowlCrown: {
-#        DisplayName: Fowl Crown
+#        DisplayName: Корона Кудаха
 #        Tooltip: ""
 #    }
 #
 #    InfectedMask: {
-#        DisplayName: Infected Mask
+#        DisplayName: Инфецировання маска
 #        Tooltip: "'Become infected... Cosmetically'"
 #    }
 #
@@ -4357,7 +4340,7 @@
 #    }
 #
 #    LongChickenItem: {
-#        DisplayName: Д л и н н а я  курица
+#        DisplayName: Д л и н н а я курица
 #        Tooltip: ""
 #    }
 #
@@ -4927,7 +4910,7 @@
 #    }
 #
 #    RawXenium: {
-#        DisplayName: Raw Xenium
+#        DisplayName: Необработанный ксений
 #        Tooltip: Use a Xenium Refinery to craft Xenium Bars
 #    }
 #
@@ -4976,17 +4959,17 @@
 #    }
 #
 #    DragonLeadAlloy: {
-#        DisplayName: Dragon-Lead Alloy
+#        DisplayName: Драконитовый сплав
 #        Tooltip: ""
 #    }
 #
 #    DragonLeadOre: {
-#        DisplayName: Dragon-Lead Ore
+#        DisplayName: Драконитовая руда
 #        Tooltip: ""
 #    }
 #
 #    EmptyCruxCard: {
-#        DisplayName: Empty Crux Card
+#        DisplayName: Пустая карта сущности
 #        Tooltip:
 #            '''
 #            A container for friendly spirits to aid you
@@ -4996,7 +4979,7 @@
 #    }
 #
 #    GathicCryoCrystal: {
-#        DisplayName: Gathic Cryo-Crystal
+#        DisplayName: Гатрийский крио-кристалл
 #        Tooltip:
 #            '''
 #            Makes the player chilled when held
@@ -5005,25 +4988,25 @@
 #    }
 #
 #    GolemEye: {
-#        DisplayName: Eye of the Eaglecrest Golem
+#        DisplayName: Глаз Голема Клювогорья
 #        Tooltip: ""
 #        Tip1: Contains a storm of energy, it would be best to keep it around
 #        Tip2: Place down and encase the eye within the stones of its origins, and it's true power will present itself
 #    }
 #
 #    GraveSteelAlloy: {
-#        DisplayName: Grave Steel Alloy
+#        DisplayName: Сплав загробной стали
 #        Tooltip: ""
 #    }
 #
 #    GraveSteelShards: {
-#        DisplayName: Grave Steel Shards
+#        DisplayName: Фрагменты загробной стали
 #        Tooltip: ""
 #    }
 #
 #    GrimShard: {
-#        DisplayName: Grim Shard
-#        Tooltip: "'Infused with shadow magic'"
+#        DisplayName: Осколок мрака
+#        Tooltip: "'Пропитан теневой магией'"
 #    }
 #
 #    LivingTwig: {
@@ -5057,17 +5040,17 @@
 #    }
 #
 #    XenomiteShard: {
-#        DisplayName: Xenomite Shard
+#        DisplayName: Осколок ксеномита
 #        Tooltip: ""
 #    }
 #
 #    ZweihanderFragment1: {
-#        DisplayName: Rusty Zweihander Hilt
+#        DisplayName: Проржавевший эфес цвайхендера
 #        Tooltip: "'Фрагмент загадочного оружия...'"
 #    }
 #
 #    ZweihanderFragment2: {
-#        DisplayName: Rusty Zweihander Blade
+#        DisplayName: Проржавевшиее лезвие цвайхендера
 #        Tooltip: "'Фрагмент загадочного оружия...'"
 #    }
 #
@@ -6238,12 +6221,12 @@
 #    }
 #
 #    ForestBossBox: {
-#        DisplayName: Музыкальная шкатулка (эпидотриец)
+#        DisplayName: Музыкальная шкатулка (Эпидотриец)
 #        Tooltip: PeriTune - Dramatic4
 #    }
 #
 #    ForestBossBox2: {
-#        DisplayName: Музыкальная шкатулка (Друвний дуэт божеств)
+#        DisplayName: Музыкальная шкатулка (Древний дуэт божеств)
 #        Tooltip: Yuri O - Nature's Wrath
 #    }
 #
@@ -6268,7 +6251,7 @@
 #    }
 #
 #    LabBossMusicBox: {
-#        DisplayName: Музыкальная шкатулка (Заброшенная лаборатория, минибосс)
+#        DisplayName: Музыкальная шкатулка (Заброшенная лаборатория - Мини-босс)
 #        Tooltip: inSignia - Safety Violation
 #    }
 #
@@ -6283,7 +6266,7 @@
 #    }
 #
 #    NebBox2: {
-#        DisplayName: Музыкальная шкатулка (Небулеус, финальная форма)
+#        DisplayName: Музыкальная шкатулка (Небулеус - Финальная форма)
 #        Tooltip: musicman - Hypernova
 #    }
 #
@@ -6348,12 +6331,12 @@
 #    }
 #
 #    Nightshade: {
-#        DisplayName: Ночносвет
+#        DisplayName: Паслён
 #        Tooltip: "'A purple plant that blooms in the night'"
 #    }
 #
 #    NightshadeSeeds: {
-#        DisplayName: Семена ночносвета
+#        DisplayName: Семена паслёна
 #        Tooltip: ""
 #    }
 #
@@ -6959,25 +6942,25 @@
 #    }
 #
 #    PureIronBattleaxe: {
-#        DisplayName: Pure-Iron Battleaxe
+#        DisplayName: Боевой топор из сверхчистого железа
 #        Tooltip: ""
 #    }
 #
 #    PureIronHammer: {
-#        DisplayName: Pure-Iron Hammer
+#        DisplayName: Молот из сверхчистого железа
 #        Tooltip: ""
 #    }
 #
 #    PureIronPickaxe: {
-#        DisplayName: Pure-Iron Pickaxe
+#        DisplayName: Кирка из сверхчистого железа
 #        Tooltip: ""
 #    }
 #
 #    UndownerRede: {
-#        DisplayName: Redemption Undowner
+#        DisplayName: Воскреситель Redemption
 #        Tooltip:
 #            '''
-#            Undowns all Redemption bosses
+#            Помечает всех боссов Redemption как не убитых
 #            Не расходуется
 #            '''
 #    }
@@ -6993,7 +6976,7 @@
 #
 #    AbandonedTeddy: {
 #        DisplayName: Брошенный мишка
-#        Tooltip: Позволяет духу Хранительницы упокоится
+#        Tooltip: Позволяет дух Хранительницы упокоится
 #    }
 #
 #    AkkaBag: {
@@ -7034,8 +7017,8 @@
 #    }
 #
 #    DeadRinger: {
-#        DisplayName: Мёртвый звонарь
-#        Tooltip: Нажмите <right> на труп с душой, чтобы вызвать его дух
+#        DisplayName: Смертозвон
+#        Tooltip: Нажмите <right> на мёртвом теле, чтобы призвать его дух
 #    }
 #
 #    EnergyCell: {
@@ -7076,7 +7059,7 @@
 #    }
 #
 #    JoesBanjo: {
-#        DisplayName: Joe's Banjo
+#        DisplayName: Банджо Джо
 #        Tooltip:
 #            '''
 #            Музыкальный инструмент
@@ -7090,17 +7073,17 @@
 #    }
 #
 #    Keycard: {
-#        DisplayName: Keycard
+#        DisplayName: Ключ-карта
 #        Tooltip:
 #            '''
-#            Unlocks Laboratory Chests and Doors
-#            Only one is needed
+#            Отпирает сундуки и двери лаборатории
+#            Нужен только один
 #            '''
 #    }
 #
 #    Keycard2: {
-#        DisplayName: Special Keycard
-#        Tooltip: Unlocks black Laboratory Chests
+#        DisplayName: Особая ключ-карта
+#        Tooltip: Отпирает чёрные сундуки лаборатории
 #    }
 #
 #    MedicKit: {
@@ -7113,7 +7096,7 @@
 #    }
 #
 #    MiniWarhead: {
-#        DisplayName: Mini Warhead
+#        DisplayName: Мини-боеголовка
 #        Tooltip:
 #            '''
 #            A huge explosion that will destroy most tiles
@@ -7122,12 +7105,12 @@
 #    }
 #
 #    NebBag: {
-#        DisplayName: Treasure Bag (Nebuleus)
+#        DisplayName: Мешок с сокровищами (Небулеус)
 #        Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 #    }
 #
 #    NoveltyMop: {
-#        DisplayName: Novelty Mop
+#        DisplayName: Причудливая швабра
 #        Tooltip: "'Not as lethal as Janitor's'"
 #    }
 #
@@ -7137,41 +7120,41 @@
 #    }
 #
 #    OmegaGift: {
-#        DisplayName: Omega's Gift
+#        DisplayName: Подарок омеги
 #        Tooltip:
 #            '''
 #            {$CommonItemTooltip.RightClickToOpen}
-#            'Gift from my friends to you'
+#            'Подарок тебе от моих друзей'
 #            '''
 #    }
 #
 #    OmegaGigaporaBag: {
-#        DisplayName: Treasure Box (Omega Gigapora)
+#        DisplayName: Мешок с сокровищами (Омега-гигасверло)
 #        Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 #    }
 #
 #    OmegaOblitBag: {
-#        DisplayName: Treasure Box (Omega Obliterator)
+#        DisplayName: Мешок с сокровищами (Омега-Облитератор)
 #        Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 #    }
 #
 #    OreBomb: {
-#        DisplayName: Ore Bomb
-#        Tooltip: A small explosion that will spread basic ores
+#        DisplayName: Руда-бомба
+#        Tooltip: Небольшой взрыв, распространяющий базовую руду
 #    }
 #
 #    OrePowder: {
-#        DisplayName: Magic Mineral Powder
+#        DisplayName: Волшебный минеральный порошок
 #        Tooltip: Converts basic ores into hardmode ores
 #    }
 #
 #    PlutoniumBomb: {
-#        DisplayName: Plutonium Bomb
+#        DisplayName: Плутониевая бомба
 #        Tooltip: Falls from the sky, turns the small blast radius into plutonium
 #    }
 #
 #    PocketSand: {
-#        DisplayName: Pocket Sand
+#        DisplayName: Карманный песок
 #        Tooltip:
 #            '''
 #            Throws a dust cloud that slightly reduces defense and confuses the target
@@ -7198,7 +7181,7 @@
 #    }
 #
 #    Avocado: {
-#        DisplayName: Avocado
+#        DisplayName: Авокадо
 #        Tooltip:
 #            '''
 #            {$CommonItemTooltip.MinorStats}
@@ -7207,12 +7190,12 @@
 #    }
 #
 #    BileFlask: {
-#        DisplayName: Flask of Bile
-#        Tooltip: Melee attacks inflict Burning Acid
+#        DisplayName: Флакон с желчью
+#        Tooltip: Атаки ближнего боя накладывают дебафф «{$Buffs.BileFlask.DisplayName}»
 #    }
 #
 #    CharismaPotion: {
-#        DisplayName: Charisma Potion
+#        DisplayName: Зелье харизмы
 #        Tooltip:
 #            '''
 #            Shops have lower prices
@@ -7445,12 +7428,12 @@
 #    }
 #
 #    SoIBag: {
-#        DisplayName: Treasure Bag (Seed of Infection)
+#        DisplayName: Мешок с сокровищами (Семя инфекции)
 #        Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 #    }
 #
 #    SorrowfulEssence: {
-#        DisplayName: Sorrowful Essence
+#        DisplayName: Эссенция горечи
 #        Tooltip: Having this in your inventory may attract the Keeper's first creation underground
 #    }
 #
@@ -7459,7 +7442,7 @@
 #        Tooltip:
 #            '''
 #            Reawakens an ancient power...
-#            Only usable at day
+#            Можно использовать только днём
 #            Не расходуется
 #            '''
 #    }
@@ -7468,17 +7451,17 @@
 #        DisplayName: Детектор аномалий
 #        Tooltip:
 #            '''
-#            Summons a strange portal...
+#            Призывает странный портал...
 #            Не расходуется
 #            '''
 #    }
 #
 #    CyberTech: {
-#        DisplayName: Cyber Radio
+#        DisplayName: Киберрадио
 #        Tooltip:
 #            '''
 #            Transmits a signal towards a colossal spaceship
-#            Only usable at day
+#            Можно использовать только днём
 #            Не расходуется
 #            '''
 #    }
@@ -7507,12 +7490,12 @@
 #        Tooltip:
 #            '''
 #            Summons a regal rooster
-#            Only usable at day
+#            Можно использовать только днём
 #            '''
 #    }
 #
 #    FowlWarHorn: {
-#        DisplayName: Fowl War Horn
+#        DisplayName: Боевой рог Кудаха
 #        Tooltip:
 #            '''
 #            Calls upon the Fowl Morning
@@ -7525,7 +7508,7 @@
 #        Tooltip:
 #            '''
 #            Summons an unfortunate curse-bearer
-#            Only usable at day
+#            Можно использовать только днём
 #            Не расходуется
 #            '''
 #    }
@@ -7736,7 +7719,7 @@
 #    }
 #
 #    Pommisauva: {
-#        DisplayName: Поммисаува
+#        DisplayName: Взрывной посох
 #        Tooltip:
 #            '''
 #            Casts a bomb, only 3 can be cast in a row
@@ -8607,7 +8590,7 @@
 #    }
 #
 #    PureIronStaff: {
-#        DisplayName: Pure-Iron Staff
+#        DisplayName: Посох из сверхчистого железа
 #        Tooltip:
 #            '''
 #            Casts an icy snowflake
@@ -8777,7 +8760,7 @@
 #    }
 #
 #    PureIronSword: {
-#        DisplayName: Pure-Iron Sword
+#        DisplayName: Меч из сверхчистого железа
 #        Tooltip:
 #            '''
 #            Swings can block {0} projectiles
@@ -8786,8 +8769,8 @@
 #    }
 #
 #    SilverRapier: {
-#        DisplayName: Silver Rapier
-#        Tooltip: Pierces through enemy defense
+#        DisplayName: Серебряная рапира
+#        Tooltip: Проникает сквозь защиту врагов
 #    }
 #
 #    SkullDiggerFlail: {
@@ -8820,7 +8803,7 @@
 #    }
 #
 #    Zweihander: {
-#        DisplayName: Zweihander
+#        DisplayName: Цвайхендер
 #        Tooltip:
 #            '''
 #            Parries weak physical projectiles
@@ -8835,7 +8818,7 @@
 #    }
 #
 #    ChickenEgg: {
-#        DisplayName: Chicken Egg
+#        DisplayName: Куриное яйцо
 #        Tooltip: "'Which came first...'"
 #    }
 #
@@ -8859,12 +8842,12 @@
 #    }
 #
 #    EggBomb: {
-#        DisplayName: Egg Bomb
+#        DisplayName: Яйцо-бомба
 #        Tooltip: "'Takes egging to a whole new level'"
 #    }
 #
 #    FanOShivs: {
-#        DisplayName: Fan o' Shivs
+#        DisplayName: Веер кинжалов
 #        Tooltip:
 #            '''
 #            Не расходуется
@@ -8874,7 +8857,7 @@
 #    }
 #
 #    GoldChickenEgg: {
-#        DisplayName: Gold Chicken Egg
+#        DisplayName: Золотое куриное яйцо
 #        Tooltip: "'Woah...'"
 #    }
 #
@@ -8889,12 +8872,12 @@
 #    }
 #
 #    LongEgg: {
-#        DisplayName: L o n g  Chicken Egg
+#        DisplayName: Д л и н н о е куриное яйцо
 #        Tooltip: "'It takes an awfully  l o n g  c h i c k e n  to make a long egg'"
 #    }
 #
 #    LunarShot: {
-#        DisplayName: Lunar Shot
+#        DisplayName: Лунный выстрел
 #        Tooltip:
 #            '''
 #            Replaces Wooden Arrows with Lunar Bolts, dealing {0} and {1} damage
@@ -8904,7 +8887,7 @@
 #    }
 #
 #    PureIronCrossbow: {
-#        DisplayName: Pure-Iron Crossbow
+#        DisplayName: Арбалет из сверхчистого железа
 #        Tooltip:
 #            '''
 #            Replaces arrows with frigid bolts that stick to enemies and eventually cause a frosty eruption
@@ -9005,7 +8988,7 @@
 #    }
 #
 #    CruxCardAnglonSkeletons: {
-#        DisplayName: Crux Card: Common Guard
+#        DisplayName: Карта сущности: Гвардеец
 #        Tooltip:
 #            '''
 #            Summons the spirits of a Skeleton Warden, Flagbearer, and Noble
@@ -10056,7 +10039,7 @@
 #    }
 #
 #    PureIronBow: {
-#        DisplayName: Pure-Iron Bow
+#        DisplayName: Лук из сверхчистого железа
 #        Tooltip: Fired arrows leave lingering mist to chill enemies
 #    }
 #
@@ -10273,7 +10256,7 @@
 #    FowlEmperor_Crown.DisplayName: Very Hittable Looking Crown
 #
 #    Gigapora: {
-#        DisplayName: Омега-гиганожка
+#        DisplayName: Омега-гигасверло
 #
 #        BossChecklistIntegration: {
 #            SpawnInfo: Используйте [i:Redemption/OmegaTransmitter] ночью после победы над Големом.
@@ -10281,7 +10264,7 @@
 #        }
 #    }
 #
-#    Gigapora_BodySegment.DisplayName: Омега-гиганожка
+#    Gigapora_BodySegment.DisplayName: Омега-гигасверло
 #    Gigapora_ShieldCore.DisplayName: Shield Core
 #    Porakone.DisplayName: "{$NPCs.Wielder.DisplayName}"
 #
@@ -10354,14 +10337,14 @@
 #    BoneSpider.DisplayName: Костяной паук
 #    Chicken.DisplayName: Курица
 #    ChickenGold.DisplayName: Золотая курица
-#    ChickenSpawner.DisplayName: Chicken Spawner
+#    ChickenSpawner.DisplayName: Курица
 #    CoastScarab.DisplayName: Пляжный скарабей
 #    Fly.DisplayName: Муха
 #    GrandLarva.DisplayName: Большая личинка
 #    JohnSnail.DisplayName: Джон-улитка
 #    Kabucra.DisplayName: Кабучра
 #    KabucraSpawner.DisplayName: Кабучра
-#    LongChicken.DisplayName: Д л и н н а я  курица
+#    LongChicken.DisplayName: Д л и н н а я курица
 #    MoonflareBat.DisplayName: Летучая мышь лунного блика
 #    SandskinSpider.DisplayName: Sandskin Spider
 #    SpiderSwarmer.DisplayName: Spider Swarmer
@@ -10442,12 +10425,12 @@
 #            '''
 #    }
 #
-#    GathuramPortal.DisplayName: Мистические врата
-#    GiftDrone.DisplayName: Gift Drone
+#    GathuramPortal.DisplayName: Загадочные врата
+#    GiftDrone.DisplayName: Дрон с подарком
 #    GiftDrone2.DisplayName: "{$NPCs.GiftDrone.DisplayName}"
 #    GiftDrone3.DisplayName: "{$NPCs.GiftDrone.DisplayName}"
 #    GoldenPortal.DisplayName: Золотые врата
-#    HazmatCorpse_Ghost.DisplayName: Hazmat Ghost
+#    HazmatCorpse_Ghost.DisplayName: Призрак в защитном комбинезоне
 #    KS3Sitting.DisplayName: "{$NPCs.KS3.DisplayName}"
 #    LostSoulNPC.DisplayName: Заблудшая душа
 #
@@ -10461,16 +10444,16 @@
 #            LoveSpace: Меньше народу - больше кислороду!
 #            DislikeCrowded: Чересчур многолюдно!
 #            HateCrowded: Чересчур многолюдно!
-#            LoveBiome: Я люблю {BiomeName}! Навевает воспоминания о... эээ...
+#            LoveBiome: Я люблю {BiomeName}! Навевает воспоминания о... э-э-э...
 #            LikeBiome: Мне нравится {BiomeName}. Зелёный цвет хороший.
 #            DislikeBiome: Скука смертная, этот песок уже осточертел!
 #            HateBiome: ...{BiomeName} по какой-то причине навевает грусть.
 #            LoveNPC: "{NPCName} знает магию, как и я!"
 #            LikeNPC: Мне нравится {NPCName}!
-#            DislikeNPC: I feel evil within {NPCName}, very bad!
-#            HateNPC: My hatred towards {NPCName} is beyond your mortal comprehension.
-#            LikeNPC_Princess: "{NPCName} reminds me of...me, somehow! I like her."
-#            Princess_LovesNPC: "{NPCName} is goofy, I like him!"
+#            DislikeNPC: Я ощущаю зло в {NPCName}, это очень тревожит!
+#            HateNPC: Моя ненависть к {NPCName} выходит за пределы твоего смертного понимания.
+#            LikeNPC_Princess: "{NPCName} почему-то напоминает мне... меня! Она мне нравится."
+#            Princess_LovesNPC: "{NPCName} такая забавная, она мне нравится!"
 #        }
 #
 #        Census.SpawnCondition: Dig up the dirt mound beneath the surface portal
@@ -10489,7 +10472,7 @@
 #    SpiritAssassin.DisplayName: Spirit Assassin
 #
 #    SpiritCommonGuard: {
-#        DisplayName: Spirit Common Guard
+#        DisplayName: Дух гвардейца
 #        ShortName: Клео
 #    }
 #
