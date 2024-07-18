@@ -396,7 +396,7 @@
 #}
 #
 #SpecialTooltips: {
-#    Viewer: Удерживайте 'Левый Shift', чтобы увидеть историю
+#    Viewer: Удерживайте 'Shift', чтобы увидеть историю
 #    Unbreakable: "[c/ff0000:Неразрушимый]"
 #    Unbreakable5000: "[c/ff0000:Неразрушимый (нужно 5000% мощности кирки)]"
 #
@@ -488,7 +488,7 @@
 #    }
 #
 #    KS3Datalog: {
-#        DatalogViewer: Удерживайте 'Левый Shift', чтобы прочитать бортовой журнал
+#        DatalogViewer: Удерживайте 'Shift', чтобы прочитать бортовой журнал
 #        Datalog1:
 #            '''
 #            'Я успешно достиг верхних слоев атмосферы и избежал Сброса моего мира.
@@ -735,30 +735,30 @@
 #        Missed:
 #            '''
 #
-#            Вещи, которые вы не сделали в этом прохождении, но можете в следующем:
+#            То, что вы не сделали в этом прохождении, но можете сделать в следующем:
 #            '''
-#        HoldShift: Удерживайте 'Левый Shift', чтобы посмотреть, что вы пропустили
-#        SpiritWalker: -Спиритическая способность
-#        Chalice: -Важный объект правосудия
-#        Newb: -Загадочная сущность под порталом
-#        FowlEmperor: -Битва с могучим петухом
-#        Thorn: -Битва с заражённой погибелью леса [c/bbf160:(хороший путь)]
-#        Erhan: -Битва с верховным жрецом [c/ff5533:(плохой путь)]
-#        Keeper: -Битва со скорбящей нежитью
-#        ForestNymph: -Дружба с созданием природы и постройка для него дерева-дома [c/bbf160:(хороший путь)]
-#        SkullDigger: -Битва с мёртвым защитником под землёй [c/ff5533:(плохой путь)]
-#        KeeperSaved: -Упокоение мёртвой госпожи [c/bbf160:(хороший путь)]
-#        SkullDiggerSaved: -Упокоение мёртвого защитника [c/bbf160:(хороший путь)]
-#        Golem: -Битва со странным камнем
-#        SoI: -Битва с аномалией инфекции
+#        HoldShift: Удерживайте 'Shift', чтобы посмотреть, что вы пропустили
+#        SpiritWalker: -Получение спиритической способности
+#        Chalice: -Получение ваажного объекта правосудия
+#        Newb: -Обнаружение подозрительной сущности под порталом
+#        FowlEmperor: -Сражение с могучим петухом
+#        Thorn: -Сражение с заражённой погибелью леса [c/bbf160:(светлый путь)]
+#        Erhan: -Сражение с верховным жрецом [c/ff5533:(тёмный путь)]
+#        Keeper: -Сражение со скорбящей нежитью
+#        ForestNymph: -Дружба с созданием природы и постройка для него дома-дерева [c/bbf160:(светлый путь)]
+#        SkullDigger: -Сражение с нежитью-защитником под землёй [c/ff5533:(тёмный путь)]
+#        KeeperSaved: -Упокоение мёртвой госпожи [c/bbf160:(светлый путь)]
+#        SkullDiggerSaved: -Упокоение нежити-защитника [c/bbf160:(светлый путь)]
+#        Golem: -Сражение со странным валуном в преисподней
+#        SoI: -Сражение с аномалией инфекции
 #        Nuke: -Детонация ядерной боеголовки
-#        Lab: -Подземная лаборатория
-#        KS3: -Депрессивный робот, нуждающийся в помощи
-#        KS3Quest: -Помощь депрессивному роботу в починке корабля [c/bbf160:(хороший путь)]
-#        Omega: -Битва с тремя смертельными машинами
-#        PatientZero: -Последнее испытание лаборатории
-#        ADD: -Секрет Голема Клювогорья
-#        UltimateNeb: -Битва с последней формой Ангела космоса [c/ff5533:(плохой путь)]
+#        Lab: -Обнаружение подземной лаборатории
+#        KS3: -Сражение с депрессивным роботом
+#        KS3Quest: -Помощь депрессивному роботу в починке корабля [c/bbf160:(светлый путь)]
+#        Omega: -Сражение с тремя смертоносными машинами
+#        PatientZero: -Сражение с последним испытанием лаборатории
+#        ADD: -Раскрытие секрета Голема Клювогорья
+#        UltimateNeb: -Финальное сражение с Ангелом космоса [c/ff5533:(тёмный путь)]
 #    }
 #}
 #
@@ -1457,7 +1457,7 @@
 #    Daerel: {
 #        Unconscious: Странник Дэрел теряет сознание...
 #        Stay1: Будь как дома
-#        Stay2: Кто ты такой?
+#        Stay2: Кто ты?
 #        Advice: Совет
 #        Bow: Пристрелять лук (10 сер. монет)
 #        Poison: Отравить оружие (25 сер. монет)
@@ -1466,7 +1466,7 @@
 #    Zephos: {
 #        Unconscious: Странник Зефос теряет сознание...
 #        Stay1: Будь как дома
-#        Stay2: Кто ты такой?
+#        Stay2: Кто ты?
 #        Advice: Совет
 #        Sharpen: Наточить (5 сер. монет)
 #        ShineArmor: Отполировать броню (15 сер. монет)
@@ -1877,13 +1877,13 @@
 #    }
 #
 #    MicroshieldCoreBuff: {
-#        DisplayName: Microshield Core
+#        DisplayName: Нанозащитное ядро
 #        Description: A tiny shield core is defending you
 #    }
 #
 #    MicroshieldDroneBuff: {
-#        DisplayName: Microshield Drone
-#        Description: A microshield drone is defending you
+#        DisplayName: Нанозащитный дрон
+#        Description: Вас защищает нанозащитный дрон
 #    }
 #
 #    HoloMinionBuff: {
@@ -2412,7 +2412,7 @@
 #    }
 #
 #    MoonflareCandleBuff: {
-#        DisplayName: Свеча лунного блика
+#        DisplayName: Свеча лунного зарева
 #        Description: Защищает от влияние кладбища
 #    }
 #}
@@ -3186,7 +3186,7 @@
 #    }
 #}
 #
-#DamageClasses.RitualistClass.DisplayName: ritual damage
+#DamageClasses.RitualistClass.DisplayName: ед. ритуального урона
 #
 #Items: {
 #    MechanicalSheath: {
@@ -3293,7 +3293,7 @@
 #    }
 #
 #    MicroshieldCore: {
-#        DisplayName: Microshield Core
+#        DisplayName: Нанозащитное ядро
 #        Tooltip:
 #            '''
 #            Summons a Microshield Drone that appears whenever a hostile projectile is shot at the player
@@ -4020,17 +4020,17 @@
 #    }
 #
 #    CorpseWalkerSkullVanity: {
-#        DisplayName: Corpse-Walker Skull
+#        DisplayName: Череп бродячего мертвеца
 #        Tooltip: ""
 #    }
 #
 #    HallamHoodie: {
-#        DisplayName: Halm's Casual Hoodie
+#        DisplayName: Повседневное худи Халма
 #        Tooltip: "'Отлично подходит для подражания внешности разработчиков!'"
 #    }
 #
 #    HallamLeggings: {
-#        DisplayName: Halm's Casual Jeans
+#        DisplayName: Повседневные джинсы Халма
 #        Tooltip: "'Отлично подходит для подражания внешности разработчиков!'"
 #    }
 #
@@ -4085,18 +4085,18 @@
 #    }
 #
 #    IntruderArmour: {
-#        DisplayName: Intruder's Body Armor
-#        Tooltip: "'С любовью от Вторжения'"
+#        DisplayName: Нагрудник вторженца
+#        Tooltip: "'С любовью из игры Intrusion'"
 #    }
 #
 #    IntruderMask: {
-#        DisplayName: Intruder's Mask
-#        Tooltip: "'С любовью от Вторжения'"
+#        DisplayName: Маска вторженца
+#        Tooltip: "'С любовью из игры Intrusion'"
 #    }
 #
 #    IntruderPants: {
-#        DisplayName: Intruder's Armored Pants
-#        Tooltip: "'С любовью от Вторжения'"
+#        DisplayName: Защитные штаны вторженца
+#        Tooltip: "'С любовью из игры Intrusion'"
 #    }
 #
 #    KeepersVeil: {
@@ -4144,22 +4144,22 @@
 #    }
 #
 #    SkySquiresGreaves: {
-#        DisplayName: Sky Squire's Greaves
+#        DisplayName: Поножи небесного оруженосца
 #        Tooltip: ""
 #    }
 #
 #    SkySquiresHelm: {
-#        DisplayName: Sky Squire's Helm
+#        DisplayName: Шлем небесного оруженосца
 #        Tooltip: ""
 #    }
 #
 #    SkySquiresTabard: {
-#        DisplayName: Sky Squire's Tabard
+#        DisplayName: Табард небесного оруженосца
 #        Tooltip: ""
 #    }
 #
 #    SwordHeadband: {
-#        DisplayName: Fake Knife Headband
+#        DisplayName: Обруч с фальшивым ножом
 #        Tooltip: ""
 #    }
 #
@@ -4169,32 +4169,32 @@
 #    }
 #
 #    AndroidArmour: {
-#        DisplayName: Android Armour
+#        DisplayName: Доспех андроидов
 #        Tooltip: ""
 #    }
 #
 #    AndroidPants: {
-#        DisplayName: Android Pants
+#        DisplayName: Штаны андроидов
 #        Tooltip: ""
 #    }
 #
 #    JanitorOutfit: {
-#        DisplayName: Janitor Outfit
+#        DisplayName: Костюм уборщика
 #        Tooltip: ""
 #    }
 #
 #    JanitorPants: {
-#        DisplayName: Janitor Pants
+#        DisplayName: Штаны уборщика
 #        Tooltip: ""
 #    }
 #
 #    OperatorHead: {
-#        DisplayName: Operator Head
+#        DisplayName: Голова оператора
 #        Tooltip: ""
 #    }
 #
 #    TBotEyes_Femi: {
-#        DisplayName: T-Bot Head
+#        DisplayName: Голова Т-Бота
 #        Tooltip:
 #            '''
 #            Eyes
@@ -4203,7 +4203,7 @@
 #    }
 #
 #    TBotEyes_Masc: {
-#        DisplayName: T-Bot Head
+#        DisplayName: Голова Т-Бота
 #        Tooltip:
 #            '''
 #            Eyes
@@ -4212,7 +4212,7 @@
 #    }
 #
 #    TBotGoggles_Femi: {
-#        DisplayName: T-Bot Head
+#        DisplayName: Голова Т-Бота
 #        Tooltip:
 #            '''
 #            Goggles
@@ -4221,7 +4221,7 @@
 #    }
 #
 #    TBotGoggles_Masc: {
-#        DisplayName: T-Bot Head
+#        DisplayName: Голова Т-Бота
 #        Tooltip:
 #            '''
 #            Goggles
@@ -4230,27 +4230,27 @@
 #    }
 #
 #    TBotVanityChestplate: {
-#        DisplayName: T-Bot Chestplate
+#        DisplayName: Нагрудник Т-Бота
 #        Tooltip: ""
 #    }
 #
 #    TBotVanityEyes: {
-#        DisplayName: T-Bot Head
+#        DisplayName: Голова Т-Бота
 #        Tooltip: Eyes
 #    }
 #
 #    TBotVanityGoggles: {
-#        DisplayName: T-Bot Head
+#        DisplayName: Голова Т-Бота
 #        Tooltip: Goggles
 #    }
 #
 #    TBotVanityLegs: {
-#        DisplayName: T-Bot Legs
+#        DisplayName: Ноги Т-Бота
 #        Tooltip: ""
 #    }
 #
 #    VoltHead: {
-#        DisplayName: Volt Head
+#        DisplayName: Голова Вольта
 #        Tooltip: ""
 #    }
 #
@@ -4265,22 +4265,22 @@
 #    }
 #
 #    BadNeutralRoute: {
-#        DisplayName: Bad Route
+#        DisplayName: Тёмный путь
 #        Tooltip: Снижает мировозрение, если вы не примете правильное решение
 #    }
 #
 #    BadRedemptionRoute: {
-#        DisplayName: Bad Route
+#        DisplayName: Тёмный путь
 #        Tooltip: Снижает мировозрение, но создаёт условия для его восстановления
 #    }
 #
 #    BadRoute: {
-#        DisplayName: Bad Route
+#        DisplayName: Тёмный путь
 #        Tooltip: Снижает мировозрение
 #    }
 #
 #    AntiJohnSnailItem: {
-#        DisplayName: ANTI JOHN SNAIL
+#        DisplayName: АНТИ ДЖОН-УЛИТКА
 #        Tooltip: ""
 #    }
 #
@@ -4290,7 +4290,7 @@
 #    }
 #
 #    BoneSpiderItem: {
-#        DisplayName: Bone Spider
+#        DisplayName: Костяной паук
 #        Tooltip: ""
 #    }
 #
@@ -4305,7 +4305,7 @@
 #    }
 #
 #    CoastScarabItem: {
-#        DisplayName: Coast Scarab
+#        DisplayName: Пляжный скарабей
 #        Tooltip: ""
 #    }
 #
@@ -4315,17 +4315,17 @@
 #    }
 #
 #    GrandLarvaBait: {
-#        DisplayName: Grand Larva
+#        DisplayName: Огромная личинка
 #        Tooltip: ""
 #    }
 #
 #    HazmatBunnyItem: {
-#        DisplayName: Hazmat Bunny
+#        DisplayName: Кролик в химзащите
 #        Tooltip: ""
 #    }
 #
 #    JohnSnailItem: {
-#        DisplayName: John Snail
+#        DisplayName: Джон-улитка
 #        Tooltip: ""
 #    }
 #
@@ -4335,7 +4335,7 @@
 #    }
 #
 #    LeghornChickenItem: {
-#        DisplayName: Leghorn Chicken
+#        DisplayName: Леггорнская курица
 #        Tooltip: ""
 #    }
 #
@@ -4345,57 +4345,57 @@
 #    }
 #
 #    MoonflareBatItem: {
-#        DisplayName: Летучая мышь лунного блика
+#        DisplayName: Летучая мышь лунного зарева
 #        Tooltip: ""
 #    }
 #
 #    RedChickenItem: {
-#        DisplayName: Red Chicken
+#        DisplayName: Красная курица
 #        Tooltip: ""
 #    }
 #
 #    SandskinSpiderItem: {
-#        DisplayName: Sandskin Spider
+#        DisplayName: Песчанокожий паук
 #        Tooltip: ""
 #    }
 #
 #    SpiderSwarmerItem: {
-#        DisplayName: Spider Swarmer
+#        DisplayName: Роевой паук
 #        Tooltip: ""
 #    }
 #
 #    TreeBugItem: {
-#        DisplayName: Tree Bug
+#        DisplayName: Древесный жук
 #        Tooltip: ""
 #    }
 #
 #    ArchePatreonVanityBody: {
-#        DisplayName: Iridescent Outfit
+#        DisplayName: Многоцветный наряд
 #        Tooltip: ""
 #    }
 #
 #    ArchePatreonVanityCape: {
-#        DisplayName: Iridescent Cape
+#        DisplayName: Многоцветный плащ
 #        Tooltip: ""
 #    }
 #
 #    ArchePatreonVanityHead: {
-#        DisplayName: Iridescent Hat
+#        DisplayName: Многоцветная шляпа
 #        Tooltip: ""
 #    }
 #
 #    ArchePatreonVanityLegs: {
-#        DisplayName: Iridescent Leggings
+#        DisplayName: Многоцветные поножи
 #        Tooltip: ""
 #    }
 #
 #    GonkPet: {
-#        DisplayName: Samus Head
-#        Tooltip: Summons a chibi Samus
+#        DisplayName: Голова Самуса
+#        Tooltip: Призывает чиби-Самуса
 #    }
 #
 #    LantardPatreon_Item: {
-#        DisplayName: Fluffy Scarf
+#        DisplayName: Пушистое кашне
 #        Tooltip: Summons a chibi Ralsei
 #    }
 #
@@ -4405,11 +4405,11 @@
 #    }
 #
 #    LizzyCookie: {
-#        DisplayName: Lizard Cookie
+#        DisplayName: Печенье Лизщерицы
 #        Tooltip:
 #            '''
-#            Summons a chibi Lizzy
-#            '"Baked" with love'
+#            Призывает чиби-Лиззи
+#            "'Baked' with love"
 #            '''
 #    }
 #
@@ -4429,8 +4429,8 @@
 #    }
 #
 #    LegoBrick: {
-#        DisplayName: Lego Brick
-#        Tooltip: Summons an ancient construct
+#        DisplayName: Кубик лего
+#        Tooltip: Призывает древнюю конструкцию
 #    }
 #
 #    MedicBackpack: {
@@ -4449,111 +4449,111 @@
 #    }
 #
 #    SmolderedScale: {
-#        DisplayName: Smoldered Scale
+#        DisplayName: Обугленная чешуя
 #        Tooltip: Summons a chibi Miniswave
 #    }
 #
 #    RainPatreonVanityAcc: {
-#        DisplayName: Tail of a Living Weapon
+#        DisplayName: Хвост живого оружия
 #        Tooltip: "'You can feel every twitch, even the slightest breeze'"
 #    }
 #
 #    RainPatreonVanityBody: {
-#        DisplayName: Form of a Living Weapon
+#        DisplayName: Форма живого оружия
 #        Tooltip: "'A body etched by agony and filled with strength'"
 #    }
 #
 #    RainPatreonVanityHead: {
-#        DisplayName: Horns of a Living Weapon
+#        DisplayName: Рога живого оружия
 #        Tooltip: "'Strange, you can't seem to smile'"
 #    }
 #
 #    RainPatreonVanityLegs: {
-#        DisplayName: Talons of a Living Weapon
+#        DisplayName: Когти живого оружия
 #        Tooltip: "'With claws like these, who needs a sword?'"
 #    }
 #
 #    RainPatreonWings: {
-#        DisplayName: Wings of a Living Weapon
+#        DisplayName: Крылья живого оружия
 #        Tooltip: "'Best hold back, you wouldn't want to hurt yourself'"
 #    }
 #
 #    SneakloneHelmet1: {
-#        DisplayName: Facility Guard Helmet
+#        DisplayName: Шлем охранника фонда
 #        Tooltip: ""
 #    }
 #
 #    SneakloneHelmet2: {
-#        DisplayName: Facility Guard Helmet
+#        DisplayName: Шлем охранника фонда
 #        Tooltip: ""
 #    }
 #
 #    SneakloneLegs: {
-#        DisplayName: Facility Guard Leggings
+#        DisplayName: Поножи охранника фонда
 #        Tooltip: ""
 #    }
 #
 #    SneakloneSuit: {
-#        DisplayName: Facility Guard Vest
+#        DisplayName: Жилет охранника фонда
 #        Tooltip: ""
 #    }
 #
 #    UnconBody: {
-#        DisplayName: Dominator Suit
+#        DisplayName: Костюм господства
 #        Tooltip: ""
 #    }
 #
 #    UnconBody2: {
-#        DisplayName: Dominator Suit (Skinless)
+#        DisplayName: Костюм господства (Без покрытия)
 #        Tooltip: ""
 #    }
 #
 #    UnconHead: {
-#        DisplayName: Dominator Visage
+#        DisplayName: Лик господства
 #        Tooltip: ""
 #    }
 #
 #    UnconHead2: {
-#        DisplayName: Dominator Visage (Skinless)
+#        DisplayName: Лик господства (Без покрытия)
 #        Tooltip: ""
 #    }
 #
 #    UnconLegs: {
-#        DisplayName: Dominator Boots
+#        DisplayName: Ботинки господства
 #        Tooltip: ""
 #    }
 #
 #    UnconLegs2: {
-#        DisplayName: Dominator Boots (Skinless)
+#        DisplayName: Ботинки господства (Без покрытия)
 #        Tooltip: ""
 #    }
 #
 #    UnconPatreon_CapeAcc: {
-#        DisplayName: Dominator Coat Cape
+#        DisplayName: Плащ-накидка господства
 #        Tooltip: ""
 #    }
 #
 #    UnconPetItem: {
-#        DisplayName: Terminal Blade
+#        DisplayName: Клинок завершения
 #        Tooltip:
 #            '''
-#            Summons chibi Tremor
+#            Призывает чиби-Тремор
 #            'A broken sword not of this world, said to be a sign of the end times.'
 #            '''
 #    }
 #
 #    WaasephiPet: {
-#        DisplayName: Purple Yarn
+#        DisplayName: Фиолетовая пряжа
 #        Tooltip: Summons a chibi Waasephi
 #    }
 #
 #    GoodRoute: {
-#        DisplayName: Good Route
+#        DisplayName: Светлый путь
 #        Tooltip: This will increase alignment
 #    }
 #
 #    HintIcon: {
-#        DisplayName: Hint Icon
+#        DisplayName: Иконка подсказки
 #        Tooltip: ""
 #    }
 #
@@ -4841,7 +4841,7 @@
 #    }
 #
 #    Cyberscrap: {
-#        DisplayName: Cyberscrap
+#        DisplayName: Киберхлам
 #        Tooltip: "'Versatile, and can be used to make anything'"
 #    }
 #
@@ -4851,7 +4851,7 @@
 #    }
 #
 #    OphosNotes: {
-#        DisplayName: Ophos' Lost Notes
+#        DisplayName: Потерянные записи Офоса
 #        Tooltip: "'Notes discovered by the Wayfarer detailing the smithing process of a famous sword'"
 #    }
 #
@@ -4895,7 +4895,7 @@
 #    }
 #
 #    LifeFragment: {
-#        DisplayName: Fragment of Virtue
+#        DisplayName: Осколок добродетели
 #        Tooltip: ""
 #    }
 #
@@ -4925,7 +4925,7 @@
 #    }
 #
 #    VesselFragment: {
-#        DisplayName: Vessel Fragment
+#        DisplayName: Обломок сосуда
 #        Tooltip: ""
 #    }
 #
@@ -4944,12 +4944,12 @@
 #    }
 #
 #    BlackenedHeart: {
-#        DisplayName: Blackened Heart
+#        DisplayName: Почерневшее сердце
 #        Tooltip: ""
 #    }
 #
 #    CoastScarabShell: {
-#        DisplayName: Coast Scarab Shell
+#        DisplayName: Панцирь пляжного скарабея
 #        Tooltip: "'Glistens in water'"
 #    }
 #
@@ -5035,7 +5035,7 @@
 #    }
 #
 #    TreeBugShell: {
-#        DisplayName: Tree Bug Shell
+#        DisplayName: Панцирь древесного жука
 #        Tooltip: ""
 #    }
 #
@@ -5105,7 +5105,7 @@
 #    }
 #
 #    BoneSpiderBanner: {
-#        DisplayName: Bone Spider Banner
+#        DisplayName: Знамя костяного паука
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.BoneSpider.DisplayName}"
 #    }
 #
@@ -5125,7 +5125,7 @@
 #    }
 #
 #    CoastScarabBanner: {
-#        DisplayName: Coast Scarab Banner
+#        DisplayName: Знамя пляжного скарабея
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.CoastScarab.DisplayName}"
 #    }
 #
@@ -5150,7 +5150,7 @@
 #    }
 #
 #    GrandLarvaBanner: {
-#        DisplayName: Grand Larva Banner
+#        DisplayName: Знамя огромной личинки
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.GrandLarva.DisplayName}"
 #    }
 #
@@ -5180,7 +5180,7 @@
 #    }
 #
 #    MoonflareBatBanner: {
-#        DisplayName: Знамя летучей мыши лунного блика
+#        DisplayName: Знамя летучей мыши лунного зарева
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.MoonflareBat.DisplayName}"
 #    }
 #
@@ -5200,7 +5200,7 @@
 #    }
 #
 #    OozeBlobBanner: {
-#        DisplayName: Ooze Blob Banner
+#        DisplayName: Знамя слизистого сгустка
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.OozeBlob.DisplayName}"
 #    }
 #
@@ -5225,7 +5225,7 @@
 #    }
 #
 #    SandskinSpiderBanner: {
-#        DisplayName: Sandskin Spider Banner
+#        DisplayName: Знамя песчанокожего паука
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.SandskinSpider.DisplayName}"
 #    }
 #
@@ -5714,7 +5714,7 @@
 #
 #    FowlEmperorPainting: {
 #        DisplayName: The Legendary-er Being
-#        Tooltip: "'A. Tied'"
+#        Tooltip: "'А. Тайд'"
 #    }
 #
 #    GathicCryoFurnace: {
@@ -5790,7 +5790,7 @@
 #
 #    MudGuardianPainting: {
 #        DisplayName: Muddled Peace
-#        Tooltip: "'A. Tied'"
+#        Tooltip: "'А. Тайд'"
 #    }
 #
 #    NozaCage: {
@@ -5839,46 +5839,46 @@
 #
 #    PonderingTreesPainting: {
 #        DisplayName: Pondering Trees
-#        Tooltip: "'A. Tied'"
+#        Tooltip: "'А. Тайд'"
 #    }
 #
 #    ScrunklePainting: {
 #        DisplayName: Scrunkle
-#        Tooltip: "'A. Tied'"
+#        Tooltip: "'А. Тайд'"
 #    }
 #
 #    SkeletonGuardianPainting: {
-#        DisplayName: Dungeon Soldier
-#        Tooltip: "'A. Tied'"
+#        DisplayName:  Картина «Солдат Темницы»
+#        Tooltip: "'А. Тайд'"
 #    }
 #
 #    SkullDiggerPainting: {
-#        DisplayName: Tragic Protector
-#        Tooltip: "'BoRKman'"
+#        DisplayName: Картина «Печальный защитник»
+#        Tooltip: "'БоРКмэн'"
 #    }
 #
 #    SoulCandles: {
-#        DisplayName: Cleansing Candles
+#        DisplayName: Изгоняющие свечи
 #        Tooltip:
 #            '''
-#            Creates a small aura that instantly kills any soulless enemies that enter
-#            Life regen is disabled in the aura
+#            Создаёт небольшую ауру, которая мгновенно убивает любых бездушных врагов, вошедших в неё
+#            В зоне действия ауры регенерация здоровья отключена
 #            '''
 #    }
 #
 #    SunkenCaptainPainting: {
-#        DisplayName: Sunken Captain
-#        Tooltip: "'M. Tea'"
+#        DisplayName: Картина «Затонувший капитан»
+#        Tooltip: "'М. Ти'"
 #    }
 #
 #    ThornPlush: {
-#        DisplayName: Thorn Plushie
+#        DisplayName: Плюшевый шипастик
 #        Tooltip: ""
 #    }
 #
 #    TiedBoiPainting: {
-#        DisplayName: Boi
-#        Tooltip: "'O. Tomato'"
+#        DisplayName: Картина «Бой»
+#        Tooltip: "'О. Томато'"
 #    }
 #
 #    TrojanChicken: {
@@ -5888,7 +5888,7 @@
 #
 #    UkkoPainting: {
 #        DisplayName: Ukko Huutaa Pilvelle
-#        Tooltip: "'A. Tied'"
+#        Tooltip: "'А. Тайд'"
 #    }
 #
 #    WardenPainting: {
@@ -5897,7 +5897,7 @@
 #    }
 #
 #    WastelandCampfire: {
-#        DisplayName: Wasteland Campfire
+#        DisplayName: Костёр пустоши
 #        Tooltip:
 #            '''
 #            Life regen is increased when near a campfire
@@ -5906,107 +5906,107 @@
 #    }
 #
 #    WastelandTorch: {
-#        DisplayName: Wasteland Torch
+#        DisplayName: Факел пустоши
 #        Tooltip: ""
 #    }
 #
 #    PetrifiedCrate: {
-#        DisplayName: Petrified Crate
+#        DisplayName: Окаменевший ящик
 #        Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 #    }
 #
 #    PetrifiedWoodBathtub: {
-#        DisplayName: Petrified Wood Bathtub
+#        DisplayName: Ванна из окаменевшей древесины
 #        Tooltip: ""
 #    }
 #
 #    PetrifiedWoodBed: {
-#        DisplayName: Petrified Wood Bed
+#        DisplayName: Кровать из окаменевшей древесины
 #        Tooltip: ""
 #    }
 #
 #    PetrifiedWoodBookcase: {
-#        DisplayName: Petrified Wood Bookcase
+#        DisplayName: Книжный шкаф из окаменевшей древесины
 #        Tooltip: ""
 #    }
 #
 #    PetrifiedWoodCandelabra: {
-#        DisplayName: Petrified Wood Candelabra
+#        DisplayName: Подсвечник из окаменевшей древесины
 #        Tooltip: ""
 #    }
 #
 #    PetrifiedWoodCandle: {
-#        DisplayName: Petrified Wood Candle
+#        DisplayName: Свеча из окаменевшей древесины
 #        Tooltip: ""
 #    }
 #
 #    PetrifiedWoodChair: {
-#        DisplayName: Petrified Wood Chair
+#        DisplayName: Стул из окаменевшей древесины
 #        Tooltip: ""
 #    }
 #
 #    PetrifiedWoodChandelier: {
-#        DisplayName: Petrified Wood Chandelier
+#        DisplayName: Люстра из окаменевшей древесины
 #        Tooltip: ""
 #    }
 #
 #    PetrifiedWoodClock: {
-#        DisplayName: Petrified Wood Clock
+#        DisplayName: Часы из окаменевшей древесины
 #        Tooltip: ""
 #    }
 #
 #    PetrifiedWoodDoor: {
-#        DisplayName: Petrified Wood Door
+#        DisplayName: Дверь из окаменевшей древесины
 #        Tooltip: ""
 #    }
 #
 #    PetrifiedWoodDresser: {
-#        DisplayName: Petrified Wood Dresser
+#        DisplayName: Комод из окаменевшей древесины
 #        Tooltip: ""
 #    }
 #
 #    PetrifiedWoodFence: {
-#        DisplayName: Petrified Wood Fence
+#        DisplayName: Забор из окаменевшей древесины
 #        Tooltip: ""
 #    }
 #
 #    PetrifiedWoodLamp: {
-#        DisplayName: Petrified Wood Lamp
+#        DisplayName: Лампа из окаменевшей древесины
 #        Tooltip: ""
 #    }
 #
 #    PetrifiedWoodLantern: {
-#        DisplayName: Petrified Wood Lantern
+#        DisplayName: Фонарь из окаменевшей древесины
 #        Tooltip: ""
 #    }
 #
 #    PetrifiedWoodPiano: {
-#        DisplayName: Petrified Wood Piano
+#        DisplayName: Пианино из окаменевшей древесины
 #        Tooltip: ""
 #    }
 #
 #    PetrifiedWoodPlatform: {
-#        DisplayName: Petrified Wood Platform
+#        DisplayName: Платформа из окаменевшей древесины
 #        Tooltip: ""
 #    }
 #
 #    PetrifiedWoodSink: {
-#        DisplayName: Petrified Wood Sink
+#        DisplayName: Раковина из окаменевшей древесины
 #        Tooltip: ""
 #    }
 #
 #    PetrifiedWoodSofa: {
-#        DisplayName: Petrified Wood Sofa
+#        DisplayName: Диван из окаменевшей древесины
 #        Tooltip: ""
 #    }
 #
 #    PetrifiedWoodTable: {
-#        DisplayName: Petrified Wood Table
+#        DisplayName: Стол из окаменевшей древесины
 #        Tooltip: ""
 #    }
 #
 #    PetrifiedWoodWorkBench: {
-#        DisplayName: Petrified Wood Work Bench
+#        DisplayName: Верстак из окаменевшей древесины
 #        Tooltip: ""
 #    }
 #
@@ -6366,47 +6366,47 @@
 #    }
 #
 #    Asteroid: {
-#        DisplayName: Asteroid
+#        DisplayName: Астероид
 #        Tooltip: ""
 #    }
 #
 #    AsteroidWall: {
-#        DisplayName: Asteroid Wall
+#        DisplayName: Стена из астероидов
 #        Tooltip: ""
 #    }
 #
 #    Bedrock: {
-#        DisplayName: Bedrock
+#        DisplayName: Бедрок
 #        Tooltip: "{$SpecialTooltips.Unbreakable}"
 #    }
 #
 #    BlackHardenedSludge: {
-#        DisplayName: Unsafe Black Hardened Sludge
-#        Tooltip: Breaking this has a chance to spawn Ooze Blobs
+#        DisplayName: Небезопасная чёрная затвердевшая слякоть
+#        Tooltip: При разрушении этого предмета есть шанс появления слизистых сгустков
 #    }
 #
 #    BlackHardenedSludgeWall: {
-#        DisplayName: Black Hardened Sludge Wall
+#        DisplayName: Стена из чёрной затвердевшей слякоти
 #        Tooltip: ""
 #    }
 #
 #    DangerTape: {
-#        DisplayName: Danger Tape
+#        DisplayName: Предупредительная лента
 #        Tooltip: "{$SpecialTooltips.Unbreakable5000}"
 #    }
 #
 #    DangerTape2: {
-#        DisplayName: Danger Tape
+#        DisplayName: Предупредительная лента
 #        Tooltip: ""
 #    }
 #
 #    DangerTapeWall: {
-#        DisplayName: Danger Tape Wall
+#        DisplayName: Стена с предупредительной лентой
 #        Tooltip: "{$SpecialTooltips.Unbreakable5000}"
 #    }
 #
 #    DangerTapeWall2: {
-#        DisplayName: Danger Tape Wall
+#        DisplayName: Стена с предупредительной лентой
 #        Tooltip: ""
 #    }
 #
@@ -6421,157 +6421,157 @@
 #    }
 #
 #    ElectricHazard: {
-#        DisplayName: Electric Hazard
+#        DisplayName: Электрический ток
 #        Tooltip: ""
 #    }
 #
 #    GathicColdstone: {
-#        DisplayName: Gathic Coldstone
+#        DisplayName: Гатрийский холодный камень
 #        Tooltip: ""
 #    }
 #
 #    GathicColdstoneBrick: {
-#        DisplayName: Gathic Coldstone Brick
+#        DisplayName: Гатрийский кирпич из холодного камня
 #        Tooltip: ""
 #    }
 #
 #    GathicFroststone: {
-#        DisplayName: Gathic Froststone
+#        DisplayName: Гатрийский ледокамень
 #        Tooltip: ""
 #    }
 #
 #    GathicFroststoneBrick: {
-#        DisplayName: Gathic Froststone Brick
+#        DisplayName: Гатрийский кирпич из ледокамня
 #        Tooltip: ""
 #    }
 #
 #    GathicFroststoneBrickWall: {
-#        DisplayName: Gathic Froststone Brick Wall
+#        DisplayName: Кирпичная стена из гатрийского ледокамня
 #        Tooltip: ""
 #    }
 #
 #    GathicFroststoneWall: {
-#        DisplayName: Gathic Froststone Wall
+#        DisplayName: Стена из гатрийского ледокамня
 #        Tooltip: ""
 #    }
 #
 #    GathicGladestone: {
-#        DisplayName: Gathic Gladestone
+#        DisplayName: Гатрийская каменная гладь
 #        Tooltip: ""
 #    }
 #
 #    GathicGladestoneBrick: {
-#        DisplayName: Gathic Gladestone Brick
+#        DisplayName: Гатрийский кирпич из каменной глади
 #        Tooltip: ""
 #    }
 #
 #    GathicGladestoneBrickWall: {
-#        DisplayName: Gathic Gladestone Brick Wall
+#        DisplayName: Кирпичная стена из гатрийской каменной глади
 #        Tooltip: ""
 #    }
 #
 #    GathicGladestoneWall: {
-#        DisplayName: Gathic Gladestone Wall
+#        DisplayName: Стена из гатрийской каменной глади
 #        Tooltip: ""
 #    }
 #
 #    GathicStone: {
-#        DisplayName: Gathic Stone
+#        DisplayName: Гатрийский камень
 #        Tooltip: ""
 #    }
 #
 #    GathicStoneBrick: {
-#        DisplayName: Gathic Stone Brick
+#        DisplayName: Гатрийский кирпич
 #        Tooltip: ""
 #    }
 #
 #    GathicStoneBrickWall: {
-#        DisplayName: Gathic Stone Brick Wall
+#        DisplayName: Гатрийская кирпичная стена
 #        Tooltip: ""
 #    }
 #
 #    GathicStoneWall: {
-#        DisplayName: Gathic Stone Wall
+#        DisplayName: Гатрийская каменная стена
 #        Tooltip: ""
 #    }
 #
 #    GloomMushroom: {
-#        DisplayName: Gloom Mushroom
+#        DisplayName: Хмурогриб
 #        Tooltip: ""
 #    }
 #
 #    GreenLaser: {
-#        DisplayName: Green Laser Block
+#        DisplayName: Зелёный лазерный блок
 #        Tooltip: "{$SpecialTooltips.Unbreakable5000}"
 #    }
 #
 #    HalogenLamp: {
-#        DisplayName: Halogen Lamp
+#        DisplayName: Галогенная лампа
 #        Tooltip: ""
 #    }
 #
 #    HardenedSludge: {
-#        DisplayName: Unsafe Hardened Sludge
-#        Tooltip: Breaking this has a chance to spawn Ooze Blobs
+#        DisplayName: Небезопасная затвердевшая слякоть
+#        Tooltip: При разрушении этого предмета есть шанс появления слизистых сгустков
 #    }
 #
 #    HardenedSludgeWall: {
-#        DisplayName: Hardened Sludge Wall
+#        DisplayName: Стена из затвердевшей слякоти
 #        Tooltip: ""
 #    }
 #
 #    IrradiatedCrimstone: {
-#        DisplayName: Irradiated Crimstone
+#        DisplayName: Радиоактивный багряный камень
 #        Tooltip: ""
 #    }
 #
 #    IrradiatedDirt: {
-#        DisplayName: Irradiated Dirt
+#        DisplayName: Радиоактивный грязь
 #        Tooltip: ""
 #    }
 #
 #    IrradiatedEbonstone: {
-#        DisplayName: Irradiated Ebonstone
+#        DisplayName: Радиоактивный эбонит
 #        Tooltip: ""
 #    }
 #
 #    IrradiatedHardenedSand: {
-#        DisplayName: Irradiated Hardened Sand
+#        DisplayName: Радиоактивный затвердевший песок
 #        Tooltip: ""
 #    }
 #
 #    IrradiatedIce: {
-#        DisplayName: Irradiated Ice
+#        DisplayName: Радиоактивный лёд
 #        Tooltip: ""
 #    }
 #
 #    IrradiatedLivingWoodWall: {
-#        DisplayName: Irradiated Living Wood Wall
+#        DisplayName: Радиоактивная стена живого дерева
 #        Tooltip: ""
 #    }
 #
 #    IrradiatedSand: {
-#        DisplayName: Irradiated Sand
+#        DisplayName: Радиоактивный песок
 #        Tooltip: ""
 #    }
 #
 #    IrradiatedSandstone: {
-#        DisplayName: Irradiated Sandstone
+#        DisplayName: Радиоактивный песчаник
 #        Tooltip: ""
 #    }
 #
 #    IrradiatedSnow: {
-#        DisplayName: Irradiated Snow
+#        DisplayName: Радиоактивный снег
 #        Tooltip: ""
 #    }
 #
 #    IrradiatedStone: {
-#        DisplayName: Irradiated Stone
+#        DisplayName: Радиоактивный камень
 #        Tooltip: ""
 #    }
 #
 #    IrradiatedStoneWall: {
-#        DisplayName: Irradiated Stone Wall
+#        DisplayName: Радиоактивная каменная стена
 #        Tooltip: ""
 #    }
 #
@@ -6591,30 +6591,30 @@
 #    }
 #
 #    LabTank: {
-#        DisplayName: Laboratory Tank
+#        DisplayName: Резервуар лаборатории
 #        Tooltip:
 #            '''
-#            'Filled with green sludge'
+#            'Наполнен зелёной жижей'
 #            {$SpecialTooltips.Unbreakable5000}
 #            '''
 #    }
 #
 #    LabTubes: {
-#        DisplayName: Laboratory Tubes
+#        DisplayName: Пробирки лаборатории
 #        Tooltip:
 #            '''
-#            'Filled with green sludge'
+#            'Наполнен зелёной жижей'
 #            {$SpecialTooltips.Unbreakable5000}
 #            '''
 #    }
 #
 #    LeadFenceBlackWallItem: {
-#        DisplayName: Lead Fence (Black Background)
+#        DisplayName: Свинцовый забор (Чёрный фон)
 #        Tooltip: ""
 #    }
 #
 #    MetalSupportBeam: {
-#        DisplayName: Metal Support Beam
+#        DisplayName: Металлическая опорная балка
 #        Tooltip: ""
 #    }
 #
@@ -6624,38 +6624,38 @@
 #    }
 #
 #    OvergrownLabPlating: {
-#        DisplayName: Overgrown Laboratory Panel (Unsafe)
+#        DisplayName: Заросшая панель лаборатории (Небезопасная)
 #        Tooltip: "{$SpecialTooltips.Unbreakable5000}"
 #    }
 #
 #    PetrifiedWood: {
-#        DisplayName: Petrified Wood
+#        DisplayName: Окаменевшая древесина
 #        Tooltip: ""
 #    }
 #
 #    PetrifiedWoodWall: {
-#        DisplayName: Petrified Wood Wall
+#        DisplayName: Стена из окаменевшей древесины
 #        Tooltip: ""
 #    }
 #
 #    PlantMatter: {
-#        DisplayName: Plant Matter
-#        Tooltip: Use at an Extractinator
+#        DisplayName: Растительный материал
+#        Tooltip: Используется на промывателе
 #    }
 #
 #    PrisonBars: {
-#        DisplayName: Prison Bars
+#        DisplayName: Тюремная решётка
 #        Tooltip: "{$SpecialTooltips.Unbreakable}"
 #    }
 #
 #    RedLaser: {
-#        DisplayName: Red Laser Block
+#        DisplayName: Красный лазерный блок
 #        Tooltip: "{$SpecialTooltips.Unbreakable5000}"
 #    }
 #
 #    ShadesteelChain: {
 #        DisplayName: Shadesteel Chain
-#        Tooltip: Can be climbed on
+#        Tooltip: Позволяет взбираться вверх
 #    }
 #
 #    Shadestone: {
@@ -6913,8 +6913,8 @@
 #    }
 #
 #    NanoPickaxe: {
-#        DisplayName: Nano Pickaxe
-#        Tooltip: Can mine Black Hardened Sludge
+#        DisplayName: Нанокирка
+#        Tooltip: Может добывать чёрную затвердевшую слякоть
 #    }
 #
 #    BeardedHatchet: {
@@ -7317,7 +7317,7 @@
 #    }
 #
 #    RevivalPotion: {
-#        DisplayName: Revival Potion
+#        DisplayName: Зелье восстановления сил
 #        Tooltip:
 #            '''
 #            Use on an unconsious town npc to wake them up
@@ -8004,7 +8004,7 @@
 #            Продолжительное удерживание <left> во время стрельбы раскручивает оружие, создавая спираль из пуль
 #            (15[i:Redemption/EnergyCell]) Продолжительное удерживание <left> при прицеливании вниз заряжает фиолетовый луч, вызывающий извержения при столкновении
 #            66% шанс не использовать боеприпасы, 90% шанс не использовать боеприпасы во время спирали из пуль
-#            'С любовью от Вторжения'
+#            'С любовью из игры Intrusion'
 #            '''
 #    }
 #
@@ -8014,7 +8014,7 @@
 #            '''
 #            Превращает обычные пули в высокоскоростные
 #            33% шанс не использовать боеприпасы
-#            'С любовью от Вторжения'
+#            'С любовью из игры Intrusion'
 #            '''
 #    }
 #
@@ -8471,7 +8471,7 @@
 #    }
 #
 #    MoonflareArrow: {
-#        DisplayName: Стрела лунного блика
+#        DisplayName: Стрела лунного зарева
 #        Tooltip:
 #            '''
 #            Burns targets while the moon is out
@@ -8983,7 +8983,7 @@
 #    }
 #
 #    CorpseWalkerStaff: {
-#        DisplayName: Corpse-Walker Staff
+#        DisplayName: Посох бродячего мертвеца
 #        Tooltip: Summons a Corpse-Walker Skull to fight for you
 #    }
 #
@@ -9113,11 +9113,11 @@
 #    }
 #
 #    KingsOakStaff: {
-#        DisplayName: King's Oak Staff
+#        DisplayName: Посох Королевского дуба
 #        Tooltip:
 #            '''
-#            Summons a Nature Pixie to fight for you
-#            Occassionally shouts at their target, dealing {0} damage
+#            Призывает природную пикси, которая сражается на вашей стороне
+#            Периодически выкрикивает на цель, нанося{0} урон [i:Redemption/Psychic][c/ffb6c1:Школы менталистики] 
 #            '''
 #        Lore:
 #            '''
@@ -9623,7 +9623,7 @@
 #    }
 #
 #    Psychic: {
-#        DisplayName: "[i:Redemption/Psychic][c/ffb6c1:Psychic]"
+#        DisplayName: ""
 #        Tooltip: ""
 #    }
 #
@@ -9762,7 +9762,7 @@
 #    }
 #
 #    OvergrownLabPlating2: {
-#        DisplayName: Overgrown Laboratory Panel
+#        DisplayName: Заросшая панель лаборатории
 #        Tooltip: ""
 #    }
 #
@@ -10099,13 +10099,13 @@
 #    }
 #
 #    MoonflareCandle: {
-#        DisplayName: Свеча лунного блика
+#        DisplayName: Свеча лунного зарева
 #        Tooltip: Держва в руках, защищает от влияния кладбища
 #    }
 #
 #    ChickenMeshiPainting: {
 #        DisplayName: Cockatrice's Glare
-#        Tooltip: "'A. Tied'"
+#        Tooltip: "'А. Тайд'"
 #    }
 #
 #    LightningStone: {
@@ -10143,7 +10143,7 @@
 #    }
 #
 #    BlackHardenedSludgeSafe: {
-#        DisplayName: Black Hardened Sludge
+#        DisplayName: Чёрная затвердевшая слякоть
 #        Tooltip: ""
 #    }
 #
@@ -10158,7 +10158,7 @@
 #    }
 #
 #    HardenedSludgeSafe: {
-#        DisplayName: Hardened Sludge
+#        DisplayName: Затвердевшая слякоть
 #        Tooltip: ""
 #    }
 #
@@ -10281,9 +10281,9 @@
 #    }
 #
 #    KS3_Clone.DisplayName: Цареубийца III?.. 
-#    KS3_Magnet.DisplayName: Дрон-магнит Mk.I
-#    KS3_MissileDrone.DisplayName: Дрон-ракета Mk.I
-#    KS3_ScannerDrone.DisplayName: Дрон-сканнер Mk.I
+#    KS3_Magnet.DisplayName: Дрон-магнит Мк.I
+#    KS3_MissileDrone.DisplayName: Дрон-ракета Мк.I
+#    KS3_ScannerDrone.DisplayName: Дрон-сканнер Мк.I
 #    SpaceKeeper.DisplayName: Хранитель космоса
 #    Nebuleus_Clone.DisplayName: Иллюзия Небулеус
 #    Nebuleus2_Clone.DisplayName: "{$NPCs.Nebuleus_Clone.DisplayName}"
@@ -10340,14 +10340,14 @@
 #    ChickenSpawner.DisplayName: Курица
 #    CoastScarab.DisplayName: Пляжный скарабей
 #    Fly.DisplayName: Муха
-#    GrandLarva.DisplayName: Большая личинка
+#    GrandLarva.DisplayName: Огромная личинка
 #    JohnSnail.DisplayName: Джон-улитка
 #    Kabucra.DisplayName: Кабучра
 #    KabucraSpawner.DisplayName: Кабучра
 #    LongChicken.DisplayName: Д л и н н а я курица
-#    MoonflareBat.DisplayName: Летучая мышь лунного блика
-#    SandskinSpider.DisplayName: Sandskin Spider
-#    SpiderSwarmer.DisplayName: Spider Swarmer
+#    MoonflareBat.DisplayName: Летучая мышь лунного зарева
+#    SandskinSpider.DisplayName: Песчанокожий паук
+#    SpiderSwarmer.DisplayName: Роевой паук
 #    TreeBug.DisplayName: Древесный жук
 #    ChickenBomber.DisplayName: Курица-подрывник
 #    ChickenScratcher.DisplayName: Chicken Scratcher
@@ -10420,8 +10420,8 @@
 #        DisplayName: "{$NPCs.ForestNymph.DisplayName}"
 #        Census.SpawnCondition:
 #            '''
-#            Use the [i:Redemption/KingsOakStaff] to gain a Forest Nymph's trust, requires positive alignment.
-#            Requires +3 alignment if a Treebark Dryad was slain.
+#            Используйте [i:Redemption/KingsOakStaff] чтобы заслужить доверие Лесной нимфы. Требуется положительное мировозрение.
+#            Если вы убили Древокожного дендрия, потребуется мировозрение 3 уровня.
 #            '''
 #    }
 #
@@ -10468,8 +10468,8 @@
 #
 #    SkullDiggerFriendly.DisplayName: "{$NPCs.SkullDigger.DisplayName}"
 #    SkullDiggerFriendly_Spirit.DisplayName: Дух Череполицего землекопа
-#    SoullessPortal.DisplayName: Shadesoul Gateway
-#    SpiritAssassin.DisplayName: Spirit Assassin
+#    SoullessPortal.DisplayName: Врата призрачной души
+#    SpiritAssassin.DisplayName: Дух убийцы
 #
 #    SpiritCommonGuard: {
 #        DisplayName: Дух гвардейца
@@ -10529,8 +10529,8 @@
 #    TBotUnconscious.DisplayName: "{$NPCs.TBot_Intro.DisplayName}"
 #
 #    TreebarkDryad: {
-#        DisplayName: Treebark Dryad
-#        Title: " the Treebark Dryad"
+#        DisplayName: Древокожий дендрий
+#        Title: ", Древокожий дендрий"
 #    }
 #
 #    WraithSlayer_Samurai.DisplayName: Cursed Samurai
@@ -10562,10 +10562,10 @@
 #
 #    Zephos_Intro.DisplayName: Зефос
 #    ZephosUnconscious.DisplayName: "{$NPCs.Zephos_Intro.DisplayName}"
-#    Android.DisplayName: Android Mk.I
-#    PrototypeSilver.DisplayName: Prototype Silver Mk.I
+#    Android.DisplayName: Андроид Мк.I
+#    PrototypeSilver.DisplayName: Prototype Silver Мк.I
 #    SlayerSpawner.DisplayName: Slayer Spawner
-#    SpacePaladin.DisplayName: Space Paladin Mk.I
+#    SpacePaladin.DisplayName: Space Paladin Мк.I
 #    IrradiatedBehemoth.DisplayName: Irradiated Behemoth
 #    IrradiatedBehemoth_Holo.DisplayName: "{$NPCs.IrradiatedBehemoth.DisplayName}"
 #    BlisteredScientist.DisplayName: Blistered Scientist
@@ -10584,7 +10584,7 @@
 #    MACEProject.DisplayName: Проект Б.У.Л.А.В.А.
 #    MACEProject_Holo.DisplayName: "{$NPCs.MACEProject.DisplayName}"
 #    MACEProject_Off.DisplayName: "{$NPCs.MACEProject.DisplayName}"
-#    OozeBlob.DisplayName: Ooze Blob
+#    OozeBlob.DisplayName: Слизистый сгусток
 #    OozingScientist.DisplayName: Oozing Scientist
 #    ProtectorVolt.DisplayName: Protector Volt
 #    ProtectorVolt_NPC.DisplayName: "{$NPCs.ProtectorVolt.DisplayName}"
@@ -10608,11 +10608,11 @@
 #    BabbyDragonLeg.DisplayName: "{$NPCs.BabbyDragonHead.DisplayName}"
 #    BabbyDragonTail1.DisplayName: "{$NPCs.BabbyDragonHead.DisplayName}"
 #    BabbyDragonTail2.DisplayName: "{$NPCs.BabbyDragonHead.DisplayName}"
-#    ShadesoulNPC.DisplayName: Shadesoul
-#    AncientGladestoneGolem.DisplayName: Ancient Gladestone Golem
+#    ShadesoulNPC.DisplayName: Призрачная душа
+#    AncientGladestoneGolem.DisplayName: Голем из древней каменной глади
 #    Blobble.DisplayName: Blobble
 #    CavernSkeletonSpawner.DisplayName: Cavern Skeleton Spawner
-#    CorpseWalkerPriest.DisplayName: Corpse-Walker Priest
+#    CorpseWalkerPriest.DisplayName: Бродячий мертвец-жрец
 #    DancingSkeleton.DisplayName: Пляшущий скелет
 #    DevilsTongue.DisplayName: Devil's Tongue
 #    EpidotrianSkeleton.DisplayName: Epidotrian Skeleton
@@ -10635,7 +10635,7 @@
 #    BloatedGrub.DisplayName: Bloated Grub
 #    BloatedSwarmer.DisplayName: Bloated Swarmer
 #    BobTheBlob.DisplayName: Bob the Blob
-#    HazmatBunny.DisplayName: Hazmat Bunny
+#    HazmatBunny.DisplayName: Кролик в химзащите
 #    HazmatZombie.DisplayName: Hazmat Zombie
 #    MutatedLivingBloom.DisplayName: Mutated Living Bloom
 #    NuclearShadow.DisplayName: Nuclear Shadow
@@ -10823,11 +10823,11 @@
 #    ShadestoneGateTile.MapEntry: "{$Items.ShadestoneGate.DisplayName}"
 #    ShadestoneMirrorTile.MapEntry: "{$Items.ShadestoneMirror.DisplayName}"
 #    WaxCandlesTile.MapEntry: "{$Items.WaxCandles.DisplayName}"
-#    AndroidInactiveTile.MapEntry: Inactive Android Mk.I
+#    AndroidInactiveTile.MapEntry: Inactive Android Мк.I
 #    BiocontainerTile.MapEntry: Life Fruit Bio-Container
 #    ChessTable4DTile.MapEntry: "{$Items.ChessTable4D.DisplayName}"
 #    DroneShelfTile.MapEntry: Drone Shelves
-#    PrototypeSilverInactiveTile.MapEntry: Inactive Prototype Silver Mk.I
+#    PrototypeSilverInactiveTile.MapEntry: Inactive Prototype Silver Мк.I
 #    SlayerChairTile.MapEntry: Slayer's Gaming Chair
 #    SlayerFabricatorTile.MapEntry: "{$Items.SlayerFabricator.DisplayName}"
 #    SolarPanelTile.MapEntry: "{$Items.SolarPanel.DisplayName}"
