@@ -64,6 +64,10 @@ public class AddNewMessagePatch : ILoadable
         if (text.Contains("couldn't handle the vacuum of space."))
             text = text.Replace("couldn't handle the vacuum of space.", "не выдерживает вакуума космоса.");
         
+        // Redemption
+        // if (text.Contains("experienced DOOR STUCK."))
+        //     text = text.Replace("experienced DOOR STUCK.", "застревает в ДВЕРЯХ.");
+        
         text = text switch
         {
             // StarsAbove
@@ -86,6 +90,20 @@ public class AddNewMessagePatch : ILoadable
             "You pet Polaris" => "Вы гладите Полярку",
             "Too much love..." => "Слишком много любви...",
             "Supreme Cirrus code attempted to crash the game. Did you do something weird?" => "Код Высшей Циррус попытался вызвать сбой игры. Вы сделали что-то странное?",
+            
+            // Redemption
+            // "A sleeping stone appears..." => "",
+            // "Nebuleus is nowhere to be found..." => "",
+            // "A Shadesoul Gateway has been opened..." => "",
+            // "A Shadesoul Gateway has been closed..." => "",
+            // "Daerel the Wayfarer has woken up!" => "",
+            // "Adam the Friendly T-Bot has woken up!" => "",
+            // "Zephos the Wayfarer has woken up!" => "",
+            // "A Shadesoul Gateway has faded by itself..." => "",
+            // "A blobble swarm has arrived!" => "",
+            // "The bomb is too close to unexplodable tiles" => "",
+            // "The bomb must be activated on the surface and in the far reaches of the world" => "",
+            // "The fowl legion charges in!" => "",
             _ => text
         };
 

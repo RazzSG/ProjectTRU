@@ -128,6 +128,10 @@ public class CombatTextPatch : ILoadable
             // "My ladle knows no mercy." => "",
             // "Too dapper for the dagger" => "",
             // "ded" => "",
+            // "Ka dosmok cul', ut yai hu roma," => "",
+            // "Acett'nin jugh, il noka voe yu commu," => "",
+            // "Cult'nin un yei ruk', consu'nin yei min'," => "",
+            // "Ot I cun, jugh niqui tie." => "",
             _ => text
         };
         
