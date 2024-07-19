@@ -1,5 +1,6 @@
 ﻿using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
+using CalamityRuTranslate.Core.Config;
 using Terraria;
 using Terraria.ModLoader;
 using ThoriumMod;
@@ -12,7 +13,7 @@ public class ThoriumGlobalBuff : GlobalBuff
 {
     public override bool IsLoadingEnabled(Mod mod)
     {
-        return ModInstances.Thorium != null && TranslationHelper.IsRussianLanguage;
+        return ModInstances.Thorium != null && TRuConfig.Instance.ThoriumModLocalization && TranslationHelper.IsRussianLanguage;
     }
 
     public override void ModifyBuffText(int type, ref string buffName, ref string tip, ref int rare)

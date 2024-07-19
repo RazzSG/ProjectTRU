@@ -15,16 +15,19 @@
       <HintPath>..\ModAssemblies\FargowiltasSouls_v1.6.9.1.dll</HintPath>
     </Reference>
     <Reference Include="InfernumMode">
-      <HintPath>..\ModAssemblies\InfernumMode_v2.0.1.dll</HintPath>
+      <HintPath>..\ModAssemblies\InfernumMode_v2.0.1.2.dll</HintPath>
     </Reference>
     <Reference Include="NoxusBoss">
       <HintPath>..\ModAssemblies\NoxusBoss_v1.1.25.dll</HintPath>
     </Reference>
+    <Reference Include="Redemption">
+      <HintPath>..\ModAssemblies\Redemption_v0.8.0.4037.dll</HintPath>
+    </Reference>
     <Reference Include="StarsAbove">
-      <HintPath>..\ModAssemblies\StarsAbove_v2.1.1.2.dll</HintPath>
+      <HintPath>..\ModAssemblies\StarsAbove_v2.1.2.0.dll</HintPath>
     </Reference>
     <Reference Include="ThoriumMod">
-      <HintPath>..\ModAssemblies\ThoriumMod_v1.7.1.4.dll</HintPath>
+      <HintPath>..\ModAssemblies\ThoriumMod_v1.7.1.6.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>

@@ -7562,7 +7562,7 @@ Items: {
 
     DreadRazor: {
         DisplayName: Устрашающая бритва
-        Tooltip: Нажмите <right>, чтобы выпустить потом энергии ужаса
+        Tooltip: Нажмите <right>, чтобы выпустить поток энергии ужаса
     }
 
     DreadSkull: {

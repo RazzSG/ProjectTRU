@@ -13,7 +13,7 @@ public class ThoriumModifiedDamageTypes : GlobalItem
 {
     public override bool IsLoadingEnabled(Mod mod)
     {
-        return ModInstances.Thorium != null && TranslationHelper.IsRussianLanguage;
+        return ModInstances.Thorium != null && TRuConfig.Instance.ThoriumModLocalization && TranslationHelper.IsRussianLanguage;
     }
 
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)

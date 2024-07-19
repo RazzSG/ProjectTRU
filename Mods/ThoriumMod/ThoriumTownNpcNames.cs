@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
+using CalamityRuTranslate.Core.Config;
 using Terraria;
 using Terraria.ModLoader;
 using ThoriumMod.NPCs;
@@ -76,7 +77,7 @@ public class ThoriumTownNpcNames : GlobalNPC
     
     public override bool IsLoadingEnabled(Mod mod)
     {
-        return ModInstances.Thorium != null && TranslationHelper.IsRussianLanguage;
+        return ModInstances.Thorium != null && TRuConfig.Instance.ThoriumModLocalization && TranslationHelper.IsRussianLanguage;
     }
 
     public override void ModifyNPCNameList(NPC npc, List<string> nameList)

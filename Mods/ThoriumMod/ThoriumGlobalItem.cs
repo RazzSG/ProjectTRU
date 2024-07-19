@@ -2,6 +2,7 @@
 using System.Globalization;
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
+using CalamityRuTranslate.Core.Config;
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
@@ -56,7 +57,7 @@ public class ThoriumGlobalItem : GlobalItem
 {
     public override bool IsLoadingEnabled(Mod mod)
     {
-        return ModInstances.Thorium != null && TranslationHelper.IsRussianLanguage;
+        return ModInstances.Thorium != null && TRuConfig.Instance.ThoriumModLocalization && TranslationHelper.IsRussianLanguage;
     }
 
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)

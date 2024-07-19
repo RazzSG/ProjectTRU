@@ -14,8 +14,8 @@ public class ModCompatibilityChecker : ModSystem
         new("FargowiltasSouls", new Version(1, 6, 10, 6), true),
         new("Fargowiltas", new Version(3, 3, 4, 5), true),
         new("ThoriumMod", new Version(1, 7, 1, 6), true),
-        new("NoxusBoss", new Version(1, 1, 25), false),
-        new("StarsAbove", new Version(2, 1, 1, 2), false),
+        new("NoxusBoss", new Version(1, 1, 27), false),
+        new("StarsAbove", new Version(2, 1, 2, 0), false),
     };
 
     public override bool IsLoadingEnabled(Mod mod)

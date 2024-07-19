@@ -1,5 +1,6 @@
 ﻿using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
+using CalamityRuTranslate.Core.Config;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -11,7 +12,7 @@ public class ThoriumNpcChat : GlobalNPC
 {
     public override bool IsLoadingEnabled(Mod mod)
     {
-        return ModInstances.Thorium != null && TranslationHelper.IsRussianLanguage;
+        return ModInstances.Thorium != null && TRuConfig.Instance.ThoriumModLocalization && TranslationHelper.IsRussianLanguage;
     }
 
     public override void GetChat(NPC npc, ref string chat)
