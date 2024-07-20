@@ -47,7 +47,7 @@
 #    }
 #
 #    KS3: {
-#        Name: Цареубийца III
+#        Name: Король-охотник III
 #        Modifier: Прототип Мультиум
 #    }
 #
@@ -98,7 +98,7 @@
 #
 #    Ukko: {
 #        Name: Укко
-#        Modifier: Древнее божество погоды
+#        Modifier: Древний бог погоды
 #    }
 #
 #    Akka: {
@@ -675,52 +675,52 @@
 #            '''
 #        Datalog20:
 #            '''
-#            'About damn time. I've finally found a green planet. But am I happy about this?
-#            Not really. I thought this would make me feel something, but it's hopeless.
-#            I can't remember the last time I felt happy, my fault for forcing my vessel to keep me alive.
-#            But anyway, it looks like this planet has intelligent life, so I'll land and see if they're friendly.
-#            If they're not, I'll just shoot them. Simple.'
+#            'Как, чёрт побери, вовремя. Я наконец обнаружил зеленую планету. Счастлив ли я этому?
+#            Не то что бы. Я надеялся, что этот мир заставит меня что-нибудь почувствовать, но безнадежно.
+#            Не могу вспомнить, когда в последний раз был весел. Моя вина, что платформа продолжает поддерживать меня живым.
+#            Но да ладно. Кажется на этой планете есть разумная жизнь, так что приземлюсь и посмотрю, дружелюбны ли они.
+#            Если нет, то пристрелю их. Всё просто.'
 #            '''
 #        Datalog21:
 #            '''
-#            'Today is the 10,000th year in space, only 1% of a million...
-#            I feel like living beings shouldn't be allowed to live for this long.
-#            A hundred years for a human is forever, and I've been around for 100x that!
-#            I've redesigned my robotic body again, but I still haven't figured out how to get into my
-#            human mind and get rid of this STUPID HUNGER. I DON'T HAVE A STOMACH, WHY AM I HUNGRY!?
-#            I DON'T HAVE EYES, WHY AM I SO TIRED!? WHY DO I HAVE TO ENDURE THIS DAMN IT!?'
+#            'Сегодня 10,000-ый год в космосе... лишь 1% от миллиона...
+#            Я чувствую, что живым существам нельзя позволять жить так долго.
+#            Сто лет для человека - это целая вечность, а я прожил уже в 100 раз больше!
+#            Я снова переделал свое роботизированное тело, но до сих пор не придумал, как попасть в мой
+#            человеческий разум и избавиться от этого ТУПОГО ГОЛОДА. У МЕНЯ ДАЖЕ НЕТ ЖЕЛУДКА, ТАК ПОЧЕМУ Я ГОЛОДЕН?!
+#            У МЕНЯ НЕТ ГЛАЗ, ТАК ПОЧЕМУ Я УСТАЮ?! ПОЧЕМУ Я ДОЛЖЕН ПРОХОДИТЬ ЧЕРЕЗ ВСЕ ЭТИ МУКИ, ЧЁРТ ТЕБЯ ПОБЕРИ?!'
 #            '''
 #        Datalog22:
 #            '''
-#            'The SoS got attacked by some Space Pirates.
-#            Not like I care, I destroyed their ships so what can they do now?
-#            The SoS's scanner picked up a lifeform in the engine room, so I should probably check it out.
-#            I can't be asked to do anything really. But whatever.'
+#            'СоС атаковали какие-то космические пираты.
+#            Не то чтобы меня это волновало, я уничтожил их корабли, и что они теперь сделают?
+#            Сканер СоС обнаружил в двигательном отсеке какую-то форму жизни, думаю надо проверить.
+#            На самом деле меня нельзя ни о чем просить. Но это неважно.'
 #            '''
 #        Datalog23: "'Отлично'"
 #        Datalog24:
 #            '''
-#            'It's been 10% of a million years now. Yay.
-#            I accidently skipped a day in the data logs so 10% was really yesterday, but not like I care.
-#            I have explored... 2853 planets now, and they are starting to all look the same.
-#            I'm sick of ice planets, sick of lush green ones, sick of barren ones... I guess I'm not satisfied anymore.'
+#            'Прошло уже 10% от миллиона лет. Ура.
+#            Я случано пропустил этот день в журнале данных, так что 10% на самом деле было вчера, но да какая разница.
+#            За это время я исследовал уже... 2853 планет, все они начинают походить друг на друга.
+#            Меня уже тошнит от ледяных планет, тошнит от пышных зеленых, тошнит от пустынных... Кажется, теперь мне уже ничто не угодит.'
 #            '''
 #        Datalog25:
 #            '''
-#            'I haven't felt like this in forever.
-#            I upgraded my robotic self again, this time with more attack power. Xehito let me test it on him,
-#            so we had a fight. The intensity of it was almost exhilarating, lasers firing everywhere,
-#            explosions all around, it was generally a fun time. But something tells me he only let me
-#            fight him to cheer me up, and I'm sorry Xehito, but that moment didn't last, I still feel empty.'
+#            'Целую вечность так себя не чувствовал.
+#            Я снова обновил свое роботизированное 'я', на этот раз улучшив силу атаки. Ксехито позволил протестировать её на нём,
+#            так что мы немного подрались. Интенсивность битвы была невероятной, повсюду лазеры,
+#            взрывы. Было весело. Но что-то подсказывает мне, что предложил сразиться он
+#            только затем, чтобы подбодрить меня. Прости, Ксехито, но этот момент не продлился долго, я всё ещё чувствую себя опустошенным.'
 #            '''
 #        Datalog26:
 #            '''
-#            'Only 1000 years until a million, and I can return home.
-#            I've already set my course, but the problem is, because of that wormhole,
-#            I don't know which way is home... All I can do now is go to a random direction
-#            and hope for the best. But the galaxy is vast, I fear by the time I reach home again,
-#            The next reset would've already started, and I'd have to wait another million years.
-#            If that happens, I won't try anymore, I'll just give up.'
+#            'До миллиона осталось лишь 1000 лет, затем я смогу вернуться домой.
+#            Курс уже установлен. Но проблема в том, что, из-за той червотовины,
+#            я понятия не имею, где дом... Всё, что могу сейчас сделать, так это отправится в случайном направлении
+#            и надеяться на лучшее. Но галактика обширна, и боюсь к моменту, когда я достигну дома,
+#            следующий Сброс уже начнётся, а мне придется вновь ждать миллион лет...
+#            Если подобное случится, я больше не буду пытаться, я просто сдамся.'
 #            '''
 #        Datalog27:
 #            '''
@@ -739,7 +739,7 @@
 #            '''
 #        HoldShift: Удерживайте 'Shift', чтобы посмотреть, что вы пропустили
 #        SpiritWalker: -Получение спиритической способности
-#        Chalice: -Получение ваажного объекта правосудия
+#        Chalice: -Получение важного объекта правосудия
 #        Newb: -Обнаружение подозрительной сущности под порталом
 #        FowlEmperor: -Сражение с могучим петухом
 #        Thorn: -Сражение с заражённой погибелью леса [c/bbf160:(светлый путь)]
@@ -771,7 +771,7 @@
 #    }
 #
 #    TreebarkDryad: {
-#        1: Тише,[0.1] тише.[0.5] Смотри где размахиваешь своим топором...[1] я не хочу, чтобы ты разрубил моих друзей.
+#        1: Тише,[0.1] тише.[0.5] Смотри, где размахиваешь топором...[1] я не хочу, чтобы ты разрубил моих друзей.
 #        2: "Это ни к чему хорошему не приведёт,[0.1] "
 #        3: молодой человек
 #        4: молодая девушка
@@ -846,7 +846,7 @@
 #
 #        Choice: {
 #            1: Как вижу,[0.1] потерпел я[0.3] поражение.
-#            2: Если,[0.3] ты[0.1] не пощадишь меня...
+#            2: Если[0.3] ты[0.1] не пощадишь меня...
 #            3: Отправь мастеру Святому рыцарю[0.3] мои соболезнования.
 #            4: Что же...[0.5] До встречи!
 #        }
@@ -889,9 +889,9 @@
 #        Warhead1: Ах,[0.1] должен предостеречь на случай, если получишь ядерную боеголовку.
 #        Warhead2: Радиация для людей представляет серьёзную опасность,[0.1] но её можно и избежать.
 #        Warhead3: Если возле кратера увидишь светящийся синий материал,[0.1] не подходи.[0.5] Это плутоний.
-#        Warhead4: A Geiger-Muller will warn you of irradiated areas,[0.2] and if you do get sick,[0.1] take a Radiation Pill as soon as possible.
-#        Warhead5: I will sell these once you set the nuke off.
-#        Warhead6: .[0.1].[0.1].[0.1]Err,[0.1] that is if you DO decide to detonate one.
+#        Warhead4: Счётчик Гейгера-Мюллера предупредит об местах облучаения,[0.2] но если ты всё же облучишься,[0.1] как можно скорее прими радиационные таблетки.
+#        Warhead5: Я начну их продавать, когда ты взорвёшь боеголовку.
+#        Warhead6: .[0.1].[0.1].[0.1]Эммм...[0.1] ЕСЛИ ты её взорвёшь.
 #    }
 #
 #    SoI: Открывается портал в другой мир!
@@ -908,13 +908,13 @@
 #
 #        Talk: {
 #            1: Оуи!
-#            2: I wouldn't take that spirit back to Arum if I were ya.
-#            3: And why would that be?
-#            4: Forgive my bluntness,[0.1] but the barons of Arum are nothing but rancorous demons.
-#            5: "[@b]Excuse me?[0.5] I haven't seen a single droplet of malice from them,[0.1] and I've been workin' with them for years!"
-#            6: As have I...[0.3][@c][@d] in a more direct sense.[0.5][@g] Just trust me lassie,[0.1] break free Kyretha's spirit.[0.5] Let her truly rest.
-#            7: To doubt the wisdom of a liberated spirit would be most imprudent.
-#            8: .[0.1].[0.1].[0.5] [@e]Горхаль'он.[0.5][@f] Таборти.[0.6] I'll free it after I go through the portal.
+#            2: Я, на твоём месте, не возвращал бы этот дух в Арум.
+#            3: И почему же?
+#            4: Прости за грубость,[0.1] но бароны Арума - злобные демоны.
+#            5: "[@b]Простите?[0.5] Я не видела от них ни капли злобы,[0.1] а работала я с ними многие годы!"
+#            6: Как и я...[0.3][@c][@d] в более прямом смысле.[0.5][@g] Просто поверь, девочка,[0.1] и освободи дух Киреты.[0.5] Дай ей отдохнуть.
+#            7: Сомневаться в мудрости свободного духа было бы в высшей степени глупо.
+#            8: .[0.1].[0.1].[0.5] [@e]Горхаль'он.[0.5][@f] Таборти.[0.6] Я освобожу её, как только пройду через портал.
 #            9: Это обещание?
 #            10: Би'оурен.
 #            11: Очень хорошо.
@@ -986,12 +986,12 @@
 #            Ranged: Любишь стрелять,[0.1] да?[0.5] Ну, попробуй пострелять по мне теперь.
 #            Normal: Ну давай,[0.1] стреляй в меня.
 #            Joke1: "[@h3]Возможно, мне даже придется начать воспринимать тебя всерьёз..."
-#            Joke2: "[@h0]ХАХ![0.5] Ну и шутка!"
+#            Joke2: "[@h0]ХАХ![0.5] Шутка!"
 #        }
 #
 #        Interval3: {
 #            1: Уже даже не смешно![0.5] А ты не должен, ну, уставать там?
-#            2: "[@h3]*Кхм*[1] Твоя настойчивость похвально,[0.1] признаю."
+#            2: "[@h3]*Кхм*[1] Твоя настойчивость похвальна,[0.1] признаю."
 #            3: "[@h2]Но, пойми, я и сам сильно не стараюсь.[1][@h1] Честно."
 #        }
 #
@@ -1013,7 +1013,7 @@
 #        Continue: {
 #            Accept: Ясно, понятно...
 #            Overclock1: Опять.[0.1] А ты решительно настроен победить...
-#            Overclock2: Грустно даже, что сосуд придётся разгонять...
+#            Overclock2: Грустно даже, что платформу придётся разгонять...
 #            Overclock3: ...как же тебе нравится всё усложнять.
 #            IfRobot: ...из-за какого-то куска металла.
 #            IfChicken: ...и из-за кого?[0.5] Гребанной курицы?!
@@ -1026,17 +1026,17 @@
 #        Intro: {
 #            1: СКАНИРОВАНИЕ ЦЕЛИ...
 #            2: ОЦЕНКА ЦЕЛИ -[0.5] 'ПУСТАЯ ТРАТА ВРЕМЕНИ'
-#            3: РЕТРАНСЛЯЦИЯ СООБЩЕНИЯ-[0.5] 'У ЦАРЕУБИЙЦЫ НЕТ НА ТЕБЯ ВРЕМЕНИ'
+#            3: РЕТРАНСЛЯЦИЯ СООБЩЕНИЯ-[0.5] 'У КОРОЛЬ-ОХОТНИКА НЕТ НА ТЕБЯ ВРЕМЕНИ'
 #        }
 #    }
 #
 #    KS3Message: {
 #        Attacked1: Вы только посмотрите на этот гиперактивный веник.
-#        Attacked2: Ты ведь в курсе,[0.1] что нас около миллиона, да?[1] Неважно,[0.1] я здесь чтобы передать сообщение от Цареубийцы -
+#        Attacked2: Ты ведь в курсе,[0.1] что нас около миллиона, да?[1] Неважно,[0.1] я здесь чтобы передать сообщение от Король-охотника -
 #        Message: '''"Я скоро отправляюсь в другой мир,[0.1] поэтому, если нужно от меня что,[0.3] то поторопись."'''
 #        Variant: Да пошёл ты.
 #        1: Не атакуй.
-#        2: Я здесь, чтобы передать сообщение от Цареубийцы -
+#        2: Я здесь, чтобы передать сообщение от Король-охотника -
 #    }
 #
 #    WielderBot: {
@@ -1086,38 +1086,38 @@
 #    Volt: {
 #        Start: {
 #            1: Стоять!
-#            2: Тебе не положено здесь находиться!
-#            R1: Что? Тебе действительно разрешено пройти?
+#            2: Вам не положено здесь находиться!
+#            R1: Что? Вам действительно разрешено пройти?
 #            R2: Одну секунду...
-#            R3: Похоже, всё в порядке.[0.5] Проходи.
+#            R3: Кажется, всё в порядке.[0.5] Проходите.
 #        }
 #
 #        Defeat: {
 #            Refight: Достаточно.
-#            1: ... Так у тебя есть пропуск?[0.5] Позволь проверить.
-#            2: ... Чего?
-#            3: ... Тебе и правда можно пройти?
+#            1: ...У вас есть пропуск?[0.5] Позвольте проверить.
+#            2: ...Чего?
+#            3: ...Вам и правда можно пройти?
 #            4: Какая досадная оплошность.[0.5] Прошу прощения.
 #        }
 #    }
 #
 #    Janitor: {
 #        Start: {
-#            1: Oi![0.1] Don't go there,[0.1] the floor's wet.
-#            2: "[@b]Wait...[0.5] You're a trespasser!"
-#            R1: ...Why did you have to barge in through the ventilation shaft?
-#            R2: Lost your access card huh?[0.5] Have mine and get out of my sight.
-#            R3: "[@a]*Grumbles* Those darn careless bots losing their cards..."
+#            1: Ой![0.1] Не ходи туда,[0.1] там пол мокрый.
+#            2: "[@b]Стой-ка...[0.5] ты ведь вторженец!"
+#            R1: ...Зачем ты вообще пробирался через вентиляционную шахту?
+#            R2: Карту доступа потерял, да?[0.5] Возьми мою и вон отсюда.
+#            R3: "[@a]*ворчит* Чёртовы боты, вечно теряют свои карты..."
 #        }
 #
 #        Defeat: {
 #            1: Ладно,[0.1] ладно!
-#            2: Alright fine,[0.1] you probably can handle yourself here.
-#            3: Here,[0.1] have this Lab Access thing and get lost!
-#            4: "[@a]I got moppin' to do."
-#            B1: Ey...
-#            B2: Did you just...[0.5] block my way?
-#            B3: Well screw you too!
+#            2: Хорошо,[0.1] за себя постоять ты явно можешь.
+#            3: Держи,[0.1] карта доступа от лаборатории, а теперь проваливай!
+#            4: "[@a]Мне тут ещё пол мыть надо."
+#            B1: Эй...
+#            B2: Ты сейчас...[0.5] мне дорогу загородил?
+#            B3: Ой, да пошёл ты!
 #        }
 #    }
 #
@@ -1308,8 +1308,8 @@
 #
 #GenericTerms: {
 #    Words: {
-#        Fighting: fighting
-#        Slaying: slaying
+#        Fighting: сражается
+#        Slaying: убивает
 #    }
 #
 #    Choice: {
@@ -1473,12 +1473,12 @@
 #    }
 #
 #    SpiritWalkerMan: {
-#        1: Spirit Walking?
+#        1: Спиритизм?
 #        2: Смертозвон?
 #        3: Затерянные души и скитальцы?
 #        4: Иные использования смертозвона?
 #        5: О тебе?
-#        Tophat: Request Old Tophat's Crux
+#        Tophat: Запрос сущности старого цилиндра
 #        Crux: Запрос сущности
 #    }
 #
@@ -1493,12 +1493,12 @@
 #    }
 #
 #    SpiritGathicMan: {
-#        1: Olden Ruins?
+#        1: Старые руины?
 #        2: Бог разложения?
 #        3: Ложные боги?
 #        4: Смертозвон?
 #        5: О тебе?
-#        Offer: Offer Grave Steel Battleaxe
+#        Offer: Предложить боевой топор из загробной стали
 #        Crux: Запрос сущности
 #    }
 #
@@ -1515,7 +1515,7 @@
 #        2: Ригуса?
 #        3: Демоны?
 #        4: О тебе?
-#        Offer: Offer Noble's Halberd
+#        Offer: Предложить алебарду аристократа
 #        Crux: Запрос сущности
 #    }
 #
@@ -1525,13 +1525,13 @@
 #        3: Гатурам?
 #        4: Готрион?
 #        5: Демон?
-#        Offer: Offer 3 Nightshade
+#        Offer: Предложить 3 паслёна
 #        Crux: Запрос сущности
 #    }
 #
 #    Fallen: {
-#        Repair: Repair Fragments
-#        Eye: Eye's Origins?
+#        Repair: Починить фрагменты
+#        Eye: Истоки Глаза?
 #    }
 #
 #    TBot: {
@@ -1551,54 +1551,54 @@
 #        1: Предложить мешочек с травами
 #        2: Предложить ангулонский мистический цветок
 #        3: Дом?
-#        4: Offer building a home
-#        HomeRequirements: Home Requirements
-#        5: How is your home?
+#        4: Предложить построить дом
+#        HomeRequirements: Требования к жилищу
+#        5: Как тебе дом?
 #        Talk: Говорить
-#        Trade: Trade
-#        Blessing: Nature's Blessing
-#        Follow: Follow
-#        SFollow: Stop Following
-#        DHair: Decorate Hair
-#        SHair: Style Hair
+#        Trade: Торговать
+#        Blessing: Благословение природы
+#        Follow: Следовать
+#        SFollow: Прекратить следовать
+#        DHair: Декорировать причёску
+#        SHair: Изменить причёску
 #        Crux: Запрос сущности
 #    }
 #
 #    Calavia: {
-#        1: Assistance?
-#        2: You want to go back?
-#        2Alt: Why did you enter?
-#        3: You want to go back?
-#        4: Just as clueless as you
-#        4Alt: Nothing at all
-#        5: What will you do?
-#        6: Anything I can help with?
-#        6Alt: Good luck with that
-#        7: What do you need?
-#        7Alt: I refuse
-#        8: I will offer help
-#        8Alt: You're ready to leave
-#        9: Farewell
-#        9Alt: Don't leave yet
-#        Ready: Feeling ready?
-#        Require: Requirements
+#        1: Помощь?
+#        2: Хочешь вернуться?
+#        2Alt: Зачем ты вошла?
+#        3: Хочешь вернуться?
+#        4: Без понятия
+#        4Alt: Абсолютно ничего
+#        5: Что будешь делать?
+#        6: Могу чем помочь?
+#        6Alt: Удачи
+#        7: Что тебе нужно?
+#        7Alt: Отказываюсь
+#        8: Я предложу помощь
+#        8Alt: Готова уходить?
+#        9: Прощай
+#        9Alt: Не уходи пока
+#        Ready: Готова?
+#        Require: Требования
 #        Alloy: Offer 6 Pure-Iron Alloy
 #        AntiqueHelmet: Offer Antique Pure-Iron Helmet
 #        Helmet: Offer Pure-Iron Helmet
-#        Furnace: Gathic Cryo-Furnace?
-#        Forge: Forge
-#        10: About you?
-#        11: Captive spirit?
-#        12: Explain
+#        Furnace: Гатрийская крио-кузня?
+#        Forge: Ковка
+#        10: О тебе?
+#        11: Захваченный дух?
+#        12: Объясни
 #        Crux: Запрос сущности Киреты
-#        Leave: You're ready to leave
+#        Leave: Ты готова уходить
 #    }
 #
 #    KS3: {
 #        0: Зачем ты здесь?
 #        1: Разбившийся космический корабль?
 #        2: Дать уран
-#        3: Ты не сражаешься со мной?
+#        3: Не сражаешься со мной?
 #        4: Ты человек?
 #        5: Зал героев?
 #        6: Заброшенная лаборатория?
@@ -1615,7 +1615,7 @@
 #        5: Проект БУЛАВА?
 #        6: Что на дне лаборатории?
 #        7: Гирус?
-#        8: '''"The unlucky ones"?'''
+#        8: '''"Неудачливые"?'''
 #        9: Зачем следовать за Гирус?
 #        10: Битва!
 #    }
@@ -1932,7 +1932,7 @@
 #    }
 #
 #    KS3PetBuff: {
-#        DisplayName: Проектор Цареубийцы
+#        DisplayName: Проектор Король-охотника
 #        Description: He's bored and needs some entertainment
 #    }
 #
@@ -1982,8 +1982,8 @@
 #    }
 #
 #    EggPetBuff: {
-#        DisplayName: The Egg
-#        Description: The Egg
+#        DisplayName: Яйцо
+#        Description: Яйцо
 #    }
 #
 #    BasanPetBuff: {
@@ -2022,7 +2022,7 @@
 #    }
 #
 #    HolyFireDebuff: {
-#        DisplayName: Incandescence
+#        DisplayName: Великолепие
 #        Description: NO! TOO GLORIOUS! STOP!
 #    }
 #
@@ -2449,8 +2449,8 @@
 #    }
 #
 #    SlayerShipBiome: {
-#        DisplayName: Потерпевший крушение крейсер Убийцы
-#        TownNPCDialogueName: Потерпевший крушение крейсер Убийцы
+#        DisplayName: Потерпевший крушение крейсер Король-охотника
+#        TownNPCDialogueName: Потерпевший крушение крейсер Король-охотника
 #    }
 #
 #    LidenBiome: {
@@ -3346,13 +3346,13 @@
 #    }
 #
 #    SlayerController: {
-#        DisplayName: Геймпад Цареубийцы
+#        DisplayName: Геймпад Король-охотника
 #        Tooltip: Меняет курсор на бирюзовый прицел, когда инвентарь закрыт
 #    }
 #
 #    SlayerProjector: {
-#        DisplayName: Проектор Цареубийцы
-#        Tooltip: Призывает голограмму Цареубийцы для вынесения вам приговора
+#        DisplayName: Проектор Король-охотника
+#        Tooltip: Призывает голограмму Король-охотника для вынесения вам приговора
 #    }
 #
 #    XenomiteJetpack: {
@@ -4105,10 +4105,10 @@
 #    }
 #
 #    KingSlayerMask: {
-#        DisplayName: Маска Цареубийцы III
+#        DisplayName: Маска Король-охотника III
 #        Tooltip:
 #            '''
-#            'Был ли он убийцей царей или царём убийц?'
+#            'Был ли он охотник на королей или король охотников?'
 #            'Или он просто счёл, что это круто звучит'
 #            '''
 #    }
@@ -6246,7 +6246,7 @@
 #    }
 #
 #    KSBox: {
-#        DisplayName: Музыкальная шкатулка (Цареубийца III)
+#        DisplayName: Музыкальная шкатулка (Король-охотник III)
 #        Tooltip: William 'GoukisanNG' Prevett - Betrayal of Fear
 #    }
 #
@@ -6286,7 +6286,7 @@
 #    }
 #
 #    SlayerShipBox: {
-#        DisplayName: Музыкальная шкатулка (Разбившийся корабль Цареубийцы)
+#        DisplayName: Музыкальная шкатулка (Разбившийся корабль Король-охотника)
 #        Tooltip: PeriTune - Suspense3
 #    }
 #
@@ -6784,12 +6784,12 @@
 #    }
 #
 #    KS3Relic: {
-#        DisplayName: Реликвия Цареубийцы III
+#        DisplayName: Реликвия Король-охотника III
 #        Tooltip: ""
 #    }
 #
 #    KS3Trophy: {
-#        DisplayName: Трофей Цареубийцы III
+#        DisplayName: Трофей Король-охотника III
 #        Tooltip: ""
 #    }
 #
@@ -6998,7 +6998,7 @@
 #        Tooltip:
 #            '''
 #            Can be given to a certain Undead as currency
-#            'Ancient gold coins used in the olden days of Gathuram'
+#            'Древние золотые монеты, валюта Гатурама старых дней'
 #            '''
 #    }
 #
@@ -7099,8 +7099,8 @@
 #        DisplayName: Мини-боеголовка
 #        Tooltip:
 #            '''
-#            A huge explosion that will destroy most tiles
-#            'I don't want to set the world on fire'
+#            Большой взрыв, разрушающий большинство блоков
+#            'Я не хочу утопить мир в огне'
 #            '''
 #    }
 #
@@ -7111,7 +7111,7 @@
 #
 #    NoveltyMop: {
 #        DisplayName: Причудливая швабра
-#        Tooltip: "'Not as lethal as Janitor's'"
+#        Tooltip: "'Менее смертельная, чем у Уборщика'"
 #    }
 #
 #    OmegaCleaverBag: {
@@ -7120,7 +7120,7 @@
 #    }
 #
 #    OmegaGift: {
-#        DisplayName: Подарок омеги
+#        DisplayName: Подарок Омег
 #        Tooltip:
 #            '''
 #            {$CommonItemTooltip.RightClickToOpen}
@@ -7145,7 +7145,7 @@
 #
 #    OrePowder: {
 #        DisplayName: Волшебный минеральный порошок
-#        Tooltip: Converts basic ores into hardmode ores
+#        Tooltip: Превращает обычные руды в хардмодные
 #    }
 #
 #    PlutoniumBomb: {
@@ -7279,7 +7279,7 @@
 #    }
 #
 #    P0T4T0: {
-#        DisplayName: К4РТ0ФЕЛЕН4
+#        DisplayName: К4РТ0ФЕЛИН4
 #        Tooltip:
 #            '''
 #            {$CommonItemTooltip.MediumStats}
@@ -7306,22 +7306,22 @@
 #        DisplayName: Антирадиационная пилюля
 #        Tooltip:
 #            '''
-#            Cures radiation poisoning
-#            READ INSTRUCTIONS:
-#            - Make sure you know for a fact you have radiation poisoning, this will do more harm than good!
-#            - This medicine works at a slow pace, and cannot cure extreme doses. If your vision is a green haze,
-#              we recommend using a shovel to dig a hole for your coffin, as you will be needing one shortly.
-#            - After successful use, you will feel weak and fragile, this will go away in a few minutes.
-#            'Radiation normally cannot be cured, but with this new medicine, we are slowly progressing.'
+#            Излечивает радиационное отравление
+#            ИНСТРУКЦИЯ:
+#            - Просьба убедится, что у вас есть радиационное отравление, иначе лекарство принесёт больше вреда, чем пользы!
+#            - Данное лекарство действует медленно, не излечивает экстремальные дозы облучения. Если ваше зрение затуманивается зелёной дымкой,
+#              мы рекомендуем в срочном порядке взять лопату и выкопать яму для гроба, ведь скоро он вам понадобится.
+#            - После успешного использования вы почувствуете некоторую слабость, в течение следующих минут она пропадёт.
+#            'Обычно радиация не может быть вылечена, но, с этим новейшим лекарством, у нас наметился прогресс'
 #            '''
 #    }
 #
 #    RevivalPotion: {
-#        DisplayName: Зелье восстановления сил
+#        DisplayName: Зелье возрождения
 #        Tooltip:
 #            '''
-#            Use on an unconsious town npc to wake them up
-#            Consume to cure most debuffs
+#            Используйте на жителе без сознания, чтобы поднять его
+#            Используйте на себе, чтобы снять большинство дебаффов
 #            '''
 #    }
 #
@@ -7330,7 +7330,7 @@
 #        Tooltip:
 #            '''
 #            {$CommonItemTooltip.MediumStats}
-#            'The forbidden croissant'
+#            'Запретный круассан'
 #            '''
 #    }
 #
@@ -7339,7 +7339,7 @@
 #        Tooltip:
 #            '''
 #            Значительно увеличивает все характеристики
-#            'Tastes like black liquorice'
+#            'На вкус как чёрная лакрица'
 #            '''
 #    }
 #
@@ -7357,7 +7357,7 @@
 #        Tooltip:
 #            '''
 #            {$CommonItemTooltip.MediumStats}
-#            'Do you know who ate all the donuts?'
+#            'Не знаешь, кто съел все пончики?'
 #            '''
 #    }
 #
@@ -7380,7 +7380,7 @@
 #        Tooltip:
 #            '''
 #            Значительно увеличивает все характеристики
-#            'A reward for a long day's work'
+#            'Награда за долгий день работы'
 #            '''
 #    }
 #
@@ -7408,7 +7408,7 @@
 #        Tooltip:
 #            '''
 #            {$CommonItemTooltip.RightClickToOpen}
-#            'Surely I can get something useful from this scrap...'
+#            'Из этого металлома точно можно получить что-то полезное...'
 #            '''
 #    }
 #
@@ -7423,7 +7423,7 @@
 #    }
 #
 #    SlayerBag: {
-#        DisplayName: Киберкейс удачи (Цареубийца III)
+#        DisplayName: Киберкейс удачи (Король-охотник III)
 #        Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 #    }
 #
@@ -7441,7 +7441,7 @@
 #        DisplayName: Древний символ
 #        Tooltip:
 #            '''
-#            Reawakens an ancient power...
+#            Пробуждает древнюю силу...
 #            Можно использовать только днём
 #            Не расходуется
 #            '''
@@ -7457,7 +7457,7 @@
 #    }
 #
 #    CyberTech: {
-#        DisplayName: Киберрадио
+#        DisplayName: Кибер-радио
 #        Tooltip:
 #            '''
 #            Transmits a signal towards a colossal spaceship
@@ -7489,7 +7489,7 @@
 #        DisplayName: Яичная корона
 #        Tooltip:
 #            '''
-#            Summons a regal rooster
+#            Призывает царского петуха
 #            Можно использовать только днём
 #            '''
 #    }
@@ -7884,7 +7884,7 @@
 #    }
 #
 #    SlayerFist: {
-#        DisplayName: Ракетный кулак Цареубийцы
+#        DisplayName: Ракетный кулак Король-охотника
 #        Tooltip:
 #            '''
 #            Fires a homing rocket fist
@@ -9457,13 +9457,13 @@
 #    }
 #
 #    VentWall: {
-#        DisplayName: Vent Wall
+#        DisplayName: Вентиляционная стена
 #        Tooltip: "{$SpecialTooltips.Unbreakable}"
 #    }
 #
 #    EnterPlayground: {
 #        DisplayName: ШТУКОВИНА ДЛЯ ДОСТУПА В НЕЧТО
-#        Tooltip: Sends all players to the Playground
+#        Tooltip: Отправляет всех игроков в Песочницу
 #    }
 #
 #    ShadowFuel: {
@@ -9475,9 +9475,9 @@
 #        DisplayName: Письмо
 #        Tooltip:
 #            '''
-#            It reads - '[c/E5F3FB:Thank you for playing the mod, hope you had fun.]
-#            [c/E5F3FB:The mod is still in development so many things can change, and new content will be added, so stay tuned.]
-#            [c/E5F3FB:  -] [c/F9E5FB:Halm] & [c/E5FBE5:Tied]'
+#            Здесь написано - '[c/E5F3FB:Благодарю за прохождение мода, надеюсь вам было весело.]
+#            [c/E5F3FB:Мод всё ещё в разработке, многое может измениться, и будет добавлен новый контент, так что следите за обновлениями.]
+#            [c/E5F3FB:  -] [c/F9E5FB:Халлам] и [c/E5FBE5:Тайд]'
 #            '''
 #    }
 #
@@ -9622,7 +9622,7 @@
 #        DisplayName: Яйцо
 #        Tooltip:
 #            '''
-#            Summons The Egg
+#            Призывает Яйцо
 #            '... It's hardboiled.'
 #            '''
 #    }
@@ -9681,7 +9681,7 @@
 #    }
 #
 #    DawnHerald: {
-#        DisplayName: Предвестник рассвета
+#        DisplayName: Предвестник зари
 #        Tooltip:
 #            '''
 #            {$CommonItemTooltip.Sentry}
@@ -10226,11 +10226,11 @@
 #    KeeperSpirit.DisplayName: Отголосок Хранительницы
 #
 #    KS3: {
-#        DisplayName: Цареубийца III
+#        DisplayName: Король-охотник III
 #        BossChecklistIntegration.SpawnInfo: Use a [i:Redemption/CyberTech] at day, or attack Androids on the surface and allow them to teleport away.
 #    }
 #
-#    KS3_Clone.DisplayName: Цареубийца III?.. 
+#    KS3_Clone.DisplayName: Король-охотник III?.. 
 #    KS3_Magnet.DisplayName: Дрон-магнит М.I
 #    KS3_MissileDrone.DisplayName: Дрон-ракета М.I
 #    KS3_ScannerDrone.DisplayName: Дрон-сканнер М.I
@@ -10778,7 +10778,7 @@
 #    ChessTable4DTile.MapEntry: "{$Items.ChessTable4D.DisplayName}"
 #    DroneShelfTile.MapEntry: Drone Shelves
 #    PrototypeSilverInactiveTile.MapEntry: Неактивный прототип «Серебряный М.I»
-#    SlayerChairTile.MapEntry: Геймерское кресло Цареубийцы
+#    SlayerChairTile.MapEntry: Геймерское кресло Король-охотника
 #    SlayerFabricatorTile.MapEntry: "{$Items.SlayerFabricator.DisplayName}"
 #    SolarPanelTile.MapEntry: "{$Items.SolarPanel.DisplayName}"
 #    CryoCrystalTile.MapEntry: "{$Items.GathicCryoCrystal.DisplayName}"
