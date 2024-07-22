@@ -771,7 +771,7 @@
 #    }
 #
 #    TreebarkDryad: {
-#        1: Тише,[0.1] тише.[0.5] Смотри, где размахиваешь топором...[1] я не хочу, чтобы ты разрубил моих друзей.
+#        1: Тише,[0.1] тише.[0.5] Смотри где размахиваешь топором...[1] я не хочу, чтобы ты разрубил моих друзей.
 #        2: "Это ни к чему хорошему не приведёт,[0.1] "
 #        3: молодой человек
 #        4: молодая девушка
@@ -889,7 +889,7 @@
 #        Warhead1: Ах,[0.1] должен предостеречь на случай, если получишь ядерную боеголовку.
 #        Warhead2: Радиация для людей представляет серьёзную опасность,[0.1] но её можно и избежать.
 #        Warhead3: Если возле кратера увидишь светящийся синий материал,[0.1] не подходи.[0.5] Это плутоний.
-#        Warhead4: Счётчик Гейгера-Мюллера предупредит об местах облучаения,[0.2] но если ты всё же облучишься,[0.1] как можно скорее прими радиационные таблетки.
+#        Warhead4: Счётчик Гейгера-Мюллера предупредит об местах облучаения,[0.2] но если ты всё же облучишься,[0.1] как можно скорее прими антирадиационные таблетки.
 #        Warhead5: Я начну их продавать, когда ты взорвёшь боеголовку.
 #        Warhead6: .[0.1].[0.1].[0.1]Эммм...[0.1] ЕСЛИ ты её взорвёшь.
 #    }
@@ -1026,17 +1026,17 @@
 #        Intro: {
 #            1: СКАНИРОВАНИЕ ЦЕЛИ...
 #            2: ОЦЕНКА ЦЕЛИ -[0.5] 'ПУСТАЯ ТРАТА ВРЕМЕНИ'
-#            3: РЕТРАНСЛЯЦИЯ СООБЩЕНИЯ-[0.5] 'У КОРОЛЬ-ОХОТНИКА НЕТ НА ТЕБЯ ВРЕМЕНИ'
+#            3: РЕТРАНСЛЯЦИЯ СООБЩЕНИЯ-[0.5] 'У КОРОЛЯ-ОХОТНИКА НЕТ НА ТЕБЯ ВРЕМЕНИ'
 #        }
 #    }
 #
 #    KS3Message: {
 #        Attacked1: Вы только посмотрите на этот гиперактивный веник.
-#        Attacked2: Ты ведь в курсе,[0.1] что нас около миллиона, да?[1] Неважно,[0.1] я здесь чтобы передать сообщение от Король-охотника -
+#        Attacked2: Ты ведь в курсе,[0.1] что нас около миллиона, да?[1] Неважно,[0.1] я здесь чтобы передать сообщение от Короля-охотника -
 #        Message: '''"Я скоро отправляюсь в другой мир,[0.1] поэтому, если нужно от меня что,[0.3] то поторопись."'''
 #        Variant: Да пошёл ты.
 #        1: Не атакуй.
-#        2: Я здесь, чтобы передать сообщение от Король-охотника -
+#        2: Я здесь, чтобы передать сообщение от Короля-охотника -
 #    }
 #
 #    WielderBot: {
@@ -1086,17 +1086,17 @@
 #    Volt: {
 #        Start: {
 #            1: Стоять!
-#            2: Вам не положено здесь находиться!
-#            R1: Что? Вам действительно разрешено пройти?
+#            2: Тебе не положено здесь находиться!
+#            R1: Что? Тебе действительно разрешено пройти?
 #            R2: Одну секунду...
-#            R3: Кажется, всё в порядке.[0.5] Проходите.
+#            R3: Кажется, всё в порядке.[0.5] Проходи.
 #        }
 #
 #        Defeat: {
 #            Refight: Достаточно.
-#            1: ...У вас есть пропуск?[0.5] Позвольте проверить.
+#            1: ...У тебя есть пропуск?[0.5] Позволь проверить.
 #            2: ...Чего?
-#            3: ...Вам и правда можно пройти?
+#            3: ...Тебе и правда можно пройти?
 #            4: Какая досадная оплошность.[0.5] Прошу прощения.
 #        }
 #    }
@@ -1615,7 +1615,7 @@
 #        5: Проект БУЛАВА?
 #        6: Что на дне лаборатории?
 #        7: Гирус?
-#        8: '''"Неудачливые"?'''
+#        8: "'''Неудачливые?'''"
 #        9: Зачем следовать за Гирус?
 #        10: Битва!
 #    }
@@ -1932,7 +1932,7 @@
 #    }
 #
 #    KS3PetBuff: {
-#        DisplayName: Проектор Король-охотника
+#        DisplayName: Проектор Короля-охотника
 #        Description: He's bored and needs some entertainment
 #    }
 #
@@ -2449,8 +2449,8 @@
 #    }
 #
 #    SlayerShipBiome: {
-#        DisplayName: Потерпевший крушение крейсер Король-охотника
-#        TownNPCDialogueName: Потерпевший крушение крейсер Король-охотника
+#        DisplayName: Потерпевший крушение крейсер Короля-охотника
+#        TownNPCDialogueName: Потерпевший крушение крейсер Короля-охотника
 #    }
 #
 #    LidenBiome: {
@@ -3346,13 +3346,13 @@
 #    }
 #
 #    SlayerController: {
-#        DisplayName: Геймпад Король-охотника
+#        DisplayName: Геймпад Короля-охотника
 #        Tooltip: Меняет курсор на бирюзовый прицел, когда инвентарь закрыт
 #    }
 #
 #    SlayerProjector: {
-#        DisplayName: Проектор Король-охотника
-#        Tooltip: Призывает голограмму Король-охотника для вынесения вам приговора
+#        DisplayName: Проектор Короля-охотника
+#        Tooltip: Призывает голограмму Короля-охотника для вынесения вам приговора
 #    }
 #
 #    XenomiteJetpack: {
@@ -4105,10 +4105,10 @@
 #    }
 #
 #    KingSlayerMask: {
-#        DisplayName: Маска Король-охотника III
+#        DisplayName: Маска Короля-охотника III
 #        Tooltip:
 #            '''
-#            'Был ли он охотник на королей или король охотников?'
+#            'Был ли он охотником на королей или королём охотников?'
 #            'Или он просто счёл, что это круто звучит'
 #            '''
 #    }
@@ -5080,7 +5080,7 @@
 #    }
 #
 #    BloatedGoldfishBanner: {
-#        DisplayName: Bloated Goldfish Banner
+#        DisplayName: Знамя вздувшейся золотой рыбки
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.BloatedGoldfish.DisplayName}"
 #    }
 #
@@ -5155,17 +5155,17 @@
 #    }
 #
 #    HazmatZombieBanner: {
-#        DisplayName: Hazmat Zombie Banner
+#        DisplayName: Знамя зомби в химзащите
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.HazmatZombie.DisplayName}"
 #    }
 #
 #    HeadlessChickenBanner: {
-#        DisplayName: Headless Chicken Banner
+#        DisplayName: Знамя курицы без головы
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.HeadlessChicken.DisplayName}"
 #    }
 #
 #    JollyMadmanBanner: {
-#        DisplayName: Jolly Madman Banner
+#        DisplayName: Знамя весёлого психопата
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.JollyMadman.DisplayName}"
 #    }
 #
@@ -5175,7 +5175,7 @@
 #    }
 #
 #    LivingBloomBanner: {
-#        DisplayName: Living Bloom Banner
+#        DisplayName: Знамя живого бутона
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.LivingBloom.DisplayName}"
 #    }
 #
@@ -5185,17 +5185,17 @@
 #    }
 #
 #    MutatedLivingBloomBanner: {
-#        DisplayName: Mutated Living Bloom Banner
+#        DisplayName: Знамя мутировавшего живого бутона
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.MutatedLivingBloom.DisplayName}"
 #    }
 #
 #    NuclearShadowBanner: {
-#        DisplayName: Nuclear Shadow Banner
+#        DisplayName: Знамя ядерной тени
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.NuclearShadow.DisplayName}"
 #    }
 #
 #    NuclearSlimeBanner: {
-#        DisplayName: Nuclear Slime Banner
+#        DisplayName: Знамя ядерного слизня
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.NuclearSlime.DisplayName}"
 #    }
 #
@@ -5205,22 +5205,22 @@
 #    }
 #
 #    OozingScientistBanner: {
-#        DisplayName: Oozing Scientist Banner
+#        DisplayName: Знамя истекающего слизью учёного
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.OozingScientist.DisplayName}"
 #    }
 #
 #    PrototypeSilverBanner: {
-#        DisplayName: Prototype Silver Banner
+#        DisplayName: Знамя прототипа «Серебряный М.I»
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.PrototypeSilver.DisplayName}"
 #    }
 #
 #    RadioactiveJellyBanner: {
-#        DisplayName: Radioactive Physalia Banner
+#        DisplayName: Знамя радиоактивной физалии
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.RadioactiveJelly.DisplayName}"
 #    }
 #
 #    RadioactiveSlimeBanner: {
-#        DisplayName: Radioactive Slime Banner
+#        DisplayName: Знамя радиоактивного слизня
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.RadioactiveSlime.DisplayName}"
 #    }
 #
@@ -5230,12 +5230,12 @@
 #    }
 #
 #    SickenedBunnyBanner: {
-#        DisplayName: Sickened Bunny Banner
+#        DisplayName: Знамя заболевшего кролика
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.SickenedBunny.DisplayName}"
 #    }
 #
 #    SickenedDemonEyeBanner: {
-#        DisplayName: Sickened Demon Eye Banner
+#        DisplayName: Знамя заражённого демонического глаза
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.SickenedDemonEye.DisplayName}"
 #    }
 #
@@ -5469,7 +5469,7 @@
 #    }
 #
 #    HospitalBed: {
-#        DisplayName: Hospital Bed
+#        DisplayName: Больничная койка
 #        Tooltip: ""
 #    }
 #
@@ -5713,18 +5713,18 @@
 #    }
 #
 #    FowlEmperorPainting: {
-#        DisplayName: The Legendary-er Being
+#        DisplayName: Картина «Сверхлегендарное существо»
 #        Tooltip: "'А. Тайд'"
 #    }
 #
 #    GathicCryoFurnace: {
-#        DisplayName: Gathic Cryo-Furnace
+#        DisplayName: Гатрийская крио-печь
 #        Tooltip: Used for smelting ore
 #    }
 #
 #    HamPatPainting: {
-#        DisplayName: Ham Pat
-#        Tooltip: "'O. Tomato'"
+#        DisplayName: Картина «Ветчинное поглаживание»
+#        Tooltip: "'О. Томато'"
 #    }
 #
 #    HKMiniStatue: {
@@ -5771,12 +5771,12 @@
 #    }
 #
 #    KSPainting: {
-#        DisplayName: King Slayer King Slaying
+#        DisplayName: Картина «Король-охотник король-охотничает»
 #        Tooltip: "'Анти М.'"
 #    }
 #
 #    KSStatue: {
-#        DisplayName: Statue of the Slayer
+#        DisplayName: Статуя Короля-охотника
 #        Tooltip:
 #            '''
 #            [c/ffea9b:'Ashes to ashes; Dust to dust]
@@ -6286,7 +6286,7 @@
 #    }
 #
 #    SlayerShipBox: {
-#        DisplayName: Музыкальная шкатулка (Разбившийся корабль Король-охотника)
+#        DisplayName: Музыкальная шкатулка (Разбившийся корабль Короля-охотника)
 #        Tooltip: PeriTune - Suspense3
 #    }
 #
@@ -6719,17 +6719,17 @@
 #    }
 #
 #    SlayerShipPanel: {
-#        DisplayName: Slayer's Ship Panel
+#        DisplayName: Корабельная панель Короля-охотника
 #        Tooltip: "{$SpecialTooltips.Unbreakable}"
 #    }
 #
 #    SlayerShipPanel2: {
-#        DisplayName: Slayer's Ship Panel
+#        DisplayName: орабельная панель Короля-охотника
 #        Tooltip: ""
 #    }
 #
 #    SlayerShipPanelWall: {
-#        DisplayName: Slayer's Ship Panel Wall
+#        DisplayName: Корабельная панельная стена Короля-охотника
 #        Tooltip: ""
 #    }
 #
@@ -6784,12 +6784,12 @@
 #    }
 #
 #    KS3Relic: {
-#        DisplayName: Реликвия Король-охотника III
+#        DisplayName: Реликвия Короля-охотника III
 #        Tooltip: ""
 #    }
 #
 #    KS3Trophy: {
-#        DisplayName: Трофей Король-охотника III
+#        DisplayName: Трофей Короля-охотника III
 #        Tooltip: ""
 #    }
 #
@@ -6884,7 +6884,7 @@
 #    }
 #
 #    RedemptionRoute: {
-#        DisplayName: Redemption
+#        DisplayName: Искупление
 #        Tooltip: This will redeem your past actions
 #    }
 #
@@ -6899,7 +6899,7 @@
 #    }
 #
 #    SpriteSpawner: {
-#        DisplayName: Sprite Spawner
+#        DisplayName: Генератор спрайтов
 #        Tooltip:
 #            '''
 #            Spawns sprites at the cursor and continuously draws them at that location.
@@ -7457,7 +7457,7 @@
 #    }
 #
 #    CyberTech: {
-#        DisplayName: Кибер-радио
+#        DisplayName: Киберрадио
 #        Tooltip:
 #            '''
 #            Transmits a signal towards a colossal spaceship
@@ -7884,7 +7884,7 @@
 #    }
 #
 #    SlayerFist: {
-#        DisplayName: Ракетный кулак Король-охотника
+#        DisplayName: Ракетный кулак Короля-охотника
 #        Tooltip:
 #            '''
 #            Fires a homing rocket fist
@@ -8331,7 +8331,7 @@
 #    }
 #
 #    DarkSteelBow: {
-#        DisplayName: Daerel's Dark-Steel Bow
+#        DisplayName: Чёрностальной лук Дэрела
 #        Tooltip:
 #            '''
 #            Shoots Dark-Steel arrows that create shadow tendrils upon hitting a target
@@ -8346,7 +8346,7 @@
 #    }
 #
 #    DepletedCrossbow: {
-#        DisplayName: Depleted Crossbow
+#        DisplayName: Разряженный арбалет
 #        Tooltip:
 #            '''
 #            Fires depleted uranium rods that explode upon impact
@@ -9271,6 +9271,11 @@
 #        Tooltip: "{$SpecialTooltips.Unbreakable}"
 #    }
 #
+#    NirinCogBig: {
+#        DisplayName: Большая нирийская шестерня
+#        Tooltip: ""
+#    }
+#
 #    NirinCogMedium: {
 #        DisplayName: Нирийская шестерня
 #        Tooltip: ""
@@ -9465,6 +9470,11 @@
 #        DisplayName: ШТУКОВИНА ДЛЯ ДОСТУПА В НЕЧТО
 #        Tooltip: Отправляет всех игроков в Песочницу
 #    }
+#    
+#    NaturePickup: {
+#        DisplayName: Подобранная природа
+#        Tooltip: ""
+#    }
 #
 #    ShadowFuel: {
 #        DisplayName: Теневое топливо
@@ -9513,42 +9523,42 @@
 #    }
 #
 #    Ice: {
-#        DisplayName: "[i:Redemption/Ice][c/E0FFFF:Ice]"
+#        DisplayName: ""
 #        Tooltip: ""
 #    }
 #
 #    Earth: {
-#        DisplayName: "[i:Redemption/Earth][c/f4a460:Earth]"
+#        DisplayName: ""
 #        Tooltip: ""
 #    }
 #
 #    Shadow: {
-#        DisplayName: "[i:Redemption/Shadow][c/7b68ee:Shadow]"
+#        DisplayName: ""
 #        Tooltip: ""
 #    }
 #
 #    Nature: {
-#        DisplayName: "[i:Redemption/Nature][c/7cfc00:Nature]"
+#        DisplayName: ""
 #        Tooltip: ""
 #    }
 #
 #    Holy: {
-#        DisplayName: "[i:Redemption/Holy][c/fafad2:Holy]"
+#        DisplayName: ""
 #        Tooltip: ""
 #    }
 #
 #    Blood: {
-#        DisplayName: "[i:Redemption/Blood][c/cd5c5c:Blood]"
+#        DisplayName: ""
 #        Tooltip: ""
 #    }
 #
 #    Fire: {
-#        DisplayName: "[i:Redemption/Fire][c/FFA500:Fire]"
+#        DisplayName: ""
 #        Tooltip: ""
 #    }
 #
 #    Arcane: {
-#        DisplayName: "[i:Redemption/Arcane][c/ADD8E6:Arcane]"
+#        DisplayName: ""
 #        Tooltip: ""
 #    }
 #
@@ -9558,17 +9568,17 @@
 #    }
 #
 #    Celestial: {
-#        DisplayName: "[i:Redemption/Celestial][c/ffc0cb:Celestial]"
+#        DisplayName: ""
 #        Tooltip: ""
 #    }
 #
 #    Explosive: {
-#        DisplayName: "[i:Redemption/Explosive][c/FFC896:Explosive]"
+#        DisplayName: ""
 #        Tooltip: ""
 #    }
 #
 #    Poison: {
-#        DisplayName: "[i:Redemption/Poison][c/9370db:Poison]"
+#        DisplayName: ""
 #        Tooltip: ""
 #    }
 #
@@ -9578,22 +9588,22 @@
 #    }
 #
 #    Slash: {
-#        DisplayName: Slash
+#        DisplayName: Разрез
 #        Tooltip: ""
 #    }
 #
 #    Thunder: {
-#        DisplayName: "[i:Redemption/Thunder][c/ffffe0:Thunder]"
+#        DisplayName: ""
 #        Tooltip: ""
 #    }
 #
 #    Water: {
-#        DisplayName: "[i:Redemption/Water][c/87CEEB:Water]"
+#        DisplayName: ""
 #        Tooltip: ""
 #    }
 #
 #    Wind: {
-#        DisplayName: "[i:Redemption/Wind][c/B4B4B4:Wind]"
+#        DisplayName: ""
 #        Tooltip: ""
 #    }
 #
@@ -9732,7 +9742,7 @@
 #    }
 #
 #    HydrasMaw: {
-#        DisplayName: Hydra's Maw
+#        DisplayName: Пасть гидры
 #        Tooltip:
 #            '''
 #            Sprays a stream of defense-reducing acid, weakening Robotic targets against {0} damage
@@ -9752,17 +9762,17 @@
 #    }
 #
 #    SpringtrapBody: {
-#        DisplayName: Springlock Suit
+#        DisplayName: Пружинный костюм
 #        Tooltip: ""
 #    }
 #
 #    SpringtrapHead: {
-#        DisplayName: Springlock Mask
+#        DisplayName: Пружинная маска
 #        Tooltip: ""
 #    }
 #
 #    SpringtrapLegs: {
-#        DisplayName: Springlock Pants
+#        DisplayName: Пружинные штаны
 #        Tooltip: ""
 #    }
 #
@@ -10068,17 +10078,17 @@
 #    }
 #
 #    BloatedClingerBanner: {
-#        DisplayName: Bloated Clinger Banner
+#        DisplayName: Знамя вздувшегося цеплятеля
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.BloatedClinger.DisplayName}"
 #    }
 #
 #    BloatedDiggerBanner: {
-#        DisplayName: Bloated Digger Banner
+#        DisplayName: Знамя вздувшегося копателя
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.BloatedDiggerHead.DisplayName}"
 #    }
 #
 #    BloatedFaceMonsterBanner: {
-#        DisplayName: Bloated Face Monster Banner
+#        DisplayName: Знамя вздувшегося лицемонстра
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.BloatedFaceMonster.DisplayName}"
 #    }
 #
@@ -10190,9 +10200,9 @@
 #
 #    ErhanSpirit.DisplayName: Дух Эрхана
 #    PalebatImp.DisplayName: Бледный бес
-#    Chickadier.DisplayName: Chickadier
-#    Chickenvoy.DisplayName: Chick Envoy
-#    CoopCrate.DisplayName: Coop Crate
+#    Chickadier.DisplayName: Цыпа-лидер
+#    Chickenvoy.DisplayName: Цыпа-курьер
+#    CoopCrate.DisplayName: Ящик для кур
 #
 #    FowlEmperor: {
 #        DisplayName: Император Кудах
@@ -10513,7 +10523,7 @@
 #    Zephos_Intro.DisplayName: Зефос
 #    ZephosUnconscious.DisplayName: "{$NPCs.Zephos_Intro.DisplayName}"
 #    Android.DisplayName: Андроид М.I
-#    PrototypeSilver.DisplayName: Prototype Silver М.I
+#    PrototypeSilver.DisplayName: Прототип «Серебряный М.I»
 #    SlayerSpawner.DisplayName: Slayer Spawner
 #    SpacePaladin.DisplayName: Космический паладин М.I
 #    IrradiatedBehemoth.DisplayName: Irradiated Behemoth
@@ -10535,7 +10545,7 @@
 #    MACEProject_Holo.DisplayName: "{$NPCs.MACEProject.DisplayName}"
 #    MACEProject_Off.DisplayName: "{$NPCs.MACEProject.DisplayName}"
 #    OozeBlob.DisplayName: Слизистый сгусток
-#    OozingScientist.DisplayName: Oozing Scientist
+#    OozingScientist.DisplayName: Истекающий слизью учёный
 #    ProtectorVolt.DisplayName: Protector Volt
 #    ProtectorVolt_NPC.DisplayName: "{$NPCs.ProtectorVolt.DisplayName}"
 #    ProtectorVolt_Start.DisplayName: "{$NPCs.ProtectorVolt.DisplayName}"
@@ -10568,8 +10578,8 @@
 #    EpidotrianSkeleton.DisplayName: Epidotrian Skeleton
 #    ForestNymph.DisplayName: Forest Nymph
 #    GathicTomb_Spawner.DisplayName: Gathic Tomb Spawner
-#    JollyMadman.DisplayName: Jolly Madman
-#    LivingBloom.DisplayName: Living Bloom
+#    JollyMadman.DisplayName: Весёлый психопат
+#    LivingBloom.DisplayName: Живой бутон
 #    RaveyardSkeleton.DisplayName: Пляшущий скелет
 #    RaveyardSkeletonSpawner.DisplayName: Raveyard Skeleton Spawner
 #    SkeletonAssassin.DisplayName: Скелет-убийца
@@ -10581,19 +10591,19 @@
 #    SurfaceSkeletonSpawner.DisplayName: Surface Skeleton Spawner
 #    VagrantSpirit.DisplayName: Бродячий дух
 #    BloatedGhoul.DisplayName: Bloated Ghoul
-#    BloatedGoldfish.DisplayName: Bloated Goldfish
+#    BloatedGoldfish.DisplayName: Вздувшаяся золотая рыбка
 #    BloatedGrub.DisplayName: Bloated Grub
 #    BloatedSwarmer.DisplayName: Bloated Swarmer
 #    BobTheBlob.DisplayName: Bob the Blob
 #    HazmatBunny.DisplayName: Кролик в химзащите
 #    HazmatZombie.DisplayName: Зомби в химзащите
-#    MutatedLivingBloom.DisplayName: Mutated Living Bloom
-#    NuclearShadow.DisplayName: Nuclear Shadow
-#    NuclearSlime.DisplayName: Nuclear Slime
-#    RadioactiveJelly.DisplayName: Radioactive Physalia
-#    RadioactiveSlime.DisplayName: Radioactive Slime
-#    SickenedBunny.DisplayName: Sickened Bunny
-#    SickenedDemonEye.DisplayName: Sickened Demon Eye
+#    MutatedLivingBloom.DisplayName: Мутировавший живой бутон
+#    NuclearShadow.DisplayName: Ядерная тень
+#    NuclearSlime.DisplayName: Ядерный слизень
+#    RadioactiveJelly.DisplayName: Радиоактивная физалия
+#    RadioactiveSlime.DisplayName: Радиоактивный слизень
+#    SickenedBunny.DisplayName: Заболевший кролик
+#    SickenedDemonEye.DisplayName: Заражённый демонический глаз
 #    SicklyPenguin.DisplayName: Хворый пингвин
 #    SicklyWolf.DisplayName: Хворый волк
 #    SneezyFlinx.DisplayName: Простуженный снежный флинкс
@@ -10619,15 +10629,15 @@
 #    }
 #
 #    GhostfireChicken.DisplayName: Ghost-fire Chicken
-#    HazmatZombie_SS.DisplayName: Hazmat Zombie_ S S
+#    HazmatZombie_SS.DisplayName: Зомби в химзащите
 #    CorruptChicken.DisplayName: Corrupt Chicken
 #    ViciousChicken.DisplayName: Vicious Chicken
 #    Stage3Scientist.DisplayName: Stage 3 Infected Scientist
-#    BloatedClinger.DisplayName: Bloated Clinger
+#    BloatedClinger.DisplayName: Вздувшийся цеплятель
 #    BloatedDiggerBody.DisplayName: "{$NPCs.BloatedDiggerHead.DisplayName}"
-#    BloatedDiggerHead.DisplayName: Bloated Digger
+#    BloatedDiggerHead.DisplayName: Вздувшийся копатель
 #    BloatedDiggerTail.DisplayName: "{$NPCs.BloatedDiggerHead.DisplayName}"
-#    BloatedFaceMonster.DisplayName: Bloated Face Monster
+#    BloatedFaceMonster.DisplayName: Вздувшийся лицемонстр
 #}
 #
 #Tiles: {
@@ -10778,7 +10788,7 @@
 #    ChessTable4DTile.MapEntry: "{$Items.ChessTable4D.DisplayName}"
 #    DroneShelfTile.MapEntry: Drone Shelves
 #    PrototypeSilverInactiveTile.MapEntry: Неактивный прототип «Серебряный М.I»
-#    SlayerChairTile.MapEntry: Геймерское кресло Король-охотника
+#    SlayerChairTile.MapEntry: Геймерское кресло Короля-охотника
 #    SlayerFabricatorTile.MapEntry: "{$Items.SlayerFabricator.DisplayName}"
 #    SolarPanelTile.MapEntry: "{$Items.SolarPanel.DisplayName}"
 #    CryoCrystalTile.MapEntry: "{$Items.GathicCryoCrystal.DisplayName}"

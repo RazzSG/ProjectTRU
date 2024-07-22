@@ -1,6 +1,7 @@
 ﻿using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
+// using CalamityRuTranslate.Mods.Redemption;
 using CalamityRuTranslate.Mods.StarsAbove;
 using Microsoft.Xna.Framework;
 using ReLogic.Utilities;
@@ -35,6 +36,14 @@ public class SoundEnginePatch : ILoadable
                 style = newStyle;
             }
         }
+        
+        // if (ModInstances.Redemption != null && TRuConfig.Instance.RedemptionLocalization)
+        // {
+        //     if (RedemptionSystem.SoundMap.TryGetValue(style, out SoundStyle newStyle))
+        //     {
+        //         style = newStyle;
+        //     }
+        // }
 
         return orig.Invoke(ref style, position, updatecallback);
     }

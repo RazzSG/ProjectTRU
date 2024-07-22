@@ -2431,7 +2431,7 @@
         MinorStats: Немного увеличивает все характеристики
         MinuteDuration: Длительность действия эффекта: {0} мин.
         PlaceableOnXmasTree: Можно повесить на рождественскую ёлку
-       PressDownToHover:
+        PressDownToHover:
             '''
             Нажмите {$Key.DOWN}, чтобы парить
             Нажмите {$Key.UP}, чтобы перестать парить

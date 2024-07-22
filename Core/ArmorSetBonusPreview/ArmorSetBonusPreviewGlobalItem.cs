@@ -4,6 +4,7 @@ using CalamityRuTranslate.Core.Config;
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.GameInput;
+using Terraria.Localization;
 using Terraria.ModLoader;
 
 namespace CalamityRuTranslate.Core.ArmorSetBonusPreview;
@@ -23,7 +24,7 @@ public class ArmorSetBonusPreviewGlobalItem : GlobalItem
         List<string> keys = PlayerInput.CurrentProfile.InputModes[InputMode.Keyboard].KeyStatus[TriggerNames.SmartSelect];
         string key = keys.Count > 0 ? keys[0] : null;
         bool showDesc = key == null || PlayerInput.Triggers.Current.SmartSelect;
-        int index = tooltips.FindLastIndex(x => x.Mod.Equals("Terraria") && x.Name.StartsWith("Tooltip"));
+        int index = tooltips.FindLastIndex(x => x.Text == Language.GetTextValue("CommonItemTooltip.WizardHatDuringAnniversary") || (x.Mod.Equals("Terraria") && x.Name.StartsWith("Tooltip")));
 
         TooltipLine tooltipLine = new TooltipLine(Mod, "ForMoreInfo", $"Зажмите клавишу ({key}) без автоматической паузы для предосмотра бонуса комплекта")
         {
