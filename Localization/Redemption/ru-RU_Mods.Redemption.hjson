@@ -302,8 +302,8 @@
 #        BloodBonus: "[i:Redemption/Blood] Increased damage to organic enemies, but decreased to robotic"
 #        CelestialBonus: "[i:Redemption/Celestial] Hitting foes can create stars around them, restoring life and mana once the foe is slain"
 #        EarthBonus: "[i:Redemption/Earth] Deals extra damage and has a chance to stun grounded enemies"
-#        FireBonus: "[i:Redemption/Fire] Chance to inflict a strong 'On Fire!' debuff on flammable enemies"
-#        HolyBonus: "[i:Redemption/Holy] Increased damage to undead and demons"
+#        FireBonus: "[i:Redemption/Fire] Шанс наложить сильный дебафф «{$BuffName.OnFire}» на воспламеняющихся врагов"
+#        HolyBonus: "[i:Redemption/Holy] Увеличивает урон по нежити и демонам"
 #        IceBonus: "[i:Redemption/Ice] Chance to freeze slimes and slow down infected enemies"
 #        NatureBonus: "[i:Redemption/Nature] Has a chance to drop a defence-increasing Nature Boon upon hitting enemies inflicted with a non-fire debuff"
 #        PoisonBonus: "[i:Redemption/Poison] Наносит больше урона отравленным целям"
@@ -317,18 +317,8 @@
 #    RodOfHarmonyLine: Накладывает дебафф «{$BuffName.ChaosState}» во время битвы с боссами из Redemption
 #
 #    ArmorSetBonus: {
-#        VanillaArmor: {
-#            20Increased:
-#                '''
-#
-#                20% increased
-#                '''
-#            Resistance: " elemental resistance"
-#            Damage: " elemental damage"
-#        }
-#
 #        LivingWood: Даёт невосприимчивость к дебаффу «{$BuffName.Poisoned}» и увеличивает призываемое число миньонов на 1
-#        CommonGuardHelm1: 12% increased melee speed
+#        CommonGuardHelm1: Увеличивает скорость атаки ближнего боя на 12%
 #        CommonGuardHelm2: Reduces damage taken by 6%
 #
 #        PureIron: {
@@ -1685,9 +1675,7 @@
 #    }
 #
 #    AntibodiesDebuff: {
-#        # Debuffs
 #        DisplayName: Xenomite Antibodies
-#        # Debuffs
 #        Description: Strong antibodies flood your blood and fight off any new infection that may come.
 #    }
 #
@@ -1907,8 +1895,8 @@
 #    }
 #
 #    BabyRockpileBuff: {
-#        DisplayName: Baby Rockpile
-#        Description: Never seen a pile of rocks dance before
+#        DisplayName: Малыш-каменная груда
+#        Description: Впервые вижу, как пляшет груда камней
 #    }
 #
 #    BouquetOfThornsBuff: {
@@ -3193,8 +3181,8 @@
 #        DisplayName: Механические ножны
 #        Tooltip:
 #            '''
-#            Hitting enemies with physical melee has a chance to summon a Phantom Cleaver above their heads
-#            25% increased physical melee damage
+#            При нанесении истинных ударов ближнего боя по врагам есть шанс призвать призрачный-двуручник над их головами
+#            Увеличивает урон истинных ударов ближнего боя на 25%
 #            '''
 #    }
 #
@@ -3207,26 +3195,26 @@
 #        DisplayName: Противогаз
 #        Tooltip:
 #            '''
-#            Grants immunity to Radioactive Fallout
-#            'Худда худда!'
+#            Даёт невосприимчивость к дебаффу «{$Buffs.RadioactiveFalloutDebuff.DisplayName}»
+#            'Хмпф-хмпф!'
 #            '''
 #    }
 #
 #    GeigerMuller: {
 #        DisplayName: Счётчик Гейгера-Мюллера
-#        Tooltip: Выданный лабораторией дозиметр. Чем громче звук, тем выше вероятность облучения.
+#        Tooltip: Выданный лабораторией дозиметр. Чем громче звук, тем выше вероятность облучения
 #    }
 #
 #    GracesGuidance: {
 #        DisplayName: Видение благодати
 #        Tooltip:
 #            '''
-#            12% increased {0} elemental damage and resistance
-#            6% increased {0} and {1} elemental critical strike chance
-#            Stacks if both elements are present
-#            Critical strikes with a {0} elemental weapon has a chance to release homing lightmass
-#            An aura of holy flames surrounds you while holding a {1} or {0} elemental weapon
-#            Increases length of invincibility after taking damage
+#            Увеличивает урон и сопротивление {0} на 12%
+#            Увеличивает шанс критического удара {0} и {1} на 6%
+#            Эффекты суммируются при наличии обоих элементов
+#            Критические удары элементальным оружием {0} могут высвободить самонаводящуюся светомассу
+#            При использовании элементального оружия {1} или {0} вас окружает аура священного пламени
+#            Увеличивает длительность неуязвимости после получения урона
 #            '''
 #    }
 #
@@ -3318,7 +3306,7 @@
 #        Tooltip:
 #            '''
 #            4% increased critical strike chance for {0} and {1} elemental weapons
-#            Stacks if both elements are present
+#            Эффекты суммируются при наличии обоих элементов
 #            An aura of fire surrounds you while holding a {0} or {1} elemental weapon
 #            'Fueled with the sun itself'
 #            '''
@@ -3340,8 +3328,8 @@
 #            '''
 #            12% increased {0} elemental damage and resistance
 #            6% increased {0} elemental critical strike chance
-#            Critical strikes with a {0} elemental weapon has a chance to release homing lightmass
-#            Increases length of invincibility after taking damage
+#            Критические удары элементальным оружием {0} могут высвободить самонаводящуюся светомассу
+#            Увеличивает длительность неуязвимости после получения урона
 #            '''
 #    }
 #
@@ -3581,9 +3569,9 @@
 #        DisplayName: Сердце леса
 #        Tooltip:
 #            '''
-#            Increased chance of Nature Boons to drop from the {0} elemental bonus
-#            Nature Boons additionally increase critical strike chance for {0} weapons by 10%
-#            Increased duration of Nature Boons' effect
+#            Увеличивает шанс выпадения даров природы из {0}
+#            Дары природы дополнительно увеличивают шанс критического удара для оружия {0} на 10%
+#            Увеличивает длительность эффекта дара природы
 #            '''
 #    }
 #
@@ -3596,8 +3584,8 @@
 #        DisplayName: Сердце-медальон
 #        Tooltip:
 #            '''
-#            Picking up hearts give a short boost to life regen
-#            15% increased {0} and {1} elemental damage and resistance
+#            Подбор сердец даёт кратковременное ускорение регенерации здоровья
+#            Увеличивает урон и сопротивление {0} и {1} на 15%
 #            '''
 #    }
 #
@@ -3605,24 +3593,24 @@
 #        DisplayName: Венец Хранительницы
 #        Tooltip:
 #            '''
-#            Humanoid skeletons become friendly
-#            All types of Epidotrian Skeletons will fight for you
+#            Человекоподобные скелеты становятся дружелюбными
+#            Все типы скелетов-эпидотрийцев сражаются за вас
 #            '''
 #    }
 #
 #    LeatherSheath: {
 #        DisplayName: Кожаные ножны
-#        Tooltip: The first hit landing on an enemy using a physical melee attack has a guaranteed critical strike
+#        Tooltip: Первое попадание по врагу истинным ударом ближнего боя гарантированно становится критическим
 #    }
 #
 #    NecklaceOfPerception: {
 #        DisplayName: Ожерелье проницательности
 #        Tooltip:
 #            '''
-#            Increases movement speed after taking damage
-#            Increases movement speed while an enemy is near
-#            8% increased critical strike chance
-#            Improves vision
+#            Увеличивает скорость передвижения после получения урона
+#            Увеличивает скорость передвижения, когда враг рядом
+#            Увеличивает шанс критического удара на 8%
+#            Улучшает видение
 #            '''
 #    }
 #
@@ -3630,9 +3618,9 @@
 #        DisplayName: Ожерелье зоркости
 #        Tooltip:
 #            '''
-#            Increases movement speed while an enemy is close
-#            6% increased critical strike chance
-#            Improves vision
+#            Увеличивает скорость передвижения, когда враг рядом
+#            Увеличивает шанс критического удара на 6%
+#            Улучшает видение
 #            '''
 #    }
 #
@@ -3650,15 +3638,15 @@
 #        DisplayName: Ракушечное ожерелье
 #        Tooltip:
 #            '''
-#            10% increased {0} elemental damage and resistance
-#            Increased chance of Nature Boons to drop from the {0} elemental bonus
-#            'Makes you feel one with nature'
+#            Увеличивает урон и сопротивление {0} на 10%
+#            Увеличивает шанс выпадения даров природы из {0}
+#            'Вы ощущаете себя частью природы'
 #            '''
 #    }
 #
 #    StonePuppet: {
 #        DisplayName: Каменная марионетка
-#        Tooltip: Summons a baby rockpile to dance for you
+#        Tooltip: Призывает малыша-каменную груду танцевать для вас
 #    }
 #
 #    TrappedSoulBauble: {
@@ -3666,7 +3654,7 @@
 #        Tooltip:
 #            '''
 #            Периодически испускает сильный импульс, заставляя каждого врага, попавшего в зону взрыва, увеличить магический урон
-#            Увеличивает урон и сопротивление к элементу {0} на 10%
+#            Увеличивает урон и сопротивление {0} на 10%
 #            Увеличивает максимальный запас маны на 20
 #            '''
 #        ArcaneS: ""
@@ -3695,9 +3683,9 @@
 #        DisplayName: Светопрочная каска
 #        Tooltip:
 #            '''
-#            13% increased ritual damage
-#            5% increased ritual critical strike chance
-#            +2 max spirit level
+#            Увеличивает ритуальный урон на 13%
+#            Увеличивает ритуальный шанс критического удара на 5%
+#            Увеличивает максимальный духовный уровень на 2
 #            '''
 #    }
 #
@@ -3724,8 +3712,8 @@
 #        DisplayName: Светопрочный капюшон
 #        Tooltip:
 #            '''
-#            13% increased summon damage
-#            Increases your max number of minions by 2
+#            Увеличивает урон призывателя на 13%
+#            Увеличивает призываемое число миньонов на 2
 #            '''
 #    }
 #
@@ -3775,13 +3763,13 @@
 #        DisplayName: Хикаритовый нагрудник
 #        Tooltip:
 #            '''
-#            14% increased damage
-#            12% increased critical strike chance
+#            Увеличивает урон на 14%
+#            Увеличивает шанс критического удара на 12%
 #            '''
 #        Lore:
 #            '''
-#            'Cloak and breastplate replicated from the first ancient Crusaders of the Demonhollow. 
-#            The metal's unique sheen was traditionally covered up by the Priests who wore it to earn the respect of the soldiers who served them.'
+#            'Накидка и латы, воссозданные по образцу доспехов первых крестоносцев демонической пустоши
+#            Жрецы, носившие эти доспехи, намеренно скрывали неповторимый отблеск металла, чтобы завоевать уважение солдат, находившихся под их началом'
 #            '''
 #    }
 #
@@ -3789,9 +3777,9 @@
 #        DisplayName: Хикаритовые поножи
 #        Tooltip:
 #            '''
-#            13% increased damage
-#            8% increased critical strike chance
-#            20% increased movement speed
+#            Увеличивает урон на 13%
+#            Увеличивает шанс критического удара на 8%
+#            Увеличивает скорость передвижения на 20%
 #            '''
 #        Lore:
 #            '''
@@ -5060,22 +5048,22 @@
 #    }
 #
 #    AncientGladestoneGolemBanner: {
-#        DisplayName: Ancient Gladestone Golem Banner
+#        DisplayName: Знамя голема из древней каменной глади
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.AncientGladestoneGolem.DisplayName}"
 #    }
 #
 #    AndroidBanner: {
-#        DisplayName: Android Banner
+#        DisplayName: Знамя андроида
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.Android.DisplayName}"
 #    }
 #
 #    BlisteredScientistBanner: {
-#        DisplayName: Blistered Scientist Banner
+#        DisplayName: Знамя волдырного учёного
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.BlisteredScientist.DisplayName}"
 #    }
 #
 #    BloatedGhoulBanner: {
-#        DisplayName: Bloated Ghoul Banner
+#        DisplayName: Знамя вздувшегося упыря
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.BloatedGhoul.DisplayName}"
 #    }
 #
@@ -5085,22 +5073,22 @@
 #    }
 #
 #    BloatedScientistBanner: {
-#        DisplayName: Bloated Scientist Banner
+#        DisplayName: Знамя вздувшегося учёного
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.BloatedScientist.DisplayName}"
 #    }
 #
 #    BloatedSwarmerBanner: {
-#        DisplayName: Bloated Swarmer Banner
+#        DisplayName:Знамя вздувшегося роевика
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.BloatedSwarmer.DisplayName}"
 #    }
 #
 #    BlobbleBanner: {
-#        DisplayName: Blobble Banner
+#        DisplayName: Знамя бульбульки
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.Blobble.DisplayName}"
 #    }
 #
 #    BobTheBlobBanner: {
-#        DisplayName: Bob the Blob Banner
+#        DisplayName: Знамя Боб-слизняка
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.BobTheBlob.DisplayName}"
 #    }
 #
@@ -5110,17 +5098,17 @@
 #    }
 #
 #    ChickenBanner: {
-#        DisplayName: Chicken Banner
+#        DisplayName: Знамя курицы
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.Chicken.DisplayName}"
 #    }
 #
 #    ChickenBomberBanner: {
-#        DisplayName: Chicken Bomber Banner
+#        DisplayName: Знамя курицы-подрывника
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.ChickenBomber.DisplayName}"
 #    }
 #
 #    ChickenScratcherBanner: {
-#        DisplayName: Chicken Scratcher Banner
+#        DisplayName: Знамя курицы-царапки
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.ChickenScratcher.DisplayName}"
 #    }
 #
@@ -5130,22 +5118,22 @@
 #    }
 #
 #    CorpseWalkerPriestBanner: {
-#        DisplayName: Corpse-Walker Priest Banner
+#        DisplayName: Знамя бродячего мертвеца-жреца
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.CorpseWalkerPriest.DisplayName}"
 #    }
 #
 #    DevilsTongueBanner: {
-#        DisplayName: Devil's Tongue Banner
+#        DisplayName: Знамя языка дьявола
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.DevilsTongue.DisplayName}"
 #    }
 #
 #    EpidotrianSkeletonBanner: {
-#        DisplayName: Epidotrian Skeleton Banner
+#        DisplayName: Знамя скелета-эпидотрийца
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.EpidotrianSkeleton.DisplayName}"
 #    }
 #
 #    ForestNymphBanner: {
-#        DisplayName: Forest Nymph Banner
+#        DisplayName: Знамя лесной нимфы
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.ForestNymph.DisplayName}"
 #    }
 #
@@ -6316,17 +6304,17 @@
 #    }
 #
 #    IrradiatedCorruptGrassSeeds: {
-#        DisplayName: Irradiated Corrupt Seeds
+#        DisplayName: Радиоактивные семена искажения
 #        Tooltip: Plants irradiated corrupt grass on dirt
 #    }
 #
 #    IrradiatedCrimsonGrassSeeds: {
-#        DisplayName: Irradiated Crimson Seeds
+#        DisplayName: Радиоактивные семена багрянца
 #        Tooltip: Plants irradiated crimson grass on dirt
 #    }
 #
 #    IrradiatedGrassSeeds: {
-#        DisplayName: Irradiated Seeds
+#        DisplayName: Радиоактивные семена
 #        Tooltip: Plants irradiated grass on dirt
 #    }
 #
@@ -8372,7 +8360,7 @@
 #    }
 #
 #    Salamanisku: {
-#        DisplayName: Salamanisku
+#        DisplayName: Удар молнии
 #        Tooltip:
 #            '''
 #            20% chance not to consume ammo
@@ -9470,7 +9458,7 @@
 #        DisplayName: ШТУКОВИНА ДЛЯ ДОСТУПА В НЕЧТО
 #        Tooltip: Отправляет всех игроков в Песочницу
 #    }
-#    
+#
 #    NaturePickup: {
 #        DisplayName: Подобранная природа
 #        Tooltip: ""
@@ -9523,87 +9511,87 @@
 #    }
 #
 #    Ice: {
-#        DisplayName: ""
+#        DisplayName: "[i:Redemption/Ice][c/E0FFFF:Школы льда]"
 #        Tooltip: ""
 #    }
 #
 #    Earth: {
-#        DisplayName: ""
+#        DisplayName: "[i:Redemption/Earth][c/f4a460:Школы земли]"
 #        Tooltip: ""
 #    }
 #
 #    Shadow: {
-#        DisplayName: ""
+#        DisplayName: "[i:Redemption/Shadow][c/7b68ee:Школы тени]"
 #        Tooltip: ""
 #    }
 #
 #    Nature: {
-#        DisplayName: ""
+#        DisplayName: "[i:Redemption/Nature][c/7cfc00:Школы природы]"
 #        Tooltip: ""
 #    }
 #
 #    Holy: {
-#        DisplayName: ""
+#        DisplayName: "[i:Redemption/Holy][c/fafad2:Школы святости]"
 #        Tooltip: ""
 #    }
 #
 #    Blood: {
-#        DisplayName: ""
+#        DisplayName: "[i:Redemption/Blood][c/cd5c5c:Школы крови]"
 #        Tooltip: ""
 #    }
 #
 #    Fire: {
-#        DisplayName: ""
+#        DisplayName: "[i:Redemption/Fire][c/FFA500:Школы огня]"
 #        Tooltip: ""
 #    }
 #
 #    Arcane: {
-#        DisplayName: ""
+#        DisplayName: "[i:Redemption/Arcane][c/ADD8E6:Школы тайн]"
 #        Tooltip: ""
 #    }
 #
 #    Axe: {
-#        DisplayName: Топор
+#        DisplayName: Axe
 #        Tooltip: ""
 #    }
 #
 #    Celestial: {
-#        DisplayName: ""
+#        DisplayName: "[i:Redemption/Celestial][c/ffc0cb:Школы космоса]"
 #        Tooltip: ""
 #    }
 #
 #    Explosive: {
-#        DisplayName: ""
+#        DisplayName: "[i:Redemption/Explosive][c/FFC896:Школы взрыва]"
 #        Tooltip: ""
 #    }
 #
 #    Poison: {
-#        DisplayName: ""
+#        DisplayName: "[i:Redemption/Poison][c/9370db:Школы яда]"
 #        Tooltip: ""
 #    }
 #
 #    Psychic: {
-#        DisplayName: ""
+#        DisplayName: "[i:Redemption/Psychic][c/ffb6c1:Школы менталистики]"
 #        Tooltip: ""
 #    }
 #
 #    Slash: {
-#        DisplayName: Разрез
+#        DisplayName: Slash
 #        Tooltip: ""
 #    }
 #
 #    Thunder: {
-#        DisplayName: ""
+#        DisplayName: "[i:Redemption/Thunder][c/ffffe0:Школы молний]"
 #        Tooltip: ""
 #    }
 #
 #    Water: {
-#        DisplayName: ""
+#        DisplayName: "[i:Redemption/Water][c/87CEEB:Школы воды]"
 #        Tooltip: ""
 #    }
 #
 #    Wind: {
-#        DisplayName: ""
+#        DisplayName: "[i:Redemption/Wind][c/B4B4B4:Школы воздуха]"
 #        Tooltip: ""
 #    }
 #
@@ -10159,7 +10147,7 @@
 #        DisplayName: "{$NPCs.EaglecrestGolem.DisplayName}"
 #
 #        BossChecklistIntegration: {
-#            SpawnInfo: Place down and encase the [i:Redemption/GolemEye] within the stones of its origins, and it's true power will present itself.
+#            SpawnInfo: Поместите [i:Redemption/GolemEye] на камни, откуда он берёт начало, и его истинная сила явит себя.
 #            EntryName: Матч-реванш против Голема Клювогорья
 #        }
 #    }
@@ -10310,7 +10298,7 @@
 #    SpiderSwarmer.DisplayName: Роевой паук
 #    TreeBug.DisplayName: Древесный жук
 #    ChickenBomber.DisplayName: Курица-подрывник
-#    ChickenScratcher.DisplayName: Chicken Scratcher
+#    ChickenScratcher.DisplayName: Курица-царапка
 #
 #    Cockatrice: {
 #        DisplayName: Кокатрикс
@@ -10526,14 +10514,14 @@
 #    PrototypeSilver.DisplayName: Прототип «Серебряный М.I»
 #    SlayerSpawner.DisplayName: Slayer Spawner
 #    SpacePaladin.DisplayName: Космический паладин М.I
-#    IrradiatedBehemoth.DisplayName: Irradiated Behemoth
+#    IrradiatedBehemoth.DisplayName: Облучённый левиафан
 #    IrradiatedBehemoth_Holo.DisplayName: "{$NPCs.IrradiatedBehemoth.DisplayName}"
-#    BlisteredScientist.DisplayName: Blistered Scientist
+#    BlisteredScientist.DisplayName: Волдырный учёный
 #    BlisteredFish.DisplayName: Blistered Fish
 #    BlisteredFish2.DisplayName: "{$NPCs.BlisteredFish.DisplayName}"
 #    Blisterface.DisplayName: Нарыволицый
 #    Blisterface_Holo.DisplayName: "{$NPCs.Blisterface.DisplayName}"
-#    BloatedScientist.DisplayName: Bloated Scientist
+#    BloatedScientist.DisplayName: Вздувшийся учёный
 #    CraneOperator.DisplayName: Оператор крана
 #    JanitorBot.DisplayName: Уборщик
 #    JanitorBot_Cleaning.DisplayName: "{$NPCs.JanitorBot.DisplayName}"
@@ -10570,13 +10558,13 @@
 #    BabbyDragonTail2.DisplayName: "{$NPCs.BabbyDragonHead.DisplayName}"
 #    ShadesoulNPC.DisplayName: Призрачная душа
 #    AncientGladestoneGolem.DisplayName: Голем из древней каменной глади
-#    Blobble.DisplayName: Blobble
+#    Blobble.DisplayName: Бульбулька
 #    CavernSkeletonSpawner.DisplayName: Cavern Skeleton Spawner
 #    CorpseWalkerPriest.DisplayName: Бродячий мертвец-жрец
 #    DancingSkeleton.DisplayName: Пляшущий скелет
-#    DevilsTongue.DisplayName: Devil's Tongue
-#    EpidotrianSkeleton.DisplayName: Epidotrian Skeleton
-#    ForestNymph.DisplayName: Forest Nymph
+#    DevilsTongue.DisplayName: Язык дьявола
+#    EpidotrianSkeleton.DisplayName: Скелет-эпидотриец
+#    ForestNymph.DisplayName: Лесная нимфа
 #    GathicTomb_Spawner.DisplayName: Gathic Tomb Spawner
 #    JollyMadman.DisplayName: Весёлый психопат
 #    LivingBloom.DisplayName: Живой бутон
@@ -10590,11 +10578,11 @@
 #    SkeletonWarden.DisplayName: Скелет-страж
 #    SurfaceSkeletonSpawner.DisplayName: Surface Skeleton Spawner
 #    VagrantSpirit.DisplayName: Бродячий дух
-#    BloatedGhoul.DisplayName: Bloated Ghoul
+#    BloatedGhoul.DisplayName: Вздувшийся упырь
 #    BloatedGoldfish.DisplayName: Вздувшаяся золотая рыбка
 #    BloatedGrub.DisplayName: Bloated Grub
-#    BloatedSwarmer.DisplayName: Bloated Swarmer
-#    BobTheBlob.DisplayName: Bob the Blob
+#    BloatedSwarmer.DisplayName: Вздувшийся роевик
+#    BobTheBlob.DisplayName: Боб-слизняк
 #    HazmatBunny.DisplayName: Кролик в химзащите
 #    HazmatZombie.DisplayName: Зомби в химзащите
 #    MutatedLivingBloom.DisplayName: Мутировавший живой бутон
@@ -10783,7 +10771,7 @@
 #    ShadestoneGateTile.MapEntry: "{$Items.ShadestoneGate.DisplayName}"
 #    ShadestoneMirrorTile.MapEntry: "{$Items.ShadestoneMirror.DisplayName}"
 #    WaxCandlesTile.MapEntry: "{$Items.WaxCandles.DisplayName}"
-#    AndroidInactiveTile.MapEntry: Inactive Android М.I
+#    AndroidInactiveTile.MapEntry: Неактивный андроид М.I
 #    BiocontainerTile.MapEntry: Life Fruit Bio-Container
 #    ChessTable4DTile.MapEntry: "{$Items.ChessTable4D.DisplayName}"
 #    DroneShelfTile.MapEntry: Drone Shelves
@@ -10875,15 +10863,15 @@
 #    DownedThorn: После победы над Тёрном
 #    DownedErhan: После победы над Эрханом
 #    DownedADD: После победы над Древним божественным дуэтом
-#    DownedBehemoth: After Irradiated Behemoth is defeated
-#    DownedBlisterface: After Blisterface is defeated
+#    DownedBehemoth: После победы над Облучённым левиафаном
+#    DownedBlisterface: После победы над Нарыволицым
 #    DownedEaglecrestGolem: После победы над Големом Клювогорья
 #    DownedFowlEmperor: После победы над Императором Кудахом
 #    DownedFowlMorning: После победы над событием «Кудах-заря»
-#    DownedJanitor: After Janitor is defeated
-#    DownedKeeper: After the Keeper is defeated
-#    DownedMACE: After MACE Project is defeated
-#    DownedNebuleus: After Nebuleus is defeated
+#    DownedJanitor: После победы над Уборщиком
+#    DownedKeeper: После победы над Хранительницей
+#    DownedMACE: После победы над Проектом Б.У.Л.А.В.А.
+#    DownedNebuleus: осле победы над Небулеус
 #    DownedOmega1: After Omega Cleaver is defeated
 #    DownedOmega2: After Omega Gigapora is defeated
 #    DownedOmega3: After Omega Obliterator is defeated
@@ -11000,17 +10988,17 @@
 #
 #BossChecklistIntegration: {
 #    AbandonedLaboratory: {
+#        EntryName: Заброшенная лаборатория
 #        SpawnInfo: Find the Abandoned Lab far below the surface, defeat the first 2 minibosses within. Requires all mech bosses to be defeated.
-#        EntryName: Abandoned Laboratory
 #    }
 #
 #    AbandonedLaboratory2: {
-#        SpawnInfo: Use a [i:Redemption/Keycard] to access further sections of the laboratory, given by a drone after Moonlord is defeated. Beware what awaits beyond.
 #        EntryName: Abandoned Laboratory Revisit
+#        SpawnInfo: Use a [i:Redemption/Keycard] to access further sections of the laboratory, given by a drone after Moonlord is defeated. Beware what awaits beyond.
 #    }
 #
 #    FowlMorning: {
-#        SpawnInfo: Используйте [i:Redemption/FowlWarHorn] до полудня.
 #        EntryName: Кудах-заря
+#        SpawnInfo: Используйте [i:Redemption/FowlWarHorn] до полудня.
 #    }
 #}
