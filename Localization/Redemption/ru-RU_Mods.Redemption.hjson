@@ -10902,24 +10902,25 @@
 #
 #Configs: {
 #    RedeConfigClient: {
-#        DisplayName: Redemption Config Client
+#        DisplayName: Клиентская конфигурация Redemption
 #
 #        DialogueWaitTime: {
-#            Label: Extra Dialogue Wait Time
+#            Label: Дополнительное время на чтение диалога
 #            Tooltip:
 #                '''
-#                Increases duration of dialogue text persisting before moving on, increase if you're a slow reader
-#                Value is in seconds.
+#                Увеличивает время отображения текста диалога перед переходом к следующему.
+#                Увеличьте значение, если вы читаете медленно.
+#                Значение указывается в секундах.
 #                '''
 #        }
 #
 #        DialogueSpeed: {
-#            Label: Dialogue Text Speed
+#            Label: Скорость текста в диалогах
 #            Tooltip:
 #                '''
-#                Only recommend changing if the dialogue speed is too slow or fast normally.
-#                This is how much less time measured in seconds for each letter to appear, higher = faster.
-#                The faster you make it, the harder it is to read before finishing, so also adjust Extra Dialogue Wait Time
+#                Рекомендуется изменять только в случае, если скорость диалога слишком медленная или быстрая.
+#                Эта настройка определяет, насколько быстрее будут отображаться буквы (в секундах): большее значение = быстрее.
+#                Чем выше скорость, тем сложнее читать текст до конца, поэтому не забудьте также отрегулировать настройку 'Дополнительное время на чтение диалога'.
 #                '''
 #        }
 #
