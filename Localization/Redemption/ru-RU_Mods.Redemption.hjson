@@ -4899,7 +4899,7 @@
 #
 #    RawXenium: {
 #        DisplayName: Необработанный ксений
-#        Tooltip: Use a Xenium Refinery to craft Xenium Bars
+#        Tooltip: Используйте ксениевый перерабатыватель для создания сплава ксения
 #    }
 #
 #    RoboBrain: {
@@ -4938,7 +4938,7 @@
 #
 #    CoastScarabShell: {
 #        DisplayName: Панцирь пляжного скарабея
-#        Tooltip: "'Glistens in water'"
+#        Tooltip: "'Сверкает в воде'"
 #    }
 #
 #    CursedGem: {
@@ -4970,16 +4970,16 @@
 #        DisplayName: Гатрийский крио-кристалл
 #        Tooltip:
 #            '''
-#            Makes the player chilled when held
-#            'A freezing cold crystal'
+#            При держании вызывает ощущение холода
+#            'Кристалл леденящего холода'
 #            '''
 #    }
 #
 #    GolemEye: {
 #        DisplayName: Глаз Голема Клювогорья
 #        Tooltip: ""
-#        Tip1: Contains a storm of energy, it would be best to keep it around
-#        Tip2: Place down and encase the eye within the stones of its origins, and it's true power will present itself
+#        Tip1: Наполнен вихрем энергии, лучше всего держать это при себе
+#        Tip2: Поместите глаз на камни, откуда он берёт начало, и его истинная сила явит себя.
 #    }
 #
 #    GraveSteelAlloy: {
@@ -5083,7 +5083,7 @@
 #    }
 #
 #    BlobbleBanner: {
-#        DisplayName: Знамя бульбульки
+#        DisplayName: Знамя пузыреня
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.Blobble.DisplayName}"
 #    }
 #
@@ -5632,7 +5632,7 @@
 #    }
 #
 #    XeniumRefinery: {
-#        DisplayName: Ксениевый комбинат
+#        DisplayName: Ксениевый перерабатыватель
 #        Tooltip:
 #            '''
 #            Используется для создания ксения
@@ -5644,8 +5644,8 @@
 #        DisplayName: Ксениевая плавильня
 #        Tooltip:
 #            '''
-#            Used to melt scraps of metal
-#            Counts as a forge
+#            Используется для плавки металлических отходов
+#            Считается кузней
 #            Можно найти в заброшенной лаборатории
 #            '''
 #    }
@@ -10517,7 +10517,7 @@
 #    IrradiatedBehemoth.DisplayName: Облучённый левиафан
 #    IrradiatedBehemoth_Holo.DisplayName: "{$NPCs.IrradiatedBehemoth.DisplayName}"
 #    BlisteredScientist.DisplayName: Волдырный учёный
-#    BlisteredFish.DisplayName: Blistered Fish
+#    BlisteredFish.DisplayName: Волдырная рыба
 #    BlisteredFish2.DisplayName: "{$NPCs.BlisteredFish.DisplayName}"
 #    Blisterface.DisplayName: Нарыволицый
 #    Blisterface_Holo.DisplayName: "{$NPCs.Blisterface.DisplayName}"
@@ -10528,19 +10528,19 @@
 #    JanitorBot_Defeated.DisplayName: "{$NPCs.JanitorBot.DisplayName}"
 #    JanitorBot_Holo.DisplayName: "{$NPCs.JanitorBot.DisplayName}"
 #    JanitorBot_NPC.DisplayName: "{$NPCs.JanitorBot.DisplayName}"
-#    LabSentryDrone.DisplayName: Laboratory Drone
+#    LabSentryDrone.DisplayName: Дрон лаборатории
 #    MACEProject.DisplayName: Проект Б.У.Л.А.В.А.
 #    MACEProject_Holo.DisplayName: "{$NPCs.MACEProject.DisplayName}"
 #    MACEProject_Off.DisplayName: "{$NPCs.MACEProject.DisplayName}"
 #    OozeBlob.DisplayName: Слизистый сгусток
 #    OozingScientist.DisplayName: Истекающий слизью учёный
-#    ProtectorVolt.DisplayName: Protector Volt
+#    ProtectorVolt.DisplayName: Защитник Вольт
 #    ProtectorVolt_NPC.DisplayName: "{$NPCs.ProtectorVolt.DisplayName}"
 #    ProtectorVolt_Start.DisplayName: "{$NPCs.ProtectorVolt.DisplayName}"
 #
 #    EaglecrestGolem: {
 #        DisplayName: Голем Клювогорья
-#        BossChecklistIntegration.SpawnInfo: Naturally spawns on the surface at day after Eater of Worlds/Brain of Cthulhu is defeated.
+#        BossChecklistIntegration.SpawnInfo: Появляется естественным образом на поверхности в дневное время после победы над Пожирателем миром/Мозгом Ктулху.
 #    }
 #
 #    EaglecrestGolem_Sleep.DisplayName: Дремлющие камни
@@ -10558,7 +10558,7 @@
 #    BabbyDragonTail2.DisplayName: "{$NPCs.BabbyDragonHead.DisplayName}"
 #    ShadesoulNPC.DisplayName: Призрачная душа
 #    AncientGladestoneGolem.DisplayName: Голем из древней каменной глади
-#    Blobble.DisplayName: Бульбулька
+#    Blobble.DisplayName: Пузырень
 #    CavernSkeletonSpawner.DisplayName: Cavern Skeleton Spawner
 #    CorpseWalkerPriest.DisplayName: Бродячий мертвец-жрец
 #    DancingSkeleton.DisplayName: Пляшущий скелет
@@ -10605,7 +10605,7 @@
 #
 #    Calavia: {
 #        DisplayName: Калавия
-#        BossChecklistIntegration.SpawnInfo: Appears at the Underground Portal sometime after Skeletron is defeated.
+#        BossChecklistIntegration.SpawnInfo: Появляется у подземного портала через некоторое время после победы над Скелетроном.
 #    }
 #
 #    Calavia_Intro.DisplayName: "{$NPCs.Calavia.DisplayName}"
@@ -10613,14 +10613,14 @@
 #
 #    Basan: {
 #        DisplayName: Басан
-#        BossChecklistIntegration.SpawnInfo: Appears in the last wave of the Fowl Morning.
+#        BossChecklistIntegration.SpawnInfo: Появляется в последней волне события «Кудах-заря».
 #    }
 #
-#    GhostfireChicken.DisplayName: Ghost-fire Chicken
+#    GhostfireChicken.DisplayName: Фантомно-огненная курица
 #    HazmatZombie_SS.DisplayName: Зомби в химзащите
 #    CorruptChicken.DisplayName: Corrupt Chicken
 #    ViciousChicken.DisplayName: Vicious Chicken
-#    Stage3Scientist.DisplayName: Stage 3 Infected Scientist
+#    Stage3Scientist.DisplayName: Учёный третьей стадии заражения
 #    BloatedClinger.DisplayName: Вздувшийся цеплятель
 #    BloatedDiggerBody.DisplayName: "{$NPCs.BloatedDiggerHead.DisplayName}"
 #    BloatedDiggerHead.DisplayName: Вздувшийся копатель
