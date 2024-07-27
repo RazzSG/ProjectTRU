@@ -2175,27 +2175,27 @@
 #    }
 #
 #    OblitBuff1: {
-#        DisplayName: Obliteration Motivation
+#        DisplayName: Мотивация облитерации
 #        Description: Increased damage and defense, reduced dash cooldown, less life regen
 #    }
 #
 #    OblitBuff2: {
-#        DisplayName: Obliteration Motivation
+#        DisplayName: Мотивация облитерации
 #        Description: Increased damage and defense, reduced dash cooldown, less life regen
 #    }
 #
 #    OblitBuff3: {
-#        DisplayName: Obliteration Motivation
+#        DisplayName: Мотивация облитерации
 #        Description: Increased damage and defense, reduced dash cooldown, less life regen
 #    }
 #
 #    OblitBuff4: {
-#        DisplayName: Obliteration Motivation
+#        DisplayName: Мотивация облитерации
 #        Description: Increased damage and defense, reduced dash cooldown, less life regen
 #    }
 #
 #    OblitBuff5: {
-#        DisplayName: Obliteration Motivation
+#        DisplayName: Мотивация облитерации
 #        Description: Increased damage and defense, reduced dash cooldown, less life regen
 #    }
 #
@@ -3222,9 +3222,9 @@
 #        DisplayName: Защитный комбинезон
 #        Tooltip:
 #            '''
-#            Grants immunity to the Abandoned Lab and Wasteland water
-#            Greatly extends underwater breathing
-#            Grants protection against low-level radiation
+#            Даёт невосприимчивость к водам заброшенной лаборатории и пустоши
+#            Значительно увеличивает запас воздуха под водой
+#            Даёт защиту от низкоуровневой радиации
 #            '''
 #    }
 #
@@ -3232,9 +3232,9 @@
 #        DisplayName: Защитный комбинезон
 #        Tooltip:
 #            '''
-#            Grants immunity to the Abandoned Lab and Wasteland water
-#            Greatly extends underwater breathing
-#            Grants protection against low-level radiation
+#            Даёт невосприимчивость к водам заброшенной лаборатории и пустоши
+#            Значительно увеличивает запас воздуха под водой
+#            Даёт защиту от низкоуровневой радиации
 #            '''
 #    }
 #
@@ -3242,9 +3242,9 @@
 #        DisplayName: Защитный комбинезон (Классический)
 #        Tooltip:
 #            '''
-#            Grants immunity to the Abandoned Lab and Wasteland water
-#            Greatly extends underwater breathing
-#            Grants protection against low-level radiation
+#            Даёт невосприимчивость к водам заброшенной лаборатории и пустоши
+#            Значительно увеличивает запас воздуха под водой
+#            Даёт защиту от низкоуровневой радиации
 #            '''
 #    }
 #
@@ -3252,9 +3252,9 @@
 #        DisplayName: Защитный комбинезон (Финлядния)
 #        Tooltip:
 #            '''
-#            Grants immunity to the Abandoned Lab and Wasteland water
-#            Greatly extends underwater breathing
-#            Grants protection against low-level radiation
+#            Даёт невосприимчивость к водам заброшенной лаборатории и пустоши
+#            Значительно увеличивает запас воздуха под водой
+#            Даёт защиту от низкоуровневой радиации
 #            '''
 #    }
 #
@@ -3376,10 +3376,10 @@
 #        DisplayName: Защитный костюм H.E.V.
 #        Tooltip:
 #            '''
-#            Grants immunity to the Abandoned Lab and Wasteland water
-#            Greatly extends underwater breathing
-#            Grants immunity to Radioactive Fallout and all infection debuffs
-#            Grants protection against up to mid-level radiation
+#            Даёт невосприимчивость к водам заброшенной лаборатории и пустоши
+#            Значительно увеличивает запас воздуха под водой
+#            Даёт невосприимчивость к дебаффу «{$Buffs.RadioactiveFalloutDebuff.DisplayName}» и всем дебаффам заражения
+#            Даёт защиту от радиации среднего уровня
 #            '''
 #    }
 #
@@ -3392,8 +3392,8 @@
 #        DisplayName: Мутаген мага
 #        Tooltip:
 #            '''
-#            15% increased magic damage
-#            10% increased magic critical strike chance
+#            Увеличивает магический урон на 15%
+#            Увеличивает магический шанс критического удара на 10%
 #            '''
 #    }
 #
@@ -3401,8 +3401,8 @@
 #        DisplayName: Мутаген воина
 #        Tooltip:
 #            '''
-#            15% increased melee damage
-#            10% increased melee critical strike chance
+#            Увеличивает урон ближнего боя на 15%
+#            Увеличивает шанс критического удара ближнего боя на 10%
 #            '''
 #    }
 #
@@ -3419,8 +3419,8 @@
 #        DisplayName: Мутаген ритуалиста
 #        Tooltip:
 #            '''
-#            15% increased ritual damage
-#            10% increased ritual critical strike chance
+#            Увеличивает ритуальный урон на 15%
+#            Увеличивает ритуальный шанс критического удара на 10%
 #            '''
 #    }
 #
@@ -3428,8 +3428,8 @@
 #        DisplayName: Мутаген призывателя
 #        Tooltip:
 #            '''
-#            15% increased summon damage
-#            10% increased whip range
+#            Увеличивает урон призывателя на 15%
+#            Увеличивает дальность хлыстов на 10%
 #            '''
 #    }
 #
@@ -3447,10 +3447,10 @@
 #        DisplayName: Привод облитерации
 #        Tooltip:
 #            '''
-#            Double tap a direction while airborne to dash
-#            Dashing through enemies gives the player a stack of Obliteration Motivation
-#            Obliteration Motivation increases damage, defense and reduces the dash cooldown, at the cost of decreased life regen
-#            Stacks up to 5 times
+#            Дважды нажмите в нужном направлении, находясь в воздухе, чтобы совершить рывок
+#            Рывок сквозь врагов даёт один стак Мотивации облитерации
+#            «{$Buffs.OblitBuff1.DisplayName}» увеличивает урон, защиту, а также снижает время перезарядки рывка и регенерацию здоровья
+#            Эффект складывается до 5 раз
 #            '''
 #    }
 #
@@ -3472,9 +3472,9 @@
 #        DisplayName: Подвеска-молот
 #        Tooltip:
 #            '''
-#            Taking damage stirs up the ire of Ukko from within you
-#            Once built up, Ukko's ire conjures smashing rocks and lightning to strike all foes around you for 5 seconds
-#            15 second cooldown
+#            Получение урона пробуждает гнев Укко внутри вас
+#            Накопившись, гнев Укко вызывает сокрушительные камни и молнии, поражающие всех врагов вокруг вас в течение 5 секунд
+#            Перезарядка 15 секунд
 #            '''
 #    }
 #
@@ -3529,8 +3529,8 @@
 #        DisplayName: Дьявольская смола
 #        Tooltip:
 #            '''
-#            Critters are attracted to you
-#            Shy critters won't fear you
+#            Вы привлекаете живность
+#            Пугливая живность больше не боится вас
 #            'ТЫ ВОНЯЕШЬ!'
 #            '''
 #    }
@@ -5672,7 +5672,7 @@
 #
 #    ChickenCoop: {
 #        DisplayName: Курятник
-#        Tooltip: Occasionally spawns chicken eggs
+#        Tooltip: Периодически несёт куриные яйца
 #    }
 #
 #    DoppelsSword: {
@@ -8463,11 +8463,11 @@
 #    }
 #
 #    BronzeWand: {
-#        DisplayName: Бронзовая палочка
+#        DisplayName: Бронзовый жезл
 #        Tooltip:
 #            '''
-#            Casts two unstable zig-zagging water orbs
-#            Water orbs home in on enemies after 6 consecutive shots
+#            Выпускает два нестабильных зигзагообразных водяных шара
+#            После 6 последовательных выстрелов водяные шары начинают преследовать врагов
 #            '''
 #        Lore:
 #            '''
@@ -10015,8 +10015,8 @@
 #        DisplayName: Смесь Вельзевула
 #        Tooltip:
 #            '''
-#            Critters are attracted to you
-#            Shy critters won't fear you
+#            Вы привлекаете живность
+#            Пугливая живность больше не боится вас
 #            {$Items.ErleasFlower.Tooltip}
 #            {$Items.SpiderSerum.Tooltip}
 #            '''
@@ -10024,11 +10024,11 @@
 #
 #    ErleasFlower: {
 #        DisplayName: Цветок Эрлеи
-#        Tooltip: Bees become passive
+#        Tooltip: Пчёлы становятся пассивными
 #        Lore:
 #            '''
-#            A rare flower only found within lushy caverns. Cave delvers would search for these to sell for good fortune on the market.
-#            The flower used to be widely used in perfumery. Its aroma is often described as "funny".
+#            Редкий цветок, встречающийся лишь в пышных пещерах. Спелеологи стремятся найти его, чтобы продать на рынке и получить хорошую прибыль
+#            Раньше этот цветок широко применялся в парфюмерии. Его аромат часто описывают как 'забавный'.
 #            '''
 #    }
 #
@@ -10036,8 +10036,8 @@
 #        DisplayName: Паучья сыворотка
 #        Tooltip:
 #            '''
-#            Spider Swarmers become passive
-#            Grants immunity to Webbed
+#            Роевые пауки становятся пассивными
+#            Даёт невосприимчивость к дебаффу «{$BuffName.Webbed}»
 #            '''
 #    }
 #
@@ -10060,8 +10060,8 @@
 #        DisplayName: Камень молнии
 #        Tooltip:
 #            '''
-#            Summons a super-charged pebble
-#            Whipping enemies will cause the pebble to strike them with lightning
+#            Призывает сверхзаряженную гальку
+#            Нанесение ударов хлыстом по врагам заставляет гальку поразить их молнией
 #            '''
 #    }
 #
@@ -10580,7 +10580,7 @@
 #    VagrantSpirit.DisplayName: Бродячий дух
 #    BloatedGhoul.DisplayName: Вздувшийся упырь
 #    BloatedGoldfish.DisplayName: Вздувшаяся золотая рыбка
-#    BloatedGrub.DisplayName: Bloated Grub
+#    BloatedGrub.DisplayName: Вздувшаяся личинка
 #    BloatedSwarmer.DisplayName: Вздувшийся роевик
 #    BobTheBlob.DisplayName: Боб-слизняк
 #    HazmatBunny.DisplayName: Кролик в химзащите
@@ -10635,36 +10635,36 @@
 #    }
 #
 #    HolochestTile: {
-#        ContainerName: Holochest
-#        MapEntry0: Holochest
-#        MapEntry1: Locked Holochest
+#        ContainerName: Голографический сундук
+#        MapEntry0: Голографический сундук
+#        MapEntry1: Запертый голографический сундук
 #    }
 #
 #    LabChestTileLocked: {
-#        ContainerName: High Security Crate
-#        MapEntry0: High Security Crate
-#        MapEntry1: Locked High Security Crate
+#        ContainerName: Высокозащищённый ящий
+#        MapEntry0: Высокозащищённый ящий
+#        MapEntry1: Запертый высокозащищённый ящий
 #    }
 #
 #    LabChestTileLocked2: {
-#        ContainerName: High Security Crate
-#        MapEntry0: High Security Crate
-#        MapEntry1: Locked High Security Crate
+#        ContainerName: Высокозащищённый ящий
+#        MapEntry0: Высокозащищённый ящий
+#        MapEntry1: Запертый высокозащищённый ящий
 #    }
 #
 #    PetrifiedWoodChestTile: {
-#        ContainerName: Petrified Wood Chest
-#        MapEntry: Petrified Wood Chest
+#        ContainerName: Сундук из окаменевшей древесины
+#        MapEntry: Сундук из окаменевшей древесины
 #    }
 #
 #    ShadestoneChestTile: {
-#        ContainerName: Shadestone Chest
-#        MapEntry: Shadestone Chest
+#        ContainerName: Мракокаменный сундук
+#        MapEntry: Мракокаменный сундук
 #    }
 #
 #    StandardLabLockerTile: {
-#        ContainerName: Standard Security Locker
-#        MapEntry: Standard Security Locker
+#        ContainerName: Стандартный сейф безопасности
+#        MapEntry: Стандартный сейф безопасности
 #    }
 #
 #    ElderWoodDresserTile: {
@@ -10673,23 +10673,23 @@
 #    }
 #
 #    PetrifiedWoodDresserTile: {
-#        ContainerName: Petrified Wood Dresser
-#        MapEntry: Petrified Wood Dresser
+#        ContainerName: Комод из окаменевшей древесины
+#        MapEntry: Комод из окаменевшей древесины
 #    }
 #
 #    ShadestoneDresserTile: {
-#        ContainerName: Shadestone Dresser
-#        MapEntry: Shadestone Dresser
+#        ContainerName: Мракокаменный комод
+#        MapEntry: Мракокаменный комод
 #    }
 #
-#    HolochestTile_Locked.MapEntry: Locked Holochest
-#    LabChestTileLocked_Locked.MapEntry: Locked High Security Crate
-#    LabChestTileLocked2_Locked.MapEntry: Locked High Security Crate
+#    HolochestTile_Locked.MapEntry: Запертый голографический сундук
+#    LabChestTileLocked_Locked.MapEntry: Запертый высокозащищённый ящий
+#    LabChestTileLocked2_Locked.MapEntry: Запертый высокозащищённый ящий
 #    ArchclothThroneTile.MapEntry: "{$Items.ArchclothThrone.DisplayName}"
 #    BabyHiveTile.MapEntry: "{$Items.BabyHive.DisplayName}"
 #    BigMaceTurretTile.MapEntry: "{$Items.BigMaceTurret.DisplayName}"
 #    BiohazardSignTile.MapEntry: "{$Items.BiohazardSign.DisplayName}"
-#    BotHangerTile.MapEntry: Bot Hanger
+#    BotHangerTile.MapEntry: Отсек для дронов
 #    BrokenLabBackDoor2Tile.MapEntry: Повреждённая дверь лаборатории
 #    BrokenLabBackDoorTile.MapEntry: Повреждённая дверь лаборатории
 #    ElectricitySignTile.MapEntry: "{$Items.ElectricitySign.DisplayName}"
@@ -10697,15 +10697,15 @@
 #    GirusCorruptorTile.MapEntry: "{$Items.GirusCorruptor.DisplayName}"
 #    HazmatCorpseTile.MapEntry: "{$Items.HazmatCorpse.DisplayName}"
 #    HospitalBedTile.MapEntry: "{$Items.HospitalBed.DisplayName}"
-#    InfectedCorpse1Tile.MapEntry: Infected Corpse
-#    InfectedCorpse2Tile.MapEntry: Infected Corpse
-#    InfectedCorpse3Tile.MapEntry: Infected Corpse
+#    InfectedCorpse1Tile.MapEntry: Заражённый труп
+#    InfectedCorpse2Tile.MapEntry: Заражённый труп
+#    InfectedCorpse3Tile.MapEntry: Заражённый труп
 #    JanitorEquipmentTile.MapEntry: "{$Items.JanitorEquipment.DisplayName}"
 #    KariBedTile.MapEntry: "{$Items.KariBed.DisplayName}"
-#    LabBackDoor2Tile.MapEntry: Laboratory Door
-#    LabBackDoorTile.MapEntry: Laboratory Door
-#    LabBossDoorTile.MapEntry: Reinforced Door
-#    LabBossDoorTileH.MapEntry: Reinforced Door
+#    LabBackDoor2Tile.MapEntry: Дверь лаборатории
+#    LabBackDoorTile.MapEntry: Дверь лаборатории
+#    LabBossDoorTile.MapEntry: Укреплённая дверь лаборатории
+#    LabBossDoorTileH.MapEntry: Укреплённая дверь лаборатории
 #    LabCabinetTile.MapEntry: "{$Items.LabCabinet.DisplayName}"
 #    LabCeilingLampTile.MapEntry: "{$Items.LabCeilingLamp.DisplayName}"
 #    LabCeilingMonitorTile.MapEntry: "{$Items.LabCeilingMonitor.DisplayName}"
@@ -10715,10 +10715,10 @@
 #    LabIntercomTile.MapEntry: "{$Items.LabIntercom.DisplayName}"
 #    LabKeycardDoorClosed.MapEntry: "{$Items.LabKeycardDoor.DisplayName}"
 #    LabKeycardDoorOpen.MapEntry: "{$Items.LabKeycardDoor.DisplayName}"
-#    LabPhotoTile.MapEntry: Broken Photo
-#    LabRailTile_L.MapEntry: Laboratory Railing
-#    LabRailTile_Mid.MapEntry: Laboratory Railing
-#    LabRailTile_R.MapEntry: Laboratory Railing
+#    LabPhotoTile.MapEntry: Сломанный снимок
+#    LabRailTile_L.MapEntry: Ограждение лаборатории
+#    LabRailTile_Mid.MapEntry: Ограждение лаборатории
+#    LabRailTile_R.MapEntry: Ограждение лаборатории
 #    LabReactorTile.MapEntry: "{$Items.LabReactor.DisplayName}"
 #    LabReceptionCouchTile.MapEntry: "{$Items.LabReceptionCouch.DisplayName}"
 #    LabReceptionDeskTile.MapEntry: "{$Items.LabReceptionDesk.DisplayName}"
@@ -10774,16 +10774,16 @@
 #    AndroidInactiveTile.MapEntry: Неактивный андроид М.I
 #    BiocontainerTile.MapEntry: Life Fruit Bio-Container
 #    ChessTable4DTile.MapEntry: "{$Items.ChessTable4D.DisplayName}"
-#    DroneShelfTile.MapEntry: Drone Shelves
+#    DroneShelfTile.MapEntry: Полки для дронов
 #    PrototypeSilverInactiveTile.MapEntry: Неактивный прототип «Серебряный М.I»
 #    SlayerChairTile.MapEntry: Геймерское кресло Короля-охотника
 #    SlayerFabricatorTile.MapEntry: "{$Items.SlayerFabricator.DisplayName}"
 #    SolarPanelTile.MapEntry: "{$Items.SolarPanel.DisplayName}"
 #    CryoCrystalTile.MapEntry: "{$Items.GathicCryoCrystal.DisplayName}"
 #    DemonScrollTile.MapEntry: Forbidden Ritual
-#    GrubNestTile.MapEntry: Grub Nest
+#    GrubNestTile.MapEntry: Гнездо личинки
 #    NewbMound.MapEntry: "{$Items.NewbMoundItem.DisplayName}"
-#    NiricAutomatonRemainsTile.MapEntry: Automaton Remains
+#    NiricAutomatonRemainsTile.MapEntry: Останки автоматона
 #    ShadePots.MapEntry: "{$MapObject.Pot}"
 #    SkeletonRemainsTile1.MapEntry: Останки скелета
 #    SkeletonRemainsTile1_Special.MapEntry: "{$Tiles.SkeletonRemainsTile1.MapEntry}"
@@ -10797,17 +10797,17 @@
 #    SkeletonRemainsTile6.MapEntry: "{$Tiles.SkeletonRemainsTile1.MapEntry}"
 #    SkeletonRemainsTile7.MapEntry: "{$Tiles.SkeletonRemainsTile1.MapEntry}"
 #    SkeletonRemainsTile7_Special.MapEntry: "{$Tiles.SkeletonRemainsTile1.MapEntry}"
-#    XenomiteCrystalBigTile.MapEntry: Xenomite Crystals
+#    XenomiteCrystalBigTile.MapEntry: Ксеномитовые кристаллы
 #    XenomiteCrystalTile.MapEntry: "{$Items.Xenomite.DisplayName}"
-#    DragonLeadOre2Tile.MapEntry: Stone?
+#    DragonLeadOre2Tile.MapEntry: Камень?
 #    DragonLeadOreTile.MapEntry: "{$Items.DragonLeadOre.DisplayName}"
 #    MasksTile.MapEntry: Vessel Fragments
 #    PlutoniumTile.MapEntry: "{$Items.Plutonium.DisplayName}"
-#    SolidCoriumTile.MapEntry: Solid Corium
+#    SolidCoriumTile.MapEntry: Твёрдый кориум
 #    UraniumTile.MapEntry: "{$Items.Uranium.DisplayName}"
 #    XenomiteShardTile.MapEntry: "{$Items.XenomiteShard.DisplayName}"
 #    AnglonicMysticBlossomTile.MapEntry: "{$Items.AnglonicMysticBlossom.DisplayName}"
-#    HeartOfThornsTile.MapEntry: Heart of Thorns
+#    HeartOfThornsTile.MapEntry: "{$Items.HeartOfThorns.DisplayName}"
 #    BedrockTile.MapEntry: "{$Items.Bedrock.DisplayName}"
 #    BlackHardenedSludgeTile.MapEntry: "{$Items.BlackHardenedSludgeSafe.DisplayName}"
 #    HardenedSludgeTile.MapEntry: "{$Items.HardenedSludgeSafe.DisplayName}"
@@ -10815,16 +10815,16 @@
 #    PlantMatterTile.MapEntry: "{$Items.PlantMatter.DisplayName}"
 #    PrisonBarsBeamTile.MapEntry: "{$Items.PrisonBars.DisplayName}"
 #    PrisonBarsTile.MapEntry: "{$Items.PrisonBars.DisplayName}"
-#    ShadestoneBrickMossyTile.MapEntry: Mossy Shadestone Brick
+#    ShadestoneBrickMossyTile.MapEntry: Мшистый мракокаменный кирпич
 #    ShadestoneBrickTile.MapEntry: "{$Items.ShadestoneBrick.DisplayName}"
-#    ShadestoneMossyTile.MapEntry: Mossy Shadestone
+#    ShadestoneMossyTile.MapEntry: Мшистый мракокамень
 #    ShadestoneRubbleTile.MapEntry: "{$Items.ShadestoneRubble.DisplayName}"
 #    ShadestoneSlabTile.MapEntry: "{$Items.ShadestoneSlab.DisplayName}"
-#    ShadestoneTile.MapEntry: Shadestone
-#    ElderSapling.MapEntry: Elder Sapling
+#    ShadestoneTile.MapEntry: Мракокамень
+#    ElderSapling.MapEntry: Древний саженец
 #    IrradiatedBorealSapling.MapEntry: Petrified Boreal Sapling
-#    IrradiatedPalmSapling.MapEntry: Petrified Palm Sapling
-#    IrradiatedPuritySapling.MapEntry: Petrified Sapling
+#    IrradiatedPalmSapling.MapEntry: Окаменевший саженец пальмы
+#    IrradiatedPuritySapling.MapEntry: Окаменевший саженец
 #    ShadestoneBathtubTile.MapEntry: "{$Items.ShadestoneBathtub.DisplayName}"
 #    ShadestoneBookcaseTile.MapEntry: "{$Items.ShadestoneBookcase.DisplayName}"
 #    ShadestoneCandelabraTile.MapEntry: "{$Items.ShadestoneCandelabra.DisplayName}"
@@ -10839,7 +10839,7 @@
 #    InfectedCorpse3Fake.MapEntry: "{$Tiles.InfectedCorpse1Tile.MapEntry}"
 #    HangingTiedTileFake.MapEntry: "{$Tiles.HangingTiedTile.MapEntry}"
 #    SquirrelStatueTile.MapEntry: "{$Tiles.SquirrelStatue.MapEntry}"
-#    GrubNestTileFake.MapEntry: Grub Nest
+#    GrubNestTileFake.MapEntry: Гнездо личинки
 #    SkeletonRemainsTile1Fake.MapEntry: "{$Tiles.SkeletonRemainsTile1.MapEntry}"
 #    SkeletonRemainsTile2Fake.MapEntry: "{$Tiles.SkeletonRemainsTile1.MapEntry}"
 #    SkeletonRemainsTile3Fake.MapEntry: "{$Tiles.SkeletonRemainsTile1.MapEntry}"
@@ -10847,8 +10847,8 @@
 #    SkeletonRemainsTile5Fake.MapEntry: "{$Tiles.SkeletonRemainsTile1.MapEntry}"
 #    SkeletonRemainsTile6Fake.MapEntry: "{$Tiles.SkeletonRemainsTile1.MapEntry}"
 #    SkeletonRemainsTile7Fake.MapEntry: "{$Tiles.SkeletonRemainsTile1.MapEntry}"
-#    XenomiteCrystalBigTileFake.MapEntry: Xenomite Crystal
-#    XenomiteCrystalTileFake.MapEntry: Xenomite Crystal
+#    XenomiteCrystalBigTileFake.MapEntry: Ксеномитоый кристалл
+#    XenomiteCrystalTileFake.MapEntry: Ксеномитоый кристалл
 #    BlackHardenedSludgeTileSafe.MapEntry: "{$Items.BlackHardenedSludgeSafe.DisplayName}"
 #    HardenedSludgeTileSafe.MapEntry: "{$Items.HardenedSludgeSafe.DisplayName}"
 #}
