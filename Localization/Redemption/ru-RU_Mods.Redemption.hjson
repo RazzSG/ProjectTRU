@@ -266,7 +266,7 @@
 #        Nuclear4: " превращается в тень на земле."
 #        Nuclear5: " завершает жизнь с огоньком."
 #        Nuclear6: " не находит вовремя холодильник."
-#        DoorStuck: " застревает в ДВЕРЯХ."
+#        DoorStuck: " застревает В ДВЕРЯХ."
 #    }
 #
 #    Event: {
@@ -725,7 +725,7 @@
 #        Missed:
 #            '''
 #
-#            То, что вы не сделали в этом прохождении, но можете сделать в следующем:
+#            Вещи, что вы не сделали в этом прохождении, но можете сделать в следующем:
 #            '''
 #        HoldShift: Удерживайте 'Shift', чтобы посмотреть, что вы пропустили
 #        SpiritWalker: -Получение спиритической способности
@@ -1298,8 +1298,8 @@
 #
 #GenericTerms: {
 #    Words: {
-#        Fighting: сражается
-#        Slaying: убивает
+#        Fighting: битва с
+#        Slaying: убийство
 #    }
 #
 #    Choice: {
@@ -1323,28 +1323,28 @@
 #    Chalice: {
 #        Name: Чаша мировозрения
 #        Alignment: Мировозрение
-#        ItemInterested: "[c/ffea9b:There is something to say about the item you hold]"
-#        GGInterested: "[c/ffea9b:The Chalice has something to say about this place]"
+#        ItemInterested: "[c/ffea9b:Об этом предмете есть что сказать]"
+#        GGInterested: "[c/ffea9b:Чаша хочет что-то сказать об этом месте]"
 #        HeartOfThorns:
 #            '''
-#            A piece of blight from Faywood forest, cursed by an ancient power.
-#            Slaying whatever this may attract will surely do good.
+#            Осколок заразы Фейнского леса, проклятый древней силой.
+#            Убийство того, кого он привлечёт, определённо будет хорошим знаком.
 #            '''
-#        HeartOfThorns2: The blight should quell with this unfortunate warden slain.
+#        HeartOfThorns2: С уничтожением этого несчастного стража зараза должна прекратиться.
 #        DemonScroll:
 #            '''
-#            A forbidden scroll, used to summon great demon terrors to the land.
-#            These are risky things, do not be tempted by it; lest you desire the path of sin.
+#            Запретный свиток, способный призвать в эти земли великие орды демонов.
+#            Не искушайся возможностью, она ведёт к пути греха.
 #            '''
-#        DemonScroll2: Attempting to summon a demon and {0} a priest... Are you alright in the head?
-#        WeddingRing: An undead... Something tells me she isn't out of her misery just yet.
+#        DemonScroll2: Попытка призвать демона и {0} жреца... У тебя с головой всё в порядке?
+#        WeddingRing: Нежить... Something tells me she isn't out of her misery just yet.
 #        WeddingRing2: A part of the mistress's spirit remains in this ring. Mayhaps a certain protector may find solace in keeping it.
 #        SorrowfulEssence:
 #            '''
 #            Octavia's protector is in search of you. A conflict will be inevitable.
 #            However, mayhaps this may bring a chance for a courteous ending.
 #            '''
-#        AbandonedTeddy: A ragged teddy, and a bringer of peace to the misfortuned.
+#        AbandonedTeddy: Потрёпанный плюшевый медведь, приносящий умиротворение несчастным.
 #        CyberTech:
 #            '''
 #            A signal-sender to one of the Heroes of the Golden Age.
@@ -1377,8 +1377,8 @@
 #            yet in my soul I know the importance of her role in this world's protection.
 #            Based on your past actions, I foresee a terrible future.
 #            '''
-#        NebSummon3: ... I see it now.
-#        A0: You are truly neutral...
+#        NebSummon3: ...теперь мне ясно.
+#        A0: Ты истинно нейтральный...
 #        A1N: You have done harm, but you are safe for now...
 #        A1: You have done good so far...
 #        A2: You are choosing the right path. Please, continue.
@@ -1392,7 +1392,7 @@
 #        A6N: You are past redemption...
 #        A6: You are the redemption this world needed...
 #        ADDDefeat: It is unknown how these forgotten deities ruled, perhaps defeating them was for the best, or worst.
-#        FowlDefeat: ... What?
+#        FowlDefeat: ... что?
 #        KeeperSave: You've redeemed yourself, Octavia may rest in undisturbed peac-
 #        KS3Spared: Good thing you left him be...
 #        KS3Defeat:
@@ -2527,9 +2527,9 @@
 #
 #Dialogue: {
 #    General: {
-#        NoRevivialPotion: You aren't holding a Revival Potion.
-#        UnconsciousStatus1: "{0} has been unconsious for less than a minute."
-#        UnconsciousStatus2: "{0} has been unconsious for {1} minute(s)."
+#        NoRevivialPotion: Вы не держите зелье возрождения..
+#        UnconsciousStatus1: "{0} лежит без сознания меньше минуты."
+#        UnconsciousStatus2: "{0} лежит без сознания уже {1} минут(ы)."
 #    }
 #
 #    Angler: {
