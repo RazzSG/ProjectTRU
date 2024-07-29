@@ -793,10 +793,10 @@
 #    Erhan: {
 #        Intro: {
 #            1: Боже правый!
-#            2: Тебя в детстве в колодец роняли?!
-#            3: Демона призвать,[0.1] да так близко к моей земле...[0.5] Ересь!
-#            4: "[@b]Покайся![0.5] Покайся за свои грехи!"
-#            5: "[@c]Да отлуплю я твой зад своей дланью правосудия!"
+#            2: Неужто тебя в детстве в колодец роняли?!
+#            3: Призвать демона,[0.1] да ещё так близко к моим землям...[0.5] Ересь!
+#            4: "[@b]Покайся![0.5] Покайся в грехах своих!"
+#            5: "[@c]Не то отлуплю я зад твой своей дланью правосудия!"
 #        }
 #
 #        Resummon: {
@@ -1378,7 +1378,7 @@
 #            Based on your past actions, I foresee a terrible future.
 #            '''
 #        NebSummon3: ...теперь мне ясно.
-#        A0: Ты истинно нейтральный...
+#        A0: Вы истинно нейтральный...
 #        A1N: You have done harm, but you are safe for now...
 #        A1: You have done good so far...
 #        A2: You are choosing the right path. Please, continue.
@@ -1413,9 +1413,9 @@
 #
 #    SpiritWalker: {
 #        Name: -Spirit Walker-
-#        Keybind: Hold [Spirit Walker Ability Key] for 1 second to peek into the Spirit Realm
-#        Hold: "Hold "
-#        Context: " for 1 second to peek into the Spirit Realm"
+#        Keybind: Удерживайте клавишу [Spirit Walker Ability Key] в течение 1 секунды, чтобы заглянуть в царство духов
+#        Hold: "Удерживайте клавишу"
+#        Context: " в течение 1 секунды, чтобы заглянуть в царство духов"
 #        ColoredName:
 #            '''
 #            [c/60D0D7:Spirit Walker]
@@ -1438,7 +1438,7 @@
 #    EnterGateway: Войти во Врата
 #    Who: Кто ты?
 #    Talk: Говорить
-#    Crux: Запрос сущности
+#    Crux: Попросить сущность
 #    AboutYou: О тебе?
 #    Back: Назад
 #    HomeRequirements: Требования к жилью
@@ -1465,11 +1465,11 @@
 #    SpiritWalkerMan: {
 #        1: Спиритизм?
 #        2: Смертозвон?
-#        3: Затерянные души и скитальцы?
-#        4: Иные использования смертозвона?
+#        3: Заблудшие души и скитальцы?
+#        4: Иные применения смертозвона?
 #        5: О тебе?
-#        Tophat: Запрос сущности старого цилиндра
-#        Crux: Запрос сущности
+#        Tophat: Попросить сущность старого цилиндра
+#        Crux: Попросить сущность
 #    }
 #
 #    SpiritNiricLady: {
@@ -1479,7 +1479,7 @@
 #        4: Бедствие?
 #        5: О тебе?
 #        Offer: Предложить 6 алмазов
-#        Crux: Запрос сущности
+#        Crux: Попросить сущность
 #    }
 #
 #    SpiritGathicMan: {
@@ -1489,7 +1489,7 @@
 #        4: Смертозвон?
 #        5: О тебе?
 #        Offer: Предложить боевой топор из загробной стали
-#        Crux: Запрос сущности
+#        Crux: Попросить сущность
 #    }
 #
 #    SpiritDruid: {
@@ -1497,7 +1497,7 @@
 #        2: Тамор?
 #        3: Как ты сюда попал?
 #        Offer: Предложить дар природы
-#        Crux: Запрос сущности
+#        Crux: Попросить сущность
 #    }
 #
 #    SpiritCommonGuard: {
@@ -1506,7 +1506,7 @@
 #        3: Демоны?
 #        4: О тебе?
 #        Offer: Предложить алебарду аристократа
-#        Crux: Запрос сущности
+#        Crux: Попросить сущность
 #    }
 #
 #    SpiritAssassin: {
@@ -1516,7 +1516,7 @@
 #        4: Готрион?
 #        5: Демон?
 #        Offer: Предложить 3 паслёна
-#        Crux: Запрос сущности
+#        Crux: Попросить сущность
 #    }
 #
 #    Fallen: {
@@ -1534,7 +1534,7 @@
 #    SkullDigger: {
 #        Talk: Говорить
 #        Give: Дать обручальное кольцо
-#        Crux: Запрос сущности
+#        Crux: Попросить сущность
 #    }
 #
 #    ForestNymph: {
@@ -1551,7 +1551,7 @@
 #        SFollow: Прекратить следовать
 #        DHair: Декорировать причёску
 #        SHair: Изменить причёску
-#        Crux: Запрос сущности
+#        Crux: Попросить сущность
 #    }
 #
 #    Calavia: {
@@ -1580,7 +1580,7 @@
 #        10: О тебе?
 #        11: Захваченный дух?
 #        12: Объясни
-#        Crux: Запрос сущности Киреты
+#        Crux: Попросить сущность Киреты
 #        Leave: Ты готова уходить
 #    }
 #
@@ -1620,8 +1620,8 @@
 #
 #Buffs: {
 #    ErhanCrossCooldown: {
-#        DisplayName: Holy Shield Cooldown
-#        Description: The holy shield has been broken
+#        DisplayName: Перезарядка святого щита
+#        Description: Святой щит разрушен
 #    }
 #
 #    HardlightCooldown: {
@@ -1900,17 +1900,17 @@
 #    }
 #
 #    BouquetOfThornsBuff: {
-#        DisplayName: Bouquet of Thorns
+#        DisplayName: Букет колючек
 #        Description: A gift for the newly divorced
 #    }
 #
 #    CuddlyTeratomaBuff: {
-#        DisplayName: Cuddly Teratoma
+#        DisplayName: Ласковая опухоль
 #        Description: Don't stand still for too long
 #    }
 #
 #    ErhanPetBuff: {
-#        DisplayName: Angel & Devil
+#        DisplayName: Ангел и демон
 #        Description: They're bickering about something non-stop
 #    }
 #
@@ -1960,8 +1960,8 @@
 #    }
 #
 #    XenoemiaBuff: {
-#        DisplayName: Xenoemia
-#        Description: A walking infection
+#        DisplayName: Ксеномия
+#        Description: Ходячее воплощение инфекции
 #    }
 #
 #    CleaverPetBuff: {
@@ -2176,32 +2176,32 @@
 #
 #    OblitBuff1: {
 #        DisplayName: Мотивация облитерации
-#        Description: Increased damage and defense, reduced dash cooldown, less life regen
+#        Description: Увеличены урон и защита, а время перезарядки рывка и регенерация здоровья снижены
 #    }
 #
 #    OblitBuff2: {
 #        DisplayName: Мотивация облитерации
-#        Description: Increased damage and defense, reduced dash cooldown, less life regen
+#        Description: Увеличены урон и защита, а время перезарядки рывка и регенерация здоровья снижены
 #    }
 #
 #    OblitBuff3: {
 #        DisplayName: Мотивация облитерации
-#        Description: Increased damage and defense, reduced dash cooldown, less life regen
+#        Description: Увеличены урон и защита, а время перезарядки рывка и регенерация здоровья снижены
 #    }
 #
 #    OblitBuff4: {
 #        DisplayName: Мотивация облитерации
-#        Description: Increased damage and defense, reduced dash cooldown, less life regen
+#        Description: Увеличены урон и защита, а время перезарядки рывка и регенерация здоровья снижены
 #    }
 #
 #    OblitBuff5: {
 #        DisplayName: Мотивация облитерации
-#        Description: Increased damage and defense, reduced dash cooldown, less life regen
+#        Description: Увеличены урон и защита, а время перезарядки рывка и регенерация здоровья снижены
 #    }
 #
 #    PanaceaBuff: {
-#        DisplayName: Panacea
-#        Description: You feel great
+#        DisplayName: Панацея
+#        Description: Вы чувствуете себя превосходно
 #    }
 #
 #    RevolverTossBuff: {
@@ -2266,7 +2266,7 @@
 #
 #    VasaraHealBuff: {
 #        DisplayName: Аура шамана
-#        Description: Greatly increased life regeneration
+#        Description: Регенерация здоровья значительно увеличена
 #    }
 #
 #    VendettaPotionBuff: {
@@ -2276,7 +2276,7 @@
 #
 #    VigourousBuff: {
 #        DisplayName: Vigorous Spirit
-#        Description: Greatly increased life regeneration
+#        Description: Регенерация здоровья значительно увеличена
 #    }
 #
 #    WellFed4: {
@@ -2295,7 +2295,7 @@
 #    }
 #
 #    LizzyPetBuff: {
-#        DisplayName: Lizzy
+#        DisplayName: Лиззи
 #        Description: "'w'"
 #    }
 #
@@ -2305,7 +2305,7 @@
 #    }
 #
 #    MegaswavePetBuff: {
-#        DisplayName: Miniswave
+#        DisplayName: Минисвейв
 #        Description: A truly mini wave
 #    }
 #
@@ -2500,36 +2500,36 @@
 #    StalwartPrefix.DisplayName: Непоколебимый
 #    UnyieldingPrefix.DisplayName: Непреклонный
 #    VexedPrefix.DisplayName: Раздосадованный
-#    BlasphemousPrefix.DisplayName: Blasphemous
-#    CovertPrefix.DisplayName: Covert
-#    ForbiddenPrefix.DisplayName: Forbidden
-#    OccultPrefix.DisplayName: Occult
-#    RustedPrefix.DisplayName: Rusted
-#    SpectralPrefix.DisplayName: Spectral
-#    SpellbindingPrefix.DisplayName: Spellbinding
-#    StainedPrefix.DisplayName: Stained
-#    VerbotenPrefix.DisplayName: Verboten
-#    BloodthirstyPrefix.DisplayName: Bloodthirsty
-#    ChillingPrefix.DisplayName: Chilling
-#    ClandestinePrefix.DisplayName: Clandestine
-#    EtherealPrefix.DisplayName: Ethereal
-#    ForgottenPrefix.DisplayName: Forgotten
-#    HauntingPrefix.DisplayName: Haunting
-#    ProfanePrefix.DisplayName: Profane
-#    ReverentPrefix.DisplayName: Reverent
-#    RunicPrefix.DisplayName: Runic
-#    SacrilegiousPrefix.DisplayName: Sacrilegious
-#    SinisterPrefix.DisplayName: Sinister
-#    UncannyPrefix.DisplayName: Uncanny
+#    BlasphemousPrefix.DisplayName: Богохульный
+#    CovertPrefix.DisplayName: Скрытный
+#    ForbiddenPrefix.DisplayName: Запретный
+#    OccultPrefix.DisplayName: Оккультный
+#    RustedPrefix.DisplayName: Ржавый
+#    SpectralPrefix.DisplayName: Спектральный
+#    SpellbindingPrefix.DisplayName: Чарующий
+#    StainedPrefix.DisplayName: Запятнанный
+#    VerbotenPrefix.DisplayName: Запрещённый
+#    BloodthirstyPrefix.DisplayName: Кровожадный
+#    ChillingPrefix.DisplayName: Леденящий
+#    ClandestinePrefix.DisplayName: Тайный
+#    EtherealPrefix.DisplayName: Эфирный
+#    ForgottenPrefix.DisplayName: Забытый
+#    HauntingPrefix.DisplayName: Преследующий
+#    ProfanePrefix.DisplayName: Кощунственный
+#    ReverentPrefix.DisplayName: Благоговейный
+#    RunicPrefix.DisplayName: Рунический
+#    SacrilegiousPrefix.DisplayName: Святотатственный
+#    SinisterPrefix.DisplayName: Зловещий
+#    UncannyPrefix.DisplayName: Жуткий
 #}
 #
 #Subworlds.SoullessSub.DisplayName: Soulless Dimension
 #
 #Dialogue: {
 #    General: {
-#        NoRevivialPotion: Вы не держите зелье возрождения..
+#        NoRevivialPotion: У вас нет при себе зелья возрождения.
 #        UnconsciousStatus1: "{0} лежит без сознания меньше минуты."
-#        UnconsciousStatus2: "{0} лежит без сознания уже {1} минут(ы)."
+#        UnconsciousStatus2: "{0} лежит без сознания {1} {^1:минуту;минуты;минут}."
 #    }
 #
 #    Angler: {
@@ -3022,16 +3022,16 @@
 #    }
 #
 #    SpiritWalkerMan: {
-#        NoRealmCruxDialogue: Sorry! Can't give ya anything while you're completely in the physical realm. Peak in and I'll give it to ya!
+#        NoRealmCruxDialogue: Извини! Но я не могу ничего тебе передать, пока ты полностью находишься в материальном мире. Загляни в царство духов, и тогда получишь желаемое!
 #        CruxAsherDialogue: I see, I see. Within this tophat lies an odd spirit. I don't believe I've ever met it before, but they appear ta be quite powerful.
 #        CruxDialogue: Bravo! I 'ave infused ya card with the spirits of two skeletons, use some souls to summon 'em! They'll assist ya in battle, or make nice company if ya feelin' lonely. They do 'ave a mind of their own, so if they scurry off somewhere, use the card to tug their souls back! Keep in mind, other spirits may wish for somethin' in return for these.
-#        NoCruxDialogue: Ya don't have anythin' I can imbue. If you want help findin' somethin', I'll say to look for those gathic tombs scattered aroun' the caverns. Ya might find somethin' in there.
+#        NoCruxDialogue: У тебя нет ничего, что я мог бы напитать силой. Если хочешь подсказку, то поищи те гатрийске гробницы, что в пещерах раскиданы. Глядишь, там что-нибудь да найдёшь.
 #        NoCruxAsherDialogue: There's somethin' in that hat I can use to imbue into something, however, ya don't have anythin' for me to imbue.
 #        OfferCruxDialogue: Only if you may, bring me six gemstones of the purest shine, and lay them around my remains. Six are the hands of an angel. Their arms hold us so...
-#        Dialogue1: Great! You figured out how ta' call me! I hope ya take fancy to ma' gift. I'm err, let's just say a spiritual enthusiast. Ask me anythin'!
-#        Dialogue2: "Ey, that old tophat ya got has something spiritual 'bout it, "
-#        Dialogue2Cont: peek into the Spirit Realm for a bit so I can get a closer look.
-#        Dialogue2Mid: "Take it off an' "
+#        Dialogue1: Ну надо же! Додумался-таки, как меня вызвать! Надеюсь, мой презент придётся тебе по вкусу. Я, скажем так, увлекаюсь всяким духовным. В общем, спрашивай, коли что надобно!
+#        Dialogue2: "Эй, в твоём старом цилиндре чувствуется что-то духовное, "
+#        Dialogue2Cont: загляни в царство духов ненадолго, чтоб я мог рассмотреть его получше.
+#        Dialogue2Mid: "сними-ка его, да "
 #        Chat1: The ability given to ya gives you a peek into the Spirit Realm - A realm parallel to our own. You'll be able to hurt spirits with any method or find corpses to use that bell thing-a-ma-jig on while peekin'. Such as mine! Another thing, we spirits can gift to you our "crux" if ya have somethin' to imbue it in - just request it while spirit walkin'.
 #        Chat2: A nifty artifact of Gathuram, that is. Usin' it on corpses will force their spirit back to their location while stretchin' them outta the Spirit Realm a tad, which is why you can see me now even without walkin' despite me being a full-fledged spirit - not one of those Vagrants or Lost Souls.
 #        Chat3: When folk die, their soul leaves their body to find anotha'. During this pilgrimage, they're still connected to the physical world, meanin' some with the arcane eye may see 'em. If a lost soul wanders too long, they can seep outta the spirit realm and become Vagrant Spirits - poor things forever lost.
@@ -3262,21 +3262,21 @@
 #        DisplayName: Голографический щит
 #        Tooltip:
 #            '''
-#            6% damage reduction
-#            Double tap a direction to dash
-#            Dashing into projectiles will reflect them
-#            Can't reflect projectiles exceeding 200 damage
+#            Увеличивает сопротивление урону на 6%
+#            Нажмите дважды в нужном направлении для рывка
+#            Рывок в сторону снаряда отражает его
+#            Не отражает снаряды, наносящие более 200 единиц урона
 #            '''
 #    }
 #
 #    InfectionShield: {
-#        DisplayName: Инфицированный терновый щит
+#        DisplayName: Заражённый терновый щит
 #        Tooltip:
 #            '''
-#            Double tap a direction to dash
-#            4% increased melee critical strike chance
-#            Inflicts Infection upon dashing into an enemy
-#            Releases acid-like sparks as you move
+#            Нажмите дважды в нужном направлении для рывка
+#            Увеличивает шанс критического удара ближнего боя на 4%
+#            При рывке сквозь врага заражает его инфекцией
+#            Во время движения испускает кислотоподобные искры
 #            '''
 #    }
 #
@@ -3284,9 +3284,9 @@
 #        DisplayName: Нанозащитное ядро
 #        Tooltip:
 #            '''
-#            Summons a Microshield Drone that appears whenever a hostile projectile is shot at the player
-#            When a projectile hits the shield, it will release a discharge and reflect it
-#            The shield can take 500 damage, once destroyed, it will take 10 seconds to reactivate
+#            Призывает нанозащитного дрона, который активируется при приближении вражеского снаряда
+#            При попадании снаряда в щит происходит разряд, который отражает снаряд
+#            Щит способен выдерживать до 500 единиц урона; после его разрушения требуется 10 секунд для повторной активации
 #            '''
 #    }
 #
@@ -3305,10 +3305,10 @@
 #        DisplayName: Браслет с топливной ячейкой
 #        Tooltip:
 #            '''
-#            4% increased critical strike chance for {0} and {1} elemental weapons
+#            Увеличивает шанс критического удара {0} и {1} на 4%
 #            Эффекты суммируются при наличии обоих элементов
-#            An aura of fire surrounds you while holding a {0} or {1} elemental weapon
-#            'Fueled with the sun itself'
+#            Вас окружает аура огня пока вы держите элементальное оружие {0} или {1}
+#            'Наполнен энергией самого солнца'
 #            '''
 #    }
 #
@@ -3326,8 +3326,8 @@
 #        DisplayName: Священный крест
 #        Tooltip:
 #            '''
-#            12% increased {0} elemental damage and resistance
-#            6% increased {0} elemental critical strike chance
+#            Увеличивает урон и сопротивление {0} на 12%
+#            Увеличивает шанс критического удара {0} на 6%
 #            Критические удары элементальным оружием {0} могут высвободить самонаводящуюся светомассу
 #            Увеличивает длительность неуязвимости после получения урона
 #            '''
@@ -3366,9 +3366,9 @@
 #        DisplayName: Сердце инфекции
 #        Tooltip:
 #            '''
-#            The player occasionally emits a life-draining force that steals life from debuffed enemies
-#            20% increased {0} elemental resistance
-#            10% increased {0} elemental damage
+#            Периодически излучает энергию, которая высасывает здоровье из врагов, находящихся под действием дебаффов
+#            Увеличивает сопротивление {0} на 20%
+#            Увеличивает урон {0} на 10%
 #            '''
 #    }
 #
@@ -3447,7 +3447,7 @@
 #        DisplayName: Привод облитерации
 #        Tooltip:
 #            '''
-#            Дважды нажмите в нужном направлении, находясь в воздухе, чтобы совершить рывок
+#            Нажмите дважды в нужном направлении, находясь в воздухе, чтобы совершить рывок
 #            Рывок сквозь врагов даёт один стак Мотивации облитерации
 #            «{$Buffs.OblitBuff1.DisplayName}» увеличивает урон, защиту, а также снижает время перезарядки рывка и регенерацию здоровья
 #            Эффект складывается до 5 раз
@@ -3480,21 +3480,21 @@
 #
 #    Xenoemia: {
 #        DisplayName: Ксеномия
-#        Tooltip: Makes you become one with the infection
+#        Tooltip: Делает вас единым целым с инфекцией
 #    }
 #
 #    BouquetOfThorns: {
 #        DisplayName: Букет колючек
-#        Tooltip: Summons a bouquet of thorns to follow you
+#        Tooltip: Призывает букет колючек, который следует за вами
 #    }
 #
 #    CircletOfBrambles: {
 #        DisplayName: Венец из колючек
 #        Tooltip:
 #            '''
-#            Every 5th use of a magic weapon shoots a spread of stingers
-#            Increased life regeneration while in the Jungle
-#            6% increased {0} elemental critical strike chance
+#            Каждое 5 использование магического оружия выпускает разброс жал
+#            Увеличивает регенерацию здоровья в джунглях
+#            Увеличивает шанс критического удара {0} на 6%
 #            '''
 #    }
 #
@@ -3502,8 +3502,8 @@
 #        DisplayName: Корона короля
 #        Tooltip:
 #            '''
-#            Become the Mighty King Chicken!
-#            'The king's spirit lives on'
+#            Обратитесь в могучего короля-курицу!
+#            'Дух короля продолжает жить'
 #            '''
 #    }
 #
@@ -3511,18 +3511,16 @@
 #        DisplayName: Кристаллизованные знания
 #        Tooltip:
 #            '''
-#            Hitting enemies using a weapon with any element will cause elemental crystals to gradually appear, circling around the user
-#
-#            The element of the crystals are based on the element of the weapon used to create them
-#            Getting hit will cause the crystals to break away from the user
-#
-#            4% increased elemental damage and resistance for each crystal of an element to be active
+#            Попадания по врагам оружием с элементальным уроном вызывают появление элементальных кристаллов, которые медленно вращаются вокруг вас
+#            Эти кристаллы обладают тем же элементом, что и оружие, использованное для их появление
+#            При получении урона кристаллы отрываются от вас
+#            Каждый активный кристалл определённого элемента увеличивает урон и сопротивление этому элементу на 4%
 #            '''
 #    }
 #
 #    CuddlyTeratoma: {
 #        DisplayName: Ласковая опухоль
-#        Tooltip: Summons a teratoma to latch onto you
+#        Tooltip: Призывает опухоль, которая цепляется за вас
 #    }
 #
 #    DevilishResin: {
@@ -3537,12 +3535,12 @@
 #
 #    DevilsAdvocate: {
 #        DisplayName: Адвокат дьявола
-#        Tooltip: Summons a tiny angel and devil to follow you
+#        Tooltip: Призывает крошечного ангела и дьявола, которые следуют за вами
 #    }
 #
 #    DurableBowString: {
 #        DisplayName: Прочная тетива для лука
-#        Tooltip: 20% increased velocity of arrow-based weaponry
+#        Tooltip: Увеличивает скорость снарядов оружия, использующего стрелы, на 20%
 #    }
 #
 #    EggShield: {
@@ -3558,10 +3556,10 @@
 #        DisplayName: Крест Эрхана
 #        Tooltip:
 #            '''
-#            Summons a holy shield to orbit around the user, reflecting most projectiles
-#            The shield breaks once enough damage has been dealt to it
-#            10% increased {0} elemental resistance
-#            10% decreased {1} elemental resistance
+#            Призывает святой щит, вращающийся вокруг владельца и отражающий большинство снарядов
+#            Щит разрушается после получения достаточного количества урона
+#            Увеличивает сопротивление {0} на 10%
+#            Снижает сопротивление {1} на 10%
 #            '''
 #    }
 #
@@ -3626,7 +3624,7 @@
 #
 #    OcciesCollar: {
 #        DisplayName: Ошейник Окси
-#        Tooltip: Призывает Окси, кошку Октавии, следовать за вами
+#        Tooltip: Призывает Окси, кошку Октавии, которая следует за вами
 #    }
 #
 #    RopeHook: {
@@ -3804,15 +3802,15 @@
 #
 #    ShadeBody: {
 #        DisplayName: Нагрудник полумрака
-#        Tooltip: 10% increased ritual damage
+#        Tooltip: Увеличивает ритуальный урон на 10%
 #    }
 #
 #    ShadeHead: {
 #        DisplayName: Шлем полумрака
 #        Tooltip:
 #            '''
-#            10% increased ritual damage
-#            15% increased ritual critical strike chance
+#            Увеличивает ритуальный урон на 10%
+#            Увеличивает ритуальный шанс критического удара на 15%
 #            '''
 #    }
 #
@@ -3820,9 +3818,9 @@
 #        DisplayName: Поножи полумрака
 #        Tooltip:
 #            '''
-#            8% increased ritual damage
-#            15% increased ritual critical strike chance
-#            30% increased movement speed
+#            Увеличивает ритуальный урон на 8%
+#            Увеличивает ритуальный шанс критического удара на 15%
+#            Увеличивает скорость передвижения на 30%
 #            '''
 #    }
 #
@@ -3830,8 +3828,8 @@
 #        DisplayName: Шинкитовый нагрудник
 #        Tooltip:
 #            '''
-#            25% increased melee damage
-#            25% increased melee speed
+#            Увеличивает урон ближнего боя на 25%
+#            Увеличивает скорость атаки ближнего боя на 25%
 #            '''
 #    }
 #
@@ -3839,8 +3837,8 @@
 #        DisplayName: Шинкитовый шлем
 #        Tooltip:
 #            '''
-#            35% increased melee damage
-#            30% increased melee critical strike chance
+#            Увеличивает урон ближнего боя на 35%
+#            Увеличивает шанс критического удара ближнего боя на 30%
 #            '''
 #    }
 #
@@ -3848,8 +3846,8 @@
 #        DisplayName: Шинкитовые поножи
 #        Tooltip:
 #            '''
-#            20% increased melee speed
-#            35% increased movement speed
+#            Увеличивает скорость атаки ближнего боя на 20
+#            Увеличивает скорость передвижения на 35%
 #            '''
 #    }
 #
@@ -3857,9 +3855,9 @@
 #        DisplayName: Шляпа Ворти
 #        Tooltip:
 #            '''
-#            10% increased magic damage
-#            10% increased magic critical strike chance
-#            +80 max mana
+#            Увеличивает магический урон на 10%
+#            Увеличивает магический шанс критического удара на 10%
+#            Увеличивает максимальный запас маны на 80
 #            '''
 #    }
 #
@@ -3867,8 +3865,8 @@
 #        DisplayName: Ботинки Ворти
 #        Tooltip:
 #            '''
-#            25% increased magic damage
-#            35% increased movement speed
+#            Увеличивает магический урон на 25%
+#            Увеличивает скорость передвижения на 35%
 #            '''
 #    }
 #
@@ -3876,9 +3874,9 @@
 #        DisplayName: Одеяние Ворти
 #        Tooltip:
 #            '''
-#            12% increased magic damage
-#            12% increased magic critical strike chance
-#            20% reduced mana cost
+#            Увеличивает магический урон на 12%
+#            Увеличивает магический шанс критического удара на 12%
+#            Снижает расход маны на 20%
 #            '''
 #    }
 #
@@ -3891,9 +3889,9 @@
 #        DisplayName: Ксениевые поножи
 #        Tooltip:
 #            '''
-#            10% increased damage
-#            13% increased critical strike chance
-#            30% increased movement speed
+#            Увеличивает урон на 10%
+#            Увеличивает шанс критического удара на 13%
+#            Увеличивает скорость передвижения на 30%
 #            '''
 #    }
 #
@@ -3901,37 +3899,37 @@
 #        DisplayName: Ксениевый визор
 #        Tooltip:
 #            '''
-#            10% increased damage
-#            15% increased critical strike chance
+#            Увеличивает урон на 10%
+#            Увеличивает шанс критического удара на 15%
 #            '''
 #    }
 #
 #    CommonGuardGreaves: {
 #        DisplayName: Поножи гвардейца
-#        Tooltip: 7% increased melee speed
+#        Tooltip: Увеличивает скорость атаки ближнего боя на 7%
 #    }
 #
 #    CommonGuardHelm1: {
 #        DisplayName: Шлем гвардейца
-#        Tooltip: +2 increased melee damage
+#        Tooltip: Увеличивает фиксированный урон ближнего боя на 2
 #    }
 #
 #    CommonGuardHelm2: {
 #        DisplayName: Горшковый шлем гвардейца
-#        Tooltip: +1 increased melee damage
+#        Tooltip: Увеличивает фиксированный урон ближнего боя на 1
 #    }
 #
 #    CommonGuardPlateMail: {
 #        DisplayName: Латы гвардейца
-#        Tooltip: Reduces damage taken by 4%
+#        Tooltip: Увеличивает сопротивление урону на 4%
 #    }
 #
 #    DragonLeadGreaves: {
 #        DisplayName: Дракониковые поножи
 #        Tooltip:
 #            '''
-#            8% increased critical strike chance
-#            10% increased movement speed
+#            Увеличивает шанс критического удара на 8%
+#            Увеличивает скорость передвижения на 10%
 #            '''
 #    }
 #
@@ -3939,14 +3937,14 @@
 #        DisplayName: Драконитовые рёберные латы
 #        Tooltip:
 #            '''
-#            7% increased damage
-#            Immunity to most ice-related debuffs
+#            Увеличивает урон на 7%
+#            Даёт невосприимчивость к большинству дебаффов, связанных со льдом
 #            '''
 #    }
 #
 #    DragonLeadSkull: {
 #        DisplayName: Драконитовый череп
-#        Tooltip: 7% increased damage
+#        Tooltip: Увеличивает урон на 7%
 #    }
 #
 #    LivingWoodBody: {
@@ -3965,39 +3963,39 @@
 #    } 
 #
 #    PureIronChestplate: {
-#        DisplayName: Нагрудник из сверхчистого железа
+#        DisplayName: Сверхчистый железный нагрудник
 #        Tooltip:
 #            '''
-#            7% increased damage
-#            Immunity to most fire-related debuffs
+#            Увеличивает урон на 7%
+#            Даёт невосприимчивость к большинству дебаффов, связанных с огнём
 #            '''
 #    }
 #
 #    PureIronGreaves: {
-#        DisplayName: Поножи из сверхчистого железа
-#        Tooltip: 8% increased critical strike chance
+#        DisplayName: Сверхчистые железные поножи
+#        Tooltip: Увеличивает шанс критического удара на 8%
 #    }
 #
 #    PureIronHelmet: {
-#        DisplayName: Шлем из сверхчистого железа
-#        Tooltip: 7% increased damage
+#        DisplayName: Сверхчистый железный шлем
+#        Tooltip: Увеличивает урон на 7%
 #    }
 #
 #    AntiquePureIronHelmet: {
-#        DisplayName: Античный шлем из сверхчистого железа
-#        Tooltip: 7% increased damage
+#        DisplayName: Сверхчистый железный античный шлем
+#        Tooltip: Увеличивает урон на 7%
 #    }
 #
 #    JollyHelm: {
 #        DisplayName: Шлем заката
-#        Tooltip: "'Comes from an ashen world'"
+#        Tooltip: "'Родом из пепельного мира'"
 #    }
 #
 #    KabucraShell: {
 #        DisplayName: Панцирь кабучры
 #        Tooltip:
 #            '''
-#            25% damage reduction and knockback immunity towards falling entities
+#            Вы получаете сопротивление урону на 25% и невосприимчивость к отбрасыванию против падающих сверху сущностей
 #            'Крабовый час'
 #            '''
 #    }
@@ -4039,7 +4037,7 @@
 #
 #    DrillHeadHead: {
 #        DisplayName: Бурильная голова
-#        Tooltip: "'How much drill would a drill head head if a drill head could head drill?'"
+#        Tooltip: "'Бурит бур, бурит с толком, бурит с расстановкой, а сколько б буром бура пробурил, будь у бура своя постановка?'"
 #    }
 #
 #    DruidHat: {
@@ -4069,7 +4067,7 @@
 #
 #    InfectedMask: {
 #        DisplayName: Инфецировання маска
-#        Tooltip: "'Become infected... Cosmetically'"
+#        Tooltip: "'Заразитесь... Косметически'"
 #    }
 #
 #    IntruderArmour: {
@@ -4437,8 +4435,8 @@
 #    }
 #
 #    SmolderedScale: {
-#        DisplayName: Обугленная чешуя
-#        Tooltip: Summons a chibi Miniswave
+#        DisplayName: Тлеющая чешуя
+#        Tooltip: Призывает чиби-Минисвейва
 #    }
 #
 #    RainPatreonVanityAcc: {
@@ -4526,7 +4524,7 @@
 #        Tooltip:
 #            '''
 #            Призывает чиби-Тремор
-#            'A broken sword not of this world, said to be a sign of the end times.'
+#            'Сломанный меч не от мира сего, считающийся предвестником конца времён'
 #            '''
 #    }
 #
@@ -5339,7 +5337,7 @@
 #
 #    ElderWoodBed: {
 #        DisplayName: Кровать из древней древесины
-#        Tooltip: "'Uncomfortable and feels rough...'"
+#        Tooltip: "'Неприятная на ощупь и грубая...'"
 #    }
 #
 #    ElderWoodBookcase: {
@@ -5707,7 +5705,7 @@
 #
 #    GathicCryoFurnace: {
 #        DisplayName: Гатрийская крио-печь
-#        Tooltip: Used for smelting ore
+#        Tooltip: Используется для плавки руды
 #    }
 #
 #    HamPatPainting: {
@@ -5740,10 +5738,10 @@
 #        DisplayName: Статуя ???
 #        Tooltip:
 #            '''
-#            [c/ffea9b:'I've made mistakes that devastated,]
-#            [c/ffea9b:Too many battles lost to tell,]
-#            [c/ffea9b:If I could turn back time to find you,]
-#            [c/ffea9b:I'd find our confidence as well']
+#            [c/ffea9b:'Ошибки мои всё опустошили]
+#            [c/ffea9b:Не счесть сражений, что я проиграл]
+#            [c/ffea9b:Вернуть бы время, чтоб тебя найти мне]
+#            [c/ffea9b:И веру в нас я б тоже отыскал']
 #            {$SpecialTooltips.Unbreakable5000}
 #            '''
 #    }
@@ -5767,11 +5765,11 @@
 #        DisplayName: Статуя Короля-охотника
 #        Tooltip:
 #            '''
-#            [c/ffea9b:'Ashes to ashes; Dust to dust]
-#            [c/ffea9b:Honor to glory; And iron to rust]
-#            [c/ffea9b:Hate to bloodshed; From rise to fall]
-#            [c/ffea9b:If I never have to die,]
-#            [c/ffea9b:Am I alive at all?']
+#            [c/ffea9b:'Прах к праху; Пыль к пыли]
+#            [c/ffea9b:Честь к славе; А железо к ржавью]
+#            [c/ffea9b:Ненависть к кровопролитию; От взлёта до падения]
+#            [c/ffea9b:Если я никогда не умру]
+#            [c/ffea9b:Жива ли я вообще?']
 #            {$SpecialTooltips.Unbreakable5000}
 #            '''
 #    }
@@ -5805,12 +5803,12 @@
 #        DisplayName: Статуя защитника
 #        Tooltip:
 #            '''
-#            [c/ffea9b:'There are clear skies]
-#            [c/ffea9b:Further on the road in our lives,]
-#            [c/ffea9b:The pain you're in right now is not what it seems,]
-#            [c/ffea9b:Haunted by the memories,]
-#            [c/ffea9b:Moments of hope aren't what they used to be,]
-#            [c/ffea9b:They're only reflections of a dream']
+#            [c/ffea9b:'Чистое небо ждёт впереди]
+#            [c/ffea9b:На извилистом пути нашей судьбы]
+#            [c/ffea9b:Боль, что ныне сердце разрывает]
+#            [c/ffea9b:Не такова, как кажется, в плену воспоминаний]
+#            [c/ffea9b:Проблески надежды уже не те, что раньше]
+#            [c/ffea9b:Лишь отраженьем снов они теперь предстали']
 #            {$SpecialTooltips.Unbreakable5000}
 #            '''
 #    }
@@ -6193,8 +6191,8 @@
 #        DisplayName: Киберконструктор
 #        Tooltip:
 #            '''
-#            Used to craft from Cyberscrap
-#            Found on Slayer's Crashed Ship
+#            Создаётся с помощью киберхлама
+#            Можно найти на разбившимся корабле Короля-охотника
 #            '''
 #    }
 #
@@ -6909,8 +6907,8 @@
 #        DisplayName: Бородовидный топор
 #        Tooltip:
 #            '''
-#            Increased chance to decapitate skeletons, guaranteeing skull drops
-#            Deals 75% more damage to skeletons
+#            Увеличенынй шанс обезглавить скелетов, гарантируя выпадение черепов
+#            Наносит на 75% больше урона скелетам
 #            '''
 #    }
 #
@@ -6930,17 +6928,17 @@
 #    }
 #
 #    PureIronBattleaxe: {
-#        DisplayName: Боевой топор из сверхчистого железа
+#        DisplayName: Сверхчистый железный боевой топор
 #        Tooltip: ""
 #    }
 #
 #    PureIronHammer: {
-#        DisplayName: Молот из сверхчистого железа
+#        DisplayName: Сверхчистый железный молот
 #        Tooltip: ""
 #    }
 #
 #    PureIronPickaxe: {
-#        DisplayName: Кирка из сверхчистого железа
+#        DisplayName: Сверхчистая железная кирка
 #        Tooltip: ""
 #    }
 #
@@ -7001,7 +6999,7 @@
 #
 #    ChaliceFragments: {
 #        DisplayName: Фрагмент чаши
-#        Tooltip: Holding this in your hand will point to an ancient structure
+#        Tooltip: Держа этот предмет в руках указывает направление к древней структуре
 #    }
 #
 #    DeadRinger: {
@@ -7014,7 +7012,7 @@
 #        Tooltip:
 #            '''
 #            Нажмите <right>, чтобы восполнить 100 энергии, если Энергоячейка находится в инвентаре
-#            Automatically recharges when your Energy is low
+#            Автоматически перезаряжается при низком уровне энергии
 #            '''
 #    }
 #
@@ -7043,7 +7041,7 @@
 #
 #    IOLocator: {
 #        DisplayName: Детектор очагов заражения
-#        Tooltip: Holding this in your hand will point to the Abandoned Laboratory
+#        Tooltip: Держа этот предмет в руках указывает направление к заброшенной лаборатории
 #    }
 #
 #    JoesBanjo: {
@@ -8471,9 +8469,8 @@
 #            '''
 #        Lore:
 #            '''
-#            'A bronze wand with an aquamarine orb, once used by a trickster sorcerer of Kohldur.
-#            The sorcerer used the element of water to play harmless pranks on the barons of the capital,
-#            until they grew weary of her antics and ordered the duke to exile her.'
+#            'Бронзовый жезл с аквамариновой сферой, некогда принадлежавший озорной чародейке из Кольдура
+#            Чародейка использовала стихию воды, чтобы устраивать безобидные розыгрыши баронам столицы, пока им не наскучили её выходки, и они не приказали герцогу изгнать её'
 #            '''
 #    }
 #
@@ -8481,8 +8478,8 @@
 #        DisplayName: Кальцитовая палочка
 #        Tooltip:
 #            '''
-#            Drops stalactites at cursor point
-#            Increased damage the higher they fall
+#            Сбрасывает сталактиты в позиции курсора
+#            Урон увеличивается в зависимости от высоты падения
 #            '''
 #    }
 #
@@ -8490,14 +8487,13 @@
 #        DisplayName: Колдовской посох
 #        Tooltip:
 #            '''
-#            Casts a ball of ember
-#            Casts a larger fireball every 4 consecutive shots
+#            Запускает шар тлеющих углей
+#            Каждый четвёртый выстрел подряд запускает более крупный огненный шар
 #            '''
 #        Lore:
 #            '''
-#            'A simple wooden staff with a white crystal on top, commonly given to apprentices
-#            of sorcerers to practice storing and releasing their mana.
-#            An overload of mana from a stronger mage can easily break this.'
+#            'Простой деревянный посох с белым кристаллом на верхушке, обычно вручаемый ученикам чародеев для практики накопления и высвобождения маны
+#            Переизбыток магической энергии более сильного мага может с лёгкостью сломать его'
 #            '''
 #    }
 #
@@ -8505,8 +8501,8 @@
 #        DisplayName: Разносчик инфекции
 #        Tooltip:
 #            '''
-#            Casts a contagious shard that sticks into enemies
-#            Right-click to break all shards stuck to enemies, causing an outward burst of projectiles
+#            Запускает заразный осколок, который вонзается во врагов
+#            Нажмите <right>, чтобы разрушить все осколки, вонзённые во врагов, вызывая выброс снарядов во все стороны
 #            '''
 #    }
 #
@@ -8514,8 +8510,8 @@
 #        DisplayName: Посох драконоборца
 #        Tooltip:
 #            '''
-#            Casts a molten dragon skull to spews out flames at cursor point
-#            Hold down left click long enough to change the flames into a heat ray at double the mana cost
+#            Запускает раскалённый драконий череп, извергающий пламя в позиции курсора
+#            Удерживайте <left> достаточно долго, чтобы превратить пламя в тепловой луч, расходуя вдвое больше маны
 #            '''
 #    }
 #
@@ -8563,7 +8559,7 @@
 #    }
 #
 #    PureIronStaff: {
-#        DisplayName: Посох из сверхчистого железа
+#        DisplayName: Сверхчистый железный посох
 #        Tooltip:
 #            '''
 #            Casts an icy snowflake
@@ -8728,7 +8724,7 @@
 #    }
 #
 #    PureIronSword: {
-#        DisplayName: Меч из сверхчистого железа
+#        DisplayName: Сверхчистый железный меч
 #        Tooltip:
 #            '''
 #            Swings can block {0} projectiles
@@ -8855,7 +8851,7 @@
 #    }
 #
 #    PureIronCrossbow: {
-#        DisplayName: Арбалет из сверхчистого железа
+#        DisplayName: Сверхчистый железный арбалет
 #        Tooltip:
 #            '''
 #            Replaces arrows with frigid bolts that stick to enemies and eventually cause a frosty eruption
@@ -9987,7 +9983,7 @@
 #    }
 #
 #    PureIronBow: {
-#        DisplayName: Лук из сверхчистого железа
+#        DisplayName: Сверхчистый железный лук
 #        Tooltip: Fired arrows leave lingering mist to chill enemies
 #    }
 #
@@ -10285,13 +10281,13 @@
 #    BoneSpider.DisplayName: Костяной паук
 #    Chicken.DisplayName: Курица
 #    ChickenGold.DisplayName: Золотая курица
-#    ChickenSpawner.DisplayName: Курица
+#    ChickenSpawner.DisplayName: Генератор куриц
 #    CoastScarab.DisplayName: Пляжный скарабей
 #    Fly.DisplayName: Муха
 #    GrandLarva.DisplayName: Огромная личинка
 #    JohnSnail.DisplayName: Джон-улитка
 #    Kabucra.DisplayName: Кабучра
-#    KabucraSpawner.DisplayName: Кабучра
+#    KabucraSpawner.DisplayName: Генератор кабучр
 #    LongChicken.DisplayName: Д л и н н а я курица
 #    MoonflareBat.DisplayName: Летучая мышь лунного зарева
 #    SandskinSpider.DisplayName: Песчанокожий паук
@@ -10425,7 +10421,7 @@
 #    }
 #
 #    SpiritCurrent.DisplayName: Spirit Current
-#    SpiritDruid.DisplayName: Spirit Druid
+#    SpiritDruid.DisplayName: Дух друида
 #
 #    SpiritGathicMan: {
 #        DisplayName: Old Spirit Man
@@ -10445,7 +10441,7 @@
 #    SkeletonWanderer_SS.DisplayName: "{$NPCs.SkeletonWanderer.DisplayName}"
 #    SkeletonWarden_SS.DisplayName: "{$NPCs.SkeletonWarden.DisplayName}"
 #    SkullDigger_SS.DisplayName: "{$NPCs.SkullDigger.DisplayName}"
-#    SpiritWalkerMan.DisplayName: Spirit Stranger
+#    SpiritWalkerMan.DisplayName: Дух странника
 #    SpiritwalkerSoul.DisplayName: Заблудшая душа
 #
 #    TBot: {
@@ -10487,20 +10483,20 @@
 #        DisplayName: Странник
 #
 #        TownNPCMood: {
-#            Content: I'm alright.
-#            NoHome: Yo, mind if you give me a house to stay in?
-#            FarFromHome: Yo bro, I can't find my house, you wanna help me out?
-#            LoveSpace: This place is super spacious, good for practicing my swordsmanship!
-#            DislikeCrowded: Is it crowded in here or what!
-#            HateCrowded: Is it crowded in here or what!
-#            LoveBiome: Staying at {BiomeName} reminds me of when I was a young pirate, sailing the seas!
-#            LikeBiome: I think {BiomeName} is nice, I can hear the birds singing and flowers blooming.
-#            DislikeBiome: Not a fan of {BiomeName}, I'd rather live on the surface.
-#            HateBiome: It's so cold here, I'm shaking in my boots!
-#            LoveNPC: "{NPCName} and I are great friends, so living near each other is great!"
-#            LikeNPC: "{NPCName} is cool, I'd like to sail the seas with him sometime."
-#            DislikeNPC: "{NPCName} wants to get his greedy little fingers on my money!"
-#            HateNPC: "{NPCName} will never take my money! NEVER!!"
+#            Content: Всё пучком.
+#            NoHome: Эй, не против пустить меня к себе пожить?
+#            FarFromHome: Эй, бро, я не могу найти свой дом. Выручишь?
+#            LoveSpace: Здесь так просторно, самое то, чтобы оттачивать искусство фехтования!
+#            DislikeCrowded: Здесь не протолкнуться!
+#            HateCrowded: Здесь не протолкнуться!
+#            LoveBiome: "{BiomeName} напоминает мне юность, когда я бороздил моря под пиратским флагом!"
+#            LikeBiome: Мне по душе {BiomeName}. Здесь слышно пение птиц и чувствуется аромат цветущих цветов.
+#            DislikeBiome: Я не в восторге от {BiomeName}, предпочёл бы жить на поверхности.
+#            HateBiome: Здесь так холодно, что я зуб на зуб не попадаю!
+#            LoveNPC: Мы с {NPCName} отличные друзья, поэтому я рад жить по соседству.
+#            LikeNPC: "{NPCName} славный малый, хотел бы я когда-нибудь отправиться с ним в плавание."
+#            DislikeNPC: "{NPCName} так и норовит запустить свои загребущие лапы в мой кошелёк!"
+#            HateNPC: "{NPCName} никогда не получит моих денег! НИКОГДА!!"
 #            LikeNPC_Princess: Мне нравится {NPCName}.
 #            Princess_LovesNPC: Мне нравится {NPCName}.
 #        }
@@ -10552,14 +10548,14 @@
 #    }
 #
 #    BabbyDragonBody.DisplayName: "{$NPCs.BabbyDragonHead.DisplayName}"
-#    BabbyDragonHead.DisplayName: Star Serpent
+#    BabbyDragonHead.DisplayName: Звёздный змей
 #    BabbyDragonLeg.DisplayName: "{$NPCs.BabbyDragonHead.DisplayName}"
 #    BabbyDragonTail1.DisplayName: "{$NPCs.BabbyDragonHead.DisplayName}"
 #    BabbyDragonTail2.DisplayName: "{$NPCs.BabbyDragonHead.DisplayName}"
 #    ShadesoulNPC.DisplayName: Призрачная душа
 #    AncientGladestoneGolem.DisplayName: Голем из древней каменной глади
 #    Blobble.DisplayName: Пузырень
-#    CavernSkeletonSpawner.DisplayName: Cavern Skeleton Spawner
+#    CavernSkeletonSpawner.DisplayName: Генератор пещерных скелетов
 #    CorpseWalkerPriest.DisplayName: Бродячий мертвец-жрец
 #    DancingSkeleton.DisplayName: Пляшущий скелет
 #    DevilsTongue.DisplayName: Язык дьявола
@@ -10569,14 +10565,14 @@
 #    JollyMadman.DisplayName: Весёлый психопат
 #    LivingBloom.DisplayName: Живой бутон
 #    RaveyardSkeleton.DisplayName: Пляшущий скелет
-#    RaveyardSkeletonSpawner.DisplayName: Raveyard Skeleton Spawner
+#    RaveyardSkeletonSpawner.DisplayName: Генератор пляшущих скелетов
 #    SkeletonAssassin.DisplayName: Скелет-убийца
 #    SkeletonDuelist.DisplayName: Скелет-дуэлянт
 #    SkeletonFlagbearer.DisplayName: Скелет-знаменосец
 #    SkeletonNoble.DisplayName: Скелет-аристократ
 #    SkeletonWanderer.DisplayName: Скелет-странник
 #    SkeletonWarden.DisplayName: Скелет-страж
-#    SurfaceSkeletonSpawner.DisplayName: Surface Skeleton Spawner
+#    SurfaceSkeletonSpawner.DisplayName: Генератор наземных скелетов
 #    VagrantSpirit.DisplayName: Бродячий дух
 #    BloatedGhoul.DisplayName: Вздувшийся упырь
 #    BloatedGoldfish.DisplayName: Вздувшаяся золотая рыбка

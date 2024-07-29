@@ -16,6 +16,6 @@
 //
 //     public override ILContext.Manipulator PatchMethod { get; } = il =>
 //     {
-//         TranslationHelper.ModifyIL(il, "Use Revival Potion", "Использовать зелье восстановления сил");
+//         TranslationHelper.ModifyIL(il, "Use Revival Potion", "Использовать зелье возрождения");
 //     };
 // }

@@ -83,7 +83,7 @@
 //         {
 //             Main.npcChatText = Main.npcChatText switch
 //             {
-//                 "You aren't holding a Revival Potion." => "",
+//                 "You aren't holding a Revival Potion." => "У вас нет при себе зелья воздоржения.",
 //                 "Did I just get knocked out? Thanks for waking me." => "",
 //                 "I'm up. Wide awake. What did you give me? Some sort of potion?" => "",
 //                 "Was I asleep or unconscious? Most likely unconscious since, well, I wouldn't just go to sleep on the floor." => "",
@@ -91,11 +91,11 @@
 //             };
 //         }
 //         
-//         if (npc.type == ModContent.NPCType<DaerelUnconscious>())
+//         if (npc.type == ModContent.NPCType<TBotUnconscious>())
 //         {
 //             Main.npcChatText = Main.npcChatText switch
 //             {
-//                 "You aren't holding a Revival Potion." => "",
+//                 "You aren't holding a Revival Potion." => "У вас нет при себе зелья воздоржения.",
 //                 "Rebooting systems..." => "",
 //                 "Running self-repairs..." => "",
 //                 "I'm not sure how I drank that, since I'm a robot. I probably shouldn't question it." => "",
@@ -107,7 +107,7 @@
 //         {
 //             Main.npcChatText = Main.npcChatText switch
 //             {
-//                 "You aren't holding a Revival Potion." => "",
+//                 "You aren't holding a Revival Potion." => "У вас нет при себе зелья воздоржения.",
 //                 "*Yawn* Why'd ya wake me up? I was havin' a dream about... doesn't matter." => "",
 //                 "Alright, I'm up. Did I fall asleep or somethin'?" => "",
 //                 "Yuck, what did you make me drink? Tastes bitter... like strawberries..." => "",
