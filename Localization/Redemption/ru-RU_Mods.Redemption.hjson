@@ -1412,20 +1412,20 @@
 #    }
 #
 #    SpiritWalker: {
-#        Name: -Spirit Walker-
-#        Keybind: Удерживайте клавишу [Spirit Walker Ability Key] в течение 1 секунды, чтобы заглянуть в царство духов
+#        Name: -Проводник духов-
+#        Keybind: Удерживайте клавишу способности [Проводник духов] в течение 1 секунды, чтобы заглянуть в царство духов
 #        Hold: "Удерживайте клавишу"
 #        Context: " в течение 1 секунды, чтобы заглянуть в царство духов"
 #        ColoredName:
 #            '''
-#            [c/60D0D7:Spirit Walker]
+#            [c/60D0D7:Проводник духов]
 #
 #            '''
 #        Description:
 #            '''
 #
-#            Grants unrestricted interactions with Spirits and allows you to hit Spirit Realm enemies using any weapon.
-#            While in the Spirit Realm, Spirit Currents can spawn, giving you a way to transport near soulful remains to [i:Redemption/DeadRinger]Dead Ring.
+#            Позволяет неограниченно взаимодействовать с духами и атаковать врагов из царства духов любым оружием
+#            В царстве духов могут появляться духовные течения, которые дают возможность перенести душевные останки к [i:Redemption/DeadRinger]Смертозвону.
 #            '''
 #    }
 #}
@@ -2070,57 +2070,57 @@
 #    }
 #
 #    NestWandBuff: {
-#        DisplayName: Chikcen
-#        Description: Chikcen
+#        DisplayName: Куреча
+#        Description: Куреча
 #    }
 #
 #    NebHealBuff: {
-#        DisplayName: Vigorous Aura
-#        Description: A strange aura is healing you...
+#        DisplayName: Энергичная аура
+#        Description: Загадочная аура исцеляет вас...
 #    }
 #
 #    BrokenArmorDebuff: {
-#        DisplayName: Broken Armor
-#        Description: waa
+#        DisplayName: Расколотая броня
+#        Description: Ваа
 #    }
 #
 #    ContagionShardDebuff: {
-#        DisplayName: Contagion Shard
-#        Description: yowie!
+#        DisplayName: Заразный осколок
+#        Description: Ой-ой-ой!
 #    }
 #
 #    DisarmedDebuff: {
-#        DisplayName: Disarmed
-#        Description: oopsies
+#        DisplayName: Обезоруженный
+#        Description: Упс!
 #    }
 #
 #    DragonblazeDebuff: {
-#        DisplayName: Dragonblaze
-#        Description: grrr
+#        DisplayName: Драконье пламя
+#        Description: Гр-р-р
 #    }
 #
 #    ElectrifiedDebuff: {
-#        DisplayName: Electrified
-#        Description: zip zap
+#        DisplayName: Электризация
+#        Description: Вжик-вжик
 #    }
 #
 #    FlagbearerBuff: {
-#        DisplayName: Rallied
+#        DisplayName: Сплочённый
 #        Description: ":D"
 #    }
 #
 #    IceFrozen: {
-#        DisplayName: Frozen
-#        Description: brrr
+#        DisplayName: Замёрзший
+#        Description: Бр-р-р
 #    }
 #
 #    IncisorDebuff: {
-#        DisplayName: Incisor
-#        Description: sliced
+#        DisplayName: Резец
+#        Description: Нарезан
 #    }
 #
 #    MoonflareDebuff: {
-#        DisplayName: Moonflare
+#        DisplayName: Лунное зарево
 #        Description: ":("
 #    }
 #
@@ -2275,7 +2275,7 @@
 #    }
 #
 #    VigourousBuff: {
-#        DisplayName: Vigorous Spirit
+#        DisplayName: Бодрый дух
 #        Description: Регенерация здоровья значительно увеличена
 #    }
 #
@@ -2290,8 +2290,8 @@
 #    }
 #
 #    LantardPetBuff: {
-#        DisplayName: Fluffy Boi
-#        Description: Fluff.
+#        DisplayName: Пушистый добряк
+#        Description: Пушистик
 #    }
 #
 #    LizzyPetBuff: {
@@ -2300,8 +2300,8 @@
 #    }
 #
 #    LegoPetBuff: {
-#        DisplayName: Lego Man
-#        Description: Don't step on it!
+#        DisplayName: Человечек лего
+#        Description: Не наступите на него!
 #    }
 #
 #    MegaswavePetBuff: {
@@ -2315,8 +2315,8 @@
 #    }
 #
 #    WaasephiPetBuff: {
-#        DisplayName: Waasephini
-#        Description: Waa!
+#        DisplayName: Ваасефини
+#        Description: Ваа!
 #    }
 #
 #    IslandDebuff: {
@@ -2340,7 +2340,7 @@
 #    }
 #
 #    HydraAcidDebuff: {
-#        DisplayName: Hydra Acid
+#        DisplayName: Гидрокислота
 #        Description: BLLAARRG
 #    }
 #
@@ -2355,23 +2355,23 @@
 #    }
 #
 #    BLTPetBuff: {
-#        DisplayName: Calico Cat
-#        Description: A scaredy cat
+#        DisplayName: Трёхцветная кошка
+#        Description: Пугливая кошка
 #    }
 #
 #    BLTSandwichBuff: {
-#        DisplayName: Б.С.Т. сэндвич
-#        Description: Stands for Big Luigi Toast I think
+#        DisplayName: Б.Л.Т. сэндвич
+#        Description: Кажется, это значит Бутерброд Луиджи с Томатом
 #    }
 #
 #    HydraCorrosionBuff: {
-#        DisplayName: Hydric Acid
-#        Description: All poison weapons inflict Hydra Acid
+#        DisplayName: Гидрокислота
+#        Description: Всё ядовитое оружие накладывает дебафф «{{$Buffs.HydraCorrosionBuff.DisplayName}»
 #    }
 #
 #    MiniDiggerBuff: {
-#        DisplayName: Mini Digger
-#        Description: Your own personal protector!
+#        DisplayName: Маленький землекоп
+#        Description: Ваш личный защитник!
 #    }
 #
 #    AsterisPetBuff: {
@@ -2396,7 +2396,7 @@
 #
 #    LightningStoneBuff: {
 #        DisplayName: Камень молнии
-#        Description: Rock on, brother!
+#        Description: Давай качайся, братан
 #    }
 #
 #    MoonflareCandleBuff: {
@@ -3032,8 +3032,8 @@
 #        Dialogue2: "Эй, в твоём старом цилиндре чувствуется что-то духовное, "
 #        Dialogue2Cont: загляни в царство духов ненадолго, чтоб я мог рассмотреть его получше.
 #        Dialogue2Mid: "сними-ка его, да "
-#        Chat1: The ability given to ya gives you a peek into the Spirit Realm - A realm parallel to our own. You'll be able to hurt spirits with any method or find corpses to use that bell thing-a-ma-jig on while peekin'. Such as mine! Another thing, we spirits can gift to you our "crux" if ya have somethin' to imbue it in - just request it while spirit walkin'.
-#        Chat2: A nifty artifact of Gathuram, that is. Usin' it on corpses will force their spirit back to their location while stretchin' them outta the Spirit Realm a tad, which is why you can see me now even without walkin' despite me being a full-fledged spirit - not one of those Vagrants or Lost Souls.
+#        Chat1: Дарованная тебе способность позволяет заглянуть в царство духов - измерение, параллельное нашему. Во время этого видения ты сможешь ранить духов любым способом или находить тела, на которые можно воздействовать с помощью этого колокольчика. Например, моё тело! Более того, мы, духи, можем передать тебе нашу 'сущность', если у тебя есть предмет, в который её можно поместить - просто попроси об этом пока находишься в духовном облике.
+#        Chat2: Перед тобой изящное творение Гатурама. Применяя его к останкам, ты принуждаешь дух вернуться к месту своей смерти, слегка вытягивая его из царства духов. Поэтому ты можешь видеть меня сейчас, даже не прибегая к этой вашей ходьбе, хотя я самый что ни на есть настоящий дух, а не какой-то там скиталец или заблудшая душа.
 #        Chat3: When folk die, their soul leaves their body to find anotha'. During this pilgrimage, they're still connected to the physical world, meanin' some with the arcane eye may see 'em. If a lost soul wanders too long, they can seep outta the spirit realm and become Vagrant Spirits - poor things forever lost.
 #        Chat4: I couldn't tell ya where to find corpses to use it on, but I can recommend findin' spirit currents. They're only visible in my realm, and can take ya closer to a soulful corpse if ya travel through one. You'll only find 'em in caverns, as that'll be where our energy is most contained. If ya do find what you're lookin' for, be wary. Tombs of the mighty are seldom left unguarded.
 #        Chat4B: I once met anotha' spirit in a mind-bogglin' location! It felt outta this world. The walls were white, pipes with green fluids hung from ceilings, strange blue lights emitted from metal boxes an' tubes... and the spirit I saw was most intriguing! He just kept repeatin' about alarms, and wore a strange white an' blue suit. Very odd.
@@ -3357,7 +3357,7 @@
 #        DisplayName: Сэндвич с ветчиной
 #        Tooltip:
 #            '''
-#            'Unleash doomsday upon this fragile universe'
+#            'Обрушь конец света на это хрупкое мироздание'
 #            Призывает ??!!
 #            '''
 #    }
@@ -3781,8 +3781,8 @@
 #            '''
 #        Lore:
 #            '''
-#            'Greaves replicated from the first ancient Crusaders of the Demonhollow.
-#            The metal's unique sheen was traditionally covered up by the Priests who wore it to earn the respect of the soldiers who served them.'
+#            'Поножи, воссозданные по образцу доспехов первых крестоносцев демонической пустоши
+#            Жрецы, носившие эти поножи, намеренно скрывали неповторимый отблеск металла, чтобы завоевать уважение солдат, находившихся под их началом'
 #            '''
 #    }
 #
@@ -3795,8 +3795,8 @@
 #            '''
 #        Lore:
 #            '''
-#            'Helmet replicated from the first ancient Crusaders of the Demonhollow.
-#            The metal's unique sheen was traditionally covered up by the Priests who wore it to earn the respect of the soldiers who served them.'
+#            'Шлем, воссозданный по образцу доспехов первых крестоносцев демонической пустоши
+#            Жрецы, носившие этот шлем, намеренно скрывали неповторимый отблеск металла, чтобы завоевать уважение солдат, находившихся под их началом'
 #            '''
 #    }
 #
@@ -4530,12 +4530,12 @@
 #
 #    WaasephiPet: {
 #        DisplayName: Фиолетовая пряжа
-#        Tooltip: Summons a chibi Waasephi
+#        Tooltip: Призывает чиби-Ваасефи
 #    }
 #
 #    GoodRoute: {
 #        DisplayName: Светлый путь
-#        Tooltip: This will increase alignment
+#        Tooltip: Увеличивает мировозрение
 #    }
 #
 #    HintIcon: {
@@ -4803,7 +4803,7 @@
 #
 #    BlackholeFragment: {
 #        DisplayName: Фрагмент чёрной дыры
-#        Tooltip: "'Flakes of matter around you are being sucked into this fragment'"
+#        Tooltip: "'Частицы материи вокруг вас затягиваются в этот фрагмент'"
 #    }
 #
 #    Capacitor: {
@@ -4828,7 +4828,7 @@
 #
 #    Cyberscrap: {
 #        DisplayName: Киберхлам
-#        Tooltip: "'Versatile, and can be used to make anything'"
+#        Tooltip: "'Универсальный материал, пригодный для создания чего угодно'"
 #    }
 #
 #    OmegaPowerCell: {
@@ -4838,7 +4838,7 @@
 #
 #    OphosNotes: {
 #        DisplayName: Потерянные записи Офоса
-#        Tooltip: "'Notes discovered by the Wayfarer detailing the smithing process of a famous sword'"
+#        Tooltip: "'Заметки, обнаруженные Странником, с подробным описанием процесса ковки знаменитого меча'"
 #    }
 #
 #    Plating: {
@@ -4958,9 +4958,9 @@
 #        DisplayName: Пустая карта сущности
 #        Tooltip:
 #            '''
-#            A container for friendly spirits to aid you
-#            Find willing spirits and request their crux to imbue into the card
-#            'Those who peek into the realm of fulfilment are bound to find friends'
+#            Вместилище для дружественных духов, готовых прийти на помощь
+#            Найдите души, готовые служить, и попросите у них частицу их сущности, чтобы заключить её в карте
+#            'Те, кто заглядывает в царство свершений, непременно обретут друзей'
 #            '''
 #    }
 #
@@ -5886,8 +5886,8 @@
 #        DisplayName: Костёр пустоши
 #        Tooltip:
 #            '''
-#            Life regen is increased when near a campfire
-#            'Now that's a hot wheel'
+#            Увеличивает регенерацию здоровья возле костра
+#            'Вот это действительно горячая штучка'
 #            '''
 #    }
 #
@@ -6152,9 +6152,9 @@
 #        DisplayName: Биоконтейнер
 #        Tooltip:
 #            '''
-#            Naturally grows Life Fruits
-#            'A small container created by King Slayer in order to grow plants in space.
-#            It simulates specific environments depending on the settings, this one seems ideal for growing rare jungle plant-life'
+#            Естественно выращивает фрукты жизни
+#            'Небольшой контейнер, созданный Королём-охотником для культивации растений в космосе
+#            Он имитирует различные условия окружающей среды в зависимости от настроек, но этот, кажется, идеален для выращивания редкой флоры джунглей'
 #            '''
 #    }
 #
@@ -6183,7 +6183,7 @@
 #        Tooltip:
 #            '''
 #            If you have this you're either cheating or you broke something
-#            [c/ff0000:Unbreakable (5000% Pickaxe Power after 3rd Prototype)]
+#            [c/ff0000:Неразрушимый (нужно 5000% мощности кирки после 3 Прототипа)]
 #            '''
 #    }
 #
@@ -6293,32 +6293,32 @@
 #
 #    AncientGrassSeeds: {
 #        DisplayName: Семена древней травы
-#        Tooltip: Plants grass on ancient dirt
+#        Tooltip: Сажает траву на древней земле
 #    }
 #
 #    AnglonicMysticBlossom: {
 #        DisplayName: Ангулонский мистический цветок
-#        Tooltip: "'An exceptionally rare flower with an eternal lifetime.'"
+#        Tooltip: "'Необычайно редкий цветок, живущий вечно'"
 #    }
 #
 #    IrradiatedCorruptGrassSeeds: {
-#        DisplayName: Радиоактивные семена искажения
-#        Tooltip: Plants irradiated corrupt grass on dirt
+#        DisplayName: Облучённые семена искажения
+#        Tooltip: Сажает облучённую траву искажения на облучённой земле
 #    }
 #
 #    IrradiatedCrimsonGrassSeeds: {
-#        DisplayName: Радиоактивные семена багрянца
-#        Tooltip: Plants irradiated crimson grass on dirt
+#        DisplayName: Облучённые семена багрянца
+#        Tooltip: Сажает облучённую траву багрянца нна облучённой земле
 #    }
 #
 #    IrradiatedGrassSeeds: {
-#        DisplayName: Радиоактивные семена
-#        Tooltip: Plants irradiated grass on dirt
+#        DisplayName: Облучённые семена
+#        Tooltip: Сажает облучённую траву на облучённой земле
 #    }
 #
 #    Nightshade: {
 #        DisplayName: Паслён
-#        Tooltip: "'A purple plant that blooms in the night'"
+#        Tooltip: "'Пурпурное растение, цветущее в ночи'"
 #    }
 #
 #    NightshadeSeeds: {
@@ -6507,57 +6507,57 @@
 #    }
 #
 #    IrradiatedCrimstone: {
-#        DisplayName: Радиоактивный багряный камень
+#        DisplayName: Облучённый багряный камень
 #        Tooltip: ""
 #    }
 #
 #    IrradiatedDirt: {
-#        DisplayName: Радиоактивная земля
+#        DisplayName: Облучённая земля
 #        Tooltip: ""
 #    }
 #
 #    IrradiatedEbonstone: {
-#        DisplayName: Радиоактивный эбонит
+#        DisplayName: Облучённый эбонит
 #        Tooltip: ""
 #    }
 #
 #    IrradiatedHardenedSand: {
-#        DisplayName: Радиоактивный затвердевший песок
+#        DisplayName: Облучённый затвердевший песок
 #        Tooltip: ""
 #    }
 #
 #    IrradiatedIce: {
-#        DisplayName: Радиоактивный лёд
+#        DisplayName: Облучённый лёд
 #        Tooltip: ""
 #    }
 #
 #    IrradiatedLivingWoodWall: {
-#        DisplayName: Радиоактивная стена живого дерева
+#        DisplayName: Облучённая стена живого дерева
 #        Tooltip: ""
 #    }
 #
 #    IrradiatedSand: {
-#        DisplayName: Радиоактивный песок
+#        DisplayName: Облучённый песок
 #        Tooltip: ""
 #    }
 #
 #    IrradiatedSandstone: {
-#        DisplayName: Радиоактивный песчаник
+#        DisplayName: Облучённый песчаник
 #        Tooltip: ""
 #    }
 #
 #    IrradiatedSnow: {
-#        DisplayName: Радиоактивный снег
+#        DisplayName: Облучённый снег
 #        Tooltip: ""
 #    }
 #
 #    IrradiatedStone: {
-#        DisplayName: Радиоактивный камень
+#        DisplayName: Облучённый камень
 #        Tooltip: ""
 #    }
 #
 #    IrradiatedStoneWall: {
-#        DisplayName: Радиоактивная каменная стена
+#        DisplayName: Облучённая каменная стена
 #        Tooltip: ""
 #    }
 #
@@ -7136,15 +7136,15 @@
 #
 #    PlutoniumBomb: {
 #        DisplayName: Плутониевая бомба
-#        Tooltip: Falls from the sky, turns the small blast radius into plutonium
+#        Tooltip: Падает с неба, превращая малый радиус взрыва в плутоний
 #    }
 #
 #    PocketSand: {
 #        DisplayName: Карманный песок
 #        Tooltip:
 #            '''
-#            Throws a dust cloud that slightly reduces defense and confuses the target
-#            'Sand in the eyes!'
+#            Создаёт облако пыли, которое немного снижает защиту и накладывает дебафф «{$BuffName.Confused}»
+#            'Песок в глаза!'
 #            '''
 #    }
 #
@@ -7152,8 +7152,8 @@
 #        DisplayName: Карманный Санс
 #        Tooltip:
 #            '''
-#            Throws a strange skull with unfathomable power
-#            'Bad times all around'
+#            Бросает странный череп, наполненный непостижимой силой
+#            'Плохие времена повсюду'
 #            '''
 #    }
 #
@@ -7162,7 +7162,7 @@
 #        Tooltip:
 #            '''
 #            Значительно увеличивает все характеристики
-#            'Fluffy'
+#            'Пушистик'
 #            '''
 #    }
 #
@@ -7184,8 +7184,8 @@
 #        DisplayName: Зелье харизмы
 #        Tooltip:
 #            '''
-#            Shops have lower prices
-#            Enemies drop more gold
+#            Магазины предлагают более низкие цены
+#            Из врагов выпадает больше монет
 #            '''
 #    }
 #
@@ -9386,42 +9386,42 @@
 #    }
 #
 #    IrradiatedCrimstoneWall: {
-#        DisplayName: Стена из радиоактивного багряного камня
+#        DisplayName: Стена из облучённого багряного камня
 #        Tooltip: ""
 #    }
 #
 #    IrradiatedDirtWall: {
-#        DisplayName: Стена из радиоактивной земли
+#        DisplayName: Стена из облучённой земли
 #        Tooltip: ""
 #    }
 #
 #    IrradiatedEbonstoneWall: {
-#        DisplayName: Стена из радиоактивной эбонита
+#        DisplayName: Стена из облучённого эбонита
 #        Tooltip: ""
 #    }
 #
 #    IrradiatedHardenedSandWall: {
-#        DisplayName: Стена из радиоактивного затвердевшего песка
+#        DisplayName: Стена из облучённого затвердевшего песка
 #        Tooltip: ""
 #    }
 #
 #    IrradiatedIceWall: {
-#        DisplayName: Стена из радиоактивного льда
+#        DisplayName: Стена из облучённого льда
 #        Tooltip: ""
 #    }
 #
 #    IrradiatedMudWall: {
-#        DisplayName: Радиоактивная грязевая стена
+#        DisplayName: Облучённая грязевая стена
 #        Tooltip: ""
 #    }
 #
 #    IrradiatedSandstoneWall: {
-#        DisplayName: Стена из радиоактивного песчаника
+#        DisplayName: Стена из облучённого песчаника
 #        Tooltip: ""
 #    }
 #
 #    IrradiatedSnowWall: {
-#        DisplayName: Стена из радиоактивного снега
+#        DisplayName: Стена из облучённого снега
 #        Tooltip: ""
 #    }
 #
@@ -9813,16 +9813,16 @@
 #    }
 #
 #    BLTSandwich: {
-#        DisplayName: Б.С.Т. сэндвич
-#        Tooltip: Призывает Б.С.Т. сэндвич
+#        DisplayName: Б.Л.Т. сэндвич
+#        Tooltip: Призывает Б.Л.Т. сэндвич
 #    }
 #
 #    HairyCloak: {
 #        DisplayName: Мохнатый плащ
 #        Tooltip:
 #            '''
-#            Summons a chibi Calico Cat
-#            'A small tattered cloak covered in... cat hair?'
+#            Призывает чиби-трёхцветную кошку
+#            'Маленький изношенный плащ, покрытый... кошачьей шерстью?'
 #            '''
 #    }
 #
@@ -9830,8 +9830,8 @@
 #        DisplayName: Зелье гидрокислоты
 #        Tooltip:
 #            '''
-#            Causes {0} elemental weapons to inflict Hydra Acid
-#            Hydra Acid reduces defense and removes Robotic targets' resistance against {0} damage
+#            Оружие {0} накладывает дебафф «{$Buffs.HydraAcidDebuff.DisplayName}»
+#            «{$Buffs.HydraAcidDebuff.DisplayName}» снижает защиту и лишает роботизированные цели сопротивления к урону {0}
 #            '''
 #    }
 #
@@ -9844,8 +9844,8 @@
 #        DisplayName: Потрёпанный лоскут
 #        Tooltip:
 #            '''
-#            Summons a mini Skull Digger to protect you
-#            ... He's trying his best.
+#            Призывает маленького Череполицего землекопа защищать вас
+#            ... Он старается изо всех сил
 #            '''
 #    }
 #
@@ -9929,7 +9929,7 @@
 #
 #    Wardbreaker: {
 #        DisplayName: Кольцо разрушения барьеров
-#        Tooltip: The wearer's magic or {0} weapons deal double damage to Guard Points
+#        Tooltip: Магия или оружие {0} наносят двойной урон барьеру врагов
 #    }
 #
 #    ShinkiteBrickOrnateWall: {
@@ -10851,7 +10851,7 @@
 #
 #Keybinds: {
 #    "Special Ability Key.DisplayName": Особая способность
-#    "Spirit Walker Key.DisplayName": Служитель духа
+#    "Spirit Walker Key.DisplayName": Проводник духов
 #    "Skip Dialogue Key.DisplayName": Пропуск диалога
 #}
 #
