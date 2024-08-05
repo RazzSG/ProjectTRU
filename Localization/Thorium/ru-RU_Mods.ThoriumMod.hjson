@@ -1,18 +1,18 @@
 ﻿Announcements: {
-    WorldEngineChange: Сложность мира была изменена на {0}.
+    WorldEngineChange: Сложность мира изменена на {0}.
     LodestoneWarning1: Мир расколот магнетитом!
     LodestoneWarning2: Мир расколот изобилием магнетита!
-    ValadiumWarning1: Мир наполнен валадиумом!
-    ValadiumWarning2: Мир наполнен изобилием валадиума!
-    LichWarning: Освобождение могущественных душ пробудило что-то на кладбище...
-    GraniteMarbleWarning: Очаги гранита и мрамора содрогаются...
+    ValadiumWarning1: Мир зачарован валадиумом!
+    ValadiumWarning2: Мир зачарован изобилием валадиума!
+    LichWarning: Высвобождение могущественных душ пробудило нечто на кладбище...
+    GraniteMarbleWarning: Залежи гранита и мрамора содрогаются...
     IllumiteWarning: Люминесцентная энергия Плантеры озаряет землю...
     HMDepthsWarning: Новая жизнь рождается в водных глубинах!
     ForgottenOneWarning: Что-то пробуждается в водных глубинах...
     QueenJellyfishWarning: Акватические глубины пузырятся под поверхностью океана!
     ExpertForgottenOne1: Панцирь Забытого неистово раскалывается!
     ExpertForgottenOne2: Забытый вырывается из своей древней тюрьмы!
-    ForgottenOneDefeat: Токсичный смог глубин, рассеялся...
+    ForgottenOneDefeat: Токсичный смог глубин рассеялся...
     SpiderWarning: Паучьи гнёзда шуршат от гнева...
     BoreanStriderAppear: Восьминогая угроза бродит по тундре...
     PatchWerkDefeat: Ужасающий {$NPCs.PatchWerk.DisplayName} рассыпается...
@@ -40,47 +40,47 @@ GravestoneText: {
     8: Наконец воссоединение.
     9: Он достойно завершил свой путь.
     10: Она достойно завершила свой путь.
-    11: Увидимся снова.
+    11: Мы встретимся вновь.
 }
 
 GameTips: {
-    ThoriumModTip0: Thorium Mod: Один из океанов таит под собой Акватические глубины. Обычные кирки не в состоянии разрушить морской камень.
-    ThoriumModTip1: Thorium Mod: Не пытайтесь создать карманы с воздухом в Акватических глубинах, иначе задохнётесь!
-    ThoriumModTip2: Thorium Mod: Пузыри воздуха позволяют некоторое время дышать под водой. Пузырьковый магнит притянет их к вам.
-    ThoriumModTip3: Thorium Mod: В хардмодных Акватических глубинах растут кристальные гребни. Используйте их, чтобы увеличить свою скорость!
-    ThoriumModTip4: Thorium Mod: Где-то под землёй находится Кровавая камера. Вы можете преподнести на её алтарь пять нечестивых осколков, но на свой страх и риск...
-    ThoriumModTip5: Thorium Mod: Используйте свиток техники, чтобы экипировать его. Затем, имея достаточное количество очков техники, нажмите клавишу '{$Keybinds.ThrowingTechnique.DisplayName}' и активируйте её!
+    ThoriumModTip0: Thorium Mod: Один из океанов таит под собой Акватические глубины. Обычные кирки бессильны против морских пород этого места.
+    ThoriumModTip1: Thorium Mod: Не пытайтесь создать воздушные карманы в Акватических глубинах - это верный путь к удушью!
+    ThoriumModTip2: Thorium Mod: Пузыри воздуха позволяют некоторое время дышать под водой. {$Items.BubbleMagnet.DisplayName} притянет их к вам, словно магнит.
+    ThoriumModTip3: Thorium Mod: В хардмодных Акватических глубинах растут Хрустальные волны. Используйте их, чтобы увеличить свою скорость!
+    ThoriumModTip4: Thorium Mod: Где-то в подземных недрах скрывается Кровавая камера. Вы можете преподнести на её алтарь пять нечестивых осколков, но на свой страх и риск...
+    ThoriumModTip5: Thorium Mod: Экипируйте свиток техники, затем, имея достаточное количество очков техники, нажмите клавишу '{$Keybinds.ThrowingTechnique.DisplayName}' и активируйте его!
     ThoriumModTip6: Thorium Mod: Целитель не может помочь союзникам, если он мёртв, поэтому в первую очередь обеспечьте свою безопасность!
     ThoriumModTip7: Thorium Mod: Максимальное вдохновение можно увеличить с помощью трёх видов фрагментов вдохновения.
     ThoriumModTip8: Thorium Mod: Некоторые инструменты барда требуют игры с определённым ритмом для большей эффективности.
-    ThoriumModTip9: Thorium Mod: Ножны меча позволяют соединить множество ударов меча в один мощный удар. Атакуйте в нужный момент!
-    ThoriumModTip10: Thorium Mod: Превращаясь в иное существо, вы не можете использовать предметы, кроме Родства душ.
-    ThoriumModTip11: Thorium Mod: Не забывайте показывать гиду свои предметы, чтобы узнать, что можно из них создать!
-    ThoriumModTip12: Thorium Mod: Предметы, захламляющие инвентарь, такие как паутина и руда, можно разместить в ваши слоты боеприпасов.
+    ThoriumModTip9: Thorium Mod: Ножны меча позволяют соединить множество ударов в один мощный. Атакуйте в нужный момент!
+    ThoriumModTip10: Thorium Mod: Обернувшись иным существом, вы лишаетесь возможности использовать любые предметы, кроме Родства душ.
+    ThoriumModTip11: Thorium Mod: Не стесняйтесь показывать гиду все найденные предметы, чтобы узнать, что можно из них создать!
+    ThoriumModTip12: Thorium Mod: Предметы, захламляющие инвентарь, такие как паутина и руда, можно поместить в слоты для боеприпасов.
     ThoriumModTip13: Thorium Mod: Предметы с бирюзовыми названиями посвящены покровителям Thorium!
-    ThoriumModTip14: Thorium Mod: Великую громовую птицу можно вызвать на бой, если найти железо, когти и чародейную пыль.
-    ThoriumModTip15: Thorium Mod: Медузный резонатор приманивает всевозможные виды медуз... включая огромных мутантов!
-    ThoriumModTip16: Thorium Mod: Приготовьте несколько нечестивых осколков для привлечения Виконта в его пещерной камере.
-    ThoriumModTip17: Thorium Mod: Как только проклятие Темницы снято, гранитные пещеры пополняются новыми существами. Внимательно следите за энергетическими конструкциями...
-    ThoriumModTip18: Thorium Mod: Как только проклятие Темницы снято, мраморные пещеры пополняются новыми существами. Внимательно следите за подозрительными грудами камней...
-    ThoriumModTip19: Thorium Mod: Используя марсианскую технологию обратной разработки, можно случайно связаться с инопланетным кораблём...
-    ThoriumModTip20: Thorium Mod: Выпустив древних духов света и тьмы, во время метели в снегах можно услышать странное щёлканье.
-    ThoriumModTip21: Thorium Mod: В Преисподней бродит странное иномирное существо, невидимое человеческому глазу. Для раскрытия его истинной формы вам понадобится Пустотная линза.
-    ThoriumModTip22: Thorium Mod: Мёртвый Лич заявит права на вашу душу, если вы реактивируете его филактерию на проклятых землях.
-    ThoriumModTip23: Thorium Mod: Глубины океана - родина скрытых существ. Кто знает, что произойдёт, если вы их убьёте...
+    ThoriumModTip14: Thorium Mod: Великую громовую птицу можно вызвать на бой, если найти немного железа и когтей.
+    ThoriumModTip15: Thorium Mod: "{$Items.JellyfishResonator.DisplayName} приманивает медуз всех мастей... включая гигантских мутантов!"
+    ThoriumModTip16: Thorium Mod: Чтобы призвать Виконта в его пещерной камере, запаситесь горсткой нечестивых осколков.
+    ThoriumModTip17: Thorium Mod: Когда проклятие Темницы рассеется, гранитные пещеры пополняются новыми существами. Внимательно следите за энергетическими конструкциями...
+    ThoriumModTip18: Thorium Mod: Когда проклятие Темницы рассеется, мраморные пещеры пополняются новыми существами. Внимательно следите за подозрительными грудами камней...
+    ThoriumModTip19: Thorium Mod: Используя марсианскую технологию обратной разработки, вы рискуете невольно установить контакт с внеземными звездолётами...
+    ThoriumModTip20: Thorium Mod: Когда древние духи пробудятся, в самые холодные ночи тундры можно услышать странное стрекотание.
+    ThoriumModTip21: Thorium Mod: В преисподней бродит странное иномирное существо, невидимое человеческому глазу. Лишь {$Items.VoidLens.DisplayName} раскроет его истинный облик.
+    ThoriumModTip22: Thorium Mod: Оживите филактерий на проклятой земле, и {$NPCs.Lich.DisplayName} явится за вашей душой. 
+    ThoriumModTip23: Thorium Mod: В бездонных глубинах океана таятся тени древних сущностей. Кто знает, что произойдёт, если вы их потревожите...
     ThoriumModTip24: Thorium Mod: Как только вы в полной мере подготовились к худшему, используйте Монету вестника рока ночью, предвещая конец всему сущему.
-    ThoriumModTip25: Thorium Mod: Кровавейшие ночи полны монстров, будь уверен, что из-под земли вылезет нечто мерзкое, готовое напасть на вас.
-    ThoriumModTip26: Thorium Mod: Если вы почувствовали запах гнили в подземных джунглях, скорее всего, рядом находится неуловимый и опасный Трупоцвет.
-    ThoriumModTip27: Thorium Mod: Темница полна загадочными артефактами, но иногда опасность скрывается даже в столь безобидной вещи как зеркало.
-    ThoriumModTip28: Thorium Mod: Сапожник продаёт и полирует обувь. Его магазин стоит посещения.
-    ThoriumModTip29: Thorium Mod: За небольшую плату пустынный послушник вызовет бурю в пустыне.
+    ThoriumModTip25: Thorium Mod: В самые кровавые ночи что-то зловещее непременно выйдет на охоту. Будьте готовы к неожиданной встрече.
+    ThoriumModTip26: Thorium Mod: Если вы почувствовали запах гнили в подземных джунглях, скорее всего, рядом находится неуловимый и опасный {$NPCs.CorpseBloom.DisplayName}.
+    ThoriumModTip27: Thorium Mod: Темница полна загадочными артефактами, но порой опасность скрывается даже в столь безобидной вещи как зеркало.
+    ThoriumModTip28: Thorium Mod: Сапожник не только продаёт обувь, но и полирует её. Его магазин стоит посещения.
+    ThoriumModTip29: Thorium Mod: За небольшую плату Пустынный послушник вызовет песчаную бурю.
     ThoriumModTip30: Thorium Mod: Если вы одолеете Короля слизней, его деликатесный гель может привлечь повара.
-    ThoriumModTip31: Thorium Mod: Растерянный зомби может показаться странным, но его репелленты от различных существ не шутка.
-    ThoriumModTip32: Thorium Mod: Хотите больше экипировки? Навестите кузнеца и оцените его товары!
-    ThoriumModTip33: Thorium Mod: Убийство глаза-переростка должно привлечь следопыта, который выдаёт особые заказы на убийство монстров.
-    ThoriumModTip34: Thorium Mod: Дайвер живёт морем... настолько, что его проглотила медуза-мутант!
-    ThoriumModTip35: Thorium Mod: Не заинтересованы в садоводстве? Друид всегда готов предложить вам семена различных трав.
-    ThoriumModTip36: Thorium Mod: Спиритуалист ценит гармонию превыше всего. Предайте покою дух древнего чемпиона и, возможно, он поможет вам.
+    ThoriumModTip31: Thorium Mod: Растерянный зомби может показаться странным, но его репелленты от разных существ - вещь серьёзная.
+    ThoriumModTip32: Thorium Mod: Нужно дополнительное снаряжение? Навестите кузнеца и оцените его товары!
+    ThoriumModTip33: Thorium Mod: Убийство определённого переросшего глаза должно привлечь следопыта, который выдаёт особые заказы на убийство монстров.
+    ThoriumModTip34: Thorium Mod: Водолаз живёт морем... настолько, что его проглотила медуза-мутант!
+    ThoriumModTip35: Thorium Mod: Интересуетесь садоводством? Друид всегда готов предложить вам семена различных трав.
+    ThoriumModTip36: Thorium Mod: Спиритуалист превыше всего ценит гармонию. Предайте покою дух древнего воина и, возможно, он согласится помочь вам.
     ThoriumModTip37: Thorium Mod: Демона-изгнанника, мастера оружия, можно нанять для помощи в обмен на чеканную монету.
 }
 
@@ -112,7 +112,7 @@ Biomes: {
 Buffs: {
     AbyssalShadowBuff: {
         CommonDisplayName: Ложное присутствие
-        CommonDescription: Что-то движется во мраке...
+        CommonDescription: Что-то шевелится во тьме...
     }
 
     AbyssalShadowBuff3.Description: Воды колыхаются...
@@ -143,13 +143,13 @@ Buffs: {
     }
 
     AquaticAptitude: {
-        DisplayName: Подводник
-        Description: Окружающая вода усиливает вас!
+        DisplayName: Водная одарённость
+        Description: Окружающая вода наделяет вас силой!
     }
 
     ArcanePotionBuff: {
         DisplayName: Чародейская энергия
-        Description: Магический и лучезарный урон создают мини-звёзды
+        Description: Магический и лучезарный урон создают маленькие звёзды
     }
 
     ArtilleryBuff: {
@@ -233,22 +233,22 @@ Buffs: {
     }
 
     BlightFever: {
-        DisplayName: Чумная лихорадка
+        DisplayName: Губительная лихорадка
         Description: Омницид завладел душой этого существа...
     }
 
     BloodHarvest: {
         DisplayName: Кровавая жатва
-        Description: В данный момент нельзя накапливать заряды крови
+        Description: В данный момент невозможно накапливать заряды крови
     }
 
     BloodRush: {
-        DisplayName: Приток крови
+        DisplayName: Прилив крови
         Description: Скорость передвижения и добычи увеличены на 15%
     }
 
     BloodyWandDebuff: {
-        DisplayName: Кровавый
+        DisplayName: Окровавленный
         Description: Получение дополнительного урона от кровавых снарядов
     }
 
@@ -259,7 +259,7 @@ Buffs: {
 
     Bubbled: {
         DisplayName: Запузырен
-        Description: Вы улетаете!
+        Description: Вы уноситесь прочь!
     }
 
     CactusFruitBuff: {
@@ -268,7 +268,7 @@ Buffs: {
     }
 
     ChaosState: {
-        DisplayName: Хаотичное состояние: телепортация
+        DisplayName: Хаотичное состояние: Телепортация
         Description: Ваше тело всё ещё восстанавливается после телепортации
     }
 
@@ -294,7 +294,7 @@ Buffs: {
 
     ConflagrationPotionBuff: {
         DisplayName: Воспламенение
-        Description: Внутренности горят, но вы наносите больше урона
+        Description: Ваше нутро пылает, но вы наносите больше урона
     }
 
     Corporeal: {
@@ -308,17 +308,17 @@ Buffs: {
     }
 
     CursedHurl: {
-        DisplayName: Проклятое швыряние
-        Description: Вы теряете над собой контроль
+        DisplayName: Проклятое вращение
+        Description: Вас неконтролируемо вращает
     }
 
     DarknessWithin: {
-        DisplayName: Тьма внутри нас
-        Description: Только сильнейшие из врагов смогут утолить ваш голод...
+        DisplayName: Внутренняя тьма
+        Description: Только сильнейшие из врагов утолят ваш голод...
     }
 
     DecayingFlesh: {
-        DisplayName: Гниющая плоть
+        DisplayName: Разлагающаяся плоть
         Description: Плоть жертвы сильно разлагается...
     }
 
@@ -354,7 +354,7 @@ Buffs: {
 
     EmergencyAirTank: {
         DisplayName: Аварийный баллон с воздухом
-        Description: Ваше дыхание будет восстановлено, если оно достигнет критического уровня
+        Description: Ваше дыхание будет восстановлено, если достигнет критического уровня
     }
 
     EscapeRocketBuff: {
@@ -374,17 +374,17 @@ Buffs: {
 
     FlawlessChrysalisDebuff: {
         DisplayName: Восстановление
-        Description: Вашему телу не привыкать к такой форме...
+        Description: Ваше тело ещё не привыкло к этой форме...
     }
 
     FlawlessChrysalisEndBuff: {
-        DisplayName: На свободе
+        DisplayName: Высвобождение
         Description: Скорость атаки и урон увеличены на 30%
     }
 
     FlawlessChrysalisStartBuff: {
         DisplayName: Метаморфоза
-        Description: Ваша сила достигла могучего кульминационного момента!
+        Description: Ваша сила достигла могучего крещендо!
     }
 
     FleshFrenzy: {
@@ -429,12 +429,12 @@ Buffs: {
 
     GraniteSurge: {
         DisplayName: Гранитный всплеск
-        Description: Вы получаете на 5% больше урона от всех источников и постепенного урона
+        Description: Получаемый урон от всех источников и постепенного урона увеличен на 5%
     }
 
     GraveLimbDebuff: {
         DisplayName: Загадочная хватка
-        Description: Оно на твоём лице! А-а-а-а!
+        Description: Оно на вашем лице! А-а-а-а!
     }
 
     AltarBuff: {
@@ -444,7 +444,7 @@ Buffs: {
 
     AuraDamageReduction: {
         DisplayName: Аура : сопротивление урону
-        Description: У вашего союзника сопротивление урону увеличено на 12%
+        Description: Ваш союзник увеличил ваше сопротивление урону на 12%
     }
 
     BeltoftheQuickResponseBuff: {
@@ -469,7 +469,7 @@ Buffs: {
 
     BubbleBulwarkWandBuff: {
         DisplayName: Пузырчатый оплот
-        Description: Следующая атака по вам нанесёт 0 урона
+        Description: Следующая атака по вам не нанесёт урона
     }
 
     CelestialSetAllyBuff: {
@@ -498,8 +498,8 @@ Buffs: {
     }
 
     Cured: {
-        DisplayName: Вылечен
-        Description: Невосприимчивость к дебаффам, наносящим урон, и восполнение здоровья увеличено
+        DisplayName: Исцелённый
+        Description: Невосприимчивость к дебаффам, наносящим урон, а также восполнение здоровья увеличено
     }
 
     DarkContagionDebuff: {
@@ -514,7 +514,7 @@ Buffs: {
 
     DistortedTimeBoost: {
         DisplayName: Искажённое время
-        Description: Поток времени подвергается сильному влиянию
+        Description: Течение времени подвергается сильному влиянию
     }
 
     DistortedTimeEnemy: {
@@ -533,12 +533,12 @@ Buffs: {
     }
 
     DreamMegaphoneBuff: {
-        DisplayName: Мегафон мечты
+        DisplayName: Мегафон сновидений
         Description: Урон увеличен на 20%
     }
 
     DreamMegaphoneDebuff: {
-        DisplayName: Мегафон мечты
+        DisplayName: Мегафон сновидений
         Description: Получаемый урон увеличен на 40%
     }
 
@@ -559,7 +559,7 @@ Buffs: {
 
     DreamWeaversMaskBuff: {
         DisplayName: Искривлённая реальность
-        Description: Поток времени подвергается сильному влиянию
+        Description: Течение времени подвергается сильному влиянию
     }
 
     DreamWeaversMaskDebuff: {
@@ -589,11 +589,11 @@ Buffs: {
 
     HolyPotionBuff: {
         DisplayName: Святая сила
-        Description: Исцеляющие заклинания восстанавливают дополнительное здоровье
+        Description: Ваши исцеляющие заклинания восстанавливают дополнительное здоровье
     }
 
     KarmicHolderBuff: {
-        DisplayName: Кармическое слияние
+        DisplayName: Кармическое схождение
         Description: Лучезарный урон увеличен
     }
 
@@ -679,11 +679,11 @@ Buffs: {
 
     ShieldDroneBeaconBuff: {
         DisplayName: Дрон-защитник
-        Description: От плеча к линии обороны!
+        Description: С вашего плеча на фланги!
     }
 
     SmitingHammerDebuff: {
-        DisplayName: Удар огнём
+        DisplayName: Карающий огонь
         Description: Получение постепенного урона
     }
 
@@ -768,13 +768,13 @@ Buffs: {
     }
 
     KineticPotionBuff: {
-        DisplayName: Кинетическое хранилище
+        DisplayName: Кинетический заряд
         Description: Нажмите дважды в нужном направлении для рывка
     }
 
     LegacyDebuff: {
-        DisplayName: Огненное наследие
-        Description: Смерть этого врага вызовет выброс разрушительной энергии
+        DisplayName: Наследие огня
+        Description: Смерть этого врага высвободит выброс разрушительной энергии
     }
 
     LichSetBuff: {
@@ -793,7 +793,7 @@ Buffs: {
     }
 
     LightCurse: {
-        DisplayName: Лёгкое проклятие
+        DisplayName: Проклятие света
         Description: Чистая тьма расплавляет этого врага
     }
 
@@ -808,8 +808,8 @@ Buffs: {
     }
 
     MasterMarksmansScouterDebuff: {
-        DisplayName: Всезрение
-        Description: Этот враг находится в поле зрения убийцы.
+        DisplayName: Всевидящий взор
+        Description: Этот враг находится в поле зрения убийцы
     }
 
     MidnightOilBuff: {
@@ -844,12 +844,12 @@ Buffs: {
 
     CyberneticSphereBuff: {
         DisplayName: Кибернетическая сфера
-        Description: Сферическая!
+        Description: Сферически совершенен!
     }
 
     DesecratedHeartBuff: {
         DisplayName: Голодный зверь
-        Description: Этот зверь слюнявит в бесконечном голоде
+        Description: Этот зверь слюнявит от бесконечного голода
     }
 
     FakeCoinBuff: {
@@ -873,13 +873,13 @@ Buffs: {
     }
 
     MassiveCrabClawBuff: {
-        DisplayName: Вражеский краб
+        DisplayName: Враждебный краб
         Description: Берегитесь, водные обитатели!
     }
 
     MediumRareSteakBuff: {
-        DisplayName: Злой дракон
-        Description: Попробуйте проигнорировать запах дыма...
+        DisplayName: Разъярённый дракон
+        Description: Постарайтесь проигнорировать запах дыма...
     }
 
     AquamarineMinecartBuff.DisplayName: Аквамариновая вагонетка
@@ -893,17 +893,17 @@ Buffs: {
 
     RocketCartBuff: {
         DisplayName: Ракетная вагонетка
-        Description: Эта штука никак не может быть безопасной...
+        Description: Нет никаких шансов, что эта штука безопасна...
     }
 
     MoltenCollarBuff: {
         DisplayName: Инфернальная гончая
-        Description: Беги, подгоняемый яростью преисподней!
+        Description: Бегите с яростью преисподней!
     }
 
     NimbusBuff: {
         DisplayName: Виверна
-        Description: Насладитесь полётом и видами!
+        Description: Почувствуйте ветер в волосах!
     }
 
     OldDebt: {
@@ -938,7 +938,7 @@ Buffs: {
 
     VampireCatalystBuff: {
         DisplayName: Дар вампира
-        Description: Вы превратились в летучую мышь, способную летать
+        Description: Вы превратились в летучую мышь!
     }
 
     MyceliumVeins: {
@@ -968,7 +968,7 @@ Buffs: {
 
     SeaShantySingerBuff: {
         DisplayName: Скорострел
-        Description: Этот враг стреляет быстрее, чем обычно
+        Description: Этот враг стреляет быстрее обычного
     }
 
     SnowSingaBuff: {
@@ -1023,22 +1023,22 @@ Buffs: {
 
     AnglerBowlBuff: {
         DisplayName: Маленький удильщик Англор
-        Description: Этот малыш просто ненавидит тьму
+        Description: Этот малыш просто НЕНАВИДИТ тьму
     }
 
     BalloonBallBuff: {
-        DisplayName: Девочка тануки
+        DisplayName: Девочка-тануки
         Description: Не позволяйте ей забредать слишком далеко!
     }
 
     BioFeederBuff: {
-        DisplayName: Био-обжора
-        Description: Что это за чудное маленькое существо...
+        DisplayName: Био-кормилец
+        Description: Какое чудное маленькое существо...
     }
 
     BlisterBuff: {
         DisplayName: Летающий волдырь
-        Description: Оно не оставит вас в покое!
+        Description: Он не оставит вас в покое!
     }
 
     BloodSausageBuff: {
@@ -1063,7 +1063,7 @@ Buffs: {
 
     DemosGuidanceBuff: {
         DisplayName: Исцеляющий фонарь
-        Description: Он постоянно излучает успокаивающую ауру
+        Description: Постоянно излучает успокаивающую ауру
     }
 
     DiscardedClothBuff: {
@@ -1088,7 +1088,7 @@ Buffs: {
 
     EmptyWormholePotionBuff: {
         DisplayName: Бесполезный друг
-        Description: Блин... Они даже не помогают мне драться!
+        Description: Блин... Они даже не помогают мне сражаться!
     }
 
     EnergizedQuadCubeBuff: {
@@ -1102,8 +1102,8 @@ Buffs: {
     }
 
     Experiment3Buff: {
-        DisplayName: "Эксперимент #3"
-        Description: Слава богу, что оно ещё не взрослое...
+        DisplayName: Эксперимент №3
+        Description: Слава богу, что он ещё не взрослый...
     }
 
     FerretBuff: {
@@ -1113,7 +1113,7 @@ Buffs: {
 
     FrozenBalloonBuff: {
         DisplayName: Замороженный шарик
-        Description: Невосприимчивость к острым атакам и дротикам, по всей видимости
+        Description: Видимо, невосприимчив к острым атакам и дротикам
     }
 
     GlassShardBuff: {
@@ -1127,13 +1127,13 @@ Buffs: {
     }
 
     LilMogBuff: {
-        DisplayName: Маленький мог
-        Description: Маленький малый, не правда ли?
+        DisplayName: Малыш мог
+        Description: Он милый малыш, не правда ли?
     }
 
     LittlePhylacteryBuff: {
         DisplayName: Маленький некромант
-        Description: Этот малыш намного крепче, чем кажется...
+        Description: Этот малыш намного сильнее, чем кажется...
     }
 
     MaidBuff: {
@@ -1163,22 +1163,22 @@ Buffs: {
 
     PinkSlimeBuff: {
         DisplayName: Розовый слизень
-        Description: Это так мило!
+        Description: Он такой милый!
     }
 
     RottenMeatBuff: {
         DisplayName: Муха
-        Description: Он любит резню!
+        Description: Она обожает резню!
     }
 
     SkunkBuff: {
         DisplayName: Скунс
-        Description: Не испугайте его, иначе пожалеете...
+        Description: Не пугайте его, иначе пожалеете...
     }
 
     SnowyOwlBuff: {
         DisplayName: Потерянная снежная сова
-        Description: Похоже, что кто-то не получает свою почту...
+        Description: Похоже, кто-то не получит свою почту...
     }
 
     StormCloudBuff: {
@@ -1193,7 +1193,7 @@ Buffs: {
 
     SuspiciousMoisturizerBottleBuff: {
         DisplayName: Живая рука
-        Description: Давайте поможем им, ребята!
+        Description: Давайте поаплодируем им, друзья!
     }
 
     SweetBeetBuff: {
@@ -1208,7 +1208,7 @@ Buffs: {
 
     TentacleBallBuff: {
         DisplayName: Тентаклевидный шар
-        Description: Где заканчиваются щупальца, и начинается тело?
+        Description: Где заканчиваются щупальца и начинается тело?
     }
 
     TortleScuteBuff: {
@@ -1223,12 +1223,12 @@ Buffs: {
 
     WyvernPetBuff: {
         DisplayName: Виверна-щенок
-        Description: Пусть он юн, но он выкладывается на полную!
+        Description: Пусть он юн, но выкладывается на полную!
     }
 
     Petrify: {
         DisplayName: Окаменение
-        Description: Враг окаменел!
+        Description: Этот враг окаменел!
     }
 
     PhylacteryBuff: {
@@ -1323,7 +1323,7 @@ Buffs: {
 
     SpiritsGraceBuff: {
         DisplayName: Благодать духа
-        Description: Примите поражение с достоинством
+        Description: Примите это поражение с достоинством
     }
 
     SporeCoatingBuff: {
@@ -1353,7 +1353,7 @@ Buffs: {
 
     ArsenalStaffBuff: {
         DisplayName: Оружейный посох
-        Description: Обрушьте на ваших врагов весь свой арсенал!
+        Description: Обрушьте на ваших врагов весь свой арсенал
     }
 
     BannerBounty: {
@@ -1382,7 +1382,7 @@ Buffs: {
     }
 
     BannerGhost: {
-        DisplayName: Жертвенное чучело
+        DisplayName: Жертвенное изваяние
         Description: Убийство ближайших врагов призывает призрака-помощника
     }
 
@@ -1413,12 +1413,12 @@ Buffs: {
 
     BlobhornCoralStaffBuff: {
         DisplayName: Рыба-капля
-        Description: Милая? Уродливая? Решать вам...
+        Description: Она милая? Или уродливая? Решать вам...
     }
 
     BloodFeasterStaffBuff: {
         DisplayName: Кровавый зомби
-        Description: Пока оно будет получать пищу, оно не будет вам докучать...
+        Description: Пока он будет получать пищу, он не будет вам докучать...
     }
 
     BloodPact: {
@@ -1443,12 +1443,12 @@ Buffs: {
 
     CorruptlingStaffBuff: {
         DisplayName: Осквернюша
-        Description: Не все порождения искажения питаются душами...
+        Description: Не все порождения искажения хотят пожирать души...
     }
 
     CrimsonHoundStaffBuff: {
         DisplayName: Багряная гончая
-        Description: Даже без рта, гончая найдёт способ утолить свой голод...
+        Description: Даже без пасти, гончая найдёт способ утолить свой голод...
     }
 
     DraconicMagmaStaffBuff: {
@@ -1468,7 +1468,7 @@ Buffs: {
 
     EyeofOdinBuff: {
         DisplayName: Глаз Одина
-        Description: Могущественный глаз готов поразить врага электрическим разрядом!
+        Description: Могущественный глаз готов поразить врагов электрическим разрядом!
     }
 
     HailBomberBuff: {
@@ -1478,12 +1478,12 @@ Buffs: {
 
     IceFairyStaffBuff: {
         DisplayName: Ледяная фея
-        Description: Вашим врагам лучше надеть пальто!
+        Description: Вашим врагам лучше бы захватить пальто!
     }
 
     LadyLightBuff: {
         DisplayName: Сверкающая искорка
-        Description: Сверкает как сумасшедшая!
+        Description: Искрится как сумасшедшая!
     }
 
     LivingWoodAcornBuff: {
@@ -1518,12 +1518,12 @@ Buffs: {
 
     PrehistoricAmberStaffBuff: {
         DisplayName: Буйство
-        Description: Эти динозавры сходят с ума!
+        Description: Эти динозавры сошли с ума!
     }
 
     RosySlimeStaffBuff: {
         DisplayName: Румяный слизень
-        Description: Такая же дьявольская, как и Пинки
+        Description: Почти такой же дьявольский, как и Пинки
     }
 
     SeahorseWandBuff: {
@@ -1548,7 +1548,7 @@ Buffs: {
 
     TerrariumEnigmaStaffBuff: {
         DisplayName: Энигма
-        Description: Свет преломляется вокруг сложной тайны...
+        Description: Свет преломляется вокруг сложной энигмы...
     }
 
     TheBlackCaneBuff: {
@@ -1567,7 +1567,7 @@ Buffs: {
     }
 
     YarnBallBuff: {
-        DisplayName: Котёночек
+        DisplayName: Котёнок
         Description: Покусывания и царапины станут их погибелью
     }
 
@@ -1617,7 +1617,7 @@ Buffs: {
     }
 
     TrueStrikeTired: {
-        DisplayName: Обессиленный
+        DisplayName: Критическое истощение
         Description: Урон снижен на 10%
     }
 
@@ -1632,7 +1632,7 @@ Buffs: {
     }
 
     VampiresCurseBuff: {
-        DisplayName: Вампирское заклятие
+        DisplayName: Проклятие вампира
         Description: Вы приняли облик беспомощной летучей мыши!
     }
 
@@ -1814,7 +1814,7 @@ Empowerments: {
 
     ItemTopTooltip: Игра на инструменте усиливает игроков следующими бонусами:
     EmpowermentNameLevel: "{$Common.Concatenate}"
-    ItemTopTooltipHoldShift: Удерживайте SHIFT, чтобы увидеть доступные усиления
+    ItemTopTooltipHoldShift: Удерживайте 'Shift', чтобы увидеть доступные усиления
 }
 
 InfoDisplays: {
@@ -1856,7 +1856,7 @@ Items: {
     }
 
     ForgottenOneTrophy: {
-        DisplayName: Трофей забытого
+        DisplayName: Трофей Забытого
         Tooltip: ""
     }
 
@@ -1875,7 +1875,7 @@ Items: {
     }
 
     RlyehLostRod: {
-        DisplayName: Потерянная удочка Р'льеха
+        DisplayName: Потерянный жезл Р'льеха
         Tooltip: ""
     }
 
@@ -1916,7 +1916,7 @@ Items: {
 
         SetBonusQuotes: {
             TheGrandThunderBird: Зачем проявлять милосердие к слабым?..
-            KingSlime: Пешка в космической игре...
+            KingSlime: Пешки в космической игре...
             EyeofCthulhu: Один из множества сосудов...
             EaterofWorlds: Наше влияние широко...
             BrainofCthulhu: Никому не постичь наших интриг...
@@ -1926,7 +1926,7 @@ Items: {
             QueenBee: Исказить можно всё...
             Skeletron: Никому не понять наших целей...
             GraniteEnergyStorm: Вся энергия ожидает поглощения...
-            BuriedChampion: Восторг от очищения от него...
+            BuriedChampion: Такой восторг от очищения этого...
             StarScouter: Их вмешательство не имеет значения...
             WallofFlesh: Да... Продолжай свой путь, 'Герой'...
             FallenBeholder: Жалкое зрелище...
@@ -1944,7 +1944,7 @@ Items: {
             DukeFishron: Мы ожидали большего...
             Cultist: Поклоняться должны нам...
             MoonLord: Мы не единственные, забытые временем...
-            DreamEater: Нам нужно о многом подумать...
+            DreamEater: Нам есть о чём подумать...
         }
 
         SetBonusFallbackQuotes: {
@@ -5261,7 +5261,7 @@ Items: {
 
     BalloonBall: {
         DisplayName: Оранжевый мяч
-        Tooltip: Призывает девочку таноки, которая следует за вами
+        Tooltip: Призывает девочку-таноки, которая следует за вами
     }
 
     BaritoneSaxophone: {
@@ -5693,7 +5693,7 @@ Items: {
     }
 
     DreamMegaphone: {
-        DisplayName: Мегафон мечты
+        DisplayName: Мегафон сновидений
         Tooltip:
             '''
             'ОН ВООБЩЕ ВКЛЮ-Ю-Ю-ЧЁН?!'
@@ -5752,7 +5752,7 @@ Items: {
     }
 
     Experiment3: {
-        DisplayName: "Эксперимент #3"
+        DisplayName: Эксперимент №3
         Tooltip: Выпускает пугающее маленькое существо, которое следует за вами
     }
 
@@ -6292,7 +6292,7 @@ Items: {
             '''
             'Сделана из настоящего искусственного меха!'
             Слегка увеличивает удачу
-            Из убитый врагов может выпасть на 100% больше монет
+            Из убитых врагов может выпасть на 100% больше монет
             '''
     }
 
@@ -11115,7 +11115,7 @@ Items: {
             '''
             Выпускает магический золотой заряд, который собирает монеты на расстоянии
             Увеличивает свой размер и урон за каждую собранную монету, вплоть до 100%
-            Из убитый врагов выпадает больше монет
+            Из убитых врагов выпадает больше монет
             '''
     }
 
@@ -11198,7 +11198,7 @@ Items: {
         Tooltip:
             '''
             Бросает до двух больших корабельных штурвалов
-            Из убитый врагов выпадает больше монет
+            Из убитых врагов выпадает больше монет
             '''
     }
 
@@ -12200,7 +12200,7 @@ Items: {
         DisplayName: Жертвенный кинжал
         Tooltip:
             '''
-            Призывает жертвенное чучело в позиции курсора
+            Призывает жертвенное изваяние в позиции курсора
             Пока вы находитесь рядом, убийство врагов призывает недолговечного духа, который атакует врагов
             '''
     }
@@ -20138,7 +20138,7 @@ MonsterContracts: {
 
     TimContract: {
         Title: Заклинатель теней
-        Description: Я сумел выследить в глубинах нашего мира довольно неуловимого тёмного заклинателя по имени... {$NPCName.Tim}. Не смотря на имя, он обладает значительной силой, но у него есть одна существенная слабость. По-видимому, он очень гордится своим нарядом и считает его выдающимся. Может быть, стоит надеть одеяние из драгоценных камней, чтобы привлечь его ?..
+        Description: Я сумел выследить в глубинах нашего мира довольно неуловимого тёмного заклинателя по имени... {$NPCName.Tim}. Не смотря на имя, он обладает значительной силой, но у него есть одна существенная слабость. По-видимому, он очень гордится своим нарядом и считает его выдающимся. Может быть, стоит надеть одеяние из драгоценных камней, чтобы привлечь его?..
     }
 
     WyvernContract: {
@@ -20181,12 +20181,12 @@ DeathText: {
     MartyrChalice: "{0} жертвует собой ради высшего блага."
     TheGauntlet: "{0} рассыпается пылью..."
     AmmutsebaSash: "{0} поглощается тьмой..."
-    ShadeMasterMaskSet: "{0} держится за жизнь до последней возможности."
-    LastStand: "{0} выкладывается до последнего, но не выживает..."
+    ShadeMasterMaskSet: "{0} цепляется за жизнь до последней возможности."
+    LastStand: "{0} выкладывается до последнего, но не выживает."
     HungeringBlossom: "{0} поглощается тьмой..."
     Destabilized: "{0} облучается с головы до пят."
-    GraveLimb: "{0} не 'ухватил' ситуацию."
-    Liquefied: "{0} становится водичкой."
+    GraveLimb: "{0} не 'ухватил' суть ситуации."
+    Liquefied: "{0} становится жидкостью."
     GravitySurge: "{0} не выдерживает гранитной энергии."
 }
 
@@ -20321,7 +20321,7 @@ Configs: {
 
         ShowAccessoryDamage: {
             Label: Отображение урона аксессуаров
-            Tooltip: Переключает отображение информации о 'Уроне аксессуаров' в описании аксессуаров из Thorium Mod.
+            Tooltip: Переключает отображение информации об 'Уроне аксессуаров' в описании аксессуаров из Thorium Mod.
         }
 
         ShowLifeShield: {
@@ -20518,7 +20518,7 @@ Currencies.VanquisherMedal: медалей покорителя
 BardInstrumentType: {
     Other: Другой
     Wind: Духовой
-    Brass: Медный
+    Brass: Медный духовой
     String: Струнный
     Percussion: Ударный
     Electronic: Электронный
@@ -20526,7 +20526,7 @@ BardInstrumentType: {
 
 AccessoryType: {
     Normal: Обычный
-    HibernationCharm: Чары анабиоза
+    HibernationCharm: Амулет анабиоза
     SoundDevice: Звуковое устройство
     OmniShield: Универсальный щит
     SpearTip: Наконечник копья
@@ -20558,10 +20558,10 @@ WishingGlassChoice: {
 
 WorldGen: {
     Progress: {
-        PlacingTempleStatues: Размещение статуй храма
+        PlacingTempleStatues: Размещение храмовых статуй
         GeneratingExtraLoot: Генерация дополнительной добычи
         BiomeChests: Сундуки биомов
-        ShrinesAndLoot: Святилища и добыча
+        ShrinesAndLoot: Святилища и сокровища
         Graveyard: Погребение мёртвых
         GraveyardCleanup: Обязанности смотрителя
         BloodChamber: Погребение Кровавой камеры

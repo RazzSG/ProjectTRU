@@ -4,6 +4,9 @@
 // using Redemption.Globals;
 // using Redemption.Items.Accessories.HM;
 // using Redemption.Items.Accessories.PostML;
+// using Redemption.Items.Armor.PreHM.DragonLead;
+// using Redemption.Items.Armor.PreHM.PureIron;
+// using Redemption.Items.Armor.Single;
 // using Redemption.Items.Armor.Vanity.SkySquire;
 // using Redemption.Items.Placeable.Furniture.Misc;
 // using Redemption.Items.Usable.Summons;
@@ -15,6 +18,7 @@
 // using Redemption.Rarities;
 // using Terraria;
 // using Terraria.ID;
+// using Terraria.Localization;
 // using Terraria.ModLoader;
 //
 // namespace CalamityRuTranslate.Mods.Redemption;
@@ -303,9 +307,10 @@
 //             });
 //         }
 //
-//         ItemHelper.TranslateTooltip(tooltips, "SetBonus", _ =>
+//         ItemHelper.TranslateTooltip(tooltips, "SetBonus", tooltip =>
 //         {
 //             Player player = Main.player[Main.myPlayer];
+//             string setBonusKey = Language.GetTextValue("LegacyTooltip.48");
 //             
 //             if (player.armor[0].type == ItemID.CopperHelmet &&
 //                 player.armor[1].type == ItemID.CopperChainmail &&
@@ -510,6 +515,20 @@
 //                 player.armor[2].type == ItemID.SpectrePants)
 //             {
 //                 tooltips.ReplaceText($"20% increased{ElementID.ArcaneS} elemental resistance", $"Увеличивает сопротивление {ElementID.ArcaneS} на 20%");
+//             }
+//             
+//             if (player.armor[0].type == ModContent.ItemType<PureIronHelmet>() || player.armor[0].type == ModContent.ItemType<AntiquePureIronHelmet>() &&
+//                 player.armor[1].type == ModContent.ItemType<PureIronChestplate>() &&
+//                 player.armor[2].type == ModContent.ItemType<PureIronGreaves>())
+//             {
+//                 tooltip.Text = $"{setBonusKey} {Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.PureIron.Bonus", ElementID.FireS)}";
+//             }
+//             
+//             if (player.armor[0].type == ModContent.ItemType<DragonLeadSkull>() &&
+//                 player.armor[1].type == ModContent.ItemType<DragonLeadRibplate>() &&
+//                 player.armor[2].type == ModContent.ItemType<DragonLeadGreaves>())
+//             {
+//                 tooltip.Text = $"{setBonusKey} {Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.DragonLead.Bonus", ElementID.IceS)}";
 //             }
 //         });
 //     }

@@ -70,7 +70,7 @@
 //         {
 //             if (chat.Contains("Hmmmm..."))
 //             {
-//                 chat = chat.Replace("Hmmmm...", "");
+//                 chat = chat.Replace("Hmmmm...", "Хм-м-м...");
 //             }
 //         }
 //     }

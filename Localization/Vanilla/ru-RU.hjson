@@ -12338,7 +12338,7 @@
             Увеличивает подвижность в воде, находясь в руках
             Удерживайте {$Key.UP}, чтобы погружаться плавнее
             '''
-        TrifoldMap: Даёт невосприимчивость дебаффу к «{$BuffName.Confused}»
+        TrifoldMap: Даёт невосприимчивость к дебаффу «{$BuffName.Confused}»
         Trimarang: "'Три бумеранга лучше, чем один'"
         TrioSuperHeroes: "{$PaintingArtist.Burczyk}"
         TropicalBarracuda: "'Водится на поверхности джунглей'"

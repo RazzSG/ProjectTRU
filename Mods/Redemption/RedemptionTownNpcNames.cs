@@ -14,10 +14,10 @@
 //     {
 //         { ModContent.NPCType<Daerel>(), ["Дэрел"] },
 //         { ModContent.NPCType<Fallen>(), ["Хаппинс", "Тенвон", "Оковт"] },
-//         { ModContent.NPCType<ForestNymph_Friendly>(), ["Nyssa", "Ammi", "Alderis", "Maple", "Lavender", "Ambrose", "Nelida", "Syllessa"] },
-//         { ModContent.NPCType<Newb>(), ["Newb"] },
-//         { ModContent.NPCType<TBot>(), ["Adam"] },
-//         { ModContent.NPCType<Zephos>(), ["Zephos"] },
+//         { ModContent.NPCType<ForestNymph_Friendly>(), ["Нисса", "Амми", "Альдерис", "Мэйпл", "Лаванда", "Амброз", "Нелида", "Силлесса"] },
+//         { ModContent.NPCType<Newb>(), ["Ньюб"] },
+//         { ModContent.NPCType<TBot>(), ["Адам"] },
+//         { ModContent.NPCType<Zephos>(), ["Зефос"] },
 //     };
 //     
 //     public override bool IsLoadingEnabled(Mod mod)

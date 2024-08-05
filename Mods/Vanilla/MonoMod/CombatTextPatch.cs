@@ -73,7 +73,7 @@ public class CombatTextPatch : ILoadable
             // "Xenium Staff op, please nerf." => "Ксениевый посох имба, просьба понерфить.",
             // "skill issue smh" => "skill issue, хех",
             // "Nothing happens..." => "Ничего не происходит...",
-            // "No targets found!" => "Цель не найдена!",
+            // "No targets found!" => "Цели не найдены!",
             // "TARGET UNIMPORTANT..." => "ЦЕЛЬ НЕСУЩЕСТВЕННА...",
             // "INTRUDER DETECTED..." => "ОБНАРУЖЕН НАРУШИТЕЛЬ...",
             // "BOOM!" => "БУМ!",

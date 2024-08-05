@@ -39,6 +39,25 @@ public class AddNewMessagePatch : ILoadable
             text = text.Replace("from", "с");
             text = text.Replace("to", "на");
         }
+        
+        // Fargo
+        if (text.Contains("A new item has been unlocked in"))
+        {
+            text = text.Replace("A new item has been unlocked in", "В магазине");
+            text = text.Replace("'s shop!", "появился новый предмет!");
+        }
+        
+        if (text.Contains("Battle Cry"))
+        {
+            text = text.Replace("Battle Cry activated for", "Боевой клич активирован для");
+            text = text.Replace("Battle Cry deactivated for", "Боевой клич деактивирован для");
+        }
+        
+        if (text.Contains("Calming Cry"))
+        {
+            text = text.Replace("Calming Cry activated for", "Умиротворяющий клич активирован для");
+            text = text.Replace("Calming Cry deactivated for", "Умиротворяющий клич деактивирован для");
+        }
 
         // StarsAbove
         if (text.Contains("was obliterated!"))
@@ -66,7 +85,7 @@ public class AddNewMessagePatch : ILoadable
         
         // Redemption
         // if (text.Contains("experienced DOOR STUCK."))
-        //     text = text.Replace("experienced DOOR STUCK.", "застревает в ДВЕРЯХ.");
+        //     text = text.Replace("experienced DOOR STUCK.", "застревает В ДВЕРЯХ.");
         
         text = text switch
         {
@@ -90,6 +109,12 @@ public class AddNewMessagePatch : ILoadable
             "You pet Polaris" => "Вы гладите Полярку",
             "Too much love..." => "Слишком много любви...",
             "Supreme Cirrus code attempted to crash the game. Did you do something weird?" => "Код Высшей Циррус попытался вызвать сбой игры. Вы сделали что-то странное?",
+            
+            // Fargo
+            "Journey mode is now enabled!" => "Мир переключён в режим Путешествия!",
+            "Normal mode is now enabled!" => "Мир переключён в обычный режим!",
+            "Expert mode is now enabled!" => "Мир переключён в режим Эксперта!",
+            "Master mode is now enabled!" => "Мир переключён в режим Мастера!",
             
             // Redemption
             // "A sleeping stone appears..." => "",

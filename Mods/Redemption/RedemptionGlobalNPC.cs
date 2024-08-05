@@ -30,12 +30,12 @@
 //     {
 //         if (npc.type == ModContent.NPCType<EpidotrianSkeleton_SS>())
 //         {
-//             typeName = $"Ancient Gladestone Golem игрока {Main.player[Main.myPlayer].name}";
+//             typeName = $"Голем из древней каменной глади игрока {Main.player[Main.myPlayer].name}";
 //         }
 //         
 //         if (npc.type == ModContent.NPCType<EpidotrianSkeleton_SS>())
 //         {
-//             typeName = $"Epidotrian Skeleton игрока {Main.player[Main.myPlayer].name}";
+//             typeName = $"Скелет-эпидотриец игрока {Main.player[Main.myPlayer].name}";
 //         }
 //         
 //         if (npc.type == ModContent.NPCType<ForestNymph_SS>())
@@ -45,12 +45,12 @@
 //         
 //         if (npc.type == ModContent.NPCType<HazmatZombie_SS>())
 //         {
-//             typeName = $"Hazmat Zombie игрока {Main.player[Main.myPlayer].name}";
+//             typeName = $"Зомби в химзащите игрока {Main.player[Main.myPlayer].name}";
 //         }
 //         
 //         if (npc.type == ModContent.NPCType<MossyGoliath_SS>())
 //         {
-//             typeName = $"Mossy Goliath игрока {Main.player[Main.myPlayer].name}";
+//             typeName = $"Мшистый голиаф игрока {Main.player[Main.myPlayer].name}";
 //         }
 //         
 //         if (npc.type == ModContent.NPCType<SkeletonAssassin_SS>())
@@ -87,16 +87,16 @@
 //         {
 //             typeName = typeName switch
 //             {
-//                 "Gentlewood the Treebark Dryad" => "",
-//                 "Blandwood the Treebark Dryad" => "",
-//                 "Elmshade the Treebark Dryad" => "",
-//                 "Vinewood the Treebark Dryad" => "",
-//                 "Bitterthorn the Treebark Dryad" => "",
-//                 "Irontwig the Treebark Dryad" => "",
-//                 "Tapio the Treebark Dryad" => "",
-//                 "Willowbark the Treebark Dryad" => "",
-//                 "Cherrysplinter the Treebark Dryad" => "",
-//                 "Blossomwood the Treebark Dryad" => "",
+//                 "Gentlewood, Древокожий дендрий" => "Нежнодрев, Древокожий дендрий",
+//                 "Blandwood, Древокожий дендрий" => "Преснодрев, Древокожий дендрий",
+//                 "Elmshade, Древокожий дендрий" => "Вязотень, Древокожий дендрий",
+//                 "Vinewood, Древокожий дендрий" => "Лозодрев, Древокожий дендрий",
+//                 "Bitterthorn, Древокожий дендрий" => "Горькошип, Древокожий дендрий",
+//                 "Irontwig, Древокожий дендрий" => "Железноветвь, Древокожий дендрий",
+//                 "Tapio, Древокожий дендрий" => "Тапио, Древокожий дендрий",
+//                 "Willowbark, Древокожий дендрий" => "Ивокора, Древокожий дендрий",
+//                 "Cherrysplinter, Древокожий дендрий" => "Вишнещепка, Древокожий дендрий",
+//                 "Blossomwood, Древокожий дендрий" => "Цветодрев, Древокожий дендрий",
 //                 _ => typeName
 //             };
 //         }
@@ -104,7 +104,7 @@
 //         if (npc.type == ModContent.NPCType<Android>())
 //         {
 //             if (npc.GivenName == "Apidroid Mk.I")
-//                 npc.GivenName = "Андроид Мк.I";
+//                 npc.GivenName = "Андроид М.I";
 //         }
 //     }
 // }
