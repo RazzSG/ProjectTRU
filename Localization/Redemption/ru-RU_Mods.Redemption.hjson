@@ -1914,7 +1914,7 @@
 #    }
 #
 #    NebPetBuff: {
-#        DisplayName: Чиби-Небби
+#        DisplayName: Чиби Небби
 #        Description: Нибити-нобити-ну, звёздная крошка с тобой на бегу
 #    }
 #
@@ -2104,7 +2104,7 @@
 #    }
 #
 #    RoosterBoostBuff: {
-#        DisplayName: Rooster Boostered
+#        DisplayName: Петушиное ускорение
 #        Description: ":D"
 #    }
 #
@@ -2315,11 +2315,11 @@
 #
 #    XeniumGasDebuff: {
 #        DisplayName: Virulent Gas
-#        Description: uh oh stinky!
+#        Description: Фу, вонючка!
 #    }
 #
 #    EmpPetBuff: {
-#        DisplayName: Chibi Gumdramon
+#        DisplayName: Чиби Гумдрамон
 #        Description: ""
 #    }
 #
@@ -2344,7 +2344,7 @@
 #    }
 #
 #    AsterisPetBuff: {
-#        DisplayName: Чиби-Астерис
+#        DisplayName: Чиби Астерис
 #        Description: Для тех, кто мечтал о малютке-миротворце в качестве компаньона
 #    }
 #
@@ -2700,8 +2700,8 @@
 #        OkvotDialogue2: I may be undead, but I hope for a world where no tears are shed, and no pain is spread. A world of peace. That is who I was before dying, and despite the undead tendency to be more aggressive, I feel the same as I always have.
 #        OkvotDialogue3: Do not worry, human. I bring no hatred where I go, despite my undead look, I won't harm you. And I hope you won't harm me either.
 #        OkvotDialogue4: Times may come when you have hardship, maybe you struggle fighting a tough enemy, maybe you feel alone on this island with only enemies everywhere you go, but I'll still be here. Don't let my rotten looks deceive you, young one. I will help you.
-#        OkvotDialogue5: The wind sings the longest tune... Do you hear it?
-#        OkvotDialogue6: In the lowest level of the Catacombs of Gathuram, the floor is littered with broken bones and puddles of water. Dim blue lights often were visible in this level, and nothing is alive there. So if any were to survive the fall, they would be alone forever.
+#        OkvotDialogue5: Ветер нашептывает свою вечную песнь... Ты слышишь её?
+#        OkvotDialogue6: На нижнем уровне Катакомб Гатурама пол усеян раздробленными костями и лужами. Тусклые синие огни нередко виднеются на этом уровне, где нет ни единой живой души. Выживи ты после падения, тебя ждало бы вечное одиночество.
 #        OkvotDialogue7: My name's Okvot, I usually sell equipment to other Fallen to help them survive in the Catacombs of Gathuram, however, destiny has brought me into the outside world. I hope my junk can be of use to you.
 #        TenvonDialogue1: You saved the Keeper? Bah, I guess that's nice of ya.
 #        TenvonDialogue2: I'm not very interested in talking, what ya want?
@@ -3324,7 +3324,7 @@
 #
 #    GildedBonnet: {
 #        DisplayName: Золотистый капор
-#        Tooltip: Призывает чиби-Небби, которая будет вас подбадривать!
+#        Tooltip: Призывает чиби Небби, которая будет вас подбадривать!
 #    }
 #
 #    HamSandwich: {
@@ -4351,7 +4351,7 @@
 #
 #    GonkPet: {
 #        DisplayName: Голова Самуса
-#        Tooltip: Призывает чиби-Самуса
+#        Tooltip: Призывает чиби Самуса
 #    }
 #
 #    LantardPatreon_Item: {
@@ -4368,7 +4368,7 @@
 #        DisplayName: Печенье Лизщерицы
 #        Tooltip:
 #            '''
-#            Призывает чиби-Лиззи
+#            Призывает чиби Лиззи
 #            "'Baked' with love"
 #            '''
 #    }
@@ -4410,7 +4410,7 @@
 #
 #    SmolderedScale: {
 #        DisplayName: Тлеющая чешуя
-#        Tooltip: Призывает чиби-Минисвейва
+#        Tooltip: Призывает чиби Минисвейва
 #    }
 #
 #    RainPatreonVanityAcc: {
@@ -4497,14 +4497,14 @@
 #        DisplayName: Клинок завершения
 #        Tooltip:
 #            '''
-#            Призывает чиби-Тремор
+#            Призывает чиби Тремор
 #            'Сломанный меч не от мира сего, считающийся предвестником конца времён'
 #            '''
 #    }
 #
 #    WaasephiPet: {
 #        DisplayName: Фиолетовая пряжа
-#        Tooltip: Призывает чиби-Ваасефи
+#        Tooltip: Призывает чиби Ваасефи
 #    }
 #
 #    GoodRoute: {
@@ -7250,7 +7250,7 @@
 #
 #    Panacea: {
 #        DisplayName: Таблетка-панацея
-#        Tooltip: Cures radiation poisoning instantly and grants complete immunity to it for 10 minutes
+#        Tooltip: Мгновенно исцеляет от радиационного отравления и даёт полную невосприимчивость к нему на 10 минут
 #    }
 #
 #    Pomegranate: {
@@ -7258,7 +7258,7 @@
 #        Tooltip:
 #            '''
 #            Значительно увеличивает все характеристики
-#            'No more pomegranates!'
+#            'Никаких больше гранатов!'
 #            '''
 #    }
 #
@@ -7266,7 +7266,7 @@
 #        DisplayName: Антирадиационная пилюля
 #        Tooltip:
 #            '''
-#            Излечивает радиационное отравление
+#            Исцеляет от радиационного отравления
 #            ИНСТРУКЦИЯ:
 #            - Просьба убедится, что у вас есть радиационное отравление, иначе лекарство принесёт больше вреда, чем пользы!
 #            - Данное лекарство действует медленно, не излечивает экстремальные дозы облучения. Если ваше зрение затуманивается зелёной дымкой,
@@ -7325,8 +7325,8 @@
 #        DisplayName: Зелье вендетты
 #        Tooltip:
 #            '''
-#            Attackers also take damage, and get inflicted by poison
-#            10% increased {0} elemental damage
+#            Атакующие также получают урон и получают дебафф «{$BuffName.Poisoned}»
+#            Увеличивает урон {0} на 10%
 #            '''
 #    }
 #
@@ -9614,7 +9614,7 @@
 #    }
 #
 #    RoosterBoosterBanner: {
-#        DisplayName: Знамя коко-кряка
+#        DisplayName: Знамя петуха-усилителя
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.RoosterBooster.DisplayName}"
 #    }
 #
@@ -9652,9 +9652,9 @@
 #        Tooltip:
 #            '''
 #            {$CommonItemTooltip.Sentry}
-#            Summons a Rooster Booster in a nest that crows an empowering aura
-#            Within the aura, players gain increased jump height and 20% increased movement speed
-#            Right-click to disable the sentry
+#            Призывает петуха-усилителя в гнезде, который кукарекает, создавая усиливающую ауру
+#            Внутри ауры игроки получают увеличенную высоту прыжка и увеличенную скорость передвижения на 20%
+#            Нажмите <right>, чтобы отключить стража
 #            '''
 #    }
 #
@@ -9670,12 +9670,12 @@
 #
 #    LabTank2: {
 #        DisplayName: Резервуар лаборатории
-#        Tooltip: "'Filled with sludge'"
+#        Tooltip: "'Заполнен слякотью'"
 #    }
 #
 #    LabTubes2: {
 #        DisplayName: Пробирки лаборатории
-#        Tooltip: "'Filled with sludge'"
+#        Tooltip: "'Заполнены слякотью'"
 #    }
 #
 #    OvergrownLabPlating2: {
@@ -9702,14 +9702,14 @@
 #        DisplayName: Пасть гидры
 #        Tooltip:
 #            '''
-#            Sprays a stream of defense-reducing acid, weakening Robotic targets against {0} damage
-#            Right-click to launch an orb filled with acid, releasing a cloud of gas on impact
-#            Shoot the orb with the acid stream to break it mid-air, covering a greater area
+#            Распыляет струю кислоты, снижающей защиту роботизированных целей к урону {0}
+#            Нажмите <right>, чтобы запустить сферу, наполненную кислотой, которая при столкновении высвобождает облако газа
+#            Выстрелите по сфере струёй кислоты, чтобы разрушить её в воздухе и охватить большую площадь
 #            '''
 #    }
 #
 #    ElderWoodHamaxe: {
-#        DisplayName: молотопор из древней древесины
+#        DisplayName: Молотопор из древней древесины
 #        Tooltip: ""
 #    }
 #
@@ -9737,9 +9737,9 @@
 #        DisplayName: Сверкающая звезда
 #        Tooltip:
 #            '''
-#            Tap left-click to fire a cluster of tiny stars that float in place
-#            Continuing to hold left-click will charge a powerful shooting star that will carry with it any stars that float in its vicinity
-#            The radius from which it can grab stars grows the longer the shot was charged
+#            Одиночные нажатия выпускают скопление крошечных звёзд, парящих на месте
+#            Удерживание <left> заряжает мощную стреляющую звезду, которая притягивает к себе все находящиеся поблизости парящие звёзды
+#            Радиус притяжения звёзд увеличивается в зависимости от продолжительности заряда
 #            '''
 #    }
 #
@@ -9772,17 +9772,17 @@
 #        DisplayName: Яйцо водоплавающей птицы
 #        Tooltip:
 #            '''
-#            Stars from the {0} bonus appear less, but are immediately absorbed
-#            Consuming healing potions grant additional healing for 5 seconds
-#            15% decreased resistance to all elemental damage during the waterfowl's healing
-#            The total amount of healing is 40% of the consumed potion
-#            Taking damage during the waterfowl's healing will cancel the effect
+#            Звёзды из бонуса {0} появляются реже, но мгновенно поглощаются
+#            Использование лечебных зелий обеспечивает дополнительное лечение в течение 5 секунд
+#            Во время действия лечения водоплавающей птицы сопротивление всем видам элементального урона снижается на 15%
+#            Общее количество лечения составляет 40% от объёма использованного зелья
+#            Получение урона во время действия лечения водоплавающей птицы отменяет эффект
 #            '''
 #    }
 #
 #    CrimsonXrosLoader: {
 #        DisplayName: Багровый кросс-загрузчик
-#        Tooltip: Summons a chibi Gumdramon
+#        Tooltip: Призывает чиби Гумдрамона
 #    }
 #
 #    BLTSandwich: {
@@ -9794,7 +9794,7 @@
 #        DisplayName: Мохнатый плащ
 #        Tooltip:
 #            '''
-#            Призывает чиби-трёхцветную кошку
+#            Призывает чиби трёхцветную кошку
 #            'Маленький изношенный плащ, покрытый... кошачьей шерстью?'
 #            '''
 #    }
@@ -9871,7 +9871,7 @@
 #        DisplayName: Галактическая повязка
 #        Tooltip:
 #            '''
-#            Призывает чиби-Астерис
+#            Призывает чиби Астерис
 #            'Принадлежит кому-то из иного измерения'
 #            '''
 #    }
@@ -9944,20 +9944,20 @@
 #        DisplayName: Стихотворение Укко
 #        Tooltip:
 #            '''
-#            Summons an Ukkonen to pour rain down on enemies
-#            Whipping enemies will cause Ukkonen to strike them with lightning
-#            'An ancient poem for Ukko to cause rain and bless crops'
+#            Призывает Громовержца, обрушивающего дождь на врагов
+#            При ударе хлыстом Громовержец поражает врагов молниями
+#            'Старинное стихотворение для Укко о ниспослании дождя и плодородия'
 #            '''
 #    }
 #
 #    ElderWoodCrossbow: {
 #        DisplayName: Арбалет из древней древесины
-#        Tooltip: Fires bolts that split into shards upon hitting an enemy
+#        Tooltip: Стреляет болтами, распадающимися на шрапнель при попадании во врага
 #    }
 #
 #    PureIronBow: {
 #        DisplayName: Сверхчистый железный лук
-#        Tooltip: Fired arrows leave lingering mist to chill enemies
+#        Tooltip: Выпущенные стрелы оставляют за собой длительный туман, который накладывает дебафф «{$Buffs.PureChillDebuff.DisplayName}»
 #    }
 #
 #    ElderWoodToilet: {
@@ -10109,23 +10109,23 @@
 #    }
 #
 #    OmegaToilet: {
-#        DisplayName: Omega Poopenfarter
-#        Tooltip: "'A toilet... or torture device?'"
+#        DisplayName: Омега-какашкоиспускатель
+#        Tooltip: "'Унитаз... или орудие пыток?'"
 #    }
 #
 #    OmegaPickaxe: {
-#        DisplayName: Omega Pickaxe
-#        Tooltip: Can mine Uranium
+#        DisplayName: Омега-кирка
+#        Tooltip: Способна добывать уран
 #    }
 #
 #    PulseBlade: {
-#        DisplayName: Pulse Blade
+#        DisplayName: Импульсный клинок
 #        Tooltip:
 #            '''
-#            Hold left-click to charge a harmless kinetic slash, increasing the size the longer the charge
-#            Right-click to fire Plasma Mines, can only have 8 out at a time
-#            Hitting the Plasma Mines with a kinetic slash will launch them in the direction it was hit in
-#            Speed and damage scales with the velocity of the mine
+#            Удерживайте <left>, чтобы зарядить безвредный кинетический разрез, увеличивающийся в размере по мере заряда
+#            Нажмите <right>, чтобы выпустить плазменные мины, не более 8 штук
+#            При попадании кинетическим разрезом по плазменной мине, она запускается в направлении удара
+#            Скорость и урон мины увеличиваются пропорционально её скорости
 #            '''
 #    }
 #
@@ -10307,7 +10307,7 @@
 #
 #    Haymaker.DisplayName: Курица-крушитель
 #    HeadlessChicken.DisplayName: Курица без головы
-#    RoosterBooster.DisplayName: Коко-кряк
+#    RoosterBooster.DisplayName: Петух-усилитель
 #    AnglonPortal.DisplayName: Загадочные врата
 #    Chalice_Intro.DisplayName: Чаша мировозрения
 #
@@ -10343,12 +10343,12 @@
 #        DisplayName: Падший
 #
 #        TownNPCMood: {
-#            Content: Nice little place ya got here.
-#            NoHome: I'd prefer to have a house.
-#            FarFromHome: Could ya take me back to my home?
-#            LoveSpace: This place is a wee bit spacious, not complaining though, I quite like it.
-#            DislikeCrowded: All these humans are makin' my bones rattle.
-#            HateCrowded: All these humans are makin' my bones rattle.
+#            Content: Неплохое местечко у вас тут.
+#            NoHome: Я бы предпочёл иметь свой дом.
+#            FarFromHome: Не мог бы ты проводить меня домой?
+#            LoveSpace: Тут малость просторно, но жаловаться грех, мне даже нравится.
+#            DislikeCrowded: От этой толкучки у меня аж кости трясутся.
+#            HateCrowded: От этой толкучки у меня аж кости трясутся.
 #            LoveBiome: The caverns are perfect for us Fallen, not many humans come and go here.
 #            LikeBiome: Aah, {BiomeName} reminds me of when I was still alive in Gathuram. Good times they were.
 #            DislikeBiome: I'm staying in {BiomeName}? Not my preferred place to live, I'd hate to have a run-in with aggressive humans!

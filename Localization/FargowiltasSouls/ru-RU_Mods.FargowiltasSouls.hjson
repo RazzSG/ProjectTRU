@@ -3558,7 +3558,7 @@ Items: {
     }
 
     ChibiHat: {
-        DisplayName: Чиби-шляпа
+        DisplayName: Чиби шляпа
         Tooltip:
             '''
             Призывает Чиби Деви

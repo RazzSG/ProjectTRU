@@ -1,9 +1,11 @@
+using System.Collections.Generic;
 using System.Reflection;
 using CalamityMod.Items.Placeables.Furniture.DevPaintings;
 using CalamityMod.UI.DraedonSummoning;
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
+using CalamityRuTranslate.Mods.CalamityMod.Content.Items;
 using ReLogic.Content;
 using ReLogic.Graphics;
 using Terraria.ModLoader;
@@ -35,5 +37,16 @@ public class CalamityModSystem : ModSystem
         
         PropertyInfo dialogueFont = typeof(CodebreakerUI).GetCachedProperty("DialogFont");
         dialogueFont.SetValue(null, replaceFont);
+
+        if (ModLoader.TryGetMod("BossChecklist", out Mod bossChecklist) && bossChecklist != null)
+        {
+            bossChecklist.Call(
+            "SubmitEntryCollectibles",
+            Mod,
+            new Dictionary<string, object>
+            {
+                { "CalamityMod Yharon", ModContent.ItemType<YharonPhase2MusicBox>() }
+            });
+        }
     }
 }
