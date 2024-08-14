@@ -1,6 +1,4 @@
 ﻿using CalamityRuTranslate.Common;
-using CalamityRuTranslate.Common.Utilities;
-using CalamityRuTranslate.Core.Config;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -10,7 +8,7 @@ public class YharonPhase2MusicBox : ModItem
 {
     public override bool IsLoadingEnabled(Mod mod)
     {
-        return ModInstances.Calamity != null && TRuConfig.Instance.CalamityModLocalization && TranslationHelper.IsRussianLanguage;
+        return ModInstances.Calamity != null;
     }
     
     public override void SetStaticDefaults()

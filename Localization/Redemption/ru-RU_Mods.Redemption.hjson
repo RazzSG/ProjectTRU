@@ -1799,7 +1799,7 @@
 #    }
 #
 #    CorpseSkullBuff: {
-#        DisplayName: Corpse-Walker Skull
+#        DisplayName: Череп бродячего мертвеца
 #        Description: The dried up skull will fight for you
 #    }
 #
@@ -2329,8 +2329,8 @@
 #    }
 #
 #    BLTSandwichBuff: {
-#        DisplayName: Б.Л.Т. сэндвич
-#        Description: Кажется, это значит Бутерброд Луиджи с Томатом
+#        DisplayName: Г.Т.Л. сэндвич
+#        Description: Кажется, это значит Гигантский Тост Луиджи
 #    }
 #
 #    HydraCorrosionBuff: {
@@ -8921,7 +8921,7 @@
 #
 #    CorpseWalkerStaff: {
 #        DisplayName: Посох бродячего мертвеца
-#        Tooltip: Summons a Corpse-Walker Skull to fight for you
+#        Tooltip: Призывает череп бродячего мертвеца сражаться за вас
 #    }
 #
 #    CruxCardAnglonSkeletons: {
@@ -8939,7 +8939,7 @@
 #        DisplayName: Карта сущности: Лесная нимфа
 #        Tooltip:
 #            '''
-#            Summons the spirit of a Forest Nymph
+#            Призывает духов Лесной нимфы
 #            Нажмите <right>, чтобы притянуть духов к себе, расходуя 1 [i:Redemption/LostSoul]
 #            При использовании поглощает 12 [i:Redemption/LostSoul]
 #            Одновременно можно призвать духов только с одной карты духов
@@ -8950,7 +8950,7 @@
 #        DisplayName: Карта сущности: Гатрийские гвардейцы
 #        Tooltip:
 #            '''
-#            Summons the spirits of 2 Skeleton Wanderers and a Duelist
+#            Призывает духов 2 Скелетов-странников и Скелета-дуэлянта
 #            Нажмите <right>, чтобы притянуть духов к себе, расходуя 1 [i:Redemption/LostSoul]
 #            При использовании поглощает 10 [i:Redemption/LostSoul]
 #            Одновременно можно призвать духов только с одной карты духов
@@ -8961,7 +8961,7 @@
 #        DisplayName: Карта сущности: Рассыпающиеся автоматоны
 #        Tooltip:
 #            '''
-#            Summons the spirits of 2 Ancient Gladestone Golems
+#            Призывает духов 2 Големом из древней каменной глади
 #            Нажмите <right>, чтобы притянуть духов к себе, расходуя 3 [i:Redemption/LostSoul]
 #            При использовании поглощает 18 [i:Redemption/LostSoul]
 #            Одновременно можно призвать духов только с одной карты духов
@@ -8972,7 +8972,7 @@
 #        DisplayName: Карта сущности: Мшистый голиаф
 #        Tooltip:
 #            '''
-#            Summons the great spirit of a Mossy Goliath
+#            Призывает великий дух Мшистого голиафа
 #            Нажмите <right>, чтобы притянуть духов к себе, расходуя 5 [i:Redemption/LostSoul]
 #            При использовании поглощает 30 [i:Redemption/LostSoul]
 #            Одновременно можно призвать духов только с одной карты духов
@@ -9644,7 +9644,7 @@
 #
 #    ChickendWand: {
 #        DisplayName: Куриная палочка
-#        Tooltip: Lobs an arching egg that hatches into a chick upon impact
+#        Tooltip: Метает яйцо по дуге, из которого при попадании вылупляется цыпленок
 #    }
 #
 #    DawnHerald: {
@@ -9786,8 +9786,8 @@
 #    }
 #
 #    BLTSandwich: {
-#        DisplayName: Б.Л.Т. сэндвич
-#        Tooltip: Призывает Б.Л.Т. сэндвич
+#        DisplayName: Г.Т.Л. сэндвич
+#        Tooltip: Призывает Г.Т.Л. сэндвич
 #    }
 #
 #    HairyCloak: {
@@ -10086,7 +10086,7 @@
 #
 #    RedLaserSafe: {
 #        DisplayName: Красный лазерный блок
-#        Tooltip: Disintegrates players in seconds
+#        Tooltip: Дезинтегрирует игроков за считанные секунды
 #    }
 #
 #    VentWallSafe: {
@@ -10103,8 +10103,8 @@
 #        DisplayName: Складной дробовик
 #        Tooltip:
 #            '''
-#            Fires a spread of bullets
-#            Deals extra damage at point-blank range
+#            Стреляет пулями вразброс
+#            Наносит дополнительный урон в упор
 #            '''
 #    }
 #
@@ -10130,12 +10130,12 @@
 #    }
 #
 #    DeathMetal: {
-#        DisplayName: Death Metal
+#        DisplayName: Дэт-метал
 #        Tooltip:
 #            '''
-#            Shred the guitar to launch a Death Coil
-#            Shred again before the coil returns to bounce it back out, increasing its power and velocity
-#            Successful bounces restore mana
+#            Сыграйте на гитаре, чтобы запустить лик смерти
+#            Сыграйте снова до возвращения лика, чтобы отбросить её обратно, увеличивая её силу и скорость
+#            Успешные отбрасывания восстанавливают ману
 #            '''
 #    }
 #}
@@ -10225,7 +10225,7 @@
 #
 #    KS3: {
 #        DisplayName: Король-охотник III
-#        BossChecklistIntegration.SpawnInfo: Use a [i:Redemption/CyberTech] at day, or attack Androids on the surface and allow them to teleport away.
+#        BossChecklistIntegration.SpawnInfo: Используйте [i:Redemption/CyberTech] днём, или атакуйте андроидов на поверхности и позвольте им телепортироваться.
 #    }
 #
 #    KS3_Clone.DisplayName: Король-охотник III?.. 
@@ -10240,7 +10240,7 @@
 #        DisplayName: Небулеус, Ангел космоса
 #
 #        BossChecklistIntegration: {
-#            SpawnInfo: Use a [i:Redemption/NebSummon] at night, dropped from Star Serpents in the sky.
+#            SpawnInfo: Используйте [i:Redemption/NebSummon] ночью, который выпадает со звёздных змей в небе.
 #            EntryName: Небулеус
 #        }
 #    }
@@ -10251,14 +10251,14 @@
 #        DisplayName: Омега-Облитератор
 #
 #        BossChecklistIntegration: {
-#            SpawnInfo: Use a [i:Redemption/OmegaTransmitter] at night after Moon Lord has been defeated.
+#            SpawnInfo: Используйте [i:Redemption/OmegaTransmitter] ночью после победы над Лунным Лордом.
 #            EntryName: Омега-прототип №3
 #        }
 #    }
 #
 #    PZ: {
 #        DisplayName: Нулевой пациент
-#        BossChecklistIntegration.SpawnInfo: Hit the closed eye of Patient Zero in the Abandoned Laboratory. Use a [i:Redemption/LabHologramDevice] in the arena to resummon.
+#        BossChecklistIntegration.SpawnInfo: Нанесите удар по закрытому глазу Нулевого пациента в заброшенной лаборатории. Для повторного призыва используйте [i:Redemption/LabHologramDevice] на арене.
 #    }
 #
 #    PZ_Body_Holo.DisplayName: "{$NPCs.PZ.DisplayName}"
