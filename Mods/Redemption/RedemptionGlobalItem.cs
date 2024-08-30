@@ -52,9 +52,9 @@
 //
 //         if (item.type == ModContent.ItemType<VasaraPendant>())
 //         {
-//             ItemHelper.TranslateTooltip(tooltips, "IreLine", tooltip =>
+//             ItemHelper.TranslateTooltip(tooltips, "IreLine", _ =>
 //             {
-//                 tooltips.ReplaceText("Ukko's Ire", "");
+//                 tooltips.ReplaceText("Ukko's Ire", "Гнев Укко");
 //             });
 //         }
 //         
@@ -67,11 +67,11 @@
 //             
 //             ItemHelper.TranslateTooltip(tooltips, "Lore", tooltip =>
 //             {
-//                 tooltip.Text = "'A sallet helm made of Kanite, worn by the Sky Squires of Ithon. The metal has a blue hue and a cold touch,\nbeing used as a replacement for iron which is lacking in southern Ithon.\n\nThe Sky Squires are a unit of southern Ithon, protecting the kingdoms of Yln, Klycub, and Norapass.\nThe armour they wear allows better flexibility than most, useful for marching to the rescue swiftly.'";
+//                 tooltip.Text = "'Шлем-салад, выкованный из канита, который носят Небесные оруженосцы Итона\nЭтот металл имеет синеватый оттенок и холодный на ощупь, служит достойной заменой железу, столь редкому в южном Итоне\nНебесные оруженосцы - это подразделение южного Итона, под чьей защитой пребывают королевства Ильн, Кликуб и Норапасс\nИх доспехи отличаются повышенной гибкостью, что позволяет им быстро выдвигаться на помощь'";
 //             });
 //         }
 //         
-//         if (item.type == ModContent.ItemType<SkySquiresHelm>())
+//         if (item.type == ModContent.ItemType<SkySquiresGreaves>())
 //         {
 //             ItemHelper.TranslateTooltip(tooltips, "HoldShift", tooltip =>
 //             {
@@ -80,7 +80,7 @@
 //             
 //             ItemHelper.TranslateTooltip(tooltips, "Lore", tooltip =>
 //             {
-//                 tooltip.Text = "'A sallet helm made of Kanite, worn by the Sky Squires of Ithon. The metal has a blue hue and a cold touch,\nbeing used as a replacement for iron which is lacking in southern Ithon.\n\nThe Sky Squires are a unit of southern Ithon, protecting the kingdoms of Yln, Klycub, and Norapass.\nThe armour they wear allows better flexibility than most, useful for marching to the rescue swiftly.'";
+//                 tooltip.Text = "'Поножи, выкованные из канита, которые носят Небесные оруженосцы Итона\nЭтот металл имеет синеватый оттенок и холодный на ощупь, служит достойной заменой железу, столь редкому в южном Итоне\nНебесные оруженосцы - это подразделение южного Итона, под чьей защитой пребывают королевства Ильн, Кликуб и Норапасс\nИх доспехи отличаются повышенной гибкостью, что позволяет им быстро выдвигаться на помощь'";
 //             });
 //         }
 //         
@@ -93,7 +93,7 @@
 //             
 //             ItemHelper.TranslateTooltip(tooltips, "Lore", tooltip =>
 //             {
-//                 tooltip.Text = "'A tabard made of Kanite and cloth in a checkered pattern, worn by the Sky Squires of Ithon. The metal\nhas a blue hue and a cold touch, being used as a replacement for iron which is lacking in southern Ithon.\n\nThe Sky Squires are a unit of southern Ithon, protecting the kingdoms of Yln, Klycub, and Norapass.\nThe armour they wear allows better flexibility than most, useful for marching to the rescue swiftly.'";
+//                 tooltip.Text = "'Табард, сотканный из канита и ткани в клетчатом узоре, который носят Небесные оруженосцы Итона\nЭтот металл имеет синеватый оттенок и холодный на ощупь, служит достойной заменой железу, столь редкому в южном Итоне\nНебесные оруженосцы - это подразделение южного Итона, под чьей защитой пребывают королевства Ильн, Кликуб и Норапасс\nИх доспехи отличаются повышенной гибкостью, что позволяет им быстро выдвигаться на помощь'";
 //             });
 //         }
 //         
@@ -106,7 +106,7 @@
 //             
 //             ItemHelper.TranslateTooltip(tooltips, "Lore", tooltip =>
 //             {
-//                 tooltip.Text = "'A strange sword from the Silver Age, made of shining steel. Marks of battle are scarce,\nas it was seldom used by its wielder. It feels oddly nostalgic.'";
+//                 tooltip.Text = "'Этот необычный меч, родом из Серебряного века, выкован из сияющей стали\nНа его поверхности почти не видно следов битв, так как его редко использовал владелец\nПрикосновение к мечу пробуждает странное чувство ностальгии'";
 //             });
 //         }
 //         
@@ -114,12 +114,12 @@
 //         {
 //             ItemHelper.TranslateTooltip(tooltips, "HoldShift", tooltip =>
 //             {
-//                 tooltip.Text = "On the backside there's a note, hold [Shift] to read";
+//                 tooltip.Text = "На обороте выгравирована надпись, удерживайте 'Shift', чтобы прочитать";
 //             });
 //             
 //             ItemHelper.TranslateTooltip(tooltips, "Lore", tooltip =>
 //             {
-//                 tooltip.Text = "'Once a great captain, a legend to some,\nEven after death would he still sail the seas,\nLeading his phantom crew to unknown lands.\nOnly under the brightest light of the moon\nCould they set a foot on a seashore.\nUntil then, they were ever chasing waves\nWith the thickest of fog keeping them company.'";
+//                 tooltip.Text = "'Некогда великий капитан, для некоторых ставший легендой, даже после смерти продолжал бороздить моря, ведя свою призрачную команду к неизведанным землям\nЛишь при ярчайшем свете луны могли они ступить на берег\nДо тех пор они были обречены вечно преследовать волны, а самый густой туман оставался их единственным спутником'";
 //             });
 //         }
 //         
@@ -127,7 +127,7 @@
 //         {
 //             ItemHelper.TranslateTooltip(tooltips, "text1", tooltip =>
 //             {
-//                 tooltip.Text = "Right-click to summon Nebuleus' Final Form instantly";
+//                 tooltip.Text = "Нажмите ПКМ, чтобы мгновенно призвать финальную форму Небулеус";
 //             });
 //         }
 //         
@@ -135,7 +135,7 @@
 //         {
 //             ItemHelper.TranslateTooltip(tooltips, "SpiritLine", tooltip =>
 //             {
-//                 tooltip.Text = "The ring still glows a faint blue...";
+//                 tooltip.Text = "Кольцо продолжает излучать тусклое синее...";
 //             });
 //         }
 //         
@@ -143,12 +143,12 @@
 //         {
 //             ItemHelper.TranslateTooltip(tooltips, "MaxLife", tooltip =>
 //             {
-//                 tooltip.Text = "1120 base health";
+//                 tooltip.Text = "1120 ед. базового здоровья";
 //             });
 //             
 //             ItemHelper.TranslateTooltip(tooltips, "Defense", tooltip =>
 //             {
-//                 tooltip.Text = "20 defense";
+//                 tooltip.Text = "20 ед. защиты";
 //             });
 //         }
 //         
@@ -156,7 +156,7 @@
 //         {
 //             ItemHelper.TranslateTooltip(tooltips, "text", tooltip =>
 //             {
-//                 tooltip.Text = "There is no moonlight to reflect...";
+//                 tooltip.Text = "Отсутствует лунный свет для отражения...";
 //             });
 //         }
 //         
@@ -173,12 +173,12 @@
 //         {
 //             ItemHelper.TranslateTooltip(tooltips, "MaxLife", tooltip =>
 //             {
-//                 tooltip.Text = "120/92/144 base health";
+//                 tooltip.Text = "120/92/144 ед. базового здоровья";
 //             });
 //             
 //             ItemHelper.TranslateTooltip(tooltips, "Defense", tooltip =>
 //             {
-//                 tooltip.Text = "11/9/15 defense";
+//                 tooltip.Text = "11/9/15 ед. защиты";
 //             });
 //         }
 //         
@@ -186,12 +186,12 @@
 //         {
 //             ItemHelper.TranslateTooltip(tooltips, "MaxLife", tooltip =>
 //             {
-//                 tooltip.Text = "3000 base health";
+//                 tooltip.Text = "3000 ед. базового здоровья";
 //             });
 //             
 //             ItemHelper.TranslateTooltip(tooltips, "Defense", tooltip =>
 //             {
-//                 tooltip.Text = "17 defense";
+//                 tooltip.Text = "17 ед. защиты";
 //             });
 //         }
 //         
@@ -199,12 +199,12 @@
 //         {
 //             ItemHelper.TranslateTooltip(tooltips, "MaxLife", tooltip =>
 //             {
-//                 tooltip.Text = "500 base health";
+//                 tooltip.Text = "500 ед. базового здоровья";
 //             });
 //             
 //             ItemHelper.TranslateTooltip(tooltips, "Defense", tooltip =>
 //             {
-//                 tooltip.Text = "5 defense";
+//                 tooltip.Text = "5 ед. защиты";
 //             });
 //         }
 //         
@@ -212,12 +212,12 @@
 //         {
 //             ItemHelper.TranslateTooltip(tooltips, "MaxLife", tooltip =>
 //             {
-//                 tooltip.Text = "116/124 base health";
+//                 tooltip.Text = "116/124 ед. базового здоровья";
 //             });
 //             
 //             ItemHelper.TranslateTooltip(tooltips, "Defense", tooltip =>
 //             {
-//                 tooltip.Text = "8 defense";
+//                 tooltip.Text = "8 ед. защиты";
 //             });
 //         }
 //         
@@ -225,12 +225,12 @@
 //         {
 //             ItemHelper.TranslateTooltip(tooltips, "MaxLife", tooltip =>
 //             {
-//                 tooltip.Text = "250 base health";
+//                 tooltip.Text = "250 ед. базового здоровья";
 //             });
 //             
 //             ItemHelper.TranslateTooltip(tooltips, "Defense", tooltip =>
 //             {
-//                 tooltip.Text = "20 defense";
+//                 tooltip.Text = "20 ед. защиты";
 //             });
 //         }
 //         
@@ -238,12 +238,12 @@
 //         {
 //             ItemHelper.TranslateTooltip(tooltips, "MaxLife", tooltip =>
 //             {
-//                 tooltip.Text = "2000 base health";
+//                 tooltip.Text = "2000 ед. базового здоровья";
 //             });
 //             
 //             ItemHelper.TranslateTooltip(tooltips, "Defense", tooltip =>
 //             {
-//                 tooltip.Text = "14 defense";
+//                 tooltip.Text = "14 ед. защиты";
 //             });
 //         }
 //         
@@ -251,12 +251,12 @@
 //         {
 //             ItemHelper.TranslateTooltip(tooltips, "MaxLife", tooltip =>
 //             {
-//                 tooltip.Text = "108 base health";
+//                 tooltip.Text = "108 ед. базового здоровья";
 //             });
 //             
 //             ItemHelper.TranslateTooltip(tooltips, "Defense", tooltip =>
 //             {
-//                 tooltip.Text = "7 defense";
+//                 tooltip.Text = "7 ед. защиты";
 //             });
 //         }
 //         
@@ -264,12 +264,12 @@
 //         {
 //             ItemHelper.TranslateTooltip(tooltips, "MaxLife", tooltip =>
 //             {
-//                 tooltip.Text = "116 base health";
+//                 tooltip.Text = "116 ед. базового здоровья";
 //             });
 //             
 //             ItemHelper.TranslateTooltip(tooltips, "Defense", tooltip =>
 //             {
-//                 tooltip.Text = "8 defense";
+//                 tooltip.Text = "8 ед. защиты";
 //             });
 //         }
 //         
@@ -277,12 +277,12 @@
 //         {
 //             ItemHelper.TranslateTooltip(tooltips, "MaxLife", tooltip =>
 //             {
-//                 tooltip.Text = "2400 base health";
+//                 tooltip.Text = "2400 ед. базового здоровья";
 //             });
 //             
 //             ItemHelper.TranslateTooltip(tooltips, "Defense", tooltip =>
 //             {
-//                 tooltip.Text = "0 defense";
+//                 tooltip.Text = "0 ед. защиты";
 //             });
 //         }
 //         
@@ -290,12 +290,12 @@
 //         {
 //             ItemHelper.TranslateTooltip(tooltips, "MaxLife", tooltip =>
 //             {
-//                 tooltip.Text = "418 base health";
+//                 tooltip.Text = "418 ед. базового здоровья";
 //             });
 //             
 //             ItemHelper.TranslateTooltip(tooltips, "Defense", tooltip =>
 //             {
-//                 tooltip.Text = "10 defense";
+//                 tooltip.Text = "10 ед. защиты";
 //             });
 //         }
 //         

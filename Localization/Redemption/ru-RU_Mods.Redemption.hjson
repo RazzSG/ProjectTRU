@@ -881,9 +881,9 @@
 #            Defeat1: Таборти! Таборти![0.2] Сдаюсь! Сдаюсь!
 #            Defeat2: Смилостивись!
 #            Defeat3: "[0.2] Отзови своих слуг!"
-#            Mercy1: Неужели понял?[0.2] Значит ты не хру?
-#            Mercy2: Извини за изначальную реакцию,[0.1] не ожидала увидеть здесь хена.
-#            Mercy3: Знаешь, мне кое-какая помощь нужна,[0.1] объясню около портала.
+#            Mercy1: Неужели понял?[0.2] Значит, ты не хру?
+#            Mercy2: Прошу прощения за такую реакцию,[0.1] я никак не ожидала встретить здесь хена.
+#            Mercy3: На самом деле мне нужна помощь,[0.1] расскажу подробнее у портала.
 #        }
 #
 #        Talk: {
@@ -1373,7 +1373,7 @@
 #        NebChoice: Don't go down the road you seek, please.
 #        NebDefeat: Trust me when I say this, you've dug yourself a 1000-feet hole here.
 #        ForestNymphHoused: Sometimes it is the little acts of kindness that count.
-#        TreebarkFelled: Assisting the extinction of these dwindling dryads is not something I approve of.
+#        TreebarkFelled: Я не одобряю содействие в уничтожении этих и без того исчезающих дриад.
 #        EaglecrestDefeat: Живые камни? Никогда такого не видела.
 #        SkullDiggerDefeat: A saddening conclusion to this protector and mistress, but perhaps there is another way..?
 #        CalaviaChoice: She is wishing to be spared.
@@ -1404,11 +1404,11 @@
 #    CycleD: Сменить диалог
 #    Quest: Задание
 #    New: Доступен новый диалог
-#    EnterGateway: Войти во Врата
+#    EnterGateway: Войти во врата
 #    Who: Кто ты?
 #    Talk: Говорить
 #    Crux: Попросить сущность
-#    AboutYou: О тебе?
+#    AboutYou: О тебе
 #    Back: Назад
 #    HomeRequirements: Требования к жилью
 #    RevivialPotion: Использовать зелье возрождения
@@ -1599,8 +1599,8 @@
 #    }
 #
 #    SwordRemoteCooldown: {
-#        DisplayName: Cleaver Remote Cooldown
-#        Description: You cannot use the Cleaver Remote
+#        DisplayName: Перезарядка Дистанционного рассекателя
+#        Description: Вы не можете использовать Дистанционный рассекатель
 #    }
 #
 #    XeniumCooldown: {
@@ -1614,27 +1614,17 @@
 #    }
 #
 #    XenomiteCooldown: {
-#        DisplayName: Xenomite Gas Cooldown
-#        Description: Your gas container is refilling
-#    }
-#
-#    RevolverTossCooldown: {
-#        DisplayName: Revolver Cooldown
-#        Description: You can't toss your revolver
-#    }
-#
-#    NoitaBombCooldown: {
-#        DisplayName: Bomb Cooldown
-#        Description: Вы не можете использовать Взрывной посох
+#        DisplayName: Перезарядка ксеномитового газа
+#        Description: Ваш газовый баллон пополняется
 #    }
 #
 #    XeniumElectrolaserCooldown: {
-#        DisplayName: Xenium Electrolaser Cooldown
+#        DisplayName: Перезарядка ксениевого электролазера
 #        Description: The electrolaser's battery is recharging
 #    }
 #
 #    VasaraPendantCooldown: {
-#        DisplayName: Vasara Pendant Cooldown
+#        DisplayName: Перезарядка подвески-молота
 #        Description: The Vasara Pendant feels dull
 #    }
 #
@@ -1694,8 +1684,8 @@
 #    }
 #
 #    GreenRashesDebuff: {
-#        DisplayName: Green Rashes
-#        Description: ... Really itchy
+#        DisplayName: Зелёная сыпь
+#        Description: ... Невыносимо чешется
 #    }
 #
 #    HairLossDebuff: {
@@ -1804,8 +1794,8 @@
 #    }
 #
 #    CystlingBuff: {
-#        DisplayName: Cystling
-#        Description: A cystling will infect others for you
+#        DisplayName: Кистёныш
+#        Description: Кистёныш будет распространять инфекцию среди врагов
 #    }
 #
 #    ForretBuff: {
@@ -3020,7 +3010,7 @@
 #        Chat1: Again I must apologise for attacking ye, I asked for your purpose but clearly ye aren't Gathic. I should introduce myself, I am Calavia, a Chief-Warrior of the Iron Realm. It is such a pleasure to meet a khen here, I've seen naught but rotting khru ever since I got here.
 #        Chat2: You are the first khen I've met here - there's been floods of krhu around, so I prefer the change.
 #        Chat3: That corpse by the portal is oddly soulful, I hope it doesn't come alive.
-#        Chat4: You got a strange ability from that soulful corpse by the portal? My worries of it becoming a danger must've been unfounded, though I yet sense a will therein.
+#        Chat4: Так ты обрёл странную способность от того мёртвого тела возле портала? Видимо, я напрасно боялась, что оно станет угрозой, хотя я всё ещё ощущаю в нём некое присутствие воли.
 #        Chat5: Are you perhaps another warrior of the Iron Realm to stumble upon this place? Or did you rob that armour you wear?
 #        Chat6: I am to assume you're an Anglic knight, based on your attire. Should've figured you wouldn't understand Gathic... Oh well.
 #        Chat7: That armour you don is rather threatening. Where did it come from? Reminds me of the Thamor'in dragons that occassionally hinder the western countries.
@@ -3143,8 +3133,8 @@
 #    }
 #
 #    Toaster: {
-#        2: Oh hey, how are you holding up? BECAUSE I AM A TOASTER.
-#        1: Just a normal toaster.
+#        1: Я самый обыкновенный тостер.
+#        2: О, привет, как поживаешь? ПОТОМУ ЧТО Я - ТОСТЕР!
 #    }
 #}
 #
@@ -4420,22 +4410,22 @@
 #
 #    RainPatreonVanityBody: {
 #        DisplayName: Форма живого оружия
-#        Tooltip: "'A body etched by agony and filled with strength'"
+#        Tooltip: "'Тело, израненное страданиями и наполненное силой'"
 #    }
 #
 #    RainPatreonVanityHead: {
 #        DisplayName: Рога живого оружия
-#        Tooltip: "'Strange, you can't seem to smile'"
+#        Tooltip: "'Как странно, что ты не можешь улыбнуться'"
 #    }
 #
 #    RainPatreonVanityLegs: {
 #        DisplayName: Когти живого оружия
-#        Tooltip: "'With claws like these, who needs a sword?'"
+#        Tooltip: "'Зачем меч, когда есть такие когти?'"
 #    }
 #
 #    RainPatreonWings: {
 #        DisplayName: Крылья живого оружия
-#        Tooltip: "'Best hold back, you wouldn't want to hurt yourself'"
+#        Tooltip: "'Лучше воздержитесь, не стоит рисковать своим здоровьем'"
 #    }
 #
 #    SneakloneHelmet1: {
@@ -5696,14 +5686,14 @@
 #        DisplayName: Статуя полубога?..
 #        Tooltip:
 #            '''
-#            [c/ffea9b:'Spent years waiting for the time,]
-#            [c/ffea9b:I'd come to see the truth behind,]
-#            [c/ffea9b:The darkness that we face in our own lives,]
-#            [c/ffea9b:Cast aside your fear,]
-#            [c/ffea9b:We're strong in numbers,]
-#            [c/ffea9b:Holding back a fate of endless slumber,]
-#            [c/ffea9b:I want to stay to keep you strong,]
-#            [c/ffea9b:Side by side is where we belong...']
+#            [c/ffea9b:'Годами ждал я час прозренья]
+#            [c/ffea9b:Чтоб истину узреть за тьмой]
+#            [c/ffea9b:Что в жизни нас порой объемлет]
+#            [c/ffea9b:Отринь свой страх]
+#            [c/ffea9b:В единстве - сила]
+#            [c/ffea9b:Противостоим мы вечному забвению]
+#            [c/ffea9b:Хочу остаться, чтоб ты сильным был]
+#            [c/ffea9b:Ведь вместе быть - наш общий путь...']
 #            {$SpecialTooltips.Unbreakable5000}
 #            '''
 #    }
@@ -6825,7 +6815,7 @@
 #
 #    MemoryChip: {
 #        DisplayName: Чип памяти
-#        Tooltip: Has no use to you, but it would be a good idea to keep it for now...
+#        Tooltip: Сейчас вам не пригодится, но лучше пока сохранить...
 #    }
 #
 #    SlayerHullPlating: {
@@ -6835,7 +6825,7 @@
 #
 #    SlayerShipEngine: {
 #        DisplayName: Корабельный ПСБС двигатель
-#        Tooltip: "'Stands for Almost-Faster-Than-Light'"
+#        Tooltip: "'Расшифровывается как Почти Быстрее Скорости Света'"
 #    }
 #
 #    SlayerWiringKit: {
@@ -6845,16 +6835,16 @@
 #
 #    RedemptionRoute: {
 #        DisplayName: Искупление
-#        Tooltip: This will redeem your past actions
+#        Tooltip: Это искупит ваши прошлые деяния
 #    }
 #
 #    SlayerMedal: {
 #        DisplayName: Медаль
 #        Tooltip:
 #            '''
-#            It reads - [c/b8eff5:'Congratulations, you beat me. Have a medal.]
-#            [c/b8eff5:... Stupid dumb idiot.]
-#            'It's just a piece of painted wood in the shape of a medal...'
+#            Надпись гласит - [c/b8eff5:'Поздравляю, ты победил меня. Получи медаль]
+#            [c/b8eff5:... Тупой глупый болван]
+#            'Это всего лишь кусок покрашенного дерева в форме медали...'
 #            '''
 #    }
 #
@@ -6862,8 +6852,8 @@
 #        DisplayName: Генератор спрайтов
 #        Tooltip:
 #            '''
-#            Spawns sprites at the cursor and continuously draws them at that location.
-#            Can be used to test shaders. You should use Edit and Continue to do this.
+#            Размещает спрайты на месте курсора и непрерывно отображает их там
+#            Можно использовать для тестирования шейдеров. Рекомендуется использовать функцию 'Изменить и Продолжить'
 #            '''
 #    }
 #
@@ -6908,7 +6898,7 @@
 #
 #    PureIronHammer: {
 #        DisplayName: Сверхчистый железный молот
-#        Tooltip: Slamming the ground will form shards of ice
+#        Tooltip: При ударе о землю образуются осколки льда
 #    }
 #
 #    PureIronPickaxe: {
@@ -6957,7 +6947,7 @@
 #        DisplayName: Античный дорул
 #        Tooltip:
 #            '''
-#            Can be given to a certain Undead as currency
+#            Можно отдать определённой нежити в качестве валюты
 #            'Древние золотые монеты, валюта Гатурама старых дней'
 #            '''
 #    }
@@ -7023,7 +7013,7 @@
 #        Tooltip:
 #            '''
 #            Музыкальный инструмент
-#            'Kazooie not included'
+#            'Птица Казу не прилагается'
 #            '''
 #    }
 #
@@ -7145,7 +7135,7 @@
 #        Tooltip:
 #            '''
 #            {$CommonItemTooltip.MinorStats}
-#            'Eat it before it gets nicked'
+#            'Съешьте, пока не стащили'
 #            '''
 #    }
 #
@@ -7167,10 +7157,9 @@
 #        DisplayName: Сыворотка-декристаллизатор
 #        Tooltip:
 #            '''
-#            Reverts xenomite infection to a previous stage
-#            Cures green rashes
-#
-#            'Label says 'Do not swallow.' Why would you do that?'
+#            Возвращает ксеномитную инфекцию на раннюю стадию
+#            Лечит зелёную сыпь
+#            'На этикетке написано: 'Не глотать'. А кому это вообще могло прийти в голову?'
 #            '''
 #    }
 #
@@ -7185,15 +7174,15 @@
 #
 #    EvilJelly: {
 #        DisplayName: Зловещее желе
-#        Tooltip: Greatly increased chance of Shadow Fuel to drop upon slaying enemies with {0} weapons
+#        Tooltip: Значительно увеличивает шанс выпадения теневого топлива при убийстве врагов оружием {0}
 #    }
 #
 #    FirstAidKit: {
 #        DisplayName: Аптечка первой помощи
 #        Tooltip:
 #            '''
-#            Does not give Potion Sickness
-#            'These are in limited supply'
+#            Не накладывает дебафф «{$BuffName.PotionSickness}»
+#            'Запасы ограничены'
 #            '''
 #    }
 #
@@ -7211,7 +7200,7 @@
 #        Tooltip:
 #            '''
 #            {$CommonItemTooltip.MinorStats}
-#            'Because eggs are tasty.'
+#            'Потому что яйца — это вкусно'
 #            '''
 #    }
 #
@@ -7220,13 +7209,13 @@
 #        Tooltip:
 #            '''
 #            Значительно увеличивает все характеристики
-#            'Sluuuuuurp'
+#            'Хлюп-хлюп-хлюп'
 #            '''
 #    }
 #
 #    NitroglycerineFlask: {
 #        DisplayName: Флакон с нитроглицерином
-#        Tooltip: Melee attacks gain the {0} Bonus
+#        Tooltip: Атаки ближнего боя получают бонус {0}
 #    }
 #
 #    Olives: {
@@ -7234,7 +7223,7 @@
 #        Tooltip:
 #            '''
 #            {$CommonItemTooltip.MinorStats}
-#            'Picked fresh from a Garden'
+#            'Прямиком с сада'
 #            '''
 #    }
 #
@@ -7243,7 +7232,7 @@
 #        Tooltip:
 #            '''
 #            {$CommonItemTooltip.MediumStats}
-#            'Now with 100% less AI!'
+#            'Теперь на 100% меньше ИИ!'
 #            Увеличивает регенерацию энергии
 #            '''
 #    }
@@ -7267,12 +7256,12 @@
 #        Tooltip:
 #            '''
 #            Исцеляет от радиационного отравления
-#            ИНСТРУКЦИЯ:
-#            - Просьба убедится, что у вас есть радиационное отравление, иначе лекарство принесёт больше вреда, чем пользы!
-#            - Данное лекарство действует медленно, не излечивает экстремальные дозы облучения. Если ваше зрение затуманивается зелёной дымкой,
-#              мы рекомендуем в срочном порядке взять лопату и выкопать яму для гроба, ведь скоро он вам понадобится.
-#            - После успешного использования вы почувствуете некоторую слабость, в течение следующих минут она пропадёт.
-#            'Обычно радиация не может быть вылечена, но, с этим новейшим лекарством, у нас наметился прогресс'
+#            ВНИМАТЕЛЬНО ПРОЧТИТЕ ИНСТРУКЦИЮ:
+#            - Перед применением убедитесь, что у вас действительно радиационное отравление, иначе лекарство может нанести больше вреда, чем пользы!
+#            - Действие лекарства происходит постепенно и не спасёт при экстремальных дозах облучения
+#            - Если ваше зрение начинает затуманиваться зелёной дымкой, советуем срочно взять лопату и выкопать себе могилу — скоро она вам пригодится
+#            - После применения возможно ощущение слабости и ломкости, но оно пройдет через несколько минут
+#            'Обычно радиацию нельзя вылечить, но с этим новым лекарством у нас наметился прогресс'
 #            '''
 #    }
 #
@@ -7706,15 +7695,15 @@
 #
 #    Synthesizer: {
 #        DisplayName: Синтезатор
-#        Tooltip: Shoots a wave of notes along the ground
+#        Tooltip: Выпускает волну нот вдоль земли
 #    }
 #
 #    XenomiteScepter: {
 #        DisplayName: Спиральный скипетр
 #        Tooltip:
 #            '''
-#            Casts infectious helix bolts
-#            Every consecutive shot increases the velocity of the bolts
+#            Запускает заразные спиральные снаряды
+#            Каждый последующий выстрел увеличивает скорость снарядов
 #            '''
 #    }
 #
@@ -7770,21 +7759,21 @@
 #        DisplayName: Забвенный двуручник Офоса
 #        Tooltip:
 #            '''
-#            Spins the blade around the player and sets ablaze
-#            Forms a firestorm that engulfs the player, dealing {0} damage
-#            Release left-click to disperse it, launching nearby enemies away
+#            Вращает клинок вокруг игрока и воспламеняет его
+#            Создаёт огненный вихрь, охватывающий игрока, нанося {0}
+#            Отпустите <left>, чтобы рассеять вихрь, отбрасывая ближайших врагов
 #            '''
 #        Lore:
 #            '''
-#            'A silver sword with a steel handle, forged by Ophos, a fabled blacksmith from what is now Hye Anglon.
-#            Said to be proficient in Firestorm magic, he would mark his works with a gem that imbued his weapons with his magical power.
-#            This weapon in particular uses a traditional design of the Territory of Northhill.'
+#            'Серебряный меч со стальной рукоятью, выкованный Офосом, легендарным кузнецом из земель, ныне известных как Хай Ангулон
+#            Считается, он мастерски владел магией Огненного шторма и украшал свои творения самоцветом, наделявшим оружие его магической силой
+#            Это оружие выполнено в традиционном стиле Территории Нортхилл'
 #            '''
 #    }
 #
 #    GravityHammer: {
 #        DisplayName: Гравитационный молот
-#        Tooltip: Slamming the ground creates a shockwave
+#        Tooltip: При ударе о землю возникает ударная волна
 #    }
 #
 #    HammerOfProving: {
@@ -7869,23 +7858,23 @@
 #        DisplayName: Дистанционный рассекатель
 #        Tooltip:
 #            '''
-#            Calls upon the Omega Cleaver to unleash a devastating attack
-#            Right-Click to switch mode of attack
-#            15 second cooldown
-#            'Size does matter'
+#            Призывает Омега-Двуручник для нанесения сокрушительной атаки
+#            Нажмите <right>, чтобы сменить режим атаки
+#            Перезарядка 15 секунд
+#            'Размер имеет значение'
 #            '''
-#        Mode1: Swing Mode
-#        Mode2: Stab Mode
-#        Mode3: Sword Burst Mode
-#        Mode4: Red Prism Mode
+#        Mode1: Режим взмаха
+#        Mode2: Режим пронзания
+#        Mode3: Режим взрывного меча
+#        Mode4: Режим красной призмы
 #    }
 #
 #    TidalWake: {
 #        DisplayName: Морская пучина
 #        Tooltip:
 #            '''
-#            Turns into a whirlpool, pulling in weak enemies
-#            Slain enemies affected by the whirlpool will heal the user
+#            Создаёт воронку, втягивающую слабых врагов
+#            Убитые враги, попавшие в воронку, восстанавливают здоровье владельца
 #            '''
 #    }
 #
@@ -7967,8 +7956,8 @@
 #        DisplayName: Буровой Револьвер
 #        Tooltip:
 #            '''
-#            Converts bullets into drill bits that shred through enemies and tiles
-#            Inflicts Broken Armor, piercing through Guard Points
+#            Превращает пули в буровые наконечники, разрывающие врагов и блоки
+#            Накладывает дебафф «{$BuffName.BrokenArmor}», пробивая барьер врагов
 #            '''
 #    }
 #
@@ -7997,9 +7986,9 @@
 #        DisplayName: Сверхтехнологичные револьверы
 #        Tooltip:
 #            '''
-#            Right-click to toss one in the air, catching it gives a stackable fire rate boost
-#            Missing the catch will cause you to only shoot one gun for 5 seconds
-#            Replaces normal bullets with nano bullets
+#            Нажмите <right>, чтобы подбросить револьвер; поймав его, вы получите накапливающийся бонус к скорострельности
+#            Если не поймаете, вы будете стрелять только из одного оружия в течение 5 секунд
+#            Заменяет обычные пули на нанопули
 #            '''
 #    }
 #
@@ -8007,7 +7996,7 @@
 #        DisplayName: Экспериментальная атомная винтовка
 #        Tooltip:
 #            '''
-#            (4[i:Redemption/EnergyCell]) Replaces normal bullets with Plasma Rounds
+#            (4[i:Redemption/EnergyCell]) Заменяет обычные пули на плазменные патроны
 #            Требуется наличие Энергоячейки в инвентаре
 #            '''
 #        Lore:
@@ -8022,23 +8011,23 @@
 #        DisplayName: Сверхтехнологичный бластер
 #        Tooltip:
 #            '''
-#            (2-6[i:Redemption/EnergyCell]) Replaces normal bullets with Energy Bolts
-#            Right-clicking changes type of fire
+#            (2-6[i:Redemption/EnergyCell]) Заменяет обычные пули на энергетические заряды
+#            <right> меняет тип стрельбы
 #            Требуется наличие Энергоячейки в инвентаре
 #            '''
-#        Mode1: Barrage Shot
-#        Mode2: Spread Shot
-#        Mode3: Rebound Shot
+#        Mode1: Шквальный выстрел
+#        Mode2: Рассеянный выстрел
+#        Mode3: Рикошетный выстрел
 #    }
 #
 #    SteampunkMinigun: {
 #        DisplayName: Паровой шестерёнчатый миниган
 #        Tooltip:
 #            '''
-#            Holding left-click will charge the weapon up, releasing will cause it to shoot rapidly for a short duration
-#            Shooting duration scales with the amount of time charged up, capping at 5 seconds
-#            Replaces normal bullets with high velocity bullets
-#            66% chance to not consume ammo
+#            При удерживании <left> оружие накапливает заряд, а при отпускании будет вести скорострельный огонь в течение короткого времени
+#            Длительность стрельбы зависит от времени заряда, максимум - 5 секунд
+#            Заменяет обычные пули на высокоскоростные
+#            66% шанс не использовать боеприпасы
 #            '''
 #        Lore:
 #            '''
@@ -8064,7 +8053,7 @@
 #
 #    AndroidHologram: {
 #        DisplayName: Голограмма андроида
-#        Tooltip: Summons a little Android to fight for you
+#        Tooltip: Призывает маленького андроида сражаться за вас
 #    }
 #
 #    GolemStaff: {
@@ -8072,9 +8061,9 @@
 #        Tooltip:
 #            '''
 #            {$CommonItemTooltip.Sentry}
-#            Summons a golem guardian that emits an empowering aura
-#            Within the aura, minions inflict a strong 'On Fire!' debuff and their damage is increased by 8%
-#            Right-click to disable the sentry
+#            Призывает голема-стража, излучающего усиливающую ауру
+#            Внутри ауры миньоны накладывают мощный дебафф «{$BuffName.OnFire}» и наносят на 8% больше урона
+#            Нажмите <right>, чтобы деактивировать стража
 #            '''
 #    }
 #
@@ -8371,8 +8360,8 @@
 #        DisplayName: Цепи космоса
 #        Tooltip:
 #            '''
-#            20 summon tag damage
-#            10% summon tag critical strike chance
+#            20 урона от метки призывателя
+#            10% шанса критического удара от метки призывателя
 #            {$CommonItemTooltip.Whips}
 #            Strike enemies to summon friendly cosmic eyes
 #            '''
@@ -8386,7 +8375,7 @@
 #            Summons a rowan tree that emits an empowering aura
 #            Within the aura, your minions can cause rowan berries to drop from their targets and their damage is increased by 8%
 #            Rowan berries will heal for a small amount and give major improvements to all stats for a short time
-#            Right-click to disable the sentry
+#            Нажмите <right>, чтобы деактивировать стража
 #            '''
 #    }
 #
@@ -8403,9 +8392,9 @@
 #        DisplayName: Ксениевая автотурель
 #        Tooltip:
 #            '''
-#            Summons a friendly Xenium Autoturret to fight for you
-#            Fires bullets from your inventory
-#            80% chance not to consume ammo
+#            Призывает дружественную ксениевую автотурель сражаться за вас
+#            Стреляет пулями из вашего инвентаря
+#            80% шанс не использовать боеприпасы
 #            '''
 #    }
 #
@@ -8418,8 +8407,8 @@
 #        DisplayName: Стрела лунного зарева
 #        Tooltip:
 #            '''
-#            Burns targets while the moon is out
-#            Flame intensity is based on moon phase
+#            Воспламеняет цели, когда на небе видна луна
+#            Мощность пламени зависит от фазы луны
 #            '''
 #    }
 #
@@ -8817,9 +8806,9 @@
 #        DisplayName: Лунный выстрел
 #        Tooltip:
 #            '''
-#            Replaces Wooden Arrows with Lunar Bolts, dealing {0} and {1} damage
-#            Lunar Bolts summon bats while the moon is out
-#            Summons an extra bat while it's a full moon
+#            Заменяет деревянные стрелы на лунные заряды, наносящие урон {0} и {1}
+#            Лунные заряды призывают летучих мышей, но только если на небе видна луна
+#            Призывает дополнительную летучую мышь во время полнолуния
 #            '''
 #    }
 #
@@ -9016,7 +9005,7 @@
 #        DisplayName: Карта сущности: Ашер
 #        Tooltip:
 #            '''
-#            Summons the spirit of Asher
+#            Призывает дух Ашера
 #            Нажмите <right>, чтобы притянуть духов к себе, расходуя 1 [i:Redemption/LostSoul]
 #            При использовании поглощает 14 [i:Redemption/LostSoul]
 #            Одновременно можно призвать духов только с одной карты духов
@@ -9025,7 +9014,7 @@
 #
 #    CystlingSummon: {
 #        DisplayName: Заражённая фрикаделька
-#        Tooltip: Summons a Cystling to fight for you
+#        Tooltip: Призывает кистёныша сражаться за вас
 #    }
 #
 #    GaucheStaff: {
@@ -9033,9 +9022,9 @@
 #        Tooltip:
 #            '''
 #            {$CommonItemTooltip.Sentry}
-#            Summons a granite guardian that emits an empowering aura
-#            Within the aura, whip speed and damage is increased by 15%
-#            Right-click to disable the sentry
+#            Внутри ауры миньоны накладывают мощный дебафф «{$BuffName.OnFire}» и наносят на 8% больше урона
+#            Внутри ауры скорость и урон кнутов увеличиваются на 15%
+#            Нажмите <right>, чтобы деактивировать стража
 #            '''
 #    }
 #
@@ -9043,8 +9032,8 @@
 #        DisplayName: Святая библия
 #        Tooltip:
 #            '''
-#            Tosses the book, stopping at cursor point
-#            Shoots 4 short-ranged rays of light
+#            Бросает книгу, которая останавливается в позиции курсора
+#            Выпускает 4 луча света на небольшое расстояние
 #            'Смеешь подвергать сомнению слова великого Джимми?!'
 #            '''
 #    }
@@ -9054,7 +9043,7 @@
 #        Tooltip:
 #            '''
 #            Призывает природную пикси, которая сражается на вашей стороне
-#            Периодически выкрикивает на цель, нанося{0} урон [i:Redemption/Psychic][c/ffb6c1:Школы менталистики] 
+#            Периодически выкрикивает на цель, нанося урон {0}
 #            '''
 #        Lore:
 #            '''
@@ -9098,9 +9087,9 @@
 #        DisplayName: Корневой отросток
 #        Tooltip:
 #            '''
-#            4 summon tag damage
+#            4 урона от метки призывателя
 #            {$CommonItemTooltip.Whips}
-#            Striking enemies with the tip of the whip will heal the user
+#            Удары по врагам кончиком хлыста восстанавливают здоровье владельца
 #            '''
 #    }
 #
@@ -9108,8 +9097,8 @@
 #        DisplayName: Яйцекол
 #        Tooltip:
 #            '''
-#            Stuns the panicking Fowl Emperor
-#            Disappears if the Fowl Emperor isn't alive
+#            Ошеломляет паникующего Императора Кудаха
+#            Пропадает, если Император Кудах мёртв
 #            '''
 #    }
 #
@@ -9132,7 +9121,7 @@
 #        DisplayName: Труп в химзащите
 #        Tooltip:
 #            '''
-#            Gives Hazmat Suit
+#            Даёт защитный комбинезон
 #            {$SpecialTooltips.Unbreakable5000}
 #            '''
 #    }
@@ -9151,7 +9140,7 @@
 #        DisplayName: Вертикальная укреплённая дверь лаборатории
 #        Tooltip:
 #            '''
-#            Closes when a boss is active
+#            Закрывается при появлении босса
 #            {$SpecialTooltips.Unbreakable}
 #            '''
 #    }
@@ -9174,7 +9163,7 @@
 #        DisplayName: Дверь с ключ-картой
 #        Tooltip:
 #            '''
-#            Opens using a Keycard
+#            Открывается с помощью ключ-карты
 #            {$SpecialTooltips.Unbreakable5000}
 #            '''
 #    }
@@ -9208,7 +9197,7 @@
 #        DisplayName: Древний алтарь
 #        Tooltip:
 #            '''
-#            Gives the Cursed Gem
+#            Даёт проклятый самоцвет
 #            {$SpecialTooltips.Unbreakable}
 #            '''
 #    }
@@ -9442,18 +9431,18 @@
 #        DisplayName: Письмо
 #        Tooltip:
 #            '''
-#            Здесь написано - '[c/E5F3FB:Благодарю за прохождение мода, надеюсь вам было весело.]
-#            [c/E5F3FB:Мод всё ещё в разработке, многое может измениться, и будет добавлен новый контент, так что следите за обновлениями.]
+#            Здесь написано - '[c/E5F3FB:Благодарю за прохождение мода, надеюсь вам было весело]
+#            [c/E5F3FB:Мод всё ещё в разработке, многое может измениться, и будет добавлен новый контент, так что следите за обновлениями]
 #            [c/E5F3FB:  -] [c/F9E5FB:Халлам] и [c/E5FBE5:Тайд]'
 #            '''
 #    }
 #
 #    Taikasauva: {
-#        DisplayName: Чародейский жезл
+#        DisplayName: Волшебная палочка
 #        Tooltip:
 #            '''
-#            A witch's staff that shoots a chaotic assortment of spells
-#            'Из Noita, с любовью'
+#            Посох ведьмы, извергающий хаотичный набор заклинаний
+#            'С любовью из игры Noita'
 #            '''
 #    }
 #
@@ -9472,10 +9461,10 @@
 #        DisplayName: Позолоченная морская эмблема
 #        Tooltip:
 #            '''
-#            {0} elemental weapons have a chance to soak enemies
-#            Soaked enemies are more sluggish and prone to {1} damage
-#            15% increased {0} elemental damage and resistance
-#            10% decreased {2} elemental damage and resistance
+#            Элементальное оружие {0} может наложить на врагов дебафф «{$Buffs.SoakedDebuff.DisplayName}»
+#            Враги на которых наложен дебафф «{$Buffs.SoakedDebuff.DisplayName}» двигаются медленнее и более уязвимы к урону {1}
+#            Увеличивает урон {0} на 15%
+#            Снижает сопротивление и урон {2} на 10%
 #            '''
 #    }
 #
@@ -9575,7 +9564,7 @@
 #            '''
 #            Summons the great spirit of Kyretha, Blade of the Mountain
 #            Нажмите <right>, чтобы притянуть духов к себе, расходуя 3 [i:Redemption/LostSoul]
-#            Consumes 30 [i:Redemption/LostSoul] on use
+#            При использовании поглощает 30 [i:Redemption/LostSoul]
 #            Одновременно можно призвать духов только с одной карты духов
 #            '''
 #    }
@@ -10871,9 +10860,9 @@
 #    DownedJanitor: После победы над Уборщиком
 #    DownedKeeper: После победы над Хранительницей
 #    DownedMACE: После победы над Проектом Б.У.Л.А.В.А.
-#    DownedNebuleus: осле победы над Небулеус
-#    DownedOmega1: After Omega Cleaver is defeated
-#    DownedOmega2: After Omega Gigapora is defeated
+#    DownedNebuleus: После победы над Небулеус
+#    DownedOmega1: После победы над Омега-Двуручником
+#    DownedOmega2: После победы над Омега-Гигасверлом
 #    DownedOmega3: After Omega Obliterator is defeated
 #    DownedPZ: After Patient Zero is defeated
 #    DownedSeed: After Seed of Infection is defeated
