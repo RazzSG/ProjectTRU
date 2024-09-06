@@ -18,7 +18,7 @@
 #
 #    SoI: {
 #        Name: Семя инфекции
-#        Modifier: Заражённый нарыв
+#        Modifier: Заразный нарост
 #    }
 #
 #    Keeper: {
@@ -58,12 +58,12 @@
 #
 #    Blisterface: {
 #        Name: Нарыволицый
-#        Modifier: Невезучая золотая рыбка
+#        Modifier: Незадачливая золотая рыбка
 #    }
 #
 #    Janitor: {
 #        Name: Уборщик
-#        Modifier: Уборщик
+#        Modifier: Хранитель чистоты
 #    }
 #
 #    Volt: {
@@ -114,7 +114,7 @@
 #
 #    Stage3Scientist: {
 #        Name: Учёный третьей стадии инфицирования
-#        Modifier: Кристальный ужас
+#        Modifier: Кристаллический кошмар
 #    }
 #}
 #
@@ -124,37 +124,37 @@
 #    Zephos: Путешественник с материковой части Эпидотры, и по совместительству друг Дэрела. Мастер фехтования.
 #    Fallen: Падшие представляют собой вид нежити, обладающий душой, достаточно мощной, чтобы сформировать бледно-коричневую плоть. В основном они враждебны к людям, но этот уникальный представитель может продавать ритуальное снаряжение и восстанавливать фрагменты древнего оружия.
 #    TBot1: Молчаливый, немного меланхоличный, но всегда готовый помочь, Адам является андроидом и возглавляет небольшую группу под названием Альфа. Он основной источник информации обо всём, что связано с Лиденом.
-#    TBot2: I may be the only one of my kind to honor all Three Laws... I can't assure the others will take you in with open arms like I did. Stay safe out there.
-#    LostSoul: Lost Souls search around the world to look for corpses to infuse with. They roam catacombs and graveyards, sometimes taking many days to find a compatible vessel.
-#    BoneSpider: A skeletal spider ready to spook you at any moment! Don't worry, it's not technically a spider; spiders don't have bones.
-#    Chicken: These chickens somehow found their way through the portal from the mainland. Being true to their name, they will flee at the sight of danger. They are most comfortable on hay, and will even lay eggs while sitting on it!
-#    ChickenGold: A chicken with golden feathers. Best not to kill it, for it can lay golden eggs!
-#    CoastScarab: A species of scarab commonly found scuttering around the beach. They're rather cute and harmless creatures, but can be used to create dyes if you're a greedy monster.
-#    Fly: A pesky annoyance that only exists to ruin your day. They're attracted to rotting undead.
-#    GrandLarva: Gross insects holding many flies within. Can be used as good bait.
-#    Kabucra: Kabucra, or Shell Crabs, find and use sturdy seashells as armour against predators. Due to their tiny size, they can escape by burying into the ground in case their shells aren't enough protection.
-#    MoonflareBat: These bats have thin wings, causing moonlight to pass through, creating the illusion that they glow. They store the light of the moon within them and convert it to weak energy.
-#    SandskinSpider: A spider that commonly burrows in the desert sands. They don't normally come out, due to the intense heat of the sun.
-#    Spiderswarmer: Lives in dark caverns or basements. These on their own are harmless, but if you see a swarm of them, prepare for a thousand bite marks.
-#    TreeBug: A beetle commonly found inhabiting trees. It feeds on leaves and uses its leaf-like shell for camouflage against predators. Its shell makes a good source of green dye.
-#    FowlEmperor1: An Anglonic forest rooster with quite the personality. Was this intelligent animal the handiwork of a human's soul, or perhaps he was some mythological creature? We may never know.
-#    FowlEmperor2: It may have just been a chicken, but it was a reminder of the hideous truth that, regardless of species, monarchy perpetuates archaic views of class and degrades others based on arbitrary standards.
-#    Thorn: An unfortunate warden of a cursed forest, doomed to be consumed by blighted thorns.
-#    Keeper: A powerful fallen who had learnt forbidden necromancy, its prolonged usage having mutated her body.
-#    SkullDigger: The first successful reanimation from the Keeper. Skull Digger swore to protect and care for her, while she would use forbidden necromancy to keep his fading body alive. At this point, his lower half is nothing more than a spirit.
-#    SoI: A blistering pocket of the Xenomite infection.
-#    Golem: Constructed in Gathuram and sent to Ithon as a gift in a time of peace between the domains. Although the people of Gathuram forgot to mention one thing...
-#    Calavia: A Chief-Warrior of the Iron Realm, lost and troubled by her distant venture from her home of Khen Boldur, which was spurred on by the barons of Arum. Swordplay and smithing is her expertise, along with familiarity of Blizzard magic.
-#    OO: An autonomous war machine mostly of Girus' own design with many integrated weapon systems, such as literal finger guns and an advanced heat dispersion system in the form of a giant beam, capable of obliterating anyone it engulfs - Also where Obliterator got its name from.
-#    TreebarkDryad: A slow-thinking ent from Fairwood. Some say it is wise, some say it is mystical, but everyone can agree that it is, indeed, a tree.
-#    Erhan: A high priest of Fairwood, tasked himself to purify the forest's curse after it consumed it's warden.
+#    TBot2: Боюсь, я единственный из моего рода, кто следует всем Трём Законам... Не обещаю, что остальные будут к вам так же дружелюбны. Будьте начеку там, снаружи.
+#    LostSoul: Заблудшие Души скитаются по миру в поисках тел, в которые можно вселиться. Они бродят по катакомбам и кладбищам, порой тратя дни напролёт на поиски подходящего сосуда.
+#    BoneSpider: Костяной паук, только и ждущий момента, чтобы вас напугать! Не пугайтесь, это не настоящий паук; у настоящих пауков нет костей.
+#    Chicken: Эти курицы каким-то образом пробрались через портал с материка. Соответствуя своему названию, они драпают при виде малейшей опасности. Больше всего им по душе сено, на котором они с удовольствием несутся!
+#    ChickenGold: Курица с золотым оперением. Лучше не убивать её, ведь она способна нести золотые яйца!
+#    CoastScarab: Вид скарабеев, обычно встречающийся на пляже. Эти милые и безобидные создания снуют туда-сюда по песку. Впрочем, если вы - жадное чудовище, их можно использовать для создания красителей.
+#    Fly: Назойливая напасть, чьё единственное предназначение - испортить вам день. Эти создания питают особую слабость к гниющей нежити.
+#    GrandLarva: Омерзительные насекомые, внутри которых кишат мухи. Могут послужить отличной приманкой.
+#    Kabucra: Кабучры, известные также как панцирные крабы, находят и используют крепкие морские ракушки в качестве защиты против хищников. Благодаря своему крошечному размеру, они могут спастись, зарываясь в землю, если их панцыри не способны защитить их.
+#    MoonflareBat: Эти летучие мыши обладают тонкими крыльями, сквозь которые проходит лунный свет, создавая иллюзию сияния. Они накапливают в себе лунное сияние, преобразуя его в слабую энергию.
+#    SandskinSpider: Паук, обычно зарывающийся в пески пустыни. Из-за палящего солнечного зноя они редко выбираются на поверхность.
+#    Spiderswarmer: Обитает в тёмных пещерах и подвалах. По отдельности они безвредны, но встреча с роем этих существ грозит тысячей укусов.
+#    TreeBug: Древесный жук, часто обитающий в кронах деревьев. Питается листвой и использует свой панцирь, напоминающий лист, для маскировки от хищников. Его хитиновый покров служит отличным источником зелёного красителя.
+#    FowlEmperor1: Ангулонский лесной петух с весьма своеобразным характером. Был ли этот смышлёный зверь творением человеческой души, или, быть может, он - существо из древних легенд? Этого нам, вероятно, никогда не узнать.
+#    FowlEmperor2: Пусть это и была обычная курица, но она олицетворяла собой мрачную реальность: монархия, невзирая на виды, продолжает насаждать устаревшие взгляды на социальные классы и принижать достоинство окружающих, опираясь на надуманные критерии.
+#    Thorn: Злосчастный страж проклятого леса, которому суждено пасть жертвой гибельных терний.
+#    Keeper: Могущественная падшая, овладевшая запретной некромантией. Длительное использование тёмных искусств изуродовало её тело.
+#    SkullDigger: Первое творение, которое Хранительница успешно воскресила. Череполицый землекоп дал обет защищать и заботиться о ней, а она, в свою очередь, обещала поддерживать его иссыхающую плоть запретной некромантией. К этому моменту его нижняя половина стала не более чем призраком.
+#    SoI: Воспалённый нарыв ксеномитовой инфекции.
+#    Golem: Изготовлен в Гатураме и преподнесён Итону в знак дружбы между державами. Вот только жители Гатурама забыли упомянуть одну деталь...
+#    Calavia: Военачальница Железного царства, заплутавшая и измученная долгим странствием вдали от родного Кен Болдура, куда её вынудили отправиться бароны Арума. Мастерство фехтования и кузнечное дело - её призвание, а также она искусна в магии Вьюги.
+#    OO: Автономная машина войны, в основном разработанная по проекту Гирус, обладающая целым арсеналом интегрированных оружейных систем. Среди них - настоящие пальцы-пушки и передовая система охлаждения в виде гигантского луча, способного стереть с лица земли любого, кто встанет на его пути. Именно эта особенность и дала Облитератору его имя.
+#    TreebarkDryad: Неторопливый в мыслях энт из Дивнолесья. Одни считают его мудрым, другие - мистическим, но все сходятся в одном: это, несомненно, дерево.
+#    Erhan: Верховный жрец Дивнолесья, возложивший на себя бремя очищения лесного проклятия после того, как оно поглотило хранителя леса.
 #    Behemoth: An unfortunate scientist, disfigured and mutilated beyond recognition by the Xenomite infection. This specimen is entering the final stage of the infection, and has had its body transform into a sludgy slurry on the ceiling... God, that must be agonizing.
-#    Blisterface1: An unfortunate fish, disfigured and mutilated beyond recognition by the Xenomite infection. This strain seems to be similar to that of the Blistered Scientists...
-#    Blisterface2: That's a bigass fish.
-#    Janitor: Amidst all the ailments that germs can conjure, all the grime mankind can produce. We'll send unto them, only you. Scrape and Clean until it is done.
-#    Volt: A gentle giant who keeps his sentences short and acts as a Guard inside the Laboratory. Volt used to be part of the Bear Unit on the surface, but retired after a violent altercation.
-#    MACE: An old, unfinished war machine that went haywire. Looks like it never saw the light of day, as it's in progress of being scrapped for parts and components.
-#    KS3: "'What? You want my lore? Go get your own lore!'"
+#    Blisterface1: Несчастная рыба, обезображенная и изувеченная до неузнаваемости ксеномитовой инфекцией. Этот штамм, похоже, схож с тем, что поразил волдырных учёных...
+#    Blisterface2: Вот это рыбище.
+#    Janitor: Среди всех недугов, что насылают микробы, всей грязи, что порождает человечество, пошлём им лишь тебя. Соскребай и вычищай, доколе не закончишь.
+#    Volt: Добродушный великан, немногословный в общении, выполняет роль охранника в лаборатории. Когда-то Вольт был частью Медвежьего отряда на поверхности, но ушёл в отставку после жестокой стычки.
+#    MACE: Древняя, незавершённая машина войны, вышедшая из-под контроля. Похоже, она никогда не видела дневного света, так как находится в процессе разборки на запчасти и компоненты.
+#    KS3: "'Чего? Тебе нужна моя история? Придумай себе свою собственную историю!'"
 #    Cleaver: A proof-of-concept weapon of war modified by Girus, the Omega Cleaver is a giant sword controlled by a small remote stick that was wielded by another machine.
 #    Gigapora: A modified tunnelling machine, originally of TeoChrome design, retrofitted with rocket boosters, various weaponry and very experimental projected shield technology. Gigapora's shield projectors are prone to overheating and melting if they're inside the projected shield, hence why they're outside.
 #    Akka: Little has been recorded of Akka during her youth, it is believed by the locals that her spirit infused with a great tree in the Spirit Realm, where she would sleep until awoken by her husband to be worshipped once more.
@@ -168,7 +168,7 @@
 #    BobTheBlob: A mess of radioactive sludge coating some poor skeleton. They don't look happy about their situation.
 #    HazmatBunny: A bunny suited up in a Type 1 Hazmat Suit. Ain't no hazardous materials harming this little fuzzball!
 #    HazmatZombie: Even the undead dislike the radiation left from a nuclear blast. Although the suits they wear don't help much, seeing as they're quite torn.
-#    MutatedLivingBloom: Despite its peculiar circumstances, this Bloom seems to be doing fine. Two heads always were better than one, or so they say.
+#    MutatedLivingBloom: Невзирая на причудливые обстоятельства, этот цветок, похоже, прекрасно себя чувствует. Видимо, не зря молвят, что одна голова хорошо, а две - лучше.
 #    NuclearShadow: A Human Shadow Etched in Stone, all that remains of someone who was vaporized by a nuclear blast. Also known as a Human Shadow of Death.
 #    NuclearSlime: F is for the Fire that burns down the whole town, U is for Uranium bombs! N is for No Survivors-
 #    RadioactiveJelly: The jellyfish seems to be unaware of its condition, of course that is to be expected when they don't have a brain.
@@ -185,44 +185,44 @@
 #    EpidotrianSkeleton: These skeletons are from Epidotra's mainland, they are slightly taller and smarter than the island's ones. Their strength is dependent on their soul, which is also known as Willpower.
 #    SkeletonWanderer: A skeleton from Epidotra's mainland. It wears rusty pauldrons and wields a rusty spear.
 #    SkeletonNoble: Сильный скелет, облачённый в снаряжение рядового гвардейца Ангулона. Этих крепких громил не так-то легко одолеть.
-#    SkeletonFlagbearer: Every squad needs a guy holding a big flag. This stubby skeleton's dance can rally any undead who lay witness! Non-undead just look at the silly dance with embarrassment...
-#    SkeletonDuelist: Skeletons with skillful swordplay. Be careful in close-quarter combat with these bone heads, or else you might find your head on the floor.
+#    SkeletonFlagbearer: В каждом отряде необходим парень с большим флагом. Пляска этого щуплого скелета может воодушевить любую нежить, что её узрит! А вот живые лишь смущённо наблюдают за этим нелепым танцем...
+#    SkeletonDuelist: Скелеты, виртуозно владеющие мечом. Будьте осторожны в ближнем бою с этими костяными головами, иначе рискуете лишиться собственной головы.
 #    SkeletonWarden: A blindfolded skeleton from Anglon. It defends other undead with its tower shield and slams any attackers that get too close.
 #    SkeletonAssassin: A sneaky skeleton wielding a worn dagger. Keep an eye out when exploring the caverns, for they can hide themselves and stab you from behind.
 #    RaveyardSkeleton: Created when a corpse is bound by a soul, and the soul can still remember the last piece of music it heard. It will attempt to mimic the exact sounds it remembers. If it can't do that, then it will just dance uncontrollably. Some tunes are more deadly than others.
-#    LivingBloom: A common creature native to Anglon, living in lush forests. They are made out of plant fibre and roots.
-#    JollyMadman: The body of a noble knight of Gathuram, the soul of a criminal. Now dead and stuck under the earth in the dark labyrinthine caves, they have lost their split minds and gone insane.
+#    LivingBloom: Типичный представитель фауны Ангулона, обитающий в пышных лесах. Их тела сформированы из растительных волокон и корней.
+#    JollyMadman: Некогда благородные рыцари Гатурама с душами преступников. Ныне мёртвые и погребённые в мрачных подземных лабиринтах, они лишились свей раздвоенной сущности и погрузились в безумие.
 #    ForestNymph: Rare humanoid creatures found in forests, far from civilization. They live in giant hollowed-out trees, usually near an enchanted pond. They are solitary and territorial beings, seldom enjoying the company of others. It is unknown how these creatures came to be, legends suggest they are the handiwork of Epidotra itself - grown from the earth same as all flora, but to blossom into the form of a human.
 #    VagrantSpirit: Souls without a compatible vessel to infuse with, trapped within the spirit realm for so long they seeped out and are now slightly visible to the naked eye. They shall roam the caverns for eternity.
 #    BlisteredScientist: An unfortunate scientist, disfigured and mutilated beyond recognition by the Xenomite infection. This strain is somewhat aggressive and their skin is covered in blisters... God, do they look repulsive.
 #    BloatedScientist: An unfortunate scientist, mutilated and disfigured by the Xenomite infection. This strain is mildly aggressive, and has bloated their gastric track to monstrous sizes... God, that must feel vile...
-#    CraneOperator: A timid android with ambitious goals. She does small, odd jobs around the Laboratory. Usually ones that required an operator.
-#    OozeBlob: An amorphous blob of foul-smelling ooze. Below its icky slime is something organic, excreting its fluid almost endlessly... God, what a mess.
+#    CraneOperator: Застенчивый андроид, таящий в себе амбициозные цели. Он выполняет небольшие, порой странные поручения по лаборатории. Зачастую те, что требуют участия оператора.
+#    OozeBlob: Аморфная масса зловонной слизи. Под её мерзкой оболочкой скрывается нечто органическое, почти бесконечно выделяющее жидкость... Боже, какая мерзость.
 #    OozingScientist: An unfortunate scientist, disfigured and mutilated beyond recognition by the Xenomite infection. This strain is very aggressive and leaks a strange liquidy substance... God, does it smell awful.
 #    SpacePaladin: The 4th Slayer Unit constructed, after Space Keeper. This unit uses newer shield technology compared to King Slayer's Prototype Multium vessel, and is capable of absorbing far greater impacts; in addition to the thick durable plating and cyber blade, this robot was built for war.
 #    PrototypeSilver: Prototype Silvers were the 2nd Slayer Unit constructed, with a built-in shield generator and durable plating. Made for military purposes during an alien war in Asherah. The war was a swift one. Despite its name, it's mainly composed of the spare titanium from Alkonost.
-#    Basan: A legendary bird of Ithonic mythos said to live in the Fractured Highlands. It really took the term "hot wing" to heart.
-#    ChickenBomber: Buck.
-#    ChickenScratcher: Chicken scratch, chicken scratch a lot. They can never never never stop. Chicken scratch, chicken can scratch all day.
-#    Cockatrice: 50% chicken, 50% dragon, yet somehow still tastes 100% like chicken.
-#    Haymaker: Bwark!
-#    RoosterBooster: Cockadoodle-doo!
-#    BlisteredFish: An unfortunate fish, disfigured and mutilated beyond recognition by the Xenomite Infection. This strain's teeth are crystallized.
-#    Chickadier: A soldier of the Fowl Emperor. Don't ask where they get their explosive eggs from.
-#    Chickenvoy: A loyal messenger of the Fowl Emperor. Don't ask where they got their hats from.
-#    CoopCrate: A loot box for people who specifically want an explosive egg. The chickens have not realised they need the randomness aspect for it to actually be exciting.
-#    ShadesoulNPC: Willpower exists in Epidotra - the happier or more you desire life, the stronger and bigger your soul can become, and vice versa. If someone loses their will to live, their soul can become so small it inverts and they become soulless. The soulless only emerged after the Age of the False Gods.
-#    ScannerDrone: A drone used to collect data and store it within the SoS.
-#    CorruptChicken: How could a being so pure become so tainted? Such is the way of life.
+#    Basan: Легендарная птица из Итонской мифологии, обитающая, по преданиям, в Расколотых нагорьях. Она приняла выражение 'острые куриные крылышки' близко к сердцу.
+#    ChickenBomber: Олень.
+#    ChickenScratcher: Курица скребёт, скребёт без конца. Не остановятся они никогда. Курица скребёт, весь день напролёт.
+#    Cockatrice: На 50% курица, на 50% дракон, но каким-то образом на вкус всё равно на 100% курица.
+#    Haymaker: Кудах-тах-тах!
+#    RoosterBooster: Ку-ка-ре-кууу!
+#    BlisteredFish: Несчастная рыба, обезображенная и изувеченная до неузнаваемости ксеномитовой инфекцией. Зубы этой разновидности кристаллизовались.
+#    Chickadier: Солдат Императора Кудаха. Лучше не спрашивать, откуда у них взрывчатые яйца.
+#    Chickenvoy: Верный гонец Императора Кудаха. Лучше не спрашивать, откуда у них эти шляпы.
+#    CoopCrate: Ящик для тех, кто целенаправленно ищет взрывоопасное взрывчатое яйцо. Курам ещё предстоит понять, что без случайности в этом нет никакого ажиотажа.
+#    ShadesoulNPC: В Эпидотре сила воли имеет особое значение – чем радостнее существование или сильнее стремление жить, тем крепче и больше становится душа, и наоборот. Утратив желание жить, душа может настолько уменьшиться, что обратится вспять, оставив лишь пустую оболочку. Бездушные появились лишь после Эпохи Лжебогов.
+#    ScannerDrone: Дрон, используемый для сбора данных и их хранения внутри СОС.
+#    CorruptChicken: Как могло существо столь чистое стать настолько порочным? Таковы превратности жизни.
 #    ViciousChicken: "{$FlavorTextBestiary.CorruptChicken}"
-#    HeadlessChicken: *Ghastly bwark*
-#    GhostfireChicken: *Ghostly bwark*
-#    Gigapora_ShieldCore: These bulky, lightweight drones hold experimental shield projectors in their lower half. If damaged, the projector may malfunction and violently release its energy right back into the segments it was protecting.
-#    SeedGrowth: A gross growth grown from a grotesque goliath.
-#    EaglecrestRockPile: It dances, for it does not know the world's impurities.
-#    BloatedDigger: Diggers irradiated by radioactive particles that have been disfigured by rapid, volatile cell growth.
-#    BloatedFaceMonster: Face Monsters irradiated by radioactive particles that have been disfigured by rapid, volatile cell growth.
-#    BloatedClinger: Clingers irradiated by radioactive particles that have been disfigured by rapid, volatile cell growth.
+#    HeadlessChicken: *Жуткое кудах-тах-тах*
+#    GhostfireChicken: *Призрачное кудах-тах-тах*
+#    Gigapora_ShieldCore: Эти громоздкие, но лёгкие дроны оснащены в нижней части корпуса экспериментальными проекторами щитов. При повреждении проектор может выйти из строя и резко высвободить энергию обратно в те сегменты, которые он защищал.
+#    SeedGrowth: Омерзительный нарост, взращённый на теле уродливого гиганта.
+#    EaglecrestRockPile: Оно танцует, ибо не ведает о скверне мира.
+#    BloatedDigger: Копатели, облучённые радиоактивными частицами и обезображенные быстрым, неконтролируемым ростом клеток.
+#    BloatedFaceMonster: Лицемонстры, облучённые радиоактивными частицами и обезображенные быстрым, неконтролируемым ростом клеток.
+#    BloatedClinger: Цеплятели, облучённые радиоактивными частицами и обезображенные быстрым, неконтролируемым ростом клеток.
 #}
 #
 #Bestiary.Android: Apidroids were an experiment with a highly durable metal from a distant star system. The metal - dubbed 'Rose Titanium' by King Slayer III - is one of the strongest materials discovered in the galaxy. However, King Slayer III hated its pink tinge, and so stubbornly refused to use it after making a few Androids out of it.
@@ -286,7 +286,7 @@
 #        Keeper2: Хранительница замечает брошенного мишку в ваших руках...
 #        Keeper3: Дух Хранительницы упокаивается?.. 
 #        SkullDigger: Дух Череполицего землекопа упокаивается...
-#        GolemSpawn: Появляются дремлющие камни...
+#        GolemSpawn: Появляются дремлющие валуны...
 #        NebGone: Небулеус нигде не видно...
 #    }
 #}
@@ -1348,7 +1348,7 @@
 #            '''
 #        NebSummon3: ...теперь мне ясно.
 #        A0: Вы истинно нейтральный...
-#        A1N: You have done harm, but you are safe for now...
+#        A1N: Твои деяния принесли вред, однако сейчас тебе ничто не угрожает...
 #        A1: You have done good so far...
 #        A2: You are choosing the right path. Please, continue.
 #        A2N: Be wary, you are straying from the path of good...
@@ -1571,19 +1571,19 @@
 #        2: Адам?
 #        3: Повстанцы
 #        4: Мусорщики?
-#        5: Проект БУЛАВА?
+#        5: Проект Б.У.Л.А.В.А.?
 #        6: Что на дне лаборатории?
 #        7: Гирус?
-#        8: Неудачливые?
-#        9: Зачем следовать за Гирус?
-#        10: Битва!
+#        8: "'Неудачники'?"
+#        9: Почему следуешь за Гирус?
+#        10: Вызов!
 #    }
 #
 #    Janitor: {
-#        1: Как дела?
+#        1: Что нового?
 #        2: Другие Т-боты?
 #        3: Защитник Вольт?
-#        4: Проект БУЛАВА?
+#        4: Проект Б.У.Л.А.В.А.?
 #    }
 #}
 #
@@ -2364,8 +2364,8 @@
 #    }
 #
 #    CursedSamuraiBuff: {
-#        DisplayName: Cursed Samurai
-#        Description: Right-click buff to clear your samurai
+#        DisplayName: Проклятый Самурай
+#        Description: Нажмите ПКМ на бафф для очищения вашего самурая
 #    }
 #}
 #
@@ -2487,7 +2487,7 @@
 #    UncannyPrefix.DisplayName: Жуткий
 #}
 #
-#Subworlds.SoullessSub.DisplayName: Soulless Dimension
+#Subworlds.SoullessSub.DisplayName: Бездушное измерение
 #
 #Dialogue: {
 #    General: {
@@ -2497,8 +2497,8 @@
 #    }
 #
 #    Angler: {
-#        WastelandFish: You did WHAT with a nuke?! Think of all the cool fish you blew up... but now there could be a super mutated one that's COOLER! Go look for one!
-#        WastelandLocation: Caught in the Wasteland
+#        WastelandFish: Ты что натворил с этой ядерной бомбой?! Представь, сколько удивительных рыб ты взорвал... но погоди-ка, там же теперь может плавать супермутант, который будет ещё УДИВИТЕЛЬНЕЕ! Немедленно отправляйся на его поиски!
+#        WastelandLocation: Можно поймать в пустоши
 #    }
 #
 #    TBot: {
@@ -3103,33 +3103,33 @@
 #    }
 #
 #    Chalice: {
-#        Dialogue1: Greetings, I am the Chalice of Alignment, and I judge the actions of my possessor.
-#        Dialogue2: Do you wish for an explanation of Alignment?
-#        Dialogue3: Very well.
-#        Dialogue4: Certain actions will align you with good or evil forces.
-#        Dialogue5: Fighting evil or helping those in need sets you along a righteous path with unique items and quests.
-#        Dialogue6: Assisting evil or slaying its opposition sets you along a path of abominable acts and forbidden power.
-#        Dialogue7: Battles and available materials will be altered by your path.
-#        Dialogue8: Foes may take you more seriously, some less so.
-#        Dialogue9: Some actions can be redeemed, restoring your lost alignment and possibly raising it higher.
-#        Dialogue10: The path you choose is up to you.
+#        Dialogue1: Приветствую, я - Чаша мировозрения, и я сужу о поступках своего владельца.
+#        Dialogue2: Готов ли ты постичь суть мировоззрения?
+#        Dialogue3: Да будет так.
+#        Dialogue4: Твои поступки определят, склонится ли твой путь к силам добра или зла.
+#        Dialogue5: "Сражаясь со злом или помогая страждущим, ты ступишь на праведный путь,\nоткрывая уникальные предметы и задания."
+#        Dialogue6: Потворствуя злу или сокрушая его врагов, ты погрузишься в мрак греховных деяний и запретной силы.
+#        Dialogue7: Твой путь изменит ход сражений и доступные тебе ресурсы.
+#        Dialogue8: Одни враги будут относиться к тебе серьёзнее, другие же - наоборот.
+#        Dialogue9: "Некоторые прегрешения можно искупить, восстановив утраченное мировоззрение и,\nбыть может, подняв его на более высокий уровень."
+#        Dialogue10: Путь, которым ты пойдёшь, зависит лишь от тебя.
 #    }
 #
 #    Janitor: {
 #        ChatJanitor1: So you've been assigned to janitor duty, eh? Here's a task, go to the reactors and remove that dense lava stuff from under the reactor. My Nano-chisel won't even leave a mark on it!
 #        ChatJanitor2: About time she got me an assistant to help clean this mess of a place. Remember to check under the tables for dust.
-#        Chat1: Bugger off, you're bringing a whole bunch of dust in here!
+#        Chat1: Проваливай отсюда, ты целую кучу пыли притащил!
 #        Chat2: Oh it's you again. You better not interrupt my cleaning.
 #        Chat3: Make it quick, I've got to resume mopping the floor.
-#        ChatClean: Without grime what is my purpose? Doesn't matter, I'll continue mopping until all particles of dust are wiped from this place. It's my job after all.
+#        ChatClean: Без грязи в чём мой смысл? Да и неважно, буду драить, пока последняя пылинка не исчезнет отсюда. В конце концов, это моя работа.
 #        CycleDialogue1: You've probably seen the personnel who are basically walking corpses, ye? Our security usually deals with them, but it's not enough. They crawl out of overrun rooms like goddamn cockroaches! And I am the one who has to clean all the mess left by them and security.
-#        CycleDialogue1Clean: The ceiling. Now leave me to my mopping! No floor is truly freed of muck.
-#        CycleDialogue2: The other bots have learned to fear me. Good for me, I can actually focus on my job. Except now there is a certain someone bugging me. Hmm, I wonder who it could be... Now bugger off!
+#        CycleDialogue1Clean: Потолок. А теперь оставь меня, мне нужно закончить уборку! Пол никогда не бывает идеально чистым.
+#        CycleDialogue2: Другие боты научились меня бояться. Ну и славно, могу наконец-то сосредоточиться на работе. Вот только теперь кое-кто меня достаёт. Хм, интересно, кто бы это мог быть... А ну-ка, проваливай отсюда!
 #        CycleDialogue3: The big bot at Sector Omicron is a cool guy, if you ask me. Probably the only bot I don't feel annoyed by. Now if you excuse me, you brought in some of that slime with ya and I have to clean that up!
 #        CycleDialogue4: There's this one copper-haired bot that I can recall, who works as the crane operator in the Mech Storage room. I don't know that much about her, but her design is a little peculiar. Not that she's more feminine, but the hair... Why tho'?
 #        CycleDialogue5: Don't you dare go into Sector Zero, that place is absolutely filled with the impossible-to-remove black slime! And I don't want ye to bring that stuff here for me to try to pry off the steel plating of the lab! Takes ages.
-#        CycleDialogue5Clean: I dunna. Girus forbids it, and I wouldn't wanna cross her.
-#        CycleDialogue6: Respect Girus and she will learn to respect you. Quite sure I'll get a change of a job after half a century of cleaning the lab after the... incident. Don't ask me 'bout it, I was activated AFTER it happened.
+#        CycleDialogue5Clean: Понятия не имею. Гирус запрещает туда соваться, а я ей перечить не горю желанием.
+#        CycleDialogue6: Прояви уважение к Гирус, и она ответит тебе тем же. Надеюсь, мне всё же дадут другую работу после того, как я полвека убирал лабораторию после... инцидента. Не спрашивай меня о нём, меня активировали, когда всё УЖЕ СЛУЧИЛОСЬ.
 #    }
 #
 #    Toaster: {
@@ -3258,10 +3258,10 @@
 #        DisplayName: Портативный генератор щита
 #        Tooltip:
 #            '''
-#            Summons a bubble shield that can protect the user from a high amount of damage before breaking
-#            However, on the impact that breaks the shield, the user will receive 2x the damage it took in said impact
-#            Once broken, has a 1 minute cooldown
-#            While an Energy Pack is in your inventory, the shield will restore 4% of its life at the cost of 1% Energy per second
+#            Призывает пузырь-щит, способный защитить пользователя от значительного урона перед разрушением
+#            Однако при ударе, разрушающем щит, пользователь получит двойной урон от этого удара
+#            После разрушения требуется 1 минута на восстановление
+#            При наличии Энергоячейки в инвентаре щит восстанавливает 4% прочности, расходуя 1% энергии в секунду
 #            '''
 #    }
 #
@@ -3453,7 +3453,7 @@
 #    }
 #
 #    CircletOfBrambles: {
-#        DisplayName: Венец из колючек
+#        DisplayName: Венец из терний
 #        Tooltip:
 #            '''
 #            Каждое 5 использование магического оружия выпускает разброс жал
@@ -5638,7 +5638,7 @@
 #    }
 #
 #    DoppelsSword: {
-#        DisplayName: Фрагмент стального меча
+#        DisplayName: Стальной меч Доппеля
 #        Tooltip: ""
 #    }
 #
@@ -6146,7 +6146,7 @@
 #        DisplayName: Большой стул для большого робота
 #        Tooltip:
 #            '''
-#            If you have this you're either cheating or you broke something
+#            Наличие этого предмета говорит о двух вещах: вы либо жульничаете, либо что-то сломали
 #            [c/ff0000:Неразрушимый (нужно 5000% мощности кирки после 3 Прототипа)]
 #            '''
 #    }
@@ -6237,7 +6237,7 @@
 #
 #    SlayerShipBox: {
 #        DisplayName: Музыкальная шкатулка (Разбившийся корабль Короля-охотника)
-#        Tooltip: PeriTune - Suspense3
+#        Tooltip: Kweequ - Waiting for Slayer to Respond
 #    }
 #
 #    SoIBox: {
@@ -7347,8 +7347,8 @@
 #        DisplayName: Планировщик помещений
 #        Tooltip:
 #            '''
-#            Creates a bunch of 25x25 room layouts
-#            WILL DESTROY TILES IN A LARGE AREA
+#            Создает множество планировок комнат размером 25 на 25
+#            УНИЧТОЖАЕТ БЛОКИ НА ОБШИРНОЙ ТЕРРИТОРИИ
 #            '''
 #    }
 #
@@ -7365,9 +7365,9 @@
 #        DisplayName: Врата призрачных душ
 #        Tooltip:
 #            '''
-#            Opens a portal to the Soulless Caverns
-#            Can also be used to leave the Soulless Caverns
-#            'You feel keeping the gateway opened would be a bad idea...'
+#            Открывает портал в бездушные пещеры
+#            Также можно использовать, чтобы покинуть бездушные пещеры
+#            'Вас не покидает ощущение, что оставлять врата открытыми было бы плохой идеей...'
 #            '''
 #    }
 #
@@ -7383,7 +7383,7 @@
 #
 #    SorrowfulEssence: {
 #        DisplayName: Эссенция горечи
-#        Tooltip: Having this in your inventory may attract the Keeper's first creation underground
+#        Tooltip: Наличие этого предмета в инвентаре может привлечь первое творение Хранительницы в подземелье
 #    }
 #
 #    AncientSigil: {
@@ -7447,8 +7447,8 @@
 #        DisplayName: Боевой рог Кудаха
 #        Tooltip:
 #            '''
-#            Calls upon the Fowl Morning
-#            Only usable before midday
+#            Взывает к Кудах-заре
+#            Можно использовать только до полудня
 #            '''
 #    }
 #
@@ -7456,15 +7456,14 @@
 #        DisplayName: Терновое сердце
 #        Tooltip:
 #            '''
-#            Summons an unfortunate curse-bearer
-#            Можно использовать только днём
+#            Призывает несчастного носителя проклятия
 #            Не расходуется
 #            '''
 #    }
 #
 #    LabHologramDevice: {
 #        DisplayName: Голографический пульт
-#        Tooltip: Use in an Abandoned Laboratory boss's arena to resummon it
+#        Tooltip: Используйте на арене босса заброшенной лаборатории, чтобы призвать его вновь
 #    }
 #
 #    NebSummon: {
@@ -7554,27 +7553,27 @@
 #
 #    ZoneAccessPanel1: {
 #        DisplayName: Панель доступа к лаборатории - Альфа
-#        Tooltip: Opens up the alpha sector of the lab
+#        Tooltip: Открывает альфа-сектор лаборатории
 #    }
 #
 #    ZoneAccessPanel2: {
 #        DisplayName: Панель доступа к лаборатории - Гамма
-#        Tooltip: Opens up the gamma sector of the lab
+#        Tooltip: Открывает гамма-сектор лаборатории
 #    }
 #
 #    ZoneAccessPanel3: {
 #        DisplayName: Панель доступа к лаборатории - Сигма
-#        Tooltip: Opens up the sigma sector of the lab
+#        Tooltip: Открывает сигма-сектор лаборатории
 #    }
 #
 #    ZoneAccessPanel4: {
 #        DisplayName: Панель доступа к лаборатории - Омикрон
-#        Tooltip: Opens up the omicron sector of the lab
+#        Tooltip: Открывает омикрон-сектор лаборатории
 #    }
 #
 #    ZoneAccessPanel5: {
 #        DisplayName: Панель доступа к лаборатории - 0
-#        Tooltip: Opens up the vault sector of the lab
+#        Tooltip: Открывает сектор хранилища лаборатории
 #    }
 #
 #    ZoneAccessPanel6: {
@@ -7711,17 +7710,17 @@
 #        DisplayName: Слепое правосудие, Кошмар демонов
 #        Tooltip:
 #            '''
-#            Hold left-click to charge a Radiance Spin Slash
-#            Right-click the moment you're about to be hit by a physical attack (contact damage or weapon) to perform a parry, granting immunity frames
-#            Contact damage parries will not take effect if the enemy is stationary or moving twice as slow as you
-#            After a successful parry, left-click to counter with an instant Radiance Spin Slash
-#            Deals double damage against demonic enemies
+#            Удерживайте <left>, чтобы зарядить сияющий круговой удар
+#            Нажмите <right> в момент, когда вы вот-вот получите физический урон (контактный или оружие), чтобы выполнить парирование, дающее кадры неуязвимости
+#            Парирование контактного урона не сработает, если враг неподвижен или движется вдвое медленнее вас
+#            После успешного парирования нажмите <left> для мгновенного контрудара сияющим круговым ударом
+#            Наносит двойной урон демоническим врагам
 #            '''
 #        Lore:
 #            '''
-#            'Elegant and holy, this weapon was owned by Eymen - a well-renowned member of the High Templars.
-#            He imbued the blade with part of his permanent soul to keep it holy far past his own death.
-#            Eymen treated his weapon like his own flesh, and used it to smite numerous demons of high calibre.'
+#            'Изысканное и священное, это оружие принадлежало Эймену - прославленному члену ордена высших тамплиеров
+#            Он наделил клинок частицей своей бессмертной души, чтобы тот оставался святым и после его смерти
+#            Эймен относился к этому оружию как к части себя, сражая им бесчисленных демонов высшего ранга'
 #            '''
 #    }
 #
@@ -7729,24 +7728,24 @@
 #        DisplayName: Окровавленная пика
 #        Tooltip:
 #            '''
-#            Holding out the pike and charging into weak enemies skewers them
-#            If a target is skewered for 10 seconds or once 5 are skewered at a time:
-#            The pike takes their life and becomes enchanted for 10 seconds
+#            Направьте пику вперёд и устремитесь на слабых врагов, нанизывая их на острие
+#            Если цель остаётся на пике 10 секунд, или если нанизано сразу 5 целей:
+#            Пика забирает их здоровье и становится зачарованной на 10 секунд
 #            '''
 #    }
 #
 #    Chernobyl: {
 #        DisplayName: Чернобыль
-#        Tooltip: Enemies slain by this weapon explode into fireballs
+#        Tooltip: Враги, поверженные этим оружием, разрываются на огненные шары
 #    }
 #
 #    CrystalGlaive: {
 #        DisplayName: Кристальная глефа
 #        Tooltip:
 #            '''
-#            Left-click to do a close ranged combo attack when hitting enemies
-#            Right-click to fire a mid range blast of crystal shards
-#            Completing the left-click combo on an enemy empowers the right-click ability for 5 shots
+#            Нажмите <left> для выполнения серии ближних атак при попадании по врагу
+#            Нажмите <right>, чтобы выпустить залп кристальных осколков на среднюю дистанцию
+#            Успешная <left> серия на враге усиливает способность <right> на 5 выстрелов
 #            '''
 #    }
 #
@@ -7794,7 +7793,7 @@
 #
 #    InfectiousGlaive: {
 #        DisplayName: Инфекционная глефа
-#        Tooltip: Fires a spread of xenomite shards every two swings
+#        Tooltip: Каждый второй взмах высвобождает разброс ксеномитовых осколков
 #    }
 #
 #    Midnight: {
@@ -7808,9 +7807,9 @@
 #            '''
 #        Lore:
 #            '''
-#            'A blade crafted in the mountains of Erellon, imbued with celestial magic by an unknown source.
-#            It was used by a rebel to assassinate the heir of Erellon. Afterwards the assassin was soon caught,
-#            and the weapon was held in a museum'
+#            'Клинок, выкованный в горах Эреллона и наполненный небесной магией из неизвестного источника
+#            Его использовал мятежник для убийства наследника Эреллона
+#            Вскоре после этого убийцу поймали, а оружие поместили в музей'
 #            '''
 #    }
 #
@@ -7828,7 +7827,7 @@
 #
 #    PetrifiedWoodSword: {
 #        DisplayName: Меч из затвердевшей древесины
-#        Tooltip: "'About as useful as a burnt twig'"
+#        Tooltip: "'Столь же бесполезен, как обгорелая ветка'"
 #    }
 #
 #    SlayerFist: {
@@ -7880,22 +7879,21 @@
 #
 #    TinyCleaver: {
 #        DisplayName: Крошечный рассекатель
-#        Tooltip: Swings causes the blade segments to detach, increasing range
+#        Tooltip: При взмахе сегменты клинка отделяются, увеличивая радиус атаки
 #    }
 #
 #    WraithSlayer: {
 #        DisplayName: Истребитель призраков
 #        Tooltip:
 #            '''
-#            Slaying enemies has a chance to summon Cursed Samurai in their place
-#            Cursed Samurai will act as temporary minions to aid you
-#            Deals more damage to ghostly enemies
+#            Убийство врагов может призвать на их место проклятого самурая
+#            Проклятые самураи временно становятся вашими миньонами
+#            Наносит больше урона призрачным врагам
 #            '''
 #        Lore:
 #            '''
-#            'An old sword found in a mansion of Northern Ithon. Said to be possessed by its creator's spirit.
-#            It is told that a man had once bought the blade, driving him to madness while in his possession,
-#            and ending with him slaughtering his family.'
+#            'Старинный меч, найденный в поместье Северного Итона. По слухам, в нём обитает дух его создателя
+#            Легенда гласит, что некогда один человек купил этот меч, и тот свёл его с ума, что в конечном итоге привело к убийству собственной семьи'
 #            '''
 #    }
 #
@@ -7903,8 +7901,8 @@
 #        DisplayName: Разъедающая пусковая установка
 #        Tooltip:
 #            '''
-#            Charges up and releases a stream of radioactive gloop
-#            Uses Toxic Grenades as ammo
+#            Заряжается и выпускает поток радиоактивной жижи
+#            Использует токсичные гранаты в качестве боеприпасов
 #            '''
 #    }
 #
@@ -7912,10 +7910,10 @@
 #        DisplayName: Осквернённый Д.Э.Н
 #        Tooltip:
 #            '''
-#            Fires two blasts of rockets per use
-#            Continuing to hold left-click will spin the weapon while firing, creating a spiral of homing rockets
-#            (15 [i:Redemption/EnergyCell]) Continuing to hold left-click while aiming downwards will charge a red beam that'll cause eruptions on impact
-#            66% шанс не использовать боеприпасы, 90% chance during the homing rocket spiral
+#            ыпускает два залпа ракет за одно использование
+#            Продолжительное удерживание <left> во время стрельбы раскручивает оружие, создавая спираль из самонаводящихся ракет
+#            (15 [i:Redemption/EnergyCell]) Продолжительное удерживание <left> при прицеливании вниз заряжает красный луч, вызывающий извержения при столкновении
+#            66% шанс не использовать боеприпасы, 90% шанс не использовать боеприпасы во время спирали из самонаводящихся ракет
 #            '''
 #    }
 #
@@ -7923,9 +7921,9 @@
 #        DisplayName: Осквернённая двустволка
 #        Tooltip:
 #            '''
-#            Builds heat through consecutive hits, loses heat by missing shots
-#            Heat increases damage dealt by up to 40%
-#            (6[i:Redemption/EnergyCell]) Right-click at max heat to fire two searing beams, resetting the gun's damage and dealing {0} damage
+#            Накапливает жар при последовательных попаданиях, теряет жар при промахах
+#            Жар увеличивает наносимый урон до 40%
+#            (6[i:Redemption/EnergyCell]) При максимальном нагреве нажмите <right>, чтобы выпустить два обжигающих луча, сбрасывая урон оружия и нанося урон {0}
 #            33% шанс не использовать боеприпасы
 #            '''
 #    }
@@ -7965,11 +7963,10 @@
 #        DisplayName: Зенитная пушка
 #        Tooltip:
 #            '''
-#            Uses grenades as ammo, sticky and bouncy grenades included
-#            Fires flak grenades that penetrate through defense
-#
-#            Holding left-click will charge a stream of grenades with no additional ammo consumption
-#            'Quite the unreal bang bang and boom boom'
+#            Использует гранаты в качестве боеприпасов, включая липкие и прыгучие
+#            Стреляет осколочными гранатами, пробивающими броню
+#            Удерживание <left> заряжает поток гранат без дополнительного расхода боеприпасов
+#            'Поистине нереальный бабах и бум-бум'
 #            '''
 #    }
 #
@@ -7977,8 +7974,8 @@
 #        DisplayName: Призрачный изгиб
 #        Tooltip:
 #            '''
-#            Right-click to fire a lingering spirit at the aimed area, a spiritual rift will form between two spirits
-#            Arrows passing through the rift are transformed into Spirit Arrows that split into homing shards upon impact, dealing {0} damage
+#            Нажмите <right>, чтобы выпустить блуждающий дух в указанную область. Между двумя духами образуется духовный разлом
+#            Стрелы, проходящие сквозь разлом, превращаются в духовные, которые при попадании разделяются на самонаводящиеся осколки, нанося урон {0}
 #            '''
 #    }
 #
@@ -8001,9 +7998,8 @@
 #            '''
 #        Lore:
 #            '''
-#            'A TeoChrome experimental weapon, it was created after a board meeting, in which military contractors wanted a
-#            nuclear powered sniper rifle for seemingly little reason, it miraculously had a functioning prototype
-#            created, and the death toll from radiation exposure has been surprisingly miniscule.'
+#            'Экспериментальное оружие ТеоХром, созданное после заседания совета директоров, на котором военные подрядчики по непонятным причинам захотели снайперскую винтовку с ядерным приводом
+#            Удивительно, но рабочий прототип был создан, а число погибших от радиационного облучения оказалось на удивление незначительным'
 #            '''
 #    }
 #
@@ -8024,8 +8020,9 @@
 #        DisplayName: Паровой шестерёнчатый миниган
 #        Tooltip:
 #            '''
-#            При удерживании <left> оружие накапливает заряд, а при отпускании будет вести скорострельный огонь в течение короткого времени
-#            Длительность стрельбы зависит от времени заряда, максимум - 5 секунд
+#            Holding left-click will crank the weapon three times, causing it to shoot rapidly for a short duration
+#            Shooting duration scales with the amount of time cranked
+#            Holding left-click while firing will continue to crank, but reduces movement
 #            Заменяет обычные пули на высокоскоростные
 #            66% шанс не использовать боеприпасы
 #            '''
@@ -8071,9 +8068,9 @@
 #        DisplayName: Заражённое щупальце
 #        Tooltip:
 #            '''
-#            Your summons will focus struck enemies
-#            Strike enemies to summon a friendly hive cyst
-#            Inflicts Infection
+#            {$CommonItemTooltip.Whips}
+#            Нанесите удар по врагам, чтобы призвать дружественную кисту улья
+#            Накладывает инфекцию
 #            '''
 #    }
 #
@@ -8599,14 +8596,14 @@
 #        Tooltip:
 #            '''
 #            Swings can block {0} projectiles
-#            Hold left-click to charge a Heat Wave, dealing {1} damage
-#            Continue holding left-click to go into a fiery flurry
+#            Slashing enemies or blocking projectiles charge a Dragon Skull ability
+#            Right-clicking once fully charged will launch a Dragon Skull out to bite enemies
 #            Deals more damage to dragon-like enemies
 #            '''
 #        Lore:
 #            '''
 #            'A cleaver cast in melted dragon bone and metal, said to be used by the ancient warlords of Dragonrest.
-#            This weapon is a great catalyst for fire magic, shooting out a wave of burning heat by channelling a swing.'
+#            This weapon is a great catalyst for fire magic, channeling the fury of a dragon.'
 #            '''
 #    }
 #
@@ -10127,6 +10124,21 @@
 #            Успешные отбрасывания восстанавливают ману
 #            '''
 #    }
+#
+#    ThornBox: {
+#        DisplayName: Music Box (Thorn)
+#        Tooltip: musicman - Every Rose...
+#    }
+#
+#    AldersStaff: {
+#        DisplayName: Alder's Staff
+#        Tooltip: Casts 4 random arcane bolts into the air
+#    }
+#
+#    ViisaanKantele: {
+#        DisplayName: Viisaan Kantele
+#        Tooltip: Playable Instrument
+#    }
 #}
 #
 #NPCs: {
@@ -10252,7 +10264,7 @@
 #
 #    PZ_Body_Holo.DisplayName: "{$NPCs.PZ.DisplayName}"
 #    PZ_Kari.DisplayName: Кари Йоханссон
-#    SeedGrowth.DisplayName: Hive Growth
+#    SeedGrowth.DisplayName: Нарост улья
 #
 #    SoI: {
 #        DisplayName: Семя инфекции
@@ -10265,7 +10277,7 @@
 #
 #        BossChecklistIntegration: {
 #            DespawnMessage: Тёрн возвращается в заражённый лес...
-#            SpawnInfo: Используйте [i:Redemption/HeartOfThorns] днём. Can be found on the surface near spawn.
+#            SpawnInfo: Используйте [i:Redemption/HeartOfThorns]. Can be found on the surface near spawn.
 #            EntryName: Тёрн
 #        }
 #    }
@@ -10470,7 +10482,7 @@
 #        Title: ", Древокожий дендрий"
 #    }
 #
-#    WraithSlayer_Samurai.DisplayName: Cursed Samurai
+#    WraithSlayer_Samurai.DisplayName: Проклятый Самурай
 #
 #    Zephos: {
 #        DisplayName: Странник
@@ -10503,7 +10515,7 @@
 #    PrototypeSilver.DisplayName: Прототип «Серебряный М.I»
 #    SlayerSpawner.DisplayName: Slayer Spawner
 #    SpacePaladin.DisplayName: Космический паладин М.I
-#    IrradiatedBehemoth.DisplayName: Облучённый левиафан
+#    IrradiatedBehemoth.DisplayName: Облучённый исполин
 #    IrradiatedBehemoth_Holo.DisplayName: "{$NPCs.IrradiatedBehemoth.DisplayName}"
 #    BlisteredScientist.DisplayName: Волдырный учёный
 #    BlisteredFish.DisplayName: Волдырная рыба
@@ -10532,7 +10544,7 @@
 #        BossChecklistIntegration.SpawnInfo: Появляется естественным образом на поверхности в дневное время после победы над Пожирателем миром/Мозгом Ктулху.
 #    }
 #
-#    EaglecrestGolem_Sleep.DisplayName: Дремлющие камни
+#    EaglecrestGolem_Sleep.DisplayName: Дремлющие валуны
 #    EaglecrestRockPile.DisplayName: Груда камней Клювогорья
 #
 #    SkullDigger: {
@@ -10607,14 +10619,15 @@
 #
 #    GhostfireChicken.DisplayName: Фантомно-огненная курица
 #    HazmatZombie_SS.DisplayName: Зомби в химзащите
-#    CorruptChicken.DisplayName: Corrupt Chicken
-#    ViciousChicken.DisplayName: Vicious Chicken
+#    CorruptChicken.DisplayName: Порочная курица
+#    ViciousChicken.DisplayName: Свирепая курица
 #    Stage3Scientist.DisplayName: Учёный третьей стадии заражения
 #    BloatedClinger.DisplayName: Вздувшийся цеплятель
 #    BloatedDiggerBody.DisplayName: "{$NPCs.BloatedDiggerHead.DisplayName}"
 #    BloatedDiggerHead.DisplayName: Вздувшийся копатель
 #    BloatedDiggerTail.DisplayName: "{$NPCs.BloatedDiggerHead.DisplayName}"
 #    BloatedFaceMonster.DisplayName: Вздувшийся лицемонстр
+#    BrambleTrap.DisplayName: Терновая ловушка
 #}
 #
 #Tiles: {
@@ -10729,7 +10742,7 @@
 #    AnglonPortalTile.MapEntry: "{$Items.AnglonPortalItem.DisplayName}"
 #    BorealStatuetteTile.MapEntry: "{$Items.BorealStatuette.DisplayName}"
 #    ChickenCoopTile.MapEntry: "{$Items.ChickenCoop.DisplayName}"
-#    DoppelsSwordTile.MapEntry: Doppel's Steel Sword
+#    DoppelsSwordTile.MapEntry: "{$Items.DoppelsSword.DisplayName}"
 #    EaglecrestGolemPlushTile.MapEntry: "{$Items.EaglecrestGolemPlush.DisplayName}"
 #    EnergyStationTile.MapEntry: "{$Items.EnergyStation.DisplayName}"
 #    GathicCryoFurnaceTile.MapEntry: "{$Items.GathicCryoFurnace.DisplayName}"
@@ -10745,7 +10758,7 @@
 #    NozaCageTile.MapEntry: Террариум
 #    NuclearWarheadTile.MapEntry: "{$Items.NuclearWarhead.DisplayName}"
 #    SlayerMedalTile.MapEntry: "{$Items.SlayerMedal.DisplayName}"
-#    SoulCandlesTile.MapEntry: Soul Candles
+#    SoulCandlesTile.MapEntry: "{$Items.SoulCandles.DisplayName}"
 #    ThornPlushTile.MapEntry: "{$Items.ThornPlush.DisplayName}"
 #    TrojanChickenTile.MapEntry: "{$Items.TrojanChicken.DisplayName}"
 #    PetrifiedCrateTile.MapEntry: "{$Items.PetrifiedCrate.DisplayName}"
@@ -10753,15 +10766,15 @@
 #    ShadesteelGateOpen.MapEntry: "{$Items.ShadesteelGate.DisplayName}"
 #    ShadesteelHangingCell2Tile.MapEntry: Подвесная клетка
 #    ShadesteelHangingCellTile.MapEntry: Подвесная клетка
-#    ShadesteelPortcullisClose.MapEntry: Shadesteel Portcullis
-#    ShadesteelPortcullisClose_Unlocked.MapEntry: Shadesteel Portcullis
-#    ShadesteelPortcullisOpen.MapEntry: Shadesteel Portcullis
+#    ShadesteelPortcullisClose.MapEntry: Мракостальная герса
+#    ShadesteelPortcullisClose_Unlocked.MapEntry: Мракостальная герса
+#    ShadesteelPortcullisOpen.MapEntry: Мракостальная герса
 #    ShadestoneCrateTile.MapEntry: "{$Items.ShadestoneCrate.DisplayName}"
 #    ShadestoneGateTile.MapEntry: "{$Items.ShadestoneGate.DisplayName}"
 #    ShadestoneMirrorTile.MapEntry: "{$Items.ShadestoneMirror.DisplayName}"
 #    WaxCandlesTile.MapEntry: "{$Items.WaxCandles.DisplayName}"
 #    AndroidInactiveTile.MapEntry: Неактивный андроид М.I
-#    BiocontainerTile.MapEntry: Life Fruit Bio-Container
+#    BiocontainerTile.MapEntry: Биоконтейнер фрукта жизни
 #    ChessTable4DTile.MapEntry: "{$Items.ChessTable4D.DisplayName}"
 #    DroneShelfTile.MapEntry: Полки для дронов
 #    PrototypeSilverInactiveTile.MapEntry: Неактивный прототип «Серебряный М.I»
@@ -10769,7 +10782,7 @@
 #    SlayerFabricatorTile.MapEntry: "{$Items.SlayerFabricator.DisplayName}"
 #    SolarPanelTile.MapEntry: "{$Items.SolarPanel.DisplayName}"
 #    CryoCrystalTile.MapEntry: "{$Items.GathicCryoCrystal.DisplayName}"
-#    DemonScrollTile.MapEntry: Forbidden Ritual
+#    DemonScrollTile.MapEntry: "{$Items.DemonScroll.DisplayName}"
 #    GrubNestTile.MapEntry: Гнездо личинки
 #    NewbMound.MapEntry: "{$Items.NewbMoundItem.DisplayName}"
 #    NiricAutomatonRemainsTile.MapEntry: Останки автоматона
@@ -10790,7 +10803,7 @@
 #    XenomiteCrystalTile.MapEntry: "{$Items.Xenomite.DisplayName}"
 #    DragonLeadOre2Tile.MapEntry: Камень?
 #    DragonLeadOreTile.MapEntry: "{$Items.DragonLeadOre.DisplayName}"
-#    MasksTile.MapEntry: Vessel Fragments
+#    MasksTile.MapEntry: "{$Items.VesselFragment.DisplayName}"
 #    PlutoniumTile.MapEntry: "{$Items.Plutonium.DisplayName}"
 #    SolidCoriumTile.MapEntry: Твёрдый кориум
 #    UraniumTile.MapEntry: "{$Items.Uranium.DisplayName}"
@@ -10811,7 +10824,7 @@
 #    ShadestoneSlabTile.MapEntry: "{$Items.ShadestoneSlab.DisplayName}"
 #    ShadestoneTile.MapEntry: Мракокамень
 #    ElderSapling.MapEntry: Древний саженец
-#    IrradiatedBorealSapling.MapEntry: Petrified Boreal Sapling
+#    IrradiatedBorealSapling.MapEntry: Окаменевший северный саженец
 #    IrradiatedPalmSapling.MapEntry: Окаменевший саженец пальмы
 #    IrradiatedPuritySapling.MapEntry: Окаменевший саженец
 #    ShadestoneBathtubTile.MapEntry: "{$Items.ShadestoneBathtub.DisplayName}"
@@ -10863,30 +10876,30 @@
 #    DownedNebuleus: После победы над Небулеус
 #    DownedOmega1: После победы над Омега-Двуручником
 #    DownedOmega2: После победы над Омега-Гигасверлом
-#    DownedOmega3: After Omega Obliterator is defeated
-#    DownedPZ: After Patient Zero is defeated
-#    DownedSeed: After Seed of Infection is defeated
-#    DownedSkullDigger: After Skull Digger is defeated
-#    DownedVolt: After Protector Volt is defeated
-#    DownedSlayer: After King Slayer is defeated
-#    BroughtCat: While owning a cat
-#    IsTBotHead: While wearing a T-Bot head
-#    IsJanitor: While wearing the Janitor outfit
-#    KeycardGiven: After receiving a Keycard
-#    NukeDropped: After creating a Wasteland
-#    NukeDroppedOrDownedMechBossAll: After creating a Wasteland or Lab is available
-#    IsFinlandDay: While it's Finland Independance Day
-#    IsNotFinlandDay: While it isn't Finland Independance Day
-#    InMoonlight: While in moonlight
-#    RepairedByFallen: Repaired by the Fallen
-#    DownedEarlyGameBossAndMoR: After any early-game boss is defeated
-#    DownedEoCOrBoCOrKeeper: After any mid-pre-hardmode boss is defeated
-#    DownedSkeletronOrSeed: After any late-pre-hardmode boss is defeated
-#    HasSpiritWalker: After Spirit Walker is unlocked
-#    DeadRingerGiven: After finding the Dead Ringer
-#    InSoullessCaverns: While in the Soulless Caverns
-#    ForestNymphTrust: While having a Forest Nymph's trust
-#    OldTophat: While the hanging skeleton is gone
+#    DownedOmega3: После победы над Омега-Облитератором
+#    DownedPZ: После победы над Нулевым пациентом
+#    DownedSeed: После победы над Семенем инфекции
+#    DownedSkullDigger: После победы над Череполицым цемлекопом
+#    DownedVolt: После победы над Защитником Вольтом
+#    DownedSlayer: После победы над Королём-охотником
+#    BroughtCat: При наличии кота
+#    IsTBotHead: Когда на вас надета голова Т-Бота
+#    IsJanitor: Когда на вас надета костюм уборщика
+#    KeycardGiven: После получения ключ-карты
+#    NukeDropped: После создания пустоши
+#    NukeDroppedOrDownedMechBossAll: После создания пустоши или открытия лаборатории
+#    IsFinlandDay: В День независимости Финляндии
+#    IsNotFinlandDay: В любой день, кроме Дня независимости Финляндии
+#    InMoonlight: Под лунным светом
+#    RepairedByFallen: Починен Падшим
+#    DownedEarlyGameBossAndMoR: После победы над любым боссом ранней игры
+#    DownedEoCOrBoCOrKeeper: После победы над любым боссом середины пре-хардмода
+#    DownedSkeletronOrSeed: После победы над любым боссом конца пре-хардмода
+#    HasSpiritWalker: После разблокировки Проводника духов
+#    DeadRingerGiven: После нахождения Смертозвона
+#    InSoullessCaverns: Находясь в бездушных пещерах
+#    ForestNymphTrust: Заслужив доверие Лесной нимфы
+#    OldTophat: После исчезновения подвешенного скелета
 #}
 #
 #Configs: {
@@ -10914,64 +10927,68 @@
 #        }
 #
 #        NoBossIntroText: {
-#            Label: Disable Zelda-Styled Boss Titles
-#            Tooltip: Disables the Legend of Zelda-style boss introduction text for bosses.
+#            Label: Отключить представление боссов в стиле Zelda
+#            Tooltip: Отключает текстовое представление боссов, выполненное в стиле The Legend of Zelda.
 #        }
 #
 #        CameraLockDisable: {
-#            Label: Disable Camera Lock
+#            Label: Отключить фиксацию камеры
 #            Tooltip:
 #                '''
-#                Disables the locked camera during cutscenes, along with the invincibility and vignette effect
-#                Not recommended, at least on a first playthrough, as it can ruin the feel of things.
+#                Отключает фиксацию камеры во время кат-сцен, а также временную неуязвимость и затемнение по краям экрана.
+#                Не рекомендуется, особенно при первом прохождении, так как может испортить задуманное разработчиками впечатление.
 #                '''
 #        }
 #
 #        ElementDisable: {
-#            Label: Disable Elements
-#            Tooltip: Disables elemental resistances and damage
+#            Label: Отключить элементальные школы
+#            Tooltip: Отключает элементальное сопротивление и урон.
 #        }
 #
 #        VanillaGuardPointsDisable: {
-#            Label: Disable Guard Points on Vanilla Enemies
-#            Tooltip: Disables vanilla enemies from having Guard Points
+#            Label: Отключить барьер на ванильных врагах
+#            Tooltip: Отключает наличие барьера на ванильных врагах.
 #        }
 #
 #        ShakeIntensity: {
-#            Label: Screen Shake Intensity
-#            Tooltip: Reduce to decrease the intensity of screen shaking effects, 0 will disable it entirely
+#            Label: Интенсивность дрожания экрана
+#            Tooltip: Уменьшите значение, чтобы снизить интенсивность эффекта дрожания экрана. Значение 0 полностью отключает эффект.
 #        }
 #
 #        NoPZBuildUp: {
-#            Label: No Patient Zero Build-Up
-#            Tooltip: Makes the boss begin the fight instantly, mainly for no-hitters. (This will cause the boss's pulse effect to not sync well with the music)
+#            Label: Мгновенный бой с Нулевым пациентом
+#            Tooltip:
+#                '''
+#                Активирует немедленное начало сражения с боссом, идеально для прохождений без получения урона.
+#                Приведёт к рассинхронизации пульсирующего эффекта босса с музыкой.
+#                '''
 #        }
 #
-#        FunniHeader: The Funnies (Remember to disable these before intending to generate a normal world!)
+#        FunniHeader: Весёлости (Не забудьте отключить их перед созданием обычного мира!)
 #
 #        FunniSpiders: {
-#            Label: Oops! All spider!
-#            Tooltip: Generating a new world will cause all stone blocks to become infested stone
+#            Label: Ой! Паукопалипсис!
+#            Tooltip: При создании нового мира все каменные блоки превратятся в заражённый камень.
 #        }
 #
 #        FunniWasteland: {
-#            Label: Alright, who set off the nuke?
-#            Tooltip: Generating a new world will have a Wasteland biome naturally generate (This can break progression, obviously)
+#            Label: Ну и кто тут запустил ядерную бомбу?
+#            Tooltip: При создании нового мира будет естественным образом генерироваться пустошь (Может нарушить прогрессию).
 #        }
 #
 #        FunniAllWasteland: {
-#            Label: Liden at home:
-#            Tooltip: Generating a new world will convert every tile into it's irradiated version (This can break progression, obviously)
+#            Label: Лиден дома:
+#            Tooltip: При создании нового мира каждый блок превратится в свою облучённую версию (Может нарушить прогрессию).
 #        }
 #
 #        FunniJanitor: {
-#            Label: The Janitor's Last Stand
-#            Tooltip: Generating a new world will create a clean lab with safe laboratory tiles and no sludge (This can break progression, obviously)
+#            Label: Последний подвиг уборщика
+#            Tooltip: При создании нового мира появится чистая лаборатория с безопасными блоками лаборатории и без слякоти (Может нарушить прогрессию).
 #        }
 #
 #        FunniAncient: {
 #            Label: Древний мир
-#            Tooltip: Generating a new world will convert tiles to their ancient or gathic version, and gathic tombs will gen more frequently
+#            Tooltip: При создании нового мира блоки превратятся в их древние или гатрийске версии, а гатрийски гробниц станет больше.
 #        }
 #    }
 #}
@@ -10979,12 +10996,12 @@
 #BossChecklistIntegration: {
 #    AbandonedLaboratory: {
 #        EntryName: Заброшенная лаборатория
-#        SpawnInfo: Find the Abandoned Lab far below the surface, defeat the first 2 minibosses within. Requires all mech bosses to be defeated.
+#        SpawnInfo: Найдите заброшенную лабораторию глубоко под поверхностью и победите первых двух мини-боссов внутри. Не забудьте сперва победить всех механических боссов.
 #    }
 #
 #    AbandonedLaboratory2: {
-#        EntryName: Abandoned Laboratory Revisit
-#        SpawnInfo: Use a [i:Redemption/Keycard] to access further sections of the laboratory, given by a drone after Moonlord is defeated. Beware what awaits beyond.
+#        EntryName: Возвращение в заброшенную лабораторию
+#        SpawnInfo: Используйте [i:Redemption/Keycard] для открытия дополнительных секторов лаборатории. Ключ-карта выдаётся дроном после победы над Лунным лордом. Остерегайтесь того, что ждёт впереди.
 #    }
 #
 #    FowlMorning: {
