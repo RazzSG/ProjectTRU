@@ -4,9 +4,6 @@
 // using Redemption.Globals;
 // using Redemption.Items.Accessories.HM;
 // using Redemption.Items.Accessories.PostML;
-// using Redemption.Items.Armor.PreHM.DragonLead;
-// using Redemption.Items.Armor.PreHM.PureIron;
-// using Redemption.Items.Armor.Single;
 // using Redemption.Items.Armor.Vanity.SkySquire;
 // using Redemption.Items.Placeable.Furniture.Misc;
 // using Redemption.Items.Usable.Summons;
@@ -516,19 +513,19 @@
 //             {
 //                 tooltips.ReplaceText($"20% increased{ElementID.ArcaneS} elemental resistance", $"Увеличивает сопротивление {ElementID.ArcaneS} на 20%");
 //             }
-//             
-//             if (player.armor[0].type == ModContent.ItemType<PureIronHelmet>() || player.armor[0].type == ModContent.ItemType<AntiquePureIronHelmet>() &&
-//                 player.armor[1].type == ModContent.ItemType<PureIronChestplate>() &&
-//                 player.armor[2].type == ModContent.ItemType<PureIronGreaves>())
+//         });
+//
+//         ItemHelper.TranslateTooltip(tooltips, "SpecialPrice", tooltip =>
+//         {
+//             if (tooltip.Text.Contains("antique doruls"))
 //             {
-//                 tooltip.Text = $"{setBonusKey} {Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.PureIron.Bonus", ElementID.FireS)}";
-//             }
-//             
-//             if (player.armor[0].type == ModContent.ItemType<DragonLeadSkull>() &&
-//                 player.armor[1].type == ModContent.ItemType<DragonLeadRibplate>() &&
-//                 player.armor[2].type == ModContent.ItemType<DragonLeadGreaves>())
-//             {
-//                 tooltip.Text = $"{setBonusKey} {Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.DragonLead.Bonus", ElementID.IceS)}";
+//                 string[] parts = tooltip.Text.Split(' ');
+//                 string priceValue = parts[2];
+//                 if (int.TryParse(priceValue, out int value))
+//                 {
+//                     string valueSuffix = LocalizedText.ApplyPluralization("{^0:античный дорул;античных дорула;античных дорулав}", value);
+//                     tooltip.Text = tooltip.Text.Replace("antique doruls", valueSuffix);
+//                 }
 //             }
 //         });
 //     }

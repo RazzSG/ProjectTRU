@@ -123,7 +123,7 @@ Achievements: {
             Description:
                 '''
                 Оно просит жертву. И ты подходишь
-                [c/777777:Поспать в серной скале в течение {0} секунд]
+                [c/777777:Поспать в серных скалах в течение {0} секунд]
                 '''
         }
 
@@ -216,7 +216,7 @@ Buffs: {
 
     BrimstoneExhaustion: {
         DisplayName: Серное истощение
-        Description: Вы не можете повторно призвать силовое поле «Посоха серного полумесяца»
+        Description: Вы не можете повторно призвать силовое поле посоха серного полумесяца
     }
 
     BronzePetBuff: {
@@ -282,7 +282,7 @@ Buffs: {
 
 Configs: {
     InfernumConfig: {
-        DisplayName: Конфиг
+        DisplayName: Конфигурация
 
         BossIntroductionAnimationsAreAllowed: {
             Label: Вступительная анимация босса

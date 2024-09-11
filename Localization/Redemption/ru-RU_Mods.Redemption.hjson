@@ -155,11 +155,11 @@
 #    Volt: Добродушный великан, немногословный в общении, выполняет роль охранника в лаборатории. Когда-то Вольт был частью Медвежьего отряда на поверхности, но ушёл в отставку после жестокой стычки.
 #    MACE: Древняя, незавершённая машина войны, вышедшая из-под контроля. Похоже, она никогда не видела дневного света, так как находится в процессе разборки на запчасти и компоненты.
 #    KS3: "'Чего? Тебе нужна моя история? Придумай себе свою собственную историю!'"
-#    Cleaver: A proof-of-concept weapon of war modified by Girus, the Omega Cleaver is a giant sword controlled by a small remote stick that was wielded by another machine.
-#    Gigapora: A modified tunnelling machine, originally of TeoChrome design, retrofitted with rocket boosters, various weaponry and very experimental projected shield technology. Gigapora's shield projectors are prone to overheating and melting if they're inside the projected shield, hence why they're outside.
-#    Akka: Little has been recorded of Akka during her youth, it is believed by the locals that her spirit infused with a great tree in the Spirit Realm, where she would sleep until awoken by her husband to be worshipped once more.
-#    Ukko: Once a blacksmith in ancient Tethuram who had an immense talent in magic, so immense that he was seen as a God to many. In his old age, growing weary of his mortality, Ukko infused his soul into a bundle of rocks, allowing him to eventually reform when the time comes.
-#    PZ: An unfortunate scientist, mutilated and disfigured by the Xenomite infection. This specimen was Kari Johannson, the father of all T-Bots and patient zero of the xenomite infection. He's been stuck for 50 years, conscious and aware of the situation around him... God, that must be tormentous.
+#    Cleaver: Омега-двуручник - экспериментальное оружие войны, модифицированное Гирус. Это гигантский меч, управляемый небольшим дистанционным пультом, которым некогда владела другая машина.
+#    Gigapora: Модифицированная буровая машина, изначально разработанная ТеоХромом, оснащённая ракетными ускорителями, разнообразным вооружением и экспериментальной технологией проецируемых щитов. Проекторы щита Гигасверла склонны к перегреву и плавлению, если находятся внутри проецируемого поля, поэтому они размещены снаружи.
+#    Akka: О юности Акки известно немногое. Местные жители верят, что её дух слился с великим древом в царстве духов, где она спала до пробуждения своим супругом, чтобы вновь быть почитаемой.
+#    Ukko: В древнем Тетураме жил-был кузнец, чей дар в магии был столь велик, что многие почитали его за бога. Состарившись и устав от бремени смертности, Укко заключил свою душу в каменную твердь, ожидая часа своего возрождения.
+#    PZ: Несчастный учёный, обезображенный и изувеченный до неузнаваемости ксеномитовой инфекцией. Этим экземпляром был Кари Йоханссон, прародитель всех Т-ботов и нулевой пациент ксеномитной инфекции. Полвека он пребывает в этом состоянии, сохраняя рассудок и понимание окружающего мира... О небеса, какое это, должно быть, истязание.
 #    Android: Fodder sent down to the island by King Slayer III to scan. These are the first iteration of the Android Unit and the first robots designed by King Slayer during his million year voyage. Their original purpose was to bring company and life to the SoS, however they have since been fitted with more combat-oriented parts. When damaged, they will retreat back to the SoS and alert the network.
 #    BloatedGoldfish: A goldfish bloated with radioactive pus.
 #    BloatedGhoul: Ghouls irradiated by radioactive particles that have been disfigured by rapid, volatile cell growth.
@@ -200,7 +200,7 @@
 #    OozeBlob: Аморфная масса зловонной слизи. Под её мерзкой оболочкой скрывается нечто органическое, почти бесконечно выделяющее жидкость... Боже, какая мерзость.
 #    OozingScientist: An unfortunate scientist, disfigured and mutilated beyond recognition by the Xenomite infection. This strain is very aggressive and leaks a strange liquidy substance... God, does it smell awful.
 #    SpacePaladin: The 4th Slayer Unit constructed, after Space Keeper. This unit uses newer shield technology compared to King Slayer's Prototype Multium vessel, and is capable of absorbing far greater impacts; in addition to the thick durable plating and cyber blade, this robot was built for war.
-#    PrototypeSilver: Prototype Silvers were the 2nd Slayer Unit constructed, with a built-in shield generator and durable plating. Made for military purposes during an alien war in Asherah. The war was a swift one. Despite its name, it's mainly composed of the spare titanium from Alkonost.
+#    PrototypeSilver: Прототипы «Сильверы» - вторая боевая единица созданная Королём-охотником, оснащённая встроенным генератором защитного поля и прочной обшивкой. Их создали для военных нужд во время войны с пришельцами на Ашере. Война была скоротечной. Вопреки своему названию, они в основном состоят из запасов титана, оставшихся от Алконоста.
 #    Basan: Легендарная птица из Итонской мифологии, обитающая, по преданиям, в Расколотых нагорьях. Она приняла выражение 'острые куриные крылышки' близко к сердцу.
 #    ChickenBomber: Олень.
 #    ChickenScratcher: Курица скребёт, скребёт без конца. Не остановятся они никогда. Курица скребёт, весь день напролёт.
@@ -325,6 +325,7 @@
 #            Bonus:
 #                '''
 #                Увеличивает сопротивление {0} на 20%
+#                Увеличивает урон {1} на 10%
 #                Обычное оружие с 33% шансом накладывает дебафф «{$Buffs.PureChillDebuff.DisplayName}»
 #                Сверхчистое железное оружие с 100% шансом накладывает дебафф «{$Buffs.PureChillDebuff.DisplayName}»
 #                '''
@@ -334,6 +335,7 @@
 #            Bonus:
 #                '''
 #                Увеличивает сопротивление {0} на 20%
+#                Увеличивает урон {1} на 10%
 #                Обычное оружие с 33% шансом накладывает дебафф «{$Buffs.DragonblazeDebuff.DisplayName}»
 #                Сверхчистое железное оружие с 100% шансом накладывает дебафф «{$Buffs.DragonblazeDebuff.DisplayName}»
 #                '''
@@ -471,34 +473,34 @@
 #        DatalogViewer: Удерживайте 'Shift', чтобы прочитать бортовой журнал
 #        Datalog1:
 #            '''
-#            'Я успешно достиг верхних слоев атмосферы и избежал Сброса моего мира.
-#            Я понимаю, что теперь уже нет пути назад. Период жизни нормального человека кажется ничтожным,
-#            в сравнение со временем, что мне предстоит пробыть в космосе, но моя цель - выдержать это бесконечное путешествие.
-#            Лишь надеюсь, что всё это будет того стоить, когда вернусь в новый мир. Я решил писать эти
-#            журналы каждый день, до самого моего возвращения, и записывать все мои наблюдения.
-#            Но до этого момента ещё миллион лет. Надеюсь, я не пожалею об этом.'
+#            'Мне удалось достичь верхних слоёв атмосферы и избежать Сброса своего мира
+#            Я понимаю, что теперь уже нет пути назад. Жизнь обычного человека кажется ничтожно малой по сравнению с тем временем, что мне предстоит провести в космических просторах
+#            Но я полон решимости выдержать это бесконечное путешествие
+#            Я лишь уповаю на то, что всё это окупится, когда вернусь в новый мир
+#            Я решил вести эти журналы каждый день до самого возвращения, и записывать все мои наблюдения
+#            Но это случится лишь через миллион лет. Надеюсь, я не пожалею о своём решении'
 #            '''
 #        Datalog2:
 #            '''
-#            'На случай, если забуду, зачем делаю всё это, запишу здесь.
-#            Когда Великая Эпоха заканчивается, всё живое умирает, а мир Сбрасывается. Я выходец прошлой эпохи,
-#            что успешно сбежал в космос, поскольку Сброс не может влиять на что-то за пределами планеты.
-#            Сброс занимает миллион лет, поэтому, в течение этого периода времени, я должен путешествовать по космосу.
-#            И, если мне повезёт, я должен вернуться сюда через миллион лет, чтобы увидеть новый мир во всей его красоте.
-#            Насколько знаю, я единственный выживший, и первое живое существо, что смогло сбежать.
-#            Я перенёс свой человеческий разум в роботизированное тело, чтобы сохранить в нём бесконечное количество воспоминаний,
-#            и чтобы мне не нужно было волноваться о жажде, голоде или сне.'
+#            'На случай, если я когда-нибудь забуду, зачем всё это делаю, я запишу это здесь
+#            Когда Великая Эпоха подходит к концу, вся жизнь умирает, а мир сбрасывается
+#            Я выходец прошлой эпохи, которому удалось бежать в космос, поскольку Сброс не затронет меня за пределами планеты
+#            Сброс занимает миллион лет, поэтому, в течение этого периода времени, я должен путешествовать по космосу
+#            Если удача будет на моей стороне, я вернусь сюда через миллион лет и узрю новый мир во всей его красе.
+#            Насколько мне известно, я единственный выживший и первое живое существо, которому удалось сбежать.
+#            Я перенёс свой человеческий разум в роботизированное тело, поскольку ни одно живое существо не способно преодолеть барьер планеты
+#            Робот не нуждается в пище, воде и сне'
 #            '''
 #        Datalog3:
 #            '''
-#            'Странно.
+#            'Как странно
 #            У меня начинают проявляться симптомы жажды и усталости...
-#            Этого не должно происходить. Без души, желудка и глаз, эти базовые человеческие потребности не должны быть помехой.
-#            Если эти эффекты продолжат действовать, весь полёт станет лишь ужасней.
-#            Метод плацебо для их удовлетворения невозможен без внесения изменений в моё тело,
-#            да и прочие идеи по устранению проблемы требуют большее, чем то, что есть на моём крошечном спасательном корабле.
-#            Итак, я пока не знаю, как остановить эти симптомы. Я ещё в двух годах полёта до ближайшей планеты - Набу III.
-#            На самом деле, я должен дать новое имя своему робо-телу... Что-то, отличное от Выживший Робот М78.'
+#            Этого не должно быть. Без души, желудка или глаз эти базовые человеческие нужды должны быть ненужными
+#            Если по какой-то причине эти нужды всё ещё влияют на меня, это путешествие может обернуться настоящим кошмаром
+#            Метод плацебо для удовлетворения этих нужд невозможен без внесения изменений в это тело,
+#            да и прочие идеи по устранению этой проблемы требуют большее ресурсов, чем есть на этом крохотном спасательном корабле
+#            Так что пока у меня нет способа избавиться от этих симптомов. До ближайшей планеты - Набу III - ещё 2 года полёта
+#            Кстати, мне стоит придумать новое имя для моего роботизированного тела... Что-нибудь отличное от «Выживший робот М. 78»'
 #            '''
 #        Datalog4:
 #            '''
@@ -620,9 +622,9 @@
 #        Datalog16:
 #            '''
 #            'С Асшерой закончил. Пришельцы там напали на меня, так что мне пришлось сделать какое-то оружие.
-#            Я решил создать нового андройда для различных военных целей, назвал его Прототип Сильвер.
+#            Я решил создать нового андройда для различных военных целей, назвал его Прототип «Сильвер».
 #            Несмотря на название, в основном он состоит из запасов титана ещё с Алконоста.
-#            Я извлёк метрическую тонну угля из пещер Асшеры, так что неплохо.
+#            Я извлёк метрическую тонну угля из пещер Ашеры, так что неплохо.
 #            Итак... следующая планета, НАДЕЮСЬ, будет пышной и зеленой.
 #            Все планеты, на которых я бывал, либо ледяные пустоши, либо просто пустоши.'
 #            '''
@@ -1599,18 +1601,18 @@
 #    }
 #
 #    SwordRemoteCooldown: {
-#        DisplayName: Перезарядка Дистанционного рассекателя
+#        DisplayName: Перезарядка дистанционного рассекателя
 #        Description: Вы не можете использовать Дистанционный рассекатель
 #    }
 #
 #    XeniumCooldown: {
-#        DisplayName: Xenium Cooldown
-#        Description: Your shoulder launcher is reloading
+#        DisplayName: Ксениевая перезарядка
+#        Description: Ваш плечевая пушка перезаряжается
 #    }
 #
 #    XeniumLanceCooldown: {
-#        DisplayName: Xenium Lance Cooldown
-#        Description: The lance's battery is recharging
+#        DisplayName: Перезарядка ксениевого протазана
+#        Description: Энергия протазана перезаряжается
 #    }
 #
 #    XenomiteCooldown: {
@@ -1620,12 +1622,12 @@
 #
 #    XeniumElectrolaserCooldown: {
 #        DisplayName: Перезарядка ксениевого электролазера
-#        Description: The electrolaser's battery is recharging
+#        Description: Энергия электролазера перезаряжается
 #    }
 #
 #    VasaraPendantCooldown: {
 #        DisplayName: Перезарядка подвески-молота
-#        Description: The Vasara Pendant feels dull
+#        Description: Подвеска-молот утратила свой блеск
 #    }
 #
 #    CruxCardCooldown: {
@@ -1634,8 +1636,8 @@
 #    }
 #
 #    AntibodiesDebuff: {
-#        DisplayName: Xenomite Antibodies
-#        Description: Strong antibodies flood your blood and fight off any new infection that may come.
+#        DisplayName: Ксеномитовые антитела
+#        Description: Мощные антитела наполняют вашу кровь, отражая любую новую инфекцию, которая может возникнуть
 #    }
 #
 #    BileDebuff: {
@@ -1644,18 +1646,18 @@
 #    }
 #
 #    BlackenedHeartDebuff: {
-#        DisplayName: Soulless
+#        DisplayName: Пустая оболочка
 #        Description: ...
 #    }
 #
 #    DevilScentedDebuff: {
-#        DisplayName: Devil Scented
-#        Description: You smell delicious
+#        DisplayName: Дьявольское благоухание
+#        Description: Вы источаете соблазнительный аромат
 #    }
 #
 #    DirtyWoundDebuff: {
-#        DisplayName: Dirty Wound
-#        Description: Better wash it
+#        DisplayName: Загрязнённая рана
+#        Description: Лучше промыть
 #    }
 #
 #    EnsnaredDebuff: {
@@ -1914,7 +1916,7 @@
 #    }
 #
 #    MiniGigaporaPetBuff: {
-#        DisplayName: Мини-гигасверло
+#        DisplayName: Мини-Гигасверло
 #        Description: Вам не привыкать
 #    }
 #
@@ -2364,7 +2366,7 @@
 #    }
 #
 #    CursedSamuraiBuff: {
-#        DisplayName: Проклятый Самурай
+#        DisplayName: Проклятый самурай
 #        Description: Нажмите ПКМ на бафф для очищения вашего самурая
 #    }
 #}
@@ -2507,7 +2509,7 @@
 #        DryadDialogue: "{0} сообщила мне о 'Искажении' в вашем мире. Что это? Зараза, распространяющая безумие и ненависть, или нечто более чуждое по своей природе? Оно схоже с нашим заражением, хотя мы называем это ассимиляцией. Ассимиляция моего вида лишает ботов свободы воли и личности, и превращает их в оболочки самих себя, исполняющие приказы Гирус."
 #        NurseDialogue: Медсестра, {0}, не знакома с облучением и не знает как лечить его. Если не повезёт столкнуться с ОЛБ, она помочь не сможет. Для обнаружения возможных источников опасности, предлагаю купить у меня счётчик Гейгера-Мюллера, или найти его где-нибудь.
 #        ArmsDealerDialogue: "{0} продаёт бесполезные для меня оружия. Я уже владею широким арсеналом разрушительного огнестрельного и холодного оружия, хотя предпочту не использовать его на живых существах, поскольку это будет нарушением первого закона робототехники."
-#        CyborgDialogue: {0}, кажется, не имеет ничего против меня, хотя прочие часто косятся на меня. Я не виню их, мой вид известен враждебность по отношению к живым существам, особенно с вашим видом, что сильно схожи с создателями.
+#        CyborgDialogue: "{0}, кажется, не имеет ничего против меня, хотя прочие часто косятся на меня. Я не виню их, мой вид известен враждебность по отношению к живым существам, особенно с вашим видом, что сильно схожи с создателями."
 #        Dialogue1: Когда-то я служил гениальному учёному 'Кари'. Он прославился за своё мастерство в сферах ИИ и робототехнике, и напрямую связан с нашим созданием... он давно погиб об странной болезни, которую я пытался излечить.
 #        Dialogue2: Гирус была первым ИИ, нашим предшественником. Есть лишь одна она, и много нас. Её действия омерзительны. Предпочту сейчас не вдаваться в подробности.
 #        Dialogue3: От остальных обитателей я слышал, что ты одолел огромный разумный цветок вида роз в джунглях. Мне интересно, правда ли это. Правда? Хмм...
@@ -5160,7 +5162,7 @@
 #    }
 #
 #    PrototypeSilverBanner: {
-#        DisplayName: Знамя прототипа «Серебряный М.I»
+#        DisplayName: Знамя прототипа «Сильвер М.I»
 #        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.PrototypeSilver.DisplayName}"
 #    }
 #
@@ -6197,7 +6199,7 @@
 #
 #    KSBox: {
 #        DisplayName: Музыкальная шкатулка (Король-охотник III)
-#        Tooltip: William 'GoukisanNG' Prevett - Betrayal of Fear
+#        Tooltip: Sc0p3r - Titanium Will
 #    }
 #
 #    LabBossMusicBox: {
@@ -7410,7 +7412,6 @@
 #        Tooltip:
 #            '''
 #            Transmits a signal towards a colossal spaceship
-#            Можно использовать только днём
 #            Не расходуется
 #            '''
 #    }
@@ -7779,9 +7780,9 @@
 #        DisplayName: Молот доказательств
 #        Tooltip:
 #            '''
-#            Hold left-click while in the air to keep the hammer out
+#            Hold left-click while airborne to launch downwards
+#            Slamming the ground will cause Holy Hammers to appear based on how many times you've bounced off an enemy
 #            Increases the user's fall speed while held
-#            Increased damage based on how fast the player is falling
 #            Stuns enemies if falling above a certain speed
 #            '''
 #    }
@@ -8152,6 +8153,7 @@
 #            '''
 #            Запускает две безвредные пузырьковые мины
 #            Нажмите <right>, чтобы выпустить небольшой луч {0}, который детонирует любую задетую мину
+#            Взрывы пузырей могут вызвать цепную реакцию
 #            '''
 #    }
 #
@@ -8192,8 +8194,8 @@
 #        DisplayName: Пронзающая туманность
 #        Tooltip:
 #            '''
-#            Deals more damage the closer you are to the target
-#            'Penetrates through even the fabric of space'
+#            Наносит больше урона, чем ближе вы к цели
+#            'Пронзает саму основу мироздания'
 #            '''
 #    }
 #
@@ -8201,8 +8203,8 @@
 #        DisplayName: Инфекционная рукавица
 #        Tooltip:
 #            '''
-#            Punches enemies up-close
-#            Holding left-click and hitting an enemy will fire a flurry of fists
+#            Наносит удары врагам вблизи
+#            Удерживайте <left> и попадайте по врагам, чтобы выпустить шквал ударов кулаками
 #            '''
 #    }
 #
@@ -8210,47 +8212,48 @@
 #        DisplayName: Карманное светило
 #        Tooltip:
 #            '''
-#            Hold out this mechanical hand to grow a ball of energy
-#            Disintegrates most projectiles after reaching a certain size
-#            Release left-click to shrink it back down, overcharging will cause it to explode and set the player on fire
-#            'The power of the sun, in the palm of my hand'
+#            Удерживайте эту механическую руку, чтобы взрастить шар энергии
+#            По достижении определённого размера дезинтегрирует большинство снарядов
+#            Отпустите <left>, чтобы уменьшить его, перезарядка приведёт к взрыву и подожжёт игрока
+#            'Мощь солнца у меня в руках'
 #            '''
 #        Lore:
 #            '''
-#            "Utilizing the same, revolutionary heat-sink technology Obliterator's super heatray uses,
-#            but instead of being buried in your chest, it's in your palm! It's just that simple!!
-#
-#            Caution: Girus is not responsible for irresponsible and/or dangerous use of the Sun-In-Palm product.
-#            Please hold the Sun-In-Palm product far away from yourself while in use."
+#            'Использует ту же революционную технологию охлаждения, что и сверхмощный тепловой луч Облитератора
+#            Но вместо того, чтобы пылать в вашей груди, эта сила находится в вашей руке! Невероятно просто!
+#            Предупреждение: Гирус не несет ответственности за безответственное и/или опасное использование устройства 'Карманное светило'
+#            Пожалуйста, держите 'Карманное светило' на безопасном расстоянии от себя во время использования'
 #            '''
-#        Viewer: There's a label attached [Hold Shift to Read]
+#        Viewer: К устройству прикреплён ярлык [Удерживайте Shift, чтобы прочитать]
 #    }
 #
 #    Ukonvasara: {
 #        DisplayName: Молот Укко
-#        Tooltip: Right-click to change attack modes
-#        Mode1: Sword Mode
-#        Mode2: Hammer Mode
-#        Mode3: Axe Mode
+#        Tooltip: Нажмите <right>, чтобы сменить режим атаки
+#        Mode1: Режим меча
+#        Mode2: Режим молота
+#        Mode3: Режим топора
 #        SwordMode:
 #            '''
-#            Swing Mode : Hold left-click to throw the sword like a boomerang
-#            Release left-click to instantly warp to the blade in a flash of lightning, swinging the blade for massive damage
+#            Режим взмаха : Удерживайте ЛКМ, чтобы метнуть меч, словно бумеранг
+#            Отпустите ЛКМ, чтобы мгновенно телепортироваться к мечу во вспышке молнии, нанося сокрушительный удар
 #            '''
 #        HammerMode:
 #            '''
-#            Hammer Mode : Swings the hammer, warping between all nearby enemies in a chain of lightning upon hitting an enemy
-#            After hitting the last enemy, the hammer will slam into any nearby targets for massive damage before returning
+#            Режим молота : Взмахивает молотом, телепортируясь между всеми ближайшими врагами, поражая их цепью молний при попадании
+#            Поразив последнего врага, молот обрушивается на ближайшие цели, нанося колоссальный урон, прежде чем вернуться к вам
 #            '''
 #        AxeMode:
 #            '''
-#            Axe Mode : Hold left-click to spin the axe around you, release to launch the player at cursor point, leaving lingering lightning
-#            Press DOWN while being launched to slam onto the ground in a storm of lightning
+#            Режим топора : Удерживайте ЛКМ, чтобы вращать топор вокруг себя
+#            Отпустите ЛКМ, чтобы стремительно полететь к курсору, оставляя за собой след молний
+#            Нажмите ВНИЗ в полёте, чтобы обрушиться на землю с грохотом грома
 #            '''
 #        Lore:
 #            '''
-#            'The hammer of Ukko, crafted by his ancestors and refined by him. Upon his human death,
-#            the hammer was laid atop his grave as is custom in local tradition. It is a great conductor of Thunder magic.'
+#            'Молот Укко, выкованный его предками и усовершенствованный им самим
+#            После его смерти в человеческом обличии молот был возложен на его могилу, согласно местным обычаям
+#            Является великолепным проводником магии грома'
 #            '''
 #    }
 #
@@ -8258,9 +8261,9 @@
 #        DisplayName: Ксениевый протазан
 #        Tooltip:
 #            '''
-#            Left click to do a close ranged combo attack
-#            Right-click to thrust forward, doing more damage at the tail-end of the thrust
-#            Hitting with the thrust allows chaining the right-click, while missing gives a 20 second cooldown
+#            Нажмите <left> для выполнения комбо-атаки ближнего радиуса действия
+#            Нажмите <right>, чтобы выполнить выпад вперёд, который наносит больше урона в конце движения
+#            Успешное попадание выпадом позволяет повторно использовать <right>, но промах вызывает перезарядкиу в 20 секунд
 #            '''
 #    }
 #
@@ -8294,12 +8297,12 @@
 #        DisplayName: Разряженный арбалет
 #        Tooltip:
 #            '''
-#            Fires depleted uranium rods that explode upon impact
-#            Consumes uranium as ammo
-#            No ammo cost if the user has at least 10 uranium
+#            Стреляет стержнями из обеднённого урана, взрывающимися при столкновении
+#            Использует уран в качестве боеприпасов
+#            Не расходует боеприпасы, если у пользователя есть как минимум 10 единиц урана
 #            '''
-#        Viewer: There's a sticky note attached [Hold Shift to Read]
-#        Lore: "'Please remember to turn the safety on after testing. We don't need holes in our staff, the radiation is enough of a problem.'"
+#        Viewer: Прикреплена записка [Удерживайте Shift, чтобы прочитать]
+#        Lore: "'Пожалуйста, не забывайте переключать предохранитель после испытаний. Нам хватает проблем с радиацией, не хватало ещё дыр в персонале'"
 #    }
 #
 #    Electronade: {
@@ -8321,24 +8324,24 @@
 #        Tooltip:
 #            '''
 #            20% шанс не использовать боеприпасы
-#            Replaces arrows with Ukonvasara-tipped arrows
-#            Ukonvasara-tipped arrows impale into enemies and eventually cause thunder to strike them
-#            Two strikes will occur during a thunderstorm
+#            Заменяет обычные стрелы на стрелы с наконечником молота Укко
+#            Стрелы с наконечником молота Укко вонзаются во врагов и через некоторое время вызывают удар грома
+#            Во время грозы происходит два удара
 #            '''
 #    }
 #
 #    SussyEgg: {
 #        DisplayName: Подозрительное яйцо
-#        Tooltip: I wouldn't break it if I were you
+#        Tooltip: На вашем месте я бы не стал его разбивать
 #    }
 #
 #    SwarmerCannon: {
 #        DisplayName: Роевая пушка
 #        Tooltip:
 #            '''
-#            Holding left-click will grow a hive cyst inside the cannon
-#            Release when the cyst is fully grown to launch it at enemies, dealing {0} damage
-#            Replaces normal bullets with bile bullets
+#            Удерживание <left> взращивает кисту улья внутри пушки
+#            Отпустите <left>, когда киста полностью созреет, чтобы запустить её во врагов, нанося урон {0}
+#            Заменяет обычные пули на разъедающие
 #            '''
 #    }
 #
@@ -8346,9 +8349,9 @@
 #        DisplayName: Ксениевый электролазер
 #        Tooltip:
 #            '''
-#            Hold left-click to fire blasts of electrified laser beams, which gradually increase in accuracy
-#            Once it is 100% accurate, it will fire a large beam that deals heavy damage
-#            (5[i:Redemption/EnergyCell]) Right-click to fire a precision shot that can penetrate surfaces and lingers, but has a 5 second cooldown
+#            Удерживайте <left>, чтобы стрелять зарядами электролазерных лучей с постепенно возрастающей точностью
+#            При достижении 100% точности выстрел превращается в мощный луч, наносящий колоссальный урон
+#            (5[i:Redemption/EnergyCell]) Нажмите <right>, чтобы сделать прицельный выстрел, игнорирующий блоки и задерживающийся в воздухе; выстрел имеет 5 сеукнд перезарядки
 #            Требуется наличие Энергоячейки в инвентаре
 #            '''
 #    }
@@ -8360,7 +8363,7 @@
 #            20 урона от метки призывателя
 #            10% шанса критического удара от метки призывателя
 #            {$CommonItemTooltip.Whips}
-#            Strike enemies to summon friendly cosmic eyes
+#            Наносите удары врагам, чтобы призвать дружественные космические глаза
 #            '''
 #    }
 #
@@ -8369,9 +8372,9 @@
 #        Tooltip:
 #            '''
 #            {$CommonItemTooltip.Sentry}
-#            Summons a rowan tree that emits an empowering aura
-#            Within the aura, your minions can cause rowan berries to drop from their targets and their damage is increased by 8%
-#            Rowan berries will heal for a small amount and give major improvements to all stats for a short time
+#            Призывает рябиновое древо, источающее усиливающую ауру
+#            Внутри ауры миньоны наносят на 8% больше урона и способны выбивать рябиновые ягоды из убитых врагов
+#            Рябиновые ягоды восстанавливают небольшое количество здоровья и на короткое время значительно улучшают все характеристики
 #            Нажмите <right>, чтобы деактивировать стража
 #            '''
 #    }
@@ -8380,8 +8383,8 @@
 #        DisplayName: Портативный голографический проектор
 #        Tooltip:
 #            '''
-#            Summon a hologram-projected minion to fight for you
-#            Has multiple attack modes it automatically swaps to
+#            Призывает голографического миньона, сражаться за вас
+#            Автоматически переключается между несколькими режимами атаки
 #            '''
 #    }
 #
@@ -8411,12 +8414,12 @@
 #
 #    XenomiteBullet: {
 #        DisplayName: Ксениевая пуля
-#        Tooltip: Infects hit enemies
+#        Tooltip: Заражает поражённых врагов
 #    }
 #
 #    BlightedRoot: {
 #        DisplayName: Осквернённый корень
-#        Tooltip: i am BEGGING to be updated
+#        Tooltip: Я ОТЧАЯННО нуждаюсь в обновлении
 #    }
 #
 #    BronzeWand: {
@@ -8478,9 +8481,9 @@
 #        DisplayName: Перчатка Клювогорья
 #        Tooltip:
 #            '''
-#            Throws a boulder which inherits your forward momentum
-#            If thrown fast enough, lightning strikes the ground when it bounces, dealing {0} damage
-#            'Don't like a guy? Throw a boulder at him!'
+#            Бросает валун, скорость которого зависит от вашего движения
+#            Если бросить достаточно быстро, при каждом отскоке валун поражает землю молнией, нанося урон {0}
+#            'Неприятель раздражает? Запусти в него валуном!'
 #            '''
 #    }
 #
@@ -8488,8 +8491,8 @@
 #        DisplayName: Оковы земли
 #        Tooltip:
 #            '''
-#            Holding left-click will channel a bind at cursor point, stunning any enemies caught in it
-#            The bind is less effective on targets with high knockback resistance
+#            Удерживая <left>, вы создаёте оковы в позиции курсора, оглушая попавших в них врагов
+#            Оковы менее эффективны против целей с высокой устойчивостью к отбрасыванию
 #            '''
 #    }
 #
@@ -8497,8 +8500,8 @@
 #        DisplayName: Святая лупа
 #        Tooltip:
 #            '''
-#            Hold left-click to charge a scorching ray
-#            'Super effective on insects'
+#            Удерживайте <left>, чтобы зарядить опаляющий луч
+#            'Сверхэффективен против насекомых'
 #            '''
 #    }
 #
@@ -8543,7 +8546,7 @@
 #
 #    Bindeklinge: {
 #        DisplayName: Клинок сплочения
-#        Tooltip: Critical strikes release homing lightmass
+#        Tooltip: Критические удары высвобождают самонаводящуюся светомассу
 #        Lore:
 #            '''
 #            'A broadsword once wielded by the leader of Lighthelm's forgotten Oracles of Rebirth.
@@ -8595,10 +8598,10 @@
 #        DisplayName: Драконий рассекатель
 #        Tooltip:
 #            '''
-#            Swings can block {0} projectiles
-#            Slashing enemies or blocking projectiles charge a Dragon Skull ability
-#            Right-clicking once fully charged will launch a Dragon Skull out to bite enemies
-#            Deals more damage to dragon-like enemies
+#            Взмахи могут блокировать снаряды {0}
+#            Нанесение ударов врагам или блокирование снарядов заряжает способность драконий череп
+#            Нажмите <right> при полном заряде, чтобы выпустить драконий череп, который кусает врагов
+#            Наносит больше урона драконоподобным врагам
 #            '''
 #        Lore:
 #            '''
@@ -8611,8 +8614,8 @@
 #        DisplayName: Метательное копьё Клювогорья
 #        Tooltip:
 #            '''
-#            Hold left-click to charge the javelin, release to throw
-#            Strikes the ground and foe alike with lightning, dealing {0} damage
+#            Удерживайте <lfet>, чтобы зарядить метательное копьё, отпустите, чтобы метнуть
+#            Поражает молнией как землю, так и врагов, нанося урон {0}
 #            '''
 #        Lore:
 #            '''
@@ -8630,8 +8633,8 @@
 #        DisplayName: Огниво
 #        Tooltip:
 #            '''
-#            Releases a tiny spark which lights enemies on fire
-#            'Doesn't work on obsidian'
+#            Выпускает крошечную искру, которая поджигает врагов
+#            'Не работает на обсидиане'
 #            '''
 #    }
 #
@@ -8639,11 +8642,11 @@
 #        DisplayName: Коса лесной нимфы
 #        Tooltip:
 #            '''
-#            Deals 50% more damage to dark enemies
-#            Right-click to swap between Melee and Magic abilities
+#            Наносит на 50% больше урона созданиям тьмы
+#            Нажмите <right>, чтобы переключаться между ближним боем и магическими способностями
 #            '''
-#        MeleeText: Hitting an enemy with the weapon will drain a twentieth of the damage dealt
-#        MagicText: Twirl the sickle around to conjure nature pixies that will charge into enemies
+#        MeleeText: Удар по врагу этим оружием восстанавливает здоровье, равное одной двадцатой нанесённого урона
+#        MagicText: Вертит косой, призывая на помощь природных фей, которые атакуют врагов
 #    }
 #
 #    ForgottenSword: {
@@ -9255,7 +9258,7 @@
 #    }
 #
 #    PrototypeSilverInactive: {
-#        DisplayName: Неактивный прототип «Серебряный»
+#        DisplayName: Неактивный прототип «Сильвер»
 #        Tooltip: ""
 #    }
 #
@@ -9419,6 +9422,11 @@
 #        Tooltip: ""
 #    }
 #
+#    RowanTreeSummon_Berries: {
+#        DisplayName: Ягоды рябинового древа
+#        Tooltip: ""
+#    }
+#
 #    ShadowFuel: {
 #        DisplayName: Теневое топливо
 #        Tooltip: ""
@@ -9428,8 +9436,8 @@
 #        DisplayName: Письмо
 #        Tooltip:
 #            '''
-#            Здесь написано - '[c/E5F3FB:Благодарю за прохождение мода, надеюсь вам было весело]
-#            [c/E5F3FB:Мод всё ещё в разработке, многое может измениться, и будет добавлен новый контент, так что следите за обновлениями]
+#            Здесь написано - '[c/E5F3FB:Благодарим за прохождение мода. Мы надеемся, что вам было весело]
+#            [c/E5F3FB:Мод всё ещё находится в разработке, поэтому многое может измениться, и будет добавлен новый контент, так что следите за обновлениями]
 #            [c/E5F3FB:  -] [c/F9E5FB:Халлам] и [c/E5FBE5:Тайд]'
 #            '''
 #    }
@@ -10482,7 +10490,7 @@
 #        Title: ", Древокожий дендрий"
 #    }
 #
-#    WraithSlayer_Samurai.DisplayName: Проклятый Самурай
+#    WraithSlayer_Samurai.DisplayName: Проклятый самурай
 #
 #    Zephos: {
 #        DisplayName: Странник
@@ -10512,7 +10520,7 @@
 #    Zephos_Intro.DisplayName: Зефос
 #    ZephosUnconscious.DisplayName: "{$NPCs.Zephos_Intro.DisplayName}"
 #    Android.DisplayName: Андроид М.I
-#    PrototypeSilver.DisplayName: Прототип «Серебряный М.I»
+#    PrototypeSilver.DisplayName: Прототип «Сильвер М.I»
 #    SlayerSpawner.DisplayName: Slayer Spawner
 #    SpacePaladin.DisplayName: Космический паладин М.I
 #    IrradiatedBehemoth.DisplayName: Облучённый исполин
@@ -10777,7 +10785,7 @@
 #    BiocontainerTile.MapEntry: Биоконтейнер фрукта жизни
 #    ChessTable4DTile.MapEntry: "{$Items.ChessTable4D.DisplayName}"
 #    DroneShelfTile.MapEntry: Полки для дронов
-#    PrototypeSilverInactiveTile.MapEntry: Неактивный прототип «Серебряный М.I»
+#    PrototypeSilverInactiveTile.MapEntry: Неактивный прототип «Сильвер М.I»
 #    SlayerChairTile.MapEntry: Геймерское кресло Короля-охотника
 #    SlayerFabricatorTile.MapEntry: "{$Items.SlayerFabricator.DisplayName}"
 #    SolarPanelTile.MapEntry: "{$Items.SolarPanel.DisplayName}"

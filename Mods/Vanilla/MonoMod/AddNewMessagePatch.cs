@@ -117,18 +117,18 @@ public class AddNewMessagePatch : ILoadable
             "Master mode is now enabled!" => "Мир переключён в режим Мастера!",
             
             // Redemption
-            // "A sleeping stone appears..." => "",
-            // "Nebuleus is nowhere to be found..." => "",
-            // "A Shadesoul Gateway has been opened..." => "",
-            // "A Shadesoul Gateway has been closed..." => "",
-            // "Daerel the Wayfarer has woken up!" => "",
-            // "Adam the Friendly T-Bot has woken up!" => "",
-            // "Zephos the Wayfarer has woken up!" => "",
-            // "A Shadesoul Gateway has faded by itself..." => "",
-            // "A blobble swarm has arrived!" => "",
-            // "The bomb is too close to unexplodable tiles" => "",
-            // "The bomb must be activated on the surface and in the far reaches of the world" => "",
-            // "The fowl legion charges in!" => "",
+            // "A sleeping stone appears..." => "Появляется дремлющий валун...",
+            // "Nebuleus is nowhere to be found..." => "Небулеус бесследно исчезла...",
+            // "A Shadesoul Gateway has been opened..." => "Врата призрачных душ распахнулись...",
+            // "A Shadesoul Gateway has been closed..." => "Врата призрачных душ закрылись...",
+            // "Daerel the Wayfarer has woken up!" => "Странник Дэрел пробудился ото сна!",
+            // "Adam the Friendly T-Bot has woken up!" => "Дружелюбный Т-бот Адам пробудился ото сна!",
+            // "Zephos the Wayfarer has woken up!" => "Странник Зефос пробудился ото сна!",
+            // "A Shadesoul Gateway has faded by itself..." => "Врата призрачных душ исчезли сами собой...",
+            // "A blobble swarm has arrived!" => "Прибыл рой пузыреней!",
+            // "The bomb is too close to unexplodable tiles" => "Бомба расположена слишком близко к неразрушимым блокам",
+            // "The bomb must be activated on the surface and in the far reaches of the world" => "Бомба должна быть активирована на поверхности и в самых дальних уголках мира",
+            // "The fowl legion charges in!" => "Кудах-легион атакует!",
             _ => text
         };
 

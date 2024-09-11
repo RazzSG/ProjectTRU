@@ -12,7 +12,7 @@ public class ModCompatibilityChecker : ModSystem
         new("StarlightRiver", new Version(1, 5, 0, 2), false),
         new("InfernumMode", new Version(2, 0, 1, 13), true),
         new("FargowiltasSouls", new Version(1, 6, 10, 6), true),
-        new("Fargowiltas", new Version(3, 3, 4, 5), true),
+        new("Fargowiltas", new Version(3, 3, 4, 6), true),
         new("ThoriumMod", new Version(1, 7, 1, 6), true),
         new("NoxusBoss", new Version(1, 1, 27), false),
         new("StarsAbove", new Version(2, 1, 2, 6), true),

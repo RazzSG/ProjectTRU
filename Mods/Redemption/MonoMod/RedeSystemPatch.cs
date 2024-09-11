@@ -27,7 +27,7 @@
 //
 //     public override ILContext.Manipulator PatchMethod { get; } = il =>
 //     {
-//         TranslationHelper.ModifyIL(il, "Open Inventory to make your choice", "");
+//         TranslationHelper.ModifyIL(il, "Open Inventory to make your choice", "Откройте инвентарь, чтобы сделать свой выбор");
 //     };
 // }
 //
@@ -52,7 +52,7 @@
 //
 //     public override ILContext.Manipulator PatchMethod { get; } = il =>
 //     {
-//         TranslationHelper.ModifyIL(il, "Wave ", "");
-//         TranslationHelper.ModifyIL(il, "Fowl Morning", "");
+//         TranslationHelper.ModifyIL(il, "Wave ", "Вола ");
+//         TranslationHelper.ModifyIL(il, "Fowl Morning", "Кудах-заря");
 //     };
 // }

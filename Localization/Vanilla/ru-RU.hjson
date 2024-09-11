@@ -2587,7 +2587,7 @@
         AmberHook: Янтарный крюк
         AmberMinecart: Янтарная вагонетка
         AmberMosquito: Комар в янтаре
-        AmberRobe: Янтарная мантия
+        AmberRobe: Янтарное одеяние
         AmberSquirrelCage: Террариум с янтарной белкой
         AmberStaff: Янтарный посох
         AmberStoneBlock: Янтарный камень
@@ -2602,7 +2602,7 @@
         AmethystGemsparkWallOff: Неактивная искристая аметистовая стена
         AmethystHook: Аметистовый крюк
         AmethystMinecart: Аметистовая вагонетка
-        AmethystRobe: Аметистовая мантия
+        AmethystRobe: Аметистовое одеяние
         AmethystSquirrelCage: Террариум с аметистовой белкой
         AmethystStaff: Аметистовый посох
         AmethystStoneBlock: Аметистовый камень
@@ -3790,7 +3790,7 @@
         DiamondHook: Алмазный крюк
         DiamondMinecart: Алмазная вагонетка
         DiamondRing: Кольцо с алмазом
-        DiamondRobe: Алмазная мантия
+        DiamondRobe: Алмазное одеяние
         DiamondSquirrelCage: Террариум с алмазной белкой
         DiamondStaff: Алмазный посох
         DiamondStoneBlock: Алмазный камень
@@ -3965,7 +3965,7 @@
         EmeraldGemsparkWallOff: Неактивная искристая изумрудная стена
         EmeraldHook: Изумрудный крюк
         EmeraldMinecart: Изумрудная вагонетка
-        EmeraldRobe: Изумрудная мантия
+        EmeraldRobe: Изумрудное одеяние
         EmeraldSquirrelCage: Террариум с изумрудной белкой
         EmeraldStaff: Изумрудный посох
         EmeraldStoneBlock: Изумрудный камень
@@ -5083,8 +5083,8 @@
         KrampusBanner: Знамя Крампуса
         KrampusHornWallpaper: Обои с рогом Крампуса
         KryptonMoss: Криптоновый мох
-        KryptonMossBlock: Кирпич криптонового мха
-        KryptonMossBlockWall: Кирпичная стена криптонового мха
+        KryptonMossBlock: Криптоновый моховой кирпич
+        KryptonMossBlockWall: Стена из криптонового мохового кирпича
         LacBeetleBanner: Знамя лакового жука
         LadyBug: Божья коровка
         LadyOfTheLake: Картина «Владычица озера»
@@ -5128,8 +5128,8 @@
         LavaFishingHook: Лавостойкий крючок
         LavaLamp: Лавовая лампа
         LavaMoss: Лавовый мох
-        LavaMossBlock: Кирпич лавового мха
-        LavaMossBlockWall: Кирпичная стена лавового мха
+        LavaMossBlock: Лавовый моховой кирпич
+        LavaMossBlockWall: Стена из лавового мохового кирпича
         LavaRocket: Лавовая ракета
         LavaSkull: Магматический череп
         LavaSlimeBanner: Знамя лавового слизня
@@ -6388,8 +6388,8 @@
         RainbowGun: Радужная пушка
         RainbowHairDye: Радужная краска для волос
         RainbowMoss: Гелиевый мох
-        RainbowMossBlock: Кирпич гелиевого мха
-        RainbowMossBlockWall: Кирпичная стена гелиевого мха
+        RainbowMossBlock: Гелиевый моховой кирпич
+        RainbowMossBlockWall: Стена из гелиевого мохового кирпича
         RainbowRod: Радужный жезл
         RainbowSlimeBanner: Знамя радужного слизня
         RainbowString: Радужная верёвочка
@@ -6572,7 +6572,7 @@
         RubyGemsparkWallOff: Неактивная искристая рубиновая стена
         RubyHook: Рубиновый крюк
         RubyMinecart: Рубиновая вагонетка
-        RubyRobe: Рубиновая мантия
+        RubyRobe: Рубиновое одеяние
         RubySquirrelCage: Террариум с рубиновой белкой
         RubyStaff: Рубиновый посох
         RubyStoneBlock: Рубиновый камень
@@ -6653,7 +6653,7 @@
         SapphireGemsparkWallOff: Неактивная искристая сапфировая стена
         SapphireHook: Сапфировый крюк
         SapphireMinecart: Сапфировая вагонетка
-        SapphireRobe: Сапфировая мантия
+        SapphireRobe: Сапфировое одеяние
         SapphireSquirrelCage: Террариум с сапфировой белкой
         SapphireStaff: Сапфировый посох
         SapphireStoneBlock: Сапфировый камень
@@ -7526,7 +7526,7 @@
         TopazGemsparkWallOff: Неактивная искристая топазовая стена
         TopazHook: Топазовый крюк
         TopazMinecart: Топазовая вагонетка
-        TopazRobe: Топазовая мантия
+        TopazRobe: Топазовое одеяние
         TopazSquirrelCage: Террариум с топазовой белкой
         TopazStaff: Топазовый посох
         TopazStoneBlock: Топазовый камень
@@ -7676,8 +7676,8 @@
         VioletGradientDye: Фиолетовый градиентный краситель
         VioletHusk: Фиолетовый хитин
         VioletMoss: Неоновый мох
-        VioletMossBlock: Кирпич неонового мха
-        VioletMossBlockWall: Кирпичная стена неонового мха
+        VioletMossBlock: Неоновый моховой кирпич
+        VioletMossBlockWall: Стена из неонового мохового кирпича
         VioletPaint: Фиолетовая краска
         VioletString: Фиолетовая верёвочка
         VioletandBlackDye: Фиолетово-чёрный краситель
@@ -7888,8 +7888,8 @@
         Wyverntail: Вивернохвост
         XenoStaff: Ксенопосох
         XenonMoss: Ксеноновый мох
-        XenonMossBlock: Ксеноновый мховый кирпич
-        XenonMossBlockWall: Ксеноновая мховая кирпичная стена
+        XenonMossBlock: Ксеноновый моховой кирпич
+        XenonMossBlockWall: Стена из ксенонового мохового кирпича
         Xenopopper: Ксеновзрывник
         Yelets: Елец
         YellowAndGreenBulb: Жёлто-зелёные ёлочные игрушки
@@ -11278,7 +11278,7 @@
             '''
         QueenSlimeBossBag: "{$CommonItemTooltip.RightClickToOpen}"
         QueenSlimeCrystal: Призывает Королеву слизней
-        QueenSlimeHook: Телепортирует вас к месту, за который зацепились
+        QueenSlimeHook: Телепортирует вас к месту, где зацепился крюк
         QueenSlimeMountSaddle: Призывает ездового крылатого слизня
         QueenSlimePetItem:
             '''
