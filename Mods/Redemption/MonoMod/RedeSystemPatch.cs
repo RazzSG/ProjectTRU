@@ -39,8 +39,8 @@
 //
 //     public override ILContext.Manipulator PatchMethod { get; } = il =>
 //     {
-//         TranslationHelper.ModifyIL(il, "Until Party's Over: ", "");
-//         TranslationHelper.ModifyIL(il, "Raveyard", "");
+//         TranslationHelper.ModifyIL(il, "Until Party's Over: ", "До конца вечеринки: ");
+//         TranslationHelper.ModifyIL(il, "Raveyard", "Тусовище");
 //     };
 // }
 //
@@ -52,7 +52,7 @@
 //
 //     public override ILContext.Manipulator PatchMethod { get; } = il =>
 //     {
-//         TranslationHelper.ModifyIL(il, "Wave ", "Вола ");
+//         TranslationHelper.ModifyIL(il, "Wave ", "Волна ");
 //         TranslationHelper.ModifyIL(il, "Fowl Morning", "Кудах-заря");
 //     };
 // }

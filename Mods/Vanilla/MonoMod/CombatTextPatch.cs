@@ -66,7 +66,7 @@ public class CombatTextPatch : ILoadable
             "No Blood Chamber in world" => "В мире нет Кровавой камеры",
             "STRIKE" => "УДАР",
             // Redemption
-            // "Guard Broken!" => "Барьер сломан!",
+            // "Guard Broken!" => "Барьер пробит!",
             // "Decapitated!" => "Обезглавлен!",
             // "I'm sure you shouldn't have it in your inventory..." => "Уверен, этому не место в твоём инвентаре...",
             // "Oh, what a lovely ribbon you have over here." => "Ох, какая прелестная ленточка у тебя тут.",

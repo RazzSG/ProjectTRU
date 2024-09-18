@@ -104,7 +104,7 @@
 //         if (npc.type == ModContent.NPCType<Android>())
 //         {
 //             if (npc.GivenName == "Apidroid Mk.I")
-//                 npc.GivenName = "Андроид М.I";
+//                 npc.GivenName = "Апидроид М.I";
 //         }
 //     }
 // }
