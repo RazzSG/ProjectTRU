@@ -882,7 +882,7 @@
 #            Defeat2: Смилостивись!
 #            Defeat3: "[0.2] Отзови своих слуг!"
 #            Mercy1: Неужели понял?[0.2] Значит, ты не хру?
-#            Mercy2: Прошу прощения за такую реакцию,[0.1] я никак не ожидала встретить здесь хена.
+#            Mercy2: Прошу прощения за такую реакцию,[0.1] я никак не ожидала встретить здесь кхена.
 #            Mercy3: На самом деле мне нужна помощь,[0.1] расскажу подробнее у портала.
 #        }
 #
@@ -1376,7 +1376,7 @@
 #        TreebarkFelled: Я не одобряю содействие в уничтожении этих и без того исчезающих дриад.
 #        EaglecrestDefeat: Живые камни? Никогда такого не видела.
 #        SkullDiggerDefeat: Печальный итог защитника и госпожи, но, возможно, есть иной способ?..
-#        CalaviaChoice: Она желает пощады.
+#        CalaviaChoice: Она просит пощады.
 #        CalaviaKilled: Как бессердечно...
 #    }
 #
@@ -3007,57 +3007,57 @@
 #    }
 #
 #    Calavia: {
-#        Chat1: Again I must apologise for attacking ye, I asked for your purpose but clearly ye aren't Gathic. I should introduce myself, I am Calavia, a Chief-Warrior of the Iron Realm. It is such a pleasure to meet a khen here, I've seen naught but rotting khru ever since I got here.
-#        Chat2: You are the first khen I've met here - there's been floods of krhu around, so I prefer the change.
-#        Chat3: That corpse by the portal is oddly soulful, I hope it doesn't come alive.
+#        Chat1: Ещё раз извини, что набросилась. Я спросила, зачем ты здесь, но ты явно не из Гатурама. Позволь представиться, я Калавия, главный воин Железного царства. Очень приятно встретить здесь кхен. С тех пор, как сюда попала, вижу только гниющих кхру.
+#        Chat2: Ты первый кхен, которого я здесь встретила - кругом одни кхру, так что приятно разнообразие.
+#        Chat3: Труп у портала какой-то... одушевлённый. Надеюсь, он не оживёт.
 #        Chat4: Так ты обрёл странную способность от того мёртвого тела возле портала? Видимо, я напрасно боялась, что оно станет угрозой, хотя я всё ещё ощущаю в нём некое присутствие воли.
-#        Chat5: Are you perhaps another warrior of the Iron Realm to stumble upon this place? Or did you rob that armour you wear?
-#        Chat6: I am to assume you're an Anglic knight, based on your attire. Should've figured you wouldn't understand Gathic... Oh well.
-#        Chat7: That armour you don is rather threatening. Where did it come from? Reminds me of the Thamor'in dragons that occassionally hinder the western countries.
-#        IntroLine1: Yeah I came from the portal, 'twas atop a snowy precipice. When I tried going back through however, it took me into what I can only assume to be Gathuram's catacombs. Back and forth I went, yet it was always the same. Here, catacombs, here, catacombs... It is infuriating! How do these portals work!?
-#        IntroLine2: Precisely! I have a family anticipating my return, yet I see no way back to where I came from. Do ye know anything at all about portals?
-#        IntroLine3: Our squadron climbed up a mountain to retrieve the body of a famous warrior, and came upon the portal. We should've reported it to the Riftwatch and carried on our business, but my witless curiousity said otherwise and chose to take a looksie. "In and out, nice and quick" I thought. Needless to say, ye can see how smart that idea was.
-#        IntroLine4: How helpful. Not like I can blame ye, they're magic of a bygone age. Only the Riftwatch have knowledge of 'em. Speaking of which, they must've been here before. Portals don't just appear with a stone ring and foundation pre-'rected - 'tis the Riftwatch's job to build those. To stabilize 'em, or so I've heard.
-#        IntroLine5: Well I can't just mope around forever, the only way forward is scramming through the catacombs and praying to Sariel I find a way to the surface. It'll be a massive gamble tho', the catacombs are like a subterranean domain in their own right!
-#        IntroLine5B: " I'll stick around for now, maybe if ye give me a [i:Redemption/GathicCryoFurnace]furnace I could offer ye some smithing."
-#        IntroLine6: How polite of ye to ask. After our little squabble my helm and shield are quite... thrashed. I have nobody to blame but myself, but anyway, if ye could give me some replacements and supplies to aid me, I will be most grateful.
-#        IntroLine7: I'll need it... Actually, would ye be a dear and get me some equipment to aid me? My shield and helm took quite a blow. Not like I can blame ye, I did initiate the clash.
-#        IntroLine8: A new [i:Redemption/PureIronHelmet]Pure-Iron Helmet, and some [i/s6:Redemption/PureIronAlloy]Pure-Iron Alloy for remaking my shield. That is all I ask of ye. If ye give me a [i:Redemption/GathicCryoFurnace]furnace I can offer some help back. I work as a blacksmith on the side.
-#        IntroLine9: ... So ye think I can survive the catacombs as I stand? If ye won't assist me, I suppose I got no choice but to give it a shot. I still have some of this place's potions left over, they've come in real handy. Guess I'll stick around in case ye change your mind.
-#        IntroLine10: Thank ye, stranger. I'll need a new [i:Redemption/PureIronHelmet]Pure-Iron Helmet, and some [i/s6:Redemption/PureIronAlloy]Pure-Iron Alloy for remaking my shield. That is all I ask of ye. If ye give me a [i:Redemption/GathicCryoFurnace]furnace I can offer some help back. I work as a blacksmith on the side.
-#        IntroLine11: ... If ye insist. *sigh* This'll be a challenge, but I'll trust your judgement. I'll make it through to reunite with my squadron and finally return to my family, there is no better motivation than that. Farewell, stranger.
-#        IntroLine12: Still something you need? Or do you not feel I'm ready?
-#        ReadyLine: As ready as I can be. I still have a few potions from this place, I've never seen such concoctions before... They must've been created by a master alchemist.
-#        HelmetLine: Umgor'ye. The khru are ruthless creatures, a helmet to protect my neck an' head is much appreciated.
-#        HelmetLineB: " Oh, and it is an antique design too? The fur is a nice privilege."
-#        ShieldLine: Umgor'ye. I feel much safer with a shield.
-#        RequirementsLine: A new [i:Redemption/PureIronHelmet]Pure-Iron Helmet, and some [i/s6:Redemption/PureIronAlloy]Pure-Iron Alloy for remaking my shield. That is all I ask of ye.
+#        Chat5: Может, ты ещё один воин из Железного царства, что забрёл сюда? Или ты эту броню где-то украл?
+#        Chat6: Судя по внешнему виду, должно быть, ты ангулонский рыцарь. Могла догадаться, что ты гатурамский не понимаешь... Ну ладно.
+#        Chat7: Доспехи у тебя довольно грозные. Откуда они? Напоминают мне тамор'инских драконов, которые иногда западным странам досаждают.
+#        IntroLine1: Да, я пришла из портала, он был на вершине снежной горы. А когда попыталась вернуться обратно, меня закинуло, кажется, в катакомбы Гатурама. Туда-сюда ходила, а всё одно и то же. То здесь, то катакомбы, то здесь, то катакомбы... Бесит! Как вообще эти порталы работают?!
+#        IntroLine2: Именно! Меня дома семья ждёт, а я назад никак не могу попасть. Не знаешь ничего про эти порталы?
+#        IntroLine3: Наш отряд полез на гору, за телом какого-то знаменитого воина, и наткнулся на этот портал. Надо было сразу Разломникам доложить и дальше идти, а меня любопытство сгубило, решила посмотреть. 'Быстренько туда-сюда', думаю. Ну, сам видишь, какая я умная была.
+#        IntroLine4: О-о-очень помогло. Ну, что с тебя взять, это же древняя магия. Лишь Разломники в них разбираются. Кстати, они тут точно раньше были. Порталы с каменным кольцом и фундаментом сами по себе не появляются, это Разломники их строят, чтобы стабилизировать, вроде как.
+#        IntroLine5: Ну, я же не могу вечно хандрить! Единственный выход - пробираться через катакомбы и молить Сариэля, чтобы найти выход на поверхность. Риск, конечно, огромный,  катакомбы - это целая подземная страна!
+#        IntroLine5B: " Я пока останусь здесь, а если ты мне [i:Redemption/GathicCryoFurnace]печь дашь, могу сковать что-нибудь."
+#        IntroLine6: Как мило с твоей стороны! Знаешь, после нашей маленькой стычки мой шлем и щит... потрепались. Винить могу только себя, но всё же, если дашь мне новые и ещё чего-нибудь для работы, я была бы очень благодарна.
+#        IntroLine7: Мне и правда нужна помощь...  Слушай, не мог бы ты мне помочь достать снаряжение? Мой щит и шлем изрядно пострадали. Не виню, это я первая полезла в драку.
+#        IntroLine8: Новый [i:Redemption/PureIronHelmet]шлем из сверхчистого железа, и немного [i/s6:Redemption/PureIronAlloy]сверхчистого железного сплава для починки щита. Больше ничего не надо. А если ты мне [i:Redemption/GathicCryoFurnace]печь дашь, даже помогу взамен. Я немного кузнец.
+#        IntroLine9: ...Думаешь, я смогу пройти катакобы и так? Если ты мне не поможешь, придётся, наверное, и правда попробовать. У меня ещ` остались местные зелья, они мне очень пригодились. Подожду немного, вдруг передумаешь.
+#        IntroLine10: Спасибо, странник. Мне нужен новый [i:Redemption/PureIronHelmet]шлем из сверхчистого железа, и немного [i/s6:Redemption/PureIronAlloy]сверхчистого железного сплава для починки щита. А если ты мне [i:Redemption/GathicCryoFurnace]печь дашь, даже помогу взамен. Я немного кузнец.
+#        IntroLine11: ...Ладно, если настаиваешь. *вздох* Будет сложно, но доверюсь твоему суждению. Я должна добраться до своих, встретиться со своим отрядом и наконец вернуться домой к семье! Лучшей мотивации и не придумаешь. Прощай, странник.
+#        IntroLine12: Ещё что-нибудь нужно? Или ты считаешь, я ещё не готова?
+#        ReadyLine: Готова настолько, насколько могу. У меня ещё осталось несколько местных зелий, таких я раньше никогда не видела... наверное их варил настоящий мастер-алхимик.
+#        HelmetLine: Умгор'е. Кхру - зверюги немилосердные, шлем для защиты шеи и головы очень кстати.
+#        HelmetLineB: " Ещё и античного дизайна? Какой роскошный мех."
+#        ShieldLine: Умгор'е. Со щитом гораздо спокойнее.
+#        RequirementsLine: Новый [i:Redemption/PureIronHelmet]шлем из сверхчистого железа, и немного [i/s6:Redemption/PureIronAlloy]сверхчистого железного сплава для починки щита. Больше ничего не надо.
 #        RequirementsLineB:
 #            '''
 #
-#            Ye have given me the helmet so far. I don't doubt it'll be enough, yet I'd feel much safer with a shield too.
+#            За шлем спасибо. Думаю, хватит, но с щитом бы надёжнее было.
 #            '''
 #        RequirementsLineC:
 #            '''
 #
-#            Ye have given me the shield so far. I don't doubt it'll be enough, yet I'd feel much safer with my head covered too.
+#            За щит спасибо. Думаю, хватит, но и голову прикрыть не мешало бы.
 #            '''
-#        MistfallLine: That spell tome ye hold is quite weak, would ye like it to become similar to my own?
-#        ZweihanderLine: Ye carry a Zweihander? That is a famous blade of the Iron Realm, and so too was it the original form of the Blade of the Mountain - a sword of a mighty warrior who unfortunately fell to a great beast, I am its new holder. Would ye like me to make a replica of it?
-#        FurnaceLine: Yes, place down a [i:Redemption/GathicCryoFurnace]Gathic Cryo-Furnace near me and I will offer to forge some equipment for ye.
-#        AboutMeLine: Ta? I am a chief-warrior and blacksmith of the Iron Realm. Back in Khen Boldur I have a husband and two kids. I seldom have the time to see 'em, but staying far apart only makes the moments we're together all-the-more special, or am I just bein' too optimistic? It's regrettable, but my job leaves no room for indulgences. I lead a squadron of Arum that primarily scouts out unmarked lands. My men have probably given up on me by now. Typical.
-#        CruxDialogue: Kyretha's spirit feels lighter - less shrouded in negative emotion. Alas, that means what the spirit spoke of is true, the barons hide a darkness I have turned a blind eye to. Ya know what? If I ever get back to Arum, I'll look into it, all stealth-like. But anywho, I do believe she'll be willing to give ye her crux, she offers it freely.
-#        NoCruxDialogue: Kyretha's spirit feels different now. I never realised the aura I felt was not of her power but of a strong negative emotion, it was foolish to assume the feeling was the norm for spirits of her splendour. I can comphrehend her emotions more clear, and I do believe she's willing to give ye her crux, if ye have something to imbue.
-#        ConfrontLine1: Hm? Oh, so ye noticed. Yeah, I carry a bauble containing a spirit. I didn't elaborate on my job because it's none of ya business. Alas, clarification is in order so ye don't get any wrong ideas.
-#        ConfrontLine2: The spirit I carry is of the original wielder of the Blade of the Mountain, Kyretha, who was slain in an isolated range. She was part of a "unique" group who's souls were bound to another, and due to this I was tasked with retrieving her body and soul to send back to the Bastion of Arum - The barons deemed this of utmost priority. I recognise the taboo nature of ensnaring a spirit in glass, but I hope ye understand now.
-#        LeaveLine: Thank you for the help, and sorry for the trouble. What lies ahead makes me uneasy, but I'll make it through to reunite with my squadron and finally return to my family, there is no better motivation than that. Farewell, stranger.
+#        MistfallLine: Книжка заклинаний у тебя слабенькая. Хочешь, я тебе такую же, как у меня, сделаю?
+#        ZweihanderLine: Цвайхендер таскаешь? Легендарный меч Железного царства, изначальная форма Клинка Горы! Им когда-то изместный воин сражался, пока его не одолел могучий зверь, теперь его владелец я. Хочешь, я тебе копию выкую?
+#        FurnaceLine: Ага, поставь рядом со мной [i:Redemption/GathicCryoFurnace]Гатрийскую крио-печь, и я тебе чего-нибудь выковать смогу.
+#        AboutMeLine: Та? Я главный воин и кузнец Железного царства. В Хен Болдуре муж и двое детей ждут. Редко их вижу, но из-за этого наши встречи становятся ещё ценней... или я слишком оптимистична? Жаль, работа не позволяет расслабляться. Командую отрядом Арума по разведке, исследуем неразведанные земли. Люди мои, наверное, уже и бросили меня. Типично.
+#        CruxDialogue: Душа Киреты как будто посветлела, меньше негативной энергии излучает. Значит, правда то, что дух говорил, бароны что-то темное затевают, а я, слепая, не замечала. Знаешь что? Если вернусь в Арум, расследую это, тихонько так. А вообще, думаю, она тебе свою сущность отдаст.
+#        NoCruxDialogue: С Киретой что-то изменилось. Раньше я думала, что это её сила так ощущается, но нет, это сильная негативная энергия. Глупо было считать, что так и должно быть у столь могущественных духов. Я в некой степени понимаю её эмоции, и она, кажется, готова отдать тебе свою сущность, если у тебя есть что-то, куда её можно поместить.
+#        ConfrontLine1: А? А, заметил. Да, у меня тут дух в шарике. Не объясняла, потому что тебе знать и не надо. Но чтоб не выдумывал всякую ерунду, вот, говорю.
+#        ConfrontLine2: Это дух Киреты, той, что владела Клинком Горы. Её убили в горах, далеко от всех. Она была из какой-то 'особенной' группы, чьи души связаны, и меня отправили забрать её тело и душу, а затем отправить в Бастион Арума, бароны очень настаивали. Я понимаю, что держать душу в стекле - нехорошо, но надеюсь, теперь ты всё понял.
+#        LeaveLine: Спасибо за помощь, и прости за беспокойство. Меня тревожит предстоящее будущее, но я доберусь до своих и вернусь к семье - лучшей мотивации и не придумаешь.  Прощай, странник.
 #    }
 #
 #    TreebarkDryad: {
 #        FelledDialogue1: Do you fear the unknown? Does my size frighten you? Please, do not be afraid, I am just a lone ent.
 #        FelledDialogue2: You are a peculiar thing. Do you chop for a reason, or for fun? You should be more considerate about your surroundings.
 #        FelledDialogue3: I help no tree-feller.
-#        Felled: "Hmmmm... "
+#        Felled: "Хммм... "
 #        ShrineDialogue1: I think I have lingered here for long enough. I was told by the humans to guard this place, but it has been far too long an age... Dangers have come and gone, but none have ever sought to demolish this shrine. To Fairwood I return - I have missed its lush forests and bark'en friends. Mayhaps you be this shrine's new protector..? If it needs one, anyway.
 #        ShrineDialogue2: What's that shrine behind me..? It was built by a group of humans, long dead by now, as a place of worship to some sort of figure... I don't recall their name, but I know they were a good friend of nature. Some may consider her the Mother of Nature..? Hmmm... My memory grows distant in my old age.
 #        ShrineDialogue3: I have been here a long time, even for us. I was a bold sapling, far more than the others, and so I had come to this land far far earlier than the rest. Maybe I was unwise, but I have seen more of us coming from our lands in recent times, so perhaps the others grew adventurous too.
