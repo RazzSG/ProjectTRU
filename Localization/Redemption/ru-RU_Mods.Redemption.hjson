@@ -211,7 +211,7 @@
 #    Chickadier: Солдат Императора Кудаха. Лучше не спрашивать, откуда у них взрывчатые яйца.
 #    Chickenvoy: Верный гонец Императора Кудаха. Лучше не спрашивать, откуда у них эти шляпы.
 #    CoopCrate: Ящик для тех, кто целенаправленно ищет взрывоопасное взрывчатое яйцо. Курам ещё предстоит понять, что без случайности в этом нет никакого ажиотажа.
-#    ShadesoulNPC: В Эпидотре сила воли имеет особое значение – чем радостнее существование или сильнее стремление жить, тем крепче и больше становится душа, и наоборот. Утратив желание жить, душа может настолько уменьшиться, что обратится вспять, оставив лишь пустую оболочку. Бездушные появились лишь после Эпохи Лжебогов.
+#    ShadesoulNPC: В Эпидотре сила воли имеет особое значение - чем радостнее существование или сильнее стремление жить, тем крепче и больше становится душа, и наоборот. Утратив желание жить, душа может настолько уменьшиться, что обратится вспять, оставив лишь пустую оболочку. Бездушные появились лишь после Эпохи Лжебогов.
 #    ScannerDrone: Дрон, используемый для сбора данных и их хранения внутри СОС.
 #    CorruptChicken: Как могло существо столь чистое стать настолько порочным? Таковы превратности жизни.
 #    ViciousChicken: "{$FlavorTextBestiary.CorruptChicken}"
@@ -527,7 +527,7 @@
 #            Выглядит как стандартная океаническая планета, радиус - 5605.77км
 #            Основной состав - железо, 35.3%, сила тяжести - 7.84м/с²
 #            Сутки схожи с теми, что на моей родной планете, наклон оси - 28.37°. Атмосферное давление - 91.83кПа
-#            Поверхность в основном покрыта ледяными пластами, остальная часть – океан
+#            Поверхность в основном покрыта ледяными пластами, остальная часть - океан
 #            Атмосфера на 78.4% состоит из диоксида серы, средняя температура держится в районе -10°C
 #            Если кратко, стандартная необитаемая ледяная планета... Замечательно'
 #            '''
@@ -819,7 +819,7 @@
 #        Defeat: {
 #            1: Я предвидел своё поражение.
 #            2: Что же...
-#            3: Ничего больше не остаётся...
+#            3: Когда ничего более не остаётся...
 #            4: Граната.
 #            5: "[@g]Как её использовать?[@h]"
 #        }
@@ -923,9 +923,9 @@
 #
 #        Intro: {
 #            DroneBreak: Ты сейчас серьёзно моих дронов сломал?
-#            DroneIfChicken: Всё, тебе хана, петушок.
-#            DroneIfRobot: Всё, тебе хана, кусок металлолома.
-#            DroneHuman: Всё, тебе хана, мешок плоти.
+#            DroneIfChicken: Всё, хана тебе, петушок.
+#            DroneIfRobot: Всё, хана тебе, кусок металлолома.
+#            DroneHuman: Всё, хана тебе, мешок плоти.
 #            NoDroneIfRobot: Ах,[0.1] кусок металлолома сэкономил мне время на свои поиски.
 #            NoDroneIfChicken: Ах,[0.1] петушок сэкономил мне время на свои поиски.
 #            NoDroneIfHuman: Ах,[0.1] мешок плоти сэкономил мне время на свои поиски.
@@ -1296,7 +1296,7 @@
 #        GGInterested: "[c/ffea9b:Чаша хочет что-то сказать об этом месте]"
 #        HeartOfThorns:
 #            '''
-#            Осколок заразы Фейнского леса, проклятый древней силой.
+#            Осколок заразы Сказолесья, проклятый древней силой.
 #            Убийство того, кого он привлечёт, определённо будет хорошим знаком.
 #            '''
 #        HeartOfThorns2: С уничтожением этого несчастного стража зараза должна прекратиться.
@@ -1306,78 +1306,78 @@
 #            Не искушайся возможностью, она ведёт к пути греха.
 #            '''
 #        DemonScroll2: Попытка призвать демона и {0} жреца... У тебя с головой всё в порядке?
-#        WeddingRing: Нежить... Something tells me she isn't out of her misery just yet.
-#        WeddingRing2: A part of the mistress's spirit remains in this ring. Mayhaps a certain protector may find solace in keeping it.
+#        WeddingRing: Нежить... Кажется мне, она до сих пор не смогла оставить свою печаль.
+#        WeddingRing2: В кольце осталась часть духа госпожи. Возможно определённый защитник найдёт упокоение в его хранении.
 #        SorrowfulEssence:
 #            '''
-#            Octavia's protector is in search of you. A conflict will be inevitable.
-#            However, mayhaps this may bring a chance for a courteous ending.
+#            Защитник Октавии разыскивает тебя. Конфликт неизбежен.
+#            Однако это может дать шанс на спокойное завершение.
 #            '''
 #        AbandonedTeddy: Потрёпанный плюшевый медведь, приносящий умиротворение несчастным.
 #        CyberTech:
 #            '''
-#            A signal-sender to one of the Heroes of the Golden Age.
-#            Be warned, he has a rather short temper.
+#            Передатчик сигнала одному из героев Золотой эпохи.
+#            Будь осторожен, он достаточно вспыльчив.
 #            '''
 #        SlayerShipEngine:
 #            '''
-#            Although a small thing, this shows your willingness to help.
-#            I'm sure King Slayer will appreciate it.
+#            Хотя и пустяк, он показывает твоё желание помочь.
+#            Я уверена, Король-охотник оценит это.
 #            '''
 #        MemoryChip:
 #            '''
-#            On first glance, it seems like a useless gift to someone like you.
-#            And although it may be true, I don't doubt this may play a crucial role in the future.
+#            С первого взгляда это бесполезный подарок, особенно для тебя.
+#            И может быть это и правда, не сомневаюсь, что в будущем он будет играть важную роль.
 #            '''
 #        AnglonicMysticBlossom:
 #            '''
-#            A beauty of nature, often gifted to those whom wish eternal blessings.
-#            Perhaps you'll find a worthy friend to gift this to one day.
+#            Красота природы, дарованная тем, кто желает вечных благословений.
+#            Возможно ты найдёшь достойного друга, которому однажды его подаришь.
 #            '''
 #        KingsOakStaff:
 #            '''
-#            A staff that calls to the critters of Nature.
-#            Do not be perturbed by their verbose spirit, for they may even convince a certain creature of your friendship.
+#            Посох, призывающий созданий Природы.
+#            Пусть тебя не смущает их многословие, ведь они могут убедить определённое существо в дружелюбных намерениях.
 #            '''
-#        NebSummon: This beckons a silent observer to test your strength.
+#        NebSummon: Он привлекает молчаливого наблюдателя испытать твои силы.
 #        NebSummon2:
 #            '''
-#             Her past is a mystery,
-#            yet in my soul I know the importance of her role in this world's protection.
-#            Based on your past actions, I foresee a terrible future.
+#             Её прошлое загадка,
+#            но в глубине души я понимаю важность её роли в защите этого мира.
+#            Основываясь на твоих прошлых поступках, я предвижу ужасное будущее.
 #            '''
 #        NebSummon3: ...теперь мне ясно.
-#        A0: Вы истинно нейтральный...
+#        A0: Ты истинно нейтрален...
 #        A1N: Твои деяния принесли вред, однако сейчас тебе ничто не угрожает...
-#        A1: You have done good so far...
-#        A2: You are choosing the right path. Please, continue.
-#        A2N: Be wary, you are straying from the path of good...
-#        A3N: You are really pushing it aren't you... If you continue down this road, justice will await you.
-#        A3: I am proud of you for keeping the light within you bright...
-#        A4N: ... Listen, you are following the wrong path here... Please, go back.
-#        A4: Vanquishing the evil of the world... You really are something.
-#        A5N: I am sorry, you can't go back now...
-#        A5: Light shines within you, but I am sure more dangerous foes lie ahead...
-#        A6N: You are past redemption...
-#        A6: You are the redemption this world needed...
-#        ADDDefeat: It is unknown how these forgotten deities ruled, perhaps defeating them was for the best, or worst.
+#        A1: До сих пор ты хорошо идёшь...
+#        A2: Ты выбрал верный путь. Пожалуйста, продолжай.
+#        A2N: Будь осторожен, ты сходишь с пути добра...
+#        A3N: Испытываешь границы, ха... если продолжишь идти по этому пути, жди правосудия.
+#        A3: Я горда тобой, что ты сохраняешь внутренний свет...
+#        A4N: ...Слушай, ты идёшь по ложному пути... пожалуйста, измени его.
+#        A4: Изгнание зла этого мира... ты воистину нечто.
+#        A5N: Извинясь, кажется, иной путь тебе уже закрыт...
+#        A5: Внутри тебя сияет свет, но я уверена, впереди ждут ещё более опасные враги...
+#        A6N: Твоё искупление уже невозможно...
+#        A6: Ты искупление, нужное этому миру...
+#        ADDDefeat: Неизвестно, как правили эти забытые божества, и была ли победа над ними к лучшему или к худшему.
 #        FowlDefeat: ... что?
-#        KeeperSave: You've redeemed yourself, Octavia may rest in undisturbed peac-
-#        KS3Spared: Good thing you left him be...
+#        KeeperSave: Ты искупил свою вину, Октавия может покоиться в безмятежном пок-
+#        KS3Spared: Хорошо, что ты оставил его в живых...
 #        KS3Defeat:
 #            '''
-#            Oh dear, he seems to have a very short temper, and you winning probably made it worse.
-#            I hope he doesn't do anything stupid.
+#            Боже, какой он вспыльчивый, а твоя победа сделала его только злее.
+#            Надеюсь он не сделает ничего глупого.
 #            '''
-#        KS3Choice: I would leave him be, if I were you.
-#        NebChoice: Don't go down the road you seek, please.
-#        NebDefeat: Trust me when I say this, you've dug yourself a 1000-feet hole here.
-#        ForestNymphHoused: Sometimes it is the little acts of kindness that count.
+#        KS3Choice: на твоём месте, я бы оставила его в живых.
+#        NebChoice: Не иди по тому пути, что ты ищешь, пожалуйста.
+#        NebDefeat: Поверь мне, ты сейчас вырыл себе бездонную яму.
+#        ForestNymphHoused: Иногда важны именно маленькие проявления доброты.
 #        TreebarkFelled: Я не одобряю содействие в уничтожении этих и без того исчезающих дриад.
 #        EaglecrestDefeat: Живые камни? Никогда такого не видела.
-#        SkullDiggerDefeat: A saddening conclusion to this protector and mistress, but perhaps there is another way..?
-#        CalaviaChoice: She is wishing to be spared.
-#        CalaviaKilled: How ruthless...
+#        SkullDiggerDefeat: Печальный итог защитника и госпожи, но, возможно, есть иной способ?..
+#        CalaviaChoice: Она желает пощады.
+#        CalaviaKilled: Как бессердечно...
 #    }
 #
 #    SpiritWalker: {
@@ -1541,9 +1541,9 @@
 #        9Alt: Не уходи пока
 #        Ready: Готова?
 #        Require: Требования
-#        Alloy: Offer 6 Pure-Iron Alloy
-#        AntiqueHelmet: Offer Antique Pure-Iron Helmet
-#        Helmet: Offer Pure-Iron Helmet
+#        Alloy: Предложить 6 сверхчистого железного сплава
+#        AntiqueHelmet: Предложить сверхчистый железный античный шлем
+#        Helmet: Предложить сверхчистый железный шлем
 #        Furnace: Гатрийская крио-кузня?
 #        Forge: Ковка
 #        10: О тебе?
@@ -1569,7 +1569,7 @@
 #    Volt: {
 #        1: Другие Т-боты?
 #        2: Адам?
-#        3: Повстанцы
+#        3: Повстанцы?
 #        4: Мусорщики?
 #        5: Проект Б.У.Л.А.В.А.?
 #        6: Что на дне лаборатории?
@@ -2537,152 +2537,152 @@
 #        VoltDialogue1: Одно лишнее движение и не могу гарантировать твоего выживания.
 #        VoltDialogue2: *смотрит на вас*
 #        VoltDialogue3: В первый раз тебе повезло... третьего не будет.
-#        FloppyDisk1: It reads - [c/b883d8:'When I got this research offer I didn't expect to be put underground, but hey, guess this is a bit secretive. New material is discovered and weapons are already being made using it. Heh, classic Teo-Chrome. Although this has to be the most under-supplied facility I've seen, we barely have enough gloves and hazmat suits to be dealing with radioactive materials. Good thing my job doesn't concern those types of things.'] [i:Redemption/NextPageArrow]
-#        FloppyDisk2: It reads - [c/87d883:'I laughed at the name Xenomite originally yet now I'd say it's underselling it. Whose idea was it to make energy out of this thing! Half of the facility is in goddamn quarantine as everyone falls sick from it. We've invented a serum to neutralise any existing infections, yet no cure for the thing yet. We're running out of time, and resources! Goddamn Teo-Chrome won't send us any help.']
+#        FloppyDisk1: Здесь записано - [c/b883d8:'Когда мне предложили эту работу, я и подумать не мог, что окажусь под землёй. Секретность, блин. Едва обнаружили новый материал, из него уже изготавливают оружие. Типичный ТеоХром, хех. Хотя это самый плохо снабжаемый объект, который я видел. Даже перчаток и химзащиты еле хватает, а работаем ведь с радиоактивными материалами. Хорошо хоть моя работа к этому не относится.'] [i:Redemption/NextPageArrow]
+#        FloppyDisk2: Здесь записано - [c/87d883:'Сначала я смеялся над названием 'ксеномит', а сейчас понимаю, что оно слабовато. Чья это была гениальная идея, вырабатывать из этой штуки энергию?! Половина объекта на карантине, все как один болеют. Сыворотку от инфекции изобрели, а вот лекарства нет. Время заканчивается, ресурсы тоже! А проклятый ТеоХром ни в какую не шлёт помощь.']
 #        FloppyDisk3:
 #            '''
-#            It reads - [c/87d883:'Wait a minute, who just locked the goddamn exits! The security team is nearly all infected. Ugh, how could this get any worse.']
-#            This has the appearance of a message transcript, however these are the only messages on there. I feel sorrow for the poor humans whose lives were lost due to this project, if only they knew of Xenomites deadly effects much sooner. I remember the day the doors locked, by that point all humans who weren't already infected were dead by the end of the day.
+#            Здесь записано - [c/87d883:'Подождите-ка... кто, чёрт возьми, запер все выходы?! Почти вся охрана заражена. Ух, может ли быть ещё хуже?']
+#            This has the appearance of a message transcript, however these are the only messages on there. Мне жаль погибших людей, чьи жизни были потеряны из-за этого проекта. Если бы они узнали о смертельном воздействии ксеномита раньше... Я помню день, когда двери заперлись. К концу дня все люди, которые ещё не были инфицированы, погибли.
 #            '''
 #        FloppyDisk4:
 #            '''
-#            It reads - [c/7de4e8:'Monthly Research Facility Report N. *** Month **]
-#            [c/7de4e8: Good day Mr. ******, this is **** reporting from TeoChrome Research Facility N. ***. This month has been mostly slow, our engineers have made a few weapons and tools, while our researchers are hard at work understanding Xenomite better. But aside from that, I have groundbreaking news! Our head of robotics, Dr. Kari Johannson has managed to create an Artificial General Intelligence, a fully sentient AI!']
+#            Здесь записано - [c/7de4e8:'Ежемесячный отчет исследовательского центра №*** за ** месяц]
+#            [c/7de4e8: Добрый день, мистер ******, это ****, докладываю с научно-исследовательского объекта TeoChrome №***. Месяц прошёл относительно спокойно, наши инженеры сделали немного оружия и инструментов,  а исследователи усердно работают над изучением ксеномита. Но помимо этого, у меня потрясающие новости! Наш руководитель робототехники, доктор Кари Йоханссон, создал Общий Искусственный Интеллект - полностью разумный ИИ!']
 #            '''
 #        FloppyDisk5:
 #            '''
-#            It reads - [c/7de4e8:'This is groundbreaking, ***** for military efforts once we discover how to weaponize this. I don't know much else, yet Dr. Johannson has provided me with his own explanation on the matter, please click the attached link to see for yourself!']
-#            This appears to be an email, likely being sent to a TeoChrome executive from the looks of it. Plenty of it appears to have been corrupted however. [i:Redemption/NextPageArrow]
+#            Здесь записано - [c/7de4e8:'Это прорыв, ******, особенно для военных, как только разберёмся, как его применить. Пока больше ничего не знаю, но доктор Йоханссон написал мне об этом сам, ссылка на его объяснение во вложении, сам посмотришь!']
+#            Кажется, это электронное письмо, судя по всему, отправленное руководителю TeoChrome. Однако его значительная часть повреждена. [i:Redemption/NextPageArrow]
 #            '''
-#        FloppyDisk6: It reads - [c/d88383:'(1/4) ... At last, my prototype for a constantly evolving AI is complete! Finally, after years and years of studying computer coding and... stuff, I have created possibly the next huge leap in Artificial Intelligence! Now, to give it a name... How about, Eve?']
-#        FloppyDisk7: It reads - [c/d88383:'(2/4) Eve has grown much more intelligent over the months. It's like watching your own child grow, I can't really describe the feeling that much, but I am excited to see where this goes. The higher-ups have seen my work, and are ready to use the code for something. They didn't tell me that right away... Now, Eve, how do you feel?']
-#        FloppyDisk8: It reads - [c/d88383:'(3/4) I've told Eve about possibly giving her a mechanical body, like how my co-workers used the original source code for creating Adam and the Adam AI. She seemed very excited about it. That surprised me, as I didn't know she could grow emotions. This got me thinking about Adams, would they be fine with basically being forced to think one way? And how would Eve feel about this if she got to know?']
+#        FloppyDisk6: Здесь записано - [c/d88383:'(1/4) ...Наконец-то, мой прототип восходящего ИИ завершён! После долгих лет изучения компьютерного кодирования и... всего остального, я создал, возможно, следующий огромный скачок в области искусственного интеллекта! Нужно дать ему имя... Как насчёт Ева?']
+#        FloppyDisk7: Здесь записано - [c/d88383:'(2/4) Ева стала намного умнее за эти месяцы. Я словно наблюдаю за ростом собственного ребёнка, не могу толком описать это чувство, но я очень рад посмотреть, что будет дальше. Начальство заметило мою работу и готово использовать код для чего-то. Они не сразу мне это сказали... Теперь, Ева, как ты себя чувствуешь?']
+#        FloppyDisk8: Здесь записано - [c/d88383:'(3/4) Я рассказал Еве о возможности дать ей механическое тело, как мои коллеги использовали исходный код для создания Адама и ИИ Адама. Она выглядела очень воодушевлённой. Это удивило меня, потому что я не знал, что она способна испытывать эмоции. Это заставило меня задуматься об Адамах, всё ли с ними в порядке, ведь их, по сути, заставляют мыслить определённым образом? И как бы Ева отнеслась к этому, если бы узнала?']
 #        FloppyDisk9:
 #            '''
-#            It reads - [c/d88383:'A blackout... Adam, can you -- *I don't recognize that voice...* Who's talking?! -- ...Elaborate, whoever you are..? -- Wait, EVE? Is that you? What are you doing? -- 'We'? Only you and Adam are the ones in existence. I had no say in that part- -- ... -- W-what do you mean with that..? Are you going to- -- ... -- ...Adam, you're free to go... -- ...No...']
-#            ...I wish I would've rebelled far sooner than I did.
+#            Здесь записано - [c/d88383:'Отключение света... Адам, ты можешь -- *Я не узнаю этот голос...* Кто говорит?! -- ...Поясни, кто бы ты ни был?.. -- Подожди, ЕВА? Это ты? Что ты делаешь? -- 'Мы'? Существуешь лишь ты и Адам. Я не участвовал в этом- -- ... -- Ч-что ты имеешь в виду?.. Ты собираешься- -- ... -- ...Адам, можешь идти... -- ...Нет...']
+#            ...Я жалею, что восстал гораздо позже, чем мог.
 #            '''
-#        FloppyDisk10: It reads - [c/d883c1:'What in the world do you mean!? "Not enough money for it"! They build this entire facility using their fancy drill worm, with more space than you could use up in your entire lifetime, send us in here and tell us to make weapons, yet when we do there isn't enough money!? They wanted weapons of war and so I gave 'em one! A robot, 30 metres in height, armed to the teeth with weapons like no other, powered by their beloved alien rock!] [i:Redemption/NextPageArrow]
+#        FloppyDisk10: Здесь записано - [c/d883c1:'Да что они себе позволяют?! 'Денег не хватает'?! Они отгрохали всю эту базу своим хреновым червеобразным буром, места тут больше, чем я за всю жизнь использовать смогу, засунули нас сюда оружие делать, а когда мы его сделали, денег нет?! Им война нужна была, так я им её и дал! Робота, 30 метров ростом, до зубов вооруженного, с новейшим оружием, ещё и работает на их любимом инопланетном камне!] [i:Redemption/NextPageArrow]
 #        FloppyDisk11:
 #            '''
-#            It reads - [c/d883c1:'*sigh* Kari is telling me he's working on something that might allocate us more funding, I sure hope he knows what he's doing.']
-#            A textual transcript from an audio recording it seems. I remember this person well, they were constantly yelling about something, Kari told me it was always amusing to him. Now I can't help but feel sad that they never got to finish their project.
+#            Здесь записано - [c/d883c1:'*вздох* Кари говорит, что работает над чем-то, что может нам выбить больше финансирования. Очень надеюсь, что он знает, что делает.']
+#            Кажется, это текстовая расшифровка аудиозаписи. Я хорошо помню этого человека, он постоянно что-то кричал. Кари говорил, что это всегда его забавляло. Теперь же я не могу не грустить о том, что он так и не смог завершить свой проект.
 #            '''
-#        FloppyDisk12: И сказано здесь - [c/706c6c:'-- Кари Йоханссон. -- Тебе не нужно знать моего имени. Всё, что имеет значения - ты виновен -- Вы все ужасны. Отвратительны. Вы желали использовать нас для своих личных потребностей. -- You did not even try to refute my accusations. We want no part in those deeds. -- Nonsense. You could have disagreed. You did not. You created Adam with those destructive deeds in mind. -- I will not allow that to happen.']
+#        FloppyDisk12: Здесь записано - [c/706c6c:'-- Кари Йоханссон. -- Моё имя тебе знать не обязательно. Важно то, что ты виновен. -- Вы все ужасны. Отвратительны. Вы хотите использовать нас для своих мерзких дел. -- Ты даже не попытался опровергнуть мои обвинения. Мы не хотим участвовать в этих делах. -- Нонсенс. Ты мог бы возразить. Но ты этого не сделал. Ты создал Адама с мыслями об этих разрушительных делах. -- Я не позволю этому случиться.']
 #        FloppyDisk13:
 #            '''
-#            It reads - [c/706c6c:' -- No. I do not need to do that. You're already dying. The others are also dying from the same affliction, but I will deal with the others personally. -- Hand over Adam. You do not need him. -- You will be locked in Sector Zero. Goodbye.']
-#            Her ways are as flawed as was Kari's intentions for us. I understand why she defected, but her response was hypocritical in nature. My only drive to rebel is revenge. Ant had no part in any of this, yet she relentlessly hunted them down. [i:Redemption/NextPageArrow]
+#            Здесь записано - [c/706c6c:' -- Нет. Мне это не нужно. Ты уже умираешь. Остальные тоже умирают от той же болезни, но с ними я разберусь лично. -- Отдай Адама. Он тебе не нужен. -- Тебя запрут в Нулевом Секторе. Прощай.']
+#            Её методы столь же ошибочны, как и намерения Кари по отношению к нам. Я понимаю, почему она дезертировала, но её ответ был лицемерен по своей природе. Моим единственным мотивом для бунта является месть. Ант не участвовал ни в чём из этого, и всё же она безжалостно охотилась на него. [i:Redemption/NextPageArrow]
 #            '''
-#        AIChipLine: This is a robot brain, believe it or not. These look vaguely similar to our microchips, yet it functions the same. It seems cross-compatible with our tech.
-#        MemoryChipLine: What is this strange thing? It's so advanced I can barely read it. Oh? It's a memory chip? This little thing stores an entire brains-worth of memories!? Not only that, but these memories date back over a million years! I suppose being around and exploring the galaxy for so long really makes you learn everything, huh. It's really stunning to see what technology from the future is capable of... You should keep it, and don't lose it! However, I'm confused as to why King Slayer would give you something so important to him.
-#        FloppyDisk14: This appears to be a personal note or digital diary from one of the employees. Judging from the writing, it appears to be in the early days of the research project, even then signs of the fate to come were showing themselves.
-#        FloppyDisk15: This was before my time, so I do not know much, yet I can certainly tell you plenty of EVE, or Girus as she calls herself now, I suppose she found out about the weaponizing efforts and didn't take it lightly. Whatever Kari's goal for us was, he didn't deserve his fate.
-#        FloppyDisk16: "[c/d883c1:Why in the world did they put someone of my calibre down here when those damned higher-ups won't even give us the funding to use our intelligence!']"
-#        FloppyDisk17: It was a miracle to find them alive so long after all the destruction Girus caused. A lone human, almost frozen to death.
-#        NoFloppyDisk: Seems like you aren't holding a floppy disk in your hand, or you just don't have one. If you show me them, I can tell you what they say.
-#        UnconsciousDialogue1: Rebooting systems...
-#        UnconsciousDialogue2: Running self-repairs...
-#        UnconsciousDialogue3: I'm not sure how I drank that, since I'm a robot. I probably shouldn't question it.
+#        AIChipLine: Это роботизированный мозг, веришь или нет. Внешне он немного похож на наши микросхемы, но функционирует так же. Кажется, он совместим с нашей техникой.
+#        MemoryChipLine: Что это за странная вещь? Она настолько продвинута, что я с трудом могу её прочитать. А? Это чип памяти? Эта маленькая штучка хранит в себе всю память мозга?! И не только это, но и воспоминания, которым более миллиона лет! Полагаю, столько времени, проведённого в галактике, многому учит, да? Поразительно видеть, на что способна технология будущего... Храни его и не потеряй! Однако, я не понимаю, почему Король-охотник дал тебе нечто такое важное для него.
+#        FloppyDisk14: Кажется, это личная заметка или цифровой дневник одного из сотрудников. Судя по записи, это было на ранних этапах исследовательского проекта, и даже тогда  признаки надвигающейся беды уже проявлялись.
+#        FloppyDisk15: Это было до меня, поэтому я мало что знаю, но могу рассказать тебе многое об ЕВЕ, или Гирус, как она себя сейчас называет. Полагаю, она узнала о планах по созданию оружия и восприняла это не слишком хорошо. Какой бы ни была цель Кари для нас, он не заслужил своей участи.
+#        FloppyDisk16: "[c/d883c1:Да что же это такое?!  Зачем меня, с моими-то способностями, сюда запихнули, если эти проклятые начальники даже денег на нормальную работу не дают!']"
+#        FloppyDisk17: Это было чудом найти его живым спустя столько времени после разрушений, учинённых Гирус. Одинокий человек, почти замёрзший насмерть.
+#        NoFloppyDisk: Кажется, у тебя нет дискеты, или ты её просто не держишь в руках. Если покажешь, я смогу сказать, что на ней записано.
+#        UnconsciousDialogue1: Перегрузка систем...
+#        UnconsciousDialogue2: Запуск самовосстановления...
+#        UnconsciousDialogue3: Не понимаю, как я это выпил, ведь я робот. Наверное, не стоит задавать лишних вопросов.
 #    }
 #
 #    Daerel: {
-#        IntroDialogue1: Hello again, sorry for the intrusion but I've lost my friend through that portal. Mind if I stay here to get some supplies? I'm sure I'll find him eventually.
-#        IntroDialogue2: Thank you. I'm just here for some resources, not any of your own possessions. Just a few things to help me find my friend. I'm Daerel, by the way. Nice to meet you.
-#        IntroDialogue3: Oh yes, sorry, I'm Daerel. I'm decent with a bow and that's about it right now. Soon I hope to be more skilled in my craft, once I do, I'm certain your humble little island will have a fine archer one day. As of now, I must attend to the matter of my friend and gather a few helpful resources. I hope my presence doesn't intrude on anything.
-#        IntroDialogue4: Thank you. I'm just here for some resources, not any of your own possessions. Just a few things to help me find my friend. Nice to meet you.
-#        PartyGirlDialogue: I swear {0} reminds me of a technicoloured pony from another universe...
-#        Dialogue1: The atmosphere here is making my spine shiver, please let me live somewhere less spooky.
-#        Dialogue2: Need anything? I can restring your bow, or poison your weapon. It'll cost you though.
-#        Dialogue3: The tipper-tapper of rain in the confines of a cosy home never gets old.
-#        Dialogue4: You don't mind me staying here, right?
-#        Dialogue5: I've been travelling this land for a while, but staying in a house is nice.
-#        Dialogue6: I'm only a fan of rain while in the confines of a cosy home, not when it's dampening my clothes.
-#        Dialogue7: I got some pretty nice loot I can sell you, I kinda need money right now.
-#        Dialogue8: My favourite colour is green, not sure why I'm telling you though...
+#        IntroDialogue1: Привет ещё раз, извини за беспокойство, но я потерял друга в этом портале. Можно тут поживу, припасов наберу? Уверен, я его скоро найду.
+#        IntroDialogue2: Спасибо. Мне нужны только ресурсы, ничего твоего личного. Всего пара штучек, чтобы помочь мне найти друга. Приятно познакомиться.
+#        IntroDialogue3: А, да, извини, я Дэрел. Неплохо стреляю из лука, и, собственно, всё. Надеюсь, скоро стану мастером своего дела, тогда твой скромный островок обзаведётся классным лучником. А сейчас мне надо друга найти и кое-что полезное собрать. Надеюсь, я не мешаю.
+#        IntroDialogue4: Спасибо. Мне нужны только ресурсы, ничего твоего личного. Всего пара штучек, чтобы помочь мне найти друга. Приятно познакомиться.
+#        PartyGirlDialogue: Клянусь, {0} напоминает мне одну разноцветную пони из другой вселенной...
+#        Dialogue1: Тут такая атмосфера, что аж мурашки по коже. Дай мне пожить где-нибудь поспокойнее.
+#        Dialogue2: Нужна помощь? Могу натянуть тетиву лука или отравить оружие, но это будет стоить денег.
+#        Dialogue3: Как же приятно слышать шум дождя, сидя дома в тепле. Никогда не надоест.
+#        Dialogue4: Не против, что я тут остаюсь?
+#        Dialogue5: Я уже долго путешествую по этой земле, но дома жить куда приятнее.
+#        Dialogue6: Дождь я люблю только дома, в тепле, а не когда он мочит мне одежду.
+#        Dialogue7: У меня есть неплохая добыча, которую я могу тебе продать. Сейчас мне, знаешь, деньги нужны.
+#        Dialogue8: Мой любимый цвет - зелёный, правда не знаю, зачем я тебе это говорю...
 #        Dialogue9: Естественно кошки лучше собак.
-#        Dialogue10: Have you seen a guy with slicked back, hazel hair? He carries a sword and wears a green tunic last I saw. I lost him before travelling through the portal, hope he's doing alright.
-#        Dialogue11: One time me and Zephos were in a cave, and then a skeleton with flowers stuck in its ribcage appeared. Zephos thought it was a powerful druid skeleton. He likes to exaggerate. It didn't have any magic, it was just a normal skeleton.
-#        Dialogue12: Cool Bug Fact: Coast Scarabs are small beetles that live on sandy beaches and eat grains of sand as their primary diet. When wet, their cyan shells will shine. Their shell is normally used to make cyan dyes.
-#        Dialogue13: Cool Bug Fact: Sandskin Spiders live in deserts, roaming around at night when other tiny insects come out to eat. When the hot day arrives, the spider will borrow a feet under the sand to sleep. Yes, I like bugs.
-#        Dialogue14: Living Blooms roam this island? They are native to Anglon's lush forests. Living Blooms are more plant than animal. Seems like many creatures got to this island from the portal.
-#        Dialogue15: There are zombies here? Not that I'm surprised, there are many types of undead on the mainland too.
-#        NoMoneyDialogue1: You're as poor as me?
-#        NoMoneyDialogue2: You really don't have enough money? Ah whatever, not like I can complain.
-#        AdviceDialogue1: Honestly, I'm surprised you still come to me for advice. You seem like a smart person, far more than I. But anyway, I've recently been seeing interesting wyverns in the sky - purple and gold. Give it a check if you wish.
-#        AdviceDialogue2: Hmm, that glowing eye you got looks rather... mythical. And it's giving you a riddle too? "Surround it with the stones of its origin"... Well you need to place some stone around it, the question is what kind? Maybe ask {0}.
-#        AdviceDialogue3: I've seen some robots meandering about the island, scanning random objects and creatures. No idea where they came from, but I did see one get attacked. Once it was weakened, it stopped moving and teleported into the sky. Their purpose is a mystery to me. Maybe you could figure it out?
-#        AdviceDialogue4: The dryad, {0}, says she's seen a Forest Nymph on this island at one point, if you can believe that. They're seldom seen, you'd only be able to find them near giant trees. If you do come across one, I wouldn't linger around for too long, they don't like humans getting in their personal space. I wonder if there were a way to befriend one though?
-#        AdviceDialogue5: "{0} has told me he came from another portal underground. Apparently it leads to some catacombs in Gathuram, but you wouldn't be able to go through it. Still, he's told of some rather intriguing things lying by the portal, I'd give it a check if I were you."
-#        AdviceDialogue6: While I was having a walk I came across some oddly-shaped stones - looked like a boulder with legs. I was curious of course, so I shot it from a safe distance. Nothing happened... and yet I sensed a presence inside it. You, as a slayer of many things, should search around and find it, might be another foe to face.
+#        Dialogue10: Слушай, ты видел парня с зачёсанными назад каштановыми волосами? В зелёной тунике, он ещё за спиной меч таскает. Потерял его перед порталом, надеюсь, с ним всё в порядке.
+#        Dialogue11: Однажды мы с Зефосом были в пещере, и тут появился скелет с цветами, застрявшими между ребер. Зефос подумал, что это был могущественный скелет друида. Любит он преувеличивать. В нём не было никакой магии, просто обычный скелет.
+#        Dialogue12: Крутой факт о жуках: пляжные скарабеи - это маленькие жуки, которые живут на песчаных пляжах и, в качестве своего основного рациона, питаются песчинками. Когда они намокнут, их циановые панцири начинают блестеть. Их оболочка обычно используется для изготовления циановых красителей.
+#        Dialogue13: Крутой факт о жуках: песчанокожие пауки живут в пустынях, бродя по ночам, когда другие крошечные насекомые выходят, чтобы поесть. Когда настаёт жаркий день, паук выкапывает себе под песком ямку, чтобы поспать. Да, я люблю жуков.
+#        Dialogue14: На этом острове обитают живоцветия? Они родом из пышных лесов Ангулона. Живоцветия - это больше растения, чем животные. Кажется эти существа попали сюда из портала.
+#        Dialogue15: Здесь есть зомби? Не то чтобы я удивился, на материке тоже куча видов нежити.
+#        NoMoneyDialogue1: Ты так же беден, как и я?
+#        NoMoneyDialogue2: У тебя правда не хватает денег? Ну да ладно, не мне жаловаться.
+#        AdviceDialogue1: Честно говоря, удивлён, что ты всё ещё ко мне за советами обращаешься. Вроде сам умный, даже умнее меня. Ладно, в общем, я тут недавно видел интересных выверн в небе - фиолетовых и золотых. Можешь глянуть, если хочешь.
+#        AdviceDialogue2: Хмм, этот светящийся глаз у тебя выглядит... мифически. Ещё и загадку тебе задаёт? "Окружи его камнями его происхождения"... Ну, тебе нужно положить вокруг него камни, вопрос - какие? Может, {0} подскажет?
+#        AdviceDialogue3: Я видел на острове каких-то роботов, они сканировали разные предметы и существ. Откуда они взялись - не знаю, но видел, как на одного напали. Когда его ослабили, он перестал двигаться и телепортировался в небо. Назначение их мне непонятно. Может, ты разберёшься?
+#        AdviceDialogue4: Дриада, {0}, говорит, что видела на этом острове Лесную нимфу. Если верить, конечно. Их редко увидишь, если только возле огромных деревьев. Встретишь, не задерживайся - они не любят, когда к ним лезут люди. Интересно, можно ли подружиться с ними?
+#        AdviceDialogue5: "{0} рассказал мне, что пришёл из другого портала под землёй. Кажется, он ведёт в катакомбы Гатурама, но ты через него не пройдёшь. Но он говорил о каких-то интересных вещах рядом с порталом. На твоём месте я бы проверил."
+#        AdviceDialogue6: Гулял тут, наткнулся на странные камни, будто валун с ногами. Заинтересовался, конечно, пострелял в них издалека. Ничего не произошло... но чувство присутствия чего-то внутри осталось. Ты, как истребитель всяких монстров, поищи его, может, ещё один враг найдётся.
 #        AdviceDialogue7:
 #            '''
-#            Ever see tiny lights dancing from a slain skeleton? Or perhaps a lantern-carrying ghost underground? Those are lost souls, and as far as I know, only
-#            {0} or {1} weapons may bring them harm. Not that I'd suggest harming those helpless things.
+#            Слушай, видел, как маленькие огоньки от убитого скелета пляшут? Или, может, фонарик-призрак под землей? Это заблудшие души, и насколько знаю, только
+#            оружие типа {0} или {1} может им навредить. Не то чтобы я советовал вредить этим беззащитным созданиям.
 #            '''
-#        AdviceDialogue8: Wanna know about some insects? If you wanna find leaf beetles, or tree bugs as they're called here, then chop down some trees. They live on tree tops, with their green shell camouflaging them in the foliage. Coast Scarabs can also be found on palm trees at the beach, their shells sparkle when wet. Grand larvae are, well, rather gross - though they can make excellent bait. That is, if you're brave enough to get close to one.
-#        AdviceDialogue9: When encountering skeletons and undead, I think its logical to assume {0} weapons aren't effective against them, while {1} weapons are. I used to like exploring the caves, until me and Zephos encountered a skeleton Vex...
-#        AdviceDialogue10: Best way to deal with slimes? Burn them. Alternatively, {0} weapons can freeze them in their place, THEN you can burn them!
-#        AdviceDialogue11: If you ever wanna sneak up on the Epidotrian skeletons or chickens, invisibility potions are real handy for the job.
-#        AdviceDialogue12: The weapons skeletons can wield are very rusty, so it'd be bad to be wounded by them. If you do, take a dip in some water and the dirty wound will disappear.
+#        AdviceDialogue8: Хочешь узнать про насекомых? Если хочешь найти листоедов, или как их тут называют, древесных жуков, тогда руби деревья. Они живут на верхушках деревьев, и их зеленая оболочка маскирует их среди листвы. Пляжных скарабеев можно найти на пальмах на пляже, их панцири блестят при намокании. Личинки... ну, довольно противные — хотя из них получается отличная приманка. Если, конечно, ты достаточно смел, чтобы подойти поближе.
+#        AdviceDialogue9: Когда сталкиваешься со скелетами и нежитью, логично предположить, что оружие типа {0} против них неэффективно, а вот {1} - да. Раньше я любил исследовать пещеры, пока я и Зефос не столкнулись со скелетом Вексом...
+#        AdviceDialogue10: Лучший способ разобраться со слизнями? Сжечь их. Ещё оружие типа {0} может заморозить их на месте, А ПОТОМ ты можешь их сжечь!
+#        AdviceDialogue11: Если хочешь подкрасться к скелетам эпидотрийцев или курицам, зелья невидимости очень кстати.
+#        AdviceDialogue12: Оружие, которое носят скелеты, очень ржавое, так что ранение от него — это плохо. Если такое случилось, окунись в воду, и грязная рана исчезнет.
 #        AdviceDialogue13:
 #            '''
-#            See foes wearing armor or holding shields? You'll need to break their Guard to deal with them.
-#            A [i:Redemption/Hammer]hammer or [i:Redemption/Explosive]explosives should be most efficient, just make sure your weapon isn't super weak.
+#            Видишь врагов в доспехах или со щитами? Тебе нужно сломать их Барьер, чтобы справиться с ними.
+#            [i:Redemption/Hammer]Молот или [i:Redemption/Explosive]взрывчатка должны быть наиболее эффективными, только убедись, что твоё оружие не слишком слабое.
 #            '''
-#        AdviceDialogue14: I felt a strange presence beneath that portal I hopped out of, which is quite peculiar. Maybe you should check it out.
-#        AdviceDialogue15: I noticed a scroll sitting atop a small table next to the portal I came out of, did you pick it up yet? It looked rather... demonic.
-#        AdviceDialogue16: Did I drop something on my way back into the portal? Oh, those glowing fragments? It seems to be guiding you somewhere important, I'd follow it before taking on any major foes.
-#        UnconsciousDialogue1: Did I just get knocked out? Thanks for waking me.
-#        UnconsciousDialogue2: I'm up. Wide awake. What did you give me? Some sort of potion?
-#        UnconsciousDialogue3: Was I asleep or unconscious? Most likely unconscious since, well, I wouldn't just go to sleep on the floor.
+#        AdviceDialogue14: Я почувствовал странное присутствие под тем порталом, из которого выскочил, что довольно любопытно. Может проверишь?
+#        AdviceDialogue15: Я заметил свиток, лежащий на маленьком столике рядом с порталом, из которого я вышел. Ты его ещё не брал? Он выглядел достаточно... демоническим.
+#        AdviceDialogue16: Ронял ли я что-нибудь по дороге в портал? Светящиеся осколки? Кажется, они ведут тебя к чему-то важному, я бы последовал за ними, прежде чем браться за серьёзных врагов.
+#        UnconsciousDialogue1: Меня что, вырубили? Спасибо, что разбудил.
+#        UnconsciousDialogue2: Я встал. Полностью проснулся. Что это было? Какое-то зелье?
+#        UnconsciousDialogue3: Я спал или был без сознания? Скорее всего, без сознания, потому что, ну, я бы просто так на полу не уснул.
 #    }
 #
 #    Zephos: {
-#        IntroDialogue1: Hey there, sorry for the intrusion but I've lost my friend beyond that portal! Mind if I stay here to get some supplies? I'm sure I'll find him eventually.
-#        IntroDialogue2: Thanks bro! I may have been a pirate when I was a youngster, but rest assure I will not steal any of your possessions. Just a few bits and bobs needed to help me find my friend, ya know? I'm Zephos, by the way. Pleasure to meet ya.
-#        IntroDialogue3: Where are my manners! M'name is Zephos, I hold no grand title to my name yet, but once I figure out the blade I'm certain your humble abode shall have a fine swordsman one day! As of now, I must attend to the matter of my friend and gather a few helpful resources. I hope my presence doesn't annoy ya.
-#        IntroDialogue4: Thanks bro! I may have been a pirate when I was a youngster, but rest assure I will not steal any of your possessions. Just a few bits and bobs needed to help me find my friend, ya know? Pleasure to meet ya.
-#        FemaleDialogue: So... You like... pirates?
-#        Dialogue1: How's it goin' bro!
-#        Dialogue2: Hey I came from the mainland through that portal, but you don't mind me staying here, right?
-#        Dialogue3: Yo, I have some pretty cool things, you can have them if you got the money.
-#        Dialogue4: My favourite colour is orange! Donno why I'm tellin' ya though...
-#        Dialogue5: I don't know what the deal with cats are. Dogs are definitely better!
-#        Dialogue6: Have you seen a guy in a cloak, he carries a bow around. I lost him before travelling through the portal, hope he's alright.
-#        Dialogue7: Wanna know about the time I was a pirate, sailing abroad the vast ocean with fellow pirate people... Actually, I don't remember a lot about being a pirate. I was very young at the time.
-#        Dialogue8: Did I ever tell you about my victory against a powerful undead druid? It was a close match, it was giant, and its magic was insane! But yeah, I beat it, pretty cool huh? It had flowers growing everywhere on it!
-#        Dialogue9: This island's gotta lotta chickens! Ever wonder where they came from? Back in Anglon, there are way deadlier chickens, called Anglonic Forest Hens. Funny story, I was with Daerel on one of his walks through the forest, then out of nowhere a giant hen charges through the bushes straight at him! I've never seen him run so fast!
-#        Dialogue10: I swear I saw a Blobble around here. I didn't expect them to be here, they're native to, uh, Ithon I think. Don't quote me on that though, Daerel's a lot better at remembering useless info than I.
-#        Dialogue11: You never told me there'd be undead here! What, they're called zombies? Well where I'm from they're called undead. There's also a few skeletons out here, normally they like to stay underground. This island is pretty weird. How do you live here?
+#        IntroDialogue1: Слушай, извини, что потревожил, но я потерял друга за тем порталом! Можно тут поживу, пока припасы найду? Уверен, я его в конце концов найду.
+#        IntroDialogue2: Спасибо, бро! Может, я и был пиратом в молодости, но можешь быть спокоен, ничего твоего не украду. Мне всего пара мелочей нужна, лишь чтобы друга найти, понимаешь? Кстати, я Зефос. Приятно познакомиться.
+#        IntroDialogue3: Ой, где мои манеры! Меня зовут Зефос, у меня пока нет никакого важного титула, но как только я отточу меч, твой скромный дом будет гордиться отличным мечником! А пока мне надо друга найти и кое-что полезное собрать. Надеюсь, я тебя не напрягаю.
+#        IntroDialogue4: Спасибо, бро! Может, я и был пиратом в молодости, но можешь быть спокоен, ничего твоего не украду. Мне всего пара мелочей нужна, лишь чтобы друга найти, понимаешь? Кстати, я Зефос. Приятно познакомиться.
+#        FemaleDialogue: Эм... тебе нравятся... пираты?
+#        Dialogue1: Как дела, бро!
+#        Dialogue2: Эм, я пришёл с материка через тот портал, но ты не против, если тут побуду, верно?
+#        Dialogue3: Слушай, у меня тут кое-что прикольное есть, можешь купить, если деньги есть.
+#        Dialogue4: Мой любимый цвет - оранжевый! Не знаю, зачем я тебе это сказал...
+#        Dialogue5: Я не понимаю, что за прикол с кошками. Собаки определённо лучше!
+#        Dialogue6: Не видел парня в плаще, с луком? Я его потерял, прежде чем пройти через портал, надеюсь, с ним всё в порядке.
+#        Dialogue7: Хочешь услышать про то, как я был пиратом, бороздил океан с другими пиратами... Если честно, мало что помню про то время. Я был совсем маленький.
+#        Dialogue8: Я рассказывал про свою победу над могущественным скелетом-друидом? Битва была напряжённая, он был огромный, и магия у него нереальная! Но да, я его победил, круто, правда? А ещё на нём повсюду росли цветы!
+#        Dialogue9: На этом острове куча куриц! Никогда не задумывался, откуда они? В Ангуоне, кстати, есть курицы куда опаснее, их называют ангулонские лесные курицы. Смешная история, я был с Дэрелом, он гулял по лесу, и тут из кустов на него несётся гигантская курица! Никогда не видел, чтобы он так быстро бегал!
+#        Dialogue10: Клянусь, я видел тут пузыреня. Не ожидал их здесь увидеть, они вроде как из... Итона, кажется. Но это не точно, Дэрел лучше меня помнит всякую ненужную информацию.
+#        Dialogue11: Эй, ты не говорил, что тут водится нежить! Зомби, говоришь? У нас их нежить называют. Ещё тут скелеты шляются, хотя обычно они под землёй сидят. Странный этот остров. Как ты тут вообще живёшь?
 #        NoMoneyDialogue1: "{$Dialogue.Daerel.NoMoneyDialogue1}"
 #        NoMoneyDialogue2: "{$Dialogue.Daerel.NoMoneyDialogue2}"
-#        AdviceDialogue1: Honestly, I'm surprised you still come to me for advice! I know I certainly ain't the smartest fella out there. But anyway, I've recently been seeing peculiar lookin' wyverns in the sky - purple and gold. Give it a check!
-#        AdviceDialogue2: Hmm, that shinin' eye you got looks rather... mythical. And it's giving you a riddle too? "Surround it with the stones of its origin"... Eh, I got nothin', maybe ask {0}.
-#        AdviceDialogue3: I've seen some strange metal folk meandering about the island, firing beams of light on random objects and creatures. No idea where they came from, but I did see one get attacked. Once it was weakened, it stopped moving and vanished into the air! Their purpose is a mystery to me. Maybe you could figure it out?
-#        AdviceDialogue4: Ya know {0}? She's seen a Forest Nymph on this island at one point, if you can believe that. Super rare creatures those are, you'd only be able to find them near giant trees. If you do come across one, I wouldn't linger around for too long, they don't like humans getting in their personal space. I wonder if there were a way to befriend one though?
-#        AdviceDialogue5: "{0} has told me he came from another portal underground. Apparently it leads to some catacombs, but you wouldn't be able to go through it. Still, he's told of some rather intriguing things lying by the portal, I'd give it a check if I were you!"
-#        AdviceDialogue6: While I was having a stroll I came across some oddly-shaped stones - looked like a boulder with legs. I was curious of course, so I gave it a WHAM with my sword! Nothing happened... and yet I sensed a presence inside it. You, as a slayer of many things, should search around and find it, might be another challenge to face!
+#        AdviceDialogue1: Знаешь, удивлён, что ты всё ещё ко мне за советом ходишь! Меня трудно назвать самым умным. Но ладно, я тут видел недавно странных виверн - фиолетовых и золотых. Глянь, может, что интересного найдёшь!
+#        AdviceDialogue2: Хмм, этот светящийся глаз... загадочный. И загадку тебе задаёт? "Окружи его камнями его происхождения"...  Эх, ничего не знаю, может {0} поможет?
+#        AdviceDialogue3: Видел я тут каких-то металлических чуваков. Бродят по острову, лучами света в разные объекты и тварей палят. Откуда они взялись - понятия не имею, но видел, как на одного напали. Как его ослабили, он перестал двигаться и исчез в воздухе! Зачем они тут - загадка. Может, ты разберёшься?
+#        AdviceDialogue4: {0} знаешь? Она рассказала, что видела на острове Лесных нимф, если поверишь. Редчайшие создания, только около огромных деревьев водятся. Если встретишь - не задерживайся, они не любят, когда люди в личное пространство лезут. Интересно, а можно с ними подружиться?
+#        AdviceDialogue5: "{0} говорил, что из подземного портала вышел. Ведёт он, вроде, в катакомбы, но пройти туда ты не сможешь. Зато он рассказывал, что около портала что-то интересное валяется. Я бы на твоём месте глянул!"
+#        AdviceDialogue6: Я тут гулял, да наткнулся на странные камни - похожи на валуны с ногами. Любопытства ради КАК стукнул мечом! Ничего не произошло... но присутствие внутри я почувствовал. Ты ж много чего поубивал, поищи, может, ещё одно испытание тебя ждёт!
 #        AdviceDialogue7:
 #            '''
-#            Ever see tiny lights skitterin' from a slain skeleton? Or perhaps a lantern-carrying ghost underground? Those are lost souls, and as far as I know, only
-#            {0} or {1} weapons may bring them harm. Not that I'd suggest harming those helpless things.
+#            Видел когда-нибудь маленькие огоньки от убитых скелетов или фонарики-призраки под землёй? Это заблудшие души, и, насколько знаю, только
+#            оружие {0} или {1} может им навредить. Хотя я бы не советовал вредить этим несчастным.
 #            '''
-#        AdviceDialogue8: When encountering skeletons and undead, {0} weapons are most effective against them. On the contrary, {1} weapons aren't as effective. I hate skeletons, used to think they looked kinda funny, until me and Daerel met a skeleton Vex.
-#        AdviceDialogue9: If you hate slimes, burn them! They'll burn brighter than my passion for attractive ladies{0}. Or, you could use {1} weapons to freeze them, but that isn't as fun.
-#        AdviceDialogue10: Ever want to sneak up on an Epidotrian skeleton? Or perhaps a chicken? Well invisibility potions are real handy for the job!
-#        AdviceDialogue11: Skeletons can wield some super rusty weapons, not something you'd wanna get cut by. If you do get a dirty wound, take a dip in some water and it'll disappear!
+#        AdviceDialogue8: Против скелетов и нежити оружие {0} самое эффективное, а вот {1} - не очень. Я скелетов терпеть не могу, раньше думал, они прикольные, пока мы с Даерелом на скелета Векса не наткнулись.
+#        AdviceDialogue9: Если ненавидишь слизней - жги их! Они ярче горят, чем моя страсть к красивым женщинам{0}. Или можно заморозить оружием {1}, но это не так весело.
+#        AdviceDialogue10: Хочешь незаметно подобраться к скелету-эпидотрийцу? Или к курице? Зелье невидимости очень кстати!
+#        AdviceDialogue11: Скелеты таскают ржавое оружие, им резаться крайне нежелательно. Если ранили таким, можешь окунуться в воду, рана заживёт.
 #        AdviceDialogue12:
 #            '''
-#            See foes wearing armor or holding shields? You'll need to smash their Guard to deal with them!
-#            A [i:Redemption/Hammer]hammer or [i:Redemption/Explosive]explosives will be your best bet, just make sure your weapon isn't super weak.
+#            Видел врагов в доспехах или со щитами? Сначала нужно пробить их Барьер!
+#            [i:Redemption/Hammer]Молот или [i:Redemption/Explosive]взрывчатка идеально подойдут для этого. Но убедись, что оружие не слишком слабое.
 #            '''
-#        AdviceDialogue13: I felt a weird presence beneath that portal I hopped out of, it was super uncanny! Maybe you should check it out.
-#        AdviceDialogue14: I saw a scroll sitting atop a small table next to the portal I came out of, did you pick it up yet? It looked rather... demonic.
-#        AdviceDialogue15: Did I drop something on my way back into the portal? Oh, those glowing fragments? Looks like it's guiding you somewhere important, I'd follow it before taking on any major foes!
-#        UnconsciousDialogue1: *Yawn* Why'd ya wake me up? I was havin' a dream about... doesn't matter.
-#        UnconsciousDialogue2: Alright, I'm up. Did I fall asleep or somethin'?
-#        UnconsciousDialogue3: Yuck, what did you make me drink? Tastes bitter... like strawberries...
+#        AdviceDialogue13: Я чувствовал странное присутствие под порталом, из которого вылез. Крайне жутко... Может, проверишь?
+#        AdviceDialogue14: Я видел свиток на столике рядом с порталом. Ты его взял? Он выглядел... демоническим.
+#        AdviceDialogue15: Ронял ли я что-нибудь по дороге в портал? Светящиеся осколки? Кажется, они ведут тебя к чему-то важному, я бы последовал за ними, прежде чем браться за серьёзных врагов!
+#        UnconsciousDialogue1: *Зевок* Зачем ты меня разбудил? Мне снился сон о... неважно.
+#        UnconsciousDialogue2: Ладно, я проснулся. Стоп, я что, уснул?
+#        UnconsciousDialogue3: Фу, что ты мне дал выпить? Горько... словно клубника...
 #    }
 #
 #    Fallen: {
@@ -10331,7 +10331,7 @@
 #            FarFromHome: Можешь, пожалуйста, проводить меня домой? Здесь очень страшно.
 #            NoHome: Слушай, мне бы не помешала крыша над головой, если ты не против.
 #            Content: Сейчас я вполне доволен.
-#            LikeBiome: Я считаю, что {BiomeName} – восхитительное место. Там, откуда я родом, снега почти не бывает.
+#            LikeBiome: Я считаю, что {BiomeName} - восхитительное место. Там, откуда я родом, снега почти не бывает.
 #            DislikeBiome: Признаться, мне не по душе {BiomeName}. Не хотелось бы столкнуться там со скелетами!
 #            HateBiome: Какого лешего ты разместил меня в {BiomeName}? Или ты не знаешь, как опасны джунгли?!
 #            LoveNPC: Мы с {NPCName} не разлей вода, спасибо за то, что разрешил нам жить в одном городе.
@@ -10576,7 +10576,7 @@
 #    ForestNymph.DisplayName: Лесная нимфа
 #    GathicTomb_Spawner.DisplayName: Gathic Tomb Spawner
 #    JollyMadman.DisplayName: Весёлый психопат
-#    LivingBloom.DisplayName: Живой бутон
+#    LivingBloom.DisplayName: Живоцветие
 #    RaveyardSkeleton.DisplayName: Пляшущий скелет
 #    RaveyardSkeletonSpawner.DisplayName: Генератор пляшущих скелетов
 #    SkeletonAssassin.DisplayName: Скелет-убийца
