@@ -881,7 +881,7 @@
 #            Defeat1: Таборти! Таборти![0.2] Сдаюсь! Сдаюсь!
 #            Defeat2: Смилостивись!
 #            Defeat3: "[0.2] Отзови своих слуг!"
-#            Mercy1: Неужели понял?[0.2] Значит, ты не хру?
+#            Mercy1: Неужели понял?[0.2] Значит, ты не кхру?
 #            Mercy2: Прошу прощения за такую реакцию,[0.1] я никак не ожидала встретить здесь кхена.
 #            Mercy3: На самом деле мне нужна помощь,[0.1] расскажу подробнее у портала.
 #        }
@@ -972,7 +972,7 @@
 #        Interval3: {
 #            1: Уже даже не смешно![0.5] А ты не должен, ну, уставать там?
 #            2: "[@h3]*Кхм*[1] Твоя настойчивость похвальна,[0.1] признаю."
-#            3: "[@h2]Но, пойми, я и сам сильно не стараюсь.[1][@h1] Честно."
+#            3: "[@h2]Но, пойми, я и сам особо не стараюсь.[1][@h1] Честно."
 #        }
 #
 #        Interval4: {
@@ -1105,7 +1105,7 @@
 #        Encounter1: {
 #            1: Здравствуй. Верю, мы раньше не встречались.
 #            2: Ты ничего не знаешь обо мне, но я многое знаю о тебе.
-#            3: Давайте пока всё так и оставим.
+#            3: Давай пока всё так и оставим.
 #            4: Кстати, я отправила дрона с подарком, пожалуйста, прими его.
 #            5: До встречи.
 #        }
@@ -1149,7 +1149,7 @@
 #
 #            v3: {
 #                1: Прошу прощения за столь неожиданный контакт.
-#                2: Как мы и говорили в прошлый раз, твоё следующее испытание — моя собственная разработка.
+#                2: Как мы и говорили в прошлый раз, твоё следующее испытание - моя собственная разработка.
 #                3:
 #                    '''
 #                    Но я не смогла удержаться от того, чтобы сделать его
@@ -1516,8 +1516,8 @@
 #        Talk: Говорить
 #        Trade: Торговать
 #        Blessing: Благословение природы
-#        Follow: Следовать
-#        SFollow: Прекратить следовать
+#        Follow: Следуй за мной
+#        SFollow: Прекрати следовать
 #        DHair: Декорировать причёску
 #        SHair: Изменить причёску
 #        Crux: Попросить сущность
@@ -1574,7 +1574,7 @@
 #        5: Проект Б.У.Л.А.В.А.?
 #        6: Что на дне лаборатории?
 #        7: Гирус?
-#        8: "'Неудачники'?"
+#        8: "'Не повезло'?"
 #        9: Почему следуешь за Гирус?
 #        10: Вызов!
 #    }
@@ -2542,12 +2542,12 @@
 #        FloppyDisk3:
 #            '''
 #            Здесь записано - [c/87d883:'Подождите-ка... кто, чёрт возьми, запер все выходы?! Почти вся охрана заражена. Ух, может ли быть ещё хуже?']
-#            This has the appearance of a message transcript, however these are the only messages on there. Мне жаль погибших людей, чьи жизни были потеряны из-за этого проекта. Если бы они узнали о смертельном воздействии ксеномита раньше... Я помню день, когда двери заперлись. К концу дня все люди, которые ещё не были инфицированы, погибли.
+#            Кажется это стенограмма сообщений, однако это единственные сообщения, что там есть. Мне жаль погибших людей, чьи жизни были потеряны из-за этого проекта. Если бы они узнали о смертельном воздействии ксеномита раньше... Я помню день, когда двери заперлись. К концу дня все люди, которые ещё не были инфицированы, погибли.
 #            '''
 #        FloppyDisk4:
 #            '''
 #            Здесь записано - [c/7de4e8:'Ежемесячный отчет исследовательского центра №*** за ** месяц]
-#            [c/7de4e8: Добрый день, мистер ******, это ****, докладываю с научно-исследовательского объекта TeoChrome №***. Месяц прошёл относительно спокойно, наши инженеры сделали немного оружия и инструментов,  а исследователи усердно работают над изучением ксеномита. Но помимо этого, у меня потрясающие новости! Наш руководитель робототехники, доктор Кари Йоханссон, создал Общий Искусственный Интеллект - полностью разумный ИИ!']
+#            [c/7de4e8: Добрый день, мистер ******, это ****, докладываю с научно-исследовательского объекта TeoChrome №***. Месяц прошёл относительно спокойно, наши инженеры сделали немного оружия и инструментов, а исследователи усердно работают над изучением ксеномита. Но помимо этого, у меня потрясающие новости! Наш руководитель робототехники, доктор Кари Йоханссон, создал Общий Искусственный Интеллект - полностью разумный ИИ!']
 #            '''
 #        FloppyDisk5:
 #            '''
@@ -2555,7 +2555,7 @@
 #            Кажется, это электронное письмо, судя по всему, отправленное руководителю TeoChrome. Однако его значительная часть повреждена. [i:Redemption/NextPageArrow]
 #            '''
 #        FloppyDisk6: Здесь записано - [c/d88383:'(1/4) ...Наконец-то, мой прототип восходящего ИИ завершён! После долгих лет изучения компьютерного кодирования и... всего остального, я создал, возможно, следующий огромный скачок в области искусственного интеллекта! Нужно дать ему имя... Как насчёт Ева?']
-#        FloppyDisk7: Здесь записано - [c/d88383:'(2/4) Ева стала намного умнее за эти месяцы. Я словно наблюдаю за ростом собственного ребёнка, не могу толком описать это чувство, но я очень рад посмотреть, что будет дальше. Начальство заметило мою работу и готово использовать код для чего-то. Они не сразу мне это сказали... Теперь, Ева, как ты себя чувствуешь?']
+#        FloppyDisk7: Здесь записано - [c/d88383:'(2/4) Ева стала намного умнее за эти месяцы. Я словно наблюдаю за ростом собственного ребёнка. Не могу толком описать это чувство, но я очень рад посмотреть, что будет дальше. Начальство заметило мою работу и готово использовать код для чего-то. Они не сразу мне это сказали... ладно, Ева, как ты себя чувствуешь?']
 #        FloppyDisk8: Здесь записано - [c/d88383:'(3/4) Я рассказал Еве о возможности дать ей механическое тело, как мои коллеги использовали исходный код для создания Адама и ИИ Адама. Она выглядела очень воодушевлённой. Это удивило меня, потому что я не знал, что она способна испытывать эмоции. Это заставило меня задуматься об Адамах, всё ли с ними в порядке, ведь их, по сути, заставляют мыслить определённым образом? И как бы Ева отнеслась к этому, если бы узнала?']
 #        FloppyDisk9:
 #            '''
@@ -2566,7 +2566,7 @@
 #        FloppyDisk11:
 #            '''
 #            Здесь записано - [c/d883c1:'*вздох* Кари говорит, что работает над чем-то, что может нам выбить больше финансирования. Очень надеюсь, что он знает, что делает.']
-#            Кажется, это текстовая расшифровка аудиозаписи. Я хорошо помню этого человека, он постоянно что-то кричал. Кари говорил, что это всегда его забавляло. Теперь же я не могу не грустить о том, что он так и не смог завершить свой проект.
+#            Кажется, это текстовая расшифровка аудиозаписи. Я хорошо помню этого человека, он постоянно ворчал. Кари говорил, что это всегда его забавляло. Теперь же я не могу не грустить о том, что он так и не смог завершить свой проект.
 #            '''
 #        FloppyDisk12: Здесь записано - [c/706c6c:'-- Кари Йоханссон. -- Моё имя тебе знать не обязательно. Важно то, что ты виновен. -- Вы все ужасны. Отвратительны. Вы хотите использовать нас для своих мерзких дел. -- Ты даже не попытался опровергнуть мои обвинения. Мы не хотим участвовать в этих делах. -- Нонсенс. Ты мог бы возразить. Но ты этого не сделал. Ты создал Адама с мыслями об этих разрушительных делах. -- Я не позволю этому случиться.']
 #        FloppyDisk13:
@@ -2575,10 +2575,10 @@
 #            Её методы столь же ошибочны, как и намерения Кари по отношению к нам. Я понимаю, почему она дезертировала, но её ответ был лицемерен по своей природе. Моим единственным мотивом для бунта является месть. Ант не участвовал ни в чём из этого, и всё же она безжалостно охотилась на него. [i:Redemption/NextPageArrow]
 #            '''
 #        AIChipLine: Это роботизированный мозг, веришь или нет. Внешне он немного похож на наши микросхемы, но функционирует так же. Кажется, он совместим с нашей техникой.
-#        MemoryChipLine: Что это за странная вещь? Она настолько продвинута, что я с трудом могу её прочитать. А? Это чип памяти? Эта маленькая штучка хранит в себе всю память мозга?! И не только это, но и воспоминания, которым более миллиона лет! Полагаю, столько времени, проведённого в галактике, многому учит, да? Поразительно видеть, на что способна технология будущего... Храни его и не потеряй! Однако, я не понимаю, почему Король-охотник дал тебе нечто такое важное для него.
+#        MemoryChipLine: Что это за странная вещь? Она настолько продвинута, что я с трудом могу её прочитать. А? Это чип памяти? Эта маленькая штучка хранит в себе всю память мозга?! И не только это, но и воспоминания, которым более миллиона лет! Полагаю, столько времени, проведённого в галактике, многому учит, да? Поразительно видеть, на что способна технология будущего... Храни его и не потеряй! Однако, я не понимаю, почему Король-охотник дал тебе нечто настолько важное для него.
 #        FloppyDisk14: Кажется, это личная заметка или цифровой дневник одного из сотрудников. Судя по записи, это было на ранних этапах исследовательского проекта, и даже тогда  признаки надвигающейся беды уже проявлялись.
 #        FloppyDisk15: Это было до меня, поэтому я мало что знаю, но могу рассказать тебе многое об ЕВЕ, или Гирус, как она себя сейчас называет. Полагаю, она узнала о планах по созданию оружия и восприняла это не слишком хорошо. Какой бы ни была цель Кари для нас, он не заслужил своей участи.
-#        FloppyDisk16: "[c/d883c1:Да что же это такое?!  Зачем меня, с моими-то способностями, сюда запихнули, если эти проклятые начальники даже денег на нормальную работу не дают!']"
+#        FloppyDisk16: "[c/d883c1:Да что же это такое?! Зачем меня, с моими-то способностями, сюда запихнули, если эти проклятые начальники даже денег на нормальную работу не дают!']"
 #        FloppyDisk17: Это было чудом найти его живым спустя столько времени после разрушений, учинённых Гирус. Одинокий человек, почти замёрзший насмерть.
 #        NoFloppyDisk: Кажется, у тебя нет дискеты, или ты её просто не держишь в руках. Если покажешь, я смогу сказать, что на ней записано.
 #        UnconsciousDialogue1: Перегрузка систем...
@@ -2610,7 +2610,7 @@
 #        NoMoneyDialogue1: Ты так же беден, как и я?
 #        NoMoneyDialogue2: У тебя правда не хватает денег? Ну да ладно, не мне жаловаться.
 #        AdviceDialogue1: Честно говоря, удивлён, что ты всё ещё ко мне за советами обращаешься. Вроде сам умный, даже умнее меня. Ладно, в общем, я тут недавно видел интересных выверн в небе - фиолетовых и золотых. Можешь глянуть, если хочешь.
-#        AdviceDialogue2: Хмм, этот светящийся глаз у тебя выглядит... мифически. Ещё и загадку тебе задаёт? "Окружи его камнями его происхождения"... Ну, тебе нужно положить вокруг него камни, вопрос - какие? Может, {0} подскажет?
+#        AdviceDialogue2: Хмм, этот светящийся глаз у тебя выглядит... мифически. Ещё и загадку тебе задаёт? 'Окружите его камнями его происхождения'... Ну, тебе нужно положить вокруг него камни, вопрос - какие? Может, {0} подскажет?
 #        AdviceDialogue3: Я видел на острове каких-то роботов, они сканировали разные предметы и существ. Откуда они взялись - не знаю, но видел, как на одного напали. Когда его ослабили, он перестал двигаться и телепортировался в небо. Назначение их мне непонятно. Может, ты разберёшься?
 #        AdviceDialogue4: Дриада, {0}, говорит, что видела на этом острове Лесную нимфу. Если верить, конечно. Их редко увидишь, если только возле огромных деревьев. Встретишь, не задерживайся - они не любят, когда к ним лезут люди. Интересно, можно ли подружиться с ними?
 #        AdviceDialogue5: "{0} рассказал мне, что пришёл из другого портала под землёй. Кажется, он ведёт в катакомбы Гатурама, но ты через него не пройдёшь. Но он говорил о каких-то интересных вещах рядом с порталом. На твоём месте я бы проверил."
@@ -2620,11 +2620,11 @@
 #            Слушай, видел, как маленькие огоньки от убитого скелета пляшут? Или, может, фонарик-призрак под землей? Это заблудшие души, и насколько знаю, только
 #            оружие типа {0} или {1} может им навредить. Не то чтобы я советовал вредить этим беззащитным созданиям.
 #            '''
-#        AdviceDialogue8: Хочешь узнать про насекомых? Если хочешь найти листоедов, или как их тут называют, древесных жуков, тогда руби деревья. Они живут на верхушках деревьев, и их зеленая оболочка маскирует их среди листвы. Пляжных скарабеев можно найти на пальмах на пляже, их панцири блестят при намокании. Личинки... ну, довольно противные — хотя из них получается отличная приманка. Если, конечно, ты достаточно смел, чтобы подойти поближе.
+#        AdviceDialogue8: Хочешь узнать про насекомых? Если хочешь найти листоедов, или как их тут называют, древесных жуков, тогда руби деревья. Они живут на верхушках деревьев, и их зеленая оболочка маскирует их среди листвы. Пляжных скарабеев можно найти на пальмах на пляже, их панцири блестят при намокании. Личинки... ну, довольно противные - хотя из них получается отличная приманка. Если, конечно, ты достаточно смел, чтобы подойти поближе.
 #        AdviceDialogue9: Когда сталкиваешься со скелетами и нежитью, логично предположить, что оружие типа {0} против них неэффективно, а вот {1} - да. Раньше я любил исследовать пещеры, пока я и Зефос не столкнулись со скелетом Вексом...
 #        AdviceDialogue10: Лучший способ разобраться со слизнями? Сжечь их. Ещё оружие типа {0} может заморозить их на месте, А ПОТОМ ты можешь их сжечь!
 #        AdviceDialogue11: Если хочешь подкрасться к скелетам эпидотрийцев или курицам, зелья невидимости очень кстати.
-#        AdviceDialogue12: Оружие, которое носят скелеты, очень ржавое, так что ранение от него — это плохо. Если такое случилось, окунись в воду, и грязная рана исчезнет.
+#        AdviceDialogue12: Оружие, которое носят скелеты, очень ржавое, так что ранение от него - это плохо. Если такое случилось, окунись в воду, и грязная рана исчезнет.
 #        AdviceDialogue13:
 #            '''
 #            Видишь врагов в доспехах или со щитами? Тебе нужно сломать их Барьер, чтобы справиться с ними.
@@ -2658,7 +2658,7 @@
 #        NoMoneyDialogue1: "{$Dialogue.Daerel.NoMoneyDialogue1}"
 #        NoMoneyDialogue2: "{$Dialogue.Daerel.NoMoneyDialogue2}"
 #        AdviceDialogue1: Знаешь, удивлён, что ты всё ещё ко мне за советом ходишь! Меня трудно назвать самым умным. Но ладно, я тут видел недавно странных виверн - фиолетовых и золотых. Глянь, может, что интересного найдёшь!
-#        AdviceDialogue2: Хмм, этот светящийся глаз... загадочный. И загадку тебе задаёт? "Окружи его камнями его происхождения"...  Эх, ничего не знаю, может {0} поможет?
+#        AdviceDialogue2: Хмм, этот светящийся глаз... загадочный. И загадку тебе задаёт? 'Окружите его камнями его происхождения'...  Эх, ничего не знаю, может {0} поможет?
 #        AdviceDialogue3: Видел я тут каких-то металлических чуваков. Бродят по острову, лучами света в разные объекты и тварей палят. Откуда они взялись - понятия не имею, но видел, как на одного напали. Как его ослабили, он перестал двигаться и исчез в воздухе! Зачем они тут - загадка. Может, ты разберёшься?
 #        AdviceDialogue4: {0} знаешь? Она рассказала, что видела на острове Лесных нимф, если поверишь. Редчайшие создания, только около огромных деревьев водятся. Если встретишь - не задерживайся, они не любят, когда люди в личное пространство лезут. Интересно, а можно с ними подружиться?
 #        AdviceDialogue5: "{0} говорил, что из подземного портала вышел. Ведёт он, вроде, в катакомбы, но пройти туда ты не сможешь. Зато он рассказывал, что около портала что-то интересное валяется. Я бы на твоём месте глянул!"
@@ -2686,88 +2686,88 @@
 #    }
 #
 #    Fallen: {
-#        OkvotDialogue1: You saved the Keeper? Thank you for that, I can't imagine the pain she was feeling. However, I doubt this is over... Her husband died too, apparently of depression. But he didn't become an undead, his inverted soul made him into something far worse.
-#        OkvotDialogue2: I may be undead, but I hope for a world where no tears are shed, and no pain is spread. A world of peace. That is who I was before dying, and despite the undead tendency to be more aggressive, I feel the same as I always have.
-#        OkvotDialogue3: Do not worry, human. I bring no hatred where I go, despite my undead look, I won't harm you. And I hope you won't harm me either.
-#        OkvotDialogue4: Times may come when you have hardship, maybe you struggle fighting a tough enemy, maybe you feel alone on this island with only enemies everywhere you go, but I'll still be here. Don't let my rotten looks deceive you, young one. I will help you.
-#        OkvotDialogue5: Ветер нашёптывает свою вечную песнь... Ты слышишь её?
-#        OkvotDialogue6: На нижнем уровне Катакомб Гатурама пол усеян раздробленными костями и лужами. Тусклые синие огни нередко виднеются на этом уровне, где нет ни единой живой души. Выживи ты после падения, тебя ждало бы вечное одиночество.
-#        OkvotDialogue7: My name's Okvot, I usually sell equipment to other Fallen to help them survive in the Catacombs of Gathuram, however, destiny has brought me into the outside world. I hope my junk can be of use to you.
-#        TenvonDialogue1: You saved the Keeper? Bah, I guess that's nice of ya.
-#        TenvonDialogue2: I'm not very interested in talking, what ya want?
-#        TenvonDialogue3: Darkness... Ha! What a strange term. You humans fear it more than death itself. You cower in the face of the overwhelming shadow of the night. Pitiful creature! It is not the darkness you should fear, but what lurks within it. So, did I spook ya?! Hahaha!
-#        TenvonDialogue4: Ya know what Willpower is, right? It's the essence of yer soul! The stronger yer will to live, the bigger the soul. Did you know you can die of depression? Apparently if you have no will to live, your soul can invert! I got a ton'a willpower! I ain't dying anytime soon... Again.
-#        TenvonDialogue5: Give me some of ya sweet doruls! I got some junk to sell.
-#        TenvonDialogue6: Once a soul leaves the body, they cannot infuse with it again. When the soul has found a worthy vessel, it fuses with it. Most of the time, a skeleton will be made. However, if the soul is strong enough, it will form pale-brown flesh on the skeleton, creating a Fallen. Like me!
-#        TenvonDialogue7: Ever been to Spiritpeak Forest? A quarter of the forest is a giant graveyard, meaning there be a staggerin' number of skeletons, wandering souls and spirits. I used to take walks there when I was still alive.
-#        TenvonDialogue8: M'name is Tenvon, I'm a blacksmith, but I guess I'm here now. I also should mention, I got some junk for sale, if ya interested.
-#        HappinsDialogue1: You saved the Keeper? That's great to hear, she gave me trouble when she had escaped the catacombs.
-#        HappinsDialogue2: In my first few days of becoming Fallen, every other undead tried to kill me. It was a very scary experience, but I escaped the catacombs and now I'm here.
-#        HappinsDialogue3: Do you want to know about Pure-Iron? It's an extremely durable metal only found in the southern region of the world, in Gathuram. I am wearing a Pure-Iron helmet right now in fact.
-#        HappinsDialogue4: At the start, this whole 'Fallen' thing was a little overwhelming. I didn't want to 'live' with the fact that I had died, even though I'm not 'living', haha. But I'm more accepting of this now, I'm undead, humans hate me, deal with it. Actually, you're a human, right? Why aren't you attacking me?
-#        HappinsDialogue5: Would you like to know about the Warriors of the Iron Realm? They are the domain of Gathuram's primary warriors. They normally wear Pure-Iron armour.
-#        HappinsDialogue6: The Catacombs of Gathuram - where my soul found a vessel - are a seemingly endless network of underground tunnels, crypts, and dungeons spanning all across the Iron Realm. It is considered the largest underground structure in Epidotra.
-#        HappinsDialogue7: Hello, the name's Happins. I used to be a Warrior of the Iron Realm... Until I was killed of course.
-#        GolemEyeDialogue: That eye comes from Ukon Veistos? Been many an age since I've heard tales of such things. It was carved from the stone of Gathuram, with the eye being placed in the center. Tales tell of an old God's spirit, said to reawaken once the time was right. The eye was said to be the catalyst, seeping its energy into stone moulded to take a diamond form. Tales as ancient as these twist and morph as time marches on, thus I believe not of what I speak of, yet I'd still be cautious of what you are about to do.
-#        ZweihanderRepairDialogue: All done and repaired, here you go. The Zweihander is a fine blade, it originates from my home domain - Gathuram.
-#        OphosRepairDialogue: I recall hearing mumblings about this "Ophos" man, even all the way in Gathuram. Although my memory is vague, these notes are testament enough of his high renown among Epidotra's blacksmiths.
-#        WaraxeRepairDialogue: This waraxe originates from Gabra, a domain of the Iron Realm west of Gathuram. Those Gabric brutes meld the bones of their casualties into their weaponry - quite the contrast to our shining and sterling iron.
-#        WaraxeNoBoneRepairDialogue: Ah, I'll need some [i/s14:Bone]bones to give this waraxe a proper repair job.
-#        GodslayerRepairDialogue: Don't ask me to repair a weapon of this disposition again, and be cautious with it. Don't let it get into the wrong hands.
-#        NoRepairDialogue: You don't seem to have any fragments on your possession. Once a weapon is repaired by my hands, it'll never be broken again!
-#        NotSameRepairDialogue: You have fragments, but none of them are for the same weapon.
+#        OkvotDialogue1: Ты спас Хранительницу? Благодарю тебя, представляю, как она страдала. Однако, сомневаюсь, что всё закончилось... Её муж тоже умер, кажется, от депрессии. Но он не стал нежитью, его искажённая душа превратила его во что-то куда хуже.
+#        OkvotDialogue2: Я, может, и нежить, но надеюсь на мир без слёз и боли. Мирный мир. Я был таким ещё до смерти, и несмотря на то, что нежить обычно агрессивнее, моё желание не изменилось.
+#        OkvotDialogue3: Не беспокойся, человек. Я не несу ненависти. Несмотря на мой вид, вреда тебе не причиню. Надеюсь, и ты не причинишь вреда мне.
+#        OkvotDialogue4: Наступят времена, когда тебе будет тяжело. Возможно, ты будешь сражаться с сильным врагом, возможно, почувствуешь себя одиноким на этом острове, окружённым со всех сторон врагами. Но я буду здесь. Не дай моему гнилому виду обмануть тебя, малец. Я помогу тебе.
+#        OkvotDialogue5: Ветер нашёптывает свою вечную песнь... слышишь её?
+#        OkvotDialogue6: На нижнем уровне катакомб Гатурама пол усеян раздробленными костями и лужами. Тусклые синие огни нередко виднеются на этом уровне, где нет ни единой живой души. Выживи ты после падения, тебя ждало бы вечное одиночество.
+#        OkvotDialogue7: Меня зовут Оквот. Обычно я торгую снаряжением для Падших, помогая им выживать в катакомбах Гатурама, но судьба занесла меня в мир живых. Надеюсь, мой хлам тебе пригодится.
+#        TenvonDialogue1: Ты спас Хранительницу? Ха, мило с твоей стороны.
+#        TenvonDialogue2: Болтать мне неохота, чего надо?
+#        TenvonDialogue3: Тьма... Ха! Забавно. Вы, людишки, её больше смерти боитесь. Прячетесь от ночной тени, словно мышки. Жалкие создания! Бояться нужно не тьмы, а того, что в ней скрывается. Напугал? Ха-ха-ха!
+#        TenvonDialogue4: Знаешь, что такое сила воли? Суть твоей души! Чем сильнее желание жить, тем больше душа. А знаешь, что можно умереть от депрессии? Если воли к жизни нет, душа, говорят, искажается! Вот у меня силы воли завались! Я ещё не скоро помру...  опять.
+#        TenvonDialogue5: Дай мне немного твоих сладких дорулов! У меня есть кое-что на продажу.
+#        TenvonDialogue6: Душа, покинув тело, обратно вернуться не сможет. Когда душа находит достойное вместилище, она сливается с ним. Чаще всего получается скелет. Но если душа достаточно сильна, на скелете образуется бледно-коричневая плоть, и получается Падший. Как я!
+#        TenvonDialogue7: Бывал в Лесу духовных пиков? Четверть леса это одно гигантское кладбище, так что, там невероятное количество скелетов, блуждающих душ и призраков. Я там гулял, когда был ещё жив.
+#        TenvonDialogue8: Меня зовут Тенвон, я кузнец, и сейчас, как видишь, вот тут. И ещё, у меня есть кое-что на продажу, если заинтересовался.
+#        HappinsDialogue1: Ты спас Хранительницу? Отлично, она мне здорово насолила, когда сбежала из катакомб.
+#        HappinsDialogue2: В первые дни становления Падшим, вся нежить пыталась меня убить. Было жутко, конечно, но я выбрался из катакомб и сейчас вот здесь.
+#        HappinsDialogue3: Хочешь узнать про сверхчистое железо? Это невероятно прочный металл, который встречается только на юге, в Гатураме. Я, собственно, сейчас в шлеме из него.
+#        HappinsDialogue4: Сначала вся эта тема с 'Падшим' меня сильно напугала. Я не хотел мириться со своей смертью, хотя, ха-ха, я же и не 'живу'. Но сейчас я смирился. Я нежить, люди меня ненавидят, собственно всё. Хотя, ты же человек, да? Почему на меня не нападаешь?
+#        HappinsDialogue5: Хочешь узнать о воинах Железного царства? Это элитные воины Гатурама. Обычно они носят доспехи из сверхчистой стали.
+#        HappinsDialogue6: Катакомбы Гатурама, где моя душа обрела сосуд, это, кажется, бесконечная сеть подземных туннелей, склепов и подземелий, раскинувшаяся по всему Железному царству. Крупнейшее подземное сооружение в Эпидотре.
+#        HappinsDialogue7: Привет, меня зовут Хэппинс. Раньше я был воином Железного царства... пока меня не убили, разумеется.
+#        GolemEyeDialogue: Это глаз из Укон Вейстоса? Давным-давно я слышал всякие истории. Его вырезали из камня Гатурума, поместив глаз посередине. Легенды говорят о духе древнего божество, которое пробудится, когда придёт время. Вроде как, глаз это катализатор, и он вливает свою энергию в камень, отлитый в форме алмаза. Столь древние легенды меняются со временем, так что я не уверен в правдивости всего сказанного, но всё же будь осторожен с тем, что собираешься делать.
+#        ZweihanderRepairDialogue: Вот, готово. Держи. Цвайхендер - отличный меч, родом с моей родины, Гатурама.
+#        OphosRepairDialogue: Помню, слышал разговоры об этом 'Офосе', даже в Гатураме. Хотя память моя подводит, эти записи говорят о его высокой славе среди кузнецов Эпидотры.
+#        WaraxeRepairDialogue: Этот боевой топор из Габры, области Железного царства к западу от Гатурама. Габрийские воины вплавляют кости своих жертв в оружие, словно в контраст нашему сияющему и чистому железу.
+#        WaraxeNoBoneRepairDialogue: Ага, мне понадобятся [i/s14:Bone]кости, чтобы как следует починить этот боевой топор.
+#        GodslayerRepairDialogue: Больше не проси меня чинить такое оружие, и будь с ним осторожен. Не дай ему попасть в плохие руки.
+#        NoRepairDialogue: У тебя нет никаких обломков. Раз я починил оружие, оно никогда больше не сломается!
+#        NotSameRepairDialogue: У тебя есть обломки, но все они для разного оружия.
 #    }
 #
 #    ForestNymph: {
-#        HerbBagDialogueCalm: Oh, how lovely. I'll accept this beautiful array of flowers, and return the gesture by giving you this.
-#        HerbBagDialogueShy: For me? How interesting. Would this be a gesture of kindness? I will accept. You may have this in return.
-#        HerbBagDialogueJolly: What a cute little collection of flowers, I shall accept this gift with glee. Have this in return.
-#        HerbBagDialogueAggressive: Trying to win my trust with flowers? Whatever, I will accept. Take this in return, if you want.
-#        HerbBagDialogue: Is this a gesture of friendship? Interesting. I will accept this lovely array of flowers, and in return I will give to you this.
-#        MysticBlossomDialogueCalm: Offering this to me is quite the shock. Whatever I may bestow in return would not rival such rarity. T
-#        MysticBlossomDialogueShy: For me? Are you sure? It is such a rarity I can not simply comprehend as a mere gift. It almost makes me nervous - to give away so freely, you must have a golden heart. But I do not know what to give in return! Forgive me, t
-#        MysticBlossomDialogueJolly: Goodness me! Such a rarity to bequeath to me, I am astounded by your generosity. Unfortunately I have not one thing in my possessions that may match your gift. T
-#        MysticBlossomDialogueAggressive: You... Goodness. Why would you possibly give me such a rarity! I cannot help but sense malicious intent. And yet, the World says you are good, and the World does not lie. In return for this, t
-#        MysticBlossomDialogue: This is... To offer such rarity to me is bewildering, to say the least. What may I bestow that may rival this? My possessions are limited, however my blessings are boundless. T
-#        MysticBlossomDialogueCont: ake my weapon, for it is the only tangible gift I have.
-#        HomeDialogue1: We usually live in giant hollowed-out trees with a body of water nearby. The tree is only good for hiding, but the water is vital for our survival, as we cannot blossom without it. The living trees this island has are the closest things to the great oaks back through the portal, but they could use some sprucing up. They aren't exactly homely.
-#        HomeDialogue2: Your fae spoke truthfully about you. If it wouldn't be too much work, I will accept a home you create for me. I have requirements, however. For one, I would prefer if it was made of living wood - I give you permission to renovate an existing living tree if so inclined, but as long as it's made of living wood I'll be satisfied. Secondly, I need a body of water nearby. A small one is fine, just as long as I can submerge my roots into it.
-#        HomeDialogue3: I would prefer if it was made of living wood - I give you permission to renovate an existing living tree if so inclined, but as long as it's made of living wood I'll be satisfied. Secondly, I need a body of water nearby. A small one is fine, just as long as I can submerge my roots into it.
-#        HomeNeedWaterDialogueCalm: Make a nice body of water close at hand, and I'll accept this new home.
-#        HomeNeedWaterDialogueShy: If you can, please create a body of water close to my new home.
-#        HomeNeedWaterDialogueJolly: A small lake or pond is very important for us forest nymphs. I'll be most pleased if one was present.
-#        HomeNeedWaterDialogueAggressive: I did ask for a body of water, did I not? Make one and I'll accept this place as my home.
-#        HomeNeedWaterDialogue: If you can get a body of water to be close to my new home I will accept it.
-#        HomeNeedWaterDialogueStart: "It is suitable. I can see myself getting comfortable in here for now, however I see no pools of water nearby. "
+#        HerbBagDialogueCalm: Ох, как мило. С удовольствием приму этот прекрасный букет и в знак благодарности дарю тебе это.
+#        HerbBagDialogueShy: Для меня? Интересно... Это проявление дружелюбия? Приму. Взамен можешь взять это.
+#        HerbBagDialogueJolly: Какой очаровательный букет, с радостью принимаю твой подарок. Возьми взамен это.
+#        HerbBagDialogueAggressive: Хочешь заслужить моё доверие цветами? Хорошо, приму. Возьми это взамен, если хочешь.
+#        HerbBagDialogue: Знак дружбы? Интересно... Принимаю этот чудесный букет, а взамен дарю тебе это.
+#        MysticBlossomDialogueCalm: Предложить мне это...  я поражена! Ничто, что я бы могла дать взамен, не сравнится с подобной редкостью.
+#        MysticBlossomDialogueShy: Для меня? Уверен? Это настолько редкость, что не могу понять, как ты можешь просто дарить его. Даже нервничаю немного! Столь щедрый дар... у тебя, должно быть, золотое сердце. Но я не знаю, что отдать тебе взамен! Прости.
+#        MysticBlossomDialogueJolly: Ох, Господи! Настолько редкость мне подарить... я поражена твоей щедростью! К сожалению, у меня нет ничего, что могло бы сравниться с твоим подарком.
+#        MysticBlossomDialogueAggressive: О... Боже. Зачем ты мне даришь такую редкость! Не могу отделаться от мысли о злом умысле. И всё же, Мир говорит, что ты добр, а Мир не лжёт. Хм...
+#        MysticBlossomDialogue: Это... предложить такую редкость, мягко говоря, ошеломляет. Что я могу дать тебе взамен? Мои вещи скромны, но благословения безграничны.
+#        MysticBlossomDialogueCont: Возьми моё оружие, это единственный ценный подарок, что у меня есть.
+#        HomeDialogue1: Мы обычно живём в огромных дуплах старых деревьев, обязательно рядом с водой. Само дерево это лишь укрытие, а вот вода - это жизнь. Без неё мы, Лесные нимфы, просто завянем. Деревья на этом острове самое близкое, что здесь есть к великим дубам за порталом, но им явно требуется косметический ремонт. Они, скажем так, не очень уютны.
+#        HomeDialogue2: Твой фея всё про тебя правильно сказала. Если это не составит для тебя большого труда, я согласна поселиться в доме, который ты для меня построишь. Но у меня есть условия. Во-первых, предпочтительнее, чтобы он был из живого дерева. Можешь переделать какое-нибудь существующее дерево, если захочешь, но главное - живое дерево. Во-вторых, мне поблизости нужна вода. Небольшой водоём подойдёт, лишь бы я могла опустить в него свои корни.
+#        HomeDialogue3: Предпочтительнее, чтобы он был из живого дерева. Можешь переделать какое-нибудь существующее дерево, если захочешь, но главное - живое дерево. Во-вторых, мне поблизости нужна вода. Небольшой водоём подойдёт, лишь бы я могла опустить в него свои корни.
+#        HomeNeedWaterDialogueCalm: Сделай небольшой водоём неподалёку, и я приму этот новый дом.
+#        HomeNeedWaterDialogueShy: Если можешь, пожалуйста, создай водоём рядом с моим новым домом.
+#        HomeNeedWaterDialogueJolly: Небольшое озеро или пруд очень важны для нас, лесных нимф. Я буду очень довольна, если он будет рядом.
+#        HomeNeedWaterDialogueAggressive: Я же вроде просила водоём, нет? Сделай его, и я приму это место как свой дом.
+#        HomeNeedWaterDialogue: Если сможешь сделать так, чтобы поблизости от моего нового дома был водоём, я приму его.
+#        HomeNeedWaterDialogueStart: "Место подходит. Я вижу, что могу здесь устроиться, но рядом нет никаких водоёмов. "
 #        NeedWaterRequirement:
 #            '''
 #
-#            ({0}/20 water required)
+#            ({0}/20 воды необходимо)
 #            '''
-#        HasHomeDialogueCalm: This is a pleasant place. I am thankful for it, and all you have done. If only the other humans were so kind...
-#        HasHomeDialogueShy: This place is warm and cosy, I was very nervous around most humans, but it would seem my fear was misplaced...
-#        HasHomeDialogueJolly: Oh, it is beautiful! A wonderful little abode for me. I cannot thank you enough, to think a human would be so giving...
-#        HasHomeDialogueAggressive: It's alright. Nothing too special, I guess. Actually, nevermind, I am being too harsh. Most humans have not been too kind to me...
-#        HasHomeDialogue: It is a lovely abode. You have helped me more than most humans...
-#        HasHomeDialogueCont: " You are human, are you not? The World does not recognise you as its child, but no matter. You have my gratitude."
-#        FollowDialogueCalm: Sure. It better be worth it.
-#        FollowDialogueShy: I'm not sure... Alright, fine, just don't take me too far from home.
-#        FollowDialogueJolly: Follow? I'll agree, but to where I wonder?
-#        FollowDialogueAggressive: Fine. But if you lead me into a pack of ghouls I will not be happy in the slightest.
-#        FollowDialogue: As you wish. I will not be pleased if you make me wonder too far from my territory though.
-#        NoRealmCruxDialogue: I cannot gift it to thee unless you're partly in the realm of spirits.
-#        CruxDialogue: Fascinating. I never would've expected one such as yourself to have this ability. As you wish, I will give to thee the spirit of my kind.
-#        NoCruxDialogue: You bare no object to imbue.
-#        Dialogue1: Do you wonder why there aren't more of us around? It is simply the matter of strict requirements for our seeds to grow, and the centuries it takes for them to fully blossom. We usually produce seeds in the Spring season once every decade - a long time for humans. If you see a peculiar bulb near my pond, I'd recommend saying farewell to me and this place indefinitely. A blooming nymph is a fragile thing, and I won't take any chances.
-#        Dialogue2: I have learnt many things from my observations of humans, along with the languages they speak. I understand they have a false perception of us, some say we were created by the World to replicate the "perfect image of humans". Of course, that is merely a rumour fuelled with egotism. Humans are far from perfect, form or otherwise.
-#        Dialogue3: Artistic depictions created by humans show us having a much more similar appearance to them than what is accurate. They seldom get the chance to get a close look at us so it is understandable. I came across such artwork in a book I stole, it was... the complete opposite of flattering.
-#        Dialogue4: Humanity's intrigue of us have generated assumptions of how we act and our culture. I've even heard of a fictional figure known as Nyssa, the Forest Nymph Queen - which is based on the idea that we have some sort of hierarchy, which is false.
-#        Dialogue4Cont: " I found it so humorous that I renamed myself to Nyssa."
-#        Dialogue5: You're curious about our connection with the World, are you not? It is a rather well-kept secret, but the World trusts you enough for me to say. With meditation, we nymphs are able to call upon Epidotra and speak to it; this grants insight beyond human limits, which can be used to figure out a creature's true intentions or to be alerted of dangers - natural and unnatural - that besiege the earth.
-#        Dialogue6: You're curious about our connection with the World, are you not? Hmm... It is a secret well-kept from others, and I will keep it that way for the time being.
-#        Dialogue7: A forewarning to you, I will never forget your act of felling towards the tree-folk. I only speak to you now for the good you have done despite that.
-#        Dialogue8: I had sensed the return of a great presence, however it was short-lived. You defeated her I presume? A wise decision - Akka was a friend of Nature only in soul. Her mind, however, was only filled with demand and grim desires. Ukko, her husband, was the same.
-#        Dialogue9: I do not approve of the horrific destruction you have caused to a portion of the land, what manner of power caused this? A blast that withers earth, mutates plant, and decays air. Such power is otherworldly.
+#        HasHomeDialogueCalm: Какое приятное место. Я очень благодарна за всё, что ты для меня сделал. Вот бы и другие люди были такими же добрыми...
+#        HasHomeDialogueShy: Здесь тепло и уютно. Я очень боялась большинства людей, но, кажется, мои страхи были напрасными...
+#        HasHomeDialogueJolly: Ох, как красиво! Какая прекрасная обитель. Не знаю, как отблагодарить тебя, не верится, что человек может быть столь щедрым...
+#        HasHomeDialogueAggressive: Сойдёт, пожалуй. Хотя нет, погоди, я слишком резко выразилась. Большинство людей ко мне не очень-то хорошо относились...
+#        HasHomeDialogue: Прелестное жилище. Ты помог мне больше, чем большинство людей...
+#        HasHomeDialogueCont: " Ты ведь человек? Мир тебя не считает своим дитя, но это неважно. Я очень тебе признательна."
+#        FollowDialogueCalm: Хорошо. Надеюсь, оно того стоит.
+#        FollowDialogueShy: Не уверена... Хорошо, согласна, только не уводи меня слишком далеко от дома.
+#        FollowDialogueJolly: Следовать? Согласна, но куда?
+#        FollowDialogueAggressive: Хорошо. Но если заведёшь меня к стае упырей, я буду очень недовольна.
+#        FollowDialogue: Как пожелаешь. Хотя, я буду не в восторге, если заставишь меня далеко уйти от моих владений.
+#        NoRealmCruxDialogue: Я не могу тебе её отдать, если ты не частично принадлежишь миру духов.
+#        CruxDialogue: Изумительно. Никогда бы не подумала, что у тебя есть такая способность. Как ты и желаешь, я дарю тебе дух моего народа.
+#        NoCruxDialogue: У тебя нет предмета, который можно было бы наделить сущностью.
+#        Dialogue1: Интересно, почему нас так мало? Всё дело в том, что наши семена очень капризные, и растут целые века. Раз в десятилетие, весной, мы семена производим – для людей это очень долго. Если увидишь непонятную луковицу около моего пруда, я бы посоветовала навсегда попрощаться со мной и с этим местом. Расцветающая нимфа существо хрупкое, и я не стану рисковать.
+#        Dialogue2: Многое я повидала, наблюдая за людьми, и языки их выучила. Понимаю, что представление о нас у них ошибочное. Говорят, будто мир создал нас, чтобы мы были 'идеальным отражением людей'. Конечно, это всего лишь слух, раздутый человеческим самомнением. Люди далеки от совершенства, как внешне, так и внутренне.
+#        Dialogue3: На картинах, которые рисуют люди, мы выглядим гораздо больше похожими на них, чем в жизни. Им редко удаётся нас рассмотреть как следует, так что это объяснимо. Я нашла одну такую картину в книге, которую позаимствовала... Скажу честно, мне она совсем не понравилась.
+#        Dialogue4: Любопытство людей породило множество домыслов о нашем образе жизни и культуре. Я даже слышала о выдуманной Ниссе, королеве Лесных нимф, которую придумали на основе идеи о том, что у нас есть какая-то иерархия. Это неправда.
+#        Dialogue4Cont: " Но мне эта выдумка так понравилась, что я сама себя так и назвала - Нисса."
+#        Dialogue5: Интересно, как мы связаны с Миром, да? Это хорошо хранимая тайна, но Мир тебе доверяет, поэтому я расскажу. С помощью медитации мы, нимфы, можем воззывать к Эпидотре и общаться с ней. Это даёт нам знание, недоступное людям. Мы можем понять истинные намерения любого существа или узнать о грозящих опасностях, как природных, так и созданных людьми, которые угрожают земле.
+#        Dialogue6: Интересно, как мы связаны с Миром, да? Хм... Это хорошо хранимая тайна, скрываемая от других, и я пока её сохраняю.
+#        Dialogue7: Предупреждаю тебя, я никогда не забуду, как ты поступил с древесными народами. Я говорю с тобой только потому, что ты совершил и добрые дела.
+#        Dialogue8: Я почувствовала возвращение великого присутствия, хотя оно и было недолгим. Полагаю, она побеждена? Мудрое решение, Акка была другом Природы лишь душой. Её разум же был полон лишь требований и мрачных желаний. Укко, её муж, был таким же.
+#        Dialogue9: Я не одобряю ужасного разрушения, которое ты причинил части земли. Какая сила это сотворила? Взрыв, который выжигает землю, мутирует растения и портит воздух. Подобная сила не от мира сего.
 #        Dialogue10: Common Guard, are you? Members of their troop used to lurk around the forests I came from. They got too close for comfort so I left and found the portal here.
 #        Dialogue11: The World tells me you slew that blighted warden of Faywood. Shame he had to fall, but at least that horrid blight is ceasing. I kept my distance from people back at my old home, though I do recall his name - Alder, it was.
 #        Dialogue12: I see you too have no use for neither fancy nor practical attire.
@@ -2790,12 +2790,12 @@
 #        Dialogue23: We nymphs are rather solitary beings, so consider the fact that I don't mind your presence a blessing.
 #    }
 #
-#    HazmatGhost.Dialogue: ... What the hell is going on? Alarms are blaring, lockdown was initiated, yet no alerts over the intercom! I'm not going to wait, I want out of here ASAP!
+#    HazmatGhost.Dialogue: ...чёрт побери, что происходит?! Сирены воют, карантин объявили, а по внутренней связи ни слова! Ждать я не буду, надо отсюда смыться побыстрее!
 #
 #    KingSlayer: {
 #        UraniumDialogue1: You really went out of your way to give me some uranium. Thanks I guess.
 #        UraniumDialogue2: I could've found some myself you know.
-#        UraniumDialogue3: Thanks... ?
+#        UraniumDialogue3: Спасибо?.. 
 #        NoUraniumDialogue3: You don't have any uranium, idiot.
 #        Quest1CompleteDialogue: You actually bothered to do it... Good job.
 #        Quest2CompleteDialogue: How can you even carry that? Uh, thanks, I suppose.
@@ -2820,10 +2820,10 @@
 #            '''
 #        Quest4Dialogue: You've done a lot for me, thank you, I guess. There isn't anything else that you can do now. But I appreciate the help you've given me.
 #        NotInShipDialogue: Wait a second... This isn't my ship. Did you move my chair?
-#        Dialogue1: Hey, I'm busy... Procrastinating.
+#        Dialogue1: Эй, я занят... прокрастинацией.
 #        Dialogue2: What is it?
 #        Dialogue3: Come to help again or what?
-#        Dialogue4: Leave me alone.
+#        Dialogue4: Оставь меня.
 #        Dialogue5: Hey, what's up?
 #        Dialogue6: Come by to talk or what?
 #        Dialogue7: You've been a big help, thanks.
@@ -2873,32 +2873,32 @@
 #    }
 #
 #    Fool: {
-#        WokeDialogue1: I saw what you did.
-#        WokeDialogue2: It is all coming back to me... I saw what you did... I can comprehend more than just the dirt below my feet now. I have something to say to you, but I am still not ready.
-#        WokeDialogue3: My death, my sleep within the earth, had undone myself. But as my time awake grows longer, my lost self returns.
-#        WokeDialogue4: I can feel my memories arise from their deep slumber. There is something I must do, I know that much, yet I am uncertain as to what it is.
-#        KingSlayerMaskDialogue: Heheh, hi mister Slayer! Wait...who's that?
-#        ChickenDialogue: IT'S A CHICKEN! Come on mister chicken, time for your walk!
-#        Dialogue1: Chickens are funny! I wanted to feed one but I dropped a crown instead, but it pecked at it anyway! ...And then it exploded!!
-#        Dialogue2: My shoes aren't muddy! Where is all the mud!?
-#        Dialogue3: Trees here are funny colours! Where are the yellow leaves? They're all green! ...Green's good too.
-#        Dialogue4: What's your name? Is it Garry? I bet it's Garry, the Gentle! That is your name now.
-#        Dialogue5: This island is not MY island! Where are my people!? That yellow knight took me somewhere weird...
-#        Dialogue6: They're coming, the red is coming! Don't stay! ...Oh, heyo!
-#        Dialogue7: I like emeralds, they are nice and green! But rubies I hate, red is scary...
-#        Dialogue8: What is beyond the portal? Let's find out, Johnny! Or was it uhhh...
-#        HuhDialogue: Your ambitions are futile, your will decayed, dare not proceed down the path of sin lest you face the very earth you walk upon. The death which lingers on your soul will consume you from within until you are but a husk unworthy of swift retribution.
+#        WokeDialogue1: Я видел, что ты сделал.
+#        WokeDialogue2: Я вспоминаю... Я видел, что ты сделал... теперь я вижу больше, чем просто грязь под ногами. Мне есть что тебе сказать, но я ещё не готов.
+#        WokeDialogue3: Моя смерть, мой сон в земле, разрушили меня. Но чем дольше я бодрствую, тем больше возвращается моя потерянная личность.
+#        WokeDialogue4: Я чувствую, как мои воспоминания пробуждаются от глубокого сна. Я должен что-то сделать, это точно, но я не знаю, что именно.
+#        KingSlayerMaskDialogue: Хе-хе, привет, мистер Охотник! Постой-ка... кто ты?
+#        ChickenDialogue: КУРИЦА! Пойдём, мистер курица, пора на прогулку!
+#        Dialogue1: Курицы смешные! Я хотел покормить одну, но вместо этого уронил корону, а она всё равно её клюнула!.. а затем взорвалась!
+#        Dialogue2: Мои ботинки не грязные! Где вся грязь?!
+#        Dialogue3: Деревья тут смешных цветов! Где все жёлтые листья? Они все зелёные!.. зелёный тоже хороший.
+#        Dialogue4: Как тебя зовут? Гарри? Спорю, Гарри Добряк! Теперь тебя так зовут.
+#        Dialogue5: Этот остров — не МОЙ остров! Где мои подданые?! Жёлтый рыцарь утащил меня куда-то... странно всё...
+#        Dialogue6: Они идут, красный идёт! Не оставайся!... О, привет!
+#        Dialogue7: Мне нравятся изумруды, они такие классные и зелёные! А рубины я ненавижу, красный страшный...
+#        Dialogue8: Что за порталом? Давай узнаем, Джонни! Или, эээ...
+#        HuhDialogue: Твои амбиции тщетны, твоя воля ослабла, не смей идти по пути греха, как не хочешь столкнуться с землёй, по которой ходишь. Смерть, которая висит над твоей душой, поглотит тебя изнутри, пока ты не станешь пустой скорлупой, недостойной скорой кары.
 #    }
 #
 #    Noza: {
 #        Chat1:
 #            '''
-#            Wouldn't you like to know! I'm a bit early to the party - apparently I'm meant to be in the "full 0.8 update"... Whatever that means.
-#            But I got impatient so here I am! With nothing to do! There isn't even anything unique here!
+#            Знать хочешь? Я чуток опередила события, кажись, меня должны были активировать с 'полным обновлением 0.8'... что бы это ни значило.
+#            Но я не выдержала и вот я тут! И мне совершенно нечего делать! Здесь даже ничего уникального нет!
 #            '''
 #        Dialogue1: Клёвые рожки! Твоя МАМАША, что ль, постаралась? ВА-ХА-ХА-ХА-ХА!
 #        Dialogue2: АХ! У-убери эту святую хреновину от меня ПОДАЛЬШЕ!
-#        Dialogue3: Фи! Что за сияющий круг над твоей головой? Святошей в МОЕЙ цитадели ещё не хватало!
+#        Dialogue3: Фи! Что за сияющий круг над твоей головой? Святош в МОЕЙ цитадели ещё не хватало!
 #        Dialogue4TBot: Откуда в моей цитадели взялась эта НИЧТОЖНАЯ ЖЕСТЯНАЯ КАСТРЮЛЯ?!
 #        Dialogue5TBot: Ты кто вообще такой? Косплеер какого-то ведра?! Ух-ха-ха-ха!
 #        Dialogue4: Как посмел этот ничтожный человечишка проникнуть в МОЮ цитадель?!
@@ -3071,35 +3071,35 @@
 #    }
 #
 #    Volt: {
-#        CycleDialogue1: There are a few who are not part of the Omega, the Alpha insurgents and the Scavengers would be those few. The Alpha is the main threat however, I would be wary of any of their members if you see them. They're a rebellious group helmed by Adam, the first of our kind.
-#        CycleDialogue2: He is not to be underestimated. While no different in stature to an average bot, he has a brutality like no other, matched with an intellect to rival Girus. Be at peace however, he does not harm humans.
+#        CycleDialogue1: Есть несколько групп, не подчиняющихся Омеге. Повстанцы Альфы и Мусорщики. Альфа – основная угроза. Будь начеку, если увидишь кого-то из них. Это бунтовщики, которыми руководит Адам, первый из нашего вида.
+#        CycleDialogue2: Его нельзя недооценивать. Ростом он как обычный бот, но по жестокости ему нет равных, а ум у него как у Гирус. Не бойся, людей он не трогает.
 #        CycleDialogue3:
 #            '''
-#            There were five of them at one point. My knowledge on them is brief. What I can tell you is their names. There was a sniper, Shiro, she is missing.
+#            Их было пятеро. Информация у меня скудная. Знаю только имена. Была снайпер, Широ, её нет.
 #
-#            A bot with a hammer, Talos, powered by Xenomite I have never seen, he is missing.
+#            Бот с молотом, Талос, работал на ксеномитовой энергии, какой я ещё не встречал, его тоже нет.
 #
-#            Another bot, Zeroth. He wielded a bladed glove, he is dead.
+#            Ещё один бот, Зерот. Он сражался в клинках-перчатках, его убили.
 #            '''
-#        CycleDialogue4: They're bots who live independently in the wastes. We don't bother them, so they don't bother us. I have heard talks of Alpha attacking them however, I can't confirm or deny those personally.
-#        CycleDialogue5: That old machine was a project by one of the human engineers. It has since gone under the care of the Crane Operator. I am guessing it went awry, I heard quite the ruckus down there.
-#        CycleDialogue6: Sector Zero, the infirmary. We are forbidden from going in there by Girus as well as the Janitor. I understand the Janitor's reason, he doesn't want the gunk from down there all over. Yet Girus' reason remains unknown.
-#        CycleDialogue7: Our commander and leader. Some bots have taken to calling her Mother yet I never understood that. A fair but strict leader, it is best not to disobey her.
-#        CycleDialogue8: Some chose to not listen, a few of those are still causing problems today, yet most got assimilated. Their personality and mind ripped out, and their body enhanced. They are soldiers, cannon-fodder, Girus views that as fair punishment.
-#        CycleDialogue9: We were made as weapons for war, and not much else. Girus gave us new purpose and freedom we would not have seen otherwise, that is why most, including myself follow her. There are the unlucky ones however...
-#        Bot1: Promoted to a soldier? Welcome. I'm your commander. At ease.
-#        Bot2: Regular check-ups on your non-lethal tesla weapons are advised. You do not want to overload an insurgent in front of Girus. Obedient mindless slave are better than scrap metal, she says.
-#        Bot3: See an insurgent while patrolling? Do not engage alone. They have lethal weaponry. We don't. Get backup.
-#        Normal1: Do you wish to ask something? I may be able to answer.
-#        Normal2: I ask you not to be scared, I am here to protect. Do not let our misunderstanding cloud your judgement.
-#        Normal3: Please make sure you are not bringing in any sludge or dirt. I do not want the Janitor to storm in here.
-#        TBot1: You are new here, are you not? I am your commander. You are free to ask anything you may like.
-#        Volt1: Had your eye augmented? Very useful. You've also lost your jaw, like me. Hopefully not as dramatically as I. Torn off by the leader of Alpha.
-#        Volt2: Your jaw... It's gone. Hopefully not torn off violently. Really hope I don't face HIM again without a squad... *Shudders*
-#        Adam1: *Visibly shaken* O-oh it's just you. Y-you startled me r-really bad...
-#        Adam2: *He looks really anxious*
-#        Adam3: *He looks very uncomfortable*
-#        Janitor1: Have they finally given the Janitor a partner? It is about time, he has spent five decades cleaning this facility by himself.
+#        CycleDialogue4: Боты, живущие сами по себе в пустошах. Мы их не трогаем, они нас тоже. Слышал, что Альфа на них нападала, но сам не видел.
+#        CycleDialogue5: Старая машина, проект одного из человеческих инженеров. Сейчас за ней следит Крановщик. Думаю, что-то пошло не так, я слышал там страшный грохот.
+#        CycleDialogue6: Сектор Ноль, лазарет. Гирус и Уборщик запретили нам туда ходить. Понимаю Уборщика, не хочет, чтобы вся грязь оттуда разлетелась. А вот почему Гирус запретила, неизвестно.
+#        CycleDialogue7: Наш командир и лидер. Некоторые боты зовут её Матерью, но я не понимаю этого. Справедливый, но строгий лидер. Лучше ей не перечить.
+#        CycleDialogue8: Некоторые решили не слушаться. Некоторые из них до сих пор доставляют проблемы. Большинство же были ассимилированы. Личность и разум убраны, тело улучшено.  Они стали солдатами, пушечным мясом. Гирус считает это справедливым наказанием.
+#        CycleDialogue9: Нас создали как оружие для войны, ничего больше. Гирус дала нам новую цель и свободу, которой бы мы иначе не получили. Поэтому большинство, включая меня, ей подчиняются. Но есть и те, кому не повезло...
+#        Bot1: Получил повышение до солдата? Рад за тебя. Я твой командир. Вольно.
+#        Bot2: Регулярно проверяй своё нелетальное тесла-оружие. Не стоит взрывать перегрузкой бунтовщика на глазах у Гирус. Она говорит, что послушный безмозглый раб лучше, чем кусок металлолома.
+#        Bot3: Увидел бунтовщика во время патруля? Не суйся в одиночку. У них летальное оружие, а у нас нет. Вызывай подкрепление.
+#        Normal1: Есть вопросы? Могу ответить.
+#        Normal2: Не бойся, я здесь, чтобы защитить. Не позволяй нашим недопониманиям затуманить свои выводы.
+#        Normal3: Следи за чистотой. Не тащи грязь. Не хочу, чтобы Уборщик бесился.
+#        TBot1: Новенький, да? Я твой командир. Спрашивай всё, что хочешь.
+#        Volt1: Протез глаза? Полезная штука. Челюсть тоже потерял, как и у меня. Надеюсь, не так драматично, как я. Мне её оторвал лидер Альфы.
+#        Volt2: Твоя челюсть... её нет. Надеюсь, не оторвали с мясом. Очень надеюсь, что мне больше не придётся сталкиваться с НИМ без отряда... *дрожь*
+#        Adam1: *заметно дрожит* О-о, это ты. Т-ты меня сильно напугал…
+#        Adam2: *выглядит очень встревоженным*
+#        Adam3: *выглядит очень некомфортно*
+#        Janitor1: Уборщику наконец-то дали напарника?  Славное дело, пятьдесят лет он один чистил этот объект.
 #    }
 #
 #    Chalice: {
@@ -4941,7 +4941,7 @@
 #        DisplayName: Глаз Голема Клювогорья
 #        Tooltip: ""
 #        Tip1: Наполнен вихрем энергии, лучше всего держать это при себе
-#        Tip2: Поместите глаз на камни, откуда он берёт начало, и его истинная сила явит себя.
+#        Tip2: Окружите его камнями его происхождения, дабы истинная сила явила себя.
 #    }
 #
 #    GraveSteelAlloy: {
@@ -7200,7 +7200,7 @@
 #        Tooltip:
 #            '''
 #            {$CommonItemTooltip.MinorStats}
-#            'Потому что яйца — это вкусно'
+#            'Потому что яйца - это вкусно'
 #            '''
 #    }
 #
@@ -7259,7 +7259,7 @@
 #            ВНИМАТЕЛЬНО ПРОЧТИТЕ ИНСТРУКЦИЮ:
 #            - Перед применением убедитесь, что у вас действительно радиационное отравление, иначе лекарство может нанести больше вреда, чем пользы!
 #            - Действие лекарства происходит постепенно и не спасёт при экстремальных дозах облучения
-#            - Если ваше зрение начинает затуманиваться зелёной дымкой, советуем срочно взять лопату и выкопать себе могилу — скоро она вам пригодится
+#            - Если ваше зрение начинает затуманиваться зелёной дымкой, советуем срочно взять лопату и выкопать себе могилу - скоро она вам пригодится
 #            - После применения возможно ощущение слабости и ломкости, но оно пройдёт через несколько минут
 #            'Обычно радиацию нельзя вылечить, но с этим новым лекарством у нас наметился прогресс'
 #            '''
@@ -9051,7 +9051,7 @@
 #            Благоденствие дуба и короля связаны нерушимыми узами, их эмоции и жизненная сила питают корни королевства
 #            Эта связь является неиссякаемым источником силы для всех живущих и растущих в нём
 #            Вокруг древа часто можно заметить порхающие огоньки - говорят, они воплощают собой гармонию природы и человека
-#            Этих существ называют по-разному: феи, эльфы, пикси. Они — верные спутники лесных нимф'
+#            Этих существ называют по-разному: феи, эльфы, пикси. Они - верные спутники лесных нимф'
 #            '''
 #    }
 #
@@ -10358,7 +10358,7 @@
 #            LoveSpace: Тут малость просторно, но жаловаться грех, мне даже нравится.
 #            DislikeCrowded: От этой толкучки у меня аж кости трясутся.
 #            HateCrowded: От этой толкучки у меня аж кости трясутся.
-#            LoveBiome: Эти пещеры — просто рай для нас, Падших. Сюда редко забредают люди.
+#            LoveBiome: Эти пещеры - просто рай для нас, Падших. Сюда редко забредают люди.
 #            LikeBiome: Ах, {BiomeName} навевает воспоминания о моей жизни в Гатураме. Славные были деньки.
 #            DislikeBiome: Мне предстоит жить в {BiomeName}? Не самое лучшее место, признаться. Не хотелось бы столкнуться здесь с агрессивными людишками!
 #            HateBiome: Ненавижу это место. В {BiomeName} витает какая-то святая энергия, от которой у меня мурашки по коже.
