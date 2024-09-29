@@ -3952,7 +3952,7 @@ Items: {
             DisplayName: Мранитовый репульсионный щит
             Tooltip:
                 '''
-                Враги, находящиеся за вами, поражаются твёрдосветовыми иглами, обладающие сильным отбрасыванием
+                Враги, находящиеся за вами, поражаются твёрдосветовыми иглами с сильным отбрасыванием
                 [c/FFF191:Скажем нет ударам в спину!]
                 '''
         }
@@ -9498,7 +9498,126 @@ Items: {
     }
     
     Placeables: {
-        FormattedBannerName: Знамя против «{0}» 
+        AcidEelBanner.DisplayName: Знамя кислотного угря
+        AeroSlimeBanner.DisplayName: Знамя аэрослизня
+        AmberCrawlerBanner.DisplayName: Знамя янтарного ползуна
+        AmethystCrawlerBanner.DisplayName: Знамя аметистового ползуна
+        AndroombaBanner.DisplayName: Знамя андробота-пылесоса
+        AnthozoanCrabBanner.DisplayName: Знамя кораллового краба
+        AquaticUrchinBanner.DisplayName: Знамя акватического ежа
+        AriesBanner.DisplayName: Знамя овна
+        ArmoredDiggerBanner.DisplayName: Знамя бронированного копателя
+        AstralachneaBanner.DisplayName: Знамя астралакнеи
+        AstralProbeBanner.DisplayName: Знамя астрального зонда
+        AstralSlimeBanner.DisplayName: Знамя астрального слизня
+        AtlasBanner.DisplayName: Знамя атланта
+        BabyCannonballJellyfishBanner.DisplayName: Знамя маленькой медузы-пушечного ядра
+        BabyFlakCrabBanner.DisplayName: Знамя маленького зенитного краба
+        BabyGhostBellBanner.DisplayName: Знамя маленького призрачного колокольчика
+        BelchingCoralBanner.DisplayName: Знамя изрыгающего коралла
+        BlindedAnglerBanner.DisplayName: Знамя слепого удильщика
+        BloatfishBanner.DisplayName: Знамя вздутобрюха
+        BloomSlimeBanner.DisplayName: Знамя цветущего слизня
+        BobbitWormBanner.DisplayName: Знамя волнистого червя
+        BohldohrBanner.DisplayName: Знамя бурлыжнека
+        BoxJellyfishBanner.DisplayName: Знамя кубомедузы
+        CalamityEyeBanner.DisplayName: Знамя бедственного глаза
+        CannonballJellyfishBanner.DisplayName: Знамя медузы-пушечного ядра
+        ChaoticPufferBanner.DisplayName: Знамя хаотического иглобрюха
+        ClamBanner.DisplayName: Знамя моллюска
+        CloudElementalBanner.DisplayName: Знамя облачного элементаля
+        CnidrionBanner.DisplayName: Знамя гидроида
+        ColossalSquidBanner.DisplayName: Знамя громадного кальмара
+        CrimulanBlightSlimeBanner.DisplayName: Знамя багротанового гибельного слизня
+        CryonBanner.DisplayName: Знамя криона
+        CryoSlimeBanner.DisplayName: Знамя криослизня
+        CrystalCrawlerBanner.DisplayName: Знамя кристального ползуна
+        CuttlefishBanner.DisplayName: Знамя каракатицы
+        DespairStoneBanner.DisplayName: Знамя камня отчаяния
+        DevilFishBanner.DisplayName: Знамя рыбы-дьявола
+        DiamondCrawlerBanner.DisplayName: Знамя алмазного ползуна
+        EarthElementalBanner.DisplayName: Знамя земляного элементаля
+        EbonianBlightSlimeBanner.DisplayName: Знамя эбонитового гибельного слизня
+        EidolistBanner.DisplayName: Знамя эйдолиста
+        EidolonWyrmJuvenileBanner.DisplayName: Знамя эйдолонского змия
+        EmeraldCrawlerBanner.DisplayName: Знамя изумрудного ползуна
+        EutrophicRayBanner.DisplayName: Знамя эвтрофного ската
+        FearlessGoldfishWarriorBanner.DisplayName: Знамя бесстрашной золотой рыбки-воина
+        FlakCrabBanner.DisplayName: Знамя зенитного краба
+        FrogfishBanner.DisplayName: Знамя морского чёрта
+        FusionFeederBanner.DisplayName: Знамя питателя синтеза
+        GammaSlimeBanner.DisplayName: Знамя гамма-слизня
+        GhostBellBanner.DisplayName: Знамя призрачного колокольчика
+        GiantSquidBanner.DisplayName: Знамя гигантского кальмара
+        GnasherBanner.DisplayName: Знамя скрежетателя
+        GulperEelBanner.DisplayName: Знамя большеротого угря
+        HadarianBanner.DisplayName: Знамя хадариана
+        HeatSpiritBanner.DisplayName: Знамя духа тепла
+        HiveBanner.DisplayName: Знамя улья
+        IceClasperBanner.DisplayName: Знамя ледяного клеща
+        ImpiousImmolatorBanner.DisplayName: Знамя нечестивого жертвенника
+        InfernalCongealmentBanner.DisplayName: Знамя инфернальной застывшей массы
+        IrradiatedSlimeBanner.DisplayName: Знамя облучённого слизня
+        LaserfishBanner.DisplayName: Знамя рыбы-лазера
+        LuminousCorvinaBanner.DisplayName: Знамя люминесцентного горбыля
+        MantisBanner.DisplayName: Знамя богомола
+        MantisShrimpBanner.DisplayName: Знамя креветки-богомола
+        MelterBanner.DisplayName: Знамя плавителя
+        MirageJellyBanner.DisplayName: Знамя миражной медузы
+        MorayEelBanner.DisplayName: Знамя мурены
+        NovaBanner.DisplayName: Знамя новы
+        NuclearToadBanner.DisplayName: Знамя ядерной жабы
+        OarfishBanner.DisplayName: Знамя рыбы-ремня
+        OrthoceraBanner.DisplayName: Знамя ортоцерасы
+        OverloadedSoldierBanner.DisplayName: Знамя перегруженного солдата
+        PerennialSlimeBanner.DisplayName: Знамя многолетнего слизня
+        PestilentSlimeBanner.DisplayName: Знамя ядовитого слизня
+        PhantomSpiritBanner.DisplayName: Знамя фантомного духа
+        PiggyBanner.DisplayName: Знамя поросёнка
+        PlaguebringerBanner.DisplayName: Знамя разносчицы чумы
+        PlagueChargerBanner.DisplayName: Знамя чумного налётчика
+        PlagueshellBanner.DisplayName: Знамя чумного панциря
+        PrismBackBanner.DisplayName: Знамя призмоспина
+        ProfanedEnergyBanner.DisplayName: Знамя осквернённой энергии
+        RadiatorBanner.DisplayName: Знамя излучателя
+        ReaperSharkBanner.DisplayName: Знамя акулы-жнеца
+        RenegadeWarlockBanner.DisplayName: Знамя чернокнижника-отступника
+        RepairUnitBanner.DisplayName: Знамя ремонтного бота
+        RimehoundBanner.DisplayName: Знамя инеевой гончей
+        RotdogBanner.DisplayName: Знамя гнильдога
+        RubyCrawlerBanner.DisplayName: Знамя рубинового ползуна
+        SapphireCrawlerBanner.DisplayName: Знамя сапфирового ползуна
+        ScornEaterBanner.DisplayName: Знамя презренного пожирателя
+        ScryllarBanner.DisplayName: Знамя сциллара
+        SeaFloatyBanner.DisplayName: Знамя морского поплавка
+        SeaMinnowBanner.DisplayName: Знамя морского пескаря
+        SeaSerpentBanner.DisplayName: Знамя морского змея
+        SeaUrchinBanner.DisplayName: Знамя морского ежа
+        ShockstormShuttleBanner.DisplayName: Знамя шаттла шокового шторма
+        SightseerColliderBanner.DisplayName: Знамя разведчика-таранщика
+        SightseerSpitterBanner.DisplayName: Знамя разведчика-плевателя
+        SkyfinBanner.DisplayName: Знамя небесного плавника
+        SlabCrabBanner.DisplayName: Знамя плиточного краба
+        SoulSlurperBanner.DisplayName: Знамя поглотителя душ
+        StellarCulexBanner.DisplayName: Знамя звёздного москита
+        StormlionBanner.DisplayName: Знамя штормового льва
+        SulflounderBanner.DisplayName: Знамя сернистой камбалы
+        SulphurousSkaterBanner.DisplayName: Знамя сернистой водомерки
+        SunskaterBanner.DisplayName: Знамя солнечного скитальца
+        TopazCrawlerBanner.DisplayName: Знамя топазового ползуна
+        ToxicatfishBanner.DisplayName: Знамя токсичного сома
+        ToxicMinnowBanner.DisplayName: Знамя ядовитого пескаря
+        TrasherBanner.DisplayName: Знамя мусорщика
+        TrilobiteBanner.DisplayName: Знамя трилобита
+        ViperfishBanner.DisplayName: Знамя рыбы-гадюки
+        VirulingBanner.DisplayName: Знамя чумного зародыша
+        WulfrumAmplifierBanner.DisplayName: Знамя вульфрумового усилителя
+        WulfrumDroneBanner.DisplayName: Знамя вульфрумового дрона
+        WulfrumGyratorBanner.DisplayName: Знамя вульфрумового вращателя
+        WulfrumHovercraftBanner.DisplayName: Знамя вульфрумового автолёта
+        WulfrumRoverBanner.DisplayName: Знамя вульфрумового скитальца
+        
+        FormattedBannerName: Знамя против «{0}»
         FormattedBannerTooltip: "{$CommonItemTooltip.BannerBonus}{0}"
     
         AstralPylon: {
@@ -13725,7 +13844,7 @@ Items: {
                 Призывает Провиденс, Осквернённую богиню, при использовании в освящении или преисподней
                 Уникальные выпадаемые предметы меняются в зависимости от биома, где происходит бой
                 Входит в ярость когда сражается ночью
-                 Не расходуется
+                Не расходуется
                 'Сердце её стражей, её зловещий гнев обрушится на того, кто сейчас владеет им'
                 '''
         }
@@ -13897,7 +14016,7 @@ Items: {
             Tooltip:
                 '''
                 Мгновенно переводит время на следующий рассвет, полдень, закат или полночь
-                 Не работает, пока босс жив
+                Не работает, пока босс жив
                 '''
         }
         
@@ -16941,7 +17060,7 @@ Items: {
                 TooltipNormal:
                     '''
                     Стреляет дробью с плотным разбросом, которая пропитана серными огнями
-                    Нажмите <right>, чтобы выстрелить мощным серным патроном, который накладывает дебафф «{$Buffs.WhisperingDeath.DisplayName}»
+                    Нажмите ПКМ, чтобы выстрелить мощным серным патроном, который накладывает дебафф «{$Buffs.WhisperingDeath.DisplayName}»
                     '''
                 TooltipGFB:
                     '''
@@ -22072,7 +22191,7 @@ UI: {
             Inquiry: Роль в крестовом походе
             Response:
                 '''
-                Считается, что крестовый поход начался 19 числа месяца Весенней золы 1781 года с перерождением Ярона, но сам я не принимал в нём участия до 23 числа месяца Весеннего проблеска 1803 года. После присоединения к крестовому походу я был назначен руководителем научного и инженерного подразделений. Мне была предоставлена свобода выбора и реализации проектов, но при этом ожидалось, что все мои разработки будут иметь практическое применение в военных действиях.\n
+                Считается, что крестовый поход начался 19 числа месяца Весенней золы 1781 года с перерождением Ярона, но сам я не принимал в нём участия до 23 числа месяца Весеннего проблеска 1803 года. После присоединения к крестовому походу я был назначен руководителем научного и инженерного подразделений. Мне была предоставлена свобода выбора в реализации проектов, но при этом ожидалось, что все мои разработки будут иметь практическое применение в военных действиях.\n
 
                 Моим первым значительным вкладом в крестовый поход Ярима стало повышение эффективности добычи ресурсов, что послужило ключом к дальнейшему развитию армии. Я наладил серийное производство раскопщиков первого поколения, что позволило расширить добычу за пределами Азафура. Впоследствии, используя аналогичные технологии серийного производства, я создал вооружение, которое значительно превосходило по своим характеристикам оружие врага. Это снаряжение получило широкое распространение под названием 'Арсенал'.\n
 

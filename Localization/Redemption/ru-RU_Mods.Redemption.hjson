@@ -148,7 +148,7 @@
 #    OO: Автономная машина войны, в основном разработанная по проекту Гирус, обладающая целым арсеналом интегрированных оружейных систем. Среди них - настоящие пальцы-пушки и передовая система охлаждения в виде гигантского луча, способного стереть с лица земли любого, кто встанет на его пути. Именно эта особенность и дала Облитератору его имя.
 #    TreebarkDryad: Неторопливый в мыслях энт из Дивнолесья. Одни считают его мудрым, другие - мистическим, но все сходятся в одном: это, несомненно, дерево.
 #    Erhan: Верховный жрец Дивнолесья, возложивший на себя бремя очищения лесного проклятия после того, как оно поглотило хранителя леса.
-#    Behemoth: Несчастный учёный, обезображенный и изувеченный до неузнаваемости ксеномитовой инфекцией. This specimen is entering the final stage of the infection, and has had its body transform into a sludgy slurry on the ceiling... God, that must be agonizing.
+#    Behemoth: Несчастный учёный, обезображенный и изувеченный до неузнаваемости ксеномитовой инфекцией. Этот экземпляр находится на последней стадии заражения: его тело превратилось в вязкую массу, стекающую с потолка... Боже, это должно быть невыносимо.
 #    Blisterface1: Несчастная рыба, обезображенная и изувеченная до неузнаваемости ксеномитовой инфекцией. Этот штамм, похоже, схож с тем, что поразил волдырных учёных...
 #    Blisterface2: Вот это рыбище.
 #    Janitor: Среди всех недугов, что насылают микробы, всей грязи, что порождает человечество, пошлём им лишь тебя. Соскребай и вычищай, доколе не закончишь.
@@ -159,46 +159,45 @@
 #    Gigapora: Модифицированная буровая машина, изначально разработанная ТеоХромом, оснащённая ракетными ускорителями, разнообразным вооружением и экспериментальной технологией проецируемых щитов. Проекторы щита Гигасверла склонны к перегреву и плавлению, если находятся внутри проецируемого поля, поэтому они размещены снаружи.
 #    Akka: О юности Акки известно немногое. Местные жители верят, что её дух слился с великим древом в царстве духов, где она спала до пробуждения своим супругом, чтобы вновь быть почитаемой.
 #    Ukko: В древнем Тетураме жил-был кузнец, чей дар в магии был столь велик, что многие почитали его за бога. Состарившись и устав от бремени смертности, Укко заключил свою душу в каменную твердь, ожидая часа своего возрождения.
-#    PZ: Несчастный учёный, обезображенный и изувеченный до неузнаваемости ксеномитовой инфекцией. Этим экземпляром был Кари Йоханссон, прародитель всех Т-ботов и нулевой пациент ксеномитной инфекции. Полвека он пребывает в этом состоянии, сохраняя рассудок и понимание окружающего мира... О небеса, какое это, должно быть, истязание.
-#    Android: Fodder sent down to the island by King Slayer III to scan. These are the first iteration of the Android Unit and the first robots designed by King Slayer during his million year voyage. Their original purpose was to bring company and life to the SoS, however they have since been fitted with more combat-oriented parts. When damaged, they will retreat back to the SoS and alert the network.
-#    BloatedGoldfish: A goldfish bloated with radioactive pus.
-#    BloatedGhoul: Ghouls irradiated by radioactive particles that have been disfigured by rapid, volatile cell growth.
-#    BloatedGrub: Full of protein!
-#    BloatedSwarmer: Giant insects irradiated by radioactive particles that have been disfigured by rapid, volatile cell growth.
-#    BobTheBlob: A mess of radioactive sludge coating some poor skeleton. They don't look happy about their situation.
-#    HazmatBunny: A bunny suited up in a Type 1 Hazmat Suit. Ain't no hazardous materials harming this little fuzzball!
-#    HazmatZombie: Even the undead dislike the radiation left from a nuclear blast. Although the suits they wear don't help much, seeing as they're quite torn.
+#    PZ: Несчастный учёный, обезображенный и изувеченный до неузнаваемости ксеномитовой инфекцией. Этим экземпляром был Кари Йоханссон, прародитель всех Т-ботов и нулевой пациент ксеномитовой инфекции. Полвека он пребывает в этом состоянии, сохраняя рассудок и понимание окружающего мира... О небеса, какое это, должно быть, истязание.
+#    Android: Расходный материал, отправленный на остров Королём-охотником III для разведывательных операций. Это первое поколение андроидных единиц и первые роботы, созданные Королём-охотником за время его странствия длиной в миллион лет. Изначально они были предназначены для поддержания общества и жизнеобеспечения на СОС, но позже были доработаны и оснащены боевыми компонентами. При получении урона они немедленно отступают к СОС и активируют сетевую систему оповещения.
+#    BloatedGhoul: Упыри, подвергшиеся воздействию радиоактивных частиц и мутировавшие из-за быстрого, неконтролируемого клеточного роста.
+#    BloatedGrub: Полна белка!
+#    BloatedSwarmer: Гигантские насекомые, одвергшиеся воздействию радиоактивных частиц и мутировавшие из-за быстрого, неконтролируемого клеточного роста.
+#    BobTheBlob: Сгусток радиоактивной жижи, обволакивающий чей-то несчастный скелет. Судя по всему, его хозяину явно не по душе текущее положение вещей.
+#    HazmatBunny: Кролик в химзащите первого типа. Ни одно опасное вещество не навредит этому маленькому пушистику!
+#    HazmatZombie: Радиация от ядерного взрыва неприятна даже для мертвецов. Впрочем, их изношенные защитные костюмы едва ли обеспечивают какую-то защиту.
 #    MutatedLivingBloom: Невзирая на причудливые обстоятельства, этот цветок, похоже, прекрасно себя чувствует. Видимо, не зря молвят, что одна голова хорошо, а две - лучше.
-#    NuclearShadow: A Human Shadow Etched in Stone, all that remains of someone who was vaporized by a nuclear blast. Also known as a Human Shadow of Death.
-#    NuclearSlime: F is for the Fire that burns down the whole town, U is for Uranium bombs! N is for No Survivors-
-#    RadioactiveJelly: The jellyfish seems to be unaware of its condition, of course that is to be expected when they don't have a brain.
-#    RadioactiveSlime: An irradiated gelatinous creature whose membrane has been highly contaminated by radioactive materials from the fallout.
-#    SickenedBunny: This poor bunny has developed painful tumors from the radioactivity in the area, and seems very angry.
-#    SickenedDemonEye: Is it crying? No, that's just foul smelling pus leaking out.
-#    SicklyPenguin: Penguins can fend off deadly cold, but they can't fend off the insidious killer that is irradiation. Here, the symptoms have shown up as blistering tumors.
-#    SicklyWolf: Living in a snowy wasteland isn't easy, as this starving, rabid lupine shows us. Most of its prey has been killed by the radioactivity in the area, and the carcasses aren't safe to eat anymore.
-#    SneezyFlinx: Looks like its big nose has caught a cold! Seems like it wasn't prepared for weather as cold as one made by a nuclear winter.
-#    AncientGladestoneGolem: An ancient relic of the far past. These golems were once infused with a human's soul to come to life, now they roam aimlessly within ruined structures.
-#    Blobble: An exceptionally rare slime native to Ithon. It may look harmless, but the acid it is composed of can dissolve iron in less than a minute.
-#    CorpseWalkerPriest: Dried up skeletons that take the role of a cleric, they shoot golden sparks that can heal other undead... And damage humans.
-#    DevilsTongue: A carnivorous cactus that grows in deserts. Produces painful clouds of pollen to attract flies to their doom.
-#    EpidotrianSkeleton: These skeletons are from Epidotra's mainland, they are slightly taller and smarter than the island's ones. Their strength is dependent on their soul, which is also known as Willpower.
-#    SkeletonWanderer: A skeleton from Epidotra's mainland. It wears rusty pauldrons and wields a rusty spear.
+#    NuclearShadow: Силуэт человека, отпечатанный на камне – всё, что осталось от тех, кто был испарён в результате ядерного взрыва. Эти силуэты также известны как Тени Хиросимы.
+#    NuclearSlime: У - урановой бомбы излучение, Р - раскалённым огнём обугление, А - абсолютное от людей очищение
+#    RadioactiveJelly: Кажется, медуза не подозревает о своём состоянии, что, конечно, неудивительно, учитывая отсутствие у неё мозга.
+#    RadioactiveSlime: Облучённое желеобразное существо, чья мембрана сильно загрязнена радиоактивными веществами из-за выпадения радиоактивных осадков.
+#    SickenedBunny: У этого несчастного кролика развились болезненные опухоли вследствие радиоактивного заражения местности, и он выглядит весьма разгневанным.
+#    SickenedDemonEye: Оно плачет? Нет, это просто сочится зловонный гной.
+#    SicklyPenguin: Пингвины могут противостоять смертельному холоду, но беззащитны перед коварной радиацией. В данном случае симптомы проявились в виде волдыреподобных опухолей.
+#    SicklyWolf: Жизнь в заснеженных пустошах сурова, и этот истощённый, озверевший волк - тому подтверждение. Радиоактивное загрязнение уничтожило большую часть его привычной добычи, а те немногие останки, что остались, давно непригодны в пищу.
+#    SneezyFlinx: Его гигантский нос, кажется, подхватил простуду! Похоже, он никак не ожидал столкнуться с холодом, подобному тому, что бывает во время ядерной зимы.
+#    AncientGladestoneGolem: Древняя реликвия далёкого прошлого. Некогда эти големы обрели жизнь благодаря вселённым в них человеческим душам. Сейчас они бесцельно скитаются среди руин древних сооружений.
+#    Blobble: Редчайший слизень, встречающийся только в Итоне. Несмотря на свой безобидный вид, он представляет опасность, ведь его тело состоит из кислоты, которая способна растворить железо меньше чем за минуту.
+#    CorpseWalkerPriest: Иссохшие скелеты, исполняющие роль священников. Стреляют золотыми искрами, которые лечат другую нежить... но причиняют вред людям.
+#    DevilsTongue: Плотоядный кактус, встречающийся в пустынях. Вырабатывает болезненные облака пыльцы, привлекая мух к их неизбежной гибели.
+#    EpidotrianSkeleton: Эти скелеты родом с материка Эпидотры. Они немного выше и сообразительнее островных собратьев. Их сила напрямую зависит от души, известной также как сила воли.
+#    SkeletonWanderer: Скелет с материка Эпидотры. Облачён в проржавевшие наплечники и сражается ржавым копьём.
 #    SkeletonNoble: Сильный скелет, облачённый в снаряжение рядового гвардейца Ангулона. Этих крепких громил не так-то легко одолеть.
 #    SkeletonFlagbearer: В каждом отряде необходим парень с большим флагом. Пляска этого щуплого скелета может воодушевить любую нежить, что её узрит! А вот живые лишь смущённо наблюдают за этим нелепым танцем...
 #    SkeletonDuelist: Скелеты, виртуозно владеющие мечом. Будьте осторожны в ближнем бою с этими костяными головами, иначе рискуете лишиться собственной головы.
-#    SkeletonWarden: A blindfolded skeleton from Anglon. It defends other undead with its tower shield and slams any attackers that get too close.
-#    SkeletonAssassin: A sneaky skeleton wielding a worn dagger. Keep an eye out when exploring the caverns, for they can hide themselves and stab you from behind.
+#    SkeletonWarden: Скелет с повязкой на глазах из Ангулона. Защищает союзную нежить своим башенным щитом и обрушивается на врагов, осмелившихся приблизиться.
+#    SkeletonAssassin: Скрытный скелет, вооружённый потрёпанным кинжалом. Исследуя пещеры, будьте начеку: ведь они способны затаиться и нанести удар исподтишка.
 #    RaveyardSkeleton: Created when a corpse is bound by a soul, and the soul can still remember the last piece of music it heard. It will attempt to mimic the exact sounds it remembers. If it can't do that, then it will just dance uncontrollably. Some tunes are more deadly than others.
 #    LivingBloom: Типичный представитель фауны Ангулона, обитающий в пышных лесах. Их тела сформированы из растительных волокон и корней.
 #    JollyMadman: Некогда благородные рыцари Гатурама с душами преступников. Ныне мёртвые и погребённые в мрачных подземных лабиринтах, они лишились своей раздвоенной сущности и погрузились в безумие.
 #    ForestNymph: Rare humanoid creatures found in forests, far from civilization. They live in giant hollowed-out trees, usually near an enchanted pond. They are solitary and territorial beings, seldom enjoying the company of others. It is unknown how these creatures came to be, legends suggest they are the handiwork of Epidotra itself - grown from the earth same as all flora, but to blossom into the form of a human.
 #    VagrantSpirit: Souls without a compatible vessel to infuse with, trapped within the spirit realm for so long they seeped out and are now slightly visible to the naked eye. They shall roam the caverns for eternity.
-#    BlisteredScientist: An unfortunate scientist, disfigured and mutilated beyond recognition by the Xenomite infection. This strain is somewhat aggressive and their skin is covered in blisters... God, do they look repulsive.
-#    BloatedScientist: An unfortunate scientist, mutilated and disfigured by the Xenomite infection. This strain is mildly aggressive, and has bloated their gastric track to monstrous sizes... God, that must feel vile...
+#    BlisteredScientist: Несчастный учёный, обезображенный и изувеченный до неузнаваемости ксеномитовой инфекцией. Этот штамм довольно агрессивен, а их кожа усеяна волдырями... Боже, какой же у них омерзительный вид.
+#    BloatedScientist: Несчастный учёный, обезображенный и изувеченный до неузнаваемости ксеномитовой инфекцией.  Этот штамм проявляет умеренную агрессию, вызвав чудовищное вздутие его желудочного тракта... Боже, должно быть, это ужасное ощущение...
 #    CraneOperator: Застенчивый андроид, таящий в себе амбициозные цели. Он выполняет небольшие, порой странные поручения по лаборатории. Зачастую те, что требуют участия оператора.
 #    OozeBlob: Аморфная масса зловонной слизи. Под её мерзкой оболочкой скрывается нечто органическое, почти бесконечно выделяющее жидкость... Боже, какая мерзость.
-#    OozingScientist: An unfortunate scientist, disfigured and mutilated beyond recognition by the Xenomite infection. This strain is very aggressive and leaks a strange liquidy substance... God, does it smell awful.
+#    OozingScientist: Несчастный учёный, обезображенный и изувеченный до неузнаваемости ксеномитовой инфекцией. Этот штамм крайне агрессивен и выделяет странную жидкую субстанцию... Боже, какой ужасный запах.
 #    SpacePaladin: The 4th Slayer Unit constructed, after Space Keeper. This unit uses newer shield technology compared to King Slayer's Prototype Multium vessel, and is capable of absorbing far greater impacts; in addition to the thick durable plating and cyber blade, this robot was built for war.
 #    PrototypeSilver: Прототипы «Сильверы» - вторая боевая единица созданная Королём-охотником, оснащённая встроенным генератором защитного поля и прочной обшивкой. Их создали для военных нужд во время войны с пришельцами на Ашере. Война была скоротечной. Вопреки своему названию, они в основном состоят из запасов титана, оставшихся от Алконоста.
 #    Basan: Легендарная птица из Итонской мифологии, обитающая, по преданиям, в Расколотых нагорьях. Она приняла выражение 'острые куриные крылышки' близко к сердцу.
@@ -356,11 +355,7 @@
 #        }
 #
 #        Xenomite: {
-#            Press:
-#                '''
-#
-#                Press
-#                '''
+#            Press: "\nНажмите "
 #            Keybind:
 #                '''
 #                Увеличивает урон на 6%
@@ -372,7 +367,7 @@
 #                Увеличивает урон на 6%
 #                Увеличивает регенерацию энергии, пока Энергоячейка находится в инвентаре
 #                '''
-#            Bonus2: " to unleash toxic gas in a radius around the player, inflicting Burning Acid"
+#            Bonus2: ", чтобы высвободить токсичный газ вокруг игрока, накладывающий дебафф «{$Buffs.BileDebuff.DisplayName}»"
 #        }
 #
 #        Xenium.Bonus:
@@ -486,8 +481,8 @@
 #            Когда Великая Эпоха подходит к концу, вся жизнь умирает, а мир сбрасывается
 #            Я выходец прошлой эпохи, которому удалось бежать в космос, поскольку Сброс не затронет меня за пределами планеты
 #            Сброс занимает миллион лет, поэтому, в течение этого периода времени, я должен путешествовать по космосу
-#            Если удача будет на моей стороне, я вернусь сюда через миллион лет и узрю новый мир во всей его красе.
-#            Насколько мне известно, я единственный выживший и первое живое существо, которому удалось сбежать.
+#            Если удача будет на моей стороне, я вернусь сюда через миллион лет и узрю новый мир во всей его красе
+#            Насколько мне известно, я единственный выживший и первое живое существо, которому удалось сбежать
 #            Я перенёс свой человеческий разум в роботизированное тело, поскольку ни одно живое существо не способно преодолеть барьер планеты
 #            Робот не нуждается в пище, воде и сне'
 #            '''
@@ -518,7 +513,7 @@
 #            Голод и усталость продолжают изводить меня, становясь всё невыносимее
 #            Обычный человек может прожить без сна 11 дней, дальше лишь смерть избавляет его от дальнейших мучений
 #            Чёрт возьми, я же не могу умереть ни от усталости, ни от голода
-#            И что же мне делать?.. Нет, я не имею права сдаваться. Я ДОЛЕЧУ до планеты и НАЙДУ решение.'
+#            И что же мне делать?.. Нет, я не имею права сдаваться. Я ДОЛЕЧУ до планеты и НАЙДУ решение'
 #            '''
 #        Datalog6:
 #            '''
@@ -603,7 +598,7 @@
 #            'Итак, я достиг следующую звёздную систему.
 #            Просканировал уже 3 планеты, и они... весьма разочаровывают.
 #            Я надеялся, что их будет больше.
-#            Но всё нормально. Созданные мной андройды составляют мне компанию.
+#            Но всё нормально. Созданные мной андроиды составляют мне компанию.
 #            Я отправляюсь на планету, близкую к обитаемой зоне, потому что роботы уже несколько приелись,
 #            и я умираю от желания увидеть настоящую зелень, а не скучную ледяную пустошь.'
 #            '''
@@ -641,7 +636,7 @@
 #            Мой корабль двигался к следующей системе, когда неожиданно появилась червоточина.
 #            СОС не мог повернуться достаточно быстро, так что меня засосало внутрь. Червоточины - это что-то вроде порталов вселенной,
 #            так что я ожидал что сразу же вылечу на другом его конце, но нет. Я застрял в червоточине почти на 1000 лет.
-#            Боже, как же это было скучно, но хотя бы андройды составляли мне компанию. К несчастью, теперь я не знаю где нахожусь.
+#            Боже, как же это было скучно, но хотя бы андроиды составляли мне компанию. К несчастью, теперь я не знаю где нахожусь.
 #            Не могу сказать насколько далеко я от дома, но вижу ближайшую звезду. Надеюсь там есть планеты.'
 #            '''
 #        Datalog19:
@@ -1659,8 +1654,8 @@
 #    }
 #
 #    EnsnaredDebuff: {
-#        DisplayName: Ensnared
-#        Description: Tangled in thorns
+#        DisplayName: Опутан
+#        Description: Запутался в колючках
 #    }
 #
 #    FatigueDebuff: {
@@ -1674,13 +1669,13 @@
 #    }
 #
 #    FleshCrystalsDebuff: {
-#        DisplayName: Flesh Crystals
-#        Description: ... The pain... it's... unbearable
+#        DisplayName: Кристаллизация плоти
+#        Description: ... Эта боль... просто... невыносима
 #    }
 #
 #    GlowingPustulesDebuff: {
-#        DisplayName: Glowing Pustules
-#        Description: ... I have to carry on my work.
+#        DisplayName: Светящиеся гнойники
+#        Description: ... Я должен продолжать свою работу.
 #    }
 #
 #    GreenRashesDebuff: {
@@ -1704,18 +1699,18 @@
 #    }
 #
 #    HeavyRadiationDebuff: {
-#        DisplayName: Heavy Radiation
-#        Description: Stats greatly decreased due to radioactivity
+#        DisplayName: Сильное облучение
+#        Description: Характеристики значительно снижены из-за радиационного воздействия
 #    }
 #
 #    HemorrhageDebuff: {
-#        DisplayName: Hemorrhaging
-#        Description: The crystals... they're sharp... it hurts to move...
+#        DisplayName: Кровотечение
+#        Description: Кристаллы... они острые... больно двигаться...
 #    }
 #
 #    InfestedDebuff: {
-#        DisplayName: Infested
-#        Description: Larvae are eating away at your flesh
+#        DisplayName: Заражение
+#        Description: Личинки пожирают вашу плоть
 #    }
 #
 #    NauseaDebuff: {
@@ -1729,7 +1724,7 @@
 #    }
 #
 #    PillSickness: {
-#        DisplayName: Pill Sickness
+#        DisplayName: Лекарственное отравление
 #        Description: Вы чувствуете себя плохо
 #    }
 #
@@ -1739,13 +1734,13 @@
 #    }
 #
 #    RadioactiveFalloutDebuff: {
-#        DisplayName: Radioactive Fallout
-#        Description: Stats greatly decreased due to radioactivity
+#        DisplayName: Радиоактивное заражение
+#        Description: Характеристики значительно снижены из-за радиационного воздействия
 #    }
 #
 #    ShockDebuff: {
-#        DisplayName: Shock
-#        Description: What have I become..?
+#        DisplayName: Потрясение
+#        Description: Что со мной произошло?..
 #    }
 #
 #    SkinBurnDebuff: {
@@ -1754,43 +1749,43 @@
 #    }
 #
 #    SnippedDebuff: {
-#        DisplayName: Snipped
-#        Description: Halved wing time
+#        DisplayName: Подрезанные крылья
+#        Description: Время полёта снижено вдвое
 #    }
 #
 #    SpiderSwarmedDebuff: {
-#        DisplayName: Swarmed!
-#        Description: No! Not the spiders! Aaaaah!
+#        DisplayName: В окружении роя!
+#        Description: Нет! Только не пауки! А-а-а-а-а!
 #    }
 #
 #    StaticStunDebuff: {
-#        DisplayName: Static Shock!
-#        Description: You are stunned by electricity!
+#        DisplayName: Статический шок!
+#        Description: Вы оглушены электрическим разрядом!
 #    }
 #
 #    Stunned2Debuff: {
-#        DisplayName: Snared!
-#        Description: You are stunned!
+#        DisplayName: Пойман в ловушку!
+#        Description: Вы оглушены!
 #    }
 #
 #    StunnedDebuff: {
-#        DisplayName: Stunned!
-#        Description: You are stunned!
+#        DisplayName: Оглушение!
+#        Description: Вы оглушены!
 #    }
 #
 #    BInfectionDebuff: {
-#        DisplayName: Bacterial Infection
-#        Description: Yucky!
+#        DisplayName: Бактериальная инфекция
+#        Description: Мерзость!
 #    }
 #
 #    AndroidMinionBuff: {
-#        DisplayName: Android Minion
-#        Description: A small android will fight for you
+#        DisplayName: Андроид-миньон
+#        Description: За вас сражается маленький андроид
 #    }
 #
 #    CorpseSkullBuff: {
 #        DisplayName: Череп бродячего мертвеца
-#        Description: The dried up skull will fight for you
+#        Description: За вас сражается иссохший череп
 #    }
 #
 #    CystlingBuff: {
@@ -1804,8 +1799,8 @@
 #    }
 #
 #    LogStaffBuff: {
-#        DisplayName: LOG
-#        Description: A small log, perhaps a tiny squirrel is hiding inside it
+#        DisplayName: БРЕВНО
+#        Description: Маленькое бревно, не исключено, что в нём скрывается миниатюрная белочка
 #    }
 #
 #    MagmaCubeBuff: {
@@ -1814,8 +1809,8 @@
 #    }
 #
 #    TeslaGeneratorBuff: {
-#        DisplayName: Генератор Поля Теслы
-#        Description: A small generator is creating a tesla field
+#        DisplayName: Генератор тесла-поля
+#        Description: Небольшой генератор формирует тесла-поле
 #    }
 #
 #    XeniumTurretBuff: {
@@ -1825,7 +1820,7 @@
 #
 #    MicroshieldCoreBuff: {
 #        DisplayName: Нанозащитное ядро
-#        Description: A tiny shield core is defending you
+#        Description: Вас защитает крошечное защитное ядро
 #    }
 #
 #    MicroshieldDroneBuff: {
@@ -1834,8 +1829,8 @@
 #    }
 #
 #    HoloMinionBuff: {
-#        DisplayName: Hologram
-#        Description: Wait, how do holograms hit things?
+#        DisplayName: Голограмма
+#        Description: Секундочку, с каких это пор голограммы наносят удары?
 #    }
 #
 #    MoonflareGuardianBuff: {
@@ -1844,13 +1839,13 @@
 #    }
 #
 #    NaturePixieBuff: {
-#        DisplayName: Nature Pixie
-#        Description: A Nature Pixie will annoy enemies for you
+#        DisplayName: Природная пикси
+#        Description: Природная пикси будет докучать врагам за вас
 #    }
 #
 #    JyrinaMountBuff: {
-#        DisplayName: Ukko's Steed
-#        Description: Is that the sound of an approaching thunderstorm I hear?
+#        DisplayName: Скакун Укко
+#        Description: Это что, звук приближающейся грозы?
 #    }
 #
 #    BabyRockpileBuff: {
@@ -1860,17 +1855,17 @@
 #
 #    BouquetOfThornsBuff: {
 #        DisplayName: Букет колючек
-#        Description: A gift for the newly divorced
+#        Description: Презент для недавно разведённых
 #    }
 #
 #    CuddlyTeratomaBuff: {
 #        DisplayName: Ласковая опухоль
-#        Description: Don't stand still for too long
+#        Description: Не стойте на месте слишком долго
 #    }
 #
 #    ErhanPetBuff: {
 #        DisplayName: Ангел и демон
-#        Description: They're bickering about something non-stop
+#        Description: Они без конца спорят о чём-то
 #    }
 #
 #    HalPetBuff: {
@@ -1880,7 +1875,7 @@
 #
 #    KS3PetBuff: {
 #        DisplayName: Проектор Короля-охотника
-#        Description: He's bored and needs some entertainment
+#        Description: Ему наскучило, и он ищет развлечений
 #    }
 #
 #    OcciePetBuff: {
@@ -1894,7 +1889,7 @@
 #    }
 #
 #    XenomiteElementalPetBuff: {
-#        DisplayName: Xenomite Elemental
+#        DisplayName: Ксеномитовый элементаль
 #        Description: Миленький
 #    }
 #
@@ -1924,8 +1919,8 @@
 #    }
 #
 #    CleaverPetBuff: {
-#        DisplayName: Omini Cleaver
-#        Description: *Loud metal clank noise*
+#        DisplayName: Омини-двуручник
+#        Description: *Громкий лязг металла*
 #    }
 #
 #    EggPetBuff: {
@@ -1934,13 +1929,13 @@
 #    }
 #
 #    BasanPetBuff: {
-#        DisplayName: Baby Basan
-#        Description: Flamin' hot
+#        DisplayName: Маленький Басан
+#        Description: Обжигающе горячий
 #    }
 #
 #    CockatricePetBuff: {
 #        DisplayName: Маленький Кокатрикс
-#        Description: It's giving you a deadly glare
+#        Description: Он бросает на вас убийственный взор
 #    }
 #
 #    BileFlaskBuff: {
@@ -1949,8 +1944,8 @@
 #    }
 #
 #    BolineFlowerBuff: {
-#        DisplayName: Flower Power
-#        Description: Increased life regen and knockback immunity
+#        DisplayName: Сила цветов
+#        Description: Регенерация здоровья увеличена и невосприимчивость к отбрасыванию
 #    }
 #
 #    CharismaPotionBuff: {
@@ -2179,8 +2174,8 @@
 #    }
 #
 #    RowanAuraBuff: {
-#        DisplayName: Rowan Aura
-#        Description: Empowered by nature itself
+#        DisplayName: Рябиновая аура
+#        Description: Наделён силой самой природы
 #    }
 #
 #    ShadowFuelBuff: {
@@ -2610,7 +2605,7 @@
 #        NoMoneyDialogue1: Ты так же беден, как и я?
 #        NoMoneyDialogue2: У тебя правда не хватает денег? Ну да ладно, не мне жаловаться.
 #        AdviceDialogue1: Честно говоря, удивлён, что ты всё ещё ко мне за советами обращаешься. Вроде сам умный, даже умнее меня. Ладно, в общем, я тут недавно видел интересных выверн в небе - фиолетовых и золотых. Можешь глянуть, если хочешь.
-#        AdviceDialogue2: Хмм, этот светящийся глаз у тебя выглядит... мифически. Ещё и загадку тебе задаёт? 'Окружите его камнями его происхождения'... Ну, тебе нужно положить вокруг него камни, вопрос - какие? Может, {0} подскажет?
+#        AdviceDialogue2: Хмм, этот светящийся глаз у тебя выглядит... мифически. Ещё и загадку тебе задаёт? 'Заключите его в камни, из которых он возник'... Ну, тебе нужно положить вокруг него камни, вопрос - какие? Может, {0} подскажет?
 #        AdviceDialogue3: Я видел на острове каких-то роботов, они сканировали разные предметы и существ. Откуда они взялись - не знаю, но видел, как на одного напали. Когда его ослабили, он перестал двигаться и телепортировался в небо. Назначение их мне непонятно. Может, ты разберёшься?
 #        AdviceDialogue4: Дриада, {0}, говорит, что видела на этом острове Лесную нимфу. Если верить, конечно. Их редко увидишь, если только возле огромных деревьев. Встретишь, не задерживайся - они не любят, когда к ним лезут люди. Интересно, можно ли подружиться с ними?
 #        AdviceDialogue5: "{0} рассказал мне, что пришёл из другого портала под землёй. Кажется, он ведёт в катакомбы Гатурама, но ты через него не пройдёшь. Но он говорил о каких-то интересных вещах рядом с порталом. На твоём месте я бы проверил."
@@ -2660,7 +2655,7 @@
 #        AdviceDialogue1: Знаешь, удивлён, что ты всё ещё ко мне за советом ходишь! Меня трудно назвать самым умным. Но ладно, я тут видел недавно странных виверн - фиолетовых и золотых. Глянь, может, что интересного найдёшь!
 #        AdviceDialogue2: Хмм, этот светящийся глаз... загадочный. И загадку тебе задаёт? 'Окружите его камнями его происхождения'...  Эх, ничего не знаю, может {0} поможет?
 #        AdviceDialogue3: Видел я тут каких-то металлических чуваков. Бродят по острову, лучами света в разные объекты и тварей палят. Откуда они взялись - понятия не имею, но видел, как на одного напали. Как его ослабили, он перестал двигаться и исчез в воздухе! Зачем они тут - загадка. Может, ты разберёшься?
-#        AdviceDialogue4: {0} знаешь? Она рассказала, что видела на острове Лесных нимф, если поверишь. Редчайшие создания, только около огромных деревьев водятся. Если встретишь - не задерживайся, они не любят, когда люди в личное пространство лезут. Интересно, а можно с ними подружиться?
+#        AdviceDialogue4: "{0} знаешь? Она рассказала, что видела на острове Лесных нимф, если поверишь. Редчайшие создания, только около огромных деревьев водятся. Если встретишь - не задерживайся, они не любят, когда люди в личное пространство лезут. Интересно, а можно с ними подружиться?"
 #        AdviceDialogue5: "{0} говорил, что из подземного портала вышел. Ведёт он, вроде, в катакомбы, но пройти туда ты не сможешь. Зато он рассказывал, что около портала что-то интересное валяется. Я бы на твоём месте глянул!"
 #        AdviceDialogue6: Я тут гулял, да наткнулся на странные камни - похожи на валуны с ногами. Любопытства ради КАК стукнул мечом! Ничего не произошло... но присутствие внутри я почувствовал. Ты ж много чего поубивал, поищи, может, ещё одно испытание тебя ждёт!
 #        AdviceDialogue7:
@@ -3152,7 +3147,7 @@
 #
 #    CleaverHandle: {
 #        DisplayName: Эфес двуручника
-#        Tooltip: Призывает омни-двуручник
+#        Tooltip: Призывает омини-двуручник
 #    }
 #
 #    GasMask: {
@@ -4346,7 +4341,7 @@
 #
 #    LantardPatreon_Item: {
 #        DisplayName: Пушистое кашне
-#        Tooltip: Summons a chibi Ralsei
+#        Tooltip: Призывает чиби Ральзей
 #    }
 #
 #    LizzyBody: {
@@ -4359,7 +4354,7 @@
 #        Tooltip:
 #            '''
 #            Призывает чиби Лиззи
-#            "'Baked' with love"
+#            "'Приготовлено с любовью'"
 #            '''
 #    }
 #
@@ -4941,7 +4936,7 @@
 #        DisplayName: Глаз Голема Клювогорья
 #        Tooltip: ""
 #        Tip1: Наполнен вихрем энергии, лучше всего держать это при себе
-#        Tip2: Окружите его камнями его происхождения, дабы истинная сила явила себя.
+#        Tip2: Поместите и заключите глаз в камни, из которых он возник, дабы истинная сила явила себя
 #    }
 #
 #    GraveSteelAlloy: {
@@ -7157,7 +7152,7 @@
 #        DisplayName: Сыворотка-декристаллизатор
 #        Tooltip:
 #            '''
-#            Возвращает ксеномитную инфекцию на раннюю стадию
+#            Возвращает ксеномитовую инфекцию на раннюю стадию
 #            Лечит зелёную сыпь
 #            'На этикетке написано: 'Не глотать'. А кому это вообще могло прийти в голову?'
 #            '''
@@ -7951,7 +7946,7 @@
 #    }
 #
 #    DrillRevolver: {
-#        DisplayName: Буровой Револьвер
+#        DisplayName: Буровой револьвер
 #        Tooltip:
 #            '''
 #            Превращает пули в буровые наконечники, разрывающие врагов и блоки
@@ -8028,9 +8023,9 @@
 #            '''
 #        Lore:
 #            '''
-#            'A relic of Nirin's ancient brass technology, first uncovered and brought to light by a hermit with a rusty metal arm.
-#            The mountains of the frozen domain hold many secrets and crafts long neglected, first created by dwindling
-#            natives of the Arctic Realm and preserved by refugees of a ruined kingdom, yet only for a fleeting time did it last.'
+#            'Реликвия древней медной технологии Нирина, впервые обнаруженная и явлённая миру отшельником с ржавой металлической рукой
+#            Горы замёрзшего края хранят в своих недрах множество давно забытых секретов и ремёсел, некогда созданных исчезающими коренными народами арктического царства
+#            Эти древние знания были сохранены уцелевшими беженцами разрушенного королевства. Увы, их наследие просуществовало лишь краткий миг'
 #            '''
 #    }
 #
@@ -8075,7 +8070,7 @@
 #    }
 #
 #    TeslaGenerator: {
-#        DisplayName: Генератор Поля Теслы
+#        DisplayName: Генератор тесла-поля
 #        Tooltip:
 #            '''
 #            {$CommonItemTooltip.Sentry}
@@ -8165,7 +8160,7 @@
 #        AttackMode1: Режим атаки 1: Вращает ножовку по кругу вокруг игрока
 #
 #        AttackMode2: {
-#            1: "Разгоняет лезвие до перегрева и выпуская мощный тепловой взрыв, наносящий урон "
+#            1: "Разгоняет лезвие до перегрева, выпуская мощный тепловой взрыв, наносящий урон "
 #            2: ""
 #        }
 #
@@ -8549,9 +8544,9 @@
 #        Tooltip: Критические удары высвобождают самонаводящуюся светомассу
 #        Lore:
 #            '''
-#            'A broadsword once wielded by the leader of Lighthelm's forgotten Oracles of Rebirth.
-#            This holy blade's slice is said to strip the light out of one's body, which would travel to corpses
-#            and bring the slain's life into them. This was what the ancient world thought birthed undead.'
+#            'Широкий меч, некогда принадлежавший предводителю забытых оракулов возрождения из Лайтхельма
+#            Говорят, удар этого священного клинка извлекает свет из тела жертвы, который затем устремляется к трупам, возвращая их к жизни
+#            В древности верили, что именно таким образом и зарождалась нежить'
 #            '''
 #    }
 #
@@ -8583,15 +8578,15 @@
 #            '''
 #        Lore:
 #            '''
-#            'A tool of torture used by a skeleton known as the Tormenter, infamous among the catacombs
-#            of Gathuram's undead residents for his unforgiving command over his skeletal servants.
-#            The Tormenter met an ironic end by his own weapon when his minions revolted against his control.'
+#            'Орудие пыток, которым пользовался скелет, известный как Истязатель
+#            Он прославился среди нежити в катакомбах Гатурама своей беспощадной властью над костяными слугами
+#            Истязатель встретил ироничный конец от собственного оружия, когда его прислужники взбунтовались против его власти'
 #            '''
 #    }
 #
 #    CursedGrassBlade: {
 #        DisplayName: Проклятый травяной клинок
-#        Tooltip: Slain enemies burst into seeds that sprout brambles of thorns
+#        Tooltip: Убитые враги разрываются на семена, прорастающие терновыми зарослями
 #    }
 #
 #    DragonCleaver: {
@@ -8605,8 +8600,9 @@
 #            '''
 #        Lore:
 #            '''
-#            'A cleaver cast in melted dragon bone and metal, said to be used by the ancient warlords of Dragonrest.
-#            This weapon is a great catalyst for fire magic, channeling the fury of a dragon.'
+#            'Рассекатель, выкованный из сплава металла и переплавленных костей дракона
+#            Говорят, что его использовали древние военачальники Драконогорья
+#            Это оружие - идеальный катализатор огненной магии, способный высвобождать ярость дракона'
 #            '''
 #    }
 #
@@ -8619,8 +8615,8 @@
 #            '''
 #        Lore:
 #            '''
-#            'An ancient spear used in rituals to the great god Ukko in ancient Gathuram.
-#            Charged with electric magic to signify Ukko, while the blade has dulled it still works as a fine weapon.'
+#            'Древнее копьё, использовавшееся в ритуалах поклонения великому богу Укко в древнем Гатураме
+#            Пронизанное электрической магией в его честь, оно, несмотря на затупившееся лезвие, всё ещё остаётся грозным оружием'
 #            '''
 #    }
 #
@@ -8654,9 +8650,9 @@
 #        Tooltip: Вращает клинок вокруг игрока, воспламеняя его и разбрасывая искры в процессе вращения
 #        Lore:
 #            '''
-#            'Found in the Demonhollow by a set of human explorers from Anglon. The weapon is crafted from bone and
-#            a metal named "Charred Iron" by those whom discovered it, and was attributed to a fabled blacksmith named
-#            Ophos due to its use of Firestorm magic. Yet the lack of many of his trademarks put doubt on that claim.'
+#            'Найден в демонической пустоши экспедицией из Ангулона. Оружие выковано из кости и металла, который исследователи назвали 'Обугленное железо'
+#            Его создание приписывают легендарному кузнецу Офосу, известному применением магии огненной бури
+#            Однако отсутствие ряда характерных для мастера черт ставит под сомнение эту версию'
 #            '''
 #    }
 #
@@ -9051,12 +9047,12 @@
 #            Благоденствие дуба и короля связаны нерушимыми узами, их эмоции и жизненная сила питают корни королевства
 #            Эта связь является неиссякаемым источником силы для всех живущих и растущих в нём
 #            Вокруг древа часто можно заметить порхающие огоньки - говорят, они воплощают собой гармонию природы и человека
-#            Этих существ называют по-разному: феи, эльфы, пикси. Они - верные спутники лесных нимф'
+#            Этих существ называют по-разному: феи, сильфы, пикси. Они - верные спутники лесных нимф'
 #            '''
 #    }
 #
 #    LogStaff: {
-#        DisplayName: Бревёнчатый жезл
+#        DisplayName: Бревёнчатый посох
 #        Tooltip:
 #            '''
 #            {$CommonItemTooltip.Sentry}
@@ -10156,7 +10152,7 @@
 #        DisplayName: "{$NPCs.EaglecrestGolem.DisplayName}"
 #
 #        BossChecklistIntegration: {
-#            SpawnInfo: Поместите [i:Redemption/GolemEye] на камни, откуда он берёт начало, и его истинная сила явит себя.
+#            SpawnInfo: Поместите и заключите [i:Redemption/GolemEye] в камни, из которых он возник, дабы истинная сила явила себя.
 #            EntryName: Матч-реванш против Голема Клювогорья
 #        }
 #    }
