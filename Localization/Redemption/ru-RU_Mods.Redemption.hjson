@@ -2752,7 +2752,7 @@
 #        FollowDialogue: Как пожелаешь. Хотя, я буду не в восторге, если заставишь меня далеко уйти от моих владений.
 #        NoRealmCruxDialogue: Я не могу тебе её отдать, если ты не частично принадлежишь миру духов.
 #        CruxDialogue: Изумительно. Никогда бы не подумала, что у тебя есть такая способность. Как ты и желаешь, я дарю тебе дух моего народа.
-#        NoCruxDialogue: У тебя нет предмета, который можно было бы наделить сущностью.
+#        NoCruxDialogue: У тебя нет предмета, который можно было бы напитать сущностью.
 #        Dialogue1: Интересно, почему нас так мало? Всё дело в том, что наши семена очень капризные, и растут целые века. Раз в десятилетие, весной, мы семена производим – для людей это очень долго. Если увидишь непонятную луковицу около моего пруда, я бы посоветовала навсегда попрощаться со мной и с этим местом. Расцветающая нимфа существо хрупкое, и я не стану рисковать.
 #        Dialogue2: Многое я повидала, наблюдая за людьми, и языки их выучила. Понимаю, что представление о нас у них ошибочное. Говорят, будто мир создал нас, чтобы мы были 'идеальным отражением людей'. Конечно, это всего лишь слух, раздутый человеческим самомнением. Люди далеки от совершенства, как внешне, так и внутренне.
 #        Dialogue3: На картинах, которые рисуют люди, мы выглядим гораздо больше похожими на них, чем в жизни. Им редко удаётся нас рассмотреть как следует, так что это объяснимо. Я нашла одну такую картину в книге, которую позаимствовала... Скажу честно, мне она совсем не понравилась.
@@ -2763,108 +2763,108 @@
 #        Dialogue7: Предупреждаю тебя, я никогда не забуду, как ты поступил с древесными народами. Я говорю с тобой только потому, что ты совершил и добрые дела.
 #        Dialogue8: Я почувствовала возвращение великого присутствия, хотя оно и было недолгим. Полагаю, она побеждена? Мудрое решение, Акка была другом Природы лишь душой. Её разум же был полон лишь требований и мрачных желаний. Укко, её муж, был таким же.
 #        Dialogue9: Я не одобряю ужасного разрушения, которое ты причинил части земли. Какая сила это сотворила? Взрыв, который выжигает землю, мутирует растения и портит воздух. Подобная сила не от мира сего.
-#        Dialogue10: Common Guard, are you? Members of their troop used to lurk around the forests I came from. They got too close for comfort so I left and found the portal here.
-#        Dialogue11: The World tells me you slew that blighted warden of Faywood. Shame he had to fall, but at least that horrid blight is ceasing. I kept my distance from people back at my old home, though I do recall his name - Alder, it was.
-#        Dialogue12: I see you too have no use for neither fancy nor practical attire.
-#        Dialogue13: "I see you have decorated your hair with various flowers, to mimic or to mock me? That remains unclear. "
-#        Dialogue13ContCalm: Although, I do find it quite cute.
-#        Dialogue13ContShy: I'll take it as a compliment.
-#        Dialogue13ContJolly: It definitely suits you though!
-#        Dialogue13ContAggressive: Probably the latter.
-#        Dialogue13Cont: It suits you.
-#        DialogueDistrust: Leave. The fae's trust in you was an act of folly, the World deems you a danger.
-#        Dialogue14: Oh, how vulgar. You are able to see within the other realm and as such are bearing witness to my ethereal form. Or mayhaps you aren't submerged deep enough to see it in full? No matter.
-#        Dialogue15: You aren't blighted, are you? No, it is just a mask.
-#        Dialogue16: You better hope that wood you don is not from my home.
-#        Dialogue17: You don the wood of a living tree. If I find out you've taken it from my home, I won't be happy.
-#        Dialogue18: Better watch yourself.
-#        Dialogue19: Don't make yourself too comfy, I only trust you because of your fae's kind words about you.
-#        Dialogue20: The blossom you gave me is often gifted to others to bring good luck and the blessing of a long life. Being who I am - a forest nymph, as you'd call me - I can use these blossoms to grant me a greater soul and connection with the World; Epidotra, people call it.
-#        Dialogue21: Come to talk to me? I don't mind the company, as long as nature deems you well.
-#        Dialogue22: What do you want? I'd rather be left alone.
-#        Dialogue23: We nymphs are rather solitary beings, so consider the fact that I don't mind your presence a blessing.
+#        Dialogue10: Гвардеец ты? В лесах, откуда я родом, раньше частенько ошивались твои сослуживцы. Слишком уж близко подбирались, так что я ушла и нашла здесь портал.
+#        Dialogue11: Мир говорит о твоей победе над проклятым стражем Сказолесья. Жаль, конечно, что ему пришлось погибнуть, но, по крайней мере, ужасная зараза отступает. На родине я держалась подальше от людей, но имя его помню. Алдер, кажется.
+#        Dialogue12: Вижу, тебе тоже не по душе ни вычурные, ни практичные наряды.
+#        Dialogue13: "Вижу, ты украсил свои волосы цветами...  подражаешь мне или насмехаешься? Неясно. "
+#        Dialogue13ContCalm: Хотя, довольно мило.
+#        Dialogue13ContShy: Но приму за комплимент.
+#        Dialogue13ContJolly: Тебе очень идёт!
+#        Dialogue13ContAggressive: Наверное, второе.
+#        Dialogue13Cont: Тебе идёт.
+#        DialogueDistrust: Уходи. Доверие фей к тебе было глупостью, Мир считает тебя опасностью.
+#        Dialogue14: О, как грубо. Видишь иные миры и, стало быть, можешь лицезреть мою эфирную форму. Или, быть может, ты погружен недостаточно глубоко, чтобы увидеть её во всей красе? Неважно.
+#        Dialogue15: Ты не заражён, ведь так? Нет, это всего лишь маска.
+#        Dialogue16: Лучше бы тебе надеяться, что это дерево не из моего леса.
+#        Dialogue17: Носишь на себе древесину живого дерева? Если я узнаю, что ты взял её из моего леса, мне это не понравится.
+#        Dialogue18: Лучше следи за собой.
+#        Dialogue19: Не расслабляйся, я доверяю тебе лишь благодаря добрым словам фей.
+#        Dialogue20: Цветок, что ты мне подарил, часто дарят другим, дабы принести удачу и благословение долгой жизни. А я, как Лесная нимфа, могу использовать его, чтобы усилить свою душу и связь с Миром, Эпидотрой, как его называют люди.
+#        Dialogue21: Пришёл поговорить со мной? Я не против компании, если природа благосклонна к тебе.
+#        Dialogue22: Нужно что-то? Я бы предпочла остаться одна.
+#        Dialogue23: Мы, нимфы, существа довольно одинокие, так что посчитай моё спокойное отношение к твоему присутствию за благословение.
 #    }
 #
 #    HazmatGhost.Dialogue: ...чёрт побери, что происходит?! Сирены воют, карантин объявили, а по внутренней связи ни слова! Ждать я не буду, надо отсюда смыться побыстрее!
 #
 #    KingSlayer: {
-#        UraniumDialogue1: You really went out of your way to give me some uranium. Thanks I guess.
-#        UraniumDialogue2: I could've found some myself you know.
+#        UraniumDialogue1: Действительно взял и добыл мне урон? Спасибо, полагаю.
+#        UraniumDialogue2: Знаешь, я бы и сам мог его найти.
 #        UraniumDialogue3: Спасибо?.. 
-#        NoUraniumDialogue3: You don't have any uranium, idiot.
-#        Quest1CompleteDialogue: You actually bothered to do it... Good job.
-#        Quest2CompleteDialogue: How can you even carry that? Uh, thanks, I suppose.
-#        Quest3CompleteDialogue: Was helping me with all that really necessary for you? You don't gain anything from it. But thank you regardless. I'll be leaving soon, but I want you to have this. I have yet to figure out a use for it, but take it.
+#        NoUraniumDialogue3: У тебя нет никакого урана, кретин.
+#        Quest1CompleteDialogue: Ты реально этим занялся... Молодец.
+#        Quest2CompleteDialogue: Как ты вообще это таскаешь? Э-э, спасибо, полагаю.
+#        Quest3CompleteDialogue: Зачем тебе только вообще мне помогать было? Сам с этого ничего не поимеешь. Но всё равно спасибо. Я скоро уйду, но это тебе. Сам пока не придумал, для чего оно, но возьми.
 #        Quest1Dialogue:
 #            '''
-#            You want to do something? Craft me a wiring kit, should be simple enough. I would do it, but I can't be bothered to get off this chair. Use that Cyber Fabricator the room under me.
+#            Хочешь помочь? Сделай мне набор корабельной проводки, должно быть проще простого. Сам бы сделал, да со стула вставать лень. Используй киберконструктор, он в комнате ниже.
 #
-#            Requires: [i/s20:Redemption/Cyberscrap], [i/s4:Redemption/Plating], [i:Redemption/Capacitor], [i/s2:Redemption/CarbonMyofibre], [i/s8:CopperBar]/[i/s8:TinBar], [i/s15:Wire]
+#            Необходимо: [i/s20:Redemption/Cyberscrap], [i/s4:Redemption/Plating], [i:Redemption/Capacitor], [i/s2:Redemption/CarbonMyofibre], [i/s8:CopperBar]/[i/s8:TinBar], [i/s15:Wire]
 #            '''
 #        Quest2Dialogue:
 #            '''
-#            You seem rather eager to help... Well, just get me some hull plating would you? Thanks.
+#            Как рьяно мне помогаешь... Ладно, давай-ка достань мне корпусной обшивки, а? Спасибо.
 #
-#            Requires: [i/s50:Redemption/Cyberscrap], [i/s12:Redemption/Plating], [i/s6:Redemption/CarbonMyofibre]
+#            Необходимо: [i/s50:Redemption/Cyberscrap], [i/s12:Redemption/Plating], [i/s6:Redemption/CarbonMyofibre]
 #            '''
 #        Quest3Dialogue:
 #            '''
-#            This is probably a bit too complicated for you, but craft me a AFTL engine. AFTL stands for 'Almost Faster Than Light' since, well, I don't know if going faster than light is even possible. I'm planning on leaving soon, so be quick.
+#            Наверное, для тебя слишком сложно, но сделай-ка мне двигатель ПБСС. ПБСС это 'Почти Быстрее Скорости Света', потому что... ну, я даже не знаю, возможно ли быстрее света летать. Я планирую скоро улетать, так что поторопись.
 #
-#            Requires: [i/s70:Redemption/Cyberscrap], [i/s8:Redemption/Plating], [i/s6:Redemption/Capacitor], [i/s8:Redemption/CarbonMyofibre], [i/s20:Redemption/Plutonium], [i/s20:Redemption/Uranium], [i/s50:Wire]
+#            Необходимо: [i/s70:Redemption/Cyberscrap], [i/s8:Redemption/Plating], [i/s6:Redemption/Capacitor], [i/s8:Redemption/CarbonMyofibre], [i/s20:Redemption/Plutonium], [i/s20:Redemption/Uranium], [i/s50:Wire]
 #            '''
-#        Quest4Dialogue: You've done a lot for me, thank you, I guess. There isn't anything else that you can do now. But I appreciate the help you've given me.
-#        NotInShipDialogue: Wait a second... This isn't my ship. Did you move my chair?
+#        Quest4Dialogue: Ты многое для меня сделал, спасибо, полагаю. Больше ничего тебе сделать не нужно. Но я ценю твою помощь.
+#        NotInShipDialogue: Постой-ка... Это не мой корабль. Ты что, моё кресло передвинул?
 #        Dialogue1: Эй, я занят... прокрастинацией.
-#        Dialogue2: What is it?
-#        Dialogue3: Come to help again or what?
+#        Dialogue2: Что такое?
+#        Dialogue3: Опять помогать пришёл или как?
 #        Dialogue4: Оставь меня.
-#        Dialogue5: Hey, what's up?
-#        Dialogue6: Come by to talk or what?
-#        Dialogue7: You've been a big help, thanks.
-#        Dialogue8TBot: Oh great, the robot is here... What do you want?
-#        Dialogue8: Oh great, the flesh bag is here... What do you want?
-#        Dialogue9: Did you really feel the need to break into my ship?
-#        Dialogue10: Fight's over. I'm busy. Get lost.
-#        Dialogue11: Could you just leave me alone.
-#        Dialogue12: I'll be leaving here soon, make it quick.
-#        Dialogue13: What have you got on your head? Are you trying to cosplay as me or something?
-#        Dialogue14: Look at you all well fed... Good for you.
-#        Dialogue15: How did a chicken break into my ship?
-#        Chat1: I can ask you the same question. If you've come here to just chit-chat after our fight I'm not interested.
-#        Chat1B: Fixing this crashed ship, and just reflecting on our fight. Honestly I'm just doing it because I got nothing else to do.
-#        Chat1C: The ship is fixed... I just can't be bothered to get up.
-#        Chat2: What's the matter, you never seen a spaceship before? Some android thought it'd be a good idea to 'borrow' it, and ended up yeeting it 20 feet under. Unfortunately I've ran out of Uranium, but I can't be bothered to find it right now.
-#        Chat2B: Yes. An android thought it'd be a good idea to 'borrow' it, and ended up yeeting it 20 feet under. The uranium you gave me should help.
-#        Chat2C: Yes. An android thought it'd be a good idea to 'borrow' it, and ended up yeeting it 20 feet under. The things you gave me should help.
+#        Dialogue5: Эй, как дела?
+#        Dialogue6: Зашёл поболтать или что?
+#        Dialogue7: Ты здорово помог, спасибо.
+#        Dialogue8TBot: О, отлично, робот пожаловал... Чего надо?
+#        Dialogue8: О, отлично, мешок плоти пожаловал... Чего надо?
+#        Dialogue9: Тебе правда настолько нужно было вламываться в мой корабль?
+#        Dialogue10: Битва окончена. Я занят. Проваливай.
+#        Dialogue11: Не мог бы ты оставить меня в покое?
+#        Dialogue12: Я скоро уйду, так что поторопись.
+#        Dialogue13: Что это у тебя на голове? Меня пытаешься косплеить?
+#        Dialogue14: Смотрю, сытый ходишь... везёт тебе.
+#        Dialogue15: Как курица попала в мой корабль?
+#        Chat1: Могу задать тот же вопрос. Если пришёл просто поболтать после нашей битвы, меня это не интересует.
+#        Chat1B: Ремонтирую этот разбитый корабль, заодно обдумываю нашу битву. Честно говоря, делаю это только потому, что больше нечем заняться.
+#        Chat1C: Корабль починен... просто мне лень вставать.
+#        Chat2: Никогда раньше космических кораблей не видел? Какой-то андроид решил его 'позаимствовать' и в итоге загнал на шесть метров под землю. К сожалению, уран закончился, но мне лень его искать.
+#        Chat2B: Да. Андроид решил его 'позаимствовать' и в итоге загнал на шесть метров под землю. Уран, который ты мне дал, должен помочь.
+#        Chat2C: Да. Андроид решил его 'позаимствовать' и в итоге загнал на шесть метров под землю. Вещи, которые ты мне дал, должны помочь.
 #        Chat2D:
 #            '''
-#            One of the cruisers I sent out into this universe's space to look around. I left it to the Androids for a bit but I SUPPOSE one malfunctioned and got terminal stupidity.
-#            ..Why are you still here anyway? Ship's fixed now.
+#            Один из крейсеров, которые я отправил исследовать космос этой вселенной. Я ненадолго оставил его андроидам, но, ВИДИМО, один из них дал сбой и тупанул...
+#            А ты чего всё ещё тут? Корабль уже починен.
 #            '''
-#        Chat3: Because unlike you, I actually have a life.
-#        Chat3B: Why would I want to fight now? I lost.
-#        Chat3C: If you really want to fight, go ahead, use that cyber tech thing. I don't care.
-#        Chat3D: After all you've done, I don't feel like fighting you. A duel, maybe.
-#        Chat4: I'm not some dude in a spacesuit, I'm a complete robot with a human mind. You may think that's cool, but it's really not. I seriously regret becoming one.
-#        Chat4B: I was long ago, I became a robot when I realised it would be the only way to survive my world's end.
-#        Chat4C: I wish I still was, mate. I can't eat or sleep in this robot body, but I still feel the pain of hunger and tiredness I can't satisfy. If it weren't for the AI I created for myself, I wouldn't be able to talk or move.
-#        Chat5: You saw my statue there? Yeah, I'm part of the Heroes. But it's pretty boring, I'm always assigned to kill the weaklings, like the Keeper.
-#        Chat5B: I did say I'm part of the Heroes, but I'm considering leaving. It's getting in the way of my... other projects.
-#        Chat5C: The members of the Heroes are all dingbats. The leader just travels around the world without aim, and I don't even know what the other 2 members are up to.
-#        Chat5D: There are 4 members of the Heroes. The first is that demigod doofus, honestly he's a chill guy, I just hate how much stronger he is compared to me. The 2nd member is some moron who's supposedly invincible, not once have I seen him get hurt. 3rd is... Well she's probably the most normal out of all of us, but I don't know what she's up to now.
-#        Chat5E: ... There's something strange about the Demigod's statue... It doesn't look like him. Did someone change it?
-#        Chat6: Haven't been there myself, but I'm looking into it. Could have plenty of supplies to fix this ship. It had a security system, but it malfunctioned, so I might take a look and maybe steal some supplies.
-#        Chat6B: I'm planning to check it out soon, it's located on the other world but I can easily fly there with the SoS.
-#        Chat7: What? You don't even know the name of the planet you're on? Maybe read a book for once in your life.
-#        Chat7B: The world is called Epidotra, it's where the Heroes are from.
-#        Chat7C: This tiny island appeared on this planet out of nowhere, I was going to check it out a year or so ago, but I remember seeing the demigod here so I didn't bother. There what appears to be a dimensional bubble surrounding this place, making it impossible to see or enter from the outside - portals or teleportation being the only way. Judging by how there is only one sun here, the bubble not only contains this island, but its entire universe alongside it. What's the matter? Too complicated for your monkey brain?
-#        Chat8: The other world just suddenly appeared out of nowhere, I'm interested in it though. I've scanned the surface and it seems to be rather frozen, with so far no signs of human life. Reminds me of a planet I checked out while in space... In fact, reminds me of many planets.
-#        Chat8B: You see the planet on the right in that one hologram? That's what I've named Liden, a radioactive and desolate wasteland devoid of any life.
-#        Chat8C: I'll be leaving soon to check it out. Scans show barely any life, just a frozen radioactive wasteland.
-#        Chat9: Can you not read through my data logs please.
-#        Chat9B: I really just wrote those to keep my sanity. I don't want to tell you how boring travelling through space for a million years is.
-#        Chat9C: I wrote those every day I was in space, waiting for my world to be restored. Even though I'm back now, I don't feel satisfied.
+#        Chat3: Потому что, в отличие от тебя, у меня есть жизнь.
+#        Chat3B: Зачем мне сейчас драться? Я проиграл.
+#        Chat3C: Если очень хочется подраться, давай, используй свою кибер-штуковину. Мне всё равно.
+#        Chat3D: После всего, чем ты помог, как-то не хочется с тобой драться. Дуэль, может быть.
+#        Chat4: Я не какой-то чувак в скафандре, я полноценный робот с человеческим разумом. Может тебе это и кажется круто, а мне нет. Серьёзно жалею, что стал таким.
+#        Chat4B: Был когда-то. Стал роботом, когда понял, что это единственный способ выжить после конца света в моём мире.
+#        Chat4C: Эх, хотелось бы. В этом теле ни поесть, ни поспать нормально нельзя, а голод и усталость всё равно чувствую, и никак их не унять. Если бы не ИИ, который я себе создал, вообще бы не мог ни говорить, ни двигаться.
+#        Chat5: Видел мою статую там? Ага, я один из Героев. Но скучновато, всё время поручают мочить слабаков, типа той же Хранительницы.
+#        Chat5B: Я говорил, что я из Героев, но сейчас подумываю свалить. Это мешает моим... другим проектам.
+#        Chat5C: Герои все придурки. Главный постоянно шляется по миру без дела, а чем остальные двое занимаются я даже не знаю.
+#        Chat5D: В Героях четыре человека. Первый - полубог-дурачок, в общем-то, неплохой парень, но бесит, что он намного сильнее меня. Второй - какой-то придурок, который якобы неуязвим, ни разу не видел, чтобы его хоть кто-то задел. Третья... ну, она, пожалуй, самая адекватная из нас, но чем она сейчас занята я не знаю.
+#        Chat5E: ...Со статуей полубога что-то не так... Она на него не похожа. Её что, переделали?
+#        Chat6: Сам я там не был, но планирую. Там может быть куча запчастей для починки корабля. Была система безопасности, но она сломалась, так что я, пожалуй, загляну и, может, чего-нибудь прихвачу.
+#        Chat6B: Собираюсь в ближайшее время проверить её. Она находится на другом мире, но я легко долечу туда на 'СОС'.
+#        Chat7: Что? Даже название планеты, на которой живешь, не знаешь? Может, книжку почитаешь?
+#        Chat7B: Мир называется Эпидотра, это родина Героев.
+#        Chat7C: Этот крошечный остров внезапно появился на этой планете, я собирался его проверить года два назад, но помню, видел здесь полубога, так что забил. Здесь, судя по всему, какой-то пространственный пузырь, из-за которого его невозможно увидеть или попасть снаружи, только через порталы или телепортацию. Глядя на то, что здесь только одно солнце, этот пузырь содержит не только остров, но и целую вселенную. В чём дело? Слишком сложно для твоего обезьяньего мозга?
+#        Chat8: Другой мир взял и появился из ниоткуда, даже интересно стало. Я его поверхностно сканировал - всё замерзло, признаков жизни, человеческой по крайней мере, нет. Напоминает одну планету, которую я исследовал, когда в космосе был... вообще, много каких планет.
+#        Chat8B: Видел на голограмме справа планету? Я назвал её Лиден. Радиоактивная, выжженная пустыня, жизни - ноль.
+#        Chat8C: Скоро полечу, проверю. Сканирование показывает почти полное отсутствие жизни, замороженная радиоактивная пустошь.
+#        Chat9: Слушай, не копайся в моих журналах, пожалуйста.
+#        Chat9B: Я их для себя писал, чтобы не сойти с ума. Не хочу тебе рассказывать, какая скукотища, путешествовать по космосу миллион лет.
+#        Chat9C: Я их каждый день писал, пока был в космосе, ждал, когда мой мир восстановится. Хотя я и вернулся, всё равно не чувствую себя удовлетворённым.
 #    }
 #
 #    Fool: {
@@ -2878,7 +2878,7 @@
 #        Dialogue2: Мои ботинки не грязные! Где вся грязь?!
 #        Dialogue3: Деревья тут смешных цветов! Где все жёлтые листья? Они все зелёные!.. зелёный тоже хороший.
 #        Dialogue4: Как тебя зовут? Гарри? Спорю, Гарри Добряк! Теперь тебя так зовут.
-#        Dialogue5: Этот остров — не МОЙ остров! Где мои подданые?! Жёлтый рыцарь утащил меня куда-то... странно всё...
+#        Dialogue5: Этот остров - не МОЙ остров! Где мои подданые?! Жёлтый рыцарь утащил меня куда-то... странно всё...
 #        Dialogue6: Они идут, красный идёт! Не оставайся!... О, привет!
 #        Dialogue7: Мне нравятся изумруды, они такие классные и зелёные! А рубины я ненавижу, красный страшный...
 #        Dialogue8: Что за порталом? Давай узнаем, Джонни! Или, эээ...
@@ -2902,103 +2902,103 @@
 #    }
 #
 #    SkullDigger: {
-#        WeddingRingDialogue1: What's this..? A ring..? Oh! Her spirit, her jolly spirit! It still remains infused within this ring. Why thank you, gracious soul, for this gift hath lifted my sorrowful shoulders. With this as a reminder, mayhaps I find peace too.
-#        WeddingRingDialogue2: What's this..? A ring..? And your attire... Is this a proposal? ..Oh! Her spirit, her jolly spirit! It still remains infused within this ring. Why thank you, gracious soul, for this gift hath lifted my sorrowful shoulders. With this as a reminder, mayhaps I find peace too.
-#        Talk: What would a meaningless protector offer in the ways of discussion..? Perhaps I may tell you about my past life... No, it's nothing but a blur now. Octavia resurrected me and kept my withering body moving for so long I have lost my old self. I'm barely an undead anymore, more so a spirit. But don't pity me, I enjoyed my time with her, it made me feel I had a purpose...
-#        Dialogue: Oh... I thank you for freeing my mistress from her sorrow. But now without her, what is my purpose. I do not yet feel fulfilled. If only I could have a token of her, an object of remembrance...
-#        SpiritTalk: You see, I was expecting to join my mistress in this realm, seeing as we were both freed of our sorrows. Contrariwise, I have no sight of her, none at all... I have looked and looked, but alas, I feel I am searching for a ghost - in the metaphorical and literal sense. If you know not of where she lies, I suppose I must continue my search. I must not let my vexation sway me, lest I turn vengeful.
-#        SpiritDialogue: Hmmmm... Oh! I never expected for you to see me again, seeing as I am a full-fledged spirit now. Hm, I care not that our paths cross again so soon, as perhaps you may assist my worried thoughts.
-#        CruxSpiritDialogue: For all the kindness you have brought, I will accept. May I serve you well.
-#        NoCruxSpiritDialogue: Of course, but I cannot without an object to imbue.
+#        WeddingRingDialogue1: Что это?.. Кольцо?.. О! Её дух, её светлый дух! Он всё ещё здесь, в этом кольце. Спасибо тебе, добрая душа, этот дар облегчил мои измученные плечи. С этой памятью, быть может, и я обрету покой.
+#        WeddingRingDialogue2: Что это?.. Кольцо?.. И твой наряд... Это предложение руки и сердца?.. О! Её дух, её светлый дух! Он всё ещё здесь, в этом кольце. Спасибо тебе, добрая душа, этот дар облегчил мои измученные плечи. С этой памятью, быть может, и я обрету покой.
+#        Talk: Что может предложить в разговоре никчёмный защитник?.. Может, расскажу тебе о своей прошлой жизни... нет, воспоминания как в дымке. Октавия воскресила меня и так долго поддерживала моё увядающее тело, что я потерял самого себя. Даже не нежить, скорее уж призрак. Но не жалей меня, я наслаждался временем с ней, оно дало мне цель...
+#        Dialogue: О... Спасибо, что избавил мою госпожу от печали. Но теперь, без неё, в чём моя цель? Я не чувствую себя свободным. Если бы только у меня осталась какая-нибудь вещь, память о ней...
+#        SpiritTalk: Видишь ли, я ожидал присоединиться к моей госпоже в этом царстве, раз мы оба освободились от печали. Но, напротив, я её не вижу, совсем. Искал и искал, но, увы, что призрака ищу, в прямом и переносном смысле. Если не знаешь, где она, я, полагаю, должен продолжить поиски. Нельзя позволять отчаянию меня сломить, иначе стану мстительным духом.
+#        SpiritDialogue: Хммм... О! Не ожидал тебя снова увидеть, раз я уже полноценный дух. Хм, меня не волнует, что наши пути пересеклись столь скоро, возможно, ты поможешь мне разобраться с моими тревогами.
+#        CruxSpiritDialogue: За твою доброту, я согласен. Позволь мне служить тебе.
+#        NoCruxSpiritDialogue: Конечно, но я не могу без предмета, который можно напитать силой.
 #    }
 #
 #    SpiritAssassin: {
-#        NoRealmCruxDialogue: You must be at least partly within the Spirit Realm for me to give you what you ask.
-#        CruxDialogue: Hm, yes I can give you it. Within me lies the spirit of assassins, take it and may it give you a chance in this harsh world.
-#        NoCruxDialogue: I'll need something to imbue, if you please.
-#        OfferCruxDialogue: I shall, if only you give unto my remains three flowers of the night. One for each of my band to fall to that vile demon.
-#        Dialogue1: Anything I can assist you with? I may not be able to interact with you, but I can make for some conversation.
-#        Dialogue2: Gorhal'on! Mur ye bagaiha ta? Mudarok abo.
-#        WhatDialogue: Hm? Ah, you must not know our language. Should've figured, this island has had nothing but Anglic speakers from what I've seen. You're lucky us spirits know all tongues, for we roam to hear and learn for eternity. What do you want?
-#        Chat1: Ta? I was once a resident of Gothrione - Gathuram's capital. I worked as an assassin there with a tight-knit group. We were some of the best; at least, that's what I told myself. In this realm of recollection I can only see the halfwit my living-self was.
-#        Chat2: You aren't from the mainland, are you? Gathuram is one of the six founding domains. I've seldom been beyond the outer fields of Gothrione in my time of living, nor my time of unliving, so I cannot speak to you of it in detail.
-#        Chat3: Gothione is the capital of the domain. It was quite the bustling city, however I cannot speak well of its ruler. Stubborn and snarky he was, in fact it was our mission to assassinate him. As timing would have it, an invasion began on the day of our mission - it was horrific. Our last moments were left gawking with heads bend up into the sky at a great demon terror.
-#        Chat4: Hm, a subject I have no desire to sink into. It's name I shall not utter, just know it was the vastest being of trepidation we had ever seen. It was the reason I never returned there as a spirit - I dreaded the sight of it or the aftermath of its destruction. Now let us speak of it no more.
+#        NoRealmCruxDialogue: Чтоб я помог, тебе надо хотя бы частично оказаться в царстве духов.
+#        CruxDialogue: Хм, да, могу отдать. Во мне живёт дух убийц, возьми, пригодится в этом жестоком мире.
+#        NoCruxDialogue: Мне нужна вещь, которую можно напитать силой, пожалуйста.
+#        OfferCruxDialogue: Сделаю, если ты принесёшь к моим останкам три цветка ночи. По одному за каждого из моей группы, павших от того мерзкого демона.
+#        Dialogue1: Могу чем-нибудь помочь? Я, может, и взаимодействовать не могу, но поболтать запросто.
+#        Dialogue2: Горхаль'он! Мур е багайха та? Мударок або.
+#        WhatDialogue: Та? А, ты, наверное, наш язык не знаешь. Должен был догадатся, на этом острове, насколько вижу, одни ангулонцы живут. Тебе повезло, что мы, духи, все языки знаем - мы вечно странствуем, слушаем и учимся. Чего надо?
+#        Chat1: Та? Я когда-то жил в Готрионе, столице Гатурама. Работал наёмным убийцей, в сплочённой группе. Мы были одними из лучших, по крайней мере, как я считал. А в этом царстве воспоминаний я вижу живущего себя только полным идиотом.
+#        Chat2: Не с материка, да? Гатурам - одно из шести королевств-основателей. За всю свою жизнь, и после смерти, я редко бывал за пределами Готриона, поэтому подробно о других землях рассказать не могу.
+#        Chat3: Готрион - столица королевства. Довольно оживлённый город, но о его правителе я говорить не люблю. Упрямый и задиристый тип, по сути, наша миссия заключалась в его убийстве. Как назло, в день нашей миссии началось вторжение. Ужасно. Последнее, что мы видели, это огромный демон в небе.
+#        Chat4: Хм, тема, которую я обсуждать не хочу. Его имени я произносить не буду, знай только, что это было самое ужасающее существо, какое мы когда-либо видели. Именно поэтому я никогда не возвращался туда духом - боялся увидеть его или последствия его разрушений. Давай больше не будем об этом.
 #    }
 #
 #    SpiritCommonGuard: {
-#        NoRealmCruxDialogue: Thou must be at least partly within the Spirit Realm for me to give thee what you ask.
-#        CruxDialogue: Aye, take it, within me lies the Common Guard's spirit! May it ward and beshield thee against the greatest of foes.
-#        NoCruxDialogue: I'll need something to imbue first.
-#        OfferCruxDialogue: Gladly, however I request something in return. My remains lay empty-handed, if thou'st may bid upon them a weapon of my unit, then I shall be complacent. A lone corpse tells a bare tale.
-#        Dialogue: What manner of sorcery is this? And here I thought us immune to the physical world's presence...
-#        Chat1: Behold, for I am Kleo! Common Guard of Ricusa City! I'm sure if ye were a resident of Anglon you'd be jumping in shock to face such a legendary figure! Oh who am I kidding, my name barely made it past my own district. But no matter! I did my job well and that is all that matters!
-#        Chat2: By Grace! To think anyone who walks this earth be unaware of the greatest domain in Epidotra! Lo Anglon is where I'm from, and Ricusa City is where I resided. 'Tis a peaceful and prosperous land, home to great cities and castles and all the protection thou canst get!
-#        Chat3: Ah, Ricusa... It was such a grand capital - also one of the largest in the domain. It had humble origins and filled with promise. All seemed well for ages to come... That was until the demons came.
-#        Chat4: Indeed! A great demon terror invaded the capital with his underlings, never before had I seen such power and brute strength come from a single creature. The walls were broken down and the two legendary brothers - Archon and Vargo - fought against them. They were great heroes said to trounce the demon forces back to Demonhollow. Yet for all their talk they were quickly killed by the leader with very little resistance, and so Ricusa City fell to the scourge. Like much else before it.
+#        NoRealmCruxDialogue: Тебе надо хоть немного оказаться в царстве духов, дабы помочь смог я тебе.
+#        CruxDialogue: Держи, внутри меня дух гвардейца! Пусть он оберегает и защищает тебя от самых сильных врагов.
+#        NoCruxDialogue: Мне нужна вещь, которую можно напитать силой.
+#        OfferCruxDialogue: С удовольствием, но взамен я прошу кое-что. Мои останки лежат без ничего, если ты сможешь достать мне оружие моего подразделения, я буду доволен. Одинокий труп рассказывает плохую историю.
+#        Dialogue: Какая это чертовщина? А я-то думал, мы невосприимчивы к влиянию физического мира...
+#        Chat1: Знай же, имя мне - Клео! Гвардеец Рикусы! Уверен, будь ты жителем Ангулона, ты бы от удивления подскочил, увидев столь легендарную фигуру! Да кого я обманываю, о моей славе и в собственном районе мало кто слышал. Но неважно! Я хорошо выполнял свою работу, и это всё, что имеет значение!
+#        Chat2: Боже праведный! Не верится, что кто-то на этой земле не знает о величайшем королевстве Эпидотры! Ангулон - моя родина, а Рикуса - город, где я служил. Это мирная и процветающая земля, с великими городами и замками, и со всей возможной защитой!
+#        Chat3: Ах, Рикуса... величественная столица была, одна из крупнейших в королевстве. Она имела скромное начало, но была полна надежд. Долгие века всё было прекрасно... пока не пришли демоны.
+#        Chat4: Именно! Ужасный демон напал на столицу со своими приспешниками. Никогда прежде я не видел такой силы и грубой мощи, исходящей от одного существа. Стены были разрушены, и два легендарных брата, Архон и Варго, сражались с ними. Их называли великими героями, которые должны были отбросить демонические силы обратно в Адскую бездну. Но, несмотря на все их речи, вожак быстро убил их, почти без сопротивления, и Рикуса пала под ударом. Как и многое до неё.
 #    }
 #
 #    SpiritDruid: {
-#        NoRealmCruxDialogue: Get a little more into the Spirit Realm, and I will give it to you.
-#        CruxDialogue: A fine flower. It'll do. Take it, take the spirit of a goliath. It will serve you well, as it had to I.
-#        NoCruxDialogue: I'll need something to imbue first.
-#        OfferCruxDialogue: You'll be lucky. I do not give to Anglonic fol'hakks freely. Assuming you are from that haughty place? It matters not, if you offer a blessing to me, I shall do the same to you. I request an enchanted flower to grow atop my grave - a blue one, preferably. Find one that looks pretty.
-#        Dialogue: Tokk'gralvr! Dorvr'kok ok kolbv? Ah, groa'g Anglic fofolg. It's always Anglic speakers, never any of my own... Whatever. I don't know how you took me back to my place of defeat, do you want something from me?
-#        Chat1: Sent me back to look upon my remains and now you ask for a friendly chat... Gralvr! What a strange thing. Speaking to spirits has become a bore, so I might as well. I come from the Kul'don rainforests in what most call Thamor. We lived as a commune of druids, far from others. We kept to ourselves and never stepped foot beyond our territory.
-#        Chat2: It is what the outsiders call the region I lived in. I had never once cared for the world beyond the rainforests, as we had never travelled beyond them. To us, the rainforests were our entire world, at least until we were forced out.
-#        Chat3: A reasonable question. Of course, the portals here lead to Anglon and Gathuram, none are even close to Thamor, let alone the wilds of Kul'don. We were driven out by force, a posse of Anglonic soldiers came by in search of our goliaths. We retaliated of course, and drove them out. A short-lived victory, for they reappeared with their leader. They not only captured our goliaths, but us as well. To Anglon we were sent, and it is there I had escaped.
+#        NoRealmCruxDialogue: Погрузись глубже в царство духов, и я отдам тебе её.
+#        CruxDialogue: Прекрасный цветок. Сойдет. Забирай дух великана. Он тебе пригодится, как и мне когда-то.
+#        NoCruxDialogue: Мне нужна вещь, которую можно напитать силой.
+#        OfferCruxDialogue: Везёт тебе. Я не раздаю дары ангулоским фол'кхаксам направо и налево. Полагаю, ты не из той заносчивой страны? Неважно, если поможешь мне, я сделаю то же самое для тебя. Прошу тебя, найди зачарованный цветок, чтобы он рос на моей могиле. Синий, если не затруднит. Желательно красивый.
+#        Dialogue: Токк'гралвр! Дорвр'кок ок колбв? А, гроа'г ангулон фофолг. Одни ангулонцы, ни одного из моих... неважно. Не знаю, как ты вернул меня на место моей смерти, нужно что-то от меня?
+#        Chat1: Вызвал посмотреть на мои останки, а теперь просишь о дружеской беседе... Гралвр! Странный ты. Но разговоры с духами стали скучны, так что почему бы и нет. Я родом из дождевых лесов Куль'дон, которые большинство называют Тамор. Мы жили общиной друидов, вдали от других. Держались сами по себе и никогда не выходили за пределы своей территории.
+#        Chat2: Так называют внешние регион, где я жил. Никогда не интересовался миром за пределами дождевых лесов, так как мы никогда не покидали их. Для нас дождевые леса были целым миром, по крайней мере, до тех пор, пока нас не выгнали из них.
+#        Chat3: Вполне разумный вопрос. Порталы здесь ведут в Ангулон и Гатурам, ни один из них не близко к Тамору, не говоря уже о диких землях Куль'дон. Нас силой выгнали, отряд ангулонских солдат пришёл в поисках наших великанов. Мы, конечно, дали отпор и выгнали их. Победа была недолгой, они вернулись со своим предводителем. Они захватили не только наших великанов, но и нас. Нас отправили в Ангулон, и именно оттуда я сбежал.
 #    }
 #
 #    SpiritGathicMan: {
-#        NoRealmCruxDialogue: Get in tha Spirit Realm, garbar! Can't do anythin' otherwise!
-#        CruxDialogue: Weapon's a bit dusty but it'll do nicely. You wanted ma crux? Sure thing, lad! Have the spirits of my people, and may they stab ya foes hard!
-#        NoCruxDialogue: Gimme somethin' to imbue first!
-#        OfferCruxDialogue: Of course! But first, I'd like ya to give ma corpse a weapon. Let the bone-heads and tomb raiders know I died fightin'! A big ol' battleaxe will do.
-#        Dialogue: RAAAARRGGGHH! Haha! I saw ya comin' with ya fancy artifact, knew ya might call me with it, so I was ready to give ya a jump! No reaction? Come on, I yelled pretty loud. Not even a slight shiver in ya boots? Whatever, what is it?
-#        Chat1: They called me the "Brain Cleaver" back in ma prime, for reasons I'm sure ya can figure out. My real name was somethin' less intense - Bromal. I was a warrior of Iful's Capital in the ol' kingdom of Kol Duluramodul before the undead took over. Now it's known as the Olden Ruins.
-#        Chat2: A rotting mass of land east of Gathuram. The folk of it ere the fall came from up north-east, migrating from the sinking Eranmount. They named their new land Odulmount, but after lifetimes of glory it was renamed to Kol Duluramodul - meaning Immovable Swamp Kingdom. It was indeed an impenetrable land, until the God of Decay appeared.
-#        Chat3: A bringer of disease. A false god who roamed our lands. It rotted and corroded flesh and turned humans into undead. The swamps, we discovered, were where the infection thrived most, so the folk who yet lived abandoned the kingdom and travelled further west. Such hard times they were, I only look back in anguish for my people.
-#        Chat4: Be thankful for the present ya live in now. The Ancient World was an unforgiving age, made worse by the False Gods. We only knew of one at the time - the other spirits told of more. Apparently there was also one in Anglon, Blight I believe. For all the knowledge a thousand spirits can give, not one knows of the False Gods' origins. They're all dead though, the last of 'em was felled by ye olde Light. And I'm not talking about the Light you may know.
-#        Chat5: Aye, I know of the artifact you carry, in fact it was created in Iful's Capital! Originally, its purpose was for gainin' knowledge of the past, but overtime we used it for more personal reasons - such as lettin' the dead talk to their family an' friends. I am unsure why it was found beneath this island though.
+#        NoRealmCruxDialogue: Давай в царство духов, дружище!  Иначе ничего не получится!
+#        CruxDialogue: Оружие немного запылилось, но сойдёт. Хотел мою сущность? Конечно, приятель! Вот тебе духи моего народа, пусть они твоих врагов основательно потыкают!
+#        NoCruxDialogue: Мне нужна вещь, которую можно напитать силой!
+#        OfferCruxDialogue: Конечно! Но сначала дай моему трупу оружие. Пусть черепушки и расхитители гробниц знают, что я умер сражаясь! Большой боевой топор подойдёт.
+#        Dialogue: РРРРАААААА! Ха! Я видел, как ты пришёл со своей навороченной штуковиной, знал, что сможешь меня позвать, так что был готов тебя подловить! Даже не напугался?  Ну блин, я довольно громко кричал. Даже лёгкой дрожи в ногах нет? Ладно, что тебе нужно?
+#        Chat1: В лучшие времена меня звали 'Раскалыватель мозгов', надеюсь, догадался почему. Моё настоящее имя было куда менее впечатляющим - Бромаль. Я был воином Ифульской столицы старого королевства Коль Дулурамодуль, до того как нежить захватила его. Сейчас это место известно как Старые руины.
+#        Chat2: Гниющая масса земли к востоку от Гатурама. Жители этой земли до падения пришли с северо-востока, мигрируя с тонущего Эрамоунта. Они назвали свою новую землю Одульмаунт, но после долгих лет славы её переименовали в Коль Дулурамодуль, что значит 'неподвижное болотное королевство'. Действительно непроходимая земля была, пока не появился Бог разложения.
+#        Chat3: Сеятель болезней. Ложный бог, что бродил по нашим землям. Он гнил и разъедал плоть, превращая людей в нежить. Мы обнаружили, что инфекция наиболее сильно распространялась в болотах, поэтому те, кто ещё жил, покинули королевство и отправились дальше на запад. Это были тяжёлые времена, я вспоминаю о своём народе только с болью.
+#        Chat4: Будь благодарен за то время, в котором живёшь. Древний мир был безжалостным временем, чему не помогали ложные боги. В то время мы знали только одного, но другие духи рассказывали о иных. Кажется, был ещё один в Ангулоне, Мор, вроде. При всём знании, которое могут дать тысяча духов, ни один не знает происхождения ложных богов. Все они мертвы, последнего из них сразил старый Свет. И я говорю не о том Свете, который ты, возможно, знаешь.
+#        Chat5: Да, я знаю об артефакте, который ты носишь. На самом деле он был создан в Ифульской столице! Первоначально он предназначался для получения знаний о прошлом, но со временем мы использовали его для более личных целей, например, чтобы мёртвые могли поговорить со своими родными и друзьями. Не уверен, почему его нашли под этим островом.
 #    }
 #
 #    SpiritNiricLady: {
-#        NoRealmCruxDialogue: I'm unable to give you what you seek beyond my realm.
-#        CruxDialogue: Take it. My blessings to you. Whoever you are.
-#        NoCruxDialogue: I would require an object to imbue for that.
-#        OfferCruxDialogue: Only if you may, bring me six gemstones of the purest shine, and lay them around my remains. Six are the hands of an angel. Their arms hold us so...
-#        Dialogue: Oooh...
-#        Chat1: Me? Unsure. I was from a place. My recollection fails me... It was cold, too cold for my liking. I split myself, and dug. Dug for our new kingdom.
-#        Chat2: A new kingdom in snowy mountains, the old perished. We left, found ourselves here. The natives called it Nirin. They helped us, we helped them. Together we recreated our technology, we taught them our wisdom. All was well.
-#        Chat3: Mine? Yes, and no. I am part of a piece, infused within the inanimate to become animate. Automatons we are. Powered by the inner soul. My true spirit lies elsewhere, I alone am too frail. I wish to become whole again.
+#        NoRealmCruxDialogue: Что ищешь ты, я не могу тебе дать, это за гранью моего царства.
+#        CruxDialogue: Бери. Спасибо тебе. Кто бы ты ни был.
+#        NoCruxDialogue: Для этого мне нужна вещь, которую можно напитать силой.
+#        OfferCruxDialogue: Если сможешь, принеси мне шесть самоцветов чистейшего блеска и положи их вокруг моих останков. Шесть, как рук у ангела. Они так нас обнимают...
+#        Dialogue: О-о-о...
+#        Chat1: Я? Не уверена. Я была из одного места... память меня подводит... там было холодно, слишком холодно для меня. Я разделилась и копала. Копала для нашего нового королевства.
+#        Chat2: Новое королевство в снежных горах, старое погибло. Мы ушли, оказались здесь. Местные назвали это место Нирин. Они помогли нам, мы им. Вместе мы воссоздали наши технологии, научили их своей мудрости. Всё было хорошо.
+#        Chat3: Моё? И да, и нет. Я часть целого, заключённая в неживое, чтобы стать живой. Автоматоны мы. Берём энергию из души внутри. Моя истинная душа находится в другом месте, одна я слишком слаба. Я хочу снова стать целой.
 #        Chat4:
 #            '''
-#            Arctic Realm, it is known by. Frigid and open, a harsh change from our old home. It was warm and enclosed, as snug as sitting by a fireplace on a cold night. How I wish we stayed. How I wish the disaster never happened...
+#            Арктическое королевство, как его называют. Морозное и открытое, сильное разница по сравнению с нашим старым домом. Там было тепло и уютно, словно сидишь у камина холодным вечером. Как я желаю, чтобы мы остались... Как я желаю, чтобы катастрофы не случилось...
 #
-#            How did I get here?
+#            Как я сюда попала?..
 #            '''
-#        Chat5: Oooooh...
+#        Chat5: О-о-о...
 #    }
 #
 #    SpiritWalkerMan: {
 #        NoRealmCruxDialogue: Извини! Но я не могу ничего тебе передать, пока ты полностью находишься в материальном мире. Загляни в царство духов, и тогда получишь желаемое!
-#        CruxAsherDialogue: I see, I see. Within this tophat lies an odd spirit. I don't believe I've ever met it before, but they appear ta be quite powerful.
-#        CruxDialogue: Bravo! I 'ave infused ya card with the spirits of two skeletons, use some souls to summon 'em! They'll assist ya in battle, or make nice company if ya feelin' lonely. They do 'ave a mind of their own, so if they scurry off somewhere, use the card to tug their souls back! Keep in mind, other spirits may wish for somethin' in return for these.
+#        CruxAsherDialogue: Ясно, ясно. В этом цилиндре странный дух обитает. Не встречал ещё подобного, но, кажется, он весьма могущественен.
+#        CruxDialogue: Браво! Я наполнил твою карту сущностью двух скелетов, используй души, чтобы призвать их! Они помогут тебе в битве или составят компанию, если тебе одиноко. У них есть собственный разум, так что если они убегут куда-нибудь, используй карту, чтобы вернуть их души! Помни, другие духи могут чего-то попросить взамен.
 #        NoCruxDialogue: У тебя нет ничего, что я мог бы напитать силой. Если хочешь подсказку, то поищи те гатрийске гробницы, что в пещерах раскиданы. Глядишь, там что-нибудь да найдёшь.
-#        NoCruxAsherDialogue: There's somethin' in that hat I can use to imbue into something, however, ya don't have anythin' for me to imbue.
-#        OfferCruxDialogue: Only if you may, bring me six gemstones of the purest shine, and lay them around my remains. Six are the hands of an angel. Their arms hold us so...
-#        Dialogue1: Ну надо же! Додумался-таки, как меня вызвать! Надеюсь, мой презент придётся тебе по вкусу. Я, скажем так, увлекаюсь всяким духовным. В общем, спрашивай, коли что надобно!
+#        NoCruxAsherDialogue: В шляпе есть нечто, что я могу напитать в какой-нибудь предмет, однако тебе нечего мне предложить.
+#        OfferCruxDialogue: Если сможешь, принеси мне шесть самоцветов чистейшего блеска и положи их вокруг моих останков. Шесть, как рук у ангела. Они так нас обнимают...
+#        Dialogue1: Ну надо же! Додумался-таки, как меня вызвать! Надеюсь, мой подарок придётся тебе по вкусу. Я, скажем так, увлекаюсь всяким духовным. В общем, спрашивай, коли что надобно!
 #        Dialogue2: "Эй, в твоём старом цилиндре чувствуется что-то духовное, "
 #        Dialogue2Cont: загляни в царство духов ненадолго, чтоб я мог рассмотреть его получше.
 #        Dialogue2Mid: "сними-ка его, да "
 #        Chat1: Дарованная тебе способность позволяет заглянуть в царство духов - измерение, параллельное нашему. Во время этого видения ты сможешь ранить духов любым способом или находить тела, на которые можно воздействовать с помощью этого колокольчика. Например, моё тело! Более того, мы, духи, можем передать тебе нашу 'сущность', если у тебя есть предмет, в который её можно поместить - просто попроси об этом пока находишься в духовном облике.
 #        Chat2: Перед тобой изящное творение Гатурама. Применяя его к останкам, ты принуждаешь дух вернуться к месту своей смерти, слегка вытягивая его из царства духов. Поэтому ты можешь видеть меня сейчас, даже не прибегая к этой вашей ходьбе, хотя я самый что ни на есть настоящий дух, а не какой-то там скиталец или заблудшая душа.
-#        Chat3: When folk die, their soul leaves their body to find anotha'. During this pilgrimage, they're still connected to the physical world, meanin' some with the arcane eye may see 'em. If a lost soul wanders too long, they can seep outta the spirit realm and become Vagrant Spirits - poor things forever lost.
-#        Chat4: I couldn't tell ya where to find corpses to use it on, but I can recommend findin' spirit currents. They're only visible in my realm, and can take ya closer to a soulful corpse if ya travel through one. You'll only find 'em in caverns, as that'll be where our energy is most contained. If ya do find what you're lookin' for, be wary. Tombs of the mighty are seldom left unguarded.
-#        Chat4B: I once met anotha' spirit in a mind-bogglin' location! It felt outta this world. The walls were white, pipes with green fluids hung from ceilings, strange blue lights emitted from metal boxes an' tubes... and the spirit I saw was most intriguing! He just kept repeatin' about alarms, and wore a strange white an' blue suit. Very odd.
-#        Chat5: I've been a spirit so long that I forgot my own name, yet I still remember most other things 'bout me. Strange that. I'm from Gathuram, the portal behind me leads to the Catacombs of Gathuram, and is how the undead and skeleton folk came here. Doesn't seem like you can enter it though.
-#        CalaviaDialogue1: "'Ey, ya see that lass over yonder? There be somethin' soulful she carries, I can sense it. Would you, out of the goodness of yer heart, confront her about it for me? Don't want to assume nothin', but she might be keepin' a spirit captive."
-#        CalaviaDialogue2: I can sense gratitude within Kyretha's spirit for confrontin' the lass and ultimately leading 'er to a path of freedom. I have a feelin' she'd be willin' to offer you something in return?
+#        Chat3: Когда люди умирают, их душа покидает тело, чтобы найти другое. Во время этого странствия они всё ещё связаны с физическим миром, то есть некоторые, обладающие даром ясновидения, могут их увидеть. Если потерянная душа блуждает слишком долго, она может вырваться из мира духов и стать бродячим духом, беднягой, навсегда потерянным.
+#        Chat4: Не могу сказать, где найти трупы, чтобы использовать его, но могу посоветовать найти потоки духовной энергии. Они видны только в моём мире и могут привести тебя к одушевлённому трупу, если ты пройдёшь по их следам. Найдёшь их только в пещерах, так как там наша энергия наиболее сосредоточена. Если найдёшь то, что ищешь, будь осторожен. Гробницы сильных редко остаются без охраны.
+#        Chat4B: Однажды я встретил в невероятном месте другого духа! Нечто невообразимое. Стены были белыми, из потолка свисали трубы с зелёной жидкостью, странные синие огни исходили от металлических ящиков и трубок... и дух был очень интригующим! Он всё повторял об тревогах и был одет в странный бело-синий костюм. Очень странно.
+#        Chat5: Я так долго был духом, что забыл своё имя, но всё ещё помню о себе многое другое. Странно это. Я из Гатурама, портал позади меня ведёт в катакомбы Гатурама, и именно так нежить и скелеты попали сюда. Но ты, кажется, не можешь войти в него.
+#        CalaviaDialogue1: "Эй, видишь вон там девушку? Она несёт нечто с душой, я это чувствую. Не мог бы ты, пожалуйста, поговорить с ней об этом для меня? Не хочу ничего предполагать, но возможно, она держит духа в плену."
+#        CalaviaDialogue2: Я чувствую благодарность в душе Киреты за то, что ты поговорил с той девушкой и в конечном итоге привел её к пути свободы. Кажется, что она будет готова предложить тебе что-нибудь взамен?
 #    }
 #
 #    Calavia: {
@@ -3049,17 +3049,17 @@
 #    }
 #
 #    TreebarkDryad: {
-#        FelledDialogue1: Do you fear the unknown? Does my size frighten you? Please, do not be afraid, I am just a lone ent.
-#        FelledDialogue2: You are a peculiar thing. Do you chop for a reason, or for fun? You should be more considerate about your surroundings.
-#        FelledDialogue3: I help no tree-feller.
+#        FelledDialogue1: Боишься неизвестности? Размеры мои тебя пугают? Не бойся, я лишь одинокий энт.
+#        FelledDialogue2: Забавный человек. Рубишь ты зачем, с умыслом или так, забавы ради? Поаккуратнее бы с окружающим миром.
+#        FelledDialogue3: Дровосекам я не помогаю.
 #        Felled: "Хммм... "
-#        ShrineDialogue1: I think I have lingered here for long enough. I was told by the humans to guard this place, but it has been far too long an age... Dangers have come and gone, but none have ever sought to demolish this shrine. To Fairwood I return - I have missed its lush forests and bark'en friends. Mayhaps you be this shrine's new protector..? If it needs one, anyway.
-#        ShrineDialogue2: What's that shrine behind me..? It was built by a group of humans, long dead by now, as a place of worship to some sort of figure... I don't recall their name, but I know they were a good friend of nature. Some may consider her the Mother of Nature..? Hmmm... My memory grows distant in my old age.
-#        ShrineDialogue3: I have been here a long time, even for us. I was a bold sapling, far more than the others, and so I had come to this land far far earlier than the rest. Maybe I was unwise, but I have seen more of us coming from our lands in recent times, so perhaps the others grew adventurous too.
+#        ShrineDialogue1: Пора бы мне уже отсюда. Люди просили меня сторожить это место, но прошло уж слишком много времени... Были тут разные опасности, но никто и никогда не пытался разрушить этот храм. Возвращаюсь в Дивнолесье, соскучился по его густым чащам и друзьям-деревьям. А может, ты станешь новым защитником этого святилища?.. Если оно, конечно, нуждается в защите.
+#        ShrineDialogue2: Храм за моей спиной?.. Его построили люди, давно уже умершие, как место поклонения какому-то существу... Имя я не помню, но знаю, что оно было добрым другом природы. Некоторые считали её Матерью-природой?.. Хм... В старости память подводит.
+#        ShrineDialogue3: Я тут очень давно, даже по нашим меркам. Был смелым ростком, куда сильнее остальных, поэтому и попал в эти края гораздо раньше других. Может, и неосмотрительно поступил, но в последнее время всё больше наших стали приходить из родных земель, так что, может, и другие стали смелее.
 #        NoTreesDialogue1: Куда же подевались все мои древесные друзья?.. Может, я им наскучил...
 #        NoTreesDialogue2: Ты ведь не собираешься рубить моих древесных друзей своим топором, правда?..
 #        Dialogue1: Вид у тебя не очень дружелюбный. Надеюсь, ты не собираешься меня срубить... Ха-ха... Ха.
-#        Dialogue2: The forest we came from, Fairwood, has been freed of its curse. I was there to witness the forest's warden be tangled up by those cursed roots... But we toil with no humans, and our magic did nothing, so we roamed and roamed until we found this strange portal. It's what lead us here.
+#        Dialogue2: Лес, откуда мы пришли, Дивнолесье, освободился от проклятия. Я сам видел, как хранителя леса связали проклятые корни... Но мы не воюем с людьми, а наша магия не помогала, поэтому мы бродили и бродили, пока не нашли этот странный портал. Он и привел нас сюда.
 #        Dialogue3: Тебе не попадался на глаза молодой человек, похожий на колючий куст?.. Бедняга был проглочен проклятым лесом, в котором мы когда-то жили. Я сторонюсь людей, но всё же интересно, всё ли с ним в порядке...
 #        Dialogue4: Ты напоминаешь мне того молодого стража. Неужели и тебя настигло проклятие леса?..
 #        Dialogue5: Друг ты или враг? Пока ты не замахнёшься на меня своим топором, мне всё равно...
@@ -3111,25 +3111,25 @@
 #    }
 #
 #    Janitor: {
-#        ChatJanitor1: So you've been assigned to janitor duty, eh? Here's a task, go to the reactors and remove that dense lava stuff from under the reactor. My Nano-chisel won't even leave a mark on it!
-#        ChatJanitor2: About time she got me an assistant to help clean this mess of a place. Remember to check under the tables for dust.
+#        ChatJanitor1: Значит, тебя на уборку поставили, а? Вот тебе задачка - сходи к реакторам и убери густую лаву из под реактора. Мой нано-скальпель на ней даже царапины не оставляет!
+#        ChatJanitor2: Наконец-то мне помощника дали, чтобы этот бардак убирать. Не забудь под столами пыль протереть.
 #        Chat1: Проваливай отсюда, ты целую кучу пыли притащил!
-#        Chat2: Oh it's you again. You better not interrupt my cleaning.
-#        Chat3: Make it quick, I've got to resume mopping the floor.
+#        Chat2: О, это ты опять. Только попробуй помешать мне убирать.
+#        Chat3: Давай быстрее, мне ещё пол мыть надо.
 #        ChatClean: Без грязи в чём мой смысл? Да и неважно, буду драить, пока последняя пылинка не исчезнет отсюда. В конце концов, это моя работа.
-#        CycleDialogue1: You've probably seen the personnel who are basically walking corpses, ye? Our security usually deals with them, but it's not enough. They crawl out of overrun rooms like goddamn cockroaches! And I am the one who has to clean all the mess left by them and security.
+#        CycleDialogue1: Наверное, видел персонал, который по большей части трупы ходячие? НОбычно с ними разбирается наша охрана, но её мало. Они из заброшенных комнат выползают, как тараканы, ей-богу! А убирать и за ними, и за охраной, работа моя.
 #        CycleDialogue1Clean: Потолок. А теперь оставь меня, мне нужно закончить уборку! Пол никогда не бывает идеально чистым.
 #        CycleDialogue2: Другие боты научились меня бояться. Ну и славно, могу наконец-то сосредоточиться на работе. Вот только теперь кое-кто меня достаёт. Хм, интересно, кто бы это мог быть... А ну-ка, проваливай отсюда!
-#        CycleDialogue3: The big bot at Sector Omicron is a cool guy, if you ask me. Probably the only bot I don't feel annoyed by. Now if you excuse me, you brought in some of that slime with ya and I have to clean that up!
-#        CycleDialogue4: There's this one copper-haired bot that I can recall, who works as the crane operator in the Mech Storage room. I don't know that much about her, but her design is a little peculiar. Not that she's more feminine, but the hair... Why tho'?
-#        CycleDialogue5: Don't you dare go into Sector Zero, that place is absolutely filled with the impossible-to-remove black slime! And I don't want ye to bring that stuff here for me to try to pry off the steel plating of the lab! Takes ages.
+#        CycleDialogue3: Здоровяк в Омикрон-секторе - неплохой парень. Наверное, единственный робот, который меня не раздражает. А теперь, если позволишь, ты притащил с собой какую-то слизь, и мне её надо убрать!
+#        CycleDialogue4: Как могу вспомнить, есть здесь один медно-волосый робот, она работает крановщиком в хранилище мехов. Много о ней не знаю, но дизайн у неё необычный. Не то чтобы она была более женственной, но волосы... Зачем?
+#        CycleDialogue5: Даже не смей соваться в Сектор Ноль, там этой чёрной слизи, которую невозможно отмыть, куча! И не вздумай притащить её сюда, чтобы я потом её со стальных плит лаборатории отдирал! Вечность на это уйдёт.
 #        CycleDialogue5Clean: Понятия не имею. Гирус запрещает туда соваться, а я ей перечить не горю желанием.
-#        CycleDialogue6: Прояви уважение к Гирус, и она ответит тебе тем же. Надеюсь, мне всё же дадут другую работу после того, как я полвека убирал лабораторию после... инцидента. Не спрашивай меня о нём, меня активировали, когда всё УЖЕ СЛУЧИЛОСЬ.
+#        CycleDialogue6: Уважай Гирус, и она будет уважать тебя. Надеюсь, мне всё же дадут другую работу после того, как я полвека убирал лабораторию после... инцидента. Не спрашивай меня о нём, меня активировали, когда всё УЖЕ СЛУЧИЛОСЬ.
 #    }
 #
 #    Toaster: {
 #        1: Я самый обыкновенный тостер.
-#        2: О, привет, как поживаешь? ПОТОМУ ЧТО Я - ТОСТЕР!
+#        2: О, привет. Ну что, как дела? ПОТОМУ ЧТО Я - ТОСТЕР!
 #    }
 #}
 #
@@ -6819,7 +6819,7 @@
 #    }
 #
 #    SlayerShipEngine: {
-#        DisplayName: Корабельный ПСБС двигатель
+#        DisplayName: Корабельный ПБСС двигатель
 #        Tooltip: "'Расшифровывается как Почти Быстрее Скорости Света'"
 #    }
 #
