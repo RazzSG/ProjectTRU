@@ -15,7 +15,7 @@
 //
 //     public override ILContext.Manipulator PatchMethod { get; } = il =>
 //     {
-//         TranslationHelper.ModifyIL(il, "Right-click to switch Prototype", "");
+//         TranslationHelper.ModifyIL(il, "Right-click to switch Prototype", "Нажмите ПКМ, чтобы переключить Прототип");
 //     };
 // }
 //
