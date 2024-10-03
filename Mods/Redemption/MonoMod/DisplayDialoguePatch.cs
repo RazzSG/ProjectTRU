@@ -25,7 +25,7 @@
 //         {
 //             "A storm is brewing..." => "Надвигается буря...",
 //             "... And nature trembles" => "... И природа трепещет",
-//             "The Gods' wrath is upon you" => "Боги обрушили на вас свой гнев",
+//             "The Gods' wrath is upon you" => "Да обрушится на вас гнев Богов",
 //             "Octavia..." => "Октавия...",
 //             _ => text
 //         };
