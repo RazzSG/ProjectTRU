@@ -13,7 +13,7 @@
 //     private static Dictionary<int, List<string>> _townNpcNames = new()
 //     {
 //         { ModContent.NPCType<Daerel>(), ["Дэрел"] },
-//         { ModContent.NPCType<Fallen>(), ["Хаппинс", "Тенвон", "Оковт"] },
+//         { ModContent.NPCType<Fallen>(), ["Хэппинс", "Тенвон", "Оковт"] },
 //         { ModContent.NPCType<ForestNymph_Friendly>(), ["Нисса", "Амми", "Альдерис", "Мэйпл", "Лаванда", "Амброз", "Нелида", "Силлесса"] },
 //         { ModContent.NPCType<Newb>(), ["Ньюб"] },
 //         { ModContent.NPCType<TBot>(), ["Адам"] },

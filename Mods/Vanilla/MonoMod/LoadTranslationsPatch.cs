@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
+using System.Text.RegularExpressions;
 using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
 using CalamityRuTranslate.Core.MonoMod;
@@ -100,7 +101,21 @@ public class LoadTranslationsPatch : OnPatcher
 			    }
 			    catch (Exception e)
 			    {
-				    throw new Exception($"The localization file \"{translationFile.Name}\" is malformed and failed to load: ", e);
+				    string additionalContext = "";
+				    if(e is ArgumentException && Regex.Match(e.Message, "At line (\\d+),") is { Success: true } match && int.TryParse(match.Groups[1].Value, out int line)) {
+					    string[] lines = translationFileContents.Replace("\r", "").Replace("\t", "    ").Split('\n');
+					    int start = Math.Max(0, line - 4);
+					    int end = Math.Min(lines.Length, line + 3);
+					    StringBuilder linesOutput = new StringBuilder();
+					    for (int i = start; i < end; i++) {
+						    if (line - 1 == i)
+							    linesOutput.Append($"\n{i + 1}[c/ff0000:>" + lines[i] + "]");
+						    else
+							    linesOutput.Append($"\n{i + 1}:" + lines[i]);
+					    }
+					    additionalContext = "\nContext:" + linesOutput;
+				    }
+				    throw new Exception($"The localization file \"{translationFile.Name}\" is malformed and failed to load:{additionalContext} ", e);
 			    }
 
 			    JObject jsonObject = JObject.Parse(jsonString);

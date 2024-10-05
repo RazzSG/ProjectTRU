@@ -7439,7 +7439,7 @@ Items: {
     }
 
     DragonsBreath: {
-        DisplayName: Драконье дыхание
+        DisplayName: Дыхание дракона
         Tooltip: Выпускает поток жгучего дыхания дракона
     }
 

@@ -16,6 +16,6 @@
 //     public override ILContext.Manipulator PatchMethod { get; } = il =>
 //     {
 //         TranslationHelper.ModifyIL(il, "Tenvon", "Тенвон");
-//         TranslationHelper.ModifyIL(il, "Happins", "Хаппинс");
+//         TranslationHelper.ModifyIL(il, "Happins", "Хэппинс");
 //     };
 // }

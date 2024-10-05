@@ -318,6 +318,7 @@ public class VanillaItems : IItemGender
         ItemID.ReflectiveShades,
         ItemID.JimsDroneVisor,
         ItemID.TheRottedFork,
+        ItemID.ChainGuillotines,
     };
 }
 
@@ -577,6 +578,7 @@ public class CalamityItems : IItemGender
                 "NitroExpressRifle",
                 "ToxicantTwister",
                 "Respiteblock",
+                "ElementalShiv",
             };
             List<int> types = new List<int>();
             
@@ -643,8 +645,6 @@ public class CalamityItems : IItemGender
                 "LionHeart",
                 "MarniteSpear",
                 "RedSun",
-                "ElementalLance",
-                "StarnightLance",
                 "StellarContempt",
                 "Oblivion",
                 "Tumbleweed",
@@ -678,7 +678,6 @@ public class CalamityItems : IItemGender
                 "Calamity",
                 "UnstableGraniteCore",
                 "UniversalGenesis",
-                "RedtideSpear",
                 "HeartoftheElements",
                 "DeathsAscension",
                 "Vigilance",
