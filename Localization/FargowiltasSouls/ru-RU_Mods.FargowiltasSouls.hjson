@@ -2156,7 +2156,7 @@ Items: {
             [i:FargowiltasSouls/BeeEnchant] Оставляет за собой цветы во время полёта
             [i:FargowiltasSouls/BeeEnchant] Эффекты от предмета «{$ItemName.HiveBackpack}»
             [i:FargowiltasSouls/SpiderEnchant] Миньоны и стражи могут нанести критический удар
-            [i:FargowiltasSouls/SpiderEnchant] Критические удары миньонов и стражей наносят х1.5 урона вместо стандартных 2х
+            [i:FargowiltasSouls/SpiderEnchant] Критические удары миньонов и стражей наносят 150% урона вместо стандартных 200%
             [i:FargowiltasSouls/TurtleEnchant] Если вы стоите на месте и не атакуете, то окружаетесь панцирем
             [i:FargowiltasSouls/BeetleEnchant] Жуки помогают как в атаке, так и в защите
             'Редко живое существо, что осмелится не подчиниться вашей воле'
@@ -3317,7 +3317,7 @@ Items: {
         Tooltip:
             '''
             Увеличивает урон на 7%
-            Увеличивает призываемое число миньонов и стражей на 2
+            Увеличивает призываемое число миньонов на 2
             '''
     }
 

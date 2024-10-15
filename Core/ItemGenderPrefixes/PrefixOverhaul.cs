@@ -1597,6 +1597,153 @@ public class StarsAboveItemsCreator : IItemGenderCreator
     }
 }
 
+public class RedemptionItems : IItemGender
+{
+    public List<int> Feminine
+    {
+        get
+        {
+            string[] items = {
+                "VasaraPendant",
+                "OmegaPickaxe",
+                "NanoAxe2",
+                "GraveSteelPickaxe",
+                "PureIronPickaxe",
+                "Divinity",
+                "Dusksong",
+                "Dusksong2",
+                "HydrasMaw",
+                "Taikasauva",
+                "BloodstainedPike",
+                "CrystalGlaive",
+                "InfectiousGlaive",
+                "Midnight",
+                "OversizedScrewdriver",
+                "TidalWake",
+                "BileLauncher",
+                "CorruptedDoubleRifle",
+                "DoubleRifle",
+                "FlakCannon",
+                "PrototypeAtomRifle",
+                "AndroidHologram",
+                "CruxCardHazmatZombie",
+                "Constellations",
+                "EmpyreanBlind",
+                "PoemOfIlmatar",
+                "TeslaCoil",
+                "Hacksaw",
+                "PiercingNebulaWeapon",
+                "Electronade",
+                "SwarmerCannon",
+                "Twinklestar",
+                "XeniumDrone",
+                "CalciteWand",
+                "ChickendWand",
+                "EaglecrestGlove",
+                "ErhanMagnifyingGlass",
+                "Halbirdhouse",
+                "NoblesHalberd",
+                "SilverRapier",
+                "EaglecrestSling",
+                "HallowedHandGrenade",
+                "CruxCardAnglonSkeletons",
+                "CruxCardCalavia",
+                "CruxCardForestNymph",
+                "CruxCardGathicSkeletons",
+                "CruxCardGladestone",
+                "CruxCardMossyGoliath",
+                "CruxCardSkeleton",
+                "CruxCardSkeletonAssassin",
+                "CruxCardSkullDigger",
+                "CruxCardTied",
+                "CystlingSummon",
+                "HolyBible",
+                "RitualistEmblem",
+                "BeelzebubConcoction",
+                "DevilishResin",
+                "DurableBowString",
+                "GildedSeaEmblem",
+                "SpiderSerum",
+                "TrappedSoulBauble",
+            };
+        
+            List<int> types = new List<int>();
+            if (ModInstances.StarsAbove != null)
+            {
+                types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("Redemption", itemName).Type));
+            }
+            return types;
+        }
+    }
+
+    public List<int> Neuter
+    {
+        get
+        {
+            string[] items = {
+                "BlindJustice",
+                "InfectedTentacle",
+                "MythrilsBane",
+                "SunInThePalm",
+                "UkonRuno",
+                "EaglecrestJavelin",
+                "XenoXyston",
+                "GracesGuidance",
+                "MicroshieldCore",
+                "HeartOfInfection",
+                "WaterfowlEgg",
+                "ForestCore",
+                "HeartInsignia",
+                "NecklaceOfPerception",
+                "NecklaceOfSight",
+                "ShellNecklace",
+                "Wardbreaker",
+            };
+        
+            List<int> types = new List<int>();
+            if (ModInstances.StarsAbove != null)
+            {
+                types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("Redemption", itemName).Type));
+            }
+            return types;
+        }
+    }
+
+    public List<int> Plural
+    {
+        get
+        {
+            string[] items = {
+                "CrystallizedKnowledge",
+                "HyperTechRevolvers",
+                "CosmosChains",
+                "ChompingChains",
+                "KeepersClaw",
+                "MechanicalSheath",
+                "NebWings",
+                "LeatherSheath",
+            };
+    
+            List<int> types = new List<int>();
+            if (ModInstances.StarsAbove != null)
+            {
+                types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("Redemption", itemName).Type));
+            }
+            return types;
+        }
+    }
+}
+
+public class RedemptionItemsCreator : IItemGenderCreator
+{
+    public string ModName => "Redemption";
+
+    public IItemGender Create()
+    {
+        return new RedemptionItems();
+    }
+}
+
 public class PrefixOverhaul
 {
     private List<int> _feminine = new();
@@ -1608,7 +1755,8 @@ public class PrefixOverhaul
         new FargoSoulsItemsCreator(),
         new InfernumModeItemsCreator(),
         new ThoriumModItemsCreator(),
-        new StarsAboveItemsCreator()
+        new StarsAboveItemsCreator(),
+        // new RedemptionItemsCreator(),
     };
 
     //Мужской, Женский, Средний, Множественный
