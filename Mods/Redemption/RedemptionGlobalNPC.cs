@@ -4,6 +4,7 @@
 // using Redemption.NPCs.Friendly;
 // using Redemption.NPCs.Friendly.SpiritSummons;
 // using Redemption.NPCs.HM;
+// using Redemption.NPCs.PreHM;
 // using Terraria;
 // using Terraria.GameContent.Bestiary;
 // using Terraria.ModLoader;
@@ -105,6 +106,12 @@
 //         {
 //             if (npc.GivenName == "Apidroid Mk.I")
 //                 npc.GivenName = "Апидроид М.I";
+//         }
+//         
+//         if (npc.type == ModContent.NPCType<Blobble>())
+//         {
+//             if (npc.GivenName == "Serbble")
+//                 npc.GivenName = "Сербень";
 //         }
 //     }
 // }

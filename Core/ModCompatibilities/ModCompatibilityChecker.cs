@@ -8,7 +8,7 @@ public class ModCompatibilityChecker : ModSystem
 {
     private readonly ModCompatibilityInfo[] _modCompatibilityInfo =
     {
-        new("CalamityMod", new Version(2, 0, 4, 3), true),
+        new("CalamityMod", new Version(2, 0, 4, 4), true),
         new("StarlightRiver", new Version(1, 5, 0, 2), false),
         new("InfernumMode", new Version(2, 0, 1, 14), true),
         new("FargowiltasSouls", new Version(1, 6, 10, 6), true),
