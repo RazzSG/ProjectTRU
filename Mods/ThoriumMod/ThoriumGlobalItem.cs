@@ -1109,4 +1109,13 @@ public class ThoriumGlobalItem : GlobalItem
             tooltips.ReplaceText("needles", "игл");
         });
     }
+
+    public override void AnglerChat(int type, ref string chat, ref string catchLocation)
+    {
+        if (type == ModContent.ItemType<LilGuppy>())
+        {
+            chat = "Долгое плавание в одиночестве было ужасно тоскливым... Но однажды у меня появился друг - крошечная рыбка, которую я назвал Маленькая Гуппи! Правда, она постоянно ускользает из своего аквариума! Я очень по ней скучаю и хочу, чтобы она вернулась. Отправляйся на поиски моего друга!";
+            catchLocation = "Можно поймать в океане";
+        }
+    }
 }

@@ -1,6 +1,5 @@
 ﻿using CalamityRuTranslate.Common.Utilities;
 using Microsoft.Xna.Framework;
-using Terraria;
 using Terraria.GameContent.UI.Chat;
 using Terraria.ModLoader;
 
@@ -117,18 +116,18 @@ public class AddNewMessagePatch : ILoadable
             "Master mode is now enabled!" => "Мир переключён в режим Мастера!",
             
             // Redemption
-            // "A sleeping stone appears..." => "Появляется дремлющий валун...",
+            // "A sleeping stone appears..." => "Появляются дремлющие валуны...",
             // "Nebuleus is nowhere to be found..." => "Небулеус бесследно исчезла...",
-            // "A Shadesoul Gateway has been opened..." => "Врата призрачных душ распахнулись...",
-            // "A Shadesoul Gateway has been closed..." => "Врата призрачных душ закрылись...",
-            // "Daerel the Wayfarer has woken up!" => "Странник Дэрел пробудился ото сна!",
-            // "Adam the Friendly T-Bot has woken up!" => "Дружелюбный Т-бот Адам пробудился ото сна!",
-            // "Zephos the Wayfarer has woken up!" => "Странник Зефос пробудился ото сна!",
-            // "A Shadesoul Gateway has faded by itself..." => "Врата призрачных душ исчезли сами собой...",
-            // "A blobble swarm has arrived!" => "Прибыл рой пузыреней!",
+            // "A Shadesoul Gateway has been opened..." => "Врата пустой души распахнулись...",
+            // "A Shadesoul Gateway has been closed..." => "Врата пустой души закрылись...",
+            // "Daerel the Wayfarer has woken up!" => "Дэрел, Странник пробудился!",
+            // "Adam the Friendly T-Bot has woken up!" => "Адам, Дружелюбный Т-Бот, активировался!",
+            // "Zephos the Wayfarer has woken up!" => "Зефос, Странник пробудился!",
+            // "A Shadesoul Gateway has faded by itself..." => "Врата пустой души исчезли сами собой...",
+            // "A blobble swarm has arrived!" => "Рой пузыреней прибывает!",
             // "The bomb is too close to unexplodable tiles" => "Бомба расположена слишком близко к неразрушимым блокам",
             // "The bomb must be activated on the surface and in the far reaches of the world" => "Бомба должна быть активирована на поверхности и в самых дальних уголках мира",
-            // "The fowl legion charges in!" => "Кудах-легион атакует!",
+            // "The fowl legion charges in!" => "Кудах-легион идёт в наступление!",
             _ => text
         };
 

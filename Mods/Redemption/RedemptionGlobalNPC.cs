@@ -1,5 +1,6 @@
 ﻿// using CalamityRuTranslate.Common;
 // using CalamityRuTranslate.Common.Utilities;
+// using CalamityRuTranslate.Core.Config;
 // using Redemption.NPCs.Bosses.KSIII;
 // using Redemption.NPCs.Friendly;
 // using Redemption.NPCs.Friendly.SpiritSummons;
@@ -15,15 +16,24 @@
 // {
 //     public override bool IsLoadingEnabled(Mod mod)
 //     {
-//         return TranslationHelper.IsRussianLanguage && /*TRuConfig.Instance.RedemptionLocalization &&*/ ModInstances.Redemption != null;
+//         return TranslationHelper.IsRussianLanguage && TRuConfig.Instance.RedemptionLocalization && ModInstances.Redemption != null;
 //     }
 //
 //     public override void SetBestiary(NPC npc, BestiaryDatabase database, BestiaryEntry bestiaryEntry)
 //     {
 //         if (npc.type == ModContent.NPCType<SpaceKeeper>())
 //         {
-//             bestiaryEntry.Info.RemoveAt(bestiaryEntry.Info.Count - 1);
-//             bestiaryEntry.Info.Add(new FlavorTextBestiaryInfoElement("The 3rd Slayer Unit created by King Slayer III during his million year voyage. Construction began after an alien war which left most of Slayer's androids damaged or broken. This unit specialises in using nanobots to heal other robots."));
+//             bestiaryEntry.Info[7] = new FlavorTextBestiaryInfoElement("Третья боевая единица, созданная Королём-Охотником во время его странствия длиной в миллион лет. Разработка началась после разрушительной войны с пришельцами, обратившей армию андроидов Короля-Охотника в груду металлолома. Эта единица специализируется на восстановлении других роботов с помощью наноботов.");
+//         }
+//         
+//         if (npc.type == ModContent.NPCType<KS3_Magnet>())
+//         {
+//             bestiaryEntry.Info[7] = new FlavorTextBestiaryInfoElement("Этот дрон преобразует снаряды в энергию для ответного огня по целям.");
+//         }
+//         
+//         if (npc.type == ModContent.NPCType<KS3_MissileDrone>())
+//         {
+//             bestiaryEntry.Info[7] = new FlavorTextBestiaryInfoElement("Ракетный дрон, созданный Королём-Охотником III во время его странствия длиной в миллион лет.");
 //         }
 //     }
 //

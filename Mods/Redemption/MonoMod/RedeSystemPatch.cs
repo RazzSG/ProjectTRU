@@ -1,6 +1,7 @@
 ﻿// using System.Reflection;
 // using CalamityRuTranslate.Common;
 // using CalamityRuTranslate.Common.Utilities;
+// using CalamityRuTranslate.Core.Config;
 // using CalamityRuTranslate.Core.MonoMod;
 // using MonoMod.Cil;
 // using Redemption;
@@ -9,7 +10,7 @@
 //
 // public class DrawOmegaTransmitterTextPatch : ILPatcher
 // {
-//     public override bool AutoLoad => ModInstances.Redemption != null /*&& TRuConfig.Instance.RedemptionLocalization*/ && TranslationHelper.IsRussianLanguage;
+//     public override bool AutoLoad => ModInstances.Redemption != null && TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
 //         
 //     public override MethodInfo ModifiedMethod => typeof(RedeSystem).GetCachedMethod(nameof(RedeSystem.DrawOmegaTransmitterText));
 //
@@ -19,21 +20,9 @@
 //     };
 // }
 //
-// public class DrawChoiceTextPatch : ILPatcher
-// {
-//     public override bool AutoLoad => ModInstances.Redemption != null /*&& TRuConfig.Instance.RedemptionLocalization*/ && TranslationHelper.IsRussianLanguage;
-//         
-//     public override MethodInfo ModifiedMethod => typeof(RedeSystem).GetCachedMethod(nameof(RedeSystem.DrawChoiceText));
-//
-//     public override ILContext.Manipulator PatchMethod { get; } = il =>
-//     {
-//         TranslationHelper.ModifyIL(il, "Open Inventory to make your choice", "Откройте инвентарь, чтобы сделать свой выбор");
-//     };
-// }
-//
 // public class DrawSkeletonInvasionUIPatch : ILPatcher
 // {
-//     public override bool AutoLoad => ModInstances.Redemption != null /*&& TRuConfig.Instance.RedemptionLocalization*/ && TranslationHelper.IsRussianLanguage;
+//     public override bool AutoLoad => ModInstances.Redemption != null && TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
 //         
 //     public override MethodInfo ModifiedMethod => typeof(RedeSystem).GetCachedMethod(nameof(RedeSystem.DrawSkeletonInvasionUI));
 //
@@ -46,7 +35,7 @@
 //
 // public class DrawFowlMorningUIPatch : ILPatcher
 // {
-//     public override bool AutoLoad => ModInstances.Redemption != null /*&& TRuConfig.Instance.RedemptionLocalization*/ && TranslationHelper.IsRussianLanguage;
+//     public override bool AutoLoad => ModInstances.Redemption != null && TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
 //         
 //     public override MethodInfo ModifiedMethod => typeof(RedeSystem).GetCachedMethod(nameof(RedeSystem.DrawFowlMorningUI));
 //

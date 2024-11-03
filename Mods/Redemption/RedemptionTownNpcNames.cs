@@ -22,7 +22,7 @@
 //     
 //     public override bool IsLoadingEnabled(Mod mod)
 //     {
-//         return ModInstances.Redemption != null /*&& TRuConfig.Instance.RedemptionLocalization*/ && TranslationHelper.IsRussianLanguage;
+//         return ModInstances.Redemption != null && TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
 //     }
 //
 //     public override void ModifyNPCNameList(NPC npc, List<string> nameList)

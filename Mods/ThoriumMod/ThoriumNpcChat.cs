@@ -24,7 +24,7 @@ public class ThoriumNpcChat : GlobalNPC
             chat = chat switch
             {
                 "Don't forget to wipe your blade if you're planning on going out there! I don't care how magical it is, those freaks' blood will rust any metal!" => "Не забудь протереть свой клинок, если собираешься выходить наружу! Мне всё равно, насколько он магический, кровь этих чудищ ржавеет любой металл",
-                "You know all those special weapons you find scattered about the land? I've always wondered just how they were forged in the first place. I'm an old man now, but I've still got a long journey to mastery ahead of me..." => "Знаешь, все те уникальные оружия, что разбросаны по всей этой земле? Мне всегда было интересно, как их вообще ковали. Хотя я уже старик, мной ещё предстоит долгий путь к совершенству...",
+                "You know all those special weapons you find scattered about the land? I've always wondered just how they were forged in the first place. I'm an old man now, but I've still got a long journey to mastery ahead of me..." => "Знаешь все те уникальные оружия, что разбросаны по всей этой земле? Мне всегда было интересно, как их вообще ковали. Хотя я уже старик, мной ещё предстоит долгий путь к совершенству...",
                 "Every blade's got its place in the world: a signature weapon for a hero, a beloved knife for a chef, or maybe just some gaudy piece of junk hanging from a wall." => "У каждого клинка есть своё предназначение: это может быть личное оружие героя, любимый нож шеф-повара или просто бесполезная безделушка на стене.",
                 "Hey brat, corral some people into helping me out at the forge. Blacksmithing ain't a single-man task, and you'll just end up with second-rate junk if you try going solo!" => "Эй, малец, найди кого-нибудь, кто поможет мне в кузнице. Кузнечное дело - это не работа одного человека, и если ты будешь работать в одиночку, то получишь только второсортное барахло!",
                 "'course I followed you here, brat. I crash-coursed you on how to forge and smith weapons for yourself before you arrived here, I'll be damned if I don't get to sit back and watch the ensuing fireworks." => "Конечно, малец, я следил за твоими шагами с самого начала. Я обучил тебя кузнечному ремеслу задолго до твоего прихода сюда, Поэтому, честно говоря, я буду разочарован, если упущу тот фейерверк, который ты здесь устроишь.",
@@ -61,7 +61,7 @@ public class ThoriumNpcChat : GlobalNPC
             {
                 if (chat == $"That brute {GetNPCName(ModContent.NPCType<Tracker>())} is more Barbarian than Tracker! Do you have any idea how many times the oaf asked me to fix that battleaxe of his?!")
                 {
-                    chat = $"Эта дубина {GetNPCName(ModContent.NPCType<Tracker>())} больше похожа на варвара, чем на следопыта! Ты хоть представляешь, сколько раз этот болван просил меня починить свой боевой топор?!";
+                    chat = $"Этот дубина {GetNPCName(ModContent.NPCType<Tracker>())} больше похож на варвара, чем на следопыта! Ты хоть представляешь, сколько раз этот болван просил меня починить свой боевой топор?!";
                 }
             }
         }
@@ -92,7 +92,7 @@ public class ThoriumNpcChat : GlobalNPC
             {
                 if (chat == $"Can you believe that {GetNPCName(208)} wanted to throw me a birthday party? I haven't had one in so long!")
                 {
-                    chat = $"Ты представляешь,{GetNPCName(208)} хочет устроить мне день рождения? Я так давно не праздновал!";
+                    chat = $"Ты представляешь, {GetNPCName(208)} хочет устроить мне день рождения? Я так давно не праздновал!";
                 }
             }
             
@@ -175,7 +175,7 @@ public class ThoriumNpcChat : GlobalNPC
             {
                 if (chat == $"The last time {GetNPCName(228)} asked me to cook for him, he requested bugs! This truly is a strange place...")
                 {
-                    chat = $"В прошлый раз когда {GetNPCName(228)} попросил приготовить ему что-нибудь, он попросил жуков! Вот уж точно странное место...";
+                    chat = $"В прошлый раз когда {GetNPCName(228)} попросил приготовить ему что-нибудь, он заказал жуков! Вот уж точно странное место...";
                 }
             }
         }
@@ -220,7 +220,7 @@ public class ThoriumNpcChat : GlobalNPC
                 "Have you adventured into the aquatic depths yet...? Its choking atmosphere prevents most explorers from entering, but I'm confident you'll find a way around it..." => "Ты уже погружался в акватические глубины? Многих отталкивает давящая атмосфера этих мест, но я убеждён, что ты найдёшь способ преодолеть этот непроходимый барьер...",
                 "I've collected many marine items in my travels, hero. Would you like to purchase one?" => "Эй, герой! В своих странствиях я собрал много морских сокровищ. Хочешь купить что-нибудь?",
                 "Being at the bottom of the ocean for long periods of time has taught me one thing; Always come prepared!" => "Жизнь на дне океана научила меня одному: всегда будь готов к любым неожиданностям!",
-                "You would think it gets hard to breath under this helmet, but really I'm just used to it now." => "На первый взгляд, может показаться, что под этим шлемом трудно дышать, но я уже привык",
+                "You would think it gets hard to breath under this helmet, but really I'm just used to it now." => "На первый взгляд может показаться, что под этим шлемом трудно дышать, но я уже привык.",
                 "You ever try to drink a bottle of water, while drowning, to save yourself? I know I have!" => "А ты когда-нибудь, когда тонул, пробовал выпить бутылку воды, чтобы спастись? Я вот да!",
                 "Not bad, kid... Not bad at all. Hopefully you've had fun during all of your adventures out there. I guess you could say I've always been keeping an eye on you." => "Неплохо, малец... Даже очень неплохо. Надеюсь, ты получал удовольствие от своих приключений. Я, кстати, всё время за тобой наблюдал.",
                 _ => chat

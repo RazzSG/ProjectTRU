@@ -186,6 +186,7 @@ public class VanillaItems : IItemGender
         ItemID.HorseshoeBundle,
         ItemID.FlowerPow,
         ItemID.MonkStaffT2,
+        ItemID.FlamingMace,
     };
 
     public List<int> Neuter { get; } = new()
@@ -789,7 +790,6 @@ public class FargoSoulsItems : IItemGender
                 "AbominableWand",
                 "AgitatingLens",
                 "CelestialRune",
-                "ChaliceoftheMoon",
                 "ConcentratedRainbowMatter",
                 "DreadShell",
                 "DubiousCircuitry",
@@ -833,6 +833,11 @@ public class FargoSoulsItems : IItemGender
                 "BoxofGizmos",
                 "PrismaRegalia",
                 "NavalRustrifle",
+                "EgyptianFlail",
+                "SisypheanFist",
+                "UmbraRegalia",
+                "ElectricWhip",
+                "GalacticGlobe",
             };
         
             List<int> types = new List<int>();
@@ -957,6 +962,8 @@ public class FargoSoulsItems : IItemGender
                 "TwinRangs",
                 "GeminiGlaives",
                 "Deerclawps",
+                "FrigidGemstone",
+                "FrigidGemstoneInactive",
             };
         
             List<int> types = new List<int>();
