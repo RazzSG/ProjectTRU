@@ -35,6 +35,7 @@ public class ArmorSetBonusPreviewSystem : ModSystem
         AddFargoSoulsArmorSetBonuses();
         AddThoriumArmorSetBonuses();
         AddStarsAboveSetBonuses();
+        AddRedemptionSetBonuses();
     }
 
     private void AddVanillaArmorSetBonuses()
@@ -55,6 +56,7 @@ public class ArmorSetBonusPreviewSystem : ModSystem
         ArmorSetBonuses[ItemID.IronHelmet] = Language.GetTextValue("ArmorSetBonus.MetalTier1");
         ArmorSetBonuses[ItemID.TinHelmet] = Language.GetTextValue("ArmorSetBonus.MetalTier1");
         ArmorSetBonuses[ItemID.SilverHelmet] = Language.GetTextValue("ArmorSetBonus.MetalTier2");
+        ArmorSetBonuses[ItemID.GoldHelmet] = Language.GetTextValue("ArmorSetBonus.MetalTier2");
         ArmorSetBonuses[ItemID.AncientGoldHelmet] = Language.GetTextValue("ArmorSetBonus.MetalTier2");
         ArmorSetBonuses[ItemID.LeadHelmet] = Language.GetTextValue("ArmorSetBonus.MetalTier2");
         ArmorSetBonuses[ItemID.TungstenHelmet] = Language.GetTextValue("ArmorSetBonus.MetalTier2");
@@ -437,6 +439,74 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             ArmorSetBonuses[TranslationHelper.GetItemID("StarsAbove/NeopursuantHeadbooster")] = $"Если надета {TranslationHelper.GetTextValue("StarsAbove/NeopursuantPlasteel", "DisplayName")}: {Language.GetTextValue("Mods.StarsAbove.Common.NeopursuantSetBonusFullMetalArcanist")}\nЕсли надето {TranslationHelper.GetTextValue("StarsAbove/NeopursuantRoguegarb", "DisplayName")}: {Language.GetTextValue("Mods.StarsAbove.Common.NeopursuantSetBonusInfiltrator")}";
             ArmorSetBonuses[TranslationHelper.GetItemID("StarsAbove/NeopursuantDualShield")] = $"Если надета {TranslationHelper.GetTextValue("StarsAbove/NeopursuantPlasteel", "DisplayName")}: {Language.GetTextValue("Mods.StarsAbove.Common.NeopursuantSetBonusBackupBattery")}\nЕсли надето {TranslationHelper.GetTextValue("StarsAbove/NeopursuantRoguegarb", "DisplayName")}: {Language.GetTextValue("Mods.StarsAbove.Common.NeopursuantSetBonusEnviroSavant")}";
             ArmorSetBonuses[TranslationHelper.GetItemID("StarsAbove/NeopursuantHiGuard")] = $"Если надета {TranslationHelper.GetTextValue("StarsAbove/NeopursuantPlasteel", "DisplayName")}: {Language.GetTextValue("Mods.StarsAbove.Common.NeopursuantSetBonusCataphractArms")}\nЕсли надето {TranslationHelper.GetTextValue("StarsAbove/NeopursuantRoguegarb", "DisplayName")}: {Language.GetTextValue("Mods.StarsAbove.Common.NeopursuantSetBonusViralUpload")}";
+        }
+    }
+    
+    private void AddRedemptionSetBonuses()
+    {
+        if (ModInstances.Redemption != null)
+        {
+            ArmorSetBonuses[ItemID.CopperHelmet] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Thunder.DisplayName"));
+            ArmorSetBonuses[ItemID.TinHelmet] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Thunder.DisplayName"));
+            ArmorSetBonuses[ItemID.CactusHelmet] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Nature.DisplayName"));
+            ArmorSetBonuses[ItemID.IronHelmet] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Earth.DisplayName"));
+            ArmorSetBonuses[ItemID.AncientIronHelmet] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Earth.DisplayName"));
+            ArmorSetBonuses[ItemID.LeadHelmet] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Earth.DisplayName"));
+            ArmorSetBonuses[ItemID.SilverHelmet] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Damage", 20, Language.GetTextValue("Mods.Redemption.Items.Thunder.DisplayName"));
+            ArmorSetBonuses[ItemID.TungstenHelmet] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Damage", 20, Language.GetTextValue("Mods.Redemption.Items.Thunder.DisplayName"));
+            ArmorSetBonuses[ItemID.GoldHelmet] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Arcane.DisplayName"));
+            ArmorSetBonuses[ItemID.AncientGoldHelmet] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Arcane.DisplayName"));
+            ArmorSetBonuses[ItemID.PlatinumHelmet] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Damage", 20, Language.GetTextValue("Mods.Redemption.Items.Arcane.DisplayName"));
+            ArmorSetBonuses[ItemID.FossilHelm] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Earth.DisplayName"));
+            ArmorSetBonuses[ItemID.JungleHat] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Nature.DisplayName"));
+            ArmorSetBonuses[ItemID.ShadowHelmet] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Shadow.DisplayName"));
+            ArmorSetBonuses[ItemID.AncientShadowHelmet] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Shadow.DisplayName"));
+            ArmorSetBonuses[ItemID.CrimsonHelmet] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Blood.DisplayName"));
+            ArmorSetBonuses[ItemID.MoltenHelmet] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Fire.DisplayName"));
+            ArmorSetBonuses[ItemID.CobaltHelmet] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Water.DisplayName"));
+            ArmorSetBonuses[ItemID.CobaltMask] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Water.DisplayName"));
+            ArmorSetBonuses[ItemID.CobaltHat] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Water.DisplayName"));
+            ArmorSetBonuses[ItemID.PalladiumHelmet] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Holy.DisplayName"));
+            ArmorSetBonuses[ItemID.PalladiumHeadgear] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Holy.DisplayName"));
+            ArmorSetBonuses[ItemID.PalladiumMask] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Holy.DisplayName"));
+            ArmorSetBonuses[ItemID.MythrilHelmet] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Arcane.DisplayName"));
+            ArmorSetBonuses[ItemID.MythrilHat] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Arcane.DisplayName"));
+            ArmorSetBonuses[ItemID.MythrilHood] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Arcane.DisplayName"));
+            ArmorSetBonuses[ItemID.OrichalcumHelmet] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Nature.DisplayName"));
+            ArmorSetBonuses[ItemID.OrichalcumHeadgear] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Nature.DisplayName"));
+            ArmorSetBonuses[ItemID.OrichalcumMask] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Nature.DisplayName"));
+            ArmorSetBonuses[ItemID.AdamantiteHelmet] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Earth.DisplayName"));
+            ArmorSetBonuses[ItemID.AdamantiteHeadgear] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Earth.DisplayName"));
+            ArmorSetBonuses[ItemID.AdamantiteMask] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Earth.DisplayName"));
+            ArmorSetBonuses[ItemID.TitaniumHelmet] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Damage", 20, Language.GetTextValue("Mods.Redemption.Items.Thunder.DisplayName"));
+            ArmorSetBonuses[ItemID.TitaniumHeadgear] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Damage", 20, Language.GetTextValue("Mods.Redemption.Items.Thunder.DisplayName"));
+            ArmorSetBonuses[ItemID.TitaniumMask] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Damage", 20, Language.GetTextValue("Mods.Redemption.Items.Thunder.DisplayName"));
+            ArmorSetBonuses[ItemID.AncientBattleArmorHat] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Earth.DisplayName"));
+            ArmorSetBonuses[ItemID.HallowedHeadgear] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Holy.DisplayName"));
+            ArmorSetBonuses[ItemID.HallowedHelmet] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Holy.DisplayName"));
+            ArmorSetBonuses[ItemID.HallowedHood] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Holy.DisplayName"));
+            ArmorSetBonuses[ItemID.HallowedMask] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Holy.DisplayName"));
+            ArmorSetBonuses[ItemID.AncientHallowedHeadgear] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Holy.DisplayName"));
+            ArmorSetBonuses[ItemID.AncientHallowedHelmet] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Holy.DisplayName"));
+            ArmorSetBonuses[ItemID.AncientHallowedHood] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Holy.DisplayName"));
+            ArmorSetBonuses[ItemID.AncientHallowedMask] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Holy.DisplayName"));
+            ArmorSetBonuses[ItemID.TurtleHelmet] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Nature.DisplayName"));
+            ArmorSetBonuses[ItemID.BeetleHelmet] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Nature.DisplayName"));
+            ArmorSetBonuses[ItemID.SpectreHood] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Arcane.DisplayName"));
+            ArmorSetBonuses[ItemID.SpectreMask] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Arcane.DisplayName"));
+            ArmorSetBonuses[ItemID.SolarFlareHelmet] += Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.SolarCelestial", Language.GetTextValue("Mods.Redemption.Items.Celestial.DisplayName"), Language.GetTextValue("Mods.Redemption.Items.Fire.DisplayName"));
+            ArmorSetBonuses[TranslationHelper.GetItemID("Redemption/LivingWoodHelmet")] = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.LivingWood");
+            ArmorSetBonuses[TranslationHelper.GetItemID("Redemption/CommonGuardHelm1")] = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.CommonGuardHelm1");
+            ArmorSetBonuses[TranslationHelper.GetItemID("Redemption/CommonGuardHelm2")] = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.CommonGuardHelm2");
+            ArmorSetBonuses[TranslationHelper.GetItemID("Redemption/PureIronHelmet")] = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.PureIron.Bonus", Language.GetTextValue("Mods.Redemption.Items.Fire.DisplayName"), Language.GetTextValue("Mods.Redemption.Items.Ice.DisplayName"));
+            ArmorSetBonuses[TranslationHelper.GetItemID("Redemption/DragonLeadSkull")] = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.DragonLead.Bonus", Language.GetTextValue("Mods.Redemption.Items.Ice.DisplayName"), Language.GetTextValue("Mods.Redemption.Items.Fire.DisplayName"));
+            ArmorSetBonuses[TranslationHelper.GetItemID("Redemption/XenomiteHelmet")] = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Xenomite.Bonus1") + Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Xenomite.Press") + "[Особая способность]" + Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Xenomite.Bonus2");
+            ArmorSetBonuses[TranslationHelper.GetItemID("Redemption/XeniumVisor")] = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Xenium.Bonus");
+            ArmorSetBonuses[TranslationHelper.GetItemID("Redemption/HardlightCowl")] = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Hardlight.Press") + "[Особая способность]" + Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Hardlight.Support") + Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Hardlight.Cowl");
+            ArmorSetBonuses[TranslationHelper.GetItemID("Redemption/HardlightCasque")] = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Hardlight.Press") + "[Особая способность]" + Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Hardlight.Support") + Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Hardlight.Casque");
+            ArmorSetBonuses[TranslationHelper.GetItemID("Redemption/HardlightHelm")] = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Hardlight.Press") + "[Особая способность]" + Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Hardlight.Support") + Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Hardlight.Helm");
+            ArmorSetBonuses[TranslationHelper.GetItemID("Redemption/HardlightHood")] = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Hardlight.Press") + "[Особая способность]" + Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Hardlight.Support") + Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Hardlight.Hood");
+            ArmorSetBonuses[TranslationHelper.GetItemID("Redemption/HardlightVisor")] = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Hardlight.Press") + "[Особая способность]" + Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Hardlight.Support") + Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Hardlight.Visor");
         }
     }
 }

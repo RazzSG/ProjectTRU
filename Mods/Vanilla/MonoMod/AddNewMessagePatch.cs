@@ -30,13 +30,13 @@ public class AddNewMessagePatch : ILoadable
         if (text.Contains("was repelled by celestial forces."))
             text = text.Replace("was repelled by celestial forces.", "отбрасывается неземными силами.");
         if (text.Contains("was violently pricked by roses."))
-            text = text.Replace("was violently pricked by roses.", "яростно закалывается розами.");
+            text = text.Replace("was violently pricked by roses.", "яростно пронзается розами.");
         if (text.Contains("Profaned Garden location"))
         {
-            text = text.Replace("Profaned Garden location moved from", "Положение осквернённого сада перемещено с");
-            text = text.Replace("Profaned Garden location reverted to", "Положение осквернённого сада возвращено на");
-            text = text.Replace("from", "с");
-            text = text.Replace("to", "на");
+            text = text.Replace("Profaned Garden location moved from", "Положение осквернённого сада перемещено из");
+            text = text.Replace("Profaned Garden location reverted to", "Положение осквернённого сада возвращено в");
+            text = text.Replace("from", "из");
+            text = text.Replace("to", "в");
         }
         
         // Fargo
@@ -62,29 +62,29 @@ public class AddNewMessagePatch : ILoadable
         if (text.Contains("was obliterated!"))
             text = text.Replace("was obliterated!", "стирается с лица земли!");
         if (text.Contains("'s body was broken, along with their limits."))
-            text = "ломает лимиты, вместе со своим телом.";
+            text = text.Replace("'s body was broken, along with their limits.", " ломает лимиты вместе со своим телом.");
         if (text.Contains("died beyond their world."))
-            text = text.Replace("died beyond their world.", "умирает за пределами родного мира.");
+            text = text.Replace("died beyond their world.", "умирает за пределами своего мира.");
         if (text.Contains("was lost in space."))
             text = text.Replace("was lost in space.", "теряется в космосе.");
         if (text.Contains("drifted away from their home planet."))
             text = text.Replace("drifted away from their home planet.", "удаляется от своей родной планеты.");
         if (text.Contains("was brought to kneel beyond their world."))
-            text = text.Replace("was brought to kneel beyond their world.", "вынужденно преклоняется за пределами родного мира.");
+            text = text.Replace("was brought to kneel beyond their world.", "вынужденно преклоняется за пределами своего мира.");
         if (text.Contains("died within another realm."))
             text = text.Replace("died within another realm.", "умирает в иной реальности.");
         if (text.Contains("crumbled under the weight of Living Dead."))
-            text = text.Replace("crumbled under the weight of Living Dead.", "не выдерживает силу живого мертвеца.");
+            text = text.Replace("crumbled under the weight of Living Dead.", "не выдерживает тяжести живого мертвеца.");
         if (text.Contains("burnt to a crisp by continuing to move during Pyretic."))
             text = text.Replace("burnt to a crisp by continuing to move during Pyretic.", "продолжает двигаться во время горячки, сгорая дотла.");
         if (text.Contains("froze to death by staying still during Deep Freeze"))
-            text = text.Replace("froze to death by staying still during Deep Freeze", "остаётся неподвижным во время глубокой заморозки, замерзая до смерти.");
+            text = text.Replace("froze to death by staying still during Deep Freeze", "оставаясь неподвижным во время глубокой заморозки, замерзает насмерть.");
         if (text.Contains("couldn't handle the vacuum of space."))
             text = text.Replace("couldn't handle the vacuum of space.", "не выдерживает вакуума космоса.");
         
         // Redemption
-        // if (text.Contains("experienced DOOR STUCK."))
-        //     text = text.Replace("experienced DOOR STUCK.", "застревает В ДВЕРЯХ.");
+        if (text.Contains("experienced DOOR STUCK."))
+            text = text.Replace("experienced DOOR STUCK.", "застревает в ДВЕРЯХ.");
         
         text = text switch
         {
@@ -105,7 +105,7 @@ public class AddNewMessagePatch : ILoadable
             "You give Polaris a small treat" => "Вы даёте Полярке вкусное лакомство.",
             "You tell Polaris she's a good girl" => "Вы говорите Полярке, что она хорошая девочка.",
             "You let Polaris cuddle your arm" => "Вы позволяете Полярке прижаться к вашей руке.",
-            "You pet Polaris" => "Вы гладите Полярку",
+            "You pet Polaris" => "Вы гладите Полярку.",
             "Too much love..." => "Слишком много любви...",
             "Supreme Cirrus code attempted to crash the game. Did you do something weird?" => "Код Высшей Циррус попытался вызвать сбой игры. Вы сделали что-то странное?",
             
@@ -116,18 +116,18 @@ public class AddNewMessagePatch : ILoadable
             "Master mode is now enabled!" => "Мир переключён в режим Мастера!",
             
             // Redemption
-            // "A sleeping stone appears..." => "Появляются дремлющие валуны...",
-            // "Nebuleus is nowhere to be found..." => "Небулеус бесследно исчезла...",
-            // "A Shadesoul Gateway has been opened..." => "Врата пустой души распахнулись...",
-            // "A Shadesoul Gateway has been closed..." => "Врата пустой души закрылись...",
-            // "Daerel the Wayfarer has woken up!" => "Дэрел, Странник пробудился!",
-            // "Adam the Friendly T-Bot has woken up!" => "Адам, Дружелюбный Т-Бот, активировался!",
-            // "Zephos the Wayfarer has woken up!" => "Зефос, Странник пробудился!",
-            // "A Shadesoul Gateway has faded by itself..." => "Врата пустой души исчезли сами собой...",
-            // "A blobble swarm has arrived!" => "Рой пузыреней прибывает!",
-            // "The bomb is too close to unexplodable tiles" => "Бомба расположена слишком близко к неразрушимым блокам",
-            // "The bomb must be activated on the surface and in the far reaches of the world" => "Бомба должна быть активирована на поверхности и в самых дальних уголках мира",
-            // "The fowl legion charges in!" => "Кудах-легион идёт в наступление!",
+            "A sleeping stone appears..." => "Появляются дремлющие валуны...",
+            "Nebuleus is nowhere to be found..." => "Небулеус бесследно исчезла...",
+            "A Shadesoul Gateway has been opened..." => "Врата пустой души распахнулись...",
+            "A Shadesoul Gateway has been closed..." => "Врата пустой души закрылись...",
+            "Daerel the Wayfarer has woken up!" => "Дэрел, Странник, пробудился!",
+            "Adam the Friendly T-Bot has woken up!" => "Адам, Дружелюбный Т-Бот, активировался!",
+            "Zephos the Wayfarer has woken up!" => "Зефос, Странник, пробудился!",
+            "A Shadesoul Gateway has faded by itself..." => "Врата пустой души исчезли сами собой...",
+            "A blobble swarm has arrived!" => "Рой пузыреней прибывает!",
+            "The bomb is too close to unexplodable tiles" => "Бомба расположена слишком близко к неразрушимым блокам",
+            "The bomb must be activated on the surface and in the far reaches of the world" => "Бомба должна быть активирована на поверхности и в самых дальних уголках мира",
+            "The fowl legion charges in!" => "Кудах-легион идёт в наступление!",
             _ => text
         };
 

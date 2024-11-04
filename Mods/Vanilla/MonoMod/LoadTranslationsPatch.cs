@@ -42,6 +42,7 @@ public class LoadTranslationsPatch : OnPatcher
 		    {"Mods.ThoriumMod", TRuConfig.Instance.ThoriumModLocalization},
 		    {"Mods.NoxusBoss", TRuConfig.Instance.NoxusBossLocalization},
 		    {"Mods.StarsAbove", TRuConfig.Instance.StarsAboveLocalization},
+		    {"Mods.Redemption", TRuConfig.Instance.RedemptionLocalization},
 	    };
 
 	    if (file == null)

@@ -1,47 +1,47 @@
-﻿// using System.Reflection;
-// using CalamityRuTranslate.Common;
-// using CalamityRuTranslate.Common.Utilities;
-// using CalamityRuTranslate.Core.Config;
-// using CalamityRuTranslate.Core.MonoMod;
-// using MonoMod.Cil;
-// using Redemption;
-//
-// namespace CalamityRuTranslate.Mods.Redemption.MonoMod;
-//
-// public class DrawOmegaTransmitterTextPatch : ILPatcher
-// {
-//     public override bool AutoLoad => ModInstances.Redemption != null && TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
-//         
-//     public override MethodInfo ModifiedMethod => typeof(RedeSystem).GetCachedMethod(nameof(RedeSystem.DrawOmegaTransmitterText));
-//
-//     public override ILContext.Manipulator PatchMethod { get; } = il =>
-//     {
-//         TranslationHelper.ModifyIL(il, "Right-click to switch Prototype", "Нажмите ПКМ, чтобы переключить Прототип");
-//     };
-// }
-//
-// public class DrawSkeletonInvasionUIPatch : ILPatcher
-// {
-//     public override bool AutoLoad => ModInstances.Redemption != null && TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
-//         
-//     public override MethodInfo ModifiedMethod => typeof(RedeSystem).GetCachedMethod(nameof(RedeSystem.DrawSkeletonInvasionUI));
-//
-//     public override ILContext.Manipulator PatchMethod { get; } = il =>
-//     {
-//         TranslationHelper.ModifyIL(il, "Until Party's Over: ", "До конца вечеринки: ");
-//         TranslationHelper.ModifyIL(il, "Raveyard", "Тусовище");
-//     };
-// }
-//
-// public class DrawFowlMorningUIPatch : ILPatcher
-// {
-//     public override bool AutoLoad => ModInstances.Redemption != null && TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
-//         
-//     public override MethodInfo ModifiedMethod => typeof(RedeSystem).GetCachedMethod(nameof(RedeSystem.DrawFowlMorningUI));
-//
-//     public override ILContext.Manipulator PatchMethod { get; } = il =>
-//     {
-//         TranslationHelper.ModifyIL(il, "Wave ", "Волна ");
-//         TranslationHelper.ModifyIL(il, "Fowl Morning", "Кудах-заря");
-//     };
-// }
+﻿using System.Reflection;
+using CalamityRuTranslate.Common;
+using CalamityRuTranslate.Common.Utilities;
+using CalamityRuTranslate.Core.Config;
+using CalamityRuTranslate.Core.MonoMod;
+using MonoMod.Cil;
+using Redemption;
+
+namespace CalamityRuTranslate.Mods.Redemption.MonoMod;
+
+public class DrawOmegaTransmitterTextPatch : ILPatcher
+{
+    public override bool AutoLoad => ModInstances.Redemption != null && TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
+        
+    public override MethodInfo ModifiedMethod => typeof(RedeSystem).GetCachedMethod(nameof(RedeSystem.DrawOmegaTransmitterText));
+
+    public override ILContext.Manipulator PatchMethod { get; } = il =>
+    {
+        TranslationHelper.ModifyIL(il, "Right-click to switch Prototype", "Нажмите ПКМ, чтобы переключить Прототип");
+    };
+}
+
+public class DrawSkeletonInvasionUIPatch : ILPatcher
+{
+    public override bool AutoLoad => ModInstances.Redemption != null && TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
+        
+    public override MethodInfo ModifiedMethod => typeof(RedeSystem).GetCachedMethod(nameof(RedeSystem.DrawSkeletonInvasionUI));
+
+    public override ILContext.Manipulator PatchMethod { get; } = il =>
+    {
+        TranslationHelper.ModifyIL(il, "Until Party's Over: ", "До конца вечеринки: ");
+        TranslationHelper.ModifyIL(il, "Raveyard", "Тусовище");
+    };
+}
+
+public class DrawFowlMorningUIPatch : ILPatcher
+{
+    public override bool AutoLoad => ModInstances.Redemption != null && TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
+        
+    public override MethodInfo ModifiedMethod => typeof(RedeSystem).GetCachedMethod(nameof(RedeSystem.DrawFowlMorningUI));
+
+    public override ILContext.Manipulator PatchMethod { get; } = il =>
+    {
+        TranslationHelper.ModifyIL(il, "Wave ", "Волна ");
+        TranslationHelper.ModifyIL(il, "Fowl Morning", "Кудах-заря");
+    };
+}

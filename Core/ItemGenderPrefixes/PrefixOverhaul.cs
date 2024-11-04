@@ -1763,7 +1763,7 @@ public class PrefixOverhaul
         new InfernumModeItemsCreator(),
         new ThoriumModItemsCreator(),
         new StarsAboveItemsCreator(),
-        // new RedemptionItemsCreator(),
+        new RedemptionItemsCreator(),
     };
 
     //Мужской, Женский, Средний, Множественный

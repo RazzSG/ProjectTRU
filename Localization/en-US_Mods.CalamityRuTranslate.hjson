@@ -81,10 +81,10 @@ Configs: {
             Tooltip: Выключает перевод The Stars Above.
         }
         
-#        RedemptionLocalization: {
-#            Label: Mod of Redemption
-#            Tooltip: Выключает перевод Mod of Redemption.
-#        }
+        RedemptionLocalization: {
+            Label: Mod of Redemption
+            Tooltip: Выключает перевод Mod of Redemption.
+        }
         
         VanillaLocalization: {
             Label: Vanilla

@@ -66,9 +66,9 @@ public class TRuConfig : ModConfig
     [ReloadRequired]
     public bool StarsAboveLocalization;
 
-    // [DefaultValue(true)]
-    // [ReloadRequired]
-    // public bool RedemptionLocalization;
+    [DefaultValue(true)]
+    [ReloadRequired]
+    public bool RedemptionLocalization;
 
     [DefaultValue(true)]
     [ReloadRequired]
