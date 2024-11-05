@@ -42,6 +42,6 @@ public class DrawFowlMorningUIPatch : ILPatcher
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {
         TranslationHelper.ModifyIL(il, "Wave ", "Волна ");
-        TranslationHelper.ModifyIL(il, "Fowl Morning", "Кудах-заря");
+        TranslationHelper.ModifyIL(il, "Fowl Morning", "Кудашное утро");
     };
 }
