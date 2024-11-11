@@ -169,7 +169,7 @@ Buffs: {
 
     ConductorsStandBuff: {
         DisplayName: Дирижёр
-        Description: Длительность и радиус действия усиления увеличены
+        Description: Длительность и радиус действия усилений увеличены
     }
 
     CreativeBlock: {
@@ -224,7 +224,7 @@ Buffs: {
 
     BatRepellentBuff: {
         DisplayName: Репеллент: летучие мыши
-        Description: Большинство летучих мышей становятся дружелюбными
+        Description: Большинство летучих мышей стали дружелюбными
     }
 
     BeetleCarapace: {
@@ -239,7 +239,7 @@ Buffs: {
 
     BloodHarvest: {
         DisplayName: Кровавая жатва
-        Description: В данный момент невозможно накапливать заряды крови
+        Description: Накопление зарядов крови временно невозможно
     }
 
     BloodRush: {
@@ -249,7 +249,7 @@ Buffs: {
 
     BloodyWandDebuff: {
         DisplayName: Окровавленный
-        Description: Получение дополнительного урона от кровавых снарядов
+        Description: Дополнительный урон от кровавых снарядов
     }
 
     BouncingFlamePotionBuff: {
@@ -259,7 +259,7 @@ Buffs: {
 
     Bubbled: {
         DisplayName: Запузырен
-        Description: Вы уноситесь прочь!
+        Description: Вас уносит прочь!
     }
 
     CactusFruitBuff: {
@@ -314,12 +314,12 @@ Buffs: {
 
     DarknessWithin: {
         DisplayName: Внутренняя тьма
-        Description: Только сильнейшие из врагов утолят ваш голод...
+        Description: Лишь сильнейшие из врагов смогут утолить ваш голод...
     }
 
     DecayingFlesh: {
         DisplayName: Разлагающаяся плоть
-        Description: Плоть жертвы сильно разлагается...
+        Description: Плоть жертвы стремительно разлагается...
     }
 
     DeepFreezeCoatingBuff: {
@@ -354,7 +354,7 @@ Buffs: {
 
     EmergencyAirTank: {
         DisplayName: Аварийный баллон с воздухом
-        Description: Ваше дыхание будет восстановлено, если достигнет критического уровня
+        Description: Дыхание будет восстановлено, если достигнет критического уровня
     }
 
     EscapeRocketBuff: {
@@ -369,12 +369,12 @@ Buffs: {
 
     FishRepellentBuff: {
         DisplayName: Репеллент: рыба
-        Description: Большинство рыб становятся дружелюбными
+        Description: Большинство рыб стали дружелюбными
     }
 
     FlawlessChrysalisDebuff: {
         DisplayName: Восстановление
-        Description: Ваше тело ещё не привыкло к этой форме...
+        Description: Ваше тело ещё не привыкло к новой форме...
     }
 
     FlawlessChrysalisEndBuff: {
@@ -394,7 +394,7 @@ Buffs: {
 
     Freezing: {
         DisplayName: Замерзание
-        Description: Скорость передвижения этого врага заметно снижена
+        Description: Скорость передвижения врага заметно снижена
     }
 
     FrenzyPotionBuff: {
@@ -404,12 +404,12 @@ Buffs: {
 
     FullStomach: {
         DisplayName: Полный желудок
-        Description: Вы больше не сможете съесть ни кусочка!
+        Description: Вы больше не можете съесть ни кусочка!
     }
 
     FungalGrowth: {
         DisplayName: Грибной рост
-        Description: Эта цель заражена мицелием
+        Description: Цель заражена мицелием
     }
 
     GhastlyCarapaceBuff: {
@@ -439,7 +439,7 @@ Buffs: {
 
     AltarBuff: {
         DisplayName: Духовная связь
-        Description: Ваши исцеляющие заклинания восстанавливают дополнительно здоровье
+        Description: Ваши исцеляющие заклинания восстанавливают дополнительное здоровье
     }
 
     AuraDamageReduction: {
@@ -454,7 +454,7 @@ Buffs: {
 
     BloodBoost: {
         DisplayName: Кровавое усиление
-        Description: Союзник усиливает ваши эффекты, срабатывающие при ударе
+        Description: Союзник усиливает ваши эффекты, которые срабатывают при ударах
     }
 
     BloomBoost: {
@@ -464,7 +464,7 @@ Buffs: {
 
     BloomingSetBuff: {
         DisplayName: Опутывание
-        Description: Восполнение здоровья и скорость восполнения здоровья увеличены
+        Description: Восполнение здоровья и скорость его восполнения увеличены
     }
 
     BubbleBulwarkWandBuff: {
@@ -499,12 +499,12 @@ Buffs: {
 
     Cured: {
         DisplayName: Исцелённый
-        Description: Невосприимчивость к дебаффам, наносящим урон, а также восполнение здоровья увеличено
+        Description: Невосприимчивость к дебаффам, наносящим урон, и увеличенное восполнение здоровья
     }
 
     DarkContagionDebuff: {
         DisplayName: Тёмное заражение
-        Description: Поражён заразным, тёмным проклятием
+        Description: Поражён заразным тёмным проклятием
     }
 
     DarkEffigyBuff: {
@@ -514,7 +514,7 @@ Buffs: {
 
     DistortedTimeBoost: {
         DisplayName: Искажённое время
-        Description: Течение времени подвергается сильному влиянию
+        Description: Течение времени подверглось сильному искажению
     }
 
     DistortedTimeEnemy: {
@@ -529,7 +529,7 @@ Buffs: {
 
     DreamCatcherBuff: {
         DisplayName: Ловец снов
-        Description: После получения смертельного урона возвращает вам максимальный запас здоровья
+        Description: После получения смертельного урона восстанавливает вам максимальный запас здоровья
     }
 
     DreamMegaphoneBuff: {
@@ -569,7 +569,7 @@ Buffs: {
 
     Enfeeble: {
         DisplayName: Ослабление
-        Description: Дополнительное получение 10 единиц урона от лучезарных атак
+        Description: Получение 10 единиц дополнительного урона от лучезарных атак
     }
 
     ForgottenCrossNecklaceBuff: {
@@ -624,7 +624,7 @@ Buffs: {
 
     LifeSpiritBuff: {
         DisplayName: Дух жизни
-        Description: Слишком яркий для непосредственного взгляда
+        Description: Слишком яркий для прямого взгляда
     }
 
     LilCherubsWandBuff: {
@@ -674,7 +674,7 @@ Buffs: {
 
     SerpentsBubbleWandBuff: {
         DisplayName: Змеиный пузырь
-        Description: Восполнение здоровья и сопротивление урону увеличено на 10%
+        Description: Восполнение здоровья и сопротивление урону увеличены на 10%
     }
 
     ShieldDroneBeaconBuff: {
@@ -759,7 +759,7 @@ Buffs: {
 
     InsectRepellentBuff: {
         DisplayName: Репеллент : насекомые
-        Description: Большинство насекомых становятся дружелюбными
+        Description: Большинство насекомых стали дружелюбными
     }
 
     JellyBuff: {
@@ -814,17 +814,17 @@ Buffs: {
 
     MidnightOilBuff: {
         DisplayName: Полночное масло
-        Description: Враги не столь заинтересованы в вас
+        Description: Враги меньше заинтересованы в вас.
     }
 
     MirroroftheBeholderDebuff: {
         DisplayName: Обнаружен
-        Description: Этот обнаруженный враг получает на 15% больше урона
+        Description: Этот враг, обнаруженный вами, получает на 15% больше урона
     }
 
     MistletoeBuff: {
         DisplayName: Новогоднее приветствие
-        Description: Регенерация здоровья, маны и вдохновения увеличена
+        Description: Регенерация здоровья, маны и вдохновения увеличены
     }
 
     AmphibianEggBuff: {
@@ -844,7 +844,7 @@ Buffs: {
 
     CyberneticSphereBuff: {
         DisplayName: Кибернетическая сфера
-        Description: Сферически совершенен!
+        Description: Сферически совершенны!
     }
 
     DesecratedHeartBuff: {
@@ -859,7 +859,7 @@ Buffs: {
 
     GoldenScaleBuff: {
         DisplayName: Золотая рыбка
-        Description: У вас жабры и потрясающий вкус к деликатесам
+        Description: У вас есть жабры и потрясающий вкус к деликатесам
     }
 
     HowToSpeakWhaleABiographyBuff: {
@@ -913,7 +913,7 @@ Buffs: {
 
     OtherworldlyRuneBuff: {
         DisplayName: Апокалипсис
-        Description: Вы предвестник конца света...
+        Description: Вы - предвестник конца света...
     }
 
     SinisterAcornBuff: {
@@ -923,7 +923,7 @@ Buffs: {
 
     SpectralFangBuff: {
         DisplayName: Спектральный тигр
-        Description: Даже после смерти, его преданность не знает границ
+        Description: Даже после смерти его преданность не знает границ
     }
 
     SuperAnvilBuff: {
@@ -933,7 +933,7 @@ Buffs: {
 
     TomeoftheVoidGazersChariotBuff: {
         DisplayName: Колесница пустоты
-        Description: Кто бы мог подумать, что её возможно укротить?
+        Description: Кто бы мог подумать, что её можно укротить?
     }
 
     VampireCatalystBuff: {
@@ -1043,7 +1043,7 @@ Buffs: {
 
     BloodSausageBuff: {
         DisplayName: Кровяная колбаса
-        Description: Похоже, переел лакомства...
+        Description: Похоже, переел лакомств...
     }
 
     ChaoticMarbleBuff: {
@@ -1088,7 +1088,7 @@ Buffs: {
 
     EmptyWormholePotionBuff: {
         DisplayName: Бесполезный друг
-        Description: Блин... Они даже не помогают мне сражаться!
+        Description: Чёрт... Они даже не помогают мне сражаться!
     }
 
     EnergizedQuadCubeBuff: {
@@ -1123,12 +1123,12 @@ Buffs: {
 
     HolyGoatBuff: {
         DisplayName: Святой козлик
-        Description: У него золотистое свечение, а значит, он должен быть великолепным!
+        Description: Он излучает золотистое свечение, а значит, он должен быть великолепным!
     }
 
     LilMogBuff: {
         DisplayName: Малыш мог
-        Description: Он милый малыш, не правда ли?
+        Description: Он такой милый малыш, не правда ли?
     }
 
     LittlePhylacteryBuff: {
@@ -1158,7 +1158,7 @@ Buffs: {
 
     PickleBuff: {
         DisplayName: Совершенно обычная собака
-        Description: или же...?
+        Description: Или всё-таки?..
     }
 
     PinkSlimeBuff: {
@@ -1188,7 +1188,7 @@ Buffs: {
 
     SubterraneanAnglerBuff: {
         DisplayName: Подземный удильщик
-        Description: Он может выглядеть устрашающе, но он дружелюбен!
+        Description: Он может выглядеть устрашающе, но на самом деле он дружелюбен!
     }
 
     SuspiciousMoisturizerBottleBuff: {
@@ -1198,7 +1198,7 @@ Buffs: {
 
     SweetBeetBuff: {
         DisplayName: Свекольное печенье
-        Description: Куда бы вы ни бежали, они последуют за вами
+        Description: Куда бы вы ни бежали, оно последует за вами
     }
 
     SwordOfDestinyBuff: {
@@ -1223,7 +1223,7 @@ Buffs: {
 
     WyvernPetBuff: {
         DisplayName: Виверна-щенок
-        Description: Пусть он юн, но выкладывается на полную!
+        Description: Пусть он ещё юн, но выкладывается на полную!
     }
 
     Petrify: {
@@ -1308,7 +1308,7 @@ Buffs: {
 
     SkeletonRepellentBuff: {
         DisplayName: Репеллент : скелеты
-        Description: Большинство скелетов становятся дружелюбными
+        Description: Большинство скелетов стали дружелюбными
     }
 
     SpearmintDebuff: {
@@ -1333,12 +1333,12 @@ Buffs: {
 
     Spored: {
         DisplayName: Покрыт спорами
-        Description: Если этот враг умрёт, то будут выпущены дополнительные споры
+        Description: Если этот враг умрёт, будут выпущены дополнительные споры
     }
 
     Staggered: {
         DisplayName: Расшатан
-        Description: Вы слишком дезориентированы, чтобы выполнять правильные прыжки
+        Description: Вы слишком дезориентированы, чтобы правильно прыгать
     }
 
     StrangeSkullDebuff: {
@@ -1353,12 +1353,12 @@ Buffs: {
 
     ArsenalStaffBuff: {
         DisplayName: Оружейный посох
-        Description: Обрушьте на ваших врагов весь свой арсенал
+        Description: Обрушьте на ваших врагов весь арсенал
     }
 
     BannerBounty: {
         DisplayName: Знамя добычи
-        Description: Ближайшие миньоны при нанесении урона врагам создают монеты
+        Description: Ближайшие миньоны, нанося урон врагам, создают монеты
     }
 
     BannerConfusion: {
@@ -1378,7 +1378,7 @@ Buffs: {
 
     BannerFalcon: {
         DisplayName: Сокол
-        Description: Ближайшие миньоны могут нанести дополнительный урон при атаке
+        Description: Ближайшие миньоны могут наносить дополнительный урон при атаке
     }
 
     BannerGhost: {
@@ -1413,7 +1413,7 @@ Buffs: {
 
     BlobhornCoralStaffBuff: {
         DisplayName: Рыба-капля
-        Description: Она милая? Или уродливая? Решать вам...
+        Description: Она милая или уродливая? Решать вам...
     }
 
     BloodFeasterStaffBuff: {
@@ -1448,7 +1448,7 @@ Buffs: {
 
     CrimsonHoundStaffBuff: {
         DisplayName: Багряная гончая
-        Description: Даже без пасти, гончая найдёт способ утолить свой голод...
+        Description: Даже без пасти гончая найдёт способ утолить свой голод...
     }
 
     DraconicMagmaStaffBuff: {
@@ -1553,7 +1553,7 @@ Buffs: {
 
     TheBlackCaneBuff: {
         DisplayName: Оружие Ли
-        Description: Любимое оружие Ли продолжают сражаться, даже после его смерти...
+        Description: Любимое оружие Ли продолжает сражаться, даже после его смерти...
     }
 
     ValkyrieBladeBuff: {
@@ -1568,7 +1568,7 @@ Buffs: {
 
     YarnBallBuff: {
         DisplayName: Котёнок
-        Description: Покусывания и царапины станут их погибелью
+        Description: Покусывания и царапины приведут к их погибели
     }
 
     Sundered: {
@@ -1658,7 +1658,7 @@ Buffs: {
 
     ZombieRepellentBuff: {
         DisplayName: Репеллент : зомби
-        Description: Большинство зомби становятся дружелюбными
+        Description: Большинство зомби стали дружелюбными
     }
 
     AmpedUp: {
