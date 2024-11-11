@@ -22,7 +22,7 @@ public class InfernumModeGlobalItem : GlobalItem
         {
             ItemHelper.TranslateTooltip(tooltips, "Tooltip1", tooltip =>
             {
-                tooltip.Text = "Входит в ярость за пределами грибных пустошей";
+                tooltip.Text = "Впадает в ярость за пределами грибных пустошей";
             });
         }
         else if (item.type == ItemID.WormFood)
@@ -43,35 +43,35 @@ public class InfernumModeGlobalItem : GlobalItem
         {
             ItemHelper.TranslateTooltip(tooltips, "Tooltip1", tooltip =>
             {
-                tooltip.Text = "Входит в ярость за пределами искажения";
+                tooltip.Text = "Впадает в ярость за пределами искажения";
             });
         }
         else if (item.type == ModContent.ItemType<BloodyWormFood>())
         {
             ItemHelper.TranslateTooltip(tooltips, "Tooltip1", tooltip =>
             {
-                tooltip.Text = "Входит в ярость за пределами багрянца";
+                tooltip.Text = "Впадает в ярость за пределами багрянца";
             });
         }
         else if (item.type == ModContent.ItemType<Seafood>())
         {
             ItemHelper.TranslateTooltip(tooltips, "Tooltip1", tooltip =>
             {
-                tooltip.Text = "Входит в ярость за пределами вод сернистого моря";
+                tooltip.Text = "Впадает в ярость за пределами вод сернистого моря";
             });
         }
         else if (item.type == ModContent.ItemType<Abombination>())
         {
             ItemHelper.TranslateTooltip(tooltips, "Tooltip1", tooltip =>
             {
-                tooltip.Text = "Входит в ярость за пределами подземных джунглей";
+                tooltip.Text = "Впадает в ярость за пределами подземных джунглей";
             });
         }
         else if (item.type == ModContent.ItemType<NecroplasmicBeacon>())
         {
             ItemHelper.TranslateTooltip(tooltips, "Tooltip1", tooltip =>
             {
-                tooltip.Text = "Входит в ярость за пределами подземелья\nНе расходуется";
+                tooltip.Text = "Впадает в ярость за пределами подземелья\nНе расходуется";
             });
         }
         if (item.type == ModContent.ItemType<EyeofDesolation>())
