@@ -1,30 +1,22 @@
 ﻿using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
-using CalamityRuTranslate.Core.NpcChatTextTranslation;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace CalamityRuTranslate.Mods.InfernumMode;
 
-public class InfernumModeNpcChat : ILoadable, INpcChatText
+public class InfernumModeNpcChat : GlobalNPC
 {
-    private int Nurse => NPC.FindFirstNPC(NPCID.Nurse);
-    private bool IsTalking => Main.LocalPlayer.talkNPC >= 0;
-    private int TalkingNpc => Main.player[Main.myPlayer].talkNPC;
-    
-    public bool IsLoadingEnabled(Mod mod)
+    public override bool IsLoadingEnabled(Mod mod)
     {
-       return ModInstances.Infernum != null && TRuConfig.Instance.InfernumModeLocalization && TranslationHelper.IsRussianLanguage;
+        return ModInstances.Infernum != null && TRuConfig.Instance.InfernumModeLocalization && TranslationHelper.IsRussianLanguage;
     }
 
-    public void NpcChatTextTranslation()
+    public override void GetChat(NPC npc, ref string chat)
     {
-        if (!IsTalking)
-            return;
-
-        if (TalkingNpc == Nurse)
+        if (npc.type == NPCID.Nurse)
         {
             Main.npcChatText = Main.npcChatText switch
             {
@@ -32,13 +24,5 @@ public class InfernumModeNpcChat : ILoadable, INpcChatText
                 _ => Main.npcChatText
             };
         }
-    }
-    
-    public void Load(Mod mod)
-    {
-    }
-
-    public void Unload()
-    {
     }
 }
