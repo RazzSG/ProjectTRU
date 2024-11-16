@@ -16,7 +16,8 @@ public partial class StarsAboveGlobalItem
         {
             if (item.DamageType.CountsAsClass<CelestialDamageClass>() || item.DamageType.CountsAsClass<IncarnationDamageClass>() ||
                 item.DamageType.CountsAsClass<AuricDamageClass>() || item.DamageType.CountsAsClass<GadgetDamageClass>() ||
-                item.DamageType.CountsAsClass<PsychomentDamageClass>() || item.DamageType.CountsAsClass<ChionicDamageClass>())
+                item.DamageType.CountsAsClass<PsychomentDamageClass>() || item.DamageType.CountsAsClass<ChionicDamageClass>() ||
+                item.DamageType.CountsAsClass<MysticDamageClass>())
             {
                 if (TRuConfig.Instance.ColoredDamageTypes)
                     tooltip.OverrideColor = new Color(231, 255, 149);

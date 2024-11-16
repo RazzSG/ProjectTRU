@@ -5204,6 +5204,7 @@ Common: {
     BlockedNova: Вы сейчас не можете использовать Астронову!
     LockedChest: Сундук заперт таинственной силой...
     UnlockedHairstyle: Разблокирована новая причёска!
+    PromptVisibility: Чтобы отключить реплики, пожалуйста, измените настройки The Stars Above! Это сообщение не будет повторяться для этого персонажа.
     CreditsHover: "[Посмотреть перечень участников, принимавших участие в создании мода!]"
     Wiki: "[Посетите нашу официальную вики!]"
     Discord: "[Вступайте в Discord-сообщество мода, чтобы быть в курсе новостей и обновлений!]"
@@ -15016,6 +15017,7 @@ GameTips: {
 
 DamageClasses: {
     AuricDamageClass.DisplayName: ед. златого урона
+    MysticDamageClass.DisplayName: ед. мистического урона
     CelestialDamageClass.DisplayName: ед. неземного урона
     GadgetDamageClass.DisplayName: ед. силы гаджета
     IncarnationDamageClass.DisplayName: ед. инкарнационного урона
