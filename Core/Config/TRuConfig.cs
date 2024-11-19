@@ -69,6 +69,10 @@ public class TRuConfig : ModConfig
     [DefaultValue(true)]
     [ReloadRequired]
     public bool RedemptionLocalization;
+    
+    [DefaultValue(true)]
+    [ReloadRequired]
+    public bool CatalystLocalization;
 
     [DefaultValue(true)]
     [ReloadRequired]

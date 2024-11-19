@@ -4,6 +4,7 @@
 [list]
 [*] Calamity
 [*] Calamity: Wrath of the Gods
+[*] Catalyst
 [*] Infernum
 [*] Thorium
 [*] The Stars Above

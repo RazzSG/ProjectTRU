@@ -36,6 +36,7 @@ public class ArmorSetBonusPreviewSystem : ModSystem
         AddThoriumArmorSetBonuses();
         AddStarsAboveSetBonuses();
         AddRedemptionSetBonuses();
+        AddCatalystSetBonuses();
     }
 
     private void AddVanillaArmorSetBonuses()
@@ -507,6 +508,23 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             ArmorSetBonuses[TranslationHelper.GetItemID("Redemption/HardlightHelm")] = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Hardlight.Press") + "[Особая способность]" + Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Hardlight.Support") + Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Hardlight.Helm");
             ArmorSetBonuses[TranslationHelper.GetItemID("Redemption/HardlightHood")] = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Hardlight.Press") + "[Особая способность]" + Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Hardlight.Support") + Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Hardlight.Hood");
             ArmorSetBonuses[TranslationHelper.GetItemID("Redemption/HardlightVisor")] = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Hardlight.Press") + "[Особая способность]" + Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Hardlight.Support") + Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Hardlight.Visor");
+        }
+    }
+    
+    private void AddCatalystSetBonuses()
+    {
+        if (ModInstances.Catalyst != null)
+        {
+            ArmorSetBonuses[TranslationHelper.GetItemID("CatalystMod/IntergelacticHeadMelee")] = Language.GetTextValue("Mods.CatalystMod.ArmorSetBonus.IntergelacticMelee", "[Межгелектический бонус комплекта]");
+            ArmorSetBonuses[TranslationHelper.GetItemID("CatalystMod/IntergelacticHeadRanged")] = Language.GetTextValue("Mods.CatalystMod.ArmorSetBonus.IntergelacticAll", "[Межгелектический бонус комплекта]") + "\n" + Language.GetTextValue("Mods.CatalystMod.ArmorSetBonus.IntergelacticRanged");
+            ArmorSetBonuses[TranslationHelper.GetItemID("CatalystMod/IntergelacticHeadMagic")] = Language.GetTextValue("Mods.CatalystMod.ArmorSetBonus.IntergelacticAll", "[Межгелектический бонус комплекта]") + "\n" + Language.GetTextValue("Mods.CatalystMod.ArmorSetBonus.IntergelacticMagic");
+            ArmorSetBonuses[TranslationHelper.GetItemID("CatalystMod/IntergelacticHeadSummon")] = Language.GetTextValue("Mods.CatalystMod.ArmorSetBonus.IntergelacticAll", "[Межгелектический бонус комплекта]") + "\n" + Language.GetTextValue("Mods.CatalystMod.ArmorSetBonus.IntergelacticSummon");
+            ArmorSetBonuses[TranslationHelper.GetItemID("CatalystMod/IntergelacticHeadRogue")] = Language.GetTextValue("Mods.CatalystMod.ArmorSetBonus.IntergelacticAll", "[Межгелектический бонус комплекта]") + "\n" + Language.GetTextValue("Mods.CatalystMod.ArmorSetBonus.IntergelacticRogue");
+            ArmorSetBonuses[TranslationHelper.GetItemID("CalamityMod/AuricTeslaHoodedFacemask")] += "\n\nУлучшенная версия: " + Language.GetTextValue("Mods.CatalystMod.AuricTeslaPlusSet.Ranged", "[Межгелектический бонус комплекта]");
+            ArmorSetBonuses[TranslationHelper.GetItemID("CalamityMod/AuricTeslaPlumedHelm")] +="\n\nУлучшенная версия: " + Language.GetTextValue("Mods.CatalystMod.AuricTeslaPlusSet.Rogue", "[Межгелектический бонус комплекта]");
+            ArmorSetBonuses[TranslationHelper.GetItemID("CalamityMod/AuricTeslaRoyalHelm")] += "\n\nУлучшенная версия: " + Language.GetTextValue("Mods.CatalystMod.AuricTeslaPlusSet.Melee", "[Межгелектический бонус комплекта]");
+            ArmorSetBonuses[TranslationHelper.GetItemID("CalamityMod/AuricTeslaSpaceHelmet")] += "\n\nУлучшенная версия: " + Language.GetTextValue("Mods.CatalystMod.AuricTeslaPlusSet.Summoner", "[Межгелектический бонус комплекта]");
+            ArmorSetBonuses[TranslationHelper.GetItemID("CalamityMod/AuricTeslaWireHemmedVisage")] += "\n\nУлучшенная версия: " + Language.GetTextValue("Mods.CatalystMod.AuricTeslaPlusSet.Magic", "[Межгелектический бонус комплекта]");
         }
     }
 }

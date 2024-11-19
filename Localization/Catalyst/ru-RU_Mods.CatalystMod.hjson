@@ -1,0 +1,951 @@
+Common: {
+    UnboundKey: "[Неназначенная клавиша]"
+    BoundKey: "'{0}'"
+}
+
+Items: {
+    Lore: {
+        LoreAstrageldon: {
+            DisplayName: История — Астрагельдон
+            Tooltip:
+                '''
+                [c/e3af40:До ваших ушей доносится далёкий шёпот...]
+                [c/bebebe:Удерживайте 'Левый Shift', чтобы прислушаться]
+                '''
+            Lore:
+                '''
+                Такое существование невозможно постичь разумом. Дрэйдон однажды упоминал эту аномальную силу в своих исследованиях астральной инфекции
+                Но даже его гениальность не позволила полностью раскрыть тайну её странной астрально-желеобразной природы
+                Тем не менее, ему удалось выяснить, что это существо было заражено более сильным штаммом инфекции
+                Его невероятная плотность была немыслимой, выходя далеко за рамки разумного, а странная вязкость не подчинялась никаким законам логики
+                Если оно действительно желеобразно, то его амбиции можно назвать безграничными - идеальный носитель для такой инфекции
+                Его голод был бы ненасытным, неудержимым и неукротимым - истинное воплощение природного совершенства
+                Даже алчущий Бог слизней, узнав о таком потенциале, наверняка испытал бы зависть
+                Теперь, когда это существо уничтожено, остаётся только гадать, какие ещё более ужасающие угрозы скрываются за пределами нашего мира
+                '''
+        }
+    }
+    
+    AstrageldonBag: {
+        DisplayName: Контейнер с сокровищами (Астрагельдон)
+        Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+    }
+
+    AstrageldonMask: {
+        DisplayName: Маска Астрагельдона
+        Tooltip: ""
+    }
+
+    InterstellarCorruptionDye: {
+        DisplayName: Краситель межзвёздного искажения
+        Tooltip: ""
+    }
+
+    AstrageldonPhase1MusicBox: {
+        DisplayName: Музыкальная шкатулка (Астрагельдон - Фаза 1)
+        Tooltip: Проигрывает 'Cosmic Disgust' от DM DOKURO
+    }
+
+    AstrageldonPhase2MusicBox: {
+        DisplayName: Музыкальная шкатулка (Астрагельдон - Фаза 1)
+        Tooltip: Проигрывает 'Galactic Destruction' от Heart Plus Up!
+    }
+
+    AstrageldonTitleMusicBox: {
+        DisplayName: Музыкальная шкатулка (Заглавная тема Catalyst Mod)
+        Tooltip: Проигрывает 'Heaven's Hell-Sent Gift' от DM DOKURO
+    }
+
+    MetanovaOre: {
+        DisplayName: Руда метановы
+        Tooltip: ""
+    }
+
+    MetanovaBar: {
+        DisplayName: Слиток метановы
+        Tooltip: Целая вселенная, сжатая в слиток
+    }
+
+    AstralCommunicator: {
+        DisplayName: Астральный коммуникатор
+        Tooltip:
+            '''
+            Призывает Астрагельдона при использовании в астральной инфекции
+            [c/870808:Этот предмет перестанет работать, если Лунный лорд будет побеждён до того, как вы убьёте Астрагельдона]
+            {$Tooltips.NotConsumable}
+            '''
+    }
+
+    IntergelacticHeadMelee: {
+        DisplayName: Межгелектическая каска
+        Tooltip:
+            '''
+            Увеличивает урон ближнего боя и шанс критического удара на 22%
+            Увеличивает скорость атаки ближнего боя и передвижения на 10%
+            Увеличивает сопротивление урону на 15%
+            '''
+    }
+
+    IntergelacticHeadRanged: {
+        DisplayName: Межгелектический визор
+        Tooltip:
+            '''
+            Увеличивает стрелковый урон и шанс критического удара на 14%
+            Увеличивает сопротивление урону на 12%
+            '''
+    }
+
+    IntergelacticHeadMagic: {
+        DisplayName: Межгелектическая маска
+        Tooltip:
+            '''
+            Увеличивает магический урон и шанс критического удара на 15%
+            Увеличивает максимальный запас маны на 100
+            Увеличивает сопротивление урону на 12%
+            '''
+    }
+
+    IntergelacticHeadSummon: {
+        DisplayName: Межгелектический рогатый шлем
+        Tooltip:
+            '''
+            Увеличивает призываемое число миньонов
+            Увеличивает сопротивление урону на 12%
+            '''
+    }
+
+    IntergelacticHeadRogue: {
+        DisplayName: Межгелектический головной убор
+        Tooltip:
+            '''
+            Увеличивает разбойный урон и шанс критического удара на 22%
+            Увеличивает сопротивление урону на 12%
+            '''
+    }
+
+    IntergelacticBreastplate: {
+        DisplayName: Межгелектический нагрудник
+        Tooltip: Даёт невосприимчивость к дебаффу «{$Mods.CalamityMod.Buffs.AstralInfectionDebuff.DisplayName}» и дебаффам, снижающим защиту
+    }
+
+    IntergelacticGreaves: {
+        DisplayName: Межгелектические поножи
+        Tooltip:
+            '''
+            Увеличивает скорость передвижения на 20%
+            Увеличивает скорость прыжка и сопротивление к урону от падения
+            '''
+    }
+
+    AstralsEnd: {
+        DisplayName: Астральная погибель
+        Tooltip: Призывает межпространственный астероид и его осколки
+    }
+
+    Astragelgun: {
+        DisplayName: Астрагельмёт
+        Tooltip:
+            '''
+            Стреляет сверхновыми бомбами, которые взрываются при столкновении
+            Нажмите <right>, чтобы выстрелить плазменным шаром, наносящим 200% урона
+            {$Tooltips.Flamethrower}
+            75% шанс не использовать боеприпасы
+            '''
+    }
+
+    InterstellarVolution: {
+        DisplayName: Межзвёздный виток
+        Tooltip:
+            '''
+            Взрывается, выпуская самонаводящихся слизней новой звезды
+            При скрытном ударе слизни стреляют лазерами
+            '''
+    }
+
+    ExaltedHorizon: {
+        DisplayName: Возвышенный горизонт
+        Tooltip:
+            '''
+            Запускает самонаводящееся копьё, накапливающее на врагах дебафф «{$Buffs.InterstellarCorruption.DisplayName}»
+            При накоплении 5 стаков враг яростно взрывается, нанося огромный урон
+            '''
+    }
+
+    AstralpodStaff: {
+        DisplayName: Посох астронога
+        Tooltip: Призывает астронога, стреляющего градом лазеров и лучами смерти, защищая вас
+    }
+
+    ScytheoftheAbandonedGod: {
+        DisplayName: Коса забытого бога
+        Tooltip:
+            '''
+            При использовании коса вращается, призывая несколько самонаводящихся шаров слизи
+            Постепенно замедляясь, они высвобождают бурю потусторонних молний
+            Нажмите <right>, чтобы запустить себя в сторону курсора
+            {$Tooltips.FlawlessDrop}
+            '''
+    }
+
+    AstralLash: {
+        DisplayName: Астральная плеть
+        Tooltip:
+            '''
+            Дальность: 40 блоков
+            Скорость вылета: 50
+            Скорость возврата: 72
+            Скорость притягивания: 16
+            Телепортирует в место расположения крюка
+            Любые блоки, блокирующие путь между вами и крюком, будут проигнорированы
+            '''
+    }
+
+    AstrageldonTrophy: {
+        DisplayName: Трофей Астрагельдона
+        Tooltip: ""
+    }
+
+    InfluxCluster: {
+        DisplayName: Потоковый кластер
+        Tooltip: (безумно)
+    }
+
+    AstraJelly: {
+        DisplayName: Астральное желе
+        Tooltip: Увеличивает максимальный запас маны и скорость её восстановления
+    }
+
+    Lean: {
+        DisplayName: Астракола
+        Tooltip:
+            '''
+            Увеличивает максимальный запас маны и магический урон
+            Увеличивает регенерацию маны
+            'Почувствуй астральную карбонизацию!'
+            '''
+    }
+
+    AstralTransmogrifier: {
+        DisplayName: Астральный трансмогрификатор
+        Tooltip:
+            '''
+            Используется для создания особых предметов
+            Одновременно является отвердителем и статическим рафинёром
+            '''
+    }
+
+    Astrogel: {
+        DisplayName: Астрогель
+        Tooltip: Значительно увеличивает высоту прыжка, если наступить
+    }
+
+    MetanovaRealBrick: {
+        DisplayName: Кирпич метановы
+        Tooltip: ""
+    }
+
+    MetanovaBrick: {
+        DisplayName: Кирпич метановы
+        Tooltip: ""
+    }
+
+    NovaMonolith: {
+        DisplayName: Монолит новой звезды
+        Tooltip: "'Содержит частицу энергии всей вселенной'"
+    }
+
+    IntergelacticBathtub: {
+        DisplayName: Межгелектическая ванна
+        Tooltip: ""
+    }
+
+    IntergelacticBed: {
+        DisplayName: Межгелектическая кровать
+        Tooltip: ""
+    }
+
+    IntergelacticBookshelf: {
+        DisplayName: Межгелектический книжный шкаф
+        Tooltip: ""
+    }
+
+    IntergelacticCandelabra: {
+        DisplayName: Межгелектический подсвечник
+        Tooltip: ""
+    }
+
+    IntergelacticCandle: {
+        DisplayName: Межгелектическая свеча
+        Tooltip: ""
+    }
+
+    IntergelacticChair: {
+        DisplayName: Межгелектический стул
+        Tooltip: ""
+    }
+
+    IntergelacticChandelier: {
+        DisplayName: Межгелектическая люстра
+        Tooltip: ""
+    }
+
+    IntergelacticClock: {
+            DisplayName: Межгелектические напольные часы
+        Tooltip: ""
+    }
+
+    IntergelacticLamp: {
+        DisplayName: Межгелектическая напольная лампа
+        Tooltip: ""
+    }
+
+    IntergelacticLantern: {
+        DisplayName: Межгелектический фонарь
+        Tooltip: ""
+    }
+
+    IntergelacticPiano: {
+        DisplayName: Межгелектическое пианино
+        Tooltip: ""
+    }
+
+    IntergelacticSink: {
+        DisplayName: Межгелектическая раковина
+        Tooltip: ""
+    }
+
+    IntergelacticSofa: {
+        DisplayName: Межгелектический диван
+        Tooltip: ""
+    }
+
+    IntergelacticTable: {
+        DisplayName: Межгелектический стол
+        Tooltip: ""
+    }
+
+    IntergelacticToilet: {
+        DisplayName: Межгелектический унитаз
+        Tooltip: ""
+    }
+
+    IntergelacticWorkbench: {
+        DisplayName: Межгелектический верстак
+        Tooltip: ""
+    }
+
+    IntergelacticChest: {
+        DisplayName: Межгелектический сундук
+        Tooltip: ""
+    }
+
+    IntergelacticDoor: {
+        DisplayName: Межгелектическая дверь
+        Tooltip: ""
+    }
+
+    IntergelacticDresser: {
+        DisplayName: Межгелектический комод
+        Tooltip: ""
+    }
+
+    IntergelacticPlatform: {
+        DisplayName: Межгелектическая платформа
+        Tooltip: ""
+    }
+
+    AscendedAstralSlimeBanner: {
+        DisplayName: Знамя вознесённого астрального слизня
+        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.AscendedAstralSlime.DisplayName}"
+    }
+
+    MetanovaSlimeBanner: {
+        DisplayName: Знамя слизня метановы
+        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.MetanovaSlime.DisplayName}"
+    }
+
+    DivineJello: {
+        DisplayName: Божественное желе
+        Tooltip:
+            '''
+            Призывает божество слизней
+            'Десерт, достойный бога!'
+            '''
+    }
+
+    AstrageldonRelic: {
+        DisplayName: Реликвия Астрагельдона
+        Tooltip: ""
+    }
+
+    BreathofGlacies: {
+        DisplayName: Ледяное дыхание
+        Tooltip:
+            '''
+            Выпускает рунический круг каждый 5 выстрел
+            Рунический круг выпускает ледяные осколки, наносящие 50% урона
+            {$Tooltips.Flamethrower}
+            50% шанс не использовать боеприпасы
+            '''
+    }
+
+    DesertScorcher: {
+        DisplayName: Пустынный испепелитель
+        Tooltip:
+            '''
+            Выпускает струю обжигающе горячей воды
+            Игнорирует 5 ед. защиты врага
+            {$Tooltips.Flamethrower}
+            40% шанс не использовать боеприпасы
+            '''
+    }
+
+    Ichorthrower: {
+        DisplayName: Ихоромёт
+        Tooltip:
+            '''
+            Поджигает гель, превращая его в пылающую миазму
+            Эта миазма может конденсироваться в шары ихора
+            {$Tooltips.Flamethrower}
+            40% шанс не использовать боеприпасы
+            '''
+    }
+
+    Plasmilegion: {
+        DisplayName: Плазмолегион
+        Tooltip:
+            '''
+            Ионизирует гель, превращая его в чистую плазму
+            Нажмите <left>, чтобы зарядить мощный энергетический луч с риском перегрева
+            Нажмите <right>, чтобы выпустить огненные шары без риска перегрева
+            {$Tooltips.Flamethrower}
+            40% шанс не использовать боеприпасы
+            '''
+    }
+
+    Repentance: {
+        DisplayName: Покаяние
+        Tooltip:
+            '''
+            Призывает пламя из шестого круга ада
+            {$Tooltips.Flamethrower}
+            70% шанс не использовать боеприпасы
+            '''
+    }
+
+    RookOfVengeance: {
+        DisplayName: Ладья анархии
+        Tooltip:
+            '''
+            Стреляет огненными шарами, которые при попадании разделяются ортогонально
+            {$Tooltips.Flamethrower}
+            70% шанс не использовать боеприпасы
+            '''
+    }
+
+    StaticInferno: {
+        DisplayName: Наэлектризованный огненный шторм
+        Tooltip:
+            '''
+            Выпускает 3 шара электричества, которые материализуются в плазму
+            {$Tooltips.Flamethrower}
+            50% шанс не использовать боеприпасы
+            '''
+    }
+
+    AstralNeutron: {
+        DisplayName: Картина «Астральный квазар»
+        Tooltip: "'Покерфейс'"
+    }
+
+    CongeledDuoWhip: {
+        DisplayName: Загустевший двойной хлыст
+        Tooltip:
+            '''
+            {$Tooltips.WhipTooltip}
+            5% урона от метки призывателя
+            Нажмите <left>, чтобы выпустить оба хлыста перед собой
+            Нажмите <right>, чтобы выпустить один хлыст спереди, а другой сзади
+            '''
+    }
+
+    PrismBreak: {
+        DisplayName: Призмолом
+        Tooltip:
+            '''
+            {$Tooltips.WhipTooltip}
+            Ваши миньоны выпускают самонаводящиеся водные кристаллы при попадании во врага
+            '''
+    }
+
+    ResonantStriker: {
+        DisplayName: Резонансный ударник
+        Tooltip:
+            '''
+            {$Tooltips.WhipTooltip}
+            Выпускает самонаводящиеся электрические сферы при попадании во врага
+            Ваши миньоны оглушают врагов при попадании (не работает на боссах)
+            '''
+    }
+
+    UnderBite: {
+        DisplayName: Подкус
+        Tooltip:
+            '''
+            {$Tooltips.WhipTooltip}
+            Запускает едкий череп, накладывающий дебафф «{$BuffName.Venom}» и наносящий 6% урона от метки призывателя
+            '''
+    }
+
+    UnrelentingTorment: {
+        DisplayName: Неумолимая тоска
+        Tooltip:
+            '''
+            {$Tooltips.WhipTooltip}
+            Выпускает каскад потусторонних когтей, разрывающих врагов
+            '''
+    }
+
+    BlossomsBlessing: {
+        DisplayName: Благословение цветения
+        Tooltip:
+            '''
+            {$Tooltips.WhipTooltip}
+            Разносит лепестки по ветру
+            Прикоснитесь к самому большому лепестку, чтобы получить благословение регенерации, урона и шипов
+            'Он цветёт: мой алый цветок, растёт, цветёт, слабеет и сохнет росток'
+            '''
+    }
+
+    Catharsis: {
+        DisplayName: Катарсис
+        Tooltip:
+            '''
+            {$Tooltips.WhipTooltip}
+            Взмахи хлыстом совершаются ценой собственного здоровья
+            При попадании по врагам накапливается заряд крови. Можно накопить до 20 зарядов
+            Нажмите <right>, чтобы активировать заряды, временно усиливая Катарсис и восстанавливая потерянное здоровья
+            [c/c61b40:Очищающий свет, покинутый и поглощённый болью,]
+            [c/c61b40:Вернулся в этот мир всепоглощающей тенью]
+            '''
+    }
+
+    SandstoneReigns: {
+        DisplayName: Песчаниковая узда
+        Tooltip:
+            '''
+            {$Tooltips.WhipTooltip}
+            Призывает маленькую песчаниковую акулу, кусающую ваших врагов
+            'Окенхэй!'
+            '''
+    }
+
+    CoralCrusher: {
+        DisplayName: Коралловый крушитель
+        Tooltip:
+            '''
+            {$Tooltips.WhipTooltip}
+            При попадании кончиком хлыста во врага внедряет коралловый осколок
+            Атаки миньонов могут разбить коралловый осколок, останавливая движение врага и нанося 6% урона от метки призывателя
+            '''
+    }
+
+    WulfrumSatchelCharge: {
+        DisplayName: Вульфрумовый подрывной заряд
+        Tooltip:
+            '''
+            При скрытном ударе вызывает мощный взрыв, разрушающий большинство блоков
+            'Не подходи слишком близко'
+            '''
+    }
+
+    WulfrumFlashlight: {
+        DisplayName: Вульфрумовый фонарик
+        Tooltip:
+            '''
+            'Освещает путь к грядущему обновлению'
+            Нажмите <left>, чтобы включить фонарик
+            Нажмите <left> дважды, чтобы переключать линзы из вашего инвентаря
+            '''
+    }
+
+    AmethystFlashlightLens: {
+        DisplayName: Аметистовая линза фонарика
+        Tooltip: "{$Tooltips.LensTooltip}"
+    }
+
+    TopazFlashlightLens: {
+        DisplayName: Топазовая линза фонарика
+        Tooltip: "{$Tooltips.LensTooltip}"
+    }
+
+    SapphireFlashlightLens: {
+        DisplayName: Сапфировая линза фонарика
+        Tooltip: "{$Tooltips.LensTooltip}"
+    }
+
+    EmeraldFlashlightLens: {
+        DisplayName: Изумрудная линза фонарика
+        Tooltip: "{$Tooltips.LensTooltip}"
+    }
+
+    RubyFlashlightLens: {
+        DisplayName: Рубиновая линза фонарика
+        Tooltip: "{$Tooltips.LensTooltip}"
+    }
+
+    DiamondFlashlightLens: {
+        DisplayName: Алмазная линза фонарика
+        Tooltip: "{$Tooltips.LensTooltip}"
+    }
+
+    AmberFlashlightLens: {
+        DisplayName: Янтарная линза фонарика
+        Tooltip: "{$Tooltips.LensTooltip}"
+    }
+
+    TeamFlashlightLens: {
+        DisplayName: Командная линза фонарика
+        Tooltip:
+            '''
+            {$Tooltips.LensTooltip}
+            Цвет зависит от выбранной команды
+            '''
+    }
+
+    WulfrumMineBanner: {
+        DisplayName: Знамя вульфрумовой мины
+        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.WulfrumMine.DisplayName}"
+    }
+
+    WulfrumSlimeBanner: {
+        DisplayName: Знамя вульфрумового слизня
+        Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCs.WulfrumSlime.DisplayName}"
+    }
+}
+
+ItemTooltipExtra0.AstralCommunicator: Нажмите <right>, чтобы призвать Астрагельдона в его первой фазе
+ItemTooltipExtra1.AstralCommunicator: Ядро было разрушено из-за энергии, вызванной смертью лунного божества...
+
+ArmorSetBonus: {
+    IntergelacticAll:
+        '''
+        Окружает вас двумя астероидными кольцами, урон которых зависит от ваших характеристик
+        Нажмите {0}, чтобы сделать астероиды более прозрачными
+        '''
+    IntergelacticMelee:
+        '''
+        Окружает вас четырьмя кольцами астероидов, урон которых зависит от ваших характеристик
+        Нажмите {0}, чтобы сделать астероиды более прозрачными
+        Даёт невосприимчивость к отбрасыванию и дебаффам, влияющим на передвижение
+        Даёт невосприимчивость к дебаффу «{$Buffs.AstralBlight.DisplayName}», и ваши атаки накладывают его
+        '''
+    IntergelacticRanged:
+        '''
+        Стрелковое оружие призывает звёзды, наносящие 30% урона
+        Даёт невосприимчивость к дебаффу «{$Buffs.AstralBlight.DisplayName}», и ваши атаки накладывают его
+        '''
+    IntergelacticMagic:
+        '''
+        Магические критические удары вызывают звёздный взрыв при попадании
+        Снижает расход маны на 20%
+        Увеличивает восстанавливаемую от зелий ману на 100
+        Даёт невосприимчивость к дебаффу «{$Buffs.AstralBlight.DisplayName}», и ваши атаки накладывают его
+        '''
+    IntergelacticSummon:
+        '''
+        Увеличивает призываемое число миньонов на 3
+        Миньоны с 6% шансом наносят критический удар
+        Миньоны запускают собранные астероиды во врагов
+        Даёт невосприимчивость к дебаффу «{$Buffs.AstralBlight.DisplayName}», и ваши атаки накладывают его
+        '''
+    IntergelacticRogue:
+        '''
+        Скрытные удары запускают окружающий вас пояс астероидов на врагов
+        Даёт невосприимчивость к дебаффу «{$Buffs.AstralBlight.DisplayName}», и ваши атаки накладывают его
+        '''
+}
+
+AuricTeslaPlusSet: {
+    Melee:
+        '''
+        Бонусы от комплектов брони ближнего боя: межгелектической, кровавой вспышки и богоубийцы
+        Нажмите {0}, чтобы сделать астероиды более прозрачными
+        Враги чаще выбирают вас в качестве цели
+        Все снаряды создают исцеляющие ауритовые сферы при попадании во врага
+        '''
+    Ranged:
+        '''
+        Бонусы от комплектов брони стрелка: межгелектической, кровавой вспышки и богоубийцы
+        Нажмите {0}, чтобы сделать астероиды более прозрачными
+        Все снаряды создают исцеляющие ауритовые сферы при попадании во врага
+        '''
+    Magic:
+        '''
+        Бонусы от комплектов брони мага: межгелектической, кровавой вспышки и Сильвы
+        Нажмите {0}, чтобы сделать астероиды более прозрачными
+        Все снаряды создают исцеляющие ауритовые сферы при попадании во врага
+        Увеличивает максимальную скорость бега и ускорение на 5%
+        '''
+    Summoner:
+        '''
+        Бонусы от комплектов брони призывателя: межгелектической, кровавой вспышки и Сильвы
+        Нажмите {0}, чтобы сделать астероиды более прозрачными
+        Все снаряды создают исцеляющие ауритовые сферы при попадании во врага
+        Увеличивает максимальную скорость бега и ускорение на 5%
+        Увеличивает призываемое число миньонов на 6 и урон призывателя на 75%
+        '''
+    Rogue:
+        '''
+        Бонусы от комплектов брони разбойника: межгелектической, кровавой вспышки и богоубийцы
+        Нажмите {0}, чтобы сделать астероиды более прозрачными
+        Все снаряды создают исцеляющие ауритовые сферы при попадании во врага
+        '''
+}
+
+ItemTooltipExtra.InfluxCluster:
+    '''
+    Нажмите {0}, чтобы совершить рывок в сторону курсора, подобно агрессивной туманности
+    Во время рывка вы полностью невосприимчивы к урону
+    Перезарядка {1} секунд
+    '''
+Cooldowns.InfluxDash: Перезарядка потокового кластера
+
+Tiles: {
+    AstralTransmogrifier.MapEntry: "{$Items.AstralTransmogrifier.DisplayName}"
+
+    IntergelacticChest: {
+        MapEntry: Сундук
+        ContainerName: Межгелектический сундук  
+    }
+
+    IntergelacticDoor.MapEntry: Дверь
+
+    IntergelacticDresser: {
+        MapEntry: Комод
+        ContainerName: Межгелектический комод
+    }
+
+    BossTrophy.MapEntry: Трофей
+    EnemyBanners.MapEntry: Знамя
+    AstralNeutronPlaced.MapEntry: Картина
+    IntergelacticBathtub.MapEntry: Ванна
+    IntergelacticBed.MapEntry: Кровать
+    IntergelacticBookshelf.MapEntry: Книжный шкаф
+    IntergelacticCandelabra.MapEntry: Подсвечник
+    IntergelacticCandle.MapEntry: Свеча
+    IntergelacticChair.MapEntry: Стул
+    IntergelacticChandelier.MapEntry: Люстра
+    IntergelacticClock.MapEntry: Напольные часы
+    IntergelacticLamp.MapEntry: Напольная лампа
+    IntergelacticLantern.MapEntry: Фонарь
+    IntergelacticPiano.MapEntry: Пианино
+    IntergelacticSink.MapEntry: Раковина
+    IntergelacticSofa.MapEntry: Диван
+    IntergelacticTable.MapEntry: Стол
+    IntergelacticToilet.MapEntry: Унитаз
+    IntergelacticWorkbench.MapEntry: Верстак
+    MetanovaOre.MapEntry: Руда метановы
+    IntergelacticDoorOpen.MapEntry: Дверь
+}
+
+Buffs: {
+    AstrogelJumpBoost: {
+        DisplayName: Астрогель
+        Description: Высота прыжка значительно увеличена
+    }
+
+    AstrageldonRocksSetbonus: {
+        DisplayName: Астероидный барьер
+        Description: Вас защищает поле астероидов
+    }
+
+    AstralJellyBuff: {
+        DisplayName: Астральное желе
+        Description: Максимальный запас маны и скорость её восстановления увеличены
+    }
+
+    ZeroGravity: {
+        DisplayName: Нулевая гравитация
+        Description: Бесконечное время полёта
+    }
+
+    AstralpodBuff: {
+        DisplayName: Астроног
+        Description: Вас защищает Астроног
+    }
+
+    AstralBlight: {
+        DisplayName: Астральная зараза
+        Description: Ваша кожа выкипает
+    }
+
+    InterstellarCorruption: {
+        DisplayName: Межзвёздное искажение
+        Description:
+            '''
+            Вас окружает искривлённая пространственная энергия
+            Мгновенная смерть при активном дебаффе «{$BuffName.ChaosState}»
+            '''
+    }
+
+    AstrageldonPetBuff: {
+        DisplayName: Божество слизней
+        Description: Он - тот, кто поглотит всё сущее
+    }
+
+    BlessedBlossoms: {
+        DisplayName: Благословенное цветение
+        Description: Благословение могущественными шипами и ускоренной регенерацией здоровья
+    }
+
+    ReverberatingParalysis: {
+        DisplayName: Резонирующий паралич
+        Description: Парализован электричеством
+    }
+
+    DefaultTag: {
+        DisplayName: Отмечен
+        Description: Отмечен хлыстом
+    }
+
+    CatharsisBuff: {
+        DisplayName: Горящая кровь
+        Description: Кровь за кровь...
+    }
+
+    CatharsisBuff2: {
+        DisplayName: Кровавое мастерство
+        Description: Из крови рождается сила...
+    }
+}
+
+Tooltips: {
+    FlawlessDrop: - Предмет безупречной победы -
+    NotConsumable: Не расходуется
+    WhipTooltip: Миньоны атакуют врагов, поражённых этим оружием
+    Flamethrower: Использует гель в качестве боеприпасов
+    LensTooltip: Изменяет цвет луча фонарика
+}
+
+Announcement: {
+    AstrageldonLocked:
+        '''
+        Ядро астрального коммуникатора разрушено...
+        Астральная сингулярность рассеивается в небесах...
+        '''
+    AstralTreasures: Сокровища астральных пещер раскрыты!
+    HasAwakened: "{0} пробуждается!"
+    AstrageldonKilledImproperly: Произошёл редкий баг... перепризовите босса и победите его!
+    Bug: Не забывайте сообщать о найденных багах команде разработчиков Catalyst, чтобы мы могли их исправить!
+}
+
+WorldGen: {
+    AstralSpread: Увеличение астральной инфекции...
+    AstralTreasures: Генерация руды метановы...
+}
+
+TitleIcon: {
+    Astrageldon: {
+        1: С Астрагельдоном нельзя сразиться
+        3: С Астрагельдоном можно сразиться
+        4: Астрагельдон побеждён
+    }
+}
+
+Bestiary: {
+    Astrageldon: Межпространственный слизень, обладающий силой бога. Астрагельдон - владыка астральной инфекции, который в своём стремлении к силе поглотил родную вселенную.
+    NovaSlime: Крохотная частица астрального божества, отделившаяся от основного тела. Слизень новой звезды сам по себе хранит огромное количество энергии, но сдерживает её, чтобы оставаться в стабильном состоянии.
+    NovaSlimer: Плотное скопление астрогеля, имеющее лезвия, достаточно острые, чтобы разрезать измерения. Будучи запущенными на высокой скорости, они прорезают дыры в ткани самой реальности.
+    AscendedAstralSlime: Желатиновое порождение звёзд, сформированное из чистой энергии вселенной, уничтоженной богоподобным слизнем. Их тела содержат фрагменты инопланетного камня, несущие ядро, которое подаёт сигналы из далёкой вселенной.
+    MetanovaSlime: Смерть Астрагельдона наполнила астральные пещеры сверкающим инопланетным камнем. Метановые слизни сплавлялись с мелкими осколками этого камня, создавая гибкие и прочные пластины брони на своих желейных телах.
+    WulfrumSlime: При приближении противника эти машины выделяют гель, заставляющий их расти и создавать энергетический щит. Высокая проводимость и охлаждающие свойства геля делают этого 'слизня' отличным выбором для защиты генераторов щитов.
+    WulfrumMine: Заброшенная до завершения строительства, вульфрумовая мина изначально была разработана для выполнения всех остальных функций вульфрумовых ботов. Однако она оказалась пригодной только для создания крупных взрывов, испаряющих всё в радиусе поражения.
+}
+
+NPCs: {
+    Astrageldon: {
+        DisplayName: Астрагельдон
+
+        BossChecklistIntegration: {
+            SpawnInfo: Призывается при использовании [i:CatalystMod/AstralCommunicator] в астральной инфекции
+            DespawnMessage: "[c/db5ed2:Мультивселенский ужас возвращается к своей трапезе.]"
+        }
+    }
+
+    NovaSlime.DisplayName: Слизень новой звезды
+    NovaSlimer.DisplayName: Слизнень новой звезды
+    WulfrumSlime.DisplayName: Вульфрумовый слизень
+    WulfrumMine.DisplayName: Вульфрумовая мина
+    AscendedAstralSlime.DisplayName: Вознесённый астральный слизень
+    MetanovaSlime.DisplayName: Слизень метановы
+    MetanovaSlimeRocks.DisplayName: Слизень метановы
+    ArmoredAstralSlime.DisplayName: Бронированный астральный слизень
+    AstrageldonSlimer.DisplayName: Слизневик Астрагельдона
+    AstrageldonSlime.DisplayName: Слизень Астрагельдона
+}
+
+DropCondition.Flawless: Выпадает при победе без получения урона
+
+DeathMessage: {
+    InterstellarCorruption: " поглощается межзвёздной пустотой."
+    CatharsisDeath: " поглощается собственной скорбью."
+}
+
+AstrageldonMainMenu: Стиль Астрагельдона
+AstrageldonAntiCheat:
+    '''
+    Способ, которым вы призвали Астрагельдона, нелегален. 
+    Пожалуйста, не сообщайте о проблемах баланса, связанных с боссом и его лутом.
+    Любая битва без получения урона, перед которой появилось это сообщение, не рассматривается, пока вы не докажете, что призвали босса легально.
+    '''
+
+Keybinds: {
+    "Influx Cluster.DisplayName": Потоковый кластер
+    "Toggle Intergelactic Setbonus Visibility.DisplayName": Межгелектический бонус комплекта
+}
+
+Biomes: {
+    AstrageldonBiome: {
+        DisplayName: Астрагельдоновый биом
+        TownNPCDialogueName: Астрагельдоновый биом
+    }
+}
+
+Configs: {
+    CatalystClientConfig: {
+        DisplayName: Клиентская конфигурация
+
+        textSparkles: {
+            Label: "[i:3459] Искрящийся текст"
+            Tooltip:
+                '''
+                Отображение искр у некоторых предметов редкости.
+                При включении этой настройки текст может стать трудночитаемым.
+                '''
+        }
+
+        CatharsisBarX: {
+            Label: "[i:7637] Позиция по X индикатора Катарсиса"
+            Tooltip: Позиция по X индикатора Катарсиса, измеряется в % от ширины экрана.
+        }
+
+        CatharsisBarY: {
+            Label: "[i:7637] Позиция по Y индикатора Катарсиса"
+            Tooltip: Позиция по Y индикатора Катарсиса, измеряется в % от высоты экрана.
+        }
+    }
+}
+
+MusicDisplay: {
+    SongNames: {
+        AstrageldonTitle: Heaven's Hell-Sent Gift
+        AstrageldonPhase1: Cosmic Disgust
+        AstrageldonPhase2: Galactic Destruction
+    }
+
+    Authors: {
+        DMDOKURO: от DM DOKURO
+        HeartPlusUp: от Heart Plus Up!
+    }
+}

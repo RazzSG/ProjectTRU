@@ -86,6 +86,11 @@ Configs: {
             Tooltip: Выключает перевод Mod of Redemption.
         }
         
+        CatalystLocalization: {
+            Label: Catalyst Mod
+            Tooltip: Выключает перевод Catalyst Mod.
+        }
+        
         VanillaLocalization: {
             Label: Vanilla
             Tooltip: Выключает новый ванильный перевод.

@@ -43,6 +43,7 @@ public class LoadTranslationsPatch : OnPatcher
 		    {"Mods.NoxusBoss", TRuConfig.Instance.NoxusBossLocalization},
 		    {"Mods.StarsAbove", TRuConfig.Instance.StarsAboveLocalization},
 		    {"Mods.Redemption", TRuConfig.Instance.RedemptionLocalization},
+		    {"Mods.CatalystMod", TRuConfig.Instance.CatalystLocalization},
 	    };
 
 	    if (file == null)

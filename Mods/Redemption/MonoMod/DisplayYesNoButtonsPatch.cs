@@ -29,7 +29,7 @@ public class DisplayYesNoButtonsPatch : OnPatcher
         {
             textOffset = textOffset.Value.Y switch
             {
-                28f => textOffset.Value with { Y = 23f },
+                28f => textOffset.Value with { Y = 45f },
                 15f => textOffset.Value with { Y = 45f },
                 _ => textOffset
             };

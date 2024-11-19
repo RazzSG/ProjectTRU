@@ -551,7 +551,6 @@ public class CalamityItems : IItemGender
                 "WaveSkipper",
                 "SearedPan",
                 "OccultSkullCrown",
-                "GloriousEnd",
                 "ArtAttack",
                 "ScorchedEarth",
                 "UrchinMace",
@@ -1751,6 +1750,75 @@ public class RedemptionItemsCreator : IItemGenderCreator
     }
 }
 
+public class CatalystItems : IItemGender
+{
+    public List<int> Feminine
+    {
+        get
+        {
+            string[] items = {
+                "AstralsEnd",
+                "RookOfVengeance",
+                "SandstoneReigns",
+                "UnrelentingTorment",
+            };
+        
+            List<int> types = new List<int>();
+            if (ModInstances.StarsAbove != null)
+            {
+                types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("CatalystMod", itemName).Type));
+            }
+            return types;
+        }
+    }
+
+    public List<int> Neuter
+    {
+        get
+        {
+            string[] items = {
+                "BreathofGlacies",
+                "Repentance",
+                "BlossomsBlessing",
+            };
+        
+            List<int> types = new List<int>();
+            if (ModInstances.StarsAbove != null)
+            {
+                types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("CatalystMod", itemName).Type));
+            }
+            return types;
+        }
+    }
+
+    public List<int> Plural
+    {
+        get
+        {
+            string[] items = {
+                "",
+            };
+    
+            List<int> types = new List<int>();
+            if (ModInstances.StarsAbove != null)
+            {
+                types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("CatalystMod", itemName).Type));
+            }
+            return types;
+        }
+    }
+}
+
+public class CatalystItemsCreator : IItemGenderCreator
+{
+    public string ModName => "CatalystMod";
+
+    public IItemGender Create()
+    {
+        return new CatalystItems();
+    }
+}
+
 public class PrefixOverhaul
 {
     private List<int> _feminine = new();
@@ -1764,6 +1832,7 @@ public class PrefixOverhaul
         new ThoriumModItemsCreator(),
         new StarsAboveItemsCreator(),
         new RedemptionItemsCreator(),
+        new CatalystItemsCreator(),
     };
 
     //Мужской, Женский, Средний, Множественный

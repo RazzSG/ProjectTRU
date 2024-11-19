@@ -29,7 +29,7 @@ public class ThoriumNpcChat : GlobalNPC
                 "Hey brat, corral some people into helping me out at the forge. Blacksmithing ain't a single-man task, and you'll just end up with second-rate junk if you try going solo!" => "Эй, малец, найди кого-нибудь, кто поможет мне в кузнице. Кузнечное дело - это не работа одного человека, и если ты будешь работать в одиночку, то получишь только второсортное барахло!",
                 "'course I followed you here, brat. I crash-coursed you on how to forge and smith weapons for yourself before you arrived here, I'll be damned if I don't get to sit back and watch the ensuing fireworks." => "Конечно, малец, я следил за твоими шагами с самого начала. Я обучил тебя кузнечному ремеслу задолго до твоего прихода сюда, Поэтому, честно говоря, я буду разочарован, если упущу тот фейерверк, который ты здесь устроишь.",
                 "Welcome! I'm busy workin' on a commission weapon, if you touch anything, consider it sold!" => "Привет! Я сейчас работаю над заказом, так что не трогай ничего, а то считай, что ты это уже купил!",
-                "Heh, I told you from day one, brat: I came here to watch the fireworks, and you sure delivered." => "Эй, я же говорил тебе с самого начала, малец: что я тут ради фейерверка, и ты не подкачал.",
+                "Heh, I told you from day one, brat: I came here to watch the fireworks, and you sure delivered." => "Эй, я же говорил тебе с самого начала, малец: что, я тут ради фейерверка, и ты не подкачал.",
                 _ => chat
             };
 
@@ -237,7 +237,7 @@ public class ThoriumNpcChat : GlobalNPC
                 "I often take visits to the jungle. I can understand the aversion to the place, but the creatures within don't seem to hassle me..." => "Я частенько захаживаю в джунгли. Могу понять, что это место вызывает отвращение, но местная фауна меня не трогают...",
                 "My mother was a well known herbalist back in the day. She doesn't talk about my father, though. I wonder why?" => "Моя мама в своё время была знаменитой травницей. А вот о папе она никогда не говорит. Интересно, почему?",
                 "The natural world is quite a wonder. Every little place has its own charm. Some more than others!" => "Мир природы действительно чудесен. Каждый уголок имеет своё очарование. В некоторых местах оно проявляется сильнее, чем в других!",
-                "Normally I'd say something like, 'nature finds a way', but I'm not even sure if Mother Nature could survive if you failed to stop those spirits' carnage... Please take these lilies, in gratitude for your courage!" => "Ну, обычно я бы сказал что-нибудь вроде 'природа всегда находит путь', но я даже не уверен, что сама Мать-Природа смогла бы выжить, если бы ты не прекратил бойню этих духов... Прими эти лилии в благодарность за твою храбрость!",
+                "Normally I'd say something like, 'nature finds a way', but I'm not even sure if Mother Nature could survive if you failed to stop those spirits' carnage... Please take these lilies, in gratitude for your courage!" => "Ну, обычно я бы сказал что-нибудь вроде 'природа всегда находит путь', но я даже не уверен, что сама Мать-Природа смогла бы выжить, если бы ты не прекратил бойню, учинённую этими духами... Прими эти лилии в благодарность за твою храбрость!",
                 _ => chat
             };
             
@@ -363,7 +363,7 @@ public class ThoriumNpcChat : GlobalNPC
             
             if (chat == $"I was exiled from my people when I chose to side with your kind. They thought me foolish, placing faith in those that dwelled above. I'm sure they're feeling rather foolish themselves after what you've just accomplished. Well done, {Main.LocalPlayer.name}.")
             {
-                chat = $"Когда я выбрал твою сторону, меня изгнали из моего народа. Они считали меня глупцом, что я доверился тем, кто живёт наверху. Теперь они, наверное, сами чувствуют себя глупцами после того, что ты только что сделал. Отлично, {Main.LocalPlayer.name}.";
+                chat = $"Когда я выбрал твою сторону, меня изгнал мой народ. Они считали меня глупцом за то, что я доверился тем, кто живёт наверху. Теперь, наверное, они сами чувствуют себя глупцами после того, что ты только что сделал. Отличная работа, {Main.LocalPlayer.name}.";
             }
             
             if (NPC.AnyNPCs(22))
@@ -383,7 +383,7 @@ public class ThoriumNpcChat : GlobalNPC
                 "Ah, a woman of music! How well can you carry a tune?" => "Да, ты, похоже, человек музыки! А как у тебя с голосом?",
                 "You know, people would pay good money for quality music like yours. Care to hear my business proposition...?" => "Знаешь, за такую качественную музыку, как твоя, люди готовы платить хорошие деньги. Не хочешь услышать моё бизнес-предложение?..",
                 "In my younger years I was quite the experienced bard too! I've since left that behind me, though." => "Да, в молодости я тоже был неплохим бардом! Но сейчас это в прошлом.",
-                "Amazing work, friend! I sold off all my 'end of the world' merchandise, and now thanks to you, I can actually live long enough to kick back and enjoy the benefits!" => "Отлично сработано, друг! Я распродал все свои товары для 'конца света', и теперь, благодаря тебе, я смогу прожить достаточно долго, чтобы расслабиться и насладиться всеми прелестями жизни!",
+                "Amazing work, friend! I sold off all my 'end of the world' merchandise, and now thanks to you, I can actually live long enough to kick back and enjoy the benefits!" => "Отлично сработано, друг! Я распродал все свои товары для 'конца света', и теперь, благодаря тебе, смогу прожить достаточно долго, чтобы расслабиться и насладиться всеми прелестями жизни!",
                 _ => chat
             };
         }
@@ -394,7 +394,7 @@ public class ThoriumNpcChat : GlobalNPC
             {
                 "Are you sure you really need my help healing you and your allies? You seem to have it under control..." => "Ты уверен, что тебе действительно нужна моя помощь? Выглядит так, будто у тебя всё под контролем.",
                 "Another healer in town? Ugh, this will be bad for business..." => "Вот чёрт! Ещё один целитель! Теперь нам придётся конкурировать за клиентов...",
-                "I assume that you won't be having too many injuries from here on out? Shame, there goes my greatest money maker." => " Я так понимаю, больше серьёзных травм не предвидится? Жаль, ведь это был мой главный источник дохода.",
+                "I assume that you won't be having too many injuries from here on out? Shame, there goes my greatest money maker." => "Я так понимаю, больше серьёзных травм не предвидится? Жаль, ведь это был мой главный источник дохода.",
                 _ => chat
             };
         }
@@ -416,7 +416,7 @@ public class ThoriumNpcChat : GlobalNPC
             {
                 "Aye, so the legends be true... A great and terrible beast lurks beneath the depths, matey. Best if you go and handle it, eh?" => "Ага, так легенды и правда правдивы... Великая и ужасная тварь таится в глубинах, приятель. Лучше тебе с ней разобраться, а?",
                 "Aye, I once saw a sea demon risin' from those depths. Somethin' dark, somethin' ancient, somethin'... uhh... You gonna buy somethin'?!" => "Да, однажды я видел, как из глубин моря поднялся морской демон. Что-то тёмное, что-то древнее, что-то... э-э-э... Ты что-нибудь хочешь купить?!",
-                "Best be reckonin' that travelin' the seven seas will be smoother sailin' than a newborn's behind now that the Lady High Tide has been quell'd... And prob'ly high time for this ol' swashbuckler to set voyage for a new adventure!" => "Ну и дела! Теперь, когда Леди прилив побеждена, путешествовать по семи морям будет проще, чем плавание по гладкому заду новорождённого. И, наверное, пора этому старому корсару отправиться в новое приключение!",
+                "Best be reckonin' that travelin' the seven seas will be smoother sailin' than a newborn's behind now that the Lady High Tide has been quell'd... And prob'ly high time for this ol' swashbuckler to set voyage for a new adventure!" => "Ну и дела! Теперь, когда Леди прилив побеждена, путешествовать по семи морям будет проще, чем плавать по гладкому заду новорождённого. И, наверное, пора этому старому корсару отправиться в новое приключение!",
                 _ => chat
             };
         }
@@ -436,7 +436,7 @@ public class ThoriumNpcChat : GlobalNPC
         {
             chat = chat switch
             {
-                "Yeah, yeah, everyone's going crazy over your 'saving the world' thing. But have you saved the 200 fancy fish I've asked for? If not then it's back to work, minion!" => "Да-да, все в восторге от твоего 'спасения мира'. А мои 200 золотых рыбок ты спас? Нет? Тогда назад за дело, миньон!",
+                "Yeah, yeah, everyone's going crazy over your 'saving the world' thing. But have you saved the 200 fancy fish I've asked for? If not then it's back to work, minion!" => "Да-да, все в восторге от твоего 'спасения мира'. А две сотни моих золотых рыбок ты спас? Нет? Тогда назад к заданиям, миньон!",
                 "'Ocean Essences', huh? Do you think if I have enough, I'll become the Supreme God-Emperor of all Fishkind?! I've got a new quest for you, Supreme Helper Minion! Get for me 100 MILLION of those Ocean thingies, pronto!" => "Эссенции океана, говоришь? Думаешь, если у меня их будет достаточно, я стану Верховным Богом-Императором всех рыб? А ну-ка, Верховный помощник-миньон, живо добудь мне 100 МИЛЛИОНОВ этих штуковин, и поскорее!",
                 _ => chat
             };
@@ -472,7 +472,7 @@ public class ThoriumNpcChat : GlobalNPC
         {
             chat = chat switch
             {
-                "Simply incredible. I had calculated your odds of survival at less than 0.001% against those creatures and yet here you stand. Truly the will of man is a thing of wonder." => "Вот это да! Я подсчитал, что твои шансы выжить против этих существ меньше 0,001%, но ты доказал обратное. Вот это сила воли у человека, ничего не скажешь!",
+                "Simply incredible. I had calculated your odds of survival at less than 0.001% against those creatures and yet here you stand. Truly the will of man is a thing of wonder." => "Просто невероятно. По моим расчётам, твои шансы на выживание против этих тварей были менее 0.001%, и всё же ты здесь. Воистину, сила человеческой воли - поразительная вещь.",
                 _ => chat
             };
         }
@@ -481,7 +481,7 @@ public class ThoriumNpcChat : GlobalNPC
         {
             chat = chat switch
             {
-                "What a series of fireworks that purple guy let out! Can't help but take it as a challenge; one pyrotechnics show that'll blow your socks off, comin' right up!" => "Ого, ну и фейерверк устроил этот фиолетовый парень! Не могу не принять это как вызов; сейчас тебе покажу такое пиротехническое шоу, которое снесёт тебе башню!",
+                "What a series of fireworks that purple guy let out! Can't help but take it as a challenge; one pyrotechnics show that'll blow your socks off, comin' right up!" => "Ого, ну и фейерверк устроил этот фиолетовый парень! Не могу не принять это как вызов; сейчас покажу такое пиротехническое шоу, которое снесёт тебе башню!",
                 _ => chat
             };
         }
@@ -542,8 +542,8 @@ public class ThoriumNpcChat : GlobalNPC
         {
             chat = chat switch
             {
-                "If saving the world doesn't make you a good boy, then I don't know what does. No coal for you this year!" => "Ну, спасение мира не делает тебя хорошим мальчиком, то я не знаю, что делает. В этом году тебе не видать угля!",
-                "If saving the world doesn't make you a good girl, then I don't know what does. No coal for you this year!" => "Ну, спасение мира не делает тебя хорошей девочкой, то я не знаю, что делает. В этом году тебе не видать угля!",
+                "If saving the world doesn't make you a good boy, then I don't know what does. No coal for you this year!" => "Если спасение мира не делает тебя хорошим мальчиком, то я уж и не знаю, что тогда. В этом году не видать тебе угля!",
+                "If saving the world doesn't make you a good girl, then I don't know what does. No coal for you this year!" => "Если спасение мира не делает тебя хорошей девочкой, то я уж и не знаю, что тогда. В этом году не видать тебе угля!",
                 _ => chat
             };
         }
@@ -552,7 +552,7 @@ public class ThoriumNpcChat : GlobalNPC
         {
             chat = chat switch
             {
-                "An endless source of fire and water fell from those creatures you say? Oy, that sounds like a great way to generate some steam!" => "Источник огня и воды, исходящий от этих существ, является неисчерпаемым? Оу, это может стать отличным способом для производства пара.",
+                "An endless source of fire and water fell from those creatures you say? Oy, that sounds like a great way to generate some steam!" => "Бесконечный источник огня и воды от тех существ, говоришь? Оу, да это же отличный способ генерировать пар!",
                 _ => chat
             };
         }
@@ -579,7 +579,7 @@ public class ThoriumNpcChat : GlobalNPC
         {
             chat = chat switch
             {
-                "I see that fancy crown above your head, alright. Bah! You already acted like a despot, now you have the looks to back it up. Just separate me from my lovely gold and leave!" => "Замечаю, что ты облачился в роскошную корону. Что ж, это вполне соответствует твоему деспотичному поведению. Не теряй времени, забирай моё золото и уходи!",
+                "I see that fancy crown above your head, alright. Bah! You already acted like a despot, now you have the looks to back it up. Just separate me from my lovely gold and leave!" => "Да-да, вижу эту вычурную корону над твоей головой. Что ж, это вполне соответствует твоему деспотичному поведению. Просто отдай мне моё драгоценное золото и уходи!",
                 _ => chat
             };
         }
@@ -588,7 +588,7 @@ public class ThoriumNpcChat : GlobalNPC
         {
             chat = chat switch
             {
-                "Hey, I'm back in town! Did I miss anything exciting...?" => "Эй, я вернулся! Что-нибудь интересного произошло, пока меня не было?..",
+                "Hey, I'm back in town! Did I miss anything exciting...?" => "Эй, я вернулся! Что-нибудь интересное произошло, пока меня не было?..",
                 _ => chat
             };
         }
@@ -615,7 +615,7 @@ public class ThoriumNpcChat : GlobalNPC
         {
             chat = chat switch
             {
-                "Everyone is quite lively right now! I'm so glad all of you remembered that today was my birthday!" => "Ого, народ сегодня как на взводе! Я так рад, что вы все не забыли, что сегодня мой день рождения!",
+                "Everyone is quite lively right now! I'm so glad all of you remembered that today was my birthday!" => "Ого, народ сегодня на взводе! Я так рад, что вы все не забыли, что сегодня мой день рождения!",
                 _ => chat
             };
         }
@@ -624,7 +624,7 @@ public class ThoriumNpcChat : GlobalNPC
         {
             chat = chat switch
             {
-                "Okay, like, wait. One more time. You say there were three of them? Okay yeah, and what did they look like exactly? Like, for real? This bestiary entry is gonna really test my drawing skills, huh?" => "Ладно, ладно, давай ещё раз. Ты говоришь, их было трое? Хорошо, и как же они выглядели? Ну, по-настоящему? Это описание для бестиария точно будет испытанием для моих художественных навыков, ага?",
+                "Okay, like, wait. One more time. You say there were three of them? Okay yeah, and what did they look like exactly? Like, for real? This bestiary entry is gonna really test my drawing skills, huh?" => "Ладно, ладно, давай ещё раз. Ты говоришь, их было трое? Хорошо, и как же они выглядели? Ну, по-настоящему? Эта запись в бестиарии точно будет испытанием моих художественных навыков, ага?",
                 _ => chat
             };
         }
@@ -634,7 +634,7 @@ public class ThoriumNpcChat : GlobalNPC
             chat = chat switch
             {
                 "I see you've got yourself an instrument. Instruments use ‘inspiration’ to provide helpful buffs to you and your team, as well as damage enemies. You’ll need Inspiration Fragments to increase your maximum inspiration, which can be crafted from fallen stars and a strange ore underground! Who knows, maybe later on you can increase it even more with other unique materials..." => "Вижу, ты обзавёлся инструментом! Инструменты используют 'вдохновение', чтобы давать тебе и твоей команде полезные усиления, а также наносить урон врагам. Чтобы повысить максимальный запас вдохновения, тебе понадобятся осколки вдохновения, которые можно изготовить из упавших звёзд и странной руды, что находится под землёй! Кто знает, может быть, позже ты сможешь увеличить его ещё больше с помощью других редких материалов...",
-                "Congratulations on your victory! I'm sure you've already noticed, but each of the primordial spirits left behind part of their essence over the domain they control after you defeated them. They're as powerful as they sound, and you can make some extremely potent gear with them. As always, I can help you see what you can craft with them!" => "Поздравляю с победой! Наверняка ты уже заметил, что после твоего триумфа над первородными духами, каждый из них оставил частицу своей сущности в подвластном ему владении. Эти сущности настолько же могущественны, насколько это звучит, и с их помощью ты можешь создать невероятно мощное снаряжение. Как всегда, я готов помочь тебе узнать, что можно из них изготовить!",
+                "Congratulations on your victory! I'm sure you've already noticed, but each of the primordial spirits left behind part of their essence over the domain they control after you defeated them. They're as powerful as they sound, and you can make some extremely potent gear with them. As always, I can help you see what you can craft with them!" => "Поздравляю с победой! Наверняка ты уже заметил, что после их поражения каждый из первородных духов оставил частицу своей сущности в подвластном им домене. Эти сущности настолько же могущественны, насколько это звучит, и с их помощью можно создать невероятно мощное снаряжение. Как всегда, я могу показать тебе, что можно из них изготовить!",
                 _ => chat
             };
         }
@@ -643,7 +643,7 @@ public class ThoriumNpcChat : GlobalNPC
         {
             if (chat == $"I'd say that battle looked like a hole in one to me, {Main.LocalPlayer.name}. Maybe you can finally relax after all that ceaseless fighting and play some golf with me; What do you say?")
             {
-                chat = $"Могу сказать, что битва прошла для нас как одним ударом в лунку, {Main.LocalPlayer.name}. Как насчёт того, чтобы наконец расслабиться после всех этих непрекращаюхся сражений и сыграть со мной в гольф?";
+                chat = $"Могу сказать, что битва прошла для нас как строук-плей в один удар, {Main.LocalPlayer.name}. Как насчёт того, чтобы наконец расслабиться после всех этих непрекращаюхся сражений и сыграть со мной в гольф?";
             }
         }
     }
