@@ -1791,22 +1791,7 @@ public class CatalystItems : IItemGender
         }
     }
 
-    public List<int> Plural
-    {
-        get
-        {
-            string[] items = {
-                "",
-            };
-    
-            List<int> types = new List<int>();
-            if (ModInstances.Catalyst != null)
-            {
-                types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("CatalystMod", itemName).Type));
-            }
-            return types;
-        }
-    }
+    public List<int> Plural { get; } = new();
 }
 
 public class CatalystItemsCreator : IItemGenderCreator
