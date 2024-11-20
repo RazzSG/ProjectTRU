@@ -1764,7 +1764,7 @@ public class CatalystItems : IItemGender
             };
         
             List<int> types = new List<int>();
-            if (ModInstances.StarsAbove != null)
+            if (ModInstances.Catalyst != null)
             {
                 types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("CatalystMod", itemName).Type));
             }
@@ -1783,7 +1783,7 @@ public class CatalystItems : IItemGender
             };
         
             List<int> types = new List<int>();
-            if (ModInstances.StarsAbove != null)
+            if (ModInstances.Catalyst != null)
             {
                 types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("CatalystMod", itemName).Type));
             }
@@ -1800,7 +1800,7 @@ public class CatalystItems : IItemGender
             };
     
             List<int> types = new List<int>();
-            if (ModInstances.StarsAbove != null)
+            if (ModInstances.Catalyst != null)
             {
                 types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("CatalystMod", itemName).Type));
             }
