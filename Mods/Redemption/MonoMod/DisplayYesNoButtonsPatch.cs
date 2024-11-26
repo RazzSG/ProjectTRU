@@ -7,6 +7,7 @@ using CalamityRuTranslate.Core.MonoMod;
 using Microsoft.Xna.Framework;
 using Redemption.UI;
 using Terraria;
+using Terraria.Localization;
 
 namespace CalamityRuTranslate.Mods.Redemption.MonoMod;
 
@@ -27,6 +28,14 @@ public class DisplayYesNoButtonsPatch : OnPatcher
 
         if (textOffset.HasValue)
         {
+            if (yesText == Language.GetTextValue("Mods.Redemption.GenericTerms.Choice.CallDraw"))
+            {
+                textOffset = textOffset.Value.Y switch
+                {
+                    28f => textOffset.Value with { Y = 23f },
+                    _ => textOffset
+                };
+            }
             textOffset = textOffset.Value.Y switch
             {
                 28f => textOffset.Value with { Y = 45f },

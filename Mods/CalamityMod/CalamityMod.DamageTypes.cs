@@ -19,6 +19,11 @@ public partial class CalamityModGlobalItem
                 if (TRuConfig.Instance.ColoredDamageTypes)
                     tooltip.OverrideColor = new Color(255, 184, 108);
             }
+
+            if (item.CountsAsClass<MeleeRangedHybridDamageClass>())
+            {
+                tooltip.Text = tooltip.Text.Replace("melee/ranged damage", "ед. ближнего боя/стрелкового урона");
+            }
         });
     }
 }

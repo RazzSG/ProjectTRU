@@ -98,7 +98,7 @@
         Nebula:
             '''
             При нанесении магического урона есть шанс создать баффы-усилители
-            При подборе нескольких одинаковых усилителей, их эффект складывается
+            При подборе нескольких одинаковых усилителей их эффект складывается
             '''
         Ninja: Увеличивает скорость передвижения на 20%
         ObsidianOutlaw:
@@ -122,7 +122,7 @@
             '''
            Создаёт солнечный щит, который постепенно заряжается, увеличивая сопротивление урону при наличии хотя бы одного заряда
            Позволяет совершить рывок, наносящий урон врагам при контакте и тратящий один заряд
-           Также, при получении урона, тратится один заряд, наносящий урон всем окружающим врагам
+           При получении урона тратится один заряд, наносящий урон всем окружающим врагам
             '''
         SpectreDamage: При нанесении магического урона появляются самонаводящиеся снаряды, наносящие дополнительный урон
         SpectreHealing:
@@ -2738,7 +2738,7 @@
         AshWoodChair: Стул из пепельного дерева
         AshWoodChandelier: Люстра из пепельного дерева
         AshWoodChest: Сундук из пепельного дерева
-        AshWoodClock: Часы из пепельного дерева
+        AshWoodClock: Напольные часы из пепельного дерева
         AshWoodDoor: Дверь из пепельного дерева
         AshWoodDresser: Комод из пепельного дерева
         AshWoodFence: Забор из пепельного дерева
@@ -2781,7 +2781,7 @@
         BalloonChair: Надувной стул
         BalloonChandelier: Надувная люстра
         BalloonChest: Надувной сундук
-        BalloonClock: Надувные часы
+        BalloonClock: Надувные напольные часы
         BalloonDoor: Надувная дверь
         BalloonDresser: Надувной комод
         BalloonHorseshoeFart: Зелёный надувной шарик с подковой
@@ -2807,7 +2807,7 @@
         BambooChair: Бамбуковый стул
         BambooChandelier: Бамбуковая люстра
         BambooChest: Бамбуковый сундук
-        BambooClock: Бамбуковые часы
+        BambooClock: Бамбуковые напольные часы
         BambooDoor: Бамбуковая дверь
         BambooDresser: Бамбуковый комод
         BambooFence: Бамбуковый забор
@@ -3048,7 +3048,7 @@
         BoneChair: Костяной стул
         BoneChandelier: Костяная люстра
         BoneChest: Костяной сундук
-        BoneClock: Костяные часы
+        BoneClock: Костяные напольные часы
         BoneDagger: Костяной метательный нож
         BoneDoor: Костяная дверь
         BoneDresser: Костяной комод
@@ -3098,7 +3098,7 @@
         BorealWoodChair: Стул из северного дерева
         BorealWoodChandelier: Люстра из северного дерева
         BorealWoodChest: Сундук из северного дерева
-        BorealWoodClock: Часы из северного дерева
+        BorealWoodClock: Напольные часы из северного дерева
         BorealWoodDoor: Дверь из северного дерева
         BorealWoodDresser: Комод из северного дерева
         BorealWoodFence: Забор из северного дерева
@@ -3230,7 +3230,7 @@
         CactusChair: Кактусовый стул
         CactusChandelier: Кактусовая люстра
         CactusChest: Кактусовый сундук
-        CactusClock: Кактусовые часы
+        CactusClock: Кактусовые напольные часы
         CactusDoor: Кактусовая дверь
         CactusDresser: Кактусовый комод
         CactusHelmet: Кактусовый шлем
@@ -3472,7 +3472,7 @@
         CoralChair: Рифовый стул
         CoralChandelier: Рифовая люстра
         CoralChest: Рифовый сундук
-        CoralClock: Рифовые часы
+        CoralClock: Рифовые напольные часы
         CoralDoor: Рифовая дверь
         CoralDresser: Рифовый комод
         CoralLamp: Рифовая напольная лампа
@@ -3601,7 +3601,7 @@
         CrystalChair: Кристальный стул
         CrystalChandelier: Кристальная люстра
         CrystalChest: Кристальный сундук
-        CrystalClock: Кристальные часы
+        CrystalClock: Кристальные напольные часы
         CrystalDart: Кристальный дротик
         CrystalDoor: Кристальная дверь
         CrystalDresser: Кристальный комод
@@ -3861,9 +3861,9 @@
         DukeFishronPetItem: Морская свинина
         DukeFishronTrophy: Трофей Герцога Рыброна
         DuneSplicerBanner: Знамя дюнного сращивателя
-        DungeonClockBlue: Часы синей Темницы
-        DungeonClockGreen: Часы зелёной Темницы
-        DungeonClockPink: Часы розовой Темницы
+        DungeonClockBlue: Напольные часы синей Темницы
+        DungeonClockGreen: Напольные часы зелёной Темницы
+        DungeonClockPink: Напольные часы розовой Темницы
         DungeonDesertChest: Пустынный сундук
         DungeonDesertKey: Пустынный ключ
         DungeonDoor: Дверь Темницы
@@ -3887,7 +3887,7 @@
         DynastyChair: Восточный стул
         DynastyChandelier: Восточная люстра
         DynastyChest: Восточный сундук
-        DynastyClock: Восточные часы
+        DynastyClock: Восточные напольные часы
         DynastyCup: Восточная кружка
         DynastyDoor: Восточная дверь
         DynastyDresser: Восточный комод
@@ -3925,7 +3925,7 @@
         EbonwoodChair: Стул из эбонитового дерева
         EbonwoodChandelier: Люстра из эбонитового дерева
         EbonwoodChest: Сундук из эбонитового дерева
-        EbonwoodClock: Часы из эбонитового дерева
+        EbonwoodClock: Напольные часы из эбонитового дерева
         EbonwoodDoor: Дверь из эбонитового дерева
         EbonwoodDresser: Комод из эбонитового дерева
         EbonwoodFence: Забор из эбонитового дерева
@@ -4192,7 +4192,7 @@
         FleshChair: Стул из плоти
         FleshChandelier: Люстра из плоти
         FleshChest: Сундук из плоти
-        FleshClock: Часы из плоти
+        FleshClock: Напольные часы из плоти
         FleshCloningVaat: Резервуар клонирования плоти
         FleshDoor: Дверь из плоти
         FleshDresser: Комод из плоти
@@ -4305,7 +4305,7 @@
         FrozenChair: Замороженный стул
         FrozenChandelier: Замороженная люстра
         FrozenChest: Ледяной сундук
-        FrozenClock: Замороженные часы
+        FrozenClock: Замороженные напольные часы
         FrozenCrate: Замороженный ящик
         FrozenCrateHard: Заледеневший ящик
         FrozenDoor: Замороженная дверь
@@ -4414,7 +4414,7 @@
         GlassChair: Стеклянный стул
         GlassChandelier: Стеклянная люстра
         GlassChest: Стеклянный сундук
-        GlassClock: Стеклянные часы
+        GlassClock: Стеклянные напольные часы
         GlassDoor: Стеклянная дверь
         GlassDresser: Стеклянный комод
         GlassKiln: Стеклоплавильная печь
@@ -4510,7 +4510,7 @@
         GoldenChair: Роскошный стул
         GoldenChandelier: Роскошная люстра
         GoldenChest: Роскошный сундук
-        GoldenClock: Роскошные часы
+        GoldenClock: Роскошные напольные часы
         GoldenCrate: Золотой ящик
         GoldenCrateHard: Титановый ящик
         GoldenDelight: Золотая услада
@@ -4615,7 +4615,7 @@
         GraniteChair: Гранитный стул
         GraniteChandelier: Гранитная люстра
         GraniteChest: Гранитный сундук
-        GraniteClock: Гранитные часы
+        GraniteClock: Гранитные напольные часы
         GraniteColumn: Гранитная колонна
         GraniteDoor: Гранитная дверь
         GraniteDresser: Гранитный комод
@@ -4867,7 +4867,7 @@
         HoneyChair: Медовый стул
         HoneyChandelier: Медовая люстра
         HoneyChest: Медовый сундук
-        HoneyClock: Медовые часы
+        HoneyClock: Медовые напольные часы
         HoneyComb: Медовые соты
         HoneyCup: Медовая кружка
         HoneyDispenser: Медовый дозатор
@@ -5183,7 +5183,7 @@
         LesionChair: Стул из гнили
         LesionChandelier: Люстра из гнили
         LesionChest: Сундук из гнили
-        LesionClock: Часы из гнили
+        LesionClock: Напольные часы из гнили
         LesionDoor: Дверь из гнили
         LesionDresser: Комод из гнили
         LesionLamp: Напольная лампа из гнили
@@ -5234,7 +5234,7 @@
         LihzahrdChair: Яхщеровый стул
         LihzahrdChandelier: Яхщеровая люстра
         LihzahrdChest: Яхщеровый сундук
-        LihzahrdClock: Яхщеровые часы
+        LihzahrdClock: Яхщеровые напольные часы
         LihzahrdDoor: Яхщеровая дверь
         LihzahrdDresser: Яхщеровый комод
         LihzahrdFurnace: Яхщеровая печь
@@ -5283,7 +5283,7 @@
         LivingWoodChair: Стул из живого дерева
         LivingWoodChandelier: Люстра из живого дерева
         LivingWoodChest: Сундук из живого дерева
-        LivingWoodClock: Часы из живого дерева
+        LivingWoodClock: Напольные часы из живого дерева
         LivingWoodDoor: Дверь из живого дерева
         LivingWoodDresser: Комод из живого дерева
         LivingWoodLamp: Напольная лампа из живого дерева
@@ -5411,7 +5411,7 @@
         MarbleChair: Мраморный стул
         MarbleChandelier: Мраморная люстра
         MarbleChest: Мраморный сундук
-        MarbleClock: Мраморные часы
+        MarbleClock: Мраморные напольные часы
         MarbleColumn: Мраморная колонна
         MarbleDoor: Мраморная дверь
         MarbleDresser: Мраморный комод
@@ -5429,7 +5429,7 @@
         Marshmallow: Зефир
         MarshmallowonaStick: Зефир на палочке
         MartianArmorDye: Марсианский краситель
-        MartianAstroClock: Марсианские астрочасы
+        MartianAstroClock: Марсианские астронапольные часы
         MartianBathtub: Марсианская ванна
         MartianBed: Марсианская кровать
         MartianBrainscramblerBanner: Знамя марсианского выжигателя мозгов
@@ -5516,7 +5516,7 @@
         MeteoriteChair: Метеоритный стул
         MeteoriteChandelier: Метеоритная люстра
         MeteoriteChest: Метеоритный сундук
-        MeteoriteClock: Метеоритные часы
+        MeteoriteClock: Метеоритные напольные часы
         MeteoriteDoor: Метеоритная дверь
         MeteoriteDresser: Метеоритный комод
         MeteoriteLamp: Метеоритная напольная лампа
@@ -5638,7 +5638,7 @@
         MushroomChair: Грибной стул
         MushroomChandelier: Грибная люстра
         MushroomChest: Грибной сундук
-        MushroomClock: Грибные часы
+        MushroomClock: Грибные напольные часы
         MushroomDoor: Грибная дверь
         MushroomDresser: Грибной комод
         MushroomDye: Краситель цвета светящегося гриба
@@ -5797,7 +5797,7 @@
         NebulaChair: Стул туманности
         NebulaChandelier: Люстра туманности
         NebulaChest: Сундук туманности
-        NebulaClock: Часы туманности
+        NebulaClock: Напольные часы туманности
         NebulaDoor: Дверь туманности
         NebulaDresser: Комод туманности
         NebulaDrill: Бур туманности
@@ -5868,7 +5868,7 @@
         ObsidianChair: Обсидиановый стул
         ObsidianChandelier: Обсидиановая люстра
         ObsidianChest: Обсидиановый сундук
-        ObsidianClock: Обсидиановые часы
+        ObsidianClock: Обсидиановые напольные часы
         ObsidianDoor: Обсидиановая дверь
         ObsidianDresser: Обсидиановый комод
         ObsidianHelm: Обсидиановая шляпа разбойника
@@ -5994,7 +5994,7 @@
         PalmWoodChair: Стул из пальмового дерева
         PalmWoodChandelier: Люстра из пальмового дерева
         PalmWoodChest: Сундук из пальмового дерева
-        PalmWoodClock: Часы из пальмового дерева
+        PalmWoodClock: Напольные часы из пальмового дерева
         PalmWoodDoor: Дверь из пальмового дерева
         PalmWoodDresser: Комод из пальмового дерева
         PalmWoodFence: Забор из пальмового дерева
@@ -6051,7 +6051,7 @@
         PearlwoodChair: Стул из жемчужного дерева
         PearlwoodChandelier: Люстра из жемчужного дерева
         PearlwoodChest: Сундук из жемчужного дерева
-        PearlwoodClock: Часы из жемчужного дерева
+        PearlwoodClock: Напольные часы из жемчужного дерева
         PearlwoodDoor: Дверь из жемчужного дерева
         PearlwoodDresser: Комод из жемчужного дерева
         PearlwoodFence: Забор из жемчужного дерева
@@ -6302,7 +6302,7 @@
         PumpkinChair: Тыквенный стул
         PumpkinChandelier: Тыквенная люстра
         PumpkinChest: Тыквенный сундук
-        PumpkinClock: Тыквенные часы
+        PumpkinClock: Тыквенные напольные часы
         PumpkinDoor: Тыквенная дверь
         PumpkinDresser: Тыквенный комод
         PumpkinHelmet: Тыквенный шлем
@@ -6506,7 +6506,7 @@
         RichMahoganyChair: Стул из красного дерева
         RichMahoganyChandelier: Люстра из красного дерева
         RichMahoganyChest: Сундук из красного дерева
-        RichMahoganyClock: Часы из красного дерева
+        RichMahoganyClock: Напольные часы из красного дерева
         RichMahoganyDoor: Дверь из красного дерева
         RichMahoganyDresser: Комод из красного дерева
         RichMahoganyFence: Забор из красного дерева
@@ -6620,7 +6620,7 @@
         SandstoneCandle: Песчаниковая свеча
         SandstoneChair: Песчаниковый стул
         SandstoneChandelier: Песчаниковая люстра
-        SandstoneClock: Песчаниковые часы
+        SandstoneClock: Песчаниковые напольные часы
         SandstoneColumn: Песчаниковая колонна
         SandstoneDoor: Песчаниковая дверь
         SandstoneDresser: Песчаниковый комод
@@ -6709,7 +6709,7 @@
         ShadewoodChair: Стул из мрачного дерева
         ShadewoodChandelier: Люстра из мрачного дерева
         ShadewoodChest: Сундук из мрачного дерева
-        ShadewoodClock: Часы из мрачного дерева
+        ShadewoodClock: Напольные часы из мрачного дерева
         ShadewoodDoor: Дверь из мрачного дерева
         ShadewoodDresser: Комод из мрачного дерева
         ShadewoodFence: Забор из мрачного дерева
@@ -6883,8 +6883,8 @@
         SkywareChair: Заоблачный стул
         SkywareChandelier: Заоблачная люстра
         SkywareChest: Заоблачный сундук
-        SkywareClock2: Часы из солнечных плит
-        SkywareClock: Заоблачные часы
+        SkywareClock2: Напольные часы из солнечных плит
+        SkywareClock: Заоблачные напольные часы
         SkywareDoor: Заоблачная дверь
         SkywareDresser: Заоблачный комод
         SkywareLamp: Заоблачная напольная лампа
@@ -6908,7 +6908,7 @@
         SlimeChair: Слизевой стул
         SlimeChandelier: Слизевая люстра
         SlimeChest: Слизевой сундук
-        SlimeClock: Слизевые часы
+        SlimeClock: Слизевые напольные часы
         SlimeCrown: Корона слизня
         SlimeDoor: Слизевая дверь
         SlimeDresser: Слизевой комод
@@ -6972,7 +6972,7 @@
         SolarChair: Солнечный стул
         SolarChandelier: Солнечная люстра
         SolarChest: Солнечный сундук
-        SolarClock: Солнечные часы
+        SolarClock: Солнечные напольные часы
         SolarCoriteBanner: Знамя ядрита
         SolarCrawltipedeBanner: Знамя ползоножки
         SolarDoor: Солнечная дверь
@@ -7064,7 +7064,7 @@
         SpiderChair: Паучий стул
         SpiderChandelier: Паучья люстра
         SpiderChest: Паучий сундук
-        SpiderClock: Паучьи часы
+        SpiderClock: Паучьи напольные часы
         SpiderDoor: Паучья дверь
         SpiderDresser: Паучий комод
         SpiderEcho: Паучья стена
@@ -7101,7 +7101,7 @@
         SpookyChair: Жуткий стул
         SpookyChandelier: Жуткая люстра
         SpookyChest: Жуткий сундук
-        SpookyClock: Жуткие часы
+        SpookyClock: Жуткие напольные часы
         SpookyDoor: Жуткая дверь
         SpookyDresser: Жуткий комод
         SpookyHelmet: Жуткий шлем
@@ -7176,7 +7176,7 @@
         StardustChair: Стул звёздной пыли
         StardustChandelier: Люстра звёздной пыли
         StardustChest: Сундук звёздной пыли
-        StardustClock: Часы звёздной пыли
+        StardustClock: Напольные часы звёздной пыли
         StardustDoor: Дверь звёздной пыли
         StardustDragonStaff: Посох дракона звёздной пыли
         StardustDresser: Комод звёздной пыли
@@ -7220,7 +7220,7 @@
         SteampunkChair: Паромеханический стул
         SteampunkChandelier: Паромеханическая люстра
         SteampunkChest: Паромеханический сундук
-        SteampunkClock: Паромеханические часы
+        SteampunkClock: Паромеханические напольные часы
         SteampunkCup: Потир
         SteampunkDoor: Паромеханическая дверь
         SteampunkDresser: Паромеханический комод
@@ -7705,7 +7705,7 @@
         VortexChair: Вихревой стул
         VortexChandelier: Вихревая люстра
         VortexChest: Вихревой сундук
-        VortexClock: Вихревые часы
+        VortexClock: Вихревые напольные часы
         VortexDoor: Вихревая дверь
         VortexDresser: Вихревой комод
         VortexDrill: Вихревой бур
