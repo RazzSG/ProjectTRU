@@ -11,7 +11,7 @@ public class ModCompatibilityChecker : ModSystem
         new("CalamityMod", new Version(2, 0, 4, 5), true),
         new("Redemption", new Version(0, 8, 0, 4045), true),
         new("InfernumMode", new Version(2, 0, 1, 14), true),
-        new("FargowiltasSouls", new Version(1, 7, 0, 11), true),
+        new("FargowiltasSouls", new Version(1, 7, 0, 12), true),
         new("Fargowiltas", new Version(3, 3, 5, 1), true),
         new("ThoriumMod", new Version(1, 7, 1, 6), true),
         new("NoxusBoss", new Version(1, 1, 28), false),
