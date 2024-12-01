@@ -53,9 +53,9 @@ public class CalamityRuTranslate : Mod
                     "LoreSulphurSea", "LoreTwins", "LoreUnderworld", "LoreWallofFlesh", "LoreYharon"
                 }, "История#Предметы_истории");
                 TranslationHelper.WikithisRedirectNPC("HiveEnemy", "Улей (враг)");
-                TranslationHelper.WikithisRedirectNPC("KingSlimeJewelRuby", "Королевские драгоценности");
-                TranslationHelper.WikithisRedirectNPC("KingSlimeJewelSapphire", "Королевские драгоценности");
-                TranslationHelper.WikithisRedirectNPC("KingSlimeJewelEmerald", "Королевские драгоценности");
+                TranslationHelper.WikithisRedirectNPC("KingSlimeJewelRuby", "Драгоценности Короля слизней");
+                TranslationHelper.WikithisRedirectNPC("KingSlimeJewelSapphire", "Драгоценности Короля слизней");
+                TranslationHelper.WikithisRedirectNPC("KingSlimeJewelEmerald", "Драгоценности Короля слизней");
                 TranslationHelper.WikithisRedirectNPC("OldDukeToothBall", "Зубастый шар (Старый герцог)");
                 TranslationHelper.WikithisRedirectNPC("CalamitasEnchantDemon", "Зачарование");
                 TranslationHelper.WikithisRedirectNPC("LeviathanStart", "%3F%3F%3F");

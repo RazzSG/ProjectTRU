@@ -12,10 +12,12 @@ public class ZephosPatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.Redemption != null&& TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
     
-    public override MethodInfo ModifiedMethod => typeof(Zephos).GetCachedMethod(nameof(Zephos.ChitChat));
+    public override MethodInfo ModifiedMethod => typeof(AdviceButtonBase).GetCachedMethod(nameof(AdviceButtonBase.OnClick));
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {
+        TranslationHelper.ModifyIL(il, "whats-her-name", "Как-там-её");
+        TranslationHelper.ModifyIL(il, "Fallen", "Падший");
         TranslationHelper.ModifyIL(il, " (wink wink)", " *подмигивает*");
     };
 }

@@ -141,7 +141,7 @@ public class ThoriumGlobalItem : GlobalItem
                 player.armor[1].type == ModContent.ItemType<MarchingBandUniform>() &&
                 player.armor[2].type == ModContent.ItemType<MarchingBandLeggings>())
             {
-                tooltip.Text = $"{setBonusKey} Находясь в бою, за вами следует радуга наносящих урон симфонических символов, которые следуют за вами и оглушают врагов";
+                tooltip.Text = $"{setBonusKey} Когда вы находитесь в бою, за вами следует радуга наносящих урон симфонических символов, которые следуют за вами и оглушают врагов";
             }
             
             if (player.armor[0].type == ModContent.ItemType<NoblesHat>() &&
@@ -197,7 +197,7 @@ public class ThoriumGlobalItem : GlobalItem
                 player.armor[1].type == ModContent.ItemType<DreamWeaversTabard>() &&
                 player.armor[2].type == ModContent.ItemType<DreamWeaversTreads>())
             {
-                tooltip.Text = $"{setBonusKey} Нажатие клавиши 'Способность брони' расходует 200 маны и помещает вас в состояние сна\nНаходясь во сне, исцелённые союзники на короткое время становятся неуязвимыми и избавляются от всех дебаффов";
+                tooltip.Text = $"{setBonusKey} Нажатие клавиши 'Способность брони' расходует 200 маны и помещает вас в состояние сна\nКогда вы находитесь во сне, исцелённые союзники на короткое время становятся неуязвимыми и избавляются от всех дебаффов";
             }
             
             if (player.armor[0].type == ModContent.ItemType<MasterArbalestHood>() &&
