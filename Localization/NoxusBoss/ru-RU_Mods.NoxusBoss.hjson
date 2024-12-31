@@ -140,7 +140,7 @@ Items: {
     }
 
     LoreNoxus: {
-        DisplayName: История — Ноксус
+        DisplayName: История (Ноксус)
         Tooltip:
             '''
             [c/E3AF40:До ваших ушей доносится далёкий шёпот...]
@@ -161,7 +161,7 @@ Items: {
     }
 
     LoreNamelessDeity: {
-        DisplayName: История — Безымянное божество
+        DisplayName: История (Безымянное божество)
         Tooltip:
             '''
             [c/E3AF40:До ваших ушей доносится далёкий шёпот...]

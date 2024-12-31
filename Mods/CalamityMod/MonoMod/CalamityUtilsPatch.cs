@@ -16,12 +16,11 @@ public class CalamityUtilsPatch : OnPatcher
 
     public override MethodInfo ModifiedMethod => typeof(CalamityUtils).GetCachedMethod(nameof(CalamityUtils.GenerateRandomAlphanumericString));
 
-    private delegate string GenerateRandomAlphanumericStringDelegate(int length);
-
-    public override Delegate Delegate { get; } = (GenerateRandomAlphanumericStringDelegate _, int length) =>
+    public override Delegate Delegate { get; } = (Func<int, string> _, int length) =>
     {
         const string alphanumericCharacters = "абвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ0123456789";
-        return new string(Enumerable.Repeat(alphanumericCharacters, length).Select(s => s[Main.rand.Next(s.Length)])
+        return new string(Enumerable.Repeat(alphanumericCharacters, length)
+            .Select(s => s[Main.rand.Next(s.Length)])
             .ToArray());
     };
 }

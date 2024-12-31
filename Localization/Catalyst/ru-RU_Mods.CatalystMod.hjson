@@ -6,7 +6,7 @@ Common: {
 Items: {
     Lore: {
         LoreAstrageldon: {
-            DisplayName: История — Астрагельдон
+            DisplayName: История (Астрагельдон)
             Tooltip:
                 '''
                 [c/e3af40:До ваших ушей доносится далёкий шёпот...]

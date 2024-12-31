@@ -71,19 +71,19 @@ public class ThoriumGlobalItem : GlobalItem
                 player.armor[1].type == ModContent.ItemType<WhisperingTabard>() &&
                 player.armor[2].type == ModContent.ItemType<WhisperingLeggings>())
             {
-                tooltip.Text = $"{setBonusKey} Периодически порождает щупальце бездонной энергии, которое атакует ближайших врагов\nУ вас может быть до шести щупалец, а наносимый ими урон похищает у поражённого врага по 1 единице здоровья и маны";
+                tooltip.Text = $"{setBonusKey} Периодически создаёт щупальце бездонной энергии, которое атакует ближайших врагов\nВы можете иметь до шести щупалец, а их атаки похищают у поражённого врага по 1 единице здоровья и маны";
             }
             
             if (player.armor[0].type == ItemID.WizardHat &&
-                player.armor[1].type == ModContent.ItemType<AquamarineRobe>() ||
-                player.armor[1].type == ModContent.ItemType<OpalRobe>())
+                (player.armor[1].type == ModContent.ItemType<AquamarineRobe>() ||
+                player.armor[1].type == ModContent.ItemType<OpalRobe>()))
             {
                 tooltip.Text = $"{setBonusKey} Увеличивает магический шанс критического удара на 10%";
             }
             
             if (player.armor[0].type == ItemID.MagicHat &&
-                player.armor[1].type == ModContent.ItemType<AquamarineRobe>() ||
-                player.armor[1].type == ModContent.ItemType<OpalRobe>())
+                (player.armor[1].type == ModContent.ItemType<AquamarineRobe>() ||
+                player.armor[1].type == ModContent.ItemType<OpalRobe>()))
             {
                 tooltip.Text = $"{setBonusKey} Увеличивает максимальный запас маны на 60";
             }
@@ -92,14 +92,14 @@ public class ThoriumGlobalItem : GlobalItem
                 player.armor[1].type == ModContent.ItemType<FlightMail>() &&
                 player.armor[2].type == ModContent.ItemType<FlightBoots>())
             {
-                tooltip.Text = $"{setBonusKey} Теперь вы можете кратковременно летать";
+                tooltip.Text = $"{setBonusKey} Позволяет кратковременно летать";
             }
             
             if (player.armor[0].type == ModContent.ItemType<YewWoodHelmet>() &&
                 player.armor[1].type == ModContent.ItemType<YewWoodBreastguard>() &&
                 player.armor[2].type == ModContent.ItemType<YewWoodLeggings>())
             {
-                tooltip.Text = $"{setBonusKey} После четырёх не критических ударов ваша следующая стрелковая атака нанесёт мини-критический удар в 150%\nМини-критические выстрелы считаются критическими ударами для соответствующих эффектов";
+                tooltip.Text = $"{setBonusKey} После четырёх не критических ударов ваша следующая стрелковая атака нанесёт мини-критический удар с уроном в 150%\nМини-критические выстрелы считаются критическими ударами для соответствующих эффектов";
             }
             
             if (player.armor[0].type == ModContent.ItemType<CriersCap>() &&
@@ -134,7 +134,7 @@ public class ThoriumGlobalItem : GlobalItem
                 player.armor[1].type == ModContent.ItemType<MaestroSuit>() &&
                 player.armor[2].type == ModContent.ItemType<MaestroLeggings>())
             {
-                tooltip.Text = $"{setBonusKey} Нажатие клавиши 'Способность брони' призывает хор играющих призрачных музыкантов\nПризраки быстро наносят урон ближайшим врагам духовыми, деревянными, струнными и ударными инструментами";
+                tooltip.Text = $"{setBonusKey} Нажатие клавиши 'Способность брони' призывает хор призрачных музыкантов\nПризраки быстро атакуют ближайших врагов, используя духовые, деревянные, струнные и ударные инструменты";
             }
             
             if (player.armor[0].type == ModContent.ItemType<MarchingBandCap>() &&
@@ -148,28 +148,28 @@ public class ThoriumGlobalItem : GlobalItem
                 player.armor[1].type == ModContent.ItemType<NoblesJerkin>() &&
                 player.armor[2].type == ModContent.ItemType<NoblesLeggings>())
             {
-                tooltip.Text = $"{setBonusKey} Выпадающие ноты вдохновения вдвое мощнее и ненадолго увеличивают ваш симфонический урон";
+                tooltip.Text = $"{setBonusKey} Выпадающие ноты вдохновения становятся вдвое мощнее и временно увеличивают ваш симфонический урон";
             }
             
             if (player.armor[0].type == ModContent.ItemType<OrnateHat>() &&
                 player.armor[1].type == ModContent.ItemType<OrnateJerkin>() &&
                 player.armor[2].type == ModContent.ItemType<OrnateLeggings>())
             {
-                tooltip.Text = $"{setBonusKey} Симфонические критические удары поднимают случайное активное усилие до четвёртного уровня силы\nЭтот эффект может сработать лишь один раз в 5 секунд";
+                tooltip.Text = $"{setBonusKey} Симфонические критические удары усиливают случайное активное усиление до четвёртого уровня\nЭтот эффект может срабатывать не чаще одного раза в 5 секунд";
             }
             
             if (player.armor[0].type == ModContent.ItemType<ShootingStarHat>() &&
                 player.armor[1].type == ModContent.ItemType<ShootingStarShirt>() &&
                 player.armor[2].type == ModContent.ItemType<ShootingStarBoots>())
             {
-                tooltip.Text = $"{setBonusKey} Увеличивает длительность симфонических усилений на 6 секунд\nКаждое имеющееся у вас уникальное усиление увеличивает симфонический урон на 5%\nКаждое имеющееся у вас уникальное усиление увеличивает скорость восстановления вдохновения на 2%";
+                tooltip.Text = $"{setBonusKey} Увеличивает длительность симфонических усилений на 6 секунд\nКаждое уникальное усиление, имеющееся у вас, увеличивает симфонический урон на 5%\nКаждое уникальное усиление, имеющееся у вас, увеличивает скорость восстановления вдохновения на 2%";
             }
             
             if (player.armor[0].type == ModContent.ItemType<LichCowl>() &&
                 player.armor[1].type == ModContent.ItemType<LichCarapace>() &&
                 player.armor[2].type == ModContent.ItemType<LichTalon>())
             {
-                tooltip.Text = $"{setBonusKey} Из убитого врага можно извлечь фрагмент души\nКоснувшись фрагмента души, значительно увеличивает скорость передвижения и метания на короткое время";
+                tooltip.Text = $"{setBonusKey} Из убитого врага можно извлечь фрагмент души\nКоснувшись фрагмента души, вы значительно увеличиваете скорость передвижения и метания на короткое время";
             }
             
             if (player.armor[0].type == ModContent.ItemType<TideTurnerHelmet>() &&
@@ -183,7 +183,7 @@ public class ThoriumGlobalItem : GlobalItem
                 player.armor[1].type == ModContent.ItemType<TideTurnerBreastplate>() &&
                 player.armor[2].type == ModContent.ItemType<TideTurnerGreaves>())
             {
-                tooltip.Text = $"{setBonusKey} При нанесении метательного урона с 20% шансом выпускает вокруг вас акватические самонаводящиеся кинжалы";
+                tooltip.Text = $"{setBonusKey} При нанесении метательного урона с 20% шансом вокруг вас выпускаются акватические самонаводящиеся кинжалы";
             }
             
             if (player.armor[0].type == ModContent.ItemType<DreamWeaversHelmet>() &&
@@ -197,14 +197,14 @@ public class ThoriumGlobalItem : GlobalItem
                 player.armor[1].type == ModContent.ItemType<DreamWeaversTabard>() &&
                 player.armor[2].type == ModContent.ItemType<DreamWeaversTreads>())
             {
-                tooltip.Text = $"{setBonusKey} Нажатие клавиши 'Способность брони' расходует 200 маны и помещает вас в состояние сна\nКогда вы находитесь во сне, исцелённые союзники на короткое время становятся неуязвимыми и избавляются от всех дебаффов";
+                tooltip.Text = $"{setBonusKey} Нажатие клавиши 'Способность брони' расходует 200 маны и помещает вас в состояние сна\nПока вы находитесь во сне, исцелённые союзники на короткое время становятся неуязвимыми и избавляются от всех дебаффов";
             }
             
             if (player.armor[0].type == ModContent.ItemType<MasterArbalestHood>() &&
                 player.armor[1].type == ModContent.ItemType<AssassinsGuard>() &&
                 player.armor[2].type == ModContent.ItemType<AssassinsWalkers>())
             {
-                tooltip.Text = $"{setBonusKey} Ваш стрелковый урон с 10% шансом полностью продублирует себя и нанесёт на 15% больше урона";
+                tooltip.Text = $"{setBonusKey} Ваш стрелковый урон с 10% шансом полностью продублируется и нанесёт на 15% больше урона";
             }
             
             if (player.armor[0].type == ModContent.ItemType<MasterMarksmansScouter>() &&
@@ -253,7 +253,7 @@ public class ThoriumGlobalItem : GlobalItem
                 player.armor[1].type == ModContent.ItemType<CoralChestGuard>() &&
                 player.armor[2].type == ModContent.ItemType<CoralGreaves>())
             {
-                tooltip.Text = $"{setBonusKey} Лучезарный урон накапливает до 20 единиц жизненного щита, и жизненный щит больше не истощается\nИсцеление союзника передаёт ему жизненный щит";
+                tooltip.Text = $"{setBonusKey} Лучезарный урон накапливает до 20 единиц жизненного щита, и щит больше не истощается\nИсцеление союзника передаёт ему жизненный щит";
             }
             
             if (player.armor[0].type == ModContent.ItemType<DarksteelFaceGuard>() &&
@@ -288,14 +288,14 @@ public class ThoriumGlobalItem : GlobalItem
                 player.armor[1].type == ModContent.ItemType<TideHunterChestpiece>() &&
                 player.armor[2].type == ModContent.ItemType<TideHunterLeggings>())
             {
-                tooltip.Text = $"{setBonusKey} Стрелковые критические удары выпускают всплеск пены, замедляя ближайших врагов";
+                tooltip.Text = $"{setBonusKey} Стрелковые критические удары выпускают всплеск пены, замедляющий ближайших врагов";
             }
             
             if (player.armor[0].type == ModContent.ItemType<FeralFurHead>() &&
                 player.armor[1].type == ModContent.ItemType<FeralFurChest>() &&
                 player.armor[2].type == ModContent.ItemType<FeralFurLegs>())
             {
-                tooltip.Text = $"{setBonusKey} Выглядишь хорошо!";
+                tooltip.Text = $"{setBonusKey} Выглядите отлично!";
             }
             
             if (player.armor[0].type == ModContent.ItemType<DragonMask>() &&
@@ -316,7 +316,7 @@ public class ThoriumGlobalItem : GlobalItem
                 player.armor[1].type == ModContent.ItemType<SilkTabard>() &&
                 player.armor[2].type == ModContent.ItemType<SilkLeggings>())
             {
-                tooltip.Text = $"{setBonusKey} Увеличивает магический урон на 12% пока максимальный уровень маны превышает 90%";
+                tooltip.Text = $"{setBonusKey} Увеличивает магический урон на 12%, если максимальный уровень маны превышает 90%";
             }
             
             if (player.armor[0].type == ModContent.ItemType<FleshMask>() &&
@@ -330,7 +330,7 @@ public class ThoriumGlobalItem : GlobalItem
                 player.armor[1].type == ModContent.ItemType<GeodeChestplate>() &&
                 player.armor[2].type == ModContent.ItemType<GeodeGreaves>())
             {
-                tooltip.Text = $"{setBonusKey} Теперь можно добывать сразу целые рудные жилы";
+                tooltip.Text = $"{setBonusKey} Теперь можно добывать целые рудные жилы сразу";
             }
             
             if (player.armor[0].type == ModContent.ItemType<GraniteHelmet>() &&
@@ -435,7 +435,7 @@ public class ThoriumGlobalItem : GlobalItem
                 player.armor[1].type == ModContent.ItemType<LodeStoneChestGuard>() &&
                 player.armor[2].type == ModContent.ItemType<LodeStoneShinGuards>())
             {
-                tooltip.Text = $"{setBonusKey} Увеличивает сопротивление урону на 6% за каждые 25% потерянного здоровья\nМаксимальное сопротивление урону составляет 18% при уровне здоровья ниже 25%";
+                tooltip.Text = $"{setBonusKey} Увеличивает сопротивление урону на 6% за каждые 25% потерянного здоровья\nМаксимальное сопротивление урону составляет 18%, если уровень здоровья ниже 25%";
             }
             
             if (player.armor[0].type == ModContent.ItemType<CryomancersCrown>() &&
@@ -449,7 +449,7 @@ public class ThoriumGlobalItem : GlobalItem
                 player.armor[1].type == ModContent.ItemType<WhiteKnightTabard>() &&
                 player.armor[2].type == ModContent.ItemType<WhiteKnightLeggings>())
             {
-                tooltip.Text = $"{setBonusKey} 40% затраченной маны хранится в виде энергии, до максимума в [c/99ccff:{player.statManaMax2 * 2}] единиц\nНажатие клавиши 'Способность брони' позволяет израсходовать энергию на восстановление до [c/99ccff:{player.statManaMax2}] единиц маны и [c/bffdbd:{(int) (player.statManaMax2 * 0.1f)}] единиц здоровья за раз";
+                tooltip.Text = $"{setBonusKey} 40% затраченной маны хранится в виде энергии, до максимума в [c/99ccff:{player.statManaMax2 * 2}] единиц\nНажатие клавиши 'Способность брони' позволяет израсходовать энергию для восстановления до [c/99ccff:{player.statManaMax2}] единиц маны и [c/bffdbd:{(int) (player.statManaMax2 * 0.1f)}] единиц здоровья за раз";
             }
             
             if (player.armor[0].type == ModContent.ItemType<ConduitHelmet>() &&
@@ -531,10 +531,10 @@ public class ThoriumGlobalItem : GlobalItem
                 tooltips.ReplaceText("Ranged Focus: 15% increased firing speed", "Стрелковая сосредоточенность: увеличивает скорострельность на 15%");
                 tooltips.ReplaceText("Magic Focus: Maximum mana increased by 100", "Магическая сосредоточенность: увеличивает максимальный запас маны на 100");
                 tooltips.ReplaceText("Summon Focus: Increases your max number of minions by 3", "Сосредоточенность призывателя: увеличивает призываемое число миньонов на 3");
-                tooltips.ReplaceText("Thrown Focus: Increases your maximum technique points by 2", "Метательная сосредоточенность: Увеличивает максимальное число очков техники на 2");
+                tooltips.ReplaceText("Thrown Focus: Increases your maximum technique points by 2", "Метательная сосредоточенность: увеличивает максимальное число очков техники на 2");
                 tooltips.ReplaceText("Radiant Focus: Healing spells will heal an additional 3 life", "Лучезарная сосредоточенность: исцеляющие заклинания восстанавливают дополнительно 3 единицы здоровья");
                 tooltips.ReplaceText("Symphonic Focus: Increases empowerment duration by 6 seconds", "Симфоническая сосредоточенность: увеличивает длительность усилений на 6 секунд");
-                tooltips.ReplaceText("No Focus: 20% increased damage", "Нет сосредоточенности: увеличивает урон на 20%");
+                tooltips.ReplaceText("No Focus: 20% increased damage", "Отсутствие сосредоточенности: увеличивает урон на 20%");
             }
             
             if (player.armor[0].type == ModContent.ItemType<ThoriumHelmet>() &&
@@ -569,7 +569,7 @@ public class ThoriumGlobalItem : GlobalItem
                 player.armor[1].type == ModContent.ItemType<WhiteDwarfGuard>() &&
                 player.armor[2].type == ModContent.ItemType<WhiteDwarfGreaves>())
             {
-                tooltip.Text = $"{setBonusKey} Критические удары высвобождают из космоса изумрудные вспышки\nИзумрудные вспышки наносят урон, равный 0.1% максимального здоровья цели";
+                tooltip.Text = $"{setBonusKey} Критические удары высвобождают из космоса изумрудные вспышки\nИзумрудные вспышки наносят урон, равный 0.1% от максимального здоровья цели";
             }
             
             if (player.armor[0].type == ModContent.ItemType<TitanHelmet>() &&
@@ -597,14 +597,14 @@ public class ThoriumGlobalItem : GlobalItem
                 player.armor[1].type == ModContent.ItemType<BlueKnightArmor>() &&
                 player.armor[2].type == ModContent.ItemType<BlueKnightGreaves>())
             {
-                tooltip.Text = $"{setBonusKey} Выглядишь хорошо!";
+                tooltip.Text = $"{setBonusKey} Выглядите отлично!";
             }
             
             if (player.armor[0].type == ModContent.ItemType<GlitteringHelmet>() &&
                 player.armor[1].type == ModContent.ItemType<GlitteringChestplate>() &&
                 player.armor[2].type == ModContent.ItemType<GlitteringGreaves>())
             {
-                tooltip.Text = $"{setBonusKey} Выглядишь хорошо!";
+                tooltip.Text = $"{setBonusKey} Выглядите отлично!";
             }
         });
 
@@ -620,22 +620,22 @@ public class ThoriumGlobalItem : GlobalItem
                 tooltips.ReplaceText("Right click to throw a volley of acorns", "Нажмите ПКМ, чтобы бросить залп жёлудей");
                 tooltips.ReplaceText("Right click to release a toxic haze on either side of you", "Нажмите ПКМ, чтобы создать ядовитый дым с обеих сторон от вас");
                 tooltips.ReplaceText("Right click to leave a trail of burning napalm", "Нажмите ПКМ, чтобы оставить след из горящего напалма");
-                tooltips.ReplaceText("Right click to blow a larger bubble that stuns enemies or replenishes ally breath", "Нажмите ПКМ, чтобы надуть огромный пузырь, который оглушает врагов или пополняет запас воздуха союзника");
-                tooltips.ReplaceText("Right click to spit a bouncing globule of blood at the cost of 4 life", "Нажмите ПКМ, чтобы выплюнуть отскакивающую каплю крови ценой 4 единиц здоровья");
-                tooltips.ReplaceText("Right click to belch a volley of coins", "Нажмите ПКМ, чтобы изрыгнуть залпом монет");
-                tooltips.ReplaceText("Right click to harden your carapace, giving you damage reduction and a thorns effect briefly", "");
+                tooltips.ReplaceText("Right click to blow a larger bubble that stuns enemies or replenishes ally breath", "Нажмите ПКМ, чтобы надуть огромный пузырь, который оглушает врагов или восстанавливает запас воздуха союзника");
+                tooltips.ReplaceText("Right click to spit a bouncing globule of blood at the cost of 4 life", "Нажмите ПКМ, чтобы выплюнуть отскакивающую каплю крови за 4 единицы здоровья");
+                tooltips.ReplaceText("Right click to belch a volley of coins", "Нажмите ПКМ, чтобы изрыгнуть залп монет");
+                tooltips.ReplaceText("Right click to harden your carapace, giving you damage reduction and a thorns effect briefly", "Нажмите ПКМ, чтобы укрепить свой панцирь, временно увеличив сопротивление урону и добавив эффект шипов");
                 tooltips.ReplaceText("Right click to drop a large scale timed explosive", "Нажмите ПКМ, чтобы установить большой взрывчатый заряд с таймером");
-                tooltips.ReplaceText("Allows you to use unique abilities while transformed", "Позволяет использовать уникальные способности во время превращения");
+                tooltips.ReplaceText("Allows you to use unique abilities while transformed", "Позволяет использовать уникальные способности после превращения");
             });
             
             ItemHelper.TranslateTooltip(tooltips, "transformationText2", _ =>
             {
-                tooltips.ReplaceText("Left click to dash forward, damaging an enemy in the process", "Нажмите ЛКМ, чтобы выполнить рывок вперёд, нанося урон врагам в процессе");
+                tooltips.ReplaceText("Left click to dash forward, damaging an enemy in the process", "Нажмите ЛКМ, чтобы выполнить рывок вперёд, нанося урон врагу в процессе");
                 tooltips.ReplaceText("Left click to spit a heavy bubble that deals increased damage to poisoned enemies", "Нажмите ЛКМ, чтобы выплюнуть тяжёлый пузырь, который наносит увеличенный урон отравленным врагам");
                 tooltips.ReplaceText("Left click to spit a stream of burning lava", "Нажмите ЛКМ, чтобы выплюнуть струю раскалённой лавы");
-                tooltips.ReplaceText("Left click to release a water-bound bubble stream", "Нажмите ЛКМ, чтобы запустить водяной поток из пузырей");
-                tooltips.ReplaceText("Left click to fire pair of life stealing teeth", "Нажмите ЛКМ, чтобы запустить пару зубов, крадущих здоровье врагов");
-                tooltips.ReplaceText("Left click to leap forward, damaging an enemy in the process", "Нажмите ЛКМ, чтобы совершить скачок вперёд и при этом нанести урон врагу");
+                tooltips.ReplaceText("Left click to release a water-bound bubble stream", "Нажмите ЛКМ, чтобы выпустить водяной поток пузырей");
+                tooltips.ReplaceText("Left click to fire pair of life stealing teeth", "Нажмите ЛКМ, чтобы выпустить пару зубов, крадущих здоровье");
+                tooltips.ReplaceText("Left click to leap forward, damaging an enemy in the process", "Нажмите ЛКМ, чтобы прыгнуть вперёд, нанося урон врагу в процессе");
                 tooltips.ReplaceText("Left click to release a storm of venomous beetle needles", "Нажмите ЛКМ, чтобы выпустить шквал ядовитых жучьих игл");
                 tooltips.ReplaceText("Left click to place a timed explosive that boosts you upwards", "Нажмите ЛКМ, чтобы разместить взрывчатку с таймером, которая запустит вас вверх");
             });

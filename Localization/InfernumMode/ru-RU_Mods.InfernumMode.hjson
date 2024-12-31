@@ -690,7 +690,7 @@ Items: {
 
     Lore: {
         KnowledgeBereftVassal: {
-            DisplayName: История — Обездоленный вассал
+            DisplayName: История (Обездоленный вассал)
             Lore:
                 '''
                 Особенная связь двух одиноких душ
@@ -829,7 +829,7 @@ Items: {
     }
 
     KnowledgeBereftVassal: {
-        DisplayName: История — Обездоленный вассал
+        DisplayName: История (Обездоленный вассал)
         Tooltip:
             '''
             [c/E3AF40:До ваших ушей доносится далёкий шёпот...]

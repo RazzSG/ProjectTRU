@@ -108,6 +108,8 @@ public class AddNewMessagePatch : ILoadable
             "You pet Polaris" => "Вы гладите Полярку.",
             "Too much love..." => "Слишком много любви...",
             "Supreme Cirrus code attempted to crash the game. Did you do something weird?" => "Код Высшей Циррус попытался вызвать сбой игры. Вы сделали что-то странное?",
+            "Spawn point removed!" => "Точка воскрешения удалена!",
+            "Spawn point set!" => "Точка воскрешения задана!",
             
             // Fargo
             "Journey mode is now enabled!" => "Мир переключён в режим Путешествия!",

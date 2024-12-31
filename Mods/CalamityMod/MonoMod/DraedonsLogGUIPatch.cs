@@ -16,8 +16,7 @@ public class DraedonsLogGUIPatch : ILPatcher
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {
-        // Положение текста в журналах Дрэйдона
-        TranslationHelper.ModifyIL(il, 40, -40);
-        TranslationHelper.ModifyIL(il, 350f, 330f);
+        // Максимальная длина текста
+        TranslationHelper.ModifyIL(il, 40, -50);
     };
 }

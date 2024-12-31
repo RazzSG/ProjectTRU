@@ -320,5 +320,10 @@ public partial class RedemptionGlobalItem : GlobalItem
                 }
             }
         });
+        
+        ItemHelper.TranslateTooltip(tooltips, "RitLine", tooltip =>
+        {
+            tooltip.Text = "ВНИМАНИЕ: Этот класс находится в разработке";
+        });
     }
 }
