@@ -50,21 +50,8 @@ public partial class RedemptionGlobalItem : GlobalItem
             });
         }
 
-        if (item.type == ModContent.ItemType<VasaraPendant>())
-        {
-            ItemHelper.TranslateTooltip(tooltips, "IreLine", _ =>
-            {
-                tooltips.ReplaceText("Ukko's Ire", "Гнев Укко");
-            });
-        }
-        
         if (item.type == ModContent.ItemType<SkySquiresHelm>())
         {
-            ItemHelper.TranslateTooltip(tooltips, "HoldShift", tooltip =>
-            {
-                tooltip.Text = "Удерживайте 'Shift', чтобы увидеть историю";
-            });
-            
             ItemHelper.TranslateTooltip(tooltips, "Lore", tooltip =>
             {
                 tooltip.Text = "'Шлем-салад, выкованный из канита, который носят Небесные оруженосцы Итона\nЭтот металл имеет синеватый оттенок и холодный на ощупь, служит достойной заменой железу, столь редкому в южном Итоне\nНебесные оруженосцы - это подразделение южного Итона, под чьей защитой пребывают королевства Ильн, Кликуб и Норапасс\nИх доспехи отличаются повышенной гибкостью, что позволяет им быстро выдвигаться на помощь'";
@@ -73,11 +60,6 @@ public partial class RedemptionGlobalItem : GlobalItem
         
         if (item.type == ModContent.ItemType<SkySquiresGreaves>())
         {
-            ItemHelper.TranslateTooltip(tooltips, "HoldShift", tooltip =>
-            {
-                tooltip.Text = "Удерживайте 'Shift', чтобы увидеть историю";
-            });
-            
             ItemHelper.TranslateTooltip(tooltips, "Lore", tooltip =>
             {
                 tooltip.Text = "'Поножи, выкованные из канита, которые носят Небесные оруженосцы Итона\nЭтот металл имеет синеватый оттенок и холодный на ощупь, служит достойной заменой железу, столь редкому в южном Итоне\nНебесные оруженосцы - это подразделение южного Итона, под чьей защитой пребывают королевства Ильн, Кликуб и Норапасс\nИх доспехи отличаются повышенной гибкостью, что позволяет им быстро выдвигаться на помощь'";
@@ -86,59 +68,20 @@ public partial class RedemptionGlobalItem : GlobalItem
         
         if (item.type == ModContent.ItemType<SkySquiresTabard>())
         {
-            ItemHelper.TranslateTooltip(tooltips, "HoldShift", tooltip =>
-            {
-                tooltip.Text = "Удерживайте 'Shift', чтобы увидеть историю";
-            });
-            
             ItemHelper.TranslateTooltip(tooltips, "Lore", tooltip =>
             {
                 tooltip.Text = "'Табард, сотканный из канита и ткани в клетчатом узоре, который носят Небесные оруженосцы Итона\nЭтот металл имеет синеватый оттенок и холодный на ощупь, служит достойной заменой железу, столь редкому в южном Итоне\nНебесные оруженосцы - это подразделение южного Итона, под чьей защитой пребывают королевства Ильн, Кликуб и Норапасс\nИх доспехи отличаются повышенной гибкостью, что позволяет им быстро выдвигаться на помощь'";
             });
         }
         
-        if (item.type == ModContent.ItemType<DoppelsSword>())
-        {
-            ItemHelper.TranslateTooltip(tooltips, "HoldShift", tooltip =>
-            {
-                tooltip.Text = "Удерживайте 'Shift', чтобы увидеть историю";
-            });
-            
-            ItemHelper.TranslateTooltip(tooltips, "Lore", tooltip =>
-            {
-                tooltip.Text = "'Этот необычный меч, родом из Серебряного века, выкован из сияющей стали\nНа его поверхности почти не видно следов битв, так как его редко использовал владелец\nПрикосновение к мечу пробуждает странное чувство ностальгии'";
-            });
-        }
-        
         if (item.type == ModContent.ItemType<SunkenCaptainPainting>())
         {
-            ItemHelper.TranslateTooltip(tooltips, "HoldShift", tooltip =>
-            {
-                tooltip.Text = "На обороте выгравирована надпись, удерживайте 'Shift', чтобы прочитать";
-            });
-            
             ItemHelper.TranslateTooltip(tooltips, "Lore", tooltip =>
             {
                 tooltip.Text = "'Некогда великий капитан, для некоторых ставший легендой, даже после смерти продолжал бороздить моря, ведя свою призрачную команду к неизведанным землям\nЛишь при ярчайшем свете луны могли они ступить на берег\nДо тех пор они были обречены вечно преследовать волны, а самый густой туман оставался их единственным спутником'";
             });
         }
-        
-        if (item.type == ModContent.ItemType<NebSummon>())
-        {
-            ItemHelper.TranslateTooltip(tooltips, "text1", tooltip =>
-            {
-                tooltip.Text = "Нажмите ПКМ, чтобы мгновенно призвать финальную форму Небулеус";
-            });
-        }
-        
-        if (item.type == ModContent.ItemType<WeddingRing>())
-        {
-            ItemHelper.TranslateTooltip(tooltips, "SpiritLine", tooltip =>
-            {
-                tooltip.Text = "Кольцо продолжает излучать тусклое синее...";
-            });
-        }
-        
+
         if (item.type == ModContent.ItemType<CruxCardHazmatZombie>())
         {
             ItemHelper.TranslateTooltip(tooltips, "MaxLife", tooltip =>

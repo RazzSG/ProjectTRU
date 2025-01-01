@@ -2200,17 +2200,17 @@
 #    }
 #    
 #    GeodeChestplate: {
-#        DisplayName: Geode Chestplate
+#        DisplayName: Жеодовый нагрудник
 #        Tooltip: ""
 #    }
 #    
 #    GeodeHelmet: {
-#        DisplayName: Geode Helmet
+#        DisplayName: Жеодовый шлем
 #        Tooltip: ""
 #    }
 #    
 #    GeodeLeggings: {
-#        DisplayName: Geode Leggings
+#        DisplayName: Жеодовые поножи
 #        Tooltip: ""
 #    }
 #    

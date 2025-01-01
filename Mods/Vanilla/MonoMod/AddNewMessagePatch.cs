@@ -119,13 +119,9 @@ public class AddNewMessagePatch : ILoadable
             
             // Redemption
             "A sleeping stone appears..." => "Появляются дремлющие валуны...",
-            "Nebuleus is nowhere to be found..." => "Небулеус бесследно исчезла...",
             "A Shadesoul Gateway has been opened..." => "Врата пустой души распахнулись...",
             "A Shadesoul Gateway has been closed..." => "Врата пустой души закрылись...",
             "A Shadesoul Gateway has faded by itself..." => "Врата пустой души исчезли сами собой...",
-            "A blobble swarm has arrived!" => "Рой пузыреней прибывает!",
-            "The bomb is too close to unexplodable tiles" => "Бомба расположена слишком близко к неразрушимым блокам",
-            "The bomb must be activated on the surface and in the far reaches of the world" => "Бомба должна быть активирована на поверхности и в самых дальних уголках мира",
             "The fowl legion charges in!" => "Кудах-легион идёт в наступление!",
             _ => text
         };
