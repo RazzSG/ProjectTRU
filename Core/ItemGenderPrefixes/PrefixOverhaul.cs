@@ -837,6 +837,7 @@ public class FargoSoulsItems : IItemGender
                 "UmbraRegalia",
                 "ElectricWhip",
                 "GalacticGlobe",
+                "TouhouStaff",
             };
         
             List<int> types = new List<int>();
