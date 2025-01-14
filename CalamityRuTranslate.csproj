@@ -15,7 +15,7 @@
       <HintPath>..\ModAssemblies\Fargowiltas_v3.3.5.dll</HintPath>
     </Reference>
     <Reference Include="FargowiltasSouls">
-      <HintPath>..\ModAssemblies\FargowiltasSouls_v1.7.dll</HintPath>
+      <HintPath>..\ModAssemblies\FargowiltasSouls_v1.7.1.0.dll</HintPath>
     </Reference>
     <Reference Include="InfernumMode">
       <HintPath>..\ModAssemblies\InfernumMode_v2.0.1.14.dll</HintPath>
