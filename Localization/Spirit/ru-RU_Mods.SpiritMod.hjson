@@ -2481,7 +2481,7 @@
 #    }
 #
 #    BloatfishBanner: {
-#        DisplayName: Bloatfish Banner
+#        DisplayName: Знамя вздутобрюха
 #        Tooltip: ""
 #    }
 #
@@ -4013,14 +4013,14 @@
 #        DisplayName: Durian
 #        Tooltip:
 #            '''
-#            Minor improvements to all stats
+#            Умеренно увеличивает все характеристики
 #            'What an awful smell!'
 #            '''
 #    }
 #
 #    Guava: {
 #        DisplayName: Guava
-#        Tooltip: Minor improvements to all stats
+#        Tooltip: Умеренно увеличивает все характеристики
 #    }
 #
 #    BriarPylonItem: {
@@ -4032,7 +4032,7 @@
 #        DisplayName: Enchanted Apple
 #        Tooltip:
 #            '''
-#            Minor improvements to all stats
+#            Умеренно увеличивает все характеристики
 #            Increases mana regeneration
 #            '''
 #    }
@@ -4041,7 +4041,7 @@
 #        DisplayName: Enchanted Star Fruit
 #        Tooltip:
 #            '''
-#            Minor improvements to all stats
+#            Умеренно увеличивает все характеристики
 #            Increases mana regeneration
 #            '''
 #    }
@@ -4095,7 +4095,7 @@
 #        DisplayName: Glowpear
 #        Tooltip:
 #            '''
-#            Minor improvements to all stats
+#            Умеренно увеличивает все характеристики
 #            'It looks hollow?'
 #            '''
 #    }
@@ -4104,7 +4104,7 @@
 #        DisplayName: Lumin Berry
 #        Tooltip:
 #            '''
-#            Minor improvements to all stats
+#            Умеренно увеличивает все характеристики
 #            'They feel almost glassy...'
 #            '''
 #    }
@@ -4225,37 +4225,37 @@
 #        DisplayName: Crystallized Salmon
 #        Tooltip:
 #            '''
-#            Minor improvements to all stats
+#            Умеренно увеличивает все характеристики
 #            Boosts magic power
 #            '''
 #    }
 #
 #    FishChips: {
-#        DisplayName: Fish n' Chips
+#        DisplayName: Рыба и картофель фри
 #        Tooltip:
 #            '''
-#            Minor improvements to all stats
-#            Makes you sluggish
+#            Умеренно увеличивает все характеристики
+#            Делает вас медлительным
 #            '''
 #    }
 #
 #    HoneySalmon: {
-#        DisplayName: Honey-Glazed Salmon
+#        DisplayName: Лосось в медовой глазури
 #        Tooltip:
 #            '''
-#            Minor improvements to all stats
-#            Boosts life regeneration
+#            Умеренно увеличивает все характеристики
+#            Увеличивает регенерацию здоровья
 #            '''
 #    }
 #
 #    RawFish: {
-#        DisplayName: Raw Fish
-#        Tooltip: "'Can be eaten... Maybe cook it first?'"
+#        DisplayName: Сырая рыба
+#        Tooltip: "'Можно съесть... Но, может, сначала её приготовить?'"
 #    }
 #
 #    SteamedMussels: {
-#        DisplayName: Steamed Mussels
-#        Tooltip: Minor improvements to all stats
+#        DisplayName: Мидии на пару
+#        Tooltip: Умеренно увеличивает все характеристики
 #    }
 #
 #    FloaterItem: {
@@ -4272,14 +4272,14 @@
 #        DisplayName: Baguette
 #        Tooltip:
 #            '''
-#            Minor improvements to all stats
+#            Умеренно увеличивает все характеристики
 #            'You feel fancier already'
 #            '''
 #    }
 #
 #    CaesarSalad: {
 #        DisplayName: Caesar Salad
-#        Tooltip: Minor improvements to all stats
+#        Tooltip: Умеренно увеличивает все характеристики
 #        CustomTooltip1:
 #            '''
 #            "'Maybe don't use a knife to eat this one'"
@@ -4296,7 +4296,7 @@
 #        DisplayName: Carrot Cake
 #        Tooltip:
 #            '''
-#            Minor improvements to all stats
+#            Умеренно увеличивает все характеристики
 #            'Just the perfect amount of icing!'
 #            '''
 #    }
@@ -4310,7 +4310,7 @@
 #        DisplayName: Ghost Pepper
 #        Tooltip:
 #            '''
-#            Minor improvements to all stats
+#            Умеренно увеличивает все характеристики
 #            'Will you take the risk?'
 #            '''
 #    }
@@ -4329,7 +4329,7 @@
 #        DisplayName: Hummus
 #        Tooltip:
 #            '''
-#            Minor improvements to all stats
+#            Умеренно увеличивает все характеристики
 #            'Warm and tasty!'
 #            '''
 #    }
@@ -4356,7 +4356,7 @@
 #        DisplayName: Nigiri
 #        Tooltip:
 #            '''
-#            Minor improvements to all stats
+#            Умеренно увеличивает все характеристики
 #            Provides free movement in water
 #            'The perfect cut'
 #            '''
@@ -4366,7 +4366,7 @@
 #        DisplayName: Pop Rocks
 #        Tooltip:
 #            '''
-#            Minor improvements to all stats
+#            Умеренно увеличивает все характеристики
 #            Emits an aura of light
 #            'It zips around your mouth!'
 #            '''
@@ -4376,7 +4376,7 @@
 #        DisplayName: Popsicle
 #        Tooltip:
 #            '''
-#            Minor improvements to all stats
+#            Умеренно увеличивает все характеристики
 #            Grants immunity to 'On Fire'
 #            'Eat it before it melts!'
 #            '''
@@ -4386,7 +4386,7 @@
 #        DisplayName: Ramen
 #        Tooltip:
 #            '''
-#            Minor improvements to all stats
+#            Умеренно увеличивает все характеристики
 #            'It'll warm you right up!'
 #            '''
 #    }
@@ -4400,7 +4400,7 @@
 #        DisplayName: Sushi
 #        Tooltip:
 #            '''
-#            Minor improvements to all stats
+#            Умеренно увеличивает все характеристики
 #            Provides underwater breathing
 #            'Cold and fresh!'
 #            '''
@@ -4410,7 +4410,7 @@
 #        DisplayName: Tofu Satay
 #        Tooltip:
 #            '''
-#            Minor improvements to all stats
+#            Умеренно увеличивает все характеристики
 #            'Fresh and fried!'
 #            '''
 #    }
@@ -5125,17 +5125,17 @@
 #
 #    CaramelApple: {
 #        DisplayName: Caramel Apple
-#        Tooltip: Minor improvements to all stats
+#        Tooltip: Умеренно увеличивает все характеристики
 #    }
 #
 #    JackOGourd: {
 #        DisplayName: Jack-o-Gourd
-#        Tooltip: Minor improvements to all stats...kinda
+#        Tooltip: Умеренно увеличивает все характеристики... вроде как
 #    }
 #
 #    TreeGourd: {
 #        DisplayName: Birdhouse Gourd
-#        Tooltip: Minor improvements to all stats
+#        Tooltip: Умеренно увеличивает все характеристики
 #    }
 #
 #    Candy: {
@@ -5162,8 +5162,8 @@
 #        DisplayName: Bla2e's Mask
 #        Tooltip:
 #            '''
-#            Vanity item 
-#            'Great for impersonating devs!'
+#            Украшение
+#            'Отлично подходит для подражания внешности разработчиков!'
 #            '''
 #    }
 #
@@ -5171,8 +5171,8 @@
 #        DisplayName: Graydee's Mask
 #        Tooltip:
 #            '''
-#            Vanity item 
-#            'Great for impersonating devs!'
+#            Украшение
+#            'Отлично подходит для подражания внешности разработчиков!'
 #            '''
 #    }
 #
@@ -5180,8 +5180,8 @@
 #        DisplayName: Iggysaur's Mask
 #        Tooltip:
 #            '''
-#            Vanity item 
-#            'Great for impersonating devs!'
+#            Украшение
+#            'Отлично подходит для подражания внешности разработчиков!'
 #            '''
 #    }
 #
@@ -5189,8 +5189,8 @@
 #        DisplayName: Kachow's Mask
 #        Tooltip:
 #            '''
-#            Vanity item 
-#            'Great for impersonating devs!'
+#            Украшение
+#            'Отлично подходит для подражания внешности разработчиков!'
 #            '''
 #    }
 #
@@ -5198,8 +5198,8 @@
 #        DisplayName: Leemyy's Mask
 #        Tooltip:
 #            '''
-#            Vanity item 
-#            'Great for impersonating devs!'
+#            Украшение
+#            'Отлично подходит для подражания внешности разработчиков!'
 #            '''
 #    }
 #
@@ -5207,8 +5207,8 @@
 #        DisplayName: Lordcakespy's Mask
 #        Tooltip:
 #            '''
-#            Vanity item 
-#            'Great for impersonating devs!'
+#            Украшение
+#            'Отлично подходит для подражания внешности разработчиков!'
 #            '''
 #    }
 #
@@ -5216,8 +5216,8 @@
 #        DisplayName: Some Schmo's Mask
 #        Tooltip:
 #            '''
-#            Vanity item 
-#            'Great for impersonating devs!'
+#            Украшение
+#            'Отлично подходит для подражания внешности разработчиков!'
 #            '''
 #    }
 #
@@ -5225,8 +5225,8 @@
 #        DisplayName: Svante's Mask
 #        Tooltip:
 #            '''
-#            Vanity item 
-#            'Great for impersonating devs!'
+#            Украшение
+#            'Отлично подходит для подражания внешности разработчиков!'
 #            '''
 #    }
 #
@@ -5234,8 +5234,8 @@
 #        DisplayName: Vladimier's Mask
 #        Tooltip:
 #            '''
-#            Vanity item 
-#            'Great for impersonating devs!'
+#            Украшение
+#            'Отлично подходит для подражания внешности разработчиков!'
 #            '''
 #    }
 #
@@ -5243,8 +5243,8 @@
 #        DisplayName: Yuyutsu's Mask
 #        Tooltip:
 #            '''
-#            Vanity item 
-#            'Great for impersonating devs!'
+#            Украшение
+#            'Отлично подходит для подражания внешности разработчиков!'
 #            '''
 #    }
 #
@@ -10454,8 +10454,8 @@
 #    }
 #
 #    SwollenFish: {
-#        DisplayName: Bloatfish
-#        Entry: In the past, these fish would inflate to intimidate predators. Now, however, they seem to have eaten their way so far up the food chain that they no longer need to.
+#        DisplayName: Вздутобрюх
+#        Entry: В прошлом эти рыбы раздували свои тела, чтобы отпугивать хищников. Однако теперь они, кажется, поднялись настолько высоко по пищевой цепочке, что больше не нуждаются в этом.
 #    }
 #
 #    BloodGazerEye.DisplayName: Blood Gazer

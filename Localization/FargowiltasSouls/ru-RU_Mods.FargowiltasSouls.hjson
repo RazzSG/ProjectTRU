@@ -5527,7 +5527,8 @@ ActiveSkills: {
     GrantsSkill: Даёт активное умение:
     GrantsSkillsPlural: Даёт активные умения:
     KeybindMenu: Нажмите {0}, чтобы назначить клавишу для умений
-    Unbound: "[Не назначено]"
+    Unbound: Не назначено!
+    BoundTo: Назначено на {0}!
 
     SpecialDashEffect: {
         DisplayName: Пчелиный рывок
