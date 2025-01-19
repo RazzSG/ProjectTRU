@@ -2205,7 +2205,7 @@ Items: {
             [i:FargowiltasSouls/CobaltEnchant] Также при получении урона, если вы не атакуете, происходит взрыв
             [i:FargowiltasSouls/AdamantiteEnchant] Скорость ваших атак увеличивается, пока вы продолжаете атаковать, расходуя при этом заряд
             [i:FargowiltasSouls/OrichalcumEnchant] С накопленным зарядом вы также накладываете дебафф «{$Buffs.EarthPoison.DisplayName}», который наносит процент от урона атаки
-            [i:FargowiltasSouls/OrichalcumEnchant] Враги получают в 4 раза больше урона от дебаффов
+            [i:FargowiltasSouls/OrichalcumEnchant] Враги получают в 3.5 раза больше урона от дебаффов
             'Благословение Гайи озаряет вас'
             '''
     }
@@ -3151,7 +3151,7 @@ Items: {
             [i:FargowiltasSouls/SlimyShield] позволяет быстро падать, [i:FargowiltasSouls/ReinforcedPlating] даёт невосприимчивость к отбрасыванию и [i:FargowiltasSouls/PureHeart] невосприимчивость к дебаффам биома
             [i:FargowiltasSouls/GalacticGlobe] Даёт большинство стандартных баффов от зелий и баффающих станций (работает из инвентаря или в слотах для украшений)
             [i:FargowiltasSouls/GalacticGlobe] Даёт невосприимчивость практически ко всем дебаффам режима Вечность и другое
-            [i:FargowiltasSouls/PrecisionSeal] Клавиша «Точное передвижение» отключает рывки и двойные прыжки
+            [i:FargowiltasSouls/PrecisionSeal] Удерживайте клавишу «Точное передвижение», чтобы отключить рывки и двойные прыжки
             [i:FargowiltasSouls/PrecisionSeal] Снижает размер вашей зоны поражения, [i:FargowiltasSouls/NecromanticBrew] увеличивает дальность рывка и [i:FargowiltasSouls/PungentEyeball] Курсор, находящийся рядом с врагами, увеличивает получаемый ими урон до 15%
             Улучшает [i:FargowiltasSouls/SecurityWallet] перековку, [i:FargowiltasSouls/OrdinaryCarrot] ночное зрение, [i:FargowiltasSouls/NymphsPerfume] здоровье при возрождении, [i:FargowiltasSouls/SandsofTime] время возрождения и использует зелье лечения [i:FargowiltasSouls/ConcentratedRainbowMatter] лечения и [i:FargowiltasSouls/MysticSkull] маны при необходимости
             При получении урона [i:FargowiltasSouls/SqueakyToy] с 5% шансом вы можете получить лишь 1 единицу урона и [i:FargowiltasSouls/NecromanticBrew] отразить урон обратно в атакующего во время рывка
@@ -4665,11 +4665,6 @@ Items: {
             '''
     }
 
-    AbomMusicBox: {
-        DisplayName: Музыкальная шкатулка (Мерзостть)
-        Tooltip: Композитор: Yuri O 'Laevateinn'
-    }
-
     ChampionMusicBox: {
         DisplayName: Музыкальная шкатулка (Чемпионы)
         Tooltip: Композитор: Sakuzyo - 'Ordeal'
@@ -5018,6 +5013,46 @@ Items: {
     TouhouStaff: {
         DisplayName: Элегия детей природы
         Tooltip: Призывает до пяти ёкаев и фей, которые сражаются за вас
+    }
+    
+    BaronP1MusicBox: {
+        DisplayName: Музыкальная шкатулка (Изгнанный барон - Фаза 1)
+        Tooltip: Композитор: zentaque & Azathoths - 'Will of the Waves'
+    }
+    
+    BaronP2MusicBox: {
+        DisplayName: Музыкальная шкатулка (Изгнанный барон - Фаза 2)
+        Tooltip: Композитор: zentaque & Azathoth - 'Will of the Waves'
+    }
+    
+    TrojanMusicBox: {
+        DisplayName: Музыкальная шкатулка (Троянская белка)
+        Tooltip: Композитор: ProduceVGM - 'Nuts And Bolts'
+    }
+    
+    AbominationnP1MusicBox: {
+        DisplayName: Музыкальная шкатулка (Мерзостть - Фаза 1)
+        Tooltip: Композитор: Yuri O - 'Laevateinn'
+    }
+    
+    AbominationnP2MusicBox: {
+        DisplayName: Музыкальная шкатулка (Мерзостть - Фаза 2)
+        Tooltip: Композитор: Yuri O - 'Laevateinn'
+    }
+    
+    CoffinMusicBox: {
+        DisplayName: Музыкальная шкатулка (Проклятый саркофаг)
+        Tooltip: Композитор: zentaque & Azathoth - 'Shifting Sands'
+    }
+    
+    EridanusMusicBox: {
+        DisplayName: Музыкальная шкатулка (Эридан)
+        Tooltip: Композитор: Yuri O - 'Platinum Star'
+    }
+    
+    LifelightMusicBox: {
+        DisplayName: Музыкальная шкатулка (Свет жизни)
+        Tooltip: Композитор: ProduceVGM - 'Illustrious Illuminescence'
     }
     
     DarkTome: {
@@ -5412,6 +5447,21 @@ NPCs: {
     GelatinBouncer.DisplayName: Прыгучий слизень
     GelatinFlyer.DisplayName: Небесный слизень
     CursedCoffinInactive.DisplayName: Загадочный саркофаг
+    
+    UnconsciousDeviantt: {
+        DisplayName: ???
+    
+        TownNPCMood: {
+            Content: Я доволен.
+            NoHome: Терпеть не могу быть бездомным.
+            FarFromHome: Я слишком далеко от дома.
+            LoveSpace: Обожаю, когда вокруг столько пространства.
+            DislikeCrowded: Мне не по душе такая теснота.
+            HateCrowded: Ненавижу эту толчею.
+            LikeNPC_Princess: Мне нравится {NPCName}.
+            Princess_LovesNPC: Мне нравится {NPCName}.
+        }
+    }
 }
 
 Tiles: {
@@ -5421,12 +5471,8 @@ Tiles: {
     SquidwardDoorClosed.MapEntry: "{$Items.SquidwardDoor.DisplayName}"
     SquidwardDoorOpen.MapEntry: "{$Items.SquidwardDoor.DisplayName}"
     LifeRevitalizerPlaced.MapEntry: "{$Items.LifeRevitalizer.DisplayName}"
-    AbomMusicBoxSheet.MapEntry: "{$ItemName.MusicBox}"
     ChampionMusicBoxSheet.MapEntry: "{$ItemName.MusicBox}"
-    DeviMusicBoxSheet.MapEntry: "{$ItemName.MusicBox}"
     MutantMusicBoxSheet.MapEntry: "{$ItemName.MusicBox}"
-    RePrologueMusicBoxSheet.MapEntry: "{$ItemName.MusicBox}"
-    StoriaMusicBoxSheet.MapEntry: "{$ItemName.MusicBox}"
     CrackedSandstoneBricks.MapEntry: Кирпич из потрескавшегося песчаника
 }
 
