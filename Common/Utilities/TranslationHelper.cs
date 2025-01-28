@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 using Mono.Cecil.Cil;
 using MonoMod.Cil;
@@ -57,6 +59,22 @@ internal static class TranslationHelper
 
         cursor.Emit(OpCodes.Pop);
         cursor.Emit(OpCodes.Ldc_R4, replace);
+    }
+    
+    internal static void ModifyIL(ILContext il, double orig, double replace, int iterations = 1)
+    {
+        ILCursor cursor = new ILCursor(il);
+
+        for (int i = 0; i < iterations; i++)
+        {
+            if (!cursor.TryGotoNext(MoveType.After, x => x.MatchLdcR8(orig)))
+            {
+                throw new Exception($"[IL] Не удалось заменить '{orig}' на '{replace}' в методе [c/70FF8D:{il.Method.Name}]");
+            }
+        }
+
+        cursor.Emit(OpCodes.Pop);
+        cursor.Emit(OpCodes.Ldc_R8, replace);
     }
     
     internal static void ModifyIL(ILContext il, FieldInfo orig, FieldInfo replace, int iterations = 1)
@@ -119,5 +137,18 @@ internal static class TranslationHelper
     internal static LocalizedText GetText(string key)
     {
         return Language.GetOrRegister("Mods." + key);
+    }
+    
+    public static List<int> GetItemTypesFromMod(string[] itemNames, string modName)
+    {
+        return itemNames
+            .Select(itemName =>
+            {
+                ModContent.TryFind($"{modName}/{itemName}", out ModItem modItem);
+                return modItem;
+            })
+            .Where(modItem => modItem != null)
+            .Select(modItem => modItem.Type)
+            .ToList();
     }
 }

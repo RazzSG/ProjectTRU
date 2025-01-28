@@ -92,10 +92,6 @@ public class AddNewMessagePatch : ILoadable
             "The expanse around you begins to contract..." => "Окружающее пространство начинает сжиматься...",
             "The Stellar Array reaches new heights!" => "Звёздный ряд достигает новых высот!",
             
-            // Thorium
-            "It appears to be waiting for night..." => "Похоже, оно ждёт наступления ночи...",
-            "It seems to be dormant..." => "Похоже, что оно дремлет...",
-            
             // Boss Checklist
             "Истинный глаз Ктулху вырвался из головы Лунный лорд!" => "Истинный глаз Ктулху вырвался из головы Лунного лорда!",
             "Истинный глаз Ктулху вырывается из Рука Лунного лорда!" => "Истинный глаз Ктулху вырывается из Руки Лунного лорда!",

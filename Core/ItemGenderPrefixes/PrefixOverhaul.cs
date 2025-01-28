@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using CalamityRuTranslate.Common;
+using CalamityRuTranslate.Common.Utilities;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -580,16 +580,13 @@ public class CalamityItems : IItemGender
                 "Respiteblock",
                 "ElementalShiv",
             };
-            List<int> types = new List<int>();
-            
+
             if (ModInstances.Calamity != null)
             {
-                types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("CalamityMod", itemName).Type));
+                return TranslationHelper.GetItemTypesFromMod(items, "CalamityMod");
             }
-
-            return types;
+            return new List<int>();
         }
-        
     }
 
     public List<int> Neuter
@@ -686,14 +683,12 @@ public class CalamityItems : IItemGender
                 "Purity",
                 "BurningRevelation",
             };
-            List<int> types = new List<int>();
             
             if (ModInstances.Calamity != null)
             {
-                types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("CalamityMod", itemName).Type));
+                return TranslationHelper.GetItemTypesFromMod(items, "CalamityMod");
             }
-
-            return types;
+            return new List<int>();
         }
     }
 
@@ -744,14 +739,12 @@ public class CalamityItems : IItemGender
                 "SaharaSlicers",
                 "LiliesOfFinality",
             };
-            List<int> types = new List<int>();
             
             if (ModInstances.Calamity != null)
             {
-                types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("CalamityMod", itemName).Type));
+                return TranslationHelper.GetItemTypesFromMod(items, "CalamityMod");
             }
-
-            return types;
+            return new List<int>();
         }
     }
 }
@@ -840,12 +833,11 @@ public class FargoSoulsItems : IItemGender
                 "TouhouStaff",
             };
         
-            List<int> types = new List<int>();
             if (ModInstances.FargowiltasSouls != null)
             {
-                types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("FargowiltasSouls", itemName).Type));
+                return TranslationHelper.GetItemTypesFromMod(items, "FargowiltasSouls");
             }
-            return types;
+            return new List<int>();
         }
     }
 
@@ -938,12 +930,11 @@ public class FargoSoulsItems : IItemGender
             "TheBiggestSting",
         };
         
-        List<int> types = new List<int>();
-        if (ModInstances.FargowiltasSouls != null)
-        {
-            types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("FargowiltasSouls", itemName).Type));
-        }
-        return types;
+            if (ModInstances.FargowiltasSouls != null)
+            {
+                return TranslationHelper.GetItemTypesFromMod(items, "FargowiltasSouls");
+            }
+            return new List<int>();
         }
     }
 
@@ -963,15 +954,13 @@ public class FargoSoulsItems : IItemGender
                 "GeminiGlaives",
                 "Deerclawps",
                 "FrigidGemstone",
-                "FrigidGemstoneInactive",
             };
-        
-            List<int> types = new List<int>();
+            
             if (ModInstances.FargowiltasSouls != null)
             {
-                types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("FargowiltasSouls", itemName).Type));
+                return TranslationHelper.GetItemTypesFromMod(items, "FargowiltasSouls");
             }
-            return types;
+            return new List<int>();
         }
     }
 }
@@ -998,12 +987,11 @@ public class InfernumModeItems : IItemGender
                 "IllusionersReverie",
             };
         
-            List<int> types = new List<int>();
             if (ModInstances.Calamity != null && ModInstances.Infernum != null)
             {
-                types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("InfernumMode", itemName).Type));
+                return TranslationHelper.GetItemTypesFromMod(items, "InfernumMode");
             }
-            return types;
+            return new List<int>();
         }
     }
 
@@ -1016,12 +1004,11 @@ public class InfernumModeItems : IItemGender
                 "EyeOfMadness",
             };
         
-            List<int> types = new List<int>();
             if (ModInstances.Calamity != null && ModInstances.Infernum != null)
             {
-                types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("InfernumMode", itemName).Type));
+                return TranslationHelper.GetItemTypesFromMod(items, "InfernumMode");
             }
-            return types;
+            return new List<int>();
         }
     }
     
@@ -1291,12 +1278,11 @@ public class ThoriumModItems : IItemGender
                 "Cello",
             };
         
-            List<int> types = new List<int>();
             if (ModInstances.Thorium != null)
             {
-                types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("ThoriumMod", itemName).Type));
+                return TranslationHelper.GetItemTypesFromMod(items, "ThoriumMod");
             }
-            return types;
+            return new List<int>();
         }
     }
 
@@ -1393,12 +1379,11 @@ public class ThoriumModItems : IItemGender
                 "SnarkyGun",
             };
         
-            List<int> types = new List<int>();
             if (ModInstances.Thorium != null)
             {
-                types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("ThoriumMod", itemName).Type));
+                return TranslationHelper.GetItemTypesFromMod(items, "ThoriumMod");
             }
-            return types;
+            return new List<int>();
         }
     }
 
@@ -1462,12 +1447,11 @@ public class ThoriumModItems : IItemGender
                 "JetBoots",
             };
     
-            List<int> types = new List<int>();
             if (ModInstances.Thorium != null)
             {
-                types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("ThoriumMod", itemName).Type));
+                return TranslationHelper.GetItemTypesFromMod(items, "ThoriumMod");
             }
-            return types;
+            return new List<int>();
         }
     }
 }
@@ -1536,12 +1520,11 @@ public class StarsAboveItems : IItemGender
                 "MorningStar",
             };
         
-            List<int> types = new List<int>();
             if (ModInstances.StarsAbove != null)
             {
-                types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("StarsAbove", itemName).Type));
+                return TranslationHelper.GetItemTypesFromMod(items, "StarsAbove");
             }
-            return types;
+            return new List<int>();
         }
     }
 
@@ -1567,12 +1550,11 @@ public class StarsAboveItems : IItemGender
                 "KroniicAccelerator",
             };
         
-            List<int> types = new List<int>();
             if (ModInstances.StarsAbove != null)
             {
-                types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("StarsAbove", itemName).Type));
+                return TranslationHelper.GetItemTypesFromMod(items, "StarsAbove");
             }
-            return types;
+            return new List<int>();
         }
     }
 
@@ -1588,12 +1570,11 @@ public class StarsAboveItems : IItemGender
                 "RupturedHeaven",
             };
     
-            List<int> types = new List<int>();
             if (ModInstances.StarsAbove != null)
             {
-                types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("StarsAbove", itemName).Type));
+                return TranslationHelper.GetItemTypesFromMod(items, "StarsAbove");
             }
-            return types;
+            return new List<int>();
         }
     }
 }
@@ -1678,12 +1659,11 @@ public class RedemptionItems : IItemGender
                 "TrappedSoulBauble",
             };
         
-            List<int> types = new List<int>();
-            if (ModInstances.StarsAbove != null)
+            if (ModInstances.Redemption != null)
             {
-                types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("Redemption", itemName).Type));
+                return TranslationHelper.GetItemTypesFromMod(items, "Redemption");
             }
-            return types;
+            return new List<int>();
         }
     }
 
@@ -1711,12 +1691,11 @@ public class RedemptionItems : IItemGender
                 "Wardbreaker",
             };
         
-            List<int> types = new List<int>();
-            if (ModInstances.StarsAbove != null)
+            if (ModInstances.Redemption != null)
             {
-                types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("Redemption", itemName).Type));
+                return TranslationHelper.GetItemTypesFromMod(items, "Redemption");
             }
-            return types;
+            return new List<int>();
         }
     }
 
@@ -1735,12 +1714,11 @@ public class RedemptionItems : IItemGender
                 "LeatherSheath",
             };
     
-            List<int> types = new List<int>();
-            if (ModInstances.StarsAbove != null)
+            if (ModInstances.Redemption != null)
             {
-                types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("Redemption", itemName).Type));
+                return TranslationHelper.GetItemTypesFromMod(items, "Redemption");
             }
-            return types;
+            return new List<int>();
         }
     }
 }
@@ -1768,12 +1746,11 @@ public class CatalystItems : IItemGender
                 "UnrelentingTorment",
             };
         
-            List<int> types = new List<int>();
             if (ModInstances.Catalyst != null)
             {
-                types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("CatalystMod", itemName).Type));
+                return TranslationHelper.GetItemTypesFromMod(items, "CatalystMod");
             }
-            return types;
+            return new List<int>();
         }
     }
 
@@ -1787,12 +1764,11 @@ public class CatalystItems : IItemGender
                 "BlossomsBlessing",
             };
         
-            List<int> types = new List<int>();
             if (ModInstances.Catalyst != null)
             {
-                types.AddRange(items.Select(itemName => ModContent.Find<ModItem>("CatalystMod", itemName).Type));
+                return TranslationHelper.GetItemTypesFromMod(items, "CatalystMod");
             }
-            return types;
+            return new List<int>();
         }
     }
 

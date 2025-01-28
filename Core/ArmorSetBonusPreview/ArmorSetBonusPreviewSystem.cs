@@ -417,7 +417,7 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             ArmorSetBonuses[TranslationHelper.GetItemID("ThoriumMod/SteelHelmet")] = TranslationHelper.GetTextValue("ThoriumMod/SteelHelmet", "SetBonus", 8);
             ArmorSetBonuses[TranslationHelper.GetItemID("ThoriumMod/AstroHelmet")] = TranslationHelper.GetTextValue("ThoriumMod/AstroHelmet", "SetBonus");
             ArmorSetBonuses[TranslationHelper.GetItemID("ThoriumMod/LifeBloomMask")] = TranslationHelper.GetTextValue("ThoriumMod/LifeBloomMask", "SetBonus", 25, 50, 10);
-            ArmorSetBonuses[TranslationHelper.GetItemID("ThoriumMod/LivingWoodMask")] = TranslationHelper.GetTextValue("ThoriumMod/LivingWoodMask", "SetBonus", 1);
+            ArmorSetBonuses[TranslationHelper.GetItemID("ThoriumMod/LivingWoodMask")] = TranslationHelper.GetTextValue("ThoriumMod/LivingWoodMask", "SetBonus");
             ArmorSetBonuses[TranslationHelper.GetItemID("ThoriumMod/SpiritTrapperCowl")] = TranslationHelper.GetTextValue("ThoriumMod/SpiritTrapperCowl", "SetBonus", 1, 5, 10);
             ArmorSetBonuses[TranslationHelper.GetItemID("ThoriumMod/SpiritTrapperMask")] = TranslationHelper.GetTextValue("ThoriumMod/SpiritTrapperMask", "SetBonus", 1, 5, 10);
             ArmorSetBonuses[TranslationHelper.GetItemID("ThoriumMod/TerrariumHelmet")] = TranslationHelper.GetTextValue("ThoriumMod/TerrariumHelmet", "SetBonus");
