@@ -88,7 +88,7 @@ public partial class CalamityModGlobalItem
                 ItemID.IronskinPotion => $"Увеличивает защиту на {tooltip.Text.Split(' ')[3]}",
                 ItemID.SwiftnessPotion => Language.GetTextValue("ItemTooltip.SwiftnessPotion").Replace("25", "15"),
                 ItemID.HandWarmer => $"{Language.GetTextValue("ItemTooltip.HandWarmer")}\nОбеспечивает увеличенной регенерацией, если надет снежный комплект",
-                ItemID.DD2ElderCrystal => $"{Language.GetTextValue("ItemTooltip.DD2ElderCrystal")}\nПосле размещения, вы можете нажать ПКМ по кристаллу, чтобы пропустить волны и увеличить скорость появления вторженцев",
+                ItemID.DD2ElderCrystal => $"{Language.GetTextValue("ItemTooltip.DD2ElderCrystal")}\nПосле размещения, вы можете нажать ПКМ по кристаллу, чтобы пропустить волны и увеличить частоту появления вторженцев",
                 ItemID.DD2BetsyBow => "Стреляет разделяющимися стрелами",
                 ItemID.Abeemination => "Призывает королеву пчёл при использовании в джунглях\nВпадает в ярость за пределами подземных джунглей\nНе расходуется",
                 ItemID.BloodySpine => "Призывает Мозг Ктулху при использовании в багрянце\nВпадает в ярость за пределами подземного багрянца\nНе расходуется",
@@ -185,7 +185,7 @@ public partial class CalamityModGlobalItem
                 ItemID.MythrilHood => "Увеличивает максимальный запас маны на 80",
                 ItemID.OrichalcumBreastplate => Language.GetTextValue("ItemTooltip.OrichalcumBreastplate").Replace("6", "10"),
                 ItemID.AdamantiteHeadgear => "Увеличивает максимальный запас маны на 100",
-                ItemID.SquireGreatHelm => "Увеличивает призываемое число стражей на 1 и регенерацию здоровья на 2",
+                ItemID.SquireGreatHelm => "Увеличивает максимальное количество стражей на 1 и регенерацию здоровья на 2",
                 ItemID.SquirePlating => Language.GetTextValue("ItemTooltip.SquirePlating").Replace("15", "10"),
                 ItemID.SquireGreaves => "Увеличивает урон призывателя и шанс критического удара ближнего боя на 5%\nУвеличивает скорость передвижения на 15%",
                 ItemID.MonkBrows => Language.GetTextValue("ItemTooltip.MonkBrows").Replace("20", "10"),
@@ -195,7 +195,7 @@ public partial class CalamityModGlobalItem
                 ItemID.ApprenticeTrousers => "Увеличивает урон призывателя и магический шанс критического удара на 5%\nУвеличивает скорость передвижения на 20%",
                 ItemID.SquireAltShirt => "Увеличивает урон призывателя на 30% и регенерацию здоровья на 4",
                 ItemID.SquireAltPants => "Увеличивает урон призывателя и шанс критического удара ближнего боя на 10%",
-                ItemID.MonkAltHead => "Увеличивает призываемое число стражей на 2\nУвеличивает урон призывателя и ближнего боя на 10%",
+                ItemID.MonkAltHead => "Увеличивает максимальное количество стражей на 2\nУвеличивает урон призывателя и ближнего боя на 10%",
                 ItemID.MonkAltShirt => "Увеличивает урон призывателя и скорость атаки ближнего боя на 10%",
                 ItemID.MonkAltPants => "Увеличивает урон призывателя и шанс критического удара ближнего боя на 10%",
                 ItemID.HuntressAltShirt => Language.GetTextValue("ItemTooltip.HuntressAltShirt").Replace("25", "15"),
@@ -308,7 +308,7 @@ public partial class CalamityModGlobalItem
         {
             tooltip.Text = item.type switch
             {
-                ItemID.GoldenFishingRod => $"{Language.GetTextValue("GameUI.BaitRequired")}\nЛеска никогда не порвётся",
+                ItemID.GoldenFishingRod => $"{Language.GetTextValue("GameUI.BaitRequired")}\nЛеска никогда не рвётся",
                 _ => tooltip.Text
             };
         });

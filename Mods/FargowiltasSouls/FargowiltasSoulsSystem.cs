@@ -17,11 +17,12 @@ public class FargowiltasSoulsSystem : ModSystem
     public override void PostSetupContent()
     {
         const float backWidth = 540f;
-        SoulToggler soulToggler = FargoUIManager.SoulToggler;
+        SoulToggler soulToggler = FargoUIManager.Get<SoulToggler>();
         soulToggler.BackPanel.Width.Set(backWidth, 0f);
         soulToggler.InnerPanel.Width.Set(backWidth - 12f, 0f);
         soulToggler.Scrollbar.Left.Set(soulToggler.InnerPanel.Width.Pixels - soulToggler.Scrollbar.Width.Pixels - 18f, 0f);
         soulToggler.PresetPanel.Width.Set(backWidth - 10f, 0f);
         soulToggler.ToggleList.Width.Set(soulToggler.InnerPanel.Width.Pixels - soulToggler.InnerPanel.PaddingLeft * 2f - soulToggler.Scrollbar.Width.Pixels, 0f);
+        FargoUIManager.Get<DifficultySelectionMenu>().BackPanel.Width.Set(200f, 0f);
     }
 }

@@ -1396,7 +1396,7 @@
 #            Снижает расход маны на 20%, если здоровье ниже половины
 #            Увеличивает максимальный запас маны на 120, если здоровье выше половины
 #            Увеличивает магический шанс критического удара на 9%
-#            Магические атаки периодически выпускают мощные снаряды древней магии, которые отскакивают от стен
+#            Магические атаки периодически выпускают мощные снаряды древней магии, которые отскакивают от блоков
 #            '''
 #    }
 #
@@ -2596,12 +2596,12 @@
 #    }
 #
 #    FesterflyBanner: {
-#        DisplayName: Festerfly Banner
+#        DisplayName: Знамя зловонной мухи
 #        Tooltip: ""
 #    }
 #
 #    FleshHoundBanner: {
-#        DisplayName: Flesh Hound Banner
+#        DisplayName: Знамя гончей из плоти
 #        Tooltip: ""
 #    }
 #
@@ -2816,7 +2816,7 @@
 #    }
 #
 #    PhantomBanner: {
-#        DisplayName: Phantom Banner
+#        DisplayName: Знамя фантома
 #        Tooltip: ""
 #    }
 #
@@ -5694,7 +5694,7 @@
 #    }
 #
 #    ForagerTableItem: {
-#        DisplayName: Naturalist's Workshop
+#        DisplayName: Мастерская естествоиспытателя
 #        Tooltip: Allows for the crafting of ambient objects and tiles
 #    }
 #
@@ -7685,23 +7685,23 @@
 #    }
 #
 #    GastricGusher: {
-#        DisplayName: Gastric Gusher
+#        DisplayName: Желудочный извергатель
 #        Tooltip:
 #            '''
-#            Consumes gel
-#            Sprays a cone of harmful acid
-#            Charge to increase range and damage
+#            Использует гель в качестве боеприпасов
+#            Распыляет конус разъедающей кислоты
+#            Чем дольше заряжать, тем больше дальность и урон
 #            '''
 #    }
 #
 #    HeartilleryBeacon: {
-#        DisplayName: Aching Heart
-#        Tooltip: Summons a stationary heartillery that shoots blood at foes
+#        DisplayName: Страдающее сердце
+#        Tooltip: Призывает неподвижное сердце, которое стреляет кровью по врагам
 #    }
 #
 #    PesterflyCane: {
-#        DisplayName: Pesterfly Cane
-#        Tooltip: Summons pesterflies that swarm around hit enemies
+#        DisplayName: Трость назойливых мух
+#        Tooltip: Призывает рой назойливых мух, которые атакуют поражённых врагов
 #    }
 #
 #    BismiteGrenade: {
@@ -9176,45 +9176,45 @@
 #    }
 #
 #    StreamSurferChestplate: {
-#        DisplayName: Stream Surfer Chestplate
+#        DisplayName: Нагрудник покорителя потоков
 #        Tooltip:
 #            '''
-#            9% increased magic damage
-#            Increases maximum mana by 60
+#            Увеличивает магический урон на 9%
+#            Увеличивает максимальный запас маны на 60
 #            '''
 #    }
 #
 #    StreamSurferHelmet: {
-#        DisplayName: Stream Surfer Mask
+#        DisplayName: Маска покорителя потоков
 #        Tooltip:
 #            '''
-#            8% increased magic critical strike chance
-#            You can breathe underwater
+#            Увеличивает магический шанс критического удара на 8%
+#            Позволяет дышать под водой
 #            '''
-#        BonusText: Water Spout Charged!
+#        BonusText: Водоворот заряжен!
 #    }
 #
 #    StreamSurferLeggings: {
-#        DisplayName: Stream Surfer Loincloth
+#        DisplayName: Набедренная повязка покорителя потоков
 #        Tooltip:
 #            '''
-#            7% increased magic damage
-#            10% reduced mana usage
+#            Увеличивает магический урон на 7%
+#            Снижает расход маны на 10%
 #            '''
 #    }
 #
 #    TikiJavelin: {
-#        DisplayName: Tiki Javelin
+#        DisplayName: Метательное копьё тики
 #        Tooltip:
 #            '''
-#            Hold and release to throw
-#            Hold it longer for more velocity and damage
+#            Удерживайте и отпустите для броска
+#            Чем дольше удерживаете, тем выше скорость и урон
 #            '''
 #    }
 #
 #    TribalScale: {
-#        DisplayName: Stream Scale
-#        Tooltip: "'Scales of old sea creatures'"
+#        DisplayName: Чешуя потока
+#        Tooltip: "'Чешуя древних морских существ'"
 #    }
 #
 #    Whirltide: {
@@ -10941,18 +10941,18 @@
 #    }
 #
 #    Vilemoth: {
-#        DisplayName: Festerfly
-#        Entry: The putrid scent of the corruption was bound to attract flies, and sure enough, it did. Now corrupted and ravenous, they follow the scent of any fresh meat they can find.
+#        DisplayName: Зловонная муха
+#        Entry: Зловонный запах искажения не мог не привлечь мух, и, конечно же, это произошло. Теперь, искажённые и ненасытные, они следуют за запахом любой свежей плоти, которую смогут найти.
 #    }
 #
 #    VileWasp: {
-#        DisplayName: Pesterfly
-#        Entry: These pests infest the innards of the abominable Festerfly. If you flex hard enough while one is biting you, it might explode.
+#        DisplayName: Назойливая муха
+#        Entry: Эти мелкие паразиты кишат внутри зловонных мух. Говорят, если напрячься изо всех сил в момент, когда такая муха кусает, она может взорваться.
 #    }
 #
 #    FleshHound: {
-#        DisplayName: Flesh Hound
-#        Entry: A nasty prowling canine that rears its head only under the vermillion light of a Blood Moon. Though it may feed, the hunger will always remain.
+#        DisplayName: Гончая из плоти
+#        Entry: Злобный бродячий пёс, появляющийся только под багровым светом кровавой луны. Даже насытившись, он никогда не утолит свой голод.
 #    }
 #
 #    WintrySoul: {
@@ -11138,8 +11138,8 @@
 #    PagodaGhostPassive.DisplayName: Yuurei
 #
 #    Phantom: {
-#        DisplayName: Phantom
-#        Entry: A typical cave bat, transformed into pure darkness by ancient magicks. When night falls, they take to the skies to feed on those unfortunate enough to still be awake.
+#        DisplayName: Фантом
+#        Entry: Обычная пещерная летучая мышь, превращённая древней магией в чистое воплощение тьмы. С наступлением ночи она поднимается в небо, чтобы охотиться на тех несчастных, кто всё ещё не спит.
 #    }
 #
 #    PirateLobber: {
@@ -11383,20 +11383,20 @@
 #        DisplayName: Adventurer
 #
 #        TownNPCMood: {
-#            Content: "{$Mods.SpiritMod.TownNPC.Adventurer.Mood.Content}"
-#            NoHome: "{$Mods.SpiritMod.TownNPC.Adventurer.Mood.NoHome}"
-#            FarFromHome: "{$Mods.SpiritMod.TownNPC.Adventurer.Mood.FarFromHome}"
-#            LoveSpace: "{$Mods.SpiritMod.TownNPC.Adventurer.Mood.LoveSpace}"
-#            DislikeCrowded: "{$Mods.SpiritMod.TownNPC.Adventurer.Mood.DislikeCrowded}"
-#            HateCrowded: "{$Mods.SpiritMod.TownNPC.Adventurer.Mood.HateCrowded}"
-#            LikeBiome: "{$Mods.SpiritMod.TownNPC.Adventurer.Mood.LikeBiome}"
-#            DislikeBiome: "{$Mods.SpiritMod.TownNPC.Adventurer.Mood.DislikeBiome}"
-#            LoveNPC: "{$Mods.SpiritMod.TownNPC.Adventurer.Mood.LoveNPC}"
-#            LikeNPC: "{$Mods.SpiritMod.TownNPC.Adventurer.Mood.LikeNPC}"
-#            DislikeNPC: "{$Mods.SpiritMod.TownNPC.Adventurer.Mood.DislikeNPC}"
-#            HateNPC: "{$Mods.SpiritMod.TownNPC.Adventurer.Mood.HateNPC}"
-#            LikeNPC_Princess: "{$Mods.SpiritMod.TownNPC.Adventurer.Mood.LikeNPC_Princess}"
-#            Princess_LovesNPC: I like {NPCName}.
+#            Content: Relaxing at home is almost as nice as a good trek, isn't it?
+#            NoHome: While I'm an explorer, I'd like to relax for a while. Got a spare place I can hole up in?
+#            FarFromHome: You could say I'm 'adventuring' a bit too far from my house...but seriously I don't have a map.
+#            LoveSpace: Plenty of room to plan my next expedition, wonderful!
+#            DislikeCrowded: How am I supposed to chart undiscovered lands with all these people around?
+#            HateCrowded: I'd rather explore a lake of lava than live here with all these people!
+#            LikeBiome: Truly, {BiomeName} is a relaxing place to be. A nice place to rest up.
+#            DislikeBiome: While I'd love to finish what I've started, it's far too soon for me to be back in the {BiomeName}.
+#            LoveNPC: That {NPCName} is a fascinating character. His stories are trumped by nothing!
+#            LikeNPC: Me and {NPCName} go way back. I still remember our first journey together!
+#            DislikeNPC: "{NPCName} really knows how to bring down the mood. Maybe a hike would brighten him up?"
+#            HateNPC: While {NPCName} is a collector in spirit, he only offloads his work to others. A disappointment to explorers everywhere.
+#            LikeNPC_Princess: "{NPCName} has an air of her. An air of adventure."
+#            Princess_LovesNPC: "{NPCName} has so many cool stories!"
 #        }
 #
 #        Entry: An intrepid explorer driven by an ambition that has often landed him in danger. He's also an avid note-taker, his many accounts now scattered throughout the land.
@@ -11733,8 +11733,8 @@
 #        }
 #
 #        BareNecessities: {
-#            Name: Bare Necessities
-#            Description: You know, I'm real appreciative of the home you've given me after savin' me, and I don't want to sound rude. Buuuut, I think we can really spice this place up, lad. And it all starts with craftin' a Naturalist's Workshop for some pretty buildin' materials.
+#            Name: Скромные потребности
+#            Description: Ты знаешь, я искренне благодарен за кров, который ты мне предоставил после моего спасения. И, понимаешь, я не хочу показаться неблагодарным, но... мы могли бы добавить этому месту немного тепла и уюта, дружище. Всё начинается с создания Мастерской естествоиспытателя - на ней мы сможем изготовить симпатичные материалы для строительства.
 #        }
 #
 #        BlastFromThePast: {
@@ -12367,7 +12367,7 @@
 #    DurasilkSheafTile.MapEntry: Durasilk Sheaf
 #    FestivalLanternTile.MapEntry: Festival Lantern
 #    FishCrate_Tile.MapEntry: Crate
-#    ForagerTableTile.MapEntry: Naturalist's Workshop
+#    ForagerTableTile.MapEntry: "{$Items.ForagerTableItem.DisplayName}"
 #    ForgottenKingStatue.MapEntry: Forgotten King Statue
 #    GemsPickaxeRuby.MapEntry: Lodged Pickaxe
 #    GemsPickaxeSapphire.MapEntry: Lodged Pickaxe
@@ -12541,25 +12541,6 @@
 #            Special7: My old business partner turned to the bandit life a few years ago. I wonder if he's doing okay. I think his associates have set up a bandit camp somewhere near the seas.
 #            Special8: A shimmering blue light's on the horizon. Wonder what that's about, huh?
 #            Bound: I thought I was a real goner there! If you didn't butt in, I probably would've been fed to whatever those monsters were trying to conjure up over there. I wouldn't touch it if I were you... Look, you have my thanks; but just between you and me, it's been a long few months, and all I want is a vacation from adventuring for a while. Life is short, and I'd rather not make it shorter. D'you have a place to stay?
-#        }
-#
-#        Mood: {
-#            Content: Relaxing at home is almost as nice as a good trek, isn't it?
-#            NoHome: While I'm an explorer, I'd like to relax for a while. Got a spare place I can hole up in?
-#            LoveSpace: Plenty of room to plan my next expedition, wonderful!
-#            FarFromHome: You could say I'm 'adventuring' a bit too far from my house...but seriously I don't have a map.
-#            DislikeCrowded: How am I supposed to chart undiscovered lands with all these people around?
-#            HateCrowded: I'd rather explore a lake of lava than live here with all these people!
-#            LikeBiome: Truly, {BiomeName} is a relaxing place to be. A nice place to rest up.
-#            LoveBiome: Вы не должны это видеть.
-#            DislikeBiome: While I'd love to finish what I've started, it's far too soon for me to be back in the {BiomeName}.
-#            HateBiome: Вы не должны это видеть either!
-#            LikeNPC: Me and {NPCName} go way back. I still remember our first journey together!
-#            LoveNPC: That {NPCName} is a fascinating character. His stories are trumped by nothing!
-#            DislikeNPC: "{NPCName} really knows how to bring down the mood. Maybe a hike would brighten him up?"
-#            HateNPC: While {NPCName} is a collector in spirit, he only offloads his work to others. A disappointment to explorers everywhere.
-#            LikeNPC_Princess: "{NPCName} has an air of her. An air of adventure."
-#            Princess_LovesNPC: "{NPCName} has so many cool stories!"
 #        }
 #
 #        Name1: Morgan

@@ -38,6 +38,6 @@ public class StatButtonAddStat : ILPatcher
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {
         //Сдвигаем второй столбец характеристик вправо
-        TranslationHelper.ModifyIL(il, 8, -102, 2);
+        TranslationHelper.ModifyIL(il, 8, -195, 2);
     };
 }
