@@ -38,7 +38,7 @@ public partial class CalamityModGlobalItem
                 ItemID.OrangePhasesaber => tooltip.Text.Replace("Ignores 100% of enemy defense", "Игнорирует 100% защиты врага"),
                 ItemID.BoneSword => tooltip.Text.Replace("Ignores 50% of enemy defense", "Игнорирует 50% защиты врага"),
                 ItemID.BreakerBlade => tooltip.Text.Replace("Ignores 50% of enemy defense", "Игнорирует 50% защиты врага"),
-                ItemID.FalconBlade => tooltip.Text.Replace("Holding this item grants +20% increased movement speed", $"Держа в руках этот предмет, увеличивает скорость передвижения на 20%"),
+                ItemID.FalconBlade => tooltip.Text.Replace("Holding this item grants +20% increased movement speed", "Когда вы держите этот предмет в руках, ваша скорость передвижения увеличивается на 20%"),
                 _ => tooltip.Text
             };
         });
