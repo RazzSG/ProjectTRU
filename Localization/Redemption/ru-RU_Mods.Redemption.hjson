@@ -10289,7 +10289,7 @@ Items: {
 
     OmegaPickaxe: {
         DisplayName: Омега-кирка
-        Tooltip: Способна добывать уран
+        Tooltip: Может добывать уран
     }
 
     PulseBlade: {
