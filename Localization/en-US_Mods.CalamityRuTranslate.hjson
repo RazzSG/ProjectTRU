@@ -46,6 +46,11 @@ Configs: {
             Tooltip: Заменяет оригинальную песню на русский кавер.
         }
         
+        StarsAboveStarfarerVoices: {
+            Label: Русская озвучка The Stars Above
+            Tooltip: Заменяет оригинальную озвучку на русскую.
+        }
+        
         CalamityModLocalization: {
             Label: Calamity Mod
             Tooltip: Выключает перевод Calamity Mod.

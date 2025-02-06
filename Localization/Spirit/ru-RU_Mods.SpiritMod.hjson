@@ -21,7 +21,7 @@
 #
 #Configs: {
 #    SpiritClientConfig: {
-#        DisplayName: Client Config
+#        DisplayName: Клиентская конфигурация
 #
 #        ScreenShake: {
 #            Label: "[i:SpiritMod/MoonStone] Visuals: Screenshake"
@@ -166,7 +166,7 @@
 #        }
 #
 #        CorruptNightMusic: {
-#            Label: "[i:SpiritMod/TranquilWindsBox] Adds a unique track for The Corruption at night"
+#            Label: "[i:SpiritMod/TranquilWindsBox] Уникальная мелодия для искажения в ночное время"
 #            Tooltip: Adds a unique track for the Corruption at nighttime
 #        }
 #
@@ -288,8 +288,8 @@
 #GameTips: {
 #    SpiritGameTip0: Spirit Mod: Лунное желе - отличный источник лечения!
 #    SpiritGameTip1: Spirit Mod: Надзиратель больше не вернётся!
-#    SpiritGameTip2: Spirit Mod: Авантюриста можно найти в подземном поросле в любое время.
-#    SpiritGameTip3: Spirit Mod: Мистические святилища таят в себе и блага, и угрозы!
+#    SpiritGameTip2: Spirit Mod: Авантюриста можно найти в подземной поросли в любое время.
+#    SpiritGameTip3: Spirit Mod: Мистические святилища таят в себе как блага, так и угрозы!
 #    SpiritGameTip4: Spirit Mod: В Цамоцвете скрыта неизведанная сила. Достойны ли вы её?
 #    SpiritGameTip5: Spirit Mod: Одолейте Звёздопанцирного странника, чтобы добыть астралит - могущественный космический металл.
 #    SpiritGameTip6: Spirit Mod: Океан полон сюрпризов. Загляните туда как-нибудь!
@@ -318,8 +318,8 @@
 #    }
 #
 #    BriarUndergroundBiome: {
-#        DisplayName: Подземный поросль
-#        TownNPCDialogueName: Подземный поросль
+#        DisplayName: Подземная поросль
+#        TownNPCDialogueName: Подземная поросль
 #    }
 #
 #    JellyDelugeBiome: {
@@ -328,8 +328,8 @@
 #    }
 #
 #    MysticMoonBiome: {
-#        DisplayName: Mystic Moon
-#        TownNPCDialogueName: the Mystic Moon Biome
+#        DisplayName: Таинственная луна
+#        TownNPCDialogueName: Таинственная луна
 #    }
 #
 #    TideBiome: {
@@ -2977,7 +2977,7 @@
 #            '''
 #            [c/95a3ab:Ниже приводится расшифровка речи сомнительного искателя приключений Аврелия Финча, бывшего рыцаря-крестоносца.]
 #            ---
-#            Говорит Аврелий. Дела у меня идут неважно. Людям не понравились мои 'комплекс превосходства' и 'чрезмерное, почти комичное самолюбование'. Меня лишили всех титулов, а после моего банкротства конфисковали всё имущество. Теперь я связался с довольно сомнительной компанией и пишу эту книгу только потому, что меня вынуждают рекламировать их товары. Это что, попытка разжалобить тебя? Конечно, нет! Я всё ещё забочусь о твоё успе... да кого я обманываю? Давай просто покончим с этим.
+#            Говорит Аврелий. Дела у меня идут неважно. Людям не понравились мои 'комплекс превосходства' и 'чрезмерное, почти комичное самолюбование'. Меня лишили всех титулов, а после моего банкротства конфисковали всё имущество. Теперь я связался с довольно сомнительной компанией и пишу эту книгу только потому, что меня вынуждают рекламировать их товары. Это что, попытка разжалобить тебя? Конечно, нет! Я всё ещё забочусь о твоём успе... да кого я обманываю? Давай просто покончим с этим.
 #            [c/80deed:Руководство для начинающих по аксессуарам]
 #            [i:SpiritMod/AceOfClubs] [i:SpiritMod/AceOfDiamonds] [i:SpiritMod/AceOfSpades] [i:SpiritMod/AceOfHearts] [c/80deed: Тузы:] Как я уже говорил, мне довелось иметь дело с довольно подозрительными личностями и познакомиться с некоторыми сомнительными аксессуарами. Тузы - полезные предметы, если ты можешь наносить критические удары врагам. Их можно найти у [c/72a4c2:Азартной торговки], когда встретишь её в своих странствиях. Она продаёт разные варианты тузов в зависимости от фазы луны. Если ты её встретишь, пожалуйста, передай, что я тебя прислал. Очень прошу!
 #            [i:SpiritMod/AssassinMagazine] [c/80deed: Журнал убийцы:] До чего же я докатился? Не могу поверить, что рассказываю о снаряжении тех самых наёмников, с которыми когда-то сражался. Но этот [c/72a4c2:Бандит] повсюду имеет своих шпионов. Если ты, как и он, предпочитаешь бой на расстоянии, этот журнал поможет быстрее переключаться между типами боеприпасов. Мне так стыдно сейчас.
@@ -3003,19 +3003,19 @@
 #    }
 #
 #    Book_Amea: {
-#        DisplayName: Amea the Brigand
-#        Tooltip: by Solaki
+#        DisplayName: Амей, разбойник
+#        Tooltip: Автор: Солаки
 #        Content:
 #            '''
-#            At the edge of the kingdom's borders lay a small cottage, surrounded by acres of forest. It was a small dwelling, home to a poor, middle-aged woman and her young son, Amea. The family was destitute and quite alone, but Amea's mother had been saving up money for years so that Amea could finally go to school and become a merchant. Upon giving the money to Amea, he became distraught. He did not want to leave his mother alone in the forest, but he soon relented. His mother did not want to see him follow the same path as she did. And so, Amea set off on his way to the small school nearby.
-#            As it turns out, Amea was a smart and hardworking student. He had simply never been given the opportunity before. He was kind, helpful, and determined to succeed so that he could return home to his mother with riches in hand. He soon became his teacher's favorite, much to the dismay of his classmates. They soon grew to hate him, filled with jealousy and ire. His classmates then hatched a devious plan to turn their teacher against Amea. They slowly poisoned the teacher's mind with stray whispers and rumors, painting Amea as a cruel savage. The teacher fell into their trap, and so too did he begin to hate Amea. On the last day of teaching, when students were to receive their recommendations from their teacher to join different guilds, Amea was blindsided by a gruesome request from his teacher.
-#            'In order to receive my recommendation, you must first bring me the pointer fingers of one thousand people. Otherwise, you will never be able to join the merchant guild you seek,' said he. Amea was taken aback by this horrifying task. He was not aware that everyone he knew despised him. But Amea needed to provide for his family
-#            And so he set off on this task.
+#            На окраине королевства, среди густого леса, стоял скромный домик. В нём жила бедная женщина средних лет вместе со своим юным сыном по имени Амей. Их семья жила в нищете и полной изоляции, но мать долгие годы откладывала деньги, чтобы её сын смог получить образование и стать торговцем. Когда она наконец вручила ему накопленные сбережения, Амей сильно огорчился. Он не хотел оставлять мать одну в лесу. Но она была непреклонна - она не желала видеть, как сын повторяет её горькую судьбу. В конце концов Амей уступил её воле и отправился в путь к небольшой школе неподалёку.
+#            Как вскоре выяснилось, Амей оказался смышлёным и прилежным учеником, которому прежде просто не выпадал шанс проявить свои способности. Он был добрым, отзывчивым и полон решимости добиться успеха, чтобы однажды вернуться домой с богатствами и обеспечить мать достойной жизнью. Учитель быстро выделил его среди остальных, и вскоре Амей стал его любимцем, что вызвало зависть и злобу одноклассников. Со временем они начали ненавидеть его и задумали хитроумный план, чтобы настроить учителя против Амея. Постепенно они отравили разум учителя слухами и клеветой, выставляя Амея жестоким дикарём. Учитель поддался этим наветам и вскоре начал питать к мальчику неприязнь. В последний учебный день, когда ученики должны были получить рекомендации для вступления в разные гильдии, Амея ждал чудовищный сюрприз. Учитель выдвинул ему ужасное условие:
+#            — Чтобы получить мою рекомендацию, ты должен принести мне тысячу указательных пальцев. Иначе ты никогда не сможешь вступить в гильдию торговцев, - заявил он. Амей был ошеломлён этим жутким условием. Он даже не подозревал, что все вокруг презирали его. Однако у него не было выбора - ради своей семьи Амей был готов на всё.
+#            И потому Амей отправился выполнять эту задачу.
 #            ---
-#            Amea used some of his money to buy a rusty sword, and made a camp in the middle of the woods. At first, he was too scared to carry out this vile mission. Amea was a kind man who wished no ill will on anyone, including the teacher who had assigned him this task. But he thought of his mother at home and swallowed his fear. And so it began. Amea stopped one traveller after another and cut off their fingers. Upon collecting too many to carry, Amea tried to bury them in the ground. But they either decomposed or were eaten by crows and vultures. Amea then decided to string the fingers on a garland and wear them. His infamy grew over time, and he was soon known as 'The Bandit with the Finger Necklace.' Amea was changing.
+#            Амей потратил часть своих денег на ржавый меч и разбил лагерь в глуши леса. Поначалу страх сковывал его, не позволяя приступить к этому чудовищному заданию. Амей был добросердечным человеком, не желавшим зла никому, даже учителю, который дал ему это задание. Но мысли о матери, ожидавшей его дома, помогли ему подавить страх. Так всё и началось. Амей останавливал путников одного за другим и отрубал им пальцы. Когда пальцев стало слишком много, чтобы нести их с собой, он попытался закопать их в землю. Однако они либо разлагались, либо становились добычей воронов и стервятников. Тогда Амей нанизал их на верёвку и стал носить как ожерелье. Его дурная слава росла, и вскоре его прозвали «Разбойником с ожерельем из пальцев». Амей постоянно менялся.
 #            ---
 #            The once bright and kind student was no more. Amea relished in violence, and grew exceedingly cruel to his victims. The amount of fingers on his garland grew. He soon stole from and maimed his victims on top of dismembering them, and became the most feared bandit in the kingdom. Many squads of soldiers were sent into the forests to end Amea's reign of terror, but returned battered, empty-handed, and fingerless.
-#            After years of ravaging the kingdom, the fateful day soon arrived when Amea had nine hundred ninety-nine fingers on his garland. He planned on returning to his teacher laden with fingers and then killing him before returning to the life of a brigand. This was Amea's path now. An unsuspecting ox-cart made its way through the forest, and Amea lay waiting in the trees. When the time was right, he jumped down and slashed the throat of the cart driver, quickly taking his finger. But no one screamed. Confused by the lack of panic, Amea turned around to see a lone woman sitting in the cart, looking at him with sheer horror, revulsion, and- most of all- disappointment. It was his mother. Amea opened his mouth, but could not speak. His mother said no words to him, but tears started cascading down her old and weary face. She was gaunt and looked starved, not having enough money to eat properly. Amea said nothing, and retreated deep into the woods. He found a clear pond and gazed into it. He saw what he had become: a wild savage draped in human fingers. He could scarcely recognize himself anymore. A sudden wave of shame and horror crashed down upon Amea. Sick to the stomach, he renounced his banditry and led a reclusive life within a cave in the woods."
+#            After years of ravaging the kingdom, the fateful day soon arrived when Amea had nine hundred ninety-nine fingers on his garland. He planned on returning to his teacher laden with fingers and then killing him before returning to the life of a brigand. This was Amea's path now. An unsuspecting ox-cart made its way through the forest, and Amea lay waiting in the trees. When the time was right, he jumped down and slashed the throat of the cart driver, quickly taking his finger. But no one screamed. Confused by the lack of panic, Amea turned around to see a lone woman sitting in the cart, looking at him with sheer horror, revulsion, and- most of all- disappointment. It was his mother. Amea opened his mouth, but could not speak. His mother said no words to him, but tears started cascading down her old and weary face. She was gaunt and looked starved, not having enough money to eat properly. Amea said nothing, and retreated deep into the woods. He found a clear pond and gazed into it. He saw what he had become: a wild savage draped in human fingers. He could scarcely recognize himself anymore. A sudden wave of shame and horror crashed down upon Amea. Sick to the stomach, he renounced his banditry and led a reclusive life within a cave in the woods.
 #            ---
 #            For years, people in the kingdom steered clear of Amea's woods. Nobody knew where the bandit had gone, but no one wanted to be his next victim. That was until a great wizard arrived at the kingdom. This sage was well known for spreading teachings of peace to those who wanted to listen. He had overheard rumors about Amea and was curious to meet the man. The citizens of the kingdom warned him not to journey into the woods, but the wizard chose to do so anyway. He walked into the woods without a staff or any weapon, carefree as could be.
 #            Amea soon heard footsteps from outside his cave and quickly grew angry that someone dared to disturb his solitude. He drew his sword and emerged from the cave to see the wizard nonchalantly walking away from him.
@@ -3058,7 +3058,7 @@
 #
 #    Book_Briar: {
 #        DisplayName: Notes on the Briar
-#        Tooltip: by Field Researcher Laywatts
+#        Tooltip: Автор: Полевой исследователь Лейваттс
 #        Content:
 #            '''
 #            Our three month expedition into the scarcely explored Briar came to an end two weeks ago. The team consisted of I, Dr. Nisha Laywatts, Dr. Rathi Everest, and a hired adventurer whose name is unknown. Dr. Everest and I completed the expedition unharmed, but the adventurer went missing four days before the excursion was complete. We tried searching for him to no avail. What is more pertinent to this book, however, is the data we have accrued.
@@ -3179,7 +3179,7 @@
 #        DisplayName: Notes on Soulbloom
 #        Tooltip:
 #            '''
-#            by Lena Ashwood, Alchemist
+#            Автор: Лена Эшвуд, алхимик
 #            It details the anatomy and uses of an extremely rare herb
 #            'Where could she have found this?'
 #            '''
@@ -4125,7 +4125,7 @@
 #    }
 #
 #    BlossmoonItem: {
-#        DisplayName: Blossmoon
+#        DisplayName: Лунноцвет
 #        Tooltip: "'It releases a soothing aroma'"
 #    }
 #
@@ -4335,7 +4335,7 @@
 #    }
 #
 #    IceBerries: {
-#        DisplayName: Ice Berry
+#        DisplayName: Ледяная ягода
 #        Tooltip:
 #            '''
 #            Grants immunity to being on fire
@@ -4513,28 +4513,28 @@
 #    }
 #
 #    BottomlessAle: {
-#        DisplayName: Bottomless Ale
+#        DisplayName: Бездонный эль
 #        Tooltip:
 #            '''
-#            Non-consumable
-#            Minor improvements to melee stats & lowered defense
-#            'Down the hatch!'
+#            Не расходуется
+#            Немного увеличивает характеристики ближнего боя, но снижает защиту
+#            'До последней капли!'
 #            '''
 #    }
 #
 #    BottomlessHealingPotion: {
-#        DisplayName: Bottomless Healing Potion
+#        DisplayName: Бездонное лечебное зелье
 #        CustomTooltip:
 #            '''
-#            Non-consumable
-#            Restores 100 health
+#            Не расходуется
+#            Восстанавливает 100 единиц здоровья
 #            '''
 #        Tooltip: ""
 #    }
 #
 #    DoubleJumpPotion: {
 #        DisplayName: Зелье зефира
-#        Tooltip: Temporarily grants a double jump
+#        Tooltip: Временно позволяет совершать двойной прыжок
 #    }
 #
 #    FlightPotion: {
@@ -4601,20 +4601,20 @@
 #    }
 #
 #    StarPotion: {
-#        DisplayName: Starburn Potion
+#        DisplayName: Зелье полыхающих звёзд
 #        Tooltip:
 #            '''
-#            Critical hits may cause stars to fall from the sky
-#            Increases ranged damage and critical strike chance by 4% when moving
+#            Критические удары могут вызывать падение звёзд с неба
+#            Увеличивает стрелковый урон и шанс критического удара на 4% во время движения
 #            '''
 #    }
 #
 #    TurtlePotion: {
-#        DisplayName: Steadfast Potion
+#        DisplayName: Зелье стойкости
 #        Tooltip:
 #            '''
-#            Increases defense as health wanes
-#            Reduces damage taken by 5%
+#            Увеличивает защиту по мере снижения здоровья
+#            Увеличивает сопротивление урону на 5%
 #            '''
 #    }
 #
@@ -4699,11 +4699,11 @@
 #    }
 #
 #    ReachBossSummon: {
-#        DisplayName: Bramble Tooth
+#        DisplayName: Шипастый клык
 #        Tooltip:
 #            '''
-#            'A malevolent mixture of flora and fauna'
-#            Use in the Underground Briar to summon the Vinewrath Bane
+#            'Зловещая смесь флоры и фауны'
+#            Используйте в подземной поросли, чтобы призвать Проклятие гневных лоз
 #            '''
 #    }
 #
@@ -4730,7 +4730,7 @@
 #        DisplayName: Scarab Idol
 #        Tooltip:
 #            '''
-#            Non-Consumable
+#            Не расходуется
 #            Use in the desert at daytime to summon Scarabeus
 #            '''
 #    }
@@ -4754,7 +4754,7 @@
 #        DisplayName: Starplate Beacon
 #        Tooltip:
 #            '''
-#            Non-consumable
+#            Не расходуется
 #            Use at an Astralite Beacon to summon the Starplate Voyager
 #            '''
 #    }
@@ -5314,7 +5314,7 @@
 #    }
 #
 #    HeartScale: {
-#        DisplayName: Heart Scale
+#        DisplayName: Сердечная чешуя
 #        Tooltip: "'A lovely scale. It is coveted by collectors.'"
 #    }
 #
@@ -5324,7 +5324,7 @@
 #    }
 #
 #    SoulBloom: {
-#        DisplayName: Soulbloom
+#        DisplayName: Душецвет
 #        Tooltip: "'Subtle whispers resonate in languages you don't know'"
 #    }
 #
@@ -5344,8 +5344,8 @@
 #    }
 #
 #    SynthMaterial: {
-#        DisplayName: Discharge Tubule
-#        Tooltip: "'The colorful tubes are filled with energized gas'"
+#        DisplayName: Разрядная трубка
+#        Tooltip: "'Эти красочные трубки наполнены заряженным газом'"
 #    }
 #
 #    CagedMoonlight: {
@@ -6417,7 +6417,7 @@
 #    }
 #
 #    SynthwaveHeadItem: {
-#        DisplayName: Hyperspace Bust
+#        DisplayName: Гиперпространственный бюст
 #        Tooltip: Creates an artificial Hyperspace Biome on right-click
 #    }
 #
@@ -7358,8 +7358,8 @@
 #    }
 #
 #    EnchantedLeaf: {
-#        DisplayName: Enchanted Leaf
-#        Tooltip: "'Blessed with the magic of druids'"
+#        DisplayName: Зачарованный лист
+#        Tooltip: "'Благословлён магией друидов'"
 #    }
 #
 #    ReachFishingCatch: {
@@ -7903,8 +7903,8 @@
 #    }
 #
 #    FrigidFragment: {
-#        DisplayName: Frigid Fragment
-#        Tooltip: "'Cold to the touch'"
+#        DisplayName: Ледяной осколок
+#        Tooltip: "'Холодный на ощупь'"
 #    }
 #
 #    HowlingScepter: {
@@ -8062,7 +8062,7 @@
 #    }
 #
 #    GraniteChunk: {
-#        DisplayName: Enchanted Granite Chunk
+#        DisplayName: Зачарованный кусок гранита
 #        Tooltip: ""
 #    }
 #
@@ -8254,12 +8254,12 @@
 #    }
 #
 #    ShadowShot: {
-#        DisplayName: Shadeblaster
+#        DisplayName: Теневой бластер
 #        Tooltip:
 #            '''
-#            Converts regular bullets into vile bullets
-#            Right-click to shoot out a cursed tracker that sticks to enemies
-#            Vile bullets home onto tracked enemies
+#            Превращает обычные пули в губительные
+#            Нажмите <right>, чтобы выстрелить проклятым маячком, который прикрепляется к врагам
+#            Губительные пули автоматически наводятся на помеченных врагов
 #            '''
 #    }
 #
@@ -8545,8 +8545,8 @@
 #    }
 #
 #    MarbleChunk: {
-#        DisplayName: Ancient Marble Chunk
-#        Tooltip: "'Contains fragments of past civilizations'"
+#        DisplayName: Древний кусок мрамора
+#        Tooltip: "'Хранит в себе частички древних цивилизаций'"
 #    }
 #
 #    MarbleHamaxe: {
@@ -10461,13 +10461,13 @@
 #    BloodGazerEye.DisplayName: Blood Gazer
 #
 #    Bloomshroom: {
-#        DisplayName: Bloomshroom
-#        Entry: This aggressive mycelium only becomes lively once in a blue moon. They spread their spores to the skies, reproducing once they hit the ground or find a living host.
+#        DisplayName: Цветошляпка
+#        Entry: Этот агрессивный грибной организм пробуждается лишь в редкие мгновения, когда луна окрашивается в синий цвет. Он разбрасывает свои споры в небо, размножаясь, когда они достигают земли или находят живого хозяина.
 #    }
 #
 #    Glitterfly: {
-#        DisplayName: Glitterfly
-#        Entry: Glitterflies do not feed often, as their palette consists of a rare fungus. In addition, they possess a venomous sting that causes intense disorientation and vertigo.
+#        DisplayName: Блескокрыл
+#        Entry: Блескокрылы питаются редко, поскольку их рацион состоит из редкого гриба. Кроме того, они обладают ядовитым жалом, вызывающим сильное головокружение и дезориентацию.
 #    }
 #
 #    GlowToad: {
@@ -10690,8 +10690,8 @@
 #    }
 #
 #    Damselfish: {
-#        DisplayName: Damselfish
-#        Entry: Delicate fish that live at high altitudes. Despite the soothing qualities held within their scales, they are prone to distress.
+#        DisplayName: Рыба-ласточка
+#        Entry: Хрупкие рыбки, обитающие на больших высотах. Несмотря на целебные свойства своей чешуи, эти рыбы очень пугливы и легко впадают в панику.
 #    }
 #
 #    DreamstrideWisp: {
@@ -10765,8 +10765,8 @@
 #    }
 #
 #    Luvdisc: {
-#        DisplayName: Ardorfish
-#        Entry: When the moon hits your eye like a big pizza pie... that's an Ardor.
+#        DisplayName: Пылкая рыба
+#        Entry: Когда лунный свет, словно пиццы привет, озаряет твой взгляд... это пылкая страсть!
 #    }
 #
 #    Maggotfly: {
@@ -11622,16 +11622,16 @@
 #    }
 #
 #    KelpZombie: {
-#        DisplayName: Zombie
-#        Entry: Fish fear me, women fear me, men fear me, children fear me, for I am the undead.
+#        DisplayName: Зомби
+#        Entry: Меня боятся рыбы, меня боятся женщины, меня боятся мужчины, меня боятся дети, ибо я - нежить.
 #    }
 #
 #    SailorZombie: {
-#        DisplayName: Zombie
-#        Entry: Despite their current status, they used to run this really nice luxury cruiser you should check out sometime.
+#        DisplayName: Зомби
+#        Entry: Несмотря на их нынешнее положение, когда-то они управляли шикарным круизным лайнером, который стоит как-нибудь проверить.
 #    }
 #
-#    TridentZombie.DisplayName: Zombie
+#    TridentZombie.DisplayName: Зомби
 #    AsclepiusBoonOrb.DisplayName: Asclepius Boon Orb
 #    Fathomless_Chest_Gold.DisplayName: ""
 #    Fathomless_Chest_Mimic.DisplayName: ""
@@ -11643,63 +11643,50 @@
 #        DurasilkSheaf: Obtain 3 Durasilk Sheafs
 #    }
 #
-#    # I'm very sorry to whoever's translating this. Best of luck, and godspeed. - GabeHasWon
-#
-#    # This is actually only used for the Lifeform Analyzer's (Quest) <NPCName>.
 #    Quest: Quest
-#    QuestBook: Quest Book
-#    Residents: Your residents want to talk to you. Chat with them to get more quests!
-#    ChatOpenBook: Click on quests in the chat to open them in the book!
-#    # This formats to "You have completed a quest! <Quest Name>" in-game. The sQ?:{0} is a quest chat tag.
-#    QuestCompleteChat: You have completed a quest! [[sQ/{0}:{1}]]
-#    QuestOutOfTimeChat: "[[sQ/{0}:{1}]] has run out of time!"
-#    QuestRelockedChat: "[[sQ/{0}:{1}]] has been locked again."
-#    NewQuestChat: You have a new quest! [[sQ/{0}:{1}]]
-#    OpenJournal: Press 'C' to open the Quest Journal!
-#    OpenHUD: Press 'V' to keep track of your progress wih the HUD!
-#    QuestsFull: You cannot activate any more quests.
-#    StopQuest: Are you sure? You will [c/910000:lose your progress].
-#    Undiscovered: This quest hasn't been discovered.
-#    # These are all used for minor parts of quests, such as "Catch 2 Fish" or similar.
-#    # The space is necessary. Formats to "Talk to the <NPC Name>" in-game.
-#    TalkToNPC: "Talk to the "
-#    # Same as above. Used for "Explore <area>" in-game.
-#    Explore: "Explore "
-#    Retrieve: Retrieve
-#    Catch: Catch
-#    Kill: "Kill "
-#    Craft: Craft
-#    Capture: Capture
-#    Harvest: Harvest
-#    OptionalGather: Optional - Gather
-#    Objectives: Objectives
-#    Activate: Activate
-#    Deactivate: Deactivate
-#    ClaimRewards: Claim rewards!
-#    # Used for quest clients. Formats to "The <NPC Title>" in-game. The space is necessary. This also looks like a meme.
-#    The: "The "
-#    # Same as above for both of the below, but less funny.
-#    Client: "Client - "
-#    Rewards: Rewards
-#    # Used for chat quest snippets.
-#    ViewQuest: Click here to view the quest!
+#    QuestBook: Книга заданий
+#    Residents: Жители хотят поговорить с вами. Пообщайтесь с ними, чтобы получить новые задания!
+#    ChatOpenBook: Нажмите на задание в чате, чтобы открыть его в книге!
+#    QuestCompleteChat: Вы выполнили задание! [[sQ/{0}:{1}]]
+#    QuestOutOfTimeChat: "Время на выполнение задания [[sQ/{0}:{1}]] истекло!"
+#    QuestRelockedChat: "Задание [[sQ/{0}:{1}]] снова заблокировано."
+#    NewQuestChat: У вас новое задание! [[sQ/{0}:{1}]]
+#    OpenJournal: Нажмите 'C', чтобы открыть журнал заданий!
+#    OpenHUD: Нажмите 'V', чтобы отслеживать прогресс через интерфейс!
+#    QuestsFull: Вы не можете взять больше заданий.
+#    StopQuest: Вы уверены? Вы [c/910000:потеряете весь прогресс].
+#    Undiscovered: Это задание ещё не открыто.
+#    TalkToNPC: "Поговорите с "
+#    Explore: "Исследуйте "
+#    Retrieve: Добудьте
+#    Catch: Поймайте
+#    Kill: "Убейте "
+#    Craft: Создайте
+#    Capture: Захватите
+#    Harvest: Соберите
+#    OptionalGather: Необязательно - Соберите
+#    Objectives: Задачи
+#    Activate: Взять
+#    Deactivate: Отказаться
+#    ClaimRewards: Получить награду!
+#    The: ""
+#    Client: "Заказчик - "
+#    Rewards: Награда
+#    ViewQuest: Нажмите здесь, чтобы посмотреть задание!
 #
 #    Buttons: {
-#        # Quest states
-#        Active: Active
-#        Completed: Completed
+#        Active: Активные
+#        Completed: Завершённые
 #        Available: Доступные
-#        # Quest types
-#        All: All
-#        Main: Main
-#        Explorer: Explorer
-#        Forager: Forager
-#        Slayer: Slayer
-#        Other: Other
+#        All: Все
+#        Main: Основные
+#        Explorer: Исследовательские
+#        Forager: Собирательские
+#        Slayer: Охотничьи
+#        Other: Прочие
 #    }
 #
 #    QuestInfo: {
-#        # All quests will have a Name and a Description. The rest is dependent on what the quest does.
 #        DefaultQuest: {
 #            Name: Default Quest
 #            Description: Placeholder for unlocalized quests.
@@ -11729,7 +11716,7 @@
 #        AuroraStagQuest: {
 #            Name: Укрощение звёзд
 #            Description: Приветствую, дружище! В последнее время мир стал куда опаснее, но не всё так плохо. Мои разведчики рассказали о прекрасном создании, которое появляется в свете северного сияния. Это огромный олень, и я думаю, ты сможешь приручить его, если найдёшь подходящую пищу! Правда, он довольно пугливый, так что постарайся не спугнуть это величественное создание.
-#            Objective: Осторожно приблизиться к оленю северного сияния и накормить его ледяными ягодами.
+#            Objective: Осторожно приблизиться к оленю северного сияния и накормить его ледяными ягодами
 #        }
 #
 #        BareNecessities: {
@@ -11738,8 +11725,8 @@
 #        }
 #
 #        BlastFromThePast: {
-#            Name: Blast From The Past
-#            Description: I see you've got some Discharge Tubules there, lad. I'm glad you've taken my design advice, so let's take it one step further. Try grabbin' some Enchanted Marble Chunks to really set the scene with a Hyperspace Bust. I'm tellin' ya, it'll look spectacular!
+#            Name: Привет из прошлого
+#            Description: Вижу, ты раздобыл разрядные трубки, дружище. Рад, что ты прислушался к моим дизайнерским советам. Но давай на этом не останавливаться - раздобудь немного древних кусков мрамора. С их помощью мы создадим нечто поистине впечатляющее — гиперпространственный бюст. Поверь, это будет нечто грандиозное!
 #        }
 #
 #        FirstAdventure: {
@@ -11748,13 +11735,13 @@
 #        }
 #
 #        RaidingTheStars: {
-#            Name: Raiding the Stars
-#            Description: You've checked out the Asteroid Fields near the far corner of the world, right? My sources have reported some increasin' mechanical activity around there. Some kinda weird automatonic worms made of metal are streakin' through the sky there. Something has to be putting 'em on edge. Could you kill a couple and see what makes 'em tick?
+#            Name: Налёт на звёзды
+#            Description: Я полагаю, ты уже бывал в астероидных полях у дальнего края мира? Мои источники сообщают, что в том районе участились случаи необычной механической активности. Некие металлические черви бороздят местные просторы. Похоже, что-то серьёзно нарушило их привычное поведение. Не мог бы ты уничтожить нескольких из них и выяснить природу этого феномена?
 #        }
 #
 #        StylishSetup: {
-#            Name: Stylish Setup
-#            Description: D'you ever feel like spicin' things up, lad? I've got the perfect new aesthetic for you- retrofuturism! What, d'you think that isn't my style? I dabble in everythin', lad! Trust me, your town will look fabulous with some '80s funk mixed in.
+#            Name: Стильное преображение
+#            Description: Эй, дружище, не кажется ли тебе, что твоему городу не хватает изюминки? Я знаю, что тебе нужно - ретрофутуризм! Что, думаешь, это не по мне? Да я во всём разбираюсь! Поверь, с нотками фанка 80-х твой город засияет по-новому.
 #        }
 #
 #        ZombieOriginQuest: {
@@ -11842,9 +11829,9 @@
 #        }
 #
 #        ExplorerQuestBlueMoon: {
-#            Name: Once in a...
-#            Description: Just when you'd think this world's run out of things to kill you with, eh? We've all seen those disgusting Blood Moons, but recently, the moon's taken to turning a deep blue. I bet you may think that sounds sweet, but terrifyin' creatures come out during these Mystic Moons. Make sure none of 'em get too close to the town, you hear?
-#            Objective: a Mystic Moon
+#            Name: Раз в...
+#            Description: Только подумаешь, что в этом мире закончились способы тебя прикончить, как тут же... Все мы видели эти жуткие кровавые луны, но теперь луна окрашивается в глубокий синий цвет. Возможно, тебе это кажется красивым, но во время появления этих таинственных лун возникают ужасающие создания. Проследи, чтобы ни одно из них не подобралось слишком близко к городу, ясно?
+#            Objective: таинственную луну
 #        }
 #
 #        ExplorerQuestCorrupt: {
@@ -12240,7 +12227,7 @@
 #    FishLureTile.MapEntry: Lure
 #    SunkenTreasureTile.MapEntry: Sunken Treasure
 #    FloranOreTile.MapEntry: Floran Ore
-#    GraniteOre.MapEntry: Enchanted Granite Chunk
+#    GraniteOre.MapEntry: "{$Items.GraniteChunk.DisplayName}"
 #    MarbleOre.MapEntry: Ancient Marble Chunk
 #    OlympiumToken_Tile.MapEntry: Olympium Token
 #    Trophy10Tile.MapEntry: R'lyehian Trophy
@@ -12486,8 +12473,8 @@
 #    SpiritCrate.MapEntry: Crate
 #    SunPotTile.MapEntry: Sun in a Pot
 #    SynthpalmTile.MapEntry: Synthpalm Panel
-#    SynthwaveHead.MapEntry: Hyperspace Bust
-#    SynthwaveHeadActive.MapEntry: Hyperspace Bust
+#    SynthwaveHead.MapEntry: "{$Items.SynthwaveHeadItem.DisplayName}"
+#    SynthwaveHeadActive.MapEntry: "{$Items.SynthwaveHeadItem.DisplayName}"
 #    TechCrateBig.MapEntry: Glowplate Crate
 #    TechCrateSmall.MapEntry: Glowplate Crate
 #    TentOpposite.MapEntry: Tent

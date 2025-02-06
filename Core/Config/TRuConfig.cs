@@ -36,6 +36,10 @@ public class TRuConfig : ModConfig
     [ReloadRequired]
     public bool YharonCover;
     
+    [DefaultValue(true)]
+    [ReloadRequired]
+    public bool StarsAboveStarfarerVoices;
+    
     [Header("LocalizationSettings")]
     
     [DefaultValue(true)]
@@ -73,6 +77,10 @@ public class TRuConfig : ModConfig
     [DefaultValue(true)]
     [ReloadRequired]
     public bool CatalystLocalization;
+    
+    // [DefaultValue(true)]
+    // [ReloadRequired]
+    // public bool SpiritLocalization;
 
     [DefaultValue(true)]
     [ReloadRequired]

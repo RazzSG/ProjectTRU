@@ -29,7 +29,7 @@ public class SoundEnginePatch : ILoadable
     
     private SlotId On_SoundEngineOnPlaySoundRefSoundStyleNullable1SoundUpdateCallback(On_SoundEngine.orig_PlaySound_refSoundStyle_Nullable1_SoundUpdateCallback orig, ref SoundStyle style, Vector2? position, SoundUpdateCallback updatecallback)
     {
-        if (ModInstances.StarsAbove != null && TRuConfig.Instance.StarsAboveLocalization)
+        if (ModInstances.StarsAbove != null && TRuConfig.Instance.StarsAboveLocalization && TRuConfig.Instance.StarsAboveStarfarerVoices)
         {
             if (StarsAboveSystem.SoundMap.TryGetValue(style, out SoundStyle newStyle))
             {
