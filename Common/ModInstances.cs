@@ -15,5 +15,6 @@ public static class ModInstances
     public static Mod TModLoader => ModLoader.TryGetMod("ModLoader", out Mod tMod) ? tMod : null;
     public static Mod Catalyst => ModLoader.TryGetMod("CatalystMod", out Mod catalyst) ? catalyst : null;
     public static Mod CalamityModMusic => ModLoader.TryGetMod("CalamityModMusic", out Mod calamityModMusic) ? calamityModMusic : null;
+    public static Mod Spirit => ModLoader.TryGetMod("SpiritMod", out Mod spiritMod) ? spiritMod : null;
     public static Mod NoxusBoss => ModLoader.TryGetMod("NoxusBoss", out Mod noxusBoss) ? noxusBoss : null;
 }

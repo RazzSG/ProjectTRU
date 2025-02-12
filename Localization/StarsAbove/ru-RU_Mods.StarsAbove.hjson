@@ -15242,8 +15242,8 @@ Configs: {
 }
 
 WorldGen: {
-    NeonVeilGenerationMessage: Освещение Неона
-    ExtraStructuresGenerationMessage: Доставка новинок со звёзд
+    NeonVeilGenerationMessage: Освещение Неона...
+    ExtraStructuresGenerationMessage: Доставка новинок со звёзд...
 }
 
 Conditions: {

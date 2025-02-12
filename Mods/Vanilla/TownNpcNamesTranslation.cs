@@ -27,7 +27,6 @@ public class TownNpcNamesTranslation : GlobalNPC
             {"XiaoEn0426", "СяоЭн0426"},
             {"Jeffred", "Джеффред"},
             {"The Cooler Arthur", "Крутой Артур"},
-            {"Markie", "Марки"},
             {"Shark", "Шарк"},
             {"Sagi", "Саги"},
         },

@@ -2132,18 +2132,18 @@
 #    }
 #
 #    DaybloomBody: {
-#        DisplayName: Sunflower Garb
-#        Tooltip: Increases magic damage by 1
+#        DisplayName: Облачение из подсолнуха
+#        Tooltip: Увеличивает магический урон на 1
 #    }
 #
 #    DaybloomHead: {
-#        DisplayName: Sunflower Hat
-#        Tooltip: Increases maximum mana by 20
+#        DisplayName: Шляпа из подсолнуха
+#        Tooltip: Увеличивает максимальный запас маны на 20
 #    }
 #
 #    DaybloomLegs: {
-#        DisplayName: Sunflower Leggings
-#        Tooltip: 4% increased magic critical strike chance
+#        DisplayName: Поножи из подсолнуха
+#        Tooltip: Увеличивает магический шанс критического удара на 4%
 #    }
 #
 #    DiverBody: {
@@ -2297,71 +2297,71 @@
 #    }
 #
 #    WinterHat: {
-#        DisplayName: Winter Hat
-#        Tooltip: Grants immunity to chilly water
+#        DisplayName: Зимняя шапка
+#        Tooltip: Даёт невосприимчивость к ледяной воде
 #    }
 #
 #    MimeMask: {
-#        DisplayName: Mime Mask
+#        DisplayName: Маска мима
 #        Tooltip:
 #            '''
-#            Increases summon damage by 3%
-#            Increases your max number of minions
+#            Увеличивает урон призывателя на 3%
+#            Увеличивает максимальное количество миньонов
 #            '''
 #    }
 #
 #    PlagueDoctorCowl: {
-#        DisplayName: Plague Doctor's Mask
+#        DisplayName: Маска чумного доктора
 #        Tooltip: ""
 #    }
 #
 #    PlagueDoctorLegs: {
-#        DisplayName: Plague Doctor's Greaves
+#        DisplayName: Поножи чумного доктора
 #        Tooltip: ""
 #    }
 #
 #    PlagueDoctorRobe: {
-#        DisplayName: Plague Doctor's Robe
+#        DisplayName: Одеяние чумного доктора
 #        Tooltip: ""
 #    }
 #
 #    ProtectorateBody: {
-#        DisplayName: Protectorate Uniform
+#        DisplayName: Униформа протектората
 #        Tooltip: ""
 #    }
 #
 #    ProtectorateLegs: {
-#        DisplayName: Protectorate Greaves
+#        DisplayName: Поножи протектората
 #        Tooltip: ""
 #    }
 #
 #    ReachBossBody: {
-#        DisplayName: Thornspeaker's Garb
+#        DisplayName: Облачение шиповещателя
 #        Tooltip: ""
 #    }
 #
 #    ReachBossHead: {
-#        DisplayName: Thornspeaker's Helmet
+#        DisplayName: Шлем шиповещателя
 #        Tooltip: ""
 #    }
 #
 #    ReachBossLegs: {
-#        DisplayName: Thornspeaker's Greaves
+#        DisplayName: Поножи шиповещателя
 #        Tooltip: ""
 #    }
 #
 #    RogueHood: {
-#        DisplayName: Rogue Hood
-#        Tooltip: 4% increased movement speed
+#        DisplayName: Капюшон разбойника
+#        Tooltip: Увеличивает скорость передвижения на 4%
 #    }
 #
 #    RoguePants: {
-#        DisplayName: Rogue Greaves
-#        Tooltip: Increases movement speed by 5%
+#        DisplayName: Поножи разбойника
+#        Tooltip: Увеличивает скорость передвижения на 5%
 #    }
 #
 #    RoguePlate: {
-#        DisplayName: Rogue Plate
+#        DisplayName: Латы разбойника
 #        Tooltip: ""
 #    }
 #
@@ -3014,8 +3014,8 @@
 #            ---
 #            Амей потратил часть своих денег на ржавый меч и разбил лагерь в глуши леса. Поначалу страх сковывал его, не позволяя приступить к этому чудовищному заданию. Амей был добросердечным человеком, не желавшим зла никому, даже учителю, который дал ему это задание. Но мысли о матери, ожидавшей его дома, помогли ему подавить страх. Так всё и началось. Амей останавливал путников одного за другим и отрубал им пальцы. Когда пальцев стало слишком много, чтобы нести их с собой, он попытался закопать их в землю. Однако они либо разлагались, либо становились добычей воронов и стервятников. Тогда Амей нанизал их на верёвку и стал носить как ожерелье. Его дурная слава росла, и вскоре его прозвали «Разбойником с ожерельем из пальцев». Амей постоянно менялся.
 #            ---
-#            The once bright and kind student was no more. Amea relished in violence, and grew exceedingly cruel to his victims. The amount of fingers on his garland grew. He soon stole from and maimed his victims on top of dismembering them, and became the most feared bandit in the kingdom. Many squads of soldiers were sent into the forests to end Amea's reign of terror, but returned battered, empty-handed, and fingerless.
-#            After years of ravaging the kingdom, the fateful day soon arrived when Amea had nine hundred ninety-nine fingers on his garland. He planned on returning to his teacher laden with fingers and then killing him before returning to the life of a brigand. This was Amea's path now. An unsuspecting ox-cart made its way through the forest, and Amea lay waiting in the trees. When the time was right, he jumped down and slashed the throat of the cart driver, quickly taking his finger. But no one screamed. Confused by the lack of panic, Amea turned around to see a lone woman sitting in the cart, looking at him with sheer horror, revulsion, and- most of all- disappointment. It was his mother. Amea opened his mouth, but could not speak. His mother said no words to him, but tears started cascading down her old and weary face. She was gaunt and looked starved, not having enough money to eat properly. Amea said nothing, and retreated deep into the woods. He found a clear pond and gazed into it. He saw what he had become: a wild savage draped in human fingers. He could scarcely recognize himself anymore. A sudden wave of shame and horror crashed down upon Amea. Sick to the stomach, he renounced his banditry and led a reclusive life within a cave in the woods.
+#            От некогда светлого и доброго ученика не осталось и следа. Амей упивался насилием, становясь всё более беспощадным к своим жертвам. С каждым днём его ожерелье становилось длиннее. Вскоре он начал не только изувечивать своих жертв, но и грабить их, превратившись в самого страшного разбойника королевства. В лес отправляли отряд за отрядом, чтобы положить конец его кровавому правлению, но солдаты возвращались избитыми, с пустыми руками и без пальцев.
+#            После долгих лет разорения королевства настал судьбоносный день: на ожерелье Амея красовалось девятьсот девяносто девять пальцев. Он намеревался вернуться к своему учителю с этой жуткой ношей, убить его, а затем продолжить разбойничью жизнь. Теперь это был его путь. Когда через лес проезжала ничего не подозревающая повозка, запряжённая волом, Амей притаился в ветвях. Улучив момент, он спрыгнул вниз, перерезал горло вознице и быстро отсёк его палец. Но крика не последовало. Озадаченный тишиной, Амей обернулся и увидел одинокую женщину, сидевшую в повозке. Она смотрела на него с неприкрытым ужасом, отвращением и - что страшнее всего - разочарованием. Это была его мать. Амей открыл рот, но не смог вымолвить ни слова. Его мать тоже молчала, лишь слёзы текли по её измождённому лицу. Она выглядела истощённой - ей не хватало денег даже на еду. Не проронив ни слова, Амей скрылся в глубине леса. У чистого пруда он взглянул в воду и увидел, кем стал: диким зверем, увешанным человеческими пальцами. Он едва узнавал себя. Волна стыда и ужаса захлестнула его. Испытывая отвращение к самому себе, он отрёкся от разбойничьей жизни и поселился отшельником в лесной пещере.
 #            ---
 #            For years, people in the kingdom steered clear of Amea's woods. Nobody knew where the bandit had gone, but no one wanted to be his next victim. That was until a great wizard arrived at the kingdom. This sage was well known for spreading teachings of peace to those who wanted to listen. He had overheard rumors about Amea and was curious to meet the man. The citizens of the kingdom warned him not to journey into the woods, but the wizard chose to do so anyway. He walked into the woods without a staff or any weapon, carefree as could be.
 #            Amea soon heard footsteps from outside his cave and quickly grew angry that someone dared to disturb his solitude. He drew his sword and emerged from the cave to see the wizard nonchalantly walking away from him.
@@ -3102,9 +3102,9 @@
 #    }
 #
 #    Book_Gunslinger: {
-#        DisplayName: The Gunslinger
-#        Tooltip: by Usov Lynx
-#        Content: I saw him walk through town yesterday. For some days now townsfolk have been talking about the lone gunslinger who only goes where the earth takes him. Sounded like a bunch of garbage to me. Nobody really knew what he did, only ever been seen for a few moments at a time like some sort of cryptid. One of the old fellas at the saloon recalled having spoken to someone with a similar look years prior. He was apparently a gambling man, kept to himself most of the time. Another claimed he came over a hill to see this gunslinger take out a pack of antlions. Said his iron was so powerful it caused those buggers to explode like a stick of dynamite. Still, it all felt like a whole lot of ghost stories until that moment I saw him. His revolver was marked with some symbol from a playing card. Instead of a hat, he wore a tattered cloak with mysterious lettering on the back. He saw me and gave a slow nod, before continuing on his path.
+#        DisplayName: Стрелок
+#        Tooltip: Автор: Усов Линкс
+#        Content: Вчера я видел, как он прошёл через наш городок. Уже несколько дней горожане только и говорят об одиноком стрелке, который идёт туда, куда зовёт его земля. Мне всё это казалось чепухой. Никто толком не знал, чем он занимается - его видели лишь мельком, словно мифическое создание из старых легенд. Один старик в салуне вспомнил, что много лет назад разговаривал с кем-то похожим. Тот, по его словам, был азартным игроком, но держался в тени, избегая лишних взглядов. Другой утверждал, что видел, как стрелок за холмом уничтожил целую стаю муравьиных львов. Он говорил, что револьвер стрелка был столь мощным, что твари разлетались, будто от взрыва динамита. Всё это казалось мне просто байками, пока я сам его не увидел. На его револьвере красовался символ игральной карты. Вместо шляпы он носил потрёпанный плащ, на спине которого виднелись загадочные письмена. Заметив меня, он медленно кивнул и продолжил свой путь.
 #    }
 #
 #    Book_Jellyfish: {
@@ -5299,7 +5299,7 @@
 #    }
 #
 #    Brightbulb: {
-#        DisplayName: Brightbulb
+#        DisplayName: Светляк
 #        Tooltip: "'Intricate and versatile'"
 #    }
 #
@@ -5504,7 +5504,7 @@
 #    }
 #
 #    FishCrate: {
-#        DisplayName: Packing Crate
+#        DisplayName: Упаковочный ящик
 #        Tooltip:
 #            '''
 #            'A logo from a popular fishing company can be seen'
@@ -7937,7 +7937,7 @@
 #        Tooltip:
 #            '''
 #            {$CommonItemTooltip.RightClickToOpen}
-#            'May contain a fortune'
+#            'Может содержать сокровища'
 #            '''
 #    }
 #
@@ -7956,7 +7956,7 @@
 #        Tooltip:
 #            '''
 #            {$CommonItemTooltip.RightClickToOpen}
-#            'May contain a fortune'
+#            'Может содержать сокровища'
 #            '''
 #    }
 #
@@ -7966,44 +7966,44 @@
 #    }
 #
 #    PlatinumChest: {
-#        DisplayName: Platinum Strongbox
+#        DisplayName: Платиновый сейф
 #        Tooltip:
 #            '''
 #            {$CommonItemTooltip.RightClickToOpen}
-#            'May contain a fortune'
+#            'Может содержать сокровища'
 #            '''
 #    }
 #
 #    RegalCane: {
-#        DisplayName: Gilded Cane
+#        DisplayName: Позолоченная трость
 #        Tooltip: ""
 #    }
 #
 #    SilverChest: {
-#        DisplayName: Silver Lockbox
+#        DisplayName: Серебряный сундучок
 #        Tooltip:
 #            '''
 #            {$CommonItemTooltip.RightClickToOpen}
-#            'May contain a fortune'
+#            'Может содержать сокровища'
 #            '''
 #    }
 #
 #    HuskstalkStaff: {
-#        DisplayName: Huskstalk Staff
-#        Tooltip: Shoots consecutive leaves
+#        DisplayName: Посох сухостоя
+#        Tooltip: Выпускает последовательные залпы листьев
 #    }
 #
 #    OakHeart: {
-#        DisplayName: Oak Heart
+#        DisplayName: Дубовое сердце
 #        Tooltip:
 #            '''
-#            Hitting foes in quick succession causes poisonous spores to rain down
-#            More effective at close range
+#            При быстрых последовательных ударах по врагам вызывает дождь из ядовитых спор
+#            Эффективен на близком расстоянии
 #            '''
 #    }
 #
 #    GranitechGun: {
-#        DisplayName: Vector .109
+#        DisplayName: Вектор .109
 #        Tooltip: ""
 #    }
 #
@@ -8033,22 +8033,22 @@
 #    }
 #
 #    GraniteChest: {
-#        DisplayName: Granite Breastplate
-#        Tooltip: Increases jump height slightly
+#        DisplayName: Гранитный нагрудник
+#        Tooltip: Немного увеличивает высоту прыжка
 #    }
 #
 #    GraniteHelm: {
-#        DisplayName: Granite Visor
-#        Tooltip: Increases jump height slightly
+#        DisplayName: Гранитное забрало
+#        Tooltip: Немного увеличивает высоту прыжка
 #    }
 #
 #    GraniteLegs: {
-#        DisplayName: Granite Greaves
-#        Tooltip: Increases jump height slightly
+#        DisplayName: Гранитные поножи
+#        Tooltip: Немного увеличивает высоту прыжка
 #    }
 #
 #    GraniteAxe: {
-#        DisplayName: Granite Axe
+#        DisplayName: Гранитный топор
 #        Tooltip: ""
 #    }
 #
@@ -9333,20 +9333,20 @@
 #    }
 #
 #    DesertTome: {
-#        DisplayName: Khamsin
+#        DisplayName: Хамсин
 #        Tooltip:
 #            '''
-#            Creats a violent sandnado from the player
-#            Enemies caught by the tornado are lifted upwards
+#            Создаёт мощный песчаный вихрь вокруг игрока
+#            Враги, попавшие в вихрь, поднимаются в воздух
 #            '''
 #    }
 #
 #    EelRod: {
-#        DisplayName: Eel Tail
+#        DisplayName: Хвост угря
 #        Tooltip:
 #            '''
-#            Shoots a bolt of lightning that pauses occasionally and redirects to nearby foes
-#            Sometimes electrifies hit foes
+#            Выпускает молнию, которая периодически замедляется и меняет направление, нацеливаясь на ближайших врагов
+#            Поражённые враги иногда получают дебафф «{$BuffName.Electrified}»
 #            '''
 #    }
 #
@@ -10725,7 +10725,7 @@
 #    }
 #
 #    GoldLumoth: {
-#        DisplayName: Gold Lumoth
+#        DisplayName: Золотой люмос
 #        Entry: Rarely, critters are found coated entirely in gold! Shopkeepers will pay handsomely for these, or you can show them off in cages!
 #    }
 #
@@ -10760,7 +10760,7 @@
 #    }
 #
 #    Lumoth: {
-#        DisplayName: Lumoth
+#        DisplayName: Люмос
 #        Entry: The bulb only stays on while the Lumoth flaps its wings.
 #    }
 #
@@ -10817,7 +10817,7 @@
 #    }
 #
 #    RedSnapper: {
-#        DisplayName: Red Snapper
+#        DisplayName: Красный луциан
 #        Entry: Despite their name, they are actually quite docile! Perfect for capturing and cooking without issue.
 #    }
 #
@@ -11407,44 +11407,44 @@
 #        DisplayName: Ensnared Adventurer
 #
 #        TownNPCMood: {
-#            Content: I am content.
-#            NoHome: I hate not having a home.
-#            FarFromHome: I am too far from home.
-#            LoveSpace: I love having so much space.
-#            DislikeCrowded: I dislike how crowded I am.
-#            HateCrowded: I hate how crowded I am.
-#            LikeNPC_Princess: I like {NPCName}.
-#            Princess_LovesNPC: I like {NPCName}.
+#            Content: Меня всё устраивает.
+#            NoHome: Мне не нравится быть бездомным.
+#            FarFromHome: Я слишком далеко от дома.
+#            LoveSpace: Мне нравится, когда вокруг столько места.
+#            DislikeCrowded: Мне не по душе такая теснота.
+#            HateCrowded: Терпеть не могу эту толкучку.
+#            LikeNPC_Princess: Мне нравится {NPCName}.
+#            Princess_LovesNPC: Мне нравится {NPCName}.
 #        }
 #    }
 #
 #    BoundGambler: {
-#        DisplayName: Bound Gambler
+#        DisplayName: Связанная азартная торговка
 #
 #        TownNPCMood: {
-#            Content: I am content.
-#            NoHome: I hate not having a home.
-#            FarFromHome: I am too far from home.
-#            LoveSpace: I love having so much space.
-#            DislikeCrowded: I dislike how crowded I am.
-#            HateCrowded: I hate how crowded I am.
-#            LikeNPC_Princess: I like {NPCName}.
-#            Princess_LovesNPC: I like {NPCName}.
+#            Content: Меня всё устраивает.
+#            NoHome: Мне не нравится быть бездомным.
+#            FarFromHome: Я слишком далеко от дома.
+#            LoveSpace: Мне нравится, когда вокруг столько места.
+#            DislikeCrowded: Мне не по душе такая теснота.
+#            HateCrowded: Терпеть не могу эту толкучку.
+#            LikeNPC_Princess: Мне нравится {NPCName}.
+#            Princess_LovesNPC: Мне нравится {NPCName}.
 #        }
 #    }
 #
 #    BoundRogue: {
-#        DisplayName: Bound Bandit
+#        DisplayName: Связанный бандит
 #
 #        TownNPCMood: {
-#            Content: I am content.
-#            NoHome: I hate not having a home.
-#            FarFromHome: I am too far from home.
-#            LoveSpace: I love having so much space.
-#            DislikeCrowded: I dislike how crowded I am.
-#            HateCrowded: I hate how crowded I am.
-#            LikeNPC_Princess: I like {NPCName}.
-#            Princess_LovesNPC: I like {NPCName}.
+#            Content: Меня всё устраивает.
+#            NoHome: Мне не нравится быть бездомным.
+#            FarFromHome: Я слишком далеко от дома.
+#            LoveSpace: Мне нравится, когда вокруг столько места.
+#            DislikeCrowded: Мне не по душе такая теснота.
+#            HateCrowded: Терпеть не могу эту толкучку.
+#            LikeNPC_Princess: Мне нравится {NPCName}.
+#            Princess_LovesNPC: Мне нравится {NPCName}.
 #        }
 #    }
 #
@@ -11452,21 +11452,21 @@
 #        DisplayName: Азартная торговка
 #
 #        TownNPCMood: {
-#            Content: "{$Mods.SpiritMod.TownNPC.Gambler.Mood.Content}"
-#            NoHome: "{$Mods.SpiritMod.TownNPC.Gambler.Mood.NoHome}"
-#            FarFromHome: "{$Mods.SpiritMod.TownNPC.Gambler.Mood.FarFromHome}"
-#            LoveSpace: "{$Mods.SpiritMod.TownNPC.Gambler.Mood.LoveSpace}"
-#            DislikeCrowded: "{$Mods.SpiritMod.TownNPC.Gambler.Mood.DislikeCrowded}"
-#            HateCrowded: "{$Mods.SpiritMod.TownNPC.Gambler.Mood.HateCrowded}"
-#            HateBiome: "{$Mods.SpiritMod.TownNPC.Gambler.Mood.HateBiome}"
-#            LikeBiome: "{$Mods.SpiritMod.TownNPC.Gambler.Mood.LikeBiome}"
-#            DislikeBiome: "{$Mods.SpiritMod.TownNPC.Gambler.Mood.DislikeBiome}"
-#            LoveNPC: "{$Mods.SpiritMod.TownNPC.Gambler.Mood.LoveNPC}"
-#            LikeNPC: "{$Mods.SpiritMod.TownNPC.Gambler.Mood.LikeNPC}"
-#            DislikeNPC: "{$Mods.SpiritMod.TownNPC.Gambler.Mood.DislikeNPC}"
-#            HateNPC: "{$Mods.SpiritMod.TownNPC.Gambler.Mood.HateNPC}"
-#            LikeNPC_Princess: "{$Mods.SpiritMod.TownNPC.Gambler.Mood.LikeNPC_Princess}"
-#            Princess_LovesNPC: I like {NPCName}.
+#            Content: While we're both taking a minute here, why not open a box or two?
+#            NoHome: I need a place to call my own - where'll I setup a spot otherwise?
+#            FarFromHome: Money is one thing, but I'm not about gambling with my life. Where's my home?
+#            LoveSpace: I'm the gamblin' type but I'm not the casino type - I love it nice and calm.
+#            DislikeCrowded: There's such a thing as too many cooks in the casino, if you catch my drift.
+#            HateCrowded: People keep knocking over my loot boxes! How am I supposed to sell here?
+#            HateBiome: I CANNOT be making cash flow here.
+#            LikeBiome: Ah, {BiomeName}. Just the perfect place to set up shop.
+#            DislikeBiome: No one likes to gamble in the humidity. The coins get all wet and gross!
+#            LoveNPC: Once, I upsold a wooden chest to {NPCName} for a quick buck. He opened it and there were like, three hundred ducks in there. I've never been so confused and amazed.
+#            LikeNPC: My hair? That's {NPCName}'s pride and joy. She does a wonderful job.
+#            DislikeNPC: Unlike {NPCName}, I don't hoard my wealth.
+#            HateNPC: Say what you want about ME, but is what {NPCName} does even legal?
+#            LikeNPC_Princess: Y'know, {NPCName} has some spunk. She's fierce, and you could be too!
+#            Princess_LovesNPC: "{NPCName}'s style is awesome. You can tell she's confident."
 #        }
 #
 #        Entry: The Gambler has long lived life on the edge, lending herself to the whims of fate. While this makes her an ardent player, it also once bound her to the top of a goblin fortress.
@@ -11483,14 +11483,14 @@
 #        DisplayName: Oracle
 #
 #        TownNPCMood: {
-#            Content: I am content.
-#            NoHome: I hate not having a home.
-#            FarFromHome: I am too far from home.
-#            LoveSpace: I love having so much space.
-#            DislikeCrowded: I dislike how crowded I am.
-#            HateCrowded: I hate how crowded I am.
-#            LikeNPC_Princess: I like {NPCName}.
-#            Princess_LovesNPC: I like {NPCName}.
+#            Content: Меня всё устраивает.
+#            NoHome: Мне не нравится быть бездомным.
+#            FarFromHome: Я слишком далеко от дома.
+#            LoveSpace: Мне нравится, когда вокруг столько места.
+#            DislikeCrowded: Мне не по душе такая теснота.
+#            HateCrowded: Терпеть не могу эту толкучку.
+#            LikeNPC_Princess: Мне нравится {NPCName}.
+#            Princess_LovesNPC: Мне нравится {NPCName}.
 #        }
 #
 #        Dialogue: {
@@ -11534,26 +11534,26 @@
 #    }
 #
 #    Rogue: {
-#        DisplayName: Bandit
+#        DisplayName: Бандит
 #
 #        TownNPCMood: {
-#            Content: "{$Mods.SpiritMod.TownNPC.Rogue.Mood.Content}"
-#            NoHome: "{$Mods.SpiritMod.TownNPC.Rogue.Mood.NoHome}"
-#            FarFromHome: "{$Mods.SpiritMod.TownNPC.Rogue.Mood.FarFromHome}"
-#            LoveSpace: "{$Mods.SpiritMod.TownNPC.Rogue.Mood.LoveSpace}"
-#            DislikeCrowded: "{$Mods.SpiritMod.TownNPC.Rogue.Mood.DislikeCrowded}"
-#            HateCrowded: "{$Mods.SpiritMod.TownNPC.Rogue.Mood.HateCrowded}"
-#            LikeBiome: "{$Mods.SpiritMod.TownNPC.Rogue.Mood.LikeBiome}"
-#            DislikeBiome: "{$Mods.SpiritMod.TownNPC.Rogue.Mood.DislikeBiome}"
-#            LoveNPC: "{$Mods.SpiritMod.TownNPC.Rogue.Mood.LoveNPC}"
-#            LikeNPC: "{$Mods.SpiritMod.TownNPC.Rogue.Mood.LikeNPC}"
-#            DislikeNPC: "{$Mods.SpiritMod.TownNPC.Rogue.Mood.DislikeNPC}"
-#            HateNPC: "{$Mods.SpiritMod.TownNPC.Rogue.Mood.HateNPC}"
-#            LikeNPC_Princess: "{$Mods.SpiritMod.TownNPC.Rogue.Mood.LikeNPC_Princess}"
-#            Princess_LovesNPC: I like {NPCName}.
+#            Content: Триста... четыреста... ничто не сравнится с подсчётом добычи после... тяжёлого дня работы!
+#            NoHome: Где прикажешь прятать то, что я укр... нашёл, если у меня нет дома?
+#            FarFromHome: Кто-то украл и унёс мой дом? Понятия не имею, где он.
+#            LoveSpace: Вдали от любопытных глаз - просто идеально.
+#            DislikeCrowded: Слишком много народу, на меня косо поглядывают.
+#            HateCrowded: При такой толпе я не виноват, если случится 'несчастный случай', и станет посвободнее. Понимаешь?
+#            LikeBiome: Столько укрытий! Столько мест, где можно спрятаться! Чудесное место.
+#            DislikeBiome: Здесь СЛИШКОМ много конкурентов - вытащи меня отсюда!
+#            LoveNPC: Я, конечно, не инженер, но штуки, которые делает {NPCName}, просто потрясающие. Может, даже заплачу за них в этот раз!
+#            LikeNPC: "{NPCName} пару раз помог мне пройти через опасные места - отличный парень."
+#            DislikeNPC: А, {NPCName}? Скажем так, он не против испытать парочку своих взрывчаток.
+#            HateNPC: Позволь рассказать... этот {NPCName}? Он на взводе, буквально. Я стянул всего пару монет, клянусь!
+#            LikeNPC_Princess: "{NPCName} обещала хранить мой секрет в своём сердце... которого у меня нет. Кыш."
+#            Princess_LovesNPC: Иногда {NPCName} приносит мне классные вещи. И говорит, что они бесплатные!
 #        }
 #
-#        Entry: A dashing rogue with a past shrouded in mystery. Whether he can be trusted or not is unclear, but he would gladly teach you the tricks of the trade regardless.
+#        Entry: Лихой разбойник с загадочным прошлым. Можно ли ему доверять - вопрос спорный, но он с радостью научит вас своим трюкам.
 #        Census.SpawnCondition:
 #            '''
 #            Rescue the Bandit from the Bandit Hideout
@@ -11565,19 +11565,19 @@
 #        DisplayName: Enchanter
 #
 #        TownNPCMood: {
-#            Content: "{$Mods.SpiritMod.TownNPC.RuneWizard.Mood.Content}"
-#            NoHome: "{$Mods.SpiritMod.TownNPC.RuneWizard.Mood.NoHome}"
-#            FarFromHome: "{$Mods.SpiritMod.TownNPC.RuneWizard.Mood.FarFromHome}"
-#            LoveSpace: "{$Mods.SpiritMod.TownNPC.RuneWizard.Mood.LoveSpace}"
-#            DislikeCrowded: "{$Mods.SpiritMod.TownNPC.RuneWizard.Mood.DislikeCrowded}"
-#            HateCrowded: "{$Mods.SpiritMod.TownNPC.RuneWizard.Mood.HateCrowded}"
-#            LikeBiome: "{$Mods.SpiritMod.TownNPC.RuneWizard.Mood.LikeBiome}"
-#            DislikeBiome: "{$Mods.SpiritMod.TownNPC.RuneWizard.Mood.DislikeBiome}"
-#            LoveNPC: "{$Mods.SpiritMod.TownNPC.RuneWizard.Mood.LoveNPC}"
-#            LikeNPC: "{$Mods.SpiritMod.TownNPC.RuneWizard.Mood.LikeNPC}"
-#            HateNPC: "{$Mods.SpiritMod.TownNPC.RuneWizard.Mood.HateNPC}"
-#            LikeNPC_Princess: "{$Mods.SpiritMod.TownNPC.RuneWizard.Mood.LikeNPC_Princess}"
-#            Princess_LovesNPC: I like {NPCName}.
+#            Content: The runes are coming along nicely today.
+#            NoHome: I don't have any space for my runes!
+#            FarFromHome: I don't know if you could guess, but I'd strongly prefer to be near my beloved runes.
+#            LoveSpace: The magic flows much easier in the calm.
+#            DislikeCrowded: It's hard to focus when there's so many people around!
+#            HateCrowded: With this many people around, I can only wish there were a Silence Glyph.
+#            LikeBiome: I've never been more in tune with the runic magic! This place is wonderful.
+#            DislikeBiome: This place is just too much. Way too much. Let me out.
+#            LoveNPC: "{NPCName} and I frequently talk of our work - it's fascinating how he can enchant without any knowledge of magic."
+#            LikeNPC: Sometimes, {NPCName} will ask me to enchant some of his wares...I always put a blank enchant on them. He is overjoyed every time.
+#            HateNPC: "{NPCName} doesn't understand the power of runes...it's all 'Ice Rod this' and 'Crystal Ball' that..."
+#            LikeNPC_Princess: There's always a magic in {NPCName}'s eyes when I do a trick. It's the little things, haha.
+#            Princess_LovesNPC: "{NPCName} gave me a glitter rune! Yay!"
 #        }
 #
 #        Entry: This tired rune scribe has spent sleepless nights studying the ancient magic found in glyphs. He's not much of a conversationalist, but he'll gladly empower your arsenal.
@@ -11698,19 +11698,19 @@
 #        }
 #
 #        AnglerStatueQuest: {
-#            Name: Fishy Business
-#            Description: I'd like to think that I'm the best fisherman in the world. Actually, I know I am! But I've heard some pesky rumors about crates washing ashore that are filled with way more fish than I could catch. I need you to go to the beach and prove those rumors wrong. Why? Because I said so! Hop to it!
-#            AppeaseLine: Appease him by catching
-#            TalkLine: Talk to the Angler
-#            AskGuide: Or ask the Guide what to do
-#            AnglerStatueDemand: *sniff* What do you want? You want to try to cheer me up? What's that? You'll do ANYTHING? What do ya mean, that's not what you said? Too bad! I want you to melt those disgusting Packing Crates down and build a giant, buff, half-shark, half-angler statue to show my dominance over those factory losers! You said you'd do it, so shoo!
-#            CatchTooManyFish: How is this supposed to make me feel better? Are you trying to show me up, too?! You should just stick to running my errands and catching my fish. Thanks for nothing!
-#            GuideCheckin: The Angler's upset, huh? Well, he is just a kid- I suppose it makes sense for him to be hurt by something like this. This may be a bit, well, demanding, but I suppose you should check in with him to see if anything would make him feel better.
-#            GiveToAngler: Give the Red Snappers to the Angler
-#            ShowAnglerCreation: Show the Angler your creation
-#            ShowAnglerCrates: Show the Packing Crates to the Angler
-#            CheerUp: This is the most amazing thing ever! Industrial fishing will never break my spirit, and I'm sure they don't have a half-man, half-shark statue like this one! You've impressed me today, so I'll actually give you a reward. Make sure to put that statue up pronto! I'm going to ask the Merchant to sell copies, so tell your friends (if you have any)!
-#            Defeated: WHAT?! Industrial... scale? Machine powered? Factory farming? I thought I was the best angler around! This sucks. *sniffle* Thanks for putting me in a rotten mood, loser. Leave me alone!
+#            Name: Рыбное дельце
+#            Description: Я считаю себя лучшим рыбаком в мире. Хотя, кого я обманываю - я и есть лучший! Но тут до меня дошли надоедливые слухи о том, что к берегу прибивает ящики, полные рыбы. Причём рыбы в них больше, чем я мог бы поймать сам. Мне нужно, чтобы ты сходил на пляж и доказал, что эти слухи - враньё. Почему? Да потому что я так сказал! За работу!
+#            AppeaseLine: Утешить рыбака, поймав рыбу
+#            TalkLine: Поговорить с рыбаком
+#            AskGuide: Или спросить у гида, что делать
+#            AnglerStatueDemand: *шмыгает носом* Чего тебе? Хочешь подбодрить меня? Что? Готов сделать ВСЁ, что угодно? Что значит, ты этого не говорил? Слишком поздно! Я хочу, чтобы ты переплавил эти противные упаковочные ящики и построил огромную статую - наполовину акулу, наполовину рыбака, чтобы показать моё превосходство над этими фабричными неудачниками! Ты обещал - так что дуй отсюда!
+#            CatchTooManyFish: И как это должно меня подбодрить? Ты что, тоже решил показать, что ловишь больше меня?! Лучше просто выполняй мои поручения и лови мою рыбу. Спасибо ни за что!
+#            GuideCheckin: Рыбак расстроен, да? Ну, он ведь ещё ребёнок, так что неудивительно, что его это задело. Это может показаться немного... чрезмерным, но, думаю, тебе стоит узнать, что могло бы поднять ему настроение.
+#            GiveToAngler: Отдайть рыбаку красных луцианов
+#            ShowAnglerCreation: Показать рыбаку сделанную вами статую
+#            ShowAnglerCrates: Показать рыбаку упаковочные ящики
+#            CheerUp: Это лучшее, что я когда-либо видел! Промышленному рыболовству никогда меня не сломить, да и такой статуи - наполовину акула, наполовину рыбак - у них точно нет! Сегодня ты меня впечатлил, так что я даже дам тебе награду. Поставь эту статую где-нибудь на видном месте! А я попрошу торговца продавать её копии. Расскажи об этом своим друзьям (если они у тебя есть)!
+#            Defeated: ЧТО?! Промышленные... масштабы? Машины? Массовое производство рыбы? А я-то думал, что я лучший рыбак в округе! Вот же гадство. *всхлипывая* Спасибо, что испортил мне настроение, неудачник. Оставь меня в покое!
 #        }
 #
 #        AuroraStagQuest: {
@@ -12557,25 +12557,6 @@
 #                '''
 #        }
 #
-#        Mood: {
-#            Content: While we're both taking a minute here, why not open a box or two?
-#            NoHome: I need a place to call my own - where'll I setup a spot otherwise?
-#            LoveSpace: I'm the gamblin' type but I'm not the casino type - I love it nice and calm.
-#            FarFromHome: Money is one thing, but I'm not about gambling with my life. Where's my home?
-#            DislikeCrowded: There's such a thing as too many cooks in the casino, if you catch my drift.
-#            HateCrowded: People keep knocking over my loot boxes! How am I supposed to sell here?
-#            LikeBiome: Ah, {BiomeName}. Just the perfect place to set up shop.
-#            LoveBiome: Вы не должны это видеть.
-#            DislikeBiome: No one likes to gamble in the humidity. The coins get all wet and gross!
-#            HateBiome: I CANNOT be making cash flow here.
-#            LikeNPC: My hair? That's {NPCName}'s pride and joy. She does a wonderful job.
-#            LoveNPC: Once, I upsold a wooden chest to {NPCName} for a quick buck. He opened it and there were like, three hundred ducks in there. I've never been so confused and amazed.
-#            DislikeNPC: Unlike {NPCName}, I don't hoard my wealth.
-#            HateNPC: Say what you want about ME, but is what {NPCName} does even legal?
-#            LikeNPC_Princess: Y'know, {NPCName} has some spunk. She's fierce, and you could be too!
-#            Princess_LovesNPC: "{NPCName}'s style is awesome. You can tell she's confident."
-#        }
-#
 #        Name1: Yumeko
 #        Name2: Vanessa
 #        Name3: Gray
@@ -12599,25 +12580,6 @@
 #            Bound: Hey! Thanks for saving me- Now, mind getting us out of this pickle? They duped me, took all my cash and left me for dead here! Don't think it means I'll discount my wares for you, though. Just kidding! Not.
 #        }
 #
-#        Mood: {
-#            Content: Three hundred...four hundred...nothing beats counting up a...hard day's work!
-#            NoHome: Where am I supposed to hide what I st- find, if I don't have a house?
-#            LoveSpace: Away from all prying eyes, perfect, perfect.
-#            FarFromHome: Did someone steal my house and take it? I'm not sure where it is.
-#            DislikeCrowded: Too many people, I'm getting some side eyes.
-#            HateCrowded: With this level of crowding, it's not my fault if an 'accident' happens and thins the herd, y'know?
-#            LikeBiome: So much cover! So many places to hide! A wonderful place.
-#            LoveBiome: Вы не должны это видеть.
-#            DislikeBiome: I have WAY too much competition here - get me OUT!
-#            HateBiome: You houldn't see this either!
-#            LikeNPC: "{NPCName} actually helped me cross some sketchy areas a couple of times - great guy."
-#            LoveNPC: I'm no engineer, but the stuff {NPCName} makes is so cool. I might even pay for it this time!
-#            DislikeNPC: Oh, {NPCName}? Let's just say he's not against testing a couple of his explosives.
-#            HateNPC: Let me tell you...that {NPCName} guy? On a hairpin trigger, literally. I only lifted a couple coins, I swear!
-#            LikeNPC_Princess: "{NPCName} said she'd keep my secret close to her heart...of which I have none. Shoo."
-#            Princess_LovesNPC: Sometimes {NPCName} gets me cool things. He says it's all free too!
-#        }
-#
 #        Name1: Zane
 #        Name2: Carlos
 #        Name3: Tycho
@@ -12639,26 +12601,6 @@
 #            Basic7: Anything can be enchanted if you possess the skill, wit, and essence!
 #            Special1: I wonder what enchantements have been placed on the moon - It's all blue!
 #            Special2: The resurgence of Spirits offer a whole level of enchanting possibility!
-#        }
-#
-#        Mood: {
-#            Content: The runes are coming along nicely today.
-#            NoHome: I don't have any space for my runes!
-#            LoveSpace: The magic flows much easier in the calm.
-#            FarFromHome: I don't know if you could guess, but I'd strongly prefer to be near my beloved runes.
-#            DislikeCrowded: It's hard to focus when there's so many people around!
-#            HateCrowded: With this many people around, I can only wish there were a Silence Glyph.
-#            LikeBiome: I've never been more in tune with the runic magic! This place is wonderful.
-#            LoveBiome: Вы не должны это видеть.
-#            DislikeBiome: This place is just too much. Way too much. Let me out.
-#            HateBiome: You houldn't see this either!
-#            # LikeNPC: "Ah, {NPCName}? We know nothing of each other's craft - yet, still a fascinating man. Nice fashion too, unique." - Removed Witch Doctor dialogue
-#            LikeNPC: Sometimes, {NPCName} will ask me to enchant some of his wares...I always put a blank enchant on them. He is overjoyed every time.
-#            LoveNPC: "{NPCName} and I frequently talk of our work - it's fascinating how he can enchant without any knowledge of magic."
-#            DislikeNPC: I don't dislike anyone!
-#            HateNPC: "{NPCName} doesn't understand the power of runes...it's all 'Ice Rod this' and 'Crystal Ball' that..."
-#            LikeNPC_Princess: There's always a magic in {NPCName}'s eyes when I do a trick. It's the little things, haha.
-#            Princess_LovesNPC: "{NPCName} gave me a glitter rune! Yay!"
 #        }
 #
 #        Name1: Malachai
@@ -12685,41 +12627,41 @@
 #        }
 #
 #        GoblinTinkerer: {
-#            RuneWizard: Me and {N} share experience daily - his magic is fascinating! A wonder to speak to.
-#            Gambler: "{N} reminds me of my people. Lazy sellers peddling you MORE spiky balls for ABSURD prices..."
+#            RuneWizard: Мы с {N} ежедневно обмениваемся опытом - его магия поистине завораживает! Общаться с ним - одно удовольствие.
+#            Gambler: "{N} напоминает мне моих соплеменников. Ленивые торговцы, впаривающие тебе ЕЩЁ больше колючих шаров по БЕЗУМНЫМ ценам..."
 #        }
 #
 #        ArmsDealer: {
-#            Rogue1: "{N}? That little pest. Tried to take my Minishark without coughing up the cash."
-#            Rogue2: I've never seen a man as annoying as that {N}. Thankfully, I have ways to keep him gone.
-#            Adventurer: I know {N}. That guy's not too bad. Especially once he stopped selling guns, heh.
+#            Rogue1: "{N}? Эта мелкая заноза. Пытался стащить мою Мини-акулу, не заплатив ни копейки."
+#            Rogue2: Я не встречал никого противнее, чем {N}. К счастью, я знаю, как от него избавиться.
+#            Adventurer: Я знаю {N}. Он не такой уж плохой парень. Особенно после того, как перестал торговать оружием, хех.
 #        }
 #
 #        Demolitionist: {
-#            RuneWizard: Bahaha! That {N} guy is a hoot. He enchants my goods free of charge!
-#            Rogue: "{N}'s a bit of a wily fellow, but any fella who's good on buyin' a round gets my respect!"
+#            RuneWizard: Ха-ха-ха! Этот {N} - настоящий весельчак. Зачаровывает мои товары бесплатно!
+#            Rogue: "{N} - хитрая личность, но любой, кто готов угостить выпивкой, заслуживает моего уважения!"
 #        }
 #
-#        Golfer.Gambler: Who's {N} and why does she want to sell me "[RARE] GOLF LOOTBOXES"?
-#        DD2Bartender.Adventurer: That {N} knows how to tell a good story. Doesn't even buy that much drink, but I enjoy it nonetheless.
-#        Nurse.Gambler: Ahem..."Buy yourself a couple boxes and you won't need healing!" Did {N} really tell me to read you an ad?
-#        BestiaryGirl.Adventurer: Like, {N} really knows a lot about animals. He's totes cool!
+#        Golfer.Gambler: Кто такая {N} и почему она пытается продать мне 'РЕДКИЕ ЛУТБОКСЫ ДЛЯ ГОЛЬФА'?
+#        DD2Bartender.Adventurer: Этот {N} умеет рассказывать классные истории. Хоть и не так много пьёт, но слушать его - одно удовольствие.
+#        Nurse.Gambler: Кхм...'Купи пару лутбоксов, и лечение не понадобится!' {N} действительно сказала мне прочитать тебе эту рекламу?
+#        BestiaryGirl.Adventurer: Типа, {N} реально много знает о животных. Он просто супер-крут!
 #    }
 #}
 #
 #WorldGen: {
-#    AmbientObjects: Добавляем мелкие детали
-#    Briar: Creating the Briar
-#    BriarTwo: Growing the Briar
-#    Boulders: Размещаем валуны
-#    HerosMemorial: Чтим память героя
-#    Stargrass: Stargazing grass
-#    SinkingSurface: Прячем травяные участки
-#    Waterfalls: Добавляем текущую воду
-#    Sepulchre: Building Dark Sepulchres
-#    Caches: Разбрасываем руины
-#    Pagoda: Наполняем небо мистикой
-#    Hideouts: Строим укрытия
-#    AvianIslands: Гнездим яйца
-#    Asteroids: Создаём пояс астероидов
+#    AmbientObjects: Добавление мелких деталей...
+#    Briar: Засаживание порослью...
+#    BriarTwo: Распускание поросли...
+#    Boulders: Размещение валунов...
+#    HerosMemorial: Почитание памяти героя...
+#    Stargrass: Stargazing grass...
+#    SinkingSurface: Прятание травяных участков...
+#    Waterfalls: Создание потоков воды...
+#    Sepulchre: Воздвижение тёмных гробниц...
+#    Caches: Разбрасывание руин...
+#    Pagoda: Наполнение неба мистикой...
+#    Hideouts: Строительство укрытий...
+#    AvianIslands: Гнездование яиц...
+#    Asteroids: Формирование пояса астероидов...
 #}

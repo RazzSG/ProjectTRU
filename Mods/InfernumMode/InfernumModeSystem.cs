@@ -4,7 +4,6 @@ using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
 using InfernumMode.Assets.Fonts;
 using InfernumMode.Common.DataStructures;
-using InfernumMode.Content.Credits;
 using ReLogic.Content;
 using ReLogic.Graphics;
 using Terraria.Localization;
@@ -29,15 +28,5 @@ public class InfernumModeSystem : ModSystem
         
         PropertyInfo profanedTextProperty = typeof(InfernumFontRegistry).GetProperty("ProfanedTextFont", BindingFlags.Public | BindingFlags.Static);
         profanedTextProperty?.SetValue(typeof(LocalizedSpriteFont), new LocalizedSpriteFont(profanedTextFont).WithLanguage(GameCulture.CultureName.Russian, profanedTextFont));
-
-        string[] headers = typeof(CreditManager).GetFieldValue<string[]>("Headers");
-        headers[0] = "Программисты";
-        headers[1] = "Музыкант";
-        headers[2] = "Художники";
-        headers[3] = "Тестировщики";
-        headers[4] = "Тестировщики";
-        headers[5] = "Тестировщики";
-        headers[6] = "Тестировщики";
-        headers[7] = "Переводчики официального перевода";
     }
 }

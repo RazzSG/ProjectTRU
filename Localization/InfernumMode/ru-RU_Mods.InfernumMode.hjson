@@ -1966,3 +1966,20 @@ UI: {
         Butcher: Атомизировать всех враждебных НИПов
     }
 }
+
+CreditsHeaders: {
+    ProgramHeader: Программисты
+    MusicHeader: Музыкант
+    ArtHeader: Художники
+    TestHeader: Тестировщики
+    TranslateHeader: Переводчики
+    SupportHeader: Поддержка мода
+}
+
+WorldGen: {
+    BlossomGarden: Выращивание сада...
+    EggShrine: Сокрытие яиц...
+    TabletPedestal: Размещение пьедестала...
+    LostColosseum: Создание Затерянного Колизея...
+    ProfanedGarden: Возведение храма древней богини...
+}
