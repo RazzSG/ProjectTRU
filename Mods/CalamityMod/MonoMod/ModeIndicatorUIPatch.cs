@@ -7,6 +7,10 @@ using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
 using CalamityRuTranslate.Core.MonoMod;
+using Microsoft.Xna.Framework;
+using Mono.Cecil.Cil;
+using MonoMod.Cil;
+using Terraria;
 using Terraria.Localization;
 
 namespace CalamityRuTranslate.Mods.CalamityMod.MonoMod;
@@ -45,4 +49,26 @@ public class ModeIndicatorUIPatch : OnPatcher
             text = CalamityUtils.GetText("UI.DifficultyStatusText").WithFormatArgs(name, textValue2.ToLower());
         }
     }
+}
+
+public class ModeIndicatorUIDrawPatch : ILPatcher
+{
+    public override bool AutoLoad => ModInstances.Calamity != null && TRuConfig.Instance.CalamityModLocalization && TranslationHelper.IsRussianLanguage;
+    
+    public override MethodInfo ModifiedMethod => typeof(ModeIndicatorUI).GetCachedMethod(nameof(ModeIndicatorUI.Draw));
+
+    public override ILContext.Manipulator PatchMethod { get; } = il =>
+    {
+        ILCursor cursor = new(il);
+        
+        cursor.TryGotoNext(MoveType.After, i => i.MatchLdfld<Vector2>("X"));
+        cursor.TryGotoNext(MoveType.After, i => i.MatchLdloc(15));
+        cursor.Emit(OpCodes.Pop);
+        cursor.Emit(OpCodes.Ldloc, 18);
+        cursor.TryGotoNext(MoveType.After, i => i.MatchLdsfld<Main>("screenWidth"));
+        cursor.TryGotoNext(MoveType.After, i => i.MatchConvR4());
+        cursor.TryGotoNext(MoveType.After, i => i.MatchLdloc(15));
+        cursor.Emit(OpCodes.Pop);
+        cursor.Emit(OpCodes.Ldloc, 18);
+    };
 }
