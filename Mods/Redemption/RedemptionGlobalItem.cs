@@ -2,20 +2,15 @@
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
-using Redemption.Globals;
 using Redemption.Items.Accessories.HM;
-using Redemption.Items.Accessories.PostML;
 using Redemption.Items.Armor.Vanity.SkySquire;
 using Redemption.Items.Placeable.Furniture.Misc;
-using Redemption.Items.Usable.Summons;
-using Redemption.Items.Weapons.HM.Summon;
 using Redemption.Items.Weapons.PreHM.Ammo;
 using Redemption.Items.Weapons.PreHM.Melee;
 using Redemption.Items.Weapons.PreHM.Ranged;
 using Redemption.Items.Weapons.PreHM.Summon;
 using Redemption.Rarities;
 using Terraria;
-using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
 
@@ -79,19 +74,6 @@ public partial class RedemptionGlobalItem : GlobalItem
             ItemHelper.TranslateTooltip(tooltips, "Lore", tooltip =>
             {
                 tooltip.Text = "'Некогда великий капитан, для некоторых ставший легендой, даже после смерти продолжал бороздить моря, ведя свою призрачную команду к неизведанным землям\nЛишь при ярчайшем свете луны могли они ступить на берег\nДо тех пор они были обречены вечно преследовать волны, а самый густой туман оставался их единственным спутником'";
-            });
-        }
-
-        if (item.type == ModContent.ItemType<CruxCardHazmatZombie>())
-        {
-            ItemHelper.TranslateTooltip(tooltips, "MaxLife", tooltip =>
-            {
-                tooltip.Text = "1120 ед. базового здоровья";
-            });
-            
-            ItemHelper.TranslateTooltip(tooltips, "Defense", tooltip =>
-            {
-                tooltip.Text = "20 ед. защиты";
             });
         }
         

@@ -1560,11 +1560,11 @@
 #    }
 #
 #    BloodfireShield: {
-#        DisplayName: Sanguine Scutum
+#        DisplayName: Кровавый скутум
 #        Tooltip:
 #            '''
-#            Reduces life regen to 0
-#            Increases maximum HP by 40
+#            Снижает регенерацию здоровья до 0
+#            Увеличивает максимальный запас здоровья на 40
 #            '''
 #    }
 #
@@ -3017,14 +3017,14 @@
 #            От некогда светлого и доброго ученика не осталось и следа. Амей упивался насилием, становясь всё более беспощадным к своим жертвам. С каждым днём его ожерелье становилось длиннее. Вскоре он начал не только изувечивать своих жертв, но и грабить их, превратившись в самого страшного разбойника королевства. В лес отправляли отряд за отрядом, чтобы положить конец его кровавому правлению, но солдаты возвращались избитыми, с пустыми руками и без пальцев.
 #            После долгих лет разорения королевства настал судьбоносный день: на ожерелье Амея красовалось девятьсот девяносто девять пальцев. Он намеревался вернуться к своему учителю с этой жуткой ношей, убить его, а затем продолжить разбойничью жизнь. Теперь это был его путь. Когда через лес проезжала ничего не подозревающая повозка, запряжённая волом, Амей притаился в ветвях. Улучив момент, он спрыгнул вниз, перерезал горло вознице и быстро отсёк его палец. Но крика не последовало. Озадаченный тишиной, Амей обернулся и увидел одинокую женщину, сидевшую в повозке. Она смотрела на него с неприкрытым ужасом, отвращением и - что страшнее всего - разочарованием. Это была его мать. Амей открыл рот, но не смог вымолвить ни слова. Его мать тоже молчала, лишь слёзы текли по её измождённому лицу. Она выглядела истощённой - ей не хватало денег даже на еду. Не проронив ни слова, Амей скрылся в глубине леса. У чистого пруда он взглянул в воду и увидел, кем стал: диким зверем, увешанным человеческими пальцами. Он едва узнавал себя. Волна стыда и ужаса захлестнула его. Испытывая отвращение к самому себе, он отрёкся от разбойничьей жизни и поселился отшельником в лесной пещере.
 #            ---
-#            For years, people in the kingdom steered clear of Amea's woods. Nobody knew where the bandit had gone, but no one wanted to be his next victim. That was until a great wizard arrived at the kingdom. This sage was well known for spreading teachings of peace to those who wanted to listen. He had overheard rumors about Amea and was curious to meet the man. The citizens of the kingdom warned him not to journey into the woods, but the wizard chose to do so anyway. He walked into the woods without a staff or any weapon, carefree as could be.
-#            Amea soon heard footsteps from outside his cave and quickly grew angry that someone dared to disturb his solitude. He drew his sword and emerged from the cave to see the wizard nonchalantly walking away from him.
-#            'You there!' Amea bellowed. 'Stop moving and surrender yourself.'
-#            The wizard kept walking.
-#            Furious, Amea chased after the mystic at full speed. Try as he might, though, he could never catch up. The wizard, walking slowly and calmly, always stayed ahead of Amea. Amea howled and kept running for what felt like days. The wizard did not say a word. Finally, Amea gave up. He dropped to his hands and knees and begged for the wizard to forgive him. A sudden outpouring of remorse and pain emerged from Amea, who wanted nothing more than to leave his past behind. But how could a killer ever escape his sins?
-#            The wizard, sensing these emotions, turned to Amea and uttered his first words.
-#            'We are all born heedless, and some of us choose to return to that state. But what makes us human is our capacity to grow and change.'
-#            The wizard stopped moving, and reached his hand out to Amea. Amea found that he could finally approach the wizard. For the first time in years, Amea put down his sword. He took the mystic's hand and walked out of the forest into the light of day.
+#            Долгие годы никто в королевстве не решался ступить в лес Амея. О его судьбе ходили лишь слухи, но никто не хотел стать его следующей жертвой. Так продолжалось до тех пор, пока в королевство не прибыл великий мудрец. Он был известен тем, что делился учением о мире с каждым, кто желал его услышать. Услышав рассказы об Амее, мудрец заинтересовался и решил встретиться с ним. Горожане предостерегали его от похода в лес, но он всё же отправился туда. Он вошёл в лес без посоха и какого-либо оружия, излучая спокойствие и безмятежность.
+#            Вскоре Амей услышал шаги у своей пещеры и пришёл в ярость оттого, что кто-то осмелился нарушить его уединение. Обнажив меч, он выскочил наружу и увидел мудреца, который неспешно проходил мимо, словно не замечая его присутствия.
+#            — Эй, ты! - прогремел Амей. — Замри и сдавайся!
+#            Но мудрец продолжал идти как ни в чём не бывало.
+#            Охваченный яростью, Амей бросился за ним со всех ног, но, как ни старался, мудрец всегда оставался впереди. Амей мчался за ним, и время растянулось, словно в бесконечности. Он кричал и злился, но мудрец продолжал идти, не проронив ни слова. Наконец, силы покинули Амея. Он рухнул на колени, и его захлестнул поток раскаяния и боли. Он жаждал оставить прошлое позади, но как убийце искупить свои грехи?
+#            Мудрец, ощутив эти терзания, обернулся к Амею и впервые заговорил:
+#            — Мы все рождаемся в неведении, и некоторые решают вернуться к нему. Но истинная суть человечности - в способности меняться и расти над собой.
+#            Мудрец остановился и протянул руку Амею. И только теперь Амей понял, что может приблизиться к нему. Впервые за долгие годы он опустил свой меч. Он принял протянутую руку и вышел из леса навстречу свету.
 #            '''
 #    }
 #
@@ -7714,21 +7714,21 @@
 #    }
 #
 #    ClatterMace: {
-#        DisplayName: Clattering Mace
-#        Tooltip: Has a chance to lower enemy defense on hit
+#        DisplayName: Гремящая булава
+#        Tooltip: При попадании с некоторым шансом снижает защиту врага
 #    }
 #
 #    JadeDao: {
-#        DisplayName: Jade Daos
-#        Tooltip: Pulls enemies inward on release
+#        DisplayName: Нефритовые дао
+#        Tooltip: При использовании притягивает врагов
 #    }
 #
 #    Ambergris: {
-#        DisplayName: Ambergris
+#        DisplayName: Амбра
 #        Tooltip:
 #            '''
-#            'Highly valuable'
-#            'You don't want to know where this came from'
+#            'Крайне ценный ресурс'
+#            'Вам лучше не знать, откуда он берётся'
 #            '''
 #    }
 #
