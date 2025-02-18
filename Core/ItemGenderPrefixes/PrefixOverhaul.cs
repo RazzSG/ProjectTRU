@@ -1275,6 +1275,7 @@ public class ThoriumModItems : IItemGender
                 "Bonesaw",
                 "ScytheofUndoing",
                 "Cello",
+                "ViscountCane",
             };
         
             if (ModInstances.Thorium != null)
