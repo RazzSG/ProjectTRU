@@ -1097,7 +1097,6 @@ public class ThoriumModItems : IItemGender
                 "PlatinumAegis",
                 "IceBoundStriderHide",
                 "ChampionsGodHand",
-                "ChampionWing",
                 "HellishHalberd",
                 "SirensLyre",
                 "Phylactery",
@@ -1276,6 +1275,7 @@ public class ThoriumModItems : IItemGender
                 "ScytheofUndoing",
                 "Cello",
                 "ViscountCane",
+                "NursePurse",
             };
         
             if (ModInstances.Thorium != null)
@@ -1445,6 +1445,7 @@ public class ThoriumModItems : IItemGender
                 "WhiteDwarfThrusters",
                 "TitanWings",
                 "JetBoots",
+                "ChampionWing",
             };
     
             if (ModInstances.Thorium != null)

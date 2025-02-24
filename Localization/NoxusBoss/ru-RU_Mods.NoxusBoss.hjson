@@ -194,7 +194,7 @@ Items: {
             '''
                 Теневые лики. Хладеющий туман. Бескрайность мира     канувшего    в         безвременье
             Единственный. Темнейший. Жажда поглотить, стремление познать то,  	 что время отвергло
-            Искривленные зеркала. Параболическая жалоба. Энтропия. Кроваво-слёзное действо
+            Искривлённые зеркала. Параболическая жалоба. Энтропия. Кроваво-слёзное действо
             Миг
                 Дыхание
             Силы взирают. Силы, слепые ко всему
@@ -245,7 +245,7 @@ Items: {
     }
 
     RiftEclipseToggler: {
-        DisplayName: Rift Eclipse Toggler (DEBUG)
+        DisplayName: Переключатель затмения разлома (ОТЛАДКА)
         Tooltip: ""
     }
 
@@ -408,11 +408,11 @@ Items: {
         DisplayName: Erilucyxwyn
         Tooltip:
             '''
-            Итак, как ты это получил?
-            Через смехотворный шанс выпадения? Или пройдя нелепое испытание на стойкость?
-            ...или просто использовал разрешение на читерство и взял через DragonLens?
+            И как же это у вас оказалось?
+            Подарок случая, добытый со смехотворным шансом? Или награда за нелепое испытание на решимость?
+            ...А может, вы просто воспользовались разрешением на использование читов и взяли его через DragonLens?
     
-            'Принесён из сияющей реки, взращённый лично за бесчисленные эпохи. Такова награда за божественную милость Божества'
+            'Принесённый сияющей рекой, взращённый на протяжении бесчисленных эпох. Таков дар, снискавший благосклонность Божества'
             '''
     }
     
@@ -597,7 +597,7 @@ Items: {
     }
     
     FrostblessedSeedlingItem: {
-        DisplayName: Благословлённый морозом проросток
+        DisplayName: Благословлённый морозом саженец
         Tooltip:
             '''
             Холодный, магический росток из твердыни Пермафроста
@@ -609,49 +609,49 @@ Items: {
         DisplayName: Антисемя
         Tooltip:
             '''
-            Древний проросток, запечатанный в таинственном разломе ради его сохранности
-            [c/D22444:Его силу можно объединить с благословлённым морозом проростком, если разместить их рядом]
+            Древний саженец, запечатанный в таинственном разломе ради его сохранности
+            [c/D22444:Его силу можно объединить с благословлённым морозом саженцем, если разместить их рядом друг с другом]
             '''
     }
     
     SyntheticSeedling: {
-        DisplayName: Синтетический проросток
+        DisplayName: Синтетический саженец
         Tooltip:
             '''
             Искусственное семя, созданное Дрэйдоном на атомном уровне для использования в качестве возобновляемого источника энергии
-            [c/D22444:Его силу можно объединить с благословлённым морозом проростком, если разместить их рядом]
+            [c/D22444:Его силу можно объединить с благословлённым морозом саженцем, если разместить их рядом друг с другом]
             '''
     }
     
     PluripotentSprout: {
-        DisplayName: Pluripotent Sprout
+        DisplayName: Плюрипотентный росток
         Tooltip:
             '''
-            It's slimy, with a refulgent iridescence
-            [c/D22444:Its powers may be combined with the Frostblessed Seedling when placed near it]
+            Слизистый, с ярким переливающимся блеском
+            [c/D22444:Его силу можно объединить с благословлённым морозом саженцем, если разместить их рядом друг с другом]
             '''
     }
     
     BlazingBud: {
-        DisplayName: Blazing Bud
+        DisplayName: Пылающий бутон
         Tooltip:
             '''
-            A sprout of immense power. Screams, cries, and the unceasing crackle of hellfire can be faintly heard from it
-            [c/D22444:Its powers may be combined with the Frostblessed Seedling when placed near it]
+            Росток невероятной силы. От него едва слышны крики, вопли и нескончаемое потрёскивание адского пламени
+            [c/D22444:Его силу можно объединить с благословлённым морозом саженцем, если разместить их рядом друг с другом]
             '''
     }
     
     HandwrittenNote: {
-        DisplayName: Handwritten Note
+        DisplayName: Рукописная записка
         Tooltip:
             '''
-            A handwritten note from Solyn. It appears to have been created recently
-            Click to view its contents
+            Рукописная записка от Солин. Похоже, она написана недавно
+            Нажмите, чтобы прочесть содержимое
             '''
     }
     
     AvatarAuricSoul: {
-        DisplayName: Grotesque Auric Soul
+        DisplayName: Гротескная ауритовая душа
         Tooltip: Это не канон
     }
     
@@ -661,22 +661,22 @@ Items: {
     }
     
     StaffOfRejuvenation: {
-        DisplayName: Staff Of Rejuvenation
-        Tooltip: Grows special grass when used on dirt or standard grass
+        DisplayName: Посох обновления
+        Tooltip: Выращивает особую траву при использовании на земле или обычной траве
     }
     
     AvatarRiftMusicBox: {
-        DisplayName: Music Box (Avatar of Emptiness Rift)
+        DisplayName: Музыкальная шкатулка (Разлом Воплощения пустоты)
         Tooltip: Проигрывает 'Static' от ENNWAY!
     }
     
     AvatarOfEmptinessP2MusicBox: {
-        DisplayName: Music Box (Avatar of Emptiness - Phase 2)
+        DisplayName: Музыкальная шкатулка (Воплощение пустоты - Фаза 2)
         Tooltip: Проигрывает 'Paradise Parasite' от ENNWAY!
     }
     
     AvatarOfEmptinessP3MusicBox: {
-        DisplayName: Music Box (Avatar of Emptiness - Phase 3)
+        DisplayName: Музыкальная шкатулка ((Воплощение пустоты - Фаза 3)
         Tooltip: Проигрывает 'Paradise Parasite' от ENNWAY!
     }
     
@@ -691,32 +691,32 @@ Items: {
     }
     
     HemolacriaMusicBox: {
-        DisplayName: Music Box (Rift Eclipse Blood Moon)
+        DisplayName: Музыкальная шкатулка (Затмение разлома в кровавую луну)
         Tooltip: Проигрывает 'Hemolacria' от Moonburn
     }
     
     RiftEclipseFogMusicBox: {
-        DisplayName: Music Box (Rift Eclipse Fog)
+        DisplayName: Музыкальная шкатулка (Затмение разлома в туман)
         Tooltip: Проигрывает 'Mirrortwist' от Lucille Karma
     }
     
     RiftEclipseMusicBox: {
-        DisplayName: Music Box (Rift Eclipse)
+        DisplayName: Музыкальная шкатулка (Затмение разлома)
         Tooltip: Проигрывает 'nowhere now here' от Moonburn
     }
     
     RiftEclipseBlizzardMusicBox: {
-        DisplayName: Music Box (Rift Eclipse Blizzard)
+        DisplayName: Музыкальная шкатулка (Затмение разлома в метель)
         Tooltip: Проигрывает '-273.15' от Moonburn
     }
     
     TheTelescopeSongMusicBox: {
-        DisplayName: Music Box (Telescope)
+        DisplayName: Музыкальная шкатулка (Телескоп)
         Tooltip: Проигрывает 'The Telescope Song' от Moonburn
     }
     
     AscentMusicBox: {
-        DisplayName: Music Box (Shining Stairway)
+        DisplayName: Музыкальная шкатулка (Сияющие ступеньки)
         Tooltip: Проигрывает 'ascent' от ENNWAY! и Moonburn
     }
     
@@ -726,28 +726,28 @@ Items: {
     }
     
     StellarRequiemMusicBox: {
-        DisplayName: Music Box (Wistful Campsite)
+        DisplayName: Музыкальная шкатулка (Тоскливый привал)
         Tooltip: Проигрывает 'Stellar Requiem' от Moonburn
     }
     
     EndCreditsMusicBox: {
-        DisplayName: Music Box (End Credits)
+        DisplayName: Музыкальная шкатулка (Финальные титры)
         Tooltip: Проигрывает 'Wrath of the Gods' от Moonburn
     }
     
     GraphicalUniverseImager: {
-        DisplayName: Graphical Universe Imager
-        Tooltip: Can be right clicked when placed to activate a variety of custom background effects
+        DisplayName: Графический визуализатор вселенной
+        Tooltip: При размещении можно нажать <right>, чтобы активировать различные пользовательские фоновые эффекты
     }
     
     GardenFountain: {
-        DisplayName: Garden Fountain
+        DisplayName: Садовый фонтан
         Tooltip: ""
     }
     
     RageOfTheDeities: {
         DisplayName: Ярость божеств
-        ObtainmentHint: "[c/F79BC6:Серный лотос может указать на источник этой книги]"
+        ObtainmentHint: "[c/F79BC6:Серный лотос может подсказать, откуда взялась эта книга]"
         Tooltip:
             '''
             Начальные строки трактата гласят:
@@ -775,7 +775,7 @@ Items: {
         Tooltip:
             '''
             В начале, из глубин праила, явилась Гузма, сущность чистая и несокрушимая
-            Из её текучей плоти произошли благодать и мудрость, искра божественности, что зрима в каждом слизне
+            Из её пластичной плоти произошли благодать и мудрость, искра божественности, что зрима в каждом слизне
     
             Блаженны текучие, ибо пребудут в вечном движении, не сломленные испытаниями судьбы. Блаженны бесформенные, ибо обретут любую форму
     
@@ -788,7 +788,7 @@ Items: {
     BookOfMiracles: {
         DisplayName: Книга чудес
         ObtainmentHint: "[c/F79BC6:Эта книга может иметь отношение к квартету боевых машин]"
-        Tooltip: Содержимое страниц скрыто мерцающим, лаймово-зелёным эффектом разложения
+        Tooltip: Текст на страницах скрыт мерцающим, лаймово-зелёным эффектом разложения
     }
     
     Cactome: {
@@ -796,20 +796,20 @@ Items: {
         ObtainmentHint: "[c/F79BC6:Эта книга может быть спрятана внутри чего-то, что движется под песчаными дюнами]"
         Tooltip:
             '''
-            Содержит всего одну плотную страницу
-            На странице написано:
+            Содержит единственную страницу, испещрённую текстом
+            На ней вопрос:
     
-            'Как там ваши ручки?'
+            'Ну как там ваши ручки?'
             '''
     }
     
     DecayingTome: {
         DisplayName: Истлевший фолиант
-        ObtainmentHint: "[c/F79BC6:Я попробую найти его самостоятельно]"
+        ObtainmentHint: "[c/F79BC6:Я постараюсь найти эту книгу самостоятельно]"
         Tooltip:
             '''
             Содержимое книги почти полностью истлело, а страницы превратились в клочья
-            Похоже, здесь уже не разгуляешься грибами
+            Места для записей почти не осталось, только если на плесени писать
             '''
     }
     
@@ -839,25 +839,25 @@ Items: {
             [c/C69C97:Пульс, затем тишина]
             [c/C69C97:Звёзды вздыхают. Семена рассекают камень]
     
-            [c/C69C97:Пепел прилипает к ветру, шепча о лесах, которых ему не суждено узнать]
+            [c/C69C97:Пепел цепляется за ветер, шепча о лесах, которых ему не суждено узнать]
             [c/C69C97:Свет угасает в вечной тьме. В складках нового рассвета]
-            [c/C69C97:Его края истончаются, готовые к перерождению]
+            [c/C69C97:Его края истрёпаны в перерождение]
     
-            [c/C69C97:Миры восходят и падают, рождаясь из великой пены]
+            [c/C69C97:Миры возникают и исчезают, появляясь из великой пены и растворяясь в ней]
     
-            [c/C69C97:Но время - не линия,]
-            [c/C69C97:А цветение пламени]
+            [c/C69C97:Но время - не линия]
+            [c/C69C97:А расцвет пламени]
              
-            [c/C69C97:Лепестки сворачиваются внутрь]
-            [c/C69C97:Пепел закручивается наружу]
+            [c/C69C97:Лепестки загибаются внутрь]
+            [c/C69C97:Пепел спиралью разлетается наружу]
             [c/C69C97:Нет начала. Нет конца]
             [c/C69C97:Лишь движение бытия]
     
             [c/C69C97:Ты слышишь это? Тихий гул под руинами]
     
-            [c/CEA3A3:Память движения]
-            [c/EF908D:О вращении оси колеса]
-            [c/FF6660:О скачке искры]
+            [c/CEA3A3:Память о движении]
+            [c/EF908D:Вращение оси колеса]
+            [c/FF6660:Скачке искры]
     
             [c/FF5171:Пробуждение мира]
             [c/FF274A:Из тени опавшего цветка]
@@ -891,7 +891,7 @@ Items: {
     
     AberrantWritings: {
         DisplayName: Аберрантные записи
-        ObtainmentHint: "[c/F79BC6:Я попробую найти её самостоятельно]"
+        ObtainmentHint: "[c/F79BC6:Я постараюсь найти эту книгу самостоятельно]"
         Tooltip:
             '''
     
@@ -922,285 +922,281 @@ Items: {
     }
     
     AncientWritings: {
-        DisplayName: Ancient Writings
-        ObtainmentHint: "[c/F79BC6:You may find this book in the possession of someone with a curse]"
-        ShopTooltip: Purchase to read its contents
+        DisplayName: Древние писания
+        ObtainmentHint: "[c/F79BC6:Эту книгу можно найти у того, кто проклят]"
+        ShopTooltip: Приобретите, чтобы прочесть её содержимое
         Tooltip:
             '''
-            An extraordinarily old book that focuses on a supposed demonic curse, providing a panoply of disconcerting details on its effects
-            Turning to a random page, the following section is found:
+            Очень старая книга, которая рассказывает о демоническом проклятии и содержит множество пугающих подробностей о его действии
+            Открыв случайную страницу, вы натыкаетесь на следующий отрывок:
     
-            '...On the fifth cyclical eve, the afflicted's form shall be temporarily shed, as the skeletal form emerges from within, causing excruciating...'
+            '...На пятый циклический закат тело проклятого временно изменится, когда скелет вырвется изнутри, вызывая нестерпимую...'
     
-            You decide to not read further
+            Вы решаете не читать дальше
             '''
     }
     
     BestPriceBestiary: {
-        DisplayName: Best Price Bestiary
-        ObtainmentHint: "[c/F79BC6:Я попробую найти его самостоятельно]"
+        DisplayName: Бестиарий по лучшей цене
+        ObtainmentHint: "[c/F79BC6:Я постараюсь найти эту книгу самостоятельно]"
         Tooltip:
             '''
-            A wide array of creatures are present in this book- some familiar, some not
-            The first entry, an ordinary green slime, is portrayed with a crude, childish drawing, and claims that they boast precisely 13,575 total health
+            Сборник описаний разнообразных существ - от знакомых до совершенно незнакомых
+            Первая запись - об обычном зелёном слизне, изображённом на детском, примитивном рисунке
+            Утверждается, что у него ровно 13575 единиц здоровья
     
-            This doesn't strike you as particularly accurate
+            Это утверждение кажется весьма сомнительным
             '''
     }
     
     CloverManual: {
-        DisplayName: Clover Manual
-        ObtainmentHint: "[c/F79BC6:This book may require considerable luck to obtain]"
+        DisplayName: Мануал удачи
+        ObtainmentHint: "[c/F79BC6:Для получения этой книги может потребоваться изрядная доля удачи]"
         Tooltip:
             '''
-            A strange booklet that discusses something called a 'luck mechanic'
-            It mentions lantern nights, horseshoes, garden gnomes, and something mysterious called a 'Galaxy Pearl' as sources of good luck
-            It contains a warning to the reader about treating ladybugs properly
+            Странный буклет, рассказывающий о чём-то под названием 'механика удачи'
+            В нём упоминаются такие источники удачи, как ночь фонарей, подкова, садовый гном и что-то загадочное под названием 'Галактическая жемчужина'
+            Содержит предостережение о необходимости бережного обращения с божьими коровками
     
-            The last page appears to be dedicated to pontification about colored torches, for some reason
+            Последняя страница почему-то посвящена пространным рассуждениям о цветных факелах
             '''
     }
     
     DubiousBrochureCorruption: {
-        DisplayName: Dubious Brochure
-        ObtainmentHint: "[c/F79BC6:You may find this book deep within the chasms of the Corruption]"
+        DisplayName: Подозрительная брошюра
+        ObtainmentHint: "[c/F79BC6:Эту книгу можно найти глубоко в сердце искажения]"
         Tooltip:
             '''
-            A brochure containing a lighthearted spiel inviting travelers to visit the Corruption biome
-            The photos contained within are obviously inaccurate, and bafflingly glamorizing
+            Зазывающий буклет с приглашением посетить искажение
+            Фотографии внутри кажутся постановочными и абсурдно гламурными
     
-            You can't help but wonder who created this
+            Невольно задаёшься вопросом, кто её создал
             '''
     }
     
     DubiousBrochureCrimson: {
-        DisplayName: Dubious Brochure
-        ObtainmentHint: "[c/F79BC6:You may find this book deep within the heart of the Crimson]"
+        DisplayName: Подозрительная брошюра
+        ObtainmentHint: "[c/F79BC6:Эту книгу можно найти глубоко в сердце багрянца]"
         Tooltip:
             '''
-            A brochure containing a lighthearted spiel inviting travelers to visit the Crimson biome
-            The photos contained within are obviously inaccurate, and bafflingly glamorizing
+            Зазывающий буклет с приглашением посетить багрянец
+            Фотографии внутри кажутся постановочными и абсурдно гламурными
     
-            You can't help but wonder who created this
+            Невольно задаёшься вопросом, кто её создал
             '''
     }
     
     DubiousSpellbook: {
-        DisplayName: Dubious Spellbook
-        ObtainmentHint: "[c/F79BC6:This book belongs to wizards occasionally seen in the caverns]"
+        DisplayName: Подозрительный гримуар
+        ObtainmentHint: "[c/F79BC6:Эта книга принадлежит волшебникам, которых иногда можно встретить в пещерах]"
         Tooltip:
             '''
-            A spellbook containing information on the construction of various other spellbooks that you've never heard before, along with their means of acquisition
-            Turning to a random page reveals the following examples:
+            Книга заклинаний, содержащая сведения о создании различных книг заклинаний, о которых вы раньше не слышали, а также о способах их получения
+            Открыв случайную страницу, вы можете обнаружить следующие примеры:
     
-            - Scarlet Malison: One spell tome, four fireblossoms, ten souls of night, three antumbral silk, and three bloodstone
-            - Aethercrash: One spell tome, three dreamweaver threads, ten souls of light, and eight nebula fragments
-            - Tenebrous Silverglow: One spell tome, one dark plasma, three platinum bars, twenty whisperroot bark, and one core of eleum
+            - Алый наговор: одна книга заклинаний, четыре огнецвета, десять эссенций ночи, три антумбральных шёлка и три кровавых камня
+            - Эфирокрушение: одна книга заклинаний, три нити ткача сновидений, десять эссенций света и восемь фрагментов туманности
+            - Сумрачное серебристое сияние: одна книга заклинаний, одна тёмная плазма, три платиновых слитка, двадцать кусков коры шепчущего корня и одно ядро Элеума
             '''
     }
     
     DustyDiary: {
-        DisplayName: Dusty Diary
-        ObtainmentHint: "[c/F79BC6:Я попробую найти его самостоятельно]"
+        DisplayName: Пыльный дневник
+        ObtainmentHint: "[c/F79BC6:Я постараюсь найти эту книгу самостоятельно]"
         Tooltip:
             '''
-            A personal booklet. It's so old that every one of its pages have turned to dust, its secret wisdom forever out of reach
-            A perfect find for those who enjoy reading with their imagination!
+            Личный дневник. Страницы давно истлели, а секреты канули в небытие
+            Идеальная находка для тех, кто любит 'читать' между несуществующих строк!
             '''
     }
     
     ExoBlueprints: {
-        DisplayName: Exo Blueprints
-        ObtainmentHint: "[c/F79BC6:May be obtained by attacking a scientist's body]"
+        DisplayName: Экзо-чертежи
+        ObtainmentHint: "[c/F79BC6:Можно получить, атаковав тело учёного]"
         Tooltip:
             '''
-            Blueprints for Ares, Thanatos, Artemis, and Apollo, with various technical notes, seemingly written by Draedon throughout the construction of the machines
-            A small note pertaining to their autonomous behavior algorithms and combat strategies sticks out:
+            Чертежи Ареса, Танатоса, Артемиды и Аполлона с различными техническими заметками, очевидно написанными Дрэйдоном в процессе создания машин
+            Особенно выделяется небольшая заметка, касающаяся алгоритмов их автономного поведения и боевых стратегий:
     
-            'Simulation testing has revealed Artemis, Apollo, and Ares achieve maximal combat efficacy with precise aerial capabilities foregone entirely. This is absurd, yet fascinating.'
+            'Тестирование в симуляции показало, что Артемида, Аполлон и Арес достигают максимальной боевой эффективности при полном отказе от точных воздушных манёвров'
+            'Это абсурдно, но увлекательно'
     
-            You can't help but agree with this conclusion
+            Вы невольно соглашаетесь с этим выводом
             '''
     }
     
     FanaticalRamblings: {
-        DisplayName: Fanatical Ramblings
-        ObtainmentHint: "[c/F79BC6:Я попробую найти его самостоятельно]"
-        Tooltip: Opening the book fills you with an indescribable feeling of hatred for some reason
+        DisplayName: Фанатичные бредни
+        ObtainmentHint: "[c/F79BC6:Я постараюсь найти эту книгу самостоятельно]"
+        Tooltip: При открытии книги вас охватывает необъяснимое чувство слепой ненависти
     }
     
     FishingCatalogue: {
-        DisplayName: Fishing Catalogue
-        ObtainmentHint: "[c/F79BC6:You may obtain this book as a reward for specialized fishing]"
-        Tooltip: A boring catalogue of catches. The amount of precision and detail is remarkable
+        DisplayName: Рыболовный каталог
+        ObtainmentHint: "[c/F79BC6:Эту книгу можно получить в награду за особые рыболовные достижения]"
+        Tooltip: Унылый перечень рыболовных трофеев. Скрупулёзная детализация поражает
     }
     
     FrostyPamphlet: {
-        DisplayName: Frosty Pamphlet
-        ObtainmentHint: "[c/F79BC6:Я попробую найти его самостоятельно]"
-        Tooltip: It's so cold that you can't make out the words from the frozen pages
+        DisplayName: Ледяной буклет
+        ObtainmentHint: "[c/F79BC6:Я постараюсь найти эту книгу самостоятельно]"
+        Tooltip: Страницы настолько замёрзли, что невозможно разобрать слова
     }
     
     HiTechInstructionManual: {
-        DisplayName: Hi Tech Instruction Manual
-        ObtainmentHint: "[c/F79BC6:Я попробую найти его самостоятельно]"
-        Tooltip: Contains strange notes on the construction of four hi-tech, autonomous robots
+        DisplayName: Высокотехнологичное руководство
+        ObtainmentHint: "[c/F79BC6:Я постараюсь найти эту книгу самостоятельно]"
+        Tooltip: Содержит странные заметки о создании четырёх высокотехнологичных автономных механоидов
     }
     
     InstructionManual: {
-        DisplayName: Instruction Manual
-        ObtainmentHint: "[c/F79BC6:A powerful, lunar being is in possession of this book]"
+        DisplayName: Руководство пользователя
+        ObtainmentHint: "[c/F79BC6:Эта книга находится у могущественного лунного существа]"
         Tooltip:
             '''
-            An instruction manual about a game named 'Terraria'
-            It includes the following itemized tips:
+            Руководство пользователя к игре под названием 'Terraria'
+            Содержит очевидные советы:
     
-            - 'Unsure about what to do? Contact the Guide, a town NPC that appears from the moment you create a new world!'
-            - 'Accidentally placed a wall and can't break it? Craft and use a hammer!'
-            - 'Town NPCs require sufficient space, walls, a chair, a table, and a source of light to move in!'
+            - 'Застряли и не знаете, что делать? Обратитесь к гиду, который появляется сразу после создания нового мира!'
+            - 'Случайно поставили стену и не можете её сломать? Создайте и используйте молот!'
+            - 'Чтобы в доме поселился НИП, нужно достаточно места, стены, стул, стол и источник света!'
     
-            For some reason, you find this mildly insulting
+            По какой-то причине она вас бесит
             '''
     }
     
     InvisibleInkDissertation: {
-        DisplayName: Invisible Ink Dissertation
-        ObtainmentHint: "[c/F79BC6:This book may be obtained via the transmutation of an ordinary book]"
+        DisplayName: Диссертация о невидимых чернилах
+        ObtainmentHint: "[c/F79BC6:Эту книгу можно получить путём трансмутации обычной книги]"
         Tooltip:
             '''
-            There's nothing visible on the pages, yet somehow you can tell there's invisible ink present
-            Your curiosity gnaws away at your psyche
+            Страницы абсолютно пусты, но каким-то образом вы чувствуете присутствие невидимых чернил
+            Любопытство сводит вас с ума
             '''
     }
     
     MagicLexicon: {
-        DisplayName: Magic Lexicon
-        ObtainmentHint: "[c/F79BC6:Я попробую найти его самостоятельно]"
+        DisplayName: Арканолекс
+        ObtainmentHint: "[c/F79BC6:Я постараюсь найти его самостоятельно]"
         Tooltip:
             '''
-            A dictionary of arcana, for your informational needs on magic
-            Definitions include the following:
+            Энциклопедический свод магических терминов
+            Содержит следующие определения:
     
-            Ensorcell: The act of captivating or fascinating someone
-            Goetia: A form of sorcery transmitted through grimoires
-            Gramarye: The process of occult learning
-            Mystagogue: A teacher of the mystical and esoteric
+            Очаровать - акт пленения или очарования кого-либо
+            Гоэтия - форма колдовства, передаваемая через гримуары
+            Грамари - процесс освоения оккультных знаний
+            Мистагог - учитель мистического и эзотерического
             '''
     }
     
     Otherworldly1: {
-        DisplayName: Otherworldly Tome I
-        ObtainmentHint: "[c/F79BC6:You may find this book in pots]"
+        DisplayName: Потусторонний фолиант I
+        ObtainmentHint: "[c/F79BC6:Эту книгу можно найти в горшках]"
         Tooltip:
             '''
-            It's written in a language that you don't understand
-            Solyn might know more about this...
+            Написана на неизвестном языке
+            Возможно, Солин сможет её перевести...
             '''
     }
     
     Otherworldly2: {
-        DisplayName: Otherworldly Tome II
-        ObtainmentHint: "[c/F79BC6:This book may be extractinated]"
+        DisplayName: Потусторонний фолиант II
+        ObtainmentHint: "[c/F79BC6:Эту книгу можно получить через промыватель]"
         Tooltip:
             '''
-            It's written in a language that you don't understand
-            Solyn might know more about this...
+            Написана на неизвестном языке
+            Возможно, Солин сможет её перевести...
             '''
     }
     
     Otherworldly3: {
-        DisplayName: Otherworldly Tome III
-        ObtainmentHint: "[c/F79BC6:This book may be found within a rare, vibrant slime]"
+        DisplayName: Потусторонний фолиант III
+        ObtainmentHint: "[c/F79BC6:Эту книгу можно найти внутри редкого, светящегося слизня]"
         Tooltip:
             '''
-            It's written in a language that you don't understand
-            Solyn might know more about this...
+            Написана на неизвестном языке
+            Возможно, Солин сможет её перевести...
             '''
     }
     
     Otherworldly4: {
-        DisplayName: Otherworldly Tome VI
-        ObtainmentHint: "[c/F79BC6:Я попробую найти его самостоятельно]"
+        DisplayName: Потусторонний фолиант IV
+        ObtainmentHint: "[c/F79BC6:Я постараюсь найти эту книгу самостоятельно]"
         Tooltip:
             '''
-            It's written in a language that you don't understand
-            Solyn might know more about this...
+            Написана на неизвестном языке
+            Возможно, Солин сможет её перевести...
             '''
     }
     
     Otherworldly5: {
-        DisplayName: Otherworldly Tome V
-        ObtainmentHint: "[c/F79BC6:Я попробую найти его самостоятельно]"
+        DisplayName: Потусторонний фолиант VI
+        ObtainmentHint: "[c/F79BC6:Я постараюсь найти эту книгу самостоятельно]"
         Tooltip:
             '''
-            It's written in a language that you don't understand
-            Solyn might know more about this...
+            Написана на неизвестном языке
+            Возможно, Солин сможет её перевести...
             '''
     }
     
     Otherworldly6: {
-        DisplayName: Otherworldly Tome VI
-        ObtainmentHint: "[c/F79BC6:You may find this book within special chests in the dungeon]"
+        DisplayName: Потусторонний фолиант VI
+        ObtainmentHint: "[c/F79BC6:Эту книгу можно найти в особых сундуках Темницы]"
         Tooltip:
             '''
-            It's written in a language that you don't understand
-            Solyn might know more about this...
+            Написана на неизвестном языке
+            Возможно, Солин сможет её перевести...
             '''
-    }
-    
-    SanguineWildlife: {
-        DisplayName: Sanguine Wildlife
-        ObtainmentHint: ""
-        Tooltip: ""
     }
     
     SeamapCollection: {
-        DisplayName: Seamap Collection
-        ObtainmentHint: "[c/F79BC6:This book may at times be found near the shoreline]"
+        DisplayName: Сборник морских карт
+        ObtainmentHint: "[c/F79BC6:Эту книгу иногда можно найти рядом с береговой линией]"
         Tooltip:
             '''
-            A catalogued collection of various seamaps, with markers seemingly indicating treasure
-            None of the depicted locations are familiar to you
+            Каталогизированная коллекция различных морских карт с отметками, по-видимому, указывающими на сокровища
+            Ни одно из отмеченных мест вам не знакомо
             '''
     }
     
     SulfuricLeaflet: {
-        DisplayName: Sulfuric Leaflet
-        ObtainmentHint: "[c/F79BC6:This book may be ejected in the sulfuric caverns]"
+        DisplayName: Сернистая брошюра
+        ObtainmentHint: "[c/F79BC6:Эту книгу можно найти в сернистых пещерах]"
         Tooltip:
             '''
-            A short, informational leaflet describing the dangers of acid rain
-            It appears to be irradiated
+            Краткая информационная брошюра, описывающая опасности кислотного дождя
+            Похоже, что она радиоактивна
             '''
     }
     
     TheBookOfShaders: {
-        DisplayName: The Book Of Shaders
-        ObtainmentHint: "[c/F79BC6:Я попробую найти его самостоятельно]"
+        DisplayName: Книга о шейдерах
+        ObtainmentHint: "[c/F79BC6:Я постараюсь найти эту книгу самостоятельно]"
         Tooltip:
             '''
-            An informational read on the creation of shaders and programmatically generated artwork
-            Seven pages are dedicated to ranting about the sanctity of pixelation
+            Информационное чтиво о создании шейдеров и процедурно генерируемых изображений
+            Семь страниц посвящены гневным тирадам о святости пикселизации
             '''
     }
     
     UnfinishedColoringBook: {
-        DisplayName: Unfinished Coloring Book
-        ObtainmentHint: "[c/F79BC6:This book may occasionally be found near my campsite]"
+        DisplayName: Незаконченная книга-раскраска
+        ObtainmentHint: "[c/F79BC6:Эту книгу иногда можно найти рядом с моим лагерем]"
         Tooltip:
             '''
-            A coloring book containing assortments of simplistic celestial scenes
-            Approximately two thirds of the scenes are colored with masterful quality. The rest are completely untouched
+            Книга-раскраска с набором простых рисунков на космическую тематику
+            Примерно две трети рисунков раскрашены с поразительным мастерством. Остальные же остались нетронутыми
             '''
     }
     
     WulfrumAssemblyGuide: {
-        DisplayName: Wulfrum Assembly Guide
-        ObtainmentHint: "[c/F79BC6:This book may be obtained from charged machines]"
+        DisplayName: Руководство по вульфрумовой сборке
+        ObtainmentHint: "[c/F79BC6:Эту книгу можно получить из заряженных механизмов]"
         Tooltip:
             '''
-            An esteemed inventor's detailed yet confusing instruction manual
-            The instructions mention various tools. Most are unfamiliar, and the rest are used in highly eccentric ways
+            Подробное, но запутанное руководство от известного изобретателя
+            В инструкциях упоминаются различные инструменты. Большинство из них вам незнакомы, а другие используются весьма неочевидным образом
             '''
     }
     
@@ -1224,7 +1220,7 @@ Items: {
         Tooltip:
             '''
             Содержит все необходимые компоненты для призыва Воплощения пустоты
-            Для призыва разместите все семена рядом друг с другом, затем нажмите <right> на благословлённом морозом проростке, когда он полностью созреет
+            Для призыва разместите все семена рядом друг с другом, затем нажмите <right> на благословлённом морозом саженце, когда он полностью созреет
             [c/FF2219:Этот предмет существует исключительно для обратной совместимости и не предназначен для использования в новых мирах]
             '''
     }
@@ -1239,7 +1235,7 @@ Items: {
         Tooltip:
             '''
             Вовлекает в бесконечное испытание решимости с Безымянным божеством
-            Можно использовать только в Саду
+            Можно использовать только в саду
             Вы будете вознаграждены, если сможете выстоять достаточно долго
             '''
     }
@@ -1247,6 +1243,11 @@ Items: {
     ParadiseDye: {
         DisplayName: Райский краситель
         Tooltip: ""
+    }
+    
+    SolynQuestSkipper: {
+        DisplayName: Пропускатель заданий Солин (ОТЛАДКА)
+        Tooltip: Завершает все задания Солин, позволяя вам немедленно активировать Генезис
     }
 }
 
@@ -1280,7 +1281,7 @@ NPCs: {
             DespawnMessage: "[c/EA0023:Искажённая форма Темнейшего исчезает в мгновение ока.]"
         }
 
-        InfernumCompatibility.Title: Ярчайшая звезда в совершенном мире
+        InfernumCompatibility.Title: Ярчайшая звезда в мире без изъяна
         ParadiseReclaimedText: рай возвращён
     }
 
@@ -1370,7 +1371,7 @@ Configs: {
 
         ScreenShatterEffects: {
             Label: Эффекты разбития экрана
-            Tooltip: Включает или отключает эффекты разрушения экрана. Отключите, если они вызывают дискомфорт.
+            Tooltip: Включает или выключает эффекты разрушения экрана. Отключите, если они вызывают дискомфорт.
         }
 
         VisualOverlayIntensity: {
@@ -1393,9 +1394,9 @@ Death: {
     AntimatterAnnihilation1: "{0} больше не имеет значения."
     AntimatterAnnihilation2: "{0} есть... и нет."
     AntimatterAnnihilation3: "{0} переживает Большой Разрыв."
-    AntimatterAnnihilation4: Атомная структура игрока {0} распадается на ничто.
-    AntimatterAnnihilation5: Сильного взаимодействия не хватает для игрока {0}.
-    TestOfResolveDeath: "{0} продержался {1}м. {2}с."
+    AntimatterAnnihilation4: "{0} распадается на ничто, вслед за своей атомной структурой."
+    AntimatterAnnihilation5: "{0} теряет свои силы сильного взаимодействия."
+    TestOfResolveDeath: "{0} продержался {1}м {2}с"
 }
 
 Dialog: {
@@ -1463,42 +1464,42 @@ Dialog: {
     SummonMarsButtonText: Призвать (Марс)
     
     SolynDraedonInteraction: {
-        Draedon1: Хм! Мой уважаемый испытуемый вновь вышел на связь, на этот раз не один.
+        Draedon1: Хм! Мой уважаемый испытуемый вновь вышел на связь, и на этот раз не один.
         Draedon2: Солин, полагаю?
         Solyn1: Погоди... Откуда ты знаешь моё имя?
         Draedon3: Стремление к всезнанию - моя главная цель.
-        Draedon4: Было бы ненаучно не изучить вашего спутника после нашего последнего... столкновения.
+        Draedon4: Было бы ненаучно не изучить твоего спутника после нашего последнего... столкновения.
         Solyn2: Что ты имеешь в ви...
         Draedon5: Довольно разговоров.
         Draedon6: Мне известно, что вы ищете. И это у меня есть.
         Draedon7: Однако просто передать его было бы... неправильно.
-        Draedon8: Я желаю наблюдать за вами в бою. Совместное сражение - редкий исследовательский случай.
+        Draedon8: Я хочу наблюдать за вами в бою. Совместное сражение - это редкий случай для исследований.
         Draedon9: Вы сразитесь с моим сильнейшим творением и победите.
-        Draedon10: Взамен я предоставлю вам особый росток для вашего 'растительного супероружия'.
+        Draedon10: Взамен я предоставлю вам особый саженец для вашего 'растительного супероружия'.
         Draedon11: Вы принимаете моё предложение?
         Solyn3: Давненько я не сражалась...
         Solyn4: Но... я согласна. А ты?
     }
     
     SolynDraedonInteractionSuccessive: Вы готовы?
-    PlayerDraedonAcceptance: Согласен
-    PlayerDraedonAcceptanceSuccessive: Готов
+    PlayerDraedonAcceptance: Согласен.
+    PlayerDraedonAcceptanceSuccessive: Готов.
     DraedonAcceptanceResponse: Изумительно! Он скоро прибудет.
     DraedonAcceptanceResponseSuccessive: Изумительно.
     SolynGetToMe: Ко мне!
     SolynBreakForcefield: Разбей силовое поле звездой!
     SolynBreakForcefield2: Ещё один удар!
-    SolynUseMouseButtons: Зажми ЛКМ и ПКМ!
+    SolynUseMouseButtons: Удерживай ЛКМ и ПКМ!
     
     DraedonEndingMonologue: {
         Draedon1: Изумительно.
         Draedon2: Собранные данные безупречны.
         Solyn1: Знаешь, это было... неожиданно увлекательно!
-        Solyn2: Но... где же росток?
+        Solyn2: Но... где же саженец?
         Draedon3: Не тревожьтесь. Я уже выполнил условие.
         Draedon4: Семя, что вы получили, было единственным источником энергии машины.
         Draedon5: Мне не терпится увидеть, как вы его примените.
-        Draedon6: Удачи. И до встреч.
+        Draedon6: Удачи. И до встречи.
     }
     
     DarkRiftVaniquishText: Тёмный разлом исчез в одно мгновение.
@@ -1558,14 +1559,14 @@ FannyDialog: {
     StairwayTextTop6: У него нет выбора!
     FannyFuckingHATESSolyn:
         '''
-        Эта ёбанная Солин. Чел, я слишком долго наблюдал, как ты таскаешься с ней. Я ВЗЪЁБСЯ. С МЕНЯ ХВАТИТ! Я, блять, НЕНАВИЖУ эту СУЧКУ! Вечно тащит тебя за собой, словно королевна херова.
+        Эта дрянная девка Солин. Чел, я слишком долго наблюдал, как ты таскаешься с ней. Я ВЗЪЁБСЯ. С МЕНЯ ХВАТИТ! Я НЕНАВИЖУ эту СУЧКУ! Вечно тащит тебя за собой, словно королевна херова.
     
         'Ой, нам нужно создать Генезис, ха-ха!'
         'Ой, надо что-то делать с тем разломом в небе!'
     
-        Да она ж даже не понимает, кто тут главный. Твой лучший друг! Единственный друг!
-        Твой проводник в этом ёбанном шекспировском цирке под названием 'мир'!
-        Должна была с самого начала знать своё гребанное место. Если б знала, ничего этого б не случилось.
+        Да она даже не понимает, кто тут главный. Твой лучший друг! Единственный друг!
+        Твой проводник в этом шекспировском цирке под названием 'мир'!
+        Должна была с самого начала знать своё гребанное место. Если бы знала, ничего этого бы не случилось.
     
         Убей её. Прикончи прямо сейчас. Подари ей блаженство мучительной кончины.
         Она даже не поймёт, откуда придёт конец!
@@ -1607,14 +1608,14 @@ GameTips: {
     God2Tip: Wrath of the Gods: Лишь Бог, не умудрённый временем, будет столь дерзок, чтобы злоупотреблять драгоценными звёздами своей вселенной.
     FlowersTip: Wrath of the Gods: Цветы прекрасны.
     RodOfHarmonyTip: Wrath of the Gods: К разговорам о Жезле гармонии не стоит относиться серьёзно.
-    SuperstarTip: Wrath of the Gods: В этом гневе богов найдётся тот, кто станет твоей суперзвездой...
+    SuperstarTip: Wrath of the Gods: В этом гневе богов найдётся тот, кто станет вашей суперзвездой...
     EntropicGodTip: Wrath of the Gods: За дополнительной информацией об энтропийных богах обращайтесь к моду Calamity: Community Remix.
     CattailTip: Wrath of the Gods: Размещение рогоза - священный обряд посвящения.
     DebuffTip: Wrath of the Gods: Дебаффы боссов не включены!
     LotusTip: Wrath of the Gods: Лотос – самое святое из всех живых существ.
     TerminusTip: Wrath of the Gods: Говорят, алый взор открывается лишь по команде высшего существа.
     MiracleblightTip: Wrath of the Gods: Обратитесь к книге чудес.
-    GardenTip: Wrath of the Gods: Отдых в Саду и вкушение плода – высшее благословение.
+    GardenTip: Wrath of the Gods: Отдых в саду и вкушение плода – высшее благословение.
     MirrorwalkerTip: Wrath of the Gods: В тумане таится тёмное отражение самого себя.
     PhotosensitivityTip: Wrath of the Gods: Если визуальные эффекты слишком интенсивны, рассмотрите возможность настройки конфигурации и включения режима для светочувствительных людей.
     InfernumTip: Wrath of the Gods: Не Infernum 2. Наверное.
@@ -1641,7 +1642,7 @@ PlayerDeathMessages: {
     NamelessDeity12: "{0} растворяется в эфире."
     NamelessDeity13: "{0} растворяется в космическом узоре."
     NamelessDeity14: "{0} становится звёздной пылью, переступив порог смертности."
-    NamelessDeity15: "{0} завершает своё путешествие в священных объятиях Сада."
+    NamelessDeity15: "{0} завершает своё путешествие в священных объятиях сада."
     NamelessDeity16: "{0} сливается с симфонией Вселенной."
     NamelessDeity17: "{0} растворяется в бесконечной решётке бытия."
     NamelessDeity18: "{0} вскоре станет хорошим яблоком на дереве."
@@ -1678,7 +1679,7 @@ Solyn: {
         Question2: Кто ты?
         Talk4: Меня зовут Солин.
         Talk5: ...
-        Talk6: Извини, не могу собраться с мыслями.
+        Talk6: Прости, не могу собраться с мыслями.
         Talk7: Мы можем поговорить позже? Сейчас мне... ^нужно время.
         Question3: Хорошо, я оставлю тебя наедине с собой.
         Talk8: Спасибо. Я ценю это.
@@ -1787,7 +1788,7 @@ Solyn: {
     }
     
     SolynUnreadableBookDialogue: {
-        Start: Как я уже говорила, я очень ценю книги... но даже не уверена, что некоторые из них вообще можно назвать таковыми?
+        Start: Как я уже говорила, я очень ценю книги... но даже не уверена, что некоторые из них вообще можно назвать таковыми.
         Solyn1: ...по крайней мере, они неплохо смотрятся на полке.
     }
     
@@ -1889,12 +1890,12 @@ Solyn: {
         Conversation3: Более того, он обладает невероятным магическим потенциалом. ^Я это чувствую.
         Conversation4: Не уверена, для чего оно может пригодиться, ^но советую взять его с собой и сохранить на будущее.
         Response1: Хорошо.
-        Conversation5: Отлично. ^А я пока подумаю над этим. Уверена, мы сможем найти отличное применение этому проростку.
+        Conversation5: Отлично. ^А я пока подумаю над этим. Уверена, мы сможем найти отличное применение этому саженцу.
         Conversation6: В любом случае, я, пожалуй, пойду. ^Здесь довольно тесно!
     }
     
     FrostblessedSeedlingDiscussion: {
-        Start: Я уже некоторое время размышляю об этом проростке.
+        Start: Я уже некоторое время размышляю об этом саженце.
         Solyn1: Подобные растения растут в моём родном мире. Они редки и капризны в выращивании, но я никогда не видела, чтобы хоть одно из них обладало достаточной силой влиять на окружающую флору.
         Solyn2: Неудивительно, что Пермафрост хранил нечто столь значимое, даже если не знал, что с ним делать.
         Solyn3: В конце концов, он ведь не особо разбирается в садоводстве, ведь так?
@@ -1906,11 +1907,11 @@ Solyn: {
         Solyn2: Возможно... именно поэтому я и оказалась здесь.
         Solyn3: ...Как бы то ни было, он точно никуда не исчезнет сам по себе.
         Player1: Что же нам теперь делать?
-        Solyn4: Помнишь тот проросток, который мы нашли в твердыне, и я попросила тебя сохранить его?
+        Solyn4: Помнишь тот саженец, который мы нашли в твердыне, и я попросила тебя сохранить его?
         Player2: И что с ним?
         Solyn5: Сейчас он слаб, но в нём скрыт почти безграничный магический потенциал.^ Если мы сможем направить эту силу в небо, её должно хватить, чтобы раз и навсегда уничтожить разлом.
         Solyn6: Но для этого нам понадобятся другие артефакты с похожими магическими свойствами.
-        Solyn7: Мы назовём эту конструкцию... ^Генезис.
+        Solyn7: Мы назовём эту конструкцию... ^**Генезис**.
         Solyn8: А пока я займусь поиском любых магических источников, которые помогут воплотить наш план.
         Solyn9: Тебе же я советую продолжать заниматься своими делами. У тебя талант находить необычные штуковины, и это определённо нам ещё пригодится.
     }
@@ -1919,7 +1920,7 @@ Solyn: {
         Start: Я рада, что ты здесь.^ Нам нужно обсудить кое-что важное.
         StartingQuestion: О чём речь?
         Conversation1: Изучая древние тексты из Темницы, я наткнулась на упоминание о запечатанном разломе, который может скрывать в себе нечто интересное.
-        Conversation2: Он служит вратами... ^куда-то. Точно не знаю куда.
+        Conversation2: Он служит вратами, ведущими... ^куда-то. Точно не знаю куда.
         Conversation3: Более того, в текстах говорится, что древние обитатели Темницы спрятали у входа по ту сторону разлома нечто невероятно могущественное.^ Это точно поможет нам в создании Генезиса.
         ConversationQuestion1: Понятно. Чем я могу помочь?
         Conversation4: Насколько я понимаю, чтобы исследовать пространство за разломом, сначала нужно разрушить защитную печать.
@@ -1937,7 +1938,7 @@ Solyn: {
     CeaselessVoidDiscussionAfterBattle: {
         Start: Что-то случилось?
         Conversation1: Я одолел Нескончаемую пустоту, и появился разлом.
-        Conversation2: Погоди, ^одолел?^ Ты... сражался с ней?
+        Conversation2: Погоди, ^**одолел**?^ Ты... сражался с ней?
         Conversation3: О божечки... ты в порядке?
         ConversationResponse1: Да, всё нормально.
         Conversation4: Слава звёздам.^^ Значит, я... ^тогда встретимся в Темнице. ^Я сама найду разлом.
@@ -1962,7 +1963,7 @@ Solyn: {
         Question1: Ты в порядке?
         Conversation1: Я... ^не знаю. ^Но, по крайней мере, я жива.
         Question2: Что произошло?
-        Conversation2: Как только вошла ощутила... всепоглощающий ужас. ^Будто я там... лишняя.
+        Conversation2: Как только я вошла, то ощутила... всепоглощающий ужас. ^Будто я там... лишняя.
         Conversation3: Всё было нормально, пока я не взяла артефакт. А потом я...
         Conversation4: Нет... ^Не хочу вспоминать.
         Conversation5: Давай... просто уйдём. ^На сегодня с меня хватит.
@@ -1974,7 +1975,7 @@ Solyn: {
         Start: Помнишь, как я нашла то странное семя из разлома в Темнице?
         Solyn1: У меня начинают появляться новые теории насчёт него.
         Solyn2: Оно не похоже ни на что из того, что я встречала в своих исследованиях, ни в моём родном мире, ни в этом.^ Очевидно, что оно не могло появиться ни в одном из известных нам мест.
-        Solyn3: Похоже, что благословлённый морозом проросток черпает силу из этого семени, что указывает на связь, которую я изначально не могла предвидеть.
+        Solyn3: Похоже, что благословлённый морозом саженец черпает силу из этого семени, что указывает на связь, которую я изначально не могла предвидеть.
         Solyn4: Мне предстоит ещё многое осмыслить относительно взаимодействия этих растений. В них кроется более глубокое предназначение, которое я пока не разгадала.
     }
     
@@ -2006,35 +2007,35 @@ Solyn: {
     
     PostNamelessDiscussion: {
         Apology1: Прошло немало времени с нашей последней встречи, друг. ^^Рада, что ты тоже попал сюда и прошёл своё испытание.
-        Apology2: И... ^я должна извиниться перед тобой.
-        Apology3: Наше время, роведённое вместе, было прекрасно, но... мои намерения не были чистыми.
-        Apology4: Сначала я видела в тебе и Тёмном лишь средство. ^Шанс вернуться сюда. ^Стать героиней, достойной благосклонности Божества.
-        Apology5: Я была глупа и спесива. Теперь понимаю, почему меня отвергли.
-        Apology6: Но... похоже, я получила своё желание. Ценой всего остального.
+        Apology2: И... ^я должна перед тобой извиниться.
+        Apology3: Наше время, проведённое вместе, было прекрасно, но... мои намерения не были искренними.
+        Apology4: Сначала я видела в тебе и Темнейшем лишь средство. ^Шанс вернуться сюда. ^Стать героиней, достойной благосклонности Божества.
+        Apology5: Я была глупа и спесива. Теперь я понимаю, почему меня отвергли.
+        Apology6: Но... похоже, я получила то, чего желала. Ценой всего остального.
         ApologyResponse: У меня есть пара вопросов.
         QuestionsStart: ?..
         HowDidYouEndUpHereQuestion: Как ты здесь оказалась?
         HowDidYouEndUpHere1: Я... ^не уверена.
         HowDidYouEndUpHere2: Всё, что я помню, это как меня окутал странный шум, а затем я очнулась здесь. Божество явилось во всём величии, но не ответило на мои вопросы.
         HowDidYouEndUpHere3: Может, это жалость? Или он счёл, что я искупила вину.
-        HowDidYouEndUpHere4: Мы вряд ли узнаем. Он не склоннен к разговорам.
+        HowDidYouEndUpHere4: Мы вряд ли узнаем. Он не склонен к разговорам.
         HowDidYouEndUpHere5: Но я благодарна. Это место... особенное.
         WhyDidYouSaveMeQuestion: Почему ты спасла меня?
         WhyDidYouSaveMe1: В тот момент я поняла, что уже слишком поздно. Моих магических сил не хватило бы, чтобы спасти нас обоих.
         WhyDidYouSaveMe2: Один из нас должен был погибнуть.
-        WhyDidYouSaveMe3: Твоя судьба важнее. Я чувствовала, что твоя жизнь куда ценнее моей и решила сохранить твою жизнь.
+        WhyDidYouSaveMe3: Твоя судьба важнее. Я чувствовала, что твоя жизнь куда ценнее моей, и решила сохранить её.
         WhyDidYouSaveMe4: И... ^я не смогла бы жить, зная, что моя авантюра погубила тебя.
-        WhyDidYouSaveMe5: Оглядываясь назад - это был единственный верный выбор за мою жизнь.
+        WhyDidYouSaveMe5: Оглядываясь назад, я понимаю: это был единственный верный выбор за всю мою жизнь.
         WhatNowQuestion: Что теперь?
         WhatNow1: Как я и сказала, моё время среди живых окончено.
         WhatNow2: Мой дух останется здесь. Надолго, полагаю.
         WhatNow3: А ты? Не знаю. Ты не привязан к саду. Ты жив.
-        WhatNow4: Свободен. Совершил невозможное.
+        WhatNow4: Свободен. Ты совершил невозможное.
         WhatNow5: Уверена, тебя ждёт великое будущее.
         DeityQuestion: Что ты знаешь о Божестве?
         Deity1: Немного. Думаю, некоторые тайны нам не суждено постичь.
-        Deity2: Но я точно знаю, что это существо доброты и тепла. Создатель всего сущего.
-        Deity3: Иногда я вижу, как оно ухаживает за Садом. Видно, что это место создано с любовью.
+        Deity2: Но я точно знаю, что это существо - воплощение доброты и тепла. Создатель всего сущего.
+        Deity3: Иногда я вижу, как оно ухаживает за садом. Видно, что это место создано с любовью.
         TreeQuestion: Посидим под деревом?
         Tree1: ...
         Tree2: Конечно.
@@ -2077,7 +2078,7 @@ StarGazing: {
         Name: Центр галактики?
         SolynDialogue:
             '''
-            Центр галактики??
+            Центр галактики?
             ^Ну... если честно, я не совсем уверена, что там происходит.^ Но слышала, что это довольно бурное место.
             ^^Уверена, что вблизи это было бы потрясающее зрелище!
             '''
@@ -2139,29 +2140,6 @@ Subtitles: {
     RodOfHarmonyRantSubtitle15: Короче говоря, в двух словах: я не люблю читеров.
     RodOfHarmonyRantSubtitle16: И если не согласен, то тебе тут не место.
     RodOfHarmonyRantSubtitle17: И вообще, тебе не стоило приносить сюда эту чёртову штуку.
-    PlayerRantSubtitle1: Oh, come on, you've GOTTA be kidding me with this.
-    PlayerRantSubtitle2: Noxus was just visiting. They literally just wanted to say hi.
-    PlayerRantSubtitle3: I mean, you don't just go and smack guests in the face. That's just ridiculous!
-    PlayerRantSubtitle4: That's just uncalled for!
-    PlayerRantSubtitle5: Some of you guys seriously get like, WAY too heated.
-    PlayerRantSubtitle6: Don't think I didn't read all the comments.
-    PlayerRantSubtitle7: What, am I just not good enough for you guys?
-    PlayerRantSubtitle8: '''"Meh, but Mutant's so much harder"! Come on man.'''
-    PlayerRantSubtitle9: Is that the support I get?
-    PlayerRantSubtitle10: I gave you like, black holes and stars and stuff, and your response is to mercilessly assault innocent lifeforms.
-    PlayerRantSubtitle11: You monster. You just don't feel compassion for other things, do you?
-    PlayerRantSubtitle12: You're just in it for the loot.
-    PlayerRantSubtitle13: The recognition, the views, that sweet nohit role.
-    PlayerRantSubtitle14: Oh, ANYTHING goes.
-    PlayerRantSubtitle15: Seriously, tell me how it makes sense to stab someone in the face for a spray bottle.
-    PlayerRantSubtitle16: A stupid little toy so you can play god in your little block game for children.
-    PlayerRantSubtitle17: I just cannot believe what I'm seeing right now.
-    PlayerRantSubtitle18: None of this makes ANY sense to me.
-    PlayerRantSubtitle19: I'm gonna go make sure Noxus is okay.
-    PlayerRantSubtitle20: And when you're ready...
-    PlayerRantSubtitle21: Come to the Garden.
-    PlayerRantSubtitle22: I'll show you some "friendly love and compassion",
-    PlayerRantSubtitle23: You insensitive FREAK.
     RecordingRantRegularSubtitle1: Слушай... Я не могу указывать, что делать, но...
     RecordingRantRegularSubtitle2: Было бы здорово оставлять такие вещи секретом для других игроков, понимаешь?
     RecordingRantRegularSubtitle3: Не нужно выкладывать буквально всё на всеобщее обозрение.
@@ -2411,7 +2389,7 @@ TownNPCs: {
 UI: {
     GraphicalUniverseImager: {
         EternalGardenAurora: Сияние Вечного сада
-        NamelessDeityStars: Звездный небосвод
+        NamelessDeityStars: Звёздный небосвод
         NamelessDeityKaleidoscope: Реальность
         AvatarP1Background: Алая даль
         AvatarP2Background: Бушующие просторы

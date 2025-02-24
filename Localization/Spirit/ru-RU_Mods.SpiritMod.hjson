@@ -244,32 +244,32 @@
 #
 #Events: {
 #    BlueMoon: {
-#        BossChecklistIntegration.Condition: Use a [i:SpiritMod/BlueMoonSpawn] at nighttime.
-#        OnStart: The Mystic Moon is rising...
-#        IsDay: The moon isn't powerful in daylight.
-#        IsCalmNight: The night's too calm.
+#        BossChecklistIntegration.Condition: Используйте [i:SpiritMod/BlueMoonSpawn] ночью.
+#        OnStart: Таинственная луна восходит...
+#        IsDay: Луна теряет свою силу при дневном свете.
+#        IsCalmNight: Эта ночь слишком спокойна для подобного события.
 #    }
 #
 #    JellyDeluge: {
-#        BossChecklistIntegration.Condition: Naturally occurs aboveground after any boss has been defeated. Can also be summoned by using a [i:SpiritMod/DistressJellyItem], found in Asteroid Biomes and caught using a bug net. Occurs less frequently after the Moon Jelly Wizard has been defeated.
-#        OnStart: Strange jellyfish are raining from the sky!
+#        BossChecklistIntegration.Condition: Событие может начаться самостоятельно на поверхности после победы над любым боссом. Также его можно вызвать, используя [i:SpiritMod/DistressJellyItem], который можно найти в астероидных полях и поймать сачком. После победы над Волшебником лунных медуз событие происходит реже.
+#        OnStart: Странные медузы падают с неба!
 #    }
 #
-#    LuminousOcean.OnStart: A glow blooms over the ocean...
+#    LuminousOcean.OnStart: Над океаном разливается мягкое сияние...
 #
 #    TheTide: {
-#        BossChecklistIntegration.Condition: Use a [i:SpiritMod/BlackPearl] at the Ocean at any time.
-#        OnEnd: The Tide has waned!
-#        NotOcean: The Tide only ebbs by the calm of the sea.
-#        AlreadyActive: The Tide's already come in!
-#        Wave: "Wave {0} : "
+#        BossChecklistIntegration.Condition: Используйте [i:SpiritMod/BlackPearl] в океане в любое время.
+#        OnEnd: Прилив отступил!
+#        NotOcean: Прилив возможен только в водах океана.
+#        AlreadyActive: Прилив уже начался!
+#        Wave: "Волна {0} : "
 #    }
 #}
 #
 #BossChecklistIntegration: {
-#    JellyDeluge.EntryName: Jelly Deluge
-#    TheTide.EntryName: The Tide
-#    MysticMoon.EntryName: Mystic Moon
+#    JellyDeluge.EntryName: Нашествие медуз
+#    TheTide.EntryName: Прилив
+#    MysticMoon.EntryName: Таинственная луна
 #}
 #
 #MapObject: {
@@ -279,10 +279,7 @@
 #}
 #
 #Condition: {
-#    InBriar: ""
-#    InAsteroids: ""
-#    InSpirit: ""
-#    FirstDown: Only on first defeat
+#    FirstDown: Только при первом убийстве
 #}
 #
 #GameTips: {
@@ -299,11 +296,11 @@
 #}
 #
 #AvianIslandSigns: {
-#    0: (the text is illegible)
-#    1: Floating Resort - The only (scratch marks)
-#    2: Overseer Spotted in Distance? More At 5
-#    3: A Revival? More likely thank you think!
-#    4: Find more (scratch marks) and for only 50g!
+#    0: (текст неразборчив)
+#    1: Парящий курорт - Единственный (следы царапин)
+#    2: Замечен надзиратель вдалеке? Подробности в 5
+#    3: Возрождение? Вероятнее, чем вы думаете!
+#    4: Узнайте больше (следы царапин) всего за 50 золотых!
 #}
 #
 #Biomes: {
@@ -323,8 +320,8 @@
 #    }
 #
 #    JellyDelugeBiome: {
-#        DisplayName: Jelly Deluge
-#        TownNPCDialogueName: the Jelly Deluge Biome
+#        DisplayName: Нашествие медуз
+#        TownNPCDialogueName: Нашествие медуз
 #    }
 #
 #    MysticMoonBiome: {
@@ -333,8 +330,8 @@
 #    }
 #
 #    TideBiome: {
-#        DisplayName: The Tide
-#        TownNPCDialogueName: the Tide Biome
+#        DisplayName: Прилив
+#        TownNPCDialogueName: Прилив
 #    }
 #
 #    SpiritSurfaceBiome: {
@@ -348,8 +345,8 @@
 #    }
 #
 #    SynthwaveSurfaceBiome: {
-#        DisplayName: Synthwave
-#        TownNPCDialogueName: the Synthwave Surface Biome
+#        DisplayName: Синтвейв
+#        TownNPCDialogueName: Синтвейв
 #    }
 #}
 #
@@ -360,258 +357,258 @@
 #    }
 #
 #    AngelLight: {
-#        DisplayName: Angel's Light
+#        DisplayName: Свет ангела
 #        Description: ""
 #    }
 #
 #    AngelWrath: {
-#        DisplayName: Angel's Wrath
+#        DisplayName: Гнев ангела
 #        Description: ""
 #    }
 #
 #    ExplorerFight: {
-#        DisplayName: Strike Strength
-#        Description: You're getting the hang of it!
+#        DisplayName: Сила удара
+#        Description: Вы начинаете осваиваться!
 #    }
 #
 #    ExplorerMine: {
-#        DisplayName: Explorer's Strength
-#        Description: Keep digging!
+#        DisplayName: Сила исследователя
+#        Description: Продолжайте копать!
 #    }
 #
 #    ExplorerPot: {
-#        DisplayName: Explorer's Vigor
-#        Description: You're eager for more!
+#        DisplayName: Энергия исследователя
+#        Description: Вам хочется большего!
 #    }
 #
 #    FrigidCooldown: {
-#        DisplayName: Below Zero
-#        Description: "'It's too cold to keep this wall going...'"
+#        DisplayName: Ниже нуля
+#        Description: "'Мороз не даёт мне продвинуться дальше...'"
 #    }
 #
 #    MarbleDivineWinds: {
-#        DisplayName: Divine Winds
-#        Description: "'To the skies!'"
+#        DisplayName: Божественные ветра
+#        Description: "'К небесам!'"
 #    }
 #
 #    RogueCooldown: {
-#        DisplayName: Dispelled Shadow
-#        Description: "'Wait for the darkness to steal you away'"
+#        DisplayName: Рассеянная тень
+#        Description: "'Жди, пока тьма не унесёт тебя прочь'"
 #    }
 #
 #    AstralMapCooldown: {
-#        DisplayName: Astral Cooldown
-#        Description: Lightspeed travel is unstable!
+#        DisplayName: Астральная перезарядка
+#        Description: Путешествие со скоростью света нестабильно!
 #    }
 #
 #    BeetleFortitude: {
-#        DisplayName: Beetle Fortitude
-#        Description: Each strike strenghtens you...
+#        DisplayName: Жучья стойкость
+#        Description: Каждый удар делает вас сильнее...
 #    }
 #
 #    BloodInfusion: {
-#        DisplayName: Blood Infusion
-#        Description: "'Extremely contagious'"
+#        DisplayName: Кровяное заражение
+#        Description: "'Крайне заразно'"
 #    }
 #
 #    CandyBuff: {
-#        DisplayName: Sugar Rush
-#        Description: Slight increase to all stats
+#        DisplayName: Сахарная передозировка
+#        Description: Небольшое увеличение всех характеристик
 #    }
 #
 #    ChocolateBuff: {
-#        DisplayName: Chocolate
-#        Description: 10% Increased Speed
+#        DisplayName: Шоколад
+#        Description: Скорость передвижения увеличена на 10%
 #    }
 #
 #    HealthBuffC: {
-#        DisplayName: Healing Candy
-#        Description: +25 health.
+#        DisplayName: Целебная конфета
+#        Description: Максимальный запас здоровья увеличен на 25
 #    }
 #
 #    LollipopBuff: {
-#        DisplayName: Lollipop
-#        Description: Increased life regeneration
+#        DisplayName: Леденец
+#        Description: Регенерация здоровья увеличена
 #    }
 #
 #    ManaBuffC: {
-#        DisplayName: Mana Candy
-#        Description: +40 Mana
+#        DisplayName: Конфета маны
+#        Description: Увеличивает максимальный запас маны на 40
 #    }
 #
 #    TaffyBuff: {
-#        DisplayName: Taffy
-#        Description: +4 Defense
+#        DisplayName: Ириска
+#        Description: Защита увеличена на 4
 #    }
 #
 #    ClockBuff: {
-#        DisplayName: Time power
+#        DisplayName: Сила времени
 #        Description: ZAWARUDO!!
 #    }
 #
 #    CouchPotato: {
-#        DisplayName: Couch potato
-#        Description: "'Stop being so lazy!'"
+#        DisplayName: Диванный лентяй
+#        Description: "'Хватит бездельничать!'"
 #    }
 #
 #    CourtCooldown: {
-#        DisplayName: Sanguine Cooldown
-#        Description: Your blood needs time to heal
+#        DisplayName: Кровавая перезарядка
+#        Description: Вашей крови нужно время для восстановления
 #    }
 #
 #    CrimsonSkullBuff: {
-#        DisplayName: Crimson Skull
-#        Description: Flask of gore now deals double damage
+#        DisplayName: Багровый череп
+#        Description: Флакон крови теперь наносит двойной урон
 #    }
 #
 #    Death: {
-#        DisplayName: Death
+#        DisplayName: Смерть
 #        Description: ""
 #    }
 #
 #    DeathRoseCooldown: {
-#        DisplayName: Death Rose Cooldown
-#        Description: The bramble needs time to regrow...
+#        DisplayName: Перезарядка розы смерти
+#        Description: Шипам нужно время чтобы отрасти...
 #    }
 #
 #    AcidBurn: {
-#        DisplayName: Toxic Grasp
+#        DisplayName: Токсичная хватка
 #        Description: ""
 #    }
 #
 #    Afflicted: {
-#        DisplayName: Unstable Affliction
-#        Description: Falling to pieces
+#        DisplayName: Нестабильное колдовство
+#        Description: Вы разваливаетесь на части
 #    }
 #
 #    BloodCorrupt: {
-#        DisplayName: Blood Corruption
-#        Description: Your blood burns...
+#        DisplayName: Порча крови
+#        Description: Ваша кровь горит...
 #    }
 #
 #    CryoCrush: {
-#        DisplayName: Cryo Crush
+#        DisplayName: Ледяное сокрушение
 #        Description: ""
 #    }
 #
 #    DoomDestiny: {
-#        DisplayName: Star Cut
+#        DisplayName: Звёздный разрез
 #        Description: ""
 #    }
 #
 #    FesteringWounds: {
-#        DisplayName: Festering Wounds
-#        Description: Deals more damage if the victim is under half health
+#        DisplayName: Гноящиеся раны
+#        Description: Наносит увеличенный урон, если здоровье цели ниже половины
 #    }
 #
 #    DrainLife: {
-#        DisplayName: Drain Life
-#        Description: Your life energy becomes theirs.
+#        DisplayName: Похищение жизни
+#        Description: Ваша жизненная энергия становится их энергией
 #    }
 #
 #    DynastyFanBuff: {
-#        DisplayName: Windglider
-#        Description: You're still falling, but slower
+#        DisplayName: Ветропланёр
+#        Description: Вы всё ещё падаете, но медленнее
 #    }
 #
 #    ElectrifiedV2: {
-#        DisplayName: Electrified
-#        Description: The sequel we - wait
+#        DisplayName: Электризация
+#        Description: Продолжение, которое мы... погодите-ка
 #    }
 #
 #    EleutheriosBuff: {
-#        DisplayName: Eleutherios' Strength
-#        Description: Damage increased by 0%
+#        DisplayName: Сила Елевферия
+#        Description: Урон увеличен на 0%
 #    }
 #
 #    FateBlessing: {
-#        DisplayName: Fate's Blessing
-#        Description: You are protected by the fates
+#        DisplayName: Благословение судьбы
+#        Description: Вы под защитой судеб
 #    }
 #
 #    Frozen: {
-#        DisplayName: Frozen
-#        Description: Frozen solid!
+#        DisplayName: Замёрзший
+#        Description: Полностью заморожен!
 #    }
 #
 #    BurningRage: {
-#        DisplayName: Burning Rage
-#        Description: You're taking damage
+#        DisplayName: Пылающая ярость
+#        Description: Вы получаете урон
 #    }
 #
-#    CollapsingVoid.DisplayName: Collapsing Void
-#    DevouringVoid.DisplayName: Devouring Void
+#    CollapsingVoid.DisplayName: Коллапсирующая пустота
+#    DevouringVoid.DisplayName: Пожирающая пустота
 #
 #    DivineStrike: {
-#        DisplayName: Divine Strike
-#        Description: Your next attack will deal increased damage
+#        DisplayName: Божественный удар
+#        Description: Ваша следующая атака нанесёт увеличенный урон
 #    }
 #
 #    PhantomVeil: {
-#        DisplayName: Phantom Veil
-#        Description: The next attack will be blocked
+#        DisplayName: Призрачная завеса
+#        Description: Следующая атака будет заблокирована
 #    }
 #
 #    SanguineBleed: {
-#        DisplayName: Crimson Bleed
-#        Description: You are rapidly losing blood
+#        DisplayName: Багровое кровотечение
+#        Description: Вы стремительно теряете кровь
 #    }
 #
 #    SanguineRegen: {
-#        DisplayName: Sanguine Regeneration
-#        Description: You are rapidly gaining blood
+#        DisplayName: Кровавая регенерация
+#        Description: Вы стремительно восполняете кровь
 #    }
 #
 #    TemporalShift: {
-#        DisplayName: Temporal Shift
-#        Description: Double tap to dash and gain a temporary speed boost
+#        DisplayName: Временной сдвиг
+#        Description: Дважды нажмите клавишу направления, чтобы совершить рывок и получить временное ускорение
 #    }
 #
-#    WanderingPlague.DisplayName: Wandering Plague
+#    WanderingPlague.DisplayName: Блуждающая чума
 #
 #    WindBurst: {
-#        DisplayName: Wind Burst
-#        Description: Knockback is amplified
+#        DisplayName: Порыв ветра
+#        Description: Отбрасывание усилено
 #    }
 #
 #    GraniteArrow_Debuff: {
-#        DisplayName: Granite Arrow Debuff
+#        DisplayName: Гранитная стрела
 #        Description: ""
 #    }
 #
 #    GreekFire: {
-#        DisplayName: Greek Fire
-#        Description: Set ablaze by the Gods themselves
+#        DisplayName: Греческий огонь
+#        Description: Подожжён самими богами
 #    }
 #
 #    HighGravityBuff: {
-#        DisplayName: High Gravity
-#        Description: Gravity returns to normal
+#        DisplayName: Высокая гравитация
+#        Description: Гравитация возвращается к норме
 #    }
 #
 #    HolyLight: {
-#        DisplayName: Holy Light
+#        DisplayName: Святой свет
 #        Description: ""
 #    }
 #
 #    IceBerryBuff: {
 #        DisplayName: Ледяные ягоды
-#        Description: You are immune to being on fire
+#        Description: Вы невосприимчивы к огню
 #    }
 #
 #    InfernalRage: {
-#        DisplayName: Infernal Rage
-#        Description: Greatly boosted damage at the cost of your soul...
+#        DisplayName: Адская ярость
+#        Description: Значительно увеличивает урон ценой вашей души...
 #    }
 #
 #    MageFreeze: {
-#        DisplayName: Chilly Grasp
-#        Description: A cold hand traps you
+#        DisplayName: Ледяная хватка
+#        Description: Холодная рука сковывает вас
 #    }
 #
 #    MidasTouch: {
-#        DisplayName: Midas Touch
-#        Description: Enemies drop more gold when killed
+#        DisplayName: Прикосновение Мидаса
+#        Description: Из убитых врагов выпадает больше монет
 #    }
 #
 #    DiabolicPlatformBuff: {
@@ -759,7 +756,7 @@
 #    }
 #
 #    ScarabPetBuff: {
-#        DisplayName: Tiny Scarab
+#        DisplayName: Крошечный скарабей
 #        Description: "'It really loves to roll...'"
 #    }
 #
@@ -3670,7 +3667,7 @@
 #    }
 #
 #    MJWBag: {
-#        DisplayName: Treasure Bag (Moon Jelly Wizard)
+#        DisplayName: Мешок с сокровищами (Волшебник лунных медуз)
 #        Tooltip:
 #            '''
 #            Consumable
@@ -3783,70 +3780,70 @@
 #    }
 #
 #    ChitinAxe: {
-#        DisplayName: Chitin Axe
-#        Tooltip: Cuts down palm wood and cactus faster
+#        DisplayName: Хитиновый топор
+#        Tooltip: Быстрее рубит пальмовое дерево и кактусы
 #    }
 #
 #    ChitinHammer: {
-#        DisplayName: Chitin Hammer
-#        Tooltip: Breaks sand walls and desert related walls faster
+#        DisplayName: Хитиновый молот
+#        Tooltip: Быстрее разрушает песчаные стены и стены, связанные с пустыней
 #    }
 #
 #    ChitinPickaxe: {
-#        DisplayName: Chitin Pickaxe
-#        Tooltip: Mines sand and desert related blocks faster
+#        DisplayName: Хитиновая кирка
+#        Tooltip: Быстрее добывает песок и блоки, связанные с пустыней
 #    }
 #
 #    RoyalKhopesh: {
-#        DisplayName: Royal Khopesh
+#        DisplayName: Королевский хопеш
 #        Tooltip:
 #            '''
-#            Swings in a 3-hit combo
-#            The last hit in the combo is bigger, does more damage, and ignores armor
+#            Наносит удары в комбинации из трёх атак
+#            Последний удар в комбинации сильнее, наносит больше урона и игнорирует броню
 #            '''
 #    }
 #
 #    LocustCrook: {
-#        DisplayName: Locust Crook
+#        DisplayName: Посох саранчи
 #        Tooltip:
 #            '''
-#            Conjures a friendly locust that dashes into enemies
-#            Locusts infest hit enemies, causing baby locusts to hatch from them
+#            Призывает дружественную саранчу, которая набрасывается на врагов
+#            Саранча заражает поражённых врагов, вызывая появление маленьких особей
 #            '''
 #    }
 #
 #    RadiantCane: {
-#        DisplayName: Sunrise Scepter
-#        Tooltip: Conjures a slow, controllable sun orb
+#        DisplayName: Скипетр рассвета
+#        Tooltip: Создаёт медленно движущуюся солнечную сферу, которой можно управлять
 #    }
 #
 #    ScarabPendant: {
-#        DisplayName: Scarab Pendant
+#        DisplayName: Кулон скарабея
 #        Tooltip:
 #            '''
-#            Summons a rideable giant pillbug that rolls through enemies at high speed
-#            Rolling through an enemy protects against contact damage
+#            Призывает ездовую гигантскую мокрицу, которая на высокой скорости давит врагов
+#            При столкновении с врагом защищает от контактного урона
 #            '''
 #    }
 #
 #    ScarabMask: {
-#        DisplayName: Scarabeus Mask
+#        DisplayName: Маска Скарабея
 #        Tooltip: ""
 #    }
 #
 #    ScarabPetItem: {
-#        DisplayName: Scarab Food
-#        Tooltip: Summons a little Scarab companion
+#        DisplayName: Корм для скарабея
+#        Tooltip: Призывает маленького скарабея-компаньона
 #    }
 #
 #    Trophy1: {
-#        DisplayName: Scarabeus Trophy
+#        DisplayName: Трофей Скарабея
 #        Tooltip: ""
 #    }
 #
 #    AstralLens: {
-#        DisplayName: Astral Convergence
-#        Tooltip: Shoots out bursts of electrical stars that reconverge on the player
+#        DisplayName: Астральная конвергенция
+#        Tooltip: Выпускает залпы электрических звёзд, которые возвращаются к игроку
 #    }
 #
 #    CosmiliteShard: {
@@ -4213,7 +4210,7 @@
 #    }
 #
 #    FateToken: {
-#        DisplayName: Fate Token
+#        DisplayName: Жетон судьбы
 #        Tooltip:
 #            '''
 #            Protects the user from fatal damage for 1 minute
@@ -8625,7 +8622,7 @@
 #    }
 #
 #    Eleutherios: {
-#        DisplayName: Eleutherios
+#        DisplayName: Елевферий
 #        Tooltip:
 #            '''
 #            Reduces healing item effectiveness by 15%
@@ -9125,7 +9122,7 @@
 #    }
 #
 #    FlaskOfGore: {
-#        DisplayName: Flask of Gore
+#        DisplayName: Флакон крови
 #        Tooltip:
 #            '''
 #            Flasks may create a crimson skull upon popping

@@ -2,7 +2,7 @@
 using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
 using Microsoft.Xna.Framework;
-using NoxusBoss.Content.NPCs.Bosses.NamelessDeity;
+using NoxusBoss.Assets;
 using ReLogic.Utilities;
 using Terraria.Audio;
 using Terraria.ModLoader;
@@ -28,7 +28,7 @@ public class SoundEnginePatch : ILoadable
     
     private SlotId On_SoundEngineOnPlaySoundRefSoundStyleNullable1SoundUpdateCallback(On_SoundEngine.orig_PlaySound_refSoundStyle_Nullable1_SoundUpdateCallback orig, ref SoundStyle style, Vector2? position, SoundUpdateCallback updatecallback)
     {
-        if (style == NamelessDeityBoss.DoNotVoiceActedSound)
+        if (style == GennedAssets.Sounds.NamelessDeity.DoNotVocals)
             style = NoxusBossSounds.DoNotVoiceActedSound;
         
         return orig.Invoke(ref style, position, updatecallback);
