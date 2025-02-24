@@ -1,8 +1,6 @@
 Bestiary: {
     Aelithrysuwl: Несмотря на внешнее сходство с совами-одиночками, эти загадочные существа обладают удивительной общительностью. Они любят петь вместе в кронах деревьев. Блестящие глаза этих существ наводят на мысль, что они могут быть разумными.
-    Vivajuyfylae: Каждое из этих загадочных существ представляет собой по сути живую звезду. Они бесцельно порхают в завораживающем танце, время от времени образуя созвездия.
-    EntropicGod: Непостижимое существо, которое невозможно описать.
-    NoxusEgg: Аномальное яйцо чистой тьмы. Оно терпеливо ожидает своего часа уже несчётное количество веков.
+    AvatarOfEmptiness: Древнее божество из вселенной, давно поглощённой безжалостным течением времени.
     ItemDropConditions.FirstTimeExclusive: Выпадает единожды.
     NamelessDeityBoss1: Созидание.
     NamelessDeityBoss2: Сияющий свет.
@@ -16,6 +14,14 @@ Bestiary: {
     NamelessDeityBoss10: Сверкающие соцветия.
     NamelessDeityBoss11: Шёпот цветов.
     NamelessDeityBoss12: Космическая красота.
+    AvatarRift: Противоположный мир затмевает сияющее солнце, пока ледяная тишина поглощает всё вокруг. Вы вняли его зову.
+    Vivajuyfylae: Каждое из этих загадочных существ представляет собой, по сути, живую звезду. Они бесцельно порхают в завораживающем танце, время от времени формируя созвездия.
+    DismalSeeker: Скрытая фигура, блуждающая в мраке туманной мглы. Вечно в поисках, она неустанно ищет нечто неуловимое.
+    Fogwood: Зловещая сущность, маскирующаяся под обычное дерево. Её обманчивое присутствие выдаёт жуткий шелест ветвей.
+    Mirrorwalker: В самый тёмный час ночи тихие шёпоты рассказывают о встрече с леденящим душу отражением - зловещим двойником самого себя.
+    Frightweaver: Уродливое создание, порождённое ночными кошмарами. Оно крадётся сквозь вихрящийся туман, стремясь уничтожить всё живое.
+    Solyn: Загадочная и жизнерадостная женщина, обладающая талантом к звездной магии. Её самая заметная черта - торчащая прядь волос в форме звезды.
+    MarsBody: Экспериментальная реконструкция одного из проектов Дрэйдона. Он питается загадочным искусственным семенем.
 }
 
 Biomes: {
@@ -23,17 +29,17 @@ Biomes: {
         DisplayName: Вечный сад
         TownNPCDialogueName: Вечный сад
     }
+    
+    DeadUniverseBiome: {
+        DisplayName: Мёртвая вселенная
+        TownNPCDialogueName: Мёртвая вселенная
+    }
 }
 
 Buffs: {
-    NoxusFumes: {
-        DisplayName: Испарения Ноксуса
-        Description: Вас окружают космические галлюцинации...
-    }
-
-    BabyNoxusBuff: {
-        DisplayName: Нокус
-        Description: Он теперь малышарик
+    CuriousHandBuff: {
+        DisplayName: Любопытная рука
+        Description: Она ощупывает формы и текстуры вашего мира, не зная подобных ощущений уже целую вечность
     }
 
     BlackHolePetBuff: {
@@ -45,6 +51,55 @@ Buffs: {
         DisplayName: Звезда
         Description: Свет будет вашим проводником
     }
+    
+    BabyNamelessBuff: {
+        DisplayName: Безымянное божество
+        Description: Всё в порядке
+    }
+    
+    NilkDebuff: {
+        DisplayName: Олочко
+        Description: ...
+    }
+    
+    StarstrikinglySatiated: {
+        DisplayName: Звёздное насыщение
+        Description: Звёздно увеличивает все характеристики и регенерацию здоровья
+    }
+    
+    Glaciated: {
+        DisplayName: Оледенение
+        Description: Вы не можете двигаться
+    }
+    
+    InvincibilityBuff: {
+        DisplayName: Сила цветка
+        Description: Благословение лотоса защищает вас от урона
+    }
+    
+    AntimatterAnnihilation: {
+        DisplayName: Аннигиляция антиматерии
+        Description: Вы больше не имеете значения
+    }
+}
+
+CellPhoneInfoOverrides: {
+    CrimsonDerechoText: Кровавая буря
+    CryogenicMaelstromText: Ледяной адошторм
+    DyingWorldFogText: Туман умирающего мира
+    EmptinessWeatherText: Пустота
+    MoonNotFoundText: Луна не найдена
+    ParadiseReclaimedInfoText: Р А Й
+    ParsecText: "{0} {^0:парсек;парсека;парсеков}"
+    VisceralTyphoonText: Плотоядный тайфун
+}
+
+Conditions: {
+    AfterSolynAppearance: После появления Солин
+    BooksObtainable: В мире, созданном с обновлением WoTG: Avatar Update
+    PreAvatarUpdateWorld: В мире, созданном до обновления WoTG: Avatar Update
+    IsGFB: Шанс выпадения в генерации «Everything»
+    ObtainedBefore: После того, как было получено хотя бы один раз
 }
 
 Items: {
@@ -67,11 +122,6 @@ Items: {
     DeificTouch: {
         DisplayName: Божественное прикосновение
         Tooltip: Открывает световое измерение за курсором
-    }
-
-    DivineMonolith: {
-        DisplayName: Божественный монолит
-        Tooltip: Можно экипировать в слот для украшений
     }
 
     DivineWings: {
@@ -98,7 +148,7 @@ Items: {
 
     EternalGardenMusicBox: {
         DisplayName: Музыкальная шкатулка (Вечный сад)
-        Tooltip: "'Edenic Whispers' от ENNWAY!"
+        Tooltip: Проигрывает 'Edenic Whispers' от ENNWAY!
     }
 
     FakeTerminus: {
@@ -111,12 +161,6 @@ Items: {
             Replaced
             Replaced2
             '''
-    }
-
-    Genesis: {
-        DisplayName: Начало
-        Tooltip: Призывает Безбожное отродье, Ноксуса
-        AlternateTooltip: Нажмите ЛКМ, чтобы призвать Энтропийного бога, нажмите ПКМ, чтобы призвать Безбожное отродье
     }
 
     GoodApple: {
@@ -135,28 +179,43 @@ Items: {
     }
 
     GoodAppleResetter: {
-        DisplayName: Сбрасыватель хорошего яблока [ОТЛАДКА]
+        DisplayName: Сбрасыватель хорошего яблока (ОТЛАДКА)
         Tooltip: ""
     }
 
-    LoreNoxus: {
-        DisplayName: История (Ноксус)
+    LoreAvatar: {
+        DisplayName: Аватар пустоты
         Tooltip:
             '''
-            [c/E3AF40:До ваших ушей доносится далёкий шёпот...]
+            [c/E3AF40:Из глубин доносятся зловещие шёпоты...]
             Удерживайте 'Левый Shift', чтобы прислушаться
             '''
         Lore:
             '''
-            Абсурд
-            Намерения и происхождение этой аномалии окутаны глубочайшей пучиной тайнства, но одно несомненно:
+                Тени, облёкшиеся в мрак. Крионитовый туман. Пространство, что ведёт     к    завершённому         миру
+            Одинокий, Темнейший. Он стремится поглотить, исследовать в час,  	 что ускользает
+            Зеркальные искажения. Параболическая жалоба. Энтропия. Израненное, слёзное зрелище
+            Мимолётное
+                Дыхание
+            Силы зрят. Силы, слепые ко всему
 
-            Не являясь ни богом, ни драконом, оно обладает исключительной, возвышенной силой, присущей только им
+                    Застывшие осколки
+            Молитесь ветру разложения
+            Тоскливые грёзы о бескрайних алых просторах, что рухнули в ничто
+    
+                Полосы цвета, что меркнут под натиском наступающей тьмы
 
-            Какое божественное вмешательство могло привести к столь необычным обстоятельствам, раскрывая вершину его гротескной силы?
-            Рука судьбы, искусно создающая узор бытия? Просто случайность? Или, может быть, это лишь неуправляемое проявление прихоти природы?
-            Боги и драконы... являются ли они высшим проявлением всего сущего? Могут ли в далёких мирах, за пределами Террарии, обитать иные, более могущественные существа?
-            Последние события стали источником множества вопросов, на которые пока нет ответов
+                        Космическая элегия о горе старейшего божества
+    
+            Упадок. Упадок.		Упадок					Упадок
+            Упадок
+    
+            В ослепительном сиянии маска скользит сквозь царство высших существ. Всё растёт и увядает в божественном спектакле жизни и смерти
+    
+                        Темнейший - ярчайшая звезда совершенного мира
+    
+                Теперь ты будешь танцевать 		в узорах    погребённой судьбы
+            Ищи   свою участь на пепле былого, где лилии не растут
             '''
     }
 
@@ -170,36 +229,38 @@ Items: {
         Lore: ""
     }
 
-    MidnightMonolith: {
-        DisplayName: Полночный монолит
-        Tooltip: Можно экипировать в слот для украшений
+    MetallicChunk: {
+        DisplayName: Металлический обломок
+        Tooltip: Последний осколок погибшей вселенной
+    }
+    
+    NilkCarton: {
+        DisplayName: Упаковка олочка
+        Tooltip:
+            '''
+            [c/FF0832:Не используйте, если у вас есть светочувствительность]
+            Эффект олочка проявляется не сразу
+            'Существует ли межпространственная непереносимость лактозы?'
+            '''
     }
 
-    NoxiousEvocator: {
-        DisplayName: Ядовитый призыватель
-        Tooltip: Материализует космические галлюцинации вокруг вас
-    }
-
-    NoxusEclipseCalculator: {
-        DisplayName: Калькулятор затмений Ноксуса [ОТЛАДКА]
-        Tooltip: Показывает информацию о предстоящих затмениях Ноксуса на ближайшие 100 дней
-        InfoTextPartial: Затмение Ноксуса произойдёт примерно через {0} дней, начиная с {1} и заканчиваясь {2}. Это будет частичное затмение.
-        InfoTextTotal: Затмение Ноксуса произойдёт примерно через {0} дней, начиная с {1} и заканчиваясь {2}. Это будет полное затмение.
-        InfoTextNoxusWorld: Затмение вечное.
+    RiftEclipseToggler: {
+        DisplayName: Rift Eclipse Toggler (DEBUG)
+        Tooltip: ""
     }
 
     NoxusMask: {
-        DisplayName: Маска Ноксуса
+        DisplayName: Маска Аватара пустоты
         Tooltip: ""
     }
 
     NoxusRelicItem: {
-        DisplayName: Реликвия Ноксуса
+        DisplayName: Реликвия Аватара пустоты
         Tooltip: ""
     }
 
-    NoxusSprayer: {
-        DisplayName: Опрыскиватель Ноксуса
+    EmptinessSprayer: {
+        DisplayName: Распылитель пустоты
         Tooltip:
             '''
             Выпускает струю хаотического тумана, испаряющего всё, к чему оно прикасается
@@ -207,13 +268,8 @@ Items: {
             '''
     }
 
-    NoxusTrophy: {
-        DisplayName: Трофей Ноксуса
-        Tooltip: ""
-    }
-
-    NoxusWorldFogStarter: {
-        DisplayName: Набор для создания тумана мира Ноксуса [ОТЛАДКА]
+    AvatarTrophy: {
+        DisplayName: Трофей Аватара пустоты
         Tooltip: ""
     }
 
@@ -222,14 +278,18 @@ Items: {
         Tooltip: ""
     }
 
-    OblivionRattle: {
-        DisplayName: Погремушка забвения
+    OblivionChime: {
+        DisplayName: Колокольчик забвения
         Tooltip: ""
     }
 
-    Rok: {
-        DisplayName: Камушек
-        Tooltip: Просто обычный камень
+    StarCharm: {
+        DisplayName: Звёздный талисман
+        Tooltip:
+            '''
+            Значительно увеличивает пассивную удачу и шанс на звездопад ночью, пока он находится в вашем инвентаре
+            [c/F79BC6:'Это моё личное изобретение! Надеюсь, оно тебе пригодится!']
+            '''
     }
 
     Terminal: {
@@ -278,14 +338,14 @@ Items: {
         DisplayName: Трофей Безымянного божества
         Tooltip: По умолчанию глаз остаётся закрытым, пока к нему не подойдёт игрок. Его можно открыть с помощью проводов
     }
-
-    Starseed: {
-        DisplayName: Звёздное семя
+    
+    NamelessDeityTreasureBag: {
+        DisplayName: Мешок с сокровищами (Безымянное божество)
         Tooltip: ""
     }
 
-    StaircaseStarter: {
-        DisplayName: Генератор лестничных ступенек [ОТЛАДКА]
+    Starseed: {
+        DisplayName: Звёздное семя
         Tooltip: ""
     }
 
@@ -293,37 +353,942 @@ Items: {
         DisplayName: Картина «Xenqiterthralyensyr»
         Tooltip: Имя автора этого произведения затерялось в веках
     }
+    
+    DichromaticGlossDye: {
+        DisplayName: Дихроматический глянцевый краситель
+        Tooltip: ""
+    }
+    
+    ScarletShadeDye: {
+        DisplayName: Алый теневой краситель
+        Tooltip: ""
+    }
+    
+    GoodDye: {
+        DisplayName: Хороший краситель
+        Tooltip: ""
+    }
+    
+    AvatarTreasureBag: {
+        DisplayName: Мешок с сокровищами (Аватар пустоты)
+        Tooltip: ""
+    }
+    
+    StarKite: {
+        DisplayName: Звёздный воздушный змей
+        Tooltip: "{$CommonItemTooltip.Kite}"
+    }
+    
+    SolynDialogueResetter: {
+        DisplayName: Сброс диалогов Солин (ОТЛАДКА)
+        Tooltip: ""
+    }
+    
+    Veilray: {
+        DisplayName: Вуалевый скат
+        Tooltip: ""
+        QuestDescription:
+            '''
+            С тех пор как всё стало таким тёмным и мрачным, повсюду начали появляться удивительные рыбы! Одна из них - вуалевый скат, бледная рыба, которая иногда плавает у поверхности океана.
+            Я понятия не имею, безопасно ли его трогать, это не важно. Важно то, что тебе нужно поймать его для меня!
+            '''
+        QuestionCatchLocation: Можно поймать в океане
+    }
+    
+    InterstellarBait: {
+        DisplayName: Межзвёздная наживка
+        Tooltip:
+            '''
+            Не расходуется
+            'Каким-то образом привлекает рыбу'
+            '''
+    }
+    
+    Erilucyxwyn: {
+        DisplayName: Erilucyxwyn
+        Tooltip:
+            '''
+            So, how did you obtain this?
+            Was it through from comical drop chance, or the silly test of resolve challenge?
+            ... Or did you just use the cheat permission slip and get it through DragonLens?
+    
+            'Carried from the shining river, personally cultivated across countless eons. Such is the reward of the Deity's divine favor'
+            '''
+    }
+    
+    GodglimmerDye: {
+        DisplayName: Краситель цвета божественного сияния
+        Tooltip: ""
+    }
+    
+    MoonBurnDye: {
+        DisplayName: Краска цвета лунного ожога
+        Tooltip: ""
+    }
+    
+    SolynStatue: {
+        DisplayName: Статуя Солин
+        Tooltip: ""
+    }
+    
+    Worldbuilding: {
+        DisplayName: Картина «Мироздание»
+        Tooltip: "'Смолин'"
+    }
+    
+    WrathOfTheGods: {
+        DisplayName: Картина «Гнев богов»
+        Tooltip:
+            '''
+            'Ты познаешь гнев Безымянного божества, Redigit...'
+            'Гнев богов Безымянного божества'
+            '''
+    }
+    
+    SolynDeleter: {
+        DisplayName: Ликвидатор Солин (ОТЛАДКА)
+        Tooltip: ""
+    }
+    
+    GoldTelescope: {
+        DisplayName: Золотой телескоп
+        Tooltip: ""
+    }
+    
+    StarlitForge: {
+        DisplayName: Звёздная кузня
+        Tooltip:
+            '''
+            Универсальная кузня, способная заменить верстак, печь, наковальню и многое другое
+            К тому же она каким-то образом позволяет печь ароматные Булочки с Солицей прямо из воздуха
+            [c/F79BC6:'Как она работает? Да просто разогревает материалы, как любая старая печь, глупыш!']
+            '''
+    }
+    
+    StarblessedPlatform: {
+        DisplayName: Благословлённая звёздами платформа
+        Tooltip:
+            '''
+            Когда две такие платформы находятся на одной горизонтали, они соединяются, образуя мост из света
+            Этот свет исчезает только при разрушении одной из платформ
+            Платформы могут соединяться, если расстояние между ними не превышает 222 блока
+            Можно размещать прямо в воздухе
+            [c/F79BC6:'Круто, правда? Почти как ступеньки в небеса!']
+            '''
+    }
+    
+    PlatinumTelescope: {
+        DisplayName: Платиновый телескоп
+        Tooltip: ""
+    }
+    
+    CinnamonRollyn: {
+        DisplayName: Булочки с Солицей
+        Tooltip:
+            '''
+            Звёздно увеличивает все характеристики
+            [c/F79BC6:'Источник взрывной звёздной сладости кроется в забавной игре слов с моим именем!']
+            '''
+    }
+    
+    NamelessDeityDeathToggler: {
+        DisplayName: Переключатель смерти Безымянного божества (ОТЛАДКА)
+        Tooltip: ""
+    }
+    
+    AvatarDeathToggler: {
+        DisplayName: Переключатель смерти Аватара пустоты (ОТЛАДКА)
+        Tooltip: ""
+    }
+    
+    PortalSkirt: {
+        DisplayName: Юбка-портал
+        Tooltip: "'Как ни странно, но она погружает лишь по пояс'"
+    }
+    
+    PerversePurse: {
+        DisplayName: Искажённый кошель
+        Tooltip:
+            '''
+            Особый кошель с карманным измерением внутри. При использовании похищает и хранит (почти) любых жителей
+            Может вмещать до трёх жителей одновременно
+            <right> выпускает последнего пойманного жителя в вашей позиции
+            Если житель заперт в кошеле, он не появится в мире, пока не будет выпущен или пока кошель не исчезнет
+            [c/F79BC6:'Обычно я использую такие кошели как переносные хранилища. Позволяет держать карманы пустыми']
+            [c/F79BC6:'Уверена, ты найдёшь ему не менее полезное применение!']
+            '''
+        InfoLine: В этом кошеле хранятся {0}, {1}.
+    }
+    
+    LotusOfCreation: {
+        DisplayName: Лотос сотворения
+        Tooltip:
+            '''
+            Уникальный цветок, созданный специально для вас и Солин
+            Нажмите <right>, чтобы стать неуязвимым
+            '''
+        SellText: Это для вас и Солин, а не для какого-то проходимца
+    }
+    
+    Dreamcatcher: {
+        DisplayName: Ловец снов
+        Tooltip:
+            '''
+            Запускает три особых поплавка
+            Первый поплавок ловит обычную рыбу
+            Второй поплавок ловит только тех рыб, которые нужны для задания
+            Третий поплавок ловит только сундуки
+            Позволяет ловить рыбу в лаве
+            [c/F79BC6:'Работает как магнетизм, только круче!']
+            '''
+    }
+    
+    StarlitCampfire: {
+        DisplayName: Звёздный костер
+        Tooltip: ""
+    }
+    
+    SuperstarHairDye: {
+        DisplayName: Краска для волос цвета суперзвезды
+        Tooltip: ""
+    }
+    
+    SuperstarDye: {
+        DisplayName: Краситель цвета суперзвезды
+        Tooltip: ""
+    }
+    
+    TriadicFractureDye: {
+        DisplayName: Краситель цвета триадического разлома
+        Tooltip: ""
+    }
+    
+    Moonscreen: {
+        DisplayName: Лунозащитный крем
+        Tooltip:
+            '''
+            Позволяет владельцу омываться лучами света под деревом, не призывая Безымянное божество, если открыт
+            Нажмите <right>, чтобы закрыть и отключить эффект
+            '''
+        TooltipClosed:
+            '''
+            Позволяет владельцу омываться лучами света под деревом, не призывая Безымянное божество, если открыт
+            Нажмите <right>, чтобы открыть и активировать эффект
+            '''
+    }
+    
+    DormantKey: {
+        DisplayName: Дремлющий ключ
+        Tooltip:
+            '''
+            Таинственный ключ, подаренный Пермафростом в благодарность за его освобождение
+            [c/53C0EF:Похоже, Солин что-то знает об этом...]
+            '''
+    }
+    
+    SolynQuestResetter: {
+        DisplayName: Сброс заданий Солин (ОТЛАДКА)
+        Tooltip: Сбрасывает состояние всех заданий Солин к исходным значениям, помечая их как неначатые и незавершённые
+    }
+    
+    Genesis: {
+        DisplayName: Генезис
+        Tooltip: ""
+    }
+    
+    FrostblessedSeedlingItem: {
+        DisplayName: Благословлённый морозом проросток
+        Tooltip:
+            '''
+            Холодный, магический росток из твердыни Пермафроста
+            [c/D22444:При правильном уходе раскроет свой безграничный потенциал]
+            '''
+    }
+    
+    TheAntiseed: {
+        DisplayName: Антисемя
+        Tooltip:
+            '''
+            Древний проросток, запечатанный в таинственном разломе ради его сохранности
+            [c/D22444:Его силу можно объединить с благословлённым морозом проростком, если разместить их рядом]
+            '''
+    }
+    
+    SyntheticSeedling: {
+        DisplayName: Синтетический проросток
+        Tooltip:
+            '''
+            Искусственное семя, созданное Дрэйдоном на атомном уровне для использования в качестве возобновляемого источника энергии
+            [c/D22444:Его силу можно объединить с благословлённым морозом проростком, если разместить их рядом]
+            '''
+    }
+    
+    PluripotentSprout: {
+        DisplayName: Pluripotent Sprout
+        Tooltip:
+            '''
+            It's slimy, with a refulgent iridescence
+            [c/D22444:Its powers may be combined with the Frostblessed Seedling when placed near it]
+            '''
+    }
+    
+    BlazingBud: {
+        DisplayName: Blazing Bud
+        Tooltip:
+            '''
+            A sprout of immense power. Screams, cries, and the unceasing crackle of hellfire can be faintly heard from it
+            [c/D22444:Its powers may be combined with the Frostblessed Seedling when placed near it]
+            '''
+    }
+    
+    HandwrittenNote: {
+        DisplayName: Handwritten Note
+        Tooltip:
+            '''
+            A handwritten note from Solyn. It appears to have been created recently
+            Click to view its contents
+            '''
+    }
+    
+    AvatarAuricSoul: {
+        DisplayName: Grotesque Auric Soul
+        Tooltip: Это не канон
+    }
+    
+    NamelessAuricSoul: {
+        DisplayName: Высшая ауритовая душа
+        Tooltip: Это не канон
+    }
+    
+    StaffOfRejuvenation: {
+        DisplayName: Staff Of Rejuvenation
+        Tooltip: Grows special grass when used on dirt or standard grass
+    }
+    
+    AvatarRiftMusicBox: {
+        DisplayName: Music Box (Avatar of Emptiness Rift)
+        Tooltip: Проигрывает 'Static' от ENNWAY!
+    }
+    
+    AvatarOfEmptinessP2MusicBox: {
+        DisplayName: Music Box (Avatar of Emptiness - Phase 2)
+        Tooltip: Проигрывает 'Paradise Parasite' от ENNWAY!
+    }
+    
+    AvatarOfEmptinessP3MusicBox: {
+        DisplayName: Music Box (Avatar of Emptiness - Phase 3)
+        Tooltip: Проигрывает 'Paradise Parasite' от ENNWAY!
+    }
+    
+    MarsMusicBox: {
+        DisplayName: Музыкальная шкатулка (Марс)
+        Tooltip: Проигрывает 'RAMifications' от Moonburn
+    }
+    
+    NilkSongMusicBox: {
+        DisplayName: Музыкальная шкатулка (Олочко)
+        Tooltip: Проигрывает 'The Nilk Song' от ENNWAY!
+    }
+    
+    HemolacriaMusicBox: {
+        DisplayName: Music Box (Rift Eclipse Blood Moon)
+        Tooltip: Проигрывает 'Hemolacria' от Moonburn
+    }
+    
+    RiftEclipseFogMusicBox: {
+        DisplayName: Music Box (Rift Eclipse Fog)
+        Tooltip: Проигрывает 'Mirrortwist' от Lucille Karma
+    }
+    
+    RiftEclipseMusicBox: {
+        DisplayName: Music Box (Rift Eclipse)
+        Tooltip: Проигрывает 'nowhere now here' от Moonburn
+    }
+    
+    RiftEclipseBlizzardMusicBox: {
+        DisplayName: Music Box (Rift Eclipse Blizzard)
+        Tooltip: Проигрывает '-273.15' от Moonburn
+    }
+    
+    TheTelescopeSongMusicBox: {
+        DisplayName: Music Box (Telescope)
+        Tooltip: Проигрывает 'The Telescope Song' от Moonburn
+    }
+    
+    AscentMusicBox: {
+        DisplayName: Music Box (Shining Stairway)
+        Tooltip: Проигрывает 'ascent' от ENNWAY! и Moonburn
+    }
+    
+    SvalbardMusicBox: {
+        DisplayName: Музыкальная шкатулка (Твердыня Пермафроста)
+        Tooltip: Проигрывает 'Svalbard' от Moonburn
+    }
+    
+    StellarRequiemMusicBox: {
+        DisplayName: Music Box (Wistful Campsite)
+        Tooltip: Проигрывает 'Stellar Requiem' от Moonburn
+    }
+    
+    EndCreditsMusicBox: {
+        DisplayName: Music Box (End Credits)
+        Tooltip: Проигрывает 'Wrath of the Gods' от Moonburn
+    }
+    
+    GraphicalUniverseImager: {
+        DisplayName: Graphical Universe Imager
+        Tooltip: Can be right clicked when placed to activate a variety of custom background effects
+    }
+    
+    GardenFountain: {
+        DisplayName: Garden Fountain
+        Tooltip: ""
+    }
+    
+    RageOfTheDeities: {
+        DisplayName: Ярость божеств
+        ObtainmentHint: "[c/F79BC6:Серный лотос может указать на источник этой книги]"
+        Tooltip:
+            '''
+            Начальные строки трактата гласят:
+    
+            Два существа, сражаясь за власть над Мирозданьем,
+            Ослепли для хода Времени
+            '''
+    }
+    
+    AppleThesis: {
+        DisplayName: Яблочный трактат
+        ObtainmentHint: "[c/F79BC6:Эту книгу можно найти в кронах деревьев]"
+        Tooltip:
+            '''
+            Диссертация о бесконечных способах применения яблок!
+            Соус, масло, сидр, декор, попурри...
+    
+            Автор, кажется, белка
+            '''
+    }
+    
+    BibleOfSlime: {
+        DisplayName: Библия слизи
+        ObtainmentHint: "[c/F79BC6:Может быть у слизня]"
+        Tooltip:
+            '''
+            В начале, из глубин праила, явилась Гузма, сущность чистая и несокрушимая
+            Из её текучей плоти произошли благодать и мудрость, искра божественности, что зрима в каждом слизне
+    
+            Блаженны текучие, ибо пребудут в вечном движении, не сломленные испытаниями судьбы. Блаженны бесформенные, ибо обретут любую форму
+    
+            Вся тварь слизеподобная едина с потоком мироздания
+    
+            Аминь
+            '''
+    }
+    
+    BookOfMiracles: {
+        DisplayName: Книга чудес
+        ObtainmentHint: "[c/F79BC6:Эта книга может иметь отношение к квартету боевых машин]"
+        Tooltip: Содержимое страниц скрыто мерцающим, лаймово-зелёным эффектом разложения
+    }
+    
+    Cactome: {
+        DisplayName: Кактомикон
+        ObtainmentHint: "[c/F79BC6:Эта книга может быть спрятана внутри чего-то, что движется под песчаными дюнами]"
+        Tooltip:
+            '''
+            Содержит всего одну плотную страницу
+            На странице написано:
+    
+            'Как там ваши ручки?'
+            '''
+    }
+    
+    DecayingTome: {
+        DisplayName: Истлевший фолиант
+        ObtainmentHint: "[c/F79BC6:Я попробую найти его самостоятельно]"
+        Tooltip:
+            '''
+            Содержимое книги почти полностью истлело, а страницы превратились в клочья
+            Похоже, здесь уже не разгуляешься грибами
+            '''
+    }
+    
+    FuturisticTreatise: {
+        DisplayName: Футуристичный трактат
+        ObtainmentHint: "[c/F79BC6:Эта книга может иметь отношение к квартету боевых машин]"
+        Tooltip: ""
+    }
+    
+    HowToFly: {
+        DisplayName: Как летать
+        ObtainmentHint: "[c/F79BC6:Эту книгу можно найти в небесах]"
+        Tooltip:
+            '''
+            На первой странице написано:
+            'Удерживайте клавишу прыжка'
+    
+            Остальные девяносто шесть страниц пусты
+            '''
+    }
+    
+    OminousStorybook: {
+        DisplayName: Мрачные хроники
+        ObtainmentHint: ""
+        Tooltip:
+            '''
+            [c/C69C97:Пульс, затем тишина]
+            [c/C69C97:Звёзды вздыхают. Семена рассекают камень]
+    
+            [c/C69C97:Пепел прилипает к ветру, шепча о лесах, которых ему не суждено узнать]
+            [c/C69C97:Свет угасает в вечной тьме. В складках нового рассвета]
+            [c/C69C97:Его края истончаются, готовые к перерождению]
+    
+            [c/C69C97:Миры восходят и падают, рождаясь из великой пены]
+    
+            [c/C69C97:Но время - не линия,]
+            [c/C69C97:А цветение пламени]
+             
+            [c/C69C97:Лепестки сворачиваются внутрь]
+            [c/C69C97:Пепел закручивается наружу]
+            [c/C69C97:Нет начала. Нет конца]
+            [c/C69C97:Лишь движение бытия]
+    
+            [c/C69C97:Ты слышишь это? Тихий гул под руинами]
+    
+            [c/CEA3A3:Память движения]
+            [c/EF908D:О вращении оси колеса]
+            [c/FF6660:О скачке искры]
+    
+            [c/FF5171:Пробуждение мира]
+            [c/FF274A:Из тени опавшего цветка]
+            '''
+    }
+    
+    TwentyTwome: {
+        DisplayName: Два-Два-Том
+        ObtainmentHint: "[c/F79BC6:Похоже, эта книга находится где-то среди растительности джунглей]"
+        Tooltip:
+            '''
+            Странные бредни неизвестного автора, выдумывающего множество связей между шершнями и числом двадцать два
+            На последней странице мрачным тоном описывается некий 'осадый патрон'
+            '''
+    }
+    
+    InscrutableTexts: {
+        DisplayName: Непостижимые тексты
+        ObtainmentHint: "[c/F79BC6:Эта книга принадлежит архимагу]"
+        Tooltip:
+            '''
+            Текст едва различим и переполнен магической терминологией
+    
+            'Апперцепция адепта-неофита к экзальтированным экзотериям Магики достижима лишь через просветлённо-каузальное озарение квинтэссенциальных нусов'
+            'Под аргентным всевидением сонмолунных циклов вгрызался я в таумиургические субстанции, инкарнированный в криопневматическом сакраториуме, синхронизируя ноуменальные матрицы с феноменологическими парадигмами'
+            'В этом манускриптуме явлю экзегетику трансадамантных откровений и эзотерические синергии, диссимилированные через хронофагические медитации'
+    
+            Вы решаете не читать дальше
+            '''
+    }
+    
+    AberrantWritings: {
+        DisplayName: Аберрантные записи
+        ObtainmentHint: "[c/F79BC6:Я попробую найти её самостоятельно]"
+        Tooltip:
+            '''
+    
+            '...'
+            '''
+    }
+    
+    AbsenceNotice: {
+        DisplayName: Уведомление об отсутствии
+        ObtainmentHint: "[c/F79BC6:Эту книгу можно найти в пучине водных глубинах]"
+        Tooltip:
+            '''
+            Таинственный листок бумаги, указывающий на чьё-то отсутствие
+            Подписан буквами 'Кс'
+            '''
+    }
+    
+    AcidicPrayerbook: {
+        DisplayName: Кислотный молитвенник
+        ObtainmentHint: "[c/F79BC6:Похоже, эта книга как-то связана с едкими ливнями]"
+        Tooltip:
+            '''
+            Потрёпанный фолиант, написанный в почтительном тоне
+            Также содержит описания различных существ, включая свиноподобных созданий, драконов и некий 'сернистый ужас морей'
+    
+            Остальной текст разобрать невозможно
+            '''
+    }
+    
+    AncientWritings: {
+        DisplayName: Ancient Writings
+        ObtainmentHint: "[c/F79BC6:You may find this book in the possession of someone with a curse]"
+        ShopTooltip: Purchase to read its contents
+        Tooltip:
+            '''
+            An extraordinarily old book that focuses on a supposed demonic curse, providing a panoply of disconcerting details on its effects
+            Turning to a random page, the following section is found:
+    
+            '...On the fifth cyclical eve, the afflicted's form shall be temporarily shed, as the skeletal form emerges from within, causing excruciating...'
+    
+            You decide to not read further
+            '''
+    }
+    
+    BestPriceBestiary: {
+        DisplayName: Best Price Bestiary
+        ObtainmentHint: "[c/F79BC6:Я попробую найти его самостоятельно]"
+        Tooltip:
+            '''
+            A wide array of creatures are present in this book- some familiar, some not
+            The first entry, an ordinary green slime, is portrayed with a crude, childish drawing, and claims that they boast precisely 13,575 total health
+    
+            This doesn't strike you as particularly accurate
+            '''
+    }
+    
+    CloverManual: {
+        DisplayName: Clover Manual
+        ObtainmentHint: "[c/F79BC6:This book may require considerable luck to obtain]"
+        Tooltip:
+            '''
+            A strange booklet that discusses something called a 'luck mechanic'
+            It mentions lantern nights, horseshoes, garden gnomes, and something mysterious called a 'Galaxy Pearl' as sources of good luck
+            It contains a warning to the reader about treating ladybugs properly
+    
+            The last page appears to be dedicated to pontification about colored torches, for some reason
+            '''
+    }
+    
+    DubiousBrochureCorruption: {
+        DisplayName: Dubious Brochure
+        ObtainmentHint: "[c/F79BC6:You may find this book deep within the chasms of the Corruption]"
+        Tooltip:
+            '''
+            A brochure containing a lighthearted spiel inviting travelers to visit the Corruption biome
+            The photos contained within are obviously inaccurate, and bafflingly glamorizing
+    
+            You can't help but wonder who created this
+            '''
+    }
+    
+    DubiousBrochureCrimson: {
+        DisplayName: Dubious Brochure
+        ObtainmentHint: "[c/F79BC6:You may find this book deep within the heart of the Crimson]"
+        Tooltip:
+            '''
+            A brochure containing a lighthearted spiel inviting travelers to visit the Crimson biome
+            The photos contained within are obviously inaccurate, and bafflingly glamorizing
+    
+            You can't help but wonder who created this
+            '''
+    }
+    
+    DubiousSpellbook: {
+        DisplayName: Dubious Spellbook
+        ObtainmentHint: "[c/F79BC6:This book belongs to wizards occasionally seen in the caverns]"
+        Tooltip:
+            '''
+            A spellbook containing information on the construction of various other spellbooks that you've never heard before, along with their means of acquisition
+            Turning to a random page reveals the following examples:
+    
+            - Scarlet Malison: One spell tome, four fireblossoms, ten souls of night, three antumbral silk, and three bloodstone
+            - Aethercrash: One spell tome, three dreamweaver threads, ten souls of light, and eight nebula fragments
+            - Tenebrous Silverglow: One spell tome, one dark plasma, three platinum bars, twenty whisperroot bark, and one core of eleum
+            '''
+    }
+    
+    DustyDiary: {
+        DisplayName: Dusty Diary
+        ObtainmentHint: "[c/F79BC6:Я попробую найти его самостоятельно]"
+        Tooltip:
+            '''
+            A personal booklet. It's so old that every one of its pages have turned to dust, its secret wisdom forever out of reach
+            A perfect find for those who enjoy reading with their imagination!
+            '''
+    }
+    
+    ExoBlueprints: {
+        DisplayName: Exo Blueprints
+        ObtainmentHint: "[c/F79BC6:May be obtained by attacking a scientist's body]"
+        Tooltip:
+            '''
+            Blueprints for Ares, Thanatos, Artemis, and Apollo, with various technical notes, seemingly written by Draedon throughout the construction of the machines
+            A small note pertaining to their autonomous behavior algorithms and combat strategies sticks out:
+    
+            'Simulation testing has revealed Artemis, Apollo, and Ares achieve maximal combat efficacy with precise aerial capabilities foregone entirely. This is absurd, yet fascinating.'
+    
+            You can't help but agree with this conclusion
+            '''
+    }
+    
+    FanaticalRamblings: {
+        DisplayName: Fanatical Ramblings
+        ObtainmentHint: "[c/F79BC6:Я попробую найти его самостоятельно]"
+        Tooltip: Opening the book fills you with an indescribable feeling of hatred for some reason
+    }
+    
+    FishingCatalogue: {
+        DisplayName: Fishing Catalogue
+        ObtainmentHint: "[c/F79BC6:You may obtain this book as a reward for specialized fishing]"
+        Tooltip: A boring catalogue of catches. The amount of precision and detail is remarkable
+    }
+    
+    FrostyPamphlet: {
+        DisplayName: Frosty Pamphlet
+        ObtainmentHint: "[c/F79BC6:Я попробую найти его самостоятельно]"
+        Tooltip: It's so cold that you can't make out the words from the frozen pages
+    }
+    
+    HiTechInstructionManual: {
+        DisplayName: Hi Tech Instruction Manual
+        ObtainmentHint: "[c/F79BC6:Я попробую найти его самостоятельно]"
+        Tooltip: Contains strange notes on the construction of four hi-tech, autonomous robots
+    }
+    
+    InstructionManual: {
+        DisplayName: Instruction Manual
+        ObtainmentHint: "[c/F79BC6:A powerful, lunar being is in possession of this book]"
+        Tooltip:
+            '''
+            An instruction manual about a game named 'Terraria'
+            It includes the following itemized tips:
+    
+            - 'Unsure about what to do? Contact the Guide, a town NPC that appears from the moment you create a new world!'
+            - 'Accidentally placed a wall and can't break it? Craft and use a hammer!'
+            - 'Town NPCs require sufficient space, walls, a chair, a table, and a source of light to move in!'
+    
+            For some reason, you find this mildly insulting
+            '''
+    }
+    
+    InvisibleInkDissertation: {
+        DisplayName: Invisible Ink Dissertation
+        ObtainmentHint: "[c/F79BC6:This book may be obtained via the transmutation of an ordinary book]"
+        Tooltip:
+            '''
+            There's nothing visible on the pages, yet somehow you can tell there's invisible ink present
+            Your curiosity gnaws away at your psyche
+            '''
+    }
+    
+    MagicLexicon: {
+        DisplayName: Magic Lexicon
+        ObtainmentHint: "[c/F79BC6:Я попробую найти его самостоятельно]"
+        Tooltip:
+            '''
+            A dictionary of arcana, for your informational needs on magic
+            Definitions include the following:
+    
+            Ensorcell: The act of captivating or fascinating someone
+            Goetia: A form of sorcery transmitted through grimoires
+            Gramarye: The process of occult learning
+            Mystagogue: A teacher of the mystical and esoteric
+            '''
+    }
+    
+    Otherworldly1: {
+        DisplayName: Otherworldly Tome I
+        ObtainmentHint: "[c/F79BC6:You may find this book in pots]"
+        Tooltip:
+            '''
+            It's written in a language that you don't understand
+            Solyn might know more about this...
+            '''
+    }
+    
+    Otherworldly2: {
+        DisplayName: Otherworldly Tome II
+        ObtainmentHint: "[c/F79BC6:This book may be extractinated]"
+        Tooltip:
+            '''
+            It's written in a language that you don't understand
+            Solyn might know more about this...
+            '''
+    }
+    
+    Otherworldly3: {
+        DisplayName: Otherworldly Tome III
+        ObtainmentHint: "[c/F79BC6:This book may be found within a rare, vibrant slime]"
+        Tooltip:
+            '''
+            It's written in a language that you don't understand
+            Solyn might know more about this...
+            '''
+    }
+    
+    Otherworldly4: {
+        DisplayName: Otherworldly Tome VI
+        ObtainmentHint: "[c/F79BC6:Я попробую найти его самостоятельно]"
+        Tooltip:
+            '''
+            It's written in a language that you don't understand
+            Solyn might know more about this...
+            '''
+    }
+    
+    Otherworldly5: {
+        DisplayName: Otherworldly Tome V
+        ObtainmentHint: "[c/F79BC6:Я попробую найти его самостоятельно]"
+        Tooltip:
+            '''
+            It's written in a language that you don't understand
+            Solyn might know more about this...
+            '''
+    }
+    
+    Otherworldly6: {
+        DisplayName: Otherworldly Tome VI
+        ObtainmentHint: "[c/F79BC6:You may find this book within special chests in the dungeon]"
+        Tooltip:
+            '''
+            It's written in a language that you don't understand
+            Solyn might know more about this...
+            '''
+    }
+    
+    SanguineWildlife: {
+        DisplayName: Sanguine Wildlife
+        ObtainmentHint: ""
+        Tooltip: ""
+    }
+    
+    SeamapCollection: {
+        DisplayName: Seamap Collection
+        ObtainmentHint: "[c/F79BC6:This book may at times be found near the shoreline]"
+        Tooltip:
+            '''
+            A catalogued collection of various seamaps, with markers seemingly indicating treasure
+            None of the depicted locations are familiar to you
+            '''
+    }
+    
+    SulfuricLeaflet: {
+        DisplayName: Sulfuric Leaflet
+        ObtainmentHint: "[c/F79BC6:This book may be ejected in the sulfuric caverns]"
+        Tooltip:
+            '''
+            A short, informational leaflet describing the dangers of acid rain
+            It appears to be irradiated
+            '''
+    }
+    
+    TheBookOfShaders: {
+        DisplayName: The Book Of Shaders
+        ObtainmentHint: "[c/F79BC6:Я попробую найти его самостоятельно]"
+        Tooltip:
+            '''
+            An informational read on the creation of shaders and programmatically generated artwork
+            Seven pages are dedicated to ranting about the sanctity of pixelation
+            '''
+    }
+    
+    UnfinishedColoringBook: {
+        DisplayName: Unfinished Coloring Book
+        ObtainmentHint: "[c/F79BC6:This book may occasionally be found near my campsite]"
+        Tooltip:
+            '''
+            A coloring book containing assortments of simplistic celestial scenes
+            Approximately two thirds of the scenes are colored with masterful quality. The rest are completely untouched
+            '''
+    }
+    
+    WulfrumAssemblyGuide: {
+        DisplayName: Wulfrum Assembly Guide
+        ObtainmentHint: "[c/F79BC6:This book may be obtained from charged machines]"
+        Tooltip:
+            '''
+            An esteemed inventor's detailed yet confusing instruction manual
+            The instructions mention various tools. Most are unfamiliar, and the rest are used in highly eccentric ways
+            '''
+    }
+    
+    WorldUpdater: {
+        DisplayName: Обновление версии мира (ОТЛАДКА)
+        Tooltip:
+            '''
+            Обновляет внутренние данные о версии мира до актуальной
+            По сути, заставляет старые миры восприниматься как новые в условиях, зависящих от версии
+            Например, для доступа к цепочке заданий Солин
+            '''
+    }
+    
+    SolynBookshelfResetter: {
+        DisplayName: Сброс книжного шкафа Солин (ОТЛАДКА)
+        Tooltip: Сбрасывает все книги в книжном шкафу Солин, а также все неполученные награды
+    }
+    
+    ExoticSeedBag: {
+        DisplayName: Мешочек с экзотическими семенами
+        Tooltip:
+            '''
+            Содержит все необходимые компоненты для призыва Аватара пустоты
+            Для призыва разместите все семена рядом друг с другом, затем нажмите <right> на благословлённом морозом проростке, когда он полностью созреет
+            [c/FF2219:Этот предмет существует исключительно для обратной совместимости и не предназначен для использования в новых мирах]
+            '''
+    }
+    
+    GenderDye: {
+        DisplayName: Гендерный краситель
+        Tooltip: ""
+    }
+    
+    SeedOfWill: {
+        DisplayName: Семя воли
+        Tooltip:
+            '''
+            Вовлекает в бесконечное испытание решимости с Безымянным божеством
+            Можно использовать только в саду
+            Вы будете вознаграждены, если сможете выстоять достаточно долго
+            '''
+    }
+    
+    ParadiseDye: {
+        DisplayName: Райский краситель
+        Tooltip: ""
+    }
+}
+
+MenuThemes: {
+    AscentMainMenu.DisplayName: Возвышение
+    EternalGardenMainMenu.DisplayName: Центр созидания
+    NamelessDeityDimensionMainMenu.DisplayName: Сияющий фон рая
+    AvatarRiftSkyMainMenu.DisplayName: Беззаботная алая даль
+    AvatarWindMainMenu.DisplayName: Бушующие просторы
 }
 
 NPCs: {
     NoxusEggCutscene.DisplayName: ???
 
-    NoxusEgg: {
-        DisplayName: Безбожное отродье, Ноксус
-        DisplayNameSingular: Безбожное отродье, Ноксус
+    AvatarRift: {
+        DisplayName: ???
+        DisplayNameSingular: ???
 
         BossChecklistIntegration: {
-            SpawnInfo: Используйте [i:NoxusBoss/Genesis].
-            DespawnMessage: "[c/7D5CC4:Ноксус бесследно исчезает.]"
+            SpawnInfo: Создайте и активируйте Генезис
+            DespawnMessage: "[c/EA0023:Разлом исчезает в мгновение ока.]"
         }
     }
 
-    EntropicGod: {
-        DisplayName: Энтропийный бог, Ноксус
-        DisplayNameSingular: Энтропийный бог, Ноксус
+    AvatarOfEmptiness: {
+        DisplayName: Аватар пустоты
+        DisplayNameSingular: Аватар пустоты
 
         BossChecklistIntegration: {
-            SpawnInfo: Используйте [i:NoxusBoss/Genesis].
-            DespawnMessage: "[c/7D5CC4:Ноксус бесследно исчезает.]"
+            SpawnInfo: Создайте и активируйте Генезис.
+            DespawnMessage: "[c/EA0023:Искажённая форма Темнейшего исчезает в мгновение ока.]"
         }
 
-        InfernumCompatibility.Title: Ноксус.
+        InfernumCompatibility.Title: Ярчайшая звезда в совершенном мире
+        ParadiseReclaimedText: рай возвращён
     }
 
     NamelessDeityBoss: {
         DisplayName: Безымянное божество
         DisplayNameSingular: Безымянное божество
         SillyDeathCountSuffix: ", Мучитель ноухитеров"
+        TestOfResolveName: ВЕЧНОЕ БОЖЕСТВО
 
         BossChecklistIntegration: {
             SpawnInfo: Используйте [i:CalamityMod/Terminus] после того, как он откроет свой взор.
@@ -336,8 +1301,38 @@ NPCs: {
     DismalSeeker.DisplayName: Тоскливый искатель
     Fogwood.DisplayName: Туманное дерево
     Mirrorwalker.DisplayName: Зеркальный ходок
+    DarkHarbinger.DisplayName: Предвестник тьмы
+    Frightweaver.DisplayName: Властитель ужаса
     Aelithrysuwl.DisplayName: Aelithrysuwl
     Vivajuyfylae.DisplayName: Vivajuyfylae
+    
+    Solyn: {
+        DisplayName: Солин
+    }
+    
+    MarsBody: {
+        DisplayName: ВГ-07 Марс
+    
+        BossChecklistIntegration: {
+            SpawnInfo: Начните особое задание в компании Солин и свяжитесь с Дрэйдоном с помощью Дешифратора.
+            DespawnMessage: "[c/9BFFFF:Всё идёт точно по моим расчётам.]"
+        }
+    
+        InfernumCompatibility.Title:
+            '''
+            ГОЛИАФ ТЕПЛИЦ
+            МАРС
+            '''
+    }
+    
+    CeaselessVoidRift: {
+        DisplayName: ???
+        MapIconText: Таинственный разлом
+    }
+    
+    QuestDraedon.DisplayName: Дрэйдон
+    BattleSolyn.DisplayName: Солин
+    TrappingHolographicForcefield.DisplayName: Проецируемое силовое поле
 }
 
 Tiles: {
@@ -348,7 +1343,7 @@ Tiles: {
 NamelessDeityDimensionMainMenu.DisplayName: Световое измерение
 
 Configs: {
-    NoxusBossConfig: {
+    WoTGConfig: {
         DisplayName: Главная конфигурация
 
         DisplayConfigMessage: {
@@ -356,11 +1351,11 @@ Configs: {
             Tooltip: Переключает видимость всплывающего текстового сообщения, информирующее игрока о возможности взаимодействия с настройками интерфейса.
             WarningText:
                 '''
-                Привет! Возможно, читая эти строки, ты задался вопросом: 'Как избавиться от этого текста? Он меня раздражает'
-                Перейду сразу к сути. Из-за интенсивных визуальных эффектов, добавляемых модом, важно знать о настройках конфигурации, которые позволяют снизить их интенсивность.
-                Эта информация предоставлена детально, чтобы люди с фоточувствительностью могли быть осведомлены о возможных рисках перед использованием мода.
-                Конфигурацию можно найти, перейдя в Настройки -> Конфигурация мода -> Calamity: Wrath of the Gods -> Главная конфигурация.
-                Чтобы убедиться, что ты всё сделал правильно, можешь отключить это всплывающее сообщение, установив для настройки 'Отображение подсказки конфигурации' значение ВЫКЛ.
+                Привет! Возможно, читая эти строки, ты задался вопросом: «Как избавиться от этого текста? Он меня раздражает!»
+                Перейду сразу к сути. Из-за интенсивных визуальных эффектов, добавляемых модом, важно знать о настройках конфигурации, позволяющих снизить их интенсивность.
+                Эта информация представлена подробно, чтобы люди с фоточувствительностью были осведомлены о возможных рисках перед использованием мода.
+                Конфигурацию можно найти, перейдя в: Настройки -> Конфигурация модов -> Calamity: Wrath of the Gods -> Главная конфигурация.
+                Чтобы убедиться, что всё сделано правильно, можно отключить это всплывающее сообщение, установив для настройки «Отображение подсказки конфигурации» значение ВЫКЛ.
                 '''
         }
 
@@ -368,45 +1363,51 @@ Configs: {
             Label: Режим светочувствительности
             Tooltip:
                 '''
-                Переключает эффекты, связанные с внезапными, мигающими анимациями.
-                Эти изменения также влияют на другие настройки конфигурации, но их можно вручную переопределить при необходимости.
-                '''
-        }
-
-        ScreenShakeIntensity: {
-            Label: Интенсивность дрожания экрана
-            Tooltip:
-                '''
-                Регулирует интенсивность эффектов дрожания экрана. При значении 0 все эффекты дрожания, добавляемые модом, будут отключены.
-                Если в настройках Calamity отключено дрожание экрана, это значение также будет автоматически установлено на 0.
+                Управляет эффектами, связанными с внезапными и мигающими анимациями.
+                Эти изменения также влияют на другие настройки конфигурации, но при необходимости их можно вручную переопределить.
                 '''
         }
 
         ScreenShatterEffects: {
             Label: Эффекты разбития экрана
-            Tooltip: Переключает эффекты разбития экрана. Отключите, если они вызывают дискомфорт.
+            Tooltip: Включает или отключает эффекты разрушения экрана. Отключите, если они вызывают дискомфорт.
         }
 
         VisualOverlayIntensity: {
             Label: Интенсивность визуальных наложений
-            Tooltip: Регулирует интенсивность таких визуальных наложений, как размытие и хроматическая аберрация.
+            Tooltip: Регулирует интенсивность таких эффектов, как размытие и хроматическая аберрация.
         }
     }
 }
 
+Credits: {
+    ArtworkTitle: Художники и спрайтеры:
+    SoundDesignTitle: Звукорежиссёры:
+    ProgrammerTitle: Программисты:
+    MusicTitle: Музыканты:
+    QualityAssuranceTitle: Команда тестирования:
+    PlayerThanks: И спасибо вам за то, что играете в наш мод!
+}
+
+Death: {
+    AntimatterAnnihilation1: "{0} больше не имеет значения."
+    AntimatterAnnihilation2: "{0} есть... и нет."
+    AntimatterAnnihilation3: "{0} переживает Большой Разрыв."
+    AntimatterAnnihilation4: Атомная структура {0} распадается на ничто.
+    AntimatterAnnihilation5: Сильного взаимодействия не хватает для {0}.
+    TestOfResolveDeath: "{0} продержался {1}м {2}с."
+}
+
 Dialog: {
-    PostWoFDefeatNoxusIndicator: Вокруг планеты начал кружить загадочный объект.
-    PostMLNightNoxusIndicator: Тёмная сущность приближается...
-    FinalBossDefeatNoxusIndicator: Тёмная сущность пробуждается...
-    FinalBossDefeatNoxusIndicator_SeenNoxus: Тёмная сущность пробуждается...
     TerminusHintLine1: Хорошая работа, молодец.
     TerminusHintLine2: Отправляйся на поиски Терминуса. Последнее испытание ждёт.
+    NamelessDeityAscendText: Вознесись.
     NamelessDeityEnterGardenText: Последнее испытание начинается.
     NamelessDeityEndScreenText: Ты прошёл испытание.
     NamelessDeityEndScreenSkipText: Нажми ESCAPE, чтобы пропустить!
     NamelessDeityPlayerDeathText: Ты не прошёл испытание.
     NamelessDeityEndScreenMainMenuTip: Ты прошёл испытание. Ты прошёл испытание. Ты прошёл испытание. Ты прошёл испытание. Ты прошёл испытание. Ты прошёл испытание. Ты прошёл испытание. Ты прошёл испытание. Ты прошёл испытание. Ты прошёл испытание.
-    NamelessDeityNoxusSprayerTip: Не делай этого.
+    NamelessDeityEmptinessSprayerTip: Не делай этого.
     NamelessDeityStatusText: Ты прошёл испытание.
     NamelessDeityStatusPercentageText: Ты прошёл испытание:
     CattailText: РОГОЗ ПОСАЖЕН!
@@ -434,43 +1435,114 @@ Dialog: {
         Ну что ж! Я бы продолжил, но, похоже, что твой мир почти полностью стёрт. Не хочу, чтобы меня внезапно прервали!
         Я повторю этот монолог при следующем сбросе мира. Увидимся!
         '''
-    CelesteMusicCreditText:
+    LofiMusicCreditText:
         '''
         Сейчас играет:
-        'wavedash.ppt'
-        От Lena Raine
+        'worldgen.ogg'
+        От Moonburn
         '''
-    NamelessDeityStairwayText1: Приветствую, вторженец.
-    NamelessDeityStairwayText2: Лишь в уединении ты можешь созерцать божественное великолепие, окутывающее этот мир.
-    NamelessDeityStairwayText3: Судьба привела сюда тебя, дабы узнать своё предназначение.
-    NamelessDeityStairwayText4: Тёмный Владыка блуждает по твоим владениям. На тебе лежит обязанность одолеть его.
-    NamelessDeityStairwayText5: В триумфе наши судьбы переплетутся вновь, и ты столкнёшься с новым испытаньем.
-    NamelessDeityStairwayText6: Удачи.
-    NamelessDeityStairwayTextFanny1: Приветствую, втор...
-    NamelessDeityStairwayTextFanny2: Какого хрена ты здесь делаешь, Фанни?! Насколько помню, я от тебя отрёкся!
-    NamelessDeityStairwayTextFanny3: Эм-м-м-м-м-м-м-м, нет.
-    NamelessDeityStairwayTextFanny4: Короче, ты. Иди и прибей Ноксуса.
-    NamelessDeityStairwayTextFanny5: Ну... как закончишь, сразимся в моём саду, лады?
-    NamelessDeityStairwayTextFanny6: Молю, не приводи с собой Фанни.
-    OgsculeDontAnnoyCalDevsText: Этот необычный эффект не является частью базовой версии Calamity. Не раздражайте их разработчиков из-за него.
-    RodOfHarmonyRantSubtitle1: Убери этот Жезл гармонии с глаз моих, не хочу его даже видеть.
-    RodOfHarmonyRantSubtitle2: Нет, серьёзно, о чём думали Re-Logic? Жезл раздора без кулдауна? Серьёзно?
-    RodOfHarmonyRantSubtitle3: Пост-Мунлордные моды с ним идут НАХЕР...
-    RodOfHarmonyRantSubtitle4: Да ладно тебе, слушай.
-    RodOfHarmonyRantSubtitle5: Я хотел создать вселенную, справедливую и честную. Но Жезл гармонии портит абсолютно ВСЁ.
-    RodOfHarmonyRantSubtitle6: Поэтому обойдёшься без него.
-    RodOfHarmonyRantSubtitle7: Думал, что переиграешь меня, а в итоге переиграли именно ТЕБЯ.
-    RodOfHarmonyRantSubtitle8: Даже не отрицай.
-    RodOfHarmonyRantSubtitle9: Ты ведь умный, всё знаешь.
-    RodOfHarmonyRantSubtitle10: Наверняка же посмотрел эту битву в интернете.
-    RodOfHarmonyRantSubtitle11: Наверняка ты уже ЗНАЛ, что я это сделаю.
-    RodOfHarmonyRantSubtitle12: И чего ты ожидал? Я уже уничтожил ярость и адреналин, поэтому КОНЕЧНО ЖЕ я вздрючу и Жезл гармонии.
-    RodOfHarmonyRantSubtitle13: И сейчас я вздрючу ТЕБЯ.
-    RodOfHarmonyRantSubtitle14: Прозвучало как-то странно...
-    RodOfHarmonyRantSubtitle15: Короче говоря, в двух словах: я не люблю читеров.
-    RodOfHarmonyRantSubtitle16: И если не согласен, то тебе тут не место.
-    RodOfHarmonyRantSubtitle17: И вообще, тебе не стоило приносить сюда эту чёртову штуку.
+    OgsculeDontAnnoyCalDevsText: Этот 'ogscule' эффект не является частью базовой версии Calamity. Не раздражайте их разработчиков из-за него.
+    SolynArriveUnknown: Таинственная личность прибыла в город...
+    SolynDepartUnknown: Таинственная личность покинула город...
+    SolynArriveKnown: Солин прибывает!
+    SolynDepartKnown: Солин ушла!
+    CloudSaveMessage: Отключите облачное сохранение, если хотите использовать Терминус. Оно вызывает зависания из-за проблем с библиотекой мода Subworld.
+    SolynParadiseReclaimed1: Здесь... спокойно.
+    SolynParadiseReclaimed2: И всё же кажется, будто грядёт что-то ужасное...
+    SolynParadiseReclaimed3: Что-то... СНИЗУ!!!
+    SolynParadiseReclaimedSaveText: Я спасу тебя!
+    SolynRunAway: Беги отсюда!
+    SolynStayBelowMe: Держись подо мной!
+    SolynAvatarReaction1: Погоди... что происходит???
+    SolynAvatarReaction2: О БОЖЕ! ЧТО ЭТО ЗА ЧЕРТОВЩИНА?!!
+    OpenSolynQuestbook: Открыть журнал заданий Солин
+    TelescopeDaytimeText: Сейчас слишком светло!
+    TelescopeRepairFailText: Недостаточно материалов для починки!
+    AvatarPlayerDeathText: Вы погибли.
+    PermafrostKeepMapIconText: Таинственная твердыня
+    SummonMarsButtonText: Призвать (Марс)
+    
+    SolynDraedonInteraction: {
+        Draedon1: Хм! Мой многоуважаемый подопытный снова выходит на связь - и на этот раз не один.
+        Draedon2: Солин, я полагаю?
+        Solyn1: Погоди... Откуда ты знаешь моё имя???
+        Draedon3: Стремление к всезнанию - моя главная цель.
+        Draedon4: Было бы позором для меня как учёного не изучить твоего друга после нашей последней встречи.
+        Solyn2: Что ты имеешь в ви...
+        Draedon5: Довольно разговоров.
+        Draedon6: Я знаю, что вам нужно, и это у меня есть.
+        Draedon7: Но было бы неправильно просто так отдать это вам.
+        Draedon8: Я хочу испытать вас обоих в бою. Можно сказать, это редкая возможность для исследования.
+        Draedon9: Вам предстоит сразиться с моим сильнейшим творением и одержать победу.
+        Draedon10: В награду я дам вам особый росток для вашего растительного супероружия.
+        Draedon11: Вы принимаете моё предложение?
+        Solyn3: Давненько я не сражалась...
+        Solyn4: Но... я согласна. А ты?
+    }
+    
+    SolynDraedonInteractionSuccessive: Вы готовы?
+    PlayerDraedonAcceptance: Я согласен.
+    PlayerDraedonAcceptanceSuccessive: Я готов.
+    DraedonAcceptanceResponse: Превосходно! Он скоро прибудет.
+    DraedonAcceptanceResponseSuccessive: Превосходно.
+    SolynGetToMe: Ко мне!
+    SolynBreakForcefield: Разбей силовое поле звездой!
+    SolynBreakForcefield2: Ещё один удар!
+    SolynUseMouseButtons: Удерживай ЛКМ и ПКМ!
+    
+    DraedonEndingMonologue: {
+        Draedon1: Превосходно.
+        Draedon2: Данные, которые вы оба предоставили, безупречны.
+        Solyn1: Знаешь... это было на удивление весело!
+        Solyn2: Но... где же росток?
+        Draedon3: Не волнуйся. Я уже сдержал своё слово.
+        Draedon4: То семя, что теперь у вас, было единственным источником энергии моей машины.
+        Draedon5: Мне не терпится увидеть, как вы им воспользуетесь.
+        Draedon6: Удачи. Прощайте.
+    }
+    
+    DarkRiftVaniquishText: Тёмный разлом исчез в одно мгновение.
+    SolynHandwrittenNoteFarewellText:
+        '''
+        Привет!
+    
+        Я заметила, сколько сил ты вложил в то, чтобы мой маленький книжный шкаф был полон и доволен!
+        Честно говоря, я поражена тем, что тебе удалось раздобыть некоторые из этих книг. «Библия слизня»? Какая нелепость!
+    
+        В общем... если ты читаешь это письмо, значит, меня уже нет. Возможно, что-то пошло не так с Генезисом. В любом случае я уверена, что ты уже знаешь ответ.
+    
+        Мне не так много есть, что оставить тебе, и мне бы хотелось сказать это лично... но я хочу, чтобы у тебя был мой секретный рецепт булочек с корицей.
+        Вспоминай обо мне, когда будешь их готовить, - и о времени, проведённом вместе.
+    
+    
+        -Солин
+        '''
+    
+    SolynBackstory1: Как ты, наверное, уже догадался, я... не из этого мира.
+    SolynBackstory2: Мой дом - это край пышной растительности, утопающий в ласковом свете двух солнц.
+    SolynBackstory3: Мой народ миролюбив, мудр и почтителен.
+    SolynBackstory4: Мы бережно храним традиции, распевая песни в такт мелодии звёзд.
+    SolynBackstory5: Насвистывая в унисон с дыханием природы.
+    SolynBackstory6: Что касается меня... поиск неизведанного всегда был моей одержимостью.
+    SolynBackstory7:
+        '''
+        С юных лет во мне горела жажда познания.
+        Стремление прикоснуться к нашему создателю.
+        '''
+    SolynBackstory8: В этом мне повезло больше, чем многим другим.
+    SolynBackstory9: И всё же... теперь я могу лишь гадать, скучают ли мои старые друзья по мне так же, как я по ним.
+    SolynTestBuildup1: Мне посчастливилось родиться незадолго до особого события — парада всех планет нашей системы.
+    SolynTestBuildup2: Существует поверье, что в этот момент наш создатель на мгновение обращает свой взор на наш мир.
+    SolynTestBuildup3: И я, воспользовавшись этим редким случаем, совершила небывалое.
+    SolynTestBuildup4: С помощью своего набора оккультных артефактов и древней магии я воззвала к нему, стремясь постигнуть абсолютное знание и понимание.
+    SolynTestBuildup5: Я знала, что такой возможности больше не будет.
+    SolynTestBuildup6: И вот, я оказалась в присутствии невозможного существа, окружённого природной красотой, какой мне никогда не доводилось видеть.
+    SolynTestBuildup7: Я чувствовала, что в поисках желаемого моя решимость будет подвергнута испытанию.
+    SolynTestBuildup8: А затем...
+    SolynTestBuildup9: Я потерпела неудачу.
 }
+
+SolynEmote.Command: solyn
 
 FannyDialog: {
     StairwayText1: Ступеньки?! Откуда они взялись? Куда всё пропало? Пойду-ка погуглю, может, чего найду...
@@ -484,29 +1556,74 @@ FannyDialog: {
     StairwayTextTop4: Ноксус? Кто такой Ноксус? Пойду-ка погуглю, может чего найду...
     StairwayTextTop5: О да! Помню, как я разнёс то место! Было весело!
     StairwayTextTop6: У него нет выбора!
-    NoxusLoreText1: Вот это да, дружбан! Этот Ноксус был действительно сильным! Но, согласен, он довольно загадочный...
-    NoxusLoreText2: Серьёзно? Это же просто очередной бред. Ничего нового и интересного!
-    NoxusLoreText3: И зачем этот 'Ярим' вообще пытается связать его с драконами? Неужели это его единственная цель в жизни - быть бесполезным рассказчиком?!
-    NoxusLoreText4: Ну почему он не может просто показаться и говорить напрямую? Боится, что его запомнят как одномерного персонажа?
-    NoxusLoreText5: Боже, голова раскалывается.
+    FannyFuckingHATESSolyn:
+        '''
+        Эта дрянная девка Солин. Слышь, приятель, я уже насмотрелся, как ты с ней шляешься. Я НА ПРЕДЕЛЕ. С МЕНЯ ХВАТИТ! Как же я НЕНАВИЖУ эту ДРАННУЮ СУЧКУ! Смотри, как она себя возносит, таскает тебя за собой, как будто ты её подстилка.
+    
+        'О, нам нужно создать Генезис, ха-ха!'
+        'Надо что-то делать с тем разломом в небе!'
+    
+        Да она вообще не в курсе, кто тут главный. Это я - твой лучший друг! Единственный друг!
+        Твой проводник в этом трагичном, как пьеса Шекспира, мире!
+        С самого начала ей надо было знать своё место. Если бы знала, НИЧЕГО бы этого не случилось.
+    
+        Убей её. Убей прямо сейчас. Пусть сдохнет в муках.
+        Она даже не поймёт, откуда придёт конец!
+        '''
     RodOfHarmonyBreak: Ой, беда! Твой Жезл гармонии сломался! Будь осторожен, без него бой может стать намного сложнее!
     RodOfHarmonyBreakEvil1: ХА-ХА-ХА-ХА-ХА! Да ты только посмотри-ка на это! Эта бессмысленная розовая палка наконец-то получила перезарядку! И эта перезарядка - ВЕЧНАЯ! Круто же, да?!
     RodOfHarmonyBreakEvil2: Ну-ка, попробуй выиграть без своего дурацкого костыля, тупой одноклеточный!
     NamelessDeityGFB1: Ну и бредятина. Не сражение, а лажа.
     NamelessDeityGFB2:
         '''
-        Доминику должно быть чертовски стыдно за себя. Сначала он крадет у Calamity Ксерока, а затем, как неуклюжий, безнадёжный страдалец от эффекта Даннинга-Крюгера, реализует его самым унылым, монотонным и вырвиглазным способом, какой только можно себе представить. Не, серьёзно? Сколько лазеров можно было так топорно впихнуть сюда?! И вообще, что это за графические эффекты?! Это же как в учебнике пример того, как создавать контент, на который тупые комментаторы на Ютубе могут отрубить свои мозги и глазеть, потому что "Ха-ха, красивый блик и шейдеры! Как уникально!"
+        Люсиль должно быть чертовски стыдно за себя. Сначала она крадёт у Calamity Ксерока, а затем, как неуклюжий, безнадёжный страдалец от эффекта Даннинга-Крюгера, реализует его самым унылым, монотонным и вырвиглазным способом, какой только можно себе представить. Не, серьёзно? Сколько лазеров можно было так топорно впихнуть сюда?! И вообще, что это за графические эффекты?! Это же как в учебнике пример того, как создавать контент, на который тупые комментаторы на Ютубе могут отрубить свои мозги и глазеть, потому что "Ха-ха, красивый блик и шейдеры! Как уникально!"
         А у тебя ФПС вообще сейчас больше 15????
         '''
     NamelessDeityGFB3: Я не знаю, что тебе с этим делать. Честно говоря, я бы посоветовал просто выключить игру и заняться чем-нибудь действительно интересным, а не этим дерьмом.
+    AvatarLore1: Вау, этот... Аватар пустоты такой загадочный! Я едва могу понять, о чём тут вообще речь...
+    AvatarLore2: Серьёзно? Послушай, я не против «авангардных» идей, но это уже абсурд. «Время отвергнуто»? «Слёзное представление»? «Возвращение к минимализму»? Похоже, это было написано исключительно для того, чтобы запутать читателя и заставить его думать, что за сложными словами скрывается что-то важное.
+    NamelessLore1: Ого! Сколько загадочных фраз! Я не совсем понимаю, что это значит, друг мой, но раз это передал тебе отец, значит, должно быть что-то важное!
+    NamelessLore2: Да уж... Понятия не имею, что это значит. Может, это просто какая-то хитроумная шутка?
 }
 
-Colors: {
-    CattailAnimationTextHex: 6FA024
-    NoxusTextHex: 745CBC
-    PurifierWarningTextHex: F00448
-    VanillaEventTextHex: 32FF82
-    NamelessDeityTextHex: FF3F5D
+GameTips: {
+    NamelessDeityTip: Wrath of the Gods: Знали ли вы, что в этом мире есть вещи, которые вам не суждено увидеть?
+    StarsTip: Wrath of the Gods: Всегда доверяйте звёздам.
+    TimeTip: Wrath of the Gods: Время углубляет все раны.
+    Time2Tip: Wrath of the Gods: Со временем даже вселенная становится чистым холстом.
+    BossesTip: Wrath of the Gods: Не тратьте целый год на создание двух боссов.
+    XenqiterthralyensyrTip: Wrath of the Gods: Некий мастер, чьё имя затерялось во времени, однажды изобразил высшее божество.
+    CinnamonRollynTip: Wrath of the Gods: Булочки с корицей от Солин - просто космос.
+    ShootTip: Wrath of the Gods: Не можете решить проблему? Стреляйте ей в лицо!
+    PortalSkirtTip: Wrath of the Gods: Всё может стать юбкой, если вы достаточно моднявый!
+    CrypticLoreTip: Wrath of the Gods: Блаженный сон во времени отвергнутом.
+    GoodAppleTip: Wrath of the Gods: Некоторые яблоки особенно вкусны.
+    WeLoveOldDukeTip: Wrath of the Gods: По всем вопросам рыбно-свинской природы обращайтесь к вашему местному дружелюбному древнему богу!
+    CrashLogTip: Wrath of the Gods: Если сообщаете кому-то о вылете игры, не забудьте приложить логи!
+    NilkTip: Wrath of the Gods: Существует ли межпространственная непереносимость лактозы?
+    BookTip: Wrath of the Gods: Знание – сила. Книги – знание.
+    TerminalTip: Wrath of the Gods: Легенды гласят о первобытном артефакте, запечатанном в бездне, известном лишь как 'Терминал'.
+    GodTip: Wrath of the Gods: С Богом возможно всё!
+    God2Tip: Wrath of the Gods: Только бог, не умудрённый временем, будет столь дерзок, чтобы злоупотреблять драгоценными звёздами своей вселенной.
+    FlowersTip: Wrath of the Gods: Цветы прекрасны.
+    RodOfHarmonyTip: Wrath of the Gods: К разговорам о Жезле гармонии не стоит относиться серьёзно.
+    SuperstarTip: Wrath of the Gods: В этом гневе богов найдётся тот, кто станет твоей суперзвездой...
+    EntropicGodTip: Wrath of the Gods: За дополнительной информацией об энтропийных богах обращайтесь к моду Calamity: Community Remix.
+    CattailTip: Wrath of the Gods: Размещение рогоза - священный обряд посвящения.
+    DebuffTip: Wrath of the Gods: Дебаффы боссов не включены!
+    LotusTip: Wrath of the Gods: Лотос – самое святое из всех живых существ.
+    TerminusTip: Wrath of the Gods: Говорят, алый взор открывается лишь по команде высшего существа.
+    MiracleblightTip: Wrath of the Gods: Обратитесь к книге чудес.
+    GardenTip: Wrath of the Gods: Отдых в Саду и вкушение плода – высшее благословение.
+    MirrorwalkerTip: Wrath of the Gods: В тумане таится тёмное отражение самого себя.
+    PhotosensitivityTip: Wrath of the Gods: Если визуальные эффекты слишком интенсивны, рассмотрите возможность настройки конфигурации и включения режима для светочувствительных людей.
+    InfernumTip: Wrath of the Gods: Не Infernum 2. Наверное.
+    MetallicChunkTip: Wrath of the Gods: Вы можете переплавить три металлических обломка в один железный слиток!
+    ArenaTip: Wrath of the Gods: Не любите строить арены из платформ? Используйте благословлённые звёздами платформы!
+    CheatPermissionSlipTip: Wrath of the Gods: Это не читерство, если у вас есть разрешение.
+    EmptinessSprayerTip: Wrath of the Gods: Существует особый распылитель, уничтожающий 99.99% низших существ!
+    TheEndTip: Wrath of the Gods: конец никогда не конец никогда не конец никогда не конец никогда не конец никогда не конец никогда не конец никогда не конец никогда не конец
+    EternityTip: Wrath of the Gods: Вы слышите это? Тихое гудение под руинами?
 }
 
 PlayerDeathMessages: {
@@ -527,4 +1644,788 @@ PlayerDeathMessages: {
     NamelessDeity15: "{0} завершает своё путешествие в священных объятиях сада."
     NamelessDeity16: "{0} сливается с симфонией Вселенной."
     NamelessDeity17: "{0} растворяется в бесконечной решётке бытия."
+    NamelessDeity18: "{0} вскоре станет хорошим яблоком на дереве."
+    NamelessDeityCheatEasterEgg: За попытку жульничества {0} вскоре станет гнилым яблоком на дереве.
+    ParadiseReclaimed: "{0} растворяется в мучительных объятиях рая."
+    ScreenSplitDeathZone: "{0} фрактализуется."
+    ThisModReallyIsJustShitpostsMaskedByBossesHuh: Мрачная бездна простиралась во все стороны, и ни одна из них не отличалась от другой. Сколько времени прошло? Час? День? Две недели? Пятьдесят тысячелетий? А может, здесь время вовсе утратило смысл. Бесцельно блуждая в бескрайней дали, {0} заметил едва уловимый отблеск на краю тёмного горизонта. Приблизившись, {0} испытал откровение столь ослепительное, что только божественная сила могла его ниспослать. В этот миг {0} осознал, что оказался во владениях Аватара. Внутри гнилого яблока.
+}
+
+Quests: {
+    Cryogen: {
+        Title: В поисках ледяных сокровищ
+        Description: Отправимся на поиски удивительных реликвий в снежных землях!
+    }
+    
+    Stargaze: {
+        Title: Наблюдение за звёздами
+        Description:
+            '''
+            Давай посвятим вечер наблюдению за звёздами!
+            Приятное стрекотание ночных насекомых, естественная красота космоса и прекрасная возможность стать ближе друг к другу.
+            Не знаю как ты, но для меня это будет незабываемое времяпрепровождение!
+            '''
+    }
+}
+
+Solyn: {
+    SolynIntroduction: {
+        Start: Я... ^я не справилась...
+        Talk1: Я...
+        Question1: Ты в порядке?
+        Talk2: О! Привет. Я... ^не заметила тебя. 
+        Talk3: Думаю, да?
+        Question2: Кто ты?
+        Talk4: Меня зовут Солин.
+        Talk5: ...
+        Talk6: Прости, я просто не могу собраться с мыслями.
+        Talk7: Мы можем поговорить позже. Сейчас мне... ^нужно время.
+        Question3: Хорошо, я оставлю тебя наедине с собой.
+        Talk8: Спасибо. Я ценю это.
+        Repeat: ...
+    }
+    
+    SolynDawnDialogue: {
+        Start: Доброе утро!^ Новый день - новое большое приключение.
+        Player1: Это... несколько пафосное заявление, Солин.
+        Solyn1: Никогда не знаешь наверняка. Порой самые обычные дни неожиданно становятся судьбоносными.^ Это можно понять, только когда он закончится.
+        Player2: Что ж, посмотрим. Чем занимаешься?
+        Solyn2: Да так, ничем особенным. Только проснулась.^ Хотя... мне приснился довольно интересный сон.
+        Player3: И о чём же он был?
+        Dream1_Response1: В целом всё было довольно спутанно, но один момент в самом конце особенно врезался в память.
+        Dream1_Response2: Мне приснился мой старый наставник. Мы снова беседовали с ним у края пруда в сумерках.
+        Dream1_Response3: Но вдруг он замолчал, устремил взгляд в воду и начал творить заклинание, которого я никогда прежде не видела.
+        Dream1_Response4: Вскоре вода в пруду засияла, словно звёздная пыль, и в ней отразился древний лик. Лик, который показался мне знакомым.
+        Dream1_Response5: Наставник снова посмотрел на меня, словно ожидая ответа.
+        Dream1_Response6: И в этот момент я проснулась.
+        Dream2_Response1: Мне приснился мир, сложенный из бумаги, под пустым светом яркого янтарного неба.
+        Dream2_Response2: Казалось, целую вечность я бродила среди причудливых бумажных растений и строений, разбросанных по поверхности.
+        Dream2_Response3: Внезапно я протянула руку и провела ею по земле, обнаружив под слоем бумаги, по которой шла, бескрайнюю бездну неизмеримой глубины.
+        Dream2_Response4: Заворожённая, я вглядывалась в пропасть, случайно открытую мной, поражённая увиденным.
+        Dream2_Response5: И вдруг узорчатый глаз медленно раскрылся, встретившись со мной взглядом.
+        Dream2_Response6: И в этот момент я проснулась.
+        Dream3_Response1: На протяжении всего сна моросил дождь, а вокруг простирался лес, который я считала своим домом.
+        Dream3_Response2: Я шла по лесу, но не встретила ни одного из друзей. Я была одна.
+        Dream3_Response3: Приблизившись к поляне, я услышала голоса. Мой собственный голос и голоса моих близких... из прошлого, настоящего и будущего.
+        Dream3_Response4: Затем я сосредоточилась на запахе влажной земли после дождя, и меня охватил калейдоскоп чувств, словно время ускорилось и закрутилось в спираль.
+        Dream3_Response5: Но внезапно сквозь шум пробился голос старого друга, который сказал, что пора просыпаться.
+        Dream3_Response6: И я послушалась.
+        Dream4_Response1: Что ж... возможно, 'интересный' - не самое подходящее слово.
+        Dream4_Response2: Мне приснилось, как я брожу по туманному лесу под жуткий вой ветра, окружённая возвышающимися деревьями, полностью лишёнными листвы.
+        Dream4_Response3: Спустя какое-то время я встретила... ^саму себя. Словно шла навстречу своему идеальному отражению в зеркале.
+        Dream4_Response4: Лёгкий ветерок усиливался с каждым шагом в сторону отражения, внезапно превращаясь в неистовый ураган
+        Dream4_Response5: Когда я потянулась, чтобы коснуться отражения, оно превратилось в жуткую тень.
+        Dream4_Response6: В момент, когда наши пальцы соприкоснулись, я проснулась в холодном поту.
+        Dream5_Response1: Что ж... возможно, 'интересный' - не самое подходящее слово.
+        Dream5_Response2: Мне снился мой старый друг.^ Сначала всё было как обычно - мы говорили о забавных, странных вещах.
+        Dream5_Response3: Но со временем я заметила, как друг становился всё более прозрачным, и его голос становился всё труднее различить, словно он был призраком.
+        Dream5_Response4: Я поняла, ^что с каждым морганием он растворялся всё сильнее.^ И тогда я изо всех сил старалась не закрывать глаза.
+        Dream5_Response5: Наш разговор приобрёл горько-сладкий оттенок.^ В конце я едва могла различить грустную улыбку на его лице.^ Я знала: стоит мне моргнуть - и его больше не будет.
+        Dream5_Response6: Последние слова, которые я смогла разобрать, были: 'Пора отпустить'.^ И после этого я проснулась.
+        Player4: Удивительно, как сны устроены.
+        Solyn3: ... И то правда.
+    }
+    
+    SolynSunnyDayDialogue: {
+        Start: Привет!^ Сегодня довольно солнечно, правда?
+        Player1: Пожалуй, да.
+        Solyn1: Чем планируешь заняться в этот чудесный день?^ Прогуляться по лесу?^ Предаться размышлениям на поляне?^ Или пополнить запас витамина D?
+        Player2: Наверное, спущусь в пещеры и кого-нибудь прикончу.
+        Solyn2: Ах, ну конечно.
+        Solyn3: Это так на тебя похоже, не так ли?
+    }
+    
+    SolynRainyDayDialogue: {
+        Start: Привет!^ Неплохой дождик, правда?
+        Player1: Пожалуй, да.
+        Solyn1: Чем планируешь заняться в такой дождливый день?^ Может, посидеть и подумать у пруда?^ Отправиться на короткую прогулку?^ Или просто остаться внутри и послушать, как стучат капли?
+        Player2: Наверное, спущусь в пещеры и кого-нибудь прикончу.
+        Solyn2: Ах, ну конечно.
+        Solyn3: Это так на тебя похоже, не так ли?^ Признаюсь, я понимаю желание найти сухое местечко прямо сейчас.
+    }
+    
+    SolynDuskDialogue: {
+        Start: Закат, да?^ Действительно красивое зрелище.
+        Solyn1: Но... должна сказать, это не совсем то же самое, что дома. ^То огненное великолепие, двойной закат, переходящий в бесчисленные сверкающие звёзды...
+        Solyn2: Он так похож, но в то же время... такой другой. ^Правда, чтобы это понять, нужно увидеть это своими глазами.
+        Solyn3: В любом случае, приятно испытать что-то новое... я полагаю.
+    }
+    
+    SolynSlimeRainDialogue: {
+        Start: Как странно!^ Слизни падают с неба, словно дождь!^ Это так необычно, и в то же время так завораживает!
+        Solyn1: Как это возможно?^ Я должна узнать!^
+        Player1: Я... честно говоря, понятия не имею.
+        Solyn2: Ха! Так я и думала.
+        Solyn3: Я бы с удовольствием полюбовалась этим диковинным зрелищем, но слизни явно настроены недружелюбно.
+        Solyn4: Будь начеку, не хотелось бы оказаться частично переваренной.
+    }
+    
+    SolynStorageSailsDialogue: {
+        Start: Скажи... ты когда-нибудь слышал о хранилищах парусов?
+        Player1: Эм... не припомню такого.
+        Solyn1: О, они потрясающие!^ У нас на родине их великое множество!
+        Solyn2: Знаешь, как некоторые корабли используют паруса для передвижения?^ Так вот, здесь используется похожий принцип, только энергия ветра сохраняется для будущего использования!
+        Solyn3: И выглядят они весьма забавно.^ Это такие решётки в виде деревянных колёс с большими перьями на концах.^ Если бы ты их видел, сразу бы всё понял.
+        Player2: Ладно, круто, и... как же они работают?
+        Solyn4: Понятия не имею!
+    }
+    
+    SolynBooksDialogue: {
+        Start: Знаешь, было бы неплохо прихватить с собой хотя бы пару старых вещей, прежде чем меня отправили сюда.
+        Solyn1: Дома у меня была внушительная коллекция книг.^ А ещё несколько свитков и древних фолиантов.
+        Solyn2: Некоторые из них были довольно необычными по стилю и содержанию, а парочка и вовсе...^ странноватыми, по крайней мере, так считали другие
+        Solyn3: Но были и такие, которые доставляли настоящее удовольствие!^ Даже обычные хорошие романы могут изменить твой взгляд на мир.
+        Solyn4_Mage: Уверена, маг вроде тебя это понимает.
+        Solyn4_OtherClass: Хотя... полагаю, тебе такие разговоры не особо интересны.
+        Player1_Mage: Солин, мы не читаем книги. Мы просто держим их в руках, чтобы творить заклинания.
+        Solyn5: Ах... забудь.^ Просто размышляю вслух.
+    }
+    
+    SolynOneRedeemedBookDialogue: {
+        Start: Я заметила, что ты добавил кое-что в мой книжный шкаф!^ Я очень благодарна.
+        Solyn1: Здешние пейзажи, конечно, прекрасны, но я не думаю, что смогла бы любоваться ими целый день.
+    }
+    
+    SolynUnreadableBookDialogue: {
+        Start: Как я уже говорила, я очень ценю книги... но ты уверен, что некоторые из них вообще можно назвать таковыми?
+        Solyn1: ... По крайней мере, они неплохо смотрятся на полке.
+    }
+    
+    SolynManyRedeemedBooksDialogue: {
+        Start: Вау, моя маленькая библиотека действительно превратилась в нечто особенное. ^Не могу выразить, как я благодарна!
+        Solyn1: Теперь я чувствую себя здесь как дома. Раньше у меня была довольно большая коллекция книг...
+    }
+    
+    SolynCompleteBookshelfDialogue: {
+        Start: Это потрясающе!^ На полке совсем не осталось места.
+        Solyn1: С момента моего появления здесь мы столько всего сделали. Надеюсь, я буду так же воодушевлена, когда мы закончим Генезис, ха-ха!
+        Solyn2: Ах да, говоря о Генезисе, я тут подумала...^ Когда он будет готов, я бы хотела создать здесь настоящую библиотеку. С твоей помощью, конечно же.
+    }
+    
+    SolynLategameDialogue.Start: Мы добились большого прогресса в работе над Генезисом, но сейчас нельзя сбавлять темп.^ Впереди ещё столько работы.
+    
+    SolynWindyDayTalk: {
+        WindyStart: А вот и ты! Привет!
+        WindyQuestion1: Ветрено сегодня, правда?
+        WindyResponse1: Ещё как! Только что видела, как целую группу слизней унесло ветром.
+        WindyResponse2: Знаешь, это довольно забавно, как слизни этого мира летают на своих очаровательных шариках! Уже несколько раз они чуть не зацепились за моего воздушного змея, ха-ха!
+        WindyQuestion2: Кстати, а что это за воздушный змей? Он выглядит красиво.
+        WindyResponse3: О, этот старый змей? Просто люблю запускать его в такие ветреные дни и наблюдать, как он парит в воздухе.
+        WindyResponse4: Иногда приятно просто сесть и позволить природе направлять нас.
+        WindyResponse5: На самом деле...
+        WindyResponse6: Вот, держи!
+        WindyResponse7: Почему бы нам не насладиться этим вместе? Думаю, тебе не помешает немного отдохнуть от приключений.
+        WindyRepeatPlayerUsingKite: Тебе нравится?
+        WindyRepeatPlayerUsingKiteChangedMind: А, значит, ты передумал! Надеюсь, этот ветерок поможет тебе расслабиться!
+        WindyRepeatDefault: Не хочешь? Ну ладно! Что ж, в любом случае, хорошо проведи время!
+    }
+    
+    SolynPartyTalk: {
+        PartyStart: Эй! Я надеялась, что ты зайдёшь!
+        PartyResponse1: Признаться... обычно я не любительница вечеринок. Но на этот раз просто не смогла не заглянуть!
+        PartyResponse2: В конце концов, все так веселятся!
+        PartyResponse3: Поразительно, как сильно разросся твой город с нашей первой встречи!
+        PartyResponse4: Ах! Кстати, это напомнило мне кое-что. Хочешь увидеть магический фокус? Я давно над ним работаю!
+        PartyQuestionYes: Конечно!
+        PartyQuestionNo: Прости, но не сейчас.
+        PartyResponseYes1: Ладно, была не была!^^^
+        PartyResponseYes2: Фух! Чуть не попало! Я едва не наглоталась конфетти, ха-ха!
+        PartyResponseYes3: В любом случае, наслаждайся праздником, пока не отправишься в очередное опасное приключение. Я-то точно останусь!
+        PartyResponseNo1: Ах, как жаль...
+        PartyResponseNo2: Но я понимаю! Похоже, ты сейчас немного занят.
+        PartyRepeat1: Думаю, просто побуду здесь до наступления ночи, как обычно. Удачи тебе в твоих делах!
+        SolynTada: Та-дам!
+        SolynHatText: Ах! Моя шляпа!
+    }
+    
+    StargazeQuest: {
+        Solyn1: Привет,^ что привело тебя сюда?
+        Player1: Я заметил, что твой телескоп сломан.
+        Solyn2: Ах да... Я надеялась скоротать время, наблюдая за звёздами, но, похоже, это невозможно.^ У меня нет возможности его починить.
+        Player2: Я могу починить его для тебя.
+        Solyn3: О! Я была бы очень признательна, если ты сможешь его починить.^ Когда телескоп будет исправен, мы могли бы вместе полюбоваться звёздами.
+        Repeat: Не беспокойся обо мне. Я просто наслаждаюсь окружающим видом.
+    }
+    
+    StargazeQuestCompletion: {
+        Response1: Спасибо тебе!^ Астрономия всегда была моей страстью, и я рада поделиться ею с кем-то ещё.^ Мы сможем начать, как только наступит ночь.
+        Response2: ""
+    }
+    
+    StargazeQuestSawRift: {
+        Talk1: ^Никогда прежде не видела ничего подобного...
+        Talk2: Что бы это ни было, у меня плохое предчувствие.
+        Response1: Мы можем что-нибудь с этим сделать?
+        Talk3: Хмм...
+        Talk4: Мне нужно это обдумать.
+        Response2: Солин, это был риторический вопрос.
+        Talk5: Пожалуй, ты прав. Возможно, я просто зря волнуюсь.
+        Talk6: В любом случае... Я рада, что мы вместе любовались звёздами. Сегодня они были особенно прекрасны.
+        Talk7: Надеюсь, мы сможем как-нибудь повторить это.
+        Talk8: А пока что, возьми вот это.
+        Talk9: Это моё личное изобретение. Уверена, ты найдёшь ему хорошее применение.
+        Talk10: Впрочем, я скоро пойду спать. Уже довольно поздно!
+    }
+    
+    DormantKeyDiscussion: {
+        Start: Привет! Что-то случилось?
+        StartingQuestion: Пермафрост дал мне этот ключ в благодарность за его освобождение. Ты случайно не знаешь, что это за ключ?
+        Conversation1: Хм...
+        Conversation2: Этот ключ явно необычный. В него заключено какое-то магическое заклинание.
+        Conversation3: Ох! У меня появилась идея!
+        Conversation4: Идея? Какая?
+        Conversation5: Я улавливаю слабый магический след, идентичный тому, что излучает этот ключ. Он исходит откуда-то из глубин ледяных пещер.
+        Conversation6: Нам стоит его исследовать. Раз уж что-то было заперто, там наверняка найдётся что-то интересное!
+        Conversation7: Вот, я отмечу это место на твоей карте.
+        Conversation8: Я буду ждать тебя там, когда будешь готов, и мы сможем всё осмотреть!
+    }
+    
+    PermafrostKeepDiscussion_BeforeOpening.Start: Используй ключ на двери, и она откроется!
+    
+    PermafrostKeepDiscussion_AtSeed: {
+        Start: Хм...
+        Conversation1: Я осмотрелась вокруг, но, кажется, здесь нет ничего примечательного, ^за исключением вот этого.
+        Conversation2: Этот замёрзший артефакт похож на какое-то семя...
+        Conversation3: Более того, он обладает невероятным магическим потенциалом. ^Я это чувствую.
+        Conversation4: Я не уверена, для чего оно может пригодиться, ^но советую взять его с собой и сохранить на будущее.
+        Response1: Хорошо.
+        Conversation5: Отлично. ^А я пока подумаю над этим. Уверена, мы сможем найти отличное применение этому проростку.
+        Conversation6: В любом случае, я, пожалуй, пойду. ^Здесь довольно тесно!
+    }
+    
+    FrostblessedSeedlingDiscussion: {
+        Start: Я уже некоторое время размышляю об этом проростке.
+        Solyn1: Подобные растения растут в моём родном мире. Они редки и капризны в выращивании, но я никогда не видела, чтобы хоть одно из них обладало достаточной силой влиять на окружающую флору.
+        Solyn2: Неудивительно, что Пермафрост хранил нечто столь значимое, даже если не знал, что с ним делать.
+        Solyn3: В конце концов, он ведь не особо разбирается в садоводстве, ведь так?
+    }
+    
+    GenesisRevealDiscussion: {
+        Start: ...Вот и ты.
+        Solyn1: Как мы оба можем видеть, мир уже не тот, что прежде.^ Я знала, что этот разлом не сулит ничего хорошего.
+        Solyn2: Возможно... именно поэтому я и оказалась здесь.
+        Solyn3: ...Как бы то ни было, он точно никуда не исчезнет сам по себе.
+        Player1: Что же нам теперь делать?
+        Solyn4: Помнишь тот проросток, который мы нашли в твердыне, и я попросила тебя сохранить его?
+        Player2: И что с ним?
+        Solyn5: Сейчас он слаб, но в нём скрыт почти безграничный магический потенциал.^ Если мы сможем направить эту силу в небо, её должно хватить, чтобы раз и навсегда уничтожить разлом.
+        Solyn6: Но для этого нам понадобятся другие артефакты с похожими магическими свойствами.
+        Solyn7: Мы назовём эту конструкцию... **Генезис**.
+        Solyn8: А пока я займусь поиском любых магических источников, которые помогут воплотить наш план.
+        Solyn9: Тебе же я советую продолжать заниматься своими делами. У тебя талант находить необычные штуковины, и это определённо нам ещё пригодится.
+    }
+    
+    CeaselessVoidDiscussionBeforeBattle: {
+        Start: Я рада, что ты здесь.^ Нам нужно обсудить кое-что важное.
+        StartingQuestion: О чём речь?
+        Conversation1: Изучая древние тексты из Темницы, я наткнулась на упоминание о запечатанном разломе, который может скрывать в себе нечто интересное.
+        Conversation2: Этот разлом - портал, ведущий... в другое место.^ Я не уверена, куда именно.
+        Conversation3: Более того, в текстах говорится, что древние обитатели Темницы спрятали у входа по ту сторону разлома нечто невероятно могущественное.^ Это точно поможет нам в создании Генезиса.
+        ConversationQuestion1: Понятно. Чем я могу помочь?
+        Conversation4: Насколько я понимаю, чтобы исследовать пространство за разломом, сначала нужно разрушить защитную печать.
+        Conversation5: Тебе предстоит вызвать разлом.^ Как только он стабилизируется, я присоединюсь к тебе в Темнице, и мы исследуем его вместе.
+        Conversation6: Готов ли ты взяться за это?
+        Conversation6ResponseYes: Да, готов. Но как именно его 'вызвать'?
+        Conversation6ResponseNo: Может быть, позже.
+        ConversationRejection: Хорошо. Я буду здесь, если передумаешь.
+        Conversation7: Спасибо. Твоя помощь для меня бесценна.
+        Conversation8: В одном из текстов упоминается некая осквернённая руна, которая, как сказано, способна 'пробудить' разлом.
+        Conversation9: Я не знаю, о какой именно руне идёт речь, но, судя по всему, искать её стоит среди 'осквернённых' артефактов - подобных тем, что скрыты в глубинах преисподней.
+        Conversation10: Удачи тебе.
+    }
+    
+    CeaselessVoidDiscussionAfterBattle: {
+        Start: Что-то случилось?
+        Conversation1: Я одолел Нескончаемую пустоту, и появился разлом.
+        Conversation2: Погоди, **одолел**?^ Тебе пришлось сражаться?
+        Conversation3: О божечки... ты в порядке?
+        ConversationResponse1: Да, всё нормально.
+        Conversation4: Слава богу.^^ Значит, я... ^тогда встречу тебя в Темнице. ^Я сама смогу найти разлом.
+        Conversation5: Когда мы будем там, я войду внутрь и посмотрю, что там.
+        ConversationResponse2: Всё это довольно опасно. Ты уверена насчёт этого, Солин?
+        Conversation6: ...Я должна это сделать.
+        Conversation7: Но спасибо, что беспокоишься обо мне. ^Это много для меня значит.
+        Conversation8: В любом случае, увидимся там.
+        Repeat: ...
+    }
+    
+    CeaselessVoidDiscussionBeforeEnteringRift: {
+        Start: Вот и он.
+        Conversation1: Полагаю, остаётся только... войти внутрь.
+        Confirmation: Ты точно готова?
+        Conversation2: Да.^^ Я готова.
+        Conversation3: Я скоро вернусь.
+    }
+    
+    CeaselessVoidDiscussionAfterEnteringRift: {
+        Start: Я...^^ Я ^нашла это.
+        Question1: Ты в порядке?
+        Conversation1: Я... ^не знаю. ^Но, по крайней мере, я жива.
+        Question2: Что произошло?
+        Conversation2: Я вошла в разлом и сразу ощутила этот... всепоглощающий ужас.^ Будто мне там не место.
+        Conversation3: Всё было нормально, пока я не взяла артефакт. А потом я...
+        Conversation4: Нет... ^Я не хочу это вспоминать.
+        Conversation5: Давай... просто уйдём. На сегодня с меня хватит.
+        Conversation6: Вот артефакт. В твоих руках он будет в большей безопасности.
+        Conversation7: Я... ^буду в своём лагере. Увидимся.
+    }
+    
+    AntiseedDiscussion: {
+        Start: Помнишь, как я нашла то странное семя из разлома в Темнице?
+        Solyn1: У меня начинают появляться новые теории насчёт него.
+        Solyn2: Оно не похоже ни на что из того, что я встречала в своих исследованиях, ни в моём родном мире, ни в этом.^ Очевидно, что оно не могло появиться ни в одном из известных нам мест.
+        Solyn3: Похоже, что благословлённый морозом проросток черпает силу из этого семени, что указывает на связь, которую я изначально не могла предвидеть.
+        Solyn4: Мне предстоит ещё многое осмыслить относительно взаимодействия этих растений. В них кроется более глубокое предназначение, которое я пока не разгадала.
+    }
+    
+    DraedonBeforeCombatSimulation: {
+        Start: Хорошо, что ты здесь. ^Я хочу снова поговорить о Генезисе.
+        Question1: Ты уверена, что он ещё не готов?
+        Conversation1: Думаю, что нет. ^Но уже совсем близко. ^Нам нужен последний артефакт, чтобы раскрыть его полную силу.
+        Conversation2: Я провела дополнительные исследования и, кажется, знаю, у кого может быть то, что нам нужно.
+        Question2: И кто же это?
+        Conversation3: Известный учёный по имени Дрэйдон. Слышал о таком?
+        Question3: Конечно! Я даже связывался с ним через специальный компьютер.
+        Conversation4: Ага! Это хорошо.
+        Conversation5: Тогда давай вернёмся к этому компьютеру и спросим его вместе. ^Я пойду за тобой.
+    }
+    
+    GenesisCompletion: {
+        Start: Что-то случилось?
+        Player1: Я посадил последнее семя рядом с Генезисом, и оно дало росток.
+        Solyn1: Чудненько!^ Значит, все наши труды наконец-то окупились!
+        Solyn2: Покажи мне.^ Я пойду за тобой.
+    }
+    
+    AvatarFightLeadUp: {
+        Solyn1: Вот оно! Выглядит потрясающе!
+        Solyn2: Путь был долгим и трудным, но мы достигли поистине великого.
+        Solyn3: Наконец-то мы можем узреть плоды наших трудов.
+        Solyn4: А теперь давай активируем его.
+    }
+    
+    PostNamelessDiscussion: {
+        Apology1: Прошло немало времени с нашей последней встречи, старый друг.^^ Я рада, что тебе тоже позволили войти в это место, и ты смог пройти своё испытание.
+        Apology2: Думаю, я должна перед тобой извиниться.
+        Apology3: Время, проведённое вместе, было невероятным, но я должна признаться: мои намерения никогда не были полностью искренними.
+        Apology4: Поначалу я видела в тебе и Темнейшем лишь средство достижения цели. ^Ещё один шанс оказаться здесь. ^Шанс стать героиней, достойной благосклонности Божества.
+        Apology5: Я была глупа и опрометчива. Теперь мне ясно, почему меня тогда отвергли.
+        Apology6: Но... думаю, в конце концов я получила то, чего желала, хоть и ценой всего остального.
+        ApologyResponse: У меня есть пара вопросов.
+        QuestionsStart: ?..
+        HowDidYouEndUpHereQuestion: Как ты здесь оказалась?
+        HowDidYouEndUpHere1: Я... ^не совсем уверена.
+        HowDidYouEndUpHere2: Всё, что я помню, это как меня окутал странный шум, а затем я очнулась здесь. Божество явилось передо мной во всём своём великолепии, но так и не ответило ни на один из моих вопросов.
+        HowDidYouEndUpHere3: Возможно, я здесь из жалости. Может, с их точки зрения я искупила свою вину и заслужила это.
+        HowDidYouEndUpHere4: Вероятно, мы никогда не узнаем. Они, похоже, не особо разговорчивы.
+        HowDidYouEndUpHere5: В любом случае, я бесконечно благодарна. Это место поистине особенное.
+        WhyDidYouSaveMeQuestion: Почему ты спасла меня?
+        WhyDidYouSaveMe1: В тот момент я поняла, что уже слишком поздно. Моих магических сил не хватило бы, чтобы спасти нас обоих.
+        WhyDidYouSaveMe2: Один из нас должен был умереть.
+        WhyDidYouSaveMe3: Твоя судьба явно была важнее. Я чувствовала, что твоя жизнь куда ценнее моей.
+        WhyDidYouSaveMe4: К тому же, я бы не смогла жить с мыслью, что моё безрассудное вмешательство стало причиной твоей смерти.
+        WhyDidYouSaveMe5: Оглядываясь назад, я могу сказать, что это было одним из немногих решений, в правильности которых я могу быть уверена.
+        WhatNowQuestion: Что теперь?
+        WhatNow1: Как я уже сказала, моё время среди живых завершилось.
+        WhatNow2: Полагаю, моя душа будет находиться здесь очень долго.
+        WhatNow3: А вот что касается тебя... Я не знаю. Ты не привязан к этому саду. Ты всё ещё жив.
+        WhatNow4: Теперь ты свободен делать всё, что пожелаешь, после всех невероятных подвигов, которые ты совершил.
+        WhatNow5: Я уверена, что впереди тебя ждут великие свершения.
+        DeityQuestion: Что ты знаешь о божестве?
+        Deity1: Не так уж много. Подозреваю, есть вещи, которые нам никогда не понять.
+        Deity2: Но я точно знаю, что это существо доброты и тепла. Создатель всего в нашем мире.
+        Deity3: Иногда я вижу, как оно ухаживает за этим чудесным садом. Очевидно, что он создан с огромной любовью и заботой.
+        TreeQuestion: Хочешь посидеть вместе под деревом и просто насладиться атмосферой?
+        Tree1: ...
+        Tree2: Конечно, хочу.
+    }
+    
+    SolynErrorFallback.ErrorMessage1: Похоже, произошла неизвестная ошибка при загрузке моего диалога!
+    TripDialogue1: Ха-ха, вот я растяпа!
+    TripDialogue2: Ой-ой!
+    TripDialogue3: Ха-ха, моя оплошность!
+}
+
+StarGazing: {
+    Bunny: {
+        Name: Созвездие кролика
+        SolynDialogue:
+            '''
+            Кролики! Такие очаровательные создания.
+            Интересно, кому пришло в голову поместить их среди звёзд!
+            '''
+    }
+    
+    EmptyPatchOfSpaceTfAreYouEvenDoing: {
+        Name: Космос
+        SolynDialogue1: Космос и правда завораживает, не так ли?
+        SolynDialogue2: Его безбрежность... просто восхищает! А звёзды - все такие прекрасные!
+        SolynDialogue3: Невольно задумываешься обо всех неразгаданных тайнах и о том, насколько мы малы.
+        SolynDialogue4: Но эй, может быть, где-то там есть ответ! ^Какая-то сила, объясняющая всю эту природную красоту...
+        SolynDialogue5: Ах, но всё же... тебе^ действительно нравится именно этот участок неба, да? Ха-ха!
+        SolynDialogue6: Наслаждаешься видом?
+        SolynDialogue7: Слушай,^ эм,^ может, посмотрим что-нибудь ещё? Этот участок, конечно, неплох, но это ведь всего лишь участок...
+        SolynDialogue8: ...
+        SolynDialogue9: Ну... ^я никуда не спешу.
+        SolynDialogue10: ...
+        SolynDialogue11: ...
+        SolynDialogue12: Я... ^^правда думаю, что нам стоит посмотреть на что-нибудь другое...
+        SolynDialogue13: ...
+    }
+    
+    GalacticCenter: {
+        Name: Центр галактики?
+        SolynDialogue:
+            '''
+            Центр галактики?
+            ^Ну... если честно, я не совсем уверена, что там происходит.^ Но я слышала, что это довольно бурное место.
+            ^^Уверена, что вблизи это было бы потрясающее зрелище!
+            '''
+    }
+    
+    MeteorShower: {
+        Name: Звездопад
+        SolynDialogue:
+            '''
+            Ох, вау! Звездопад!
+            Скорее загадывай желание!
+            '''
+    }
+    
+    Moon: {
+        Name: Луна
+        SolynDialogue: Луна? Глупыш, ты и так прекрасно знаешь, что это такое!
+        SolynDialogueBloodMoon:
+            '''
+            Говорят, свет кровавой луны способен свести людей с ума...^
+            Не знаю, а ты чувствуешь, что сходишь с ума? Я лично - ни капельки!
+            '''
+    }
+    
+    Rift: {
+        Name: ???
+        SolynDialogue:
+            '''
+            О, это моё самое любимое! Это небесный разлом судьбы! Он просто невероя...^
+            Погоди...^^ Что?
+            '''
+    }
+    
+    ScreamingNebula: {
+        Name: Кричащая туманность
+        SolynDialogue:
+            '''
+            Это кричащая туманность! Вблизи она выглядит такой прекрасной...^^
+            Знаешь... Я даже не уверена, почему её так назвали. В космосе ведь нет ни криков, ни звуков!
+            '''
+    }
+}
+
+Subtitles: {
+    RodOfHarmonyRantSubtitle1: Убери этот Жезл гармонии с глаз моих, не хочу его даже видеть.
+    RodOfHarmonyRantSubtitle2: Нет, серьёзно, о чём думали Re-Logic? Жезл раздора без кулдауна? Серьёзно?
+    RodOfHarmonyRantSubtitle3: Пост-Мунлордные моды с ним идут НАХЕР...
+    RodOfHarmonyRantSubtitle4: Да ладно тебе, слушай.
+    RodOfHarmonyRantSubtitle5: Я хотел создать вселенную, справедливую и честную. Но Жезл гармонии портит абсолютно ВСЁ.
+    RodOfHarmonyRantSubtitle6: Поэтому обойдёшься без него.
+    RodOfHarmonyRantSubtitle7: Думал, что переиграешь меня, а в итоге переиграли именно ТЕБЯ.
+    RodOfHarmonyRantSubtitle8: Даже не отрицай.
+    RodOfHarmonyRantSubtitle9: Ты ведь умный, всё знаешь.
+    RodOfHarmonyRantSubtitle10: Наверняка же посмотрел эту битву в интернете.
+    RodOfHarmonyRantSubtitle11: Наверняка ты уже ЗНАЛ, что я это сделаю.
+    RodOfHarmonyRantSubtitle12: И чего ты ожидал? Я уже уничтожил ярость и адреналин, поэтому КОНЕЧНО ЖЕ я вздрючу и Жезл гармонии.
+    RodOfHarmonyRantSubtitle13: И сейчас я вздрючу ТЕБЯ.
+    RodOfHarmonyRantSubtitle14: Прозвучало как-то странно...
+    RodOfHarmonyRantSubtitle15: Короче говоря, в двух словах: я не люблю читеров.
+    RodOfHarmonyRantSubtitle16: И если не согласен, то тебе тут не место.
+    RodOfHarmonyRantSubtitle17: И вообще, тебе не стоило приносить сюда эту чёртову штуку.
+    PlayerRantSubtitle1: Oh, come on, you've GOTTA be kidding me with this.
+    PlayerRantSubtitle2: Noxus was just visiting. They literally just wanted to say hi.
+    PlayerRantSubtitle3: I mean, you don't just go and smack guests in the face. That's just ridiculous!
+    PlayerRantSubtitle4: That's just uncalled for!
+    PlayerRantSubtitle5: Some of you guys seriously get like, WAY too heated.
+    PlayerRantSubtitle6: Don't think I didn't read all the comments.
+    PlayerRantSubtitle7: What, am I just not good enough for you guys?
+    PlayerRantSubtitle8: '''"Meh, but Mutant's so much harder"! Come on man.'''
+    PlayerRantSubtitle9: Is that the support I get?
+    PlayerRantSubtitle10: I gave you like, black holes and stars and stuff, and your response is to mercilessly assault innocent lifeforms.
+    PlayerRantSubtitle11: You monster. You just don't feel compassion for other things, do you?
+    PlayerRantSubtitle12: You're just in it for the loot.
+    PlayerRantSubtitle13: The recognition, the views, that sweet nohit role.
+    PlayerRantSubtitle14: Oh, ANYTHING goes.
+    PlayerRantSubtitle15: Seriously, tell me how it makes sense to stab someone in the face for a spray bottle.
+    PlayerRantSubtitle16: A stupid little toy so you can play god in your little block game for children.
+    PlayerRantSubtitle17: I just cannot believe what I'm seeing right now.
+    PlayerRantSubtitle18: None of this makes ANY sense to me.
+    PlayerRantSubtitle19: I'm gonna go make sure Noxus is okay.
+    PlayerRantSubtitle20: And when you're ready...
+    PlayerRantSubtitle21: Come to the Garden.
+    PlayerRantSubtitle22: I'll show you some "friendly love and compassion",
+    PlayerRantSubtitle23: You insensitive FREAK.
+    RecordingRantRegularSubtitle1: Слушай... Я не могу указывать, что делать, но...
+    RecordingRantRegularSubtitle2: Было бы здорово оставлять такие вещи секретом для других игроков, понимаешь?
+    RecordingRantRegularSubtitle3: Не нужно выкладывать буквально всё на всеобщее обозрение.
+    RecordingRantRegularSubtitle4: Всё-таки я создал эту кат-сцену для тех, кто её заслужил.
+    RecordingRantRegularSubtitle5: И было бы неплохо, если ты просто... задумаешься об этом.
+    RecordingRantRegularSubtitle6: Ммм?
+    RecordingRantRegularSubtitle7: Может, просто... насладишься моментом, а?
+    RecordingRantRegularSubtitle8: Гордись своими достижениями сам, а не ищи одобрения в сети.
+    RecordingRantRegularSubtitle9: Короче, надеюсь, ты прислушаешься к моим словам.
+    RecordingRantRegularSubtitle10: Делай это не ради меня - ради других.
+    RecordingRantBossesSubtitle1: Слушай... Я не могу указывать, что делать, но...
+    RecordingRantBossesSubtitle2: Было бы здорово оставлять такие вещи секретом для других игроков, понимаешь?
+    RecordingRantBossesSubtitle3: Не нужно выкладывать буквально всё на всеобщее обозрение.
+    RecordingRantBossesSubtitle4: Всё-таки я создал эту кат-сцену для тех, кто её заслужил.
+    RecordingRantBossesSubtitle5: Хотя чего я, ты наверняка скачал мод лишь ради неё.
+    RecordingRantBossesSubtitle6: Я буквально видел, как ты пропустил половину боссов!
+    RecordingRantBossesSubtitle7: Либо ты гений игры, либо читерил как последний лузер.
+    RecordingRantBossesSubtitle8: Так или иначе, правду знаешь только ты.
+    RecordingRantBossesSubtitle9: Ну и ещё все, кто это смотрит.
+    RecordingRantBossesSubtitle10: Короче, надеюсь, ты прислушаешься к моим словам.
+    RecordingRantBossesSubtitle11: Просто сделай, как должно.
+    RecordingRantPlaytimeSubtitle1: Слушай... Я не могу указывать, что делать, но...
+    RecordingRantPlaytimeSubtitle2: Было бы здорово оставлять такие вещи секретом для других игроков, понимаешь?
+    RecordingRantPlaytimeSubtitle3: Не нужно выкладывать буквально всё на всеобщее обозрение.
+    RecordingRantPlaytimeSubtitle4: Всё-таки я создал эту кат-сцену для тех, кто её заслужил.
+    RecordingRantPlaytimeSubtitle5: Хотя мне КРАЙНЕ подозрительно то, насколько быстро ты сюда добрался.
+    RecordingRantPlaytimeSubtitle6: Может, ты просто быстрый игрок... спидраннер, как их называют.
+    RecordingRantPlaytimeSubtitle7: Или зашёл с чистым персонажем через читы.
+    RecordingRantPlaytimeSubtitle8: Так или иначе, правду знаешь только ты.
+    RecordingRantPlaytimeSubtitle9: Короче, надеюсь, ты прислушаешься к моим словам.
+    RecordingRantPlaytimeSubtitle10: Просто сделай, как должно.
+}
+
+Subworlds: {
+    EternalGardenNew.DisplayName: Вечный сад
+}
+
+TownNPCs: {
+    MerchantChat: {
+        RiftEclipse_Morning1: Меч бьёт бумагу! Купи свой уже сегодня.
+        RiftEclipse_Morning2: Хочешь яблок? Моркови? Ананасов? У нас есть факелы.
+        RiftEclipse_Morning3: Довольно мрачное утро. К счастью, для обмена золотых монет не бывает неподходящего времени!
+        RiftEclipse_Afternoon1: С тех пор как в небе появился этот разлом, люди стали меньше интересоваться торговлей. Рад видеть, что тебя это не волнует!
+        RiftEclipse_Afternoon2: В последнее время довольно прохладно. Не желаешь приобрести одежду по слегка завышенной цене?
+        RiftEclipse_Afternoon3: Взгляни на мои снежные блоки - они особенно снежные.
+        RiftEclipse_Evening1: Скоро наступит ночь, друг мой. Покупай, пока есть время.
+        RiftEclipse_Evening2: Ты даже не представляешь, по какой цене снежные блоки уходят за морем.
+        RiftEclipse_Evening3: Нет, я не делаю скидок по случаю конца света.
+        RiftEclipse_Nightfall1: Да, вокруг темно и жутковато... Но ты не думал купить пару факелов?
+        RiftEclipse_Nightfall2: Даже апокалипсис не остановит капитализм. Давай торговать.
+        RiftEclipse_Nightfall3: Горячие скидки в холодном мире! Шучу, конечно.
+        RiftEclipse_Midnight1: С наступлением темноты цены только растут!
+        RiftEclipse_Midnight2: Вечная ночь, нарастающий холод, надвигающийся рок? Самое время купить ударную установку. Поверь, потом поймёшь. Возможно.
+        RiftEclipse_Midnight3: Интересно, луна правда из сыра?.. А? Что? Ах да, купи что-нибудь!
+        RiftEclipse_NightsEnd1: Говорят, где-то спрятано величайшее сокровище... Хотя, забудь.
+        RiftEclipse_NightsEnd2: Статуя ангела, говоришь? Прости, но я не торгую хламом.
+    }
+    
+    NurseChat: {
+        RiftEclipse_Above66PercentHP1: Боюсь, я не оказываю психологическую помощь.
+        RiftEclipse_Above66PercentHP2: Покажи, где болит.
+        RiftEclipse_Above66PercentHP3: Ты уверен, что это действительно важно?
+        RiftEclipse_Above66PercentHP4: Поверни голову и откашляйся.
+        RiftEclipse_Below66PercentHP1: Тут без швов не обойтись!
+        RiftEclipse_Below66PercentHP2: Чем ты, РАДИ ВСЕГО СВЯТОГО, занимаешься, что постоянно получаешь такие странные травмы?
+        RiftEclipse_Below66PercentHP3: Всё не ТАК уж плохо.
+        RiftEclipse_Below33PercentHP1: Фу... Что случилось с твоим лицом?
+        RiftEclipse_Below33PercentHP2: О ГОСПОДИ! Я, конечно, хороша, но не до такой степени!
+        RiftEclipse_Below33PercentHP3: Эй, ты там руку забыл. Давай-ка я её подниму...
+        RiftEclipse_Below33PercentHP4: Ты точно уверен, что хочешь продолжать карьеру искателя приключений?
+        RiftEclipse_BurnDebuff: Судя по всему, ты прямо сейчас горишь.
+        RiftEclipse_Demolitionist: Хотелось бы, чтобы {0} был осторожнее. Он стал ещё безрассуднее, чем раньше.
+    }
+    
+    DemolitionistChat: {
+        RiftEclipse1: Отличный день, чтобы умереть!
+        RiftEclipse2: Не против, если я всё тут взорву? Раз уж мы всё равно... Что, нет? Ну ладно.
+        RiftEclipse3: Эта странная штука в небе... Как думаешь, её можно взорвать?
+        RiftEclipse4: Интересно, что будет, если я... (БУМ!)... Ой, прости, тебе нужна была эта нога?
+        RiftEclipse5: Взрывать лёд - это просто бомба! Если повезёт, осколки полетят во все стороны!
+        RiftEclipse6: ЗДЕСЬ НЕ КУРИТЬ!
+        RiftEclipse7: Эй, не подпишешь вот этот отказ от претензий за причинённый ущерб?
+        RiftEclipse8: Как насчёт немного дымящихся обломков?
+        RiftEclipse9: Безрассудный? Да ну! Я никогда ещё не чувствовал себя таким живым!
+        RiftEclipse10: Этот сухой, зловещий воздух просто идеален для моих взрывчаток!
+        RiftEclipse11: Зачем очищать мир, если можно просто взорвать его к чертям?
+        RiftEclipse12: Чего это все в последнее время так за меня беспокоятся? Я просто развлекаюсь!
+    }
+    
+    DyeTraderChat: {
+        RiftEclipse1: О боже! В последнее время всё стало таким тусклым...
+        RiftEclipse2: Хоть твой наряд и впечатляет, но ты просто ОБЯЗАН покрасить его для завершённого образа!
+        RiftEclipse3: Цвет и яркость - вот что придаёт жизни вкус! Кажется, с их исчезновением мы потеряли что-то особенное.
+        RiftEclipse4: Полагаю, в обесцвечивании тоже есть своя прелесть...
+        RiftEclipse5: Мои растения в таких условиях долго не протянут!
+        RiftEclipse6: Именно в такие времена мы начинаем ценить красоту этого мира.
+        GoodDyeEasterEgg: Эй... этот краситель не так уж плох. Вообще-то, он довольно хорош.
+    }
+    
+    AnglerChat: {
+        RiftEclipse1: О, какой ужас! Неужели никто не спасёт рыбок?!
+        RiftEclipse2: Знаешь, если бы не приближающийся конец света, сейчас было бы идеальное время для рыбалки.
+        RiftEclipse3: Раз уж нам всё равно суждено умереть, я предпочту встретить конец с удочкой в руках.
+        RiftEclipse4: Ты ведь всё равно будешь ловить для меня рыбу, правда?
+        RiftEclipse_Merchant: Я пытался выбить скидку на наживку у {0}, но, похоже, даже апокалипсис не повод сбавлять цену!
+        RiftEclipse1_QuestAvailable: Если ты думал, что я отстану от тебя только потому, что озёра замёрзли, то ошибался! А теперь иди и налови мне рыбы!
+        RiftEclipse2_QuestAvailable: Куда это ты собрался? Апокалипсис - лучшее время для ловли редких мутировавших рыб!
+    }
+    
+    ZoologistChat: {
+        RiftEclipse1: Природе сейчас совсем несладко...
+        RiftEclipse2: Куда пропали все животные? Я так по ним скучаю...
+        RiftEclipse3: Всё это очень, очень плохо! У меня аж шерсть дыбом встаёт.
+        RiftEclipse4: Интересно, что бы мой старший брат сказал обо всём этом...
+        RiftEclipse5: Мои ушки так замёрзли!
+        RiftEclipseNight1: Знаешь, я даже скучаю по луне...
+        RiftEclipseNight2: Всё кажется таким... застывшим.
+        RiftEclipseNight3: Может, поболтаем немного, чтобы скоротать время?
+        RiftEclipseNight4: Мои инстинкты просто сходят с ума. Всё такое стрёмное!
+    }
+    
+    DryadChat: {
+        RiftEclipse1: Этот завывающий ветер неестественный.
+        RiftEclipse2: Кажется, всё начинает увядать...
+        RiftEclipse3: Террария нуждается в тебе как никогда!
+        RiftEclipse4: Должна признать, меня впечатляет, как стойко остальные переносят всё это.
+        RiftEclipse5: Пески времени утекают... Как долго нам ещё плыть по их течению?
+        RiftEclipse6: Твои победы достойны похвалы. Ради всех нас я надеюсь, что тебе удастся спасти этот мир.
+        RiftEclipse7: Природа трепещет...
+        RiftEclipse8: Ты должен преуспеть.
+        RiftEclipse9: Я чувствую себя... слабее обычного.
+        RiftEclipse10: Сказать, что всё плохо, - значит ничего не сказать...
+        RiftEclipse11: Ты чувствуешь, какой тяжёлый воздух?
+        RiftEclipse12: Удачи тебе, {0}.
+        RiftEclipse_Corruption1: Когда-то я думала, что искажение будет нашей величайшей угрозой, но недооценила простое стечение обстоятельств.
+        RiftEclipse_Crimson1: Когда-то я думала, что багрянец будет нашей величайшей угрозой, но недооценила простое стечение обстоятельств.
+    }
+    
+    PainterChat: {
+        RiftEclipse1: В наши дни достать материалы стало сложнее.
+        RiftEclipse2: Этот разлом в небе... Он так вдохновляет! Пусть закат и приглушён, но те редкие вспышки цвета - самые яркие во всём мире!
+        RiftEclipse3: Тёмные цвета могут быть не менее ценными, чем яркие.
+        RiftEclipse4: Признаюсь, в последнее время всё стало немного мрачнее. Тем больше поводов для творчества.
+        RiftEclipse5: Нет-нет-нет... Существует МНОЖЕСТВО разных оттенков серого! Только оглянись вокруг!
+        RiftEclipse6: А ты пробовал сочетать бирюзовый и розово-красный на белом фоне?
+        RiftEclipseSnow: Эти снежные бури - одно из самых величественных зрелищ, которые я когда-либо видел!
+        ArtisticCatharsis: НЕМЕДЛЕННО прекрати называть бирюзовый и лаймовый просто зелёным!
+    }
+    
+    ArmsDealerChat: {
+        RiftEclipse1: С тех пор как солнце затмилось, мои продажи патронов взлетели вверх!
+        RiftEclipse2: Боюсь, стрелять в эту штуку в небе бесполезно. Я уже пробовал.
+        RiftEclipse3: Слыхал про К.П.Д.? Говорят, она даже круче мини-акулы.
+        RiftEclipse4: Конец света? Смерть? Пф, я с этим имею дело каждый день.
+        RiftEclipse5: Терпеть не могу такую тишину. Даже пострелять не в кого.
+        RiftEclipse6: Все твердили, что я 'чокнутый', но скоро мои запасы окупятся сполна!
+        RiftEclipseNight: Многое изменилось, но демонические глаза всё так же отлично подходят для тренировки меткости!
+        RiftEclipseSnow: Удачи с прицеливанием в такую погоду!
+        RiftEclipse_Demolitionist: Только не говори {0}, что я это сказал, но в последнее время он меня пугает. Как-то уж слишком спокойно реагирует на всё, что происходит.
+        GFB: Эй, приятель, а ты знал, что право носить оружие дано нам свыше?
+    }
+    
+    TavernkeepChat: {
+        RiftEclipse1: Не желаешь пропустить кружечку эля в столь непростые времена?
+        RiftEclipse2: Как же мы до такого дошли?..
+        RiftEclipse3: Немного упорства и капелька удачи творят чудеса...
+        RiftEclipse4: Этот портал в небе сильно отличается от того, что я видел раньше.
+        RiftEclipse5: Знаешь, порой я жалею, что этот портал в небе не имеет отношения к армии Древних. Было бы занятно наблюдать, как с неба без конца падают гоблины.
+        RiftEclipse6: Это куда интереснее, чем целыми днями протирать стойку.
+        RiftEclipse7: Что-то снаружи слишком тихо... Подозрительно тихо.
+        RiftEclipse_Dryad: Представляешь, сегодня {0} заглянула выпить, а не просто поболтать.
+    }
+    
+    StylistChat: {
+        RiftEclipse1: Не нравится мне эта постоянная тьма. Боюсь, что из неё может что-то выползти.
+        RiftEclipse2: Божечки! Почти все стали какими-то отстранёнными и... неряшливыми.
+        RiftEclipse3: Для тебя, думаю, сделаем что-то... попроще в уходе.
+        RiftEclipse4: Просто немного подровнять? Это ведь совсем не интересно...
+        RiftEclipse5: Ох! Сплетни в последнее время как-то поутихли...
+        RiftEclipse6: Из-за этой странной погоды я сижу дома! Не хочу, чтобы вся моя работа пошла насмарку.
+        RiftEclipse7: Значит, покороче сзади и по бокам, да?
+        Solyn: Эта милая девочка, Солин! Я как-то пыталась улучшить её причёску, но эта дикая прядь в форме звезды на макушке никак не поддавалась!
+    }
+    
+    GoblinTinkererChat: {
+        RiftEclipse1: Древний портал загораживает солнце? У меня как раз есть подходящее устройство!
+        RiftEclipse2: Вот тебе и 'солнечная энергия'...
+        RiftEclipse3: Космические ужасы нарушают баланс сил во вселенной, да? Дай мне пару минут.
+        RiftEclipse4: Нет солнца? Не проблема! Сделаем своё!
+    }
+    
+    PartyGirlChat: {
+        RiftEclipse1: Темнота - это супер! Как вечеринка в ночном клубе, которая никогда не заканчивается!
+        RiftEclipse2: Я как-то была в Швеции - вот где умеют отрываться. Почему ты не такой?
+        RiftEclipse3: Разве это не круто? Теперь я могу запускать фейерверки в любое время суток!
+        RiftEclipse4: Ты любишь тусоваться? Иногда? Хм, ну ладно, тогда можем поболтать...
+        RiftEclipse5: Слушай, ты случайно не видел мою праздничную пушку? Если найдём её, устроим САМУЮ КРУТУЮ ВЕЧЕРИНКУ В МИРЕ!
+        RiftEclipse6: Ой-ой-ой, не могу поверить! Скоро я наконец-то устрою свою первую вечеринку в бесконечной темноте! Тебе точно понравится!
+        RiftEclipseSnow1: У-у-у-у-у! Я ОБОЖАЮ снег! Он просто идеален для снежных битв!
+    }
+    
+    PirateChat: {
+        RiftEclipse1: Ар-р-р... Думаешь, не поздновато ли покидать корабль?
+        RiftEclipse2: Это мне напоминает истории о коварных глубинах морских! Небо - чернее, чем сундук Дэйви Джонса!
+        RiftEclipse3: Клянусь абордажным крюком, я - образцовый пират в этом зловещем шторме! погодка что надо - сверхъестественная, а путь скользкий да опасный! Йо-хо-хо!
+        RiftEclipse4: Шторм, что потопил мой корабль, был точь-в-точь как этот. Ар-р, неумолимая буря предала наше судно гневу Посейдона!
+        RiftEclipse5: Ар-р, эта штука в небе похожа на водоворот кракена. Держись крепче - морские чудища вот-вот вырвутся на свободу!
+        RiftEclipse6: Тысяча тысяч трескающихся ракушек! Эта снежная буря холоднее... холоднее мятного мороженого!
+        RiftEclipse_BeforeFrozenSea1: Да смилуются морские боги над храбрецами в открытом море. Йо-хо-хо!
+        RiftEclipse_AfterFrozenSea1: Чтоб этим замёрзшим морям пусто было! Моряку нужны волны, а не эта ледяная каша. Яр-р-р!
+        RiftEclipse_AfterFrozenSea2: Проклятье пало на эти моря! Видать, придётся навеки остаться сухопутной крысой...
+    }
+    
+    WizardChat: {
+        RiftEclipse1: Кто-то снова украл мою книгу заклинаний «Покончить с миром вечной тьмой»?
+        RiftEclipse2: Я заглянул в свой хрустальный шар, и оказалось, что настоящее сокровище - это друзья, которых пренебрегли ради сражений!
+        RiftEclipse3: Кто-то однажды сказал мне, что дружба - это магия. Какая чушь. Дружбой никого в лягушку не превратишь.
+        RiftEclipse4: Я? Беззаботный? Я прожил достаточно долго, чтобы повидать КУДА более интересные времена!
+        RiftEclipse5: Слышал когда-нибудь о передозировке зельем маны? Воистину жуткая участь...
+        RiftEclipse6: Я могу заглянуть в твой разум... Ты пропускаешь мимо ушей всё, что я говорю, и тебя интересуют лишь случайные предметы, которые я продаю!
+        RiftEclipse7: Однажды я пытался оживить статую ангела. Ничего не вышло.
+        RiftEclipsePremonition: Я заглянул в свой хрустальный шар. Похоже, грядёт что-то тёмное.
+        SolynAcknowledgement: Знаешь, Солин весьма искусна в магии! Возможно, она даже знает то, чего не знаю я...
+    }
+    
+    TravelingMerchantChat.RiftEclipse1: Я продаю товары из мест, которых, возможно, больше не существует!
+    
+    SkeletonMerchantChat: {
+        RiftEclipse1: Слышал, весь день идёт град. Ни за что не выйду в такую костепробирающую стужу!  
+        RiftEclipse2: Конец света? Да ты, верно, решил меня за ногу подёргать! ...Подожди-ка. Нет, она всё ещё на месте.  
+        RiftEclipse3: Нет такой хвори или недуга, которые не вылечило бы моё слизневое масло! Поверь мне, оно работает - только взгляни на мою костлявую внешность!  
+        RiftEclipse4: Погоди-ка... Я же мёртв. С чего бы мне вообще о деньгах беспокоиться?  
+        RiftEclipse5: Держись подальше от пауков. Они высосут из тебя всё нутро, оставив лишь пустую оболочку. Уж поверь мне на слово.  
+        RiftEclipse6: Ты выглядишь довольно сильным. Честно говоря, я удивлён, что ты вообще остановился, чтобы поздороваться.  
+        RiftEclipseOnSurface: Что? Жизнь в могильной опасности? Звучит тревожно. Хорошо, что я не живой.  
+        RiftEclipseUnderground: Что? Жизнь на поверхности в могильной опасности? Звучит тревожно. Хорошо, что я не живой и даже не на поверхности.  
+    }
+    
+    ElderSlimeChat.RiftEclipse: Вселенная содрогается. Скоро мы все падём перед безжалостным холодом. Бульк.
+    PermafrostChat.Saved:
+        '''
+        От всего сердца благодарю тебя за освобождение из этого ледяного плена.
+        Вот, возьми это в знак благодарности. Уверен, ты найдёшь этому применение.
+        '''
+}
+
+UI: {
+    GraphicalUniverseImager: {
+        EternalGardenAurora: Сияние Вечного сада
+        NamelessDeityStars: Звездный небосвод
+        NamelessDeityKaleidoscope: Реальность
+        AvatarP1Background: Алая даль
+        AvatarP2Background: Бушующие просторы
+        BloodWhirlpool: Кровавый водоворот
+        CryonicStatic: Застывший стазис
+        RiftEclipse: Затмение разлома
+        TerminusStairway: Умиротворённый эмпирей
+        NoMusic: Безмолвие
+        AvatarMusic: Покой
+    }
+    
+    SolynBookExchange: {
+        BookObtainmentPercentage: Найдено {0}% книг!
+        CreditText: Нашёл игрок [c/FF84D8:{0}]
+        RarityText: "Редкость: "
+    }
 }
