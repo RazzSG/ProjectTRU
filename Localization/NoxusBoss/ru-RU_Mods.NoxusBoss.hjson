@@ -90,7 +90,7 @@ CellPhoneInfoOverrides: {
     EmptinessWeatherText: Пустота
     MoonNotFoundText: Луна не найдена
     ParadiseReclaimedInfoText: Р А Й
-    ParsecText: "{0} {^0:парсек;парсека;парсеков}"
+    ParsecText: "{0} парсек"
     VisceralTyphoonText: Плотоядный тайфун
 }
 
@@ -1911,7 +1911,7 @@ Solyn: {
         Player2: И что с ним?
         Solyn5: Сейчас он слаб, но в нём скрыт почти безграничный магический потенциал.^ Если мы сможем направить эту силу в небо, её должно хватить, чтобы раз и навсегда уничтожить разлом.
         Solyn6: Но для этого нам понадобятся другие артефакты с похожими магическими свойствами.
-        Solyn7: Мы назовём эту конструкцию... ^**Генезис**.
+        Solyn7: Мы назовём эту конструкцию... ^Генезис.
         Solyn8: А пока я займусь поиском любых магических источников, которые помогут воплотить наш план.
         Solyn9: Тебе же я советую продолжать заниматься своими делами. У тебя талант находить необычные штуковины, и это определённо нам ещё пригодится.
     }
@@ -1938,7 +1938,7 @@ Solyn: {
     CeaselessVoidDiscussionAfterBattle: {
         Start: Что-то случилось?
         Conversation1: Я одолел Нескончаемую пустоту, и появился разлом.
-        Conversation2: Погоди, ^**одолел**?^ Ты... сражался с ней?
+        Conversation2: Погоди, ^одолел?^ Ты... сражался с ней?
         Conversation3: О божечки... ты в порядке?
         ConversationResponse1: Да, всё нормально.
         Conversation4: Слава звёздам.^^ Значит, я... ^тогда встретимся в Темнице. ^Я сама найду разлом.
@@ -2140,37 +2140,37 @@ Subtitles: {
     RodOfHarmonyRantSubtitle15: Короче говоря, в двух словах: я не люблю читеров.
     RodOfHarmonyRantSubtitle16: И если не согласен, то тебе тут не место.
     RodOfHarmonyRantSubtitle17: И вообще, тебе не стоило приносить сюда эту чёртову штуку.
-    RecordingRantRegularSubtitle1: Слушай... Я не могу указывать, что делать, но...
-    RecordingRantRegularSubtitle2: Было бы здорово оставлять такие вещи секретом для других игроков, понимаешь?
-    RecordingRantRegularSubtitle3: Не нужно выкладывать буквально всё на всеобщее обозрение.
-    RecordingRantRegularSubtitle4: Всё-таки я создал эту кат-сцену для тех, кто её заслужил.
-    RecordingRantRegularSubtitle5: И было бы неплохо, если ты просто... задумаешься об этом.
-    RecordingRantRegularSubtitle6: Ммм?
-    RecordingRantRegularSubtitle7: Может, просто... насладишься моментом, а?
-    RecordingRantRegularSubtitle8: Гордись своими достижениями сам, а не ищи одобрения в сети.
-    RecordingRantRegularSubtitle9: Короче, надеюсь, ты прислушаешься к моим словам.
-    RecordingRantRegularSubtitle10: Делай это не ради меня - ради других.
-    RecordingRantBossesSubtitle1: Слушай... Я не могу указывать, что делать, но...
-    RecordingRantBossesSubtitle2: Было бы здорово оставлять такие вещи секретом для других игроков, понимаешь?
-    RecordingRantBossesSubtitle3: Не нужно выкладывать буквально всё на всеобщее обозрение.
-    RecordingRantBossesSubtitle4: Всё-таки я создал эту кат-сцену для тех, кто её заслужил.
-    RecordingRantBossesSubtitle5: Хотя чего я, ты наверняка скачал мод лишь ради неё.
+    RecordingRantRegularSubtitle1: Слушай... Я не хочу указывать тебе, что делать, но...
+    RecordingRantRegularSubtitle2: Было бы здорово, если бы ты оставлял такие штуки в секрете для других игроков, смекаешь?
+    RecordingRantRegularSubtitle3: Не стоит выкладывать всё подряд на всеобщее обозрение.
+    RecordingRantRegularSubtitle4: Всё-таки я создал эту кат-сцену для тех, кто действительно её заслужил.
+    RecordingRantRegularSubtitle5: И было бы круто, если бы ты просто... задумался над этим.
+    RecordingRantRegularSubtitle6: Договорились?
+    RecordingRantRegularSubtitle7: Может, просто... насладишься моментом?
+    RecordingRantRegularSubtitle8: Почувствуй гордость за свои достижения, вместо того чтобы выкладывать их в сеть ради лайков.
+    RecordingRantRegularSubtitle9: Так что надеюсь, ты прислушаешься к моим словам.
+    RecordingRantRegularSubtitle10: Делай это не ради меня, а ради других.
+    RecordingRantBossesSubtitle1: Слушай... Я не хочу указывать тебе, что делать, но...
+    RecordingRantBossesSubtitle2: Было бы здорово, если бы ты оставлял такие штуки в секрете для других игроков, смекаешь?
+    RecordingRantBossesSubtitle3: Не стоит выкладывать всё подряд на всеобщее обозрение.
+    RecordingRantBossesSubtitle4: Всё-таки я создал эту кат-сцену для тех, кто действительно её заслужил.
+    RecordingRantBossesSubtitle5: Хотя, кто я такой... Ты наверняка скачал мод, чтобы увидеть эту кат-сцену.
     RecordingRantBossesSubtitle6: Я буквально видел, как ты пропустил половину боссов!
-    RecordingRantBossesSubtitle7: Либо ты гений игры, либо читерил как последний лузер.
-    RecordingRantBossesSubtitle8: Так или иначе, правду знаешь только ты.
-    RecordingRantBossesSubtitle9: Ну и ещё все, кто это смотрит.
-    RecordingRantBossesSubtitle10: Короче, надеюсь, ты прислушаешься к моим словам.
-    RecordingRantBossesSubtitle11: Просто сделай, как должно.
-    RecordingRantPlaytimeSubtitle1: Слушай... Я не могу указывать, что делать, но...
-    RecordingRantPlaytimeSubtitle2: Было бы здорово оставлять такие вещи секретом для других игроков, понимаешь?
-    RecordingRantPlaytimeSubtitle3: Не нужно выкладывать буквально всё на всеобщее обозрение.
-    RecordingRantPlaytimeSubtitle4: Всё-таки я создал эту кат-сцену для тех, кто её заслужил.
-    RecordingRantPlaytimeSubtitle5: Хотя мне КРАЙНЕ подозрительно то, насколько быстро ты сюда добрался.
-    RecordingRantPlaytimeSubtitle6: Может, ты просто быстрый игрок... спидраннер, как их называют.
-    RecordingRantPlaytimeSubtitle7: Или зашёл с чистым персонажем через читы.
-    RecordingRantPlaytimeSubtitle8: Так или иначе, правду знаешь только ты.
-    RecordingRantPlaytimeSubtitle9: Короче, надеюсь, ты прислушаешься к моим словам.
-    RecordingRantPlaytimeSubtitle10: Просто сделай, как должно.
+    RecordingRantBossesSubtitle7: Либо ты реально гений игры, либо читерил как последний лузер.
+    RecordingRantBossesSubtitle8: В любом случае, только ты знаешь, как было на самом деле.
+    RecordingRantBossesSubtitle9: И теперь все, кто это смотрят, тоже узнают, что я тебя раскусил.
+    RecordingRantBossesSubtitle10: Так что надеюсь, ты прислушаешься к моим словам.
+    RecordingRantBossesSubtitle11: Всё, о чём я прошу, — сделай по совести.
+    RecordingRantPlaytimeSubtitle1: Слушай... Я не хочу указывать тебе, что делать, но...
+    RecordingRantPlaytimeSubtitle2: Было бы здорово, если бы ты оставлял такие штуки в секрете для других игроков, смекаешь?
+    RecordingRantPlaytimeSubtitle3: Не стоит выкладывать всё подряд на всеобщее обозрение.
+    RecordingRantPlaytimeSubtitle4: Всё-таки я создал эту кат-сцену для тех, кто действительно её заслужил.
+    RecordingRantPlaytimeSubtitle5: Хотя меня ОЧЕНЬ смущает, как быстро ты сюда добрался.
+    RecordingRantPlaytimeSubtitle6: Может, ты просто быстрый игрок... или, как их называют, спидраннер.
+    RecordingRantPlaytimeSubtitle7: Или же просто читернул, используя нового персонажа.
+    RecordingRantPlaytimeSubtitle8: В любом случае, только ты знаешь правду.
+    RecordingRantPlaytimeSubtitle9: Так что надеюсь, ты прислушаешься к моим словам.
+    RecordingRantPlaytimeSubtitle10: Всё, о чём я прошу, — сделай по совести.
 }
 
 Subworlds: {
