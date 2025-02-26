@@ -21,7 +21,7 @@
       <HintPath>..\ModAssemblies\InfernumMode_v2.0.1.16.dll</HintPath>
     </Reference>
     <Reference Include="NoxusBoss">
-      <HintPath>..\ModAssemblies\NoxusBoss_v1.2.9.dll</HintPath>
+      <HintPath>..\ModAssemblies\NoxusBoss_v1.2.14.dll</HintPath>
     </Reference>
     <Reference Include="Redemption">
       <HintPath>..\ModAssemblies\Redemption_v0.8.0.4062.dll</HintPath>

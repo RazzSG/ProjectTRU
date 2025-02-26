@@ -58,21 +58,21 @@ public class SolynTextPatch : OnPatcher
     }
 }
 
-// public class SolynTextItalicsPatch : OnPatcher
-// {
-//     private delegate DynamicSpriteFont SolynTextItalicsDelegate(FontRegistry self);
-//
-//     public override bool AutoLoad => ModInstances.NoxusBoss != null && TRuConfig.Instance.NoxusBossLocalization && TranslationHelper.IsRussianLanguage;
-//
-//     public override MethodInfo ModifiedMethod => typeof(FontRegistry).GetCachedMethod("get_SolynTextItalics");
-//
-//     public override Delegate Delegate => Translation;
-//     
-//     private DynamicSpriteFont Translation(SolynTextItalicsDelegate orig, FontRegistry self)
-//     {
-//         return CalamityRuTranslate.Instance.Assets.Request<DynamicSpriteFont>("Assets/Fonts/SolynTextItalics", AssetRequestMode.ImmediateLoad).Value;
-//     }
-// }
+public class SolynTextItalicsPatch : OnPatcher
+{
+    private delegate DynamicSpriteFont SolynTextItalicsDelegate(FontRegistry self);
+
+    public override bool AutoLoad => ModInstances.NoxusBoss != null && TRuConfig.Instance.NoxusBossLocalization && TranslationHelper.IsRussianLanguage;
+
+    public override MethodInfo ModifiedMethod => typeof(FontRegistry).GetCachedMethod("get_SolynTextItalics");
+
+    public override Delegate Delegate => Translation;
+    
+    private DynamicSpriteFont Translation(SolynTextItalicsDelegate orig, FontRegistry self)
+    {
+        return CalamityRuTranslate.Instance.Assets.Request<DynamicSpriteFont>("Assets/Fonts/SolynTextItalics", AssetRequestMode.ImmediateLoad).Value;
+    }
+}
 
 public class SolynFightDialoguePatch : OnPatcher
 {
@@ -87,5 +87,21 @@ public class SolynFightDialoguePatch : OnPatcher
     private DynamicSpriteFont Translation(SolynFightDialogueDelegate orig, FontRegistry self)
     {
         return CalamityRuTranslate.Instance.Assets.Request<DynamicSpriteFont>("Assets/Fonts/SolynFightDialogue", AssetRequestMode.ImmediateLoad).Value;
+    }
+}
+
+public class AvatarPoemTextPatch : OnPatcher
+{
+    private delegate DynamicSpriteFont AvatarPoemTextDelegate(FontRegistry self);
+
+    public override bool AutoLoad => ModInstances.NoxusBoss != null && TRuConfig.Instance.NoxusBossLocalization && TranslationHelper.IsRussianLanguage;
+
+    public override MethodInfo ModifiedMethod => typeof(FontRegistry).GetCachedMethod("get_AvatarPoemText");
+
+    public override Delegate Delegate => Translation;
+    
+    private DynamicSpriteFont Translation(AvatarPoemTextDelegate orig, FontRegistry self)
+    {
+        return CalamityRuTranslate.Instance.Assets.Request<DynamicSpriteFont>("Assets/Fonts/AvatarPoemText", AssetRequestMode.ImmediateLoad).Value;
     }
 }
