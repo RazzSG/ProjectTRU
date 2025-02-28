@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using CalamityMod;
+using CalamityMod.Items;
 using CalamityMod.Items.SummonItems;
 using CalamityMod.Items.Weapons.Summon;
 using CalamityRuTranslate.Common;
@@ -42,7 +43,7 @@ public partial class CalamityModGlobalItem : GlobalItem
             });
         }
         
-        global::CalamityMod.Items.CalamityGlobalItem calamityGlobalItem = item.GetGlobalItem<global::CalamityMod.Items.CalamityGlobalItem>();
+        CalamityGlobalItem calamityGlobalItem = item.GetGlobalItem<CalamityGlobalItem>();
         
         if (calamityGlobalItem.canFirePointBlankShots)
         {
@@ -73,11 +74,11 @@ public partial class CalamityModGlobalItem : GlobalItem
          
         ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "CalamityMod" && l.Name == "SchematicKnowledge2", _ =>
         {
-            tooltips.ReplaceText("A specific schematic must be deciphered first","Сначала необходимо расшифровать конкретную схему");
-            tooltips.ReplaceText("The Sunken Sea schematic must be deciphered first","Сначала необходимо расшифровать схему затерянного моря");
-            tooltips.ReplaceText("The Planetoid schematic must be deciphered first","Сначала необходимо расшифровать схему планетоида");
-            tooltips.ReplaceText("The Jungle schematic must be deciphered first","Сначала необходимо расшифровать схему джунглей");
-            tooltips.ReplaceText("The Underworld schematic must be deciphered first","Сначала необходимо расшифровать схему преисподней");
+            tooltips.ReplaceText("A specific schematic must be deciphered first", "Сначала необходимо расшифровать конкретную схему");
+            tooltips.ReplaceText("The Sunken Sea schematic must be deciphered first", "Сначала необходимо расшифровать схему затерянного моря");
+            tooltips.ReplaceText("The Planetoid schematic must be deciphered first", "Сначала необходимо расшифровать схему планетоида");
+            tooltips.ReplaceText("The Jungle schematic must be deciphered first", "Сначала необходимо расшифровать схему джунглей");
+            tooltips.ReplaceText("The Underworld schematic must be deciphered first", "Сначала необходимо расшифровать схему преисподней");
             tooltips.ReplaceText("The Ice biome schematic must be deciphered first", "Сначала необходимо расшифровать схему льдов");
         });
         

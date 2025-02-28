@@ -6,24 +6,28 @@ using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
 using CalamityRuTranslate.Mods.CalamityMod.Content.Items;
-using ReLogic.Content;
 using ReLogic.Graphics;
+using Terraria.GameContent;
 using Terraria.ModLoader;
 
 namespace CalamityRuTranslate.Mods.CalamityMod;
 
 public class CalamityModSystem : ModSystem
 {
-    private static Asset<DynamicSpriteFont> _codebreakerFont;
+    private DynamicSpriteFont CodebreakerFont
+    {
+        get
+        {
+            if (TRuConfig.Instance.NewRussianTerrariaFont)
+                return Mod.Assets.Request<DynamicSpriteFont>("Assets/Fonts/Item_Stack").Value;
+            
+            return FontAssets.ItemStack.Value;
+        }
+    }
 
     public override bool IsLoadingEnabled(Mod mod)
     {
         return ModInstances.Calamity != null && TRuConfig.Instance.CalamityModLocalization && TranslationHelper.IsRussianLanguage;
-    }
-
-    public override void Load()
-    {
-        _codebreakerFont ??= Mod.Assets.Request<DynamicSpriteFont>("Assets/Fonts/Item_Stack", AssetRequestMode.ImmediateLoad);
     }
 
     public override void PostSetupContent()
@@ -31,12 +35,8 @@ public class CalamityModSystem : ModSystem
         ThankYouPainting.devList.RemoveAt(0);
         ThankYouPainting.devList.Insert(0, "Fabsol, основатель и владелец мода");
         
-        DynamicSpriteFont replaceFont = TRuConfig.Instance.NewRussianTerrariaFont
-            ? Mod.Assets.Request<DynamicSpriteFont>("Assets/Fonts/Item_Stack").Value
-            : _codebreakerFont.Value;
-        
         PropertyInfo dialogueFont = typeof(CodebreakerUI).GetCachedProperty("DialogFont");
-        dialogueFont.SetValue(null, replaceFont);
+        dialogueFont.SetValue(null, CodebreakerFont);
 
         if (ModLoader.TryGetMod("BossChecklist", out Mod bossChecklist) && bossChecklist != null)
         {

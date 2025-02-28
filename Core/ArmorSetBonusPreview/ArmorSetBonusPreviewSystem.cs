@@ -37,6 +37,7 @@ public class ArmorSetBonusPreviewSystem : ModSystem
         AddStarsAboveSetBonuses();
         AddRedemptionSetBonuses();
         AddCatalystSetBonuses();
+        NoxusBossSetBonuses();
     }
 
     private void AddVanillaArmorSetBonuses()
@@ -527,6 +528,14 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             ArmorSetBonuses[TranslationHelper.GetItemID("CalamityMod/AuricTeslaRoyalHelm")] += "\n\nУлучшенная версия: " + Language.GetTextValue("Mods.CatalystMod.AuricTeslaPlusSet.Melee", "[Межгелектический бонус комплекта]");
             ArmorSetBonuses[TranslationHelper.GetItemID("CalamityMod/AuricTeslaSpaceHelmet")] += "\n\nУлучшенная версия: " + Language.GetTextValue("Mods.CatalystMod.AuricTeslaPlusSet.Summoner", "[Межгелектический бонус комплекта]");
             ArmorSetBonuses[TranslationHelper.GetItemID("CalamityMod/AuricTeslaWireHemmedVisage")] += "\n\nУлучшенная версия: " + Language.GetTextValue("Mods.CatalystMod.AuricTeslaPlusSet.Magic", "[Межгелектический бонус комплекта]");
+        }
+    }
+
+    private void NoxusBossSetBonuses()
+    {
+        if (ModInstances.NoxusBoss != null)
+        {
+            ArmorSetBonuses[TranslationHelper.GetItemID("CalamityMod/DemonshadeHelm")] = TranslationHelper.GetTextValue("CalamityMod/DemonshadeHelm", "SetBonus", "[Бонус комплекта брони]").Replace("25", "50").Replace("125", "50");
         }
     }
 }

@@ -2,13 +2,9 @@
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
-using Microsoft.Xna.Framework.Graphics;
 using Redemption;
-using Redemption.NPCs.Bosses.Neb;
-using Redemption.UI;
 using Redemption.UI.ChatUI;
 using Terraria.Audio;
-using Terraria.GameContent;
 using Terraria.ModLoader;
 using Terraria.UI;
 

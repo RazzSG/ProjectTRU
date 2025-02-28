@@ -1733,6 +1733,53 @@ public class RedemptionItemsCreator : IItemGenderCreator
     }
 }
 
+public class NoxusBossItems : IItemGender
+{
+    public List<int> Feminine => new();
+
+    public List<int> Neuter
+    {
+        get
+        {
+            string[] items = {
+                "DeificTouch"
+            };
+    
+            if (ModInstances.NoxusBoss != null)
+            {
+                return TranslationHelper.GetItemTypesFromMod(items, "NoxusBoss");
+            }
+            return new List<int>();
+        }
+    }
+
+    public List<int> Plural
+    {
+        get
+        {
+            string[] items = {
+                "DivineWings"
+            };
+    
+            if (ModInstances.NoxusBoss != null)
+            {
+                return TranslationHelper.GetItemTypesFromMod(items, "NoxusBoss");
+            }
+            return new List<int>();
+        }
+    }
+}
+
+public class NoxusBossCreator : IItemGenderCreator
+{
+    public string ModName => "NoxusBoss";
+
+    public IItemGender Create()
+    {
+        return new NoxusBossItems();
+    }
+}
+
 public class CatalystItems : IItemGender
 {
     public List<int> Feminine
@@ -1799,6 +1846,7 @@ public class PrefixOverhaul
         new StarsAboveItemsCreator(),
         new RedemptionItemsCreator(),
         new CatalystItemsCreator(),
+        new NoxusBossCreator(),
     };
 
     //Мужской, Женский, Средний, Множественный
