@@ -36,7 +36,26 @@ public class DrawColorCodedStringWithShadowPatch : ILoadable
             // IL hook ломает логику
             text = text.Replace("'s Gateway", " - Врата");
         }
-            
+        
+        // Redemption
+        if (text.Contains("Сопротивление"))
+        {
+            text = text.Replace("Школы тайн", "Тайный");
+            text = text.Replace("Школы огня", "Огонь");
+            text = text.Replace("Школы воды", "Вода");
+            text = text.Replace("Школы льда", "Лёд");
+            text = text.Replace("Школы земли", "Земля");
+            text = text.Replace("Школы воздуха", "Воздух");
+            text = text.Replace("Школы молнии", "Молния");
+            text = text.Replace("Школы святости", "Святость");
+            text = text.Replace("Школы тени", "Тень");
+            text = text.Replace("Школы природы", "Природа");
+            text = text.Replace("Школы яда", "Яд");
+            text = text.Replace("Школы крови", "Кровь");
+            text = text.Replace("Школы менталистики", "Менталист");
+            text = text.Replace("Школы космоса", "Космос");
+        }
+        
         text = text switch
         {
             // Thorium

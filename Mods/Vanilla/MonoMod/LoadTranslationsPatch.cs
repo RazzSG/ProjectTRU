@@ -10,7 +10,6 @@ using CalamityRuTranslate.Core.Config;
 using CalamityRuTranslate.Core.MonoMod;
 using Hjson;
 using Newtonsoft.Json.Linq;
-using Terraria;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ModLoader.Core;
@@ -80,8 +79,7 @@ public class LoadTranslationsPatch : OnPatcher
 
 			    if (changedFiles.Select(x => Path.Join(x.Mod, x.fileName)).Contains(modpath))
 			    {
-				    string modSourcePath = typeof(Main).Assembly.GetTypes().First(t => t.Name == "ModCompile").GetCachedField("ModSourcePath").GetValue(null) as string;
-				    string path = Path.Combine(modSourcePath, modpath);
+				    string path = Path.Combine(mod.SourceFolder, translationFile.Name);
 				    
 				    if (File.Exists(path))
 				    {

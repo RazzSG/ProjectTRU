@@ -5,6 +5,8 @@ using CalamityRuTranslate.Core.Config;
 using Redemption.Items.Accessories.HM;
 using Redemption.Items.Armor.Vanity.SkySquire;
 using Redemption.Items.Placeable.Furniture.Misc;
+using Redemption.Items.Weapons.HM.Melee;
+using Redemption.Items.Weapons.PostML.Magic;
 using Redemption.Items.Weapons.PreHM.Ammo;
 using Redemption.Items.Weapons.PreHM.Melee;
 using Redemption.Items.Weapons.PreHM.Ranged;
@@ -229,6 +231,22 @@ public partial class RedemptionGlobalItem : GlobalItem
             ItemHelper.TranslateTooltip(tooltips, "DonatorLine", tooltip =>
             {
                 tooltip.Text = "-Предмет патрона-";
+            });
+        }
+        
+        if (item.type == ModContent.ItemType<HammerOfProving>())
+        {
+            ItemHelper.TranslateTooltip(tooltips, "Tooltip1", _ =>
+            {
+                tooltips.ReplaceText("Школы святости", "святых");
+            });
+        }
+        
+        if (item.type == ModContent.ItemType<NoblesHalberd>())
+        {
+            ItemHelper.TranslateTooltip(tooltips, "Tooltip0", _ =>
+            {
+                tooltips.ReplaceText("Колющий", "копьём");
             });
         }
         
