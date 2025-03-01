@@ -9,11 +9,11 @@ public class ModCompatibilityChecker : ModSystem
     private readonly ModCompatibilityInfo[] _modCompatibilityInfo =
     {
         new("CalamityMod", new Version(2, 0, 4, 6), true),
-        new("Redemption", new Version(0, 8, 0, 4070), true),
+        new("Redemption", new Version(0, 8, 0, 4071), true),
         new("InfernumMode", new Version(2, 0, 1, 16), true),
         new("FargowiltasSouls", new Version(1, 7, 1, 5), true),
         new("Fargowiltas", new Version(3, 3, 5, 5), true),
-        new("ThoriumMod", new Version(1, 7, 2, 2), true),
+        new("ThoriumMod", new Version(1, 7, 2, 3), true),
         new("NoxusBoss", new Version(1, 2, 14), false),
         new("StarsAbove", new Version(2, 1, 3, 4), true),
         new("CatalystMod", new Version(1, 1, 2, 3), true),

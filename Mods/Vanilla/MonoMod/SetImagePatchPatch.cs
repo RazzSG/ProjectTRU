@@ -53,6 +53,11 @@
 //             {
 //                 texture = CalamityRuTranslate.Instance.Assets.Request<Texture2D>("Assets/Sprites/Spirit/Books/UI/TheSpirit");
 //             }
+//             
+//             if (texture == ModInstances.Spirit.Assets.Request<Texture2D>("Items/Books/UI/LuminousOcean"))
+//             {
+//                 texture = CalamityRuTranslate.Instance.Assets.Request<Texture2D>("Assets/Sprites/Spirit/Books/UI/LuminousOcean");
+//             }
 //         }
 //         
 //         orig.Invoke(self, texture);

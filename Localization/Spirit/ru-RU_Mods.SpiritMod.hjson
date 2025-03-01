@@ -147,97 +147,97 @@
 #
 #        BlizzardMusic: {
 #            Label: "[i:SpiritMod/TranquilWindsBox] Уникальная мелодия для метели"
-#            Tooltip: Добавляет уникальную мелодию для метели
+#            Tooltip: обавляет уникальную мелодию, звучащую во время метели.
 #        }
 #
 #        SnowNightMusic: {
 #            Label: "[i:SpiritMod/TranquilWindsBox] Уникальная мелодия для снегов в ночное время"
-#            Tooltip: Добавляет уникальную мелодию для снегов в ночное время
+#            Tooltip: Добавляет уникальную мелодию, звучащую в снегах в ночное время.
 #        }
 #
 #        DesertNightMusic: {
 #            Label: "[i:SpiritMod/TranquilWindsBox] Уникальная мелодия для пустыни в ночное время"
-#            Tooltip: Добавляет уникальную мелодию для пустыни в ночное время
+#            Tooltip: Добавляет уникальную мелодию, звучащую в пустыне в ночное время.
 #        }
 #
 #        HallowNightMusic: {
 #            Label: "[i:SpiritMod/TranquilWindsBox] Уникальная мелодия для освящения в ночное время"
-#            Tooltip: Добавляет уникальную мелодию для освящения в ночное время
+#            Tooltip: Добавляет уникальную мелодию, звучащую в освящении в ночное время.
 #        }
 #
 #        CorruptNightMusic: {
 #            Label: "[i:SpiritMod/TranquilWindsBox] Уникальная мелодия для искажения в ночное время"
-#            Tooltip: Adds a unique track for the Corruption at nighttime
+#            Tooltip: Добавляет уникальную мелодию, звучащую в искажении в ночное время.
 #        }
 #
 #        CrimsonNightMusic: {
-#            Label: "[i:SpiritMod/TranquilWindsBox] Adds a unique track for The Crimson at night"
-#            Tooltip: Adds a unique track for the Crimson at nighttime
+#            Label: "[i:SpiritMod/TranquilWindsBox] Уникальная мелодия для багрянца в ночное время"
+#            Tooltip: Добавляет уникальную мелодию, звучащую в багрянце в ночное время.
 #        }
 #
 #        GraniteMusic: {
-#            Label: "[i:SpiritMod/TranquilWindsBox] Adds a unique track for the Granite biome"
-#            Tooltip: Adds a unique track for the Granite biome
+#            Label: "[i:SpiritMod/TranquilWindsBox] Уникальная мелодия для гранитных пещер"
+#            Tooltip: Добавляет уникальную мелодию, звучащую в гранитных пещерах.
 #        }
 #
 #        MarbleMusic: {
-#            Label: "[i:SpiritMod/TranquilWindsBox] Adds a unique track for the Marble biome"
-#            Tooltip: Adds a unique track for the Marble biome
+#            Label: "[i:SpiritMod/TranquilWindsBox] Уникальная мелодия для мраморных пещер"
+#            Tooltip: Добавляет уникальную мелодию, звучащую в мраморных пещерах.
 #        }
 #
 #        UnderwaterMusic: {
-#            Label: "[i:SpiritMod/TranquilWindsBox] Adds a unique track for the Ocean depths"
-#            Tooltip: Enables unique music for the Ocean while deep underwater
+#            Label: "[i:SpiritMod/TranquilWindsBox] Уникальная мелодия для океанских глубин"
+#            Tooltip: Добавляет уникальную мелодию, звучащую на больших глубинах океана.
 #        }
 #
 #        SpiderCaveMusic: {
-#            Label: "[i:SpiritMod/TranquilWindsBox] Adds a unique track for the Spider caverns"
-#            Tooltip: Adds a unique track for Spider caverns
+#            Label: "[i:SpiritMod/TranquilWindsBox] Уникальная мелодия для паучих пещер"
+#            Tooltip: Добавляет уникальную мелодию, звучащую в паучих пещерах.
 #        }
 #
 #        MeteorMusic: {
-#            Label: "[i:SpiritMod/TranquilWindsBox] Adds a unique track for the Meteorite biome"
-#            Tooltip: Adds a unique track for the Meteorite biome
+#            Label: "[i:SpiritMod/TranquilWindsBox] Уникальная мелодия для метеорита"
+#            Tooltip: Добавляет уникальную мелодию, звучащую вблизи метеорита.
 #        }
 #
 #        FrostLegionMusic: {
-#            Label: "[i:SpiritMod/TranquilWindsBox] Adds a unique track for the Frost Legion invasion"
-#            Tooltip: Adds a unique track for the Frost Legion
+#            Label: "[i:SpiritMod/TranquilWindsBox] Уникальная мелодия для морозного легиона"
+#            Tooltip: Добавляет уникальную мелодию, звучащую во время вторжения морозного легиона.
 #        }
 #
 #        SkeletronPrimeMusic: {
-#            Label: "[i:SpiritMod/TranquilWindsBox] Adds a unique track for Skeletron Prime"
-#            Tooltip: Adds a unique boss soundtrack for Skeletron Prime
+#            Label: "[i:SpiritMod/TranquilWindsBox] Уникальная мелодия для Скелетрона Прайма"
+#            Tooltip: Добавляет уникальную мелодию, звучащую во время битвы со Скелетроном Праймом.
 #        }
 #
 #        AuroraMusic: {
-#            Label: "[i:SpiritMod/TranquilWindsBox] Adds a unique track for the Aurora"
-#            Tooltip: Enables unique music for Auroras
+#            Label: "[i:SpiritMod/TranquilWindsBox] Уникальная мелодия для северного сияния"
+#            Tooltip: Добавляет уникальную мелодию, звучащую во время северного сияния.
 #        }
 #
 #        LuminousMusic: {
-#            Label: "[i:SpiritMod/TranquilWindsBox] Adds a unique track for Luminous Oceans"
-#            Tooltip: Enables unique music for Luminous Oceans
+#            Label: "[i:SpiritMod/TranquilWindsBox] Уникальная мелодия для сияющего океана"
+#            Tooltip: Добавляет уникальную мелодию, звучащую в сияющем океане.
 #        }
 #
 #        CalmNightMusic: {
-#            Label: "[i:SpiritMod/TranquilWindsBox] Adds a unique track for Calm Night mini-events"
-#            Tooltip: Enables unique music for Calm Nights
+#            Label: "[i:SpiritMod/TranquilWindsBox] Уникальная мелодия для спокойной ночи"
+#            Tooltip: Добавляет уникальную мелодию, звучащую во время спокойной ночи.
 #        }
 #
 #        NeonBiomeMusic: {
-#            Label: "[i:SpiritMod/TranquilWindsBox] Adds two unique tracks for the artificial Hyperspace biome"
-#            Tooltip: Enables two unique tracks while in Hyperspace
+#            Label: "[i:SpiritMod/TranquilWindsBox] Две уникальные мелодии для искусственного гиперпространства"
+#            Tooltip: Добавляет две уникальные мелодии, звучащие в искусственном гиперпространстве.
 #        }
 #
 #        AshfallMusic: {
-#            Label: "[i:SpiritMod/TranquilWindsBox] Adds a unique track for the Ashfall weather in the Underworld"
-#            Tooltip: Enables a unique track for the Ashfall weather in the Underworld
+#            Label: "[i:SpiritMod/TranquilWindsBox] Уникальная мелодия для пеплопада в преисподней"
+#            Tooltip: Добавляет уникальную мелодию, звучащую во время пеплопада в преисподней.
 #        }
 #
 #        VictoryDayMusic: {
-#            Label: "[i:SpiritMod/TranquilWindsBox] Adds a unique track for the Victory Day event"
-#            Tooltip: Enables a unique track for the day after the Lantern Night event
+#            Label: "[i:SpiritMod/TranquilWindsBox] Уникальная мелодия для дня победы"
+#            Tooltip: Добавляет уникальную мелодию, звучащую в день после события «Ночь фонарей».
 #        }
 #    }
 #}
@@ -612,56 +612,56 @@
 #    }
 #
 #    DiabolicPlatformBuff: {
-#        DisplayName: Diabolic Platform
-#        Description: Command the Infernal
+#        DisplayName: Дьявольская платформа
+#        Description: Повелевайте инфернальными силами
 #    }
 #
 #    DrakomireMountBuff: {
-#        DisplayName: Drakomire
-#        Description: You have tamed a Celestial Invader!
+#        DisplayName: Дракотоп
+#        Description: Вы приручили неземного захватчика!
 #    }
 #
 #    Obolos_Buff: {
-#        DisplayName: Obolos
-#        Description: Pretty grimacing...
+#        DisplayName: Обол
+#        Description: Довольно зловещая...
 #    }
 #
 #    RlyehianMountBuff: {
-#        DisplayName: Eldritch Cloak
-#        Description: "'It really sweeps you off your feet'"
+#        DisplayName: Жуткий плащ
+#        Description: "'Он буквально сносит вас с ног'"
 #    }
 #
 #    SnowmongerMountBuff: {
-#        DisplayName: Snowmech
-#        Description: Powerful
+#        DisplayName: Снегомех
+#        Description: Мощь в чистом виде
 #    }
 #
 #    TideMountBuff: {
-#        DisplayName: Crocodrillo Mount
-#        Description: This cute lil' Crocodillo is your new best friend!
+#        DisplayName: Ездовой Крокодрилло
+#        Description: Этот милый маленький Крокодилло — ваш новый лучший друг!
 #    }
 #
 #    NebulaFlame: {
-#        DisplayName: Nebula Flame
+#        DisplayName: Пламя туманности
 #        Description: ""
 #    }
 #
 #    OliveBranchBuff: {
-#        DisplayName: Peaceful Resolution
-#        Description: "'Make peace with your enemies'"
+#        DisplayName: Мирное решение
+#        Description: "'Примиритесь со своими врагами'"
 #    }
 #
 #    OnyxWind: {
-#        DisplayName: Onyx Whirlwind
-#        Description: 10% increased movement speed
+#        DisplayName: Ониксовый вихрь
+#        Description: Скорость передвижения увеличена на 10%
 #    }
 #
 #    OracleBoonBuff: {
-#        DisplayName: Heresy
+#        DisplayName: Ересь
 #        Description:
 #            '''
-#            The gods accept your challenge
-#            Enchanted enemies appear more often
+#            Боги принимают ваш вызов
+#            Зачарованные враги появляются чаще
 #            '''
 #    }
 #
@@ -1537,22 +1537,21 @@
 #    }
 #
 #    KoiTotem: {
-#        DisplayName: Koi Totem
+#        DisplayName: Тотем карпа
 #        Tooltip:
 #            '''
-#            Increases fishing skill when worn or when placed nearby
-#            Totem occasionally spits out the bait that was used for reusability
-#
+#            Увеличивает навык рыбной ловли, если надет или размещён рядом
+#            Тотем периодически выплёвывает использованную наживку, позволяя использовать её повторно
 #            '''
 #    }
 #
 #    BismiteShield: {
-#        DisplayName: Noxious Targe
+#        DisplayName: Ядовитый тарджет
 #        Tooltip:
 #            '''
-#            Being struck by an enemy inflicts festering wounds
-#            Increases defense by 2 for every afflicted enemy near the player
-#            This effect stacks up to five times
+#            При получении удара от врага накладывает на него дебафф «{$Buffs.FesteringWounds.DisplayName}»
+#            Увеличивает защиту на 2 за каждого ближайшего врага, поражённого этим дебаффом
+#            Этот эффект складывается до пяти раз
 #            '''
 #    }
 #
@@ -1566,22 +1565,22 @@
 #    }
 #
 #    ClatterboneShield: {
-#        DisplayName: Fervent Protector
+#        DisplayName: Пылкий защитник
 #        Tooltip:
 #            '''
-#            Increases defense by 2 and slows movement speed by 3% for every nearby foe
-#            This effect stacks up to five times
-#            'There is something special between us'
+#            Увеличивает защиту на 2 и снижает скорость передвижения на 3% за каждого врага поблизости
+#            Этот эффект складывается до пяти раз
+#            'Между нами есть что-то особенное'
 #            '''
 #    }
 #
 #    ExplorerTreads: {
-#        DisplayName: Explorer's Treads
+#        DisplayName: Ботфорты исследователя
 #        Tooltip:
 #            '''
-#            +5% Movement speed for every 10% missing health
-#            50% chance to avoid traps and hazards
-#            'Makes exploring temples like a walk in the park'
+#            Увеличивает скорость передвижения на 5% за каждые 10% потерянного здоровья
+#            Даёт 50% шанс избежать ловушек и опасностей
+#            'Исследовать храмы стало проще простого'
 #            '''
 #    }
 #
@@ -4948,7 +4947,7 @@
 #    }
 #
 #    Obolos: {
-#        DisplayName: Obolos
+#        DisplayName: Обол
 #        Tooltip:
 #            '''
 #            Summons a rideable Ethereal Boat for you to sail 
@@ -8702,7 +8701,7 @@
 #    }
 #
 #    RlyehianMountItem: {
-#        DisplayName: Eldritch Cloak
+#        DisplayName: Жуткий плащ
 #        Tooltip:
 #            '''
 #            Summons an eldritch cloak to carry you around
@@ -12204,7 +12203,7 @@
 #    SpiritPylon.MapEntry: "{$Items.SpiritPylonItem.DisplayName}"
 #    AsteroidPylon.MapEntry: "{$Items.AsteroidPylonItem.DisplayName}"
 #    BriarPylon.MapEntry: "{$Items.BriarPylonItem.DisplayName}"
-#    KoiTotem_Tile.MapEntry: Koi Totem
+#    KoiTotem_Tile.MapEntry: "{$Items.KoiTotem.DisplayName}"
 #    OpalFrog_Tile.MapEntry: Opal Frog
 #    Trophy8Tile.MapEntry: Atlas Trophy
 #    Trophy2Tile.MapEntry: Ancient Avian Trophy

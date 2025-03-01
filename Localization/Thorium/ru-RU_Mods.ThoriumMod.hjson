@@ -20262,17 +20262,17 @@ NPCs: {
     DreamEater: {
         DisplayName: Пожиратель снов
         BestiaryFlavorText: Космический чистильщик. Угасающая реальность. Пожиратель снов. Эта сущность стремится уничтожить всё, что считает угрозой для космического порядка. Спаси мир, герой!
+        
+        BossChecklistIntegration: {
+            EntryName: Первородные
+            SpawnInfo: Используйте [i:ThoriumMod/DoomSayersCoin] и готовьтесь к худшему...
+        }
     }
 
     SlagFury: {
         DisplayName: Шлаковый яростень, Изначальное пламя
         BestiaryNameOverride: Яростный шлак
         BestiaryFlavorText: Первый огонь бытия, Шлаковый яростень является воплощением всей энергии Вселенной. Он будет судить тех, кого сочтёт достойными своего внимания.
-
-        BossChecklistIntegration: {
-            EntryName: Первородные
-            SpawnInfo: Используйте [i:ThoriumMod/DoomSayersCoin] и готовьтесь к худшему...
-        }
     }
 
     UnstableAnger.DisplayName: Нестабильный гнев
