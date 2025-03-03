@@ -7816,50 +7816,50 @@
 #    }
 #
 #    FloranOre: {
-#        DisplayName: Floran Ore
-#        Tooltip: "'A strange mixture of plant cells and metal'"
+#        DisplayName: Флоранитовая руда
+#        Tooltip: "'Необычное сочетание растительных клеток и металла'"
 #    }
 #
 #    FloranPick: {
-#        DisplayName: Floran Pickaxe
+#        DisplayName: Флоранитовая кирка
 #        Tooltip: ""
 #    }
 #
 #    FloranReacher: {
-#        DisplayName: Floran Reacher
-#        Tooltip: Grants improved fishing power at nighttime
+#        DisplayName: Флоранитовый ловец
+#        Tooltip: Увеличивает навык рыбной ловли ночью
 #    }
 #
 #    FloranSporeWand: {
-#        DisplayName: Floran Spore Wand
+#        DisplayName: Флоранитовый споровой жезл
 #        Tooltip:
 #            '''
-#            Shoots out a floating Floran Spore
-#            Hit enemies are occasionally ensnared by vines and lose speed
+#            Выпускает парящую флоранитовую спору
+#            Поражённые враги иногда опутываются лозами и замедляются
 #            '''
 #    }
 #
 #    FloranStaff: {
-#        DisplayName: Floran Staff
+#        DisplayName: Флоранитовый посох
 #        Tooltip:
 #            '''
-#            Calls three guarding energies that surround the player before dissipating
-#            Vines occasionally ensnare the foes, reducing their movement speed
+#            Призывает три защитные энергии, которые окружают игрока до момента их рассеивания
+#            Лозы периодически опутывают врагов, замедляя их
 #            '''
 #    }
 #
 #    FrigidChestplate: {
-#        DisplayName: Frigid Plate
-#        Tooltip: 3% increased critical strike chance
+#        DisplayName: Ледяные латы
+#        Tooltip: Увеличивает шанс критического удара на 3%
 #    }
 #
 #    FrigidHelm: {
-#        DisplayName: Frigid Faceplate
+#        DisplayName: Ледяная личина
 #        Tooltip: ""
 #    }
 #
 #    FrigidLegs: {
-#        DisplayName: Frigid Greaves
+#        DisplayName: Ледяные поножи
 #        Tooltip: ""
 #    }
 #
@@ -12162,25 +12162,25 @@
 #    AsteroidPylon.MapEntry: "{$Items.AsteroidPylonItem.DisplayName}"
 #    BriarPylon.MapEntry: "{$Items.BriarPylonItem.DisplayName}"
 #    KoiTotem_Tile.MapEntry: "{$Items.KoiTotem.DisplayName}"
-#    OpalFrog_Tile.MapEntry: Opal Frog
-#    Trophy8Tile.MapEntry: Atlas Trophy
-#    Trophy2Tile.MapEntry: Ancient Avian Trophy
-#    Trophy6Tile.MapEntry: Dusking Trophy
-#    Trophy4Tile.MapEntry: Infernon Trophy
-#    MJWTrophyTile.MapEntry: Moon Jelly Wizard Trophy
-#    Trophy1Tile.MapEntry: Scarabeus Trophy
+#    OpalFrog_Tile.MapEntry: "{$Items.OpalFrogItem.DisplayName}"
+#    Trophy8Tile.MapEntry: "{$Items.Trophy8.DisplayName}"
+#    Trophy2Tile.MapEntry: "{$Items.Trophy2.DisplayName}"
+#    Trophy6Tile.MapEntry: "{$Items.Trophy6.DisplayName}"
+#    Trophy4Tile.MapEntry: "{$Items.Trophy4.DisplayName}"
+#    MJWTrophyTile.MapEntry: "{$Items.MJWTrophy.DisplayName}"
+#    Trophy1Tile.MapEntry: "{$Items.Trophy1.DisplayName}"
 #    Glowstone.MapEntry: Астралит
-#    Trophy3Tile.MapEntry: Starplate Voyager Trophy
-#    Trophy5Tile.MapEntry: Vinewrath Bane Trophy
+#    Trophy3Tile.MapEntry: "{$Items.Trophy3.DisplayName}"
+#    Trophy5Tile.MapEntry: "{$Items.Trophy5.DisplayName}"
 #    BismiteCrystalOre.MapEntry: Кристалл бисмита
-#    CoilEnergizerTile.MapEntry: Coiled Energizer
+#    CoilEnergizerTile.MapEntry: "{$Items.CoilEnergizerItem.DisplayName}"
 #    CryoliteOreTile.MapEntry: Cryolite Ore
 #    Driftwood1Tile.MapEntry: "{$Items.DriftwoodTileItem.DisplayName}"
 #    Driftwood2Tile.MapEntry: "{$Items.DriftwoodTileItem.DisplayName}"
 #    Driftwood3Tile.MapEntry: "{$Items.DriftwoodTileItem.DisplayName}"
-#    FishLureTile.MapEntry: Lure
-#    SunkenTreasureTile.MapEntry: Sunken Treasure
-#    FloranOreTile.MapEntry: Floran Ore
+#    FishLureTile.MapEntry: Приманка
+#    SunkenTreasureTile.MapEntry: "{$Items.SunkenTreasure.DisplayName}"
+#    FloranOreTile.MapEntry: Флоранит
 #    GraniteOre.MapEntry: "{$Items.GraniteChunk.DisplayName}"
 #    MarbleOre.MapEntry: Ancient Marble Chunk
 #    OlympiumToken_Tile.MapEntry: Olympium Token
