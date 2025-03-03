@@ -7,6 +7,7 @@ using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
 using CalamityRuTranslate.Mods.CalamityMod.Content.Items;
 using ReLogic.Graphics;
+using Terraria;
 using Terraria.GameContent;
 using Terraria.ModLoader;
 
@@ -35,8 +36,11 @@ public class CalamityModSystem : ModSystem
         ThankYouPainting.devList.RemoveAt(0);
         ThankYouPainting.devList.Insert(0, "Fabsol, основатель и владелец мода");
         
-        PropertyInfo dialogueFont = typeof(CodebreakerUI).GetCachedProperty("DialogFont");
-        dialogueFont.SetValue(null, CodebreakerFont);
+        if (!Main.dedServ)
+        {
+            PropertyInfo dialogueFont = typeof(CodebreakerUI).GetCachedProperty("DialogFont");
+            dialogueFont.SetValue(null, CodebreakerFont);
+        }
 
         if (ModLoader.TryGetMod("BossChecklist", out Mod bossChecklist) && bossChecklist != null)
         {

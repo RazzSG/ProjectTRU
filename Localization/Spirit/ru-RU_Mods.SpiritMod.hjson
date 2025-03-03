@@ -1070,7 +1070,7 @@
 #    }
 #
 #    SlagFury_buff: {
-#        DisplayName: Slag Fury
+#        DisplayName: Шлаковая ярость
 #        Description: "{$CommonItemTooltip.PercentIncreasedDamage}"
 #    }
 #
@@ -1097,11 +1097,6 @@
 #    SaddleBuff: {
 #        DisplayName: Aurora Stag Mount
 #        Description: You feel the power of the stars
-#    }
-#
-#    CosmicRattlerPetBuff: {
-#        DisplayName: Starachnid
-#        Description: "'Inside it you can see the depths of space'"
 #    }
 #
 #    Empowered: {
@@ -1585,65 +1580,65 @@
 #    }
 #
 #    FrigidGloves: {
-#        DisplayName: Frigid Wraps
+#        DisplayName: Морозные обмотки
 #        Tooltip:
 #            '''
-#            Melee critical strikes inflict Frostburn
-#            Grants 4% increased attack speed for every nearby enemy
-#            This effect stacks up to five times
+#            Критические удары ближнего боя накладывают дебафф «{$BuffName.Frostburn}»
+#            Увеличивает скорость атаки на 4% за каждого ближайшего врага
+#            Этот эффект складывается до пяти раз
 #            '''
 #    }
 #
 #    LeatherBoots: {
-#        DisplayName: Leather Striders
-#        Tooltip: Slightly increases movement speed and acceleration
+#        DisplayName: Кожаные походные ботинки
+#        Tooltip: Немного увеличивает скорость передвижения и ускорение
 #    }
 #
 #    LeatherGlove: {
-#        DisplayName: Leather Fistwraps
-#        Tooltip: Increases melee speed by 6%
+#        DisplayName: Кожаные кулачные обмотки
+#        Tooltip: Увеличивает скорость атаки ближнего боя на 6%
 #    }
 #
 #    LeatherShield: {
-#        DisplayName: Leather Safeguard
-#        Tooltip: Increases max life by 10
+#        DisplayName: Кожаный оплот
+#        Tooltip: Увеличивает максимальный запас здоровья на 10
 #    }
 #
 #    Strikeshield: {
-#        DisplayName: Strikeshield
+#        DisplayName: Ударный щит
 #        Tooltip:
 #            '''
-#            Enemies are struck when they hit you
-#            Struck enemies are targetted by minions and take 3 summon tag damage
-#            5 second duration
+#            Наносит урон врагам, которые атакуют вас
+#            Поражённые враги становятся целью миньонов и получают 3 урона от метки призывателя
+#            Эффект длится 5 секунд
 #            '''
 #    }
 #
 #    TechBoots: {
-#        DisplayName: Heartbeat Cleats
+#        DisplayName: Бутсы сердцебиения
 #        Tooltip:
 #            '''
-#            Slightly increases movement speed and acceleration
-#            Gain a huge speed boost below half health
+#            Немного увеличивает скорость передвижения и ускорение
+#            Даёт значительное ускорение, если здоровье ниже половины
 #            '''
 #    }
 #
 #    LongFuse: {
-#        DisplayName: Long Fuse
+#        DisplayName: Длинный фитиль
 #        Tooltip:
 #            '''
-#            Explosives burn slower
+#            Замедляет скорость сгорания взрывчатки
 #            Работает, даже если находится в инвентаре
 #            '''
 #    }
 #
 #    LumothLantern: {
-#        DisplayName: Luminous Lantern
+#        DisplayName: Светящийся фонарь
 #        Tooltip:
 #            '''
-#            Provides bright light
-#            Works in the vanity slot, but less effectively
-#            'Adventure into the deepest caverns with a trusty lightsource!'
+#            Создаёт яркий источник света
+#            Работает в слоте для украшений, но менее эффективно
+#            'Отправляйтесь в самые тёмные пещеры с надёжным источником света!'
 #            '''
 #    }
 #
@@ -1651,74 +1646,74 @@
 #        DisplayName: Магическое ожерелье
 #        Tooltip:
 #            '''
-#            Increases maximum mana by 20
-#            Enemies have 20% chance to drop an extra Mana Star
+#            Увеличивает максимальный запас маны на 20
+#            С 20% шансом из врагов выпадает дополнительная звезда маны
 #            '''
 #    }
 #
 #    ManaShield: {
-#        DisplayName: Mana Shield
+#        DisplayName: Щит маны
 #        Tooltip:
 #            '''
-#            Increases maximum mana by 20
-#            Absorbs 10% of the damage dealt by enemies
-#            This damage is converted into a loss of mana instead
-#            The amount of mana lost is equal to 4x the damage absorbed
+#            Увеличивает максимальный запас маны на 20
+#            Поглощает 10% урона, наносимого врагами
+#            Поглощённый урон расходует ману вместо здоровья
+#            Количество потраченной маны равно четырёхкратному значению поглощённого урона
 #            '''
 #    }
 #
 #    SeraphimBulwark: {
-#        DisplayName: Seraphim Bulwark
+#        DisplayName: Серафимский оплот
 #        Tooltip:
 #            '''
-#            Increases maximum mana by 40
-#            Absorbs 10% of the damage dealt by enemies
-#            This damage is converted into a loss of mana instead
+#            Увеличивает максимальный запас маны на 40
+#            Поглощает 10% урона, наносимого врагами
+#            Поглощённый урон расходует ману вместо здоровья
 #            '''
 #    }
 #
 #    MagnifyingGlass: {
-#        DisplayName: Magnifying Glass
+#        DisplayName: Увеличительное стекло
 #        Tooltip:
 #            '''
-#            4% increased critical strike chance
-#            Right click to zoom out when not holding a weapon
+#            Увеличивает шанс критического удара на 4%
+#            Нажмите <right>, чтобы отдалить, когда вы не держите оружие
 #            '''
 #    }
 #
 #    MedusaShield: {
-#        DisplayName: Medusa Shield
+#        DisplayName: Щит Медузы
 #        Tooltip:
 #            '''
-#            Provides immunity to knockback and the stoned debuff
-#            As health decreases, defense increases
+#            Даёт невосприимчивость к отбрасыванию и дебаффу «{$BuffName.Stoned}»
+#            По мере снижения здоровья увеличивает защиту
 #            '''
 #    }
 #
 #    GildedScarab: {
-#        DisplayName: Gilded Scarab
+#        DisplayName: Позолоченный скарабей
 #        Tooltip:
 #            '''
-#            Getting hit provides a temporary buff to defense
-#            This shield provides more defense based on the damage taken
+#            При получении урона временно увеличивает защиту
+#            Чем больше полученный урон, тем сильнее эффект
 #            '''
 #    }
 #
 #    GrislyTongue: {
-#        DisplayName: Grisly Tongue
+#        DisplayName: Ужасающий язык
 #        Tooltip:
 #            '''
-#            Getting hit dislodges a chunk of meat that can be picked up to recover a portion of your lost health
-#            This pickup dissapears after a few seconds
+#            При получении урона выпадает кусок плоти, который можно подобрать для восстановления части потерянного здоровья
+#            Этот кусок плоти исчезает через несколько секунд
 #            '''
 #    }
 #
 #    SlagMedallion: {
-#        DisplayName: Slag Medallion
+#        DisplayName: Шлаковый медальон
 #        Tooltip:
 #            '''
-#            Getting hit grants a temporary damage buff
-#            This buff scales with the damage taken
+#            При получении урона временно увеличивает наносимый урон
+#            Чем больше полученный урон, тем сильнее эффект
 #            '''
 #    }
 #
@@ -1997,29 +1992,9 @@
 #        Tooltip: ""
 #    }
 #
-#    BeachTowel: {
-#        DisplayName: Beach Towel
-#        Tooltip: "'It keeps you dry, but make sure you don't jump in the water with it on!'"
-#    }
-#
-#    BikiniBottom: {
-#        DisplayName: Bikini Bottom
-#        Tooltip: "'Who needs armor anyways when you can run free in the sun!'"
-#    }
-#
-#    BikiniTop: {
-#        DisplayName: Bikini Top
-#        Tooltip: "'Despite what one may expect, it really doesn't provide any sort of defense.'"
-#    }
-#
 #    SwimmingTrunks: {
 #        DisplayName: Swimming Trunks
 #        Tooltip: "'They don't provide much in the way of defense, but they're undeniably stylish.'"
-#    }
-#
-#    TintedGlasses: {
-#        DisplayName: Tinted Glasses
-#        Tooltip: "'They help sell the look, so it's best to keep them on even when it's dark.'"
 #    }
 #
 #    BeekeeperBody: {
@@ -2712,7 +2687,7 @@
 #    }
 #
 #    KakamoraGliderBanner: {
-#        DisplayName: Kakamora Windglider Banner
+#        DisplayName: Знамя какаморы-планериста
 #        Tooltip: ""
 #    }
 #
@@ -2847,7 +2822,7 @@
 #    }
 #
 #    RlyehianBanner: {
-#        DisplayName: R'lyehian Banner
+#        DisplayName: Знамя Р'льеха
 #        Tooltip: ""
 #    }
 #
@@ -4054,16 +4029,6 @@
 #
 #    CloudstalkSeed: {
 #        DisplayName: Cloudstalk Seeds
-#        Tooltip: ""
-#    }
-#
-#    Volleyball: {
-#        DisplayName: Volleyball
-#        Tooltip: ""
-#    }
-#
-#    VolleyballCourtChecker: {
-#        DisplayName: Volleyball Court Checker
 #        Tooltip: ""
 #    }
 #
@@ -6703,7 +6668,7 @@
 #    }
 #
 #    RlyehianRelicItem: {
-#        DisplayName: R'lyehian Relic
+#        DisplayName: Реликвия Р'льеха
 #        Tooltip: ""
 #    }
 #
@@ -8004,27 +7969,27 @@
 #    }
 #
 #    GranitechMaterial: {
-#        DisplayName: G-TEK Components
-#        Tooltip: "'An impressive combination of magic and science'"
+#        DisplayName: Компоненты G-TEK
+#        Tooltip: "'Впечатляющее сочетание магии и науки'"
 #    }
 #
 #    GranitechStaffItem: {
-#        DisplayName: Focus M-II
+#        DisplayName: Фокус М-II
 #        Tooltip: ""
 #    }
 #
 #    GranitechSaberItem: {
-#        DisplayName: Technobrand
-#        Tooltip: Swinging creates additional holographic blades
+#        DisplayName: Техноклинок
+#        Tooltip: При взмахе создаёт дополнительные голографические клинки
 #    }
 #
 #    GtechGrenade: {
-#        DisplayName: G-TEK Grenade
+#        DisplayName: Граната G-TEK
 #        Tooltip:
 #            '''
-#            Slows and electrocutes enemies in its aura
-#            Can be destroyed by the player
-#            Destroying it causes an explosion
+#            Замедляет и поражает врагов электричеством в пределах своей ауры
+#            Может быть уничтожена игроком
+#            При уничтожении вызывает взрыв
 #            '''
 #    }
 #
@@ -8710,7 +8675,7 @@
 #    }
 #
 #    RlyehMask: {
-#        DisplayName: R'lyehian Mask
+#        DisplayName: Маска Р'льеха
 #        Tooltip: ""
 #    }
 #
@@ -8725,7 +8690,7 @@
 #    }
 #
 #    Trophy10: {
-#        DisplayName: R'lyehian Trophy
+#        DisplayName: Трофей Р'льеха
 #        Tooltip: ""
 #    }
 #
@@ -9660,31 +9625,26 @@
 #    }
 #
 #    Zombie_Chest: {
-#        DisplayName: Chest
-#        Tooltip: ""
-#    }
-#
-#    SandPiperItem: {
-#        DisplayName: Sand Piper
+#        DisplayName: Сундук
 #        Tooltip: ""
 #    }
 #
 #    OracleScripture: {
-#        DisplayName: Sacred Scripture
+#        DisplayName: Священное писание
 #        Tooltip:
 #            '''
-#            Calls the Oracle to you
-#            Can only be used while in the Marble Caverns
+#            Призывает Оракула
+#            Можно использовать только в мраморных пещерах
 #            '''
 #    }
 #
 #    LargeKelpItem: {
-#        DisplayName: Large Glowing Plant
+#        DisplayName: Большое светящееся растение
 #        Tooltip: ""
 #    }
 #
 #    SmallKelpItem: {
-#        DisplayName: Small Glowing Plant
+#        DisplayName: Маленькое светящееся растение
 #        Tooltip: ""
 #    }
 #
@@ -10068,16 +10028,6 @@
 #        Tooltip: ""
 #    }
 #
-#    VolleyballCourtItem: {
-#        DisplayName: Volleyball Court
-#        Tooltip: ""
-#    }
-#
-#    VolleyballNetItem: {
-#        DisplayName: Volleyball Net
-#        Tooltip: ""
-#    }
-#
 #    CursedArmorItem: {
 #        DisplayName: Draugr Statue
 #        Tooltip: "'Take caution...'"
@@ -10151,6 +10101,25 @@
 #    SepulchrePlatformItem: {
 #        DisplayName: Sepulchre Platform
 #        Tooltip: ""
+#    }
+#
+#    GildJellyItem: {
+#        DisplayName: Gilded Jelly
+#        Tooltip: ""
+#    }
+#
+#    ToxicTooth: {
+#        DisplayName: Toxic Tooth
+#        Tooltip:
+#            '''
+#            Increases armor penetration by 3 and melee speed by 5%
+#            Melee attacks occasionally strike enemies twice and release poisonous gas
+#            '''
+#    }
+#
+#    ScarabeusAnatomyItem: {
+#        DisplayName: Anatomy of Scarabeus
+#        Tooltip: "'M. Bee'"
 #    }
 #}
 #
@@ -10787,19 +10756,9 @@
 #        Entry: Below the waves of the elusive glowing ocean, lies hundreds of small, glowing jellyfish, dancing among the luminescent tide.
 #    }
 #
-#    Pelican: {
-#        DisplayName: Pelican
-#        Entry: A large sea bird with a special beak to hold its prey. Startling it could cause the bird to drop what it's caught, but that would be mean.
-#    }
-#
 #    ReaverShark: {
 #        DisplayName: Reaver Shark
 #        Entry: This particular species of shark is remarkable for its potential as a tool. Not only is it small enough to hold, but its cleft chin and large forehorn excel at breaking the ice.
-#    }
-#
-#    SandPiper: {
-#        DisplayName: Sand Piper
-#        Entry: A small, brave bird that patrols the shorelines looking for food uncovered by the waves.
 #    }
 #
 #    Prismite: {
@@ -11311,7 +11270,6 @@
 #    CogTrapperTail.DisplayName: Stardancer
 #    LargeComet.DisplayName: Large Starjinx Comet
 #    MediumComet.DisplayName: Medium Starjinx Comet
-#    SmallComet.DisplayName: Small Starjinx Comet
 #
 #    StymphalianBat: {
 #        DisplayName: Stymphalian Bat
@@ -11324,30 +11282,30 @@
 #    }
 #
 #    KakamoraParachuter: {
-#        DisplayName: Kakamora Windglider
-#        Entry: Any army needs air support! Only the strongest, glidiest palm leaves are selected for use by Kakamora Windgliders.
+#        DisplayName: Какамора-планерист
+#        Entry: Любой армии нужна воздушная поддержка! Для какамор-планеристов отбираются только самые прочные и качественные пальмовые листья.
 #    }
 #
-#    KakamoraRider.DisplayName: Kakamoran Rider
+#    KakamoraRider.DisplayName: Какамора-наездник
 #
 #    KakamoraRunner: {
-#        DisplayName: Kakamora
-#        Entry: A general, run of the mill Karamora soldier. They have no specializations, but make for good foot soldiers.
+#        DisplayName: Какамора
+#        Entry: Обычный рядовой какамора-солдат. У них нет особой специализации, но из них получаются отличные пехотинцы.
 #    }
 #
 #    KakamoraShaman: {
-#        DisplayName: Kakamora Shaman
-#        Entry: Pint-sized mystics that attack using the arcane arts. They double as healers for their nearby Kakamora companions.
+#        DisplayName: Какамора-шаман
+#        Entry: Крошечные мистики, атакующие с помощью тайных искусств. Они также выполняют роль целителей для своих сородичей.
 #    }
 #
 #    KakamoraShielder: {
-#        DisplayName: Kakamora Shielder
-#        Entry: A brave little nut kitted with a shield and protective headgear, they protect the less aggressive Kakamora from harm.
+#        DisplayName: Какамора-щитоносец
+#        Entry: Храбрый маленький орешек, вооружённый щитом и защитным головным убором, защищающий менее боеспособных собратьев от опасности.
 #    }
 #
 #    KakamoraShielderRare: {
-#        DisplayName: Kakamora Guard
-#        Entry: A brave little nut kitted out with a shield and protective headgear, they protect the less aggressive Kakamora from harm.
+#        DisplayName: Какамора-страж
+#        Entry: Храбрый маленький орешек, вооружённый щитом и защитным головным убором, защищающий менее боеспособных собратьев от опасности.
 #    }
 #
 #    LargeCrustecean: {
@@ -11361,46 +11319,46 @@
 #    }
 #
 #    Rylheian: {
-#        DisplayName: R'lyehian
-#        Entry: The maker of tides and caller of storms! They're a wicked elderly lich who's taken charge of the Kakamora Army.
+#        DisplayName: Р'льех
+#        Entry: Повелитель приливов и призыватель бурь! Это злобный древний лич, взявший под своё командование армию какамора.
 #    }
 #
 #    SpearKakamora: {
-#        DisplayName: Kakamora Lobber
-#        Entry: These Kakamora specialize in throwing coconuts for long...ish...distance battles.
+#        DisplayName: Какамора-метатель
+#        Entry: Эти какамора специализируются на метании кокосов в бою на... ну, скажем так... приличной дистанции.
 #    }
 #
 #    SwordKakamora: {
-#        DisplayName: Kakamora Bruiser
-#        Entry: A Kakamora warrior with a nasty peel out! A bruiser lives up to their name, getting up close and personal while dishing out the pain.
+#        DisplayName: Какамора-громила
+#        Entry: Какамора-воин с опасной хваткой! Громила полностью оправдывает своё имя, приближаясь вплотную к врагу и щедро раздавая болезненные удары.
 #    }
 #
 #    Adventurer: {
-#        DisplayName: Adventurer
+#        DisplayName: Авантюрист
 #
 #        TownNPCMood: {
-#            Content: Relaxing at home is almost as nice as a good trek, isn't it?
-#            NoHome: While I'm an explorer, I'd like to relax for a while. Got a spare place I can hole up in?
-#            FarFromHome: You could say I'm 'adventuring' a bit too far from my house...but seriously I don't have a map.
-#            LoveSpace: Plenty of room to plan my next expedition, wonderful!
-#            DislikeCrowded: How am I supposed to chart undiscovered lands with all these people around?
-#            HateCrowded: I'd rather explore a lake of lava than live here with all these people!
-#            LikeBiome: Truly, {BiomeName} is a relaxing place to be. A nice place to rest up.
-#            DislikeBiome: While I'd love to finish what I've started, it's far too soon for me to be back in the {BiomeName}.
-#            LoveNPC: That {NPCName} is a fascinating character. His stories are trumped by nothing!
-#            LikeNPC: Me and {NPCName} go way back. I still remember our first journey together!
-#            DislikeNPC: "{NPCName} really knows how to bring down the mood. Maybe a hike would brighten him up?"
-#            HateNPC: While {NPCName} is a collector in spirit, he only offloads his work to others. A disappointment to explorers everywhere.
-#            LikeNPC_Princess: "{NPCName} has an air of her. An air of adventure."
-#            Princess_LovesNPC: "{NPCName} has so many cool stories!"
+#            Content: Отдохнуть дома почти так же приятно, как отправиться в хорошее путешествие, не так ли?
+#            NoHome: Хоть я и искатель приключений, но немного передохнуть мне не помешает. У тебя не найдётся для меня уголка?
+#            FarFromHome: Можно сказать, что я зашёл 'слишком' далеко... Но, если честно, у меня даже карты нет.
+#            LoveSpace: Отличное место, чтобы спланировать следующую экспедицию!
+#            DislikeCrowded: Как мне исследовать неизведанные земли, если вокруг столько народу?
+#            HateCrowded: Лучше я отправлюсь исследовать озеро из лавы, чем останусь здесь с этой толпой!
+#            LikeBiome: "{BiomeName} - удивительно спокойное место. Здесь можно хорошенько отдохнуть."
+#            DislikeBiome: Мне, конечно, хочется довести начатое до конца, но возвращаться в {BiomeName} так рано - точно не лучшая идея.
+#            LoveNPC: "{NPCName} — поистине удивительный рассказчик! Его истории не сравнятся ни с чем!"
+#            LikeNPC: Мы с {NPCName} знакомы уже давно. До сих пор помню наше первое совместное путешествие!
+#            DislikeNPC: "{NPCName} уж очень любит нагонять тоску... Может, поход помог бы ему развеяться?"
+#            HateNPC: "{NPCName} вроде бы и коллекционер, но всю работу за него делают другие. Настоящее разочарование для любого исследователя!"
+#            LikeNPC_Princess: В {NPCName} есть что-то особенное... Дух приключений, например.
+#            Princess_LovesNPC: "{NPCName} знает столько потрясающих историй."
 #        }
 #
-#        Entry: An intrepid explorer driven by an ambition that has often landed him in danger. He's also an avid note-taker, his many accounts now scattered throughout the land.
-#        Census.SpawnCondition: Rescue the Adventurer from a hut in the underground Briar.
+#        Entry: Отважный исследователь, движимый амбициями, которые не раз подвергали его опасности. Он также страстный составитель заметок, многие из которых теперь разбросаны по всему миру.
+#        Census.SpawnCondition: Спасите авантюриста из хижины в подземных зарослях поросли.
 #    }
 #
 #    BoundAdventurer: {
-#        DisplayName: Ensnared Adventurer
+#        DisplayName: Связанный авантюрист
 #
 #        TownNPCMood: {
 #            Content: Меня всё устраивает.
@@ -12226,7 +12184,7 @@
 #    GraniteOre.MapEntry: "{$Items.GraniteChunk.DisplayName}"
 #    MarbleOre.MapEntry: Ancient Marble Chunk
 #    OlympiumToken_Tile.MapEntry: Olympium Token
-#    Trophy10Tile.MapEntry: R'lyehian Trophy
+#    Trophy10Tile.MapEntry: "{$Items.Trophy10.DisplayName}"
 #    SpiritOreTile.MapEntry: Spirit Ore
 #    Fathomless_Chest.MapEntry: Fathomless Vase
 #    AvianEgg.MapEntry: Avian Egg
