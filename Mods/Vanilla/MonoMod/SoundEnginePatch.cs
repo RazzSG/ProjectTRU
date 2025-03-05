@@ -44,6 +44,14 @@ public class SoundEnginePatch : ILoadable
                 style = newStyle;
             }
         }
+        
+        if (ModInstances.NoxusBoss != null && TRuConfig.Instance.NoxusBossLocalization)
+        {
+            if (style.SoundPath == "NoxusBoss/Assets/Sounds/Custom/NamelessDeity/DoNotVocals")
+            {
+                style.SoundPath = "CalamityRuTranslate/Assets/Sounds/Music/DoNotVocals";
+            }
+        }
 
         return orig.Invoke(ref style, position, updatecallback);
     }

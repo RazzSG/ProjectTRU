@@ -1,5 +1,6 @@
 ﻿using System;
 using CalamityRuTranslate.Common.Utilities;
+using CalamityRuTranslate.Core.Config;
 using Terraria.ModLoader;
 
 namespace CalamityRuTranslate.Core.ModCompatibilities;
@@ -8,15 +9,14 @@ public class ModCompatibilityChecker : ModSystem
 {
     private readonly ModCompatibilityInfo[] _modCompatibilityInfo =
     {
-        new("CalamityMod", new Version(2, 0, 4, 6), true),
-        new("Redemption", new Version(0, 8, 0, 4071), true),
-        new("InfernumMode", new Version(2, 0, 1, 17), true),
-        new("FargowiltasSouls", new Version(1, 7, 1, 5), true),
-        new("Fargowiltas", new Version(3, 3, 5, 5), true),
-        new("ThoriumMod", new Version(1, 7, 2, 3), true),
-        new("NoxusBoss", new Version(1, 2, 14), false),
-        new("StarsAbove", new Version(2, 1, 3, 4), true),
-        new("CatalystMod", new Version(1, 1, 2, 3), true),
+        new("CalamityMod", new Version(2, 0, 4, 6), TRuConfig.Instance.CalamityModLocalization, true),
+        new("Redemption", new Version(0, 8, 0, 4071), TRuConfig.Instance.RedemptionLocalization, true),
+        new("InfernumMode", new Version(2, 0, 1, 17), TRuConfig.Instance.InfernumModeLocalization, true),
+        new("FargowiltasSouls", new Version(1, 7, 1, 5), TRuConfig.Instance.FargowiltasSoulsLocalization, true),
+        new("Fargowiltas", new Version(3, 3, 5, 5), TRuConfig.Instance.FargowiltasLocalization, true),
+        new("ThoriumMod", new Version(1, 7, 2, 3), TRuConfig.Instance.ThoriumModLocalization, true),
+        new("StarsAbove", new Version(2, 1, 3, 4), TRuConfig.Instance.StarsAboveLocalization, true),
+        new("CatalystMod", new Version(1, 1, 2, 3), TRuConfig.Instance.CatalystLocalization, true),
     };
 
     public override bool IsLoadingEnabled(Mod mod)
@@ -29,7 +29,7 @@ public class ModCompatibilityChecker : ModSystem
         foreach (ModCompatibilityInfo compatibilityInfo in _modCompatibilityInfo)
         {
             ModLoader.TryGetMod(compatibilityInfo.InternalName, out Mod modInstance);
-            if (modInstance != null && modInstance.Version != compatibilityInfo.ExpectedVersion && compatibilityInfo.ShouldCheckVersion)
+            if (modInstance != null && modInstance.Version != compatibilityInfo.ExpectedVersion && compatibilityInfo.ModLocalization && compatibilityInfo.ShouldCheckVersion)
             {
                 throw new ModCompatibilityException(GetModNameException(compatibilityInfo.InternalName), modInstance.Version, compatibilityInfo.ExpectedVersion);
             }

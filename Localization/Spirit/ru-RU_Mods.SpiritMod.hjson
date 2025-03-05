@@ -7869,32 +7869,32 @@
 #    }
 #
 #    HowlingScepter: {
-#        DisplayName: Frostbite
-#        Tooltip: Creates a slow-moving blizzard that follows your cursor
+#        DisplayName: Ледокус
+#        Tooltip: Создаёт медленно движущуюся метель, следующую за курсором
 #    }
 #
 #    FrostSpine: {
-#        DisplayName: Frigid Spine
-#        Tooltip: Occasionally shoots out a frost bolt
+#        DisplayName: Ледяной хребет
+#        Tooltip: Периодически выпускает морозный снаряд
 #    }
 #
 #    IcySpear: {
-#        DisplayName: Frigid Javelin
+#        DisplayName: Ледяное метательное копьё
 #        Tooltip:
 #            '''
-#            Hold and release to throw
-#            Hold longer for more velocity and damage
-#            Inflicts Frostburn
+#            Удерживайте <left>, чтобы зарядить, и отпустите, чтобы бросить
+#            Чем дольше удерживаете, тем выше скорость и урон
+#            Накладывает дебафф «{$BuffName.Frostburn}»
 #            '''
 #    }
 #
 #    Champagne: {
-#        DisplayName: Champagne
-#        Tooltip: Hold down and release to pop the cork
+#        DisplayName: Шампанское
+#        Tooltip: Удерживайте <left> и отпустите, чтобы открыть пробку
 #    }
 #
 #    CopperChest: {
-#        DisplayName: Copper Chest
+#        DisplayName: Медный сундук
 #        Tooltip:
 #            '''
 #            {$CommonItemTooltip.RightClickToOpen}
@@ -7903,17 +7903,17 @@
 #    }
 #
 #    FunnyFirework: {
-#        DisplayName: Funny Firework
-#        Tooltip: Does a funny
+#        DisplayName: Забавный фейерверк
+#        Tooltip: Происходит что-то забавное
 #    }
 #
 #    GildedMustache: {
-#        DisplayName: Gilded Mustache
+#        DisplayName: Позолоченные усы
 #        Tooltip: ""
 #    }
 #
 #    GoldChest: {
-#        DisplayName: Gold Coffer
+#        DisplayName: Золотой сундук с сокровищами
 #        Tooltip:
 #            '''
 #            {$CommonItemTooltip.RightClickToOpen}
@@ -8014,11 +8014,11 @@
 #    }
 #
 #    GraniteBow: {
-#        DisplayName: Unstable Boltcaster
+#        DisplayName: Нестабильный громовержец
 #        Tooltip:
 #            '''
-#            Converts wooden arrows into Unstable Bolts which stick to hit enemies
-#            Killing stuck enemies causes them to explode into damaging energy wisps
+#            Превращает деревянные стрелы в нестабильные разряды, которые прилипают к врагам
+#            Уничтожение врагов с прилипшими разрядами вызывает взрыв, выпускающий сгустки энергии, которые наносят урон
 #            '''
 #    }
 #
@@ -8028,30 +8028,30 @@
 #    }
 #
 #    GraniteFlail: {
-#        DisplayName: Unstable Star
+#        DisplayName: Нестабильная звезда
 #        Tooltip:
 #            '''
-#            Builds momentum as it spins
-#            Creates a damaging blast when colliding at full momentum
+#            Набирает скорость при вращении
+#            При столкновении на полной скорости вызывает мощный взрыв
 #            '''
 #    }
 #
 #    GraniteHammer: {
-#        DisplayName: Granite Hammer
+#        DisplayName: Гранитный молот
 #        Tooltip: ""
 #    }
 #
 #    GranitePickaxe: {
-#        DisplayName: Granite Pickaxe
+#        DisplayName: Гранитная кирка
 #        Tooltip: ""
 #    }
 #
 #    GraniteWand: {
-#        DisplayName: Unstable Conduit
+#        DisplayName: Нестабильный проводник
 #        Tooltip:
 #            '''
-#            Creates a fountain of energy at the ground near the Cursor Position
-#            Killing enemies with this weapon causes them to explode into damaging energy wisps
+#            Создаёт фонтан энергии на земле рядом с позицией курсора
+#            Уничтожение врагов этим оружием вызывает взрыв, выпускающий сгустки энергии, которые наносят урон
 #            '''
 #    }
 #

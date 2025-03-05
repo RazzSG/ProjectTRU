@@ -6,7 +6,7 @@ using CalamityRuTranslate.Core.Config;
 using Terraria;
 using Terraria.ModLoader;
 
-namespace CalamityRuTranslate.Mods.NoxusBoss.MonoMod;
+namespace CalamityRuTranslate.Mods.NoxusBoss;
 
 public class NoxusBossGlobalItem : GlobalItem
 {
@@ -25,7 +25,7 @@ public class NoxusBossGlobalItem : GlobalItem
                 player.armor[1].type == ModContent.ItemType<DemonshadeBreastplate>() &&
                 player.armor[2].type == ModContent.ItemType<DemonshadeGreaves>())
             {
-                tooltip.Text = tooltip.Text.Replace("25", "50").Replace("125", "50");
+                tooltip.Text = tooltip.Text.Replace("25", "50").Replace("125", "50").Replace("150", "50");
             }
         });
     }
