@@ -1718,68 +1718,68 @@
 #    }
 #
 #    GrislyBit: {
-#        DisplayName: Grisly Bit
+#        DisplayName: Жуткий фрагмент
 #        Tooltip: Вы не должны это видеть
 #    }
 #
 #    MetalBand: {
-#        DisplayName: Metal Band
+#        DisplayName: Металлический браслет
 #        Tooltip:
 #            '''
-#            Increases pickup range for ores
-#            'No you can't listen to this'
+#            Увеличивает радиус подбора руды
+#            'Нет, его нельзя послушать'
 #            '''
 #    }
 #
 #    MimicRepellent: {
-#        DisplayName: Mimic Repellent
+#        DisplayName: Отпугиватель мимиков
 #        Tooltip:
 #            '''
-#            Prevents Crate Mimics from being fished up
-#            'Keep those tentacled freaks at bay!'
+#            Предотвращает вылов ящиков-мимиков во время рыбалки
+#            'Держите этих щупальцеобразных уродов подальше!'
 #            '''
 #    }
 #
 #    Moonlight_Sack: {
-#        DisplayName: Moonlight Sack
-#        CustomTooltip: Creates a chain of lightning between you and your minions that deal damage
+#        DisplayName: Лунный мешочек
+#        CustomTooltip: Создаёт цепь молний между вами и вашими миньонами, наносящую урон
 #        Tooltip: ""
 #    }
 #
 #    OpalFrogItem: {
-#        DisplayName: Opal Frog
+#        DisplayName: Опаловая лягушка
 #        Tooltip:
 #            '''
-#            15% increased hook speed
-#            Automatically detatch from hooks upon reaching the end of the hook
-#            Disable accessory visibility to disable auto-unhooking
+#            Ускоряет использование крюка на 15%
+#            Автоматически отцепляет вас от крюка при достижении его максимальной длины 
+#            Отключите видимость аксессуара, чтобы отменить автоматическое отцепление
 #            '''
 #    }
 #
 #    Rabbit_Foot: {
-#        DisplayName: Rabbit's Foot
+#        DisplayName: Кроличья лапка
 #        Tooltip:
 #            '''
-#            'This must be Lucky!'
-#            You have 1% critical strike chance
+#            'Наверняка это к удаче!'
+#            Увеличивает шанс критического удара на 1%
 #            '''
 #    }
 #
 #    Rangefinder: {
-#        DisplayName: Rangefinder
+#        DisplayName: Дальномер
 #        Tooltip:
 #            '''
-#            Ranged weapons are now equipped with a laser sight
+#            Оснащает стрелковое оружие лазерным прицелом
 #            Работает, даже если находится в инвентаре
 #            '''
 #    }
 #
 #    RogueCrest: {
-#        DisplayName: Rogue's Crest
+#        DisplayName: Герб разбойника
 #        Tooltip:
 #            '''
-#            Summons a rusted sword to fight for you
-#            This sword does not take up minion slots
+#            Призывает ржавый меч, который сражается за вас
+#            Этот меч не занимает слоты призываемых миньонов
 #            '''
 #    }
 #
@@ -7519,7 +7519,7 @@
 #        Tooltip:
 #            '''
 #            Converts rockets into flake rockets, which inflict 'Cryo Crush'
-#            Cryo Crush deals increased damage to weakened enemies
+#            «{$Buffs.CryoCrush.DisplayName}» наносит увеличенный урон ослабленным врагам
 #            '''
 #    }
 #
@@ -7553,95 +7553,95 @@
 #    }
 #
 #    CryoliteOre: {
-#        DisplayName: Cryolite Ore
-#        Tooltip: "'Veins of metal intertwined with ice'"
+#        DisplayName: Криолитовая руда
+#        Tooltip: "'Жилы металла, переплетённые со льдом'"
 #    }
 #
 #    CryoPick: {
-#        DisplayName: Cryolite Pickaxe
+#        DisplayName: Криолитовая кирка
 #        Tooltip: ""
 #    }
 #
 #    CryoStaff: {
-#        DisplayName: Cryo Staff
+#        DisplayName: Крио-посох
 #        Tooltip:
 #            '''
-#            Casts a spread of icy magic bolts, which inflict 'Cryo Crush'
-#            Cryo Crush deals increased damage to weakened enemies
+#            Выпускает разброс ледяных магических снарядов, накладывающих дебафф «{$Buffs.CryoCrush.DisplayName}»
+#            «{$Buffs.CryoCrush.DisplayName}» наносит увеличенный урон ослабленным врагам
 #            '''
 #    }
 #
 #    CryoSword: {
-#        DisplayName: Rimehowl
+#        DisplayName: Морозный вой
 #        Tooltip:
 #            '''
-#            Every third swing creates a cryonic wave, which inflicts 'Cryo Crush'
-#            Cryo Crush deals increased damage to weakened enemies
+#            Каждый третий взмах создаёт криогенную волну, накладывающую дебафф «{$Buffs.CryoCrush.DisplayName}»
+#            «{$Buffs.CryoCrush.DisplayName}» наносит увеличенный урон ослабленным врагам
 #            '''
 #    }
 #
 #    AnimeSword: {
-#        DisplayName: Anime Sword
-#        Tooltip: Hold to slice through nearby enemies
+#        DisplayName: Аниме-меч
+#        Tooltip: Удерживайте <left>, чтобы рассекать ближайших врагов
 #    }
 #
 #    BambooKendoBlade: {
-#        DisplayName: Bamboo Kendo Blade
-#        Tooltip: Right click to dash forward
+#        DisplayName: Бамбуковый кендо-клинок
+#        Tooltip: Нажмите <right> для рывка вперёд
 #    }
 #
 #    BladeOfTheDragon: {
-#        DisplayName: Blade of the Dragon
-#        Tooltip: Hold to slice through nearby enemies
+#        DisplayName: Клинок дракона
+#        Tooltip: Удерживайте <left>, чтобы рассекать ближайших врагов
 #    }
 #
 #    LightNovasVanity: {
-#        DisplayName: LightNovas's Mask
-#        Tooltip: "'Great for impersonating patrons!'"
+#        DisplayName: Маска LightNovas
+#        Tooltip: "'Отлично подходит для подражания внешности покровителей!'"
 #    }
 #
 #    MeteorVanity: {
-#        DisplayName: Meteor's Mask
-#        Tooltip: "'Great for impersonating patrons!'"
+#        DisplayName: Маска Meteor
+#        Tooltip: "'Отлично подходит для подражания внешности покровителей!'"
 #    }
 #
 #    PixelatedFireballVanity: {
-#        DisplayName: Pixelated Fireball's Mask
-#        Tooltip: "'Great for impersonating patrons!'"
+#        DisplayName: Маска Pixelated Fireball
+#        Tooltip: "'Отлично подходит для подражания внешности покровителей!'"
 #    }
 #
 #    WaasephiVanity: {
-#        DisplayName: Waasephi's Hat
-#        Tooltip: "'Great for impersonating patrons!'"
+#        DisplayName: Шляпа Waasephi
+#        Tooltip: "'Отлично подходит для подражания внешности покровителей!'"
 #    }
 #
 #    BrightbloodDye: {
-#        DisplayName: Brightblood Hair Dye
+#        DisplayName: Кроваво-яркая краска для волос
 #        Tooltip: ""
 #    }
 #
 #    CystalDye: {
-#        DisplayName: Vile Hair Dye
+#        DisplayName: Мерзкая краска для волос
 #        Tooltip: ""
 #    }
 #
 #    MeteorDye: {
-#        DisplayName: Flare Hair Dye
+#        DisplayName: Пламенная краска для волос
 #        Tooltip: ""
 #    }
 #
 #    SeafoamDye: {
-#        DisplayName: Seafoam Hair Dye
+#        DisplayName: Краска для волос цвета морской пены
 #        Tooltip: ""
 #    }
 #
 #    SnowMirageDye: {
-#        DisplayName: Mirage Hair Dye
+#        DisplayName: Миражная краска для волос
 #        Tooltip: ""
 #    }
 #
 #    ViciousDye: {
-#        DisplayName: Vicious Hair Dye
+#        DisplayName: Кровавая краска для волос
 #        Tooltip: ""
 #    }
 #
@@ -7666,11 +7666,11 @@
 #    }
 #
 #    BismiteGrenade: {
-#        DisplayName: Bismite Grenade
+#        DisplayName: Бисмитовая граната
 #        Tooltip:
 #            '''
-#            Explodes into a cloud of poison
-#            Poison lasts for 10 seconds
+#            Взрывается, образуя ядовитое облако
+#            Отравление длится 10 секунд
 #            '''
 #    }
 #
@@ -7753,65 +7753,65 @@
 #    }
 #
 #    MessageBottle: {
-#        DisplayName: Message in a Bottle
+#        DisplayName: Бутылка с посланием
 #        Tooltip:
 #            '''
-#            Summons a raft mount
-#            Increased fishing power while on the raft
+#            Призывает плот как средство передвижения
+#            Увеличивает навык рыбной ловли, пока вы на плоту
 #            '''
 #    }
 #
 #    SunkenTreasure: {
-#        DisplayName: Sunken Treasure
+#        DisplayName: Затонувшее сокровище
 #        Tooltip:
 #            '''
-#            Right-click to open
-#            'Perhaps it is still full of valuable treasure'
+#            Нажмите <right>, чтобы открыть
+#            'Возможно, внутри до сих пор хранятся ценные сокровища'
 #            '''
 #    }
 #
 #    FBow: {
-#        DisplayName: Floran Bow
-#        Tooltip: "'Primitive, yet useful'"
+#        DisplayName: Флоранитовый лук
+#        Tooltip: "'Примитивный, но полезный'"
 #    }
 #
 #    FHelmet: {
-#        DisplayName: Floran Helmet
-#        Tooltip: Increases movement speed by 6%
+#        DisplayName: Флоранитовый шлем
+#        Tooltip: Увеличивает скорость передвижения на 6%
 #    }
 #
 #    FLegs: {
-#        DisplayName: Floran Leggings
-#        Tooltip: Increases movement speed by 4%
+#        DisplayName: Флоранитовые поножи
+#        Tooltip: Увеличивает скорость передвижения на 4%
 #    }
 #
 #    FPlate: {
-#        DisplayName: Floran Plate
-#        Tooltip: Increases movement speed by 6%
+#        DisplayName: Флоранитовые латы
+#        Tooltip: Увеличивает скорость передвижения на 6%
 #    }
 #
 #    FloranBar: {
-#        DisplayName: Floran Bar
+#        DisplayName: Флоранитовый слиток
 #        Tooltip: ""
 #    }
 #
 #    FloranCharm: {
-#        DisplayName: Floran Hunting Charm
-#        Tooltip: 5% increased melee speed and slightly increases life regeneration while standing on grass
+#        DisplayName: Флоранитовый охотничий талисман
+#        Tooltip: Увеличивает скорость атаки ближнего боя на 5% и слегка ускоряет регенерацию здоровья, когда вы стоите на траве
 #    }
 #
 #    Florang: {
-#        DisplayName: Floran Cutter
+#        DisplayName: Флоранитовый резак
 #        Tooltip:
 #            '''
-#            Rolls along the ground, cutting up enemies 
-#            Vines occasionally ensnare the foes, reducing their movement speed 
+#            Катится по земле, разрезая врагов
+#            Лозы периодически опутывают врагов, снижая их скорость передвижения
 #            'Sharp as a razorleaf'
 #            '''
 #    }
 #
 #    FloranHamaxe: {
-#        DisplayName: Floran Hamaxe
+#        DisplayName: Флоранитовый молотопор
 #        Tooltip: ""
 #    }
 #
@@ -7844,7 +7844,7 @@
 #        Tooltip:
 #            '''
 #            Призывает три защитные энергии, которые окружают игрока до момента их рассеивания
-#            Лозы периодически опутывают врагов, замедляя их
+#            Лозы периодически опутывают врагов, снижая их скорость передвижения
 #            '''
 #    }
 #
@@ -9476,7 +9476,7 @@
 #        Tooltip:
 #            '''
 #            Occasionally inflicts 'Cryo Crush'
-#            Cryo Crush deals increased damage to weakened enemies
+#            «{$Buffs.CryoCrush.DisplayName}» наносит увеличенный урон ослабленным врагам
 #            '''
 #    }
 #

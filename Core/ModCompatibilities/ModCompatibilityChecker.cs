@@ -10,7 +10,7 @@ public class ModCompatibilityChecker : ModSystem
     private readonly ModCompatibilityInfo[] _modCompatibilityInfo =
     {
         new("CalamityMod", new Version(2, 0, 4, 6), TRuConfig.Instance.CalamityModLocalization, true),
-        new("Redemption", new Version(0, 8, 0, 4071), TRuConfig.Instance.RedemptionLocalization, true),
+        new("Redemption", new Version(0, 8, 0, 4072), TRuConfig.Instance.RedemptionLocalization, true),
         new("InfernumMode", new Version(2, 0, 1, 17), TRuConfig.Instance.InfernumModeLocalization, true),
         new("FargowiltasSouls", new Version(1, 7, 1, 5), TRuConfig.Instance.FargowiltasSoulsLocalization, true),
         new("Fargowiltas", new Version(3, 3, 5, 5), TRuConfig.Instance.FargowiltasLocalization, true),
