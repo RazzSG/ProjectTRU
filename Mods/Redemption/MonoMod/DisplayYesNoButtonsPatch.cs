@@ -17,11 +17,9 @@ public class DisplayYesNoButtonsPatch : OnPatcher
 
     public override MethodInfo ModifiedMethod => typeof(YesNoUI).GetCachedMethod(nameof(YesNoUI.DisplayYesNoButtons));
 
-    private delegate void DisplayYesNoButtonsDelegate(Player player, string yesText, string noText, Vector2? textOffset, Vector2? textOffset2, float textScale, float textScale2);
-
     public override Delegate Delegate => Translation;
     
-    private void Translation(DisplayYesNoButtonsDelegate orig, Player player, string yesText, string noText, Vector2? textOffset, Vector2? textOffset2, float textScale, float textScale2)
+    private void Translation(Action<Player, string, string, Vector2?, Vector2?, float, float> orig, Player player, string yesText, string noText, Vector2? textOffset, Vector2? textOffset2, float textScale, float textScale2)
     {
         textScale = textScale is 0.6f or 0.75f ? 0.4f : textScale;
         textScale2 = textScale2 is 0.6f or 0.75f ? 0.4f : textScale2;

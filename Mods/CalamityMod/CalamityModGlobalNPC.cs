@@ -4,6 +4,7 @@ using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
 using Terraria;
 using Terraria.ID;
+using Terraria.Localization;
 using Terraria.ModLoader;
 
 namespace CalamityRuTranslate.Mods.CalamityMod;
@@ -17,21 +18,28 @@ public class CalamityModGlobalNPC : GlobalNPC
 
     public override void GetChat(NPC npc, ref string chat)
     {
+        string worldEvil = Language.GetTextValue("LegacyMisc." + (WorldGen.crimson ? 102 : 101));
+        
         if (npc.type == NPCID.Stylist)
         {
-            if (chat.Contains("Прошу, не цепляй космических вшей"))
+            if (chat == Language.GetOrRegister("Mods.CalamityMod.Vanilla.StylistChat.Hardmode").Format(worldEvil))
             {
                 chat = chat.Replace("Багрянец", "багряных");
                 chat = chat.Replace("Искажение", "искажённых");
             }
         }
+    }
 
+    public override void OnChatButtonClicked(NPC npc, bool firstButton)
+    {
+        string worldEvil = Language.GetTextValue("LegacyMisc." + (WorldGen.crimson ? 102 : 101));
+        
         if (npc.type == ModContent.NPCType<SEAHOE>())
         {
-            if (chat.Contains("Будь осторожен, когда атакуешь что-то в"))
+            if (Main.npcChatText == Language.GetOrRegister("Mods.CalamityMod.NPCs.SEAHOE.Help.PreHardmode6").Format(worldEvil))
             {
-                chat = chat.Replace("Багрянец", "багрянце");
-                chat = chat.Replace("Искажение", "искажении");
+                Main.npcChatText = Main.npcChatText.Replace("Багрянец", "багрянце");
+                Main.npcChatText = Main.npcChatText.Replace("Искажение", "искажении");
             }
         }
     }

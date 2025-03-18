@@ -15,11 +15,9 @@ public class FurnitureClockPatch : OnPatcher
 
     public override MethodInfo ModifiedMethod => typeof(FurnitureClock).GetCachedMethod(nameof(FurnitureClock.RightClick));
 
-    private delegate bool RightClickDelegate(FurnitureClock self, int x, int y);
-
     public override Delegate Delegate => Translation;
     
-    private bool Translation(RightClickDelegate orig, FurnitureClock self, int x, int y)
+    private bool Translation(Func<FurnitureClock, int, int, bool> _, FurnitureClock self, int x, int y)
     {
         double time = Main.time;
         

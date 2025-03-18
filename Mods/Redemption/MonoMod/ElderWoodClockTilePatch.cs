@@ -15,11 +15,9 @@ public class ElderWoodClockTilePatch : OnPatcher
 
     public override MethodInfo ModifiedMethod => typeof(ElderWoodClockTile).GetCachedMethod(nameof(ElderWoodClockTile.RightClick));
 
-    private delegate bool RightClickDelegate(ElderWoodClockTile self, int x, int y);
-
     public override Delegate Delegate => Translation;
     
-    private bool Translation(RightClickDelegate orig, ElderWoodClockTile self, int x, int y)
+    private bool Translation(Func<ElderWoodClockTile, int, int, bool> _, ElderWoodClockTile self, int x, int y)
     {
         double time = Main.time;
         

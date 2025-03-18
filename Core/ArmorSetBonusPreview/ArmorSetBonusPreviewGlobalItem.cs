@@ -18,15 +18,20 @@ public class ArmorSetBonusPreviewGlobalItem : GlobalItem
     
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
     {
-        if (!TRuConfig.Instance.ArmorSetBonusPreview || !ArmorSetBonusPreviewSystem.ArmorSetBonuses.TryGetValue(item.type, out string setBonus))
+        if (!TRuConfig.Instance.ArmorSetBonusPreview)
             return;
 
+        string setBonus = ArmorSetBonusPreviewSystem.GetSetBonusForItem(item.type);
+        
+        if (string.IsNullOrEmpty(setBonus))
+            return;
+        
         List<string> keys = PlayerInput.CurrentProfile.InputModes[InputMode.Keyboard].KeyStatus[TriggerNames.SmartSelect];
         string key = keys.Count > 0 ? keys[0] : null;
         bool showDesc = key == null || PlayerInput.Triggers.Current.SmartSelect;
         int index = tooltips.FindLastIndex(x => x.Text == Language.GetTextValue("CommonItemTooltip.WizardHatDuringAnniversary") || (x.Mod.Equals("Terraria") && x.Name.StartsWith("Tooltip")));
 
-        TooltipLine tooltipLine = new TooltipLine(Mod, "ForMoreInfo", $"Удерживайте клавишу ({key}) без автоматической паузы для предосмотра бонуса комплекта")
+        TooltipLine tooltipLine = new TooltipLine(Mod, "ForMoreInfo", $"Удерживайте клавишу ({key}) без автоматической паузы для предпросмотра бонуса комплекта")
         {
             OverrideColor = Color.Gray
         };

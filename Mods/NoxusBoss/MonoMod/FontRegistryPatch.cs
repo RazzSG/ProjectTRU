@@ -1,107 +1,107 @@
-﻿using System;
-using System.Reflection;
+﻿using System.Reflection;
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
 using CalamityRuTranslate.Core.MonoMod;
+using Mono.Cecil.Cil;
+using MonoMod.Cil;
 using NoxusBoss.Assets.Fonts;
-using ReLogic.Content;
-using ReLogic.Graphics;
+using Terraria.ModLoader;
 
 namespace CalamityRuTranslate.Mods.NoxusBoss.MonoMod;
 
-public class DraedonTextPatch : OnPatcher
+public class DraedonTextPatch : ILPatcher
 {
-    private delegate DynamicSpriteFont DraedonTextDelegate(FontRegistry self);
-
     public override bool AutoLoad => ModInstances.NoxusBoss != null && TRuConfig.Instance.NoxusBossLocalization && TranslationHelper.IsRussianLanguage;
 
     public override MethodInfo ModifiedMethod => typeof(FontRegistry).GetCachedMethod("get_DraedonText");
 
-    public override Delegate Delegate => Translation;
-    
-    private DynamicSpriteFont Translation(DraedonTextDelegate orig, FontRegistry self)
+    public override ILContext.Manipulator PatchMethod { get; } = il =>
     {
-        return CalamityRuTranslate.Instance.Assets.Request<DynamicSpriteFont>("Assets/Fonts/Item_Stack", AssetRequestMode.ImmediateLoad).Value;
-    }
+        ILCursor cursor = new ILCursor(il);
+        cursor.TryGotoNext(MoveType.After, i => i.MatchCall<ModType>("get_Mod"));
+        cursor.EmitPop();
+        cursor.Emit(OpCodes.Ldsfld, typeof(CalamityRuTranslate).GetField("Instance"));
+        TranslationHelper.ModifyIL(il, "Assets/Fonts/DraedonText", "Assets/Fonts/Item_Stack");
+    };
 }
 
-public class NamelessDeityTextPatch : OnPatcher
+public class NamelessDeityTextPatch : ILPatcher
 {
-    private delegate DynamicSpriteFont NamelessDeityTextDelegate(FontRegistry self);
-
     public override bool AutoLoad => ModInstances.NoxusBoss != null && TRuConfig.Instance.NoxusBossLocalization && TranslationHelper.IsRussianLanguage;
 
     public override MethodInfo ModifiedMethod => typeof(FontRegistry).GetCachedMethod("get_NamelessDeityText");
 
-    public override Delegate Delegate => Translation;
-    
-    private DynamicSpriteFont Translation(NamelessDeityTextDelegate orig, FontRegistry self)
+    public override ILContext.Manipulator PatchMethod { get; } = il =>
     {
-        return CalamityRuTranslate.Instance.Assets.Request<DynamicSpriteFont>("Assets/Fonts/FairyMuffinRoundPop", AssetRequestMode.ImmediateLoad).Value;
-    }
+        ILCursor cursor = new ILCursor(il);
+        cursor.TryGotoNext(MoveType.After, i => i.MatchCall<ModType>("get_Mod"));
+        cursor.EmitPop();
+        cursor.Emit(OpCodes.Ldsfld, typeof(CalamityRuTranslate).GetField("Instance"));
+        TranslationHelper.ModifyIL(il, "Assets/Fonts/NamelessDeityTextRussian", "Assets/Fonts/FairyMuffinRoundPop");
+    };
 }
 
-public class SolynTextPatch : OnPatcher
+public class SolynTextPatch : ILPatcher
 {
-    private delegate DynamicSpriteFont SolynTextDelegate(FontRegistry self);
-
     public override bool AutoLoad => ModInstances.NoxusBoss != null && TRuConfig.Instance.NoxusBossLocalization && TranslationHelper.IsRussianLanguage;
 
     public override MethodInfo ModifiedMethod => typeof(FontRegistry).GetCachedMethod("get_SolynText");
 
-    public override Delegate Delegate => Translation;
-    
-    private DynamicSpriteFont Translation(SolynTextDelegate orig, FontRegistry self)
+    public override ILContext.Manipulator PatchMethod { get; } = il =>
     {
-        return CalamityRuTranslate.Instance.Assets.Request<DynamicSpriteFont>("Assets/Fonts/Death_Text", AssetRequestMode.ImmediateLoad).Value;
-    }
+        ILCursor cursor = new ILCursor(il);
+        cursor.TryGotoNext(MoveType.After, i => i.MatchCall<ModType>("get_Mod"));
+        cursor.EmitPop();
+        cursor.Emit(OpCodes.Ldsfld, typeof(CalamityRuTranslate).GetField("Instance"));
+        TranslationHelper.ModifyIL(il, "Assets/Fonts/NamelessDeityTextRussian", "Assets/Fonts/Death_Text");
+    };
 }
 
-public class SolynTextItalicsPatch : OnPatcher
+public class SolynTextItalicsPatch : ILPatcher
 {
-    private delegate DynamicSpriteFont SolynTextItalicsDelegate(FontRegistry self);
-
     public override bool AutoLoad => ModInstances.NoxusBoss != null && TRuConfig.Instance.NoxusBossLocalization && TranslationHelper.IsRussianLanguage;
 
     public override MethodInfo ModifiedMethod => typeof(FontRegistry).GetCachedMethod("get_SolynTextItalics");
 
-    public override Delegate Delegate => Translation;
-    
-    private DynamicSpriteFont Translation(SolynTextItalicsDelegate orig, FontRegistry self)
+    public override ILContext.Manipulator PatchMethod { get; } = il =>
     {
-        return CalamityRuTranslate.Instance.Assets.Request<DynamicSpriteFont>("Assets/Fonts/SolynTextItalics", AssetRequestMode.ImmediateLoad).Value;
-    }
+        ILCursor cursor = new ILCursor(il);
+        cursor.TryGotoNext(MoveType.After, i => i.MatchCall<ModType>("get_Mod"));
+        cursor.EmitPop();
+        cursor.Emit(OpCodes.Ldsfld, typeof(CalamityRuTranslate).GetField("Instance"));
+        TranslationHelper.ModifyIL(il, "Assets/Fonts/SolynTextItalicsRussian", "Assets/Fonts/SolynTextItalics");
+    };
 }
 
-public class SolynFightDialoguePatch : OnPatcher
+public class SolynFightDialoguePatch : ILPatcher
 {
-    private delegate DynamicSpriteFont SolynFightDialogueDelegate(FontRegistry self);
-
     public override bool AutoLoad => ModInstances.NoxusBoss != null && TRuConfig.Instance.NoxusBossLocalization && TranslationHelper.IsRussianLanguage;
 
     public override MethodInfo ModifiedMethod => typeof(FontRegistry).GetCachedMethod("get_SolynFightDialogue");
 
-    public override Delegate Delegate => Translation;
-    
-    private DynamicSpriteFont Translation(SolynFightDialogueDelegate orig, FontRegistry self)
+    public override ILContext.Manipulator PatchMethod { get; } = il =>
     {
-        return CalamityRuTranslate.Instance.Assets.Request<DynamicSpriteFont>("Assets/Fonts/SolynFightDialogue", AssetRequestMode.ImmediateLoad).Value;
-    }
+        ILCursor cursor = new ILCursor(il);
+        cursor.TryGotoNext(MoveType.After, i => i.MatchCall<ModType>("get_Mod"));
+        cursor.EmitPop();
+        cursor.Emit(OpCodes.Ldsfld, typeof(CalamityRuTranslate).GetField("Instance"));
+        TranslationHelper.ModifyIL(il, "Assets/Fonts/SolynFightDialogue", "Assets/Fonts/SolynFightDialogue");
+    };
 }
 
-public class AvatarPoemTextPatch : OnPatcher
+public class AvatarPoemTextPatch : ILPatcher
 {
-    private delegate DynamicSpriteFont AvatarPoemTextDelegate(FontRegistry self);
-
     public override bool AutoLoad => ModInstances.NoxusBoss != null && TRuConfig.Instance.NoxusBossLocalization && TranslationHelper.IsRussianLanguage;
 
     public override MethodInfo ModifiedMethod => typeof(FontRegistry).GetCachedMethod("get_AvatarPoemText");
 
-    public override Delegate Delegate => Translation;
-    
-    private DynamicSpriteFont Translation(AvatarPoemTextDelegate orig, FontRegistry self)
+    public override ILContext.Manipulator PatchMethod { get; } = il =>
     {
-        return CalamityRuTranslate.Instance.Assets.Request<DynamicSpriteFont>("Assets/Fonts/AvatarPoemText", AssetRequestMode.ImmediateLoad).Value;
-    }
+        ILCursor cursor = new ILCursor(il);
+        cursor.TryGotoNext(MoveType.After, i => i.MatchCall<ModType>("get_Mod"));
+        cursor.EmitPop();
+        cursor.Emit(OpCodes.Ldsfld, typeof(CalamityRuTranslate).GetField("Instance"));
+        TranslationHelper.ModifyIL(il, "Assets/Fonts/AvatarPoemTextRussian", "Assets/Fonts/AvatarPoemText");
+    };
 }

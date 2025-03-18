@@ -93,25 +93,23 @@ internal static class TranslationHelper
         cursor.Emit(OpCodes.Ldsflda, replace);
     }
 
-    internal static void WikithisRedirectItem(string id, string wikiPage)
-    {
-        int itemType = ModContent.Find<ModItem>("CalamityMod", id).Type;
-        ModInstances.Wikithis.Call(1, itemType, wikiPage, GameCulture.CultureName.Russian);
-    }
-    
-    internal static void WikithisRedirectItem(string[] ids, string wikiPage)
+    internal static void WikithisRedirect(string[] ids, string wikiPage, bool isItem = true)
     {
         foreach (var id in ids)
         {
-            int itemType = ModContent.Find<ModItem>("CalamityMod", id).Type;
-            ModInstances.Wikithis.Call(1, itemType, wikiPage, GameCulture.CultureName.Russian);
+            int type = isItem
+                ? ModContent.Find<ModItem>("CalamityMod", id).Type
+                : ModContent.Find<ModNPC>("CalamityMod", id).Type;
+            ModInstances.Wikithis.Call(isItem ? 1 : 2, type, wikiPage, GameCulture.CultureName.Russian);
         }
     }
 
-    internal static void WikithisRedirectNPC(string id, string wikiPage)
+    internal static void WikithisRedirect(string id, string wikiPage, bool isItem = true)
     {
-        int npcType = ModContent.Find<ModNPC>("CalamityMod", id).Type;
-        ModInstances.Wikithis.Call(2, npcType, wikiPage, GameCulture.CultureName.Russian);
+        int type = isItem
+            ? ModContent.Find<ModItem>("CalamityMod", id).Type
+            : ModContent.Find<ModNPC>("CalamityMod", id).Type;
+        ModInstances.Wikithis.Call(isItem ? 1 : 2, type, wikiPage, GameCulture.CultureName.Russian);
     }
 
     internal static string GetTextValue(string name, string suffix)

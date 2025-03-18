@@ -13,6 +13,9 @@ namespace CalamityRuTranslate.Mods.InfernumMode;
 
 public class InfernumModeSystem : ModSystem
 {
+    private DynamicSpriteFont BossIntroScreensFont => Mod.Assets.Request<DynamicSpriteFont>("Assets/Fonts/BossIntroScreensFont", AssetRequestMode.ImmediateLoad).Value;
+    private DynamicSpriteFont ProfanedTextFont => Mod.Assets.Request<DynamicSpriteFont>("Assets/Fonts/ProfanedText", AssetRequestMode.ImmediateLoad).Value;
+
     public override bool IsLoadingEnabled(Mod mod)
     {
         return ModInstances.Infernum != null && TRuConfig.Instance.InfernumModeLocalization && TranslationHelper.IsRussianLanguage;
@@ -20,13 +23,10 @@ public class InfernumModeSystem : ModSystem
 
     public override void PostSetupContent()
     {
-        DynamicSpriteFont bossIntroScreensFont = ModContent.Request<DynamicSpriteFont>("CalamityRuTranslate/Assets/Fonts/BossIntroScreensFont", AssetRequestMode.ImmediateLoad).Value;
-        DynamicSpriteFont profanedTextFont = ModContent.Request<DynamicSpriteFont>("CalamityRuTranslate/Assets/Fonts/ProfanedText", AssetRequestMode.ImmediateLoad).Value;
+        PropertyInfo bossIntroScreensProperty = typeof(InfernumFontRegistry).GetCachedProperty("BossIntroScreensFont");
+        bossIntroScreensProperty?.SetValue(typeof(LocalizedSpriteFont), new LocalizedSpriteFont(BossIntroScreensFont).WithLanguage(GameCulture.CultureName.Russian, BossIntroScreensFont));
         
-        PropertyInfo bossIntroScreensProperty = typeof(InfernumFontRegistry).GetProperty("BossIntroScreensFont", BindingFlags.Public | BindingFlags.Static);
-        bossIntroScreensProperty?.SetValue(typeof(LocalizedSpriteFont), new LocalizedSpriteFont(bossIntroScreensFont).WithLanguage(GameCulture.CultureName.Russian, bossIntroScreensFont));
-        
-        PropertyInfo profanedTextProperty = typeof(InfernumFontRegistry).GetProperty("ProfanedTextFont", BindingFlags.Public | BindingFlags.Static);
-        profanedTextProperty?.SetValue(typeof(LocalizedSpriteFont), new LocalizedSpriteFont(profanedTextFont).WithLanguage(GameCulture.CultureName.Russian, profanedTextFont));
+        PropertyInfo profanedTextProperty = typeof(InfernumFontRegistry).GetCachedProperty("ProfanedTextFont");
+        profanedTextProperty?.SetValue(typeof(LocalizedSpriteFont), new LocalizedSpriteFont(ProfanedTextFont).WithLanguage(GameCulture.CultureName.Russian, ProfanedTextFont));
     }
 }

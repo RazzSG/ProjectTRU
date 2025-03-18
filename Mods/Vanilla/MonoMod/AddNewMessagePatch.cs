@@ -1,5 +1,6 @@
 ﻿using CalamityRuTranslate.Common.Utilities;
 using Microsoft.Xna.Framework;
+using Terraria;
 using Terraria.GameContent.UI.Chat;
 using Terraria.ModLoader;
 
@@ -7,6 +8,8 @@ namespace CalamityRuTranslate.Mods.Vanilla.MonoMod;
 
 public class AddNewMessagePatch : ILoadable
 {
+    private string PlayerName => Main.player[Main.myPlayer].name;
+    
     public bool IsLoadingEnabled(Mod mod)
     {
         return TranslationHelper.IsRussianLanguage;
@@ -25,66 +28,71 @@ public class AddNewMessagePatch : ILoadable
     private void On_RemadeChatMonitorOnAddNewMessage(On_RemadeChatMonitor.orig_AddNewMessage orig, RemadeChatMonitor self, string text, Color color, int widthlimitinpixels)
     {
         // Infernum
-        if (text.Contains("was somehow impaled by a pillar of crystals."))
-            text = text.Replace("was somehow impaled by a pillar of crystals.", "неведомым образом пронзается кристальной колонной.");
-        if (text.Contains("was repelled by celestial forces."))
-            text = text.Replace("was repelled by celestial forces.", "отбрасывается неземными силами.");
-        if (text.Contains("was violently pricked by roses."))
-            text = text.Replace("was violently pricked by roses.", "яростно пронзается розами.");
-        if (text.Contains("Profaned Garden location"))
-        {
-            text = text.Replace("Profaned Garden location moved from", "Положение осквернённого сада перемещено из");
-            text = text.Replace("Profaned Garden location reverted to", "Положение осквернённого сада возвращено в");
-            text = text.Replace("from", "из");
-            text = text.Replace("to", "в");
-        }
+        if (text == $"{PlayerName} was somehow impaled by a pillar of crystals.")
+            text = $"Игрок {PlayerName} был загадочным образом пронзён кристальной колонной.";
+        
+        if (text == $"{PlayerName} was repelled by celestial forces.")
+            text = $"Игрок {PlayerName} был отброшен неземными силами.";
+        
+        if (text == $"{PlayerName} was violently pricked by roses.")
+            text = $"Игрок {PlayerName} был жестоко пронзён розами.";
         
         // Fargo
         if (text.Contains("A new item has been unlocked in"))
         {
-            text = text.Replace("A new item has been unlocked in", "В магазине");
+            text = text.Replace("A new item has been unlocked in", "В магазине НИПа");
             text = text.Replace("'s shop!", "появился новый предмет!");
         }
         
-        if (text.Contains("Battle Cry"))
-        {
-            text = text.Replace("Battle Cry activated for", "Боевой клич активирован для");
-            text = text.Replace("Battle Cry deactivated for", "Боевой клич деактивирован для");
-        }
+        if (text == $"Battle Cry activated for {PlayerName}!")
+            text = $"Боевой клич активирован для игрока {PlayerName}!";
         
-        if (text.Contains("Calming Cry"))
-        {
-            text = text.Replace("Calming Cry activated for", "Умиротворяющий клич активирован для");
-            text = text.Replace("Calming Cry deactivated for", "Умиротворяющий клич деактивирован для");
-        }
+        if (text == $"Battle Cry deactivated for {PlayerName}!")
+            text = $"Боевой клич деактивирован для игрока {PlayerName}!";
+        
+        if (text == $"Calming Cry activated for {PlayerName}.")
+            text = $"Умиротворяющий клич активирован для игрока {PlayerName}.";
+        
+        if (text == $"Calming Cry deactivated for {PlayerName}.")
+            text = $"Умиротворяющий клич деактивирован для игрока {PlayerName}.";
 
         // StarsAbove
-        if (text.Contains("was obliterated!"))
-            text = text.Replace("was obliterated!", "стирается с лица земли!");
-        if (text.Contains("'s body was broken, along with their limits."))
-            text = text.Replace("'s body was broken, along with their limits.", " ломает лимиты вместе со своим телом.");
-        if (text.Contains("died beyond their world."))
-            text = text.Replace("died beyond their world.", "умирает за пределами своего мира.");
-        if (text.Contains("was lost in space."))
-            text = text.Replace("was lost in space.", "теряется в космосе.");
-        if (text.Contains("drifted away from their home planet."))
-            text = text.Replace("drifted away from their home planet.", "удаляется от своей родной планеты.");
-        if (text.Contains("was brought to kneel beyond their world."))
-            text = text.Replace("was brought to kneel beyond their world.", "вынужденно преклоняется за пределами своего мира.");
-        if (text.Contains("died within another realm."))
-            text = text.Replace("died within another realm.", "умирает в иной реальности.");
-        if (text.Contains("crumbled under the weight of Living Dead."))
-            text = text.Replace("crumbled under the weight of Living Dead.", "не выдерживает тяжести живого мертвеца.");
-        if (text.Contains("burnt to a crisp by continuing to move during Pyretic."))
-            text = text.Replace("burnt to a crisp by continuing to move during Pyretic.", "продолжает двигаться во время горячки, сгорая дотла.");
-        if (text.Contains("froze to death by staying still during Deep Freeze"))
-            text = text.Replace("froze to death by staying still during Deep Freeze", "оставаясь неподвижным во время глубокой заморозки, замерзает насмерть.");
-        if (text.Contains("couldn't handle the vacuum of space."))
-            text = text.Replace("couldn't handle the vacuum of space.", "не выдерживает вакуума космоса.");
+        if (text == $"{PlayerName} was obliterated!")
+            text = $"Игрок {PlayerName} был стёрт с лица земли!";
+        
+        if (text == $"{PlayerName}'s body was broken, along with their limits.")
+            text = $"Игрок {PlayerName} сломал лимиты вместе c телом.";
+        
+        if (text == $"{PlayerName} died beyond their world.")
+            text = $"Игрок {PlayerName} погиб за пределами своего мира.";
+        
+        if (text == $"{PlayerName} was lost in space.")
+            text = $"Игрок {PlayerName} потерялся в космосе.";
+        
+        if (text == $"{PlayerName} drifted away from their home planet.")
+            text = $"Игрок {PlayerName} отдалился от своей родной планеты.";
+        
+        if (text == $"{PlayerName} was brought to kneel beyond their world.")
+            text = $"Игрок {PlayerName} был вынужден преклонить колени за пределами своего мира.";
+        
+        if (text == $"{PlayerName} died within another realm.")
+            text = $"Игрок {PlayerName} погиб в иной реальности.";
+            
+        if (text == $"{PlayerName} crumbled under the weight of Living Dead.")
+            text = $"Игрок {PlayerName} не выдержал тяжести живого мертвеца.";
+            
+        if (text == $"{PlayerName} burnt to a crisp by continuing to move during Pyretic.")
+            text = $"Игрок {PlayerName}, продолжая двигаться во время горячки, сгорел дотла.";
+            
+        if (text == $"{PlayerName} froze to death by staying still during Deep Freeze")
+            text = $"Игрок {PlayerName}, оставаясь неподвижным во время глубокой заморозки, замёрз насмерть.";
+
+        if (text == $"{PlayerName} couldn't handle the vacuum of space.")
+            text = $"Игрок {PlayerName} не смог выдержать вакуум космоса.";
         
         // Redemption
-        if (text.Contains("experienced DOOR STUCK."))
-            text = text.Replace("experienced DOOR STUCK.", "застревает в ДВЕРЯХ.");
+        if (text == $"{PlayerName} experienced DOOR STUCK.")
+            text = $"{PlayerName} застрял в ДВЕРЯХ.";
         
         text = text switch
         {
@@ -112,6 +120,22 @@ public class AddNewMessagePatch : ILoadable
             "Normal mode is now enabled!" => "Мир переключён в обычный режим!",
             "Expert mode is now enabled!" => "Мир переключён в режим Эксперта!",
             "Master mode is now enabled!" => "Мир переключён в режим Мастера!",
+            "The invaders have left!" => "Вторженцы отступили!",
+            "The Pumpkin Moon is lowering..." => "Тыквенная луна заходит за горизонт...",
+            "The Frost Moon is lowering..." => "Морозная луна заходит за горизонт...",
+            "A solar eclipse is not happening!" => "Солнечное затмение не наступило!",
+            "The blood moon is descending..." => "Кровавая луна опускается за горизонт...",
+            "The wind has ended!" => "Ветер стих!",
+            "The Old One's Army is leaving!" => "Армия Древних отступила!",
+            "The sandstorm has ended!" => "Песчаная буря стихла!",
+            "Celestial creatures are not invading!" => "Неземные существа не атакуют!",
+            "The rain has ended!" => "Дождь прекратился!",
+            "The wind begins howling." => "Начинает завывать ветер.",
+            "A sandstorm has begun." => "Начинается песчаная буря.",
+            "Lantern Night rate increased!" => "Шанс на ночь фонарей увеличен!",
+            "Lantern Night rate restored to default." => "Шанс на ночь фонарей возвращён к изначальному.",
+            "The Celestial Pillars have awoken!" => "Неземные башни пробудились!",
+            "Rain clouds cover the sky." => "Тучи затягивают небо.",
             
             // Redemption
             "A sleeping stone appears..." => "Появляются дремлющие валуны...",

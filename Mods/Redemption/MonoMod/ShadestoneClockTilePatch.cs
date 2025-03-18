@@ -15,11 +15,9 @@ public class ShadestoneClockTilePatch : OnPatcher
 
     public override MethodInfo ModifiedMethod => typeof(ShadestoneClockTile).GetCachedMethod(nameof(ShadestoneClockTile.RightClick));
 
-    private delegate bool RightClickDelegate(ShadestoneClockTile self, int x, int y);
-
     public override Delegate Delegate => Translation;
     
-    private bool Translation(RightClickDelegate orig, ShadestoneClockTile self, int x, int y)
+    private bool Translation(Func<ShadestoneClockTile, int, int, bool> _, ShadestoneClockTile self, int x, int y)
     {
         double time = Main.time;
         

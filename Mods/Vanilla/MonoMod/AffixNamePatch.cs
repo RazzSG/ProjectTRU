@@ -10,6 +10,8 @@ namespace CalamityRuTranslate.Mods.Vanilla.MonoMod;
 
 public class AffixName : ILoadable
 {
+    private static readonly PrefixOverhaul PrefixOverhaul = new();
+    
     public bool IsLoadingEnabled(Mod mod)
     {
         return ModInstances.Calamity == null && TranslationHelper.IsRussianLanguage;
@@ -28,11 +30,10 @@ public class AffixName : ILoadable
     private string ItemOnAffixName(On_Item.orig_AffixName orig, Item self)
     {
         string result = orig.Invoke(self);
-        PrefixOverhaul prefixOverhaul = new();
-        foreach (var t in prefixOverhaul.Prefixes)
+        foreach (var t in PrefixOverhaul.Prefixes)
         {
             if (t[0] == Lang.prefix[self.prefix].Value)
-                return prefixOverhaul.GetGenderedPrefix(t, self.type) + " " + (self.Name.Contains('.') ? self.Name : self.Name.ToLower());
+                return PrefixOverhaul.GetGenderedPrefix(t, self.type) + " " + (self.Name.Contains('.') ? self.Name : self.Name.ToLower());
         }
 
         return result;
@@ -41,6 +42,8 @@ public class AffixName : ILoadable
 
 public class AffixNameWithCalamity : ILoadable
 {
+    private static readonly PrefixOverhaul PrefixOverhaul = new();
+    
     public bool IsLoadingEnabled(Mod mod)
     {
         return ModInstances.Calamity != null && TRuConfig.Instance.CalamityModLocalization && TranslationHelper.IsRussianLanguage;
@@ -61,20 +64,19 @@ public class AffixNameWithCalamity : ILoadable
         if (self.prefix < 0 || self.prefix >= Lang.prefix.Length)
             return self.Name;
 
-        PrefixOverhaul prefixOverhaul = new();
         string goblinPrefix = Lang.prefix[self.prefix].Value;
         string calamityEnchantment = string.Empty;
 
-        foreach (var t in prefixOverhaul.Prefixes)
+        foreach (var t in PrefixOverhaul.Prefixes)
         {
             if (!self.IsAir && self.TryGetGlobalItem(out CalamityGlobalItem calamityGlobalItem) && calamityGlobalItem.AppliedEnchantment.HasValue)
             {
                 if (t[0] == calamityGlobalItem.AppliedEnchantment?.Name.ToString())
-                    calamityEnchantment = prefixOverhaul.GetGenderedPrefix(t, self.type);
+                    calamityEnchantment = PrefixOverhaul.GetGenderedPrefix(t, self.type);
             }
 
             if (t[0] == goblinPrefix)
-                goblinPrefix = prefixOverhaul.GetGenderedPrefix(t, self.type);
+                goblinPrefix = PrefixOverhaul.GetGenderedPrefix(t, self.type);
         }
 
         string formattedName = self.Name.Contains('.') ? self.Name : self.Name.ToLower();

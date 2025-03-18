@@ -20,11 +20,9 @@ public class ThoriumPlayerPatch : OnPatcher
 
     public override MethodInfo ModifiedMethod => typeof(ThoriumPlayer).GetCachedMethod(nameof(ThoriumPlayer.AddCoinTooltip));
 
-    private delegate void AddCoinTooltipDelegate(ThoriumPlayer self, List<TooltipLine> list, int amount, Color color = default, bool noCopper = false);
-
     public override Delegate Delegate => Translation;
 
-    private void Translation(AddCoinTooltipDelegate orig, ThoriumPlayer self, List<TooltipLine> list, int amount, Color color = default, bool noCopper = false)
+    private void Translation(Action<ThoriumPlayer, List<TooltipLine>, int, Color, bool> _, ThoriumPlayer self, List<TooltipLine> list, int amount, Color color = default, bool noCopper = false)
     {
         int index = list.FindLastIndex(line => line.Mod.Equals("Terraria") && line.Name.StartsWith("Tooltip"));
         if (index == -1)

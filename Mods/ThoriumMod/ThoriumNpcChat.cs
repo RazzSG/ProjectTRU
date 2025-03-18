@@ -53,7 +53,7 @@ public class ThoriumNpcChat : GlobalNPC
             {
                 if (chat == $"What does that conman {GetNPCName(17)} think he's doing trying to offer his cheap trash he calls 'weapons'? If you want the real deal, you've come to the right place!")
                 {
-                    chat = $"Чего этот шарлатан {GetNPCName(17)} думает, предлагая свой дешёвый хлам, который он называет 'оружием'? Если хочешь что-нибудь стоящее, то ты попал по адресу!";
+                    chat = $"Чего этот шарлатан {GetNPCName(17)} думает, предлагая свой дешёвый хлам, который он называет «оружием»? Если хочешь что-нибудь стоящее, то ты попал по адресу!";
                 }
             }
             

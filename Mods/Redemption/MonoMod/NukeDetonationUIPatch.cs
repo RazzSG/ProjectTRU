@@ -15,15 +15,13 @@ namespace CalamityRuTranslate.Mods.Redemption.MonoMod;
 
 public class NukeDetonationUIPatch : OnPatcher
 {
-    private delegate void UpdateDelegate(NukeDetonationUI self, GameTime gameTime);
-    
     public override bool AutoLoad => ModInstances.Redemption != null && TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
     
     public override MethodInfo ModifiedMethod => typeof(NukeDetonationUI).GetCachedMethod(nameof(NukeDetonationUI.Update));
 
     public override Delegate Delegate => Translation;
 
-    private void Translation(UpdateDelegate orig, NukeDetonationUI self, GameTime gameTime)
+    private void Translation(Action<NukeDetonationUI, GameTime> orig, NukeDetonationUI self, GameTime gameTime)
     {
         orig.Invoke(self, gameTime);
         UIImage bgSpriteField = (UIImage) typeof(NukeDetonationUI).GetField("BgSprite", BindingFlags.NonPublic | BindingFlags.Instance)?.GetValue(self);

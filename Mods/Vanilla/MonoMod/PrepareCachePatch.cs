@@ -24,7 +24,7 @@ public class PrepareCachePatch : ILoadable
     
     private void TextDisplayCacheOnPrepareCache(ILContext il)
     {
-        // расширяет милит на кол-во строк текста для Main.npcChatText
+        // Расширяет лимит на кол-во строк текста для Main.npcChatText
         TranslationHelper.ModifyIL(il, 10, 12);
     }
 }

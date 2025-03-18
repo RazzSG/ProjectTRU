@@ -1,5 +1,6 @@
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
+using CalamityRuTranslate.Core;
 using CalamityRuTranslate.Core.Config;
 using Terraria;
 using Terraria.Localization;
@@ -30,17 +31,16 @@ public class CalamityRuTranslate : Mod
             if (ModInstances.Calamity != null)
             {
                 ModInstances.Wikithis.Call("AddModURL", ModInstances.Calamity, "https://calamitymod.wiki.gg/ru/wiki/{}", GameCulture.CultureName.Russian);
-                TranslationHelper.WikithisRedirectItem("BloodOrange", "Кровавый апельсин (calamity)");
-                TranslationHelper.WikithisRedirectItem("Elderberry", "Бузина (calamity)");
-                TranslationHelper.WikithisRedirectItem("PineapplePet", "Ананас (calamity)");
-                TranslationHelper.WikithisRedirectItem("TrashmanTrashcan", "Урна (питомец)");
-                TranslationHelper.WikithisRedirectItem("Butcher", "Мясник (оружие)");
-                TranslationHelper.WikithisRedirectItem("SandstormGun", "Песчаная буря (оружие)");
-                TranslationHelper.WikithisRedirectItem("Thunderstorm", "Гроза (оружие)");
-                TranslationHelper.WikithisRedirectItem("AtlasMunitionsBeacon", "Маячок установки Атлас");
-                TranslationHelper.WikithisRedirectItem(new []
-                {
-                    "LoreAstralInfection", "LoreAbyss", "LoreAquaticScourge", "LoreArchmage", "LoreAstrumAureus",
+                TranslationHelper.WikithisRedirect("BloodOrange", "Кровавый апельсин (calamity)");
+                TranslationHelper.WikithisRedirect("Elderberry", "Бузина (calamity)");
+                TranslationHelper.WikithisRedirect("PineapplePet", "Ананас (calamity)");
+                TranslationHelper.WikithisRedirect("TrashmanTrashcan", "Урна (питомец)");
+                TranslationHelper.WikithisRedirect("Butcher", "Мясник (оружие)");
+                TranslationHelper.WikithisRedirect("SandstormGun", "Песчаная буря (оружие)");
+                TranslationHelper.WikithisRedirect("Thunderstorm", "Гроза (оружие)");
+                TranslationHelper.WikithisRedirect("AtlasMunitionsBeacon", "Маячок установки Атлас");
+                TranslationHelper.WikithisRedirect(
+                ["LoreAstralInfection", "LoreAbyss", "LoreAquaticScourge", "LoreArchmage", "LoreAstrumAureus",
                     "LoreAstrumDeus", "LoreAwakening", "LoreAzafure", "LoreBloodMoon", "LoreBrainofCthulhu",
                     "LoreBrimstoneElemental", "LoreCalamitas", "LoreCalamitasClone", "LoreCeaselessVoid",
                     "LoreCorruption", "LoreCrabulon", "LoreCrimson", "LoreCynosure", "LoreDesertScourge",
@@ -50,15 +50,14 @@ public class CalamityRuTranslate : Mod
                     "LorePlaguebringerGoliath", "LorePlantera", "LorePolterghast", "LorePrelude", "LoreProfanedGuardians",
                     "LoreProvidence", "LoreQueenBee", "LoreQueenSlime", "LoreRavager", "LoreRequiem",
                     "LoreSignus", "LoreSkeletron", "LoreSkeletronPrime", "LoreSlimeGod", "LoreStormWeaver",
-                    "LoreSulphurSea", "LoreTwins", "LoreUnderworld", "LoreWallofFlesh", "LoreYharon"
-                }, "История#Предметы_истории");
-                TranslationHelper.WikithisRedirectNPC("HiveEnemy", "Улей (враг)");
-                TranslationHelper.WikithisRedirectNPC("KingSlimeJewelRuby", "Драгоценности Короля слизней");
-                TranslationHelper.WikithisRedirectNPC("KingSlimeJewelSapphire", "Драгоценности Короля слизней");
-                TranslationHelper.WikithisRedirectNPC("KingSlimeJewelEmerald", "Драгоценности Короля слизней");
-                TranslationHelper.WikithisRedirectNPC("OldDukeToothBall", "Зубастый шар (Старый герцог)");
-                TranslationHelper.WikithisRedirectNPC("CalamitasEnchantDemon", "Зачарование");
-                TranslationHelper.WikithisRedirectNPC("LeviathanStart", "%3F%3F%3F");
+                    "LoreSulphurSea", "LoreTwins", "LoreUnderworld", "LoreWallofFlesh", "LoreYharon"], "История#Предметы_истории");
+                TranslationHelper.WikithisRedirect("HiveEnemy", "Улей (враг)", false);
+                TranslationHelper.WikithisRedirect("KingSlimeJewelRuby", "Драгоценности Короля слизней", false);
+                TranslationHelper.WikithisRedirect("KingSlimeJewelSapphire", "Драгоценности Короля слизней", false);
+                TranslationHelper.WikithisRedirect("KingSlimeJewelEmerald", "Драгоценности Короля слизней", false);
+                TranslationHelper.WikithisRedirect("OldDukeToothBall", "Зубастый шар (Старый герцог)", false);
+                TranslationHelper.WikithisRedirect("CalamitasEnchantDemon", "Зачарование", false);
+                TranslationHelper.WikithisRedirect("LeviathanStart", "%3F%3F%3F", false);
 
             }
         }

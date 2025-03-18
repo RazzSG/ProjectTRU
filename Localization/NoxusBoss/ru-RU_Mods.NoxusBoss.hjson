@@ -321,7 +321,7 @@ Items: {
 
     NamelessDeityMusicBox: {
         DisplayName: Музыкальная шкатулка (Безымянное божество)
-        Tooltip: Проигрывает 'Twisted Garden' от Heart Plus Up! и ENNWAY!
+        Tooltip: Проигрывает 'TWISTED GARDEN' от Heart Plus Up! и ENNWAY!
     }
 
     NamelessDeityMusicBoxP3: {
@@ -672,17 +672,17 @@ Items: {
     
     AvatarRiftMusicBox: {
         DisplayName: Музыкальная шкатулка (Разлом Воплощения пустоты)
-        Tooltip: Проигрывает 'Static' от ENNWAY!
+        Tooltip: Проигрывает 'PARADISE PARASITE' от ENNWAY!
     }
     
     AvatarOfEmptinessP2MusicBox: {
         DisplayName: Музыкальная шкатулка (Воплощение пустоты - Фаза 2)
-        Tooltip: Проигрывает 'Paradise Parasite' от ENNWAY!
+        Tooltip: Проигрывает 'PARADISE PARASITE' от ENNWAY!
     }
     
     AvatarOfEmptinessP3MusicBox: {
         DisplayName: Музыкальная шкатулка (Воплощение пустоты - Фаза 3)
-        Tooltip: Проигрывает 'Paradise Parasite' от ENNWAY!
+        Tooltip: Проигрывает 'PARADISE PARASITE' от ENNWAY!
     }
     
     MarsMusicBox: {
@@ -692,11 +692,11 @@ Items: {
     
     NilkSongMusicBox: {
         DisplayName: Музыкальная шкатулка (Олочко)
-        Tooltip: Проигрывает 'The Nilk Song' от ENNWAY!
+        Tooltip: Проигрывает '2%' от ENNWAY!
     }
     
     HemolacriaMusicBox: {
-        DisplayName: Музыкальная шкатулка (Затмение разлома в кровавую луну)
+        DisplayName: Музыкальная шкатулка (Кровавое затмение)
         Tooltip: Проигрывает 'Hemolacria' от Moonburn
     }
     
@@ -826,7 +826,7 @@ Items: {
     
     HowToFly: {
         DisplayName: «Как летать»
-        ObtainmentHint: "[c/F79BC6:Эту книгу можно найти в небесах]"
+        ObtainmentHint: "[c/F79BC6:Эту книгу можно во время полёта на высоких скоростях]"
         Tooltip:
             '''
             На первой странице написано:
@@ -1158,7 +1158,7 @@ Items: {
     
     SeamapCollection: {
         DisplayName: Сборник морских карт
-        ObtainmentHint: "[c/F79BC6:Эту книгу иногда можно найти рядом с береговой линией]"
+        ObtainmentHint: "[c/F79BC6:Эту книгу можно найти у капитана пиратов]"
         Tooltip:
             '''
             Каталогизированная коллекция различных морских карт с отметками, по-видимому, указывающими на сокровища
@@ -1259,6 +1259,18 @@ Items: {
     SolynTelescopeResetter: {
         DisplayName: Сбрасыватель телескопа Солин (ОТЛАДКА)
         Tooltip: Сбрасывает состояние телескопа Солин, позволяя снова его починить
+    }
+    
+    StrangeFlagpole: {
+        DisplayName: Странный флагшток
+        Tooltip:
+            '''
+            Можно использовать, чтобы выбрать место, где Солин разобьёт лагерь
+            Убедитесь, что рядом с флагштоком есть открытое и ровное пространство, иначе лагерь не сможет появиться
+            При размещении флагштока будет показано, достаточно ли ровная и открытая местность
+            '''
+        NotFlatEnoughText: Эта местность недостаточно ровная или открытая!
+        FlatEnoughText: Это место подходит.
     }
 }
 
@@ -1402,11 +1414,11 @@ Credits: {
 }
 
 Death: {
-    AntimatterAnnihilation1: "{0} больше не имеет значения."
-    AntimatterAnnihilation2: "{0} есть... и нет."
-    AntimatterAnnihilation3: "{0} переживает Большой Разрыв."
-    AntimatterAnnihilation4: "{0} распадается на ничто, вслед за своей атомной структурой."
-    AntimatterAnnihilation5: "{0} теряет свои силы сильного взаимодействия."
+    AntimatterAnnihilation1: Игрок {0} больше не имеет значения.
+    AntimatterAnnihilation2: Игрок {0} был... и не был.
+    AntimatterAnnihilation3: Игрок {0} пережил Большой Разрыв.
+    AntimatterAnnihilation4: Игрок {0} распался на ничто, вслед за своей атомной структурой.
+    AntimatterAnnihilation5: Игрок {0} потерял свои силы сильного взаимодействия.
     TestOfResolveDeath: "{0} продержался {1}м {2}с"
 }
 
@@ -1473,6 +1485,7 @@ Dialog: {
     AvatarPlayerDeathText: Вы погибли.
     PermafrostKeepMapIconText: Таинственная твердыня
     SummonMarsButtonText: Призвать (Марс)
+    SummonMarsButtonTextInitial: Призвать (Задание Солин)
     
     SolynDraedonInteraction: {
         Draedon1: Хм! Мой уважаемый испытуемый вновь вышел на связь, и на этот раз не один.
@@ -1695,6 +1708,15 @@ Solyn: {
         Question3: Хорошо, я оставлю тебя наедине с собой.
         Talk8: Спасибо. Я ценю это.
         Repeat: ...
+    }
+    
+    SolynTentSetUpDialogue: {
+        Start: О, это снова ты. Приветики.
+        Solyn1: Это может показаться неожиданным, но... ты мог бы мне помочь?
+        Player1: Конечно. Что нужно сделать?
+        Solyn2: Спасибо.
+        Solyn3: Как ты, наверное, уже понял, сейчас у меня нет дома. ^Я хочу, чтобы ты установил этот флаг в подходящем месте, на хорошей открытой территории.
+        Solyn4: Как только ты это сделаешь, я разобью лагерь неподалёку.
     }
     
     SolynDawnDialogue: {

@@ -15,7 +15,7 @@ public class CatalystGlobalItem : GlobalItem
 {
     public override bool IsLoadingEnabled(Mod mod)
     {
-        return TranslationHelper.IsRussianLanguage && ModInstances.Catalyst != null && ModInstances.Calamity != null && TRuConfig.Instance.CatalystLocalization;
+        return TranslationHelper.IsRussianLanguage && ModInstances.Catalyst != null && TRuConfig.Instance.CatalystLocalization;
     }
 
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)

@@ -15,11 +15,9 @@ public class PetrifiedWoodClockTilePatch : OnPatcher
 
     public override MethodInfo ModifiedMethod => typeof(PetrifiedWoodClockTile).GetCachedMethod(nameof(PetrifiedWoodClockTile.RightClick));
 
-    private delegate bool RightClickDelegate(PetrifiedWoodClockTile self, int x, int y);
-
     public override Delegate Delegate => Translation;
     
-    private bool Translation(RightClickDelegate orig, PetrifiedWoodClockTile self, int x, int y)
+    private bool Translation(Func<PetrifiedWoodClockTile, int, int, bool> _, PetrifiedWoodClockTile self, int x, int y)
     {
         double time = Main.time;
         

@@ -30,8 +30,8 @@ public partial class CalamityModGlobalItem : GlobalItem
         {
             ItemHelper.TranslateTooltip(tooltips, "Tooltip0", _ =>
             {
-                tooltips.ReplaceText("Пустыня", "Пустыне");
-                tooltips.ReplaceText("Астральная пустыня", "Астральной пустыне");
+                tooltips.ReplaceText("Пустыня", "пустыне");
+                tooltips.ReplaceText("Астральная пустыня", "астральной пустыне");
             });
         }
 
@@ -57,14 +57,7 @@ public partial class CalamityModGlobalItem : GlobalItem
             
             TooltipLine pointBlankShot = new TooltipLine(ModInstances.Calamity, "PointBlankShot", "Выстрелы в упор наносят дополнительный урон врагам");
             
-            if (tooltipIndex != -1)
-            {
-                tooltips.Insert(++tooltipIndex, pointBlankShot);
-            }
-            else
-            {
-                tooltips.Insert(++knockbackIndex, pointBlankShot);
-            }
+            tooltips.Insert(tooltipIndex != -1 ? ++tooltipIndex : ++knockbackIndex, pointBlankShot);
         }
          
         ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "CalamityMod" && l.Name == "SchematicKnowledge1", tooltip =>

@@ -1220,13 +1220,8 @@
 #    }
 #
 #    FairyMinion_Buff: {
-#        DisplayName: Fairies
-#        Description: Hey! Watch out!
-#    }
-#
-#    Jinxprobe_Buff: {
-#        DisplayName: Tiny Jinxprobe
-#        Description: The Jinxprobe will fight for you
+#        DisplayName: Феи
+#        Description: Эй! Берегись!
 #    }
 #
 #    StarplateDrone_Buff: {
@@ -1235,18 +1230,18 @@
 #    }
 #
 #    LocustBig_Buff: {
-#        DisplayName: Locusts
-#        Description: Bringer of a plague
+#        DisplayName: Саранча
+#        Description: Вестник мора
 #    }
 #
 #    ExplorerSpeed: {
-#        DisplayName: Explorer Speed
-#        Description: Your mobility is greatly improved
+#        DisplayName: Скорость исследователя
+#        Description: Ваша мобильность значительно увеличена
 #    }
 #
 #    ArcaneFreeze: {
-#        DisplayName: Arcane Freeze
-#        Description: A magical ice consumes you
+#        DisplayName: Чародейское обледенение
+#        Description: Вас поглощает магический лёд
 #    }
 #}
 #
@@ -4960,128 +4955,128 @@
 #    }
 #
 #    BeeGlyph: {
-#        DisplayName: Bee Glyph
+#        DisplayName: Глиф пчелы
 #        Tooltip:
 #            '''
-#            Grants honeyed when an enemy is slain
-#            Attacks periodically release bees
+#            При убийстве врага даёт бафф «{$BuffName.Honey}»
+#            Атаки периодически выпускают пчёл
 #            '''
 #        Addendum:
 #            '''
-#            Grants honeyed when an enemy is slain
-#            Attacks periodically release bees
+#            При убийстве врага даёт бафф «{$BuffName.Honey}»
+#            Атаки периодически выпускают пчёл
 #            '''
-#        Effect: Honeyed
+#        Effect: Медовый
 #    }
 #
 #    BlazeGlyph: {
-#        DisplayName: Blaze Glyph
+#        DisplayName: Глиф пламени
 #        Tooltip:
 #            '''
-#            Dealing damage sets you ablaze
-#            +25% damage and +10% critical strike chance
+#            При нанесении урона вы воспламеняетесь
+#            Увеличивает урон оружия на 25% и шанс критического удара на 10%
 #            '''
-#        Addendum: Dealing damage sets you ablaze
-#        Effect: Blazing
-#        Death: "{0} was consumed by Rage..."
+#        Addendum: При нанесении урона вы воспламеняетесь
+#        Effect: Пылающий
+#        Death: "{0} поглощается яростью..."
 #    }
 #
 #    ChaosGlyph: {
-#        DisplayName: Chaos Glyph
-#        Tooltip: Your weapon periodically switches between glyph effects
-#        Addendum: Your weapon periodically switches between glyph effects
-#        Effect: Unstable
+#        DisplayName: Глиф хаоса
+#        Tooltip: Ваше оружие периодически переключается между эффектами глифов
+#        Addendum: Ваше оружие периодически переключается между эффектами глифов
+#        Effect: Нестабильный
 #    }
 #
 #    FrostGlyph: {
-#        DisplayName: Frost Glyph
-#        Tooltip: Attacks have a chance to freeze enemies briefly
-#        Addendum: Attacks have a chance to freeze enemies briefly
-#        Effect: Freezing
+#        DisplayName: Глиф мороза
+#        Tooltip: Атаки могут ненадолго замораживать врагов
+#        Addendum: Атаки могут ненадолго замораживать врагов
+#        Effect: Замораживающий
 #    }
 #
 #    Glyph: {
-#        DisplayName: Blank Glyph
-#        Tooltip: "'The Enchanter could probably use this'"
-#        Gain: The enchanted weapon will gain: [c/{0}:{1}]
-#        Target: Can only be applied to weapons
-#        RightClick: Hold this glyph and right-click the weapon you want to enchant
-#        Remove: Hold this glyph and right-click the item whose glyph you want to remove
+#        DisplayName: Пустой глиф
+#        Tooltip: "'Зачарователь наверняка найдёт ему применение'"
+#        Gain: Зачарованное оружие получит эффект: [c/{0}:{1}]
+#        Target: Можно применять только к оружию
+#        RightClick: Держите этот глиф в руках и нажмите ПКМ по оружию, которое хотите зачаровать
+#        Remove: Держите этот глиф в руках и нажмите ПКМ по предмету, с которого хотите удалить глиф
 #    }
 #
 #    NullGlyph: {
-#        DisplayName: Null Glyph
-#        Tooltip: Can be used to wipe a glyph off an item
-#        Addendum: Invalid
-#        Effect: Invalid
+#        DisplayName: Глиф обнуления
+#        Tooltip: Используется для удаления глифа с предмета
+#        Addendum: Недействителен
+#        Effect: Недействителен
 #    }
 #
 #    PhaseGlyph: {
-#        DisplayName: Phase Glyph
+#        DisplayName: Глиф скачка
 #        Tooltip:
 #            '''
-#            Weapon damage increases the faster you move, but decreases when moving slowly
-#            Consecutive hits grant a short burst of speed
+#            Урон оружия увеличивается с ростом скорости передвижения, но снижается при медленном движении
+#            Последовательные попадания дают кратковременный всплеск скорости.
 #            '''
 #        Addendum:
 #            '''
-#            Weapon damage increases the faster you move, but decreases when moving slowly
-#            Consecutive hits grant a short burst of speed
+#            Урон оружия увеличивается с ростом скорости передвижения, но снижается при медленном движении
+#            Последовательные попадания дают кратковременный всплеск скорости.
 #            '''
-#        Effect: Temporal
+#        Effect: Временной
 #    }
 #
 #    RadiantGlyph: {
-#        DisplayName: Radiant Glyph
-#        Tooltip: Builds radiant energy when not dealing damage, empowering your next attack
-#        Addendum: Builds radiant energy when not dealing damage, empowering your next attack
-#        Effect: Radiant
+#        DisplayName: Глиф сияния
+#        Tooltip: При бездействии накапливает лучезарную энергию, усиливая следующую атаку
+#        Addendum: При бездействии накапливает лучезарную энергию, усиливая следующую атаку
+#        Effect: Сияющий
 #    }
 #
 #    RageGlyph: {
-#        DisplayName: Rage Glyph
-#        Tooltip: Excess damage on kill is stored for your next attack
-#        Addendum: Excess damage on kill is stored for your next attack
-#        Effect: Frenzied
+#        DisplayName: Глиф ярости
+#        Tooltip: Избыточный урон от убийства накапливается и применяется к следующей атаке
+#        Addendum: Избыточный урон от убийства накапливается и применяется к следующей атаке
+#        Effect: Неистовый
 #    }
 #
 #    SanguineGlyph: {
-#        DisplayName: Sanguine Glyph
+#        DisplayName: Глиф крови
 #        Tooltip:
 #            '''
-#            Dealing damage boosts life regeneration briefly
-#            -10% damage
+#            При нанесении урона кратковременно ускоряет регенерацию здоровья
+#            Снижает урон оружия на 10%
 #            '''
-#        Addendum: Dealing damage boosts life regeneration briefly
-#        Effect: Leeching
+#        Addendum: При нанесении урона кратковременно ускоряет регенерацию здоровья
+#        Effect: Кровососущий
 #    }
 #
 #    StormGlyph: {
-#        DisplayName: Zephyr Glyph
-#        Tooltip: Attacks occasionally release a forceful gust of wind
-#        Addendum: Attacks occasionally release a forceful gust of wind
-#        Effect: Billowed
+#        DisplayName: Глиф бури
+#        Tooltip: Атаки периодически выпускают мощный порыв ветра
+#        Addendum: Атаки периодически выпускают мощный порыв ветра
+#        Effect: Овеваемый
 #    }
 #
 #    UnholyGlyph: {
-#        DisplayName: Unholy Glyph
-#        Tooltip: Enemies erupt into cursed phantoms on death
-#        Addendum: Enemies erupt into cursed phantoms on death
-#        Effect: Cursed
+#        DisplayName: Глиф скверны
+#        Tooltip: При смерти враги взрываются, высвобождая проклятых фантомов
+#        Addendum: При смерти враги взрываются, высвобождая проклятых фантомов
+#        Effect: Проклятый
 #    }
 #
 #    VeilGlyph: {
-#        DisplayName: Veil Glyph
-#        Tooltip: Dealing damage builds a defensive veil around the user
-#        Addendum: Dealing damage builds a defensive veil around the user
-#        Effect: Guarding
+#        DisplayName: Глиф покрова
+#        Tooltip: При нанесении урона создаёт вокруг игрока защитный покров
+#        Addendum: При нанесении урона создаёт вокруг игрока защитный покров
+#        Effect: Охраняющий
 #    }
 #
 #    VoidGlyph: {
-#        DisplayName: Void Glyph
-#        Tooltip: Attacks have a chance to inflict stacks of void collapse
-#        Addendum: Attacks have a chance to inflict stacks of void collapse
-#        Effect: Null
+#        DisplayName: Глиф пустоты
+#        Tooltip: Атаки с небольшим шансом могут накладывают стаки коллапса пустоты
+#        Addendum: Атаки с небольшим шансом могут накладывают стаки коллапса пустоты
+#        Effect: Пустотный
 #    }
 #
 #    CaramelApple: {
@@ -7198,123 +7193,123 @@
 #    }
 #
 #    Carrion: {
-#        DisplayName: Carrion
+#        DisplayName: Падаль
 #        Tooltip:
 #            '''
-#            Converts wooden arrows into Carrion Crows
-#            Carrion Crows grow stronger after hitting enemies
+#            Превращает деревянные стрелы в воронов-падальщиков
+#            Вороны-падальщики усиливаются после попадания по врагам
 #            '''
 #    }
 #
 #    Amethyst_Bow: {
-#        DisplayName: Amethyst Bow
+#        DisplayName: Аметистовый лук
 #        Tooltip:
 #            '''
-#            Turns wooden arrows into amethyst arrows
-#            Amethyst arrows have an increased critical strike chance
+#            Превращает деревянные стрелы в аметистовые
+#            Аметистовые стрелы имеют увеличенный шанс нанесения критического удара
 #            '''
 #    }
 #
 #    Diamond_Bow: {
-#        DisplayName: Diamond Bow
+#        DisplayName: Алмазный лук
 #        Tooltip:
 #            '''
-#            Turns wooden arrows into diamond arrows
-#            Diamond arrows pierce an additional enemy
+#            Превращает деревянные стрелы в алмазные
+#            Алмазные стрелы способны пробивать одного дополнительного врага
 #            '''
 #    }
 #
 #    Emerald_Bow: {
-#        DisplayName: Emerald Bow
+#        DisplayName: Изумрудный лук
 #        Tooltip:
 #            '''
-#            Turns wooden arrows into emerald arrows
-#            Emerald arrows occasionally explode upon hitting enemies
+#            Превращает деревянные стрелы в изумрудные
+#            Изумрудные стрелы могут взрываться при попадании во врагов
 #            '''
 #    }
 #
 #    Ruby_Bow: {
-#        DisplayName: Ruby Bow
+#        DisplayName: Рубиновый лук
 #        Tooltip:
 #            '''
-#            Turns wooden arrows into ruby arrows
-#            Ruby arrows bounce once
+#            Превращает деревянные стрелы в рубиновые
+#            Рубиновые стрелы способны отскакивать один раз
 #            '''
 #    }
 #
 #    Sapphire_Bow: {
-#        DisplayName: Sapphire Bow
+#        DisplayName: Сапфировый лук
 #        Tooltip:
 #            '''
-#            Turns wooden arrows into sapphire arrows
-#            Sapphire arrows slightly home toward the cursor
+#            Превращает деревянные стрелы в сапфировые
+#            Сапфировые стрелы слегка наводятся на курсор
 #            '''
 #    }
 #
 #    Topaz_Bow: {
-#        DisplayName: Topaz Bow
+#        DisplayName: Топазовый лук
 #        Tooltip:
 #            '''
-#            Turns wooden arrows into topaz arrows
-#            Topaz arrows have high velocity and are resistant to gravity
+#            Превращает деревянные стрелы в топазовые
+#            Топазовые стрелы обладают высокой скоростью и устойчивостью к гравитации
 #            '''
 #    }
 #
 #    Morningtide: {
-#        DisplayName: Morningtide
-#        Tooltip: Converts wooden arrows into Dawnstrike Shafts
+#        DisplayName: Рассветный прилив
+#        Tooltip: Превращает деревянные стрелы в рассветные древки
 #    }
 #
 #    Ornament_Bow: {
-#        DisplayName: Bow of Ornaments
+#        DisplayName: Лук украшений
 #        Tooltip:
 #            '''
-#            Turns wooden arrows into ornament arrows
-#            Ornament Arrows create assorted gem arrows upon shattering
+#            Превращает деревянные стрелы в стрелы-украшения
+#            Стрелы-украшения создают различные самоцветные стрелы при разбивании
 #            '''
 #    }
 #
 #    StarlightBow: {
-#        DisplayName: Star Spray
-#        Tooltip: Converts wooden arrows into speeding stars
+#        DisplayName: Звёздный дождь
+#        Tooltip: Превращает деревянные стрелы в стремительные звезды
 #    }
 #
 #    LivingElderbarkWand: {
-#        DisplayName: Living Elderbark Wand
-#        Tooltip: Places living elderbark
+#        DisplayName: Жезл живого векового древа
+#        Tooltip: Размещает живую вековую древесину
 #    }
 #
 #    ReachBoomerang: {
-#        DisplayName: Briarheart Boomerang
-#        Tooltip: Shoots out two boomerangs on use
+#        DisplayName: Бумеранг сердца поросли
+#        Tooltip: При использовании выпускает два бумеранга
 #    }
 #
 #    ReachBrooch: {
-#        DisplayName: Forsworn Pendant
+#        DisplayName: Кулон отрекшегося
 #        Tooltip:
 #            '''
-#            Generates a bright glow around the player
-#            Gives increased vision in the Briar at night or underground
+#            Создаёт яркое свечение вокруг игрока
+#            Улучшает видимость в поросли ночью или под землёй
 #            '''
 #    }
 #
 #    ReachChestMagic: {
-#        DisplayName: Leafstrike Staff
-#        Tooltip: Summons a sharp leaf that can be controlled with the cursor
+#        DisplayName: Посох разящего листа
+#        Tooltip: Призывает острый лист, которым можно управлять с помощью курсора
 #    }
 #
 #    ThornHook: {
-#        DisplayName: Bramble Hook
+#        DisplayName: Шипастый крюк
 #        Tooltip: ""
 #    }
 #
 #    ThornyRod: {
-#        DisplayName: Thorny Rod
-#        Tooltip: Creates briar grass on dirt
+#        DisplayName: Шипастый посох
+#        Tooltip: Создаёт траву поросли на земле
 #    }
 #
 #    AnodyneHat: {
-#        DisplayName: Anodyne Hat
+#        DisplayName: Шляпа облегчения
 #        Tooltip: ""
 #    }
 #
@@ -7325,158 +7320,158 @@
 #
 #    ReachFishingCatch: {
 #        DisplayName: Ноксофилл
-#        Tooltip: "'It reeks of poison'"
+#        Tooltip: "'От него разит ядом'"
 #    }
 #
 #    SanctifiedStabber: {
-#        DisplayName: Sanctified Stabber
-#        Tooltip: Inflicts 'Withering Leaf'
+#        DisplayName: Освящённый закалыватель
+#        Tooltip: Накладывает дебафф «{$Buffs.WitheringLeaf.DisplayName}»
 #    }
 #
 #    VineChain: {
-#        DisplayName: Vine Chain
-#        Tooltip: Pulls enemies towards you
+#        DisplayName: Лозовая цепь
+#        Tooltip: Притягивает врагов к вам
 #    }
 #
 #    CascadeChestplate: {
-#        DisplayName: Cascade Chestplate
-#        Tooltip: 50% knockback resistance
+#        DisplayName: Каскадный нагрудник
+#        Tooltip: Увеличивает сопротивление к отбрасыванию на 50%
 #    }
 #
 #    CascadeHelmet: {
-#        DisplayName: Cascade Helmet
-#        Tooltip: Allows for breathing underwater
+#        DisplayName: Каскадный шлем
+#        Tooltip: Позволяет дышать под водой
 #    }
 #
 #    CascadeLeggings: {
-#        DisplayName: Cascade Greaves
-#        Tooltip: 15% increased movement in water
+#        DisplayName: Каскадные поножи
+#        Tooltip: Увеличивает скорость передвижения в воде на 15%
 #    }
 #
 #    Basking_Shark: {
-#        DisplayName: Basking Shark
-#        Tooltip: Converts bullets into chum chunks
+#        DisplayName: Гигантская акула
+#        Tooltip: Превращает пули в куски приманки
 #    }
 #
 #    BubbleMine: {
-#        DisplayName: Bubble Mine
-#        Tooltip: Right-click to make bubble mines detonate
+#        DisplayName: Пузырьковая мина
+#        Tooltip: Нажмите <right>, чтобы подорвать пузырьковые мины
 #    }
 #
 #    Coral_Catcher: {
-#        DisplayName: Coral Catcher
-#        Tooltip: Detects hooked fish
+#        DisplayName: Коралловый ловец
+#        Tooltip: Определяет, когда рыба попалась на крючок
 #    }
 #
 #    DeepCascadeShard: {
-#        DisplayName: Deep Cascade Shard
-#        Tooltip: "'Where magma meets seawater'"
+#        DisplayName: Осколок глубинного каскада
+#        Tooltip: "'Там, где магма встречается с морской водой'"
 #    }
 #
 #    JellyfishStaff: {
-#        DisplayName: Jellyfish Staff
-#        Tooltip: Summons a tiny jellyfish to fight for you!
+#        DisplayName: Посох медузы
+#        Tooltip: Призывает крошечную медузу, которая сражается за вас
 #    }
 #
 #    Mantaray_Hunting_Harpoon: {
-#        DisplayName: Manta Harpoon
+#        DisplayName: Гарпун манты
 #        Tooltip:
 #            '''
-#            Summons a rideable manta ray mount
-#            The manta Ray is incapable of movement on land
+#            Призывает ездового ската-манту
+#            Скат-манта не может передвигаться по суше
 #            '''
 #    }
 #
 #    Reef_Wrath: {
-#        DisplayName: Reef Wrath
-#        Tooltip: Conjures harmful coral spires along the ground
+#        DisplayName: Гнев рифа
+#        Tooltip: Создаёт опасные коралловые шипы вдоль земли
 #    }
 #
 #    BassSlapper: {
-#        DisplayName: Bass Slapper
+#        DisplayName: Окунешлёп
 #        Tooltip: ""
 #    }
 #
 #    Blasphemer: {
-#        DisplayName: The Blasphemer
-#        Tooltip: Charged strikes create a fiery geyser
+#        DisplayName: Богохульник
+#        Tooltip: Заряженные удары создают огненный гейзер
 #    }
 #
 #    BoneClub: {
-#        DisplayName: Bone Club
-#        Tooltip: Charged strikes launch bones forward
+#        DisplayName: Костяная дубинка
+#        Tooltip: Заряженные удары высвобождают кости вперёд
 #    }
 #
 #    BruteHammer: {
-#        DisplayName: Brute Hammer
-#        Tooltip: Spins rapidly around the player, dealing a devastating blow on release
+#        DisplayName: Молот громилы
+#        Tooltip: Быстро вращается вокруг игрока, нанося сокрушительный удар при отпускании
 #    }
 #
 #    ClubMealFour: {
-#        DisplayName: Club Meal
+#        DisplayName: Обеденная дубинка
 #        Tooltip: Вы не должны это видеть
 #    }
 #
 #    ClubMealOne: {
-#        DisplayName: Club Meal
+#        DisplayName: Обеденная дубинка
 #        Tooltip: Вы не должны это видеть
 #    }
 #
 #    ClubMealThree: {
-#        DisplayName: Club Meal
+#        DisplayName: Обеденная дубинка
 #        Tooltip: Вы не должны это видеть
 #    }
 #
 #    ClubMealTwo: {
-#        DisplayName: Club Meal
+#        DisplayName: Обеденная дубинка
 #        Tooltip: Вы не должны это видеть
 #    }
 #
 #    ClubSandwich: {
-#        DisplayName: Club Sandwich
+#        DisplayName: Сэндвич-дубинка
 #        Tooltip:
 #            '''
-#            Fully charged slams release sandwich bits
-#            Collect bits to boost stats
+#            Полностью заряженные удары высвобождают кусочки сэндвича
+#            Собирайте кусочки, чтобы усилить характеристики
 #            '''
 #    }
 #
 #    FloranBludgeon: {
-#        DisplayName: Floran Bludgeon
-#        Tooltip: Releases a shockwave along the ground
+#        DisplayName: Флоранитовая палица
+#        Tooltip: Выпускает ударную волну вдоль земли
 #    }
 #
 #    GoldClub: {
-#        DisplayName: Golden Greathammer
+#        DisplayName: Золотой великий молот
 #        Tooltip: ""
 #    }
 #
 #    Macuahuitl: {
-#        DisplayName: Macuahuitl
-#        Tooltip: Charging increases armor penetration
+#        DisplayName: Макуауитль
+#        Tooltip: Заряд увеличивает пробивание брони
 #    }
 #
 #    PlatinumClub: {
-#        DisplayName: Platinum Scepter
+#        DisplayName: Платиновый скипетр
 #        Tooltip: ""
 #    }
 #
 #    RageBlazeDecapitator: {
-#        DisplayName: Unstable Adze
+#        DisplayName: Нестабильное тесло
 #        Tooltip:
 #            '''
-#            Charges rapidly
-#            Charged strikes create an energy shockwave on impact
+#            Быстро заряжается
+#            Заряженные удары создают энергетическую ударную волну при попадании
 #            '''
 #    }
 #
 #    SporeClub: {
-#        DisplayName: Sporebreaker
-#        Tooltip: Charged strikes release a field of toxins
+#        DisplayName: Споровый крушитель
+#        Tooltip: Заряженные удары высвобождают облако токсинов
 #    }
 #
 #    WoodenClub: {
-#        DisplayName: Wooden Club
+#        DisplayName: Деревянная дубинка
 #        Tooltip: ""
 #    }
 #
@@ -8560,28 +8555,28 @@
 #    }
 #
 #    RoyalCrown: {
-#        DisplayName: Royal Crown
-#        CustomTooltip: "'Stunningly ornate despite centuries of weathering'"
+#        DisplayName: Королевская корона
+#        CustomTooltip: "'Поразительно изысканная, несмотря на века, проведённые под воздействием непогоды'"
 #        Tooltip: ""
 #    }
 #
 #    SeaMandrakeSac: {
-#        DisplayName: Luminous Sac
-#        CustomTooltip: "'The ink within flashes different colors'"
+#        DisplayName: Сияющий мешочек
+#        CustomTooltip: "'Чернила внутри переливаются различными цветами'"
 #        Tooltip: ""
 #    }
 #
 #    ArtemisHunt: {
-#        DisplayName: Iokheira
+#        DisplayName: Иохейра
 #        Tooltip:
 #            '''
-#            Hit enemies to mark them 
-#            Right click to fire a volley of arrows at marked foes
+#            Помечает врагов при попадании
+#            Нажмите <right>, чтобы выпустить залп стрел по отмеченным врагам
 #            '''
 #    }
 #
 #    BetrayersChains: {
-#        DisplayName: Blades of Chaos
+#        DisplayName: Клинки хаоса
 #        Tooltip: ""
 #    }
 #
@@ -8700,141 +8695,141 @@
 #    }
 #
 #    RunicGreaves: {
-#        DisplayName: Runic Greaves
-#        Tooltip: Reduces mana cost by 10% and increases magic damage by 10%
+#        DisplayName: Рунические поножи
+#        Tooltip: Снижает расход маны на 10% и увеличивают магический урон на 10%
 #    }
 #
 #    RunicHood: {
-#        DisplayName: Runic Hood
-#        Tooltip: Increases magic damage by 12% and movement speed by 5%
+#        DisplayName: Рунический капюшон
+#        Tooltip: Увеличивает магический урон на 12% и скорость передвижения на 5%
 #    }
 #
 #    RunicPlate: {
-#        DisplayName: Runic Plate
-#        Tooltip: Increases magic critical strike chance by 8%
+#        DisplayName: Руническая кираса
+#        Tooltip: Увеличивает магический шанс критического удара на 8%
 #    }
 #
 #    SpiritRune: {
-#        DisplayName: Spirit Rune
+#        DisplayName: Руна духа
 #        Tooltip:
 #            '''
-#            'Contains ancient energy'
-#            Shoots out an ancient book filled with dangerous runes
+#            'Содержит древнюю энергию'
+#            Выпускает древнюю книгу, наполненную опасными рунами
 #            '''
 #    }
 #
 #    AccursedBlade: {
-#        DisplayName: Accursed Blade
+#        DisplayName: Проклятый клинок
 #        Tooltip:
 #            '''
-#            Kill enemies and collect their souls to build up charge
-#            Right click to release charge as a cursed bolt
+#            Убивайте врагов и собирайте их души, чтобы накапливать заряд
+#            Нажмите <right>, чтобы выпустить накопленный заряд в виде проклятого снаряда
 #            '''
 #    }
 #
 #    AccursedSoul: {
-#        DisplayName: Accursed Soul
+#        DisplayName: Проклятая душа
 #        Tooltip: Вы не должны это видеть
 #    }
 #
 #    Graveyard: {
-#        DisplayName: Graveyard
-#        Tooltip: Creates a portal to the nether realm, releasing a torrent of skulls
+#        DisplayName: Кладбище
+#        Tooltip: Открывает портал в загробный мир, высвобождая поток черепов
 #    }
 #
 #    OldCross: {
-#        DisplayName: Old Cross
-#        Tooltip: Summons an ancient coffin full of angry skeletons
+#        DisplayName: Старый крест
+#        Tooltip: Призывает древний гроб, полный разъярённых скелетов
 #    }
 #
 #    ScreamingTome: {
-#        DisplayName: Screaming Tome
+#        DisplayName: Кричащий фолиант
 #        Tooltip:
 #            '''
-#            Creates orbiting skulls
-#            Release to launch skulls
+#            Создаёт вращающиеся вокруг вас черепа
+#            Отпустите <left>, чтобы запустить черепа
 #            '''
 #    }
 #
 #    GlowSting: {
-#        DisplayName: Seraph's Strike
-#        Tooltip: Right-click to release a flurry of strikes
+#        DisplayName: Удар Серафима
+#        Tooltip: Нажмите <right>, чтобы высвободить шквал ударов
 #    }
 #
 #    MoonStone: {
-#        DisplayName: Azure Gem
-#        Tooltip: "'Holds a far away power'"
+#        DisplayName: Лазурный самоцвет
+#        Tooltip: "'Хранит в себе силу из далёких краёв'"
 #    }
 #
 #    SeraphArmor: {
-#        DisplayName: Seraph's Breastplate
-#        Tooltip: 10% increased magic damage
+#        DisplayName: Нагрудник Серафима
+#        Tooltip: Увеличивает магический урон на 10%
 #    }
 #
 #    SeraphHelm: {
-#        DisplayName: Seraph's Crown
-#        Tooltip: 12% increased melee damage
+#        DisplayName: Корона Серафима
+#        Tooltip: Увеличивает урон ближнего боя на 12%
 #    }
 #
 #    SeraphLegs: {
-#        DisplayName: Seraph's Greaves
-#        Tooltip: Increases maximum mana by 50
+#        DisplayName: Поножи Серафима
+#        Tooltip: Увеличивает максимальный запас маны на 50
 #    }
 #
 #    StarBow: {
-#        DisplayName: Seraph's Storm
-#        Tooltip: Launches bolts of sporadic lunar energy
+#        DisplayName: Буря Серафима
+#        Tooltip: Запускает снаряды непредсказуемой лунной энергии
 #    }
 #
 #    WayfinderTorch: {
-#        DisplayName: Seraph's Light
+#        DisplayName: Свет Серафима
 #        Tooltip: ""
 #    }
 #
 #    CarvedRock: {
-#        DisplayName: Slagstone
-#        Tooltip: "'A seething piece of hardened magma'"
+#        DisplayName: Шлакокамень
+#        Tooltip: "'Обжигающий осколок застывшей магмы'"
 #    }
 #
 #    ObsidiusGreaves: {
-#        DisplayName: Slag Tyrant's Greaves
+#        DisplayName: Шлаковые поножи тирана
 #        Tooltip:
 #            '''
-#            5% increased minion damage
-#            Increases your max number of minions
+#            Увеличивает урон призывателя на 5%
+#            Увеличивает максимальное количество миньонов
 #            '''
 #    }
 #
 #    ObsidiusHelm: {
-#        DisplayName: Slag Tyrant's Helm
+#        DisplayName: Шлаковый шлем тирана
 #        Tooltip:
 #            '''
-#            5% increased minion damage
-#            Increases your max number of sentries
+#            Увеличивает урон призывателя на 5%
+#            Увеличивает максимальное количество стражей
 #            '''
 #    }
 #
 #    ObsidiusPlate: {
-#        DisplayName: Slag Tyrant's Platemail
+#        DisplayName: Шлаковые латы тирана
 #        Tooltip:
 #            '''
-#            4% increased minion damage
-#            Increases your max number of minions
+#            Увеличивает урон призывателя на 4%
+#            Увеличивает максимальное количество миньонов
 #            '''
 #    }
 #
 #    FieryMagicLauncher: {
-#        DisplayName: Slag Breath
+#        DisplayName: Шлаковое дыхание
 #        Tooltip:
 #            '''
-#            Expels spurts of magical flame
-#            Critical hits shower enemies in damaging sparks
+#            Извергает потоки магического пламени
+#            Критические удары осыпают врагов искрами, наносящими урон
 #            '''
 #    }
 #
 #    FierySummonStaff: {
-#        DisplayName: Slagtern Staff
-#        Tooltip: Summons a hovering slag lantern that lobs lava at nearby foes
+#        DisplayName: Шланарный посох
+#        Tooltip: Призывает парящий шлаковый фонарь, который забрасывает врагов лавой
 #    }
 #
 #    PossessedHammer: {
@@ -11516,7 +11511,7 @@
 #    }
 #
 #    RuneWizard: {
-#        DisplayName: Enchanter
+#        DisplayName: Зачарователь
 #
 #        TownNPCMood: {
 #            Content: The runes are coming along nicely today.

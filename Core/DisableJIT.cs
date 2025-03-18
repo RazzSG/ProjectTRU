@@ -1,7 +1,7 @@
 ﻿using System.Reflection;
 using Terraria.ModLoader;
 
-namespace CalamityRuTranslate;
+namespace CalamityRuTranslate.Core;
 
 public class DisableJIT : PreJITFilter
 {

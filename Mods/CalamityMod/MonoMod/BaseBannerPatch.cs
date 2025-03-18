@@ -15,12 +15,10 @@ public class BaseBannerPatch : OnPatcher
     public override bool AutoLoad => ModInstances.Calamity != null && TRuConfig.Instance.CalamityModLocalization && TranslationHelper.IsRussianLanguage;
     
     public override MethodInfo ModifiedMethod => typeof(BaseBanner).GetCachedMethod("get_DisplayName");
-
-    private delegate LocalizedText DisplayNameDelegate(BaseBanner self);
     
     public override Delegate Delegate => Translation;
 
-    private LocalizedText Translation(DisplayNameDelegate orig, BaseBanner self)
+    private LocalizedText Translation(Func<BaseBanner, LocalizedText> orig, BaseBanner self)
     {
         return self.GetLocalization(nameof(self.DisplayName), self.PrettyPrintName);
     }

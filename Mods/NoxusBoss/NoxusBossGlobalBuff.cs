@@ -17,7 +17,7 @@ public class NoxusBossGlobalBuff : GlobalBuff
     {
         if (type == ModContent.BuffType<Enraged>())
         {
-            tip = tip.Replace("150", "50").Replace("25", "50");
+            tip = tip.Replace("125", "50").Replace("25", "50");
         }
     }
 }

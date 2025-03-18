@@ -11,15 +11,13 @@ namespace CalamityRuTranslate.Mods.Redemption.MonoMod;
 
 public class DisplayDialoguePatch : OnPatcher
 {
-    private delegate void DisplayDialogueDelegate(MoRDialogueUI self, string text, int displayTime, int fadeTime, float fontScale, string whosespeaking, float shakestrength, Color? textColor, Color? shadowColor, Vector2? textPosition, Vector2? speakerPosition, int font, int id, bool sound);
-    
     public override bool AutoLoad => ModInstances.Redemption != null && TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
     
     public override MethodInfo ModifiedMethod => typeof(MoRDialogueUI).GetCachedMethod(nameof(MoRDialogueUI.DisplayDialogue));
 
     public override Delegate Delegate => Translation;
 
-    private void Translation(DisplayDialogueDelegate orig, MoRDialogueUI self, string text, int displayTime, int fadeTime, float fontScale, string whosespeaking, float shakestrength, Color? textColor, Color? shadowColor, Vector2? textPosition, Vector2? speakerPosition, int font, int id, bool sound)
+    private void Translation(Action<MoRDialogueUI, string, int, int, float, string, float, Color?, Color?, Vector2?, Vector2?, int, int, bool> orig, MoRDialogueUI self, string text, int displayTime, int fadeTime, float fontScale, string whosespeaking, float shakestrength, Color? textColor, Color? shadowColor, Vector2? textPosition, Vector2? speakerPosition, int font, int id, bool sound)
     {
         text = text switch
         {
