@@ -26,7 +26,8 @@ public class CombatTextPatch : ILoadable
     private int On_CombatTextOnNewText_Rectangle_Color_string_bool_bool(On_CombatText.orig_NewText_Rectangle_Color_string_bool_bool orig, Rectangle location, Color color, string text, bool dramatic, bool dot)
     {
         string[] parts = text.Split(' ');
-        var streak = parts[0];
+        string streak = parts[0];
+        
         if (text == $"{streak} life heal streak")
         {
             if (int.TryParse(streak, out int value))

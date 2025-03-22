@@ -4682,6 +4682,16 @@
 #            '''
 #    }
 #
+#    MJWPainting: {
+#        DisplayName: Moonlit Mischief
+#        Tooltip: "'M. Joon'"
+#    }
+#
+#    SadSlimePainting: {
+#        DisplayName: The Other Side
+#        Tooltip: "'P. Polaris'"
+#    }
+#
 #    ScarabIdol: {
 #        DisplayName: Scarab Idol
 #        Tooltip:
@@ -5080,28 +5090,28 @@
 #    }
 #
 #    CaramelApple: {
-#        DisplayName: Caramel Apple
+#        DisplayName: Карамельное яблоко
 #        Tooltip: Умеренно увеличивает все характеристики
 #    }
 #
 #    JackOGourd: {
-#        DisplayName: Jack-o-Gourd
+#        DisplayName: Тыква-светильник
 #        Tooltip: Умеренно увеличивает все характеристики... вроде как
 #    }
 #
 #    TreeGourd: {
-#        DisplayName: Birdhouse Gourd
+#        DisplayName: Тыква-скворечник
 #        Tooltip: Умеренно увеличивает все характеристики
 #    }
 #
 #    Candy: {
-#        DisplayName: Candy
-#        Tooltip: Increases all stats slightly
+#        DisplayName: Конфета
+#        Tooltip: Немного увеличивает все характеристики
 #    }
 #
 #    CandyBag: {
-#        DisplayName: Candy Bag
-#        Tooltip: Holds up to 99 pieces of candy
+#        DisplayName: Мешок конфет
+#        Tooltip: Вмещает до 99 конфет
 #    }
 #
 #    CandyBowl: {
@@ -10098,11 +10108,6 @@
 #        Tooltip: ""
 #    }
 #
-#    GildJellyItem: {
-#        DisplayName: Gilded Jelly
-#        Tooltip: ""
-#    }
-#
 #    ToxicTooth: {
 #        DisplayName: Toxic Tooth
 #        Tooltip:
@@ -10115,6 +10120,11 @@
 #    ScarabeusAnatomyItem: {
 #        DisplayName: Anatomy of Scarabeus
 #        Tooltip: "'M. Bee'"
+#    }
+#
+#    ToweringStactus: {
+#        DisplayName: Towering Stactus
+#        Tooltip: "'A. Knight'"
 #    }
 #}
 #
@@ -12517,49 +12527,49 @@
 #
 #    Rogue: {
 #        Dialogue: {
-#            Basic1: Here to peruse my wares? They're quite sharp.
-#            Basic2: Trust me- the remains of those bosses you kill don't go to waste.
-#            Basic3: The world is filled with opportunity! Now go kill some things.
-#            Basic4: This mask is getting musky...
-#            Basic5: Look at that handsome devil! Oh, it's just a mirror.
-#            Basic6: Here to satisfy all your murdering needs!
-#            Basic7: Nice day we're having here! Now, who do you want dead?
-#            Special1: Tell {0} to stop asking me where I got the charms. He doesn't need to know that. He would die of shock.
-#            Special2: Why is {0} so intent on selling shurikens? That's totally my thing.
-#            Bound: Hey! Thanks for saving me- Now, mind getting us out of this pickle? They duped me, took all my cash and left me for dead here! Don't think it means I'll discount my wares for you, though. Just kidding! Not.
+#            Basic1: Пришёл взглянуть на мои товары? Они чертовски остры.
+#            Basic2: Поверь, останки боссов, которых ты убиваешь, не пропадают зря.
+#            Basic3: Мир полон возможностей! Так что иди и убей кого-нибудь.
+#            Basic4: Эта маска уже пропахла...
+#            Basic5: Посмотри на этого красавчика! Ой, это же просто зеркало.
+#            Basic6: Я здесь, чтобы удовлетворить все твои убийственные капризы!
+#            Basic7: Какой прекрасный день! Итак, кого ты хочешь видеть мёртвым?
+#            Special1: Скажи {0}, чтобы перестал спрашивать, откуда у меня эти талисманы. Ему не нужно это знать. Он же от шока умрёт.
+#            Special2: Почему {0} так упорно торгует сюрикенами? Это же полностью моя фишка.
+#            Bound: Эй! Спасибо, что вытащил меня из... А теперь не поможешь мне выбраться из этой передряги? Они меня обманули, забрали все деньги и бросили умирать! Только не думай, что из-за этого я сделаю тебе скидку. Шучу! Нет, не шучу.
 #        }
 #
-#        Name1: Zane
-#        Name2: Carlos
-#        Name3: Tycho
-#        Name4: Damien
-#        Name5: Shane
-#        Name6: Daryl
-#        Name7: Shepard
-#        Name8: Sly
+#        Name1: Зейн
+#        Name2: Карлос
+#        Name3: Тайко
+#        Name4: Дэмиен
+#        Name5: Шейн
+#        Name6: Дэрил
+#        Name7: Шепард
+#        Name8: Слай
 #    }
 #
 #    RuneWizard: {
 #        Dialogue: {
-#            Basic1: Power up your weapons with my strange Glyphs!
-#            Basic2: Sometimes, I just scribble a rune on a Glyph and see what happens. I don't recommend you do.
-#            Basic3: Before you ask, no, I'm not going to put a Honeyed Glyph on a bee. It'd be way too strong.
-#            Basic4: I forgot the essence of Hellebore! Don't touch that!
-#            Basic5: If you're unsure of how to stumble upon Glyphs, my master once told me powerful bosses hold many!
-#            Basic6: Fun fact - you can put runes on anything. They're just most powerful on Glyphs.
-#            Basic7: Anything can be enchanted if you possess the skill, wit, and essence!
-#            Special1: I wonder what enchantements have been placed on the moon - It's all blue!
-#            Special2: The resurgence of Spirits offer a whole level of enchanting possibility!
+#            Basic1: Усиль своё оружие моими таинственными глифами!
+#            Basic2: Иногда я просто рисую руну на глифе и наблюдаю, что произойдёт. Тебе так делать не советую.
+#            Basic3: Прежде чем спросишь - нет, я не стану накладывать медовый глиф на пчелу. Она станет слишком могущественной.
+#            Basic4: Я забыл про эссенцию морозника! Не трогай её!
+#            Basic5: Если не знаешь, где найти глифы, мой учитель говорил, что могущественные боссы хранят в большом количестве!
+#            Basic6: Интересный факт - руны можно наносить на что угодно. Просто на глифах они проявляют наибольшую силу.
+#            Basic7: Зачаровать можно всё что угодно, если у тебя есть навык, смекалка и эссенция!
+#            Special1: Интересно, какие чары наложены на луну - она ведь вся синяя!
+#            Special2: Возрождение духов открывает совершенно новые возможности для зачарований!
 #        }
 #
-#        Name1: Malachai
-#        Name2: Nisarmah
-#        Name3: Moneque
-#        Name4: Tosalah
-#        Name5: Kentremah
-#        Name6: Salqueeh
-#        Name7: Oarno
-#        Name8: Cosimo
+#        Name1: Малакай
+#        Name2: Нисарма
+#        Name3: Монек
+#        Name4: Тосала
+#        Name5: Кентрема
+#        Name6: Салкви
+#        Name7: Оарно
+#        Name8: Козимо
 #    }
 #
 #    Vanilla: {

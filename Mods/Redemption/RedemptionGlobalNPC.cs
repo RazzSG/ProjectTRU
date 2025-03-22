@@ -39,59 +39,61 @@ public class RedemptionGlobalNPC : GlobalNPC
 
     public override void ModifyTypeName(NPC npc, ref string typeName)
     {
+        string playerName = Main.LocalPlayer.name;
+        
         if (npc.type == ModContent.NPCType<EpidotrianSkeleton_SS>())
         {
-            typeName = $"Голем из древней каменной глади игрока {Main.player[Main.myPlayer].name}";
+            typeName = $"Голем из древней каменной глади игрока {playerName}";
         }
         
         if (npc.type == ModContent.NPCType<EpidotrianSkeleton_SS>())
         {
-            typeName = $"Скелет-эпидотриец игрока {Main.player[Main.myPlayer].name}";
+            typeName = $"Скелет-эпидотриец игрока {playerName}";
         }
         
         if (npc.type == ModContent.NPCType<ForestNymph_SS>())
         {
-            typeName = $"Лесная нифма игрока {Main.player[Main.myPlayer].name}";
+            typeName = $"Лесная нифма игрока {playerName}";
         }
         
         if (npc.type == ModContent.NPCType<HazmatZombie_SS>())
         {
-            typeName = $"Зомби в химзащите игрока {Main.player[Main.myPlayer].name}";
+            typeName = $"Зомби в химзащите игрока {playerName}";
         }
         
         if (npc.type == ModContent.NPCType<MossyGoliath_SS>())
         {
-            typeName = $"Мшистый голиаф игрока {Main.player[Main.myPlayer].name}";
+            typeName = $"Мшистый голиаф игрока {playerName}";
         }
         
         if (npc.type == ModContent.NPCType<SkeletonAssassin_SS>())
         {
-            typeName = $"Скелет-убийца игрока {Main.player[Main.myPlayer].name}";
+            typeName = $"Скелет-убийца игрока {playerName}";
         }
         
         if (npc.type == ModContent.NPCType<SkeletonDuelist_SS>())
         {
-            typeName = $"Скелет-дуэлянт игрока {Main.player[Main.myPlayer].name}";
+            typeName = $"Скелет-дуэлянт игрока {playerName}";
         }
         
         if (npc.type == ModContent.NPCType<SkeletonFlagbearer_SS>())
         {
-            typeName = $"Скелет-знаменосец игрока {Main.player[Main.myPlayer].name}";
+            typeName = $"Скелет-знаменосец игрока {playerName}";
         }
         
         if (npc.type == ModContent.NPCType<SkeletonNoble_SS>())
         {
-            typeName = $"Скелет-аристократ игрока {Main.player[Main.myPlayer].name}";
+            typeName = $"Скелет-аристократ игрока {playerName}";
         }
         
         if (npc.type == ModContent.NPCType<SkeletonWanderer_SS>())
         {
-            typeName = $"Скелет-странник игрока {Main.player[Main.myPlayer].name}";
+            typeName = $"Скелет-странник игрока {playerName}";
         }
         
         if (npc.type == ModContent.NPCType<SkeletonWarden_SS>())
         {
-            typeName = $"Скелет-страж игрока {Main.player[Main.myPlayer].name}";
+            typeName = $"Скелет-страж игрока {playerName}";
         }
         
         if (npc.type == ModContent.NPCType<TreebarkDryad>())

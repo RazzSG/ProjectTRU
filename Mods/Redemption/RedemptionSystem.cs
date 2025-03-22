@@ -2,8 +2,11 @@
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
+using Microsoft.Xna.Framework.Graphics;
 using Redemption;
 using Redemption.UI.ChatUI;
+using ReLogic.Content;
+using Terraria;
 using Terraria.Audio;
 using Terraria.ModLoader;
 using Terraria.UI;
@@ -69,5 +72,11 @@ public class RedemptionSystem : ModSystem
                 };
             }
         }
+    }
+
+    public override void PostSetupContent()
+    {
+        if (!Main.dedServ)
+            RedeSystem.Instance.ElementPanelUIElement.BgSprite.SetImage(ModContent.Request<Texture2D>("CalamityRuTranslate/Assets/Sprites/Redemption/ElementPanelUI", AssetRequestMode.ImmediateLoad));
     }
 }

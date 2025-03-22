@@ -1,6 +1,5 @@
 ﻿using CalamityRuTranslate.Common.Utilities;
 using Microsoft.Xna.Framework;
-using Terraria;
 using Terraria.GameContent.UI.Chat;
 using Terraria.ModLoader;
 
@@ -8,8 +7,6 @@ namespace CalamityRuTranslate.Mods.Vanilla.MonoMod;
 
 public class AddNewMessagePatch : ILoadable
 {
-    private string PlayerName => Main.player[Main.myPlayer].name;
-    
     public bool IsLoadingEnabled(Mod mod)
     {
         return TranslationHelper.IsRussianLanguage;
@@ -28,14 +25,9 @@ public class AddNewMessagePatch : ILoadable
     private void On_RemadeChatMonitorOnAddNewMessage(On_RemadeChatMonitor.orig_AddNewMessage orig, RemadeChatMonitor self, string text, Color color, int widthlimitinpixels)
     {
         // Infernum
-        if (text == $"{PlayerName} was somehow impaled by a pillar of crystals.")
-            text = $"Игрок {PlayerName} был загадочным образом пронзён кристальной колонной.";
-        
-        if (text == $"{PlayerName} was repelled by celestial forces.")
-            text = $"Игрок {PlayerName} был отброшен неземными силами.";
-        
-        if (text == $"{PlayerName} was violently pricked by roses.")
-            text = $"Игрок {PlayerName} был жестоко пронзён розами.";
+        text = text.Replace("was somehow impaled by a pillar of crystals.", "был загадочным образом пронзён кристальной колонной.");
+        text = text.Replace("was repelled by celestial forces.", "был отброшен неземными силами.");
+        text = text.Replace("was violently pricked by roses.", "был жестоко пронзён розами.");
         
         // Fargo
         if (text.Contains("A new item has been unlocked in"))
@@ -44,55 +36,26 @@ public class AddNewMessagePatch : ILoadable
             text = text.Replace("'s shop!", "появился новый предмет!");
         }
         
-        if (text == $"Battle Cry activated for {PlayerName}!")
-            text = $"Боевой клич активирован для игрока {PlayerName}!";
-        
-        if (text == $"Battle Cry deactivated for {PlayerName}!")
-            text = $"Боевой клич деактивирован для игрока {PlayerName}!";
-        
-        if (text == $"Calming Cry activated for {PlayerName}.")
-            text = $"Умиротворяющий клич активирован для игрока {PlayerName}.";
-        
-        if (text == $"Calming Cry deactivated for {PlayerName}.")
-            text = $"Умиротворяющий клич деактивирован для игрока {PlayerName}.";
+        text = text.Replace("Battle Cry activated for", "Боевой клич активирован для игрока");
+        text = text.Replace("Battle Cry deactivated for", "Боевой клич деактивирован для игрока");
+        text = text.Replace("Calming Cry activated for", "Умиротворяющий клич активирован для игрока");
+        text = text.Replace("Calming Cry deactivated for", "Умиротворяющий клич деактивирован для игрока");
 
         // StarsAbove
-        if (text == $"{PlayerName} was obliterated!")
-            text = $"Игрок {PlayerName} был стёрт с лица земли!";
-        
-        if (text == $"{PlayerName}'s body was broken, along with their limits.")
-            text = $"Игрок {PlayerName} сломал лимиты вместе c телом.";
-        
-        if (text == $"{PlayerName} died beyond their world.")
-            text = $"Игрок {PlayerName} погиб за пределами своего мира.";
-        
-        if (text == $"{PlayerName} was lost in space.")
-            text = $"Игрок {PlayerName} потерялся в космосе.";
-        
-        if (text == $"{PlayerName} drifted away from their home planet.")
-            text = $"Игрок {PlayerName} отдалился от своей родной планеты.";
-        
-        if (text == $"{PlayerName} was brought to kneel beyond their world.")
-            text = $"Игрок {PlayerName} был вынужден преклонить колени за пределами своего мира.";
-        
-        if (text == $"{PlayerName} died within another realm.")
-            text = $"Игрок {PlayerName} погиб в иной реальности.";
-            
-        if (text == $"{PlayerName} crumbled under the weight of Living Dead.")
-            text = $"Игрок {PlayerName} не выдержал тяжести живого мертвеца.";
-            
-        if (text == $"{PlayerName} burnt to a crisp by continuing to move during Pyretic.")
-            text = $"Игрок {PlayerName}, продолжая двигаться во время горячки, сгорел дотла.";
-            
-        if (text == $"{PlayerName} froze to death by staying still during Deep Freeze")
-            text = $"Игрок {PlayerName}, оставаясь неподвижным во время глубокой заморозки, замёрз насмерть.";
-
-        if (text == $"{PlayerName} couldn't handle the vacuum of space.")
-            text = $"Игрок {PlayerName} не смог выдержать вакуум космоса.";
+        text = text.Replace("was obliterated!", "был стёрт с лица земли!");
+        text = text.Replace("'s body was broken, along with their limits.", " сломал лимиты вместе c телом.");
+        text = text.Replace("died beyond their world.", "погиб за пределами своего мира.");
+        text = text.Replace("was lost in space.", "потерялся в космосе.");
+        text = text.Replace("drifted away from their home planet.", "отдалился от своей родной планеты.");
+        text = text.Replace("was brought to kneel beyond their world.", "был вынужден преклонить колени за пределами своего мира.");
+        text = text.Replace("died within another realm.", "погиб в иной реальности.");
+        text = text.Replace("crumbled under the weight of Living Dead.", "не выдержал тяжести живого мертвеца.");
+        text = text.Replace("burnt to a crisp by continuing to move during Pyretic.", ", продолжая двигаться во время горячки, сгорел дотла.");
+        text = text.Replace("froze to death by staying still during Deep Freeze", ", оставаясь неподвижным во время глубокой заморозки, замёрз насмерть.");
+        text = text.Replace("couldn't handle the vacuum of space.", "не смог выдержать вакуум космоса.");
         
         // Redemption
-        if (text == $"{PlayerName} experienced DOOR STUCK.")
-            text = $"{PlayerName} застрял в ДВЕРЯХ.";
+        text = text.Replace("experienced DOOR STUCK.", "застрял в ДВЕРЯХ.");
         
         text = text switch
         {

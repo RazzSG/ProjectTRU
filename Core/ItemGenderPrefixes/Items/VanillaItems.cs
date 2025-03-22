@@ -184,6 +184,7 @@ public class VanillaItems : IItemGender
         ItemID.FlowerPow,
         ItemID.MonkStaffT2,
         ItemID.FlamingMace,
+        ItemID.ButchersChainsaw,
     };
 
     public List<int> Neuter { get; } = new()

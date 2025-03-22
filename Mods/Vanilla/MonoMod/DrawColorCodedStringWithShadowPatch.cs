@@ -38,22 +38,22 @@ public class DrawColorCodedStringWithShadowPatch : ILoadable
         }
         
         // Redemption
-        if (text.Contains("Сопротивление"))
+        if (text.Contains("Сопротивление школам") || text.Contains("Урон школ"))
         {
-            text = text.Replace("Школы тайн", "Тайный");
-            text = text.Replace("Школы огня", "Огонь");
-            text = text.Replace("Школы воды", "Вода");
-            text = text.Replace("Школы льда", "Лёд");
-            text = text.Replace("Школы земли", "Земля");
-            text = text.Replace("Школы воздуха", "Воздух");
-            text = text.Replace("Школы молнии", "Молния");
-            text = text.Replace("Школы святости", "Святость");
-            text = text.Replace("Школы тени", "Тень");
-            text = text.Replace("Школы природы", "Природа");
-            text = text.Replace("Школы яда", "Яд");
-            text = text.Replace("Школы крови", "Кровь");
-            text = text.Replace("Школы менталистики", "Менталист");
-            text = text.Replace("Школы космоса", "Космос");
+            text = text.Replace("Школы тайн", "Школа тайн");
+            text = text.Replace("Школы огня", "Школа огня");
+            text = text.Replace("Школы воды", "Школа воды");
+            text = text.Replace("Школы льда", "Школа льда");
+            text = text.Replace("Школы земли", "Школа земли");
+            text = text.Replace("Школы воздуха", "Школа воздуха");
+            text = text.Replace("Школы молнии", "Школа молнии");
+            text = text.Replace("Школы святости", "Школа святости");
+            text = text.Replace("Школы тени", "Школа тени");
+            text = text.Replace("Школы природы", "Школа природы");
+            text = text.Replace("Школы яда", "Школа яда");
+            text = text.Replace("Школы крови", "Школа крови");
+            text = text.Replace("Школы псионики", "Школа псионики");
+            text = text.Replace("Школы космоса", "Школа космоса");
         }
         
         text = text switch
