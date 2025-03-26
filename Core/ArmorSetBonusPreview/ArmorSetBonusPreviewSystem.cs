@@ -2220,5 +2220,39 @@ public class ArmorSetBonusPreviewSystem : ModSystem
                 return $"{intergelacticAll}\n{intergelacticRogue}";
             }));
         }
+
+        if (ModInstances.SpiritReforged != null)
+        {
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("SpiritReforged/CascadeHelmet"), () =>
+            {
+                string bonus = Language.GetTextValue("Mods.SpiritReforged.SetBonuses.Cascade");
+
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("SpiritReforged/DriftwoodHelmet"), () =>
+            {
+                string bonus = Language.GetTextValue("Mods.SpiritReforged.SetBonuses.Driftwood");
+
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("SpiritReforged/DrywoodHelmet"), () =>
+            {
+                string bonus = Language.GetTextValue("Mods.SpiritReforged.SetBonuses.Drywood");
+
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("SpiritReforged/BotanistHat"), () =>
+            {
+                string bonus = Language.GetTextValue("Mods.SpiritReforged.SetBonuses.Botanist");
+
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("SpiritReforged/LeatherHood"), () =>
+            {
+                string bonus = Language.GetTextValue("Mods.SpiritReforged.SetBonuses.Marksman");
+
+                return bonus;
+            }));
+        }
     }
 }

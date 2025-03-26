@@ -1,1943 +1,1891 @@
-#Buffs: {
-#    EmpoweredSwim: {
-#        DisplayName: Empowered Swim
-#        Description: You feel much faster in water
-#    }
-#
-#    MantarayBuff: {
-#        DisplayName: Rescue Ray
-#        Description: Swift as the tides!
-#    }
-#
-#    JellyfishMinion_Buff: {
-#        DisplayName: Jellyfish
-#        Description: A cute, bouncy Jellyfish fights for you!
-#    }
-#
-#    JellyfishBuff: {
-#        DisplayName: Friendly Jellyfish
-#        Description: This energetic jellyfish loves following you around!
-#    }
-#
-#    DoubleJumpPotionBuff: {
-#        DisplayName: Aether Jump
-#        Description: Temporarily grants an additional jump
-#    }
-#
-#    FlightPotionBuff: {
-#        DisplayName: Soaring
-#        Description: Increases flight duration by 25%
-#    }
-#
-#    BottleMountBuff: {
-#        DisplayName: Raft
-#        Description: Sending out an SOS
-#    }
-#
-#    FairyMinion_Buff: {
-#        DisplayName: Fairies
-#        Description: Hey! Watch out!
-#    }
-#
-#    Impaled: {
-#        DisplayName: Impaled
-#        Description: You've been impaled by a pike. Ouch!
-#    }
-#
-#    KoiTotemBuff: {
-#        DisplayName: Koi Totem
-#        Description: Increased fishing skill
-#    }
-#
-#    ButterflyMinion_Buff: {
-#        DisplayName: Ethereal Butterfly
-#        Description: The ethereal butterfly fights for you
-#    }
-#
-#    ToucanMinion_Buff: {
-#        DisplayName: Toucane
-#        Description: The toucan fights for you
-#    }
-#
-#    QuenchPotion_Buff: {
-#        DisplayName: Quenched
-#        Description: Other potions last 25% longer
-#    }
-#
-#    TumblerPetBuff: {
-#        DisplayName: Ambivalent Tumbler
-#        Description: A friendly tumbleweed is following you
-#    }
-#
-#    Frozen: {
-#        DisplayName: Frozen
-#        Description: Reduced enemy movement speed
-#    }
-#
-#    GildedScarabBuff: {
-#        DisplayName: Scarab Shield
-#        Description: Defense increased by {0}
-#    }
-#
-#    PoolNoodleBubbleBuff: {
-#        DisplayName: Pool Noodle Bubble Buff
-#        Description: You've found the secret Spirit Lore Codex... Stay tuned for our superboss Darksteel, the Fallen Star!
-#    }
-#
-#    ExplorerSpeed: {
-#        DisplayName: Explorer Speed
-#        Description: Your speed is greatly improved
-#    }
-#
-#    RemedyPotionBuff: {
-#        DisplayName: Remedy
-#        Description: Immunity to some harmful effects
-#    }
-#
-#    OpenWounds: {
-#        DisplayName: Open Wounds
-#        Description: Susceptible to bleeding
-#    }
-#}
-#
-#Configs: {
-#    ReforgeClientConfig: {
-#        DisplayName: Reforge Client Config
-#
-#        OceanShape: {
-#            Label: Ocean Shape
-#            Tooltip:
-#                '''
-#                Modifies the Ocean generation in certain ways
-#                Defaults to a Piecewise_V generation
-#                The Piecewise_V generation is recommended for Spirit playthroughs
-#                '''
-#        }
-#
-#        SurfaceWaterTransparency: {
-#            Label: Surface Water Transparency
-#            Tooltip:
-#                '''
-#                Allows for transparent ocean water when on
-#                This does not affect any other biome
-#                '''
-#        }
-#    }
-#
-#    OceanShape: {
-#        Tooltip: ""
-#        Default.Label: Default
-#        SlantedSine.Label: Slanted Sine
-#        Piecewise.Label: Piecewise
-#        Piecewise_M.Label: Piecewise_ M
-#        Piecewise_V.Label: Piecewise_ V
-#    }
-#
-#    ReforgedServerConfig: {
-#        DisplayName: Reforged Server Config
-#
-#        VentCritters: {
-#            Label: Vent Critters
-#            Tooltip:
-#                '''
-#                Enables the spawning of numerous critters around Hydrothermal Vents
-#                These critters do not interfere with regular enemy spawnrates
-#                However, they do contribute to the maximum NPC limit
-#                '''
-#        }
-#
-#        MaxFloatingItemCount: {
-#            Label: Floating Item Cap
-#            Tooltip: Determines how many floating items can be active in the world at one time.
-#        }
-#    }
-#}
-#
-#Generation: {
-#    Discoveries: Adding discoveries
-#    Stargrass: Growing stargrass
-#    HerosMemorial: Remembering a hero
-#    Butterfly: Hiding butterfly shrines
-#    FishingCoves: Adding fishing spots
-#    PopulateOcean: Populating the ocean
-#    Gravel: Placing gravel
-#    SavannaTerrain: Creating plateaus
-#    SavannaObjects: Populating the savanna
-#}
-#
-#Biomes: {
-#    SavannaBiome: {
-#        DisplayName: Savanna
-#        TownNPCDialogueName: the Savanna
-#    }
-#}
-#
-#SlotContexts.Backpack: Pack
-#Conditions.InSavanna: In Savanna
-#
-#Misc: {
-#    Pins: {
-#        Move: Move Pin
-#        Obtained: You already own this pin
-#        UseItem: Right click to add this pin to your collection
-#    }
-#
-#    NoStock: Out of stock
-#    GraveText: <wavy>The text is old and faded; you can't quite make out what it says.
-#    MenuButton: Use menu style
-#}
-#
-#DamageSources: {
-#    Impaling: {
-#        0: "{0} has been impaled."
-#        1: "{0} was skewered."
-#    }
-#}
-#
-#GameTips: {
-#    ReforgedTip0: Always carry around food. You never know when it could be useful!
-#    ReforgedTip1: Rarely, butterflies are known to hide in underground groves.
-#    ReforgedTip2: Pins are useful! Check your pin inventory on the bottom-left of your map.
-#    ReforgedTip3: Savanna animals cannot be caught in bug nets.
-#    ReforgedTip4: Backpacks. You've got more space now.
-#    ReforgedTip5: The inky void of the ocean offers many boons.
-#    ReforgedTip6: Stargrass offers a nice reprieve in the darkness of night.
-#    ReforgedTip7: Cloudstalk always grows under clouds.
-#    ReforgedTip8: The top of Acacia trees can be stood on if you need some height.
-#    ReforgedTip9: Items randomly float atop the ocean; check in once in a while!
-#}
-#
-#Items: {
-#    CommonTooltips: {
-#        Backpack:
-#            '''
-#            Holds 4 items
-#            You must empty this before taking it off
-#            '''
-#        Shimmerable: "{0} Transforms in shimmer"
-#    }
-#
-#    Kelp: {
-#        DisplayName: Водоросли
-#        Tooltip: Должны быть посажены в воде
-#    }
-#
-#    PirateChestItem: {
-#        DisplayName: Пиратский сундук
-#        Tooltip: ""
-#    }
-#
-#    PirateKey: {
-#        DisplayName: Секретный ключ
-#        Tooltip: "'Пираты наверняка где-то спрятали сокровища...'"
-#    }
-#
-#    RawFish: {
-#        DisplayName: Сырая рыба
-#        Tooltip: "'Можно съесть... хотя лучше сначала приготовить?'"
-#    }
-#
-#    SunkenTreasure: {
-#        DisplayName: Затонувшее сокровище
-#        Tooltip:
-#            '''
-#            {$CommonItemTooltip.RightClickToOpen}
-#            'Возможно, в нём до сих пор полно ценных сокровищ'
-#            '''
-#    }
-#
-#    DriftwoodItem: {
-#        DisplayName: Driftwood
-#        Tooltip: ""
-#    }
-#
-#    MusselItem: {
-#        DisplayName: Mussel
-#        Tooltip: ""
-#    }
-#
-#    CrinoidItem: {
-#        DisplayName: Crinoid
-#        Tooltip: ""
-#    }
-#
-#    PelicanItem: {
-#        DisplayName: Pelican
-#        Tooltip: ""
-#    }
-#
-#    SandPiperItem: {
-#        DisplayName: Sand Piper
-#        Tooltip: ""
-#    }
-#
-#    TinyCrabItem: {
-#        DisplayName: Palecrab
-#        Tooltip: ""
-#    }
-#
-#    TubewormItem: {
-#        DisplayName: Tubeworm
-#        Tooltip: ""
-#    }
-#
-#    CascadeChestplate: {
-#        DisplayName: Reef Hunter Chestplate
-#        Tooltip: 50% knockback resistance
-#    }
-#
-#    CascadeHelmet: {
-#        DisplayName: Reef Hunter Helmet
-#        Tooltip: Allows for breathing underwater
-#    }
-#
-#    CascadeLeggings: {
-#        DisplayName: Reef Hunter Greaves
-#        Tooltip: 15% increased movement in water
-#    }
-#
-#    JellyfishStaff: {
-#        DisplayName: Jellyfish Staff
-#        Tooltip: Summons a tiny jellyfish to fight for you!
-#    }
-#
-#    Lifesaver: {
-#        DisplayName: Lifesaver
-#        Tooltip:
-#            '''
-#            Summons a rideable manta ray mount
-#            The manta Ray is incapable of movement on land, but can hover over liquids
-#            '''
-#    }
-#
-#    ClawCannon: {
-#        DisplayName: Claw Cannon
-#        Tooltip: ""
-#    }
-#
-#    IridescentScale: {
-#        DisplayName: Iridescent Scale
-#        Tooltip: "'Glints beautifully under the water'"
-#    }
-#
-#    OceanPendant: {
-#        DisplayName: Merfolk's Treasure
-#        Tooltip: Greatly enhanced underwater movement
-#    }
-#
-#    ReefSpear: {
-#        DisplayName: Reef Piercer
-#        Tooltip: Right click to throw the trident, increasing damage taken by the main attack
-#    }
-#
-#    SkullSentry: {
-#        DisplayName: Maneater Skull
-#        Tooltip: Summons a skull infested by maneater worms that fire red mucus at nearby enemies
-#    }
-#
-#    UrchinStaff: {
-#        DisplayName: Urchin Lobber
-#        Tooltip: ""
-#    }
-#
-#    GarInAJar: {
-#        Tooltip: ""
-#        DisplayName: Gar in a Jar
-#    }
-#
-#    GarItem: {
-#        DisplayName: Gar
-#        Tooltip: ""
-#    }
-#
-#    SavannaDirtItem: {
-#        DisplayName: Coarse Dirt
-#        Tooltip: ""
-#    }
-#
-#    GoldGarItem: {
-#        DisplayName: Gold Gar
-#        Tooltip: ""
-#    }
-#
-#    Sushi: {
-#        DisplayName: Sushi
-#        Tooltip:
-#            '''
-#            {$BuffDescription.WellFed}
-#            Provides underwater breathing
-#            'Cold and fresh!'
-#            '''
-#    }
-#
-#    Nigiri: {
-#        DisplayName: Nigiri
-#        Tooltip:
-#            '''
-#            {$BuffDescription.WellFed}
-#            Provides free movement in water
-#            'The perfect cut'
-#            '''
-#    }
-#
-#    HoneySalmon: {
-#        DisplayName: Honey-Glazed Salmon
-#        Tooltip:
-#            '''
-#            {$BuffDescription.WellFed}
-#            Boosts life regeneration
-#            '''
-#    }
-#
-#    FishChips: {
-#        DisplayName: Fish n' Chips
-#        Tooltip: "{$BuffDescription.WellFed}"
-#    }
-#
-#    CrystalFish: {
-#        DisplayName: Crystallized Salmon
-#        Tooltip:
-#            '''
-#            {$BuffDescription.WellFed2}
-#            Boosts magic power
-#            '''
-#    }
-#
-#    RawMeat: {
-#        DisplayName: Raw Meat
-#        Tooltip: "'Can be eaten...maybe cook it first?'"
-#    }
-#
-#    CookedMeat: {
-#        DisplayName: Cooked Meat
-#        Tooltip:
-#            '''
-#            {$BuffDescription.WellFed}
-#            'Roasted to perfection'
-#            '''
-#    }
-#
-#    GoldenCaviar: {
-#        DisplayName: Golden Caviar
-#        Tooltip:
-#            '''
-#            {$BuffDescription.WellFed3}
-#            'The pinnacle of gastronomy'
-#            '''
-#    }
-#
-#    GarBannerItem.DisplayName: Gar Banner
-#
-#    CoconutMilk: {
-#        DisplayName: Coconut Milk
-#        Tooltip:
-#            '''
-#            {$BuffDescription.WellFed}
-#            'No cup needed!'
-#            '''
-#    }
-#
-#    DiverBody: {
-#        DisplayName: Ancient Diver's Plate
-#        Tooltip: ""
-#    }
-#
-#    DiverHead: {
-#        DisplayName: Ancient Diver's Helmet
-#        Tooltip: ""
-#    }
-#
-#    DiverLegs: {
-#        DisplayName: Ancient Diver's Pants
-#        Tooltip: ""
-#    }
-#
-#    SailorCap: {
-#        DisplayName: Sailor Cap
-#        Tooltip: "'All aboard!'"
-#    }
-#
-#    StrippedBambooItem: {
-#        DisplayName: Stripped Bamboo
-#        Tooltip: ""
-#    }
-#
-#    BambooBarrelItem: {
-#        DisplayName: Bamboo Barrel
-#        Tooltip: ""
-#    }
-#
-#    BambooBenchItem: {
-#        DisplayName: Bamboo Bench
-#        Tooltip: ""
-#    }
-#
-#    BambooBirdCageItem: {
-#        DisplayName: Bamboo Bird Cage
-#        Tooltip: Some birds can be placed inside using right click
-#    }
-#
-#    BambooPikeItem: {
-#        DisplayName: Bamboo Pike
-#        Tooltip: ""
-#    }
-#
-#    BambooPotItem: {
-#        DisplayName: Bamboo Pot
-#        Tooltip: ""
-#    }
-#
-#    SteamedMussels: {
-#        DisplayName: Steamed Mussels
-#        Tooltip:
-#            '''
-#            {$BuffDescription.WellFed}
-#            'Fresh and delightful'
-#            '''
-#    }
-#
-#    JellyCandle: {
-#        DisplayName: Jelly Candle
-#        Tooltip: Summons a floating jellyfish to follow you around
-#    }
-#
-#    SmallDriftwoodItem: {
-#        DisplayName: Small Driftwood
-#        Tooltip: "'Aesthetically pleasing'"
-#    }
-#
-#    MediumDriftwoodItem: {
-#        DisplayName: Medium Driftwood
-#        Tooltip: "'Aesthetically pleasing'"
-#    }
-#
-#    LargeDriftwoodItem: {
-#        DisplayName: Large Driftwood
-#        Tooltip: "'Aesthetically pleasing'"
-#    }
-#
-#    DriftwoodChestplate: {
-#        DisplayName: Driftwood Chestplate
-#        Tooltip: ""
-#    }
-#
-#    DriftwoodHelmet: {
-#        DisplayName: Driftwood Helmet
-#        Tooltip: ""
-#    }
-#
-#    DriftwoodLeggings: {
-#        DisplayName: Driftwood Leggings
-#        Tooltip: ""
-#    }
-#
-#    DriftwoodPlatformItem: {
-#        DisplayName: Driftwood Platform
-#        Tooltip: ""
-#    }
-#
-#    DriftwoodSword: {
-#        DisplayName: Driftwood Sword
-#        Tooltip: ""
-#    }
-#
-#    DriftwoodWallItem: {
-#        DisplayName: Driftwood Wall
-#        Tooltip: ""
-#    }
-#
-#    Cloudstalk: {
-#        DisplayName: Cloudstalk
-#        Tooltip: "'Usually found high up'"
-#    }
-#
-#    CloudstalkSeed: {
-#        DisplayName: Cloudstalk Seed
-#        Tooltip: ""
-#    }
-#
-#    DoubleJumpPotion: {
-#        DisplayName: Zephyr Potion
-#        Tooltip: Temporarily grants a double jump
-#    }
-#
-#    FlightPotion: {
-#        DisplayName: Soaring Potion
-#        Tooltip: Increases the duration of flight by 25%
-#    }
-#
-#    HangingCloudstalkItem: {
-#        DisplayName: Hanging Cloudstalk
-#        Tooltip: ""
-#    }
-#
-#    FloatingDriftwood: {
-#        DisplayName: Floating Driftwood
-#        Tooltip: ""
-#    }
-#
-#    FishCrate: {
-#        DisplayName: Packing Crate
-#        Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
-#    }
-#
-#    Ambergris: {
-#        DisplayName: Ambergris
-#        Tooltip:
-#            '''
-#            Highly valuable
-#            'You don't want to know where this came from'
-#            '''
-#    }
-#
-#    MessageBottle: {
-#        DisplayName: Message in a Bottle
-#        Tooltip:
-#            '''
-#            Summons a raft mount
-#            Increased fishing power while on the raft
-#            '''
-#    }
-#
-#    GoldKillifishItem: {
-#        DisplayName: Gold Killifish
-#        Tooltip: ""
-#    }
-#
-#    KillifishItem: {
-#        DisplayName: Killifish
-#        Tooltip: ""
-#    }
-#
-#    KillifishBannerItem.DisplayName: Killifish Banner
-#
-#    BambooHalberd: {
-#        DisplayName: Bamboo Halberd
-#        Tooltip: ""
-#    }
-#
-#    BambooKendoBlade: {
-#        DisplayName: Bamboo Kendo Blade
-#        Tooltip: Right click to dash forward
-#    }
-#
-#    KoiTotem: {
-#        DisplayName: Koi Totem
-#        Tooltip:
-#            '''
-#            Increases fishing skill when placed nearby
-#            Occasionally replenishes the bait that was last used
-#            '''
-#    }
-#
-#    FairyWhistle: {
-#        DisplayName: Fairy Whistle
-#        Tooltip: Calls a protective fairy that hovers around you
-#    }
-#
-#    TermiteItem: {
-#        DisplayName: Termite
-#        Tooltip: ""
-#    }
-#
-#    StarPowder: {
-#        DisplayName: Starpowder
-#        Tooltip: Throw onto grass to invigorate it with starlight!
-#    }
-#
-#    TermiteJar: {
-#        DisplayName: Termite Jar
-#        Tooltip: "'An ecological nightmare'"
-#    }
-#
-#    ButterflyStaff: {
-#        DisplayName: Ethereal Butterfly Staff
-#        Tooltip:
-#            '''
-#            Summons a magical butterfly to fight for you
-#            'Formed from a perfect cherry blossom'
-#            '''
-#    }
-#
-#    PoolNoodle: {
-#        DisplayName: Pool Noodle
-#        Tooltip:
-#            '''
-#            3 summon tag damage
-#            {$CommonItemTooltip.Whips}
-#            Struck enemies may release bubbly explosions when hit by summons
-#            '''
-#    }
-#
-#    ToucaneItem: {
-#        DisplayName: Toucane
-#        Tooltip: Summons an angry toucan to fight for you
-#    }
-#
-#    QuenchPotion: {
-#        DisplayName: Quench Potion
-#        Tooltip: Other potions last 25% longer
-#    }
-#
-#    LivingBaobabLeafWallItem: {
-#        DisplayName: Living Baobab Leaf Wall
-#        Tooltip: ""
-#    }
-#
-#    LivingBaobabWallItem: {
-#        DisplayName: Living Baobab Wall
-#        Tooltip: ""
-#    }
-#
-#    LivingBaobabLeafWand: {
-#        DisplayName: Living Baobab Leaf Wand
-#        Tooltip: ""
-#    }
-#
-#    LivingBaobabWand: {
-#        DisplayName: Living Baobab Wand
-#        Tooltip: ""
-#    }
-#
-#    WrithingSticks: {
-#        DisplayName: Writhing Sticks
-#        Tooltip: Summons a friendly tumbleweed to follow you around
-#    }
-#
-#    BaobabFruit: {
-#        DisplayName: Baobab Fruit
-#        Tooltip: "{$BuffDescription.WellFed}"
-#    }
-#
-#    SavannaGrassSeeds: {
-#        DisplayName: Savanna Grass Seeds
-#        Tooltip: ""
-#    }
-#
-#    LeatherBackpack: {
-#        DisplayName: Leather Backpack
-#        Tooltip:
-#            '''
-#            {$CommonTooltips.Backpack}
-#            'Comfortable, practical, and still dashing'
-#            '''
-#    }
-#
-#    Caryocar: {
-#        DisplayName: Caryocar
-#        Tooltip: ""
-#    }
-#
-#    CustardApple: {
-#        DisplayName: Custard Apple
-#        Tooltip: ""
-#    }
-#
-#    BeachUmbrellaItem: {
-#        DisplayName: Beach Umbrella
-#        Tooltip: ""
-#    }
-#
-#    BigBuoy: {
-#        DisplayName: Big Buoy
-#        Tooltip: "{$ItemTooltip.CoralTorch}"
-#    }
-#
-#    SmallBuoy: {
-#        DisplayName: Small Buoy
-#        Tooltip: "{$ItemTooltip.CoralTorch}"
-#    }
-#
-#    LoungeChairItem: {
-#        DisplayName: Lounge Chair
-#        Tooltip: ""
-#    }
-#
-#    Omelette: {
-#        DisplayName: Omelette
-#        Tooltip:
-#            '''
-#            {$BuffDescription.WellFed2}
-#            'Perfectly cooked'
-#            '''
-#    }
-#
-#    OstrichEgg: {
-#        DisplayName: Ostrich Egg
-#        Tooltip: "{$BuffDescription.WellFed}"
-#    }
-#
-#    DrywoodItem: {
-#        DisplayName: Drywood
-#        Tooltip: ""
-#    }
-#
-#    DrywoodBow: {
-#        DisplayName: Drywood Bow
-#        Tooltip: ""
-#    }
-#
-#    DrywoodBreastplate: {
-#        DisplayName: Drywood Breastplate
-#        Tooltip: ""
-#    }
-#
-#    DrywoodGreaves: {
-#        DisplayName: Drywood Greaves
-#        Tooltip: ""
-#    }
-#
-#    DrywoodHammer: {
-#        DisplayName: Drywood Hammer
-#        Tooltip: ""
-#    }
-#
-#    DrywoodHelmet: {
-#        DisplayName: Drywood Helmet
-#        Tooltip: ""
-#    }
-#
-#    DrywoodSword: {
-#        DisplayName: Drywood Sword
-#        Tooltip: ""
-#    }
-#
-#    HuntingRifle: {
-#        DisplayName: Hunting Rifle
-#        Tooltip: Deals more damage to distant targets and when standing still
-#    }
-#
-#    SafariHat: {
-#        DisplayName: Safari Hat
-#        Tooltip: ""
-#    }
-#
-#    SafariShorts: {
-#        DisplayName: Safari Shorts
-#        Tooltip: ""
-#    }
-#
-#    SafariVest: {
-#        DisplayName: Safari Vest
-#        Tooltip: ""
-#    }
-#
-#    SunStaff: {
-#        DisplayName: Sunrise Scepter
-#        Tooltip: Casts the light of the sun down in front of you
-#    }
-#
-#    SavannaMusicBoxItem: {
-#        DisplayName: Music Box (Savanna)
-#        Tooltip: ""
-#    }
-#
-#    DrywoodBathtubItem: {
-#        DisplayName: Drywood Bathtub
-#        Tooltip: ""
-#    }
-#
-#    DrywoodBedItem: {
-#        DisplayName: Drywood Bed
-#        Tooltip: ""
-#    }
-#
-#    DrywoodBookcaseItem: {
-#        DisplayName: Drywood Bookcase
-#        Tooltip: ""
-#    }
-#
-#    DrywoodCandelabraItem: {
-#        DisplayName: Drywood Candelabra
-#        Tooltip: ""
-#    }
-#
-#    DrywoodCandleItem: {
-#        DisplayName: Drywood Candle
-#        Tooltip: ""
-#    }
-#
-#    DrywoodChairItem: {
-#        DisplayName: Drywood Chair
-#        Tooltip: ""
-#    }
-#
-#    DrywoodClockItem: {
-#        DisplayName: Drywood Clock
-#        Tooltip: ""
-#    }
-#
-#    DrywoodCouchItem: {
-#        DisplayName: Drywood Couch
-#        Tooltip: ""
-#    }
-#
-#    DrywoodDresserItem: {
-#        DisplayName: Drywood Dresser
-#        Tooltip: ""
-#    }
-#
-#    DrywoodLampItem: {
-#        DisplayName: Drywood Lamp
-#        Tooltip: ""
-#    }
-#
-#    DrywoodPianoItem: {
-#        DisplayName: Drywood Piano
-#        Tooltip: ""
-#    }
-#
-#    DrywoodSinkItem: {
-#        DisplayName: Drywood Sink
-#        Tooltip: ""
-#    }
-#
-#    DrywoodTableItem: {
-#        DisplayName: Drywood Table
-#        Tooltip: ""
-#    }
-#
-#    DrywoodToiletItem: {
-#        DisplayName: Drywood Toilet
-#        Tooltip: ""
-#    }
-#
-#    DrywoodWorkBenchItem: {
-#        DisplayName: Drywood Work Bench
-#        Tooltip: ""
-#    }
-#
-#    DrywoodLanternItem: {
-#        DisplayName: Drywood Lantern
-#        Tooltip: ""
-#    }
-#
-#    DrywoodSofaItem: {
-#        DisplayName: Drywood Sofa
-#        Tooltip: ""
-#    }
-#
-#    DrywoodChestItem: {
-#        DisplayName: Drywood Chest
-#        Tooltip: ""
-#    }
-#
-#    DrywoodDoorItem: {
-#        DisplayName: Drywood Door
-#        Tooltip: ""
-#    }
-#
-#    DriftwoodBarrelItem: {
-#        DisplayName: Driftwood Barrel
-#        Tooltip: ""
-#    }
-#
-#    DriftwoodBathtubItem: {
-#        DisplayName: Driftwood Bathtub
-#        Tooltip: ""
-#    }
-#
-#    DriftwoodBedItem: {
-#        DisplayName: Driftwood Bed
-#        Tooltip: ""
-#    }
-#
-#    DriftwoodBenchItem: {
-#        DisplayName: Driftwood Bench
-#        Tooltip: ""
-#    }
-#
-#    DriftwoodBookcaseItem: {
-#        DisplayName: Driftwood Bookcase
-#        Tooltip: ""
-#    }
-#
-#    DriftwoodCandelabraItem: {
-#        DisplayName: Driftwood Candelabra
-#        Tooltip: ""
-#    }
-#
-#    DriftwoodCandleItem: {
-#        DisplayName: Driftwood Candle
-#        Tooltip: ""
-#    }
-#
-#    DriftwoodChairItem: {
-#        DisplayName: Driftwood Chair
-#        Tooltip: ""
-#    }
-#
-#    DriftwoodChandelierItem: {
-#        DisplayName: Driftwood Chandelier
-#        Tooltip: ""
-#    }
-#
-#    DriftwoodClockItem: {
-#        DisplayName: Driftwood Clock
-#        Tooltip: ""
-#    }
-#
-#    DriftwoodDoorItem: {
-#        DisplayName: Driftwood Door
-#        Tooltip: ""
-#    }
-#
-#    DriftwoodDresserItem: {
-#        DisplayName: Driftwood Dresser
-#        Tooltip: ""
-#    }
-#
-#    DriftwoodLampItem: {
-#        DisplayName: Driftwood Lamp
-#        Tooltip: ""
-#    }
-#
-#    DriftwoodPianoItem: {
-#        DisplayName: Driftwood Piano
-#        Tooltip: ""
-#    }
-#
-#    DriftwoodSinkItem: {
-#        DisplayName: Driftwood Sink
-#        Tooltip: ""
-#    }
-#
-#    DriftwoodTableItem: {
-#        DisplayName: Driftwood Table
-#        Tooltip: ""
-#    }
-#
-#    DriftwoodToiletItem: {
-#        DisplayName: Driftwood Toilet
-#        Tooltip: ""
-#    }
-#
-#    DriftwoodWorkBenchItem: {
-#        DisplayName: Driftwood Work Bench
-#        Tooltip: ""
-#    }
-#
-#    HerosMemorialStatueItem: {
-#        DisplayName: A Hero's Memorial
-#        Tooltip: Live on forever
-#    }
-#
-#    DustyFieldsItem: {
-#        DisplayName: Dusty Fields
-#        Tooltip: "'S. Yaki'"
-#    }
-#
-#    OrangeSkiesItem: {
-#        DisplayName: Orange Skies
-#        Tooltip: "'S. Yaki'"
-#    }
-#
-#    StrongWindsItem: {
-#        DisplayName: Strong Winds
-#        Tooltip: "'S. Yaki'"
-#    }
-#
-#    WaningSunItem: {
-#        DisplayName: Waning Sun
-#        Tooltip: "'E. Sibellius'"
-#    }
-#
-#    ScarecrowItem: {
-#        DisplayName: Scarecrow
-#        Tooltip: ""
-#    }
-#
-#    BotanistBody: {
-#        DisplayName: Botanist Apron
-#        Tooltip: ""
-#    }
-#
-#    BotanistHat: {
-#        DisplayName: Sunflower Strawhat
-#        Tooltip: Keeps you happy
-#    }
-#
-#    BotanistLegs: {
-#        DisplayName: Botanist Joggers
-#        Tooltip: 10% increased move speed
-#    }
-#
-#    BeachTowel: {
-#        DisplayName: Beach Towel
-#        Tooltip: "'It keeps you dry, but make sure you don't jump in the water with it on!'"
-#    }
-#
-#    BikiniBottom: {
-#        DisplayName: Bikini Bottom
-#        Tooltip: "'Who needs armor anyways when you can run free in the sun!'"
-#    }
-#
-#    BikiniTop: {
-#        DisplayName: Bikini Top
-#        Tooltip: "'Despite what one may expect, it really doesn't provide any sort of defense.'"
-#    }
-#
-#    SwimmingTrunks: {
-#        DisplayName: Swimming Trunks
-#        Tooltip: "'They don't provide much in the way of defense, but they're undeniably stylish.'"
-#    }
-#
-#    TintedGlasses: {
-#        DisplayName: Tinted Glasses
-#        Tooltip: "'They help sell the look, so it's best to keep them on even when it's dark.'"
-#    }
-#
-#    WheatgrassSeedPouch: {
-#        DisplayName: Wheatgrass Seed Pouch
-#        Tooltip:
-#            '''
-#            Throws a spread of seeds which grow wheatgrass on grass
-#            'Shakes and swishes in your hand'
-#            '''
-#    }
-#
-#    RoyalKhopesh: {
-#        DisplayName: Royal Khopesh
-#        Tooltip: ""
-#    }
-#
-#    SavannaSandstormMusicBoxItem: {
-#        Tooltip: ""
-#        DisplayName: Music Box (Duststorm)
-#    }
-#
-#    FishLure: {
-#        DisplayName: Fish Lure
-#        Tooltip:
-#            '''
-#            {$ItemTooltip.CoralTorch}
-#            Attracts schools of fish to nearby waters
-#            '''
-#    }
-#
-#    DrywoodPlatformItem: {
-#        DisplayName: Drywood Platform
-#        Tooltip: ""
-#    }
-#
-#    SavannaDirtWallItem: {
-#        DisplayName: Coarse Dirt Wall
-#        Tooltip: ""
-#    }
-#
-#    GravelItem: {
-#        DisplayName: Gravel
-#        Tooltip: ""
-#    }
-#
-#    MagmastoneItem: {
-#        DisplayName: Magmastone
-#        Tooltip: ""
-#    }
-#
-#    SavannaCrateHardmode: {
-#        DisplayName: Safari Crate
-#        Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
-#    }
-#
-#    SavannaCrate: {
-#        DisplayName: Grassland Crate
-#        Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
-#    }
-#
-#    MineralSlag: {
-#        DisplayName: Mineral Slag
-#        Tooltip: Can be used at the Extractinator
-#    }
-#
-#    HyenaBannerItem.DisplayName: Hyena Banner
-#    OstrichBannerItem.DisplayName: Ostrich Banner
-#
-#    SavannaCampfireItem: {
-#        DisplayName: Savanna Campfire
-#        Tooltip: "{$ItemTooltip.Campfire}"
-#    }
-#
-#    SavannaFountainItem: {
-#        DisplayName: Savanna Water Fountain
-#        Tooltip: ""
-#    }
-#
-#    DrywoodFenceItem: {
-#        DisplayName: Drywood Fence
-#        Tooltip: ""
-#    }
-#
-#    DrywoodWallItem: {
-#        DisplayName: Drywood Wall
-#        Tooltip: ""
-#    }
-#
-#    ZiplineGun: {
-#        DisplayName: Rail-gun
-#        Tooltip:
-#            '''
-#            Creates a rail at the cursor position to carry players
-#            Rails can be removed when hovered over or by using right click
-#            'Not to be confused with the railgun'
-#            '''
-#        AssistantOn: Right click to enable assistant
-#        AssistantOff: Right click to disable assistant
-#    }
-#
-#    FrostbiteItem: {
-#        DisplayName: Frostbite
-#        Tooltip: Conjures a blizzard in front of you
-#    }
-#
-#    RogueCrest: {
-#        DisplayName: Rogue's Crest
-#        Tooltip:
-#            '''
-#            Summons a rusted sword to fight for you
-#            This sword does not take up minion slots
-#            Occasionally inflicts Open Wounds, causing enemies to bleed when struck with melee or whip attacks
-#            '''
-#    }
-#
-#    GildedScarab: {
-#        DisplayName: Gilded Scarab
-#        Tooltip:
-#            '''
-#            Getting hit provides a temporary buff to defense
-#            Provides more defense based on damage taken
-#            '''
-#    }
-#
-#    SparrowItem: {
-#        DisplayName: Sparrow
-#        Tooltip: ""
-#    }
-#
-#    Blunderbuss: {
-#        DisplayName: Blunderbuss
-#        Tooltip: Fires a wide spread of bullets
-#    }
-#
-#    SafekeeperRing: {
-#        DisplayName: Safekeeper's Ring
-#        Tooltip:
-#            '''
-#            Slightly increases damage dealt against undead
-#            'It gives off an eerie light'
-#            '''
-#    }
-#
-#    PeevedTumblerBannerItem.DisplayName: Peeved Tumbler Banner
-#
-#    LeatherHood: {
-#        DisplayName: Marksman's Hood
-#        Tooltip: Increases critical strike chance by 5%
-#    }
-#
-#    LeatherLegs: {
-#        DisplayName: Marksman's Boots
-#        Tooltip: ""
-#    }
-#
-#    LeatherPlate: {
-#        DisplayName: Marksman's Plate
-#        Tooltip: ""
-#    }
-#
-#    ExplorerTreadsItem: {
-#        DisplayName: Explorer's Treads
-#        Tooltip:
-#            '''
-#            +5% Movement speed for every 10% missing health
-#            50% chance to avoid traps and hazards
-#            'Makes exploring temples a walk in the park'
-#            '''
-#    }
-#
-#    LeatherCloakItem: {
-#        DisplayName: Leather Cloak
-#        Tooltip:
-#            '''
-#            Immunity to mighty wind from sandstorms
-#            Increases movement speed by 5% and run acceleration by 15%
-#            '''
-#    }
-#
-#    CactusStaff: {
-#        DisplayName: Cactus Staff
-#        Tooltip: Summons cactus walls to protect you
-#    }
-#
-#    PearlString: {
-#        DisplayName: Pearl String
-#        Tooltip:
-#            '''
-#            Slain enemies drop more coins
-#            'You feel lucky'
-#            '''
-#    }
-#
-#    DrywoodChandelierItem: {
-#        DisplayName: Drywood Chandelier
-#        Tooltip: ""
-#    }
-#
-#    DriftwoodLanternItem: {
-#        DisplayName: Driftwood Lantern
-#        Tooltip: ""
-#    }
-#
-#    DriftwoodFenceItem: {
-#        DisplayName: Driftwood Fence
-#        Tooltip: ""
-#    }
-#
-#    ArcaneNecklaceGold: {
-#        DisplayName: Arcane Necklace
-#        Tooltip:
-#            '''
-#            Increases maximum mana by 20
-#            Hit enemies may drop mana stars
-#            '''
-#    }
-#
-#    ArcaneNecklacePlatinum: {
-#        DisplayName: "{$ArcaneNecklaceGold.DisplayName}"
-#        Tooltip: "{$ArcaneNecklaceGold.Tooltip}"
-#    }
-#
-#    PinBlue: {
-#        DisplayName: Blue Pin
-#        Tooltip: ""
-#    }
-#
-#    PinGreen: {
-#        DisplayName: Green Pin
-#        Tooltip: ""
-#    }
-#
-#    PinRed: {
-#        DisplayName: Red Pin
-#        Tooltip: ""
-#    }
-#
-#    PinYellow: {
-#        DisplayName: Yellow Pin
-#        Tooltip: ""
-#    }
-#
-#    PinHive: {
-#        DisplayName: Hive Pin
-#        Tooltip: ""
-#    }
-#
-#    PinButterfly: {
-#        DisplayName: Butterfly Pin
-#        Tooltip: ""
-#    }
-#
-#    PinFaeling: {
-#        DisplayName: Faeling Pin
-#        Tooltip: ""
-#    }
-#
-#    PinSavanna: {
-#        DisplayName: Savanna Pin
-#        Tooltip: ""
-#    }
-#
-#    PinCuriosity: {
-#        DisplayName: Curiosity Pin
-#        Tooltip: ""
-#    }
-#
-#    PinSky: {
-#        DisplayName: Sky Pin
-#        Tooltip: ""
-#    }
-#
-#    PinSword: {
-#        DisplayName: Sword Pin
-#        Tooltip: ""
-#    }
-#
-#    TornMapPiece: {
-#        DisplayName: Torn Map Piece
-#        Tooltip: Reveals the surrounding map
-#    }
-#
-#    FashionableBackpack: {
-#        DisplayName: Fashionable Backpack
-#        Tooltip:
-#            '''
-#            {$CommonTooltips.Backpack}
-#            'Sleek, modern, but none the less effective'
-#            '''
-#    }
-#
-#    HikingBackpack: {
-#        DisplayName: Hiking Backpack
-#        Tooltip:
-#            '''
-#            {$CommonTooltips.Backpack}
-#            'Utilitarian, durable, and most of all, comfortable'
-#            '''
-#    }
-#
-#    Minipack: {
-#        DisplayName: Minipack
-#        Tooltip:
-#            '''
-#            {$CommonTooltips.Backpack}
-#            'Small, light, and super compact'
-#            '''
-#    }
-#
-#    PinkPack: {
-#        DisplayName: Pink Pack
-#        Tooltip:
-#            '''
-#            {$CommonTooltips.Backpack}
-#            'The best color, useful, and great visibility at a distance'
-#            '''
-#    }
-#
-#    PouchPack: {
-#        DisplayName: Pouch Pack
-#        Tooltip:
-#            '''
-#            {$CommonTooltips.Backpack}
-#            'Simple, comfy, and prone to spills'
-#            '''
-#    }
-#
-#    DyeCrateItem: {
-#        DisplayName: Dye Crate
-#        Tooltip:
-#            '''
-#            {$CommonItemTooltip.RightClickToOpen}
-#            'It smells...surprisingly pleasant!'
-#            '''
-#    }
-#
-#    SavannaNightMusicBoxItem: {
-#        DisplayName: Music Box (Savanna Night)
-#        Tooltip: ""
-#    }
-#
-#    SavannaPylonItem: {
-#        DisplayName: Savanna Pylon
-#        Tooltip: "{$CommonItemTooltip.TeleportationPylon}"
-#    }
-#
-#    CraneFeather: {
-#        DisplayName: Crane Feather
-#        Tooltip: Increases aerial agility
-#    }
-#
-#    TatteredMap: {
-#        DisplayName: Tattered Map
-#        Tooltip: ""
-#    }
-#
-#    CrescentMelon: {
-#        DisplayName: Crescent Melon
-#        Tooltip:
-#            '''
-#            {$BuffDescription.WellFed}
-#            {$ItemTooltip.ManaRegenerationPotion}
-#            '''
-#    }
-#
-#    MidnightApple: {
-#        DisplayName: Midnight Apple
-#        Tooltip:
-#            '''
-#            {$BuffDescription.WellFed}
-#            {$ItemTooltip.ManaRegenerationPotion}
-#            'Sparkles like the night sky'
-#            '''
-#    }
-#
-#    NightSky: {
-#        DisplayName: Night Sky
-#        Tooltip:
-#            '''
-#            {$BuffDescription.WellFed2}
-#            {$ItemTooltip.ManaRegenerationPotion}
-#            'Tastes like the cosmos'
-#            '''
-#    }
-#
-#    Pearlberry: {
-#        DisplayName: Pearlberry
-#        Tooltip:
-#            '''
-#            {$BuffDescription.WellFed}
-#            {$ItemTooltip.ManaRegenerationPotion}
-#            'Glimmers and shines brightly...'
-#            '''
-#    }
-#
-#    DriftwoodBow: {
-#        DisplayName: Driftwood Bow
-#        Tooltip: ""
-#    }
-#
-#    DriftwoodHammer: {
-#        DisplayName: Driftwood Hammer
-#        Tooltip: ""
-#    }
-#
-#    RemedyPotion: {
-#        DisplayName: Remedy Potion
-#        Tooltip:
-#            '''
-#            Grants immunity to the following effects:
-#            [list]
-#            '''
-#    }
-#
-#    CloudstalkBoxItem: {
-#        DisplayName: Cloudstalk Planter Box
-#        Tooltip: ""
-#    }
-#
-#    OceanSlimeBannerItem.DisplayName: Coconut Slime Banner
-#
-#    OceanDepthsBoxItem: {
-#        DisplayName: Music Box (Ocean Depths)
-#        Tooltip: ""
-#    }
-#
-#    OstrichPants: {
-#        DisplayName: Ostrich Pants
-#        Tooltip: ""
-#    }
-#
-#    CampfireSpit: {
-#        DisplayName: Fire Spit
-#        Tooltip: Can be placed on campfires
-#    }
-#
-#    KillieFishbowl: {
-#        DisplayName: Killie Fishbowl
-#        Tooltip: "'Maybe a bigger bowl next time?'"
-#    }
-#
-#    SparrowCageItem: {
-#        DisplayName: Sparrow Cage
-#        Tooltip: ""
-#    }
-#}
-#
-#MusicDisplay: {
-#    ModName: Spirit Reforged
-#    Salvati: Salvati
-#    Sbubby: Sbubby
-#    BySalvati: "{$By} {$Salvati}"
-#
-#    Duststorm: {
-#        DisplayName: Drifting Prairie (Duststorm Theme)
-#        Author: "{$By} {$Sbubby}"
-#    }
-#
-#    Savanna: {
-#        DisplayName: Savanna
-#        Author: "{$BySalvati}, {$Sbubby}"
-#    }
-#
-#    SavannaNight: {
-#        DisplayName: Savanna Night
-#        Author: "{$BySalvati}"
-#    }
-#
-#    DeepOcean: {
-#        DisplayName: Deep Ocean
-#        Author: "{$BySalvati}"
-#    }
-#}
-#
-#NPCs: {
-#    Crinoid: {
-#        DisplayName: Crinoid
-#        Entry: These curious critters are closely related to starfish. They feed off of whatever sinks down to the bottom of the sea.
-#    }
-#
-#    Pelican: {
-#        DisplayName: Pelican
-#        Entry: A large sea bird with a special beak to hold its prey. Startling it could cause the bird to drop what it's caught, but that would be mean.
-#    }
-#
-#    TinyCrab: {
-#        DisplayName: Palecrab
-#        Entry: These adorable little critters are not as hostile as their larger relatives. Living in deeper waters has made them lose coloration since they have less exposure to sunlight.
-#    }
-#
-#    Tubeworm: {
-#        DisplayName: Tubeworm
-#        Entry: Deep below the glimmering tides, down where the light won't shine, live some fascinating creatures, able to feast off of the smog exuded from hydrothermal vents.
-#    }
-#
-#    SandPiper: {
-#        DisplayName: Sand Piper
-#        Entry: A small, brave bird that patrols the shorelines looking for food uncovered by the waves.
-#    }
-#
-#    Gar: {
-#        DisplayName: Gar
-#        Entry: Gars are keen hunters that normally inhabit freshwater bodies. One must always be on guard when swimming with a gar - they can attack from the side, front, or even the rear.
-#    }
-#
-#    GoldGar: {
-#        DisplayName: Gold Gar
-#        Entry: Only a monster would rip open a rare Gold Gar for their succulent caviar. Only a monster...
-#    }
-#
-#    OceanSlime: {
-#        DisplayName: Coconut Slime
-#        Entry: Look out from above! These tricky slimes reside on the shore, inconspicuously camouflaged as this familiar fruit.
-#    }
-#
-#    DiverZombie: {
-#        Entry: Who knew those oxygen tanks needed to have actual oxygen in them?
-#        DisplayName: Zombie
-#    }
-#
-#    KelpZombie: {
-#        Entry: Fish fear me, women fear me, men fear me, children fear me, for I am the undead.
-#        DisplayName: Zombie
-#    }
-#
-#    SailorZombie: {
-#        Entry: Despite their current status, they used to run this really nice luxury cruiser you should check out sometime.
-#        DisplayName: Zombie
-#    }
-#
-#    TridentZombie: {
-#        Entry: Their trident clearly didn't do them much good in life. It's still quite pointy, so watch out.
-#        DisplayName: Zombie
-#    }
-#
-#    Killifish: {
-#        DisplayName: Killifish
-#        Entry: True to their name, Killifish are known for their one defining trait, getting killed. Their gorgeous, iridescent scales are there too.
-#    }
-#
-#    GoldKillifish: {
-#        DisplayName: Gold Killifish
-#        Entry: Bright gold scales do not help with Killifish's woes.
-#    }
-#
-#    Termite: {
-#        DisplayName: Termite
-#        Entry: These little bugs swarm together to build massive nests with complex tunnels. They have an acquired taste for the dry, crunchy wood of the Savanna.
-#    }
-#
-#    SavannaSandSlime: {
-#        DisplayName: Sand Slime
-#        Entry: Slightly more leafy, a little less sandy, all the same danger.
-#    }
-#
-#    PeevedTumbler: {
-#        DisplayName: Peeved Tumbler
-#        Entry: Life isn't easy in the Savanna...but it's also not too bad. Hey, you'd be annoyed if you had sand in your eyes too.
-#    }
-#
-#    Sparrow: {
-#        Entry: Much like its forest cousin, the world-famous Bird, Sparrows are simple. They fly about, picking at termites and enjoying the Savanna air.
-#        DisplayName: Sparrow
-#    }
-#
-#    SafariZombie: {
-#        DisplayName: "{$NPCName.Zombie}"
-#        Entry: On the bright side, if you're already undead, snakes can't do anything to you.
-#    }
-#
-#    TumbleZombie: {
-#        DisplayName: "{$NPCName.Zombie}"
-#        Entry: Under the undead facade, under all that blood and branch and bile, there lies a heartwarming story of a Tumbler and a Zombie becoming friends in the most unlikely of situations.
-#    }
-#
-#    Hyena: {
-#        DisplayName: Hyena
-#        Entry: A mischevious sort, the Hyena hunt in packs, aiming for weak wildlife. With Terrarians, however, they run rather than confront.
-#    }
-#
-#    Ostrich: {
-#        DisplayName: Ostrich
-#        Entry: While not one to take flight, the Ostrich enjoys deceptively fast land speeds regardless. Thankfully, they use that to scrounge for worms instead of for you.
-#    }
-#
-#    ButterflyCritter: {
-#        DisplayName: Ethereal Butterfly
-#        Entry: Perhaps, if you look into the night sky, you'll find them among the stars as well. They flutter in a dance as ephemeral as their bodies.
-#    }
-#
-#    SavannaJungleSlime: {
-#        DisplayName: Jungle Slime
-#        Entry: It's gobbled up some flowers! Almost too cute to kill...
-#    }
-#
-#    Cartographer: {
-#        DisplayName: Cartographer
-#        Buttons.Map: Map
-#
-#        Names: {
-#            0: Soleana
-#            1: Kyra
-#            2: Jesse
-#            3: '''"Clumsy"'''
-#            4: Wynn
-#            5: Nessa
-#        }
-#
-#        Dialogue: {
-#            0: Mapping's tough work. Sometimes you lose your place, and... wait.
-#            1: Say, you got any nice, hardy paper on you? I've done plumb run out.
-#            2: Gosh... dropping a pin on the ground is a bad time. Especially the brown ones.
-#            3: Hey, do you have a map? Mind if I take a look? Better be well kept!
-#            4: Finding the way once is luck. Finding the way twice takes a good map.
-#
-#            Map: {
-#                FloatingIsland: {
-#                    0: Let's see... it was right here! A cute little floating island I found. How'd I get there? Well, let's just say harpies can carry you WAY farther than you'd expect.
-#                    1: Take a look here. Waaay up there! Got up to some mischief a while back, and ended up in the sky! I think there was some treasure, but I was a little too preoccupied thinking of how to get down.
-#                    2: Check this spot out! I found an island in the sky a few weeks ago, it was cool but the neighbours were annoying! Hope you find something there that I couldn't.
-#                }
-#
-#                EnchantedSword: {
-#                    0: I found something... here! It was down a narrow tunnel; wouldn't you believe it, a sword in the stone, just like the legends say! I got cold feet and shied away though, I ain't worthy.
-#                    1: Aha! Here's the spot. It looks unassuming, but there's a mighty looking sword hidden under the ground. I would have taken it, but my pockets were full of rare mushrooms and mapping paper.
-#                    2: Here we are! Dunno how it got there, but I found a sword embedded in stone. Like that one legend...King Arthur was it? I don't mess with strange weapons though; maybe that's more your thing.
-#                }
-#
-#                Shimmer: {
-#                    0:
-#                        '''
-#                        Where was it...there it is! I was hikin' down a dark, and dangerous cave. And what do I see on the horizon? A brilliant, shimmering pink glow. Truly gorgeous.
-#                        You know what that means in nature? Stay away. So I did.
-#                        '''
-#                    1:
-#                        '''
-#                        Um... I think it was around here. Tripped and hit my head on my way back from the ocean. When I woke up, fae little critters had taken me to this strange, and unusual place. 
-#                        I don't remember much after that, but I did start freaking out. Those faelings took me out of there in a hurry.
-#                        '''
-#                    2:
-#                        '''
-#                        Here it is. You ever seen water? Imagine that, but it glows like the night sky. An out-of-this world purple. 
-#                        Don't recommend drinking it, it makes your body feel fake. I don't know how to explain it. Trust me on this one.
-#                        '''
-#                }
-#
-#                Savanna: {
-#                    0:
-#                        '''
-#                        There we go, pin's on the house. I was up to the usual. Taking my morning walk and visiously punching trees to get apples. After punching a couple of trees, 
-#                        I look up. Somehow, a whole prairie snuck up on me. I went back to punching trees after a few moments.
-#                        '''
-#                    1:
-#                        '''
-#                        Take a look over here. You ever just walk straight ahead, staring right at the ground? You shouldn't. But a bit ago when I did, I saw the grass slowly go from a nice vibrant green to a sickly green. 
-#                        I look up; the largest grass I've ever seen. Thick as hell, too. So what'd I do? Well...I walked away. WAY too much work to walk in.
-#                        '''
-#                    2:
-#                        '''
-#                        So a while ago I was seeing how quickly I could run from jungle bats, right? And the boom, right over here on the map, the air gets real dusty. A savanna sprawls out in front of me. What a sight!
-#                        And just for the record, I found out that I can run REAL quick when I need to.
-#                        '''
-#                }
-#
-#                Hive: {
-#                    0: Pin goes...here. On the low, I don't recommend that jungle place. It's ROUGH. But when you see one of those big hives, there's honey nearby. And that's a treat worth many stings.
-#                    1: There you go! Um...I'll be real. Sometimees you'll strike liquid gold and it's STILL not worth investing in. Nasty bees... keep it hike, not business.
-#                    2: If you take a look right... here, you'll find something you may be interested in. I'll keep this short though, stingers hurt. Be prepared.
-#                }
-#
-#                Curiosity: {
-#                    0:
-#                        '''
-#                        Here you are. Y'know, I wander a lot. Seeing the sights, thinking out loud.. well, none of that matters when the dirt kisses my face as I fall. 
-#                        I tripped over something on the ground over here, but I couldn't tell you what it was. I was way too furious to look.
-#                        '''
-#                    1:
-#                        '''
-#                        I think it was...here? Close enough. You come across lots of interesting things when exploring as much as I do. Sometimes, you see something that's worth checking out.
-#                        If I was you i'd make a break for it. Who knows, someone else might find it before you!
-#                        '''
-#                    2:
-#                        '''
-#                        Take a look around here. I'm a mapper, right? I map. And sometimes I lose track of all my pins... well I pinned this here map, and plumb forgot why I did it.
-#                        Well after going all the way there, and coming all the way back, I forgot all over again. You can have it instead, maybe i'm just forgetful but I don't want no cursed doohickey.
-#                        '''
-#                }
-#
-#                ButterflyShrine: {
-#                    0:
-#                        '''
-#                        Check out this spot right here. It was a cold and eerie night, a hefty breeze done pulled my maps right out from my backpack.
-#                        I dropped to the ground to retrieve my precious handiwork, when I saw it. A little pinhole sized hole in the ground, and it was glowing purple! I don't think i'm gonna go messing with that, but you seem like the brave adventurous type.
-#                        '''
-#                    1:
-#                        '''
-#                        Right here, at this point on the map! I don't know how to preface this, but you ever get those little floaties in your eye? Little lights you can't explain?
-#                        You'd better not laugh, but I swear i've seen little pink butterflies hanging around this spot. But they ain't real! I tried to catch em' but they're made of light, I can't explain it!
-#                        '''
-#                    2: This here pins where it happened. I've tripped over a few holes in my day. But never in my days have I seen one glowing purple. That's some hocus pocus nonsense that I don't want any part of, keep on walking.
-#                }
-#
-#                FirstPin: I've added this here pin to your "Pin collection". You can access it any time from the bottom left corner of your map.
-#            }
-#        }
-#
-#        Entry: A peculiar mix of passionate explorer and abysmally clumsy, the Cartographer goes to places that...well, almost no one's explored. Sometimes, it's about being safe, not novel.
-#    }
-#
-#    Hiker: {
-#        DisplayName: Hiker
-#
-#        Buttons: {
-#            Feed: Feed
-#            Supplies: Supplies
-#            Silver: 20 silver
-#        }
-#
-#        Dialogue: {
-#            Hungry: {
-#                Asking: {
-#                    0: Hey there stranger, care to share in some snacking? If you can lend me a {0} then I may have somthing nice for you too.
-#                    1: You ever leave the house, and THEN realize you're hungry? I wish I didn't... could you spare me a {0}?
-#                    2: A long uphill hike really takes it out of you. I'm so beat, I could go for some {0}... help a guy out?
-#                    3: I went through my last protein bar a whole fourty-five minutes ago, I'm on my last legs here. Could you spare one of your {0}?
-#                }
-#
-#                Thanks: {
-#                    0: Thanks friend, I can always count on generous strangers. Take some supplies, from one stranger to another!
-#                    1: Bahaha, that hits the spot! A good snack always makes me feel generous, have some supplies on the house.
-#                    2: Hey, thanks a million. Here friend, take a pack for free.
-#                    3: Nothing hits quite like a meal after a long hike. Prices are off pal, take a pack. It's free!
-#                }
-#            }
-#
-#            Idle: {
-#                0: Nothing quite like a long hike down into caves. Up until you're covered in nasty cobwebs. Kinda kills the mood.
-#                1: My old pal used to grab Blinkroot to explore instead of using torches. "Safer", he said. Odd guy. Wonder what happened to him.
-#                2: You ever use pins? They're really useful. And old friend carried them around everywhere...last I saw she was "learning how to get on those floating islands." Tough job, huh?
-#                3: Sometimes I pass by a faerie, and they guide me to gold or platinum. I always act excited, but I don't have a pickaxe. I hope they appreciate it.
-#                4: You always carry some extra supplies if you're smart. But my back is killing me, I brought way too much... i'll trade ya', if you've got some change burning a hole on your pocket, bahaha!
-#            }
-#
-#            Purchase: {
-#                0: Hey, That's a load off my back! I'll trade a stiff back for heavy pockets any day.
-#                1: Bahaha, much obliged pal! People always ask me, "Where the heck do you keep all your stuff?" but I don't ask you your business!
-#                2: Well met stranger! Nothing makes a strong connection like a good trade.
-#                3: Enjoy the extra space! I've heard if you put a bunch of Angel Statues - yes entire statues - in your bag, something crazy happens.
-#                4: Thanks for the trade! I'd stop and smell the flowers, but there are some crazy plants out there. Be careful!
-#            }
-#
-#            FailPurchase: {
-#                0: Sorry, you'll need to show a little more coin before I can call this a trade. Unless some spare food is burning a hole in your pockets, bahaha!
-#                1: Alas, my supplies stay with me. Come back with a little more coin. It'll be worth your time! And it'll save me some carry.
-#                2: No can do, partner. I'm not here to barter. I'm just a little overprepared, that's all. I'm a little light on snacks though...
-#            }
-#        }
-#
-#        Name: {
-#            0: Gary
-#            1: Shawn
-#            2: Geo
-#            3: Geoff
-#            4: Rocky
-#            5: Porter
-#        }
-#
-#        Entry: Jovial, easy going, deceptively strong - the Hiker knows his way around just about everywhere. The Jungle? Piece of cake. Deserts? Underground Tundra? Slide away. Space? Don't know how...but he'll get up there.
-#    }
-#
-#    HideZombieBig: {
-#        DisplayName: "{$NPCName.Zombie}"
-#        Entry: Hyenas have to hide from hide zombies or have their hides hijacked.
-#    }
-#
-#    HideZombieSmall: {
-#        DisplayName: "{$NPCName.Zombie}"
-#        Entry: Their outfit is all the vogue in latest undead fashion.
-#    }
-#}
-#
-#Origins: {
-#    Diver: {
-#        DisplayName: Diver
-#        Flavor: After a rough spill, the Diver is ready to start in a new land, eager to see new waters.
-#        Description: Starts with full Diver vanity, flippers and a Pendant of the Ocean.
-#    }
-#
-#    Botanist: {
-#        DisplayName: Botanist
-#        Flavor: A herbologist, if you will. Very skilled with gathering and using herbs.
-#        Description: Starts with a full Botanist set, a sickle, and a couple of herb bags, at a Scarecrow.
-#    }
-#
-#    Recluse: {
-#        DisplayName: Recluse
-#        Flavor: For them, it's easier to hole up deep underground where no one will bother them. Fishin's better down here!
-#        Description: Starts with a full Botanist set, a sickle, and a couple of herb bags.
-#    }
-#
-#    Hunter: {
-#        DisplayName: Hunter
-#        Flavor: Wild game is their game. Much like the animals in the Savanna, the hunt is everything.
-#        Description: Starts with a Hunter's Rifle, some ammo and Safari vanity in a Savanna.
-#    }
-#
-#    Hiker: {
-#        DisplayName: Hiker
-#        Flavor: Exploration fuels enjoyment, and they've got the supplies to boot.
-#        Description: Starts with 60 Torches, 30 Glowsticks, 150 Ropes atop the highest hill.
-#    }
-#}
-#
-#SetBonuses: {
-#    Cascade:
-#        '''
-#        Dealing damage to enemies builds up a bubble shield,
-#        which at full size grants heavy damage resistance against the next attack,
-#        damaging and knocking back nearby enemies
-#        '''
-#    Driftwood:
-#        '''
-#        Allows the wearer to float on water
-#        Increased fishing power
-#        '''
-#    Drywood: Increased movement speed on the surface
-#    Botanist:
-#        '''
-#        You gain increased rewards from herbs of all kinds
-#        You have a powerful eye for spotting herbs
-#        '''
-#    Marksman:
-#        '''
-#        Wearing Marksman's Armor builds up concentration
-#        While concentrated, your next strike is a critical strike and deals more damage
-#        Concentration is disrupted when hurt, but charges faster while standing still
-#        '''
-#}
-#
-#Tiles: {
-#    SunkenTreasureTile.MapEntry: "{$Items.SunkenTreasure.DisplayName}"
-#    HydrothermalVent.MapEntry: Hydrothermal Vent
-#    CoralMapEntry: Coral
-#    KelpMapEntry:"{$Items.Kelp.DisplayName}"
-#    GarInAJar_Tile.MapEntry: "{$Items.GarInAJar.DisplayName}"
-#    CloudstalkTile.MapEntry: "{$Items.Cloudstalk.DisplayName}"
-#    SmallDriftwoodTile.MapEntry: "{$Items.SmallDriftwoodItem.DisplayName}"
-#    MediumDriftwoodTile.MapEntry: "{$Items.MediumDriftwoodItem.DisplayName}"
-#    LargeDriftwoodTile.MapEntry: "{$Items.LargeDriftwoodItem.DisplayName}"
-#    BambooBirdCage.MapEntry: "{$Items.BambooBirdCageItem.DisplayName}"
-#    KoiTotemTile.MapEntry: "{$Items.KoiTotem.DisplayName}"
-#    HerosMemorialStatue.MapEntry: "{$Items.HerosMemorialStatueItem.DisplayName}"
-#    TermiteJar_Tile.MapEntry: "{$Items.TermiteJar.DisplayName}"
-#    GarInAJarTile.MapEntry: "{$Items.GarInAJar.DisplayName}"
-#    KillieFishbowlTile.MapEntry: "{$Items.KillieFishbowl.DisplayName}"
-#}
+Buffs: {
+    EmpoweredSwim: {
+        DisplayName: Усиленное плавание
+        Description: Вы чувствуете себя гораздо быстрее в воде
+    }
+
+    MantarayBuff: {
+        DisplayName: Скат-спасатель
+        Description: Стремительный, как прилив!
+    }
+
+    JellyfishMinion_Buff: {
+        DisplayName: Медуза
+        Description: За вас сражается очаровательная и прыгучая медуза
+    }
+
+    JellyfishBuff: {
+        DisplayName: Дружественная медуза
+        Description: Эта энергичная медуза обожает сопровождать вас повсюду
+    }
+
+    DoubleJumpPotionBuff: {
+        DisplayName: Эфирный прыжок
+        Description: Временно даёт дополнительный прыжок
+    }
+
+    FlightPotionBuff: {
+        DisplayName: Парение
+        Description: Время полёта увеличено на 25%
+    }
+
+    BottleMountBuff: {
+        DisplayName: Плот
+        Description: Посылает сигнал бедствия
+    }
+
+    FairyMinion_Buff: {
+        DisplayName: Феи
+        Description: Эй! Берегись!
+    }
+
+    Impaled: {
+        DisplayName: Пронзён
+        Description: Вас пронзили пикой. Ай!
+    }
+
+    KoiTotemBuff: {
+        DisplayName: Тотем парчового карпа
+        Description: Навык рыбной ловли увеличен
+    }
+
+    ButterflyMinion_Buff: {
+        DisplayName: Эфирная бабочка
+        Description: За вас сражается эфирная бабочка
+    }
+
+    ToucanMinion_Buff: {
+        DisplayName: Тукан
+        Description: За вас сражается тукан
+    }
+
+    QuenchPotion_Buff: {
+        DisplayName: Продление
+        Description: Длительность действия остальных зелий увеличена на 25%
+    }
+
+    TumblerPetBuff: {
+        DisplayName: Безразличное перекати-поле
+        Description: За вами следует дружелюбное перекати-поле
+    }
+
+    Frozen: {
+        DisplayName: Замёрзший
+        Description: Скорость передвижения врагов снижена
+    }
+
+    GildedScarabBuff: {
+        DisplayName: Щит скарабея
+        Description: Защита увеличена на {0}
+    }
+
+    PoolNoodleBubbleBuff: {
+        DisplayName: Пузырь аквапалки
+        Description: Вы нашли секретный кодекс знаний... ожидайте появления нашего супербосса Сталемрака, Падшей звезды!
+    }
+
+    ExplorerSpeed: {
+        DisplayName: Скорость исследователя
+        Description: Ваша скорость значительно увеличена
+    }
+
+    RemedyPotionBuff: {
+        DisplayName: Исцеление
+        Description: Невосприимчивость к некоторым негативным эффектам
+    }
+
+    OpenWounds: {
+        DisplayName: Открытые раны
+        Description: Вы подвержены кровотечению
+    }
+}
+
+Configs: {
+    ReforgeClientConfig: {
+        DisplayName: Клиентская конфигурация Reforge
+
+        OceanShape: {
+            Label: Форма океана
+            Tooltip:
+                '''
+                Определяет способ генерации океана.
+                По умолчанию используется генерация типа «Кусочная_V».
+                Генерация «Кусочная_V» рекомендуется для прохождений с модом Spirit.
+                '''
+        }
+
+        SurfaceWaterTransparency: {
+            Label: Прозрачность воды на поверхности
+            Tooltip:
+                '''
+                При включении этой настройки делает воду в океане прозрачной.
+                Не влияет на другие биомы.
+                '''
+        }
+    }
+
+    OceanShape: {
+        Tooltip: ""
+        Default.Label: Стандартная
+        SlantedSine.Label: Наклонная синусоида
+        Piecewise.Label: Кусочная
+        Piecewise_M.Label: Кусочная_M
+        Piecewise_V.Label: Кусочная_V
+    }
+
+    ReforgedServerConfig: {
+        DisplayName: Серверная конфигурация Reforge
+
+        VentCritters: {
+            Label: Живность возле гидротермальных источников
+            Tooltip:
+                '''
+                При включении этой настройки вокруг гидротермальных источников появляется живность.
+                Она не влияет на частоту появления обычных врагов, но учитывается в общем лимите НИПов.
+                '''
+        }
+
+        MaxFloatingItemCount: {
+            Label: Лимит плавающих предметов
+            Tooltip: Определяет максимальное количество плавающих предметов, которые могут одновременно существовать в мире.
+        }
+    }
+}
+
+Generation: {
+    Discoveries: Добавление новых открытий...
+    Stargrass: Выращивание звёздной травы...
+    HerosMemorial: Установка памятника герою...
+    Butterfly: Скрытие святилищ бабочек...
+    FishingCoves: Добавление рыболовных мест...
+    PopulateOcean: Заселение океана...
+    Gravel: Размещение гравия...
+    SavannaTerrain: Создание плато...
+    SavannaObjects: Заселение саванны...
+    Ecotones: Картографирование переходных зон...
+}
+
+Biomes: {
+    SavannaBiome: {
+        DisplayName: Саванна
+        TownNPCDialogueName: Саванна
+    }
+}
+
+SlotContexts.Backpack: Рюкзак
+Conditions.InSavanna: В Саванне
+
+Misc: {
+    Pins: {
+        Move: Переместить закрепку
+        Obtained: У вас уже есть эта закрепка
+        UseItem: Нажмите ПКМ, чтобы добавить эту закрепку в коллекцию
+    }
+
+    NoStock: Нет в наличии
+    GraveText: <wavy>Текст старый и выцветший; вы не можете разобрать, что здесь написано.
+    MenuButton: Использовать тему меню
+}
+
+DamageSources: {
+    Impaling: {
+        0: Игрок {0} был пронзён насквозь.
+        1: Игрок {0} был насажен на кол.
+    }
+}
+
+GameTips: {
+    ReforgedTip0: Spirit Reforged: Всегда носите с собой еду - никогда не знаешь, когда она пригодится!
+    ReforgedTip1: Spirit Reforged: Изредка в подземных рощах можно встретить бабочек.
+    ReforgedTip2: Spirit Reforged: Закрепки очень полезны! Проверьте свой инвентарь закрепок в левом нижнем углу карты.
+    ReforgedTip3: Spirit Reforged: Животных саванны нельзя поймать сачком.
+    ReforgedTip4: Spirit Reforged: Рюкзаки. Теперь у вас больше места для вещей.
+    ReforgedTip5: Spirit Reforged: В чернильной пустоте океана скрыто множество сокровищ.
+    ReforgedTip6: Spirit Reforged: Звёздная трава дарит приятное облегчение в ночной темноте.
+    ReforgedTip7: Spirit Reforged: Облачник всегда растёт под облаками.
+    ReforgedTip8: Spirit Reforged: На верхушки акаций можно встать, если вам нужно забраться повыше.
+    ReforgedTip9: Spirit Reforged: Время от времени на поверхности океана всплывают случайные предметы - проверяйте почаще!
+}
+
+Items: {
+    CommonTooltips: {
+        Backpack:
+            '''
+            Вмещает 4 предмета
+            Перед снятием необходимо освободить
+            '''
+        Shimmerable: "Преобразуется в мерцании в: {0}"
+    }
+
+    Kelp: {
+        DisplayName: Ламинария
+        Tooltip: Должна быть посажена в воде
+    }
+
+    PirateChestItem: {
+        DisplayName: Пиратский сундук
+        Tooltip: ""
+    }
+
+    PirateKey: {
+        DisplayName: Секретный ключ
+        Tooltip: "'Пираты наверняка где-то спрятали сокровища...'"
+    }
+
+    RawFish: {
+        DisplayName: Сырая рыба
+        Tooltip:
+            '''
+            {$BuffDescription.WellFed}
+            'Можно съесть... но, может, сначала приготовить?'
+            '''
+    }
+
+    SunkenTreasure: {
+        DisplayName: Затонувшее сокровище
+        Tooltip:
+            '''
+            {$CommonItemTooltip.RightClickToOpen}
+            'Возможно, в нём до сих пор полно ценных сокровищ'
+            '''
+    }
+
+    DriftwoodItem: {
+        DisplayName: Коряга
+        Tooltip: ""
+    }
+
+    MusselItem: {
+        DisplayName: Мидия
+        Tooltip: ""
+    }
+
+    CrinoidItem: {
+        DisplayName: Морская лилия
+        Tooltip: ""
+    }
+
+    PelicanItem: {
+        DisplayName: Пеликан
+        Tooltip: ""
+    }
+
+    SandPiperItem: {
+        DisplayName: Песочник
+        Tooltip: ""
+    }
+
+    TinyCrabItem: {
+        DisplayName: Бледный краб
+        Tooltip: ""
+    }
+
+    TubewormItem: {
+        DisplayName: Трубочник
+        Tooltip: ""
+    }
+
+    CascadeChestplate: {
+        DisplayName: Нагрудник покорителя рифов
+        Tooltip: Увеличивает сопротивление к отбрасыванию на 50%
+    }
+
+    CascadeHelmet: {
+        DisplayName: Шлем покорителя рифов
+        Tooltip: Позволяет дышать под водой
+    }
+
+    CascadeLeggings: {
+        DisplayName: Поножи покорителя рифов
+        Tooltip: Увеличивает скорость передвижения под водой на 15%
+    }
+
+    JellyfishStaff: {
+        DisplayName: Посох медузы
+        Tooltip: Призывает крошечную медузу, которая сражается за вас
+    }
+
+    Lifesaver: {
+        DisplayName: Спасательный круг
+        Tooltip:
+            '''
+            Призывает ездового ската-манту
+            Скат-манта не может передвигаться по суше, но умеет парить над жидкостями
+            '''
+    }
+
+    ClawCannon: {
+        DisplayName: Клешнепушка
+        Tooltip: ""
+    }
+
+    IridescentScale: {
+        DisplayName: Радужная чешуя
+        Tooltip: "'Ослепительно сверкает под водой'"
+    }
+
+    OceanPendant: {
+        DisplayName: Сокровище морских жителей
+        Tooltip: Значительно улучшает передвижение под водой
+    }
+
+    ReefSpear: {
+        DisplayName: Пронзатель рифов
+        Tooltip: Нажмите <right>, чтобы бросить трезубец, усиливая урон основной атаки
+    }
+
+    SkullSentry: {
+        DisplayName: Череп-людоед
+        Tooltip: Призывает череп, заражённый червями-людоедами, которые выплёскивают красную слизь на ближайших врагов
+    }
+
+    UrchinStaff: {
+        DisplayName: Метатель морских ежей
+        Tooltip: ""
+    }
+
+    GarInAJar: {
+        DisplayName: Панцирная щука в банке
+        Tooltip: ""
+    }
+
+    GarItem: {
+        DisplayName: Панцирная щука
+        Tooltip: ""
+    }
+
+    SavannaDirtItem: {
+        DisplayName: Плотная земля
+        Tooltip: ""
+    }
+
+    GoldGarItem: {
+        DisplayName: Золотая панцирная щука
+        Tooltip: ""
+    }
+
+    Sushi: {
+        DisplayName: Суши
+        Tooltip:
+            '''
+            {$BuffDescription.WellFed}
+            Позволяет дышать под водой
+            'Холодные и свежие!'
+            '''
+    }
+
+    Nigiri: {
+        DisplayName: Нигири
+        Tooltip:
+            '''
+            {$BuffDescription.WellFed}
+            Позволяет свободно передвигаться в воде
+            'Идеальная нарезка'
+            '''
+    }
+
+    HoneySalmon: {
+        DisplayName: Лосось в медовой глазури
+        Tooltip:
+            '''
+            {$BuffDescription.WellFed}
+            'Идеальное сочетание сладкого и солёного!'
+            '''
+    }
+
+    FishChips: {
+        DisplayName: Рыба и картофель фри
+        Tooltip: "{$BuffDescription.WellFed}"
+    }
+
+    CrystalFish: {
+        DisplayName: Кристаллизованный лосось
+        Tooltip:
+            '''
+            {$BuffDescription.WellFed2}
+            Увеличивает магическую силу
+            '''
+    }
+
+    RawMeat: {
+        DisplayName: Сырое мясо
+        Tooltip:
+            '''
+            {$BuffDescription.WellFed}
+            'Можно съесть... но, может, сначала приготовить?'
+            '''
+    }
+
+    CookedMeat: {
+        DisplayName: Жареное мясо
+        Tooltip:
+            '''
+            {$BuffDescription.WellFed}
+            'Идеально прожарено'
+            '''
+    }
+
+    GoldenCaviar: {
+        DisplayName: Золотая икра
+        Tooltip:
+            '''
+            {$BuffDescription.WellFed3}
+            'Вершина гастрономии'
+            '''
+    }
+
+    GarBannerItem.DisplayName: Знамя панцирной щуки
+
+    CoconutMilk: {
+        DisplayName: Кокосовое молоко
+        Tooltip:
+            '''
+            {$BuffDescription.WellFed}
+            'Стакан не нужен!'
+            '''
+    }
+
+    DiverBody: {
+        DisplayName: Древний нагрудник водолаза
+        Tooltip: ""
+    }
+
+    DiverHead: {
+        DisplayName: Древний шлем водолаза
+        Tooltip: ""
+    }
+
+    DiverLegs: {
+        DisplayName: Древние штаны водолаза
+        Tooltip: ""
+    }
+
+    SailorCap: {
+        DisplayName: Матросская фуражка
+        Tooltip: "'Все на борт!'"
+    }
+
+    StrippedBambooItem: {
+        DisplayName: Очищенный бамбук
+        Tooltip: ""
+    }
+
+    BambooBarrelItem: {
+        DisplayName: Бамбуковая бочка
+        Tooltip: ""
+    }
+
+    BambooBenchItem: {
+        DisplayName: Бамбуковая скамья
+        Tooltip: ""
+    }
+
+    BambooBirdCageItem: {
+        DisplayName: Бамбуковая клетка для птиц
+        Tooltip: Некоторых птиц можно поместить внутрь, нажав <right>
+    }
+
+    BambooPikeItem: {
+        DisplayName: Бамбуковая пика
+        Tooltip: ""
+    }
+
+    BambooPotItem: {
+        DisplayName: Бамбуковый горшок
+        Tooltip: ""
+    }
+
+    SteamedMussels: {
+        DisplayName: Мидии на пару
+        Tooltip:
+            '''
+            {$BuffDescription.WellFed}
+            'Свежие и восхитительные'
+            '''
+    }
+
+    JellyCandle: {
+        DisplayName: Медузья свеча
+        Tooltip: Призывает парящую медузу, которая будет следовать за вами
+    }
+
+    SmallDriftwoodItem: {
+        DisplayName: Маленькая коряга
+        Tooltip: "'Эстетично'"
+    }
+
+    MediumDriftwoodItem: {
+        DisplayName: Средняя коряга
+        Tooltip: "'Эстетично'"
+    }
+
+    LargeDriftwoodItem: {
+        DisplayName: Большая коряга
+        Tooltip: "'Эстетично'"
+    }
+
+    DriftwoodChestplate: {
+        DisplayName: Нагрудник из коряги
+        Tooltip: ""
+    }
+
+    DriftwoodHelmet: {
+        DisplayName: Шлем из коряги
+        Tooltip: ""
+    }
+
+    DriftwoodLeggings: {
+        DisplayName: Поножи из коряги
+        Tooltip: ""
+    }
+
+    DriftwoodPlatformItem: {
+        DisplayName: Платформа из коряги
+        Tooltip: ""
+    }
+
+    DriftwoodSword: {
+        DisplayName: Меч из коряги
+        Tooltip: ""
+    }
+
+    DriftwoodWallItem: {
+        DisplayName: Стена из коряги
+        Tooltip: ""
+    }
+
+    Cloudstalk: {
+        DisplayName: Облачник
+        Tooltip: "'Чаще всего встречается высоко в небе'"
+    }
+
+    CloudstalkSeed: {
+        DisplayName: Семена облачника
+        Tooltip: ""
+    }
+
+    DoubleJumpPotion: {
+        DisplayName: Зелье зефира
+        Tooltip: Временно позволяет совершать двойной прыжок
+    }
+
+    FlightPotion: {
+        DisplayName: Зелье парения
+        Tooltip: Увеличивает время полёта на 25%
+    }
+
+    HangingCloudstalkItem: {
+        DisplayName: Висячий облачник
+        Tooltip: ""
+    }
+
+    FloatingDriftwood: {
+        DisplayName: Плавучая коряга
+        Tooltip: ""
+    }
+
+    FishCrate: {
+        DisplayName: Ящик с припасами
+        Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+    }
+
+    Ambergris: {
+        DisplayName: Амбра
+        Tooltip:
+            '''
+            Крайне ценный ресурс
+            'Лучше вам не знать, откуда она берётся'
+            '''
+    }
+
+    MessageBottle: {
+        DisplayName: Бутылка с посланием
+        Tooltip:
+            '''
+            Призывает плот в качестве средства передвижения
+            Увеличивает навык рыбной ловли, пока вы на плоту
+            '''
+    }
+
+    GoldKillifishItem: {
+        DisplayName: Золотая смертоноска
+        Tooltip: ""
+    }
+
+    KillifishItem: {
+        DisplayName: Смертоноска
+        Tooltip: ""
+    }
+
+    KillifishBannerItem.DisplayName: Знамя смертоноски
+
+    BambooHalberd: {
+        DisplayName: Бамбуковая алебарда
+        Tooltip: ""
+    }
+
+    BambooKendoBlade: {
+        DisplayName: Бамбуковый синай
+        Tooltip: Нажмите <right>, чтобы совершить рывок вперёд
+    }
+
+    KoiTotem: {
+        DisplayName: Тотем парчового карпа
+        Tooltip:
+            '''
+            Увеличивает навык рыбной ловли, если размещён поблизости
+            Периодически восполняет последнюю использованную наживку
+            '''
+    }
+
+    FairyWhistle: {
+        DisplayName: Волшебный свисток
+        Tooltip: Призывает защитную фею, которая кружит вокруг вас
+    }
+
+    TermiteItem: {
+        DisplayName: Термит
+        Tooltip: ""
+    }
+
+    StarPowder: {
+        DisplayName: Звёздный порошок
+        Tooltip: Бросьте на траву, чтобы наполнить её звёздным светом!
+    }
+
+    TermiteJar: {
+        DisplayName: Банка с термитами
+        Tooltip: "'Экологический кошмар'"
+    }
+
+    ButterflyStaff: {
+        DisplayName: Посох эфирной бабочки
+        Tooltip:
+            '''
+            Призывает магическую бабочку, которая сражается за вас
+            'Создан из безупречного цветка сакуры'
+            '''
+    }
+
+    PoolNoodle: {
+        DisplayName: Аквапалка
+        Tooltip:
+            '''
+            3 урона от метки призывателя
+            {$CommonItemTooltip.Whips}
+            Поражённые враги могут выпускать пузырчатые взрывы при атаке миньонов
+            '''
+    }
+
+    ToucaneItem: {
+        DisplayName: Тукан
+        Tooltip: Призывает разъярённого тукана, который сражается за вас
+    }
+
+    QuenchPotion: {
+        DisplayName: Зелье продления
+        Tooltip: Увеличивает длительность действия остальных зелий на 25%
+    }
+
+    LivingBaobabLeafWallItem: {
+        DisplayName: Стена из живых листьев баобаба
+        Tooltip: ""
+    }
+
+    LivingBaobabWallItem: {
+        DisplayName: Стена из живого баобаба
+        Tooltip: ""
+    }
+
+    LivingBaobabLeafWand: {
+        DisplayName: Жезл из живых листьев баобаба
+        Tooltip: ""
+    }
+
+    LivingBaobabWand: {
+        DisplayName: Жезл из живого баобаба
+        Tooltip: ""
+    }
+
+    WrithingSticks: {
+        DisplayName: Извивающиеся палки
+        Tooltip: Призывает дружелюбное перекати-поле, которое следует за вами
+    }
+
+    BaobabFruit: {
+        DisplayName: Плод баобаба
+        Tooltip: "{$BuffDescription.WellFed}"
+    }
+
+    SavannaGrassSeeds: {
+        DisplayName: Семена травы саванны
+        Tooltip: ""
+    }
+
+    LeatherBackpack: {
+        DisplayName: Кожаный рюкзак
+        Tooltip:
+            '''
+            {$CommonTooltips.Backpack}
+            'Удобный, практичный и всё ещё стильный'
+            '''
+    }
+
+    Caryocar: {
+        DisplayName: Кариокар
+        Tooltip: "{$BuffDescription.WellFed}"
+    }
+
+    CustardApple: {
+        DisplayName: Сахарное яблоко
+        Tooltip: "{$BuffDescription.WellFed}"
+    }
+
+    BeachUmbrellaItem: {
+        DisplayName: Пляжный зонт
+        Tooltip: ""
+    }
+
+    BigBuoy: {
+        DisplayName: Большой буй
+        Tooltip: "{$ItemTooltip.CoralTorch}"
+    }
+
+    SmallBuoy: {
+        DisplayName: Малый буй
+        Tooltip: "{$ItemTooltip.CoralTorch}"
+    }
+
+    LoungeChairItem: {
+        DisplayName: Шезлонг
+        Tooltip: ""
+    }
+
+    Omelette: {
+        DisplayName: Омлет
+        Tooltip:
+            '''
+            {$BuffDescription.WellFed2}
+            'Идеально приготовлен'
+            '''
+    }
+
+    OstrichEgg: {
+        DisplayName: Страусиное яйцо
+        Tooltip: "{$BuffDescription.WellFed}"
+    }
+
+    DrywoodItem: {
+        DisplayName: Сухостой
+        Tooltip: ""
+    }
+
+    DrywoodBow: {
+        DisplayName: Лук из сухостоя
+        Tooltip: ""
+    }
+
+    DrywoodBreastplate: {
+        DisplayName: Нагрудник из сухостоя
+        Tooltip: ""
+    }
+
+    DrywoodGreaves: {
+        DisplayName: Поножи из сухостоя
+        Tooltip: ""
+    }
+
+    DrywoodHammer: {
+        DisplayName: Молот из сухостоя
+        Tooltip: ""
+    }
+
+    DrywoodHelmet: {
+        DisplayName: Шлем из сухостоя
+        Tooltip: ""
+    }
+
+    DrywoodSword: {
+        DisplayName: Меч из сухостоя
+        Tooltip: ""
+    }
+
+    HuntingRifle: {
+        DisplayName: Охотничье ружьё
+        Tooltip: Наносит увеличенный урон по удалённым целям, а также при стрельбе с места
+    }
+
+    SafariHat: {
+        DisplayName: Шляпа для сафари
+        Tooltip: ""
+    }
+
+    SafariShorts: {
+        DisplayName: Шорты для сафари
+        Tooltip: ""
+    }
+
+    SafariVest: {
+        DisplayName: Жилет для сафари
+        Tooltip: ""
+    }
+
+    SunStaff: {
+        DisplayName: Скипетр рассвета
+        Tooltip: Обрушивает солнечный свет перед вами
+    }
+
+    SavannaMusicBoxItem: {
+        DisplayName: Mузыкальная шкатулка (Саванна)
+        Tooltip: ""
+    }
+
+    DrywoodBathtubItem: {
+        DisplayName: Ванна из сухостоя
+        Tooltip: ""
+    }
+
+    DrywoodBedItem: {
+        DisplayName: Кровать из сухостоя
+        Tooltip: ""
+    }
+
+    DrywoodBookcaseItem: {
+        DisplayName: Книжный шкаф из сухостоя
+        Tooltip: ""
+    }
+
+    DrywoodCandelabraItem: {
+        DisplayName: Подсвечник из сухостоя
+        Tooltip: ""
+    }
+
+    DrywoodCandleItem: {
+        DisplayName: Свеча из сухостоя
+        Tooltip: ""
+    }
+
+    DrywoodChairItem: {
+        DisplayName: Стул из сухостоя
+        Tooltip: ""
+    }
+
+    DrywoodClockItem: {
+        DisplayName: Напольные часы из сухостоя
+        Tooltip: ""
+    }
+
+    DrywoodCouchItem: {
+        DisplayName: Диван из сухостоя
+        Tooltip: ""
+    }
+
+    DrywoodDresserItem: {
+        DisplayName: Комод из сухостоя
+        Tooltip: ""
+    }
+
+    DrywoodLampItem: {
+        DisplayName: Напольная лампа из сухостоя
+        Tooltip: ""
+    }
+
+    DrywoodPianoItem: {
+        DisplayName: Пианино из сухостоя
+        Tooltip: ""
+    }
+
+    DrywoodSinkItem: {
+        DisplayName: Раковина из сухостоя
+        Tooltip: ""
+    }
+
+    DrywoodTableItem: {
+        DisplayName: Стол из сухостоя
+        Tooltip: ""
+    }
+
+    DrywoodToiletItem: {
+        DisplayName: Унитаз из сухостоя
+        Tooltip: ""
+    }
+
+    DrywoodWorkBenchItem: {
+        DisplayName: Верстак из сухостоя
+        Tooltip: ""
+    }
+
+    DrywoodLanternItem: {
+        DisplayName: Фонарь из сухостоя
+        Tooltip: ""
+    }
+
+    DrywoodSofaItem: {
+        DisplayName: Диван-софа из сухостоя
+        Tooltip: ""
+    }
+
+    DrywoodChestItem: {
+        DisplayName: Сундук из сухостоя
+        Tooltip: ""
+    }
+
+    DrywoodDoorItem: {
+        DisplayName: Дверь из сухостоя
+        Tooltip: ""
+    }
+
+    DriftwoodBarrelItem: {
+        DisplayName: Бочка из коряги
+        Tooltip: ""
+    }
+
+    DriftwoodBathtubItem: {
+        DisplayName: Ванна из коряги
+        Tooltip: ""
+    }
+
+    DriftwoodBedItem: {
+        DisplayName: Кровать из коряги
+        Tooltip: ""
+    }
+
+    DriftwoodBenchItem: {
+        DisplayName: Скамья из коряги
+        Tooltip: ""
+    }
+
+    DriftwoodBookcaseItem: {
+        DisplayName: Книжный шкаф из коряги
+        Tooltip: ""
+    }
+
+    DriftwoodCandelabraItem: {
+        DisplayName: Подсвечник из коряги
+        Tooltip: ""
+    }
+
+    DriftwoodCandleItem: {
+        DisplayName: Свеча из коряги
+        Tooltip: ""
+    }
+
+    DriftwoodChairItem: {
+        DisplayName: Стул из коряги
+        Tooltip: ""
+    }
+
+    DriftwoodChandelierItem: {
+        DisplayName: Люстра из коряги
+        Tooltip: ""
+    }
+
+    DriftwoodClockItem: {
+        DisplayName: Напольные часы из коряги
+        Tooltip: ""
+    }
+
+    DriftwoodDoorItem: {
+        DisplayName: Дверь из коряги
+        Tooltip: ""
+    }
+
+    DriftwoodDresserItem: {
+        DisplayName: Комод из коряги
+        Tooltip: ""
+    }
+
+    DriftwoodLampItem: {
+        DisplayName: Напольная лампа из коряги
+        Tooltip: ""
+    }
+
+    DriftwoodPianoItem: {
+        DisplayName: Пианино из коряги
+        Tooltip: ""
+    }
+
+    DriftwoodSinkItem: {
+        DisplayName: Раковина из коряги
+        Tooltip: ""
+    }
+
+    DriftwoodTableItem: {
+        DisplayName: Стол из коряги
+        Tooltip: ""
+    }
+
+    DriftwoodToiletItem: {
+        DisplayName: Унитаз из коряги
+        Tooltip: ""
+    }
+
+    DriftwoodWorkBenchItem: {
+        DisplayName: Верстак из коряги
+        Tooltip: ""
+    }
+
+    HerosMemorialStatueItem: {
+        DisplayName: Памятник герою
+        Tooltip: Живи вечно
+    }
+
+    DustyFieldsItem: {
+        DisplayName: Картина «Пыльные поля»
+        Tooltip: "'С. Яки'"
+    }
+
+    OrangeSkiesItem: {
+        DisplayName: Картина «Оранжевое небо»
+        Tooltip: "'С. Яки'"
+    }
+
+    StrongWindsItem: {
+        DisplayName: Картина «Ураган»
+        Tooltip: "'С. Яки'"
+    }
+
+    WaningSunItem: {
+        DisplayName: Картина «Заходящее солнце»
+        Tooltip: "'Э. Сибеллиус'"
+    }
+
+    ScarecrowItem: {
+        DisplayName: Пугало
+        Tooltip: ""
+    }
+
+    BotanistBody: {
+        DisplayName: Фартук ботаника
+        Tooltip: ""
+    }
+
+    BotanistHat: {
+        DisplayName: Соломенная шляпа с подсолнухом
+        Tooltip: Дарит хорошее настроение
+    }
+
+    BotanistLegs: {
+        DisplayName: Джоггеры ботаника
+        Tooltip: Увеличивает скорость передвижения на 10%
+    }
+
+    BeachTowel: {
+        DisplayName: Пляжное полотенце
+        Tooltip: "'Оно сохраняет вас сухим, но не вздумайте прыгать с ним в воду!'"
+    }
+
+    BikiniBottom: {
+        DisplayName: Трусики
+        Tooltip: "'Кому вообще нужна броня, когда можно свободно бегать под солнцем!'"
+    }
+
+    BikiniTop: {
+        DisplayName: Бюстгальтер
+        Tooltip: "'Вопреки ожиданиям, на самом деле не даёт никакой защиты'"
+    }
+
+    SwimmingTrunks: {
+        DisplayName: Плавки
+        Tooltip: "'Они не особо защищают, но выглядят бесспорно стильно'"
+    }
+
+    TintedGlasses: {
+        DisplayName: Солнцезащитные очки
+        Tooltip: "'Они дополняют образ, так что лучше не снимать их даже в темноте'"
+    }
+
+    WheatgrassSeedPouch: {
+        DisplayName: Мешочек с семенами пшеницы
+        Tooltip:
+            '''
+            Разбрасывает семена, которые выращивают пшеницу на траве
+            'Шелестит и шуршит в руке'
+            '''
+    }
+
+    RoyalKhopesh: {
+        DisplayName: Королевский хопеш
+        Tooltip: ""
+    }
+
+    SavannaSandstormMusicBoxItem: {
+        Tooltip: ""
+        DisplayName: Музыкальная шкатулка (Пылевая буря)
+    }
+
+    FishLure: {
+        DisplayName: Блесна
+        Tooltip:
+            '''
+            {$ItemTooltip.CoralTorch}
+            Привлекает скопления рыб к ближайшим водам
+            '''
+    }
+
+    DrywoodPlatformItem: {
+        DisplayName: Платформа из сухостоя
+        Tooltip: ""
+    }
+
+    SavannaDirtWallItem: {
+        DisplayName: Стена из плотной земли
+        Tooltip: ""
+    }
+
+    GravelItem: {
+        DisplayName: Гравий
+        Tooltip: ""
+    }
+
+    MagmastoneItem: {
+        DisplayName: Магмалит
+        Tooltip: ""
+    }
+
+    SavannaCrateHardmode: {
+        DisplayName: Ящик для сафари
+        Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+    }
+
+    SavannaCrate: {
+        DisplayName: Сундук равнин
+        Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+    }
+
+    MineralSlag: {
+        DisplayName: Минеральный шлак
+        Tooltip: Можно использовать на промывателе
+    }
+
+    HyenaBannerItem.DisplayName: Знамя гиены
+    OstrichBannerItem.DisplayName: Знамя страуса
+
+    SavannaCampfireItem: {
+        DisplayName: Костёр саванны
+        Tooltip: "{$ItemTooltip.Campfire}"
+    }
+
+    SavannaFountainItem: {
+        DisplayName: Фонтан воды саванны
+        Tooltip: ""
+    }
+
+    DrywoodFenceItem: {
+        DisplayName: Забор из сухостоя
+        Tooltip: ""
+    }
+
+    DrywoodWallItem: {
+        DisplayName: Стена из сухостоя
+        Tooltip: ""
+    }
+
+    ZiplineGun: {
+        DisplayName: Рельсомёт
+        Tooltip:
+            '''
+            Создаёт рельсы в точке, на которую указывает курсор, позволяя игрокам перемещаться
+            Рельсы можно удалить, наведя на них курсор или нажав <right>
+            'Не путать с рельсотроном'
+            '''
+        AssistantOn: Нажмите ПКМ, чтобы включить ассистента
+        AssistantOff: Нажмите ПКМ, чтобы отключить ассистента
+    }
+
+    FrostbiteItem: {
+        DisplayName: Обморожение
+        Tooltip: Вызывает метель перед вами
+    }
+
+    RogueCrest: {
+        DisplayName: Герб разбойника
+        Tooltip:
+            '''
+            Призывает ржавый меч, который сражается за вас
+            Этот меч не занимает слоты призываемых миньонов
+            Иногда накладывает дебафф «{$Buffs.OpenWounds.DisplayName}», из-за которого враги истекают кровью при ударах оружием ближнего боя или хлыстом
+            '''
+    }
+
+    GildedScarab: {
+        DisplayName: Позолоченный скарабей
+        Tooltip:
+            '''
+            При получении урона временно даёт бафф, увеличивающий защиту
+            Чем больше урона вы получаете, тем сильнее увеличивается защита
+            '''
+    }
+
+    SparrowItem: {
+        DisplayName: Воробей
+        Tooltip: ""
+    }
+
+    Blunderbuss: {
+        DisplayName: Мушкетон
+        Tooltip: Стреляет пулями с широким разбросом
+    }
+
+    SafekeeperRing: {
+        DisplayName: Кольцо хранителя
+        Tooltip:
+            '''
+            Немного увеличивает урон против нежити
+            'Излучает зловещий свет'
+            '''
+    }
+
+    PeevedTumblerBannerItem.DisplayName: Знамя раздражённого перекати-поля
+
+    LeatherHood: {
+        DisplayName: Капюшон стрелка
+        Tooltip: Увеличивает шанс критического удара на 5%
+    }
+
+    LeatherLegs: {
+        DisplayName: Ботинки стрелка
+        Tooltip: ""
+    }
+
+    LeatherPlate: {
+        DisplayName: Нагрудник стрелка
+        Tooltip: ""
+    }
+
+    ExplorerTreadsItem: {
+        DisplayName: Ботфорты исследователя
+        Tooltip:
+            '''
+            Увеличивает скорость передвижения на 5% за каждые 10% потерянного здоровья
+            Даёт 50% шанс избежать ловушек и опасностей
+            'Исследовать храмы стало проще простого'
+            '''
+    }
+
+    LeatherCloakItem: {
+        DisplayName: Кожаный плащ
+        Tooltip:
+            '''
+            Даёт невосприимчивость к дебаффу «{$BuffName.WindPushed}» во время песчаных бурь
+            Увеличивает скорость передвижения на 5% и ускорение на 15%
+            '''
+    }
+
+    CactusStaff: {
+        DisplayName: Кактусовый посох
+        Tooltip: Призывает кактусовые барьеры для защиты
+    }
+
+    PearlString: {
+        DisplayName: Жемчужная цепочка
+        Tooltip:
+            '''
+            Из убитых врагов выпадает больше монет
+            'Вы чувствуете себя везучим'
+            '''
+    }
+
+    DrywoodChandelierItem: {
+        DisplayName: Люстра из сухостоя
+        Tooltip: ""
+    }
+
+    DriftwoodLanternItem: {
+        DisplayName: Фонарь из коряги
+        Tooltip: ""
+    }
+
+    DriftwoodFenceItem: {
+        DisplayName: Забор из коряги
+        Tooltip: ""
+    }
+
+    ArcaneNecklaceGold: {
+        DisplayName: Чародейское ожерелье
+        Tooltip:
+            '''
+            Увеличивает максимальный запас маны на 20
+            При попадании по врагам могут выпадать звёзды маны
+            '''
+    }
+
+    ArcaneNecklacePlatinum: {
+        DisplayName: "{$ArcaneNecklaceGold.DisplayName}"
+        Tooltip: "{$ArcaneNecklaceGold.Tooltip}"
+    }
+
+    PinBlue: {
+        DisplayName: Синяя закрепка
+        Tooltip: ""
+    }
+
+    PinGreen: {
+        DisplayName: Зелёная закрепка
+        Tooltip: ""
+    }
+
+    PinRed: {
+        DisplayName: Красная закрепка
+        Tooltip: ""
+    }
+
+    PinYellow: {
+        DisplayName: Жёлтая закрепка
+        Tooltip: ""
+    }
+
+    PinHive: {
+        DisplayName: Закрепка-улей
+        Tooltip: ""
+    }
+
+    PinButterfly: {
+        DisplayName: Закрепка-бабочка
+        Tooltip: ""
+    }
+
+    PinFaeling: {
+        DisplayName: Закрепка-фея
+        Tooltip: ""
+    }
+
+    PinSavanna: {
+        DisplayName: Закрепка саванны
+        Tooltip: ""
+    }
+
+    PinCuriosity: {
+        DisplayName: Закрепка любопытства
+        Tooltip: ""
+    }
+
+    PinSky: {
+        DisplayName: Небесная закрепка
+        Tooltip: ""
+    }
+
+    PinSword: {
+        DisplayName: Закрепка-меч
+        Tooltip: ""
+    }
+
+    TornMapPiece: {
+        DisplayName: Обрывок карты
+        Tooltip: Открывает окружающую область карты
+    }
+
+    FashionableBackpack: {
+        DisplayName: Модный рюкзак
+        Tooltip:
+            '''
+            {$CommonTooltips.Backpack}
+            'Элегантный, современный, но не менее функциональный'
+            '''
+    }
+
+    HikingBackpack: {
+        DisplayName: Походный рюкзак
+        Tooltip:
+            '''
+            {$CommonTooltips.Backpack}
+            'Практичный, прочный и, что самое главное, удобный'
+            '''
+    }
+
+    Minipack: {
+        DisplayName: Мини-рюкзак
+        Tooltip:
+            '''
+            {$CommonTooltips.Backpack}
+            'Маленький, лёгкий и суперкомпактный'
+            '''
+    }
+
+    PinkPack: {
+        DisplayName: Розовый рюкзак
+        Tooltip:
+            '''
+            {$CommonTooltips.Backpack}
+            'Прекрасный цвет, практичный и хорошо заметный издалека'
+            '''
+    }
+
+    PouchPack: {
+        DisplayName: Рюкзак-мешок
+        Tooltip:
+            '''
+            {$CommonTooltips.Backpack}
+            'Простой и удобный, но легко пачкающийся'
+            '''
+    }
+
+    DyeCrateItem: {
+        DisplayName: Ящик с красителями
+        Tooltip:
+            '''
+            {$CommonItemTooltip.RightClickToOpen}
+            'Пахнет... на удивление приятно!'
+            '''
+    }
+
+    SavannaNightMusicBoxItem: {
+        DisplayName: Музыкальная шкатулка (Ночь саванны)
+        Tooltip: ""
+    }
+
+    SavannaPylonItem: {
+        DisplayName: Пилон саванны
+        Tooltip: "{$CommonItemTooltip.TeleportationPylon}"
+    }
+
+    CraneFeather: {
+        DisplayName: Перо журавля
+        Tooltip: Увеличивает манёвренность в воздухе
+    }
+
+    TatteredMap: {
+        DisplayName: Потрёпанная карта
+        Tooltip: ""
+    }
+
+    CrescentMelon: {
+        DisplayName: Долька дыни
+        Tooltip:
+            '''
+            {$BuffDescription.WellFed}
+            {$ItemTooltip.ManaRegenerationPotion}
+            '''
+    }
+
+    MidnightApple: {
+        DisplayName: Полночное яблоко
+        Tooltip:
+            '''
+            {$BuffDescription.WellFed}
+            {$ItemTooltip.ManaRegenerationPotion}
+            'Сверкает, как ночное небо'
+            '''
+    }
+
+    NightSky: {
+        DisplayName: Ночное небо
+        Tooltip:
+            '''
+            {$BuffDescription.WellFed2}
+            {$ItemTooltip.ManaRegenerationPotion}
+            'На вкус как космос'
+            '''
+    }
+
+    Pearlberry: {
+        DisplayName: Жемчужная ягода
+        Tooltip:
+            '''
+            {$BuffDescription.WellFed}
+            {$ItemTooltip.ManaRegenerationPotion}
+            'Мерцает и ярко сияет...'
+            '''
+    }
+
+    DriftwoodBow: {
+        DisplayName: Лук из коряги
+        Tooltip: ""
+    }
+
+    DriftwoodHammer: {
+        DisplayName: Молот из коряги
+        Tooltip: ""
+    }
+
+    RemedyPotion: {
+        DisplayName: Исцеляющее зелье
+        Tooltip:
+            '''
+            Даёт невосприимчивость к следующим дебаффам:
+            [list]
+            '''
+    }
+
+    CloudstalkBoxItem: {
+        DisplayName: Кадка для облачника
+        Tooltip: ""
+    }
+
+    OceanSlimeBannerItem.DisplayName: Знамя кокосового слизня
+
+    OceanDepthsBoxItem: {
+        DisplayName: Музыкальная шкатулка (Глубины океана)
+        Tooltip: ""
+    }
+
+    OstrichPants: {
+        DisplayName: Страусиные штаны
+        Tooltip: "'Словно живые!'"
+    }
+
+    CampfireSpit: {
+        DisplayName: Вертел для костра
+        Tooltip: Можно разместить на кострах
+    }
+
+    KillieFishbowl: {
+        DisplayName: Аквариум со смертоноской
+        Tooltip: "'Возможно, в следующий раз нужен аквариум побольше?'"
+    }
+
+    SparrowCageItem: {
+        DisplayName: Террариум с воробьём
+        Tooltip: ""
+    }
+}
+
+NPCs: {
+    Crinoid: {
+        DisplayName: Морская лилия
+        Entry: Эти любопытные создания - близкие родственники морских звёзд. Они питаются всем, что оседает на морском дне.
+    }
+
+    Pelican: {
+        DisplayName: Пеликан
+        Entry: Крупная морская птица с необычным клювом, в котором она удерживает добычу. Если её напугать, она может выронить пойманное, но это было бы жестоко.
+    }
+
+    TinyCrab: {
+        DisplayName: Бледный краб
+        Entry: Эти очаровательные маленькие создания не так враждебны, как их более крупные сородичи. Жизнь в глубинах океана привела к потере окраски из-за недостатка солнечного света.
+    }
+
+    Tubeworm: {
+        DisplayName: Трубочник
+        Entry: Глубоко под мерцающими волнами, там, куда не проникает свет, обитают удивительные существа, способные питаться смогом, выделяемыми гидротермальными жерлами.
+    }
+
+    SandPiper: {
+        DisplayName: Песочник
+        Entry: Маленькая отважная птица, патрулирующая береговую линию в поисках пищи, выброшенной волнами.
+    }
+
+    Gar: {
+        DisplayName: Панцирная щука
+        Entry: Панцирные щуки - искусные охотники, обычно обитающие в пресноводных водоёмах. Всегда нужно быть начеку плавая рядом с панцирной щукой, - ведь они могут атаковать сбоку, спереди или даже сзади.
+    }
+
+    GoldGar: {
+        DisplayName: Золотая панцирная щука
+        Entry: Только монстр способен распотрошить редкую золотую панцирную щуку ради её сочной икры. Только монстр...
+    }
+
+    OceanSlime: {
+        DisplayName: Кокосовый слизень
+        Entry: Смотрите в оба, находясь на берегу! Эти хитрые слизни искусно маскируются под знакомый фрукт.
+    }
+
+    DiverZombie: {
+        DisplayName: Зомби
+        Entry: Кто же знал, что в кислородных баллонах должен быть настоящий кислород?
+    }
+
+    KelpZombie: {
+        DisplayName: Зомби
+        Entry: Меня боятся рыбы, меня боятся женщины, меня боятся мужчины, меня боятся дети, ибо я - нежить.
+    }
+
+    SailorZombie: {
+        DisplayName: Зомби
+        Entry: Несмотря на их нынешнее состояние, когда-то они управляли роскошным круизным лайнером, который стоит как-нибудь посетить.
+    }
+
+    TridentZombie: {
+        DisplayName: Зомби
+        Entry: Их трезубец явно не слишком помог им при жизни. Он всё ещё довольно острый, так что будьте осторожны.
+    }
+
+    Killifish: {
+        DisplayName: Смертоноска
+        Entry: Как следует из их названия, смертоноски известны своей одной определяющей чертой - их постоянно убивают. Хотя их великолепные переливающиеся чешуйки тоже не остаются незамеченными.
+    }
+
+    GoldKillifish: {
+        DisplayName: Золотая смертоноска
+        Entry: Яркая золотая чешуя не спасает смертоноску от её бед.
+    }
+
+    Termite: {
+        DisplayName: Термит
+        Entry: Эти маленькие жучки сбиваются в рой, чтобы строить огромные гнёзда со сложными туннелями. У них специфический вкус к сухой хрустящей древесине саванны.
+    }
+
+    SavannaSandSlime: {
+        DisplayName: Песчаный слизень
+        Entry: Немного более лиственный, чуть менее песчаный, но такой же опасный.
+    }
+
+    PeevedTumbler: {
+        DisplayName: Раздражённое перекати-поле
+        Entry: Жизнь в саванне нелегка... но и не так уж плоха. Эй, вы бы тоже были раздражены, если бы вам в глаза попал песок.
+    }
+
+    Sparrow: {
+        DisplayName: Воробей
+        Entry: Подобно своему лесному сородичу, всемирно известной птице, воробьи просты. Они летают, клюют термитов и наслаждаются воздухом саванны.
+    }
+
+    SafariZombie: {
+        DisplayName: Зомби
+        Entry: С другой стороны, если вы уже нежить, то змеи вам не страшны.
+    }
+
+    TumbleZombie: {
+        DisplayName: Зомби
+        Entry: Под маской нежити, под всей этой кровью, ветками и желчью, скрывается трогательная история о том, как перекати-поле и зомби подружились в самой невероятной ситуации.
+    }
+
+    Hyena: {
+        DisplayName: Гиена
+        Entry: Эти озорные создания охотятся стаями, выбирая слабую дичь. Однако, завидев террарийцев, они предпочитают убежать, а не вступать в бой.
+    }
+
+    Ostrich: {
+        DisplayName: Страус
+        Entry: Хотя страус и не умеет летать, он обладает обманчиво высокой скоростью на земле. К счастью, он использует её для поиска червей, а не для охоты на вас.
+    }
+
+    ButterflyCritter: {
+        DisplayName: Эфирная бабочка
+        Entry: Возможно, если вы всмотритесь в ночное небо, то увидите их среди звёзд. Они порхают в танце, столь же эфемерном, как и их тела.
+    }
+
+    SavannaJungleSlime: {
+        DisplayName: Слизень джунглей
+        Entry: Он слопал несколько цветков! Почти слишком милый, чтобы его убивать...
+    }
+
+    Cartographer: {
+        DisplayName: Картограф
+        Buttons.Map: Карта
+
+        Names: {
+            0: Солеана
+            1: Кира
+            2: Джесси
+            3: "'Растяпа'"
+            4: Винн
+            5: Несса
+        }
+
+        Dialogue: {
+            0: Составление карт - дело непростое. Иногда теряешь ориентир, и... Погоди-ка.
+            1: Слушай, у тебя случайно не найдётся прочной бумаги? У меня вся закончилась.
+            2: Ох... обронить закрепку на землю - не лучшая идея. Особенно, если она неприметного цвета.
+            3: Эй, у тебя есть карта? Можно взглянуть? Надеюсь, ты за ней хорошо следишь!
+            4: Найти дорогу однажды - везение. Найти её дважды - заслуга хорошей карты.
+
+            Map: {
+                FloatingIsland: {
+                    0: Так-с, где же это было... Точно, прямо здесь! Я нашёл миленький, маленький парящий остров. Как я туда забрался? Ну, скажем так, гарпии могут занести ТЕБЯ гораздо дальше, чем ты думаешь.
+                    1: Взгляни сюда. Вон та-а-а-ам, высоко! Однажды я угодил в переделку и оказался в небесах! Кажется, там было какое-то сокровище, но я был слишком занят мыслями о том, как спуститься обратно.
+                    2: Глянь на это место! Несколько недель назад я нашёл остров в небе. Он был классным, но соседи там - просто ужас! Надеюсь, ты отыщешь там что-то, что мне не удалось обнаружить.
+                }
+
+                EnchantedSword: {
+                    0: Я кое-что нашёл... вот здесь! В узком туннеле. Представляешь, меч, застрявший в камне, прямо как в легендах! Правда, я струсил и не стал его трогать - недостоин.
+                    1: Ага! Вот это место. С виду неприметно, но под землёй спрятан меч, выглядящий могущественным. Я бы его забрал, да только карманы были набиты редкими грибами и картографической бумагой.
+                    2: Вот мы и пришли! Не знаю, как он там оказался, но я нашёл меч, вонзённый в камень. Как в той легенде... о короле Артуре, кажется? Я со странным оружием не связываюсь - может, это больше по твоей части.
+                }
+
+                Shimmer: {
+                    0:
+                        '''
+                        Где же это было... Ах, вот! Я спускался по тёмной и опасной пещере, когда впереди заметил яркое, розовое сияние. По-настоящему завораживающее зрелище.
+                        Знаешь, что это значит в природе? Держись подальше. Вот и я так сделал.
+                        '''
+                    1:
+                        '''
+                        Эм... Кажется, это было где-то здесь. Я возвращался от океана, когда споткнулся и ударился головой. Очнулся - и увидел, что маленькие сказочные существа перенесли меня в это странное, необычное место.
+                        Дальше помню смутно, но знаю одно: когда я запаниковал, феи поспешно вытащили меня оттуда.
+                        '''
+                    2:
+                        '''
+                        Вот оно. Видел когда-нибудь воду? Представь её, но светящуюся, как ночное небо. Глубокий, неземной фиолетовый цвет.
+                        Только пить не советую - ощущение такое, будто тело становится ненастоящим. Даже объяснить не могу. Просто поверь мне на слово.
+                        '''
+                }
+
+                Savanna: {
+                    0:
+                        '''
+                        Вот, закрепка за мой счёт. Утром я, как обычно, пошёл на прогулку - и заодно отчаянно колотил деревья, чтобы достать яблоки.
+                        После пары деревьев поднял голову - а тут, откуда ни возьмись, целая саванна. Поглазел немного и вернулся к деревьям.
+                        '''
+                    1:
+                        '''
+                        Взгляни сюда. Ты когда-нибудь шёл вперёд, уткнувшись взглядом в землю? Так делать не стоит. Но вот недавно, когда я так шёл, вдруг замечаю: трава постепенно меняет цвет с ярко-зелёного на какой-то болезненно-зелёный.
+                        Поднимаю голову - а передо мной самая высокая трава, какую я когда-либо видел. И густая... жуть. И что я сделал? Ну... просто развернулся и ушёл. ЛЕЗТЬ в такую чащу - это не для меня.
+                        '''
+                    2:
+                        '''
+                        Как-то раз я решил проверить, насколько быстро смогу убежать от летучих мышей джунглей. Бегу, бегу - и вдруг, прямо вот здесь, на карте, воздух становится очень пыльным. Передо мной раскинулась саванна. Вот это зрелище!
+                        И да, к слову, я выяснил, что умею БЕГАТЬ очень быстро, когда припрёт.
+                        '''
+                }
+
+                Hive: {
+                    0: Закрепку ставим... сюда. Скажу по секрету: не советую соваться в джунгли. Там ЖЕСТЬ. Но если встретишь большой улей, значит, поблизости есть мёд. А это лакомство, которое стоит всех укусов.
+                    1: Держи! Эм... буду честен. Иногда ты находишь настоящее золото, но оно всё равно НЕ СТОИТ того. Эти злющие пчёлы... лучше просто пройти мимо, не лезь на рожон.
+                    2: Если ты посмотришь вот... сюда, найдёшь кое-что интересное. Но буду краток: жала болючие. Будь готов.
+                }
+
+                Curiosity: {
+                    0:
+                        '''
+                        от мы и здесь. Знаешь, я часто блуждаю, наслаждаясь видами и размышляя вслух... Но всё это теряет смысл, когда целуешь лицом землю.
+                        Я споткнулся здесь обо что-то, но так разозлился, что даже не стал смотреть, о что именно.
+                        '''
+                    1:
+                        '''
+                        Кажется, это было... где-то здесь? Да, примерно. Когда странствуешь так много, как я, иногда попадаются вещи, заслуживающие внимания.
+                        На твоём месте я бы поторопился. Кто знает, вдруг кто-то другой найдёт это раньше тебя!
+                        '''
+                    2:
+                        '''
+                        Осмотрись хорошенько. Я ведь картограф, верно? Ставлю отметки, провожу маршруты... Но иногда забываю, зачем отметил то или иное место.
+                        Вот и здесь - отметил, сходил, вернулся... и снова забыл. Забирай это себе. Может, я просто рассеянный, а может, просто не хочу иметь дело с этим проклятым предметом.
+                        '''
+                }
+
+                ButterflyShrine: {
+                    0:
+                        '''
+                        Глянь сюда. Помню, как-то раз в холодную, жуткую ночь сильный ветер вырвал все мои карты прямо из рюкзака.
+                        Когда я нагнулся, чтобы их собрать, то заметил крохотное отверстие в земле... Оно светилось фиолетовым! Я решил не трогать эту штуку, но ты вроде как любишь приключения на свою голову.
+                        '''
+                    1:
+                        '''
+                        Вот здесь, прямо в этой точке на карте! Даже не знаю, с чего начать... У тебя когда-нибудь бывали эти «мушки» перед глазами? Маленькие огоньки, которые появляются неизвестно откуда?
+                        Только не смейся, но я клянусь, что видел здесь крошечных розовых бабочек. Но они не настоящие! Я пытался их поймать, но они будто сделаны из света!
+                        '''
+                    2: Вот на этом месте всё и случилось. Я за свою жизнь спотыкался обо всякие ямы, но никогда не видел, чтобы какая-то из них светилась фиолетовым. Это какая-то колдовская чертовщина, с которой я не хочу иметь ничего общего. И тебе не советую.
+                }
+
+                FirstPin: Я добавил эту закрепку в твою «Коллекцию закрепок». Ты можешь получить к ней доступ в любое время, нажав на левый нижний угол твоей карты.
+            }
+        }
+
+        Entry: Странное сочетание пылкого исследователя и невероятного неумёхи - картограф отправляется в места, где не ступала нога... почти никого. Но порой главное - не столько открыть неизведанное, сколько вернуться живым.
+    }
+
+    Hiker: {
+        DisplayName: Путешественник
+
+        Buttons: {
+            Feed: Накормить
+            Supplies: Припасы
+            Silver: 20 серебра
+        }
+
+        Dialogue: {
+            Hungry: {
+                Asking: {
+                    0: Эй, странник, не хочешь перекусить вместе? Если у тебя есть {0}, я могу предложить тебе кое-что взамен.
+                    1: Бывало ли у тебя такое: выходишь из дома, а ПОТОМ понимаешь, что проголодался? Жаль, что со мной так получилось... Поделишься {0}?
+                    2: Долгий подъём в гору совсем вымотал меня. Я бы сейчас не отказался от {0}... Выручишь?
+                    3: Я съел свой последний протеиновый батончик целых сорок пять минут назад и теперь еле держусь на ногах. Поделишься {0}?
+                }
+
+                Thanks: {
+                    0: Спасибо, друг. Всегда приятно встретить щедрого незнакомца. Держи припасы - от одного странника другому!
+                    1: Ба-ха-ха, вот это я наелся! После хорошего перекуса хочется тоже быть щедрым. Возьми припасы за счёт заведения.
+                    2: Эй, огромное спасибо. Держи, друг, возьми набор - это бесплатно.
+                    3: Ничто так не бодрит после долгого похода, как хорошая еда. Забудь о ценах, приятель, бери припасы. Это бесплатно!
+                }
+            }
+
+            Idle: {
+                0: Нет ничего лучше долгого спуска в пещеры... Пока не покроешься противной паутиной. Вот тогда всё настроение и пропадает.
+                1: У меня был приятель, который вместо факелов брал с собой мерцающий корень. Говорил, что так «безопаснее». Странный был тип. Интересно, как он теперь.
+                2: Ты вообще пользуешься закрепками? Они очень полезны. Одна моя знакомая таскала их повсюду... В последний раз, когда я её видел, она «училась добираться до тех летающих островов». Непростая задача, да?
+                3: Иногда я встречаю фей, и они ведут меня к залежам золота или платины. Я всегда радостно благодарю их... Хотя у меня даже кирки нет. Надеюсь, они ценят мои старания.
+                4: Если ты умный, то всегда берёшь с собой запас припасов. Вот только у меня спина отваливается - слишком много набрал... Давай махнёмся? Если, конечно, у тебя в кармане завалялась лишняя монетка, ба-ха-ха!
+            }
+
+            Purchase: {
+                0: Прекрасно! Какое облегчение для моей спины! Я с радостью поменяю боль в спине на полные карманы.
+                1: Ба-ха-ха, премного благодарен, приятель! Меня часто спрашивают: «Где ты, чёрт возьми, всё это хранишь?» - но я же не лезу в твои дела!
+                2: Рад встрече, странник! Ничто так не сближает, как выгодная сделка.
+                3: Наслаждайся дополнительным местом! Говорят, если набить сумку статуями ангелов - да-да, целыми статуями, - произойдёт нечто невероятное.
+                4: Спасибо за сделку! Я бы остановился полюбоваться цветами, да только здесь порой встречаются безумные растения. Будь осторожен!
+            }
+
+            FailPurchase: {
+                0: Увы, но без звонкой монеты сделки не будет. Разве что у тебя в карманах завалялась лишняя еда, ба-ха-ха!
+                1: Боюсь, мои припасы останутся при мне. Возвращайся, когда твой кошель станет увесистее - не пожалеешь! Да и мне будет легче нести.
+                2: Ничем не могу помочь, приятель. Я не торгуюсь - просто запасов у меня в избытке, вот и всё. Хотя... от лёгкого перекуса я бы не отказался...
+            }
+        }
+
+        Name: {
+            0: Гэри
+            1: Шон
+            2: Джео
+            3: Джефф
+            4: Рокки
+            5: Портер
+        }
+
+        Entry: Весельчак, добряк и неожиданно сильный - путешественник чувствует себя как дома практически везде. Джунгли? Сущий пустяк. Пустыни? Подземная тундра? Как нечего делать. Космос? Неведомо как... но и туда он доберётся.
+    }
+
+    HideZombieBig: {
+        DisplayName: Зомби
+        Entry: Даже гиены ищут укрытия от этих зомби, иначе рискуют лишиться собственной шкуры.
+    }
+
+    HideZombieSmall: {
+        DisplayName: Зомби
+        Entry: Их одеяние - последний писк моды в мире нежити.
+    }
+}
+
+SetBonuses: {
+    Cascade:
+        '''
+        При нанесении урона врагам создаётся пузырьковый щит
+        Достигнув максимального размера, щит даёт сильное сопротивление следующей атаке, наносит урон и отбрасывает ближайших врагов
+        '''
+    Driftwood:
+        '''
+        Позволяет владельцу держаться на поверхности воды
+        Увеличивает навык рыбной ловли
+        '''
+    Drywood: Увеличивает скорость передвижения на поверхности
+    Botanist:
+        '''
+        Вы получаете больше ресурсов при сборе всех видов трав
+        У вас зоркий глаз на поиск трав
+        '''
+    Marksman:
+        '''
+        Во время ношения брони стрелка накапливается концентрация
+        В состоянии концентрации следующий удар становится критическим и наносит увеличенный урон
+        Концентрация сбрасывается при получении урона, но накапливается быстрее, если стоять на месте
+        '''
+}
+
+Tiles: {
+    SunkenTreasureTile.MapEntry: "{$Items.SunkenTreasure.DisplayName}"
+    HydrothermalVent.MapEntry: Гидротермальное жерло
+    CoralMapEntry: Коралл
+    KelpMapEntry:"{$Items.Kelp.DisplayName}"
+    GarInAJar_Tile.MapEntry: "{$Items.GarInAJar.DisplayName}"
+    CloudstalkTile.MapEntry: "{$Items.Cloudstalk.DisplayName}"
+    SmallDriftwoodTile.MapEntry: "{$Items.SmallDriftwoodItem.DisplayName}"
+    MediumDriftwoodTile.MapEntry: "{$Items.MediumDriftwoodItem.DisplayName}"
+    LargeDriftwoodTile.MapEntry: "{$Items.LargeDriftwoodItem.DisplayName}"
+    BambooBirdCage.MapEntry: "{$Items.BambooBirdCageItem.DisplayName}"
+    KoiTotemTile.MapEntry: "{$Items.KoiTotem.DisplayName}"
+    HerosMemorialStatue.MapEntry: "{$Items.HerosMemorialStatueItem.DisplayName}"
+    TermiteJar_Tile.MapEntry: "{$Items.TermiteJar.DisplayName}"
+    GarInAJarTile.MapEntry: "{$Items.GarInAJar.DisplayName}"
+    KillieFishbowlTile.MapEntry: "{$Items.KillieFishbowl.DisplayName}"
+}

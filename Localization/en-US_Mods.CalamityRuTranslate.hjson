@@ -96,6 +96,11 @@ Configs: {
             Tooltip: Выключает перевод Catalyst Mod.
         }
         
+        SpiritReforgedLocalization: {
+            Label: Spirit Reforged
+            Tooltip: Выключает перевод Spirit Reforged.
+        }
+        
         VanillaLocalization: {
             Label: Vanilla
             Tooltip: Выключает новый ванильный перевод.

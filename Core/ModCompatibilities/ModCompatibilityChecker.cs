@@ -1,23 +1,32 @@
 ﻿using System;
+using System.Collections.Generic;
 using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
+using Terraria;
 using Terraria.ModLoader;
+using Terraria.UI;
 
 namespace CalamityRuTranslate.Core.ModCompatibilities;
 
+[Autoload(Side = ModSide.Client)]
 public class ModCompatibilityChecker : ModSystem
 {
+    public UserInterface CompatibilityUIManager;
+    public ModCompatibilityUI ModCompatibilityUI { get; private set; }
+    
     private readonly ModCompatibilityInfo[] _modCompatibilityInfo =
-    {
-        new("CalamityMod", new Version(2, 0, 4, 6), TRuConfig.Instance.CalamityModLocalization, true),
-        new("Redemption", new Version(0, 8, 0, 4072), TRuConfig.Instance.RedemptionLocalization, true),
-        new("InfernumMode", new Version(2, 0, 1, 17), TRuConfig.Instance.InfernumModeLocalization, true),
-        new("FargowiltasSouls", new Version(1, 7, 2, 3), TRuConfig.Instance.FargowiltasSoulsLocalization, false),
-        new("Fargowiltas", new Version(3, 3, 6), TRuConfig.Instance.FargowiltasLocalization, false),
-        new("ThoriumMod", new Version(1, 7, 2, 3), TRuConfig.Instance.ThoriumModLocalization, true),
-        new("StarsAbove", new Version(2, 1, 3, 4), TRuConfig.Instance.StarsAboveLocalization, true),
-        new("CatalystMod", new Version(1, 1, 2, 3), TRuConfig.Instance.CatalystLocalization, true),
-    };
+    [
+        new("CalamityMod", new Version(2, 0, 4, 6), TRuConfig.Instance.CalamityModLocalization),
+        new("CatalystMod", new Version(1, 1, 2, 3), TRuConfig.Instance.CatalystLocalization),
+        new("Fargowiltas", new Version(3, 3, 6, 1), TRuConfig.Instance.FargowiltasLocalization),
+        new("FargowiltasSouls", new Version(1, 7, 2, 4), TRuConfig.Instance.FargowiltasSoulsLocalization),
+        new("InfernumMode", new Version(2, 0, 1, 17), TRuConfig.Instance.InfernumModeLocalization),
+        new("NoxusBoss", new Version(1, 2, 19), TRuConfig.Instance.NoxusBossLocalization),
+        new("Redemption", new Version(0, 8, 0, 4072), TRuConfig.Instance.RedemptionLocalization),
+        new("SpiritReforged", new Version(0, 1, 0, 5), TRuConfig.Instance.SpiritReforgedLocalization),
+        new("StarsAbove", new Version(2, 1, 3, 4), TRuConfig.Instance.StarsAboveLocalization),
+        new("ThoriumMod", new Version(1, 7, 2, 3), TRuConfig.Instance.ThoriumModLocalization)
+    ];
 
     public override bool IsLoadingEnabled(Mod mod)
     {
@@ -26,30 +35,49 @@ public class ModCompatibilityChecker : ModSystem
 
     public override void Load()
     {
-        foreach (ModCompatibilityInfo compatibilityInfo in _modCompatibilityInfo)
-        {
-            ModLoader.TryGetMod(compatibilityInfo.InternalName, out Mod modInstance);
-            if (modInstance != null && modInstance.Version != compatibilityInfo.ExpectedVersion && compatibilityInfo.ModLocalization && compatibilityInfo.ShouldCheckVersion)
-            {
-                throw new ModCompatibilityException(GetModNameException(compatibilityInfo.InternalName), modInstance.Version, compatibilityInfo.ExpectedVersion);
-            }
+        CompatibilityUIManager = new UserInterface();
+        ModCompatibilityUI = new ModCompatibilityUI();
+        ModCompatibilityUI.Activate();
+    }
+
+    public override void OnWorldLoad()
+    {
+        ValidateModVersions();
+    }
+
+    public override void ModifyInterfaceLayers(List<GameInterfaceLayer> layers) {
+        int mouseTextIndex = layers.FindIndex(layer => layer.Name.Equals("Vanilla: Mouse Text"));
+        if (mouseTextIndex != -1) {
+            layers.Insert(mouseTextIndex, new LegacyGameInterfaceLayer("Project tRU: ModCompatibilityUI", delegate
+                {
+                    if (CompatibilityUIManager?.CurrentState != null) {
+                        CompatibilityUIManager.Update(Main._drawInterfaceGameTime);
+                        ModCompatibilityUI.Draw(Main.spriteBatch);
+                    }
+                    return true;
+                }, InterfaceScaleType.UI));
         }
     }
 
-    private string GetModNameException(string internalName)
+    private void ValidateModVersions()
     {
-        return internalName switch
+        foreach (ModCompatibilityInfo compatibilityInfo in _modCompatibilityInfo)
         {
-            "CalamityMod" => "Calamity Mod",
-            "ThoriumMod" => "Thorium Mod",
-            "Fargowiltas" => "Fargo's Mutant Mod",
-            "FargowiltasSouls" => "Fargo's Souls Mod",
-            "InfernumMode" => "Calamity Mod Infernum Mode",
-            "Redemption" => "Mod of Redemption",
-            "StarsAbove" => "The Stars Above",
-            "NoxusBoss" => "Calamity: Wrath of the Gods",
-            "CatalystMod" => "Catalyst Mod",
-            _ => throw new ArgumentException(internalName)
-        };
+            ModLoader.TryGetMod(compatibilityInfo.InternalName, out Mod modInstance);
+            if (modInstance != null && modInstance.Version < compatibilityInfo.ExpectedVersion && compatibilityInfo.ModLocalization)
+            {
+                CompatibilityUIManager?.SetState(ModCompatibilityUI);
+                
+                string currentWarningMessage = CreateVersionWarningMessage(modInstance.DisplayName, modInstance.Version, compatibilityInfo.ExpectedVersion);
+                ModCompatibilityUI.SetWarningText(currentWarningMessage);
+                ModCompatibilityUI.ModToUpdate = modInstance.DisplayName;
+                break;
+            }
+        }
+    }
+    
+    private string CreateVersionWarningMessage(string modName, Version currentModVersion, Version expectedModVersion)
+    {
+        return $"У вас установлена старая версия [c/FFF783:{modName}]. Ваша текущая версия: [c/FF0000:{currentModVersion}]. Для корректной работы русификатора рекомендуется обновить [c/FFF783:{modName}] до версии [c/00FF09:{expectedModVersion}].";
     }
 }

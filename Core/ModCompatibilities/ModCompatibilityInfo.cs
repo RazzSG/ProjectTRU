@@ -2,4 +2,4 @@
 
 namespace CalamityRuTranslate.Core.ModCompatibilities;
 
-public record ModCompatibilityInfo(string InternalName, Version ExpectedVersion, bool ModLocalization, bool ShouldCheckVersion);
+public record ModCompatibilityInfo(string InternalName, Version ExpectedVersion, bool ModLocalization);

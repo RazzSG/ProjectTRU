@@ -78,9 +78,9 @@ public class TRuConfig : ModConfig
     [ReloadRequired]
     public bool CatalystLocalization;
     
-    // [DefaultValue(true)]
-    // [ReloadRequired]
-    // public bool SpiritLocalization;
+    [DefaultValue(true)]
+    [ReloadRequired]
+    public bool SpiritReforgedLocalization;
 
     [DefaultValue(true)]
     [ReloadRequired]

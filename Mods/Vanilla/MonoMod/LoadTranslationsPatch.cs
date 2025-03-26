@@ -43,6 +43,7 @@ public class LoadTranslationsPatch : OnPatcher
 		    {"Mods.StarsAbove", TRuConfig.Instance.StarsAboveLocalization},
 		    {"Mods.Redemption", TRuConfig.Instance.RedemptionLocalization},
 		    {"Mods.CatalystMod", TRuConfig.Instance.CatalystLocalization},
+		    {"Mods.SpiritReforged", TRuConfig.Instance.SpiritReforgedLocalization},
 	    };
 
 	    if (file == null)

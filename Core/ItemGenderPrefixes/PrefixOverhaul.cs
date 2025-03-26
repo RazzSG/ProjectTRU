@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using CalamityRuTranslate.Core.ItemGenderPrefixes.Creators;
-using Terraria;
 using Terraria.ModLoader;
 
 namespace CalamityRuTranslate.Core.ItemGenderPrefixes;
@@ -10,17 +11,7 @@ public class PrefixOverhaul
     private readonly HashSet<int> _feminine = [];
     private readonly HashSet<int> _neuter = [];
     private readonly HashSet<int> _plural = [];
-    private static readonly List<IItemGenderCreator> GenderCreators =
-    [
-        new CalamityItemsCreator(),
-        new FargoSoulsItemsCreator(),
-        new InfernumModeItemsCreator(),
-        new ThoriumModItemsCreator(),
-        new StarsAboveItemsCreator(),
-        new RedemptionItemsCreator(),
-        new CatalystItemsCreator(),
-        new NoxusBossCreator()
-    ];
+    private static readonly List<IItemGenderCreator> GenderCreators = [];
 
     //Мужской, Женский, Средний, Множественный
     public readonly string[][] Prefixes =
@@ -168,10 +159,13 @@ public class PrefixOverhaul
         VanillaItemsCreator vanilla = new VanillaItemsCreator();
         LoadItems(vanilla.Create());
 
-        foreach (IItemGenderCreator creator in GenderCreators)
+        IEnumerable<Type> creatorTypes = CalamityRuTranslate.Instance.Code.GetTypes().Where(t => !t.IsAbstract && typeof(IItemGenderCreator).IsAssignableFrom(t));
+        
+        foreach (Type type in creatorTypes)
         {
-            if (ModLoader.TryGetMod(creator.ModName, out Mod _))
+            if (Activator.CreateInstance(type) is IItemGenderCreator creator && ModLoader.TryGetMod(creator.ModName, out Mod _))
             {
+                GenderCreators.Add(creator);
                 LoadItems(creator.Create());
             }
         }
