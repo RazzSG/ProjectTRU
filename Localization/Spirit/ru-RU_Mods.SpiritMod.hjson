@@ -1779,143 +1779,143 @@
 #    }
 #
 #    RuneWizardScroll: {
-#        DisplayName: Rune Wizard's Scroll
+#        DisplayName: Свиток руноманта
 #        Tooltip:
 #            '''
-#            'We all knew Skeletons could write.'
-#            Magic attacks may inflict random, powerful debuffs on foes
-#            Magic attacks may shoot out a random projectile
+#            'А мы-то думали, что скелеты не умеют писать...'
+#            Магические атаки могут накладывать на врагов случайные, но мощные дебаффы
+#            Магические атаки могут выпускать случайные снаряды
 #            '''
 #    }
 #
 #    BloodWard: {
-#        DisplayName: Sanguine Ward
+#        DisplayName: Кровавая защита
 #        Tooltip:
 #            '''
-#            Creates a weakening runic aura
-#            Killing enemies inside your runic aura heals some life
+#            Создаёт ослабляющую руническую ауру
+#            Убийство врагов внутри ауры восстанавливает часть здоровья
 #            '''
 #    }
 #
 #    Sea_Snail_Poison: {
-#        DisplayName: Sea Snail Venom
-#        Tooltip: You leave a trail of mucus that envenoms enemies
+#        DisplayName: Яд морской улитки
+#        Tooltip: Оставляет слизистый след, отравляющий врагов
 #    }
 #
 #    ShadowSingeFang: {
-#        DisplayName: Shadow-Singed Fang
+#        DisplayName: Опалённый тенью клык
 #        Tooltip:
 #            '''
-#            4% increased critical strike chance
-#            4% increased critical strike chance at night or underground
-#            Attacking enemies that have less than half health may strike them with shadows, at the cost of life
+#            Увеличивает шанс критического удара на 4%
+#            Дополнительно увеличивает шанс критического удара на 4% ночью или под землёй
+#            Атаки по врагам с менее чем половиной здоровья могут поражать их тенями, расходуя часть вашего здоровья
 #            '''
 #    }
 #
 #    ShieldCore: {
-#        DisplayName: Interstellar Shield Core
-#        Tooltip: You are surrounded by reflective shields
+#        DisplayName: Межзвёздное защтиное ядро
+#        Tooltip: Окружает вас отражающими щитами
 #    }
 #
 #    ShortFuse: {
-#        DisplayName: Short Fuse
+#        DisplayName: Короткий запал
 #        Tooltip:
 #            '''
-#            Explosives burn quicker
+#            Взрывчатка сгорает быстрее
 #            Работает, даже если находится в инвентаре
 #            '''
 #    }
 #
 #    ShurikenLauncher: {
-#        DisplayName: Sharpshooter's Glove
+#        DisplayName: Перчатка снайпера
 #        Tooltip:
 #            '''
-#            Increases ranged damage at a distance
-#            Consecutive shots at this range deal increased damage
+#            Увеличивает стрелковый урон на дальнем расстоянии
+#            Последовательные выстрелы с этого расстояния наносят увеличенный урон
 #            '''
 #    }
 #
 #    SkarmoryWings: {
-#        DisplayName: Bladewings
+#        DisplayName: Клинковые крылья
 #        Tooltip:
 #            '''
-#            'It seems to originate from a metallic organism of unknown origin'
-#            Grants flight and slow fall
-#            Leaves behind a trail of quicksilver that homes in on foes
+#            'Кажется, они принадлежат металлическому существу неизвестного происхождения'
+#            {$CommonItemTooltip.FlightAndSlowfall}
+#            Оставляет за собой след из ртути, которая наводится на врагов
 #            '''
 #    }
 #
 #    SpectreRing: {
-#        DisplayName: Spectre Ring
-#        Tooltip: Unleashes a bolt of Spectre Energy when the wearer is hurt
+#        DisplayName: Спектральное кольцо
+#        Tooltip: Высвобождает заряд спектральной энергии при получении урона владельцем
 #    }
 #
 #    SpellswordCrest: {
-#        DisplayName: Spellsword's Crest
+#        DisplayName: Герб чародея-мечника
 #        Tooltip:
 #            '''
-#            Summons a holy sword to fight for you
-#            This sword does not take up minion slots
+#            Призывает святой меч, который сражается за вас
+#            Этот меч не занимает слоты призываемых миньонов
 #            '''
 #    }
 #
 #    SwiftRune: {
-#        DisplayName: Swiftness Rune
-#        Tooltip: Massively increases unassisted aerial agility
+#        DisplayName: Руна стремительности
+#        Tooltip: Значительно увеличивает манёвренность в воздухе
 #    }
 #
 #    TimScroll: {
-#        DisplayName: Tim's Scroll of Fumbling
+#        DisplayName: Неуклюжий свиток Тима
 #        Tooltip:
 #            '''
-#            'Who knew Skeletons could write?'
-#            Magic attacks may inflict random debuffs on foes
-#            Magic attacks may shoot out a random projectile
+#            'А мы-то думали, что скелеты не умеют писать...'
+#            Магические атаки могут накладывать на врагов случайные, но мощные дебаффы
+#            Магические атаки могут выпускать случайные снаряды
 #            '''
 #    }
 #
 #    Ukelele: {
-#        DisplayName: Ukulele
+#        DisplayName: Укулеле
 #        Tooltip:
 #            '''
-#            Hitting enemies has a chance to create a chain of lightning
-#            '...and his music was electric.'
+#            При попадании по врагу есть шанс создать цепь молний
+#            '...и его музыка была электрической'
 #            '''
 #    }
 #
 #    Unstable_Tesla_Coil: {
-#        DisplayName: Unstable Tesla Coil
+#        DisplayName: Нестабильная катушка Теслы
 #        Tooltip:
 #            '''
-#            Electrocutes up to 3 nearby enemies
-#            Increases pickup range for ores
+#            Поражает током до 3 ближайших врагов
+#            Увеличивает радиус подбора руды
 #            '''
 #    }
 #
 #    VitalityStone: {
-#        DisplayName: Vitality Stone
+#        DisplayName: Камень жизненной силы
 #        Tooltip:
 #            '''
-#            Hearts are more likely to drop from enemies
-#            'The night is dark and full of terrors'
+#            Увеличивает шанс выпадения сердец из врагов
+#            'Ночь темна и полна ужасов'
 #            '''
 #    }
 #
 #    WheezerScale: {
-#        DisplayName: Wheezer Scale
+#        DisplayName: Чешуя хрипуна
 #        Tooltip:
 #            '''
-#            Melee hits on foes may cause them to emit a cloud of poisonous gas
-#            5% increased melee speed
+#            Удары ближнего боя могут создавать облако ядовитого газа
+#            Увеличивает скорость атаки ближнего боя на 5%
 #            '''
 #    }
 #
 #    WintryCharmMage: {
-#        DisplayName: Wintry Charm
+#        DisplayName: Зимний талисман
 #        Tooltip:
 #            '''
-#            Attacks may slow down hit enemies
-#            This effect does not apply to bosses
+#            Атаки могут замедлять поражённых врагов
+#            Этот эффект не действует на боссов
 #            '''
 #    }
 #
@@ -4018,12 +4018,12 @@
 #    }
 #
 #    CloudstalkItem: {
-#        DisplayName: Cloudstalk
+#        DisplayName: Облачник
 #        Tooltip: ""
 #    }
 #
 #    CloudstalkSeed: {
-#        DisplayName: Cloudstalk Seeds
+#        DisplayName: Семена облачника
 #        Tooltip: ""
 #    }
 #
@@ -10126,6 +10126,11 @@
 #        DisplayName: Towering Stactus
 #        Tooltip: "'A. Knight'"
 #    }
+#
+#    GildJellyItem: {
+#        DisplayName: "{$Mods.SpiritMod.NPCs.GildJelly.DisplayName}"
+#        Tooltip: ""
+#    }
 #}
 #
 #Misc: {
@@ -11559,8 +11564,8 @@
 #    }
 #
 #    Wheezer: {
-#        DisplayName: Wheezer
-#        Entry: A weezer is an extremely toxic relative of the salamander, known for aggressive behavior. Oddly enough, their favorite food is a budding holly plant, contradictory to their carnivorous tendencies.
+#        DisplayName: Хрипун
+#        Entry: Хрипун - крайне ядовитый родственник саламандры, славящийся агрессивным характером. Удивительно, но его любимое лакомство - проросший остролист, что идёт вразрез с его плотоядной природой.
 #    }
 #
 #    WinterbornMelee: {

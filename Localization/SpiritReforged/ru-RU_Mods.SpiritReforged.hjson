@@ -20,7 +20,7 @@ Buffs: {
     }
 
     DoubleJumpPotionBuff: {
-        DisplayName: Эфирный прыжок
+        DisplayName: Прыжок зефира
         Description: Временно даёт дополнительный прыжок
     }
 
@@ -162,6 +162,7 @@ Generation: {
     Gravel: Размещение гравия...
     SavannaTerrain: Создание плато...
     SavannaObjects: Заселение саванны...
+    Pots: Раскидывание горшков...
     Ecotones: Картографирование переходных зон...
 }
 
@@ -698,12 +699,12 @@ Items: {
     }
 
     LivingBaobabLeafWand: {
-        DisplayName: Жезл из живых листьев баобаба
+        DisplayName: Ветвь живых листьев баобаба
         Tooltip: ""
     }
 
     LivingBaobabWand: {
-        DisplayName: Жезл из живого баобаба
+        DisplayName: Ветвь живого баобаба
         Tooltip: ""
     }
 
@@ -1536,6 +1537,29 @@ Items: {
 
     SparrowCageItem: {
         DisplayName: Террариум с воробьём
+        Tooltip: ""
+    }
+
+    CeramicGuide: {
+        DisplayName: Руководство по сохранению керамики
+        Tooltip:
+            '''
+            Позволяет собирать керамические осколки из горшков
+            Нажмите <right>, чтобы отключить эффект
+            '''
+    }
+
+    CeramicGuideInactive: {
+        DisplayName: Руководство по сохранению керамики (Неактивно)
+        Tooltip:
+            '''
+            Позволяет собирать керамические осколки из горшков
+            Эффект сейчас неактивен. Нажмите <right>, чтобы активировать его
+            '''
+    }
+
+    CeramicShard: {
+        DisplayName: Керамический осколок
         Tooltip: ""
     }
 }
