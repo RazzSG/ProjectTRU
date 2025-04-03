@@ -1,17 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using CalamityRuTranslate.Core.ItemGenderPrefixes.Creators;
-using Terraria.ModLoader;
+﻿using System.Collections.Generic;
 
 namespace CalamityRuTranslate.Core.ItemGenderPrefixes;
 
 public class PrefixOverhaul
 {
-    private readonly HashSet<int> _feminine = [];
-    private readonly HashSet<int> _neuter = [];
-    private readonly HashSet<int> _plural = [];
-    private static readonly List<IItemGenderCreator> GenderCreators = [];
+    public enum ItemGenderType
+    {
+        Feminine,
+        Neuter,
+        Plural
+    }
+    
+    private readonly Dictionary<ItemGenderType, HashSet<int>> _genderCollections;
+
+    public static PrefixOverhaul Instance { get; private set; }
 
     //Мужской, Женский, Средний, Множественный
     public readonly string[][] Prefixes =
@@ -156,43 +158,45 @@ public class PrefixOverhaul
 
     public PrefixOverhaul()
     {
-        VanillaItemsCreator vanilla = new VanillaItemsCreator();
-        LoadItems(vanilla.Create());
-
-        IEnumerable<Type> creatorTypes = CalamityRuTranslate.Instance.Code.GetTypes().Where(t => !t.IsAbstract && typeof(IItemGenderCreator).IsAssignableFrom(t));
-        
-        foreach (Type type in creatorTypes)
+        _genderCollections = new Dictionary<ItemGenderType, HashSet<int>>
         {
-            if (Activator.CreateInstance(type) is IItemGenderCreator creator && ModLoader.TryGetMod(creator.ModName, out Mod _))
-            {
-                GenderCreators.Add(creator);
-                LoadItems(creator.Create());
-            }
-        }
-    }
-
-    public static void AddGenderCreator(IItemGenderCreator creator)
-    {
-        GenderCreators.Add(creator);
+            [ItemGenderType.Feminine] = [],
+            [ItemGenderType.Neuter] = [],
+            [ItemGenderType.Plural] = []
+        };
+        
+        Instance = this;
     }
 
     public string GetGenderedPrefix(string[] prefix, int item)
     {
-        if (_feminine.Contains(item))
+        if (_genderCollections[ItemGenderType.Feminine].Contains(item))
             return prefix[1];
 
-        if (_neuter.Contains(item))
+        if (_genderCollections[ItemGenderType.Neuter].Contains(item))
             return prefix[2];
 
-        if (_plural.Contains(item))
+        if (_genderCollections[ItemGenderType.Plural].Contains(item))
             return prefix[3];
+            
         return prefix[0];
     }
     
-    private void LoadItems(IItemGender items)
+    public void AddItems(ItemGenderType genderType, List<int> itemIDs)
     {
-        _feminine.UnionWith(items.Feminine);
-        _neuter.UnionWith(items.Neuter);
-        _plural.UnionWith(items.Plural);
+        _genderCollections[genderType].UnionWith(itemIDs);
+    }
+    
+    public void LoadGenderData(IItemGender genderData)
+    {
+        AddItems(ItemGenderType.Feminine, genderData.Feminine);
+        AddItems(ItemGenderType.Neuter, genderData.Neuter);
+        AddItems(ItemGenderType.Plural, genderData.Plural);
+    }
+    
+    public void Clear()
+    {
+        foreach (HashSet<int> collection in _genderCollections.Values)
+            collection.Clear();
     }
 }

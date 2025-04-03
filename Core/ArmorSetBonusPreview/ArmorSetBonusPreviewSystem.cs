@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
 using Terraria;
@@ -10,9 +11,14 @@ namespace CalamityRuTranslate.Core.ArmorSetBonusPreview;
 
 public class ArmorSetBonusPreviewSystem : ModSystem
 {
-    public static List<ArmorSetBonusData> ArmorSetBonuses;
+    internal static List<ArmorSetBonusData> ArmorSetBonuses;
 
-    public static string GetSetBonusForItem(int itemID)
+    internal static void AddSetBonusForItem(int itemID, Func<string> setBonusText)
+    {
+        ArmorSetBonuses.Add(new ArmorSetBonusData(itemID, setBonusText));
+    }
+    
+    internal static string GetSetBonusForItem(int itemID)
     {
         return ArmorSetBonuses.Find(x => x.ItemID == itemID)?.GetSetBonusText() ?? "";
     }

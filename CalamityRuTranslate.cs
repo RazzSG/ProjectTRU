@@ -2,6 +2,7 @@ using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core;
 using CalamityRuTranslate.Core.Config;
+using CalamityRuTranslate.Core.ModCalls;
 using Terraria;
 using Terraria.Localization;
 using Terraria.ModLoader;
@@ -60,6 +61,18 @@ public class CalamityRuTranslate : Mod
                 TranslationHelper.WikithisRedirect("LeviathanStart", "%3F%3F%3F", false);
 
             }
+        }
+    }
+
+    public override object Call(params object[] args)
+    {
+        try
+        {
+            return ModCalls.Call(args);
+        }
+        catch
+        {
+            return base.Call(args);
         }
     }
 }
