@@ -14,7 +14,7 @@ public class DraedonTextPatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.NoxusBoss != null && TRuConfig.Instance.NoxusBossLocalization && TranslationHelper.IsRussianLanguage;
 
-    public override MethodInfo ModifiedMethod => typeof(FontRegistry).GetCachedMethod("get_DraedonText");
+    public override MethodInfo ModifiedMethod => typeof(FontRegistry).FindMethod("get_DraedonText");
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {
@@ -30,7 +30,7 @@ public class NamelessDeityTextPatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.NoxusBoss != null && TRuConfig.Instance.NoxusBossLocalization && TranslationHelper.IsRussianLanguage;
 
-    public override MethodInfo ModifiedMethod => typeof(FontRegistry).GetCachedMethod("get_NamelessDeityText");
+    public override MethodInfo ModifiedMethod => typeof(FontRegistry).FindMethod("get_NamelessDeityText");
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {
@@ -46,7 +46,7 @@ public class SolynTextPatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.NoxusBoss != null && TRuConfig.Instance.NoxusBossLocalization && TranslationHelper.IsRussianLanguage;
 
-    public override MethodInfo ModifiedMethod => typeof(FontRegistry).GetCachedMethod("get_SolynText");
+    public override MethodInfo ModifiedMethod => typeof(FontRegistry).FindMethod("get_SolynText");
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {
@@ -62,7 +62,7 @@ public class SolynTextItalicsPatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.NoxusBoss != null && TRuConfig.Instance.NoxusBossLocalization && TranslationHelper.IsRussianLanguage;
 
-    public override MethodInfo ModifiedMethod => typeof(FontRegistry).GetCachedMethod("get_SolynTextItalics");
+    public override MethodInfo ModifiedMethod => typeof(FontRegistry).FindMethod("get_SolynTextItalics");
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {
@@ -78,7 +78,7 @@ public class SolynFightDialoguePatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.NoxusBoss != null && TRuConfig.Instance.NoxusBossLocalization && TranslationHelper.IsRussianLanguage;
 
-    public override MethodInfo ModifiedMethod => typeof(FontRegistry).GetCachedMethod("get_SolynFightDialogue");
+    public override MethodInfo ModifiedMethod => typeof(FontRegistry).FindMethod("get_SolynFightDialogue");
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {
@@ -94,7 +94,7 @@ public class AvatarPoemTextPatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.NoxusBoss != null && TRuConfig.Instance.NoxusBossLocalization && TranslationHelper.IsRussianLanguage;
 
-    public override MethodInfo ModifiedMethod => typeof(FontRegistry).GetCachedMethod("get_AvatarPoemText");
+    public override MethodInfo ModifiedMethod => typeof(FontRegistry).FindMethod("get_AvatarPoemText");
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {

@@ -12,7 +12,7 @@ public class ForestNymph_FriendlyPatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.Redemption != null && TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
     
-    public override MethodInfo ModifiedMethod => typeof(ForestNymph_Friendly).GetCachedMethod("ChitChat");
+    public override MethodInfo ModifiedMethod => typeof(ForestNymph_Friendly).FindMethod("ChitChat");
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {

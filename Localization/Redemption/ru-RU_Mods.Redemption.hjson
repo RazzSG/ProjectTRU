@@ -9608,6 +9608,11 @@ Items: {
         Tooltip: ""
     }
 
+    IrradiatedMud: {
+        DisplayName: Облучённая грязь
+        Tooltip: ""
+    }
+
     IrradiatedSandstoneWall: {
         DisplayName: Стена из облучённого песчаника
         Tooltip: ""

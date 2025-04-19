@@ -12,7 +12,7 @@ public class DraedonsLogGUIPatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.Calamity != null && TRuConfig.Instance.CalamityModLocalization && TranslationHelper.IsRussianLanguage;
         
-    public override MethodInfo ModifiedMethod => typeof(DraedonsLogGUI).GetCachedMethod(nameof(DraedonsLogGUI.Draw));
+    public override MethodInfo ModifiedMethod => typeof(DraedonsLogGUI).FindMethod(nameof(DraedonsLogGUI.Draw));
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {

@@ -17,12 +17,21 @@ public class MonoModPatcherSystem : ModSystem
                 }
                 catch (NullReferenceException)
                 {
-                    throw new Exception($"[IL] Экземпляр типа '{type.Name}' не создан!");
+                    throw new Exception($"[IL] Не удалось найти и пропатчить метод '{ilPatcher.ModifiedMethod.Name}'");
                 }
             }
         
             if (type.IsSubclassOf(typeof(OnPatcher)) && Activator.CreateInstance(type) is OnPatcher {AutoLoad: true} onPatcher)
-                MonoModHooks.Add(onPatcher.ModifiedMethod, onPatcher.Delegate);
+            {
+                try
+                {
+                    MonoModHooks.Add(onPatcher.ModifiedMethod, onPatcher.Delegate);
+                }
+                catch (NullReferenceException)
+                {
+                    throw new Exception($"[On] Не удалось найти и пропатчить метод '{onPatcher.ModifiedMethod.Name}'");
+                }
+            }
         }
     }
 }

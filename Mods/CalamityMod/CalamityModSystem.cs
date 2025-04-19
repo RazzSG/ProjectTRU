@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using System.Reflection;
 using CalamityMod.Items.Placeables.Furniture.DevPaintings;
 using CalamityMod.UI.DraedonSummoning;
 using CalamityRuTranslate.Common;
@@ -38,8 +37,7 @@ public class CalamityModSystem : ModSystem
         
         if (!Main.dedServ)
         {
-            PropertyInfo dialogueFont = typeof(CodebreakerUI).GetCachedProperty("DialogFont");
-            dialogueFont.SetValue(null, CodebreakerFont);
+            _ = typeof(CodebreakerUI).SetMemberValue(nameof(CodebreakerUI.DialogFont), CodebreakerFont);
         }
 
         if (ModLoader.TryGetMod("BossChecklist", out Mod bossChecklist) && bossChecklist != null)

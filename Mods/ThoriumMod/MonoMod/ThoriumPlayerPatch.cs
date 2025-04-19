@@ -18,7 +18,7 @@ public class ThoriumPlayerPatch : OnPatcher
 {
     public override bool AutoLoad => ModInstances.Thorium != null && TRuConfig.Instance.ThoriumModLocalization && TranslationHelper.IsRussianLanguage;
 
-    public override MethodInfo ModifiedMethod => typeof(ThoriumPlayer).GetCachedMethod(nameof(ThoriumPlayer.AddCoinTooltip));
+    public override MethodInfo ModifiedMethod => typeof(ThoriumPlayer).FindMethod(nameof(ThoriumPlayer.AddCoinTooltip));
 
     public override Delegate Delegate => Translation;
 

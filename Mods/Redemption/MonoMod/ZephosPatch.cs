@@ -12,7 +12,7 @@ public class ZephosPatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.Redemption != null&& TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
     
-    public override MethodInfo ModifiedMethod => typeof(AdviceButtonBase).GetCachedMethod(nameof(AdviceButtonBase.OnClick));
+    public override MethodInfo ModifiedMethod => typeof(AdviceButtonBase).FindMethod(nameof(AdviceButtonBase.OnClick));
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {

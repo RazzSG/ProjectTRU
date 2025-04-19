@@ -13,7 +13,7 @@
 // {
 //     public override bool AutoLoad => ModInstances.Spirit != null && TRuConfig.Instance.SpiritLocalization && TranslationHelper.IsRussianLanguage;
 //     
-//     public override MethodInfo ModifiedMethod => typeof(QuestBookUI).GetCachedMethod("CreateButtons");
+//     public override MethodInfo ModifiedMethod => typeof(QuestBookUI).FindMethod("CreateButtons");
 //
 //     private delegate UIQuestBookButtonTextPanel[] CreateButtonsDelegate(QuestBookUI self, float y, float textScale, bool equalWidths, params string[] texts);
 //     

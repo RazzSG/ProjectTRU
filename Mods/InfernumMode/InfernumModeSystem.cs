@@ -1,5 +1,4 @@
-﻿using System.Reflection;
-using CalamityRuTranslate.Common;
+﻿using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
 using InfernumMode.Assets.Fonts;
@@ -23,10 +22,7 @@ public class InfernumModeSystem : ModSystem
 
     public override void PostSetupContent()
     {
-        PropertyInfo bossIntroScreensProperty = typeof(InfernumFontRegistry).GetCachedProperty("BossIntroScreensFont");
-        bossIntroScreensProperty?.SetValue(typeof(LocalizedSpriteFont), new LocalizedSpriteFont(BossIntroScreensFont).WithLanguage(GameCulture.CultureName.Russian, BossIntroScreensFont));
-        
-        PropertyInfo profanedTextProperty = typeof(InfernumFontRegistry).GetCachedProperty("ProfanedTextFont");
-        profanedTextProperty?.SetValue(typeof(LocalizedSpriteFont), new LocalizedSpriteFont(ProfanedTextFont).WithLanguage(GameCulture.CultureName.Russian, ProfanedTextFont));
+        _ = typeof(InfernumFontRegistry).SetMemberValue("BossIntroScreensFont", new LocalizedSpriteFont(BossIntroScreensFont).WithLanguage(GameCulture.CultureName.Russian, BossIntroScreensFont));
+        _ = typeof(InfernumFontRegistry).SetMemberValue("ProfanedTextFont", new LocalizedSpriteFont(ProfanedTextFont).WithLanguage(GameCulture.CultureName.Russian, ProfanedTextFont));
     }
 }

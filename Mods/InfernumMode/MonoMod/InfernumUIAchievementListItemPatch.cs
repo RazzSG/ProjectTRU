@@ -12,7 +12,7 @@ public class InfernumUIAchievementListItemPatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.Infernum != null && TRuConfig.Instance.InfernumModeLocalization && TranslationHelper.IsRussianLanguage;
     
-    public override MethodInfo ModifiedMethod => typeof(InfernumUIAchievementListItem).GetCachedMethod("DrawSelf");
+    public override MethodInfo ModifiedMethod => typeof(InfernumUIAchievementListItem).FindMethod("DrawSelf");
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {

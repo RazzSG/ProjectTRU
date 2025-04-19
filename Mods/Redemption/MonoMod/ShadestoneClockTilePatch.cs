@@ -13,7 +13,7 @@ public class ShadestoneClockTilePatch : OnPatcher
 {
     public override bool AutoLoad => ModInstances.Redemption != null && TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
 
-    public override MethodInfo ModifiedMethod => typeof(ShadestoneClockTile).GetCachedMethod(nameof(ShadestoneClockTile.RightClick));
+    public override MethodInfo ModifiedMethod => typeof(ShadestoneClockTile).FindMethod(nameof(ShadestoneClockTile.RightClick));
 
     public override Delegate Delegate => Translation;
     

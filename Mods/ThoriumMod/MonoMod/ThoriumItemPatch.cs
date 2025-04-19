@@ -12,7 +12,7 @@ public class ThoriumItemPatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.Thorium != null && TRuConfig.Instance.ThoriumModLocalization && TranslationHelper.IsRussianLanguage;
 
-    public override MethodInfo ModifiedMethod => typeof(ThoriumItem).GetCachedMethod(nameof(ThoriumItem.ModifyTooltips));
+    public override MethodInfo ModifiedMethod => typeof(ThoriumItem).FindMethod(nameof(ThoriumItem.ModifyTooltips));
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {

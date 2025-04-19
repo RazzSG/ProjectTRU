@@ -12,7 +12,7 @@ public class CustomExoMechSelectionSystemPatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.Infernum != null && TRuConfig.Instance.InfernumModeLocalization && TranslationHelper.IsRussianLanguage;
     
-    public override MethodInfo ModifiedMethod => typeof(CustomExoMechSelectionSystem).GetCachedMethod(nameof(CustomExoMechSelectionSystem.DrawWrapper));
+    public override MethodInfo ModifiedMethod => typeof(CustomExoMechSelectionSystem).FindMethod(nameof(CustomExoMechSelectionSystem.DrawWrapper));
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {

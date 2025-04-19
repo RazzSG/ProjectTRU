@@ -13,7 +13,7 @@ public class FurnitureClockPatch : OnPatcher
 {
     public override bool AutoLoad => ModInstances.Thorium != null && TRuConfig.Instance.ThoriumModLocalization && TranslationHelper.IsRussianLanguage;
 
-    public override MethodInfo ModifiedMethod => typeof(FurnitureClock).GetCachedMethod(nameof(FurnitureClock.RightClick));
+    public override MethodInfo ModifiedMethod => typeof(FurnitureClock).FindMethod(nameof(FurnitureClock.RightClick));
 
     public override Delegate Delegate => Translation;
     

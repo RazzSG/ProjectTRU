@@ -106,11 +106,10 @@ public class ModCompatibilityUI : UIState
             Main.menuMode = 10007;
             
             Assembly tmlAssembly = typeof(ModLoader).Assembly;
-            object modBrowserInstance = tmlAssembly.GetType("Terraria.ModLoader.UI.Interface").GetCachedField("modBrowser").GetValue(null);
-            object filterTextBoxInstance = modBrowserInstance?.GetType().GetCachedField("FilterTextBox").GetValue(modBrowserInstance);
-            filterTextBoxInstance?.GetType().GetCachedProperty("Text").SetValue(filterTextBoxInstance, "");
-            Task.Delay(100).Wait(); // Короткая задержка для обновления текста (перезагруза браузера)
-            filterTextBoxInstance?.GetType().GetCachedProperty("Text").SetValue(filterTextBoxInstance, ModToUpdate);
+            object modBrowserInstance = tmlAssembly.GetType("Terraria.ModLoader.UI.Interface").GetMemberValue<object>("modBrowser");
+            object filterTextBoxInstance = modBrowserInstance?.GetMemberValue<object>("FilterTextBox");
+            filterTextBoxInstance?.SetMemberValue("Text", "");
+            filterTextBoxInstance?.SetMemberValue("Text", ModToUpdate);
         });
     }
 }

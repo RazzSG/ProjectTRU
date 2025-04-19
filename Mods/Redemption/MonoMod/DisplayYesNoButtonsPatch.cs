@@ -15,7 +15,7 @@ public class DisplayYesNoButtonsPatch : OnPatcher
 {
     public override bool AutoLoad => ModInstances.Redemption != null && TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
 
-    public override MethodInfo ModifiedMethod => typeof(YesNoUI).GetCachedMethod(nameof(YesNoUI.DisplayYesNoButtons));
+    public override MethodInfo ModifiedMethod => typeof(YesNoUI).FindMethod(nameof(YesNoUI.DisplayYesNoButtons));
 
     public override Delegate Delegate => Translation;
     

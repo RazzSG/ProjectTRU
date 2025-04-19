@@ -13,7 +13,7 @@ public class VideoPlayerPatch : OnPatcher
 {
     public override bool AutoLoad => ModInstances.StarsAbove != null && TRuConfig.Instance.StarsAboveLocalization && TranslationHelper.IsRussianLanguage;
     
-    public override MethodInfo ModifiedMethod => typeof(VideoPlayer).GetCachedMethod(nameof(VideoPlayer.Play));
+    public override MethodInfo ModifiedMethod => typeof(VideoPlayer).FindMethod(nameof(VideoPlayer.Play));
 
     private delegate void PlayDelegate(VideoPlayer self, Video video);
     

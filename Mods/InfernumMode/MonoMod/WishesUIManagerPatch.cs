@@ -12,7 +12,7 @@ public class WishesUIManagerPatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.Infernum != null && TRuConfig.Instance.InfernumModeLocalization && TranslationHelper.IsRussianLanguage;
     
-    public override MethodInfo ModifiedMethod => typeof(WishesUIManager).GetCachedMethod(nameof(WishesUIManager.InitializePage));
+    public override MethodInfo ModifiedMethod => typeof(WishesUIManager).FindMethod(nameof(WishesUIManager.InitializePage));
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {

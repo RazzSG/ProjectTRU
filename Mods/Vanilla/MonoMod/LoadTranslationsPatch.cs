@@ -20,7 +20,7 @@ public class LoadTranslationsPatch : OnPatcher
 {
     public override bool AutoLoad => TranslationHelper.IsRussianLanguage;
 
-    public override MethodInfo ModifiedMethod => typeof(LocalizationLoader).GetCachedMethod("LoadTranslations");
+    public override MethodInfo ModifiedMethod => typeof(LocalizationLoader).FindMethod("LoadTranslations");
     
     private delegate List<(string key, string value)> LoadTranslationsDelegate(Mod mod, GameCulture culture);
     
@@ -31,7 +31,7 @@ public class LoadTranslationsPatch : OnPatcher
 	    if (culture != GameCulture.FromCultureName(GameCulture.CultureName.Russian) || mod.Name != nameof(CalamityRuTranslate))
 		    return orig.Invoke(mod, culture);
 
-	    TmodFile file = mod.GetType().GetCachedProperty("File").GetValue(mod) as TmodFile;
+	    TmodFile file = mod.GetMemberValue<TmodFile>("File");
 	    Dictionary<string, bool> translationsToSkip = new()
 	    {
 		    {"Mods.CalamityMod", TRuConfig.Instance.CalamityModLocalization},
@@ -76,7 +76,7 @@ public class LoadTranslationsPatch : OnPatcher
 
 			    string translationFileContents = streamReader.ReadToEnd();
 
-			    HashSet<(string Mod, string fileName)> changedFiles = typeof(LocalizationLoader).GetCachedField("changedFiles").GetValue(null) as HashSet<(string Mod, string fileName)>;
+			    HashSet<(string Mod, string fileName)> changedFiles = typeof(LocalizationLoader).GetMemberValue<HashSet<(string Mod, string fileName)>>("changedFiles");
 
 			    if (changedFiles.Select(x => Path.Join(x.Mod, x.fileName)).Contains(modpath))
 			    {

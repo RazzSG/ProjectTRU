@@ -12,7 +12,7 @@ public class SoullessPortalPatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.Redemption != null && TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
         
-    public override MethodInfo ModifiedMethod => typeof(SoullessPortal).GetCachedMethod(nameof(SoullessPortal.SetChatButtons));
+    public override MethodInfo ModifiedMethod => typeof(SoullessPortal).FindMethod(nameof(SoullessPortal.SetChatButtons));
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {

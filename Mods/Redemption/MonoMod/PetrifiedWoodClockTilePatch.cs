@@ -13,7 +13,7 @@ public class PetrifiedWoodClockTilePatch : OnPatcher
 {
     public override bool AutoLoad => ModInstances.Redemption != null && TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
 
-    public override MethodInfo ModifiedMethod => typeof(PetrifiedWoodClockTile).GetCachedMethod(nameof(PetrifiedWoodClockTile.RightClick));
+    public override MethodInfo ModifiedMethod => typeof(PetrifiedWoodClockTile).FindMethod(nameof(PetrifiedWoodClockTile.RightClick));
 
     public override Delegate Delegate => Translation;
     

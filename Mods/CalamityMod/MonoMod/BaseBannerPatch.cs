@@ -14,7 +14,7 @@ public class BaseBannerPatch : OnPatcher
 {
     public override bool AutoLoad => ModInstances.Calamity != null && TRuConfig.Instance.CalamityModLocalization && TranslationHelper.IsRussianLanguage;
     
-    public override MethodInfo ModifiedMethod => typeof(BaseBanner).GetCachedMethod("get_DisplayName");
+    public override MethodInfo ModifiedMethod => typeof(BaseBanner).FindMethod("get_DisplayName");
     
     public override Delegate Delegate => Translation;
 

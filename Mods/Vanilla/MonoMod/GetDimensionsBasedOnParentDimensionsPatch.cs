@@ -15,7 +15,7 @@ public class GetDimensionsBasedOnParentDimensionsPatch : OnPatcher
     
     public override bool AutoLoad => TranslationHelper.IsRussianLanguage;
 
-    public override MethodInfo ModifiedMethod => typeof(UIElement).GetCachedMethod("GetDimensionsBasedOnParentDimensions");
+    public override MethodInfo ModifiedMethod => typeof(UIElement).FindMethod("GetDimensionsBasedOnParentDimensions");
 
     public override Delegate Delegate => Translation;
 

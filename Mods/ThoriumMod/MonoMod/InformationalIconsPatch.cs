@@ -12,7 +12,7 @@ public class InformationalIconsPatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.Thorium != null && TRuConfig.Instance.ThoriumModLocalization && TranslationHelper.IsRussianLanguage;
         
-    public override MethodInfo ModifiedMethod => typeof(InformationalIcons).GetCachedMethod("DrawSelf");
+    public override MethodInfo ModifiedMethod => typeof(InformationalIcons).FindMethod("DrawSelf");
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {

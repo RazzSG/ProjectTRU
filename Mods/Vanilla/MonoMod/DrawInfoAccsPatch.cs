@@ -11,7 +11,7 @@ public class DrawInfoAccsPatch : ILPatcher
 {
     public override bool AutoLoad => TranslationHelper.IsRussianLanguage;
 
-    public override MethodInfo ModifiedMethod => typeof(Main).GetCachedMethod("DrawInfoAccs");
+    public override MethodInfo ModifiedMethod => typeof(Main).FindMethod("DrawInfoAccs");
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {

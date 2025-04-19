@@ -12,7 +12,7 @@ public class GetTextureNPCShouldUsePatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.Redemption != null && TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
     
-    public override MethodInfo ModifiedMethod => typeof(FallenProfile).GetCachedMethod(nameof(FallenProfile.GetTextureNPCShouldUse));
+    public override MethodInfo ModifiedMethod => typeof(FallenProfile).FindMethod(nameof(FallenProfile.GetTextureNPCShouldUse));
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {
@@ -25,7 +25,7 @@ public class GetHeadTextureIndexPatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.Redemption != null && TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
     
-    public override MethodInfo ModifiedMethod => typeof(FallenProfile).GetCachedMethod(nameof(FallenProfile.GetHeadTextureIndex));
+    public override MethodInfo ModifiedMethod => typeof(FallenProfile).FindMethod(nameof(FallenProfile.GetHeadTextureIndex));
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {

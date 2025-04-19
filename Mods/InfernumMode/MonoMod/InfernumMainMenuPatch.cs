@@ -12,7 +12,7 @@ public class InfernumMainMenuPatch: ILPatcher
 {
     public override bool AutoLoad => ModInstances.Infernum != null && TRuConfig.Instance.InfernumModeLocalization && TranslationHelper.IsRussianLanguage;
     
-    public override MethodInfo ModifiedMethod => typeof(InfernumMainMenu).GetCachedMethod("get_Logo");
+    public override MethodInfo ModifiedMethod => typeof(InfernumMainMenu).FindMethod("get_Logo");
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {

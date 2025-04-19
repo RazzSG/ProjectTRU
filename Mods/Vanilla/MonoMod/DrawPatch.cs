@@ -52,7 +52,7 @@ public class DrawPatch : OnPatcher
     
     public override bool AutoLoad => TranslationHelper.IsRussianLanguage;
 
-    public override MethodInfo ModifiedMethod => typeof(SpriteBatch).GetCachedMethod("Draw", [typeof(Texture2D), typeof(Rectangle), typeof(Color)]);
+    public override MethodInfo ModifiedMethod => typeof(SpriteBatch).FindMethod("Draw", [typeof(Texture2D), typeof(Rectangle), typeof(Color)]);
 
     public override Delegate Delegate => Translate;
 

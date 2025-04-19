@@ -13,7 +13,7 @@ public class DisplayDialoguePatch : OnPatcher
 {
     public override bool AutoLoad => ModInstances.Redemption != null && TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
     
-    public override MethodInfo ModifiedMethod => typeof(MoRDialogueUI).GetCachedMethod(nameof(MoRDialogueUI.DisplayDialogue));
+    public override MethodInfo ModifiedMethod => typeof(MoRDialogueUI).FindMethod(nameof(MoRDialogueUI.DisplayDialogue));
 
     public override Delegate Delegate => Translation;
 

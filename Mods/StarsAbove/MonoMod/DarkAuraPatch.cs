@@ -12,7 +12,7 @@ public class DarkAuraPatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.StarsAbove != null && TRuConfig.Instance.StarsAboveLocalization && TranslationHelper.IsRussianLanguage;
         
-    public override MethodInfo ModifiedMethod => typeof(DarkAura).GetCachedMethod(nameof(DarkAura.ModifyBuffText));
+    public override MethodInfo ModifiedMethod => typeof(DarkAura).FindMethod(nameof(DarkAura.ModifyBuffText));
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {

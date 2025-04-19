@@ -12,7 +12,7 @@ public class InfernumDifficultyFavoredDifficultyAtTier : ILPatcher
 {
     public override bool AutoLoad => ModInstances.Infernum != null && TRuConfig.Instance.InfernumModeLocalization && TranslationHelper.IsRussianLanguage;
     
-    public override MethodInfo ModifiedMethod => typeof(InfernumDifficulty).GetCachedMethod(nameof(InfernumDifficulty.FavoredDifficultyAtTier));
+    public override MethodInfo ModifiedMethod => typeof(InfernumDifficulty).FindMethod(nameof(InfernumDifficulty.FavoredDifficultyAtTier));
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {

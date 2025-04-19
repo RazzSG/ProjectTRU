@@ -12,7 +12,7 @@ public class DifficultySelectionMenuPatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.FargowiltasSouls != null && TRuConfig.Instance.FargowiltasSoulsLocalization && TranslationHelper.IsRussianLanguage;
 
-    public override MethodInfo ModifiedMethod => typeof(DifficultySelectionMenu).GetCachedMethod(nameof(DifficultySelectionMenu.UpdateElements));
+    public override MethodInfo ModifiedMethod => typeof(DifficultySelectionMenu).FindMethod(nameof(DifficultySelectionMenu.UpdateElements));
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {

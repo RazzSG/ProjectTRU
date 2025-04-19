@@ -920,7 +920,7 @@ Items: {
     }
 
     ProvidenceSpawnerItem: {
-        DisplayName: Предмет для отладки в святилище Провиденс
+        DisplayName: Святилище Провиденс (ОТЛАДКА)
         Tooltip: Нажмите <right> с Осквернённым ядром, чтобы призвать Провиденс
     }
 
@@ -1506,7 +1506,7 @@ Items: {
     }
 
     ProfanedGardenLocationSetter: {
-        DisplayName: Установщик положения осквернённого сада
+        DisplayName: Установщик положения осквернённого сада (ОТЛАДКА)
         Tooltip:
             '''
             Используйте этот предмет, чтобы исправить неработающий осквернённый сад
@@ -1522,7 +1522,7 @@ Items: {
     }
 
     ForbiddenArchivesLocationSetter: {
-        DisplayName: Установщик положения запретных архивов
+        DisplayName: Установщик положения запретных архивов (ОТЛАДКА)
         Tooltip:
             '''
             Используйте этот предмет, если ваши архивы были уничтожены бездной
@@ -1608,7 +1608,7 @@ NPCs: {
 
         BossChecklistIntegration: {
             EntryName: Обездоленный вассал
-            SpawnInfo: Используйте [i:7119] на пьедестале в сердце пустыни.
+            SpawnInfo: Используйте [i:CalamityMod/SandstormsCore] на пьедестале в сердце пустыни.
         }
     }
 

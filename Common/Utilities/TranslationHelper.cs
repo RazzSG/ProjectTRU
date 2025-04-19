@@ -132,11 +132,6 @@ internal static class TranslationHelper
         return ModContent.Find<ModItem>(fullName).Type;
     }
     
-    internal static LocalizedText GetText(string key)
-    {
-        return Language.GetOrRegister("Mods." + key);
-    }
-    
     public static List<int> GetItemTypesFromMod(string[] itemNames, string modName)
     {
         return itemNames

@@ -17,7 +17,7 @@ public class NukeDetonationUIPatch : OnPatcher
 {
     public override bool AutoLoad => ModInstances.Redemption != null && TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
     
-    public override MethodInfo ModifiedMethod => typeof(NukeDetonationUI).GetCachedMethod(nameof(NukeDetonationUI.Update));
+    public override MethodInfo ModifiedMethod => typeof(NukeDetonationUI).FindMethod(nameof(NukeDetonationUI.Update));
 
     public override Delegate Delegate => Translation;
 

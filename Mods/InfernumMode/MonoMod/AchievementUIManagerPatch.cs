@@ -12,7 +12,7 @@ public class AchievementUIManagerPatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.Infernum != null && TRuConfig.Instance.InfernumModeLocalization && TranslationHelper.IsRussianLanguage;
     
-    public override MethodInfo ModifiedMethod => typeof(AchievementUIManager).GetCachedMethod(nameof(AchievementUIManager.InitializePage));
+    public override MethodInfo ModifiedMethod => typeof(AchievementUIManager).FindMethod(nameof(AchievementUIManager.InitializePage));
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {

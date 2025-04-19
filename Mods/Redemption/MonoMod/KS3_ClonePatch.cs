@@ -12,7 +12,7 @@ public class KS3_ClonePatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.Redemption != null && TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
     
-    public override MethodInfo ModifiedMethod => typeof(KS3_Clone).GetCachedMethod(nameof(KS3_Clone.BossLoot));
+    public override MethodInfo ModifiedMethod => typeof(KS3_Clone).FindMethod(nameof(KS3_Clone.BossLoot));
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {

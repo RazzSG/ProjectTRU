@@ -164,7 +164,7 @@ public class ValueToCoins : OnPatcher
 {
     public override bool AutoLoad => true;
 
-    public override MethodInfo ModifiedMethod => typeof(Main).GetCachedMethod(nameof(Main.ValueToCoins));
+    public override MethodInfo ModifiedMethod => typeof(Main).FindMethod(nameof(Main.ValueToCoins));
     
     private delegate string ValueToCoinsDelegate(long value);
 

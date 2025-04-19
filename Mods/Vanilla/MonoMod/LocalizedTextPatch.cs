@@ -15,7 +15,7 @@ public class LocalizedTextPatch : OnPatcher
     
     public override bool AutoLoad => TranslationHelper.IsRussianLanguage;
 
-    public override MethodInfo ModifiedMethod => typeof(LocalizedText).GetCachedMethod(nameof(LocalizedText.Format));
+    public override MethodInfo ModifiedMethod => typeof(LocalizedText).FindMethod(nameof(LocalizedText.Format));
 
     public override Delegate Delegate => Translation;
 

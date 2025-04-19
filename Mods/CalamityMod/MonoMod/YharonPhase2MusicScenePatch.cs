@@ -13,7 +13,7 @@ public class YharonPhase2MusicScenePatch : OnPatcher
 {
     public override bool AutoLoad => ModInstances.Calamity != null && ModInstances.CalamityModMusic != null && TranslationHelper.IsRussianLanguage && TRuConfig.Instance.YharonCover && TRuConfig.Instance.CalamityModLocalization;
     
-    public override MethodInfo ModifiedMethod => typeof(YharonPhase2MusicScene).GetCachedMethod("get_MusicModMusic");
+    public override MethodInfo ModifiedMethod => typeof(YharonPhase2MusicScene).FindMethod("get_MusicModMusic");
 
     public override Delegate Delegate => ReplaceMusic;
 

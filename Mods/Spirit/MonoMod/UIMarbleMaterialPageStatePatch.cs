@@ -11,7 +11,7 @@
 // {
 //     public override bool AutoLoad => ModInstances.Spirit != null && TRuConfig.Instance.SpiritLocalization && TranslationHelper.IsRussianLanguage;
 //     
-//     public override MethodInfo ModifiedMethod => ModInstances.Spirit.Code.GetType("SpiritMod.Items.Books.UI.MaterialUI.UIMarbleMaterialPageState").GetCachedMethod("get_BackgroundTexturePath");
+//     public override MethodInfo ModifiedMethod => ModInstances.Spirit.Code.GetType("SpiritMod.Items.Books.UI.MaterialUI.UIMarbleMaterialPageState").FindMethod("get_BackgroundTexturePath");
 //
 //     public override ILContext.Manipulator PatchMethod { get; } = il =>
 //     {

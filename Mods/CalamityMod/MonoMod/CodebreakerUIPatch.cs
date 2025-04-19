@@ -12,7 +12,7 @@ public class CodebreakerUIPatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.Calamity != null && TRuConfig.Instance.CalamityModLocalization && TranslationHelper.IsRussianLanguage;
         
-    public override MethodInfo ModifiedMethod => typeof(CodebreakerUI).GetCachedMethod(nameof(CodebreakerUI.HandleDecryptionStuff));
+    public override MethodInfo ModifiedMethod => typeof(CodebreakerUI).FindMethod(nameof(CodebreakerUI.HandleDecryptionStuff));
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {

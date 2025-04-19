@@ -1,6 +1,5 @@
 ﻿using CalamityRuTranslate.Common.Utilities;
 using Terraria;
-using Terraria.GameContent.UI.States;
 using Terraria.ModLoader;
 using Terraria.UI;
 
@@ -8,7 +7,7 @@ namespace CalamityRuTranslate.Mods.Vanilla.MonoMod;
 
 public class UIManageControlsPatch : ILoadable
 {
-    private UIElement OuterContainer => Main.ManageControlsMenu.GetFieldValue<UIManageControls, UIElement>("_outerContainer");
+    private UIElement OuterContainer => Main.ManageControlsMenu.GetMemberValue<UIElement>("_outerContainer");
 
     public bool IsLoadingEnabled(Mod mod)
     {

@@ -19,7 +19,7 @@ public class ModeIndicatorUIPatch : OnPatcher
 {
     public override bool AutoLoad => ModInstances.Calamity != null && TRuConfig.Instance.CalamityModLocalization && TranslationHelper.IsRussianLanguage;
     
-    public override MethodInfo ModifiedMethod => typeof(ModeIndicatorUI).GetCachedMethod(nameof(ModeIndicatorUI.GetDifficultyStatus));
+    public override MethodInfo ModifiedMethod => typeof(ModeIndicatorUI).FindMethod(nameof(ModeIndicatorUI.GetDifficultyStatus));
 
     private delegate void GetDifficultyStatusDelegate(out LocalizedText text);
     
@@ -55,7 +55,7 @@ public class ModeIndicatorUIDrawPatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.Calamity != null && TRuConfig.Instance.CalamityModLocalization && TranslationHelper.IsRussianLanguage;
     
-    public override MethodInfo ModifiedMethod => typeof(ModeIndicatorUI).GetCachedMethod(nameof(ModeIndicatorUI.Draw));
+    public override MethodInfo ModifiedMethod => typeof(ModeIndicatorUI).FindMethod(nameof(ModeIndicatorUI.Draw));
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {

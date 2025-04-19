@@ -13,7 +13,7 @@ public class ElderWoodClockTilePatch : OnPatcher
 {
     public override bool AutoLoad => ModInstances.Redemption != null && TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
 
-    public override MethodInfo ModifiedMethod => typeof(ElderWoodClockTile).GetCachedMethod(nameof(ElderWoodClockTile.RightClick));
+    public override MethodInfo ModifiedMethod => typeof(ElderWoodClockTile).FindMethod(nameof(ElderWoodClockTile.RightClick));
 
     public override Delegate Delegate => Translation;
     

@@ -12,7 +12,7 @@ public class DrawOmegaTransmitterTextPatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.Redemption != null && TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
         
-    public override MethodInfo ModifiedMethod => typeof(RedeSystem).GetCachedMethod(nameof(RedeSystem.DrawOmegaTransmitterText));
+    public override MethodInfo ModifiedMethod => typeof(RedeSystem).FindMethod(nameof(RedeSystem.DrawOmegaTransmitterText));
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {
@@ -24,7 +24,7 @@ public class DrawSkeletonInvasionUIPatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.Redemption != null && TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
         
-    public override MethodInfo ModifiedMethod => typeof(RedeSystem).GetCachedMethod(nameof(RedeSystem.DrawSkeletonInvasionUI));
+    public override MethodInfo ModifiedMethod => typeof(RedeSystem).FindMethod(nameof(RedeSystem.DrawSkeletonInvasionUI));
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {
@@ -37,7 +37,7 @@ public class DrawFowlMorningUIPatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.Redemption != null && TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
         
-    public override MethodInfo ModifiedMethod => typeof(RedeSystem).GetCachedMethod(nameof(RedeSystem.DrawFowlMorningUI));
+    public override MethodInfo ModifiedMethod => typeof(RedeSystem).FindMethod(nameof(RedeSystem.DrawFowlMorningUI));
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {

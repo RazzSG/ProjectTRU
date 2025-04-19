@@ -13,25 +13,23 @@ public class StatButtonUIRebuildStatList : OnPatcher
 {
     public override bool AutoLoad => ModInstances.Fargowiltas != null && TRuConfig.Instance.FargowiltasLocalization && TranslationHelper.IsRussianLanguage;
     
-    public override MethodInfo ModifiedMethod => typeof(StatSheetUI).GetCachedMethod(nameof(StatSheetUI.AddStat), [typeof(string), typeof(int)]);
+    public override MethodInfo ModifiedMethod => typeof(StatSheetUI).FindMethod(nameof(StatSheetUI.AddStat), [typeof(string), typeof(int)]);
 
-    public override Delegate Delegate => Translation;
-    
-    private void Translation(Action<StatSheetUI, string, int> orig, StatSheetUI self, string text, int item = -1)
+    public override Delegate Delegate => (Action<StatSheetUI, string, int> orig, StatSheetUI self, string text, int item = -1) =>
     {
         text = text
             .Replace("Rogue Damage:", "Разбойный урон:")
             .Replace("Rogue Critical:", "Разбойный шанс крит. удара:");
         
         orig.Invoke(self, text, item);
-    }
+    };
 }
 
 public class StatButtonAddStat : ILPatcher
 {
     public override bool AutoLoad => ModInstances.Fargowiltas != null && TRuConfig.Instance.FargowiltasLocalization && TranslationHelper.IsRussianLanguage;
 
-    public override MethodInfo ModifiedMethod => typeof(StatSheetUI).GetCachedMethod(nameof(StatSheetUI.AddStat), [typeof(string), typeof(int)]);
+    public override MethodInfo ModifiedMethod => typeof(StatSheetUI).FindMethod(nameof(StatSheetUI.AddStat), [typeof(string), typeof(int)]);
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {

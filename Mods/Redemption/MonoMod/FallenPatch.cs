@@ -12,7 +12,7 @@ public class FallenPatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.Redemption != null && TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
     
-    public override MethodInfo ModifiedMethod => typeof(Fallen).GetCachedMethod(nameof(Fallen.GetChat));
+    public override MethodInfo ModifiedMethod => typeof(Fallen).FindMethod(nameof(Fallen.GetChat));
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {

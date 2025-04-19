@@ -14,7 +14,7 @@ public class CalamityUtilsPatch : OnPatcher
 {
     public override bool AutoLoad => ModInstances.Calamity != null && TRuConfig.Instance.CalamityModLocalization && TranslationHelper.IsRussianLanguage;
 
-    public override MethodInfo ModifiedMethod => typeof(CalamityUtils).GetCachedMethod(nameof(CalamityUtils.GenerateRandomAlphanumericString));
+    public override MethodInfo ModifiedMethod => typeof(CalamityUtils).FindMethod(nameof(CalamityUtils.GenerateRandomAlphanumericString));
 
     public override Delegate Delegate { get; } = (Func<int, string> _, int length) =>
     {

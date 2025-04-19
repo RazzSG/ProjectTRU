@@ -2213,7 +2213,7 @@
 #    }
 #
 #    BeholderMask: {
-#        DisplayName: Beholder Mask
+#        DisplayName: Маска созерцателя
 #        Tooltip: ""
 #    }
 #
@@ -2422,22 +2422,22 @@
 #    }
 #
 #    BeholderBanner: {
-#        DisplayName: Beholder Banner
+#        DisplayName: Знамя созерцателя
 #        Tooltip: ""
 #    }
 #
 #    BlazingSkullBanner: {
-#        DisplayName: Wrathful Soul Banner
+#        DisplayName: Знамя гневной души
 #        Tooltip: ""
 #    }
 #
 #    BlizzardBanditBanner: {
-#        DisplayName: Blizzard Bandit Banner
+#        DisplayName: Знамя бандита метели
 #        Tooltip: ""
 #    }
 #
 #    BlizzardNimbusBanner: {
-#        DisplayName: Blizzard Nimbus Banner
+#        DisplayName: Знамя грозной тучи метели
 #        Tooltip: ""
 #    }
 #
@@ -8893,7 +8893,7 @@
 #
 #    SoulWeaver: {
 #        DisplayName: Soul Weaver
-#        Tooltip: Shoots out multiple Soul Shards in a spread
+#        Tooltip: Shoots out Soul Shards
 #    }
 #
 #    SpiritFlameStaff: {
@@ -10147,204 +10147,6 @@
 #    PinMove: Click to move
 #}
 #
-#MusicDislay: {
-#    ModName: Spirit Mod
-#    Salvati: Salvati
-#    Sbubby: Sbubby
-#    By: by
-#    BySalvati: "{$By} {$Salvati}"
-#
-#    GraniteBiome: {
-#        DisplayName: Resounding Stones (Granite Theme)
-#        Author: "{$BySalvati}"
-#    }
-#
-#    AuroraSnow: {
-#        DisplayName: Aurora Borealis
-#        Author: "{$BySalvati}"
-#    }
-#
-#    DepthInvasion: {
-#        DisplayName: Drowning Tides (Tide Theme)
-#        Author: "{$BySalvati}"
-#    }
-#
-#    SnowNighttime: {
-#        DisplayName: Icy Stars (Snow Night Theme)
-#        Author: "{$BySalvati}"
-#    }
-#
-#    DesertNighttime: {
-#        DisplayName: Kempt Dunes (Desert Night Theme)
-#        Author: "{$BySalvati}"
-#    }
-#
-#    OceanNighttime: {
-#        DisplayName: Beyond the Horizon (Luminous Ocean Theme)
-#        Author: "{$BySalvati}"
-#    }
-#
-#    CrimsonNighttime: {
-#        DisplayName: Razor's Edge (Crimson Night Theme)
-#        Author: "{$BySalvati}, {$Sbubby}"
-#    }
-#
-#    ReachUnderground: {
-#        DisplayName: Lurking Vines (Underground Briar Theme)
-#        Author: "{$By} {$Sbubby}"
-#    }
-#
-#    Meteor: {
-#        DisplayName: Space Rocks! (Meteorite Theme)
-#        Author: "{$BySalvati}"
-#    }
-#
-#    Infernon: {
-#        DisplayName: Fiery Care (Infernon Theme)
-#        Author: "{$BySalvati}"
-#    }
-#
-#    CorruptNight: {
-#        DisplayName: Nightmare Fuel (Corruption Night Theme)
-#        Author: "{$BySalvati}"
-#    }
-#
-#    NeonTech1: {
-#        DisplayName: Spaced Out (Hyperspace Day Theme)
-#        Author: "{$BySalvati}"
-#    }
-#
-#    NeonTech: {
-#        DisplayName: Techno Vibes (Hyperspace Night Theme)
-#        Author: "{$BySalvati}"
-#    }
-#
-#    BlueMoon: {
-#        DisplayName: Nighttime Groove (Mystic Moon Theme)
-#        Author: "{$BySalvati}"
-#    }
-#
-#    JellySky: {
-#        DisplayName: Sticky Situation (Jelly Deluge Theme)
-#        Author: "{$BySalvati}"
-#    }
-#
-#    FrostLegion: {
-#        DisplayName: Tougher Chill (Frost Legion Theme)
-#        Author: "{$BySalvati}"
-#    }
-#
-#    SpiderCave: {
-#        DisplayName: Xyresic Horrors (Spider Cave Theme)
-#        Author: "{$BySalvati}"
-#    }
-#
-#    MoonJelly: {
-#        DisplayName: Mystical Mischief (Moon Jelly Wizard Theme)
-#        Author: "{$BySalvati}"
-#    }
-#
-#    HallowNight: {
-#        DisplayName: Wonderous Landscape (Hallow Night Theme)
-#        Author: "{$BySalvati}"
-#    }
-#
-#    Atlas: {
-#        DisplayName: Tremors Underneath (Atlas Theme)
-#        Author: "{$BySalvati}"
-#    }
-#
-#    SpiritLayer3: {
-#        DisplayName: Hellish Atmosphere (Spirit Depths Theme)
-#        Author: "{$BySalvati}"
-#    }
-#
-#    ReachBoss: {
-#        DisplayName: Monarch Husk (Vinewrath Bane Theme)
-#        Author: "{$BySalvati}"
-#    }
-#
-#    MarbleBiome: {
-#        DisplayName: Regal Tunnel (Marble Theme)
-#        Author: "{$BySalvati}"
-#    }
-#
-#    Blizzard: {
-#        DisplayName: Shivering Storms (Blizzard Theme)
-#        Author: "{$BySalvati}"
-#    }
-#
-#    SpiritLayer1: {
-#        DisplayName: Fearful Atmosphere (Underground Spirit Theme)
-#        Author: "{$BySalvati}"
-#    }
-#
-#    Starplate: {
-#        DisplayName: Lost Voyager (Starplate Voyager Theme)
-#        Author: "{$BySalvati}"
-#    }
-#
-#    SpiritOverworld: {
-#        DisplayName: Enervating Atmosphere (Spirit Theme)
-#        Author: "{$BySalvati}"
-#    }
-#
-#    Reach: {
-#        DisplayName: Floral Fiends (Briar Theme)
-#        Author: "{$BySalvati}"
-#    }
-#
-#    AncientAvian: {
-#        DisplayName: Jettisoned Giant (Ancient Avian Theme)
-#        Author: "{$BySalvati}"
-#    }
-#
-#    UnderwaterMusic: {
-#        DisplayName: Deep Ocean
-#        Author: "{$BySalvati}"
-#    }
-#
-#    VictoryDay: {
-#        DisplayName: Overworld Alt Alt (Victory Day Theme)
-#        Author: "{$BySalvati}"
-#    }
-#
-#    AshStorm: {
-#        DisplayName: Ash Storm
-#        Author: "{$BySalvati}"
-#    }
-#
-#    Asteroids: {
-#        DisplayName: Above Islands (Asteroid Theme)
-#        Author: "{$BySalvati}"
-#    }
-#
-#    DuskingTheme: {
-#        DisplayName: Dusking
-#        Author: "{$By} LordCakeSpy"
-#    }
-#
-#    Scarabeus: {
-#        DisplayName: Crawling Complications (Scarabeus Theme)
-#        Author: "{$BySalvati}"
-#    }
-#
-#    TranquilWinds: {
-#        DisplayName: Tranquil Winds
-#        Author: "{$BySalvati}"
-#    }
-#
-#    ReachNighttime: {
-#        DisplayName: Briar Night
-#        Author: "{$BySalvati}"
-#    }
-#
-#    CrimsonNight: {
-#        DisplayName: Razor's Edge (Crimson Night Theme)
-#        Author: "{$BySalvati}, {$Sbubby}"
-#    }
-#}
-#
 #NPCs: {
 #    CopperChestBottom.DisplayName: Медный сундук
 #    GoldChestBottom.DisplayName: Золотой сундук
@@ -10385,47 +10187,47 @@
 #        Entry: Поразительное явление внеземной жизни, состоящее из непостижимой для нас субстанции. Несмотря на свои скромные размеры и желеобразную форму, вокруг этого странного существа каким-то образом вращаются крепкие камни.
 #    }
 #
-#    SpaceShield.DisplayName: Astral Buffer
+#    SpaceShield.DisplayName: Астральный усилитель
 #
 #    AuroraStag: {
 #        DisplayName: Олень северного сияния
-#        Entry: A gourgeous stag known to frolic under the aurora's sky. Loves ice berries, scared by most other things. Especially people.
+#        Entry: Великолепный олень, известный тем, что резвится под небом северного сияния. Обожает ледяные ягоды, но всего остального - особенно людей - панически боится.
 #    }
 #
 #    AutomataCreeper: {
-#        DisplayName: Arachmaton
-#        Entry: Forged from brass, a sturdy metal. Makes a lasting frame. A core from marble, containing untapped magic. This gives it mind. And at last, the spark of life. Roam free, new friend.
+#        DisplayName: Арахматон
+#        Entry: Создан из латуни - прочного металла, служащего надёжным каркасом. Внутри - сердцевина из мрамора, наполненная нерастраченной магией, которая дарует ему разум. И, наконец, искра жизни. Ступай на волю, новый друг.
 #    }
 #
 #    AutomataSpinner: {
-#        DisplayName: Trochmaton
-#        Entry: Times grow dire, and I must hurry. Dual blades, for attack. Four legs, for stability. Extra plating, for resistance. A marble core and at last the spark of life. Make haste o' guardian, you know your task. Defend these caves we call home.
+#        DisplayName: Трохматон
+#        Entry: Времена тяжёлые, и мне нужно спешить. Парные клинки - для атаки. Четыре ноги - для устойчивости. Дополнительная броня - для защиты. Мраморная сердцевина и, наконец, искра жизни. Спеши, о страж, ты знаешь своё предназначение. Защити эти пещеры, что зовутся нашим домом.
 #    }
 #
 #    Beholder: {
-#        DisplayName: Beholder
-#        Entry: These beasts roam the marble pits found within the world, judging you with each one of their many eyes.
-#        BossChecklistIntegration.SpawnInfo: The Beholder spawns rarely in Marble Caverns after the Eater of Worlds or Brain of Cthulhu has been defeated.
+#        DisplayName: Созерцатель
+#        Entry: Эти чудовища бродят по мраморным пещерам, что встречаются в мире, оценивая каждого взглядом своих многочисленных глаз.
+#        BossChecklistIntegration.SpawnInfo: Созерцатель редко появляется в мраморных пещерах после победы над Пожирателем миров или Мозгом Ктулху.
 #    }
 #
 #    BlazingSkull: {
-#        DisplayName: Wrathful Soul
-#        Entry: Easily angered, this soul is eternally ablaze because of its sheer rage. All this energy is then released as it charges forward to blow up at any little thing. What a hothead.
+#        DisplayName: Гневная душа
+#        Entry: Легко выходит из себя - эта душа в буквальном смысле пылает от ярости. Вся её неукротимая энергия вырывается наружу, когда она мчится вперёд, готовая взорваться по малейшему поводу. Вот уж действительно - вспыльчивая натура.
 #    }
 #
 #    BlizzardBandit: {
-#        DisplayName: Blizzard Bandit
-#        Entry: Snowball fights can be fun, but these bandits don't play nice. They pack their snowballs around cores of ice, causing duress for any passerby.
+#        DisplayName: Бандит метели
+#        Entry: Игры в снежки могут быть весёлыми, но эти бандиты не соблюдают правил. Вместо обычных снежков они лепят снаряды с ледяным сердцем, превращая игру в настоящее испытание для любого прохожего.
 #    }
 #
 #    BlizzardNimbus: {
-#        DisplayName: Blizzard Nimbus
-#        Entry: Having frozen over, this nimbus angrily rains down shards of ice in an attempt to expel all of it. What it doesn't know is that it could just leave the cold environment.
+#        DisplayName: Грозная туча метели
+#        Entry: Полностью замёрзнув, это облако в ярости обрушивает на землю ледяные осколки, надеясь избавиться от холода. Но, увы, оно не догадывается, что достаточно просто улететь в более тёплые края.
 #    }
 #
 #    Spewer: {
-#        DisplayName: Bloater
-#        Entry: A particularly foul beast. It builds up pressure by sucking in air with the organs on its back and propels gastric fluids at anything it deems threatening.
+#        DisplayName: Вздутень
+#        Entry: Особо мерзкое создание. Накопив давление, оно вбирает воздух через органы на спине, а затем с силой выплёвывает желудочные соки во всё, что посчитает угрозой.
 #    }
 #
 #    SwollenFish: {

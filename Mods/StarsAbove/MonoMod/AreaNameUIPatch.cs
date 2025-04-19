@@ -11,7 +11,7 @@ public class AreaNameUIPatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.StarsAbove != null && TRuConfig.Instance.StarsAboveLocalization && TranslationHelper.IsRussianLanguage;
 
-    public override MethodInfo ModifiedMethod => ModInstances.StarsAbove.Code.GetType("StarsAbove.UI.CelestialCartography.AreaNameUI").GetCachedMethod("DrawSelf");
+    public override MethodInfo ModifiedMethod => ModInstances.StarsAbove.Code.GetType("StarsAbove.UI.CelestialCartography.AreaNameUI").FindMethod("DrawSelf");
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {
