@@ -230,7 +230,7 @@ public partial class RedemptionGlobalItem : GlobalItem
         {
             ItemHelper.TranslateTooltip(tooltips, "DonatorLine", tooltip =>
             {
-                tooltip.Text = "-Предмет патрона-";
+                tooltip.Text = "-Предмет покровителя-";
             });
         }
         
