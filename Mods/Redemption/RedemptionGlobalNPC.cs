@@ -96,24 +96,6 @@ public class RedemptionGlobalNPC : GlobalNPC
             typeName = $"Скелет-страж игрока {playerName}";
         }
         
-        if (npc.type == ModContent.NPCType<TreebarkDryad>())
-        {
-            typeName = typeName switch
-            {
-                "Gentlewood, Древокожий дендрий" => "Нежнодрев, Древокожий дендрий",
-                "Blandwood, Древокожий дендрий" => "Преснодрев, Древокожий дендрий",
-                "Elmshade, Древокожий дендрий" => "Вязотень, Древокожий дендрий",
-                "Vinewood, Древокожий дендрий" => "Лозодрев, Древокожий дендрий",
-                "Bitterthorn, Древокожий дендрий" => "Горькошип, Древокожий дендрий",
-                "Irontwig, Древокожий дендрий" => "Железноветвь, Древокожий дендрий",
-                "Tapio, Древокожий дендрий" => "Тапио, Древокожий дендрий",
-                "Willowbark, Древокожий дендрий" => "Ивокора, Древокожий дендрий",
-                "Cherrysplinter, Древокожий дендрий" => "Вишнещепка, Древокожий дендрий",
-                "Blossomwood, Древокожий дендрий" => "Цветодрев, Древокожий дендрий",
-                _ => typeName
-            };
-        }
-        
         if (npc.type == ModContent.NPCType<Android>())
         {
             if (npc.GivenName == "Apidroid Mk.I")

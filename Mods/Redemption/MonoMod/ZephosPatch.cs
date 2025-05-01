@@ -10,7 +10,7 @@ namespace CalamityRuTranslate.Mods.Redemption.MonoMod;
 
 public class ZephosPatch : ILPatcher
 {
-    public override bool AutoLoad => ModInstances.Redemption != null&& TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
+    public override bool AutoLoad => ModInstances.Redemption != null && TRuConfig.Instance.RedemptionLocalization && TranslationHelper.IsRussianLanguage;
     
     public override MethodInfo ModifiedMethod => typeof(AdviceButtonBase).FindMethod(nameof(AdviceButtonBase.OnClick));
 

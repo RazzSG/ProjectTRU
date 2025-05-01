@@ -16,8 +16,6 @@ public class RedemptionNpcChat : GlobalNPC
 
     public override void GetChat(NPC npc, ref string chat)
     {
-        string GetNPCName(int type) => Main.npc[NPC.FindFirstNPC(type)].GivenName;
-
         if (npc.type == ModContent.NPCType<SoullessPortal>())
         {
             chat = chat switch

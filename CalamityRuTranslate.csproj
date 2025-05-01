@@ -24,7 +24,7 @@
       <HintPath>..\ModAssemblies\NoxusBoss_v1.2.20.dll</HintPath>
     </Reference>
     <Reference Include="Redemption">
-      <HintPath>..\ModAssemblies\Redemption_v0.8.0.4070.dll</HintPath>
+      <HintPath>..\ModAssemblies\Redemption_v0.8.0.4073.dll</HintPath>
     </Reference>
     <Reference Include="SpiritMod">
       <HintPath>..\ModAssemblies\SpiritMod_v1.5.0.32.dll</HintPath>

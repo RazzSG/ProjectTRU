@@ -415,6 +415,7 @@ public class ThoriumModItems : IItemGender
                 "TitanWings",
                 "JetBoots",
                 "ChampionWing",
+                "TerrariumParticleSprinters",
             };
     
             if (ModInstances.Thorium != null)
