@@ -490,7 +490,7 @@ UI: {
     ActiveSkills: Активные умения
     AvailableSkills: Доступные умения
     SelectDifficulty: Выберите сложность
-    NoRespawn: Возрождение невозможно: В режиме Мазохист в мультиплеере разрешено только одно возрождение во время битвы с боссом!
+    NoRespawn: Возрождение невозможно: В режиме {0} в мультиплеере разрешено только одно возрождение во время битвы с боссом!
 }
 
 RecipeGroups: {
@@ -3140,7 +3140,7 @@ Items: {
             Даёт доступ к режиму строителя
             Даёт эффекты от предметов «{$ItemName.BrainOfConfusion}», «{$ItemName.StarVeil}», «{$ItemName.SweetheartNecklace}», «{$ItemName.BeeCloak}», «{$ItemName.SporeSac}» и «{$ItemName.ShinyStone}»
             Даёт эффекты от предметов «{$ItemName.PaladinsShield}», «{$ItemName.FrozenTurtleShell}», «{$ItemName.ArcticDivingGear}», «{$ItemName.FrogLeg}» и «{$ItemName.FlyingCarpet}»
-            Даёт эффекты от предметов «{$ItemName.LavaWaders}», «{$ItemName.AnglerTackleBag}», «{$ItemName.PaintSprayer}», «{$ItemName.ActuationAccessory}», «{$ItemName.CellPhone}» и «{$ItemName.GravityGlobe}»
+            Даёт эффекты от предметов «{$ItemName.LavaWaders}», «{$ItemName.AnglerTackleBag}», «{$ItemName.PaintSprayer}», «{$ItemName.ActuationAccessory}» и «{$ItemName.GravityGlobe}»
             Даёт эффекты от предметов «{$ItemName.EoCShield}» и «{$ItemName.MasterNinjaGear}»
             'Вселенная Террарии в ваших руках'
             '''
@@ -4512,7 +4512,7 @@ Items: {
             -Дебаффы исчезают быстрее, если вы не атакуете
             -Дебаффы, наносящие постепенный урон, не могут вас убить, за исключением случая, когда вы играете в режиме Мазохист
             -Изменяет функционал и силу некоторых предметов
-            -В мультиплеере в режиме Мазохист каждый игрок может возродиться только один раз за время битвы с боссом
+            -В мультиплеере в режиме Мазохист каждый игрок может возродиться только один раз за время битвы с боссом (можно переключить)
             Нельзя использовать, пока босс жив
             [i:1612][c/00ff00:Рекомендуется использовать настройку «Отображение дебаффов на врагах» (в конфиге мода)]
             [c/ff0000:НЕ ПРЕДНАЗНАЧЕНО ДЛЯ ИСПОЛЬЗОВАНИЯ С ДРУГИМИ ГЛОБАЛЬНЫМИ МОДАМИ И УСЛОЖНЕНИЯМИ ИЗ НИХ]
@@ -6004,6 +6004,18 @@ Configs: {
             Label: "[i:FargowiltasSouls/TouhouStaff] [c/ffffff:{$Mods.FargowiltasSouls.Items.TouhouStaff.DisplayName}]"
             Tooltip: ""
         }
+
+        MultiplayerRespawnPrevention: {
+            Label: Запрет возрождения в мультиплеере
+            Tooltip: Выберите режим, в котором следует запрещать повторное возрождение игроков во время битвы с боссом в мультиплеере.
+        }
+    }
+
+    RespawnPreventionSetting: {
+        Tooltip: ""
+        Eternity.Label: Вечность
+        Masochist.Label: Мазохист
+        Disabled.Label: Выключено
     }
 }
 
