@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using System;
+using System.Reflection;
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
@@ -6,6 +7,7 @@ using CalamityRuTranslate.Core.MonoMod;
 using Mono.Cecil.Cil;
 using MonoMod.Cil;
 using Terraria.GameContent.UI.Elements;
+using Terraria.UI;
 
 namespace CalamityRuTranslate.Mods.StarsAbove.MonoMod;
 
@@ -32,6 +34,8 @@ public class StellarNovaUIPatch : ILPatcher
         cursor.Emit(OpCodes.Callvirt, typeof(UIText).GetMethod("SetText", new[] { typeof(string), typeof(float), typeof(bool) }));
         cursor.RemoveRange(2); // ldstr, callvirt
         
+        TranslationHelper.ModifyIL(il, 587f, 590f);
+        
         // cursor.TryGotoNext(MoveType.After, i => i.MatchLdcR4(452f));
         // cursor.TryGotoNext(MoveType.After, i => i.MatchLdcR4(0f));
         // cursor.TryGotoNext(MoveType.After, i => i.MatchCall(typeof(StyleDimension).GetMethod("Set")));
@@ -46,5 +50,29 @@ public class StellarNovaUIPatch : ILPatcher
         // cursor.Emit(OpCodes.Ldc_R4, 680f);
         // cursor.Emit(OpCodes.Callvirt, typeof(DynamicSpriteFont).GetMethod("CreateWrappedText", new []{ typeof(string), typeof(float) }));
         // cursor.Emit(OpCodes.Callvirt, typeof(UIText).GetMethod("SetText", new[] { typeof(string) }));
+
+        cursor.Goto(il.Instrs.Count - 1);
+        cursor.Emit(OpCodes.Ldarg_0);
+        cursor.EmitDelegate<Action<object>>(self =>
+        {
+            UIElement area = self.GetMemberValue<UIElement>("area");
+            UIImageButton prototokia = self.GetMemberValue<UIImageButton>("prototokia");
+            UIImageButton laevateinn = self.GetMemberValue<UIImageButton>("laevateinn");
+            UIImageButton kiwamiryuken = self.GetMemberValue<UIImageButton>("kiwamiryuken");
+            UIImageButton gardenofavalon = self.GetMemberValue<UIImageButton>("gardenofavalon");
+            UIImageButton edingenesisquasar = self.GetMemberValue<UIImageButton>("edingenesisquasar");
+            UIImageButton unlimitedbladeworks = self.GetMemberValue<UIImageButton>("unlimitedbladeworks");
+            UIImageButton guardianslight = self.GetMemberValue<UIImageButton>("guardianslight");
+            UIImageButton fireflytypeiv = self.GetMemberValue<UIImageButton>("fireflytypeiv");
+            area.Height.Set(730f, 0f);
+            prototokia.Left.Set(908f, 0f);
+            laevateinn.Left.Set(908f, 0f);
+            kiwamiryuken.Left.Set(908f, 0f);
+            gardenofavalon.Left.Set(908f, 0f);
+            edingenesisquasar.Left.Set(908f, 0f);
+            unlimitedbladeworks.Left.Set(908f, 0f);
+            guardianslight.Left.Set(908f, 0f);
+            fireflytypeiv.Left.Set(908f, 0f);
+        });
     };
 }

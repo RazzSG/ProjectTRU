@@ -18,6 +18,8 @@ namespace CalamityRuTranslate.Mods.Vanilla.MonoMod;
 
 public class LoadTranslationsPatch : OnPatcher
 {
+	private static HashSet<string> _customKeys = new();
+	
     public override bool AutoLoad => TranslationHelper.IsRussianLanguage;
 
     public override MethodInfo ModifiedMethod => typeof(LocalizationLoader).FindMethod("LoadTranslations");
@@ -28,22 +30,22 @@ public class LoadTranslationsPatch : OnPatcher
 
     private List<(string key, string value)> Translation(LoadTranslationsDelegate orig, Mod mod, GameCulture culture)
     {
-	    if (culture != GameCulture.FromCultureName(GameCulture.CultureName.Russian) || mod.Name != nameof(CalamityRuTranslate))
+	    if (culture != GameCulture.FromCultureName(GameCulture.CultureName.Russian))
 		    return orig.Invoke(mod, culture);
 
 	    TmodFile file = mod.GetMemberValue<TmodFile>("File");
 	    Dictionary<string, bool> translationsToSkip = new()
 	    {
-		    {"Mods.CalamityMod", TRuConfig.Instance.CalamityModLocalization},
-		    {"Mods.Fargowiltas", TRuConfig.Instance.FargowiltasLocalization},
-		    {"Mods.FargowiltasSouls", TRuConfig.Instance.FargowiltasSoulsLocalization},
-		    {"Mods.InfernumMode", TRuConfig.Instance.InfernumModeLocalization},
-		    {"Mods.ThoriumMod", TRuConfig.Instance.ThoriumModLocalization},
-		    {"Mods.NoxusBoss", TRuConfig.Instance.NoxusBossLocalization},
-		    {"Mods.StarsAbove", TRuConfig.Instance.StarsAboveLocalization},
-		    {"Mods.Redemption", TRuConfig.Instance.RedemptionLocalization},
-		    {"Mods.CatalystMod", TRuConfig.Instance.CatalystLocalization},
-		    {"Mods.SpiritReforged", TRuConfig.Instance.SpiritReforgedLocalization},
+		    {"CalamityMod", TRuConfig.Instance.CalamityModLocalization},
+		    {"Fargowiltas", TRuConfig.Instance.FargowiltasLocalization},
+		    {"FargowiltasSouls", TRuConfig.Instance.FargowiltasSoulsLocalization},
+		    {"InfernumMode", TRuConfig.Instance.InfernumModeLocalization},
+		    {"ThoriumMod", TRuConfig.Instance.ThoriumModLocalization},
+		    {"NoxusBoss", TRuConfig.Instance.NoxusBossLocalization},
+		    {"StarsAbove", TRuConfig.Instance.StarsAboveLocalization},
+		    {"Redemption", TRuConfig.Instance.RedemptionLocalization},
+		    {"CatalystMod", TRuConfig.Instance.CatalystLocalization},
+		    {"SpiritReforged", TRuConfig.Instance.SpiritReforgedLocalization},
 	    };
 
 	    if (file == null)
@@ -52,7 +54,6 @@ public class LoadTranslationsPatch : OnPatcher
 	    try
 	    {
 		    List<(string, string)> flattened = new();
-
 		    foreach (TmodFile.FileEntry translationFile in file.Where(entry => Path.GetExtension(entry.Name) == ".hjson"))
 		    {
 			    string modpath = Path.Combine(mod.Name, translationFile.Name).Replace('/', '\\');
@@ -64,11 +65,10 @@ public class LoadTranslationsPatch : OnPatcher
 				    continue;
 
 			    if (fileCulture == GameCulture.FromCultureName(GameCulture.CultureName.Russian) &&
-			        translationsToSkip.TryGetValue(prefix, out bool skip) && !skip)
+			        translationsToSkip.TryGetValue(mod.Name, out bool skip) && skip)
 				    continue;
 
-			    if (fileCulture == GameCulture.FromCultureName(GameCulture.CultureName.Russian) &&
-			        !TRuConfig.Instance.VanillaLocalization && modpath == @"CalamityRuTranslate\Localization\Vanilla\ru-RU.hjson")
+			    if (!TRuConfig.Instance.VanillaLocalization && modpath == @"CalamityRuTranslate\Localization\Vanilla\ru-RU.hjson")
 				    continue;
 
 			    using Stream stream = file.GetStream(translationFile);
@@ -148,9 +148,15 @@ public class LoadTranslationsPatch : OnPatcher
 					    path = prefix + "." + path;
 
 				    flattened.Add((path, t.ToString()));
+				    
+				    if (mod.Name == nameof(CalamityRuTranslate))
+					    _customKeys.Add(path);
 			    }
 		    }
 
+		    if (mod.Name != nameof(CalamityRuTranslate))
+			    flattened.RemoveAll(pair => _customKeys.Contains(pair.Item1));
+		    
 		    return flattened;
 	    }
 	    catch (Exception e)

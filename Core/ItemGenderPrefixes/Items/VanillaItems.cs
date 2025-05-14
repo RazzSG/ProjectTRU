@@ -186,6 +186,7 @@ public class VanillaItems : IItemGender
         ItemID.FlamingMace,
         ItemID.ButchersChainsaw,
         ItemID.PalladiumPike,
+        ItemID.YoYoGlove,
     };
 
     public List<int> Neuter { get; } = new()
@@ -287,7 +288,6 @@ public class VanillaItems : IItemGender
         ItemID.FleshKnuckles,
         ItemID.FlowerBoots,
         ItemID.SailfishBoots,
-        ItemID.YoYoGlove,
         ItemID.WingsSolar,
         ItemID.WingsStardust,
         ItemID.Yoraiz0rWings,

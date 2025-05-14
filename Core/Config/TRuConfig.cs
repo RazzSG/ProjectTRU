@@ -40,6 +40,10 @@ public class TRuConfig : ModConfig
     [ReloadRequired]
     public bool StarsAboveStarfarerVoices;
     
+    [DefaultValue(true)]
+    [ReloadRequired]
+    public bool SolynVoices;
+    
     [Header("LocalizationSettings")]
     
     [DefaultValue(true)]

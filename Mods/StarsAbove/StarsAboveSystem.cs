@@ -16,10 +16,6 @@ public partial class StarsAboveSystem : ModSystem
     public static ArchivePlayer ArchivePlayer => Main.LocalPlayer.GetModPlayer<ArchivePlayer>();
     public static StarsAbovePlayer StarsAbovePlayer => Main.LocalPlayer.GetModPlayer<StarsAbovePlayer>();
     public static StarsAboveAudio AudioInstance => ModContent.GetInstance<StarsAboveAudio>();
-    public static bool NovaUIActive => Main.player[Main.myPlayer].TryGetModPlayer(out StarsAbovePlayer player) && player.novaUIActive;
-    public static bool CelestialCartographyActive => Main.player[Main.myPlayer].TryGetModPlayer(out CelestialCartographyPlayer player) && player.CelestialCartographyActive;
-    public static bool StarfarerDialogueActive => Main.player[Main.myPlayer].TryGetModPlayer(out StarsAbovePlayer player) && player.starfarerDialogue;
-    public static bool VNDialogueActive => Main.player[Main.myPlayer].TryGetModPlayer(out StarsAbovePlayer player) && player.VNDialogueActive;
 
     public static Dictionary<SoundStyle, SoundStyle> SoundMap = new()
     {

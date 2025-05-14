@@ -51,6 +51,11 @@ Configs: {
             Tooltip: Заменяет оригинальную озвучку на русскую.
         }
         
+        SolynVoices: {
+            Label: Русская озвучка Солин из Calamity: Wrath of the Gods
+            Tooltip: Воспроизводит реплики Солин.
+        }
+        
         CalamityModLocalization: {
             Label: Calamity Mod
             Tooltip: Выключает перевод Calamity Mod.
