@@ -2259,6 +2259,12 @@ public class ArmorSetBonusPreviewSystem : ModSystem
 
                 return bonus;
             }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("SpiritReforged/WayfarerHead"), () =>
+            {
+                string bonus = Language.GetTextValue("Mods.SpiritReforged.SetBonuses.Wayfarer");
+
+                return bonus;
+            }));
         }
     }
 }

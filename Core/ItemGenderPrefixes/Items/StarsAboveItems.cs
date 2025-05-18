@@ -29,7 +29,6 @@ public class StarsAboveItems : IItemGender
                 "VoyageMusicBox",
                 "EverlastingPickaxe",
                 "IgnitionAstra",
-                "OriginInfinity",
                 "UltimaThule",
                 "VirtuesEdge",
                 "CarianDarkMoon",

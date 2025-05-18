@@ -24,6 +24,7 @@ public class DrawPatch : OnPatcher
         { "UI/StellarNova/unlimitedbladeworksIcon", $"{PATH}/unlimitedbladeworksIcon" },
         { "UI/StellarNova/guardianslightIcon", $"{PATH}/guardianslightIcon" },
         { "UI/StellarNova/fireflytypeIVIcon", $"{PATH}/fireflytypeIVIcon" },
+        { "UI/StellarNova/origininfinityIcon", $"{PATH}/origininfinityIcon" },
         { "UI/CelestialCartography/LocationDescriptionTextBox", $"{PATH}/LocationDescriptionTextBox" },
         { "UI/CelestialCartography/LocationNames/Caelum", $"{PATH}/Caelum" },
         { "UI/CelestialCartography/LocationNames/Celestia", $"{PATH}/Celestia" },

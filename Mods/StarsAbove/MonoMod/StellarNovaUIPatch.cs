@@ -64,6 +64,7 @@ public class StellarNovaUIPatch : ILPatcher
             UIImageButton unlimitedbladeworks = self.GetMemberValue<UIImageButton>("unlimitedbladeworks");
             UIImageButton guardianslight = self.GetMemberValue<UIImageButton>("guardianslight");
             UIImageButton fireflytypeiv = self.GetMemberValue<UIImageButton>("fireflytypeiv");
+            UIImageButton origininfinity = self.GetMemberValue<UIImageButton>("origininfinity");
             area.Height.Set(730f, 0f);
             prototokia.Left.Set(908f, 0f);
             laevateinn.Left.Set(908f, 0f);
@@ -73,6 +74,7 @@ public class StellarNovaUIPatch : ILPatcher
             unlimitedbladeworks.Left.Set(908f, 0f);
             guardianslight.Left.Set(908f, 0f);
             fireflytypeiv.Left.Set(908f, 0f);
+            origininfinity.Left.Set(908f, 0f);
         });
     };
 }

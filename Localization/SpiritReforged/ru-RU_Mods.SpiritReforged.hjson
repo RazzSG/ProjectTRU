@@ -173,8 +173,37 @@ Generation: {
     SavannaTerrain: Создание плато...
     SavannaObjects: Заселение саванны...
     Ecotones: Картографирование переходных зон...
-    Pots: Раскидывание горшков...
     Caves: Украшение пещер...
+    NeonMosses: Светящийся мох...
+    Pottery: Раскидывание горшков...
+    
+    Signs: {
+        Underground: {
+            Common: {
+                0: <wavy>В горшках скрыта тайна...
+                1: <wavy>Текст слишком выцвел, чтобы его можно было прочитать.
+                2: <colorful:255,80,80>Табличка исписана неразборчивыми каракулями, оставленными какой-то подозрительной жидкостью.
+                3: <wavy>......ый торговец
+                4: <wavy>Старая табличка почти рассыпалась в прах.
+                5: <wavy>Грубо нарисованный скелет манит к себе.
+                6: <wavy>Если ты это читаешь, значит, я уже мёртв.
+                7: Если ты это читаешь - у меня всё отлично!
+                8: <wavy>Осторожно: черви
+                9: Табличка несёт какой-то бред, с трудом поддающийся пониманию. Дальше читать бессмысленно.
+                10: Вся табличка исписана письменами дварфов. Вы не можете ничего разобрать.
+            }
+    
+            Rare: {
+                0: <wavy>Соберите все мои страницы...
+                1: Похоже, здесь нет ни одного слизняка. —Художник табличек
+                2:
+                    '''
+                    <wavy>0
+                    дней с момента инцидента в пещере
+                    '''
+            }
+        }
+    }
 }
 
 Biomes: {
@@ -189,6 +218,8 @@ SlotContexts.Backpack: Рюкзак
 Conditions: {
     InSavanna: В саванне
     PeevedTumbler: Когда искрится
+    Discovered: Когда обнаружен
+    Submerged: Полностью погружённый в воду
 }
 
 Misc: {
@@ -1565,11 +1596,6 @@ Items: {
         Tooltip: ""
     }
 
-    AncientKoiTotem: {
-        DisplayName: Тотем древнего парчового карпа
-        Tooltip: ""
-    }
-
     WayfarerHead: {
         DisplayName: Шляпа странника
         Tooltip: Даёт невосприимчивость к дебаффу «{$BuffName.Darkness}»
@@ -1583,6 +1609,11 @@ Items: {
     WayfarerLegs: {
         DisplayName: Штаны странника
         Tooltip: Увеличивает скорость передвижения на 7%
+    }
+
+    AncientKoiTotem: {
+        DisplayName: Тотем древнего парчового карпа
+        Tooltip: "{$Items.KoiTotem.Tooltip}"
     }
 
     BoomShroom: {
@@ -1599,9 +1630,408 @@ Items: {
         Tooltip: Вызывает небольшой взрыв, разбрасывающий глину
     }
 
+    ClayBombSticky: {
+        DisplayName: Липкая глиняная бомба
+        Tooltip: "{$Items.ClayBomb.Tooltip}"
+    }
+
     SandBomb: {
         DisplayName: Песчаная бомба
         Tooltip: Вызывает небольшой взрыв, разбрасывающий песок
+    }
+    
+    SandBombSticky: {
+        DisplayName: Липкая песчаная бомба
+        Tooltip: "{$Items.SandBomb.Tooltip}"
+    }
+    
+    CoarseBomb: {
+        DisplayName: Плотная бомба
+        Tooltip: Вызывает небольшой взрыв, разбрасывающий плотную землю
+    }
+    
+    CoarseBombSticky: {
+        DisplayName: Липкая плотная бомба
+        Tooltip: "{$Items.CoarseBomb.Tooltip}"
+    }
+    
+    MudBomb: {
+        DisplayName: Грязевая бомба
+        Tooltip: Вызывает небольшой взрыв, разбрасывающий грязь
+    }
+    
+    MudBombSticky: {
+        DisplayName: Липкая грязевая бомба
+        Tooltip: "{$Items.MudBomb.Tooltip}"
+    }
+    
+    HideTunic: {
+        DisplayName: Туника из шкуры
+        Tooltip: Увеличивает размер и отбрасывание ближнего боя на 25%
+    }
+    
+    PotteryWheelItem: {
+        DisplayName: Гончарный круг
+        Tooltip:
+            '''
+            Используется для создания декоративных горшков
+            Нажмите <right> после размещения, чтобы посмотреть доступные рецепты
+            '''
+    }
+    
+    BiomePotsCavernItem: {
+        DisplayName: Пещерный горшок
+        Tooltip: ""
+    }
+    
+    OrnatePotsItem: {
+        DisplayName: Изысканный горшок
+        Tooltip: ""
+    }
+    
+    BiomePotsIceItem: {
+        DisplayName: Замёрзший горшок
+        Tooltip: ""
+    }
+    
+    BiomePotsDesertItem: {
+        DisplayName: Пустынный горшок
+        Tooltip: ""
+    }
+    
+    BiomePotsJungleItem: {
+        DisplayName: Джунглевый горшок
+        Tooltip: ""
+    }
+    
+    BiomePotsDungeonItem: {
+        DisplayName: Горшок Темницы
+        Tooltip: ""
+    }
+    
+    BiomePotsCorruptionItem: {
+        DisplayName: Искажённый горшок
+        Tooltip: ""
+    }
+    
+    BiomePotsCrimsonItem: {
+        DisplayName: Багряный горшок
+        Tooltip: ""
+    }
+    
+    BiomePotsMarbleItem: {
+        DisplayName: Мраморный горшок
+        Tooltip: ""
+    }
+    
+    BiomePotsHellItem: {
+        DisplayName: Обсидиановый горшок
+        Tooltip: ""
+    }
+    
+    BiomePotsMushroomItem: {
+        DisplayName: Грибной горшок
+        Tooltip: ""
+    }
+    
+    PotsCavernItem: {
+        DisplayName: Маленький пещерный горшок
+        Tooltip: ""
+    }
+    
+    PotsIceItem: {
+        DisplayName: Маленький замёрзший горшок
+        Tooltip: ""
+    }
+    
+    PotsJungleItem: {
+        DisplayName: Маленький джунглевый горшок
+        Tooltip: ""
+    }
+    
+    PotsDungeonItem: {
+        DisplayName: Маленький горшок Темницы
+        Tooltip: ""
+    }
+    
+    PotsHellItem: {
+        DisplayName: Маленький обсидиановый горшок
+        Tooltip: ""
+    }
+    
+    PotsCorruptionItem: {
+        DisplayName: Маленький искажённый горшок
+        Tooltip: ""
+    }
+    
+    PotsSpiderItem: {
+        DisplayName: Маленький паучий горшок
+        Tooltip: ""
+    }
+    
+    PotsCrimsonItem: {
+        DisplayName: Маленький багряный горшок
+        Tooltip: ""
+    }
+    
+    PotsPyramidItem: {
+        DisplayName: Маленький горшок пирамиды
+        Tooltip: ""
+    }
+    
+    PotsTempleItem: {
+        DisplayName: Маленький горшок Храма
+        Tooltip: ""
+    }
+    
+    PotsMarbleItem: {
+        DisplayName: Маленький мраморный горшок
+        Tooltip: ""
+    }
+    
+    PotsDesertItem: {
+        DisplayName: Маленький пустынный горшок
+        Tooltip: ""
+    }
+    
+    CommonPotsMushroomItem: {
+        DisplayName: Маленький грибной горшок
+        Tooltip: ""
+    }
+    
+    SilverPlattersItem: {
+        DisplayName: Серебряное блюдо
+        Tooltip: ""
+    }
+    
+    StuffedPotsItem: {
+        DisplayName: Набитый горшок
+        Tooltip: ""
+    }
+    
+    WormPotItem: {
+        DisplayName: Червивый горшок
+        Tooltip: ""
+    }
+    
+    AetherShipmentItem: {
+        DisplayName: Эфирная поставка
+        Tooltip: ""
+    }
+    
+    PotionVatsAntiqueItem: {
+        DisplayName: Античный чан для зелий
+        Tooltip: ""
+    }
+    
+    PotionVatsCloningItem: {
+        DisplayName: Чан клонирования зелий
+        Tooltip: ""
+    }
+    
+    SilverFoodPlatterItem: {
+        DisplayName: Серебряное блюдо для еды
+        Tooltip: Нажмите <right>, чтобы поместить предмет на поднос
+    }
+    
+    RadonMossItem: {
+        DisplayName: Радоновый мох
+        Tooltip: "{$ItemTooltip.XenonMoss}"
+    }
+    
+    OganessonMossItem: {
+        DisplayName: Оганессоновый мох
+        Tooltip: "{$ItemTooltip.XenonMoss}"
+    }
+    
+    RadonMossBrickItem: {
+        DisplayName: Кирпич с радоновым мхом
+        Tooltip: ""
+    }
+    
+    RadonMossBrickWallItem: {
+        DisplayName: Кирпичная стена с радоновым мхом
+        Tooltip: ""
+    }
+    
+    OganessonMossBrickItem: {
+        DisplayName: Кирпич с оганессоновым мхом
+        Tooltip: ""
+    }
+    
+    OganessonMossBrickWallItem: {
+        DisplayName: Кирпичная стена с оганессоновым мхом
+        Tooltip: ""
+    }
+    
+    ScryingPotItem: {
+        DisplayName: Гадальный горшок
+        Tooltip: ""
+    }
+    
+    BombCannon: {
+        DisplayName: Пушечный бомбомёт
+        Tooltip:
+            '''
+            Использует бомбы в качестве боеприпасов
+            Выпущенные из пушки бомбы не разрушают блоки
+            'Бомбическое изобретение'
+            '''
+    }
+    
+    PotHead: {
+        DisplayName: Горшок-шлем
+        Tooltip: ""
+    }
+    
+    UpsideDownPotItem: {
+        DisplayName: Перевёрнутый горшок
+        Tooltip: ""
+    }
+    
+    PotionVatsAlchemyItem: {
+        DisplayName: Алхимический чан для зелий
+        Tooltip: ""
+    }
+    
+    DunceCrabBannerItem.DisplayName: Знамя краба-олуха
+    WheezerBannerItem.DisplayName: Знамя хрипуна
+    
+    WheezerStatueItem: {
+        DisplayName: Статуя хрипуна
+        Tooltip: ""
+    }
+    
+    FlaskArgon: {
+        DisplayName: Флакон с аргоновым мхом
+        Tooltip: При столкновении распространяет светящийся мох
+    }
+    
+    FlaskHelium: {
+        DisplayName: Флакон с гелиевым мхом
+        Tooltip: "{$Items.FlaskArgon.Tooltip}"
+    }
+    
+    FlaskKrypton: {
+        DisplayName: Флакон с криптоновым мхом
+        Tooltip: "{$Items.FlaskArgon.Tooltip}"
+    }
+    
+    FlaskNeon: {
+        DisplayName: Флакон с неоновым мхом
+        Tooltip: "{$Items.FlaskArgon.Tooltip}"
+    }
+    
+    FlaskOganesson: {
+        DisplayName: Флакон с оганессоновым мхом
+        Tooltip: "{$Items.FlaskArgon.Tooltip}"
+    }
+    
+    FlaskRadon: {
+        DisplayName: Флакон с радоновым мхом
+        Tooltip: "{$Items.FlaskArgon.Tooltip}"
+    }
+    
+    FlaskXenon: {
+        DisplayName: Флакон с ксеноновым мхом
+        Tooltip: "{$Items.FlaskArgon.Tooltip}"
+    }
+    
+    BiomePotsGraniteItem: {
+        DisplayName: Гранитный горшок
+        Tooltip: ""
+    }
+    
+    CommonPotsGraniteItem: {
+        DisplayName: Маленький гранитный горшок
+        Tooltip: ""
+    }
+    
+    OganessonBobber: {
+        DisplayName: Оганессоновый поплавок
+        Tooltip: "{$ItemTooltip.FishingBobberGlowingArgon}"
+    }
+    
+    RadonBobber: {
+        DisplayName: Радоновый поплавок
+        Tooltip: "{$ItemTooltip.FishingBobberGlowingArgon}"
+    }
+    
+    LandscapingShears: {
+        DisplayName: Садовые ножницы
+        Tooltip: Увеличивает количество ресурсов при сборе листвы
+    }
+    
+    WoodenClub: {
+        DisplayName: Деревянная дубинка
+        Tooltip: Можно зарядить для увеличения урона и отбрасывания
+    }
+    
+    GoldClub: {
+        DisplayName: Золотой великий молот
+        Tooltip: Повторное использование во время взмаха позволяет выполнить заряжаемый апперкот
+    }
+    
+    PlatinumClub: {
+        DisplayName: Платиновый скипетр
+        Tooltip:
+            '''
+            Выполняет взмах вверх, подбрасывая врагов в воздух
+            Удерживайте, чтобы завершить ударом сверху вниз
+            '''
+    }
+    
+    FrostGiantBelt: {
+        DisplayName: Пояс ледяного великана
+        Tooltip:
+            '''
+            Даёт 50% сопротивление к отбрасыванию во время заряда дубинки
+            Заряд дубинки постепенно увеличивает защиту
+            '''
+    }
+    
+    Macuahuitl: {
+        DisplayName: Макуауитль
+        Tooltip:
+            '''
+            Быстро вращается вокруг персонажа, накладывая кровотечение
+            Заряженные удары наносят дополнительный урон кровоточащим врагам
+            '''
+    }
+    
+    BassSlapper: {
+        DisplayName: Окунешлёп
+        Tooltip: Полный заряд позволяет нанести серию быстрых ударов
+    }
+    
+    Shockhammer: {
+        DisplayName: Ударный молот
+        Tooltip: Полный заряд выпускает ударную волну, проходящую по земле
+    }
+    
+    Bowlder: {
+        DisplayName: Ударный валун
+        Tooltip: Заряженные удары выпускают смертоносный валун
+    }
+    
+    Blasphemer: {
+        DisplayName: Богохульник
+        Tooltip: Заряженные удары извергают огненной гейзер
+    }
+    
+    Hummus: {
+        DisplayName: Хумус
+        Tooltip: Тёплый и вкусный!
+    }
+    
+    ZenithPotsItem: {
+        DisplayName: Зенитный горшок
+        Tooltip: ""
+    }
+    
+    ZenithPotsPaleItem: {
+        DisplayName: "{$Items.ZenithPotsItem.DisplayName}"
+        Tooltip: ""
     }
 }
 
@@ -1927,22 +2357,75 @@ NPCs: {
         DisplayName: Гончарный слизень
     
         Names: {
-            0: Гончар
-            1: Осколочек
-            2: Диковинка
-            3: Кинцуги
-            4: Вис
-            5: Урна
-            6: Пенни
-            7: Калли
-            8: Глина
-            9: Кэсс
-            10: Тайко
-            11: Пепелничок
-            12: Крышечка
+            0: Сэйбл
+            1: Саки
+            2: Сэл
+            3: Сантра
+            4: Сарк
+            5: Сассафрас
+            6: Сатья
+            7: Совил
+            8: Сеппо
+            9: Шэмми
+            10: Шард
+            11: Шио
+            12: Сайлас
+            13: Силика
+            14: Иллистик
+            15: Снегирь
+            16: Слоан
+            17: Снэп
+            18: Согги
+            19: Сода
+            20: Соня
+            21: Спарта
+            22: Сплет
+            23: Спот
+            24: Стрэттон
+            25: Салливан
+            26: Свэйн
         }
     
+        Chatter: {
+            0: Вубба дубба ду?
+            1: Буль-буль. Бульк.
+            2: Вава.
+        }
+    
+        Entry: Верите или нет, но этот слизень - всемирно признанный мастер керамики. Вы находитесь в присутствии современного художника!
+    }
+    
+    StompableGnome.DisplayName: Топчущийся гном
+    
+    DunceCrab: {
+        DisplayName: Краб-олух
         Entry: ""
+    }
+    
+    Wheezer: {
+        DisplayName: Хрипун
+        Entry: Хрипун - чрезвычайно ядовитый родственник саламандры, известный своим агрессивным поведением. Как ни странно, его любимое лакомство - молодые побеги остролиста, что противоречит его хищной природе.
+    }
+    
+    WorldFrog: {
+        DisplayName: Полезная на вид лягушка
+        Button: Обновить мир
+    
+        Sounds: {
+            0: Ква
+            1: Квак-квак
+        }
+    
+        Dialogue: {
+            0: Жаждешь приключений и странствий вдали? Вот твой шанс - не упусти!
+            1: Новизны ты желаешь? Меж лап у меня - предложение мечты!
+            2: Мои чары твердят: в воздухе что-то не так, но не печалься - это лишь знак!
+        }
+    
+        Reports: {
+            CavesAndClubs_0: Фокус-фокус, грусть прочь гони - в пещерах есть теперь что найти!
+            CavesAndClubs_1: Абра-кадабра, в пещеры ступай - с новыми горшками там не скучай!
+        }
     }
 }
 
@@ -1978,6 +2461,35 @@ SetBonuses: {
 }
 
 Tiles: {
+    Records: {
+        CoinPortal:
+            '''
+            Всегда содержит портал монет.
+    
+            Удачная находка!
+            '''
+        Common:
+            '''
+            Обычный горшок, в котором иногда попадаются полезные предметы.
+    
+            Чем глубже под землёй - тем выше ценность.
+            '''
+        Zenith:
+            '''
+            Обычный горшок, в котором иногда попадаются полезные предметы... этот, к тому же, чересчур вычурный.
+    
+            Чем глубже под землёй - тем выше ценность.
+            '''
+        Potion: Содержит мощное зелье.
+        UpsideDown: `Ошибка при производстве`
+        Worm: При разрушении разлетается множество червей.
+        Platter: Горячее блюдо, готовое к употреблению. Кто же мог его оставить?
+        Aether: Даёт разнообразные полезные и сверкающие улучшения.
+        Stuffed: Какое странное место для торговца. Похоже, он только и ждёт, чтобы его побеспокоили.
+        Scrying: При разрушении открывает большую часть карты.
+        Biome: Содержит больше разнообразной добычи, чем обычные горшки.
+    }
+
     SunkenTreasureTile.MapEntry: "{$Items.SunkenTreasure.DisplayName}"
     HydrothermalVent.MapEntry: Гидротермальное жерло
     CoralMapEntry: Коралл
@@ -1993,4 +2505,8 @@ Tiles: {
     TermiteJar_Tile.MapEntry: "{$Items.TermiteJar.DisplayName}"
     GarInAJarTile.MapEntry: "{$Items.GarInAJar.DisplayName}"
     KillieFishbowlTile.MapEntry: "{$Items.KillieFishbowl.DisplayName}"
+    OreCarts.MapEntry: Вагонетка
+    PotionVats.MapEntry: Чан для зелий
+    ObsidianShroom.MapEntry: Обсидиановый гриб
+    Starflower.MapEntry: Звёздный цветок
 }

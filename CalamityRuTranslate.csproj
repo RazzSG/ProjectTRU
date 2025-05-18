@@ -30,7 +30,7 @@
       <HintPath>..\ModAssemblies\SpiritMod_v1.5.0.32.dll</HintPath>
     </Reference>
     <Reference Include="StarsAbove">
-      <HintPath>..\ModAssemblies\StarsAbove_v2.1.3.3.dll</HintPath>
+      <HintPath>..\ModAssemblies\StarsAbove_v2.1.5.1.dll</HintPath>
     </Reference>
     <Reference Include="ThoriumMod">
       <HintPath>..\ModAssemblies\ThoriumMod_v1.7.2.2.dll</HintPath>

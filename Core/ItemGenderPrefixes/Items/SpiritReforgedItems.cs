@@ -15,6 +15,7 @@ public class SpiritReforgedItems : IItemGender
                 "BambooHalberd",
                 "PoolNoodle",
                 "ClawCannon",
+                "WoodenClub",
             };
         
             if (ModInstances.SpiritReforged != null)
