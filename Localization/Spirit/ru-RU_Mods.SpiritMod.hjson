@@ -5115,17 +5115,17 @@
 #    }
 #
 #    CandyBowl: {
-#        DisplayName: Candy Bowl
+#        DisplayName: Миска с конфетами
 #        Tooltip: ""
 #    }
 #
 #    ChocolateBar: {
-#        DisplayName: Chocolate Bar
-#        Tooltip: Increases speed
+#        DisplayName: Шоколадка
+#        Tooltip: Увеличивает скорость передвижения
 #    }
 #
 #    MaskBlaze: {
-#        DisplayName: Bla2e's Mask
+#        DisplayName: Маска Bla2e
 #        Tooltip:
 #            '''
 #            Украшение
@@ -5134,7 +5134,7 @@
 #    }
 #
 #    MaskGraydee: {
-#        DisplayName: Graydee's Mask
+#        DisplayName: Маска Graydee
 #        Tooltip:
 #            '''
 #            Украшение
@@ -5143,7 +5143,7 @@
 #    }
 #
 #    MaskIggy: {
-#        DisplayName: Iggysaur's Mask
+#        DisplayName: Маска Iggysaur
 #        Tooltip:
 #            '''
 #            Украшение
@@ -5152,7 +5152,7 @@
 #    }
 #
 #    MaskKachow: {
-#        DisplayName: Kachow's Mask
+#        DisplayName: Маска Kachow
 #        Tooltip:
 #            '''
 #            Украшение
@@ -5161,7 +5161,7 @@
 #    }
 #
 #    MaskLeemyy: {
-#        DisplayName: Leemyy's Mask
+#        DisplayName: Маска Leemyy
 #        Tooltip:
 #            '''
 #            Украшение
@@ -5170,7 +5170,7 @@
 #    }
 #
 #    MaskLordCake: {
-#        DisplayName: Lordcakespy's Mask
+#        DisplayName: Маска Lordcakespy
 #        Tooltip:
 #            '''
 #            Украшение
@@ -5179,7 +5179,7 @@
 #    }
 #
 #    MaskSchmo: {
-#        DisplayName: Some Schmo's Mask
+#        DisplayName: Маска Some Schmo
 #        Tooltip:
 #            '''
 #            Украшение
@@ -5188,7 +5188,7 @@
 #    }
 #
 #    MaskSvante: {
-#        DisplayName: Svante's Mask
+#        DisplayName: Маска Svante
 #        Tooltip:
 #            '''
 #            Украшение
@@ -5197,7 +5197,7 @@
 #    }
 #
 #    MaskVladimier: {
-#        DisplayName: Vladimier's Mask
+#        DisplayName: Маска Vladimier
 #        Tooltip:
 #            '''
 #            Украшение
@@ -5206,7 +5206,7 @@
 #    }
 #
 #    MaskYuyutsu: {
-#        DisplayName: Yuyutsu's Mask
+#        DisplayName: Маска Yuyutsu
 #        Tooltip:
 #            '''
 #            Украшение
@@ -5215,97 +5215,97 @@
 #    }
 #
 #    GoldCandy: {
-#        DisplayName: Golden Candy
-#        Tooltip: Can't be eaten, but may sell for a lot!
+#        DisplayName: Золотая конфета
+#        Tooltip: Нельзя съесть, но можно выгодно продать!
 #    }
 #
 #    HealthCandy: {
-#        DisplayName: Health Candy
-#        Tooltip: Increases health
+#        DisplayName: Конфета здоровья
+#        Tooltip: Увеличивает здоровье
 #    }
 #
 #    Lollipop: {
-#        DisplayName: Lollipop
-#        Tooltip: Increases life regeneration
+#        DisplayName: Леденец
+#        Tooltip: Увеличивает регенерацию здоровья
 #    }
 #
 #    ManaCandy: {
-#        DisplayName: Mana Candy
-#        Tooltip: Increases mana
+#        DisplayName: Конфета маны
+#        Tooltip: Увеличивает ману
 #    }
 #
 #    MysteryCandy: {
-#        DisplayName: Mystery Candy
-#        Tooltip: Either a great treat... or a nasty trick
+#        DisplayName: Загадочная конфета
+#        Tooltip: Может оказаться отличным угощением... или неприятным сюрпризом
 #    }
 #
 #    BatBlaster: {
-#        DisplayName: Bat Blaster
-#        Tooltip: Turns bullets into bats
+#        DisplayName: Летучий бластер
+#        Tooltip: Превращает пули в летучих мышей
 #    }
 #
 #    FearsomeFork: {
-#        DisplayName: Fearsome Fork
-#        Tooltip: Launches pumpkins
+#        DisplayName: Ужасающая вилка
+#        Tooltip: Запускает тыквы
 #    }
 #
 #    HauntingClaw: {
-#        DisplayName: Haunting Claw
-#        Tooltip: Shoots a cluster of spooky fire.
+#        DisplayName: Призрачный коготь
+#        Tooltip: Выпускает сгусток жуткого огня
 #    }
 #
 #    SpookyScythe: {
-#        DisplayName: Spooky Scythe
-#        Tooltip: Launches homing pumpkins.
+#        DisplayName: Жуткая коса
+#        Tooltip: Запускает самонаводящиеся тыквы
 #    }
 #
 #    Taffy: {
-#        DisplayName: Taffy
-#        Tooltip: Increases defense
+#        DisplayName: Ириска
+#        Tooltip: Увеличивает защиту
 #    }
 #
 #    Brightbulb: {
 #        DisplayName: Светляк
-#        Tooltip: "'Intricate and versatile'"
+#        Tooltip: "'Замысловатый и универсальный'"
 #    }
 #
 #    Canvas: {
-#        DisplayName: Blank Canvas
-#        Tooltip: "'So much opportunity!'"
+#        DisplayName: Чистый холст
+#        Tooltip: "'Столько возможностей!'"
 #    }
 #
 #    GlowRoot: {
 #        DisplayName: Светокорень
-#        Tooltip: "'Pulses in and out slightly'"
+#        Tooltip: "'Слегка пульсирует светом'"
 #    }
 #
 #    HeartScale: {
 #        DisplayName: Сердечная чешуя
-#        Tooltip: "'A lovely scale. It is coveted by collectors.'"
+#        Tooltip: "'Прекрасная чешуя, желанная для коллекционеров'"
 #    }
 #
 #    OldLeather: {
 #        DisplayName: Старая кожа
-#        Tooltip: "'Musty, but useful'"
+#        Tooltip: "'Затхлая, но всё ещё полезная'"
 #    }
 #
 #    SoulBloom: {
 #        DisplayName: Душецвет
-#        Tooltip: "'Subtle whispers resonate in languages you don't know'"
+#        Tooltip: "'Тихий шёпот звучит на незнакомом языке'"
 #    }
 #
 #    SpiritKoi: {
-#        DisplayName: Spirit Koi
-#        Tooltip: "'Is it past its expiry date?'"
+#        DisplayName: Духовный карп
+#        Tooltip: "'Он точно не просрочен?'"
 #    }
 #
 #    StarEnergy: {
-#        DisplayName: Energized Metal
-#        Tooltip: "'It utilizes some kind of otherworldly power source'"
+#        DisplayName: Заряженный металл
+#        Tooltip: "'Питается каким-то потусторонним источником энергии'"
 #    }
 #
 #    StrippedBamboo: {
-#        DisplayName: Stripped Bamboo
+#        DisplayName: Очищенный бамбук
 #        Tooltip: ""
 #    }
 #
@@ -5315,157 +5315,157 @@
 #    }
 #
 #    CagedMoonlight: {
-#        DisplayName: Caged Moonlight
+#        DisplayName: Пленённый лунный свет
 #        Tooltip:
 #            '''
-#            Summons a faerie to protect you
-#            'Here resides a being comprised of pure starfire.'
-#            'Thine enemies shall be harassed by luminous lances.'
+#            Призывает фею, которая защищает вас
+#            'Здесь обитает существо из чистого звёздного огня'
+#            'Ваших врагов будут терзать светящиеся копья'
 #            '''
 #    }
 #
 #    JellyCandle: {
-#        DisplayName: Jelly Peace Candle
-#        Tooltip: Summons a peaceful jellyfish
+#        DisplayName: Медузья свеча
+#        Tooltip: Призывает мирную медузу
 #    }
 #
 #    PhantomEgg: {
-#        DisplayName: Phantom Egg
-#        Tooltip: A shadowy Phantom follows you...
+#        DisplayName: Фантомное яйцо
+#        Tooltip: Тёмный фантом следует за вами...
 #    }
 #
 #    PowerRing: {
-#        DisplayName: Ring of Willpower
-#        Tooltip: Summons a Lantern Power Battery to light the way
+#        DisplayName: Кольцо силы воли
+#        Tooltip: Призывает фонарь-батарею, освещающую путь
 #    }
 #
 #    SaucerBeacon: {
-#        DisplayName: Support Beacon
-#        Tooltip: Calls in Martian Reinforcements!
+#        DisplayName: Маяк поддержки
+#        Tooltip: Вызывает марсианское подкрепление!
 #    }
 #
 #    ShadowCollar: {
-#        DisplayName: Shadow Collar
-#        Tooltip: Summons a Shadow Pup companion
+#        DisplayName: Теневой ошейник
+#        Tooltip: Призывает теневого щенка-компаньона
 #    }
 #
 #    SuspiciousLookingMeatballs: {
-#        DisplayName: Suspicious Looking Meatballs
+#        DisplayName: Подозрительно выглядящие фрикадельки
 #        Tooltip: Призывает надзирателя
 #    }
 #
 #    TatteredScript: {
-#        DisplayName: Tattered Script
-#        Tooltip: Summons an Unbound Mask to follow the player!
+#        DisplayName: Потрёпанный свиток
+#        Tooltip: Призывает бездействующую маску, которая следует за игроком!
 #    }
 #
 #    PinBlue: {
-#        DisplayName: Wayfinder's Pin (Blue)
+#        DisplayName: Закрепка следопыта (Синяя)
 #        Tooltip:
 #            '''
-#            Places or moves a blue map pin
-#            Right Click to delete pin
-#            Placed pins can be interacted with on the map
+#            Размещает или перемещает синюю закрепку на карте
+#            Нажмите <right>, чтобы удалить закрепку
+#            С размещённой закрепкой можно взаимодействовать на карте
 #            '''
 #    }
 #
 #    PinCopperCoin: {
-#        DisplayName: Wayfinder's Pin (Copper)
+#        DisplayName: Закрепка следопыта (Медная)
 #        Tooltip:
 #            '''
-#            Places or moves a copper map pin
-#            Right Click to delete pin
-#            Placed pins can be interacted with on the map
+#            Размещает или перемещает медную закрепку на карте
+#            Нажмите <right>, чтобы удалить закрепку
+#            С размещённой закрепкой можно взаимодействовать на карте
 #            '''
 #    }
 #
 #    PinGoldCoin: {
-#        DisplayName: Wayfinder's Pin (Gold)
+#        DisplayName: Закрепка следопыта (Золотая)
 #        Tooltip:
 #            '''
-#            Places or moves a gold map pin
-#            Right Click to delete pin
-#            Placed pins can be interacted with on the map
+#            Размещает или перемещает золотую закрепку на карте
+#            Нажмите <right>, чтобы удалить закрепку
+#            С размещённой закрепкой можно взаимодействовать на карте
 #            '''
 #    }
 #
 #    PinGreen: {
-#        DisplayName: Wayfinder's Pin (Green)
+#        DisplayName: Закрепка следопыта (Зелёная)
 #        Tooltip:
 #            '''
-#            Places or moves a green map pin
-#            Right Click to delete pin
-#            Placed pins can be interacted with on the map
+#            Размещает или перемещает зелёную закрепку на карте
+#            Нажмите <right>, чтобы удалить закрепку
+#            С размещённой закрепкой можно взаимодействовать на карте
 #            '''
 #    }
 #
 #    PinMoonjelly: {
-#        DisplayName: Wayfinder's Pin (Moonjelly)
+#        DisplayName: Закрепка следопыта (Лунная медуза)
 #        Tooltip:
 #            '''
-#            Places or moves a moonjelly map pin
-#            Right Click to delete pin
-#            Placed pins can be interacted with on the map
+#            Размещает или перемещает закрепку лунной медузы на карте
+#            Нажмите <right>, чтобы удалить закрепку
+#            С размещённой закрепкой можно взаимодействовать на карте
 #            '''
 #    }
 #
 #    PinRed: {
-#        DisplayName: Wayfinder's Pin (Red)
+#        DisplayName: Закрепка следопыта (Красная)
 #        Tooltip:
 #            '''
-#            Places or moves a red map pin
-#            Right Click to delete pin
-#            Placed pins can be interacted with on the map
+#            Размещает или перемещает красную закрепку на карте
+#            Нажмите <right>, чтобы удалить закрепку
+#            С размещённой закрепкой можно взаимодействовать на карте
 #            '''
 #    }
 #
 #    PinScarab: {
-#        DisplayName: Wayfinder's Pin (Scarab)
+#        DisplayName: Закрепка следопыта (Скарабей)
 #        Tooltip:
 #            '''
-#            Places or moves a scarab map pin
-#            Right Click to delete pin
-#            Placed pins can be interacted with on the map
+#            Размещает или перемещает закрепку скарабея на карте
+#            Нажмите <right>, чтобы удалить закрепку
+#            С размещённой закрепкой можно взаимодействовать на карте
 #            '''
 #    }
 #
 #    PinSilverCoin: {
-#        DisplayName: Wayfinder's Pin (Silver)
+#        DisplayName: Закрепка следопыта (Серебряная)
 #        Tooltip:
 #            '''
-#            Places or moves a silver map pin
-#            Right Click to delete pin
-#            Placed pins can be interacted with on the map
+#            Размещает или перемещает серебряную закрепку на карте
+#            Нажмите <right>, чтобы удалить закрепку
+#            С размещённой закрепкой можно взаимодействовать на карте
 #            '''
 #    }
 #
 #    PinStar: {
-#        DisplayName: Wayfinder's Pin (Star)
+#        DisplayName: Закрепка следопыта (Звезда)
 #        Tooltip:
 #            '''
-#            Places or moves a star map pin
-#            Right Click to delete pin
-#            Placed pins can be interacted with on the map
+#            Размещает или перемещает звёздную закрепку на карте
+#            Нажмите <right>, чтобы удалить закрепку
+#            С размещённой закрепкой можно взаимодействовать на карте
 #            '''
 #    }
 #
 #    PinTree: {
-#        DisplayName: Wayfinder's Pin (Tree)
+#        DisplayName: Закрепка следопыта (Дерево)
 #        Tooltip:
 #            '''
-#            Places or moves a tree map pin
-#            Right Click to delete pin
-#            Placed pins can be interacted with on the map
+#            Размещает или перемещает деревянную закрепку на карте
+#            Нажмите <right>, чтобы удалить закрепку
+#            С размещённой закрепкой можно взаимодействовать на карте
 #            '''
 #    }
 #
 #    PinYellow: {
-#        DisplayName: Wayfinder's Pin (Yellow)
+#        DisplayName: Закрепка следопыта (Жёлтая)
 #        Tooltip:
 #            '''
-#            Places or moves a yellow map pin
-#            Right Click to delete pin
-#            Placed pins can be interacted with on the map
+#            Размещает или перемещает жёлтую закрепку на карте
+#            Нажмите <right>, чтобы удалить закрепку
+#            С размещённой закрепкой можно взаимодействовать на карте
 #            '''
 #    }
 #
@@ -10422,23 +10422,23 @@
 #    PurpleAlgae3.DisplayName: Bioluminescent Algae
 #
 #    AtlanticCod: {
-#        DisplayName: Atlantic Cod
-#        Entry: Atlantic Cod are uniquely native to the frigid waters of chilly tundras. Cuts of meat from these fish are flaky and sweet.
+#        DisplayName: Атлантическая треска
+#        Entry: Атлантическая треска обитает исключительно в ледяных водах холодной тундры. Её мясо отличается слоистой текстурой и сладковатым вкусом.
 #    }
 #
 #    Bladetongue: {
-#        DisplayName: Bladetongue
-#        Entry: If you can manage to capture one, it may make for an excellent weapon. But do so carefully, for its fatal ichor spit can leave you defenseless.
+#        DisplayName: Остроязычный
+#        Entry: Если вам удастся поймать этого зверя, он может послужить отличным оружием. Но будьте осторожны: его смертоносная ихорная слюна способна оставить вас беззащитным.
 #    }
 #
 #    Blossmoon: {
-#        DisplayName: Blossmoon
-#        Entry: These creatures are the size of a quarter, and only ever appear during the night. They can only be observed dancing, and emitting a low calming glow.
+#        DisplayName: Лунноцвет
+#        Entry: Эти создания размером с монетку появляются только ночью. Их можно увидеть лишь тогда, когда они танцуют и излучают мягкое, успокаивающее свечение.
 #    }
 #
 #    Cavefish: {
-#        DisplayName: Armored Cavefish
-#        Entry: You'd have to be tough as nails to chew meat from a fish like this, it's hard as diamonds!
+#        DisplayName: Бронированный пещерный окунь
+#        Entry: Чтобы откусить мясо этой рыбы, нужно быть крепким как сталь - оно твёрдое, как алмаз!
 #    }
 #
 #    Cleft: {
@@ -11331,19 +11331,19 @@
 #        DisplayName: Зачарователь
 #
 #        TownNPCMood: {
-#            Content: The runes are coming along nicely today.
-#            NoHome: I don't have any space for my runes!
-#            FarFromHome: I don't know if you could guess, but I'd strongly prefer to be near my beloved runes.
-#            LoveSpace: The magic flows much easier in the calm.
-#            DislikeCrowded: It's hard to focus when there's so many people around!
-#            HateCrowded: With this many people around, I can only wish there were a Silence Glyph.
-#            LikeBiome: I've never been more in tune with the runic magic! This place is wonderful.
-#            DislikeBiome: This place is just too much. Way too much. Let me out.
-#            LoveNPC: "{NPCName} and I frequently talk of our work - it's fascinating how he can enchant without any knowledge of magic."
-#            LikeNPC: Sometimes, {NPCName} will ask me to enchant some of his wares...I always put a blank enchant on them. He is overjoyed every time.
-#            HateNPC: "{NPCName} doesn't understand the power of runes...it's all 'Ice Rod this' and 'Crystal Ball' that..."
-#            LikeNPC_Princess: There's always a magic in {NPCName}'s eyes when I do a trick. It's the little things, haha.
-#            Princess_LovesNPC: "{NPCName} gave me a glitter rune! Yay!"
+#            Content: Руны сегодня словно сами пишутся.
+#            NoHome: У меня совсем нет места для рун!
+#            FarFromHome: Не знаю, заметно ли, но мне невыносимо быть вдали от моих любимых рун.
+#            LoveSpace: В тишине магия течёт куда легче.
+#            DislikeCrowded: Трудно сосредоточиться, когда вокруг так много людей!
+#            HateCrowded: При такой толпе остаётся лишь мечтать о Глифе тишины.
+#            LikeBiome: Я ещё никогда не чувствовал такой гармонии с рунической магией! Это место просто чудесное.
+#            DislikeBiome: Слишком шумно, слишком ярко - просто выпусти меня отсюда.
+#            LoveNPC: Мы с {NPCName} часто обсуждаем нашу работу - удивительно, как он умеет зачаровывать вещи, ничего не зная о магии.
+#            LikeNPC: Иногда {NPCName} просит меня зачаровать его товары... Я всегда накладываю на них пустые чары. Он каждый раз в восторге.
+#            HateNPC: "{NPCName} не понимает силу рун... Всё у него про «Ледяной жезл» да «Хрустальный шар»..."
+#            LikeNPC_Princess: В глазах {NPCName} всегда вспыхивает искра, когда я показываю фокус. Мелочь, а приятно, ха-ха.
+#            Princess_LovesNPC: "{NPCName} подарила мне блестящую руну! Ура!"
 #        }
 #
 #        Entry: This tired rune scribe has spent sleepless nights studying the ancient magic found in glyphs. He's not much of a conversationalist, but he'll gladly empower your arsenal.
@@ -12002,7 +12002,7 @@
 #    AvianEgg.MapEntry: Avian Egg
 #    Blaststone_Grave.MapEntry: Gravestone
 #    SkullGrave.MapEntry: Gravestone
-#    Canvas_Tile.MapEntry: Canvas
+#    Canvas_Tile.MapEntry: Холст
 #    Coral1x2.MapEntry: Coral
 #    Coral2x2.MapEntry: Coral
 #    Coral3x3.MapEntry: Coral

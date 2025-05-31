@@ -2095,7 +2095,8 @@ public class ArmorSetBonusPreviewSystem : ModSystem
         {
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("Redemption/LivingWoodHelmet"), () =>
             {
-                string bonus = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.LivingWood");
+                string bonus = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.LivingWood",
+                    Language.GetTextValue("Mods.Redemption.Items.Nature.DisplayName"));
 
                 return bonus;
             }));

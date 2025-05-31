@@ -14,7 +14,7 @@ Buffs: {
         Description: За вас сражается очаровательная и прыгучая медуза
     }
 
-    JellyfishBuff: {
+    JellyfishPet_Buff: {
         DisplayName: Дружественная медуза
         Description: Эта энергичная медуза обожает сопровождать вас повсюду
     }
@@ -64,7 +64,7 @@ Buffs: {
         Description: Длительность действия остальных зелий увеличена на 25%
     }
 
-    TumblerPetBuff: {
+    TumblerPet_Buff: {
         DisplayName: Безразличное перекати-поле
         Description: За вами следует дружелюбное перекати-поле
     }
@@ -2033,6 +2033,21 @@ Items: {
         DisplayName: "{$Items.ZenithPotsItem.DisplayName}"
         Tooltip: ""
     }
+    
+    OtherworldSavannaMusicBoxItem: {
+        DisplayName: Потусторонняя музыкальная шкатулка (Саванна - день)
+        Tooltip: ""
+    }
+    
+    OtherworldSavannaNightMusicBoxItem: {
+        DisplayName: Потусторонняя музыкальная шкатулка (Саванна - ночь)
+        Tooltip: ""
+    }
+    
+    SavannaSandstormOtherworldMusicBoxItem: {
+        DisplayName: Потусторонняя музыкальная шкатулка (Песчаная буря)
+        Tooltip: ""
+    }
 }
 
 NPCs: {
@@ -2399,7 +2414,7 @@ NPCs: {
     
     DunceCrab: {
         DisplayName: Краб-олух
-        Entry: ""
+        Entry: Этот обитатель пещер - один из самых частых виновников несчастных случаев среди искателей приключений. Обычно встречается неожиданно. Он питается мхом и лишайниками, которые часто встречаются в пещерах.
     }
     
     Wheezer: {
