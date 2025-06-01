@@ -56,11 +56,6 @@ public class RedemptionGlobalNPC : GlobalNPC
             typeName = $"Лесная нифма игрока {playerName}";
         }
         
-        if (npc.type == ModContent.NPCType<HazmatZombie_SS>())
-        {
-            typeName = $"Зомби в химзащите игрока {playerName}";
-        }
-        
         if (npc.type == ModContent.NPCType<MossyGoliath_SS>())
         {
             typeName = $"Мшистый голиаф игрока {playerName}";

@@ -10579,6 +10579,16 @@ Items: {
         DisplayName: Наспех собранный пистолет
         Tooltip: "'Мне хватит и одного выстрела'"
     }
+
+    CorruptChickenBanner: {
+        DisplayName: Знамя порочной курицы
+        Tooltip: ""
+    }
+
+    ViciousChickenBanner: {
+        DisplayName: Знамя свирепой курицы
+        Tooltip: ""
+    }
 }
 
 NPCs: {
