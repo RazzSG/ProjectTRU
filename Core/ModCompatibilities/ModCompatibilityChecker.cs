@@ -16,7 +16,7 @@ public class ModCompatibilityChecker : ModSystem
     
     private readonly ModCompatibilityInfo[] _modCompatibilityInfo =
     [
-        new("CalamityMod", new Version(2, 0, 4, 6), TRuConfig.Instance.CalamityModLocalization),
+        new("CalamityMod", new Version(2, 0, 5), TRuConfig.Instance.CalamityModLocalization),
         new("CatalystMod", new Version(1, 1, 2, 3), TRuConfig.Instance.CatalystLocalization),
         new("Fargowiltas", new Version(3, 3, 6, 2), TRuConfig.Instance.FargowiltasLocalization),
         new("FargowiltasSouls", new Version(1, 7, 2, 14), TRuConfig.Instance.FargowiltasSoulsLocalization),

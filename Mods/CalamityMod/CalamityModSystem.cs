@@ -32,9 +32,6 @@ public class CalamityModSystem : ModSystem
 
     public override void PostSetupContent()
     {
-        ThankYouPainting.devList.RemoveAt(0);
-        ThankYouPainting.devList.Insert(0, "Fabsol, основатель и владелец мода");
-        
         if (!Main.dedServ)
         {
             _ = typeof(CodebreakerUI).SetMemberValue(nameof(CodebreakerUI.DialogFont), CodebreakerFont);

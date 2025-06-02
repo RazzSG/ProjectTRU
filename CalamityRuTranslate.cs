@@ -36,7 +36,6 @@ public class CalamityRuTranslate : Mod
                 TranslationHelper.WikithisRedirect("Elderberry", "Бузина (calamity)");
                 TranslationHelper.WikithisRedirect("PineapplePet", "Ананас (calamity)");
                 TranslationHelper.WikithisRedirect("TrashmanTrashcan", "Урна (питомец)");
-                TranslationHelper.WikithisRedirect("Butcher", "Мясник (оружие)");
                 TranslationHelper.WikithisRedirect("SandstormGun", "Песчаная буря (оружие)");
                 TranslationHelper.WikithisRedirect("Thunderstorm", "Гроза (оружие)");
                 TranslationHelper.WikithisRedirect("AtlasMunitionsBeacon", "Маячок установки Атлас");

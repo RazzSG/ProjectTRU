@@ -15,6 +15,7 @@ public class TownNpcNamesTranslation : GlobalNPC
             {"Dazren", "Дазрен"},
             {"Johnny Test", "Джонни Тест"},
             {"Bling Bling Boy", "Мальчик-показушник"},
+            {"RICE", "РИЗ"},
         },
         [NPCID.ArmsDealer] = new Dictionary<string, string>
         {
@@ -38,12 +39,14 @@ public class TownNpcNamesTranslation : GlobalNPC
         [NPCID.Cyborg] = new Dictionary<string, string>
         {
             {"Sylux", "Силикс"},
+            {"Nemesis", "Немезис"},
         },
         [NPCID.Demolitionist] = new Dictionary<string, string>
         {
             {"Tavish DeGroot", "Тавиш ДеГрут"},
             {"Fimmy", "Фимми"},
             {"Dorira", "Дорира"},
+            {"John Helldiver", "Джон Хеллдайвер"},
         },
         [NPCID.Dryad] = new Dictionary<string, string>
         {
@@ -65,6 +68,8 @@ public class TownNpcNamesTranslation : GlobalNPC
             {"Him", "Хим"},
             {"Tooshiboots", "Тушибутс"},
             {"Neesh", "Ниш"},
+            {"Bars Boldia", "Барс Болдия"},
+            {"Basel Raiden John Clive Fantasy 16", "Базель Райден Джон Клайв Фэнтези 16"},
         },
         [NPCID.Guide] = new Dictionary<string, string>
         {
@@ -83,7 +88,8 @@ public class TownNpcNamesTranslation : GlobalNPC
             {"Alfred Rend", "Альфред Ренд"},
             {"Leeman", "Лиман"},
             {"Mihai", "Михай"},
-            {"Cooler Kevin", "Ледяной Кевин"},
+            {"Dinkleberg", "Динклберг"},
+            {"Wamy", "Уами"},
         },
         [NPCID.Mechanic] = new Dictionary<string, string>
         {
@@ -96,27 +102,32 @@ public class TownNpcNamesTranslation : GlobalNPC
         [NPCID.Merchant] = new Dictionary<string, string>
         {
             {"Morshu", "Моршу"},
+            {"Spamton G. Spamton", "Спэмтон Дж. Спэмтон"},
         },
         [NPCID.Nurse] = new Dictionary<string, string>
         {
             {"Farsni", "Фарсни"},
             {"Fanny", "Фанни"},
             {"Mausi", "Мауси"},
+            {"Fiona", "Фиона"},
         },
         [NPCID.Painter] = new Dictionary<string, string>
         {
             {"Picasso", "Пикассо"},
+            {"Bew", "Бью"},
         },
         [NPCID.PartyGirl] = new Dictionary<string, string>
         {
             {"Arin", "Арин"},
+            {"Typhäne", "Тифен"},
         },
         [NPCID.Pirate] = new Dictionary<string, string>
         {
             {"Tyler Van Hook", "Тайлер Ван Хук"},
             {"Cap'n Deek", "Кэп'н Дик"},
             {"Captain Billy Bones", "Капитан Билли Бонс"},
-            {"Captain J. Crackers", " Капитан Дж. Крэкерс"},
+            {"Captain J. Crackers", "Капитан Дж. Крэкерс"},
+            {"Gol D. Roger", "Гол Д. Роджер"},
         },
         [NPCID.Princess] = new Dictionary<string, string>
         {
@@ -126,6 +137,8 @@ public class TownNpcNamesTranslation : GlobalNPC
             {"Nyavi Aceso", "Ньяви Ацесо"},
             {"everquartz", "Эверкварц"},
             {"Gwynevere", "Гвиневер"},
+            {"Hael", "Хэйл"},
+            {"Yumesaki Mirrin", "Юмэсаки Миррин"},
         },
         [NPCID.SantaClaus] = new Dictionary<string, string>
         {
@@ -135,13 +148,17 @@ public class TownNpcNamesTranslation : GlobalNPC
         {
             {"Sans Undertale", "Санс Андертейлов"},
             {"Papyrus Undertale", "Папирус Андертейлов"},
+            {"Gaster Undertale", "Гастер Андертейлов"},
             {"Mr. Bones", "Мистер Бонс"},
+            {"Freakbob", "Фрикбоб"},
         },
         [NPCID.Steampunker] = new Dictionary<string, string>
         {
             {"Vorbis", "Ворбис"},
             {"Angel", "Энжел"},
             {"Mòrag Ladair", "Мораг Лейдер"},
+            {"Lain", "Лэйн"},
+            {"Hamis", "Хамис"},
         },
         [NPCID.Stylist] = new Dictionary<string, string>
         {
@@ -159,27 +176,28 @@ public class TownNpcNamesTranslation : GlobalNPC
         [NPCID.TaxCollector] = new Dictionary<string, string>
         {
             {"Emmett", "Эммет"},
+            {"Casino King Gray", "Казино Кинг Грей"},
         },
         [NPCID.TravellingMerchant] = new Dictionary<string, string>
         {
             {"Stan Pines", "Стэн Пайнс"},
             {"Slap Battles", "Слэп Баттлс"},
+            {"Borgus", "Боргус"},
         },
         [NPCID.Truffle] = new Dictionary<string, string>
         {
             {"Aldrimil", "Альдримил"},
+            {"Wonton", "Вонтон"},
         },
         [NPCID.WitchDoctor] = new Dictionary<string, string>
         {
             {"Sok'ar", "Сокар"},
-            {"Toxin", "Токсин"},
+            {"Aeroni", "Аэрони"},
             {"Mixcoatl", "Мишкоатль"},
-            {"Khatunz", "Хатунц"},
             {"Amnesia Wapers", "Амнезия Вейперс"},
         },
         [NPCID.Wizard] = new Dictionary<string, string>
         {
-            {"Mage One-Trick", "Маг Трюкач"},
             {"Inorim, son of Ivukey", "Инорим, сын Ивукея"},
             {"Jensen", "Дженсен"},
             {"Merasmus", "Мерасмус"},
@@ -199,6 +217,8 @@ public class TownNpcNamesTranslation : GlobalNPC
         [NPCID.TownDog] = new Dictionary<string, string>
         {
             {"Ozymandias", "Озимандиас"},
+            {"Miss Throws a Lot", "Мисс Метальщица"},
+            {"Brikwilla", "Бриквилла"},
             {"Kendra", "Кендра"},
             {"Yoshi", "Йоши"},
             {"Riley", "Райли"},
@@ -210,15 +230,19 @@ public class TownNpcNamesTranslation : GlobalNPC
             {"The Meowurer of Gods", "Мяукающий бог"},
             {"Katsafaros", "Катсафарос"},
             {"Bear", "Миша"},
+            {"Storm", "Шторм"},
             {"Felix", "Феликс"},
             {"Tardo", "Тардо"},
             {"Lucerne", "Люцерн"},
             {"Milo", "Мило"},
             {"Octo", "Окто"},
+            {"Chease", "Чиз"},
+            {"Archie", "Арчи"},
         },
-        // [NPCID.TownBunny] = new Dictionary<string, string>
-        // {
-        // },
+        [NPCID.TownBunny] = new Dictionary<string, string>
+        {
+            {"Poco", "Поко"},
+        },
     };
 
     public override bool InstancePerEntity => true;

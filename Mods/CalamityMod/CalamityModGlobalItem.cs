@@ -34,14 +34,6 @@ public partial class CalamityModGlobalItem : GlobalItem
                 tooltips.ReplaceText("Астральная пустыня", "астральной пустыне");
             });
         }
-
-        if (item.type == ModContent.ItemType<LiliesOfFinality>())
-        {
-            ItemHelper.TranslateTooltip(tooltips, "Damage", _ =>
-            {
-                tooltips.ReplaceText("summon damage", "ед. урона призывателя");
-            });
-        }
         
         CalamityGlobalItem calamityGlobalItem = item.GetGlobalItem<CalamityGlobalItem>();
         
