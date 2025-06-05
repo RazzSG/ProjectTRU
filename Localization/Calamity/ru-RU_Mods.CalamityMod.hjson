@@ -15272,7 +15272,7 @@ Items: {
             }
             
             Sylvestaff: {
-                DisplayName: Лесной посох
+                DisplayName: Сильвепосох
                 Tooltip:
                     '''
                     Запускает отскакивающий луч, который разделяется, когда враги находятся рядом с ним
@@ -21028,7 +21028,7 @@ NPCs: {
     SupremeCalamitas.DisplayName: Высшая ведьма, Каламитас
     SupremeCataclysm.DisplayName: Катаклизм
     SupremeCatastrophe.DisplayName: Катастроф
-    SupremePermafrost:Высший ультрамаг, Пермафрост
+    SupremePermafrost: Высший ультрамаг, Пермафрост
     Yharon.DisplayName: Ярон, Дракон возрождения
     YharonPhase2: Ярон, Восходящий феникс
     AndroombaFriendly.DisplayName: Дружбан Андробот-пылесос

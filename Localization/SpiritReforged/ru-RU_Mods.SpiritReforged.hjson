@@ -261,7 +261,7 @@ Items: {
             Вмещает 4 предмета
             Перед снятием необходимо освободить
             '''
-        Shimmerable: "Преобразуется в мерцании в: {0}"
+        Shimmerable: "{0} преобразуется в мерцании"
     }
 
     Kelp: {
@@ -558,17 +558,17 @@ Items: {
 
     SmallDriftwoodItem: {
         DisplayName: Маленькая коряга
-        Tooltip: "'Эстетично'"
+        Tooltip: "'Эстетически привлекательная'"
     }
 
     MediumDriftwoodItem: {
         DisplayName: Средняя коряга
-        Tooltip: "'Эстетично'"
+        Tooltip: "'Эстетически привлекательная'"
     }
 
     LargeDriftwoodItem: {
         DisplayName: Большая коряга
-        Tooltip: "'Эстетично'"
+        Tooltip: "'Эстетически привлекательная'"
     }
 
     DriftwoodChestplate: {

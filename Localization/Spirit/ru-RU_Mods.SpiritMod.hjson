@@ -785,8 +785,8 @@
 #    }
 #
 #    DoubleJumpPotionBuff: {
-#        DisplayName: Aether Jump
-#        Description: Temporarily grants an additional jump
+#        DisplayName: Прыжок зефира
+#        Description: Временно даёт дополнительный прыжок
 #    }
 #
 #    FlightPotionBuff: {
@@ -805,8 +805,8 @@
 #    }
 #
 #    MushroomPotionBuff: {
-#        DisplayName: Spore Release
-#        Description: Leave behind a trail of damaging mushrooms
+#        DisplayName: Споровый выброс
+#        Description: Вы оставляете за собой след из грибов, наносящий урон
 #    }
 #
 #    PinkPotionBuff: {
@@ -2008,18 +2008,18 @@
 #    }
 #
 #    BotanistBody: {
-#        DisplayName: Botanist Apron
+#        DisplayName: Фартук ботаника
 #        Tooltip: ""
 #    }
 #
 #    BotanistHat: {
-#        DisplayName: Sunflower Strawhat
-#        Tooltip: Keeps you happy
+#        DisplayName: Соломенная шляпа с подсолнухом
+#        Tooltip: Дарит хорошее настроение
 #    }
 #
 #    BotanistLegs: {
-#        DisplayName: Botanist Joggers
-#        Tooltip: 10% increased move speed
+#        DisplayName: Джоггеры ботаника
+#        Tooltip: Увеличивает скорость передвижения на 10%
 #    }
 #
 #    CapacitorBody: {
@@ -3266,7 +3266,7 @@
 #        DisplayName: Treasure Bag (Atlas)
 #        Tooltip:
 #            '''
-#            Consumable
+#            Расходуемый предмет
 #            {$CommonItemTooltip.RightClickToOpen}
 #            '''
 #    }
@@ -3369,39 +3369,39 @@
 #    }
 #
 #    TalonGarb: {
-#        DisplayName: Apostle's Garb
+#        DisplayName: Облачение апостола
 #        Tooltip:
 #            '''
-#            Increases magic and ranged damage by 7%
-#            Increases movement speed by 10%
+#            Увеличивает магический и стрелковый урон на 7%
+#            Увеличивает скорости передвижения на 10%
 #            '''
 #    }
 #
 #    TalonHeaddress: {
-#        DisplayName: Apostle's Headdress
-#        Tooltip: 7% increased magic and ranged critical strike chance
+#        DisplayName: Головной убор апостола
+#        Tooltip: Увеличивает магический и стрелковый шанс критического удара на 7%
 #    }
 #
 #    AvianHook: {
-#        DisplayName: Avian Hook
-#        Tooltip: Striking tiles allows the player to float briefly
+#        DisplayName: Птичий крюк
+#        Tooltip: Цепляясь за блоки, позволяет кратковременно парить
 #    }
 #
 #    AvianPetItem: {
-#        DisplayName: Ancient Egg
-#        Tooltip: Summons an Ancient Hatchling
+#        DisplayName: Древнее яйцо
+#        Tooltip: Призывает древнего птенца
 #    }
 #
 #    FlierMask: {
-#        DisplayName: Ancient Avian Mask
+#        DisplayName: Маска Древнего птаха
 #        Tooltip: ""
 #    }
 #
 #    FlyerBag: {
-#        DisplayName: Treasure Bag (Ancient Avian)
+#        DisplayName: Мешок с сокровищами (Древний птах)
 #        Tooltip:
 #            '''
-#            Consumable
+#            Расходуемый предмет
 #            {$CommonItemTooltip.RightClickToOpen}
 #            '''
 #    }
@@ -3436,7 +3436,7 @@
 #    }
 #
 #    Trophy2: {
-#        DisplayName: Ancient Avian Trophy
+#        DisplayName: Трофей Древнего птаха
 #        Tooltip: ""
 #    }
 #
@@ -3463,7 +3463,7 @@
 #        DisplayName: Treasure Bag (Dusking)
 #        Tooltip:
 #            '''
-#            Consumable
+#            Расходуемый предмет
 #            {$CommonItemTooltip.RightClickToOpen}
 #            '''
 #    }
@@ -3588,7 +3588,7 @@
 #        DisplayName: Treasure Bag (Infernon)
 #        Tooltip:
 #            '''
-#            Consumable
+#            Расходуемый предмет
 #            {$CommonItemTooltip.RightClickToOpen}
 #            '''
 #    }
@@ -3639,7 +3639,7 @@
 #        DisplayName: Мешок с сокровищами (Волшебник лунных медуз)
 #        Tooltip:
 #            '''
-#            Consumable
+#            Расходуемый предмет
 #            {$CommonItemTooltip.RightClickToOpen}
 #            '''
 #    }
@@ -3723,7 +3723,7 @@
 #        DisplayName: Treasure Bag (Scarabeus)
 #        Tooltip:
 #            '''
-#            Consumable
+#            Расходуемый предмет
 #            {$CommonItemTooltip.RightClickToOpen}
 #            '''
 #    }
@@ -3901,7 +3901,7 @@
 #        DisplayName: Treasure Bag (Starplate Voyager)
 #        Tooltip:
 #            '''
-#            Consumable
+#            Расходуемый предмет
 #            {$CommonItemTooltip.RightClickToOpen}
 #            '''
 #    }
@@ -3924,7 +3924,7 @@
 #        DisplayName: Treasure Bag (Vinewrath Bane)
 #        Tooltip:
 #            '''
-#            Consumable
+#            Расходуемый предмет
 #            {$CommonItemTooltip.RightClickToOpen}
 #            '''
 #    }
@@ -4494,8 +4494,8 @@
 #    }
 #
 #    FlightPotion: {
-#        DisplayName: Soaring Potion
-#        Tooltip: Increases the duration of flight by 25%
+#        DisplayName: Зелье парения
+#        Tooltip: Увеличивает время полёта на 25%
 #    }
 #
 #    MirrorCoat: {
@@ -4521,7 +4521,7 @@
 #
 #    MushroomPotion: {
 #        DisplayName: Спороидное зелье
-#        Tooltip: Causes the player to leave behind a damaging trail of mushrooms
+#        Tooltip: Позволяет игроку оставлять за собой след из грибов, наносящий урон
 #    }
 #
 #    PinkPotion: {
@@ -6463,7 +6463,7 @@
 #    }
 #
 #    AvianBox: {
-#        DisplayName: Music Box (Ancient Avian)
+#        DisplayName: Музыкальная шкатулка (Древний птах)
 #        Tooltip: ""
 #    }
 #
@@ -6643,7 +6643,7 @@
 #    }
 #
 #    AvianRelicItem: {
-#        DisplayName: Ancient Avian Relic
+#        DisplayName: Реликвия Древнего птаха
 #        Tooltip: ""
 #    }
 #
@@ -7080,28 +7080,28 @@
 #    }
 #
 #    BismiteChestplate: {
-#        DisplayName: Bismite Chestplate
-#        Tooltip: 3% increased critical strike chance
+#        DisplayName: Бисмитовая нагрудник
+#        Tooltip: Увеличивает шанс критического удара на 3%
 #    }
 #
 #    BismiteHelmet: {
-#        DisplayName: Bismite Helmet
-#        Tooltip: 4% increased movement speed
+#        DisplayName: Бисмитовый шлем
+#        Tooltip: Увеличивает скорость передвижения на 4%
 #    }
 #
 #    BismiteLeggings: {
-#        DisplayName: Bismite Leggings
-#        Tooltip: 6% increased movement speed
+#        DisplayName: Бисмитовые поножи
+#        Tooltip: Увеличивает скорость передвижения на 6%
 #    }
 #
 #    BismiteBow: {
-#        DisplayName: Bismite Bow
-#        Tooltip: Occasionally causes foes to receive 'Festering Wounds,' which deal more damage to enemies under half health
+#        DisplayName: Бисмитовый лук
+#        Tooltip: Периодически накладывает на врагов дебафф «{$Buffs.FesteringWounds.DisplayName}», наносящий дополнительный урон врагам, чьё здоровье ниже половины
 #    }
 #
 #    BismiteChakra: {
-#        DisplayName: Bismite Cutter
-#        Tooltip: Occasionally causes foes to receive 'Festering Wounds,' which deal more damage to enemies under half health
+#        DisplayName: Бисмитовый резак
+#        Tooltip: Периодически накладывает на врагов дебафф «{$Buffs.FesteringWounds.DisplayName}», наносящий дополнительный урон врагам, чьё здоровье ниже половины
 #    }
 #
 #    BismiteCrystal: {
@@ -7121,20 +7121,20 @@
 #
 #    BismiteSpear: {
 #        DisplayName: Bismite Pike
-#        Tooltip: Occasionally causes foes to receive 'Festering Wounds,' which deal more damage to enemies under half health
+#        Tooltip: Периодически накладывает на врагов дебафф «{$Buffs.FesteringWounds.DisplayName}», наносящий дополнительный урон врагам, чьё здоровье ниже половины
 #    }
 #
 #    BismiteStaff: {
-#        DisplayName: Bismite Staff
+#        DisplayName: Бисмитовый посох
 #        Tooltip:
 #            '''
-#            Shoots a bolt of energy
-#            Occasionally causes foes to receive 'Festering Wounds,' which deal more damage to foes under half health
+#            Выпускает энергетический снаряд
+#            Периодически накладывает на врагов дебафф «{$Buffs.FesteringWounds.DisplayName}», наносящий дополнительный урон врагам, чьё здоровье ниже половины
 #            '''
 #    }
 #
 #    BismiteSummonStaff: {
-#        DisplayName: Bismite Crystal Staff
+#        DisplayName: Бисмитовый кристальный посох
 #        Tooltip:
 #            '''
 #            Summons a stationary Bismite Crystal that shoots poison shards at enemies
@@ -7143,30 +7143,30 @@
 #    }
 #
 #    BloodCourtChestplate: {
-#        DisplayName: Bloodcourt's Vestments
+#        DisplayName: Риза кровавого совета
 #        Tooltip:
 #            '''
-#            6% increased damage
-#            12% increased melee speed
-#            20% chance to not consume ammo
+#            Увеличивает урон на 6%
+#            Увеличивает скорость атаки ближнего боя на 12%
+#            Даёт 20% шанс не использовать боеприпасы
 #            '''
 #    }
 #
 #    BloodCourtHead: {
-#        DisplayName: Bloodcourt's Visage
+#        DisplayName: Лик кровавого совета
 #        Tooltip:
 #            '''
-#            4% increased damage
-#            Increases your max number of minions
+#            Увеличивает урон на 4%
+#            Увеличивает максимальное количество миньонов
 #            '''
 #    }
 #
 #    BloodCourtLeggings: {
-#        DisplayName: Bloodcourt's Leggings
+#        DisplayName: Поножи кровавого совета
 #        Tooltip:
 #            '''
-#            Increases movement speed by 10%
-#            Increases maximum mana by 30
+#            Увеличивает скорость передвижения на 10%
+#            Увеличивает максимальный запас маны на 30
 #            '''
 #    }
 #
@@ -7591,8 +7591,8 @@
 #    }
 #
 #    BambooKendoBlade: {
-#        DisplayName: Бамбуковый кендо-клинок
-#        Tooltip: Нажмите <right> для рывка вперёд
+#        DisplayName: Бамбуковый синай
+#        Tooltip: Нажмите <right>, чтобы совершить рывок вперёд
 #    }
 #
 #    BladeOfTheDragon: {
@@ -10268,7 +10268,7 @@
 #    }
 #
 #    AncientFlyer: {
-#        DisplayName: Ancient Avian
+#        DisplayName: Древний птах
 #        Entry: The matriarch of an extinct avian predator species, brought back to life through sheer will to protect the yolk of its last remaining spawn.
 #        BossChecklistIntegration.SpawnInfo: Use a [i:SpiritMod/JewelCrown] in the sky biome at any time. Alternatively, smash a Giant Avian Egg, which is found on Avian Islands near the sky layer. The Ancient Avian can be fought at any time and any place in progression.
 #        Spawn: The Ancient Avian has awoken!
@@ -11829,26 +11829,25 @@
 #SetBonuses: {
 #    Apostle:
 #        '''
-#        Wind Spirits guide you, granting an additional jump
-#        Magic and ranged attacks occasionally spawn feathers to attack foes
+#        Духи ветра направляют вас, позволяя совершать дополнительный прыжок
+#        Магические и стрелковые атаки периодически создают перья, которые атакуют врагов
 #        '''
 #    Bismite:
 #        '''
-#        Not getting hit builds up stacks of Virulence
-#        Virulence charges up every 10 seconds
-#        Striking while Virulence is charged releases a toxic explosion
-#        Getting hit depletes Virulence entirely
+#        Пока вы не получаете урон, накапливаются заряды болезнетворности
+#        Каждые 10 секунд накапливается один заряд болезнетворности
+#        Ваша атака при полном заряде болезнетворности вызывает ядовитый взрыв
+#        При получении урона заряды болезнетворности полностью сбрасываются
 #        '''
 #    BloodCourt:
 #        '''
-#        Double tap {0} to sacrifice 8% of your maximum health
-#        and launch a bolt of Dark Anima dealing high damage in a radius
-#        This bolt siphons 10 additional health over 5 seconds
+#        Дважды нажмите {0}, чтобы пожертвовать 8% от максимального запаса здоровья и выпустить сгусток тёмной анимы, наносящий высокий урон по области
+#        Этот сгусток дополнительно высасывает из врага 10 единиц здоровья в течение 5 секунд
 #        '''
 #    Botanist:
 #        '''
-#        You gain increased rewards from herbs of all kinds
-#        You have a powerful eye for spotting herbs
+#        Вы получаете больше ресурсов при сборе всех видов трав
+#        У вас зоркий глаз на поиск трав
 #        '''
 #    Cascade:
 #        '''
@@ -11984,9 +11983,9 @@
 #    Glowstone.MapEntry: Астралит
 #    Trophy3Tile.MapEntry: "{$Items.Trophy3.DisplayName}"
 #    Trophy5Tile.MapEntry: "{$Items.Trophy5.DisplayName}"
-#    BismiteCrystalOre.MapEntry: Кристалл бисмита
+#    BismiteCrystalOre.MapEntry: "{$Items.BismiteCrystal.DisplayName}"
 #    CoilEnergizerTile.MapEntry: "{$Items.CoilEnergizerItem.DisplayName}"
-#    CryoliteOreTile.MapEntry: Cryolite Ore
+#    CryoliteOreTile.MapEntry: Криолит
 #    Driftwood1Tile.MapEntry: "{$Items.DriftwoodTileItem.DisplayName}"
 #    Driftwood2Tile.MapEntry: "{$Items.DriftwoodTileItem.DisplayName}"
 #    Driftwood3Tile.MapEntry: "{$Items.DriftwoodTileItem.DisplayName}"
@@ -11994,14 +11993,14 @@
 #    SunkenTreasureTile.MapEntry: "{$Items.SunkenTreasure.DisplayName}"
 #    FloranOreTile.MapEntry: Флоранит
 #    GraniteOre.MapEntry: "{$Items.GraniteChunk.DisplayName}"
-#    MarbleOre.MapEntry: Ancient Marble Chunk
-#    OlympiumToken_Tile.MapEntry: Olympium Token
+#    MarbleOre.MapEntry: Древник кусок мрамора
+#    OlympiumToken_Tile.MapEntry: "{$Items.OlympiumToken.DisplayName}"
 #    Trophy10Tile.MapEntry: "{$Items.Trophy10.DisplayName}"
-#    SpiritOreTile.MapEntry: Spirit Ore
-#    Fathomless_Chest.MapEntry: Fathomless Vase
-#    AvianEgg.MapEntry: Avian Egg
-#    Blaststone_Grave.MapEntry: Gravestone
-#    SkullGrave.MapEntry: Gravestone
+#    SpiritOreTile.MapEntry: "{$Items.SpiritOre.DisplayName}"
+#    Fathomless_Chest.MapEntry: "{$Items.Fathomless_Chest_Item.DisplayName}"
+#    AvianEgg.MapEntry: Яйцо птаха
+#    Blaststone_Grave.MapEntry: "{$ItemName.Gravestone}"
+#    SkullGrave.MapEntry: "{$ItemName.Gravestone}"
 #    Canvas_Tile.MapEntry: Холст
 #    Coral1x2.MapEntry: Coral
 #    Coral2x2.MapEntry: Coral

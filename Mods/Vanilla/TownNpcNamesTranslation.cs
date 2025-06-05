@@ -156,15 +156,17 @@ public class TownNpcNamesTranslation : GlobalNPC
         {
             {"Vorbis", "Ворбис"},
             {"Angel", "Энжел"},
+            {"Eira", "Ейра"},
+            {"Linn", "Линн"},
             {"Mòrag Ladair", "Мораг Лейдер"},
-            {"Lain", "Лэйн"},
-            {"Hamis", "Хамис"},
         },
         [NPCID.Stylist] = new Dictionary<string, string>
         {
             {"Amber", "Эмбер"},
             {"Faith", "Фейт"},
             {"Xsiana", "Ксиана"},
+            {"Lain", "Лэйн"},
+            {"Hamis", "Хамис"},
         },
         [NPCID.DD2Bartender] = new Dictionary<string, string>
         {

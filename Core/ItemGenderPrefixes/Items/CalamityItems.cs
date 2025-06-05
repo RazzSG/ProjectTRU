@@ -221,7 +221,6 @@ public class CalamityItems : IItemGender
                 "WaveSkipper",
                 "SearedPan",
                 "OccultSkullCrown",
-                "ArtAttack",
                 "ScorchedEarth",
                 "UrchinMace",
                 "FaultLine",
