@@ -2048,6 +2048,11 @@ Items: {
         DisplayName: Потусторонняя музыкальная шкатулка (Песчаная буря)
         Tooltip: ""
     }
+    
+    SavannaTorchItem: {
+        DisplayName: Факел саванны
+        Tooltip: ""
+    }
 }
 
 NPCs: {
@@ -2408,6 +2413,7 @@ NPCs: {
         }
     
         Entry: Верите или нет, но этот слизень - всемирно признанный мастер керамики. Вы находитесь в присутствии современного художника!
+        Census.SpawnCondition: Разбейте в пещерах необычные горшки [i:SpiritReforged/BiomePotsCavernItem].
     }
     
     StompableGnome.DisplayName: Топчущийся гном

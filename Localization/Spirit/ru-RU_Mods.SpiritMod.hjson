@@ -1813,7 +1813,7 @@
 #    }
 #
 #    ShieldCore: {
-#        DisplayName: Межзвёздное защтиное ядро
+#        DisplayName: Межзвёздное защитное ядро
 #        Tooltip: Окружает вас отражающими щитами
 #    }
 #
@@ -3421,18 +3421,18 @@
 #    }
 #
 #    TalonBlade: {
-#        DisplayName: Talon Blade
-#        Tooltip: Creates a flurry of damaging feathers
+#        DisplayName: Когтистый клинок
+#        Tooltip: Создаёт вихрь разящих перьев
 #    }
 #
 #    Talonginus: {
-#        DisplayName: Talonginus
-#        Tooltip: Extremely quick, but inaccurate
+#        DisplayName: Когтегинус
+#        Tooltip: Невероятно быстрое, но неточное оружие
 #    }
 #
 #    TalonPiercer: {
-#        DisplayName: Talon's Fury
-#        Tooltip: Creates a flurry of homing feathers
+#        DisplayName: Ярость когтя
+#        Tooltip: Создаёт вихрь самонаводящихся перьев
 #    }
 #
 #    Trophy2: {
@@ -3441,26 +3441,26 @@
 #    }
 #
 #    DuskHood: {
-#        DisplayName: Dusk Hood
-#        Tooltip: Increases magic damage by 10% and reduces mana cost by 10%
+#        DisplayName: Сумеречный капюшон
+#        Tooltip: Увеличивает магический урон и снижает расход маны на 10%
 #    }
 #
 #    DuskLeggings: {
-#        DisplayName: Dusk Leggings
-#        Tooltip: Increases critical strike chance by 7%
+#        DisplayName: Сумеречные поножи
+#        Tooltip:  Увеличивает шанс критического удара на 7%
 #    }
 #
 #    DuskPlate: {
-#        DisplayName: Dusk Plate
+#        DisplayName: Сумеречные латы
 #        Tooltip:
 #            '''
-#            Increases ranged damage by 10%
-#            25% Chance to not consume ammo
+#            Увеличивает стрелковый урон на 10%
+#            Даёт 25% шанс не использовать боеприпасы
 #            '''
 #    }
 #
 #    DuskingBag: {
-#        DisplayName: Treasure Bag (Dusking)
+#        DisplayName: Мешок с сокровищами (Король мрака)
 #        Tooltip:
 #            '''
 #            Расходуемый предмет
@@ -3469,7 +3469,7 @@
 #    }
 #
 #    DuskingMask: {
-#        DisplayName: Dusking Mask
+#        DisplayName: Маска Короля мрака
 #        Tooltip: ""
 #    }
 #
@@ -3508,7 +3508,7 @@
 #    }
 #
 #    Trophy6: {
-#        DisplayName: Dusking Trophy
+#        DisplayName: Трофей Короля мрака
 #        Tooltip: ""
 #    }
 #
@@ -5625,12 +5625,12 @@
 #    }
 #
 #    BismiteChairItem: {
-#        DisplayName: Bismite Chair
+#        DisplayName: Бисмитовый стул
 #        Tooltip: ""
 #    }
 #
 #    BismiteTableItem: {
-#        DisplayName: Bismite Table
+#        DisplayName: Бисмитовый стол
 #        Tooltip: ""
 #    }
 #
@@ -6648,7 +6648,7 @@
 #    }
 #
 #    DuskingRelicItem: {
-#        DisplayName: Dusking Relic
+#        DisplayName: Реликвия Короля мрака
 #        Tooltip: ""
 #    }
 #
@@ -10287,9 +10287,9 @@
 #    CobbledEye3.DisplayName: Cobbled Eye
 #
 #    Dusking: {
-#        DisplayName: Dusking
-#        Entry: The nightmarish consequence of a failed seance by goblin warlocks. This abominable spirit remains a burning reminder of the chaos shadowflame magic can bring.
-#        BossChecklistIntegration.SpawnInfo: Use a [i:SpiritMod/DuskCrown] anywhere at nighttime.
+#        DisplayName: Король мрака
+#        Entry: Кошмарное порождение неудавшегося спиритического ритуала гоблинов-чернокнижников. Этот мерзкий дух остаётся пылающим напоминанием о том хаосе, который может породить магия теневого пламени.
+#        BossChecklistIntegration.SpawnInfo: Используйте [i:SpiritMod/DuskCrown] в любом месте ночью.
 #    }
 #
 #    ShadowBall.DisplayName: Penumbral Sphere
@@ -11002,24 +11002,24 @@
 #    }
 #
 #    Snaptrapper: {
-#        DisplayName: Snaptrapper
-#        Entry: Very little has been observed about this shrouded creature. It is six legged and bears claws, leading most to believe it is some form of arthropod.
-#        BossChecklistIntegration.SpawnInfo: The Snaptrapper spawns rarely on the Jungle surface after the Eater of Worlds or Brain of Cthulhu has been defeated.
+#        DisplayName: Ловец-щелкун
+#        Entry: Об этом скрытном существе известно крайне мало. У него шесть ног и когти, поэтому большинство полагает, что это некая форма членистоногого.
+#        BossChecklistIntegration.SpawnInfo: Ловец-щелкун редко появляется на поверхности джунглей после победы над Пожирателем миров или Мозгом Ктулху.
 #    }
 #
 #    AncientDemon: {
-#        DisplayName: Ancient Specter
-#        Entry: Found only in the deepest depths of Spirit-touched Caverns, these malevolent wraiths hold one simple goal: Purloin the souls of living things.
+#        DisplayName: Древний призрак
+#        Entry: Встречается лишь в самых глубоких недрах пещер, проникнутых духами. Эти злобные фантомы преследуют одну цель: похищать души живых существ.
 #    }
 #
 #    HauntedBook: {
-#        DisplayName: Ancient Tome
-#        Entry: A mysterious tome possessed by ancient spirits. Each contains a strange set of pages written in an indecipherable language.
+#        DisplayName: Древний фолиант
+#        Entry: Загадочный фолиант, охваченный древними духами. Каждый из них содержит странный набор страниц, написанных на непонятном языке.
 #    }
 #
 #    NetherBane: {
-#        DisplayName: Netherbane
-#        Entry: An ethereal winged beast that soars through the spirit biome. Legend has it that every flap of its wings signifies another soul dying.
+#        DisplayName: Проклятье пустоты
+#        Entry: Эфирный крылатый зверь, парящий над духовной рощей. По легенде, каждый взмах его крыльев предвещает смерть ещё одной души.
 #    }
 #
 #    SeerBat: {

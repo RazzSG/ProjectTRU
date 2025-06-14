@@ -2557,9 +2557,10 @@ Items: {
             '''
             Даёт невосприимчивость к отбрасыванию и дебаффам [i:FargowiltasSouls/FusedLens] «{$BuffName.CursedInferno}», «{$BuffName.Ichor}», [i:FargowiltasSouls/GroundStick] «{$Buffs.LightningRodBuff.DisplayName}», [i:FargowiltasSouls/ReinforcedPlating] «{$Buffs.DefenselessBuff.DisplayName}», «{$Buffs.NanoInjectionBuff.DisplayName}»
             [i:FargowiltasSouls/FusedLens] Укрепление дебаффом накладывает на вас дебаффы «{$BuffName.CursedInferno}» и «{$BuffName.Ichor}»
-            [i:FargowiltasSouls/FusedLens] Если на вас наложены дебаффы «{$BuffName.Ichor}» и «{$BuffName.CursedInferno}», скорость атаки и шанс критического удара увеличиваются на 15%, а ваши удары накладывают «{$BuffName.Ichor}» и «{$BuffName.CursedInferno}»
-            [i:FargowiltasSouls/GroundStick] Атаки с небольшим шансом накладывают дебафф «{$Buffs.LightningRodBuff.DisplayName}» и сверхзаряжают при электрических атаках
-            [i:FargowiltasSouls/GroundStick] За вас сражаются два дружелюбных зонда, которые также сверхзаряжаются вместе с вами
+            [i:FargowiltasSouls/FusedLens] Если на вас наложены дебаффы «{$BuffName.Ichor}» и «{$BuffName.CursedInferno}», скорость атаки и шанс критического удара увеличиваются на 15%
+            [i:FargowiltasSouls/FusedLens] Если на вас наложены дебаффы «{$BuffName.Ichor}» и «{$BuffName.CursedInferno}», ваши удары также накладывают дебаффы «{$BuffName.Ichor}» и «{$BuffName.CursedInferno}»
+            [i:FargowiltasSouls/GroundStick] Ваши удары с небольшим шансом накладывают дебафф «{$Buffs.LightningRodBuff.DisplayName}», а при получении электрических атак вы становитесь сверхзаряженным
+            [i:FargowiltasSouls/GroundStick] За вас сражаются два дружелюбных зонда, которые также становятся сверхзаряженными вместе с вами
             [i:FargowiltasSouls/ReinforcedPlating] Снижает получаемый урон на 5%
             'Может даже без вирусов...'
             '''
