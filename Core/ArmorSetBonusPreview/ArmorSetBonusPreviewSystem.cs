@@ -2266,6 +2266,13 @@ public class ArmorSetBonusPreviewSystem : ModSystem
 
                 return bonus;
             }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("SpiritReforged/GraniteHead"), () =>
+            {
+                string reversedUpDown = Language.GetTextValue(Main.ReversedUpDownArmorSetBonuses ? "Key.UP" : "Key.DOWN");
+                string bonus = Language.GetTextValue("Mods.SpiritReforged.SetBonuses.Granite", reversedUpDown);
+
+                return bonus;
+            }));
         }
     }
 }

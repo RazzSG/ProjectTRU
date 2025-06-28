@@ -2,7 +2,6 @@
 using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
 using Redemption.NPCs.Bosses.KSIII;
-using Redemption.NPCs.Friendly;
 using Redemption.NPCs.Friendly.SpiritSummons;
 using Redemption.NPCs.HM;
 using Redemption.NPCs.PreHM;

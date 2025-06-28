@@ -108,6 +108,16 @@ Buffs: {
         DisplayName: Сила исследователя
         Description: Продолжайте копать!
     }
+
+    JinxMark: {
+        DisplayName: Метка сглаза
+        Description: ""
+    }
+
+    FlaskOfFrost_Buff: {
+        DisplayName: Смазанное оружие: Заморозка
+        Description: Атаки ближнего боя замораживают врагов
+    }
 }
 
 Configs: {
@@ -232,6 +242,9 @@ Misc: {
     NoStock: Нет в наличии
     GraveText: <wavy>Текст старый и выцветший; вы не можете разобрать, что здесь написано.
     MenuButton: Использовать тему меню
+    UnchangedMap: Карта не изменена.
+    ShareMap: Карта отправлена.
+    ShareAndUpdateMap: Карта отправлена и обновлена.
 }
 
 DamageSources: {
@@ -252,6 +265,11 @@ GameTips: {
     ReforgedTip7: Spirit Reforged: Облачник всегда растёт под облаками.
     ReforgedTip8: Spirit Reforged: На верхушки акаций можно встать, если вам нужно забраться повыше.
     ReforgedTip9: Spirit Reforged: Время от времени на поверхности океана всплывают случайные предметы - проверяйте почаще!
+}
+
+Emotes: {
+    CartographerEmote.Command: cartographer
+    HikerEmote.Command: hikeremote
 }
 
 Items: {
@@ -513,7 +531,7 @@ Items: {
     }
 
     StrippedBambooItem: {
-        DisplayName: Очищенный бамбук
+        DisplayName: Полосатый бамбук
         Tooltip: ""
     }
 
@@ -1948,12 +1966,12 @@ Items: {
     }
     
     OganessonBobber: {
-        DisplayName: Оганессоновый поплавок
+        DisplayName: Поплавок с оганессоновым мхом
         Tooltip: "{$ItemTooltip.FishingBobberGlowingArgon}"
     }
     
     RadonBobber: {
-        DisplayName: Радоновый поплавок
+        DisplayName: Поплавок с радоновым мхом
         Tooltip: "{$ItemTooltip.FishingBobberGlowingArgon}"
     }
     
@@ -2014,6 +2032,11 @@ Items: {
         Tooltip: Заряженные удары выпускают смертоносный валун
     }
     
+    BoStaff: {
+        DisplayName: Посох бо
+        Tooltip: Наносимый непрерывный урон накапливает комбо
+    }
+    
     Blasphemer: {
         DisplayName: Богохульник
         Tooltip: Заряженные удары извергают огненной гейзер
@@ -2053,9 +2076,309 @@ Items: {
         DisplayName: Факел саванны
         Tooltip: ""
     }
+    
+    FlaskBlue: {
+        DisplayName: Флакон с синим мхом
+        Tooltip: При столкновении распространяет мох
+    }
+    
+    FlaskBrown: {
+        DisplayName: Флакон с коричневым мхом
+        Tooltip: "{$Items.FlaskBlue.Tooltip}"
+    }
+    
+    FlaskGreen: {
+        DisplayName: Флакон с зелёным мхом
+        Tooltip: "{$Items.FlaskBlue.Tooltip}"
+    }
+    
+    FlaskLava: {
+        DisplayName: Флакон с лавовым мхом
+        Tooltip: "{$Items.FlaskBlue.Tooltip}"
+    }
+    
+    FlaskPurple: {
+        DisplayName: Флакон с пурпурным мхом
+        Tooltip: "{$Items.FlaskBlue.Tooltip}"
+    }
+    
+    FlaskRed: {
+        DisplayName: Флакон с красным мхом
+        Tooltip: "{$Items.FlaskBlue.Tooltip}"
+    }
+    
+    TitleMusicBoxItem: {
+        DisplayName: Музыкальная шкатулка (Заглавная тема Spirit)
+        Tooltip: ""
+    }
+    
+    Drypowder: {
+        DisplayName: Сухой порошок
+        Tooltip: Распространяет саванну
+    }
+    
+    ElephantKite: {
+        DisplayName: Воздушный змей - слон
+        Tooltip: "{$CommonItemTooltip.Kite}"
+    }
+    
+    CartographyTableItem: {
+        DisplayName: Стол картографа
+        Tooltip:
+            '''
+            Позволяет делиться картой с другими игроками
+            Взаимодействуйте, чтобы поделиться своими открытиями
+            '''
+    }
+    
+    PurityBonsaiItem: {
+        DisplayName: Бонсай из ивы
+        Tooltip: ""
+    }
+    
+    RubyBonsaiItem: {
+        DisplayName: Рубиновый бонсай
+        Tooltip: ""
+    }
+    
+    SakuraBonsaiItem: {
+        DisplayName: Бонсай из сакуры
+        Tooltip: ""
+    }
+    
+    WillowBonsaiItem: {
+        DisplayName: Бонсай из жёлтой ивы
+        Tooltip: ""
+    }
+    
+    AmethystBonsaiItem: {
+        DisplayName: Аметистовый бонсай
+        Tooltip: ""
+    }
+    
+    DiamondBonsaiItem: {
+        DisplayName: Алмазный бонсай
+        Tooltip: ""
+    }
+    
+    EmeraldBonsaiItem: {
+        DisplayName: Изумрудный бонсай
+        Tooltip: ""
+    }
+    
+    SapphireBonsaiItem: {
+        DisplayName: Сапфировый бонсай
+        Tooltip: ""
+    }
+    
+    TopazBonsaiItem: {
+        DisplayName: Топазовый бонсай
+        Tooltip: ""
+    }
+    
+    AmberBonsaiItem: {
+        DisplayName: Янтарный бонсай
+        Tooltip: ""
+    }
+    
+    JinxBow: {
+        DisplayName: Лук сглаза
+        Tooltip:
+            '''
+            Стреляет по врагам, не расходуя боеприпасы, и иногда накладывает на них метку
+            При попадании стрелковыми атаками по врагам с меткой выпускается мощная магическая стрела
+            '''
+    }
+    
+    ExplosiveRum: {
+        DisplayName: Взрывной ром
+        Tooltip: "'О, а вот и он!'"
+    }
+    
+    Flarepowder: {
+        DisplayName: Искорчатый порошок
+        Tooltip: Выпускает облако парящего магического порошка
+    }
+    
+    VexpowderBlue: {
+        DisplayName: Порошок смятения
+        Tooltip:
+            '''
+            {$Items.Flarepowder.Tooltip}
+            Накладывает на поражённых врагов дебафф «{$BuffName.Confused}»
+            '''
+    }
+    
+    VexpowderRed: {
+        DisplayName: "{$Items.VexpowderBlue.DisplayName}"
+        Tooltip: "{$Items.VexpowderBlue.Tooltip}"
+    }
+    
+    BreakawayChair: {
+        DisplayName: Ломкий стул
+        Tooltip: Ломкий при столкновении
+    }
+    
+    AncientMarksmanHood: {
+        DisplayName: Древний капюшон стрелка
+        Tooltip: "{$Items.LeatherHood.Tooltip}"
+    }
+    
+    AncientMarksmanLegs: {
+        DisplayName: Древние ботинки стрелка
+        Tooltip: ""
+    }
+    
+    AncientMarksmanPlate: {
+        DisplayName: Древний нагрудник стрелка
+        Tooltip: ""
+    }
+    
+    RollingPotsItem: {
+        DisplayName: Катящийся горшок
+        Tooltip: ""
+    }
+    
+    MossSlimeBannerItem.DisplayName: Знамя мшистого слизня
+    
+    InvisibleLure: {
+        DisplayName: Невидимая блесна
+        Tooltip: "{$Items.FishLure.Tooltip}"
+    }
+    
+    SharpshooterGlove: {
+        DisplayName: Перчатка меткого стрелка
+        Tooltip:
+            '''
+            Увеличивает урон от стрелковых атак на расстоянии
+            Серия выстрелов на этой дистанции наносит увеличенный урон
+            '''
+    }
+    
+    BonsaiPot: {
+        DisplayName: Горшок для бонсая
+        Tooltip: Используется для создания декоративных бонсаев
+    }
+    
+    WickerBasketsItem: {
+        DisplayName: Плетёная корзина
+        Tooltip: ""
+    }
+    
+    EarthshakerBreastplate: {
+        DisplayName: Нагрудник землетрясателя
+        Tooltip: ""
+    }
+    
+    EarthshakerChestpiece: {
+        DisplayName: Кираса землетрясателя
+        Tooltip: ""
+    }
+    
+    EarthshakerHeadgear: {
+        DisplayName: Шлем землетрясателя
+        Tooltip: ""
+    }
+    
+    EarthshakerTreads: {
+        DisplayName: Ботфорты землетрясателя
+        Tooltip: ""
+    }
+    
+    EarthshakerWarmask: {
+        DisplayName: Боевая маска землетрясателя
+        Tooltip: ""
+    }
+    
+    GraniteBody: {
+        DisplayName: Кинетический нагрудник
+        Tooltip: Немного увеличивает высоту прыжка
+    }
+    
+    GraniteHead: {
+        DisplayName: Кинетический визор
+        Tooltip: "{$Items.GraniteBody.Tooltip}"
+    }
+    
+    GraniteLegs: {
+        DisplayName: Кинетические поножи
+        Tooltip: "{$Items.GraniteBody.Tooltip}"
+    }
+    
+    FingerGun: {
+        DisplayName: Пальцестрел
+        Tooltip:
+            '''
+            Игнорирует часть защиты врагов
+            Скорость стрельбы увеличивается при большем запасе маны
+            'Пиу-пиу!'
+            '''
+    }
+    
+    FlaskOfFrost: {
+        DisplayName: Флакон мороза
+        Tooltip: Ближние атаки, а также хлысты накладывают дебафф «{$Buffs.Frozen.DisplayName}»
+    }
+    
+    HardlightVisor: {
+        DisplayName: Светотвёрдый визор
+        Tooltip: ""
+        AltDisplayName: Светопрочный визор
+        AltTooltip: "'Не путать со светотвёрдым визором'"
+    }
 }
 
 NPCs: {
+    VanillaDialogue: {
+        Guide: {
+            WorldNPC: Путешествуя по миру, ты можешь повстречать и других исследователей. Если встретишь - возможно, вы сможете помочь друг другу!
+            Ecotone: Если климат будет подходящим, на границе между пустыней и джунглями может раскинуться обширная саванна. Всегда мечтал её увидеть!
+            Savanna: Из кожи здешних животных можно смастерить довольно крутое снаряжение, парень.
+            Kelp: Не ешь морские водоросли.
+        }
+    
+        ArmsDealer: {
+            Savanna1: В этих краях полно крупной дичи. Даже такой, как ты, сумеет в неё попасть.
+            Placeholder: placeholder
+        }
+    
+        Stylist: {
+            Savanna1: В таком климате чертовски трудно поддерживать причёску в порядке.
+            Duststorm1: Если мне ещё хоть раз придётся выковыривать песок из чьих-то волос - клянусь я...
+        }
+    
+        TravellingMerchant: {
+            Cartographer1: В своих странствиях я часто встречаю одну своенравную картографистку. Клянусь, она составляет мне серьёзную конкуренцию!
+            Cartographer2: О, да это же {0}! В прошлом месяце она показала мне дорогу, а потом сама же свалилась в канаву.
+            Discoveries: Порой в своих путешествиях я натыкаюсь на редкие диковинки. Может, и ты их найдёшь, если будешь внимателен.
+        }
+    
+        Demolitionist: {
+            HasBoomshroom: Что у тебя там? Гриб, который делает ВЗРЫВ ещё МОЩНЕЕ? Обожаю матушку-природу!
+            Placeholder: placeholder
+        }
+    
+        Nurse: {
+            Duststorm: Смотри не поранься там об эту пыль! Мне за такое не платят.
+            Savanna: Нет, я не ветеринар! А теперь убери отсюда этих животных.
+        }
+    
+        PartyGirl: {
+            Duststorm: Ой, погодка совсем не для вечеринок. Может, просто устроим посиделки?
+            Savanna: Столько простора - идеально для вечеринки! О-о-о, может, устроим дневную тусу?
+        }
+    
+        Golfer: {
+            Duststorm: Это всё эта пыль виновата, что я играю из рук вон плохо!
+            Savanna: Здесь одно сплошное препятствие! Мои мячи вечно застревают в кустах, песке... и деревьях!
+        }
+    
+        Zoologist: {
+            Savanna1: О боже мой, это место, ну, просто идеальное! Ты только посмотри на всех этих милых зверушек!
+            Savanna2: Что?! Тебя покусали гиены? Но они же такие милашки!
+        }
+    }
+
     Crinoid: {
         DisplayName: Морская лилия
         Entry: Эти любопытные создания - близкие родственники морских звёзд. Они питаются всем, что оседает на морском дне.
@@ -2448,6 +2771,20 @@ NPCs: {
             CavesAndClubs_1: Абра-кадабра, в пещеры ступай - с новыми горшками там не скучай!
         }
     }
+    
+    MossSlime: {
+        DisplayName: Мшистый слизень
+        Entry: Любопытный вид слизней, который каким-то образом покрыт мхом. Существует множество их разновидностей, но почему-то встречаются только те, что покрыты светящимся мхом. Может, это бесплатный источник света?
+    }
+    
+    KryptonMossSlime.DisplayName: Криптоновый мшистый слизень
+    LavaMossSlime.DisplayName: Лавовый мшистый слизень
+    NeonMossSlime.DisplayName: Неоновый мшистый слизень
+    XenonMossSlime.DisplayName: Ксеноновый мшистый слизень
+    ArgonMossSlime.DisplayName: Аргоновый мшистый слизень
+    HeliumMossSlime.DisplayName: Гелиевый мшистый слизень
+    OganessonMossSlime.DisplayName: Оганессоновый мшистый слизень
+    RadonMossSlime.DisplayName: Радоновый мшистый слизень
 }
 
 SetBonuses: {
@@ -2479,6 +2816,11 @@ SetBonuses: {
         Разбивание горшков даёт бафф, увеличивающий скорость передвижения
         Добыча руды даёт бафф, увеличивающий скорость добычи
         '''
+    Granite:
+        '''
+        Дважды нажмите {0}, чтобы устремиться вниз
+        Удар о землю создаёт ударную волну, сила которой зависит от высоты падения
+        '''
 }
 
 Tiles: {
@@ -2505,10 +2847,12 @@ Tiles: {
         UpsideDown: `Ошибка при производстве`
         Worm: При разрушении разлетается множество червей.
         Platter: Горячее блюдо, готовое к употреблению. Кто же мог его оставить?
+        WickerBasket: Пикник - специально для тебя!
         Aether: Даёт разнообразные полезные и сверкающие улучшения.
         Stuffed: Какое странное место для торговца. Похоже, он только и ждёт, чтобы его побеспокоили.
         Scrying: При разрушении открывает большую часть карты.
         Biome: Содержит больше разнообразной добычи, чем обычные горшки.
+        Boulder: Катится по земле, если его потревожить.
     }
 
     SunkenTreasureTile.MapEntry: "{$Items.SunkenTreasure.DisplayName}"
@@ -2530,4 +2874,5 @@ Tiles: {
     PotionVats.MapEntry: Чан для зелий
     ObsidianShroom.MapEntry: Обсидиановый гриб
     Starflower.MapEntry: Звёздный цветок
+    BonsaiTrees.MapEntry: Бонсай
 }

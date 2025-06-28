@@ -1249,9 +1249,9 @@
 #    HasMoonshot: Any player has a Moonshot
 #    VoyagerDown: Starplate Voyager is defeated
 #    ScarabDown: Scarabeus is defeated
-#    MJWDown: Moon Jelly Wizard is defeated
+#    MJWDown: После победы над Волшебником лунных медуз
 #    VinewrathDown: Vinewrath Bane is defeated
-#    DuskingDown: Dusking is defeated
+#    DuskingDown: После победы над Королём мрака
 #    InBriar: In the Briar
 #    InAsteroids: In Asteroids
 #    InSpirit: In the Spirit
@@ -1920,8 +1920,8 @@
 #    }
 #
 #    BeetleArrow: {
-#        DisplayName: Beetle Arrow
-#        Tooltip: Successful hits on enemies reduces damage taken by 1%, maxing out at 15%
+#        DisplayName: Жучья стрела
+#        Tooltip: Успешные попадания по врагам снижают получаемый урон на 1%, вплоть до 15%
 #    }
 #
 #    SepulchreArrow: {
@@ -2158,47 +2158,47 @@
 #    }
 #
 #    SnowRangerBody: {
-#        DisplayName: Fur Coverings
+#        DisplayName: Меховой покров
 #        Tooltip: ""
 #    }
 #
 #    SnowRangerHead: {
-#        DisplayName: Fur Helmet
+#        DisplayName: Меховой шлем
 #        Tooltip: ""
 #    }
 #
 #    SnowRangerLegs: {
-#        DisplayName: Fur Legwraps
+#        DisplayName: Меховые бриджи
 #        Tooltip: ""
 #    }
 #
 #    JackBody: {
-#        DisplayName: Handsome Jack's Suit
+#        DisplayName: Костюм Красавчика Джека
 #        Tooltip: ""
 #    }
 #
 #    JackHead: {
-#        DisplayName: Handsome Jack's Beautiful Visage
+#        DisplayName: Прекрасный лик Красавчика Джека
 #        Tooltip: ""
 #    }
 #
 #    JackLegs: {
-#        DisplayName: Handsome Jack's Pants
+#        DisplayName: Штаны Красавчика Джека
 #        Tooltip: ""
 #    }
 #
 #    LeatherHood: {
-#        DisplayName: Marksman's Hood
-#        Tooltip: Increases ranged weapon damage by 1
+#        DisplayName: Капюшон стрелка
+#        Tooltip: Увеличивает урон стрелкового оружия на 1
 #    }
 #
 #    LeatherLegs: {
-#        DisplayName: Marksman's Boots
+#        DisplayName: Ботинки стрелка
 #        Tooltip: ""
 #    }
 #
 #    LeatherPlate: {
-#        DisplayName: Marksman's Plate
+#        DisplayName: Нагрудник стрелка
 #        Tooltip: ""
 #    }
 #
@@ -2206,9 +2206,9 @@
 #        DisplayName: Mad Hat
 #        Tooltip:
 #            '''
-#            Can be thrown or worn
-#            Increases magic damage by 10%
-#            Increases magical crit chance by 8%
+#            Можно носить или бросать
+#            Увеличивает магический урон на 10%
+#            Увеличивает магический шанс критического удара на 8%
 #            '''
 #    }
 #
@@ -2218,47 +2218,47 @@
 #    }
 #
 #    GladeWraithMask: {
-#        DisplayName: Glade Wraith Mask
+#        DisplayName: Маска призрака рощи
 #        Tooltip: ""
 #    }
 #
 #    HydraMaskAcid: {
-#        DisplayName: Acidic Hydra Mask
+#        DisplayName: Маска кислотной гидры
 #        Tooltip: ""
 #    }
 #
 #    HydraMaskFire: {
-#        DisplayName: Fiery Hydra Mask
+#        DisplayName: Маска огненной гидры
 #        Tooltip: ""
 #    }
 #
 #    HydraMaskVenom: {
-#        DisplayName: Venomous Hydra Mask
+#        DisplayName: Маска ядовитой гидры
 #        Tooltip: ""
 #    }
 #
 #    LeafPaddyHat: {
-#        DisplayName: Rice Paddy Hat
+#        DisplayName: Рисовая шляпа
 #        Tooltip: ""
 #    }
 #
 #    PsychoMask: {
-#        DisplayName: Psycho Mask
-#        Tooltip: "'A flower? For meeee?'"
+#        DisplayName: Маска маньяка
+#        Tooltip: "'Цветочек? Мне-е-е?'"
 #    }
 #
 #    SailorCap: {
-#        DisplayName: Captain's Cap
+#        DisplayName: Капитанская фуражка
 #        Tooltip: ""
 #    }
 #
 #    SnapperHat: {
-#        DisplayName: Snapper's Hat
+#        DisplayName: Шляпа щипача
 #        Tooltip: ""
 #    }
 #
 #    TrapperGlove: {
-#        DisplayName: Trapper's Glove
+#        DisplayName: Перчатка ловца
 #        Tooltip: ""
 #    }
 #
@@ -2587,7 +2587,7 @@
 #    }
 #
 #    GladeWraithBanner: {
-#        DisplayName: Glade Wraith Banner
+#        DisplayName: Знамя призрака рощи
 #        Tooltip: ""
 #    }
 #
@@ -2947,8 +2947,8 @@
 #            [c/80deed:Руководство для начинающих по аксессуарам]
 #            [i:SpiritMod/AceOfClubs] [i:SpiritMod/AceOfDiamonds] [i:SpiritMod/AceOfSpades] [i:SpiritMod/AceOfHearts] [c/80deed: Тузы:] Как я уже говорил, мне довелось иметь дело с довольно подозрительными личностями и познакомиться с некоторыми сомнительными аксессуарами. Тузы - полезные предметы, если ты можешь наносить критические удары врагам. Их можно найти у [c/72a4c2:Азартной торговки], когда встретишь её в своих странствиях. Она продаёт разные варианты тузов в зависимости от фазы луны. Если ты её встретишь, пожалуйста, передай, что я тебя прислал. Очень прошу!
 #            [i:SpiritMod/AssassinMagazine] [c/80deed: Журнал убийцы:] До чего же я докатился? Не могу поверить, что рассказываю о снаряжении тех самых наёмников, с которыми когда-то сражался. Но этот [c/72a4c2:Бандит] повсюду имеет своих шпионов. Если ты, как и он, предпочитаешь бой на расстоянии, этот журнал поможет быстрее переключаться между типами боеприпасов. Мне так стыдно сейчас.
-#            [i:SpiritMod/ArcaneNecklace] [c/80deed: Магическое ожерелье:] Знаешь что? Я больше не собираюсь так жить. Я ненавижу то, кем стал. Пришло время прислушаться к собственным советам и снова отправиться в путь ради тех людей, которых я поклялся защищать. Никакого сомнительного снаряжения. Если ты маг и у тебя завалялись [c/72a4c2:Упавшие звезды] и [c/72a4c2:цепи], создай этот кулон, чтобы усилить свои магические атаки.
-#            [i:SpiritMod/LeatherShield] [i:SpiritMod/LeatherGlove] [i:SpiritMod/LeatherBoots][c/80deed: Кожаное снаряжение:] Похоже, мы с тобой теперь в одной лодке. У меня больше нет моего зачарованного снаряжения, поэтому я использую эти доспехи, сделанные из [c/72a4c2:Старой кожи]. Да, они неказистые. Да, от них не самый приятный запах. Но они сохранят нам жизнь и не стеснят движений в пути.
+#            [i:SpiritMod/ArcaneNecklace] [c/80deed: Магическое ожерелье:] Знаешь что? Я больше не собираюсь так жить. Я ненавижу то, кем стал. Пришло время прислушаться к собственным советам и снова отправиться в путь ради тех людей, которых я поклялся защищать. Никакого сомнительного снаряжения. Если ты маг и у тебя завалялись [c/72a4c2:упавшие звезды] и [c/72a4c2:цепи], создай этот кулон, чтобы усилить свои магические атаки.
+#            [i:SpiritMod/LeatherShield] [i:SpiritMod/LeatherGlove] [i:SpiritMod/LeatherBoots][c/80deed: Кожаное снаряжение:] Похоже, мы с тобой теперь в одной лодке. У меня больше нет моего зачарованного снаряжения, поэтому я использую эти доспехи, сделанные из [c/72a4c2:старой кожи]. Да, они неказистые. Да, от них не самый приятный запах. Но они сохранят нам жизнь и не стеснят движений в пути.
 #            Пришло время вернуться к истокам: вновь сражаться с монстрами и встать на сторону добра. Если ты прочитал все мои книги, я искренне надеюсь, что они помогут нам обоим. Возможно, мы ещё встретимся где-нибудь в пути.
 #            ---
 #            [c/95a3ab:Примечание редактора: На следующую ночь после этой записи Аврелий Финч исчез, оставив лишь записку. В ней он поклялся вновь стать достойным, странствуя по миру и сражаясь с монстрами. Его нынешнее местонахождение неизвестно.]
@@ -2995,21 +2995,21 @@
 #    }
 #
 #    Book_ArmorGuide: {
-#        DisplayName: The Beginner's Guide to Armor
-#        Tooltip: by Knight-Crusader Aurelius
+#        DisplayName: Руководство для начинающих по броне
+#        Tooltip: Автор: рыцарь-крестоносец Аврелий
 #        Content:
 #            '''
-#            [c/95a3ab:The following is a transcript of an informational speech made by renowned adventurer Aurelius Finch, Knight-Crusader.]
+#            [c/95a3ab:Ниже приводится расшифровка речи известного искателя приключений Аврелия Финча, рыцаря-крестоносца.]
 #            ---	
-#            Hey, folks! Are you ready to become a grand adventurer, just like myself? It seems like a good life up here, and it is! I'm rolling in sponsorship money, and my dating life has never been better!"
-#            But things weren't always this way. I was just like you all, once- dirt poor and owning nothing but the clothes on my back. It took everything I had to survive. But if you purchase my handy series of guides, you'll be just like me in no-time-flat! I can't wait for you to rise through the ranks, rookie.
-#            [c/80deed:The Beginner's Guide to Armor]
-#            So you're just setting out, and it's time to make your mark on the world. But what to wear? Armor is the most important tool in an adventurer's arsenal. Luckily for you, I've come across many different options for beginners that are easy to forge and effective.
-#            [i:SpiritMod/DaybloomHead] [i:SpiritMod/DaybloomBody] [i:SpiritMod/DaybloomLegs][c/80deed: Sunflower Armor:] Are you an aspiring mage? Well, I'm not- haven't got a magical bone in my body! But this thin and comfortable set of armor, made from [c/72a4c2:Sunflowers] and [c/72a4c2:Fallen Stars], can give a boost to your magic power.
-#            [i:SpiritMod/LeatherHood] [i:SpiritMod/LeatherPlate] [i:SpiritMod/LeatherLegs][c/80deed: Marskman's Armor:] If you're willing to venture out at night and take on some zombies, harvest some questionably sourced [c/72a4c2:Old Leather] and try your hand at archery. This lightweight (but smelly) armor allows you to focus on your strikes.
-#            Those are some cheap and effective armor sets that'll keep you fighting for a long time. Best of luck, adventurer!
+#            Приветствую, народ! Готовы стать великими искателями приключений, как я? Кажется, что жизнь на вершине славы прекрасна, и так оно и есть! У меня куча спонсоров и бурная личная жизнь!
+#            Но так было не всегда. Когда-то я был таким же, как вы - нищим, без гроша в кармане, и всё, что у меня было, - это штаны. Мне пришлось пройти через многое, чтобы выжить. Но если вы приобретёте мою серию руководств, то в два счёта станете такими же, как я! Жду не дождусь, когда ты пробьёшься наверх, салага.
+#            [c/80deed:Руководство для начинающих по броне]
+#            Итак, ты только начинаешь свой путь и готов оставить свой след в этом мире. Но что же надеть? Броня - важнейший инструмент в арсенале искателя приключений. К счастью для тебя, я повидал множество отличных вариантов для новичков, которые легко выковать и которые весьма эффективны.
+#            [i:SpiritMod/DaybloomHead] [i:SpiritMod/DaybloomBody] [i:SpiritMod/DaybloomLegs][c/80deed: Броня из подсолнуха:] Ты - начинающий маг? А вот я нет - во мне ни капли магии! Но этот лёгкий и удобный комплект брони, созданный из [c/72a4c2:подсолнухов] и [c/72a4c2:упавших звёзд], может значительно усилить твою магическую силу.
+#            [i:SpiritMod/LeatherHood] [i:SpiritMod/LeatherPlate] [i:SpiritMod/LeatherLegs][c/80deed: Броня стрелка:] Если ты не боишься риска, готов выходить по ночам и сражаться с зомби, то добудь немного [c/72a4c2:старой кожи] сомнительного происхождения и попробуй себя в стрельбе из лука. Эта лёгкая (хоть и зловонная) броня поможет тебе лучше сосредоточиться на меткости ударов.
+#            Вот такие простые и эффективные комплекты помогут тебе продержаться в бою как можно дольше. Удачи, искатель приключений!
 #            ---
-#            Whew. Thank god that's over. These suckers won't last a day out there, but they'll believe anything I tell them. Easiest money I've made in my life. Hey, why are you still writing this dow-
+#            Фух. Слава небесам, закончил. Эти сосунки и дня там не протянут, но поверят каждому моему слову. Самые лёгкие деньги в моей жизни. Эй, ты почему до сих пор это записыва...
 #            '''
 #    }
 #
@@ -3152,7 +3152,7 @@
 #    }
 #
 #    Book_SpiritArt: {
-#        DisplayName: Flora of the Spirit Biome
+#        DisplayName: Флора духовной рощи
 #        Tooltip:
 #            '''
 #            by Field Researcher Laywatts
@@ -3166,7 +3166,7 @@
 #        Tooltip: by Knight-Crusader Aurelius
 #        Content:
 #            '''
-#            [c/95a3ab:The following is a transcript of an informational speech made by adventurer Aurelius Finch, Knight-Crusader.]
+#            [c/95a3ab:Ниже приводится расшифровка речи искателя приключений Аврелия Финча, рыцаря-крестоносца.]
 #            ---
 #            Hey, all! Knight-Crusader Aurelius here, again. Before we get started (and on a completely unrelated note), my last guide on Armor didn't sell as well as I want to, and I have no clue why! But I need YOUR money to support my lavish hero lifestyle. So buy this new weapon guide for your dad, your grandma, and maybe even your cat. Please? I promise it'll be useful!
 #            [c/80deed:The Beginner's Guide to Weaponry]
@@ -3979,14 +3979,14 @@
 #        DisplayName: Durian
 #        Tooltip:
 #            '''
-#            Умеренно увеличивает все характеристики
+#            {$BuffDescription.WellFed2}
 #            'What an awful smell!'
 #            '''
 #    }
 #
 #    Guava: {
 #        DisplayName: Guava
-#        Tooltip: Умеренно увеличивает все характеристики
+#        Tooltip: "{$BuffDescription.WellFed2}"
 #    }
 #
 #    BriarPylonItem: {
@@ -3998,7 +3998,7 @@
 #        DisplayName: Enchanted Apple
 #        Tooltip:
 #            '''
-#            Умеренно увеличивает все характеристики
+#            {$BuffDescription.WellFed2}
 #            Increases mana regeneration
 #            '''
 #    }
@@ -4007,7 +4007,7 @@
 #        DisplayName: Enchanted Star Fruit
 #        Tooltip:
 #            '''
-#            Умеренно увеличивает все характеристики
+#            {$BuffDescription.WellFed2}
 #            Increases mana regeneration
 #            '''
 #    }
@@ -4051,7 +4051,7 @@
 #        DisplayName: Glowpear
 #        Tooltip:
 #            '''
-#            Умеренно увеличивает все характеристики
+#            {$BuffDescription.WellFed2}
 #            'It looks hollow?'
 #            '''
 #    }
@@ -4060,7 +4060,7 @@
 #        DisplayName: Lumin Berry
 #        Tooltip:
 #            '''
-#            Умеренно увеличивает все характеристики
+#            {$BuffDescription.WellFed2}
 #            'They feel almost glassy...'
 #            '''
 #    }
@@ -4135,54 +4135,54 @@
 #    }
 #
 #    CyberflyBlueItem: {
-#        DisplayName: Blue Cyberfly
-#        Tooltip: "'Real or digital?'"
+#        DisplayName: Голубая кибермуха
+#        Tooltip: "'Настоящая или цифровая?'"
 #    }
 #
 #    CyberflyPinkItem: {
-#        DisplayName: Pink Cyberfly
-#        Tooltip: "'Real or digital?'"
+#        DisplayName: Розовая кибермуха
+#        Tooltip: "'Настоящая или цифровая?'"
 #    }
 #
 #    DistressJellyItem: {
-#        DisplayName: Distress Jelly
+#        DisplayName: Бедствующая медуза
 #        Tooltip:
 #            '''
-#            'It needs help!'
-#            Use at nighttime to summon the Jelly Deluge
+#            'Ей нужна помощь!'
+#            Используйте ночью, чтобы призвать медузье наводнение
 #            '''
 #    }
 #
 #    DreamlightJellyItem: {
-#        DisplayName: Dreamlight Jelly
+#        DisplayName: Медуза грёз
 #        Tooltip:
 #            '''
-#            'It exudes arcane energy'
-#            Use at nighttime to summon the Moon Jelly Wizard
-#            Not consumable
+#            'Она источает тайную энергию'
+#            Используйте ночью, чтобы призвать Волшебника лунных медуз
+#            Не расходуется
 #            '''
 #    }
 #
 #    DuskCrown: {
-#        DisplayName: Dusk Crown
-#        Tooltip: Use at nighttime to summon Dusking
+#        DisplayName: Корона мрака
+#        Tooltip: Используйте ночью, чтобы призвать Короля мрака
 #    }
 #
 #    FateToken: {
 #        DisplayName: Жетон судьбы
 #        Tooltip:
 #            '''
-#            Protects the user from fatal damage for 1 minute
-#            2 minute cooldown
+#            Защищает от смертельного урона в течение 1 минуты
+#            Перезарядка 2 минуты
 #            '''
 #    }
 #
 #    CrystalFish: {
-#        DisplayName: Crystallized Salmon
+#        DisplayName: Кристаллизованный лосось
 #        Tooltip:
 #            '''
-#            Умеренно увеличивает все характеристики
-#            Boosts magic power
+#            {$BuffDescription.WellFed2}
+#            Увеличивает магическую силу
 #            '''
 #    }
 #
@@ -4190,7 +4190,7 @@
 #        DisplayName: Рыба и картофель фри
 #        Tooltip:
 #            '''
-#            Умеренно увеличивает все характеристики
+#            {$BuffDescription.WellFed2}
 #            Делает вас медлительным
 #            '''
 #    }
@@ -4199,7 +4199,7 @@
 #        DisplayName: Лосось в медовой глазури
 #        Tooltip:
 #            '''
-#            Умеренно увеличивает все характеристики
+#            {$BuffDescription.WellFed2}
 #            Увеличивает регенерацию здоровья
 #            '''
 #    }
@@ -4211,7 +4211,7 @@
 #
 #    SteamedMussels: {
 #        DisplayName: Мидии на пару
-#        Tooltip: Умеренно увеличивает все характеристики
+#        Tooltip: "{$BuffDescription.WellFed2}"
 #    }
 #
 #    FloaterItem: {
@@ -4228,14 +4228,14 @@
 #        DisplayName: Baguette
 #        Tooltip:
 #            '''
-#            Умеренно увеличивает все характеристики
+#            {$BuffDescription.WellFed2}
 #            'You feel fancier already'
 #            '''
 #    }
 #
 #    CaesarSalad: {
 #        DisplayName: Caesar Salad
-#        Tooltip: Умеренно увеличивает все характеристики
+#        Tooltip: "{$BuffDescription.WellFed2}"
 #        CustomTooltip1:
 #            '''
 #            "'Maybe don't use a knife to eat this one'"
@@ -4252,7 +4252,7 @@
 #        DisplayName: Carrot Cake
 #        Tooltip:
 #            '''
-#            Умеренно увеличивает все характеристики
+#            {$BuffDescription.WellFed2}
 #            'Just the perfect amount of icing!'
 #            '''
 #    }
@@ -4266,7 +4266,7 @@
 #        DisplayName: Ghost Pepper
 #        Tooltip:
 #            '''
-#            Умеренно увеличивает все характеристики
+#            {$BuffDescription.WellFed2}
 #            'Will you take the risk?'
 #            '''
 #    }
@@ -4285,7 +4285,7 @@
 #        DisplayName: Hummus
 #        Tooltip:
 #            '''
-#            Умеренно увеличивает все характеристики
+#            {$BuffDescription.WellFed2}
 #            'Warm and tasty!'
 #            '''
 #    }
@@ -4309,12 +4309,12 @@
 #    }
 #
 #    Nigiri: {
-#        DisplayName: Nigiri
+#        DisplayName: Нигири
 #        Tooltip:
 #            '''
-#            Умеренно увеличивает все характеристики
-#            Provides free movement in water
-#            'The perfect cut'
+#            {$BuffDescription.WellFed2}
+#            Позволяет свободно передвигаться в воде
+#            'Идеальная нарезка'
 #            '''
 #    }
 #
@@ -4322,7 +4322,7 @@
 #        DisplayName: Pop Rocks
 #        Tooltip:
 #            '''
-#            Умеренно увеличивает все характеристики
+#            {$BuffDescription.WellFed2}
 #            Emits an aura of light
 #            'It zips around your mouth!'
 #            '''
@@ -4332,7 +4332,7 @@
 #        DisplayName: Popsicle
 #        Tooltip:
 #            '''
-#            Умеренно увеличивает все характеристики
+#            {$BuffDescription.WellFed2}
 #            Grants immunity to 'On Fire'
 #            'Eat it before it melts!'
 #            '''
@@ -4342,7 +4342,7 @@
 #        DisplayName: Ramen
 #        Tooltip:
 #            '''
-#            Умеренно увеличивает все характеристики
+#            {$BuffDescription.WellFed2}
 #            'It'll warm you right up!'
 #            '''
 #    }
@@ -4353,12 +4353,12 @@
 #    }
 #
 #    Sushi: {
-#        DisplayName: Sushi
+#        DisplayName: Суши
 #        Tooltip:
 #            '''
-#            Умеренно увеличивает все характеристики
-#            Provides underwater breathing
-#            'Cold and fresh!'
+#            {$BuffDescription.WellFed2}
+#            Позволяет дышать под водой
+#            'Холодные и свежие!'
 #            '''
 #    }
 #
@@ -4366,7 +4366,7 @@
 #        DisplayName: Tofu Satay
 #        Tooltip:
 #            '''
-#            Умеренно увеличивает все характеристики
+#            {$BuffDescription.WellFed2}
 #            'Fresh and fried!'
 #            '''
 #    }
@@ -4377,11 +4377,11 @@
 #    }
 #
 #    GladeWreath: {
-#        DisplayName: Glade Wreath
+#        DisplayName: Венок рощи
 #        Tooltip:
 #            '''
-#            Summons a Glade Wraith
-#            Can only be used in the Briar
+#            Призывает призрака рощи
+#            Можно использовать только в поросли
 #            '''
 #    }
 #
@@ -5091,22 +5091,22 @@
 #
 #    CaramelApple: {
 #        DisplayName: Карамельное яблоко
-#        Tooltip: Умеренно увеличивает все характеристики
+#        Tooltip: "{$BuffDescription.WellFed2}"
 #    }
 #
 #    JackOGourd: {
 #        DisplayName: Тыква-светильник
-#        Tooltip: Умеренно увеличивает все характеристики... вроде как
+#        Tooltip: "{$BuffDescription.WellFed2}... вроде как"
 #    }
 #
 #    TreeGourd: {
 #        DisplayName: Тыква-скворечник
-#        Tooltip: Умеренно увеличивает все характеристики
+#        Tooltip: "{$BuffDescription.WellFed2}"
 #    }
 #
 #    Candy: {
 #        DisplayName: Конфета
-#        Tooltip: Немного увеличивает все характеристики
+#        Tooltip: "{$BuffDescription.WellFed}"
 #    }
 #
 #    CandyBag: {
@@ -5305,7 +5305,7 @@
 #    }
 #
 #    StrippedBamboo: {
-#        DisplayName: Очищенный бамбук
+#        DisplayName: Полосатый бамбук
 #        Tooltip: ""
 #    }
 #
@@ -5485,42 +5485,42 @@
 #    }
 #
 #    AcidBarrel: {
-#        DisplayName: Corrosive Barrel
+#        DisplayName: Едкая бочка
 #        Tooltip: ""
 #    }
 #
 #    AcidBathtub: {
-#        DisplayName: Corrosive Bathtub
+#        DisplayName: Едкая ванна
 #        Tooltip: ""
 #    }
 #
 #    AcidBed: {
-#        DisplayName: Corrosive Bed
+#        DisplayName: Едкая кровать
 #        Tooltip: ""
 #    }
 #
 #    AcidBench: {
-#        DisplayName: Corrosive Work Bench
+#        DisplayName: Едкий верстак
 #        Tooltip: ""
 #    }
 #
 #    AcidBookcase: {
-#        DisplayName: Corrosive Bookcase
+#        DisplayName: Едкий книжный шкаф
 #        Tooltip: ""
 #    }
 #
 #    AcidCandelabra: {
-#        DisplayName: Corrosive Candelabra
+#        DisplayName: Едкий подсвечник
 #        Tooltip: ""
 #    }
 #
 #    AcidCandle: {
-#        DisplayName: Corrosive Candle
+#        DisplayName: Едкая свеча
 #        Tooltip: ""
 #    }
 #
 #    AcidChair: {
-#        DisplayName: Corrosive Chair
+#        DisplayName: Едкий стул
 #        Tooltip: ""
 #    }
 #
@@ -5530,97 +5530,97 @@
 #    }
 #
 #    AcidChest: {
-#        DisplayName: Corrosive Chest
+#        DisplayName: Едкий сундук
 #        Tooltip: ""
 #    }
 #
 #    AcidClock: {
-#        DisplayName: Corrosive Clock
+#        DisplayName: Едкие напольные часы
 #        Tooltip: ""
 #    }
 #
 #    AcidDoor: {
-#        DisplayName: Corrosive Door
+#        DisplayName: Едкая дверь
 #        Tooltip: ""
 #    }
 #
 #    AcidDresser: {
-#        DisplayName: Corrosive Dresser
+#        DisplayName: Едкий комод
 #        Tooltip: ""
 #    }
 #
 #    AcidFan: {
-#        DisplayName: Rusty Fan
+#        DisplayName: Ржавый вентилятор
 #        Tooltip: ""
 #    }
 #
 #    AcidKeg: {
-#        DisplayName: Corrosive Keg
+#        DisplayName: Едкий кег
 #        Tooltip: ""
 #    }
 #
 #    AcidLamp: {
-#        DisplayName: Corrosive Lamp
+#        DisplayName: Едкая лампа
 #        Tooltip: ""
 #    }
 #
 #    AcidLantern: {
-#        DisplayName: Corrosive Lantern
+#        DisplayName: Едкий фонарь
 #        Tooltip: ""
 #    }
 #
 #    AcidPiano: {
-#        DisplayName: Corrosive Piano
+#        DisplayName: Едкое пианино
 #        Tooltip: ""
 #    }
 #
 #    AcidSink: {
-#        DisplayName: Corrosive Sink
+#        DisplayName: Едкая раковина
 #        Tooltip: ""
 #    }
 #
 #    AcidSofa: {
-#        DisplayName: Corrosive Sofa
+#        DisplayName: Едкий диван
 #        Tooltip: ""
 #    }
 #
 #    AcidTable: {
-#        DisplayName: Corrosive Table
+#        DisplayName: Едкий стол
 #        Tooltip: ""
 #    }
 #
 #    AdventurerMap: {
-#        DisplayName: Adventurer's Treasure Map
+#        DisplayName: Карта сокровищ искателя приключений
 #        Tooltip: "'South of Whiterun, east of Pelagia Farm'"
 #    }
 #
 #    AsteroidChest: {
-#        DisplayName: Asteroid Chest
+#        DisplayName: Астероидный сундук
 #        Tooltip: ""
 #    }
 #
 #    BambooBarrelItem: {
-#        DisplayName: Stripped Bamboo Barrel
+#        DisplayName: Бочка из полосатого бамбука
 #        Tooltip: ""
 #    }
 #
 #    BambooBenchItem: {
-#        DisplayName: Stripped Bamboo Bench
+#        DisplayName: Скамья из полосатого бамбука
 #        Tooltip: ""
 #    }
 #
 #    BambooBirdCageItem: {
-#        DisplayName: Stripped Bamboo Bird Cage
+#        DisplayName: Клетка для птиц из полосатого бамбука
 #        Tooltip: Birds can be locked inside using right click
 #    }
 #
 #    BambooPikeItem: {
-#        DisplayName: Bamboo Pike
+#        DisplayName: Бамбуковая пика
 #        Tooltip: ""
 #    }
 #
 #    BambooPotItem: {
-#        DisplayName: Stripped Bamboo Pot
+#        DisplayName: Горшок из полосатого бамбука
 #        Tooltip: ""
 #    }
 #
@@ -6069,7 +6069,7 @@
 #    }
 #
 #    PottedSakura: {
-#        DisplayName: Sakura Bonsai
+#        DisplayName: Бонсай из сакуры
 #        Tooltip: ""
 #    }
 #
@@ -6553,7 +6553,7 @@
 #    }
 #
 #    MJWBox: {
-#        DisplayName: Music Box (Moon Jelly Wizard)
+#        DisplayName: Музыкальная шкатулка (Волшебник лунных медуз)
 #        Tooltip: ""
 #    }
 #
@@ -6663,7 +6663,7 @@
 #    }
 #
 #    MJWRelicItem: {
-#        DisplayName: Moon Jelly Wizard Relic
+#        DisplayName: Реликвия Волшебника лунных медуз
 #        Tooltip: ""
 #    }
 #
@@ -8118,45 +8118,45 @@
 #    }
 #
 #    CaptainsRegards: {
-#        DisplayName: Captain's Regards
-#        Tooltip: "'Pirate diplomacy at its finest'"
+#        DisplayName: Почтение капитана
+#        Tooltip: "'Пиратская дипломатия во всей красе'"
 #    }
 #
 #    HeavenFleet: {
-#        DisplayName: Starfleet
+#        DisplayName: Звёздный флот
 #        Tooltip:
 #            '''
-#            Uses stars for ammo
-#            Hold down for a bigger blast
+#            Использует звёзды в качестве боеприпасов
+#            Удерживайте <left>, чтобы выполнить более мощный выстрел
 #            '''
 #    }
 #
 #    KineticRailgun: {
-#        DisplayName: Tesla Cannon
+#        DisplayName: Тесла-пушка
 #        Tooltip:
 #            '''
-#            Consumes gel
-#            Does more damage to single targets
-#            'Zap your enemies to oblivion!'
+#            Использует гель в качестве боеприпасов
+#            Эффективнее против одиночных целей
+#            'Испепели врагов молнией!'
 #            '''
 #    }
 #
 #    LadyLuck: {
-#        DisplayName: Lady Luck
+#        DisplayName: Госпожа удача
 #        Tooltip:
 #            '''
-#            Right click to throw out a lucky coin
-#            Shoot this coin to ricochet the bullet towards nearby enemies
-#            'Luck favors the rich'
+#            Нажмите <right>, чтобы подбросить счастливую монетку
+#            Выстрелите в неё, чтобы рикошетом направить пулю в ближайших врагов
+#            'Удача благоволит богатым'
 #            '''
 #    }
 #
 #    Meteorite_Spewer: {
-#        DisplayName: Magmaspewer
+#        DisplayName: Магмоплюй
 #        Tooltip:
 #            '''
-#            Spews meteorites that linger for a short time
-#            50% chance to not consume ammo
+#            Выплёвывает метеориты, которые ненадолго остаются на месте
+#            50% шанс не использовать боеприпасы
 #            '''
 #    }
 #
@@ -9491,8 +9491,8 @@
 #    }
 #
 #    ExplosiveRum: {
-#        DisplayName: Explosive Rum
-#        Tooltip: "'Oh, there it is!'"
+#        DisplayName: Взрывной ром
+#        Tooltip: "'О, а вот и он!'"
 #    }
 #
 #    Kunai_Throwing: {
@@ -10271,20 +10271,20 @@
 #        DisplayName: Древний птах
 #        Entry: The matriarch of an extinct avian predator species, brought back to life through sheer will to protect the yolk of its last remaining spawn.
 #        BossChecklistIntegration.SpawnInfo: Use a [i:SpiritMod/JewelCrown] in the sky biome at any time. Alternatively, smash a Giant Avian Egg, which is found on Avian Islands near the sky layer. The Ancient Avian can be fought at any time and any place in progression.
-#        Spawn: The Ancient Avian has awoken!
+#        Spawn: Древний птах пробудился!
 #    }
 #
 #    Atlas: {
-#        DisplayName: Atlas
-#        Entry: A fractured sentinel built millenia ago to protect the land from those who would dare to scar its natural form. Now, it seems you have made yourself its target.
-#        BossChecklistIntegration.SpawnInfo: Use a [i:SpiritMod/StoneSkin] anywhere at any time.
+#        DisplayName: Атлант
+#        Entry: Расколотый страж, созданный тысячелетия назад, чтобы защищать эти земли от тех, кто осмелится посягнуть на их первозданный облик. Теперь, похоже, вы стали его новой целью.
+#        BossChecklistIntegration.SpawnInfo: Используйте [i:SpiritMod/StoneSkin] в любом месте и в любое время.
 #    }
 #
-#    AtlasArmLeft.DisplayName: Atlas Arm
-#    AtlasArmRight.DisplayName: Atlas Arm
-#    CobbledEye.DisplayName: Cobbled Eye
-#    CobbledEye2.DisplayName: Cobbled Eye
-#    CobbledEye3.DisplayName: Cobbled Eye
+#    AtlasArmLeft.DisplayName: Рука Атланта
+#    AtlasArmRight.DisplayName: Рука Атланта
+#    CobbledEye.DisplayName: Булыжный глаз
+#    CobbledEye2.DisplayName: Булыжный глаз
+#    CobbledEye3.DisplayName: Булыжный глаз
 #
 #    Dusking: {
 #        DisplayName: Король мрака
@@ -10316,7 +10316,7 @@
 #    InfernoSkull.DisplayName: Infernus Skull
 #
 #    MoonWizard: {
-#        DisplayName: Moon Jelly Wizard
+#        DisplayName: Волшебник лунных медуз
 #        Entry: Those moon jellies are smarter than they seem. With only a bit of coordination and a sharp sense of fashion, they can become a far tougher adversary than any one jelly could ever be.
 #        BossChecklistIntegration.SpawnInfo: Use a [i:SpiritMod/DreamlightJellyItem] anywhere aboveground at nighttime. A [i:SpiritMod/DreamlightJellyItem] can be caught with a bug net during the Jelly Deluge, and is non-consumable
 #    }
@@ -10651,7 +10651,7 @@
 #    }
 #
 #    Dead_Scientist: {
-#        DisplayName: Undead Scientist
+#        DisplayName: Нежить-учёный
 #        Entry: An unholy practitioner of a necro-alchemy, combining typical alchemy with a form of minor necromancy in order to keep its sick experiments going.
 #    }
 #
@@ -10851,7 +10851,7 @@
 #    }
 #
 #    DreamlightJelly: {
-#        DisplayName: Dreamlight Jelly
+#        DisplayName: Медуза грёз
 #        Entry: A tiny Lunazoa that emits a gorgeous, dreamlike green glow. A genetic mutation is the source of their chartreuse gleam, but also prevents them from ever maturing.
 #    }
 #
@@ -10950,10 +10950,10 @@
 #    }
 #
 #    ForestWraith: {
-#        DisplayName: Glade Wraith
-#        Entry: Despite the Briar's unnatural creeping presence, it has left its mark on nature just long enough for these vengeful spirits to call it home.
-#        BossChecklistIntegration.SpawnInfo: Destroy a Bone Altar in the Underground Briar. The Glade Wraith also spawns naturally at nighttime after defeating the Eye of Cthulhu. Alternatively, find a [i:SpiritMod/GladeWreath] in Briar Chests and use it in the Briar at any time.
-#        BoneAltar: You have disturbed the ancient Nature Spirits!
+#        DisplayName: Призрак рощи
+#        Entry: Несмотря на зловещее разрастание поросли, она достаточно долго оставалась частью природы, чтобы эти мстительные духи смогли назвать её своим домом.
+#        BossChecklistIntegration.SpawnInfo: Разрушьте костяной алтарь в подземной поросли. Призрак рощи также может появиться ночью после победы над Глазом Ктулху. Кроме того, вы можете найти [i:SpiritMod/GladeWreath] в сундуках поросли и использовать его в поросли в любое время.
+#        BoneAltar: Вы потревожили древних духов природы!
 #    }
 #
 #    Noxophyll: {
@@ -11121,13 +11121,13 @@
 #    }
 #
 #    LargeCrustecean: {
-#        DisplayName: Bubble Brute
-#        Entry: We're on a baby hunt. And don't think we don't know how to weed em' out.
+#        DisplayName: Пузырчатый громила
+#        Entry: Мы охотимся на детишек. И не думайте, что мы не знаем как их вычислить.
 #    }
 #
 #    MangoJelly: {
-#        DisplayName: Mang-O War
-#        Entry: Small, airborne marine life. While named after their fruity smell and vibrant color, they are not in fact sweet.
+#        DisplayName: Манго-вояка
+#        Entry: Маленькое летающее морское существо. Названо так из-за фруктового аромата и яркой окраски - хотя на самом деле оно совсем не сладкое.
 #    }
 #
 #    Rylheian: {
@@ -11218,28 +11218,28 @@
 #        DisplayName: Азартная торговка
 #
 #        TownNPCMood: {
-#            Content: While we're both taking a minute here, why not open a box or two?
-#            NoHome: I need a place to call my own - where'll I setup a spot otherwise?
-#            FarFromHome: Money is one thing, but I'm not about gambling with my life. Where's my home?
-#            LoveSpace: I'm the gamblin' type but I'm not the casino type - I love it nice and calm.
-#            DislikeCrowded: There's such a thing as too many cooks in the casino, if you catch my drift.
-#            HateCrowded: People keep knocking over my loot boxes! How am I supposed to sell here?
-#            HateBiome: I CANNOT be making cash flow here.
-#            LikeBiome: Ah, {BiomeName}. Just the perfect place to set up shop.
-#            DislikeBiome: No one likes to gamble in the humidity. The coins get all wet and gross!
-#            LoveNPC: Once, I upsold a wooden chest to {NPCName} for a quick buck. He opened it and there were like, three hundred ducks in there. I've never been so confused and amazed.
-#            LikeNPC: My hair? That's {NPCName}'s pride and joy. She does a wonderful job.
-#            DislikeNPC: Unlike {NPCName}, I don't hoard my wealth.
-#            HateNPC: Say what you want about ME, but is what {NPCName} does even legal?
-#            LikeNPC_Princess: Y'know, {NPCName} has some spunk. She's fierce, and you could be too!
-#            Princess_LovesNPC: "{NPCName}'s style is awesome. You can tell she's confident."
+#            Content: Пока есть минутка, почему бы не открыть ящик-другой?
+#            NoHome: Мне нужно собственное жильё - где же мне иначе обустроить свою лавочку?
+#            FarFromHome: Деньги деньгами, но рисковать своей жизнью я не собираюсь. Где мой дом?
+#            LoveSpace: Я люблю азарт, но не люблю казино - мне нравится, когда тихо и спокойно.
+#            DislikeCrowded: Когда в казино слишком много народу, дело не выгорит - если ты понимаешь, о чём я.
+#            HateCrowded: Тут все постоянно сшибают мои ящики с добычей! Как мне здесь торговать?
+#            HateBiome: ЗДЕСЬ денег не сделаешь!
+#            LikeBiome: Ах, {BiomeName}. Идеальное место, чтобы развернуть торговлю.
+#            DislikeBiome: Никто не любит играть на деньги при такой влажности. Монеты становятся мокрыми и противными!
+#            LoveNPC: Однажды я впарила {NPCName} деревянный сундук, чтобы по-быстрому срубить деньжат. Он открыл его, а там - штук триста уток. Никогда в жизни я не была так озадачена и поражена одновременно.
+#            LikeNPC: Моя причёска? Это гордость и радость {NPCName}. Она просто умница!
+#            DislikeNPC: В отличие от {NPCName}, я не чахну над своим богатством.
+#            HateNPC: Говори про МЕНЯ что хочешь, но то, чем занимается {NPCName}, - это вообще законно?
+#            LikeNPC_Princess: Знаешь, у {NPCName} есть характер. Она та ещё штучка, и ты мог бы стать таким же!
+#            Princess_LovesNPC: У {NPCName} потрясающий стиль. Сразу видно, что она уверена в себе.
 #        }
 #
-#        Entry: The Gambler has long lived life on the edge, lending herself to the whims of fate. While this makes her an ardent player, it also once bound her to the top of a goblin fortress.
+#        Entry: Азартная торговка всегда жила на грани, полагаясь на волю судьбы. Это сделало её заядлым игроком, но однажды привело к тому, что её приковали к вершине гоблинской крепости.
 #        Census.SpawnCondition:
 #            '''
-#            Rescue the Gambler from a Goblin Tower
-#            If your world does not have a Goblin Tower, have at least 1 Gold in your inventory
+#            Спасите Азартную торговку из гоблинской башни.
+#            Если в вашем мире нет гоблинской башни, достаточно иметь в инвентаре хотя бы 1 золотую монету.
 #            '''
 #    }
 #
@@ -11351,18 +11351,18 @@
 #    }
 #
 #    Undead_Warlock: {
-#        DisplayName: Undead Warlock
-#        Entry: Unlike the Undead Scientist, the Warlock practices more typical, but more powerful, magic and necromancy.
+#        DisplayName: Нежить-чернокнижник
+#        Entry: В отличие от нежити-учёного, этот чернокнижник практикует более традиционную, но при этом более могущественную магию и некромантию.
 #    }
 #
 #    Valkyrie: {
-#        DisplayName: Valkyrie
-#        Entry: Righteous defenders of the sky, these winged warriors harness the power of the sun to protect the islands that float above the land.
+#        DisplayName: Валькирия
+#        Entry: Праведные защитницы небес, эти крылатые воительницы используют силу солнца, чтобы защищать парящие над землёй острова.
 #    }
 #
 #    Vulture_Matriarch: {
-#        DisplayName: Vulture Matriarch
-#        Entry: The powerful elder of the vulture tribe, the Matriarch has a hold of ancient magics and abilities in order to destroy its prey.
+#        DisplayName: Матриарх стервятников
+#        Entry: Могущественная старейшина племени стервятников, владеющая древней магией и особыми способностями, которые позволяют ей уничтожать свою добычу.
 #    }
 #
 #    Wheezer: {
@@ -12052,8 +12052,8 @@
 #    Pillar6Tile.MapEntry: Pillar
 #    Pillar7Tile.MapEntry: Pillar
 #    Pillar8Tile.MapEntry: Pillar
-#    PottedSakuraTile.MapEntry: Sakura Bonsai
-#    PottedWillowTile.MapEntry: Yellow Willow Bonsai
+#    PottedSakuraTile.MapEntry: "{$Items.PottedSakura.DisplayName}"
+#    PottedWillowTile.MapEntry: "{$Items.PottedWillow.DisplayName}"
 #    PrimePrint.MapEntry: Blueprint
 #    ProbePrint.MapEntry: Blueprint
 #    ReachGrass1.MapEntry: Spiky Grass
@@ -12096,8 +12096,8 @@
 #    ArcadeMachine.MapEntry: Arcade Machine
 #
 #    BambooBarrel: {
-#        MapEntry: Stripped Bamboo Barrel
-#        ContainerName: Stripped Bamboo Barrel
+#        MapEntry: "{$Items.BambooBarrelItem.DisplayName}"
+#        ContainerName: Бочка из полосатого бамбука
 #    }
 #
 #    BambooBench.MapEntry: Stripped Bamboo Bench
@@ -12219,8 +12219,8 @@
 #    SlotMachineTile.MapEntry: Slot Machine
 #
 #    AsteroidChest: {
-#        MapEntry: Asteroid Chest
-#        ContainerName: Asteroid Chest
+#        MapEntry: "{$Items.AsteroidChest.DisplayName}"
+#        ContainerName: Астероидный сундук
 #    }
 #
 #    ScrapTile1.MapEntry: Space Scrap
@@ -12277,13 +12277,13 @@
 #TownNPC: {
 #    Adventurer: {
 #        Dialogue: {
-#            Basic1: I've been all around this world, and I've got so many things for you to see.
-#            Basic2: Lovely house you've got here. It's much better lodging than when those savages from The Briar hung me over a spit.
-#            Basic3: Every dawn brings with it a new opportunity for a journey! You interested?
-#            Basic4: We're pretty similar, you and I. I sense our shared thirst for adventure.
-#            Basic5: Buy my stuff and go out there! See what the world has to offer, like I have.
-#            Basic6: From the depths of temples and the heights of space, peruse my wares.
-#            Basic7: I've a knack for pins, I have to say. You find all these little trinkets on your travels...
+#            Basic1: Я обошёл весь этот мир - и мне есть, что тебе показать.
+#            Basic2: Славный у тебя домик. Уж точно лучше, чем тогда, когда те дикари из поросли подвесили меня на вертеле.
+#            Basic3: Каждый рассвет дарит новую возможность для путешествия! Хочешь отправиться со мной?
+#            Basic4: А ведь мы с тобой похожи. Чувствую в нас общую жажду приключений.
+#            Basic5: Покупай мои товары и вперёд! Узнай, что может предложить этот мир - как когда-то узнал я.
+#            Basic6: От храмовых глубин до космических высей - выбирай, что душе угодно.
+#            Basic7: Должен признать: у меня глаз намётан на закрепки. В путешествиях постоянно натыкаешься на всякие безделушки...
 #            Special1: I swear I've got more goods for sale than {0}!
 #            Special2: Ah! It's {0}! We've often met on our journeys. I still haven't found all those exotic jungles he speaks of.
 #            Special3: Got some great prices today! {0}'s wares can't compete! They literally can't. I don't sell guns anymore.

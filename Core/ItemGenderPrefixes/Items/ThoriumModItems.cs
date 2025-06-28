@@ -284,7 +284,6 @@ public class ThoriumModItems : IItemGender
                 "Scorn",
                 "ScryingGlass",
                 "OceansJudgement",
-                "TheJavelin",
                 "TheOmegaCore",
                 "BatWing",
                 "CoralPolearm",

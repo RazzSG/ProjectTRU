@@ -446,7 +446,7 @@ Biomes: {
 
     AbyssLayer3Biome: {
         DisplayName: Термальная формация
-        TownNPCDialogueName:Термальная формация
+        TownNPCDialogueName: Термальная формация
     }
 
     AbyssLayer4Biome: {

@@ -8077,10 +8077,10 @@ Items: {
     }
 
     TheJavelin: {
-        DisplayName: Метательное копьё
+        DisplayName: Джавелин
         Tooltip:
             '''
-            'Вы - смерть...'
+            'Теперь вы стали смертью...'
             Запускает самонаводящуюся ракету, подпитываемую самой смертью
             {$CommonItemTooltip.PercentChanceToSaveAmmo}
             '''
