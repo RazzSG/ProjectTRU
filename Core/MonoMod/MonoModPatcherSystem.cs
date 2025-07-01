@@ -15,6 +15,10 @@ public class MonoModPatcherSystem : ModSystem
                 {
                     MonoModHooks.Modify(ilPatcher.ModifiedMethod, ilPatcher.PatchMethod);
                 }
+                catch (ArgumentNullException)
+                {
+                    throw new Exception($"[IL] Не удалось найти и пропатчить метод '{ilPatcher.ModifiedMethod.Name}'");
+                }
                 catch (NullReferenceException)
                 {
                     throw new Exception($"[IL] Не удалось найти и пропатчить метод '{ilPatcher.ModifiedMethod.Name}'");
@@ -26,6 +30,10 @@ public class MonoModPatcherSystem : ModSystem
                 try
                 {
                     MonoModHooks.Add(onPatcher.ModifiedMethod, onPatcher.Delegate);
+                }
+                catch (ArgumentNullException)
+                {
+                    throw new Exception($"[On] Не удалось найти и пропатчить метод '{onPatcher.ModifiedMethod.Name}'");
                 }
                 catch (NullReferenceException)
                 {

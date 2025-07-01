@@ -116,7 +116,7 @@ Buffs: {
 
     FlaskOfFrost_Buff: {
         DisplayName: Смазанное оружие: Заморозка
-        Description: Атаки ближнего боя замораживают врагов
+        Description: Атаки ближнего боя, а также хлысты замораживают врагов
     }
 }
 
@@ -2317,7 +2317,7 @@ Items: {
     
     FlaskOfFrost: {
         DisplayName: Флакон мороза
-        Tooltip: Ближние атаки, а также хлысты накладывают дебафф «{$Buffs.Frozen.DisplayName}»
+        Tooltip: Атаки ближнего боя, а также хлысты накладывают дебафф «{$Buffs.Frozen.DisplayName}»
     }
     
     HardlightVisor: {

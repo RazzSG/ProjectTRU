@@ -2188,6 +2188,14 @@ public class ArmorSetBonusPreviewSystem : ModSystem
                 
                 return bonus;
             }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("Redemption/ElderWoodHelmet"), () =>
+            {
+                string bonus = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.ElderWood",
+                    Language.GetTextValue("Mods.Redemption.Items.Nature.DisplayName"),
+                    Language.GetTextValue("Mods.Redemption.Items.Poison.DisplayName"));
+                
+                return bonus;
+            }));
         }
         
         if (ModInstances.Catalyst != null)
