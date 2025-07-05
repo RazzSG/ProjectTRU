@@ -158,7 +158,6 @@ public class ThoriumGlobalItem : GlobalItem
         {
             ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "transformationText", _ =>
             {
-                tooltips.ReplaceText("Variety I", "Вариативность I");
                 tooltips.ReplaceText("Playing empowers players with bonus:", "Игра на инструменте даёт игрокам усиление:");
             });
         }
@@ -256,14 +255,6 @@ public class ThoriumGlobalItem : GlobalItem
             });
         }
         
-        if (item.type == ModContent.ItemType<NecroticStaff>())
-        {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "lifeCost", tooltip =>
-            {
-                tooltip.Text = "Использует 2.5% вашего максимального запаса здоровья";
-            });
-        }
-        
         if (item.type == ModContent.ItemType<Recuperate>())
         {
             ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerAmount", tooltip =>
@@ -317,16 +308,6 @@ public class ThoriumGlobalItem : GlobalItem
                     string items = LocalizedText.ApplyPluralization("{^0:предмет;предмета;предметов}", value);
                     tooltip.Text = $"Продублировано: [c/{color}:{duplicatesStr} {items}]";
                 }
-            });
-        }
-        
-        if (item.type == ModContent.ItemType<TwilightStaff>())
-        {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Name == "UseMana", _ =>
-            {
-                tooltips.ReplaceText("Uses", "Использует");
-                tooltips.ReplaceText("mana &", "ед. маны и");
-                tooltips.ReplaceText("life", "ед. здоровья");
             });
         }
         
@@ -529,11 +510,6 @@ public class ThoriumGlobalItem : GlobalItem
             tooltips.ReplaceText("basic damage", "ед. базового урона");
         });
         
-        ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "CookText", tooltip =>
-        {
-            tooltip.Text = $"Повар, возможно, заинтересуется этим: {tooltip.Text.Split(' ')[7]} / {tooltip.Text.Split(' ')[9]}";
-        });
-        
         ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "RealityTag", tooltip =>
         {
             tooltip.Text = "-Разрушитель реальности-";
@@ -570,14 +546,5 @@ public class ThoriumGlobalItem : GlobalItem
             tooltips.ReplaceText("Hold right click to store up to", "Удерживайте ПКМ, чтобы накопить до");
             tooltips.ReplaceText("needles", "игл");
         });
-    }
-
-    public override void AnglerChat(int type, ref string chat, ref string catchLocation)
-    {
-        if (type == ModContent.ItemType<LilGuppy>())
-        {
-            chat = "Долгое плавание в одиночестве было ужасно тоскливым... Но однажды у меня появился друг - крошечная рыбка, которую я назвал Маленькая Гуппи! Правда, она постоянно ускользает из своего аквариума! Я очень по ней скучаю и хочу, чтобы она вернулась. Отправляйся на поиски моего друга!";
-            catchLocation = "Можно поймать в океане";
-        }
     }
 }

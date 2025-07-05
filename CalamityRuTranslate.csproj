@@ -21,7 +21,7 @@
       <HintPath>..\ModAssemblies\InfernumMode_v2.0.1.16.dll</HintPath>
     </Reference>
     <Reference Include="NoxusBoss">
-      <HintPath>..\ModAssemblies\NoxusBoss_v1.2.20.dll</HintPath>
+      <HintPath>..\ModAssemblies\NoxusBoss_v1.2.23.dll</HintPath>
     </Reference>
     <Reference Include="Redemption">
       <HintPath>..\ModAssemblies\Redemption_v0.8.0.4077.dll</HintPath>
@@ -33,7 +33,7 @@
       <HintPath>..\ModAssemblies\StarsAbove_v2.1.5.1.dll</HintPath>
     </Reference>
     <Reference Include="ThoriumMod">
-      <HintPath>..\ModAssemblies\ThoriumMod_v1.7.2.2.dll</HintPath>
+      <HintPath>..\ModAssemblies\ThoriumMod_v1.7.2.4.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>

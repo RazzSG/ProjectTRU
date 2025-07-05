@@ -659,21 +659,6 @@ public class ThoriumNpcChat : GlobalNPC
             }
         }
 
-        if (npc.type == ModContent.NPCType<ConfusedZombie>())
-        {
-            Main.npcChatText = Main.npcChatText switch
-            {
-                "I just whipped up the perfect recipe to deter bats from bothering you; no more tiny nibbles!" => "Я только что придумал идеальный рецепт для отпугивания летучих мышей: скажем нет маленьким укусам!",
-                "If this turned out correctly, you'll smell just like a zombie. Hopefully your nights will be a tad more calm!" => "Если всё получилось правильно, ты будешь пахнуть как зомби. Надеюсь, твои ночи станут чуточку спокойнее!",
-                "Getting this stuff to work underwater was a huge hassle... Either way, hungry fish shouldn't attempt to eat you with this." => "Заставить эту штуку работать под водой было непросто... Но зато теперь голодные рыбы не будут пытаться тебя съесть.",
-                "I'll be honest, this is just a bottle of pure liquid calcium. Don't question it, the skeletons surely won't." => "Скажу честно, это просто бутылка жидкого кальция. Не задавай вопросов - скелеты точно не будут.",
-                "With this nasty concoction, insects will associate your scent with their queen! Neat, huh?" => "С помощью этой мерзкой смеси насекомые будут считать тебя своей королевой! Круто, да?",
-                "Looks like you're a bit short on funds. Come back to me when you have a little more coin in your pocket!" => "Похоже, у тебя маловато денег. Приходи, когда у тебя будет побольше монет в кармане!",
-                "I'm afraid you'll have to give me some more time to prepare the next repellent. This stuff can get pretty complicated..." => "Боюсь, мне нужно чуть больше времени, чтобы приготовить следующий репеллент. Эта штука может быть довольно сложной...",
-                _ => Main.npcChatText
-            };
-        }
-        
         if (npc.type == ModContent.NPCType<Cook>())
         {
             Main.npcChatText = Main.npcChatText switch

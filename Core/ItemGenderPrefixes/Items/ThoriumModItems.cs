@@ -106,7 +106,6 @@ public class ThoriumModItems : IItemGender
                 "GeomancersBrush",
                 "GreedfulGurdy",
                 "GutWrenchersGauntlet",
-                "IncandescentSpark",
                 "Kinetoscythe",
                 "LingeringWill",
                 "LittleRed",
@@ -115,7 +114,6 @@ public class ThoriumModItems : IItemGender
                 "MantleoftheProtector",
                 "MineralLauncher",
                 "NovaRifle",
-                "NuclearFury",
                 "PhantomArmCannon",
                 "PhantomCamera",
                 "PollenPike",
@@ -245,6 +243,9 @@ public class ThoriumModItems : IItemGender
                 "Cello",
                 "ViscountCane",
                 "NursePurse",
+                "TheSet",
+                "Flurry",
+                "ChromaticFury",
             };
         
             if (ModInstances.Thorium != null)
@@ -304,7 +305,6 @@ public class ThoriumModItems : IItemGender
                 "StaticProd",
                 "StrawberryHeart",
                 "DragonsBreath",
-                "DragonTalonNecklace",
                 "Charm",
                 "Confuse",
                 "Dissolve",
@@ -345,6 +345,8 @@ public class ThoriumModItems : IItemGender
                 "Revivify",
                 "LodestoneRadio",
                 "SnarkyGun",
+                "HemogoblinSharkToothNecklace",
+                "IncandescentAlacrity",
             };
         
             if (ModInstances.Thorium != null)

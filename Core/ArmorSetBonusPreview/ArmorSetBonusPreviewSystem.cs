@@ -1844,7 +1844,7 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("ThoriumMod/IridescentHelmet"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("ThoriumMod/IridescentHelmet", "SetBonus", 15);
+                string bonus = TranslationHelper.GetTextValue("ThoriumMod/IridescentHelmet", "SetBonus", 15, "[X]");
                 
                 return bonus;
             }));
