@@ -8,6 +8,7 @@ using Redemption.Items.Placeable.Furniture.Misc;
 using Redemption.Items.Weapons.HM.Melee;
 using Redemption.Items.Weapons.PostML.Magic;
 using Redemption.Items.Weapons.PreHM.Ammo;
+using Redemption.Items.Weapons.PreHM.Magic;
 using Redemption.Items.Weapons.PreHM.Melee;
 using Redemption.Items.Weapons.PreHM.Ranged;
 using Redemption.Items.Weapons.PreHM.Summon;
@@ -247,6 +248,14 @@ public partial class RedemptionGlobalItem : GlobalItem
             ItemHelper.TranslateTooltip(tooltips, "Tooltip0", _ =>
             {
                 tooltips.ReplaceText("Колющий", "копьём");
+            });
+        }
+        
+        if (item.type == ModContent.ItemType<ElderWoodStaff>())
+        {
+            ItemHelper.TranslateTooltip(tooltips, "Tooltip1", _ =>
+            {
+                tooltips.ReplaceText("Школы", "Школой");
             });
         }
         

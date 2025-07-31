@@ -2471,6 +2471,18 @@ Items: {
 NPCs: {
     Abominationn: {
         DisplayName: Мерзостть
+        NPCName1: Вилта
+        NPCName2: Джек
+        NPCName3: Харли
+        NPCName4: Жнец
+        NPCName5: Стивенн
+        NPCName6: Дуф
+        NPCName7: Бару
+        NPCName8: Фергус
+        NPCName9: Энтев
+        NPCName10: Катастроф
+        NPCName11: Бардо
+        NPCName12: Бетсон
 
         TownNPCMood: {
             Content: Я доволен.
@@ -2532,6 +2544,19 @@ NPCs: {
 
     Deviantt: {
         DisplayName: Девиантт
+        NPCName1: Акира
+        NPCName2: Реми
+        NPCName3: Саку
+        NPCName4: Сейра
+        NPCName5: Кои
+        NPCName6: Элли
+        NPCName7: Лори
+        NPCName8: Калия
+        NPCName9: Тери
+        NPCName10: Артт
+        NPCName11: Флан
+        NPCName12: Сион
+        NPCName13: Тьюи
 
         TownNPCMood: {
             Content: Мне здесь хорошо!
@@ -2633,6 +2658,18 @@ NPCs: {
 
     LumberJack: {
         DisplayName: Дровосек
+        NPCName1: Грифф
+        NPCName2: Джек
+        NPCName3: Брюс
+        NPCName4: Ларри
+        NPCName5: Уилл
+        NPCName6: Джерри
+        NPCName7: Лиам
+        NPCName8: Стэн
+        NPCName9: Ли
+        NPCName10: Вуди
+        NPCName11: Лейф
+        NPCName12: Пауло
 
         TownNPCMood: {
             Content: Я счастлив, пока в мире есть лес, который нужно рубить.
@@ -2696,6 +2733,19 @@ NPCs: {
 
     Mutant: {
         DisplayName: Мутант
+        NPCName1: Флакен
+        NPCName2: Дорф
+        NPCName3: Бинго
+        NPCName4: Ханс
+        NPCName5: Фарго
+        NPCName6: Грим
+        NPCName7: Майк
+        NPCName8: Фаргу
+        NPCName9: Терренс
+        NPCName10: Кэтти Н. Пэм
+        NPCName11: Том
+        NPCName12: Вердус
+        NPCName13: Полли
 
         TownNPCMood: {
             Content: Спасибо за дом, что ли.
@@ -2799,6 +2849,13 @@ NPCs: {
 
     Squirrel: {
         DisplayName: Белка
+        NPCName1: Рик
+        NPCName2: Жёлудь
+        NPCName3: Пуфф
+        NPCName4: Коко
+        NPCName5: Трюфель
+        NPCName6: Фурго
+        NPCName7: Пискун
 
         TownNPCMood: {
             Content: *удовлетворённый писк*
@@ -2928,7 +2985,7 @@ ExpandedTooltips: {
     FountainSnow: Ваше окружение меняется на снега при активации
     FountainCorruption: Ваше окружение меняется на искажение при активации
     FountainCrimson: Ваше окружение меняется на багрянец при активации
-    FountainHallow: Ваше окружение меняется на овсящение при активации (только в хардмоде)
+    FountainHallow: Ваше окружение меняется на освящение при активации (только в хардмоде)
     CatchNPCs: Также позволяет ловить горожан
     ExtraLure1: Даёт дополнительный поплавок
     Lures2: Эта удочка запускает 2 поплавка

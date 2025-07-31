@@ -11,7 +11,7 @@
 #    SellWeapons: Переключите, чтобы запретить продажу оружия
 #    SellNoValue: Переключите, чтобы быстро продавать предметы у которых нет стоимости
 #    Autofire: Автострельба
-#    Autoswing: Автоудары
+#    Autoswing: Автоатака
 #}
 #
 #Keybinds: {
@@ -135,11 +135,11 @@
 #
 #    OceanShape: {
 #        Tooltip: ""
-#        Default.Label: Default
-#        SlantedSine.Label: Slanted Sine
-#        Piecewise.Label: Piecewise
-#        Piecewise_M.Label: Piecewise_ M
-#        Piecewise_V.Label: Piecewise_ V
+#        Default.Label: Стандартная
+#        SlantedSine.Label: Наклонная синусоида
+#        Piecewise.Label: Кусочная
+#        Piecewise_M.Label: Кусочная_M
+#        Piecewise_V.Label: Кусочная_V
 #    }
 #
 #    SpiritMusicConfig: {
@@ -666,48 +666,48 @@
 #    }
 #
 #    OverDrive: {
-#        DisplayName: Overdrive
-#        Description: Your movement speed and melee speed are charged up!
+#        DisplayName: Форсаж
+#        Description: Ваша скорость передвижения и атаки ближнего боя заряжена!
 #    }
 #
 #    AtlasPetBuff: {
-#        DisplayName: Atlas Jr.
-#        Description: He wants to lend a hand!
+#        DisplayName: Атлант-младший
+#        Description: Он хочет помочь вам!
 #    }
 #
 #    AvianPetBuff: {
-#        DisplayName: Ancient Hatchling
-#        Description: "'eg.'"
+#        DisplayName: Древний птенец
+#        Description: "'Яйк'"
 #    }
 #
 #    BladePetBuff: {
-#        DisplayName: Possessed Blade
-#        Description: "'Is this a dagger I see in front of me?'"
+#        DisplayName: Одержимый клинок
+#        Description: "'Кинжал ли я вижу перед собой?'"
 #    }
 #
 #    CaltfistPetBuff: {
-#        DisplayName: Cultfish
-#        Description: This little bugger lights the way!
+#        DisplayName: Культ-рыба
+#        Description: Этот маленький проказник освещает вам путь!
 #    }
 #
 #    CaptiveMaskPetBuff: {
-#        DisplayName: Unbound Mask
-#        Description: "'Once more unto the breach!'"
+#        DisplayName: Освобождённая маска
+#        Description: "'Снова в бой, друзья мои!'"
 #    }
 #
 #    DuskingPetBuff: {
-#        DisplayName: Minor Shadowflame
-#        Description: "'You see something inside of the flames...'"
+#        DisplayName: Малое теневое пламя
+#        Description: "'Вы видите что-то в глубине пламени...'"
 #    }
 #
 #    FaeriePetBuff: {
-#        DisplayName: Waning Gibbous
-#        Description: The Moonlit Faerie will protect you
+#        DisplayName: Убывающая луна
+#        Description: Вас защищает лунная фея
 #    }
 #
 #    HauntedBookPetBuff: {
-#        DisplayName: Haunted Tome
-#        Description: "'Haunted, yet comforting'"
+#        DisplayName: Призрачный том
+#        Description: "'Призрачный, но уютный'"
 #    }
 #
 #    InfernonPetBuff: {
@@ -4858,11 +4858,11 @@
 #    }
 #
 #    MysticalCage: {
-#        DisplayName: Mystical Cage
+#        DisplayName: Мистическая клетка
 #        Tooltip:
 #            '''
-#            Summons a Cultfish to follow you
-#            Reveals nearby treasure
+#            Призывает культ-рыбу, которая будет следовать за вами
+#            Показывает ближайшие сокровища
 #            '''
 #    }
 #
@@ -8061,17 +8061,17 @@
 #    }
 #
 #    RagingSunblade: {
-#        DisplayName: Helios
+#        DisplayName: Гелиос
 #        Tooltip:
 #            '''
-#            Hold and release to throw 
-#            Right click to dash to it, destroying everything in your path
+#            Удерживайте <left> и отпустите её, чтобы метнуть оружие
+#            Нажмите <right>, чтобы рывком устремиться к оружию, уничтожая всё на своём пути
 #            '''
 #    }
 #
 #    BottomFeederGun: {
-#        DisplayName: Belcher
-#        Tooltip: Converts regular bullets into clumps of rotting flesh
+#        DisplayName: Блевун
+#        Tooltip: Превращает обычные пули в сгустки разлагающейся плоти
 #    }
 #
 #    Blaster: {
@@ -8230,32 +8230,32 @@
 #    }
 #
 #    Terravolver: {
-#        DisplayName: Terravolver
+#        DisplayName: Терравольвер
 #        Tooltip:
 #            '''
-#            Shoots elemental bullets and bombs that inflict powerful burns
-#            Right click while holding for a shotgun blast
-#            33% chance to not consume ammo
-#            'Nature goes out with a bang'
+#            Стреляет элементальными пулями и бомбами, накладывающими мощные ожоги
+#            Нажмите <right>, чтобы выстрелить дробью
+#            33% шанс не использовать боеприпасы
+#            'У природы - взрывной характер'
 #            '''
 #    }
 #
 #    TrueCrimbine: {
-#        DisplayName: True Harvester
+#        DisplayName: Истинный жнец
 #        Tooltip:
 #            '''
-#            Rapidly shoots out wither blasts that inflict 'Wither' on hit foes
-#            Occasionally shoots out a giant clump of blood that steals a large amount of life
+#            Стремительно выпускает иссушающие заряды, накладывающие на врагов дебафф «{$Buffs.Wither.DisplayName}»
+#            Иногда выпускает гигантский сгусток крови, поглощающий большое количество здоровья
 #            '''
 #    }
 #
 #    TrueHolyBurst: {
-#        DisplayName: Holy Hellstorm
+#        DisplayName: Святой шторм
 #        Tooltip:
 #            '''
-#            Fires a five round burst of angelic energy
-#            Bullets shot inflict 'Angel's Wrath', a stacking debuff
-#            Different amounts of holy light rains down on enemies based on the stacks of 'Angel's Wrath' they have
+#            Выпускает очередь из пяти зарядов ангельской энергии
+#            Пули накладывают накапливающийся дебафф «{$Buffs.AngelWrath.DisplayName}»
+#            В зависимости от количества стаков «{$Buffs.AngelWrath.DisplayName}» на врага обрушивается различное количество святого света
 #            '''
 #    }
 #
@@ -8285,17 +8285,17 @@
 #    }
 #
 #    HuskstalkBow: {
-#        DisplayName: Huskstalk Bow
-#        Tooltip: Arrows shot inflict Withering Leaf
+#        DisplayName: Лук сухостоя
+#        Tooltip: Стрелы накладывают на врагов дебафф «{$Buffs.WitheringLeaf.DisplayName}»
 #    }
 #
 #    HuskstalkHammer: {
-#        DisplayName: Huskstalk Hammer
+#        DisplayName: Молот сухостоя
 #        Tooltip: ""
 #    }
 #
 #    HuskstalkSword: {
-#        DisplayName: Huskstalk Sword
+#        DisplayName: Меч сухостоя
 #        Tooltip: ""
 #    }
 #

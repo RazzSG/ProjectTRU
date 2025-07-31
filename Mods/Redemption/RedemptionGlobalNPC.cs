@@ -20,11 +20,6 @@ public class RedemptionGlobalNPC : GlobalNPC
 
     public override void SetBestiary(NPC npc, BestiaryDatabase database, BestiaryEntry bestiaryEntry)
     {
-        if (npc.type == ModContent.NPCType<SpaceKeeper>())
-        {
-            bestiaryEntry.Info[7] = new FlavorTextBestiaryInfoElement("Третья боевая единица, созданная Королём-Охотником во время его странствия, продолжавшегося миллион лет. Разработка началась после разрушительной войны с пришельцами, обратившей армию андроидов Короля-Охотника в груду металлолома. Эта единица специализируется на восстановлении других роботов с помощью наноботов.");
-        }
-        
         if (npc.type == ModContent.NPCType<KS3_Magnet>())
         {
             bestiaryEntry.Info[7] = new FlavorTextBestiaryInfoElement("Этот дрон преобразует снаряды в энергию для ответного огня по целям.");
@@ -88,12 +83,6 @@ public class RedemptionGlobalNPC : GlobalNPC
         if (npc.type == ModContent.NPCType<SkeletonWarden_SS>())
         {
             typeName = $"Скелет-страж игрока {playerName}";
-        }
-        
-        if (npc.type == ModContent.NPCType<Android>())
-        {
-            if (npc.GivenName == "Apidroid Mk.I")
-                npc.GivenName = "Апидроид М.I";
         }
         
         if (npc.type == ModContent.NPCType<Blobble>())
