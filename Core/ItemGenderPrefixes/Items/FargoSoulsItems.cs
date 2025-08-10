@@ -19,7 +19,7 @@ public class FargoSoulsItems : IItemGender
                 "EarthForce",
                 "LifeForce",
                 "NatureForce",
-                "ShadowForce",
+                "DeathForce",
                 "SpiritForce",
                 "TerraForce",
                 "TimberForce",
@@ -61,8 +61,8 @@ public class FargoSoulsItems : IItemGender
                 "SparklingLove",
                 "Mahoguny",
                 "TophatSquirrelWeapon",
-                "DestroyerGun2",
-                "DragonBreath2",
+                "DestructionCannon",
+                "DragonsDemise",
                 "HellZone",
                 "ComputationOrb",
                 "ParadoxWolfSoul",
@@ -198,7 +198,7 @@ public class FargoSoulsItems : IItemGender
                 "TwinRangs",
                 "GeminiGlaives",
                 "Deerclawps",
-                "FrigidGemstone",
+                "FrigidGrasp",
             };
             
             if (ModInstances.FargowiltasSouls != null)
