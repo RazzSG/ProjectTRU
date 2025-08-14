@@ -122,7 +122,6 @@ public class CalamityItems : IItemGender
                 "Brimlash",
                 "BurntSienna",
                 "Carnage",
-                "CausticEdge",
                 "CosmicShiv",
                 "DiseasedPike",
                 "DragonRage",
