@@ -30,7 +30,6 @@ public class FargoSoulsItems : IItemGender
                 "ConcentratedRainbowMatter",
                 "DreadShell",
                 "DubiousCircuitry",
-                "IceQueensCrown",
                 "PrecisionSeal",
                 "PumpkingsCape",
                 "ReinforcedPlating",
@@ -74,7 +73,7 @@ public class FargoSoulsItems : IItemGender
                 "SisypheanFist",
                 "UmbraRegalia",
                 "ElectricWhip",
-                "GalacticGlobe",
+                "ChaliceofTheMoon",
                 "TouhouStaff",
             };
         
