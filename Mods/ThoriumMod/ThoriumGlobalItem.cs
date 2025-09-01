@@ -204,7 +204,7 @@ public class ThoriumGlobalItem : GlobalItem
         {
             ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerAmount", tooltip =>
             {
-                tooltips.ReplaceText("Right click to heal all nearby allies equal to your bonus healing", "Нажмите ПКМ, чтобы исцелить всех ближайших союзников на сумму, равную вашему бонусному исцелению");
+                tooltips.ReplaceText("Right click to heal all nearby allies equal to your bonus healing", "Нажмите ПКМ, чтобы исцелить всех ближайших союзников на величину, равную вашему бонусному исцелению");
                 tooltips.ReplaceText($"Right click to heal all nearby allies by {tooltip.Text.Split(' ')[8]} life", $"Нажмите ПКМ, чтобы исцелить всех ближайших союзников на {tooltip.Text.Split(' ')[8]} ед. здоровья");
                 tooltips.ReplaceText("Max", "максимум");
             });
@@ -414,7 +414,7 @@ public class ThoriumGlobalItem : GlobalItem
                 
                 if (tooltip.Text == "Heals ally and player life equal to your bonus healing")
                 {
-                    tooltip.Text = "Лечит союзника и игрока на сумму, равную вашему бонусному исцелению";
+                    tooltip.Text = "Лечит союзника и игрока на величину, равную вашему бонусному исцелению";
                 }
             });
         }
@@ -432,7 +432,7 @@ public class ThoriumGlobalItem : GlobalItem
                 
                 if (tooltip.Text == "Heals ally life equal to your bonus healing")
                 {
-                    tooltip.Text = "Лечит союзника на сумму, равную вашему бонусному исцелению";
+                    tooltip.Text = "Лечит союзника на величину, равную вашему бонусному исцелению";
                 }
             });
         }
@@ -444,7 +444,7 @@ public class ThoriumGlobalItem : GlobalItem
                 string[] parts = tooltip.Text.Split(' ');
                 if (tooltip.Text == "Heals ally and player life equal to your bonus healing (5 Max)")
                 {
-                    tooltip.Text = "Лечит союзника и игрока на сумму, равную вашему бонусному исцелению (максимум 5 единиц)";
+                    tooltip.Text = "Лечит союзника и игрока на величину, равную вашему бонусному исцелению (максимум 5 единиц)";
                 }
                 
                 if (tooltip.Text == $"Heals ally and player life by {parts[6]} (5 Max)")
@@ -466,7 +466,7 @@ public class ThoriumGlobalItem : GlobalItem
                 string[] parts = tooltip.Text.Split(' ');
                 if (tooltip.Text == "Heals ally life equal to your bonus healing (5 Max)")
                 {
-                    tooltip.Text = "Лечит союзника на сумму, равную вашему бонусному исцелению (максимум 5 единиц)";
+                    tooltip.Text = "Лечит союзника на величину, равную вашему бонусному исцелению (максимум 5 единиц)";
                 }
                 
                 if (tooltip.Text == $"Heals ally life by {parts[4]} (5 Max)")
@@ -490,7 +490,7 @@ public class ThoriumGlobalItem : GlobalItem
                 string[] parts = tooltip.Text.Split(' ');
                 if (tooltip.Text == "Heals ally and player life equal to your bonus healing (4 Max)")
                 {
-                    tooltip.Text = "Лечит союзника и игрока на сумму, равную вашему бонусному исцелению (максимум 4 единиц)";
+                    tooltip.Text = "Лечит союзника и игрока на величину, равную вашему бонусному исцелению (максимум 4 единиц)";
                 }
                 
                 if (tooltip.Text == $"Heals ally and player life by {parts[6]} (4 Max)")

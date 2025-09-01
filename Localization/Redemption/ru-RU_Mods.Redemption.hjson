@@ -3598,7 +3598,11 @@ Items: {
 
     NebWings: {
         DisplayName: Крылья Небулеус
-        Tooltip: "{$CommonItemTooltip.FlightAndSlowfall}"
+        Tooltip:
+            '''
+            {$CommonItemTooltip.FlightAndSlowfall}
+            Увеличивает сопротивление {0} на 15%
+            '''
     }
 
     ObliterationDrive: {
