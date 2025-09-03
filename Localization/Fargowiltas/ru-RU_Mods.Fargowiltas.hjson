@@ -87,6 +87,21 @@ Configs: {
             Tooltip: ""
         }
 
+        NoTrapsWorld: {
+            Label: "[i:510] Генерация мира «No Traps»"
+            Tooltip: ""
+        }
+
+        RemixWorld: {
+            Label: "[i:4711] Генерация мира «Remix»"
+            Tooltip: ""
+        }
+
+        ZenithWorld: {
+            Label: "[i:4956] Генерация мира «Zenith»"
+            Tooltip: ""
+        }
+
         UnlimitedAmmo: {
             Label: "[i:771] Бесконечные боеприпасы от 3996+ в хардмоде"
             Tooltip: ""
@@ -271,6 +286,11 @@ Configs: {
                 '''
         }
 
+        AnimatedRecipeGroups: {
+            Label: "[i:9] Анимированные группы рецептов"
+            Tooltip: Определяет, должны ли иконки групп рецептов переключаться между доступными предметами внутри группы.
+        }
+
         DebuffOpacity: {
             Label: "[i:1612] Максимальная прозрачность иконок дебаффов"
             Tooltip: ""
@@ -311,6 +331,19 @@ RecipeGroups: {
     FoodT2: Еда с баффом «{$BuffName.WellFed2}»
     FoodT3: Еда с баффом «{$BuffName.WellFed3}»
     GemRobe: Мантия из драгоценных камней
+    WoodCrate: Деревянный ящик
+    IronCrate: Железный ящик
+    GoldCrate: Золотой ящик
+    JungleCrate: Ящик джунглей
+    SkyCrate: Небесный ящик
+    CorruptCrate: Искажённый ящик
+    CrimsonCrate: Багряный ящик
+    HallowedCrate: Освящённый ящик
+    DungeonCrate: Ящик Темницы
+    FrozenCrate: Замороженный ящик
+    SandCrate: Оазисный ящик
+    LavaCrate: Обсидиановый ящик
+    OceanCrate: Океанический ящик
     Or: или
 }
 
@@ -1695,6 +1728,8 @@ Items: {
             За каждые 10 поглощённых предметов выпадает аккумулятор
             '''
     }
+    
+    OverloaderRewards: После победы над боссом из него выпадет {0} {^0:мешок;мешка;мешков} с сокровищами, {1} {^1:трофей;трофея;трофеев} и {2} {^2:аккумулятор;аккумулятора;аккумуляторов} (награда увеличивается с размером стака)
 
     OverloadEye: {
         DisplayName: Глазослияние
