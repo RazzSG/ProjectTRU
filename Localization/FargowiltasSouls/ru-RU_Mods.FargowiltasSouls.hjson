@@ -2229,7 +2229,7 @@ Items: {
         Tooltip:
             '''
             Ваши критические удары могут нанести суперкритический удар
-            Шанс суперкритического удара равен 1/3 от вашего общего шанса критического удара (учитывается не более 100%)
+            Шанс суперкритического удара равен половине от вашего общего шанса критического удара (учитывается не более 100%)
             Эти суперкритические удары наносят в 4 раза больше урона и накладывают дебафф «{$Buffs.FlamesoftheUniverseBuff.DisplayName}»
             'Излучает сверхвысокоэнергетические космические лучи'
             '''
@@ -3188,26 +3188,30 @@ Items: {
         DisplayName: Душа магистра
         Tooltip:
             '''
-            [i:FargowiltasSouls/GalacticGlobe] Увеличивает время полёта на 200%, [i:FargowiltasSouls/QueenStinger] пробивание брони на 50 и [i:FargowiltasSouls/GalacticGlobe] скорость передвижения на 20%
-            [i:FargowiltasSouls/GuttedHeart] Увеличивает максимальный запас здоровья на 100%, [i:FargowiltasSouls/MagicalBulb] регенерацию здоровья, [i:FargowiltasSouls/MutantAntibodies][i:FargowiltasSouls/SkullCharm][i:FargowiltasSouls/PumpkingsCape] урон оружия текущего класса на 50% и [i:FargowiltasSouls/ReinforcedPlating] сопротивление урону на 10%
-            [i:FargowiltasSouls/PungentEyeball] Значительно увеличивает частоту появления редких врагов
-            [i:FargowiltasSouls/SinisterIcon] удваивает скорость появление врагов, после победы над обычными врагами выпадает вдвое больше предметов и [i:FargowiltasSouls/TimsConcoction] с некоторых врагов после смерти выпадают зелья
-            [i:FargowiltasSouls/SlimyShield] позволяет быстро падать, [i:FargowiltasSouls/ReinforcedPlating] даёт невосприимчивость к отбрасыванию и [i:FargowiltasSouls/PureHeart] невосприимчивость к дебаффам биома
-            [i:FargowiltasSouls/GalacticGlobe] Даёт большинство стандартных баффов от зелий и баффающих станций (работает из инвентаря или в слотах для украшений)
-            [i:FargowiltasSouls/GalacticGlobe] Даёт невосприимчивость практически ко всем дебаффам режима Вечность и другое
-            [i:FargowiltasSouls/PrecisionSeal] Удерживайте клавишу «Точное передвижение», чтобы отключить рывки и двойные прыжки
-            [i:FargowiltasSouls/PrecisionSeal] Снижает размер вашей зоны поражения, [i:FargowiltasSouls/NecromanticBrew] увеличивает дальность рывка и [i:FargowiltasSouls/PungentEyeball] Курсор, находящийся рядом с врагами, увеличивает получаемый ими урон до 15%
-            [i:FargowiltasSouls/SecurityWallet] Снижает стоимость перековки на 50%, улучшает [i:FargowiltasSouls/OrdinaryCarrot] ночное зрение, [i:FargowiltasSouls/NymphsPerfume] здоровье при возрождении, [i:FargowiltasSouls/SandsofTime] время возрождения и использует зелье [i:FargowiltasSouls/ConcentratedRainbowMatter] лечения и [i:FargowiltasSouls/MysticSkull] маны при необходимости
+            Даёт невосприимчивость практически ко всем дебаффам режима Вечность, [i:FargowiltasSouls/ReinforcedPlating] к отбрасыванию, [i:FargowiltasSouls/PureHeart] к дебаффам биома, и [i:FargowiltasSouls/GalacticGlobe] даёт большинство стандартных баффов от зелий и баффающих станций
+            Увеличивает [i:FargowiltasSouls/GalacticGlobe][i:FargowiltasSouls/GelicWings] время полёта на 200%, [i:FargowiltasSouls/DarkenedHeart] скорость передвижения на 20%, [i:FargowiltasSouls/GuttedHeart] максимальный запас здоровья на 100% и [i:FargowiltasSouls/MagicalBulb] регенерацию здоровья на 7
+            Увеличивает [i:FargowiltasSouls/MutantAntibodies][i:FargowiltasSouls/SkullCharm][i:FargowiltasSouls/PumpkingsCape] урон оружия текущего класса на 50%, [i:FargowiltasSouls/QueenStinger] пробивание брони на 50 и [i:FargowiltasSouls/ReinforcedPlating] сопротивление урону на 10%
+            [i:FargowiltasSouls/PrecisionSeal] Снижает размер вашей зоны поражения, [i:FargowiltasSouls/NecromanticBrew] увеличивает скорость рывка и [i:FargowiltasSouls/SlimyShield] скорость падения, и [i:FargowiltasSouls/PungentEyeball] курсор, находящийся рядом с врагами, увеличивает получаемый ими урон до 15%
+            [i:FargowiltasSouls/GelicWings] Позволяет совершать двойной прыжок и [i:FargowiltasSouls/Deerclawps] при рывке оставляет след из кровавых шипов, и [i:FargowiltasSouls/PrecisionSeal] удерживайте клавишу «Точное передвижение», чтобы отключить рывки и двойные прыжки
+            [i:FargowiltasSouls/PungentEyeball] Значительно увеличивает частоту появления редких врагов, [i:FargowiltasSouls/SinisterIcon] удваивает скорость появление врагов, после победы над обычными врагами выпадает вдвое больше предметов
+            [i:FargowiltasSouls/TimsConcoction] С некоторых врагов после смерти выпадают зелья
+            Пассивно [i:FargowiltasSouls/SecurityWallet] снижает стоимость перековки, улучшает [i:FargowiltasSouls/OrdinaryCarrot] ночное зрение, [i:FargowiltasSouls/WyvernFeather] гравитацию, [i:FargowiltasSouls/NymphsPerfume] здоровье при возрождении, [i:FargowiltasSouls/SandsofTime] время возрождения
+            Пассивно использует зелье [i:FargowiltasSouls/ConcentratedRainbowMatter] лечения и [i:FargowiltasSouls/MysticSkull] маны при необходимости
             При получении урона [i:FargowiltasSouls/SqueakyToy] с 5% шансом вы можете получить лишь 1 единицу урона и [i:FargowiltasSouls/NecromanticBrew] отразить урон обратно в атакующего во время рывка
-            Ваши атаки [i:FargowiltasSouls/NymphsPerfume] создают сердца и накладывают множество дебаффов режима Вечность
+            Ваши атаки [i:FargowiltasSouls/NymphsPerfume] создают сердца и накладывают несколько дебаффов
             [c/BC5252:Все эффекты миньонов от аксессуаров и неиспользованные слоты призываемых миньонов преобразуются в бонусный урон,]
             [c/BC5252:который увеличивается на 1% за каждый из этих эффектов (можно переключить)]
-            В противном случае призывает [i:FargowiltasSouls/NecromanticBrew] руки Скелетрона, [i:FargowiltasSouls/GuttedHeart] проныр, [i:FargowiltasSouls/ConcentratedRainbowMatter] радужного слизня и [i:FargowiltasSouls/GroundStick] два дружелюбных зонда, [i:FargowiltasSouls/SkullCharm] глазное яблоко, [i:FargowiltasSouls/SaucerControlConsole] маленькую марсианскую тарелку,
-            [i:FargowiltasSouls/MagicalBulb] растение, [i:FargowiltasSouls/CelestialRune] культиста и [i:FargowiltasSouls/GalacticGlobe] истинные Глаза Ктулху
+            В противном случае призывает [i:FargowiltasSouls/NecromanticBrew] руки Скелетрона, [i:FargowiltasSouls/GuttedHeart] проныр, [i:FargowiltasSouls/ConcentratedRainbowMatter] радужного слизня, [i:FargowiltasSouls/GroundStick] два дружелюбных зонда, [i:FargowiltasSouls/SkullCharm] глазное яблоко
+            [i:FargowiltasSouls/SaucerControlConsole] Маленькую марсианскую тарелку, [i:FargowiltasSouls/MagicalBulb] растение и [i:FargowiltasSouls/GalacticGlobe] истинные Глаза Ктулху
             [i:FargowiltasSouls/SandsofTime] Используйте для телепортации на вашу последнюю точку смерти
             'Прими в свои объятия мастерство и вечность'
             '''
-        VanityTooltip: "[i:FargowiltasSouls/GalacticGlobe] Даёт большинство стандартных баффов от зелий и баффающих станций"
+        VanityTooltip:
+            '''
+            [i:FargowiltasSouls/GalacticGlobe] Даёт большинство стандартных баффов от зелий и баффающих станций
+            [i:FargowiltasSouls/SecurityWallet] Снижает стоимость перековки на 50%, улучшает [i:FargowiltasSouls/OrdinaryCarrot] ночное зрение, [i:FargowiltasSouls/WyvernFeather] гравитацию, [i:FargowiltasSouls/NymphsPerfume] здоровье при возрождении, [i:FargowiltasSouls/SandsofTime] время возрождения
+            Использует зелье [i:FargowiltasSouls/ConcentratedRainbowMatter] лечения и [i:FargowiltasSouls/MysticSkull] маны при необходимости
+            '''
     }
 
     SnipersSoul: {
@@ -3410,7 +3414,7 @@ Items: {
     }
 
     MutantBody: {
-        DisplayName: Истинное тело Мутанта
+        DisplayName: Вечное ядро
         Tooltip:
             '''
             Увеличивает урон на 70% и шанс критического удара на 30%
@@ -3421,7 +3425,7 @@ Items: {
     }
 
     MutantMask: {
-        DisplayName: Истинная голова Мутанта
+        DisplayName: Вечное пламя
         Tooltip:
             '''
             Увеличивает урон на 50% и шанс критического удара на 20%
@@ -3432,7 +3436,7 @@ Items: {
     }
 
     MutantPants: {
-        DisplayName: Истинные штаны Мутанта
+        DisplayName: Вечные поножи
         Tooltip:
             '''
             Увеличивает урон на 50% и шанс критического удара на 20%
@@ -4477,7 +4481,7 @@ Items: {
         Tooltip: 
             '''
             Призывает настоящих близнецов на вашу сторону
-            Занимает 3 слота призываемых миньонов
+            Занимает 2 слота призываемых миньонов
             'Награда за великое возмездие...'
             '''
     }
