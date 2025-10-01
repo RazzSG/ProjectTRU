@@ -267,7 +267,7 @@ public partial class RedemptionGlobalItem : GlobalItem
                 string priceValue = parts[2];
                 if (int.TryParse(priceValue, out int value))
                 {
-                    string valueSuffix = LocalizedText.ApplyPluralization("{^0:античный дорул;античных дорула;античных дорулав}", value);
+                    string valueSuffix = LocalizedText.ApplyPluralization("{^0:античный дорул;античных дорула;античных дорулов}", value);
                     tooltip.Text = tooltip.Text.Replace("antique doruls", valueSuffix);
                 }
             }

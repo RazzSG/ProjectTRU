@@ -335,13 +335,13 @@
 #    }
 #
 #    SpiritSurfaceBiome: {
-#        DisplayName: Сумрак
-#        TownNPCDialogueName: Сумрак
+#        DisplayName: Духовная роща
+#        TownNPCDialogueName: Духовная роща
 #    }
 #
 #    SpiritUndergroundBiome: {
-#        DisplayName: Подземный сумрак
-#        TownNPCDialogueName: Подземный сумрак
+#        DisplayName: Подземная духовная роща
+#        TownNPCDialogueName: Подземная духовная роща
 #    }
 #
 #    SynthwaveSurfaceBiome: {
@@ -711,8 +711,8 @@
 #    }
 #
 #    InfernonPetBuff: {
-#        DisplayName: Inferno
-#        Description: "'You'd better stay out of his way'"
+#        DisplayName: Инферно
+#        Description: "'Лучше не стоять у него на пути'"
 #    }
 #
 #    JellyfishBuff: {
@@ -960,8 +960,8 @@
 #    }
 #
 #    SunPotBuff: {
-#        DisplayName: Sun in a Pot
-#        Description: Increased life regeneration
+#        DisplayName: Солнце в горшке
+#        Description: Регенерация здоровья увеличена
 #    }
 #
 #    TopazMarked: {
@@ -1145,7 +1145,7 @@
 #    }
 #
 #    Crawlerock_Buff: {
-#        DisplayName: Crawlerock
+#        DisplayName: Камнеход
 #        Description: A baby Cavern Crawler fights for you!
 #    }
 #
@@ -1175,8 +1175,8 @@
 #    }
 #
 #    SnapsporeMinion_Buff: {
-#        DisplayName: Snapspore
-#        Description: A bouncy Snapspore fights for you!
+#        DisplayName: Щелкоспора
+#        Description: За вас сражается подпрыгивающая щелкоспора!
 #    }
 #
 #    MoonjellySummon_Buff: {
@@ -1200,13 +1200,13 @@
 #    }
 #
 #    ToucanMinion_Buff: {
-#        DisplayName: Toucans
-#        Description: Despite all of my rage
+#        DisplayName: Туканы
+#        Description: Несмотря на всю мою ярость
 #    }
 #
 #    SoulDaggerProj_Buff: {
-#        DisplayName: Soul Dagger
-#        Description: Reap their souls!
+#        DisplayName: Кинжал душ
+#        Description: Похитьте их души!
 #    }
 #
 #    SandWarriorMinion_Buff: {
@@ -1226,7 +1226,7 @@
 #
 #    StarplateDrone_Buff: {
 #        DisplayName: Звёздопанцирный боевой дрон
-#        Description: "'Sure to deliver a quick death for your foes'"
+#        Description: "'Быстрая смерть вашим врагам обеспечена'"
 #    }
 #
 #    LocustBig_Buff: {
@@ -1925,71 +1925,71 @@
 #    }
 #
 #    SepulchreArrow: {
-#        DisplayName: Accursed Arrow
-#        Tooltip: Pierces up to two enemies
+#        DisplayName: Проклятая стрела
+#        Tooltip: Пронзает до двух врагов
 #    }
 #
 #    RipperSlug: {
-#        DisplayName: Ripper Slug
-#        Tooltip: Obeys gravity, but does extra damage
+#        DisplayName: Патрон-потрошитель
+#        Tooltip: Подвержен гравитации, но наносит дополнительный урон
 #    }
 #
 #    RubberBullet: {
-#        DisplayName: Rubber Bullet
-#        Tooltip: Knocks enemies back farther
+#        DisplayName: Резиновая пуля
+#        Tooltip: Сильнее отбрасывает врагов
 #    }
 #
 #    SpectreBullet: {
-#        DisplayName: Spectre Bullet
-#        Tooltip: A spectral bolt that homes on to enemies and occasionally saps their life
+#        DisplayName: Спектральная пуля
+#        Tooltip: Самонаводящийся призрачный снаряд, который время от времени высасывает здоровье у врагов
 #    }
 #
 #    FaerieStar: {
-#        DisplayName: Faerie Star
-#        Tooltip: Can be used as ammunition
+#        DisplayName: Звезда фей
+#        Tooltip: Можно использовать как боеприпас
 #    }
 #
 #    OliveSolution: {
-#        DisplayName: Olive Solution
+#        DisplayName: Оливковый раствор
 #        Tooltip:
 #            '''
-#            Used by the Clentaminator
-#            Spreads the Briar
+#            Используется «Очистителем»
+#            Распространяет поросль
 #            '''
 #    }
 #
 #    Warhead: {
-#        DisplayName: Warhead
-#        Tooltip: Can be used as ammo for rocket launchers
+#        DisplayName: Боеголовка
+#        Tooltip: Можно использовать как боеприпас для ракетниц
 #    }
 #
 #    SpiritSolution: {
-#        DisplayName: Cyan Solution
+#        DisplayName: Циановый раствор
 #        Tooltip:
 #            '''
-#            Used by the Clentaminator
-#            Spreads the Spirit
+#            Используется «Очистителем»
+#            Распространяет духовную рощу
 #            '''
 #    }
 #
 #    AstronautBody: {
-#        DisplayName: Astronaut Suit
+#        DisplayName: Скафандр астронавта
 #        Tooltip: ""
 #    }
 #
 #    AstronautHelm: {
-#        DisplayName: Astronaut Helmet
+#        DisplayName: Шлем астронавта
 #        Tooltip: ""
 #    }
 #
 #    AstronautLegs: {
-#        DisplayName: Astronaut Pants
+#        DisplayName: Штаны астронавта
 #        Tooltip: ""
 #    }
 #
 #    SwimmingTrunks: {
-#        DisplayName: Swimming Trunks
-#        Tooltip: "'They don't provide much in the way of defense, but they're undeniably stylish.'"
+#        DisplayName: Плавки
+#        Tooltip: "'Защиты от них маловато, зато они бесспорно стильные'"
 #    }
 #
 #    BeekeeperBody: {
@@ -2023,77 +2023,77 @@
 #    }
 #
 #    CapacitorBody: {
-#        DisplayName: Capacitor's Robes
+#        DisplayName: Одеяния конденсатора
 #        Tooltip: ""
 #    }
 #
 #    CapacitorHead: {
-#        DisplayName: Capacitor's Hood
+#        DisplayName: Капюшон конденсатора
 #        Tooltip: ""
 #    }
 #
 #    CapacitorLegs: {
-#        DisplayName: Capacitor's Leggings
+#        DisplayName: Поножи конденсатора
 #        Tooltip: ""
 #    }
 #
 #    CenturionBody: {
-#        DisplayName: Centurion's Platemail
+#        DisplayName: Латы центуриона
 #        Tooltip: ""
 #    }
 #
 #    CenturionHead: {
-#        DisplayName: Centurion's Helmet
+#        DisplayName: Шлем центуриона
 #        Tooltip: ""
 #    }
 #
 #    CenturionLegs: {
-#        DisplayName: Centurion's Greaves
+#        DisplayName: Поножи центуриона
 #        Tooltip: ""
 #    }
 #
 #    CoiledChestplate: {
-#        DisplayName: Autonaut's Chestplate
+#        DisplayName: Нагрудник автонавта
 #        Tooltip: ""
 #    }
 #
 #    CoiledLeggings: {
-#        DisplayName: Autonaut's Leggings
+#        DisplayName: Поножи автонавта
 #        Tooltip: ""
 #    }
 #
 #    CoiledMask: {
-#        DisplayName: Autonaut's Headgear
+#        DisplayName: Головной убор автонавта
 #        Tooltip: ""
 #    }
 #
 #    CommandoBody: {
-#        DisplayName: Commando's Suit
+#        DisplayName: Костюм коммандо
 #        Tooltip: ""
 #    }
 #
 #    CommandoHead: {
-#        DisplayName: Commando's Visor
+#        DisplayName: Визор коммандо
 #        Tooltip: ""
 #    }
 #
 #    CommandoLegs: {
-#        DisplayName: Commando's Greaves
+#        DisplayName: Поножи коммандо
 #        Tooltip: ""
 #    }
 #
 #    CowboyBody: {
-#        DisplayName: Outlaw's Vest
+#        DisplayName: Жилет разбойника
 #        Tooltip: ""
 #    }
 #
 #    CowboyHead: {
-#        DisplayName: Outlaw's Hat
+#        DisplayName: Шляпа разбойника
 #        Tooltip: ""
 #    }
 #
 #    CowboyLegs: {
-#        DisplayName: Outlaw's Pants
+#        DisplayName: Штаны разбойника
 #        Tooltip: ""
 #    }
 #
@@ -2113,32 +2113,32 @@
 #    }
 #
 #    DiverBody: {
-#        DisplayName: Ancient Diver's Plate
+#        DisplayName: Древний нагрудник водолаза
 #        Tooltip: ""
 #    }
 #
 #    DiverHead: {
-#        DisplayName: Ancient Diver's Helmet
+#        DisplayName: Древний шлем водолаза
 #        Tooltip: ""
 #    }
 #
 #    DiverLegs: {
-#        DisplayName: Ancient Diver's Pants
+#        DisplayName: Древние штаны водолаза
 #        Tooltip: ""
 #    }
 #
 #    FreemanBody: {
-#        DisplayName: The Hunted's Hazard Suit
+#        DisplayName: щитный костюм преследуемого
 #        Tooltip: ""
 #    }
 #
 #    FreemanHead: {
-#        DisplayName: The Hunted's Goggles
+#        DisplayName: Очки преследуемого
 #        Tooltip: ""
 #    }
 #
 #    FreemanLegs: {
-#        DisplayName: The Hunted's Hazard Leggings
+#        DisplayName: Защитные поножи преследуемого
 #        Tooltip: ""
 #    }
 #
@@ -2203,7 +2203,7 @@
 #    }
 #
 #    MadHat: {
-#        DisplayName: Mad Hat
+#        DisplayName: Безумная шляпа
 #        Tooltip:
 #            '''
 #            Можно носить или бросать
@@ -2332,23 +2332,23 @@
 #    }
 #
 #    Earrings: {
-#        DisplayName: Earrings
+#        DisplayName: Серьги
 #        Tooltip: ""
 #    }
 #
 #    SilkSirwal: {
-#        DisplayName: Sirwal
+#        DisplayName: Шаровары
 #        Tooltip: ""
 #    }
 #
 #    SilkTop: {
-#        DisplayName: Desert Top
+#        DisplayName: Пустынный топ
 #        Tooltip: ""
 #    }
 #
 #    Stoneplate: {
-#        DisplayName: Stoneplate
-#        Tooltip: Encumbers the wearer
+#        DisplayName: Каменный нагрудник
+#        Tooltip: Затрудняет движения носящего
 #    }
 #
 #    WayfarerBody: {
@@ -2367,57 +2367,57 @@
 #    }
 #
 #    WitchBody: {
-#        DisplayName: Charmcaster's Robe
+#        DisplayName: Одеяние чаровницы
 #        Tooltip: ""
 #    }
 #
 #    WitchHead: {
-#        DisplayName: Charmcaster's Hat
+#        DisplayName: Шляпа чаровницы
 #        Tooltip: ""
 #    }
 #
 #    WitchLegs: {
-#        DisplayName: Charmcaster's Leggings
+#        DisplayName: Поножи чаровницы
 #        Tooltip: ""
 #    }
 #
 #    AlienBanner: {
-#        DisplayName: Alien Banner
+#        DisplayName: Знамя чужого
 #        Tooltip: ""
 #    }
 #
 #    AncientApostleBanner: {
-#        DisplayName: Ancient Apostle Banner
+#        DisplayName: Знамя древнего апостола
 #        Tooltip: ""
 #    }
 #
 #    AncientSpectreBanner: {
-#        DisplayName: Ancient Spectre Banner
+#        DisplayName: Знамя древнего призрака
 #        Tooltip: ""
 #    }
 #
 #    AntlionAssassinBanner: {
-#        DisplayName: Antlion Assassin Banner
+#        DisplayName: Знамя убийцы муравьиных львов
 #        Tooltip: ""
 #    }
 #
 #    ArachmatonBanner: {
-#        DisplayName: Arachmaton Banner
+#        DisplayName: Знамя арахматона
 #        Tooltip: ""
 #    }
 #
 #    ArterialGrasperBanner: {
-#        DisplayName: Arterial Grasper Banner
+#        DisplayName: Знамя артериального ловца
 #        Tooltip: ""
 #    }
 #
 #    AstralAdventurerBanner: {
-#        DisplayName: Astral Adventurer Banner
+#        DisplayName: Знамя астрального странника
 #        Tooltip: ""
 #    }
 #
 #    AstralAmalgamBanner: {
-#        DisplayName: Astral Amalgam Banner
+#        DisplayName: Знамя астральной амальгамы
 #        Tooltip: ""
 #    }
 #
@@ -2442,7 +2442,7 @@
 #    }
 #
 #    BloaterBanner: {
-#        DisplayName: Bloater Banner
+#        DisplayName: Знамя вздутня
 #        Tooltip: ""
 #    }
 #
@@ -2452,12 +2452,12 @@
 #    }
 #
 #    BloomshroomBanner: {
-#        DisplayName: Bloomshroom Banner
+#        DisplayName: Знамя цветошляпки
 #        Tooltip: ""
 #    }
 #
 #    BlossomHoundBanner: {
-#        DisplayName: Blossom Hound Banner
+#        DisplayName: Знамя цветущей гончей
 #        Tooltip: ""
 #    }
 #
@@ -2467,12 +2467,12 @@
 #    }
 #
 #    BottomFeederBanner: {
-#        DisplayName: Bottom Feeder Banner
+#        DisplayName: Знамя грязехлёба
 #        Tooltip: ""
 #    }
 #
 #    BoulderBehemothBanner: {
-#        DisplayName: Boulder Behemoth Banner
+#        DisplayName: Знамя валунного исполина
 #        Tooltip: ""
 #    }
 #
@@ -3599,8 +3599,8 @@
 #    }
 #
 #    InfernonPetItem: {
-#        DisplayName: Broken Horn
-#        Tooltip: Summons a little inferno
+#        DisplayName: Сломанный рог
+#        Tooltip: Призывает маленького инферно
 #    }
 #
 #    SevenSins: {
@@ -4086,7 +4086,7 @@
 #    }
 #
 #    BlubbyItem: {
-#        DisplayName: Blubby
+#        DisplayName: Пухляш
 #        Tooltip: ""
 #    }
 #
@@ -5715,8 +5715,8 @@
 #    }
 #
 #    HangingSunPot: {
-#        DisplayName: Hanging Sun in a Pot
-#        Tooltip: Increases life regeneration during the day
+#        DisplayName: Подвесное солнце в горшке
+#        Tooltip: Увеличивает регенерацию здоровья днём
 #    }
 #
 #    HourglassItem: {
@@ -6308,7 +6308,7 @@
 #    }
 #
 #    SpiritBedItem: {
-#        DisplayName: Duskwood Bed
+#        DisplayName: Сумеречная древесина
 #        Tooltip: ""
 #    }
 #
@@ -6318,17 +6318,17 @@
 #    }
 #
 #    SpiritChairItem: {
-#        DisplayName: Duskwood Chair
+#        DisplayName: Стул из сумеречного дерева
 #        Tooltip: ""
 #    }
 #
 #    SpiritChest: {
-#        DisplayName: Duskwood Chest
+#        DisplayName: Сундук из сумеречного дерева
 #        Tooltip: ""
 #    }
 #
 #    SpiritDoorItem: {
-#        DisplayName: Duskwood Door
+#        DisplayName: Дверь из сумеречного дерева
 #        Tooltip: ""
 #    }
 #
@@ -6343,12 +6343,12 @@
 #    }
 #
 #    SpiritTableItem: {
-#        DisplayName: Duskwood Table
+#        DisplayName: Стол из сумеречного дерева
 #        Tooltip: ""
 #    }
 #
 #    SpiritWorkbench: {
-#        DisplayName: Duskwood Work Bench
+#        DisplayName: Верстак из сумеречного дерева
 #        Tooltip: ""
 #    }
 #
@@ -6378,8 +6378,8 @@
 #    }
 #
 #    SunPot: {
-#        DisplayName: Sun in a Pot
-#        Tooltip: Increases life regeneration during the day
+#        DisplayName: Солнце в горшке
+#        Tooltip: Увеличивает регенерацию здоровья днём
 #    }
 #
 #    SynthwaveHeadItem: {
@@ -6821,7 +6821,7 @@
 #    }
 #
 #    SpiritWoodItem: {
-#        DisplayName: Duskwood
+#        DisplayName: Сумеречная древесина
 #        Tooltip: ""
 #    }
 #
@@ -6866,7 +6866,7 @@
 #    }
 #
 #    SpiritWallItem: {
-#        DisplayName: Duskwood Wall
+#        DisplayName: Стена из сумеречного дерева
 #        Tooltip: ""
 #    }
 #
@@ -8972,33 +8972,33 @@
 #    }
 #
 #    SpiritPickaxe: {
-#        DisplayName: Spirit Pickaxe
+#        DisplayName: Духовная кирка
 #        Tooltip: ""
 #    }
 #
 #    SpiritSaber: {
-#        DisplayName: Spirit Saber
-#        Tooltip: Shoots out a homing bolt of souls that inflicts Soul Burn
+#        DisplayName: Духовная сабля
+#        Tooltip: Выпускает самонаводящийся заряд душ, накладывающий дебафф «{$Buffs.SoulBurn.DisplayName}»
 #    }
 #
 #    SpiritSpear: {
-#        DisplayName: Spirit Spear
+#        DisplayName: Духовное копьё
 #        Tooltip: ""
 #    }
 #
 #    SpiritWand: {
-#        DisplayName: Spirit Wand
-#        Tooltip: Shoots out energy that travels along the ground
+#        DisplayName: Духовный жезл
+#        Tooltip: Выпускает сгусток энергии, скользящий по земле
 #    }
 #
 #    SpiritWings: {
-#        DisplayName: Spirit Wings
-#        Tooltip: Allows for flight and slow fall.
+#        DisplayName: Духовные крылья
+#        Tooltip: "{$CommonItemTooltip.FlightAndSlowfall}"
 #    }
 #
 #    FairyWhistleItem: {
-#        DisplayName: Fairy Whistle
-#        Tooltip: Calls a protective fairy that hovers around you
+#        DisplayName: Свисток феи
+#        Tooltip: Призывает фею-защитницу, парящую вокруг вас
 #    }
 #
 #    PigronStaffItem: {
@@ -9012,42 +9012,42 @@
 #    }
 #
 #    SanguineFlayerItem: {
-#        DisplayName: Sanguine Flayer
+#        DisplayName: Кровавый свежеватель
 #        Tooltip:
 #            '''
-#            Hooks into hit enemies while the attack button is held, granting 7 summon tag damage while hooked
-#            Release the attack button while hooked into an enemy to rip the weapon out
-#            Summon damage on hooked enemies builds up sanguine energy, increasing the damage dealt when ripping the weapon out
+#            При удержании кнопки атаки оружие вонзается в поражённых врагов, нанося 7 единиц урона от метки призывателя
+#            Отпустите кнопку атаки, чтобы вырвать оружие из врага
+#            Когда ваши миньоны атакуют врага с застрявшим в нём оружием, накапливается кровавая энергия, усиливающая урон при его вырывании
 #            '''
 #    }
 #
 #    SoulDagger: {
-#        DisplayName: Soul Dagger
-#        Tooltip: "Summons a soul dagger to fight for you "
+#        DisplayName: Кинжал душ
+#        Tooltip: Призывает кинжал душ, который сражается за вас
 #    }
 #
 #    ToucaneItem: {
-#        DisplayName: Toucane
-#        Tooltip: Summons an angry toucan to fight for you
+#        DisplayName: Тростукан
+#        Tooltip: Призывает рассерженного тукана, который сражается за вас
 #    }
 #
 #    MimeSummon: {
-#        DisplayName: Two-Faced Mask
+#        DisplayName: Двуликая маска
 #        Tooltip:
 #            '''
-#            Summons either a Soul of Happiness or Sadness at the cursor position with a left or right click
-#            The Soul of Happiness shoots out beams at foes
-#            The Soul of Sadness shoots out homing tears at foes
+#            Нажмите <left>, чтобы призвать в точке курсора душу счастья, и <right>, чтобы призвать душу печали
+#            Душа счастья атакует врагов лучами
+#            Душа печали атакует врагов самонаводящимися слезами
 #            '''
 #    }
 #
 #    SpiritStar: {
-#        DisplayName: Soul Star
+#        DisplayName: Звезда душ
 #        Tooltip:
 #            '''
-#            Rains down multiple starry bolts from the sky that inflict Star Fracture
-#            These stars explode into multiple souls that inflict Soul Burn
-#            'The convergence of souls and the cosmos'
+#            Обрушивает с неба звёздные снаряды, накладывающие дебафф «{$Buffs.StarFracture.DisplayName}»
+#            При взрыве эти звёзды высвобождают души, накладывающие дебафф «{$Buffs.SoulBurn.DisplayName}»
+#            'Слияние душ и космоса'
 #            '''
 #    }
 #
@@ -9341,92 +9341,92 @@
 #    }
 #
 #    ShroomFishSummon: {
-#        DisplayName: Fungal Icthyoid
+#        DisplayName: Грибной ихтиоид
 #        Tooltip:
 #            '''
-#            Summons slow homing spores around the player
-#            5 summon tag damage
+#            Создаёт вокруг игрока медленные самонаводящиеся споры
+#            5 урона от метки призывателя
 #            '''
 #    }
 #
 #    ThornDevilfish: {
-#        DisplayName: Thorn Devilfish
-#        Tooltip: Shoots out poisonous bubbles
+#        DisplayName: Колючая рыба-дьявол
+#        Tooltip: Выстреливает ядовитыми пузырями
 #    }
 #
 #    ValkyrieSpear: {
-#        DisplayName: Valkyrie Spirit Spear
-#        Tooltip: Deals both magic and melee damage
+#        DisplayName: Копьё духа Валькирии
+#        Tooltip: Наносит как магический, так и урон ближнего боя
 #    }
 #
 #    ButterflyStaff: {
-#        DisplayName: Ethereal Butterfly Staff
+#        DisplayName: Посох эфирных бабочек
 #        Tooltip:
 #            '''
-#            Summons a magical butterfly to fight for you
-#            Left-click to cause butterflies to dissipate and leave behind exploding arcane stars
+#            Призывает волшебную бабочку, которая сражается за вас
+#            Нажмите <left>, чтобы бабочки рассеялись, оставляя после себя взрывающиеся чародейские звёзды
 #            '''
 #    }
 #
 #    CrawlerockStaff: {
-#        DisplayName: Crawlerock Staff
-#        Tooltip: Summons bouncing mini crawlers to fight for you
+#        DisplayName: Посох камнеходов
+#        Tooltip: Призывает прыгающих мини-камнеходов, которые сражаются за вас
 #    }
 #
 #    ElectricGun: {
-#        DisplayName: Arcbolter
+#        DisplayName: Дугострел
 #        Tooltip:
 #            '''
-#            Your summons will focus struck enemies
-#            Hit enemies may create static links between each other when struck by minions, dealing additional damage
+#            Ваши миньоны будут сосредотачиваться на атакуемых врагах
+#            Когда миньоны атакуют этих врагов, между ними могут возникнуть статические связи, наносящие дополнительный урон
 #            '''
 #    }
 #
 #    EngineeringRod: {
-#        DisplayName: Engineering Rod
-#        Tooltip: Summons a stationary Tesla Turret
+#        DisplayName: Инженерный жезл
+#        Tooltip: Призывает неподвижную тесла-турель
 #    }
 #
 #    GateStaff: {
-#        DisplayName: Gate Staff
+#        DisplayName: Посох врат
 #        Tooltip:
 #            '''
-#            Summons an electric field
-#            Right click to remove summoned fields
+#            Призывает электрическое поле
+#            Нажмите <right>, чтобы рассеять призванные поля
 #            '''
 #    }
 #
 #    GloomgusStaff: {
-#        DisplayName: Glumshroom Staff
-#        Tooltip: Summons explosive mushrooms
+#        DisplayName: Посох мрачногриба
+#        Tooltip: Призывает взрывающиеся грибы
 #    }
 #
 #    JadeStaff: {
-#        DisplayName: Staff of the Jade Dragon
-#        Tooltip: Summons two revolving ethereal dragons
+#        DisplayName: Посох нефритового дракона
+#        Tooltip: Призывает двух вращающихся эфирных драконов
 #    }
 #
 #    OrbiterStaff: {
-#        DisplayName: Orbiter Staff
-#        Tooltip: Summons a mini meteor to charge at foes
+#        DisplayName: Орбитальный посох
+#        Tooltip: Призывает мини-метеор, устремляющийся к врагам
 #    }
 #
 #    SnapsporeStaff: {
-#        DisplayName: Snapspore Wand
+#        DisplayName: Жезл щелкоспор
 #        Tooltip:
 #            '''
-#            Summons a Snapspore to fight for you
-#            Snapspores bounce toward enemies and emits poison clouds
+#            Призывает щелкоспору, которая сражается за вас
+#            Щелкоспоры подпрыгивают к врагам и выпускают ядовитые облака
 #            '''
 #    }
 #
 #    StardustBomb: {
-#        DisplayName: Supernova
+#        DisplayName: Сверхновая
 #        Tooltip:
 #            '''
-#            Summons a collapsing star
-#            The star can be targeted
-#            Deal summon damage to the star to release a powerful explosion
+#            Призывает коллапсирующую звезду
+#            Звезду можно выбрать целью
+#            Наносите по звезде урон призывателя, чтобы вызвать мощный взрыв
 #            '''
 #    }
 #
@@ -10089,7 +10089,7 @@
 #    }
 #
 #    SpiritPlatformItem: {
-#        DisplayName: Duskwood Platform
+#        DisplayName: Платформа из сумеречного дерева
 #        Tooltip: ""
 #    }
 #
@@ -10235,7 +10235,7 @@
 #        Entry: В прошлом эти рыбы раздували свои тела, чтобы отпугивать хищников. Однако теперь они, кажется, поднялись настолько высоко по пищевой цепочке, что больше не нуждаются в этом.
 #    }
 #
-#    BloodGazerEye.DisplayName: Blood Gazer
+#    BloodGazerEye.DisplayName: Кровоглаз
 #
 #    Bloomshroom: {
 #        DisplayName: Цветошляпка
@@ -10360,30 +10360,30 @@
 #    SwarmScarab.DisplayName: Scarab
 #    ArcadeProbe.DisplayName: Starfarer
 #    LaserBase.DisplayName: Laser Launcher
-#    SteamRaiderBody.DisplayName: Starplate Voyager
-#    SteamRaiderBody2.DisplayName: Starplate Voyager
+#    SteamRaiderBody.DisplayName: Звёздопанцирный странник
+#    SteamRaiderBody2.DisplayName: Звёздопанцирный странник
 #
 #    SteamRaiderHead: {
-#        DisplayName: Starplate Voyager
-#        Entry: A strange automaton of unknown origin, designed for mining a precious metal from the stars. It utilizes the untapped energy found within the ore to power itself and perpetuate an endless search.
-#        BossChecklistIntegration.SpawnInfo: Use a [i:SpiritMod/StarWormSummon] at an Astralite Beacon, located in the Asteroids, at nighttime.
-#        Spawn: The Starplate Voyager has awoken!
-#        Laser: Initiating Laser Protocol
+#        DisplayName: Звёздопанцирный странник
+#        Entry: Загадочный автоматон неизвестного происхождения, созданный для добычи драгоценного металла со звёзд. Он использует скрытую в руде энергию, чтобы питать себя и продолжать бесконечные поиски.
+#        BossChecklistIntegration.SpawnInfo: Используйте [i:SpiritMod/StarWormSummon] у Астралитового маяка, расположенного в астероидах, в ночное время.
+#        Spawn: Звёздопанцирный странник пробудился!
+#        Laser: Активация лазерного протокола
 #    }
 #
-#    SteamRaiderHeadDeath.DisplayName: Starplate Voyager
-#    SteamRaiderTail.DisplayName: Starplate Voyager
+#    SteamRaiderHeadDeath.DisplayName: Звёздопанцирный странник
+#    SteamRaiderTail.DisplayName: Звёздопанцирный странник
 #    SuicideLaser.DisplayName: Laser Bomber
 #    TailProbe.DisplayName: Starfarer
 #
 #    BottomFeeder: {
-#        DisplayName: Bottom Feeder
-#        Entry: A nasty bile sits in their guts, waiting to be unleashed. Exercise caution as they shamble toward you, and be prepared for a flood of sludge and soot.
+#        DisplayName: Грязехлёб
+#        Entry: В его кишках копится мерзкая желчь, готовая вырваться наружу. Будьте осторожны, когда он ковыляет к вам, и приготовьтесь к потоку грязи и копоти.
 #    }
 #
 #    Boulder_Termagant: {
-#        DisplayName: Boulder Behemoth
-#        Entry: Entranced by anything that glistens, this beast's eyes now serve only one purpose. Find any glint of light. This usually leads it to gems, but it will mistakenly eat anything that glows.
+#        DisplayName: Валунный исполин
+#        Entry: Глаза этого зверя, очарованного всем блестящим, служат лишь одной цели - находить любой отблеск света. Обычно это приводит его к драгоценным камням, но он легко проглотит всё, что сияет.
 #    }
 #
 #    CavernBandit: {
@@ -10411,15 +10411,15 @@
 #        Entry: Pent up energy that was once trapped inside the rocky, amorphous form of a Granite Slime. Now it's free, and it's about to go critical!
 #    }
 #
-#    BlueAlgae1.DisplayName: Blue Algae
-#    BlueAlgae2.DisplayName: Blue Algae
-#    BlueAlgae3.DisplayName: Blue Algae
-#    GreenAlgae1.DisplayName: Bioluminescent Algae
-#    GreenAlgae2.DisplayName: Bioluminescent Algae
-#    GreenAlgae3.DisplayName: Bioluminescent Algae
-#    PurpleAlgae1.DisplayName: Bioluminescent Algae
-#    PurpleAlgae2.DisplayName: Bioluminescent Algae
-#    PurpleAlgae3.DisplayName: Bioluminescent Algae
+#    BlueAlgae1.DisplayName: Синие водоросли
+#    BlueAlgae2.DisplayName: Синие водоросли
+#    BlueAlgae3.DisplayName: Синие водоросли
+#    GreenAlgae1.DisplayName: Биолюминесцентные водоросли
+#    GreenAlgae2.DisplayName: Биолюминесцентные водоросли
+#    GreenAlgae3.DisplayName: Биолюминесцентные водоросли
+#    PurpleAlgae1.DisplayName: Биолюминесцентные водоросли
+#    PurpleAlgae2.DisplayName: Биолюминесцентные водоросли
+#    PurpleAlgae3.DisplayName: Биолюминесцентные водоросли
 #
 #    AtlanticCod: {
 #        DisplayName: Атлантическая треска
@@ -10452,18 +10452,18 @@
 #    }
 #
 #    CrystalSerpent: {
-#        DisplayName: Crystal Serpent
-#        Entry: Living in the glistening waters of the Hallow, its body is now composed of mostly crystals. This allows for light to enter its body and channel it into a bolt that shatters on impact.
+#        DisplayName: Кристальный змей
+#        Entry: Обитает в сверкающих водах освящения. Его тело почти полностью состоит из кристаллов, что позволяет ему впитывать свет и преобразовывать его в разряд, который при столкновении разлетается на осколки.
 #    }
 #
 #    CyberflyBlue: {
-#        DisplayName: Cyberfly
-#        Entry: Small digital wisps that flutter about cyberspace.
+#        DisplayName: Кибромуха
+#        Entry: Маленькие цифровые огоньки, порхающие в киберпространстве.
 #    }
 #
 #    CyberflyPink: {
-#        DisplayName: Cyberfly
-#        Entry: Small digital wisps that flutter about cyberspace.
+#        DisplayName: Кибромуха
+#        Entry: Маленькие цифровые огоньки, порхающие в киберпространстве.
 #    }
 #
 #    Damselfish: {
@@ -10930,23 +10930,23 @@
 #    }
 #
 #    BlossomHound: {
-#        DisplayName: Blossom Hound
-#        Entry: Blooming elderbark carved into the shape of a hound, fueled by an insatiable need to feed and nurture the flowers on its body.
+#        DisplayName: Цветущая гончая
+#        Entry: Фигура гончей, высеченная из цветущей коры векового древа. Ею движет ненасытная жажда питать и взращивать цветы, распускающиеся на её теле.
 #    }
 #
 #    Blubby: {
-#        DisplayName: Blubby
-#        Entry: A plump larva native to the Briar. They are adorned in stiff yellow hairs along their back, and fatten up even more in preparation for metamorphosis.
+#        DisplayName: Пухляш
+#        Entry: Упитанная личинка, обитающая в поросли. Её спина покрыта жёсткими жёлтыми волосками, а тело продолжает наливаться жиром в преддверии метаморфозы.
 #    }
 #
 #    BriarInchworm: {
-#        DisplayName: Briar Inchworm
-#        Entry: A long, thin worm that evolved to thrive in the murky mud of the Briar. It primarily feeds on the decomposed tall grasses found on the surface.
+#        DisplayName: Гусеничник поросли
+#        Entry: Длинный и тонкий червь, приспособленный к жизни в топкой грязи поросли. Питается главным образом перегнившей высокой травой на поверхности.
 #    }
 #
 #    Briarmoth: {
-#        DisplayName: Briarmoth
-#        Entry: From the moment a Briarmoth leaves its cocoon, it must hide from predators. It uses its deep green wings to blend into the trees of the Briar.
+#        DisplayName: Мотылёк поросли
+#        Entry: Едва покинув кокон, мотылёк поросли вынужден скрываться от хищников. Его насыщенно-зелёные крылья помогают ему сливаться с деревьями поросли.
 #    }
 #
 #    ForestWraith: {
@@ -11607,9 +11607,9 @@
 #        }
 #
 #        ExplorerQuestCrimson: {
-#            Name: Body Horrors
-#            Description: So you're planning on staying in this world for a while, huh? We've got a lot of exploring to do before we can get a grasp of this region. We need to know how dangerous the Crimson fields are. I'm not strong enough, so you'll need to handle this alone. If you can survive there, you can explore the other territories the Adventurer mentioned in his journal.
-#            Objective: the Crimson
+#            Name: Кошмары из плоти
+#            Description: Значит, ты решил задержаться в этом мире на какое-то время, да? Нам предстоит многое исследовать, прежде чем мы сможем обжиться в этих краях. Для начала нужно выяснить, насколько опасны земли Багрянца. У меня не хватит сил для этого, так что тебе придётся действовать в одиночку. Если сможешь там выжить, путь к другим землям, упомянутым искателем приключений в его дневнике, будет открыт.
+#            Objective: Багрянец
 #        }
 #
 #        ExplorerQuestGranite: {
@@ -11706,14 +11706,14 @@
 #        }
 #
 #        JellyfishHunter: {
-#            Name: Jellyfish Hunter
-#            Description: Hey there, lad! I was doing some diggin' into what makes these cute jellies tick, and I think they're all part of some kinda hivemind that feed on mystical energy. In fact, that one jellyfish you caught seems to be emitting a distress signal to its buddies. You may need to take on a mighty strong jellyfish soon, so stay prepared!
-#            Objective: Kill the Moon Jelly Wizard
+#            Name: Охотник на медуз
+#            Description: Эй, дружище! Я как раз разбирался с тем, что движет этими милыми медузками, и, похоже, все они связаны неким коллективным разумом, питающимся мистической энергией. Более того, та медуза, которую ты поймал, словно посылает сигнал бедствия своим сородичам. Возможно, скоро тебе придётся встретиться с очень могущественной медузой, так что будь начеку!
+#            Objective: Победить Волшебника лунных медуз
 #        }
 #
 #        ManicMage: {
-#            Name: Manic Mage
-#            Description: Scouts at the far ends of the world have reported that a witch seems to be terrorizin' the area. Apparently, it's some type of harpy with a real dangerous staff. Mission's real simple this time. Bring me its head! Er... I promise I'm not unhinged. I mean, bring me its hat! Yeah.
+#            Name: Безумный маг
+#            Description: Разведчики из дальних краёв доложили, что какая-то ведьма, похоже, кошмарит здешние земли. Говорят, она чем-то похожа на гарпию и владеет действительно опасным посохом. На этот раз задание простое: принеси мне её голову! Эм... клянусь, я не спятил. Я хотел сказать - принеси мне её шляпу! Да, именно шляпу.
 #        }
 #
 #        OlympiumQuest: {
@@ -11851,71 +11851,66 @@
 #        '''
 #    Cascade:
 #        '''
-#        Dealing damage to enemies builds up a bubble shield,
-#        which at full size grants heavy damage resistance against the next attack,
-#        damaging and knocking back nearby enemies.
+#        При нанесении урона врагам накапливается пузырьковый щит
+#        Достигнув максимального размера, он значительно снижает урон от следующей атаки, после чего взрывается, нанося урон и отбрасывая врагов поблизости
 #        '''
-#    Chitin: Double tap in a direction to dash and envelop yourself in a tornado
+#    Chitin: Дважды нажмите клавишу направления, чтобы совершить рывок и окружить себя торнадо
 #    Cryolite:
 #        '''
-#        Generates an icy aura that slows nearby enemies
-#        This aura expands gradually, but resets when injured
+#        Создаёт ледяную ауру, замедляющую врагов поблизости
+#        Аура постепенно расширяется, но сбрасывается при получении урона
 #        '''
-#    Daybloom:
-#        '''
-#        Being outside during daytime increases defense, maximum mana,
-#        and life regeneration slightly
-#        '''
+#    Daybloom: Днём на поверхности слегка увеличивает защиту, максимальный запас маны и регенерацию здоровья
 #    Driftwood:
 #        '''
-#        Allows the wearer to float on water
-#        Increased fishing power
+#        Позволяет держаться на воде
+#        Увеличивает навык рыбной ловли
 #        '''
 #    Dusk:
 #        '''
-#        8% Increased Magic and Ranged Damage at Night
-#        You are surrounded by a rune that guides the way
-#        Magic attacks inflict Shadowflame
+#        Ночью увеличивает магический и стрелковый урон на 8%
+#        Вокруг вас появляется руна, указывающая путь
+#        Магические атаки накладывают дебафф «{$BuffName.ShadowFlame}»
 #        '''
-#    DarkfeatherVisage: Generates exploding darkfeather bolts around the player
-#    Elderbark: Increases all item damage by 1
-#    Floran: Killing enemies may drop raw meat, restoring health and granting 'Well Fed'
+#    DarkfeatherVisage: Создаёт вокруг игрока взрывающиеся снаряды из тёмных перьев
+#    Elderbark: Увеличивает урон всех предметов на 1
+#    Floran: Из убитых врагов может выпасть сырое мясо, восстанавливающее здоровье и дающее бафф «{$BuffName.WellFed}»
 #    Frigid:
 #        '''
-#        Double tap {0} to create an icy wall at the cursor position
-#        8 second cooldown
+#        Дважды нажмите {0}, чтобы создать ледяную стену в точке курсора
+#        Перезарядка 8 секунд
 #        '''
 #    Granite:
 #        '''
-#        Double tap {0} while falling to stomp downward
-#        Hitting the ground releases a shockwave that scales with height
+#        Дважды нажмите {0} во время падения, чтобы совершить удар по земле
+#        При приземлении возникает ударная волна, сила которой зависит от высоты падения
 #        '''
 #    Infernal:
 #        '''
-#        When under 25% health, defense is decreased by 4, but Infernal Guardians surround you
-#        Infernal Guardians vastly increase magic damage and reduce mana cost
-#        Getting hurt may spawn multiple exploding Infernal Embers
+#        Когда здоровье опускается ниже 25%, защита снижается на 4, но вокруг вас появляются инфернальные стражи
+#        Стражи значительно увеличивают магический урон и снижают расход маны
+#        При получении урона могут появиться несколько взрывающихся инфернальных искр
 #        '''
 #    JellynautBubble:
 #        '''
-#        Hitting or killing enemies with magic weapons generates arcane jellyfish around the player
-#        Double tap {0} to cause the jellyfish to attack the cursor position
+#        Попадания или убийства врагов магическим оружием создают вокруг вас мистических медуз
+#        Дважды нажмите {0}, чтобы приказать медузам атаковать в точке курсора
 #        '''
 #    Leather:
 #        '''
-#        Wearing Marksman's Armor builds up concentration
-#        While concentrated, your next strike is a critical strike and deals more damage
-#        Concentration is disrupted when hurt, but charges faster while standing still
+#        При ношении брони стрелка вы накапливаете концентрацию
+#        В этом состоянии следующий удар становится критическим и наносит увеличенный урон
+#        Концентрация сбрасывается при получении урона, но накапливается быстрее, если стоять на месте
 #        '''
 #    Marble:
 #        '''
-#        Press 'Up' to grant 'Divine Winds', allowing for limited flight
-#        10 second cooldown
+#        Нажмите <up>, чтобы получить бафф «{$Buffs.MarbleDivineWinds.DisplayName}», дарующий временную способность летать
+#        Перезарядка 10 секунд
 #        '''
 #    Primalstone:
 #        '''
-#        Melee and magic attacks inflict Unstable Affliction
-#        10% reduced movement speed
+#        Атаки ближнего боя и магические атаки накладывают дебафф «{$Buffs.UnstableAffliction.DisplayName}»
+#        Снижает скорость передвижения на 10%
 #        '''
 #    Rogue:
 #        '''
@@ -12143,7 +12138,7 @@
 #
 #    HangingCloudstalkTile.MapEntry: Hanging Cloudstalk
 #    HangingSoulbloomTile.MapEntry: Hanging Soulbloom
-#    HangingSunPotTile.MapEntry: Sun in a Pot
+#    HangingSunPotTile.MapEntry: "{$Items.SunPot.DisplayName}"
 #    HerosMemorialStatueTile.MapEntry: A Hero's Memorial
 #    DragonStatue.MapEntry: Jade Dragon Statuette
 #    BlueLightsLarge.MapEntry: Neon Lantern
@@ -12223,20 +12218,20 @@
 #        ContainerName: Астероидный сундук
 #    }
 #
-#    ScrapTile1.MapEntry: Space Scrap
-#    ScrapTile2.MapEntry: Space Scrap
-#    ScrapTile3.MapEntry: Space Scrap
-#    ScrapTile4.MapEntry: Space Scrap
-#    ScrapTile5.MapEntry: Space Scrap
-#    ScrapTile6.MapEntry: Space Scrap
+#    ScrapTile1.MapEntry: Космический мусор
+#    ScrapTile2.MapEntry: Космический мусор
+#    ScrapTile3.MapEntry: Космический мусор
+#    ScrapTile4.MapEntry: Космический мусор
+#    ScrapTile5.MapEntry: Космический мусор
+#    ScrapTile6.MapEntry: Космический мусор
 #
 #    SpiritChest: {
-#        MapEntry: Duskwood Chest
-#        ContainerName: Duskwood Chest
+#        MapEntry: Сундук из сумеречного дерева
+#        ContainerName: Сундук из сумеречного дерева
 #    }
 #
 #    SpiritCrate.MapEntry: Crate
-#    SunPotTile.MapEntry: Sun in a Pot
+#    SunPotTile.MapEntry: "{$Items.SunPot.DisplayName}"
 #    SynthpalmTile.MapEntry: Synthpalm Panel
 #    SynthwaveHead.MapEntry: "{$Items.SynthwaveHeadItem.DisplayName}"
 #    SynthwaveHeadActive.MapEntry: "{$Items.SynthwaveHeadItem.DisplayName}"
@@ -12308,27 +12303,27 @@
 #
 #    Gambler: {
 #        Dialogue: {
-#            Basic1: Gambling is the sport of royals. Why don't you take a chance?
-#            Basic2: I should warn you, my game isn't for the faint of heart.
-#            Basic3: Gambling's bad for you. Unless you win.
-#            Basic4: Win or lose, the thrill of the game is worth the money.
-#            Basic5: You have the face of a winner. Step up!
-#            Basic6: Get a sense of pride and accomplishment for just a few coins!
+#            Basic1: Азартные игры - спорт королей. Почему бы тебе не рискнуть?
+#            Basic2: Должна предупредить: моя игра не для слабонервных.
+#            Basic3: Азартные игры - это плохо. Если, конечно, ты не выигрываешь.
+#            Basic4: Неважно, выиграешь ли ты или проиграешь - ради азарта стоит рискнуть монетой.
+#            Basic5: У тебя лицо победителя. Подходи, не стесняйся!
+#            Basic6: Испытай гордость и удовлетворение всего за пару монет!
 #            Bound:
 #                '''
-#                Must be my lucky day to see a friendly face around here!
-#                These goblins didn't take too kindly to me offering a, uh, rigged deal.
-#                Anyway, d'you have a place to stay? Let's flip for it.
+#                Вот это везение - встретить дружелюбное лицо в этих краях!
+#                Этим гоблинам не очень понравилось, когда я предложила им, кхм... не совсем честную сделку.
+#                Так или иначе, у тебя есть где остановиться? Давай сыграем в орлянку.
 #                '''
 #        }
 #
-#        Name1: Yumeko
-#        Name2: Vanessa
-#        Name3: Gray
-#        Name4: Alexandra
-#        Name5: Sasha
-#        Name6: Celine
-#        Name7: Aleksa
+#        Name1: Юмэко
+#        Name2: Ванесса
+#        Name3: Грэй
+#        Name4: Александра
+#        Name5: Саша
+#        Name6: Селин
+#        Name7: Алекса
 #    }
 #
 #    Rogue: {

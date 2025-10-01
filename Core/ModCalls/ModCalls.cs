@@ -9,7 +9,7 @@ public class ModCalls
 {
     public static object Call(params object[] args)
     {
-        if (args is null ||  args.Length == 0)
+        if (args is null || args.Length == 0)
             return new ArgumentNullException("Аргументы не могут быть пустыми!");
  
         if (args[0] is not string methodName)
