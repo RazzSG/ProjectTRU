@@ -251,7 +251,7 @@
 #    }
 #
 #    JellyDeluge: {
-#        BossChecklistIntegration.Condition: Событие может начаться самостоятельно на поверхности после победы над любым боссом. Также его можно вызвать, используя [i:SpiritMod/DistressJellyItem], который можно найти в астероидных полях и поймать сачком. После победы над Волшебником лунных медуз событие происходит реже.
+#        BossChecklistIntegration.Condition: Событие может начаться самостоятельно на поверхности после победы над любым боссом. Также его можно вызвать, используя [i:SpiritMod/DistressJellyItem], который можно найти в полях астероидов и поймать сачком. После победы над Волшебником лунных медуз событие происходит реже.
 #        OnStart: Странные медузы падают с неба!
 #    }
 #
@@ -2962,7 +2962,7 @@
 #            '''
 #            После экспериментов с ингредиентами со всего мира я решила подробно описать некоторые из самых интересных зелий, которые удалось создать.
 #            [i:SpiritMod/BismitePotion] [c/72a4c2:Зелье токсинов:] Кажется, я создала это неприятное варево, соединив ядовитый [c/95a3ab:Ноксофилл] с несколькими странными металлическими [c/95a3ab:Кристалли бисмита]. Яды нейтрализовали друг друга, оставив мне отвратительную на вкус, но пригодную для питья субстанцию, которая оказалась весьма эффективной в бою.
-#            [i:SpiritMod/MushroomPotion] [c/72a4c2:Спороидное зелье:] Получив редкий образец [c/95a3ab:Светокорня] от группы полевых исследователей, я смешала его со [c/95a3ab:Светящимися грибами]. Исследователи сказали, что никогда не вернутся в то 'жуткое место', но намекнули, что достать больше Светокорня можно, срубив гигантские грибные деревья. Нужно будет это проверить.
+#            [i:SpiritMod/MushroomPotion] [c/72a4c2:Спороидное зелье:] Получив редкий образец [c/95a3ab:Светокорня] от группы полевых исследователей, я смешала его со [c/95a3ab:Светящимися грибами]. Исследователи сказали, что никогда не вернутся в то «жуткое место», но намекнули, что больше Светокорня можно добыть, срубив гигантские грибные деревья. Это ещё предстоит проверить.
 #            [i:SpiritMod/PinkPotion] [c/72a4c2:Зелье прыжков:] Это был один из тех дней, когда я решила просто бросать всё подряд в котёл, чтобы посмотреть, что получится. Кто бы мог подумать, что [c/95a3ab:Розовый гель] и [c/95a3ab:Днецвет] заставят меня почувствовать такой восторг! Выпив эту сладкую смесь, я прыгала от радости – причём гораздо выше, чем обычно.
 #            [i:SpiritMod/DoubleJumpPotion] [c/72a4c2:Зелье зефира:] Я не могла не заметить интересную новую траву, которая начала расти небольшими скоплениями повсюду. Предположив связь с парящими островами, я соединила её с [c/95a3ab:Облаками] и [c/95a3ab:Перьями гарпий] и, довольно опрометчиво, выпила получившееся зелье. Я почувствовала себя лёгкой, как воздух! Возможно, стоит подробнее изучить воздушные свойства этого растения...
 #            '''
@@ -4575,45 +4575,45 @@
 #    }
 #
 #    DurasilkSheaf: {
-#        DisplayName: Durasilk Sheaf
-#        CommonName: Quest Item
-#        CustomTooltip: "'The fabric is soft, but quite strong'"
+#        DisplayName: Связка крепкошёлка
+#        CommonName: Предмет для задания
+#        CustomTooltip: "'Ткань мягкая, но удивительно прочная'"
 #        Tooltip: ""
 #    }
 #
 #    ExplorerScrollAsteroidFull: {
-#        DisplayName: Completed Surveyor's Scroll
-#        CustomTooltip: The Asteroid Fields have been charted!
+#        DisplayName: Завершённый свиток картографа
+#        CustomTooltip: Поля астероидов отмечены на карте!
 #        Tooltip: ""
 #    }
 #
 #    ExplorerScrollGraniteFull: {
-#        DisplayName: Completed Surveyor's Scroll
-#        CustomTooltip: A nearby Granite Cavern has been charted!
+#        DisplayName: Завершённый свиток картографа
+#        CustomTooltip: Ближайшая гранитная пещера отмечена на карте!
 #        Tooltip: ""
 #    }
 #
 #    ExplorerScrollHiveFull: {
-#        DisplayName: Completed Surveyor's Scroll
-#        CustomTooltip: A giant Hive has been charted!
+#        DisplayName: Завершённый свиток картографа
+#        CustomTooltip: Гигантский улей отмечен на карте!
 #        Tooltip: ""
 #    }
 #
 #    ExplorerScrollMarbleFull: {
-#        DisplayName: Completed Surveyor's Scroll
-#        CustomTooltip: A nearby Marble Cavern has been charted!
+#        DisplayName: Завершённый свиток картографа
+#        CustomTooltip: Ближайшая мраморная пещера отмечена на карте!
 #        Tooltip: ""
 #    }
 #
 #    ExplorerScrollMushroomFull: {
-#        DisplayName: Completed Surveyor's Scroll
-#        CustomTooltip: A nearby Glowing Mushroom Biome has been charted!
+#        DisplayName: Завершённый свиток картографа
+#        CustomTooltip: Ближайший светящийся грибной биом отмечен на карте!
 #        Tooltip: ""
 #    }
 #
 #    HornetfishQuest: {
-#        DisplayName: Hornetfish
-#        CustomTooltip: "'It buzzes and blubs at the same time'"
+#        DisplayName: Шершнерыба
+#        CustomTooltip: "'Она и жужжит, и булькает одновременно'"
 #        Tooltip: ""
 #    }
 #
@@ -4867,99 +4867,99 @@
 #    }
 #
 #    Omniwrench: {
-#        DisplayName: Omniwrench
-#        Tooltip: Right click to throw
+#        DisplayName: Всеключ
+#        Tooltip: Нажмите <right>, чтобы бросить
 #    }
 #
 #    QuacklingStaff: {
-#        DisplayName: Quackling Staff
-#        Tooltip: Summons a friendly duck to launch aqua bolts at enemies
+#        DisplayName: Посох крякунчика
+#        Tooltip: Призывает дружелюбного утёнка,  который стреляет во врагов водными снарядами
 #    }
 #
 #    SnakeStaff: {
-#        DisplayName: Lihzahrd Wand
-#        Tooltip: Summons a friendly Flying Snake to shoot venom at foes
+#        DisplayName: Жезл яхщеров
+#        Tooltip: Призывает дружелюбную летающую змею, которая стреляет в врагов ядовитыми зарядами
 #    }
 #
 #    Terravolt: {
-#        DisplayName: Terravolt
-#        Tooltip: "Launches a beam of electricity "
+#        DisplayName: Терравольт
+#        Tooltip: Выпускает электрический луч
 #    }
 #
 #    TheCouch: {
-#        DisplayName: The Couch
+#        DisplayName: Тот самый диван
 #        Tooltip:
 #            '''
-#            Defense is increased, but movement speed reduced, when nearby
-#            'Hello Terraria Enthusiasts'
-#            Not for masters!
+#            Находясь рядом, вы получаете бонус к защите, но ваша скорость передвижения снижается
+#            'Привет, фанаты Террарии!'
+#            Не для мастеров!
 #            '''
 #    }
 #
 #    AuroraSaddle: {
-#        DisplayName: Aurora Saddle
-#        Tooltip: Summons a vibrant steed mount
+#        DisplayName: Седло северного сияния
+#        Tooltip: Призывает сияющего скакуна
 #    }
 #
 #    DynastyFan: {
-#        DisplayName: Dynasty Fan
-#        Tooltip: Launch yourself in any direction with a gust of wind
+#        DisplayName: Восточный веер
+#        Tooltip: Создаёт порыв ветра, подбрасывающий в выбранном направлении
 #    }
 #
 #    KelpHook: {
-#        DisplayName: Kelp Hook
-#        Tooltip: Provides faster mobility when underwater
+#        DisplayName: Водорослевый крюк
+#        Tooltip: Ускоряет передвижение под водой
 #    }
 #
 #    MagnetHook: {
-#        DisplayName: Magnet Hook
-#        Tooltip: Homes in on nearby blocks
+#        DisplayName: Магнитный крюк
+#        Tooltip: Притягивается к ближайшему блоку
 #    }
 #
 #    Obolos: {
 #        DisplayName: Обол
 #        Tooltip:
 #            '''
-#            Summons a rideable Ethereal Boat for you to sail 
-#            'Payment recieved'
+#            Призывает эфирную лодку, на которой можно плыть
+#            'Плата получена'
 #            '''
 #    }
 #
 #    SandsOfTime: {
-#        DisplayName: Sands of Time
+#        DisplayName: Пески времени
 #        Tooltip:
 #            '''
-#            Summons or ends a sandstorm
-#            Only usable in a desert
+#            Начинает или прекращает песчаную бурю
+#            Можно использовать только в пустыне
 #            '''
 #    }
 #
 #    SolarRattle: {
-#        DisplayName: Solar Rattle
+#        DisplayName: Солнечная погремушка
 #        Tooltip:
 #            '''
-#            Summons a Drakomire into battle
-#            When riding the Drakomire, defense is increased by 40
-#            A fiery trail is left behind and knockback is ignored
-#            The Drakomire also builds up stamina, allowing for a dash every 10 seconds.
+#            Призывает дракотопа для сражения
+#            Во время езды на дракотопе защита увеличивается на 40
+#            Оставляет огненный след и даёт невосприимчивость к отбрасыванию
+#            Дракотоп накапливает выносливость, позволяя совершать рывок каждые 10 секунд
 #            '''
 #    }
 #
 #    ZiplineGun: {
-#        DisplayName: Rail-gun
+#        DisplayName: Рельсотрон
 #        Tooltip:
 #            '''
-#            Left and right click latch tethers to tiles, connected by a rail
-#            Rails carry players swiftly along them
-#            Tethers can be removed when hovered over
+#            <left> и <right> закрепляют концы троса на блоках, создавая рельс
+#            По рельсам игроки могут быстро перемещаться
+#            Тросы можно убрать, наведя на них курсор
 #            '''
 #    }
 #
 #    FisheyeGem: {
-#        DisplayName: Fisheye Gem
+#        DisplayName: Самоцветный рыбий глаз
 #        Tooltip:
 #            '''
-#            Increases the sell price of fish by 50%
+#            Увеличивает цену продажи рыбы на 50%
 #            Работает, даже если находится в инвентаре
 #            '''
 #    }
@@ -8626,7 +8626,7 @@
 #    }
 #
 #    PirateChest: {
-#        DisplayName: Pirate Chest
+#        DisplayName: Пиратский сундук
 #        Tooltip: ""
 #    }
 #
@@ -11502,7 +11502,7 @@
 #
 #        RaidingTheStars: {
 #            Name: Налёт на звёзды
-#            Description: Я полагаю, ты уже бывал в астероидных полях у дальнего края мира? Мои источники сообщают, что в том районе участились случаи необычной механической активности. Некие металлические черви бороздят местные просторы. Похоже, что-то серьёзно нарушило их привычное поведение. Не мог бы ты уничтожить нескольких из них и выяснить природу этого феномена?
+#            Description: Я полагаю, ты уже бывал в полях астероидов у дальнего края мира? Мои источники сообщают, что в том районе участились случаи необычной механической активности. Некие металлические черви бороздят местные просторы. Похоже, что-то серьёзно нарушило их привычное поведение. Не мог бы ты уничтожить нескольких из них и выяснить природу этого феномена?
 #        }
 #
 #        StylishSetup: {
@@ -11652,22 +11652,22 @@
 #        }
 #
 #        FriendSafari: {
-#            Name: Friend Safari
-#            Description: A few years ago, I was running a job with a friend of mine who's never really been on the good side of the law. He's a bandit, and a mighty fine one at that. We've kept in touch ever since, but he's been awfully silent as of late. Last I remember, he was holed up with a bandit group near the far shores of the world. Would you mind checkin' up on him?
-#            Dialogue: Hey! Thanks for saving me- Now, mind getting us out of this pickle? They duped me, took all my cash and left me for dead here! Don't think it means I'll discount my wares for you, though. Just kidding! Not.
-#            Objective: Find the bandit hideout and rescue the prisoner.
+#            Name: Старый друг
+#            Description: Пару лет назад я промышлял одним дельцем с приятелем, который никогда особо не ладил с законом. Он бандит, и, надо сказать, чертовски хороший. С тех пор мы поддерживали связь, но в последнее время он что-то притих. Последнее, что я слышал, - он засел с какой-то бандой у чёрта на куличках. Не мог бы ты его проведать?
+#            Dialogue: Эй! Спасибо, что спас меня... А теперь не поможешь нам выбраться из этой передряги? Они меня кинули, забрали все деньги и бросили здесь подыхать! Только не думай, что за это я сделаю тебе скидку на свои товары. Шучу! Или нет.
+#            Objective: Найти убежище бандитов и спасти пленника.
 #        }
 #
 #        GranitechQuest: {
-#            Name: Futuristic Forces
-#            Description: You know, I've been seeing some strange parts in the scrap I've been buying lately. It's quite amazing, honestly! The circuitry is way out of my league, like it's from the future or something! I'd love to mess around with them and learn more, so would you get some for me? They're attached to some dangerous machinery, though. Come back in one piece!
-#            BringBack: Return to the Mechanic with the circuits
-#            Thanks: Wow! These parts are almost otherworldly! You said you fought a bunch of high-precision laser turrets to get these? I mean, that makes sense, but there's so much more that this circuitry could accomplish. It's a combination of magic and energy that I've never seen before, and I think the people behind those turrets are a force to be wary of. It's best you grab as many circuits as you can and prepare before they make their move!
+#            Name: Поступь будущего
+#            Description: Знаешь, в последнее время в металлоломе, который я скупаю, мне стали попадаться очень странные детали. Честно говоря, это поразительно! Их схемы - совершенно другой уровень, как будто прямиком из будущего. Я с удовольствием покопалась бы в них, чтобы изучить получше. Не добудешь ли для меня несколько таких схем? Правда, они установлены на весьма опасных механизмах. Так что возвращайся целым и невредимым!
+#            BringBack: Вернуться к механику со схемами
+#            Thanks: Ого! Эти детали словно не из нашего мира! Говоришь, чтобы достать их, тебе пришлось сразиться с кучей высокоточных лазерных турелей? Что ж, это многое объясняет, но я уверена, что эти схемы способны на гораздо большее. Это сочетание магии и энергии, которого я никогда прежде не видела. Думаю, те, кто стоит за этими турелями, представляют собой силу, которой стоит опасаться. Тебе стоит собрать как можно больше этих схем и подготовиться, прежде чем они сделают свой ход!
 #        }
 #
 #        HeartCrystalQuest: {
-#            Name: Heart to the Cause
-#            Description: If you want to stay alive and keep exploring this world (with my help, of course), we'll need to make sure you're hale and hearty. Get it? You'll need to head underground to retrieve a Heart Crystal or two. It'll give you the boost you need! After that, you should be able to try out some of the more difficult quests that the Adventurer left behind.
+#            Name: От сердца к делу
+#            Description: Если хочешь выжить и продолжить исследовать этот мир (с моей помощью, разумеется), нужно убедиться, что у тебя крепкое здоровье... и сердце! Улавливаешь? Тебе придётся спуститься под землю и добыть пару кристаллов жизни. Это даст тебе необходимое усиление! После этого ты сможешь взяться за более сложные задания, что оставил прежний авантюрист.
 #        }
 #
 #        IceDeityQuest: {
@@ -11914,52 +11914,51 @@
 #        '''
 #    Rogue:
 #        '''
-#        Getting hit grants four seconds of invisibility and 100% increased damage
-#        25 second cooldown
+#        При получении урона даёт 4 секунды невидимости и увеличивает урон на 100%
+#        Перезарядка 25 секунд
 #        '''
-#    Runic: Leave behind dangerous explosive runes
+#    Runic: Вы оставляете за собой опасные взрывающиеся руны
 #    Seraph:
 #        '''
-#        Being near enemies increases life regen, increases mana regen, increases melee speed
-#        and reduces mana cost by 6% per enemy
-#        This effect stacks three times
+#        Увеличивает регенерацию здоровья, регенерацию маны, скорость атаки ближнего боя и снижает расход маны на 6% за каждого врага поблизости
+#        Эффект суммируется до трёх раз
 #        '''
 #    Slag:
 #        '''
-#        Double tap {0} to cause all sentries to release a burst of fireballs
-#        8 second cooldown
+#        Дважды нажмите {0}, чтобы все стражи выпустили залп огненных шаров
+#        Перезарядка 8 секунд
 #        '''
 #    Spirit:
 #        '''
-#        Spirits grant you various buffs based on your health
-#        Increases damage by 8% when below 400 health
-#        Increases defense by 6 when below 200 Health
-#        Increases life regen when below 100 Health
-#        Increases invincibility frames when below 50 Health
+#        Духи дают различные усиления в зависимости от уровня здоровья
+#        Увеличивает урон на 8%, если здоровье ниже 400
+#        Увеличивает защиту на 6, если здоровье ниже 200
+#        Увеличивает регенерацию здоровья, если здоровье ниже 100
+#        Увеличивает кадры неуязвимости, если здоровье ниже 50
 #        '''
 #    Starjinx:
 #        '''
-#        Greatly increases mana useage and prevents useage of mana potions
-#        Running out of mana produces a manajinx pylon near you
-#        Collecting the manajinx pylon restores all mana and temporarily enchants magic weapons with stars
+#        Значительно увеличивает расход маны и запрещает использование зелий маны
+#        Когда мана заканчивается, рядом с вами появляется маначарный пилон
+#        Подняв пилон, вы полностью восстанавливаете ману, а магическое оружие временно получает зачарование звёздами
 #        '''
 #    Starplate:
 #        '''
-#        Double tap {0} to deploy an energy field at the cursor position
-#        This field lasts for five seconds and supercharges all ranged projectiles that pass through it
-#        {1} second cooldown
+#        Дважды нажмите {0}, чтобы разместить энергетическое поле в позиции курсора
+#        Поле действует 5 секунд и усиливает все стрелковые снаряды, пролетающие сквозь него
+#        Перезарядка {1} секунд
 #        '''
 #    StreamSurfer:
 #        '''
-#        Double tap {0} to create a ridable waterspout that damages enemies
-#        7 second cooldown
+#        Дважды нажмите {0}, чтобы создать ездовой водяной смерч, наносящий урон врагам
+#        Перезарядка 7 секунд
 #        '''
 #    Wayfarer:
 #        '''
-#        Killing enemies grants a stacking damage buff
-#        Breaking pots grants a stacking movement speed buff
-#        Mining ore grants a stacking mining speed buff
-#        All buffs stack up to 4 times
+#        Убийство врагов даёт накапливающийся бафф урона
+#        Разбивание горшков даёт накапливающийся бафф скорости передвижения
+#        Добыча руды даёт накапливающийся бафф скорости добычи
+#        Все баффы суммируются до 4 раз
 #        '''
 #}
 #
@@ -11997,11 +11996,11 @@
 #    Blaststone_Grave.MapEntry: "{$ItemName.Gravestone}"
 #    SkullGrave.MapEntry: "{$ItemName.Gravestone}"
 #    Canvas_Tile.MapEntry: Холст
-#    Coral1x2.MapEntry: Coral
-#    Coral2x2.MapEntry: Coral
-#    Coral3x3.MapEntry: Coral
-#    CrystalFlower.MapEntry: Crystal Flower
-#    Cloudstalk.MapEntry: Cloudstalk
+#    Coral1x2.MapEntry: Коралл
+#    Coral2x2.MapEntry: Коралл
+#    Coral3x3.MapEntry: Коралл
+#    CrystalFlower.MapEntry: "{$Items.CrystalFlowerItem.DisplayName}"
+#    Cloudstalk.MapEntry: "{$Items.CloudstalkItem.DisplayName}"
 #    GoblinStandardTile.MapEntry: Goblin Battle Standard
 #    GoblinStatueTile.MapEntry: Goblin Statue
 #    Spike1Tile.MapEntry: Granite Formation
@@ -12020,25 +12019,25 @@
 #    IceDeityDecor.MapEntry: Ice Deity Sculpture
 #    IceFlinxDecor.MapEntry: Frozen Snow Flinx Sculpture
 #    IceFlinxPassive.MapEntry: Frozen Snow Flinx
-#    IceVikingDecor.MapEntry: Undead Viking Sculpture
+#    IceVikingDecor.MapEntry: "{$Items.IceVikingSculpture.DisplayName}"
 #    IceVikingPassive.MapEntry: Frozen Undead Viking
-#    IceWheezerDecor.MapEntry: Frozen Wheezer Sculpture
+#    IceWheezerDecor.MapEntry: "{$Items.IceWheezerSculpture.DisplayName}"
 #    IceWheezerPassive.MapEntry: Frozen Wheezer
-#    WinterbornDecor.MapEntry: Winterborn Sculpture
+#    WinterbornDecor.MapEntry: "{$Items.WinterbornSculpture.DisplayName}"
 #    Kelp1x2.MapEntry: "{$Items.Kelp.DisplayName}"
 #    Kelp2x2.MapEntry: "{$Items.Kelp.DisplayName}"
 #    Kelp2x3.MapEntry: "{$Items.Kelp.DisplayName}"
-#    Breakable1x2Vent.MapEntry: Hydrothermal Vent
-#    Breakable1x3Vent.MapEntry: Hydrothermal Vent
-#    HydrothermalVent1x2.MapEntry: Hydrothermal Vent
-#    HydrothermalVent1x3.MapEntry: Hydrothermal Vent
+#    Breakable1x2Vent.MapEntry: Гидротермальное жерло
+#    Breakable1x3Vent.MapEntry: Гидротермальное жерло
+#    HydrothermalVent1x2.MapEntry: Гидротермальное жерло
+#    HydrothermalVent1x3.MapEntry: Гидротермальное жерло
 #
 #    OceanPirateChest: {
-#        MapEntry: Pirate Chest
-#        ContainerName: Pirate Chest
+#        MapEntry: Пиратский сундук
+#        ContainerName: Пиратский сундук
 #    }
 #
-#    OceanPirateChest_Locked.MapEntry: Locked Pirate Chest
+#    OceanPirateChest_Locked.MapEntry: Запертый пиратский сундук
 #    Pillar1Tile.MapEntry: Pillar
 #    Pillar2Tile.MapEntry: Pillar
 #    Pillar3Tile.MapEntry: Pillar
@@ -12052,54 +12051,54 @@
 #    PrimePrint.MapEntry: Blueprint
 #    ProbePrint.MapEntry: Blueprint
 #    ReachGrass1.MapEntry: Spiky Grass
-#    ScarabIdol.MapEntry: Scarab Idol
+#    ScarabIdol.MapEntry: "{$Items.ScarabIdol.DisplayName}"
 #    Shrine1_Tile.MapEntry: Ancient Shrine
 #    Shrine2_Tile.MapEntry: Ancient Shrine
 #    Shrine3_Tile.MapEntry: Ancient Shrine
 #    SkullPile1.MapEntry: Bone Pile
 #    SkullPile2.MapEntry: Bone Pile
-#    SkullStick.MapEntry: Skull on a Stick
+#    SkullStick.MapEntry: "{$Items.SkullStick.DisplayName}"
 #    SkullStick3.MapEntry: Skull Stick
 #    SkullStick3Flip.MapEntry: Skull Stick
 #    SkullStickFlip.MapEntry: Skull Stick
 #    BlueShardBig.MapEntry: Giant Crystal
 #    GreenShardBig.MapEntry: Giant Crystal
 #    PurpleShardBig.MapEntry: Giant Crystal
-#    StarBeacon.MapEntry: Astralite Beacon
+#    StarBeacon.MapEntry: "{$Items.StarBeaconItem.DisplayName}"
 #    TwinsPrint.MapEntry: Blueprint
-#    BannerTile.MapEntry: Banner
-#    Black_Stone.MapEntry: Blackrock
+#    BannerTile.MapEntry: Знамя
+#    Black_Stone.MapEntry: "{$Items.Black_Stone_Item.DisplayName}"
 #    BlastStone.MapEntry: Bedrock
-#    SepulchreBrick.MapEntry: Sepulchre Roofing
+#    SepulchreBrick.MapEntry: "{$Items.SepulchreBrickItem.DisplayName}"
 #    BloodBlossom.MapEntry: Blood Blossom
-#    CrimsonPustuleTile.MapEntry: Crimson Pustule
-#    AcidACTile.MapEntry: Broken Air Conditioner
+#    CrimsonPustuleTile.MapEntry: "{$Items.CrimsonPustuleItem.DisplayName}"
+#    AcidACTile.MapEntry: "{$Items.AcidAC.DisplayName}"
 #    AcidBarrelTile.MapEntry: Corrosive Barrel
 #
 #    AcidChestTile: {
-#        MapEntry: Corrosive Chest
-#        ContainerName: Corrosive Chest
+#        MapEntry: Едкий сундук
+#        ContainerName: Едкий сундук
 #    }
 #
 #    AcidDresserTile: {
-#        MapEntry: Corrosive Dresser
-#        ContainerName: Corrosive Dresser
+#        MapEntry: Едкий комод
+#        ContainerName: Едкий комод
 #    }
 #
-#    AcidFanTile.MapEntry: Rusty Fan
-#    AcidKegTile.MapEntry: Corrosive Keg
-#    ArcadeMachine.MapEntry: Arcade Machine
+#    AcidFanTile.MapEntry: "{$Items.AcidFan.DisplayName}"
+#    AcidKegTile.MapEntry: "{$Items.AcidKeg.DisplayName}"
+#    ArcadeMachine.MapEntry: "{$Items.ArcadeMachineItem.DisplayName}"
 #
 #    BambooBarrel: {
 #        MapEntry: "{$Items.BambooBarrelItem.DisplayName}"
 #        ContainerName: Бочка из полосатого бамбука
 #    }
 #
-#    BambooBench.MapEntry: Stripped Bamboo Bench
-#    BambooBirdCage.MapEntry: Stripped Bamboo Bird Cage
-#    BambooPot.MapEntry: Stripped Bamboo Pot
+#    BambooBench.MapEntry: "{$Items.BambooBenchItem.DisplayName}"
+#    BambooBirdCage.MapEntry: "{$Items.BambooBirdCageItem.DisplayName}"
+#    BambooPot.MapEntry: "{$Items.BambooPotItem.DisplayName}"
 #    BoneAltar.MapEntry: Bone Altar
-#    BriarCrate_Tile.MapEntry: Crate
+#    BriarCrate_Tile.MapEntry: Ящик
 #    Blossom_Tile.MapEntry: Critter Cage
 #    Briarmoth_Tile.MapEntry: Critter Cage
 #    BrownCrinoid_Tile.MapEntry: Critter Cage
@@ -12110,19 +12109,19 @@
 #    RedCrinoid_Tile.MapEntry: Critter Cage
 #    Tubeworm_Tile.MapEntry: Critter Bowl
 #    VibeshroomJar_Tile.MapEntry: Critter Cage
-#    TheCouch.MapEntry: The Couch
-#    DurasilkSheafTile.MapEntry: Durasilk Sheaf
-#    FestivalLanternTile.MapEntry: Festival Lantern
-#    FishCrate_Tile.MapEntry: Crate
+#    TheCouch.MapEntry: "{$Items.TheCouch.DisplayName}"
+#    DurasilkSheafTile.MapEntry: "{$Items.DurasilkSheaf.DisplayName}"
+#    FestivalLanternTile.MapEntry: "{$Items.FestivalLanternItem.DisplayName}"
+#    FishCrate_Tile.MapEntry: Ящик
 #    ForagerTableTile.MapEntry: "{$Items.ForagerTableItem.DisplayName}"
-#    ForgottenKingStatue.MapEntry: Forgotten King Statue
+#    ForgottenKingStatue.MapEntry: "{$Items.ForgottenKingStatueItem.DisplayName}"
 #    GemsPickaxeRuby.MapEntry: Lodged Pickaxe
 #    GemsPickaxeSapphire.MapEntry: Lodged Pickaxe
-#    Generator.MapEntry: Glowplate Generator
+#    Generator.MapEntry: "{$Items.GeneratorItem.DisplayName}"
 #    GiantAnglerStatueTile.MapEntry: Giant, Buff, Half-Shark, Half-Angler Statue
 #
 #    GlowplateChest: {
-#        MapEntry: Glowplate Chest
+#        MapEntry: "{$Items.GlowplateChestItem.DisplayName}"
 #        ContainerName: Glowplate Chest
 #    }
 #
@@ -12136,11 +12135,11 @@
 #        ContainerName: Gold Chest
 #    }
 #
-#    HangingCloudstalkTile.MapEntry: Hanging Cloudstalk
-#    HangingSoulbloomTile.MapEntry: Hanging Soulbloom
+#    HangingCloudstalkTile.MapEntry: "{$Items.HangingCloudstalk.DisplayName}"
+#    HangingSoulbloomTile.MapEntry: "{$Items.HangingSoulbloom.DisplayName}"
 #    HangingSunPotTile.MapEntry: "{$Items.SunPot.DisplayName}"
 #    HerosMemorialStatueTile.MapEntry: A Hero's Memorial
-#    DragonStatue.MapEntry: Jade Dragon Statuette
+#    DragonStatue.MapEntry: "{$Items.DragonStatueItem.DisplayName}"
 #    BlueLightsLarge.MapEntry: Neon Lantern
 #    BlueLightsSmall.MapEntry: Fairy Lights
 #    BlueNeonCandle.MapEntry: Neon Candle
@@ -12161,12 +12160,12 @@
 #    YellowLightsSmall.MapEntry: Fairy Lights
 #    YellowNeonCandle.MapEntry: Neon Candle
 #    YellowNeonPlant.MapEntry: Neon Plant
-#    OccultistMapTile.MapEntry: Occult Wall Scroll
-#    OldTelescopeTile.MapEntry: Old Telescope
-#    PirateCrate.MapEntry: Crate
-#    AsteroidPylonTile.MapEntry: $Mods.SpiritMod.MapObject.AsteroidPylon
-#    BriarPylonTile.MapEntry: $Mods.SpiritMod.MapObject.BriarPylon
-#    SpiritPylonTile.MapEntry: $Mods.SpiritMod.MapObject.SpiritPylon
+#    OccultistMapTile.MapEntry: "{$Items.OccultistMap.DisplayName}"
+#    OldTelescopeTile.MapEntry: "{$Items.OldTelescope.DisplayName}"
+#    PirateCrate.MapEntry: Ящик
+#    AsteroidPylonTile.MapEntry: "{$Items.AsteroidPylonItem.DisplayName}"
+#    BriarPylonTile.MapEntry: "{$Items.BriarPylonItem.DisplayName}"
+#    SpiritPylonTile.MapEntry: "{$Items.SpiritPylonItem.DisplayName}"
 #
 #    ReachChest1: {
 #        MapEntry: "{$Items.ReachChest.DisplayName}"
@@ -12193,12 +12192,12 @@
 #    GraniteSculpture2x3.MapEntry: Granite Sculpture
 #    GraniteSculpture3x3.MapEntry: Granite Sculpture
 #    GraniteSculpture3x5.MapEntry: Granite Sculpture
-#    MarbleSculpture1x2.MapEntry: Marble Sculpture
-#    MarbleSculpture2x3.MapEntry: Marble Sculpture
-#    MarbleSculpture3x8.MapEntry: Marble Sculpture
+#    MarbleSculpture1x2.MapEntry: "{$Items.MarbleSculpture3x8Item.DisplayName}"
+#    MarbleSculpture2x3.MapEntry: "{$Items.MarbleSculpture3x8Item.DisplayName}"
+#    MarbleSculpture3x8.MapEntry: "{$Items.MarbleSculpture3x8Item.DisplayName}"
 #
 #    SepulchreChestTile1: {
-#        MapEntry: Sepulchre Chest
+#        MapEntry: "{$Items.SepulchreChest.DisplayName}"
 #        ContainerName: Sepulchre Chest
 #    }
 #
@@ -12415,7 +12414,7 @@
 #    BriarTwo: Распускание поросли...
 #    Boulders: Размещение валунов...
 #    HerosMemorial: Почитание памяти героя...
-#    Stargrass: Stargazing grass...
+#    Stargrass: Взращивание звёздной травы...
 #    SinkingSurface: Прятание травяных участков...
 #    Waterfalls: Создание потоков воды...
 #    Sepulchre: Воздвижение тёмных гробниц...

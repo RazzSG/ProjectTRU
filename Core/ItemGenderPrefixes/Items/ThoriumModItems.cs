@@ -87,7 +87,7 @@ public class ThoriumModItems : IItemGender
                 "DemonBloodPickAxe",
                 "HydroPickaxe",
                 "Illustrious",
-                "MagicConch",
+                "BubbleConch",
                 "NanoClamCane",
                 "PearlPike",
                 "VampireGland",
@@ -162,7 +162,6 @@ public class ThoriumModItems : IItemGender
                 "RottenCod",
                 "SavingGrace",
                 "TerraScythe",
-                "TranquilLyre",
                 "TrueBloodHarvest",
                 "TrueHallowedScythe",
                 "WildUmbra",
@@ -246,6 +245,7 @@ public class ThoriumModItems : IItemGender
                 "TheSet",
                 "Flurry",
                 "ChromaticFury",
+                "SacredLyre",
             };
         
             if (ModInstances.Thorium != null)

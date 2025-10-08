@@ -180,7 +180,7 @@ public class ThoriumGlobalItem : GlobalItem
                 if (double.TryParse(duration.Replace(',', '.'), NumberStyles.Any, CultureInfo.InvariantCulture, out double seconds))
                 {
                     string secondsSuffix = seconds >= 5 ? "секунд" : "секунды";
-                    tooltip.Text = $"Игроки могут использовать врата лишь раз в {duration} {secondsSuffix}";
+                    tooltip.Text = $"Игроки могут использовать врата не чаще одного раза в {duration} {secondsSuffix}";
                 }
                 
                 if (tooltip.Text == $"Heals ally and player life by {parts[6]}")
@@ -376,8 +376,8 @@ public class ThoriumGlobalItem : GlobalItem
             item.type == ModContent.ItemType<SacredCharge>() || item.type == ModContent.ItemType<StaffofSol>() ||
             item.type == ModContent.ItemType<SunrayStaff>() || item.type == ModContent.ItemType<Syringe>() ||
             item.type == ModContent.ItemType<TemplarsGrace>() || item.type == ModContent.ItemType<TeslaDefibrillator>() ||
-            item.type == ModContent.ItemType<TheGigaNeedle>() || item.type == ModContent.ItemType<TranquilLyre>() ||
-            item.type == ModContent.ItemType<TwilightStaff>())
+            item.type == ModContent.ItemType<TheGigaNeedle>() || item.type == ModContent.ItemType<TwilightStaff>() ||
+            item.type == ModContent.ItemType<SacredLyre>())
         {
             ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerAmount", tooltip =>
             {
@@ -490,7 +490,7 @@ public class ThoriumGlobalItem : GlobalItem
                 string[] parts = tooltip.Text.Split(' ');
                 if (tooltip.Text == "Heals ally and player life equal to your bonus healing (4 Max)")
                 {
-                    tooltip.Text = "Лечит союзника и игрока на величину, равную вашему бонусному исцелению (максимум 4 единиц)";
+                    tooltip.Text = "Лечит союзника и игрока на величину, равную вашему бонусному исцелению (максимум 4 единицы)";
                 }
                 
                 if (tooltip.Text == $"Heals ally and player life by {parts[6]} (4 Max)")
