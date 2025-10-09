@@ -18,8 +18,8 @@ public class ModCompatibilityChecker : ModSystem
     [
         new("CalamityMod", new Version(2, 0, 5), TRuConfig.Instance.CalamityModLocalization),
         new("CatalystMod", new Version(1, 1, 2, 3), TRuConfig.Instance.CatalystLocalization),
-        new("Fargowiltas", new Version(3, 3, 6, 4), TRuConfig.Instance.FargowiltasLocalization),
-        new("FargowiltasSouls", new Version(1, 7, 3, 2), TRuConfig.Instance.FargowiltasSoulsLocalization),
+        new("Fargowiltas", new Version(3, 3, 6, 5), TRuConfig.Instance.FargowiltasLocalization),
+        new("FargowiltasSouls", new Version(1, 7, 3, 3), TRuConfig.Instance.FargowiltasSoulsLocalization),
         new("InfernumMode", new Version(2, 0, 1, 18), TRuConfig.Instance.InfernumModeLocalization),
         new("NoxusBoss", new Version(1, 2, 25), TRuConfig.Instance.NoxusBossLocalization),
         new("Redemption", new Version(0, 8, 0, 4083), TRuConfig.Instance.RedemptionLocalization),

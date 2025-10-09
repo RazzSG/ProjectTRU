@@ -7,6 +7,7 @@ using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.Localization;
 using Terraria.ModLoader;
+using ThoriumMod.Items;
 using ThoriumMod.Items.ArcaneArmor;
 using ThoriumMod.Items.BardItems;
 using ThoriumMod.Items.BossFallenBeholder;
@@ -154,14 +155,6 @@ public class ThoriumGlobalItem : GlobalItem
             });
         }
         
-        if (item.type == ModContent.ItemType<TerrariumAutoharp>())
-        {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "transformationText", _ =>
-            {
-                tooltips.ReplaceText("Playing empowers players with bonus:", "Игра на инструменте даёт игрокам усиление:");
-            });
-        }
-        
         if (item.type == ModContent.ItemType<VoidPlanter>())
         {
             ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "Healing", tooltip =>
@@ -195,7 +188,7 @@ public class ThoriumGlobalItem : GlobalItem
             ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerAmount", tooltip =>
             {
                 int healBonus = 10 + 4 * Main.LocalPlayer.GetThoriumPlayer().healBonus;
-                string seconds = LocalizedText.ApplyPluralization("{^0:секунда;секунды;секунд}", healBonus);
+                string seconds = LocalizedText.ApplyPluralization("{^0:секунду;секунды;секунд}", healBonus);
                 tooltip.Text = $"Увеличивает урон всех ближайших союзников на 20% на [c/5aff5a:{healBonus}] {seconds}";
             });
         }
@@ -343,50 +336,31 @@ public class ThoriumGlobalItem : GlobalItem
             });
         }
         
-        if (item.type == ModContent.ItemType<LifeQuartzClaymore>() || item.type == ModContent.ItemType<BloodTransfusion>() ||
-            item.type == ModContent.ItemType<LeechBolt>() || item.type == ModContent.ItemType<SpiritBendersStaff>() ||
-            item.type == ModContent.ItemType<SpiritBlastWand>())
+        if (item.ModItem is ThoriumItem thoriumItem)
         {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerAmount", tooltip =>
+            if (thoriumItem.healType == HealType.LifeSteal)
             {
-                string[] parts = tooltip.Text.Split(' ');
-                if (tooltip.Text == $"Steals {parts[1]} life")
+                ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerAmount", tooltip =>
                 {
-                    tooltip.Text = $"Крадёт {parts[1]} ед. здоровья";
-                }
-            });
-        }
-        
-        if (item.type == ModContent.ItemType<TheGoodBook>() || item.type == ModContent.ItemType<StarRod>() ||
-            item.type == ModContent.ItemType<DarkMageStaff>() || item.type == ModContent.ItemType<BalanceBloom>() ||
-            item.type == ModContent.ItemType<CellReconstructor>() || item.type == ModContent.ItemType<ChiLantern>() ||
-            item.type == ModContent.ItemType<CosmicFluxStaff>() || item.type == ModContent.ItemType<CrystalWish>() ||
-            item.type == ModContent.ItemType<Hippocraticrossbow>() || item.type == ModContent.ItemType<BarrierGenerator>() ||
-            item.type == ModContent.ItemType<BrainCoral>() || item.type == ModContent.ItemType<CelestialWand>() ||
-            item.type == ModContent.ItemType<CleansingWaterPouch>() || item.type == ModContent.ItemType<CoralPurifier>() ||
-            item.type == ModContent.ItemType<Cryotherapy>() || item.type == ModContent.ItemType<DivineStaff>() ||
-            item.type == ModContent.ItemType<EaterOfPain>() || item.type == ModContent.ItemType<Gauze>() ||
-            item.type == ModContent.ItemType<HeartWand>() || item.type == ModContent.ItemType<HoneySuckle>() ||
-            item.type == ModContent.ItemType<LethalInjection>() || item.type == ModContent.ItemType<LifeAndDeath>() ||
-            item.type == ModContent.ItemType<LifeEssenceApparatus>() || item.type == ModContent.ItemType<LifesGift>() ||
-            item.type == ModContent.ItemType<LifeSurgeStaff>() || item.type == ModContent.ItemType<LightBurstWand>() ||
-            item.type == ModContent.ItemType<MistWeaver>() || item.type == ModContent.ItemType<MolecularStabilizer>() ||
-            item.type == ModContent.ItemType<PocketGuardian>() || item.type == ModContent.ItemType<Prophecy>() ||
-            item.type == ModContent.ItemType<RasWhisper>() || item.type == ModContent.ItemType<RecoveryWand>() ||
-            item.type == ModContent.ItemType<SacredCharge>() || item.type == ModContent.ItemType<StaffofSol>() ||
-            item.type == ModContent.ItemType<SunrayStaff>() || item.type == ModContent.ItemType<Syringe>() ||
-            item.type == ModContent.ItemType<TemplarsGrace>() || item.type == ModContent.ItemType<TeslaDefibrillator>() ||
-            item.type == ModContent.ItemType<TheGigaNeedle>() || item.type == ModContent.ItemType<TwilightStaff>() ||
-            item.type == ModContent.ItemType<SacredLyre>())
-        {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerAmount", tooltip =>
+                    string[] parts = tooltip.Text.Split(' ');
+                    if (tooltip.Text == $"Steals {parts[1]} life")
+                    {
+                        tooltip.Text = $"Крадёт {parts[1]} ед. здоровья";
+                    }
+                });
+            }
+
+            if (thoriumItem.healType == HealType.Ally)
             {
-                string[] parts = tooltip.Text.Split(' ');
-                if (tooltip.Text == $"Heals ally life by {parts[4]}")
+                ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerAmount", tooltip =>
                 {
-                    tooltip.Text = $"Лечит союзника на {parts[4]} ед. здоровья";
-                }
-            });
+                    string[] parts = tooltip.Text.Split(' ');
+                    if (tooltip.Text == $"Heals ally life by {parts[4]}")
+                    {
+                        tooltip.Text = $"Лечит союзника на {parts[4]} ед. здоровья";
+                    }
+                });
+            }
         }
         
         if (item.type == ModContent.ItemType<ValhallasDescent>() || item.type == ModContent.ItemType<DivineLotus>() ||
@@ -424,12 +398,6 @@ public class ThoriumGlobalItem : GlobalItem
         {
             ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerAmount", tooltip =>
             {
-                string[] parts = tooltip.Text.Split(' ');
-                if (tooltip.Text == $"Heals ally life by {parts[4]}")
-                {
-                    tooltip.Text = $"Лечит союзника на {parts[4]} ед. здоровья";
-                }
-                
                 if (tooltip.Text == "Heals ally life equal to your bonus healing")
                 {
                     tooltip.Text = "Лечит союзника на величину, равную вашему бонусному исцелению";
@@ -541,7 +509,7 @@ public class ThoriumGlobalItem : GlobalItem
             }
         });
         
-        ItemHelper.TranslateTooltip(tooltips, l => l.Name == "ThrowerAmount", _ =>
+        ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "ThrowerAmount", _ =>
         {
             tooltips.ReplaceText("Hold right click to store up to", "Удерживайте ПКМ, чтобы накопить до");
             tooltips.ReplaceText("needles", "игл");

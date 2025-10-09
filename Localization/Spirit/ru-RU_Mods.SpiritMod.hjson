@@ -7887,8 +7887,8 @@
 #        DisplayName: Ледяное метательное копьё
 #        Tooltip:
 #            '''
-#            Удерживайте <left>, чтобы зарядить, и отпустите, чтобы бросить
-#            Чем дольше удерживаете, тем выше скорость и урон
+#            Удерживайте <left> и отпустите, чтобы метнуть оружие
+#            Чем дольше удерживать, тем выше скорость полёта и наносимый урон
 #            Накладывает дебафф «{$BuffName.Frostburn}»
 #            '''
 #    }
@@ -8064,7 +8064,7 @@
 #        DisplayName: Гелиос
 #        Tooltip:
 #            '''
-#            Удерживайте <left> и отпустите её, чтобы метнуть оружие
+#            Удерживайте <left> и отпустите, чтобы метнуть оружие
 #            Нажмите <right>, чтобы рывком устремиться к оружию, уничтожая всё на своём пути
 #            '''
 #    }
@@ -8594,34 +8594,34 @@
 #        DisplayName: Елевферий
 #        Tooltip:
 #            '''
-#            Reduces healing item effectiveness by 15%
-#            Using a healing item gives a temporary damage bonus that decays to 0 over 15 seconds,
-#            Initial strength depends on the healing value of the consumable
+#            Снижает эффективность лечебных предметов на 15%
+#            Использование лечебного предмета даёт временный бонус к урону, который полностью исчезает в течение 15 секунд
+#            Начальная сила эффекта зависит от объёма лечения, получаемого от расходуемого предмета
 #            '''
 #    }
 #
 #    MarkOfZeus: {
-#        DisplayName: Mark of Zeus
+#        DisplayName: Знак Зевса
 #        Tooltip:
 #            '''
-#            Hold and release to throw
-#            Hold it longer for more velocity and damage
-#            Consumes 20 mana per second while charging
+#            Удерживайте <left> и отпустите, чтобы метнуть оружие
+#            Чем дольше удерживать, тем выше скорость полёта и наносимый урон
+#            Во время зарядки расходует 20 маны в секунду
 #            '''
 #    }
 #
 #    OlympiumToken: {
-#        DisplayName: Olympium Token
-#        Tooltip: May be of interest to a collector...
+#        DisplayName: Олимпиевый жетон
+#        Tooltip: Может заинтересовать коллекционера...
 #    }
 #
 #    DuelistLegacy: {
-#        DisplayName: First Mate
+#        DisplayName: Старпом
 #        Tooltip:
 #            '''
-#            Right click to fire a powerful shotgun blast 
-#            Charges up a super attack after 2 swings
-#            Release this special attack as either a slash or a blast
+#            Нажмите <right>, чтобы выстрелить мощным зарядом дроби
+#            Суператака заряжается после двух взмахов
+#            Её можно высвободить в виде рубящего удара или заряда
 #            '''
 #    }
 #
@@ -8843,52 +8843,52 @@
 #    }
 #
 #    PossessedHammer: {
-#        DisplayName: Possessed Hammer
-#        Tooltip: Throws a returning, vengeful hammer that will seek out enemies to hit additional times
+#        DisplayName: Одержимый молот
+#        Tooltip: Бросает возвращающийся мстительный молот, наводящийся на врагов и наносящий дополнительные удары
 #    }
 #
 #    SlagHammer: {
-#        DisplayName: Slag Breaker
+#        DisplayName: Шлаковый дробитель
 #        Tooltip:
 #            '''
-#            Hold down and release to throw the Hammer like a boomerang
-#            Can be wound up to deal increased damage
+#            Удерживайте <left> и отпустите, чтобы метнуть молот, действующий как бумеранг
+#            Чем дольше удерживать, тем выше наносимый урон
 #            '''
 #    }
 #
 #    BambooHalberd: {
-#        DisplayName: Bamboo Halberd
+#        DisplayName: Бамбуковая алебарда
 #        Tooltip: ""
 #    }
 #
 #    DuskLance: {
-#        DisplayName: Dusk Lance
-#        Tooltip: Shoots out an apparition that inflicts Shadowflame
+#        DisplayName: Сумеречное копьё
+#        Tooltip: Выпускает призрачное видение, накладывающее дебафф «{$BuffName.ShadowFlame}»
 #    }
 #
 #    GhostJellyBomb: {
-#        DisplayName: Ghost Jelly Bomb
+#        DisplayName: Призрачная медузья бомба
 #        Tooltip: ""
 #    }
 #
 #    Gravehunter: {
-#        DisplayName: Gravehunter
-#        Tooltip: "'You can't tell if you guide the trigger or it guides you'"
+#        DisplayName: Могильный охотник
+#        Tooltip: "'Не разберёшь, то ли ты управляешь курок, то ли он - тобой'"
 #    }
 #
 #    NetherCrystal: {
-#        DisplayName: Nether Crystal
-#        Tooltip: "'Brimming with bright souls'"
+#        DisplayName: Кристалл преисподней
+#        Tooltip: "'Переполнен светлыми душами'"
 #    }
 #
 #    NetherWings: {
-#        DisplayName: Nether Wings
-#        Tooltip: Allows for flight and slow fall.
+#        DisplayName: Крылья преисподней
+#        Tooltip: "{$CommonItemTooltip.FlightAndSlowfall}"
 #    }
 #
 #    PossessedBook: {
-#        DisplayName: Ancient Grimoire
-#        Tooltip: Summons a Haunted Tome to guide you
+#        DisplayName: Древний гримуар
+#        Tooltip: Призывает одержимый фолиант, служащий проводником
 #    }
 #
 #    SoulWeaver: {
@@ -9173,8 +9173,8 @@
 #        DisplayName: Метательное копьё тики
 #        Tooltip:
 #            '''
-#            Удерживайте и отпустите для броска
-#            Чем дольше удерживаете, тем выше скорость и урон
+#            Удерживайте <left> и отпустите, чтобы метнуть оружие
+#            Чем дольше удерживать, тем выше скорость полёта и наносимый урон
 #            '''
 #    }
 #
@@ -9462,8 +9462,8 @@
 #        DisplayName: Clatter Javelin
 #        Tooltip:
 #            '''
-#            Hold and release to throw
-#            Hold it longer for more velocity and damage
+#            Удерживайте <left> и отпустите, чтобы метнуть оружие
+#            Чем дольше удерживать, тем выше скорость полёта и наносимый урон
 #            '''
 #    }
 #
