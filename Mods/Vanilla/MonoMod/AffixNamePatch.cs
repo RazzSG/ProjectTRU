@@ -57,6 +57,9 @@ public class AffixNameWithCalamity : ILoadable
 
     private string ItemOnAffixName(On_Item.orig_AffixName orig, Item self)
     {
+        if (self == null || self.IsAir)
+            return orig.Invoke(self);
+        
         if (self.prefix < 0 || self.prefix >= Lang.prefix.Length)
             return self.Name;
 

@@ -3023,25 +3023,25 @@
 #    }
 #
 #    Book_Briar: {
-#        DisplayName: Notes on the Briar
+#        DisplayName: Заметки о поросли
 #        Tooltip: Автор: Полевой исследователь Лейваттс
 #        Content:
 #            '''
-#            Our three month expedition into the scarcely explored Briar came to an end two weeks ago. The team consisted of I, Dr. Nisha Laywatts, Dr. Rathi Everest, and a hired adventurer whose name is unknown. Dr. Everest and I completed the expedition unharmed, but the adventurer went missing four days before the excursion was complete. We tried searching for him to no avail. What is more pertinent to this book, however, is the data we have accrued.
+#            Наша трёхмесячная экспедиция в малоизученную поросль завершилась две недели назад. В состав команды входили я, доктор Ниша Лейваттс, доктор Рати Эверест и нанятый искатель приключений, чьё имя осталось неизвестным. Мы с доктором Эверест вернулись из экспедиции невредимыми, однако искатель приключений пропал без вести за четыре дня до её окончания. Наши поиски не увенчались успехом. Однако, что более важно для этой книги - это собранные нами данные.
 #            ---
-#            [c/7c9e5a:Climate and Ecology]
-#            The Briar presents one of the most unique climate systems in the world: the entire region undergoes perpetual rainfall. Temperatures are warm and humid, and plant life is overgrown. So overgrown, in fact, that a giant root system seems to run across and under the entire ecosystem. The reason for this continued rainfall is unknown, but I hypothesize that some megaflora (or perhaps even megafauna) at the center of this root system exerts a form of arcane power over the area that causes this torrential downpour.
+#            [c/7c9e5a:Климат и экология]
+#            Поросль представляет собой одну из самых уникальных климатических систем в мире: над всем регионом непрестанно льёт дождь. Температура здесь высокая, влажность также, а растительность буйная. Настолько буйная, что гигантская корневая система, кажется, пронизывает всю экосистему как на поверхности, так и под землёй. Причина этих непрекращающихся дождей неизвестна, но я предполагаю, что некая мегафлора (а возможно, и мегафауна), находящаяся в центре этой корневой системы, источает таинственную силу, вызывающую постоянные проливные ливни.
 #            ---
-#            [i:SpiritMod/BriarFlowerItem] [c/7c9e5a:Flora] [i:SpiritMod/BriarFlowerItem]
-#            As mentioned earlier, a complex and extensive root system spans the entire Briar. Data shows that every individual plant is connected via this expanse. This connection lets all plants in the Briar to share nutrients with one another, allowing for plant growth to occur far below the surface. Interestingly, plants in the Briar all display some form of bioluminescence. The underlying cause behind this is unknown, but I suspect that plants emit this alluring light to attract prey for the carnivorous beasts of the Briar. In turn, they absorb some of the detritus and use it for nutrition.
+#            [i:SpiritMod/BriarFlowerItem] [c/7c9e5a:Флора] [i:SpiritMod/BriarFlowerItem]
+#            Как упоминалось ранее, сложная и обширная корневая система охватывает всю поросль. Собранные данные показывают, что каждое отдельное растение связано с другими через эту сеть. Такая связь позволяет всем растениям поросли обмениваться питательными веществами, благодаря чему они способны расти даже глубоко под землёй. Примечательно, что все растения здесь проявляют ту или иную форму биолюминесценции. Причина этого явления неизвестна, однако я подозреваю, что растения испускают этот манящий свет, чтобы привлекать добычу для хищников поросли. В свою очередь, эти хищники поглощают часть останков и используют их для собственного питания.
 #            ---
-#            [i:SpiritMod/RawMeat] [c/7c9e5a:Fauna] [i:SpiritMod/RawMeat]
-#            The Briar is dominated by feral, low-intelligence bipeds and quadrapeds. Every faunal organism in the Briar is carnivorous yet composed of a large percentage of plant matter. A few bipeds seem to exhibit higher intelligence and wield magic, but their origin and habits could not be discerned. All organisms in the briar are hyper-aggressive and should be approached with extreme caution.
+#            [i:SpiritMod/RawMeat] [c/7c9e5a:Фауна] [i:SpiritMod/RawMeat]
+#            В поросли преобладают дикие, неразумные двуногие и четвероногие существа. Каждый представитель местной фауны является хищником, но при этом состоит преимущественно из растительной материи. Некоторые двуногие, судя по наблюдениям, проявляют более высокий интеллект и владеют магией, однако их происхождение и повадки установить не удалось. Все организмы поросли отличаются крайней агрессивностью, и приближаться к ним следует с предельной осторожностью.
 #            ---
-#            [c/7c9e5a:Anomalies]
-#            The underground Briar displays signs of inhabitation by some now-extinct civilization. Ruined brick and wood houses can be observed along with primitive weapons, tools, and trinkets. Many mysteries remain about these ruins and the Briar at large. Where did it come from? Why is it so hostile? And where are the people that once lived here?
+#            [c/7c9e5a:Аномалии]
+#            В подземной части поросли обнаруживаются следы обитания некой ныне вымершей цивилизации. Здесь можно увидеть разрушенные кирпичные и деревянные строения, а также примитивное оружие, инструменты и различные безделушки. Эти руины, как и поросль в целом, хранят ещё множество тайн. Откуда они взялись? Почему всё здесь столь враждебно? И куда исчезли люди, что когда-то жили на этой земле?
 #            ---
-#            Note: It seems as though a page of notes and diagrams is missing from the book. I probably lost it back in the depths of the Briar. Not worth a return journey, though.
+#            Примечание: Похоже, в книге отсутствует страница с заметками и схемами. Вероятно, я обронила её где-то в глубинах поросли. Впрочем, возвращаться туда ради этого не стоит.
 #            '''
 #    }
 #
@@ -3129,25 +3129,25 @@
 #    }
 #
 #    Book_Slime: {
-#        DisplayName: Where Do Slimes Come From?
-#        Tooltip: by Sorcerer Galen Arcturus
+#        DisplayName: Откуда берутся слизни?
+#        Tooltip: Автор: Чародей Гален Арктурус
 #        Content:
 #            '''
-#            They come from goo.
-#            That's about it. At least, that's where conventional research ends. But as an accomplished mage, I must delve deeper!
-#            First, it is important to take stock of what we know. Slimes are, scientifically speaking, big blobs of goo. They are highly flammable, possess no internal organs, and yet seem quite intelligent.
-#            Their composition matches no other material my fellow mages and I have ever seen. Where then, do they come from? Could a rival mage be summoning them? And to what devious end?! Are they a punishment from the gods themselves? Are we forever trapped in this bouncy, slimy purgatory?
-#            And most importantly- are they edible? We must keep searching for answers.
+#            Они появляются из слизи.
+#            Вот, собственно, и всё. По крайней мере, на этом обычные исследования заканчиваются. Но я, как выдающийся маг, обязан копнуть глубже!
+#            Для начала важно подытожить то, что нам известно. С научной точки зрения, слизни — это крупные комки слизи. Они легко воспламеняются, не имеют внутренних органов и всё же кажутся достаточно разумными.
+#            Их состав не похож ни на один другой материал, который я или мои коллеги-маги когда-либо видели. Так откуда же они берутся? Может, их призывает какой-нибудь маг-соперник - и с какой коварной целью?! Или это кара самих богов? Неужели мы навеки обречены на существование в этом упругом, склизком чистилище?
+#            И самое главное - съедобны ли они? Мы должны продолжать искать ответы.
 #            '''
 #    }
 #
 #    Book_Soulbloom: {
-#        DisplayName: Notes on Soulbloom
+#        DisplayName: Заметки о душецвете
 #        Tooltip:
 #            '''
 #            Автор: Лена Эшвуд, алхимик
-#            It details the anatomy and uses of an extremely rare herb
-#            'Where could she have found this?'
+#            В книге подробно изложены сведения об анатомии и применении чрезвычайно редкого растения
+#            'И где она только смогла это раздобыть?'
 #            '''
 #    }
 #
@@ -3155,9 +3155,9 @@
 #        DisplayName: Флора духовной рощи
 #        Tooltip:
 #            '''
-#            by Field Researcher Laywatts
-#            It seems to be a page of notes about the unknown Spirit Biome
-#            'There is a lot to be learned from this mysterious place'
+#            Автор: Полевой исследователь Лейваттс
+#            Судя по всему, это страница с заметками о неизведанной духовной роще
+#            'Это таинственное место может многому нас научить'
 #            '''
 #    }
 #
@@ -3183,14 +3183,14 @@
 #    }
 #
 #    Book_Yeremy: {
-#        DisplayName: I'm Really Mad
-#        Tooltip: by Polius Crassus
+#        DisplayName: Я просто в бешенстве
+#        Tooltip: Автор: Полиус Красс
 #        Content:
 #            '''
-#            I'm furious. This was supposed to be my masterpiece! I really put my heart and soul into this manuscript, and it got shot down instantly. It was supposed to be a gritty drama about a hero who transforms into a villain. Here's my favorite part:
-#            [c/b5a493:Yeremy, the Rainforest Dictator]
-#            [c/b5a493:And so, after witnessing his sixth home village be destroyed by evil necromancers, Yeremy decided that enough was enough. He was really mad this time. He was going to exact vengeance on all living things... And he'd start by summoning his accursed demon avatar, a hydra straight from the underworld. The only thoughts that ran through his mind were 'kill, kill, kill...']
-#            But NOOOOO. My editor says it was 'too asinine' and 'so hyperbolic that I stopped at page three.' Well, his loss! I'm sure I'll find someone that'll like this manuscript.
+#            Я в ярости. Это должен был быть мой шедевр! Я ведь излил в эту рукопись всю свою душу, а её тут же отвергли. Это должна была быть остросюжетная драма о герое, который становится злодеем. Вот мой любимый отрывок:
+#            [c/b5a493:Еремей, Диктатор тропического леса]
+#            [c/b5a493:И вот, став свидетелем того, как злые некроманты уничтожили уже шестую его родную деревню, Еремей решил: с него хватит. На этот раз он разозлился не на шутку. Он собирался обрушить свою месть на всё живое... Начать он решил с призыва своего проклятого демонического аватара - гидры прямиком из преисподней. В его голове была лишь одна мысль: «Убивать, убивать, убивать...»]
+#            Но НЕЕЕЕТ! Мой редактор сказал, что она «слишком бредовая» и «настолько гиперболизированная, что я бросил читать на третьей странице». Что ж - его потеря! Уверен, я найду кого-нибудь, кому эта рукопись понравится.
 #            '''
 #    }
 #
@@ -8468,45 +8468,45 @@
 #    }
 #
 #    TrueDarkStaff: {
-#        DisplayName: True Horizon's Edge
-#        Tooltip: Shoots out a splitting volley of homing pestilence and cursed fire.
+#        DisplayName: Истинная грань горизонта
+#        Tooltip: Выпускает разделяющийся залп самонаводящихся чумных снарядов и проклятого огня
 #    }
 #
 #    TrueHallowedStaff: {
-#        DisplayName: True Hallowed Staff
-#        Tooltip: Shoots out multiple swords with different effects.
+#        DisplayName: Истинный освящённый посох
+#        Tooltip: Выпускает несколько мечей с различными эффектами
 #    }
 #
 #    BreathOfTheZephyr: {
-#        DisplayName: Breath of the Zephyr
+#        DisplayName: Дыхание Зефира
 #        Tooltip:
 #            '''
-#            Creates a mighty gust of wind to damage your foes and knock them back
-#            Right-click to thrust like a spear, and leech mana from struck foes
+#            Создаёт мощный порыв ветра, наносящий урон врагам и отбрасывающий их назад
+#            Нажатие <right> совершает выпад, подобный удару копья, и высасывает ману из поражённых врагов
 #            '''
 #    }
 #
 #    MarbleChest: {
-#        DisplayName: Gilded Robe
+#        DisplayName: Позолоченная роба
 #        Tooltip:
 #            '''
-#            10% increased movement speed
-#            Doubles acceleration
-#            'All that glitters is gold'
+#            Увеличивает скорость передвижения на 10%
+#            Удваивает ускорение передвижения
+#            'Всё то золото, что блестит'
 #            '''
 #    }
 #
 #    MarbleHelm: {
-#        DisplayName: Gilded Laurel
-#        Tooltip: 10% increased movement speed
+#        DisplayName: Позолоченный лавровый венец
+#        Tooltip: Увеличивает скорость передвижения на 10%
 #    }
 #
 #    MarbleBident: {
-#        DisplayName: Gilded Bident
+#        DisplayName: Позолоченный двузубец
 #        Tooltip:
 #            '''
-#            Occasionally inflicts 'Midas', causing enemies to drop more gold
-#            Hitting an enemy that has 'Midas' may release a fountain of gold
+#            Время от времени накладывает дебафф «{$BuffName.Midas}», из-за которого из врагов выпадает больше золота
+#            Удар по врагу, находящемуся под действием дебаффа «{$BuffName.Midas}», может вызвать фонтан золота
 #            '''
 #    }
 #
@@ -8892,83 +8892,83 @@
 #    }
 #
 #    SoulWeaver: {
-#        DisplayName: Soul Weaver
-#        Tooltip: Shoots out Soul Shards
+#        DisplayName: Ткач душ
+#        Tooltip: Стреляет осколками душ
 #    }
 #
 #    SpiritFlameStaff: {
-#        DisplayName: Spiritflame Staff
-#        Tooltip: Shoots out a spirit bolt that explodes in 4 directions
+#        DisplayName: Посох духовного пламени
+#        Tooltip: Выпускает духовный снаряд, взрывающийся в четырёх направлениях
 #    }
 #
 #    StarCutter: {
-#        DisplayName: Star Cutter
+#        DisplayName: Звёздный рассекатель
 #        Tooltip: ""
 #    }
 #
 #    StoneOfSpiritsPast: {
-#        DisplayName: Stone of Spirits Past
-#        Tooltip: Creates orbiting souls to hurt nearby enemies
+#        DisplayName: Камень духов прошлого
+#        Tooltip: Создаёт души, вращающиеся вокруг вас и наносящие урон ближайшим врагам
 #    }
 #
 #    PhantomArc: {
-#        DisplayName: Phantom Arc
-#        Tooltip: Summons an infinitely piercing laser of lost souls
+#        DisplayName: Призрачный разряд
+#        Tooltip: Призывает лазер из потерянных душ с бесконечным пронзанием
 #    }
 #
 #    Revenant: {
-#        DisplayName: Revenant
-#        Tooltip: Converts regular arrows into Revenant Arrows
+#        DisplayName: Ревенант
+#        Tooltip: Превращает обычные стрелы в стрелы ревенанта
 #    }
 #
 #    SoulShred: {
-#        DisplayName: Ethereal Ember
-#        Tooltip: "'A part of the everburning Soul'"
+#        DisplayName: Эфирный уголёк
+#        Tooltip: "'Частица вечно горящей души'"
 #    }
 #
 #    SpiritBodyArmor: {
-#        DisplayName: Spirit Body Armor
-#        Tooltip: Increases melee damage and critical strike chance by 10%, as well as reducing damage taken by 10%
+#        DisplayName: Духовный нагрудник
+#        Tooltip: Увеличивает урон и шанс критического удара ближнего боя на 10%, а также снижает получаемый урон на 10%
 #    }
 #
 #    SpiritHeadgear: {
-#        DisplayName: Spirit Headgear
-#        Tooltip: Increases max life by 10 and increases melee damage by 12%
+#        DisplayName: Духовный головной убор
+#        Tooltip: Увеличивает максимальный запас здоровья на 10 и урон ближнего боя на 12%
 #    }
 #
 #    SpiritLeggings: {
-#        DisplayName: Spirit Leggings
-#        Tooltip: 10% increased melee speed
+#        DisplayName: Духовные поножи
+#        Tooltip: Увеличивает скорость атаки ближнего боя на 10%
 #    }
 #
 #    SpiritBar: {
-#        DisplayName: Spirit Bar
+#        DisplayName: Духовный слиток
 #        Tooltip: ""
 #    }
 #
 #    SpiritBoomerang: {
-#        DisplayName: Spirit Boomerang
-#        Tooltip: Inflicts Soul Burn
+#        DisplayName: Духовный бумеранг
+#        Tooltip: Накладывает дебафф «{$Buffs.SoulBurn.DisplayName}»
 #    }
 #
 #    SpiritDrill: {
-#        DisplayName: Spirit Drill
+#        DisplayName: Духовный бур
 #        Tooltip: ""
 #    }
 #
 #    SpiritGun: {
-#        DisplayName: Spirit Burst
-#        Tooltip: Turns regular bullets into Spirit Bullets
+#        DisplayName: Духовный разряд
+#        Tooltip: Превращает обычные пули в духовные
 #    }
 #
 #    SpiritHamaxe: {
-#        DisplayName: Spirit Hamaxe
+#        DisplayName: Духовный молотопор
 #        Tooltip: ""
 #    }
 #
 #    SpiritOre: {
-#        DisplayName: Spirit Ore
-#        Tooltip: "'Spirit-infused metal'"
+#        DisplayName: Духовная руда
+#        Tooltip: "'Металл, наполненный духом'"
 #    }
 #
 #    SpiritPickaxe: {
