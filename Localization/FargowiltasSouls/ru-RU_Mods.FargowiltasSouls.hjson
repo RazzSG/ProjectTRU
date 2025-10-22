@@ -2010,7 +2010,7 @@ Items: {
             Урон, который был заблокирован, отражён или от которого вы уклонились, также учитывается для активации баффа «{$Buffs.ShellSmashBuff.DisplayName}»
             «{$Buffs.ShellSmashBuff.DisplayName}» увеличивает скорость атаки на 20%, а также значительно увеличивает скорость передвижения и ускорение
             Когда вы стоите на месте, на вас формируется панцирь, снижающий получаемый урон на 66% и предотвращающий наложение дебаффов при получении удара
-            В панцире снаряды и контактный урон отражаются, нанося врагам 500% урона
+            Пока вы в панцире, снаряды и контактный урон отражаются, нанося врагам 500% урона
             'Вас внезапно охватывает желание спрятаться в панцире'
             '''
     }
@@ -2030,7 +2030,7 @@ Items: {
         DisplayName: Вихревое усиление
         Tooltip:
             '''
-            Ваши атаки по очень удалённым врагам запускают пронзающий лазер
+            Атаки по очень удалённым врагам запускают пронзающий лазер
             Перезарядка 10 секунд
             'Ворвись в реальность'
             '''
@@ -2109,7 +2109,7 @@ Items: {
         Tooltip:
             '''
             [i:FargowiltasSouls/SolarEnchant] Ваши атаки формируют до 4 лун, вращающихся вокруг вас
-            [i:FargowiltasSouls/VortexEnchant] Прекратите атаковать, чтобы запустить луны в направлении курсора и взорвать их, создавая лунные усилители
+            [i:FargowiltasSouls/VortexEnchant] Прекратите атаковать, чтобы запустить луны в направлении курсора и взорвать их, что создаст лунные усилители
             [i:FargowiltasSouls/NebulaEnchant] Подбор лунных усилителей увеличивает урон, шанс критического удара, регенерацию здоровья или сопротивление урону
             [i:FargowiltasSouls/WizardEnchant] Улучшает эффекты всех ваших Усилений
             [i:FargowiltasSouls/MeteorEnchant] Даёт эффекты от предмета «{$ItemName.Magiluminescence}»
@@ -2122,7 +2122,7 @@ Items: {
         Tooltip:
             '''
             [i:FargowiltasSouls/MythrilEnchant][i:FargowiltasSouls/PalladiumEnchant][i:FargowiltasSouls/TitaniumEnchant][i:FargowiltasSouls/AdamantiteEnchant][i:FargowiltasSouls/OrichalcumEnchant] Когда вы не атакуете, накапливается заряд, который постепенно усиливает ваши показатели атаки и защиты; атаки расходуют накопленный заряд
-            [i:FargowiltasSouls/OrichalcumEnchant] Ваши дебаффы, наносящие урон, наносят на 100% больше урона
+            [i:FargowiltasSouls/OrichalcumEnchant] Ваши дебаффы, наносящие урон, усилены в 2 раза
             [i:FargowiltasSouls/CobaltEnchant] Увеличивает высоту и скорость прыжка; удерживайте <down>, чтобы ускорить падение
             'Благословение Гайи озаряет вас'
             '''
@@ -2131,8 +2131,8 @@ Items: {
             [i:FargowiltasSouls/MythrilEnchant] Когда вы не атакуете, накапливается заряд; атаки расходуют накопленный заряд, увеличивающий скорость атаки
             [i:FargowiltasSouls/PalladiumEnchant][i:FargowiltasSouls/TitaniumEnchant] Чем больше накопленный заряд, тем выше регенерация здоровья и сопротивление урону
             [i:FargowiltasSouls/AdamantiteEnchant] Скорость ваших атак увеличивается, пока вы продолжаете атаковать, расходуя при этом заряд
-            [i:FargowiltasSouls/OrichalcumEnchant] С накопленным зарядом вы также накладываете дебафф «{$Buffs.EarthPoison.DisplayName}», который наносит процент от урона атаки
-            [i:FargowiltasSouls/OrichalcumEnchant] Ваши дебаффы, наносящие урон, наносят на 100% больше урона
+            [i:FargowiltasSouls/OrichalcumEnchant] С накопленным зарядом вы также накладываете дебафф «{$Buffs.EarthPoison.DisplayName}», силаа которого зависитт от урона атаки
+            [i:FargowiltasSouls/OrichalcumEnchant] Ваши дебаффы, наносящие урон, усилены в 2 раза
             [i:FargowiltasSouls/CobaltEnchant] Увеличивает высоту и скорость прыжка; удерживайте <down>, чтобы ускорить падение
             'Благословение Гайи озаряет вас'
             '''
@@ -2143,20 +2143,21 @@ Items: {
         Tooltip:
             '''
             [i:FargowiltasSouls/BeeEnchant] Даёт мощные крылья и эффекты от предмета «{$ItemName.HiveBackpack}»
-            [i:FargowiltasSouls/PumpkinEnchant][i:FargowiltasSouls/BeetleEnchant][i:FargowiltasSouls/CactusEnchant] Во время полёта вы оставляете за собой которые наносят урон врагам или. Подобрав их, вы восстановите время полёта и получите мощное усиление
+            [i:FargowiltasSouls/PumpkinEnchant][i:FargowiltasSouls/BeetleEnchant][i:FargowiltasSouls/CactusEnchant] Во время полёта вы оставляете за собой цветы, которые наносят урон врагам. Подобрав их, вы восстановите время полёта и получите мощное усиление
             [i:FargowiltasSouls/SpiderEnchant] Оружие призывателя может наносить критические удары с уроном в 125%
-            [i:FargowiltasSouls/TurtleEnchant] Когда вы стоите на месте, на вас формируется панцирь, снижающий получаемый урон от одной полученной атаки
+            [i:FargowiltasSouls/TurtleEnchant] Когда вы стоите на месте, на вас формируется панцирь, снижающий получаемый урон от одной атаки
             'Редко живое существо, что осмелится не подчиниться вашей воле'
             '''
+// Явно пропущена пара слов в описании
         RuminateTooltip:
             '''
             [i:FargowiltasSouls/BeeEnchant] Даёт мощные крылья
-            [i:FargowiltasSouls/BeeEnchant] Во время полёта вы оставляете за собой могущественные цветы
+            [i:FargowiltasSouls/BeeEnchant] Во время полёта вы оставляете за собой цветы
             [i:FargowiltasSouls/PumpkinEnchant] Когда вы прикасаетесь к цветам, они выпускают рой пчёл, дают бафф «{$Buffs.AmbrosiaBuff.DisplayName}» и восстанавливают время полёта
             [i:FargowiltasSouls/CactusEnchant] Когда враги прикасаются к цветам, они создают большое скопление игл
             [i:FargowiltasSouls/BeetleEnchant] Бафф «{$Buffs.AmbrosiaBuff.DisplayName}» увеличивает урон на 20%, сопротивление урону на 8% и регенерацию здоровья на 5
             [i:FargowiltasSouls/SpiderEnchant] Оружие призывателя может наносить критические удары с уроном в 125%
-            [i:FargowiltasSouls/TurtleEnchant] Когда вы стоите на месте, на вас формируется панцирь, снижающий получаемый урон от одной полученной атаки
+            [i:FargowiltasSouls/TurtleEnchant] Когда вы стоите на месте, на вас формируется панцирь, снижающий получаемый урон от одной атаки
             [i:FargowiltasSouls/BeeEnchant] Даёт эффекты от предмета «{$ItemName.HiveBackpack}»
             'Редко живое существо, что осмелится не подчиниться вашей воле'
             '''
@@ -2191,16 +2192,17 @@ Items: {
         DisplayName: Сила смерти
         Tooltip:
             '''
-            [i:FargowiltasSouls/CrystalAssassinEnchant][i:FargowiltasSouls/ShinobiEnchant][i:FargowiltasSouls/AncientShadowEnchant] Позволяет совершить теневой рывок, прерывающий вертикальное движение и способный быть направленным по диагонали. Обладает долгой перезарядкой
+            [i:FargowiltasSouls/CrystalAssassinEnchant][i:FargowiltasSouls/ShinobiEnchant][i:FargowiltasSouls/AncientShadowEnchant] Позволяет совершить теневой рывок, который прерывает вертикальное движение и может быть направлен по диагонали. Обладает долгой перезарядкой
             [i:FargowiltasSouls/SpookyEnchant] Рывок сквозь врагов исцеляет вас и накладывает на них дебафф «{$Buffs.MarkedforDeathBuff.DisplayName}»
             [i:FargowiltasSouls/NinjaEnchant] Увеличивает шанс критического удара снарядов в зависимости от их скорости. Эффект усиливается, если вы стоите на месте
             [i:FargowiltasSouls/NecroEnchant] Из убитых врагов может выпасть груда костей
             [i:FargowiltasSouls/DarkArtistEnchant] Во время атаки автоматически стреляет снарядом из ближайшего оружия в качестве поддержки
-            'Всё темнее, ещё темнее, тьма без края'
+            'Темно, темнее, ещё темнее'
             '''
+//Классическая фраза Гастера звучит именно так
         RuminateTooltip:
             '''
-            [i:FargowiltasSouls/CrystalAssassinEnchant] Позволяет совершить теневой рывок, прерывающий вертикальное движение и способный быть направленным по диагонали
+            [i:FargowiltasSouls/CrystalAssassinEnchant] Позволяет совершить теневой рывок, который прерывает вертикальное движение и может быть направлен по диагонали
             [i:FargowiltasSouls/ShinobiEnchant] Каждые 4 секунды ваш следующий рывок окутывает вас тенью, делая вас неуязвимым во время рывка
             [i:FargowiltasSouls/SpookyEnchant] Во время теневого рывка вращает вокруг вас косу, которая при попадании исцеляет вас и накладывает дебафф «{$Buffs.MarkedforDeathBuff.DisplayName}»
             [i:FargowiltasSouls/AncientShadowEnchant] Рывок создаёт вокруг вас всплеск теневого пламени
@@ -2208,7 +2210,7 @@ Items: {
             [i:FargowiltasSouls/NinjaEnchant] Увеличивает скорость снаряда при медленном движении
             [i:FargowiltasSouls/NecroEnchant] Из убитых врагов может выпасть груда костей
             [i:FargowiltasSouls/DarkArtistEnchant] Во время атаки автоматически стреляет снарядом из ближайшего оружия в качестве поддержки
-            'Всё темнее, ещё темнее, тьма без края'
+            'Темно, темнее, ещё темнее'
             '''
     }
 
@@ -2227,8 +2229,8 @@ Items: {
         DisplayName: Сила земли
         Tooltip:
             '''
-            [i:FargowiltasSouls/CopperEnchant][i:FargowiltasSouls/ObsidianEnchant][i:FargowiltasSouls/LeadEnchant] Критические удары иногда вызывают молнию, которая взрывается при попадании и накладывает сильный дебафф «{$Buffs.LeadPoisonBuff.DisplayName}»
-            [i:FargowiltasSouls/SilverEnchant] Парирование блокирует до 200 единиц урона успешные парирования мгновенно выпускают разряд молнии
+            [i:FargowiltasSouls/CopperEnchant][i:FargowiltasSouls/ObsidianEnchant][i:FargowiltasSouls/LeadEnchant] Критические удары иногда вызывают молнию, которая взрывается при попадании и накладывает уиленную версию дебаффа «{$Buffs.LeadPoisonBuff.DisplayName}»
+            [i:FargowiltasSouls/SilverEnchant] Парирование блокирует до 200 единиц урона; успешные парирования мгновенно выпускают разряд молнии
             [i:FargowiltasSouls/TinEnchant] Успешные парирования мгновенно увеличивают шанс критического удара на 25%. При получении урона бонус сбрасывается
             [i:FargowiltasSouls/LeadEnchant] Вы получаете на 50% меньше постепенного урона от дебаффов
             [i:FargowiltasSouls/TungstenEnchant] Увеличивает размер оружия ближнего боя на 50% и дальность хлыстов на 20%
@@ -2244,17 +2246,18 @@ Items: {
             '''
             [i:FargowiltasSouls/EbonwoodEnchant][i:FargowiltasSouls/ShadewoodEnchant][i:FargowiltasSouls/BorealWoodEnchant][i:FargowiltasSouls/PalmWoodEnchant] Окружает аурой, которая накладывает дебаффы и автоматически атакует ближайших врагов
             [i:FargowiltasSouls/PearlwoodEnchant] Ваши атаки иногда создают звёзды маны при попадании
-            [i:FargowiltasSouls/PearlwoodEnchant] При подборе любого предмета (из группы восстановления) даёт усиление, делая ваши критические удары успешными в течение 5 секунд
+            [i:FargowiltasSouls/PearlwoodEnchant] При подборе любого предмета (из группы восстановления) даёт усиление, которое несколько раз применяет шанс критического удара на атаку
             [i:FargowiltasSouls/RichMahoganyEnchant][i:FargowiltasSouls/WoodEnchant] Даёт бонусы для крюков, бестиария, знамён и магазинов
             'Чрезвычайно жёсткая'
             '''
+// Сложная хрень. Насколько я понял, это работает так: усиление делает так, чтобы шанс на крит (условно 75%) ролился не 1, а 2 и больше раз, те если в первый раз атака не стала критической, то у неё есть шанс стать ею при втором ролле
         RuminateTooltip:
             '''
             [i:FargowiltasSouls/EbonwoodEnchant][i:FargowiltasSouls/ShadewoodEnchant] Окружает аурой порчи и кровотечения
             [i:FargowiltasSouls/BorealWoodEnchant][i:FargowiltasSouls/PalmWoodEnchant] Выпускает снежки и жёлуди в сторону врагов, находящихся в пределах ауры
             [i:FargowiltasSouls/RichMahoganyEnchant] Все крюки притягивают, вылетают и возвращаются в 2 раза быстрее
             [i:FargowiltasSouls/PearlwoodEnchant] Ваши атаки иногда создают звёзды маны при попадании
-            [i:FargowiltasSouls/PearlwoodEnchant] При подборе любого предмета (из группы восстановления) даёт усиление, делая ваши критические удары успешными в течение 5 секунд
+            [i:FargowiltasSouls/PearlwoodEnchant] При подборе любого предмета (из группы восстановления) на 5 секунд даёт усиление, которое несколько раз применяет шанс критического удара на атаку
             [i:FargowiltasSouls/WoodEnchant] Заполнение записей в бестиарии и получение знамён происходит быстрее
             [i:FargowiltasSouls/WoodEnchant] Вы получаете скидку у продавцов в зависимости от прогресса заполнения бестиария (работает из инвентаря или в слотах для украшений)
             'Чрезвычайно жёсткая'
@@ -2265,7 +2268,8 @@ Items: {
         DisplayName: Сила воли
         Tooltip:
             '''
-            [i:FargowiltasSouls/GladiatorEnchant] За вами следует дух гладиатора со знаменем, который усиливает вас, находясь поблизости
+            [i:FargowiltasSouls/GladiatorEnchant] За вами следует дух гладиатора со знаменем, которое усиливает вас, находясь поблизости
+//Буквально в следующей строке говорится, что усиливает знамя, а не гладиатор
             [i:FargowiltasSouls/RedRidingEnchant] Последовательные атаки получают бонусный урон, который увеличивается во время действия усиления от знамени
             [i:FargowiltasSouls/ValhallaKnightEnchant] Увеличивает эффективность любого лечения на 15%
             [i:FargowiltasSouls/ValhallaKnightEnchant] Значительно улучшает ездовых питомцев, а также позволяет ездовым питомцам совершать горизонтальные и вертикальные рывки
@@ -2294,13 +2298,13 @@ Items: {
         DisplayName: Ботинки Эола
         Tooltip:
             '''
-            Позволяет летать, супербыстро бегать, и даёт дополнительную подвижность на льду
-            Позволяет очень быстро бегать по песку
-            Увеличивает скорость передвижения на 8%
-            Увеличивает скорость и высоту прыжка, позволяет совершать двойной прыжок и автопрыжок, а также защищает от урона при падении
-            Позволяет ходить по воде, мёду и лаве
-            Даёт невосприимчивость к огненным блокам и 7 секунд невосприимчивости к лаве
-            Снижает урон, получаемый при контакте с лавой
+            Позволяют летать, супербыстро бегать, и дают дополнительную подвижность на льду
+            Позволяют очень быстро бегать по песку
+            Увеличивают скорость передвижения на 8%
+            Увеличивают скорость и высоту прыжка, позволяют совершать двойной прыжок и автопрыжок, а также защищают от урона при падении
+            Позволяют ходить по воде, мёду и лаве
+            Дают невосприимчивость к огненным блокам и 7 секунд невосприимчивости к лаве
+            Снижают урон, получаемый при контакте с лавой
             На траве, по которой прошлись, начинают расти цветы
             'Беги как ветер'
             '''
@@ -2356,7 +2360,7 @@ Items: {
             [c/00FFFF:Следующие эффекты также пассивно работают из инвентаря или в слотах для украшений (<right>, чтобы отключить в инвентаре):]
             Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/MysticSkull] «{$BuffName.Suffocation}», [i:FargowiltasSouls/SecurityWallet] «{$Buffs.MidasBuff.DisplayName}»
             [i:FargowiltasSouls/WyvernFeather] Стабилизирует гравитацию в космосе и жидкостях
-            [i:FargowiltasSouls/SecurityWallet] Подобранные монеты автоматически отправляются в свинью-копилку и снижает стоимость перековки на 50%
+            [i:FargowiltasSouls/SecurityWallet] Подобранные монеты автоматически отправляются в свинью-копилку, а стоимость перековки снижена на 50%
             [i:FargowiltasSouls/MysticSkull] Автоматически использует зелья маны при необходимости
             'Слияние тысяч мелких врагов'
             '''
@@ -2364,7 +2368,7 @@ Items: {
             '''
             Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/MysticSkull] «{$BuffName.Suffocation}», [i:FargowiltasSouls/SecurityWallet] «{$Buffs.MidasBuff.DisplayName}»
             [i:FargowiltasSouls/WyvernFeather] Стабилизирует гравитацию в космосе и жидкостях
-            [i:FargowiltasSouls/SecurityWallet] Подобранные монеты автоматически отправляются в свинью-копилку и снижает стоимость перековки на 50%
+            [i:FargowiltasSouls/SecurityWallet] Подобранные монеты автоматически отправляются в свинью-копилку, а стоимость перековки снижена на 50%
             [i:FargowiltasSouls/MysticSkull] Автоматически использует зелья маны при необходимости
             '''
         RuminateTooltip: Даёт невосприимчивость к дебаффам [i:FargowiltasSouls/WyvernFeather] «{$Buffs.ClippedWingsBuff.DisplayName}», [i:FargowiltasSouls/CrystalSkull] «{$BuffName.Dazed}», «{$BuffName.Webbed}», [i:FargowiltasSouls/DreadShell] «{$Buffs.AnticoagulationBuff.DisplayName}», [i:FargowiltasSouls/WretchedPouch] «{$BuffName.ShadowFlame}»
@@ -2434,7 +2438,7 @@ Items: {
             Даёт невосприимчивость к дебаффу «{$Buffs.RottingBuff.DisplayName}»
             Увеличивает скорость передвижения и скорость замедления персонажа
             Во время атаки из ближайшего окружения появляются маленькие пожиратели, преследующие врагов и накладывающие дебафф «{$Buffs.RottingBuff.DisplayName}»
-            'Мухи обходят его стороной'
+            'Мухи облетают его стороной'
             '''
     }
 
@@ -2442,8 +2446,8 @@ Items: {
         DisplayName: Циклоп-когти
         Tooltip:
             '''
-            Даёт невосприимчивость к дебаффам «{$BuffName.Slow}» и «{$BuffName.Frozen}»
-            При рывке оставляет след из ледяных шипов, которые, находясь в воздухе, нацеливаются на ближайшего врага
+            Дают невосприимчивость к дебаффам «{$BuffName.Slow}» и «{$BuffName.Frozen}»
+            При рывке оставляют след из ледяных шипов, которые, находясь в воздухе, нацеливаются на ближайшего врага
             Во время рывка вы получаете 20% сопротивления урону
             'Подстриженные ногти побеждённого врага'
             '''
@@ -2454,7 +2458,7 @@ Items: {
         Tooltip:
             '''
             Даёт невосприимчивость к отбрасыванию и дебаффу «{$Buffs.AnticoagulationBuff.DisplayName}»
-            Контратака блокирует до 200 единиц урона и накладывает дебафф «{$Buffs.AnticoagulationBuff.DisplayName}», при котором из врагов при получении урона выпадают сгустки крови
+            Контратака блокирует до 200 единиц урона и накладывает дебафф «{$Buffs.AnticoagulationBuff.DisplayName}», из-за которого враги при получении урона роняют сгустки крови
             Поглощение сгустков крови временно увеличивает урон на 25%
             'Зря мы тут устроили Кам Бакет'
             '''
