@@ -3195,65 +3195,65 @@
 #    }
 #
 #    BismitePage: {
-#        DisplayName: Notes on Bismite Crystals
+#        DisplayName: Заметки о кристаллах бисмита
 #        Tooltip:
 #            '''
-#            by Professor Alex Tannis
-#            Contains information on a toxic ore fond around the caverns
+#            Автор: Профессор Алекс Таннис
+#            Содержит информацию о токсичной руде, встречающейся в пещерах
 #            '''
 #    }
 #
 #    EnchantedLeafPage: {
-#        DisplayName: Notes on Enchanted Leaves
+#        DisplayName: Заметки о зачарованных листьях
 #        Tooltip:
 #            '''
-#            by Professor Alex Tannis
-#            Contains information on mystical leaves found in the Briar
+#            Автор: Профессор Алекс Таннис
+#            Содержит информацию о таинственных листьях, встречающихся в поросли
 #            '''
 #    }
 #
 #    FrigidFragmentPage: {
-#        DisplayName: Notes on Frigid Fragments
+#        DisplayName: Заметки о ледяных осколоках
 #        Tooltip:
 #            '''
-#            by Professor Alex Tannis
-#            Contains information on an icy crystal found in the frozen tundra
+#            Автор: Профессор Алекс Таннис
+#            Содержит информацию о ледяном кристалле, встречающемся в морозной тундре
 #            '''
 #    }
 #
 #    GlowrootPage: {
-#        DisplayName: Notes on Glowroot
+#        DisplayName: Заметки о светокорне
 #        Tooltip:
 #            '''
-#            by Professor Alex Tannis
-#            Contains information on a strange root found at the base of tall mushroom trees
+#            Автор: Профессор Алекс Таннис
+#            Содержит информацию о странном корне, встречающемся у подножия высоких грибных деревьев
 #            '''
 #    }
 #
 #    GranitePage: {
-#        DisplayName: Notes on Enchanted Granite Chunks
+#        DisplayName: Заметки о зачарованных кусках гранита
 #        Tooltip:
 #            '''
-#            by Professor Alex Tannis
-#            Contains information on a strange ore found in Granite Caverns
+#            Автор: Профессор Алекс Таннис
+#            Содержит информацию о странной руде, встречающейся в гранитных пещерах
 #            '''
 #    }
 #
 #    HeartScalePage: {
-#        DisplayName: Notes on Heart Scales
+#        DisplayName: Заметки о сердечных чешуйках
 #        Tooltip:
 #            '''
-#            by Professor Alex Tannis
-#            Contains information on a glimmering scale often found near Ardorfish
+#            Автор: Профессор Алекс Таннис
+#            Содержит информацию о мерцающей чешуйке, часто встречающейся рядом с пылкой рыбой
 #            '''
 #    }
 #
 #    MarblePage: {
-#        DisplayName: Notes on Ancient Marble Chunks
+#        DisplayName: Заметки о древних кусках мрамора
 #        Tooltip:
 #            '''
-#            by Professor Alex Tannis
-#            Contains information on a strange ore found in Marble Caverns
+#            Автор: Профессор Алекс Таннис
+#            Содержит информацию о странной руде, встречающейся в мраморных пещерах
 #            '''
 #    }
 #
@@ -4417,16 +4417,16 @@
 #
 #    LumothItem: {
 #        DisplayName: Lumoth
-#        Tooltip: "'Mechanically stunning'"
+#        Tooltip: "'Потрясающий механизм'"
 #    }
 #
 #    LuvdiscItem: {
-#        DisplayName: Ardorfish
-#        Tooltip: "'It exudes affection'"
+#        DisplayName: Пылкая рыба
+#        Tooltip: "'Излучает любовь'"
 #    }
 #
 #    MaggotflyItem: {
-#        DisplayName: Maggotfly
+#        DisplayName: Личинкокрыл
 #        Tooltip: ""
 #    }
 #
@@ -10547,8 +10547,8 @@
 #    }
 #
 #    Maggotfly: {
-#        DisplayName: Maggotfly
-#        Entry: A massive maggot that's somehow matured and grown wings, nasty little thing.
+#        DisplayName: Личинкокрыл
+#        Entry: Огромная личинка, каким-то образом умудрившаяся повзрослеть и отрастить крылья. Та ещё гадость.
 #    }
 #
 #    NeonTetra: {
