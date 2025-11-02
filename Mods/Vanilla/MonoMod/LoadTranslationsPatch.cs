@@ -34,20 +34,6 @@ public class LoadTranslationsPatch : OnPatcher
 	    if (culture != GameCulture.FromCultureName(GameCulture.CultureName.Russian))
 		    return orig.Invoke(tModFile, culture);
 
-	    // Dictionary<string, bool> translationsToSkip = new()
-	    // {
-		   //  {"CalamityMod", TRuConfig.Instance.CalamityModLocalization},
-		   //  {"Fargowiltas", TRuConfig.Instance.FargowiltasLocalization},
-		   //  {"FargowiltasSouls", TRuConfig.Instance.FargowiltasSoulsLocalization},
-		   //  {"InfernumMode", TRuConfig.Instance.InfernumModeLocalization},
-		   //  {"ThoriumMod", TRuConfig.Instance.ThoriumModLocalization},
-		   //  {"NoxusBoss", TRuConfig.Instance.NoxusBossLocalization},
-		   //  {"StarsAbove", TRuConfig.Instance.StarsAboveLocalization},
-		   //  {"Redemption", TRuConfig.Instance.RedemptionLocalization},
-		   //  {"CatalystMod", TRuConfig.Instance.CatalystLocalization},
-		   //  {"SpiritReforged", TRuConfig.Instance.SpiritReforgedLocalization},
-	    // };
-
 	    if (tModFile == null)
 		    return new();
 
@@ -69,42 +55,38 @@ public class LoadTranslationsPatch : OnPatcher
 			    if (fileCulture != culture)
 				    continue;
 
-			    // if (fileCulture == GameCulture.FromCultureName(GameCulture.CultureName.Russian) &&
-			    //     translationsToSkip.TryGetValue(tModFile.Name, out bool skip) && skip)
-				   //  continue;
-				   
-				   if (!TRuConfig.Instance.VanillaLocalization && modpath == @"CalamityRuTranslate\Localization\Vanilla\ru-RU.hjson")
-					   continue;
-
-				   if (!TRuConfig.Instance.CalamityModLocalization && modpath == @"CalamityRuTranslate\Localization\Calamity\ru-RU_Mods.CalamityMod.hjson")
-					   continue;
-
-				   if (!TRuConfig.Instance.FargowiltasLocalization && modpath == @"CalamityRuTranslate\Localization\Fargowiltas\ru-RU_Mods.Fargowiltas.hjson")
-					   continue;
-
-				   if (!TRuConfig.Instance.FargowiltasSoulsLocalization && modpath == @"CalamityRuTranslate\Localization\FargowiltasSouls\ru-RU_Mods.FargowiltasSouls.hjson")
-					   continue;
-	
-				   if (!TRuConfig.Instance.InfernumModeLocalization && modpath == @"CalamityRuTranslate\Localization\InfernumMode\ru-RU_Mods.InfernumMode.hjson")
-					   continue;
-
-				   if (!TRuConfig.Instance.ThoriumModLocalization && modpath == @"CalamityRuTranslate\Localization\Thorium\ru-RU_Mods.ThoriumMod.hjson")
-					   continue;
-
-				   if (!TRuConfig.Instance.NoxusBossLocalization && modpath == @"CalamityRuTranslate\Localization\NoxusBoss\ru-RU_Mods.NoxusBoss.hjson")
-					   continue;
-
-				   if (!TRuConfig.Instance.StarsAboveLocalization && modpath == @"CalamityRuTranslate\Localization\StarsAbove\ru-RU_Mods.StarsAbove.hjson")
-					   continue;
-
-				   if (!TRuConfig.Instance.RedemptionLocalization && modpath == @"CalamityRuTranslate\Localization\Redemption\ru-RU_Mods.Redemption.hjson")
-					   continue;
-
-				   if (!TRuConfig.Instance.CatalystLocalization && modpath == @"CalamityRuTranslate\Localization\Catalyst\ru-RU_Mods.CatalystMod.hjson")
-						continue;
-
-				   if (!TRuConfig.Instance.SpiritReforgedLocalization && modpath == @"CalamityRuTranslate\Localization\SpiritReforged\ru-RU_Mods.SpiritReforged.hjson")
-					   continue;
+			    if (!TRuConfig.Instance.VanillaLocalization && modpath == @"CalamityRuTranslate\Localization\Vanilla\ru-RU.hjson")
+				    continue;
+			    
+			    if (!TRuConfig.Instance.CalamityModLocalization && modpath == @"CalamityRuTranslate\Localization\Calamity\ru-RU_Mods.CalamityMod.hjson")
+				    continue;
+			    
+			    if (!TRuConfig.Instance.FargowiltasLocalization && modpath == @"CalamityRuTranslate\Localization\Fargowiltas\ru-RU_Mods.Fargowiltas.hjson")
+				    continue;
+			    
+			    if (!TRuConfig.Instance.FargowiltasSoulsLocalization && modpath == @"CalamityRuTranslate\Localization\FargowiltasSouls\ru-RU_Mods.FargowiltasSouls.hjson")
+				    continue;
+			    
+			    if (!TRuConfig.Instance.InfernumModeLocalization && modpath == @"CalamityRuTranslate\Localization\InfernumMode\ru-RU_Mods.InfernumMode.hjson")
+				    continue;
+			    
+			    if (!TRuConfig.Instance.ThoriumModLocalization && modpath == @"CalamityRuTranslate\Localization\Thorium\ru-RU_Mods.ThoriumMod.hjson")
+				    continue;
+			    
+			    if (!TRuConfig.Instance.NoxusBossLocalization && modpath == @"CalamityRuTranslate\Localization\NoxusBoss\ru-RU_Mods.NoxusBoss.hjson")
+				    continue;
+			    
+			    if (!TRuConfig.Instance.StarsAboveLocalization && modpath == @"CalamityRuTranslate\Localization\StarsAbove\ru-RU_Mods.StarsAbove.hjson")
+				    continue;
+			    
+			    if (!TRuConfig.Instance.RedemptionLocalization && modpath == @"CalamityRuTranslate\Localization\Redemption\ru-RU_Mods.Redemption.hjson")
+				    continue;
+			    
+			    if (!TRuConfig.Instance.CatalystLocalization && modpath == @"CalamityRuTranslate\Localization\Catalyst\ru-RU_Mods.CatalystMod.hjson")
+				    continue;
+			    
+			    if (!TRuConfig.Instance.SpiritReforgedLocalization && modpath == @"CalamityRuTranslate\Localization\SpiritReforged\ru-RU_Mods.SpiritReforged.hjson")
+				    continue;
 
 			    using Stream stream = tModFile.GetStream(translationFile);
 			    using StreamReader streamReader = new StreamReader(stream, Encoding.UTF8, true);
