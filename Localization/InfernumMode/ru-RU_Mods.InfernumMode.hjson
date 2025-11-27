@@ -857,15 +857,6 @@ Items: {
         Tooltip: Призывает маленькую девочку в шляпе, которая помогает вам советами о боссах, с которыми вы сражаетесь
     }
 
-    DisenchantedTablet: {
-        DisplayName: Опустошённая скрижаль
-        Tooltip:
-            '''
-            Содержит запутанную сеть сложно переплетённых воспоминаний, запертых внутри
-            Можно зачаровать на алтаре для скрижали, расположенном где-то на поверхности
-            '''
-    }
-
     NightmareCatcher: {
         DisplayName: Ловец ночных кошмаров
         Tooltip:
@@ -922,11 +913,6 @@ Items: {
     ProvidenceSpawnerItem: {
         DisplayName: Святилище Провиденс (ОТЛАДКА)
         Tooltip: Нажмите <right> с Осквернённым ядром, чтобы призвать Провиденс
-    }
-
-    TabletPedestal: {
-        DisplayName: Пьедестал для скрижали
-        Tooltip: Можно использовать для зачарования конкретной опустошённой скрижали
     }
 
     AEWRelic: {
@@ -1566,12 +1552,12 @@ Keybinds: {
 MusicDisplay: {
     ForgottenWinds: {
         DisplayName: Забытые ветра
-        Author: от Toasty
+        Author: от Imogen
     }
 
     UnholySanctuary: {
         DisplayName: Нечестивое святилище
-        Author: от Toasty
+        Author: от Imogen
     }
 
     SignusAmbience: {
@@ -1609,6 +1595,7 @@ NPCs: {
         BossChecklistIntegration: {
             EntryName: Обездоленный вассал
             SpawnInfo: Используйте [i:CalamityMod/SandstormsCore] на пьедестале в сердце пустыни.
+            DespawnMessage: Аргус, Обездоленный вассал, продолжает ждать.
         }
     }
 
@@ -1629,6 +1616,22 @@ NPCs: {
     CalamitasShadowClone.DisplayName: Забытая тень Каламитас
     CataclysmShadow.DisplayName: Забытая тень Катаклизма
     CatastropheShadow.DisplayName: Забытая тень Катастрофа
+    
+    Dreadnautilus: {
+        BossChecklistIntegration: {
+            SpawnInfo: Используйте [i:InfernumMode/RedBait] или с небольшим шансом выловите его во время кровавой луны.
+            EntryName: Дреднаутилус
+            DespawnMessage: Дреднаутилус вернулся в кровавые воды.
+        }
+    }
+    
+    PrimordialWyrm: {
+        BossChecklistIntegration: {
+            SpawnInfo: Выкопайте Терминус на дне бездны или используйте [i:InfernumMode/EvokingSearune].
+            EntryName: Первозданный змий
+            DespawnMessage: Терминус остаётся под охраной змия.
+        }
+    }
 }
 
 PetDialog: {
@@ -1984,7 +1987,6 @@ CreditsHeaders: {
 WorldGen: {
     BlossomGarden: Выращивание сада...
     EggShrine: Сокрытие яиц...
-    TabletPedestal: Размещение пьедестала...
     LostColosseum: Создание Затерянного Колизея...
     ProfanedGarden: Возведение храма древней богини...
 }

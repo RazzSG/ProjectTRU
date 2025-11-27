@@ -66,7 +66,7 @@ public partial class CalamityModGlobalItem
         
         ItemHelper.TranslateTooltip(tooltips, "Tooltip0", tooltip =>
         {
-            if (CalamityConfig.Instance.EarlyHardmodeProgressionRework)
+            if (CalamityServerConfig.Instance.EarlyHardmodeProgressionRework)
             {
                 tooltip.Text = item.type switch
                 {
@@ -354,7 +354,7 @@ public partial class CalamityModGlobalItem
                 ItemID.CelestialStone => $"защиту, скорость добычи и отбрасывание призывателя\nСнижает урон от дебаффов «{Language.GetTextValue("Mods.CalamityMod.Buffs.Nightwither.DisplayName")}» и «{Language.GetTextValue("Mods.CalamityMod.Buffs.HolyFlames.DisplayName")}»",
                 ItemID.CelestialShell => "Незначительно увеличивает урон,",
                 ItemID.MoltenQuiver => $"Поджигает деревянные стрелы, и все стрелы накладывают дебафф «{Language.GetTextValue("BuffName.OnFire3")}»",
-                ItemID.HellfireTreads => $"Оставляет за вами огненный след\nУвеличивает урон от всех накладываемых игроком огненных дебаффов на 250; не суммируется с предыдущим улучшением\nВсе атаки, включая миньонов, накладывают дебафф «{Language.GetTextValue("BuffName.OnFire3")}»",
+                ItemID.HellfireTreads => $"Оставляет за вами огненный след\nУвеличивает урон от всех накладываемых игроком огненных дебаффов на 25%; не суммируется с предыдущим улучшением\nВсе атаки, включая миньонов, накладывают дебафф «{Language.GetTextValue("BuffName.OnFire3")}»",
                 ItemID.ArcaneFlower => "Враги реже выбирают вас в качестве цели\nУвеличивает магический урон на 5%",
                 _ => tooltip.Text
             };

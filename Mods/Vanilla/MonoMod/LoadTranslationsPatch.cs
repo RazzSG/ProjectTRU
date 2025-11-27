@@ -95,7 +95,7 @@ public class LoadTranslationsPatch : OnPatcher
 
 			    HashSet<(string Mod, string fileName)> changedFiles = typeof(LocalizationLoader).GetMemberValue<HashSet<(string Mod, string fileName)>>("changedFiles");
 
-			    if (!string.IsNullOrWhiteSpace(sourceFolder) && changedFiles.Select(x => Path.Join(x.Mod, x.fileName)).Contains(modpath))
+			    if (!string.IsNullOrWhiteSpace(sourceFolder) && changedFiles.Select(x => Path.Join(x.Mod, x.fileName).Replace('/', '\\')).Contains(modpath))
 			    {
 				    string path = Path.Combine(sourceFolder, translationFile.Name);
 				    

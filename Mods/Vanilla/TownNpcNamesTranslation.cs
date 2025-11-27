@@ -218,7 +218,8 @@ public class TownNpcNamesTranslation : GlobalNPC
             {"Chris Tallballs", "Шаркрис Тальный"},
             {"Syethas", "Ситас"},
             {"Nextdoor Psycho", "Шизак Даркхолм"},
-            {"Mike Cyclop", "Майк Циклоп"},
+            {"Mike Cyclops", "Майк Циклоп"},
+            {"Derin", "Дерин"},
         },
         [NPCID.BestiaryGirl] = new Dictionary<string, string>
         {
@@ -246,6 +247,7 @@ public class TownNpcNamesTranslation : GlobalNPC
             {"Katsafaros", "Катсафарос"},
             {"Bear", "Миша"},
             {"Storm", "Шторм"},
+            {"Hognar the Wicke", "Хогнар Нечестивый"},
             {"Felix", "Феликс"},
             {"Tardo", "Тардо"},
             {"Lucerne", "Люцерн"},

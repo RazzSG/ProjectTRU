@@ -218,7 +218,6 @@ public class CalamityItems : IItemGender
                 "FleshOfInfidelity",
                 "Perdition",
                 "WaveSkipper",
-                "SearedPan",
                 "OccultSkullCrown",
                 "ScorchedEarth",
                 "UrchinMace",
