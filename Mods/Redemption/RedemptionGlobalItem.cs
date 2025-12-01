@@ -5,6 +5,7 @@ using CalamityRuTranslate.Core.Config;
 using Redemption.Items.Accessories.HM;
 using Redemption.Items.Armor.Vanity.SkySquire;
 using Redemption.Items.Placeable.Furniture.Misc;
+using Redemption.Items.Quest;
 using Redemption.Items.Weapons.HM.Melee;
 using Redemption.Items.Weapons.PostML.Magic;
 using Redemption.Items.Weapons.PreHM.Ammo;
@@ -256,6 +257,14 @@ public partial class RedemptionGlobalItem : GlobalItem
             ItemHelper.TranslateTooltip(tooltips, "Tooltip1", _ =>
             {
                 tooltips.ReplaceText("Школы", "Школой");
+            });
+        }
+        
+        if (item.type == ModContent.ItemType<BookOfBonuses>())
+        {
+            ItemHelper.TranslateTooltip(tooltips, "BonusesLine", _ =>
+            {
+                tooltips.ReplaceText("Undiscovered", "Не открыто");
             });
         }
         

@@ -2429,13 +2429,13 @@ Configs: {
         }
     
         Interludes: {
-            Label: "[i:CalamityModMusic/Interlude1MusicBox] Interludes"
+            Label: "[i:CalamityModMusic/Interlude1MusicBox] Интерлюдии"
             Tooltip:
                 '''
-                Enables the playing of three interlude tracks in-game:
-                Проигрывает Calamity Mod OST - Interlude 1, "Silence before the storms" после победы над Клоном Каламитас
-                Проигрывает Calamity Mod OST - Interlude 2, "Storms before the catastrophes" после победы над Лунным лордом
-                Проигрывает Calamity Mod OST - Interlude 3, "Catastrophes before the calamity" после победы над Яроном
+                Включает проигрывание трёх интерлюдий в игре:
+                Проигрывает Calamity Mod OST - Интерлюдия 1, «Silence before the storms» после победы над Клоном Каламитас
+                Проигрывает Calamity Mod OST - Интерлюдия 2, «Storms before the catastrophes» после победы над Лунным лордом
+                Проигрывает Calamity Mod OST - Интерлюдия 3, «Catastrophes before the calamity» после победы над Яроном
                 '''
         }
     
@@ -2624,7 +2624,7 @@ Configs: {
     
     CalamityServerConfig: {
         DisplayName: Серверная конфигурация
-        Denied: You have no permission to change this config
+        Denied: У вас нет прав на изменение этой конфигурации
 
         Headers: {
             ExpertMaster: Изменения режимов Эксперта и Мастера
