@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using CalamityMod.Items.Placeables.Furniture.DevPaintings;
 using CalamityMod.UI.DraedonSummoning;
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;

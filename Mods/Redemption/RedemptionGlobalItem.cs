@@ -6,10 +6,7 @@ using Redemption.Items.Accessories.HM;
 using Redemption.Items.Armor.Vanity.SkySquire;
 using Redemption.Items.Placeable.Furniture.Misc;
 using Redemption.Items.Quest;
-using Redemption.Items.Weapons.HM.Melee;
-using Redemption.Items.Weapons.PostML.Magic;
 using Redemption.Items.Weapons.PreHM.Ammo;
-using Redemption.Items.Weapons.PreHM.Magic;
 using Redemption.Items.Weapons.PreHM.Melee;
 using Redemption.Items.Weapons.PreHM.Ranged;
 using Redemption.Items.Weapons.PreHM.Summon;
@@ -100,6 +97,11 @@ public partial class RedemptionGlobalItem : GlobalItem
         
         if (item.type == ModContent.ItemType<CruxCardAnglonSkeletons>())
         {
+            ItemHelper.TranslateTooltip(tooltips, "Damage", _ =>
+            {
+                tooltips.ReplaceText(" урона призывателя", Language.GetTextValue("LegacyTooltip.53"));
+            });
+            
             ItemHelper.TranslateTooltip(tooltips, "MaxLife", tooltip =>
             {
                 tooltip.Text = "120/92/144 ед. базового здоровья";
@@ -139,6 +141,11 @@ public partial class RedemptionGlobalItem : GlobalItem
         
         if (item.type == ModContent.ItemType<CruxCardGathicSkeletons>())
         {
+            ItemHelper.TranslateTooltip(tooltips, "Damage", _ =>
+            {
+                tooltips.ReplaceText(" урона призывателя", Language.GetTextValue("LegacyTooltip.53"));
+            });
+            
             ItemHelper.TranslateTooltip(tooltips, "MaxLife", tooltip =>
             {
                 tooltip.Text = "116/124 ед. базового здоровья";
@@ -233,30 +240,6 @@ public partial class RedemptionGlobalItem : GlobalItem
             ItemHelper.TranslateTooltip(tooltips, "DonatorLine", tooltip =>
             {
                 tooltip.Text = "-Предмет покровителя-";
-            });
-        }
-        
-        if (item.type == ModContent.ItemType<HammerOfProving>())
-        {
-            ItemHelper.TranslateTooltip(tooltips, "Tooltip1", _ =>
-            {
-                tooltips.ReplaceText("Школы святости", "святых");
-            });
-        }
-        
-        if (item.type == ModContent.ItemType<NoblesHalberd>())
-        {
-            ItemHelper.TranslateTooltip(tooltips, "Tooltip0", _ =>
-            {
-                tooltips.ReplaceText("Колющий", "копьём");
-            });
-        }
-        
-        if (item.type == ModContent.ItemType<ElderWoodStaff>())
-        {
-            ItemHelper.TranslateTooltip(tooltips, "Tooltip1", _ =>
-            {
-                tooltips.ReplaceText("Школы", "Школой");
             });
         }
         

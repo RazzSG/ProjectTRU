@@ -53,8 +53,8 @@ public class LocalizedTextPatch : OnPatcher
             foreach (string replacement in replacements)
             {
                 string[] pair = replacement.Split('=', 2);
-                if (pair.Length == 2 && pair[0] == inputValue)
-                    return pair[1]; 
+                if (pair.Length == 2 && inputValue != null && inputValue.Contains(pair[0])) 
+                    return inputValue.Replace(pair[0], pair[1]); 
             }
 
             return inputValue;

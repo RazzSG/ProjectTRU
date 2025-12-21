@@ -16,7 +16,7 @@ public class PrefixOverhaul
     public static PrefixOverhaul Instance { get; private set; }
 
     //Мужской, Женский, Средний, Множественный
-    public readonly string[][] Prefixes =
+    public readonly List<string[]> Prefixes =
     [
         ["Тупой", "Тупая", "Тупое", "Тупые"],
         ["Несчастный", "Несчастная", "Несчастное", "Несчастные"],
@@ -166,6 +166,14 @@ public class PrefixOverhaul
         };
         
         Instance = this;
+    }
+    
+    public void AddCustomPrefix(string[] variations)
+    {
+        if (variations is not {Length: 4})
+            return;
+            
+        Prefixes.Add(variations);
     }
 
     public string GetGenderedPrefix(string[] prefix, int item)

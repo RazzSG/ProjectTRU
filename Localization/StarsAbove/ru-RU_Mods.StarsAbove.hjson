@@ -5668,6 +5668,12 @@ NPCs: {
     SemaphoreEnemy.DisplayName: Семафор
     LogicBombEnemy.DisplayName: Цифровая бомба
     LogicVirusEnemy.DisplayName: Цифровой вирус
+    VeilbugAlpha.DisplayName: Неоновый жук-альфа
+    VeilbugBeta.DisplayName: Неоновый жук-бета
+    VeilbugOmega.DisplayName: Неоновый жук-омега
+    Veilcaper.DisplayName: Неоновый прыгун
+    Veilsniper.DisplayName: Неоновый снайпер
+    Veilspear.DisplayName: Неоновый копьеносец
 }
 
 BossAttacks: {

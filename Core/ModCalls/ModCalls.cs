@@ -65,6 +65,18 @@ public class ModCalls
                 
                 PrefixOverhaulModSystem.AddPluralItems(mod3, pluralItems);
                 return true;
+            case "RegisterPrefix":
+                if (args.Length < 2)
+                    throw new ArgumentNullException("Недостаточно аргументов! Ожидается: (string, string[])");
+
+                if (args[1] is not string[] variations)
+                    throw new ArgumentException("Второй аргумент должен быть массивом строк из 4 элементов (М, Ж, Ср, Мн)");
+
+                if (variations.Length != 4)
+                    throw new ArgumentException("Массив префиксов должен содержать ровно 4 склонения: [мужской, женский, средний, множественный]");
+
+                PrefixOverhaulModSystem.RegisterPrefix(variations);
+                return true;
             
             default:
                 throw new ArgumentException($"Неизвестное название метода: {methodName}");

@@ -154,7 +154,7 @@ public class ThoriumGlobalItem : GlobalItem
         
         if (item.type == ModContent.ItemType<VoidPlanter>())
         {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "Healing", tooltip =>
+            ItemHelper.TranslateTooltip(tooltips, "Healing", tooltip =>
             {
                 tooltips.ReplaceText($"Heals player life equal to {tooltip.Text.Split(' ')[5]} of the last damage they took", $"Восстанавливает здоровье игрока в размере {tooltip.Text.Split(' ')[5]} от последнего полученного им урона");
                 tooltips.ReplaceText("Max", "максимум");
@@ -163,7 +163,7 @@ public class ThoriumGlobalItem : GlobalItem
         
         if (item.type == ModContent.ItemType<DarkGate>())
         {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerAmount", tooltip =>
+            ItemHelper.TranslateTooltip(tooltips, "HealerAmount", tooltip =>
             {
                 string[] parts = tooltip.Text.Split(' ');
                 string duration = parts[^2];
@@ -182,7 +182,7 @@ public class ThoriumGlobalItem : GlobalItem
         
         if (item.type == ModContent.ItemType<DreamMegaphone>())
         {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerAmount", tooltip =>
+            ItemHelper.TranslateTooltip(tooltips, "HealerAmount", tooltip =>
             {
                 int healBonus = 10 + 4 * Main.LocalPlayer.GetThoriumPlayer().healBonus;
                 string seconds = LocalizedText.ApplyPluralization("{^0:секунду;секунды;секунд}", healBonus);
@@ -192,7 +192,7 @@ public class ThoriumGlobalItem : GlobalItem
         
         if (item.type == ModContent.ItemType<HolyHammer>())
         {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerAmount", tooltip =>
+            ItemHelper.TranslateTooltip(tooltips, "HealerAmount", tooltip =>
             {
                 tooltips.ReplaceText("Right click to heal all nearby allies equal to your bonus healing", "Нажмите ПКМ, чтобы исцелить всех ближайших союзников на величину, равную вашему бонусному исцелению");
                 tooltips.ReplaceText($"Right click to heal all nearby allies by {tooltip.Text.Split(' ')[8]} life", $"Нажмите ПКМ, чтобы исцелить всех ближайших союзников на {tooltip.Text.Split(' ')[8]} ед. здоровья");
@@ -202,7 +202,7 @@ public class ThoriumGlobalItem : GlobalItem
         
         if (item.type == ModContent.ItemType<LadyLight>())
         {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "CritChance", tooltip =>
+            ItemHelper.TranslateTooltip(tooltips, "CritChance", tooltip =>
             {
                 tooltip.Text = "5% шанс критического удара";
             });
@@ -210,7 +210,7 @@ public class ThoriumGlobalItem : GlobalItem
         
         if (item.type == ModContent.ItemType<SmitingHammer>())
         {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerAmount", tooltip =>
+            ItemHelper.TranslateTooltip(tooltips, "HealerAmount", tooltip =>
             {
                 tooltips.ReplaceText("Right click to heal all nearby allies equal to the weapon's holy charges at twice the mana cost", "Нажмите ПКМ, чтобы исцелить всех ближайших союзников на величину зарядов святости оружия при двойном расходе маны");
                 tooltips.ReplaceText($"Right click to heal all nearby allies by {tooltip.Text.Split(' ')[8]} life at twice the mana cost", $"Нажмите ПКМ, чтобы исцелить всех ближайших союзников на {tooltip.Text.Split(' ')[8]} ед. здоровья при двойном расходе маны");
@@ -220,7 +220,7 @@ public class ThoriumGlobalItem : GlobalItem
         
         if (item.type == ModContent.ItemType<BloomingWand>())
         {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerAmount", tooltip =>
+            ItemHelper.TranslateTooltip(tooltips, "HealerAmount", tooltip =>
             {
                 tooltip.Text = $"Лечит союзника на {tooltip.Text.Split(' ')[1]} ед. здоровья в течение 5 секунд";
             });
@@ -228,7 +228,7 @@ public class ThoriumGlobalItem : GlobalItem
         
         if (item.type == ModContent.ItemType<GraniteIonStaff>())
         {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerAmount", tooltip =>
+            ItemHelper.TranslateTooltip(tooltips, "HealerAmount", tooltip =>
             {
                 tooltip.Text = $"Оберегает союзника, давая ему от {tooltip.Text.Split(' ')[4]} до 50 единиц жизненного щита";
             });
@@ -236,7 +236,7 @@ public class ThoriumGlobalItem : GlobalItem
         
         if (item.type == ModContent.ItemType<LargePopcorn>())
         {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerAmount", _ =>
+            ItemHelper.TranslateTooltip(tooltips, "HealerAmount", _ =>
             {
                 tooltips.ReplaceText("Heals ally and player life by 1", "Лечит союзника и игрока на 1 ед. здоровья");
                 tooltips.ReplaceText("Popcorn does not apply on heal effects when consumed", "Попкорн не влияет на эффекты исцеления при его употреблении");
@@ -247,7 +247,7 @@ public class ThoriumGlobalItem : GlobalItem
         
         if (item.type == ModContent.ItemType<Recuperate>())
         {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerAmount", tooltip =>
+            ItemHelper.TranslateTooltip(tooltips, "HealerAmount", tooltip =>
             {
                 tooltip.Text = $"Удерживайте фолиант, преобразовывая {tooltip.Text.Split(' ')[4]} ед. маны в {tooltip.Text.Split(' ')[7]} ед. здоровья каждую секунду";
             });
@@ -255,7 +255,7 @@ public class ThoriumGlobalItem : GlobalItem
         
         if (item.type == ModContent.ItemType<Renew>())
         {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerAmount", tooltip =>
+            ItemHelper.TranslateTooltip(tooltips, "HealerAmount", tooltip =>
             {
                 tooltip.Text = $"Мгновенно восстанавливает {tooltip.Text.Split(' ')[2]} ед. здоровья";
             });
@@ -263,7 +263,7 @@ public class ThoriumGlobalItem : GlobalItem
         
         if (item.type == ModContent.ItemType<RodofAesculapius>())
         {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerAmount", tooltip =>
+            ItemHelper.TranslateTooltip(tooltips, "HealerAmount", tooltip =>
             {
                 tooltip.Text = $"Каждую секунду восстанавливает здоровье союзника на {tooltip.Text.Split(' ')[4]} ед.";
             });
@@ -271,7 +271,7 @@ public class ThoriumGlobalItem : GlobalItem
         
         if (item.type == ModContent.ItemType<SnackLantern>())
         {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerAmount", tooltip =>
+            ItemHelper.TranslateTooltip(tooltips, "HealerAmount", tooltip =>
             {
                 tooltip.Text = $"После взрыва лечит всех ближайших союзников на {tooltip.Text.Split(' ')[8]} ед. здоровья";
             });
@@ -279,7 +279,7 @@ public class ThoriumGlobalItem : GlobalItem
         
         if (item.type == ModContent.ItemType<WarForger>())
         {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerAmount", tooltip =>
+            ItemHelper.TranslateTooltip(tooltips, "HealerAmount", tooltip =>
             {
                 tooltip.Text = $"Оберегает союзника и игрока, давая им от {tooltip.Text.Split(' ')[6]} до 25 единиц жизненного щита";
             });
@@ -287,7 +287,7 @@ public class ThoriumGlobalItem : GlobalItem
         
         if (item.type == ModContent.ItemType<BoneGrip>() || item.type == ModContent.ItemType<MagnetoGrip>() || item.type == ModContent.ItemType<PaddedGrip>())
         {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "DisplayAmount", tooltip =>
+            ItemHelper.TranslateTooltip(tooltips, "DisplayAmount", tooltip =>
             {
                 int startIndex = tooltip.Text.LastIndexOf(':') + 1;
                 int endIndex = tooltip.Text.LastIndexOf(' ');
@@ -303,7 +303,7 @@ public class ThoriumGlobalItem : GlobalItem
         
         if (item.type == ModContent.ItemType<MusicPlayerDamage>() || item.type == ModContent.ItemType<TunePlayerDamage>())
         {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Name == "Tooltip0", _ =>
+            ItemHelper.TranslateTooltip(tooltips, "Tooltip0", _ =>
             {
                 tooltips.ReplaceText("медный", "медных");
             });
@@ -311,7 +311,7 @@ public class ThoriumGlobalItem : GlobalItem
         
         if (item.type == ModContent.ItemType<MusicPlayerDamageReduction>() || item.type == ModContent.ItemType<TunePlayerDamageReduction>())
         {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Name == "Tooltip0", _ =>
+            ItemHelper.TranslateTooltip(tooltips, "Tooltip0", _ =>
             {
                 tooltips.ReplaceText("струнный", "струнных");
             });
@@ -319,7 +319,7 @@ public class ThoriumGlobalItem : GlobalItem
         
         if (item.type == ModContent.ItemType<MusicPlayerLifeRegen>() || item.type == ModContent.ItemType<TunePlayerLifeRegen>())
         {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Name == "Tooltip0", _ =>
+            ItemHelper.TranslateTooltip(tooltips, "Tooltip0", _ =>
             {
                 tooltips.ReplaceText("духовой", "духовых");
             });
@@ -327,7 +327,7 @@ public class ThoriumGlobalItem : GlobalItem
         
         if (item.type == ModContent.ItemType<MusicPlayerMovementSpeed>() || item.type == ModContent.ItemType<TunePlayerMovementSpeed>())
         {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Name == "Tooltip0", _ =>
+            ItemHelper.TranslateTooltip(tooltips, "Tooltip0", _ =>
             {
                 tooltips.ReplaceText("ударный", "ударных");
             });
@@ -337,7 +337,7 @@ public class ThoriumGlobalItem : GlobalItem
         {
             if (thoriumItem.healType == HealType.LifeSteal)
             {
-                ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerAmount", tooltip =>
+                ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "ThoriumMod/HealerAmount", tooltip =>
                 {
                     string[] parts = tooltip.Text.Split(' ');
                     if (tooltip.Text == $"Steals {parts[1]} life")
@@ -349,7 +349,7 @@ public class ThoriumGlobalItem : GlobalItem
 
             if (thoriumItem.healType == HealType.Ally)
             {
-                ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerAmount", tooltip =>
+                ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "ThoriumMod/HealerAmount", tooltip =>
                 {
                     string[] parts = tooltip.Text.Split(' ');
                     if (tooltip.Text == $"Heals ally life by {parts[4]}")
@@ -363,7 +363,7 @@ public class ThoriumGlobalItem : GlobalItem
         if (item.type == ModContent.ItemType<ValhallasDescent>() || item.type == ModContent.ItemType<DivineLotus>() ||
             item.type == ModContent.ItemType<HolyStaff>())
         {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerAmount", tooltip =>
+            ItemHelper.TranslateTooltip(tooltips, "HealerAmount", tooltip =>
             {
                 string[] parts = tooltip.Text.Split(' ');
                 if (tooltip.Text == $"Heals ally and player life by {parts[6]}")
@@ -375,7 +375,7 @@ public class ThoriumGlobalItem : GlobalItem
         
         if (item.type == ModContent.ItemType<HeavenlyCloudScepter>())
         {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerAmount", tooltip =>
+            ItemHelper.TranslateTooltip(tooltips, "HealerAmount", tooltip =>
             {
                 string[] parts = tooltip.Text.Split(' ');
                 if (tooltip.Text == $"Heals ally and player life by {parts[6]}")
@@ -393,7 +393,7 @@ public class ThoriumGlobalItem : GlobalItem
         if (item.type == ModContent.ItemType<LifeDisperser>() || item.type == ModContent.ItemType<HereticBreaker>() ||
             item.type == ModContent.ItemType<IridescentStaff>())
         {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerAmount", tooltip =>
+            ItemHelper.TranslateTooltip(tooltips, "HealerAmount", tooltip =>
             {
                 if (tooltip.Text == "Heals ally life equal to your bonus healing")
                 {
@@ -404,7 +404,7 @@ public class ThoriumGlobalItem : GlobalItem
         
         if (item.type == ModContent.ItemType<LifePulseStaff>())
         {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerAmount", tooltip =>
+            ItemHelper.TranslateTooltip(tooltips, "HealerAmount", tooltip =>
             {
                 string[] parts = tooltip.Text.Split(' ');
                 if (tooltip.Text == "Heals ally and player life equal to your bonus healing (5 Max)")
@@ -426,7 +426,7 @@ public class ThoriumGlobalItem : GlobalItem
         
         if (item.type == ModContent.ItemType<LilCherubsWand>())
         {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerAmount", tooltip =>
+            ItemHelper.TranslateTooltip(tooltips, "HealerAmount", tooltip =>
             {
                 string[] parts = tooltip.Text.Split(' ');
                 if (tooltip.Text == "Heals ally life equal to your bonus healing (5 Max)")
@@ -450,7 +450,7 @@ public class ThoriumGlobalItem : GlobalItem
             item.type == ModContent.ItemType<TemplarJudgment>() || item.type == ModContent.ItemType<TheEffuser>() ||
             item.type == ModContent.ItemType<TheStalker>())
         {
-            ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerAmount", tooltip =>
+            ItemHelper.TranslateTooltip(tooltips, "HealerAmount", tooltip =>
             {
                 string[] parts = tooltip.Text.Split(' ');
                 if (tooltip.Text == "Heals ally and player life equal to your bonus healing (4 Max)")
@@ -470,32 +470,32 @@ public class ThoriumGlobalItem : GlobalItem
             });
         }
         
-        ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "AccessoryDamage", _ =>
+        ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "ThoriumMod/AccessoryDamage", _ =>
         {
             tooltips.ReplaceText("basic damage", "ед. базового урона");
         });
         
-        ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "RealityTag", tooltip =>
+        ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "ThoriumMod/RealityTag", tooltip =>
         {
             tooltip.Text = "-Разрушитель реальности-";
         });
         
-        ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "TransformationTag", tooltip =>
+        ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "ThoriumMod/TransformationTag", tooltip =>
         {
             tooltip.Text = "-Превращение-";
         });
         
-        ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "ThrowerTag", tooltip =>
+        ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "ThoriumMod/ThrowerTag", tooltip =>
         {
             tooltip.Text = "-Метатель-";
         });
         
-        ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "HealerTag", tooltip =>
+        ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "ThoriumMod/HealerTag", tooltip =>
         {
             tooltip.Text = "-Целитель-";
         });
         
-        ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "ScytheSoulCharge", tooltip =>
+        ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "ThoriumMod/ScytheSoulCharge", tooltip =>
         {
             string[] parts = tooltip.Text.Split(' ');
             string scytheSoulCharge = parts[1];
@@ -506,7 +506,7 @@ public class ThoriumGlobalItem : GlobalItem
             }
         });
         
-        ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "ThoriumMod" && l.Name == "ThrowerAmount", _ =>
+        ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "ThoriumMod/ThrowerAmount", _ =>
         {
             tooltips.ReplaceText("Hold right click to store up to", "Удерживайте ПКМ, чтобы накопить до");
             tooltips.ReplaceText("needles", "игл");

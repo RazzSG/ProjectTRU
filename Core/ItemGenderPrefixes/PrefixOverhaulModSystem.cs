@@ -42,6 +42,8 @@ public class PrefixOverhaulModSystem : ModSystem
         _genderCreators?.Clear();
     }
     
+    internal static void RegisterPrefix(string[] variations) => PrefixOverhaul.Instance.AddCustomPrefix(variations);
+
     internal static void AddFeminineItems(Mod mod, string[] items) => AddGenderedItems(mod, items, PrefixOverhaul.ItemGenderType.Feminine);
     
     internal static void AddNeuterItems(Mod mod, string[] items) => AddGenderedItems(mod, items, PrefixOverhaul.ItemGenderType.Neuter);

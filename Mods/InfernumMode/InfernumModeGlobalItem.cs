@@ -81,13 +81,5 @@ public class InfernumModeGlobalItem : GlobalItem
                 tooltip.Text = "Впадает в ярость за пределами подземелья\nНе расходуется";
             });
         }
-        
-        if (item.type == ModContent.ItemType<EyeofDesolation>())
-        {
-            ItemHelper.TranslateTooltip(tooltips, "Tooltip1", _ =>
-            {
-                tooltips.ReplaceText("Забытая тень Каламитас", "Забытую тень Каламитас");
-            });
-        }
     }
 }

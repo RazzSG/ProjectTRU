@@ -2,11 +2,9 @@ using System.Collections.Generic;
 using CalamityMod;
 using CalamityMod.Items;
 using CalamityMod.Items.SummonItems;
-using CalamityMod.Items.Weapons.Summon;
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
-using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -52,12 +50,12 @@ public partial class CalamityModGlobalItem : GlobalItem
             tooltips.Insert(tooltipIndex != -1 ? ++tooltipIndex : ++knockbackIndex, pointBlankShot);
         }
          
-        ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "CalamityMod" && l.Name == "SchematicKnowledge1", tooltip =>
+        ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "CalamityMod/SchematicKnowledge1", tooltip =>
         {
             tooltip.Text = "У вас недостаточно знаний для создания этого предмета";
         });
          
-        ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "CalamityMod" && l.Name == "SchematicKnowledge2", _ =>
+        ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "CalamityMod/SchematicKnowledge2", _ =>
         {
             tooltips.ReplaceText("A specific schematic must be deciphered first", "Сначала необходимо расшифровать конкретную схему");
             tooltips.ReplaceText("The Sunken Sea schematic must be deciphered first", "Сначала необходимо расшифровать схему затерянного моря");
@@ -67,21 +65,19 @@ public partial class CalamityModGlobalItem : GlobalItem
             tooltips.ReplaceText("The Ice biome schematic must be deciphered first", "Сначала необходимо расшифровать схему льдов");
         });
         
-        ItemHelper.TranslateTooltip(tooltips, "CalamityCharge", tooltip =>
+        ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "CalamityMod/CalamityCharge", _ =>
         {
-            tooltip.Text = $"Текущий заряд: {tooltip.Text.Split(' ')[2]}";
+            tooltips.ReplaceText("Current Charge", "Текущий заряд");
         });
          
-        ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "CalamityMod" && l.Name == "CalamityDonor", tooltip =>
+        ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "CalamityMod/CalamityDonor", _ =>
         {
-            tooltip.Text = "- Предмет покровителя -";
-            tooltip.OverrideColor = new Color(196, 35, 44);
+            tooltips.ReplaceText("Donor Item", "Предмет покровителя");
         });
          
-        ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "CalamityMod" && l.Name == "CalamityDev", tooltip =>
+        ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "CalamityMod/CalamityDev", _ =>
         {
-            tooltip.Text = "- Предмет разработчика -";
-            tooltip.OverrideColor = new Color(255, 0, 255);
+            tooltips.ReplaceText("Developer Item", "Предмет разработчика");
         });
          
         if (item.type is ItemID.AncientBattleArmorHat or ItemID.AncientBattleArmorShirt or ItemID.AncientBattleArmorPants && !Main.player[Main.myPlayer].Calamity().forbiddenCirclet)
