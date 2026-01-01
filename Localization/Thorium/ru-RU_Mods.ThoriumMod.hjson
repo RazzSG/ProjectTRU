@@ -4852,7 +4852,7 @@ Items: {
 
     BrackishClump: {
         DisplayName: Солоноватый комок
-        Tooltip: Можно использовать на промывателе
+        Tooltip: Можно переработать в промывателе
     }
 
     BubbleMagnet: {

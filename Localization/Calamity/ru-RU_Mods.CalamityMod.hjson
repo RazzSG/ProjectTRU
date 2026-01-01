@@ -2951,7 +2951,7 @@ Items: {
         }
     
         AscendantInsignia: {
-            DisplayName: Знак отличия восходящего
+            DisplayName: Вознесённая инсигния
             Tooltip:
                 '''
                 Увеличивает время полёта крыльев на 30%
@@ -9141,7 +9141,7 @@ Items: {
         
         ColdheartIcicle: {
             DisplayName: Сосулька холодного сердца
-            Tooltip: "'Л(ё)довая работа'"
+            Tooltip: "'У(лёд)ная работа'"
         }
         
         BrimstoneLocus: {

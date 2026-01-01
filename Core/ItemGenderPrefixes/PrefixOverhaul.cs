@@ -168,12 +168,9 @@ public class PrefixOverhaul
         Instance = this;
     }
     
-    public void AddCustomPrefix(string[] variations)
+    public void AddCustomPrefixes(List<string[]> variations)
     {
-        if (variations is not {Length: 4})
-            return;
-            
-        Prefixes.Add(variations);
+        Prefixes.AddRange(variations);
     }
 
     public string GetGenderedPrefix(string[] prefix, int item)

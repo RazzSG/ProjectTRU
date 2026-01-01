@@ -821,7 +821,7 @@
 #    }
 #
 #    DoubleJumpPotionBuff: {
-#        DisplayName: Прыжок зефира
+#        DisplayName: Зефирный прыжок
 #        Description: Временно даёт дополнительный прыжок
 #    }
 #
@@ -1146,8 +1146,8 @@
 #    }
 #
 #    BottleMountBuff: {
-#        DisplayName: Raft
-#        Description: Sending out an SOS
+#        DisplayName: Плот
+#        Description: Посылает сигнал бедствия
 #    }
 #
 #    EmpoweredSwim: {
@@ -1256,7 +1256,7 @@
 #    }
 #
 #    FairyMinion_Buff: {
-#        DisplayName: Феи
+#        DisplayName: Фея
 #        Description: Эй! Берегись!
 #    }
 #
@@ -7790,15 +7790,15 @@
 #
 #    Kelp: {
 #        DisplayName: Морская водоросль
-#        Tooltip: Должна быть посажена в воде
+#        Tooltip: Необходимо сажать в воде
 #    }
 #
 #    MessageBottle: {
 #        DisplayName: Бутылка с посланием
 #        Tooltip:
 #            '''
-#            Призывает плот как средство передвижения
-#            Увеличивает навык рыбной ловли, пока вы на плоту
+#            Призывает плот в качестве средства передвижения
+#            Увеличивает навык рыбной ловли, пока вы находитесь на плоту
 #            '''
 #    }
 #

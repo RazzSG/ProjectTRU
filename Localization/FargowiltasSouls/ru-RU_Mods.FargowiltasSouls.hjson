@@ -331,7 +331,7 @@ Toggler: {
     AbomWandCrit: Поддержка спектрального Мерзостть
     SupremeFairyHeader: "{$Mods.FargowiltasSouls.Items.SupremeDeathbringerFairy.DisplayName}"
     SlimyShieldEffect: Склизкие шары
-    PlatformFallthroughEffect: Падение сквозь пратформы
+    PlatformFallthroughEffect: Падение сквозь платформы
     SlimeFallEffect: Увеличенная скорость падения
     AgitatingLensEffect: Косы при рывке
     AgitatingLensInstall: Инсталляция берсерка

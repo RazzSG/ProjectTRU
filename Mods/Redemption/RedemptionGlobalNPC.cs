@@ -18,19 +18,6 @@ public class RedemptionGlobalNPC : GlobalNPC
         return TranslationHelper.IsRussianLanguage && TRuConfig.Instance.RedemptionLocalization && ModInstances.Redemption != null;
     }
 
-    public override void SetBestiary(NPC npc, BestiaryDatabase database, BestiaryEntry bestiaryEntry)
-    {
-        if (npc.type == ModContent.NPCType<KS3_Magnet>())
-        {
-            bestiaryEntry.Info[7] = new FlavorTextBestiaryInfoElement("Этот дрон преобразует снаряды в энергию для ответного огня по целям.");
-        }
-        
-        if (npc.type == ModContent.NPCType<KS3_MissileDrone>())
-        {
-            bestiaryEntry.Info[7] = new FlavorTextBestiaryInfoElement("Ракетный дрон, созданный Королём-Охотником III во время его странствия, продолжавшегося миллион лет.");
-        }
-    }
-
     public override void ModifyTypeName(NPC npc, ref string typeName)
     {
         string playerName = Main.LocalPlayer.name;

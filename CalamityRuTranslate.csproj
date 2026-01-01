@@ -27,7 +27,7 @@
       <HintPath>..\ModAssemblies\PathOfTerraria_v0.2.19.dll</HintPath>
     </Reference>
     <Reference Include="Redemption">
-      <HintPath>..\ModAssemblies\Redemption_v0.8.0.4080.dll</HintPath>
+      <HintPath>..\ModAssemblies\Redemption_v0.8.0.4100.dll</HintPath>
     </Reference>
     <Reference Include="SpiritMod">
       <HintPath>..\ModAssemblies\SpiritMod_v1.5.0.38.dll</HintPath>
