@@ -1,0 +1,30 @@
+﻿Buffs: {
+    Venom.ItemTooltip: Истощение - 30 ед. урона в секунду
+    BetsysCurse.ItemTooltip: -40 защиты
+    CursedInferno.ItemTooltip: Жар - 24 ед. урона в секунду
+    Frostburn2.ItemTooltip: Холод - 50 ед. урона в секунду
+    Frostburn.ItemTooltip: Холод - 8 ед. урона в секунду
+    OnFire3.ItemTooltip: Жар - 15 ед. урона в секунду
+    OnFire.ItemTooltip: Жар - 6 ед. урона в секунду
+    Ichor.ItemTooltip: -10 защиты
+    Oiled.ItemTooltip:
+    	'''
+    	Жар - 25 ед. урона в секунду. Множители дебаффов жара действуют на этот дебафф в 2 раза сильнее
+    	Наносит урон только в сочетании с другим дебаффом жара
+    	'''
+    Poisoned.ItemTooltip: Истощение - 6 ед. урона в секунду
+    PotionSickness.ItemTooltip: ""
+    Slimed.ItemTooltip: Усиливает урон от дебаффов жара
+    Wet.ItemTooltip: Усиливает урон от электрических дебаффов
+    Electrified.ItemTooltip:
+        '''
+        Электричество - 10,5 ед. урона в секунду
+        Наносит в 4 раза больше урона движущимся целям
+        '''
+    Honey.ItemTooltip:
+    	'''
+    	Увеличивает регенерацию здоровья на 1
+    	Ускоряет естественную регенерацию здоровья на 300%
+    	Снижает постепенный урон от дебаффов на 2
+    	'''
+}

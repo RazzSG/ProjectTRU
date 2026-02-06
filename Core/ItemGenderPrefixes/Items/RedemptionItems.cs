@@ -71,6 +71,9 @@ public class RedemptionItems : IItemGender
                 "GildedSeaEmblem",
                 "SpiderSerum",
                 "TrappedSoulBauble",
+                "NanoPickaxe",
+                "ForestNymphsSickle",
+                "PZGauntlet",
             };
         
             if (ModInstances.Redemption != null)
@@ -103,6 +106,7 @@ public class RedemptionItems : IItemGender
                 "NecklaceOfSight",
                 "ShellNecklace",
                 "Wardbreaker",
+                "FlintAndSteel",
             };
         
             if (ModInstances.Redemption != null)
@@ -126,6 +130,7 @@ public class RedemptionItems : IItemGender
                 "MechanicalSheath",
                 "NebWings",
                 "LeatherSheath",
+                "NebWings2",
             };
     
             if (ModInstances.Redemption != null)

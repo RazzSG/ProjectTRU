@@ -129,6 +129,11 @@
 #            Label: "[i:SpiritMod/MoonStone]  Visuals: Aurora Enabled"
 #            Tooltip: Enables or disables the Aurora visuals. This does not stop Aurora-based effects or enemies from appearing
 #        }
+#        
+#        EnableSepulchres: {
+#            Label: "[i:SpiritMod/CursedArmorItem]  World Generation: Enable Dark Sepulchres"
+#            Tooltip: Enables or disables the Dark Sepulchre structures found underground. Useful to turn off if you experience generation issues with other mods
+#        }
 #    }
 #
 #    QuestInvLocation: {
@@ -137,12 +142,12 @@
 #            Label: Minimap
 #            Tooltip: ""
 #        }
-#    
+#
 #        Trashcan: {
 #            Label: Trashcan
 #            Tooltip: ""
 #        }
-#    
+#
 #        FarLeft: {
 #            Label: Far Left
 #            Tooltip: ""
@@ -151,7 +156,7 @@
 #
 #    OceanShape: {
 #        Tooltip: ""
-#        
+#
 #        Default: {
 #            Label: Стандартная
 #            Tooltip: Vanilla's default ocean generation. Disables Spirit Classic's generation.
@@ -187,28 +192,28 @@
 #        }
 #
 #        SnowNightMusic: {
-#            Label: "[i:SpiritMod/TranquilWindsBox] Уникальная мелодия для снегов в ночное время"
-#            Tooltip: Добавляет уникальную мелодию, звучащую в снегах в ночное время.
+#            Label: "[i:SpiritMod/TranquilWindsBox] Уникальная мелодия для снегов ночью"
+#            Tooltip: Добавляет уникальную мелодию, звучащую в снегах ночью.
 #        }
 #
 #        DesertNightMusic: {
-#            Label: "[i:SpiritMod/TranquilWindsBox] Уникальная мелодия для пустыни в ночное время"
-#            Tooltip: Добавляет уникальную мелодию, звучащую в пустыне в ночное время.
+#            Label: "[i:SpiritMod/TranquilWindsBox] Уникальная мелодия для пустыни ночью"
+#            Tooltip: Добавляет уникальную мелодию, звучащую в пустыне ночью.
 #        }
 #
 #        HallowNightMusic: {
-#            Label: "[i:SpiritMod/TranquilWindsBox] Уникальная мелодия для освящения в ночное время"
-#            Tooltip: Добавляет уникальную мелодию, звучащую в освящении в ночное время.
+#            Label: "[i:SpiritMod/TranquilWindsBox] Уникальная мелодия для освящения ночью"
+#            Tooltip: Добавляет уникальную мелодию, звучащую в освящении ночью.
 #        }
 #
 #        CorruptNightMusic: {
-#            Label: "[i:SpiritMod/TranquilWindsBox] Уникальная мелодия для искажения в ночное время"
-#            Tooltip: Добавляет уникальную мелодию, звучащую в искажении в ночное время.
+#            Label: "[i:SpiritMod/TranquilWindsBox] Уникальная мелодия для искажения ночью"
+#            Tooltip: Добавляет уникальную мелодию, звучащую в искажении ночью.
 #        }
 #
 #        CrimsonNightMusic: {
-#            Label: "[i:SpiritMod/TranquilWindsBox] Уникальная мелодия для багрянца в ночное время"
-#            Tooltip: Добавляет уникальную мелодию, звучащую в багрянце в ночное время.
+#            Label: "[i:SpiritMod/TranquilWindsBox] Уникальная мелодия для багрянца ночью"
+#            Tooltip: Добавляет уникальную мелодию, звучащую в багрянце ночью.
 #        }
 #
 #        GraniteMusic: {
@@ -1384,7 +1389,7 @@
 #            Призывает одержимый лук, который сражается за вас
 #            Использует первую стрелу из вашего инвентаря
 #            Если у вас нет стрел, стреляет более слабыми шутовскими стрелами бесконечно
-#            Лук не занимает слоты призываемых миньонов
+#            Лук не занимает слоты миньонов
 #            '''
 #    }
 #
@@ -1399,7 +1404,7 @@
 #            '''
 #            Призывает магический скипетр, который сражается за вас
 #            Скипетр использует множество различных атак против врагов
-#            Скипетр не занимает слоты призываемых миньонов
+#            Скипетр не занимает слоты миньонов
 #            '''
 #    }
 #
@@ -1515,7 +1520,7 @@
 #            Призывает 3 дрона, которые помогают вам
 #            Если у вас в руках находится кирка, дроны переходят в режим добычи
 #            В режиме добычи дроны копируют мощность вашей кирки и ускоряют процесс добычи
-#            Дроны не занимают слоты призываемых миньонов
+#            Дроны не занимают слоты миньонов
 #            '''
 #    }
 #
@@ -1810,7 +1815,7 @@
 #        Tooltip:
 #            '''
 #            Призывает ржавый меч, который сражается за вас
-#            Этот меч не занимает слоты призываемых миньонов
+#            Этот меч не занимает слоты миньонов
 #            '''
 #    }
 #
@@ -1891,7 +1896,7 @@
 #        Tooltip:
 #            '''
 #            Призывает святой меч, который сражается за вас
-#            Этот меч не занимает слоты призываемых миньонов
+#            Этот меч не занимает слоты миньонов
 #            '''
 #    }
 #
@@ -3447,7 +3452,7 @@
 #        Tooltip:
 #            '''
 #            5 summon tag damage
-#            Summons an army of fossilized birds to fight for you
+#            Summons an army of temporary fossilized birds to fight for you
 #            '''
 #    }
 #
@@ -3540,7 +3545,7 @@
 #
 #    ShadowSphere: {
 #        DisplayName: Shadow Sphere
-#        Tooltip: Summons a slow shadow sphere that shoots out Crystal Shadows at foes
+#        Tooltip: Summons a stationary shadow sphere that shoots out Crystal Shadows at foes
 #    }
 #
 #    Trophy6: {
@@ -4584,11 +4589,11 @@
 #    }
 #
 #    SpiritPotion: {
-#        DisplayName: Spirit Potion
+#        DisplayName: Зелье духов
 #        Tooltip:
 #            '''
-#            Increases damage and critical strike chance by 5%
-#            Getting hurt occasionally spawns a damaging bolt to chase enemies
+#            Увеличивает урон и шанс критического удара на 5%
+#            При получении урона иногда выпускает разящий разряд, преследующий врагов
 #            '''
 #    }
 #
@@ -4654,39 +4659,39 @@
 #    }
 #
 #    ScarabIdolQuest: {
-#        DisplayName: Decrepit Idol
+#        DisplayName: Ветхий идол
 #        Tooltip: ""
 #    }
 #
 #    ScientistLure: {
-#        DisplayName: Grisly Science Experiment
-#        CustomTooltip: "'Hopefully, the scientist is intrigued by this abomination'"
+#        DisplayName: Жуткий научный эксперимент
+#        CustomTooltip: "'Будем надеяться, что учёного заинтригует эта мерзость'"
 #        MoreCustomTooltip:
 #            '''
-#            The Undead Scientist is no more!
-#            There's no need for this disgusting thing anymore
+#            Нежить-учёный повержен!
+#            Эта отвратительная штука больше не нужна
 #            '''
 #        Tooltip: ""
 #    }
 #
 #    WarlockLureCorruption: {
-#        DisplayName: Unholy Magic
-#        CustomTooltip: "'Hopefully, the evil necromancer is intrigued by this strange magic'"
+#        DisplayName: Нечестивая магия
+#        CustomTooltip: "'Будем надеяться, что злого некроманта заинтригует эта странная магия'"
 #        MoreCustomTooltip:
 #            '''
-#            The Undead Warlock is no more!
-#            There's no need for this repulsive thing anymore
+#            Нежить-чернокнижник повержен!
+#            Эта омерзительная штука больше не нужна
 #            '''
 #        Tooltip: ""
 #    }
 #
 #    WarlockLureCrimson: {
-#        DisplayName: Unholy Magic
+#        DisplayName: Нечестивая магия
 #        Tooltip: ""
 #    }
 #
 #    RawMeat: {
-#        DisplayName: Raw Meat
+#        DisplayName: Сырое мясо
 #        Tooltip: ""
 #    }
 #
@@ -4845,7 +4850,7 @@
 #
 #    EternalAsh: {
 #        DisplayName: Eternal Ashes
-#        Tooltip: "Summons a Phoenix Minion to rain down fireballs on your foes "
+#        Tooltip: Summons a Phoenix Minion to rain down fireballs on your foes
 #    }
 #
 #    BlizzardEdge: {
@@ -8693,7 +8698,7 @@
 #
 #    SkullSentry: {
 #        DisplayName: Maneater Skull
-#        Tooltip: Summons a skull infested by maneater worms that fire red mucus at nearby enemies
+#        Tooltip: Summons a stationary skull infested by maneater worms that fire red mucus at nearby enemies
 #    }
 #
 #    SulfurDeposit: {
@@ -9427,8 +9432,8 @@
 #        DisplayName: Посох врат
 #        Tooltip:
 #            '''
-#            Призывает электрическое поле
-#            Нажмите <right>, чтобы рассеять призванные поля
+#            Призывает узел электрического поля, который соединяется с другими узлами
+#            Нажмите <right>, чтобы рассеять призванные узлы
 #            '''
 #    }
 #
@@ -10402,7 +10407,7 @@
 #    SteamRaiderHead: {
 #        DisplayName: Звёздопанцирный странник
 #        Entry: Загадочный автоматон неизвестного происхождения, созданный для добычи драгоценного металла со звёзд. Он использует скрытую в руде энергию, чтобы питать себя и продолжать бесконечные поиски.
-#        BossChecklistIntegration.SpawnInfo: Используйте [i:SpiritMod/StarWormSummon] у Астралитового маяка, расположенного в астероидах, в ночное время.
+#        BossChecklistIntegration.SpawnInfo: Используйте [i:SpiritMod/StarWormSummon] у Астралитового маяка, расположенного в астероидах, ночью.
 #        Spawn: Звёздопанцирный странник пробудился!
 #        Laser: Активация лазерного протокола
 #    }

@@ -22,7 +22,7 @@ public class VanillaColoredDamageTypes : GlobalItem
 
         ItemHelper.TranslateTooltip(tooltips, "Damage", tooltip =>
         {
-            if (item.CountsAsClass<MeleeDamageClass>() && (tooltip.Text.Contains(Language.GetTextValue("LegacyTooltip.2")) || tooltip.Text.Contains("ед. истинного урона ближнего боя")))
+            if (item.CountsAsClass<MeleeDamageClass>() && tooltip.Text.Contains(Language.GetTextValue("LegacyTooltip.2")))
                 tooltip.OverrideColor = new Color(255, 85, 85);
 
             else if (item.CountsAsClass<MagicDamageClass>() && tooltip.Text.Contains(Language.GetTextValue("LegacyTooltip.4")))

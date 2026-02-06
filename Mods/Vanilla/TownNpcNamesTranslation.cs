@@ -41,6 +41,7 @@ public class TownNpcNamesTranslation : GlobalNPC
         {
             {"Sylux", "Силикс"},
             {"Nemesis", "Немезис"},
+            {"Univerze", "Юниверз"},
         },
         [NPCID.Demolitionist] = new Dictionary<string, string>
         {
@@ -93,6 +94,7 @@ public class TownNpcNamesTranslation : GlobalNPC
             {"Dinkleberg", "Динклберг"},
             {"Wamy", "Уами"},
             {"Baggute", "Баггут"},
+            {"Jacob Bryson", "Джейкоб Брайсон"},
         },
         [NPCID.Mechanic] = new Dictionary<string, string>
         {
@@ -101,6 +103,7 @@ public class TownNpcNamesTranslation : GlobalNPC
             {"Robin", "Робин"},
             {"Curly", "Кудряшка"},
             {"Cobalt", "Лазурка"},
+            {"Dizzetriya", "Диззетрия"},
         },
         [NPCID.Merchant] = new Dictionary<string, string>
         {
@@ -123,6 +126,7 @@ public class TownNpcNamesTranslation : GlobalNPC
         {
             {"Arin", "Арин"},
             {"Typhäne", "Тифен"},
+            {"Charlotte Linlin", "Шарлотта Линлин"},
         },
         [NPCID.Pirate] = new Dictionary<string, string>
         {
@@ -166,6 +170,7 @@ public class TownNpcNamesTranslation : GlobalNPC
             {"Eira", "Ейра"},
             {"Kreutz", "Кройц"},
             {"Cathlyn", "Кэтлин"},
+            {"Eunice", "Юнис"},
         },
         [NPCID.Stylist] = new Dictionary<string, string>
         {
@@ -194,12 +199,14 @@ public class TownNpcNamesTranslation : GlobalNPC
             {"Intergaze", "Интергейз"},
             {"Borgus", "Боргус"},
             {"Postman Hiss", "Почтальон Хисс"},
+            {"Cosmoec", "Космоэк"},
         },
         [NPCID.Truffle] = new Dictionary<string, string>
         {
             {"Aldrimil", "Альдримил"},
             {"Wonton", "Вонтон"},
             {"Mad Lad", "Безумный малый"},
+            {"Nokko", "Нокко"},
         },
         [NPCID.WitchDoctor] = new Dictionary<string, string>
         {
@@ -207,6 +214,7 @@ public class TownNpcNamesTranslation : GlobalNPC
             {"Aeroni", "Аэрони"},
             {"Mixcoatl", "Мишкоатль"},
             {"Amnesia Wapers", "Амнезия Вейперс"},
+            {"Tequila", "Текила"},
         },
         [NPCID.Wizard] = new Dictionary<string, string>
         {
@@ -220,6 +228,7 @@ public class TownNpcNamesTranslation : GlobalNPC
             {"Nextdoor Psycho", "Шизак Даркхолм"},
             {"Mike Cyclops", "Майк Циклоп"},
             {"Derin", "Дерин"},
+            {"Umbara", "Умбара"},
         },
         [NPCID.BestiaryGirl] = new Dictionary<string, string>
         {
@@ -256,6 +265,7 @@ public class TownNpcNamesTranslation : GlobalNPC
             {"Archie", "Арчи"},
             {"Dali", "Дали"},
             {"Kiba", "Киба"},
+            {"Conductor", "Кондуктор"},
         },
         [NPCID.TownBunny] = new Dictionary<string, string>
         {

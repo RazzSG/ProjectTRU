@@ -38,7 +38,7 @@ public class ModCalls
                     throw new ArgumentException("Второй аргумент должен быть экземпляр мода (Mod)");
                 
                 if (args[2] is not string[] feminineItems)
-                    throw new ArgumentException("Второй аргумент должен быть массив (string[])");
+                    throw new ArgumentException("Третий аргумент должен быть массив (string[])");
                 
                 PrefixOverhaulModSystem.AddFeminineItems(mod, feminineItems);
                 return true;
@@ -50,7 +50,7 @@ public class ModCalls
                     throw new ArgumentException("Второй аргумент должен быть экземпляр мода (Mod)");
                 
                 if (args[2] is not string[] neuterItems)
-                    throw new ArgumentException("Второй аргумент должен быть массив (string[])");
+                    throw new ArgumentException("Третий аргумент должен быть массив (string[])");
                 
                 PrefixOverhaulModSystem.AddNeuterItems(mod2, neuterItems);
                 return true;
@@ -62,9 +62,36 @@ public class ModCalls
                     throw new ArgumentException("Второй аргумент должен быть экземпляр мода (Mod)");
                 
                 if (args[2] is not string[] pluralItems)
-                    throw new ArgumentException("Второй аргумент должен быть массив (string[])");
+                    throw new ArgumentException("Третий аргумент должен быть массив (string[])");
                 
                 PrefixOverhaulModSystem.AddPluralItems(mod3, pluralItems);
+                return true;
+            case "AddVanillaFeminineItems":
+                if (args.Length < 1)
+                    throw new ArgumentException("Недостаточно аргументов! Ожидается: (string, int[])");
+
+                if (args[1] is not int[] feminineVanillaItems)
+                    throw new ArgumentException("Второй аргумент должен быть массив (int[])");
+                
+                PrefixOverhaulModSystem.AddFeminineItems(feminineVanillaItems);
+                return true;
+            case "AddVanillaNeuterItems":
+                if (args.Length < 1)
+                    throw new ArgumentException("Недостаточно аргументов! Ожидается: (string, int[])");
+
+                if (args[1] is not int[] neuterVanillaItems)
+                    throw new ArgumentException("Второй аргумент должен быть массив (int[])");
+                
+                PrefixOverhaulModSystem.AddNeuterItems(neuterVanillaItems);
+                return true;
+            case "AddVanillaPluralItems":
+                if (args.Length < 1)
+                    throw new ArgumentException("Недостаточно аргументов! Ожидается: (string, int[])");
+
+                if (args[1] is not int[] pluralVanillaItems)
+                    throw new ArgumentException("Второй аргумент должен быть массив (int[])");
+                
+                PrefixOverhaulModSystem.AddPluralItems(pluralVanillaItems);
                 return true;
             case "RegisterPrefixes":
                 if (args.Length < 2)

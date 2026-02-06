@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
+using CalamityRuTranslate.Core.Config;
 using Terraria;
 using Terraria.ID;
 using Terraria.Localization;
@@ -112,7 +113,7 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             string bonus = Language.GetTextValue("ArmorSetBonus.MetalTier1");
             if (ModInstances.Calamity != null)
             {
-                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Copper")}";
+                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Copper", 2)}";
             }
 
             if (ModInstances.Redemption != null)
@@ -127,7 +128,7 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             string bonus = Language.GetTextValue("ArmorSetBonus.MetalTier1");
             if (ModInstances.Calamity != null)
             {
-                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Iron")}";
+                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Iron", 1.5)}";
             }
 
             if (ModInstances.Redemption != null)
@@ -142,7 +143,7 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             string bonus = Language.GetTextValue("ArmorSetBonus.MetalTier1");
             if (ModInstances.Calamity != null)
             {
-                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Iron")}";
+                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Iron", 1.5)}";
             }
 
             if (ModInstances.Redemption != null)
@@ -157,7 +158,7 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             string bonus = Language.GetTextValue("ArmorSetBonus.MetalTier1");
             if (ModInstances.Calamity != null)
             {
-                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Tin")}";
+                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Tin", 10)}";
             }
 
             if (ModInstances.Redemption != null)
@@ -172,7 +173,8 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             string bonus = Language.GetTextValue("ArmorSetBonus.MetalTier2");
             if (ModInstances.Calamity != null)
             {
-                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Silver")}";
+                object[] args = [2, 20, 10];
+                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Silver", args)}";
             }
 
             if (ModInstances.Redemption != null)
@@ -187,7 +189,8 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             string bonus = Language.GetTextValue("ArmorSetBonus.MetalTier2");
             if (ModInstances.Calamity != null)
             {
-                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Gold")}";
+                object[] args = [2, 3, 0.2, 5];
+                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Gold", args)}";
             }
 
             if (ModInstances.Redemption != null)
@@ -202,7 +205,8 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             string bonus = Language.GetTextValue("ArmorSetBonus.MetalTier2");
             if (ModInstances.Calamity != null)
             {
-                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Gold")}";
+                object[] args = [2, 3, 0.2, 5];
+                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Gold", args)}";
             }
 
             if (ModInstances.Redemption != null)
@@ -232,7 +236,7 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             string bonus = Language.GetTextValue("ArmorSetBonus.MetalTier2");
             if (ModInstances.Calamity != null)
             {
-                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Tungsten", "[X]", "[Y]")}";
+                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Tungsten", 50)}";
             }
 
             if (ModInstances.Redemption != null)
@@ -247,7 +251,7 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             string bonus = Language.GetTextValue("ArmorSetBonus.Platinum");
             if (ModInstances.Calamity != null)
             {
-                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Platinum")}";
+                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Platinum", 10)}";
             }
 
             if (ModInstances.Redemption != null)
@@ -295,7 +299,7 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             string bonus = Language.GetTextValue("ArmorSetBonus.Bone");
             if (ModInstances.Calamity != null)
             {
-                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Necro", 7)}";
+                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Necro", 10)}";
             }
             
             return bonus;
@@ -305,7 +309,7 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             string bonus = Language.GetTextValue("ArmorSetBonus.Bone");
             if (ModInstances.Calamity != null)
             {
-                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Necro", 7)}";
+                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Necro", 10)}";
             }
             
             return bonus;
@@ -412,7 +416,7 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             string bonus = Language.GetTextValue("ArmorSetBonus.Frost");
             if (ModInstances.Calamity != null)
             {
-                bonus = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Frost", 15);
+                bonus = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Frost", 20);
             }
             
             return bonus;
@@ -500,30 +504,18 @@ public class ArmorSetBonusPreviewSystem : ModSystem
         ArmorSetBonuses.Add(new ArmorSetBonusData(ItemID.ChlorophyteMask, () =>
         {
             string bonus = Language.GetTextValue("ArmorSetBonus.ChlorophyteMelee");
-            if (ModInstances.Calamity != null)
-            {
-                bonus = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Chlorophyte", 5, 300, 10, 4.5);
-            }
 
             return bonus;
         }));
         ArmorSetBonuses.Add(new ArmorSetBonusData(ItemID.ChlorophyteHelmet, () =>
         {
             string bonus = Language.GetTextValue("ArmorSetBonus.Chlorophyte");
-            if (ModInstances.Calamity != null)
-            {
-                bonus = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Chlorophyte", 5, 300, 10, 4.5);
-            }
 
             return bonus;
         }));
         ArmorSetBonuses.Add(new ArmorSetBonusData(ItemID.ChlorophyteHeadgear, () =>
         {
             string bonus = Language.GetTextValue("ArmorSetBonus.Chlorophyte");
-            if (ModInstances.Calamity != null)
-            {
-                bonus = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Chlorophyte", 5, 300, 10, 4.5);
-            }
 
             return bonus;
         }));
@@ -942,6 +934,12 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             string reversedUpDown = Language.GetTextValue(Main.ReversedUpDownArmorSetBonuses ? "Key.UP" : "Key.DOWN");
             string bonus = Language.GetTextValue("ArmorSetBonus.Vortex", reversedUpDown);
             
+            if (ModInstances.Calamity != null)
+            {
+                string key = (string)ModInstances.Calamity.Code.GetType("CalamityMod.CalamityUtils").FindMethod("GetArmorSetBonusKey").Invoke(null, null);
+                bonus = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Vortex", key).Replace($"{Language.GetTextValue("LegacyTooltip.48")} ", "");
+            }
+            
             return bonus;
         }));
         ArmorSetBonuses.Add(new ArmorSetBonusData(ItemID.NebulaHelmet, () =>
@@ -966,6 +964,13 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             string reversedUpDown = Language.GetTextValue(Main.ReversedUpDownArmorSetBonuses ? "Key.UP" : "Key.DOWN");
             string bonus = Language.GetTextValue("ArmorSetBonus.Forbidden", reversedUpDown);
 
+            if (ModInstances.Calamity != null)
+            {
+                string key = (string)ModInstances.Calamity.Code.GetType("CalamityMod.CalamityUtils").FindMethod("GetArmorSetBonusKey").Invoke(null, null);
+                bonus = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Forbidden", key)
+                    .Replace($"{Language.GetTextValue("LegacyTooltip.48")} ", "");
+            }
+            
             if (ModInstances.Redemption != null)
             {
                 bonus += $"\n{Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.VanillaArmor.Resistance", 20, Language.GetTextValue("Mods.Redemption.Items.Earth.DisplayName"))}";
@@ -976,30 +981,18 @@ public class ArmorSetBonusPreviewSystem : ModSystem
         ArmorSetBonuses.Add(new ArmorSetBonusData(ItemID.SquireGreatHelm, () =>
         {
             string bonus = Language.GetTextValue("ArmorSetBonus.SquireTier2");
-            if (ModInstances.Calamity != null)
-            {
-                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.SquireTier2")}";
-            }
             
             return bonus;
         }));
         ArmorSetBonuses.Add(new ArmorSetBonusData(ItemID.ApprenticeHat, () =>
         {
             string bonus = Language.GetTextValue("ArmorSetBonus.ApprenticeTier2");
-            if (ModInstances.Calamity != null)
-            {
-                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.ApprenticeTier2")}";
-            }
             
             return bonus;
         }));
         ArmorSetBonuses.Add(new ArmorSetBonusData(ItemID.HuntressWig, () =>
         {
             string bonus = Language.GetTextValue("ArmorSetBonus.HuntressTier2");
-            if (ModInstances.Calamity != null)
-            {
-                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.HuntressTier2")}";
-            }
             
             return bonus;
         }));
@@ -1008,7 +1001,7 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             string bonus = Language.GetTextValue("ArmorSetBonus.MonkTier2");
             if (ModInstances.Calamity != null)
             {
-                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.MonkTier2")}";
+                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.MonkTier2", 90)}";
             }
             
             return bonus;
@@ -1016,30 +1009,18 @@ public class ArmorSetBonusPreviewSystem : ModSystem
         ArmorSetBonuses.Add(new ArmorSetBonusData(ItemID.SquireAltHead, () =>
         {
             string bonus = Language.GetTextValue("ArmorSetBonus.SquireTier3");
-            if (ModInstances.Calamity != null)
-            {
-                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.SquireTier3")}";
-            }
             
             return bonus;
         }));
         ArmorSetBonuses.Add(new ArmorSetBonusData(ItemID.ApprenticeAltHead, () =>
         {
             string bonus = Language.GetTextValue("ArmorSetBonus.ApprenticeTier3");
-            if (ModInstances.Calamity != null)
-            {
-                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.ApprenticeTier3")}";
-            }
             
             return bonus;
         }));
         ArmorSetBonuses.Add(new ArmorSetBonusData(ItemID.HuntressAltHead, () =>
         {
             string bonus = Language.GetTextValue("ArmorSetBonus.HuntressTier3");
-            if (ModInstances.Calamity != null)
-            {
-                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.HuntressTier3")}";
-            }
             
             return bonus;
         }));
@@ -1048,7 +1029,7 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             string bonus = Language.GetTextValue("ArmorSetBonus.MonkTier3");
             if (ModInstances.Calamity != null)
             {
-                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.MonkTier3")}";
+                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.MonkTier3", 90)}";
             }
             
             return bonus;
@@ -1066,21 +1047,31 @@ public class ArmorSetBonusPreviewSystem : ModSystem
 
         if (ModInstances.Calamity != null)
         {
+            ArmorSetBonuses.Add(new ArmorSetBonusData(ItemID.RainHat, () =>
+            {
+                string bonus = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Rain");
+            
+                return bonus;
+            }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/AstralHelm"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/AstralHelm", "SetBonus");
+                object[] args = [3, 10, 1];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/AstralHelm", "SetBonus", args);
                 
                 return bonus;
             }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/BrimflameScowl"), () =>
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/BrimflameCowl"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/BrimflameScowl", "SetBonus", "[Бонус комплекта брони]");
+                string key = (string)ModInstances.Calamity.Code.GetType("CalamityMod.CalamityUtils").FindMethod("GetArmorSetBonusKey").Invoke(null, null);
+                object[] args = [8, "FF9173", key, 10, 40, 30];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/BrimflameCowl", "SetBonus", args);
                 
                 return bonus;
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/DaedalusHeadMagic"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/DaedalusHeadMagic", "SetBonus");
+                object[] args = [10, 50];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/DaedalusHeadMagic", "SetBonus", args);
                 
                 return bonus;
             }));
@@ -1098,89 +1089,98 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/DaedalusHeadRogue"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/DaedalusHeadRogue", "SetBonus");
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/DaedalusHeadRogue", "SetBonus", 105);
                 
                 return bonus;
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/DaedalusHeadSummon"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/DaedalusHeadSummon", "SetBonus");
-
+                object[] args = [1, 10];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/DaedalusHeadSummon", "SetBonus", args);
+                
                 return bonus;
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/FathomSwarmerVisage"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/FathomSwarmerVisage", "SetBonus");
-
+                object[] args = [2, 10, 20, 10, 2.5];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/FathomSwarmerVisage", "SetBonus", args);
+                
                 return bonus;
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/ForbiddenCirclet"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/ForbiddenCirclet", "SetBonus",
-                    "[Бонус комплекта брони]", "[X]");
+                string key = (string)ModInstances.Calamity.Code.GetType("CalamityMod.CalamityUtils").FindMethod("GetArmorSetBonusKey").Invoke(null, null);
+                float manaCost = 60 * Main.LocalPlayer.manaCost;
+                object[] args = [40, key, (int)manaCost];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/ForbiddenCirclet", "SetBonus", args);
                 
                 return bonus;
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/LunicCorpsHelmet"), () =>
             {
-                
                 string shieldAdren = TranslationHelper.GetTextValue("CalamityMod/LunicCorpsHelmet", "ShieldAdren");
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/LunicCorpsHelmet", "SetBonus", $"\n{shieldAdren}");
-
+                object[] args = [20, "52CBDE", 50, $"\n{shieldAdren}", 5, 2];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/LunicCorpsHelmet", "SetBonus", args);
+                
                 return bonus;
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/MolluskShellmet"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/MolluskShellmet", "SetBonus");
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/MolluskShellmet", "SetBonus", 10);
                 
                 return bonus;
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/PlaguebringerVisor"), () =>
             {
                 string bonus = TranslationHelper.GetTextValue("CalamityMod/PlaguebringerVisor", "SetBonus");
-
+                
                 return bonus;
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/PlagueReaperMask"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/PlagueReaperMask", "SetBonus", "[Бонус комплекта брони]");
+                string key = (string)ModInstances.Calamity.Code.GetType("CalamityMod.CalamityUtils").FindMethod("GetArmorSetBonusKey").Invoke(null, null);
+                object[] args = [5, 1.1, "009418", key, 60, 20, 5, 25];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/PlagueReaperMask", "SetBonus", args);
                 
                 return bonus;
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/ReaverHeadExplore"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/ReaverHeadExplore", "SetBonus");
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/ReaverHeadExplore", "SetBonus", 7);
                 
                 return bonus;
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/ReaverHeadMobility"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/ReaverHeadMobility", "SetBonus");
+                object[] args = [10, 50, 33.3];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/ReaverHeadMobility", "SetBonus", args);
                 
                 return bonus;
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/ReaverHeadTank"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/ReaverHeadTank", "SetBonus");
+                object[] args = [20, 30, 5];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/ReaverHeadTank", "SetBonus", args);
                 
                 return bonus;
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/TitanHeartMask"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/TitanHeartMask", "SetBonus");
-
+                object[] args = [100, 2];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/TitanHeartMask", "SetBonus", args);
+            
                 return bonus;
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/UmbraphileHood"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/UmbraphileHood", "SetBonus");
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/UmbraphileHood", "SetBonus", 110);
                 
                 return bonus;
             }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/AuricTeslaHoodedFacemask"), () =>
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/AuricTeslaHeadRanged"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/AuricTeslaHoodedFacemask", "SetBonus");
-
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/AuricTeslaHeadRanged", "SetBonus");
+            
                 if (ModInstances.Catalyst != null)
                 {
                     bonus += $"\n\nУлучшенная версия: {Language.GetTextValue("Mods.CatalystMod.AuricTeslaPlusSet.Ranged", "[Межгелектический бонус комплекта]")}";
@@ -1188,9 +1188,9 @@ public class ArmorSetBonusPreviewSystem : ModSystem
                 
                 return bonus;
             }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/AuricTeslaPlumedHelm"), () =>
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/AuricTeslaHeadRogue"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/AuricTeslaPlumedHelm", "SetBonus");
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/AuricTeslaHeadRogue", "SetBonus", 130);
                 
                 if (ModInstances.Catalyst != null)
                 {
@@ -1199,9 +1199,9 @@ public class ArmorSetBonusPreviewSystem : ModSystem
                 
                 return bonus;
             }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/AuricTeslaRoyalHelm"), () =>
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/AuricTeslaHeadMelee"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/AuricTeslaRoyalHelm", "SetBonus");
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/AuricTeslaHeadMelee", "SetBonus");
                 
                 if (ModInstances.Catalyst != null)
                 {
@@ -1210,10 +1210,11 @@ public class ArmorSetBonusPreviewSystem : ModSystem
                 
                 return bonus;
             }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/AuricTeslaSpaceHelmet"), () =>
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/AuricTeslaHeadSummon"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/AuricTeslaSpaceHelmet", "SetBonus");
-
+                object[] args = [4, 55];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/AuricTeslaHeadSummon", "SetBonus", args);
+            
                 if (ModInstances.Catalyst != null)
                 {
                     bonus += $"\n\nУлучшенная версия: {Language.GetTextValue("Mods.CatalystMod.AuricTeslaPlusSet.Summoner", "[Межгелектический бонус комплекта]")}";
@@ -1221,10 +1222,10 @@ public class ArmorSetBonusPreviewSystem : ModSystem
                 
                 return bonus;
             }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/AuricTeslaWireHemmedVisage"), () =>
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/AuricTeslaHeadMagic"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/AuricTeslaWireHemmedVisage", "SetBonus");
-
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/AuricTeslaHeadMagic", "SetBonus");
+            
                 if (ModInstances.Catalyst != null)
                 {
                     bonus += $"\n\nУлучшенная версия: {Language.GetTextValue("Mods.CatalystMod.AuricTeslaPlusSet.Magic", "[Межгелектический бонус комплекта]")}";
@@ -1234,318 +1235,326 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/DemonshadeHelm"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/DemonshadeHelm", "SetBonus", "[Бонус комплекта брони]");
+                string key = (string)ModInstances.Calamity.Code.GetType("CalamityMod.CalamityUtils").FindMethod("GetArmorSetBonusKey").Invoke(null, null);
+                object[] args = [8, 100, key, 10, 1.5, 1.25];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/DemonshadeHelm", "SetBonus", args);
                 
-                if (ModInstances.NoxusBoss != null)
-                {
-                    bonus = bonus.Replace("125", "50").Replace("25", "50");
-                }
+                // if (ModInstances.NoxusBoss != null)
+                // {
+                //     bonus = bonus.Replace("125", "50").Replace("25", "50");
+                // }
                 return bonus;
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/EmpyreanMask"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/EmpyreanMask", "SetBonus");
-
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/EmpyreanMask", "SetBonus", 115);
+            
                 return bonus;
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/FearmongerGreathelm"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/FearmongerGreathelm", "SetBonus");
+                object[] args = [2, 2.5];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/FearmongerGreathelm", "SetBonus", args);
                 
                 return bonus;
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/OmegaBlueHelmet"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/OmegaBlueHelmet", "SetBonus", "[Бонус комплекта брони]");
+                string key = (string)ModInstances.Calamity.Code.GetType("CalamityMod.CalamityUtils").FindMethod("GetArmorSetBonusKey").Invoke(null, null);
+                object[] args = [2, "99ABFF", key, 5, 10, 25];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/OmegaBlueHelmet", "SetBonus", args);
                 
                 return bonus;
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/PrismaticHelmet"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/PrismaticHelmet", "SetBonus", "[Бонус комплекта брони]");
+                string key = (string)ModInstances.Calamity.Code.GetType("CalamityMod.CalamityUtils").FindMethod("GetArmorSetBonusKey").Invoke(null, null);
+                object[] args = ["67F4FB", key, 5, 30];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/PrismaticHelmet", "SetBonus", args);
                 
                 return bonus;
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/SnowRuffianMask"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/SnowRuffianMask", "SetBonus");
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/SnowRuffianMask", "SetBonus", 3);
                 
                 return bonus;
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/SulphurousHelmet"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/SulphurousHelmet", "SetBonus");
-
+                object[] args = [65, 1];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/SulphurousHelmet", "SetBonus", args);
+            
                 return bonus;
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/VictideHeadRanged"), () =>
             {
                 string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/VictideBreastplate", "CommonSetBonus");
                 string bonus = TranslationHelper.GetTextValue("CalamityMod/VictideHeadRanged", "SetBonus");
-
-                return $"{commonSetBonus}\n{bonus}";
+            
+                return $"{bonus}\n{commonSetBonus}";
             }));
-
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/VictideHeadMagic"), () =>
             {
                 string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/VictideBreastplate", "CommonSetBonus");
                 string bonus = TranslationHelper.GetTextValue("CalamityMod/VictideHeadMagic", "SetBonus");
                 
-                return $"{commonSetBonus}\n{bonus}";
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/StatigelHeadMagic"), () =>
-            {
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/StatigelArmor", "CommonSetBonus");
-                
-                return bonus;
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/StatigelHeadRanged"), () =>
-            {
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/StatigelArmor", "CommonSetBonus");
-                
-                return bonus;
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/HydrothermicHeadMagic"), () =>
-            {
-                string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/HydrothermicArmor", "CommonSetBonus");
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/HydrothermicHeadMagic", "SetBonus");
-                
-                return $"{commonSetBonus}\n{bonus}";
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/HydrothermicHeadMelee"), () =>
-            {
-                string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/HydrothermicArmor", "CommonSetBonus");
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/HydrothermicHeadMelee", "SetBonus");
-                
-                return $"{commonSetBonus}\n{bonus}";
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/HydrothermicHeadRanged"), () =>
-            {
-                string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/HydrothermicArmor", "CommonSetBonus");
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/HydrothermicHeadRanged", "SetBonus");
-                
-                return $"{commonSetBonus}\n{bonus}";
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/HydrothermicHeadRogue"), () =>
-            {
-                string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/HydrothermicArmor", "CommonSetBonus");
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/HydrothermicHeadRogue", "SetBonus");
-                
-                return $"{commonSetBonus}\n{bonus}";
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/HydrothermicHeadSummon"), () =>
-            {
-                string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/HydrothermicArmor", "CommonSetBonus");
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/HydrothermicHeadSummon", "SetBonus");
-                
-                return $"{commonSetBonus}\n{bonus}";
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/BloodflareHeadMagic"), () =>
-            {
-                string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/BloodflareBodyArmor", "CommonSetBonus");
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/BloodflareHeadMagic", "SetBonus");
-                
-                return $"{commonSetBonus}\n{bonus}";
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/BloodflareHeadMelee"), () =>
-            {
-                string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/BloodflareBodyArmor", "CommonSetBonus");
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/BloodflareHeadMelee", "SetBonus");
-                    
-                return $"{commonSetBonus}\n{bonus}";
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/BloodflareHeadRanged"), () =>
-            {
-                string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/BloodflareBodyArmor", "CommonSetBonus");
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/BloodflareHeadRanged", "SetBonus", "[Бонус комплекта брони]");
-                
-                return $"{commonSetBonus}\n{bonus}";
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/BloodflareHeadRogue"), () =>
-            {
-                string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/BloodflareBodyArmor", "CommonSetBonus");
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/BloodflareHeadRogue", "SetBonus");
-                
-                return $"{commonSetBonus}\n{bonus}";
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/BloodflareHeadSummon"), () =>
-            {
-                string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/BloodflareBodyArmor", "CommonSetBonus");
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/BloodflareHeadSummon", "SetBonus");
-                
-                return $"{commonSetBonus}\n{bonus}";
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/GodSlayerHeadMelee"), () =>
-            {
-                string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/GodSlayerChestplate", "CommonSetBonus", "[Бонус комплекта брони]", 45);
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/GodSlayerHeadMelee", "SetBonus");
-                
-                return $"{commonSetBonus}\n{bonus}";
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/GodSlayerHeadRanged"), () =>
-            {
-                string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/GodSlayerChestplate", "CommonSetBonus", "[Бонус комплекта брони]", 45);
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/GodSlayerHeadRanged", "SetBonus");
-                    
-                return $"{commonSetBonus}\n{bonus}";
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/GodSlayerHeadRogue"), () =>
-            {
-                string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/GodSlayerChestplate", "CommonSetBonus", "[Бонус комплекта брони]", 45);
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/GodSlayerHeadRogue", "SetBonus");
-                
-                return $"{commonSetBonus}\n{bonus}";
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/SilvaHeadMagic"), () =>
-            {
-                string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/SilvaArmor", "CommonSetBonus");
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/SilvaHeadMagic", "SetBonus");
-                
-                return $"{commonSetBonus}\n{bonus}";
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/SilvaHeadSummon"), () =>
-            {
-                string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/SilvaArmor", "CommonSetBonus");
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/SilvaHeadSummon", "SetBonus");
-                
-                return $"{commonSetBonus}\n{bonus}";
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/TarragonHeadMagic"), () =>
-            {
-                string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/TarragonBreastplate", "CommonSetBonus");
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/TarragonHeadMagic", "SetBonus");
-                
-                return $"{commonSetBonus}\n{bonus}";
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/TarragonHeadMelee"), () =>
-            {
-                string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/TarragonBreastplate", "CommonSetBonus");
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/TarragonHeadMelee", "SetBonus", "[Бонус комплекта брони]");
-                
-                return $"{commonSetBonus}\n{bonus}";
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/TarragonHeadRanged"), () =>
-            {
-                string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/TarragonBreastplate", "CommonSetBonus");
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/TarragonHeadRanged", "SetBonus");
-                
-                return $"{commonSetBonus}\n{bonus}";
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/TarragonHeadRogue"), () =>
-            {
-                string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/TarragonBreastplate", "CommonSetBonus");
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/TarragonHeadRogue", "SetBonus");
-                
-                return $"{commonSetBonus}\n{bonus}";
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/TarragonHeadSummon"), () =>
-            {
-                string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/TarragonBreastplate", "CommonSetBonus");
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/TarragonHeadSummon", "SetBonus");
-                
-                return $"{commonSetBonus}\n{bonus}";
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/AerospecHat"), () =>
-            {
-                string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/AerospecBreastplate", "CommonSetBonus");
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/AerospecHat", "SetBonus");
-                
-                return $"{commonSetBonus}\n{bonus}";
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/AerospecHeadgear"), () =>
-            {
-                string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/AerospecBreastplate", "CommonSetBonus");
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/AerospecHeadgear", "SetBonus");
-                
-                return $"{commonSetBonus}\n{bonus}";
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/AerospecHelm"), () =>
-            {
-                string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/AerospecBreastplate", "CommonSetBonus");
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/AerospecHelm", "SetBonus");
-                
-                return $"{commonSetBonus}\n{bonus}";
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/AerospecHelmet"), () =>
-            {
-                string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/AerospecBreastplate", "CommonSetBonus");
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/AerospecHelmet", "SetBonus");
-                
-                return $"{commonSetBonus}\n{bonus}";
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/AerospecHood"), () =>
-            {
-                string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/AerospecBreastplate", "CommonSetBonus");
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/AerospecHood", "SetBonus");
-                
-                return $"{commonSetBonus}\n{bonus}";
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/DesertProwlerHat"), () =>
-            {
-                string reversedUpDown = Language.GetTextValue(Main.ReversedUpDownArmorSetBonuses ? "Key.UP" : "Key.DOWN");
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/DesertProwlerHat", "SetBonus", 1);
-                string abilityBrief = TranslationHelper.GetTextValue("CalamityMod/DesertProwlerHat", "AbilityBrief", reversedUpDown);
-                string abilityDescription = TranslationHelper.GetTextValue("CalamityMod/DesertProwlerHat", "AbilityDescription", 200, 100, 1.5f);
-                
-                return $"{bonus}\n{abilityBrief}\n{abilityDescription}";
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/StatigelHeadMelee"), () =>
-            {
-                string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/StatigelArmor", "CommonSetBonus");
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/StatigelHeadMelee", "SetBonus");
-                
-                return $"{commonSetBonus}\n{bonus}";
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/StatigelHeadRogue"), () =>
-            {
-                string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/StatigelArmor", "CommonSetBonus");
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/StatigelHeadRogue", "SetBonus");
-                
-                return $"{commonSetBonus}\n{bonus}";
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/StatigelHeadSummon"), () =>
-            {
-                string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/StatigelArmor", "CommonSetBonus");
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/StatigelHeadSummon", "SetBonus");
-                
-                return $"{commonSetBonus}\n{bonus}";
+                return $"{bonus}\n{commonSetBonus}";
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/VictideHeadMelee"), () =>
             {
                 string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/VictideBreastplate", "CommonSetBonus");
                 string bonus = TranslationHelper.GetTextValue("CalamityMod/VictideHeadMelee", "SetBonus");
                 
-                return $"{commonSetBonus}\n{bonus}";
+                return $"{bonus}\n{commonSetBonus}";
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/VictideHeadRogue"), () =>
             {
                 string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/VictideBreastplate", "CommonSetBonus");
                 string bonus = TranslationHelper.GetTextValue("CalamityMod/VictideHeadRogue", "SetBonus");
                 
-                return $"{commonSetBonus}\n{bonus}";
+                return $"{bonus}\n{commonSetBonus}";
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/VictideHeadSummon"), () =>
             {
                 string commonSetBonus = TranslationHelper.GetTextValue("CalamityMod/VictideBreastplate", "CommonSetBonus");
                 string bonus = TranslationHelper.GetTextValue("CalamityMod/VictideHeadSummon", "SetBonus");
                 
-                return $"{commonSetBonus}\n{bonus}";
+                return $"{bonus}\n{commonSetBonus}";
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/StatigelHeadMagic"), () =>
+            {
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/StatigelArmor", "CommonSetBonus", 12);
+                
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/StatigelHeadRanged"), () =>
+            {
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/StatigelArmor", "CommonSetBonus", 12);
+                
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/StatigelHeadMelee"), () =>
+            {
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/StatigelHeadMelee", "SetBonus", 12);
+                
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/StatigelHeadRogue"), () =>
+            {
+                object[] args = [90, 12];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/StatigelHeadRogue", "SetBonus", args);
+                
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/StatigelHeadSummon"), () =>
+            {
+                object[] args = [15, 12];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/StatigelHeadSummon", "SetBonus", args);
+                
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/HydrothermicHeadMagic"), () =>
+            {
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/HydrothermicHeadMagic", "SetBonus", 50);
+                
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/HydrothermicHeadMelee"), () =>
+            {
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/HydrothermicHeadMelee", "SetBonus", 50);
+                
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/HydrothermicHeadRanged"), () =>
+            {
+                object[] args = [0.33, 50];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/HydrothermicHeadRanged", "SetBonus", args);
+                
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/HydrothermicHeadRogue"), () =>
+            {
+                object[] args = [110, 2, 50];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/HydrothermicHeadRogue", "SetBonus", args);
+                
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/HydrothermicHeadSummon"), () =>
+            {
+                object[] args = [1, 25, 50];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/HydrothermicHeadSummon", "SetBonus", args);
+                
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/BloodflareHeadMagic"), () =>
+            {
+                object[] args = [1.67, 2];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/BloodflareHeadMagic", "SetBonus", args);
+                
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/BloodflareHeadMelee"), () =>
+            {
+                object[] args = [15, 5, 25, 50, 30];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/BloodflareHeadMelee", "SetBonus", args);
+                
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/BloodflareHeadRanged"), () =>
+            {
+                string key = (string)ModInstances.Calamity.Code.GetType("CalamityMod.CalamityUtils").FindMethod("GetArmorSetBonusKey").Invoke(null, null);
+                object[] args = [key, 30, 2.5];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/BloodflareHeadRanged", "SetBonus", args);
+                
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/BloodflareHeadRogue"), () =>
+            {
+                object[] args = [120, 30, 80];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/BloodflareHeadRogue", "SetBonus", args);
+                
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/BloodflareHeadSummon"), () =>
+            {
+                object[] args = [2, 30, 20, 50];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/BloodflareHeadSummon", "SetBonus", args);
+                
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/GodSlayerHeadMelee"), () =>
+            {
+                object[] args = [80, "[Простанственный скачок]", 45];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/GodSlayerHeadMelee", "SetBonus", args);
+                
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/GodSlayerHeadRanged"), () =>
+            {
+                object[] args = [2.5, "[Простанственный скачок]", 45];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/GodSlayerHeadRanged", "SetBonus", args);
+                    
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/GodSlayerHeadRogue"), () =>
+            {
+                object[] args = [120, 10, 80, "[Простанственный скачок]", 45];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/GodSlayerHeadRogue", "SetBonus", args);
+                
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/SilvaHeadMagic"), () =>
+            {
+                object[] args = [3, 5, 5, 5];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/SilvaHeadMagic", "SetBonus", args);
+                
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/SilvaHeadSummon"), () =>
+            {
+                object[] args = [3, 40, 3, 5, 5, 5];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/SilvaHeadSummon", "SetBonus", args);
+                
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/TarragonHeadMagic"), () =>
+            {
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/TarragonHeadMagic", "SetBonus");
+                
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/TarragonHeadMelee"), () =>
+            {
+                string key = (string)ModInstances.Calamity.Code.GetType("CalamityMod.CalamityUtils").FindMethod("GetArmorSetBonusKey").Invoke(null, null);
+                object[] args = [1.5, key, 10, 30];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/TarragonHeadMelee", "SetBonus", args);
+                
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/TarragonHeadRanged"), () =>
+            {
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/TarragonHeadRanged", "SetBonus");
+                
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/TarragonHeadRogue"), () =>
+            {
+                object[] args = [115, 50, 2.5, 25, 10];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/TarragonHeadRogue", "SetBonus", args);
+                
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/TarragonHeadSummon"), () =>
+            {
+                object[] args = [2, 30];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/TarragonHeadSummon", "SetBonus", args);
+                
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/AerospecHeadMagic"), () =>
+            {
+                object[] args = [8, 5, 25];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/AerospecHeadMagic", "SetBonus", args);
+                
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/AerospecHeadRogue"), () =>
+            {
+                object[] args = [80, 5, 25];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/AerospecHeadRogue", "SetBonus", args);
+                
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/AerospecHeadMelee"), () =>
+            {
+                object[] args = [5, 25];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/AerospecHeadMelee", "SetBonus", args);
+                
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/AerospecHeadSummon"), () =>
+            {
+                object[] args = [1, 11, 25];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/AerospecHeadSummon", "SetBonus", args);
+                
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/AerospecHeadRanged"), () =>
+            {
+                object[] args = [5, 25];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/AerospecHeadRanged", "SetBonus", args);
+                
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/DesertProwlerHat"), () =>
+            {
+                string key = (string)ModInstances.Calamity.Code.GetType("CalamityMod.CalamityUtils").FindMethod("GetArmorSetBonusKey").Invoke(null, null);
+                object[] args = [50, "CCB648", key, 200, 200, 2];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/DesertProwlerHat", "SetBonus", args);
+
+                return bonus;
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/WulfrumHat"), () =>
             {
-                string reversedUpDown = Language.GetTextValue(Main.ReversedUpDownArmorSetBonuses ? "Key.UP" : "Key.DOWN");
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/WulfrumHat", "SetBonus");
-                string abilityBrief = TranslationHelper.GetTextValue("CalamityMod/WulfrumHat", "AbilityBrief", reversedUpDown);
-                string arg = $"[i:{TranslationHelper.GetItemID("CalamityMod/WulfrumMetalScrap")}] {TranslationHelper.GetTextValue("CalamityMod/WulfrumMetalScrap", "DisplayName")}";
-                string abilityDescription = TranslationHelper.GetTextValue("CalamityMod/WulfrumHat", "AbilityDescription", arg);
-                
-                return $"{bonus}\n{abilityBrief}\n{abilityDescription}";
+                string key = (string)ModInstances.Calamity.Code.GetType("CalamityMod.CalamityUtils").FindMethod("GetArmorSetBonusKey").Invoke(null, null);
+                object[] args = ["6EC05D", key, 30, 2];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/WulfrumHat", "SetBonus", args);
+
+                return bonus;
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/MarniteArchitectHeadgear"), () =>
             {
-                string abilityBrief = TranslationHelper.GetTextValue("CalamityMod/MarniteArchitectHeadgear", "AbilityBrief");
-                string abilityDescription = TranslationHelper.GetTextValue("CalamityMod/MarniteArchitectHeadgear", "AbilityDescription");
-                
+                object[] args = ["91C5EF", 10];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/MarniteArchitectHeadgear", "SetBonus", args);
+
+                return bonus;
+            }));
+            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/GemTechHeadgear"), () =>
+            {
+                string abilityBrief = TranslationHelper.GetTextValue("CalamityMod/GemTechHeadgear", "AbilityBrief", "808080");
+                string abilityDescription = TranslationHelper.GetTextValue("CalamityMod/GemTechHeadgear", "AbilityDescription");
+
                 return $"{abilityBrief}\n{abilityDescription}";
             }));
         }
@@ -1790,7 +1799,7 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("ThoriumMod/SilkHat"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("ThoriumMod/DreadSkull", "SetBonus", 12, 90);
+                string bonus = TranslationHelper.GetTextValue("ThoriumMod/DreadSkull", "SetBonus", 25, 90);
                 
                 return bonus;
             }));

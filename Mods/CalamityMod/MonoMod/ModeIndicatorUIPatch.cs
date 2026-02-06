@@ -7,6 +7,7 @@ using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
 using CalamityRuTranslate.Core.MonoMod;
+using Terraria;
 using Terraria.Localization;
 
 namespace CalamityRuTranslate.Mods.CalamityMod.MonoMod;
@@ -27,18 +28,22 @@ public class ModeIndicatorUIPatch : OnPatcher
         
         if (ModeIndicatorUI.MouseScreenArea.Intersects(ModeIndicatorUI.MainClickArea))
         {
-            string name = DifficultyModeSystem.Difficulties[1].Name.ToString();
-            bool flag = false;
+            string name = !Main.getGoodWorld || DifficultyModeSystem.Difficulties[0].FTWName == null
+                ? DifficultyModeSystem.Difficulties[1].Name.ToString()
+                : DifficultyModeSystem.Difficulties[0].FTWName.ToString();
+            bool flag = Main.getGoodWorld;
             for (int index = 1; index < DifficultyModeSystem.Difficulties.Count; ++index)
             {
                 if (DifficultyModeSystem.GetCurrentDifficulty == DifficultyModeSystem.Difficulties[index])
                 {
-                    name = DifficultyModeSystem.Difficulties[index].Name.ToString();
+                    name = !Main.getGoodWorld || DifficultyModeSystem.Difficulties[index].FTWName == null
+                        ? DifficultyModeSystem.Difficulties[index].Name.ToString()
+                        : DifficultyModeSystem.Difficulties[index].FTWName.ToString();
                     flag = true;
                 }
             }
 
-            string textValue2 = name == "Инфернум"
+            string textValue2 = name is "Инфернум" or "Эксперт" or "Мастер"
                 ? CalamityUtils.GetTextValue("UI." + (flag ? "InfernumActive" : "InfernumNotActive"))
                 : CalamityUtils.GetTextValue("UI." + (flag ? "Active" : "NotActive"));
             

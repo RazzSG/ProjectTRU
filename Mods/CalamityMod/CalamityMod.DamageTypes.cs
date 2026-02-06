@@ -19,6 +19,12 @@ public partial class CalamityModGlobalItem
                 if (TRuConfig.Instance.ColoredDamageTypes)
                     tooltip.OverrideColor = new Color(255, 184, 108);
             }
+
+            if (item.CountsAsClass<TrueMeleeDamageClass>() || item.CountsAsClass<TrueMeleeNoSpeedDamageClass>())
+            {
+                if (TRuConfig.Instance.ColoredDamageTypes)
+                    tooltip.OverrideColor = new Color(255, 85, 85);
+            }
         });
     }
 }

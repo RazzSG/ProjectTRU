@@ -68,12 +68,6 @@ public class AddNewMessagePatch : ILoadable
             "Истинный глаз Ктулху вырывается из Рука Лунного лорда!" => "Истинный глаз Ктулху вырывается из Руки Лунного лорда!",
             
             // Calamity
-            "You give Polaris belly rubs" => "Вы гладите Полярку по животику.",
-            "You give Polaris a small treat" => "Вы даёте Полярке вкусное лакомство.",
-            "You tell Polaris she's a good girl" => "Вы говорите Полярке, что она хорошая девочка.",
-            "You let Polaris cuddle your arm" => "Вы позволяете Полярке прижаться к вашей руке.",
-            "You pet Polaris" => "Вы гладите Полярку.",
-            "Too much love..." => "Слишком много любви...",
             "Supreme Cirrus code attempted to crash the game. Did you do something weird?" => "Код Высшей Циррус попытался вызвать сбой игры. Вы сделали что-то странное?",
             "Spawn point removed!" => "Точка воскрешения удалена!",
             "Spawn point set!" => "Точка воскрешения задана!",

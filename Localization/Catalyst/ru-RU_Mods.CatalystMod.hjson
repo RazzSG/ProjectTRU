@@ -42,18 +42,18 @@ Items: {
     }
 
     AstrageldonPhase1MusicBox: {
-        DisplayName: Музыкальная шкатулка (Астрагельдон - Фаза 1)
-        Tooltip: Проигрывает 'Cosmic Disgust' от DM DOKURO
+        DisplayName: Музыкальная шкатулка (Астрагельдон - 1 фаза)
+        Tooltip: Проигрывает «Cosmic Disgust» за авторством DM DOKURO
     }
 
     AstrageldonPhase2MusicBox: {
-        DisplayName: Музыкальная шкатулка (Астрагельдон - Фаза 2)
-        Tooltip: Проигрывает 'Galactic Destruction' от Heart Plus Up!
+        DisplayName: Музыкальная шкатулка (Астрагельдон - 2 фаза)
+        Tooltip: Проигрывает «Galactic Destruction» за авторством Heart Plus Up!
     }
 
     AstrageldonTitleMusicBox: {
         DisplayName: Музыкальная шкатулка (Заглавная тема Catalyst Mod)
-        Tooltip: Проигрывает 'Heaven's Hell-Sent Gift' от DM DOKURO
+        Tooltip: Проигрывает «Heaven's Hell-Sent Gift» за авторством DM DOKURO
     }
 
     MetanovaOre: {
@@ -926,13 +926,13 @@ Configs: {
         }
 
         CatharsisBarX: {
-            Label: "[i:7637] Позиция по X индикатора Катарсиса"
-            Tooltip: Позиция по X индикатора Катарсиса, измеряется в % от ширины экрана.
+            Label: "[i:7637] Позиция по X шкалы Катарсиса"
+            Tooltip: Позиция по X шкалы Катарсиса, измеряется в % от ширины экрана.
         }
 
         CatharsisBarY: {
-            Label: "[i:7637] Позиция по Y индикатора Катарсиса"
-            Tooltip: Позиция по Y индикатора Катарсиса, измеряется в % от высоты экрана.
+            Label: "[i:7637] Позиция по Y шкалы Катарсиса"
+            Tooltip: Позиция по Y шкалы Катарсиса, измеряется в % от высоты экрана.
         }
     }
 }

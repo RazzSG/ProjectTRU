@@ -128,8 +128,8 @@ Items: {
         DisplayName: Божественные крылья
         Tooltip:
             '''
-            Горизонтальная скорость: 16.67
-            Множитель ускорения: 3.7
+            Горизонтальная скорость: 16,67
+            Множитель ускорения: 3,7
             Возвышенная вертикальная скорость
             Время полёта: ∞
             'Вы прошли испытание'
@@ -148,7 +148,7 @@ Items: {
 
     EternalGardenMusicBox: {
         DisplayName: Музыкальная шкатулка (Вечный сад)
-        Tooltip: Проигрывает 'Edenic Whispers' от ENNWAY!
+        Tooltip: Проигрывает «Edenic Whispers» за авторством ENNWAY!
     }
 
     FakeTerminus: {
@@ -264,7 +264,7 @@ Items: {
         Tooltip:
             '''
             Выпускает струю хаотического тумана, испаряющего всё, к чему оно прикасается
-            'Гарантированно убивает 99.99% низших существ!'
+            'Гарантированно убивает 99,99% низших существ!'
             '''
     }
 
@@ -321,12 +321,12 @@ Items: {
 
     NamelessDeityMusicBox: {
         DisplayName: Музыкальная шкатулка (Безымянное божество)
-        Tooltip: Проигрывает 'TWISTED GARDEN' от Heart Plus Up! и ENNWAY!
+        Tooltip: Проигрывает «TWISTED GARDEN» за авторством Heart Plus Up! и ENNWAY!
     }
 
     NamelessDeityMusicBoxP3: {
         DisplayName: Музыкальная шкатулка (Безымянное божество - Последняя фаза)
-        Tooltip: Проигрывает 'REPLACED VIA CODE DONT CHANGE THIS' от Heart Plus Up! и ENNWAY!
+        Tooltip: Проигрывает «REPLACED VIA CODE DONT CHANGE THIS» за авторством Heart Plus Up! и ENNWAY!
     }
 
     NamelessDeityRelicItem: {
@@ -392,7 +392,7 @@ Items: {
             С тех пор как всё стало таким тёмным и мрачным, повсюду начали появляться удивительные рыбы! Одна из них - вуалевый скат, бледная рыба, которая иногда плавает у поверхности океана.
             Я понятия не имею, безопасно ли его трогать, это не важно. Важно то, что тебе нужно поймать его для меня!
             '''
-        QuestionCatchLocation: Можно поймать в океане
+        QuestionCatchLocation: Водится в океане
     }
     
     InterstellarBait: {
@@ -672,72 +672,72 @@ Items: {
     
     AvatarRiftMusicBox: {
         DisplayName: Музыкальная шкатулка (Разлом Воплощения пустоты)
-        Tooltip: Проигрывает 'PARADISE PARASITE' от ENNWAY!
+        Tooltip: Проигрывает «PARADISE PARASITE» за авторством ENNWAY!
     }
     
     AvatarOfEmptinessP2MusicBox: {
-        DisplayName: Музыкальная шкатулка (Воплощение пустоты - Фаза 2)
-        Tooltip: Проигрывает 'PARADISE PARASITE' от ENNWAY!
+        DisplayName: Музыкальная шкатулка (Воплощение пустоты - 2 фаза)
+        Tooltip: Проигрывает «PARADISE PARASITE» за авторством ENNWAY!
     }
     
     AvatarOfEmptinessP3MusicBox: {
-        DisplayName: Музыкальная шкатулка (Воплощение пустоты - Фаза 3)
-        Tooltip: Проигрывает 'PARADISE PARASITE' от ENNWAY!
+        DisplayName: Музыкальная шкатулка (Воплощение пустоты - 3 фаза)
+        Tooltip: Проигрывает «PARADISE PARASITE» за авторством ENNWAY!
     }
     
     MarsMusicBox: {
         DisplayName: Музыкальная шкатулка (Марс)
-        Tooltip: Проигрывает 'RAMifications' от Moonburn
+        Tooltip: Проигрывает «RAMifications» за авторством Moonburn
     }
     
     NilkSongMusicBox: {
         DisplayName: Музыкальная шкатулка (Олочко)
-        Tooltip: Проигрывает '2%' от ENNWAY!
+        Tooltip: Проигрывает «2%» за авторством ENNWAY!
     }
     
     HemolacriaMusicBox: {
         DisplayName: Музыкальная шкатулка (Кровавое затмение)
-        Tooltip: Проигрывает 'Hemolacria' от Moonburn
+        Tooltip: Проигрывает «Hemolacria» за авторством Moonburn
     }
     
     RiftEclipseFogMusicBox: {
         DisplayName: Музыкальная шкатулка (Затмение разлома в туман)
-        Tooltip: Проигрывает 'Mirrortwist' от Lucille Karma
+        Tooltip: Проигрывает «Mirrortwist» за авторством Lucille Karma
     }
     
     RiftEclipseMusicBox: {
         DisplayName: Музыкальная шкатулка (Затмение разлома)
-        Tooltip: Проигрывает 'nowhere now here' от Moonburn
+        Tooltip: Проигрывает «nowhere now here» за авторством Moonburn
     }
     
     RiftEclipseBlizzardMusicBox: {
         DisplayName: Музыкальная шкатулка (Затмение разлома в метель)
-        Tooltip: Проигрывает '-273.15' от Moonburn
+        Tooltip: Проигрывает «-273.15» за авторством Moonburn
     }
     
     TheTelescopeSongMusicBox: {
         DisplayName: Музыкальная шкатулка (Телескоп)
-        Tooltip: Проигрывает 'The Telescope Song' от Moonburn
+        Tooltip: Проигрывает «The Telescope Song» за авторством Moonburn
     }
     
     AscentMusicBox: {
         DisplayName: Музыкальная шкатулка (Сияющие ступеньки)
-        Tooltip: Проигрывает 'ascent' от ENNWAY! и Moonburn
+        Tooltip: Проигрывает «ascent» за авторством ENNWAY! и Moonburn
     }
     
     SvalbardMusicBox: {
         DisplayName: Музыкальная шкатулка (Твердыня Пермафроста)
-        Tooltip: Проигрывает 'Svalbard' от Moonburn
+        Tooltip: Проигрывает «Svalbard» за авторством Moonburn
     }
     
     StellarRequiemMusicBox: {
         DisplayName: Музыкальная шкатулка (Тоскливый привал)
-        Tooltip: Проигрывает 'Stellar Requiem' от Moonburn
+        Tooltip: Проигрывает «Stellar Requiem» за авторством Moonburn
     }
     
     EndCreditsMusicBox: {
         DisplayName: Музыкальная шкатулка (Финальные титры)
-        Tooltip: Проигрывает 'Wrath of the Gods' от Moonburn
+        Tooltip: Проигрывает «Wrath of the Gods» за авторством Moonburn
     }
     
     GraphicalUniverseImager: {
@@ -1652,7 +1652,7 @@ GameTips: {
     MetallicChunkTip: Wrath of the Gods: Вы можете переплавить три металлических куска в один железный слиток!
     ArenaTip: Wrath of the Gods: Не любите строить арены из платформ? Используйте благословлённые звёздами платформы!
     CheatPermissionSlipTip: Wrath of the Gods: Это не читерство, если у вас есть разрешение.
-    EmptinessSprayerTip: Wrath of the Gods: Существует особый распылитель, уничтожающий 99.99% низших существ!
+    EmptinessSprayerTip: Wrath of the Gods: Существует особый распылитель, уничтожающий 99,99% низших существ!
     TheEndTip: Wrath of the Gods: конец никогда не конец никогда не конец никогда не конец никогда не конец никогда не конец никогда не конец никогда не конец никогда не конец
     EternityTip: Wrath of the Gods: Вы слышите это? Тихий гул под руинами?
 }

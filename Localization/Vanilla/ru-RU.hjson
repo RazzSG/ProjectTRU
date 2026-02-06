@@ -1447,7 +1447,7 @@
         MagicPower: Магический урон увеличен на 20%
         MajesticHorseMount: Верхом на величественном скакуне
         ManaRegeneration: Восстановление маны увеличено
-        ManaSickness: Магический урон снижен на 
+        ManaSickness: "Магический урон снижен на "
         MartianPet: Чё как, людишки?
         MeowmereMinecartLeft: "{$BuffDescription.MinecartLeft}"
         MeowmereMinecartRight: "{$BuffDescription.MinecartRight}"
@@ -1461,7 +1461,7 @@
         MinecartRightWood: "{$BuffDescription.MinecartRight}"
         MiniMinotaur: Как вы одолеете маленького минотавра?
         Mining: Скорость добычи увеличена на 25%
-        MonsterBanner: Увеличены урон и защита в бою против:
+        MonsterBanner: Урон и защита увеличены в бою против:
         MoonLeech: Вы не можете лечиться
         MoonLordPet: Приятель из глубин мироздания
         NebulaUpDmg1: Урон увеличен на 15%
@@ -1573,7 +1573,7 @@
         Suffocation: Потеря здоровья
         SugarGlider: За вами следует сахарная летяга
         SugarRush: Скорость передвижения и добычи увеличены на 20%
-        Summoning: Количество призываемых миньонов увеличено
+        Summoning: Количество слотов миньонов увеличено
         Sunflower: Скорость передвижения увеличена, частота появления врагов снижена
         SunflowerMinecartLeft: "{$BuffDescription.MinecartLeft}"
         SunflowerMinecartRight: "{$BuffDescription.MinecartRight}"
@@ -2512,7 +2512,7 @@
         AcidDye: Кислотный краситель
         Acorn: Жёлудь
         AcornAxe: Топор выращивания
-        ActiveStoneBlock: Активный каменный блок
+        ActiveStoneBlock: Активный камень
         ActuationAccessory: Размещатель
         ActuationRod: Жезл-актуатор
         Actuator: Актуатор
@@ -4208,7 +4208,7 @@
         FleshTable: Стол из плоти
         FleshWorkBench: Верстак из плоти
         Fleshcatcher: Ловец плоти
-        FlintlockPistol: Кремневый пистолет
+        FlintlockPistol: Кремнёвый пистолет
         FlinxFur: Мех флинкса
         FlinxFurCoat: Шуба из меха флинкса
         FlinxStaff: Посох флинкса
@@ -4952,7 +4952,7 @@
         ImpStaff: Посох беса
         ImpStatue: Статуя беса
         Impact: Картина «Столкновение»
-        InactiveStoneBlock: Неактивный каменный блок
+        InactiveStoneBlock: Неактивный камень
         InfectedScabbardfish: Заражённая рыба-сабля
         InfernalWispDye: Краситель цвета адского огонька
         InfernoFork: Адский трезубец
@@ -13993,8 +13993,8 @@
         DIE_TO_DEAD_MANS_CHEST_Name: Мертвецы не рассказывают сказки
         DO_YOU_WANT_TO_SLAY_A_SNOWMAN_Description: Остановить морозный легион - весёлое семейство маниакальных снеговиков-мафиози.
         DO_YOU_WANT_TO_SLAY_A_SNOWMAN_Name: За окном уже бандиты!
-        DRAX_ATTAX_Description: Смастерить из освящённых слитков и эссенций трёх механических боссов тобур или топокирку.
-        DRAX_ATTAX_Name: Дырку топокиркой
+        DRAX_ATTAX_Description: Смастерить из освящённых слитков и эссенций трёх механических боссов тобур или киркотопор.
+        DRAX_ATTAX_Name: Киркотопор — кирконапор
         DUNGEON_HEIST_Description: Стащить ключ у обитателей Темницы и открыть один из их золотых сундуков.
         DUNGEON_HEIST_Name: Ограбление по-Темницки
         DYE_HARD_Description: Поместить красители во все доступные слоты, предназначенные для них.

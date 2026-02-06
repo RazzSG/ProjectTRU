@@ -31,7 +31,6 @@ public class ThoriumModItems : IItemGender
                 "HoneyRecorder",
                 "IcyPiccolo",
                 "JarOMayo",
-                "Kazoo",
                 "MythrilMelodica",
                 "Panflute",
                 "PlungerMute",
@@ -48,7 +47,6 @@ public class ThoriumModItems : IItemGender
                 "TheLullaby",
                 "TheMaw",
                 "TwentyFourCaratTuba",
-                "Ukulele",
                 "VinylRecord",
                 "Violin",
                 "VuvuzelaBlue",
@@ -195,7 +193,6 @@ public class ThoriumModItems : IItemGender
                 "Scorpain",
                 "Spoon",
                 "TheSeaMine",
-                "VegaPhaser",
                 "WhirlpoolSaber",
                 "EternalNight",
                 "CometCrossfire",
@@ -246,6 +243,13 @@ public class ThoriumModItems : IItemGender
                 "Flurry",
                 "ChromaticFury",
                 "SacredLyre",
+                "Blitzzard",
+                "LustrousBaton",
+                "NirvanaStatuette",
+                "RebirthStatuette",
+                "MorningDew",
+                "PaganGrasp",
+                "TrueLightAnguish",
             };
         
             if (ModInstances.Thorium != null)
@@ -290,7 +294,6 @@ public class ThoriumModItems : IItemGender
                 "CoralPolearm",
                 "AncientFlame",
                 "DemonBloodSpear",
-                "NagaRecurve",
                 "OceanRetaliation",
                 "DarkFlame",
                 "GuiltyPleasure",
@@ -347,6 +350,10 @@ public class ThoriumModItems : IItemGender
                 "SnarkyGun",
                 "HemogoblinSharkToothNecklace",
                 "IncandescentAlacrity",
+                "Kazoo",
+                "Ukulele",
+                "PacifistNecklace",
+                "Omen",
             };
         
             if (ModInstances.Thorium != null)
@@ -417,6 +424,7 @@ public class ThoriumModItems : IItemGender
                 "JetBoots",
                 "ChampionWing",
                 "TerrariumParticleSprinters",
+                "JetstreamSheath",
             };
     
             if (ModInstances.Thorium != null)
