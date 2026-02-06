@@ -103,6 +103,8 @@ Conditions: {
 }
 
 Items: {
+    PassYourTestText: Сперва ты должен пройти своё последнее испытание
+
     Cattail: {
         DisplayName: Рогоз
         Tooltip: ""
@@ -702,7 +704,7 @@ Items: {
     
     RiftEclipseFogMusicBox: {
         DisplayName: Музыкальная шкатулка (Затмение разлома в туман)
-        Tooltip: Проигрывает «Mirrortwist» за авторством Lucille Karma
+        Tooltip: Проигрывает «mirrortwist» за авторством Lucille Karma
     }
     
     RiftEclipseMusicBox: {

@@ -248,6 +248,10 @@ public class TownNpcNamesTranslation : GlobalNPC
             {"Yoshi", "Йоши"},
             {"Riley", "Райли"},
             {"Splinter", "Сплинтер"},
+            {"Libby", "Либби"},
+            {"Myles", "Майлс"},
+            {"Luna", "Луна"},
+            {"Franklin", "Франклин"},
         },
         [NPCID.TownCat] = new Dictionary<string, string>
         {

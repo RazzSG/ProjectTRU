@@ -696,6 +696,7 @@ Items: {
     Lore: {
         KnowledgeBereftVassal: {
             DisplayName: История (Обездоленный вассал)
+            Tooltip: ""
             Lore:
                 '''
                 Особенная связь двух одиноких душ
