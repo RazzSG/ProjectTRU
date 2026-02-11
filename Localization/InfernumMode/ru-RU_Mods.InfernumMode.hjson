@@ -1441,7 +1441,7 @@ Items: {
 
     Dyes: {
         ProfanedCrystalDye: {
-            DisplayName: Осквернённый кристальный краситель
+            DisplayName: Краситель осквернённого кристалла
             Tooltip: ""
         }
     }
@@ -1909,8 +1909,8 @@ Status: {
     DraedonDefeat2HyperplaneMatrix: Ты оказался отличным подопытным.
     DraedonDefeat3: Это не тот исход, которого я ожидал.
     DraedonDefeat3HyperplaneMatrix: Данные, полученные в ходе твоей битвы, были бесценны.
-    DraedonDefeat4: ...Возможно, я смогу вознаградить тебя за потраченное время.
-    DraedonDefeat4HyperplaneMatrix: ...Извиняюсь за внезапную интроспекцию. После полученных результатов я должен собраться с мыслями.
+    DraedonDefeat4: ...Прошу простить мою задумчивость. После полученных результатов я должен собраться с мыслями.
+    DraedonDefeat4HyperplaneMatrix: ...Пожалуй, я смогу вознаградить тебя за потраченное время.
     DraedonDefeat5: Возможно, логично будет заключить, что ты превосходишь мои расчёты.
     DraedonDefeat6: Итак.
     DraedonDefeat6HyperplaneMatrix: Моя самая полезная разработка. Уверен, ты найдёшь ей применение.
@@ -1935,6 +1935,7 @@ Tiles: {
     GolemArena.MapEntry: Арена
     MoonlordArena.MapEntry: Арена
     SeaShell.MapEntry: "{$ItemName.SeaShell}"
+    ArenaTile.MapEntry: Арена
 }
 
 UI: {

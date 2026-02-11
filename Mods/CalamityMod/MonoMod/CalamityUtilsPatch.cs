@@ -47,4 +47,4 @@ public class ToMphpsPatch : OnPatcher
     {
         return (velocity * 60f * 216000f / 42240f * 1.60934f).Round("N2");
     };
-}   
+}

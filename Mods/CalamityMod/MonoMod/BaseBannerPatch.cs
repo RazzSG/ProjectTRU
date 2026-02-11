@@ -6,7 +6,6 @@ using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
 using CalamityRuTranslate.Core.MonoMod;
 using Terraria.Localization;
-using Terraria.ModLoader;
 
 namespace CalamityRuTranslate.Mods.CalamityMod.MonoMod;
 
@@ -20,6 +19,11 @@ public class BaseBannerPatch : OnPatcher
 
     private LocalizedText Translation(Func<BaseBanner, LocalizedText> orig, BaseBanner self)
     {
-        return self.GetLocalization(nameof(self.DisplayName), self.PrettyPrintName);
+        string key = $"Mods.CalamityMod.Items.Placeables.{self.Name}.DisplayName";
+        
+        if (Language.Exists(key))
+            return Language.GetText(key);
+
+        return orig(self);
     }
 }

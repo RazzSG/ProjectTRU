@@ -54,5 +54,22 @@ public partial class CalamityModGlobalItem : GlobalItem
                 }
             }
         }
+        
+        int kbIndex = tooltips.FindIndex(x => x.FullName == "Terraria/Knockback");
+        string[] tagsToMove = ["CalamityMod:FlatSummonTag", "CalamityMod:MultiplicativeSummonTag", "CalamityMod:CritSummonTag"];
+
+        if (item.DamageType == DamageClass.Summon || item.DamageType == DamageClass.SummonMeleeSpeed)
+        {
+            foreach (string tagName in tagsToMove)
+            {
+                int currentIndex = tooltips.FindIndex(x => x.Name == tagName);
+                if (currentIndex != -1)
+                {
+                    TooltipLine line = tooltips[currentIndex];
+                    tooltips.RemoveAt(currentIndex);
+                    tooltips.Insert(++kbIndex, line);
+                }
+            }
+        }
     }
 }

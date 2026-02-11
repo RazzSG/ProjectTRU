@@ -61,6 +61,11 @@ Configs: {
             Tooltip: Выключает перевод Calamity Mod.
         }
         
+        CalamityModMusicLocalization: {
+            Label: Calamity Mod Music
+            Tooltip: Выключает перевод Calamity Mod Music.
+        }
+        
         FargowiltasLocalization: {
             Label: Fargo's Mutant
             Tooltip: Выключает перевод Fargo's Mutant.

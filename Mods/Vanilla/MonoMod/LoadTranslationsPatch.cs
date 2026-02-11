@@ -58,7 +58,10 @@ public class LoadTranslationsPatch : OnPatcher
 			    if (!TRuConfig.Instance.VanillaLocalization && modpath == @"CalamityRuTranslate\Localization\Vanilla\ru-RU.hjson")
 				    continue;
 			    
-			    if (!TRuConfig.Instance.CalamityModLocalization && modpath == @"CalamityRuTranslate\Localization\Calamity\ru-RU_Mods.CalamityMod.hjson")
+			    if (!TRuConfig.Instance.CalamityModLocalization && modpath is @"CalamityRuTranslate\Localization\Calamity\ru-RU_Mods.CalamityMod.hjson" or @"CalamityRuTranslate\Localization\Calamity\ru-RU_Mods.Terraria.hjson")
+				    continue;
+			    
+			    if (!TRuConfig.Instance.CalamityModMusicLocalization && modpath == @"CalamityRuTranslate\Localization\CalamityModMusic\ru-RU_Mods.CalamityModMusic.hjson")
 				    continue;
 			    
 			    if (!TRuConfig.Instance.FargowiltasLocalization && modpath == @"CalamityRuTranslate\Localization\Fargowiltas\ru-RU_Mods.Fargowiltas.hjson")
