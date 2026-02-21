@@ -6771,8 +6771,8 @@
         ShimmerSlimeBanner: Знамя мерцающего слизня
         ShimmerTorch: Эфирный факел
         ShimmerWall: Эфирная стена
-        Shimmerfly: Фейри
-        ShimmerflyinaBottle: Фейри в банке
+        Shimmerfly: Феечка
+        ShimmerflyinaBottle: Феечка в банке
         ShinePotion: Зелье свечения
         ShiningMoon: Картина «Сияющая луна»
         ShinyRedBalloon: Блестящий красный надувной шарик
@@ -9388,7 +9388,7 @@
             '''
         FairyWings: "{$CommonItemTooltip.FlightAndSlowfall}"
         FallenStar: Исчезает с первыми лучами солнца
-        FallenStarfish: 'Водится в небесных озёрах и на поверхности»'
+        FallenStarfish: "'Водится в небесных озёрах и на поверхности'"
         Fangs: "{$PaintingArtist.Kazzymodus}"
         FartInABalloon:
             '''
@@ -9499,14 +9499,14 @@
             Игнорирует 15 ед. защиты врага
             '''
         FlamingMace: "'Да осветит пламя твой путь'"
-        FlaskofCursedFlames: Атаки хлыста и оружия ближнего боя накладывают дебафф «{$BuffName.CursedInferno}»
-        FlaskofFire: Атаки хлыста и оружия ближнего боя накладывают дебафф «{$BuffName.OnFire}»
-        FlaskofGold: Атаки хлыста и оружия ближнего боя накладывают дебафф «{$BuffName.Midas}»
-        FlaskofIchor: Атаки хлыста и оружия ближнего боя накладывают дебафф «{$BuffName.Ichor}»
-        FlaskofNanites: Атаки хлыста и оружия ближнего боя накладывают дебафф «{$BuffName.Confused}»
-        FlaskofParty: Атаки хлыста и оружия ближнего боя разбрасывают конфетти
-        FlaskofPoison: Атаки хлыста и оружия ближнего боя накладывают дебафф «{$BuffName.Poisoned}»
-        FlaskofVenom: Атаки хлыста и оружия ближнего боя накладывают дебафф «{$BuffName.Venom}»
+        FlaskofCursedFlames: Атаки хлыстов и оружия ближнего боя накладывают дебафф «{$BuffName.CursedInferno}»
+        FlaskofFire: Атаки хлыстов и оружия ближнего боя накладывают дебафф «{$BuffName.OnFire}»
+        FlaskofGold: Атаки хлыстов и оружия ближнего боя накладывают дебафф «{$BuffName.Midas}»
+        FlaskofIchor: Атаки хлыстов и оружия ближнего боя накладывают дебафф «{$BuffName.Ichor}»
+        FlaskofNanites: Атаки хлыстов и оружия ближнего боя накладывают дебафф «{$BuffName.Confused}»
+        FlaskofParty: Атаки хлыстов и оружия ближнего боя разбрасывают конфетти
+        FlaskofPoison: Атаки хлыстов и оружия ближнего боя накладывают дебафф «{$BuffName.Poisoned}»
+        FlaskofVenom: Атаки хлыстов и оружия ближнего боя накладывают дебафф «{$BuffName.Venom}»
         FleshCloningVaat: "{$CommonItemTooltip.SpecialCrafting}"
         FleshKnuckles: Враги чаще выбирают вас в качестве цели
         FlinxFur: "'Какой же ПУШИСТЫЙ!'"
@@ -11754,7 +11754,7 @@
         SkyBlueString: "{$CommonItemTooltip.String}"
         SkyGuardian: "{$PaintingArtist.Crowno}"
         SkyMill: "{$CommonItemTooltip.SpecialCrafting}"
-        SliceOfCake: 'Обмажься сам. Обмажь кого-нибудь ещё. Всё равно'
+        SliceOfCake: "'Обмажься сам. Обмажь кого-нибудь ещё. Всё равно'"
         SlimeBanner: "{$CommonItemTooltip.BannerBonus}{$NPCName.BlueSlime}"
         SlimeCrown: Призывает Короля слизней
         SlimeGun: Стреляет безобидной струёй слизи
@@ -11843,7 +11843,7 @@
             {$CommonItemTooltip.MajorStats}
             'Аль денте!'
             '''
-        SparkleGuitar: 'Эти аккорды не из этого мира'
+        SparkleGuitar: "'Эти аккорды не из этого мира'"
         SparkyPainting:
             '''
             {$PaintingArtist.Crowno}
@@ -12011,7 +12011,7 @@
             Увеличивает урон призывателя на 22%
             Увеличивает дальность хлыстов на 15%
             '''
-        StardustMonolith: 'Содержит частицу энергии башни звёздной пыли'
+        StardustMonolith: "'Содержит частицу энергии башни звёздной пыли'"
         StardustSmallCellBanner: "{$CommonItemTooltip.BannerBonus}{$NPCName.StardustCellSmall}"
         StardustSoldierBanner: "{$CommonItemTooltip.BannerBonus}{$NPCName.StardustSoldier}"
         StardustSpiderBanner: "{$CommonItemTooltip.BannerBonus}{$NPCName.StardustSpiderBig}"
@@ -12405,7 +12405,7 @@
         UnicornFish: "'Водится в освящении'"
         UnicornHorn: "'Острый и волшебный!'"
         UnicornHornHat: "'Прекрасный летний день'"
-        UnicornonaStick: 'Приятно провести время!'
+        UnicornonaStick: "'Приятно провести время!'"
         UnluckyYarn: Призывает чёрного котёнка
         Uzi: Совершает мощный и очень быстрый выстрел
         ValkyrieYoyo: "{$CommonItemTooltip.DevItem}"
@@ -13289,8 +13289,8 @@
         23: Нет
         24: Поместите материал сюда
         25: Создание
-        26: Монеты
-        27: Боепр.
+        26: "Монеты "
+        27: Боеприпасы
         28: Магазин
         29: Взять всё
         3: Мусорный бак

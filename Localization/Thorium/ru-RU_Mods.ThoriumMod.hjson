@@ -19762,7 +19762,7 @@ NPCs: {
     BuriedChampion: {
         DisplayName: Погребённый чемпион
         BestiaryFlavorText: Герой, некогда прославленный на весь мир, ныне забытый временем. Он стремится встретиться с террарийцем, который разрушил проклятие Темницы.
-        BossChecklistIntegration.SpawnInfo: Используйте [i:ThoriumMod/AncientBlade] глубоко под землёй в мраморных пещерах или найдите и одолейте странную каменную фигуру.
+        BossChecklistIntegration.SpawnInfo: Используйте [i:ThoriumMod/AncientBlade] глубоко под землёй в мраморных пещерах или найдите и убейте странную каменную фигуру.
     }
 
     FallenChampion2: {
@@ -20401,7 +20401,7 @@ NPCs: {
     GraniteEnergyStorm: {
         DisplayName: Гранитный энергетический шторм
         BestiaryFlavorText: Неуправляемый эпицентр энергетического всплеска в гранитных пещерах, вызванный снятием проклятия со Скелетрона.
-        BossChecklistIntegration.SpawnInfo: Используйте [i:ThoriumMod/UnstableCore] глубоко под землёй в гранитных пещерах или найдите и одолейте нестабильную энергетическую аномалию.
+        BossChecklistIntegration.SpawnInfo: Используйте [i:ThoriumMod/UnstableCore] глубоко под землёй в гранитных пещерах или найдите и убейте нестабильную энергетическую аномалию.
     }
 
     UnstableEnergyAnomaly: {

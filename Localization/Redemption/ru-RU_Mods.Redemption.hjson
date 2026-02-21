@@ -10798,7 +10798,11 @@ NPCs: {
         BossChecklistIntegration.SpawnInfo: Используйте [i:Redemption/CyberTech] днём или атакуйте андроидов на поверхности и дайте им телепортироваться.
     }
 
-    KS3_Clone.DisplayName: Король-охотник III?.. 
+    KS3_Clone: {
+        DisplayName: Король-охотник III?.. 
+        DefeatName: Клон Короля-охотника III
+    }
+    
     KS3_Magnet.DisplayName: Дрон-магнит М.I
     KS3_MissileDrone.DisplayName: Дрон-ракета М.I
     KS3_ScannerDrone.DisplayName: Дрон-сканер М.I

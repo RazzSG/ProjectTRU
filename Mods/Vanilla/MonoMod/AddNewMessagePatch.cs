@@ -43,7 +43,7 @@ public class AddNewMessagePatch : ILoadable
 
         // StarsAbove
         text = text.Replace("was obliterated!", "был стёрт с лица земли!");
-        text = text.Replace("'s body was broken, along with their limits.", " сломал лимиты вместе c телом.");
+        text = text.Replace("'s body was broken, along with their limits.", " сломал лимиты вместе с телом.");
         text = text.Replace("died beyond their world.", "погиб за пределами своего мира.");
         text = text.Replace("was lost in space.", "потерялся в космосе.");
         text = text.Replace("drifted away from their home planet.", "отдалился от своей родной планеты.");

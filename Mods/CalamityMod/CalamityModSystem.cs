@@ -29,7 +29,10 @@ public class CalamityModSystem : ModSystem
                 { "CalamityMod Yharon", ModContent.ItemType<YharonPhase2MusicBox>() }
             });
         }
-        
+    }
+
+    public override void OnLocalizationsLoaded()
+    {
         Type dialogueLoader = ModInstances.Calamity.Code.GetType("CalamityMod.Dialogues.DialogueLoader");
         IDictionary lookup = dialogueLoader?.GetMemberValue<IDictionary>("_DialogueLookup");
         

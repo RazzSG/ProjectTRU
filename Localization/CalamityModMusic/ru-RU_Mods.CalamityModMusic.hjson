@@ -112,6 +112,11 @@ Items: {
         Tooltip: Эта шкатулка не завершена и не работает 
     }
 
+    BrainstormTrailerMusicBox: {
+        DisplayName: Музыкальная шкатулка (Трейлер обновления Brainstorm)
+        Tooltip: Проигрывает музыку трейлера за авторством Moonburn, CDMusic и TYESKI
+    }
+
     BrimstoneCragsMusicBox: {
         DisplayName: Музыкальная шкатулка (Серный утёс)
         Tooltip: Проигрывает «The Step Below Hell» за авторством DM DOKURO
