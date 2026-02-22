@@ -6,7 +6,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CalamityMod">
-      <HintPath>..\ModAssemblies\CalamityMod_v2.0.5.dll</HintPath>
+      <HintPath>..\ModAssemblies\CalamityMod_v2.1.1.dll</HintPath>
     </Reference>
     <Reference Include="CatalystMod">
       <HintPath>..\ModAssemblies\CatalystMod_v1.1.2.3.dll</HintPath>
@@ -18,22 +18,25 @@
       <HintPath>..\ModAssemblies\FargowiltasSouls_v1.7.2.dll</HintPath>
     </Reference>
     <Reference Include="InfernumMode">
-      <HintPath>..\ModAssemblies\InfernumMode_v2.0.1.16.dll</HintPath>
+      <HintPath>..\ModAssemblies\InfernumMode_v2.0.1.22.dll</HintPath>
     </Reference>
     <Reference Include="NoxusBoss">
-      <HintPath>..\ModAssemblies\NoxusBoss_v1.2.23.dll</HintPath>
+      <HintPath>..\ModAssemblies\NoxusBoss_v1.2.27.dll</HintPath>
+    </Reference>
+    <Reference Include="PathOfTerraria">
+      <HintPath>..\ModAssemblies\PathOfTerraria_v0.2.19.dll</HintPath>
     </Reference>
     <Reference Include="Redemption">
-      <HintPath>..\ModAssemblies\Redemption_v0.8.0.4080.dll</HintPath>
+      <HintPath>..\ModAssemblies\Redemption_v0.8.0.4100.dll</HintPath>
     </Reference>
     <Reference Include="SpiritMod">
-      <HintPath>..\ModAssemblies\SpiritMod_v1.5.0.32.dll</HintPath>
+      <HintPath>..\ModAssemblies\SpiritMod_v1.5.0.38.dll</HintPath>
     </Reference>
     <Reference Include="StarsAbove">
       <HintPath>..\ModAssemblies\StarsAbove_v2.1.5.1.dll</HintPath>
     </Reference>
     <Reference Include="ThoriumMod">
-      <HintPath>..\ModAssemblies\ThoriumMod_v1.7.2.4.dll</HintPath>
+      <HintPath>..\ModAssemblies\ThoriumMod_v1.7.2.5.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>

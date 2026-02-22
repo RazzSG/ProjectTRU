@@ -8,6 +8,7 @@ using CalamityRuTranslate.Core.MonoMod;
 using Microsoft.Xna.Framework;
 using ReLogic.OS;
 using Terraria;
+using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using ThoriumMod;
@@ -35,10 +36,14 @@ public class ThoriumPlayerPatch : OnPatcher
         {
             if (color == default)
             {
-                color = new Color(250, 210, 45);
+                int[] coins = Utils.CoinsSplit(amount);
+                color = coins[3] > 0 ? Colors.CoinPlatinum :
+                    coins[2] > 0 ? Colors.CoinGold :
+                    coins[1] > 0 ? Colors.CoinSilver :
+                    Colors.CoinCopper;
             }
-            float num2 = Main.mouseTextColor / 255f;
-            string hex = (color * num2).Hex3();
+            
+            string hex = Colors.AlphaDarken(color).Hex3();
             text = $"[c/{hex}:{moneyText}]";
         }
 
@@ -47,29 +52,37 @@ public class ThoriumPlayerPatch : OnPatcher
     
     private string GetMoneyText(int amount)
     {
-        int gold = amount / 10000;
-        int silver = amount % 10000 / 100;
-        int copper = amount % 100;
+        int[] coins = Utils.CoinsSplit(amount);
+        int platinum = coins[3];
+        int gold = coins[2];
+        int silver = coins[1];
+        int copper = coins[0];
 
         string moneyText = "";
-        string coinText = "";
+        int lastCoinValue = 0;
+
+        if (platinum > 0)
+        {
+            moneyText += Language.GetTextValue("Currency.Platinum", platinum);
+            lastCoinValue = platinum;
+        }
 
         if (gold > 0)
         {
             moneyText += Language.GetTextValue("Currency.Gold", gold);
-            coinText = LocalizedText.ApplyPluralization(" {^0:монета;монеты;монет}", gold);
+            lastCoinValue = gold;
         }
         
         if (silver > 0)
         {
             moneyText += Language.GetTextValue("Currency.Silver", silver);
-            coinText = LocalizedText.ApplyPluralization(" {^0:монета;монеты;монет}", silver);
+            lastCoinValue = silver;
         }
         
         if (copper > 0)
         {
             moneyText += Language.GetTextValue("Currency.Copper", copper);
-            coinText = LocalizedText.ApplyPluralization(" {^0:монета;монеты;монет}", copper);
+            lastCoinValue = copper;
         }
         
         if (amount <= 0)
@@ -77,6 +90,8 @@ public class ThoriumPlayerPatch : OnPatcher
             moneyText += "0 монет";
             return moneyText;
         }
+        
+        string coinText = LocalizedText.ApplyPluralization(" {^0:монета;монеты;монет}", lastCoinValue);
         
         if (moneyText.Length > 1)
             moneyText = moneyText[..^1] + coinText;

@@ -49,6 +49,10 @@ public class TRuConfig : ModConfig
     [DefaultValue(true)]
     [ReloadRequired]
     public bool CalamityModLocalization;
+    
+    [DefaultValue(true)]
+    [ReloadRequired]
+    public bool CalamityModMusicLocalization;
 
     [DefaultValue(true)]
     [ReloadRequired]

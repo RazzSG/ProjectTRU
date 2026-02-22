@@ -61,6 +61,11 @@ Configs: {
             Tooltip: Выключает перевод Calamity Mod.
         }
         
+        CalamityModMusicLocalization: {
+            Label: Calamity Mod Music
+            Tooltip: Выключает перевод Calamity Mod Music.
+        }
+        
         FargowiltasLocalization: {
             Label: Fargo's Mutant
             Tooltip: Выключает перевод Fargo's Mutant.
@@ -123,11 +128,12 @@ GameTips: {
     Tip7: Project tRU: Во всех ошибках Террарии виноват русификатор. Аминь.
     Tip8: Project tRU: Русский кавер темы Ярона удаляет папку System32. Не шутка.
     Tip9: Project tRU: Жвало - это часть ротового аппарата насекомых. А жало - это орган, который используется для впрыскивания яда.
+    Tip10: Project tRU: Project TRU контролирует и является абсолютным монополистом русификаций tModLoader.
 }
 
 Items: {
     YharonPhase2MusicBox: {
-        DisplayName: Музыкальная шкатулка (Ярон - Фаза 2)
-        Tooltip: Проигрывает русский кавер 'Roar of the Jungle Dragon' от Зардимов кабинет
+        DisplayName: Музыкальная шкатулка (Ярон - 2 фаза)
+        Tooltip: Проигрывает русский кавер «Roar of the Jungle Dragon» за авторством Зардимов кабинет
     }
 }

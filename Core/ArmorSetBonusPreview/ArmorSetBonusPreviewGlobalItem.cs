@@ -31,7 +31,7 @@ public class ArmorSetBonusPreviewGlobalItem : GlobalItem
         bool showDesc = key == null || PlayerInput.Triggers.Current.SmartSelect;
         int index = tooltips.FindLastIndex(x => x.Text == Language.GetTextValue("CommonItemTooltip.WizardHatDuringAnniversary") || (x.Mod.Equals("Terraria") && x.Name.StartsWith("Tooltip")));
 
-        TooltipLine tooltipLine = new TooltipLine(Mod, "ForMoreInfo", $"Удерживайте клавишу ({key}) без автоматической паузы для предпросмотра бонуса комплекта")
+        TooltipLine tooltipLine = new TooltipLine(Mod, "ForMoreInfo", $"Удерживайте {key} без автоматической паузы для предпросмотра бонуса комплекта")
         {
             OverrideColor = Color.Gray
         };

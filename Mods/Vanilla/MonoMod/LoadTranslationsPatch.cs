@@ -5,11 +5,14 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Threading;
+using System.Threading.Tasks;
 using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
 using CalamityRuTranslate.Core.MonoMod;
 using Hjson;
 using Newtonsoft.Json.Linq;
+using Terraria;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ModLoader.Core;
@@ -22,41 +25,33 @@ public class LoadTranslationsPatch : OnPatcher
 	
     public override bool AutoLoad => TranslationHelper.IsRussianLanguage;
 
-    public override MethodInfo ModifiedMethod => typeof(LocalizationLoader).FindMethod("LoadTranslations");
+    public override MethodInfo ModifiedMethod => typeof(LocalizationLoader).FindMethod("LoadTranslations", [typeof(TmodFile), typeof(GameCulture)
+    ]);
     
-    private delegate List<(string key, string value)> LoadTranslationsDelegate(Mod mod, GameCulture culture);
+    private delegate List<(string key, string value)> LoadTranslationsDelegate(TmodFile tModFile, GameCulture culture);
     
     public override Delegate Delegate => Translation;
 
-    private List<(string key, string value)> Translation(LoadTranslationsDelegate orig, Mod mod, GameCulture culture)
+    private List<(string key, string value)> Translation(LoadTranslationsDelegate orig, TmodFile tModFile, GameCulture culture)
     {
-	    if (culture != GameCulture.FromCultureName(GameCulture.CultureName.Russian))
-		    return orig.Invoke(mod, culture);
-
-	    TmodFile file = mod.GetMemberValue<TmodFile>("File");
-	    Dictionary<string, bool> translationsToSkip = new()
+	    if (tModFile == null || culture != GameCulture.FromCultureName(GameCulture.CultureName.Russian) || tModFile.Name != nameof(CalamityRuTranslate))
 	    {
-		    {"CalamityMod", TRuConfig.Instance.CalamityModLocalization},
-		    {"Fargowiltas", TRuConfig.Instance.FargowiltasLocalization},
-		    {"FargowiltasSouls", TRuConfig.Instance.FargowiltasSoulsLocalization},
-		    {"InfernumMode", TRuConfig.Instance.InfernumModeLocalization},
-		    {"ThoriumMod", TRuConfig.Instance.ThoriumModLocalization},
-		    {"NoxusBoss", TRuConfig.Instance.NoxusBossLocalization},
-		    {"StarsAbove", TRuConfig.Instance.StarsAboveLocalization},
-		    {"Redemption", TRuConfig.Instance.RedemptionLocalization},
-		    {"CatalystMod", TRuConfig.Instance.CatalystLocalization},
-		    {"SpiritReforged", TRuConfig.Instance.SpiritReforgedLocalization},
-	    };
-
-	    if (file == null)
-		    return new();
+		    List<(string key, string value)> result = orig.Invoke(tModFile, culture);
+		    
+		    if (tModFile != null && tModFile.Name != nameof(CalamityRuTranslate) && _customKeys.Count > 0)
+			    result.RemoveAll(pair => _customKeys.Contains(pair.Item1));
+		    
+		    return result;
+	    }
 
 	    try
 	    {
 		    List<(string, string)> flattened = new();
-		    foreach (TmodFile.FileEntry translationFile in file.Where(entry => Path.GetExtension(entry.Name) == ".hjson"))
+		    string sourceFolder = Path.Combine(Main.SavePath, "ModSources", nameof(CalamityRuTranslate));
+		    List<TmodFile.FileEntry> hjsonFiles = tModFile.Where(entry => Path.GetExtension(entry.Name) == ".hjson").ToList();
+		    foreach (TmodFile.FileEntry translationFile in hjsonFiles)
 		    {
-			    string modpath = Path.Combine(mod.Name, translationFile.Name).Replace('/', '\\');
+			    string normalizedPath = translationFile.Name.Replace('/', '\\');
 			    
 			    if (!LocalizationLoader.TryGetCultureAndPrefixFromPath(translationFile.Name, out GameCulture fileCulture, out string prefix))
 				    continue;
@@ -64,24 +59,36 @@ public class LoadTranslationsPatch : OnPatcher
 			    if (fileCulture != culture)
 				    continue;
 
-			    if (fileCulture == GameCulture.FromCultureName(GameCulture.CultureName.Russian) &&
-			        translationsToSkip.TryGetValue(mod.Name, out bool skip) && skip)
-				    continue;
+			    if (!TRuConfig.Instance.VanillaLocalization && normalizedPath.Contains(@"Vanilla\")) continue;
+			    if (!TRuConfig.Instance.CalamityModLocalization && normalizedPath.Contains(@"Calamity\")) continue;
+			    if (!TRuConfig.Instance.CalamityModMusicLocalization && normalizedPath.Contains(@"CalamityModMusic\")) continue;
+			    if (!TRuConfig.Instance.FargowiltasLocalization && normalizedPath.Contains(@"Fargowiltas\")) continue;
+			    if (!TRuConfig.Instance.FargowiltasSoulsLocalization && normalizedPath.Contains(@"FargowiltasSouls\")) continue;
+			    if (!TRuConfig.Instance.InfernumModeLocalization && normalizedPath.Contains(@"InfernumMode\")) continue;
+			    if (!TRuConfig.Instance.ThoriumModLocalization && normalizedPath.Contains(@"Thorium\")) continue;
+			    if (!TRuConfig.Instance.NoxusBossLocalization && normalizedPath.Contains(@"NoxusBoss\")) continue;
+			    if (!TRuConfig.Instance.StarsAboveLocalization && normalizedPath.Contains(@"StarsAbove\")) continue;
+			    if (!TRuConfig.Instance.RedemptionLocalization && normalizedPath.Contains(@"Redemption\")) continue;
+			    if (!TRuConfig.Instance.CatalystLocalization && normalizedPath.Contains(@"Catalyst\")) continue;
+			    if (!TRuConfig.Instance.SpiritReforgedLocalization && normalizedPath.Contains(@"SpiritReforged\")) continue;
 
-			    if (!TRuConfig.Instance.VanillaLocalization && modpath == @"CalamityRuTranslate\Localization\Vanilla\ru-RU.hjson")
-				    continue;
-
-			    using Stream stream = file.GetStream(translationFile);
-			    using StreamReader streamReader = new StreamReader(stream, Encoding.UTF8, true);
-
-			    string translationFileContents = streamReader.ReadToEnd();
-
-			    HashSet<(string Mod, string fileName)> changedFiles = typeof(LocalizationLoader).GetMemberValue<HashSet<(string Mod, string fileName)>>("changedFiles");
-
-			    if (changedFiles.Select(x => Path.Join(x.Mod, x.fileName)).Contains(modpath))
+			    string translationFileContents;
+			    using (Stream stream = tModFile.GetStream(translationFile, newFileStream: true))
 			    {
-				    string path = Path.Combine(mod.SourceFolder, translationFile.Name);
-				    
+				    using (MemoryStream ms = new MemoryStream())
+				    {
+					    stream.CopyTo(ms);
+					    ms.Position = 0;
+					    using (StreamReader streamReader = new StreamReader(ms, Encoding.UTF8, true))
+					    {
+						    translationFileContents = streamReader.ReadToEnd();
+					    }
+				    }
+			    }
+
+			    if (!string.IsNullOrWhiteSpace(sourceFolder))
+			    {
+				    string path = Path.Combine(sourceFolder, translationFile.Name);
 				    if (File.Exists(path))
 				    {
 					    try
@@ -148,20 +155,15 @@ public class LoadTranslationsPatch : OnPatcher
 					    path = prefix + "." + path;
 
 				    flattened.Add((path, t.ToString()));
-				    
-				    if (mod.Name == nameof(CalamityRuTranslate))
-					    _customKeys.Add(path);
+				    _customKeys.Add(path);
 			    }
 		    }
-
-		    if (mod.Name != nameof(CalamityRuTranslate))
-			    flattened.RemoveAll(pair => _customKeys.Contains(pair.Item1));
 		    
 		    return flattened;
 	    }
 	    catch (Exception e)
 	    {
-		    e.Data["mod"] = mod.Name;
+		    e.Data["mod"] = tModFile.Name;
 		    throw;
 	    }
     }

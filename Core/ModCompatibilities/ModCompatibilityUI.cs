@@ -1,5 +1,4 @@
 ﻿using System.Reflection;
-using System.Threading.Tasks;
 using CalamityRuTranslate.Common.Utilities;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;

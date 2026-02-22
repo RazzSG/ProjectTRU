@@ -7,9 +7,6 @@ using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
 using CalamityRuTranslate.Core.MonoMod;
-using Microsoft.Xna.Framework;
-using Mono.Cecil.Cil;
-using MonoMod.Cil;
 using Terraria;
 using Terraria.Localization;
 
@@ -31,44 +28,26 @@ public class ModeIndicatorUIPatch : OnPatcher
         
         if (ModeIndicatorUI.MouseScreenArea.Intersects(ModeIndicatorUI.MainClickArea))
         {
-            string name = DifficultyModeSystem.Difficulties[1].Name.ToString();
-            bool flag = false;
+            string name = !Main.getGoodWorld || DifficultyModeSystem.Difficulties[0].FTWName == null
+                ? DifficultyModeSystem.Difficulties[1].Name.ToString()
+                : DifficultyModeSystem.Difficulties[0].FTWName.ToString();
+            bool flag = Main.getGoodWorld;
             for (int index = 1; index < DifficultyModeSystem.Difficulties.Count; ++index)
             {
                 if (DifficultyModeSystem.GetCurrentDifficulty == DifficultyModeSystem.Difficulties[index])
                 {
-                    name = DifficultyModeSystem.Difficulties[index].Name.ToString();
+                    name = !Main.getGoodWorld || DifficultyModeSystem.Difficulties[index].FTWName == null
+                        ? DifficultyModeSystem.Difficulties[index].Name.ToString()
+                        : DifficultyModeSystem.Difficulties[index].FTWName.ToString();
                     flag = true;
                 }
             }
 
-            string textValue2 = name == "Инфернум"
+            string textValue2 = name is "Инфернум" or "Эксперт" or "Мастер"
                 ? CalamityUtils.GetTextValue("UI." + (flag ? "InfernumActive" : "InfernumNotActive"))
                 : CalamityUtils.GetTextValue("UI." + (flag ? "Active" : "NotActive"));
             
             text = CalamityUtils.GetText("UI.DifficultyStatusText").WithFormatArgs(name, textValue2.ToLower());
         }
     }
-}
-
-public class ModeIndicatorUIDrawPatch : ILPatcher
-{
-    public override bool AutoLoad => ModInstances.Calamity != null && TRuConfig.Instance.CalamityModLocalization && TranslationHelper.IsRussianLanguage;
-    
-    public override MethodInfo ModifiedMethod => typeof(ModeIndicatorUI).FindMethod(nameof(ModeIndicatorUI.Draw));
-
-    public override ILContext.Manipulator PatchMethod { get; } = il =>
-    {
-        ILCursor cursor = new(il);
-        
-        cursor.TryGotoNext(MoveType.After, i => i.MatchLdfld<Vector2>("X"));
-        cursor.TryGotoNext(MoveType.After, i => i.MatchLdloc(15));
-        cursor.Emit(OpCodes.Pop);
-        cursor.Emit(OpCodes.Ldloc, 18);
-        cursor.TryGotoNext(MoveType.After, i => i.MatchLdsfld<Main>("screenWidth"));
-        cursor.TryGotoNext(MoveType.After, i => i.MatchConvR4());
-        cursor.TryGotoNext(MoveType.After, i => i.MatchLdloc(15));
-        cursor.Emit(OpCodes.Pop);
-        cursor.Emit(OpCodes.Ldloc, 18);
-    };
 }

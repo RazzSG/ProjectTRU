@@ -42,12 +42,22 @@ public class PrefixOverhaulModSystem : ModSystem
         _genderCreators?.Clear();
     }
     
+    internal static void RegisterPrefixes(List<string[]> variations) => PrefixOverhaul.Instance.AddCustomPrefixes(variations);
+
     internal static void AddFeminineItems(Mod mod, string[] items) => AddGenderedItems(mod, items, PrefixOverhaul.ItemGenderType.Feminine);
     
     internal static void AddNeuterItems(Mod mod, string[] items) => AddGenderedItems(mod, items, PrefixOverhaul.ItemGenderType.Neuter);
     
     internal static void AddPluralItems(Mod mod, string[] items) => AddGenderedItems(mod, items, PrefixOverhaul.ItemGenderType.Plural);
     
+    internal static void AddFeminineItems(int[] items) => AddGenderedItems(items, PrefixOverhaul.ItemGenderType.Feminine);
+    
+    internal static void AddNeuterItems(int[] items) => AddGenderedItems(items, PrefixOverhaul.ItemGenderType.Neuter);
+   
+    internal static void AddPluralItems(int[] items) => AddGenderedItems(items, PrefixOverhaul.ItemGenderType.Plural);
+    
+    private static void AddGenderedItems(IEnumerable<int> items, PrefixOverhaul.ItemGenderType genderType) => PrefixOverhaul.Instance.AddItems(genderType, items.ToList());
+
     private static void AddGenderedItems(Mod mod, string[] items, PrefixOverhaul.ItemGenderType genderType)
     {
         if (mod != null)

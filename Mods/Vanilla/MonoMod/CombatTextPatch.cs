@@ -1,7 +1,6 @@
 ﻿using CalamityRuTranslate.Common.Utilities;
 using Microsoft.Xna.Framework;
 using Terraria;
-using Terraria.Localization;
 using Terraria.ModLoader;
 
 namespace CalamityRuTranslate.Mods.Vanilla.MonoMod;

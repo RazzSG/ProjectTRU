@@ -1447,7 +1447,7 @@
         MagicPower: Магический урон увеличен на 20%
         MajesticHorseMount: Верхом на величественном скакуне
         ManaRegeneration: Восстановление маны увеличено
-        ManaSickness: Магический урон снижен на 
+        ManaSickness: "Магический урон снижен на "
         MartianPet: Чё как, людишки?
         MeowmereMinecartLeft: "{$BuffDescription.MinecartLeft}"
         MeowmereMinecartRight: "{$BuffDescription.MinecartRight}"
@@ -1461,7 +1461,7 @@
         MinecartRightWood: "{$BuffDescription.MinecartRight}"
         MiniMinotaur: Как вы одолеете маленького минотавра?
         Mining: Скорость добычи увеличена на 25%
-        MonsterBanner: Увеличены урон и защита в бою против:
+        MonsterBanner: Урон и защита увеличены в бою против:
         MoonLeech: Вы не можете лечиться
         MoonLordPet: Приятель из глубин мироздания
         NebulaUpDmg1: Урон увеличен на 15%
@@ -1573,7 +1573,7 @@
         Suffocation: Потеря здоровья
         SugarGlider: За вами следует сахарная летяга
         SugarRush: Скорость передвижения и добычи увеличены на 20%
-        Summoning: Количество призываемых миньонов увеличено
+        Summoning: Количество слотов миньонов увеличено
         Sunflower: Скорость передвижения увеличена, частота появления врагов снижена
         SunflowerMinecartLeft: "{$BuffDescription.MinecartLeft}"
         SunflowerMinecartRight: "{$BuffDescription.MinecartRight}"
@@ -2442,14 +2442,14 @@
         RestoresMana: Восстанавливает {0} ед. маны
         RightClickToClose: Нажмите <right>, чтобы закрыть
         RightClickToOpen: Нажмите <right>, чтобы открыть
-        SecondDuration: Длительность эффекта: {0} сек.
+        SecondDuration: Длительность эффекта: {0} сек
         Sentry: Призывает стража
         SpecialCrafting: Используется для создания особых предметов
         String: Увеличивает дальность броска йо-йо
         TeleportationPylon:
             '''
             Телепортирует к другому пилону, если поблизости находятся два жителя
-            Можно установить только один пилон, соответствующий биому
+            Можно установить только один пилон каждого типа в соответствующем ему биоме
             '''
         TipsyStats: Немного увеличивает характеристики ближнего боя, но снижает защиту
         UsesLife: Использует {0} ед. здоровья
@@ -2512,7 +2512,7 @@
         AcidDye: Кислотный краситель
         Acorn: Жёлудь
         AcornAxe: Топор выращивания
-        ActiveStoneBlock: Активный каменный блок
+        ActiveStoneBlock: Активный камень
         ActuationAccessory: Размещатель
         ActuationRod: Жезл-актуатор
         Actuator: Актуатор
@@ -4208,7 +4208,7 @@
         FleshTable: Стол из плоти
         FleshWorkBench: Верстак из плоти
         Fleshcatcher: Ловец плоти
-        FlintlockPistol: Кремневый пистолет
+        FlintlockPistol: Кремнёвый пистолет
         FlinxFur: Мех флинкса
         FlinxFurCoat: Шуба из меха флинкса
         FlinxStaff: Посох флинкса
@@ -4952,7 +4952,7 @@
         ImpStaff: Посох беса
         ImpStatue: Статуя беса
         Impact: Картина «Столкновение»
-        InactiveStoneBlock: Неактивный каменный блок
+        InactiveStoneBlock: Неактивный камень
         InfectedScabbardfish: Заражённая рыба-сабля
         InfernalWispDye: Краситель цвета адского огонька
         InfernoFork: Адский трезубец
@@ -6771,8 +6771,8 @@
         ShimmerSlimeBanner: Знамя мерцающего слизня
         ShimmerTorch: Эфирный факел
         ShimmerWall: Эфирная стена
-        Shimmerfly: Фейри
-        ShimmerflyinaBottle: Фейри в банке
+        Shimmerfly: Феечка
+        ShimmerflyinaBottle: Феечка в банке
         ShinePotion: Зелье свечения
         ShiningMoon: Картина «Сияющая луна»
         ShinyRedBalloon: Блестящий красный надувной шарик
@@ -7363,7 +7363,7 @@
         TeleportationPylonOcean: Пилон океана
         TeleportationPylonPurity: Пилон леса
         TeleportationPylonSnow: Пилон снегов
-        TeleportationPylonUnderground: Пилон пещеры
+        TeleportationPylonUnderground: Пилон пещер
         TeleportationPylonVictory: Универсальный пилон
         Teleporter: Телепорт
         TempestStaff: Посох треволнения
@@ -8396,7 +8396,7 @@
         Bladetongue: Выплёвывает струю ихора при контакте
         BlandWhip:
             '''
-            4 урона от метки призывателя
+            4 ед. урона от метки призывателя
             {$CommonItemTooltip.Whips}
             'Сдохни, чудище!'
             '''
@@ -8500,7 +8500,7 @@
         BoneWelder: "{$CommonItemTooltip.SpecialCrafting}"
         BoneWhip:
             '''
-            7 урона от метки призывателя
+            7 ед. урона от метки призывателя
             {$CommonItemTooltip.Whips}
             Демонстрирует лучшую эффективность против нескольких целей, чем большинство хлыстов
             'Десять из десяти на кончиках позвонков'
@@ -8894,7 +8894,7 @@
             '''
         CoolWhip:
             '''
-            6 урона от метки призывателя
+            6 ед. урона от метки призывателя
             {$CommonItemTooltip.Whips}
             Атакуйте врагов, чтобы призвать дружелюбную снежинку
             'Дай-ка мне те взбитые сливки'
@@ -9388,7 +9388,7 @@
             '''
         FairyWings: "{$CommonItemTooltip.FlightAndSlowfall}"
         FallenStar: Исчезает с первыми лучами солнца
-        FallenStarfish: 'Водится в небесных озёрах и на поверхности»'
+        FallenStarfish: "'Водится в небесных озёрах и на поверхности'"
         Fangs: "{$PaintingArtist.Kazzymodus}"
         FartInABalloon:
             '''
@@ -9499,14 +9499,14 @@
             Игнорирует 15 ед. защиты врага
             '''
         FlamingMace: "'Да осветит пламя твой путь'"
-        FlaskofCursedFlames: Атаки хлыста и оружия ближнего боя накладывают дебафф «{$BuffName.CursedInferno}»
-        FlaskofFire: Атаки хлыста и оружия ближнего боя накладывают дебафф «{$BuffName.OnFire}»
-        FlaskofGold: Атаки хлыста и оружия ближнего боя накладывают дебафф «{$BuffName.Midas}»
-        FlaskofIchor: Атаки хлыста и оружия ближнего боя накладывают дебафф «{$BuffName.Ichor}»
-        FlaskofNanites: Атаки хлыста и оружия ближнего боя накладывают дебафф «{$BuffName.Confused}»
-        FlaskofParty: Атаки хлыста и оружия ближнего боя разбрасывают конфетти
-        FlaskofPoison: Атаки хлыста и оружия ближнего боя накладывают дебафф «{$BuffName.Poisoned}»
-        FlaskofVenom: Атаки хлыста и оружия ближнего боя накладывают дебафф «{$BuffName.Venom}»
+        FlaskofCursedFlames: Атаки хлыстов и оружия ближнего боя накладывают дебафф «{$BuffName.CursedInferno}»
+        FlaskofFire: Атаки хлыстов и оружия ближнего боя накладывают дебафф «{$BuffName.OnFire}»
+        FlaskofGold: Атаки хлыстов и оружия ближнего боя накладывают дебафф «{$BuffName.Midas}»
+        FlaskofIchor: Атаки хлыстов и оружия ближнего боя накладывают дебафф «{$BuffName.Ichor}»
+        FlaskofNanites: Атаки хлыстов и оружия ближнего боя накладывают дебафф «{$BuffName.Confused}»
+        FlaskofParty: Атаки хлыстов и оружия ближнего боя разбрасывают конфетти
+        FlaskofPoison: Атаки хлыстов и оружия ближнего боя накладывают дебафф «{$BuffName.Poisoned}»
+        FlaskofVenom: Атаки хлыстов и оружия ближнего боя накладывают дебафф «{$BuffName.Venom}»
         FleshCloningVaat: "{$CommonItemTooltip.SpecialCrafting}"
         FleshKnuckles: Враги чаще выбирают вас в качестве цели
         FlinxFur: "'Какой же ПУШИСТЫЙ!'"
@@ -10547,7 +10547,7 @@
         Mace: Можно улучшить с помощью факелов
         MaceWhip:
             '''
-            8 урона от метки призывателя
+            8 ед. урона от метки призывателя
             Увеличивает шанс критического удара для призванных существ на 12%
             {$CommonItemTooltip.Whips}
             '''
@@ -11315,7 +11315,7 @@
         RainbowString: "{$CommonItemTooltip.String}"
         RainbowWhip:
             '''
-            20 урона от метки призывателя
+            20 ед. урона от метки призывателя
             Увеличивает шанс критического удара для призванных миньонов на 10%
             {$CommonItemTooltip.Whips}
             '''
@@ -11754,7 +11754,7 @@
         SkyBlueString: "{$CommonItemTooltip.String}"
         SkyGuardian: "{$PaintingArtist.Crowno}"
         SkyMill: "{$CommonItemTooltip.SpecialCrafting}"
-        SliceOfCake: 'Обмажься сам. Обмажь кого-нибудь ещё. Всё равно'
+        SliceOfCake: "'Обмажься сам. Обмажь кого-нибудь ещё. Всё равно'"
         SlimeBanner: "{$CommonItemTooltip.BannerBonus}{$NPCName.BlueSlime}"
         SlimeCrown: Призывает Короля слизней
         SlimeGun: Стреляет безобидной струёй слизи
@@ -11843,7 +11843,7 @@
             {$CommonItemTooltip.MajorStats}
             'Аль денте!'
             '''
-        SparkleGuitar: 'Эти аккорды не из этого мира'
+        SparkleGuitar: "'Эти аккорды не из этого мира'"
         SparkyPainting:
             '''
             {$PaintingArtist.Crowno}
@@ -12011,7 +12011,7 @@
             Увеличивает урон призывателя на 22%
             Увеличивает дальность хлыстов на 15%
             '''
-        StardustMonolith: 'Содержит частицу энергии башни звёздной пыли'
+        StardustMonolith: "'Содержит частицу энергии башни звёздной пыли'"
         StardustSmallCellBanner: "{$CommonItemTooltip.BannerBonus}{$NPCName.StardustCellSmall}"
         StardustSoldierBanner: "{$CommonItemTooltip.BannerBonus}{$NPCName.StardustSoldier}"
         StardustSpiderBanner: "{$CommonItemTooltip.BannerBonus}{$NPCName.StardustSpiderBig}"
@@ -12126,7 +12126,7 @@
         SwiftnessPotion: Увеличивает скорость передвижения на 25%
         SwordWhip:
             '''
-            9 урона от метки призывателя
+            9 ед. урона от метки призывателя
             {$CommonItemTooltip.Whips}
             Атакуйте врагов, чтобы получить бонус к скорости атаки хлыстов
             '''
@@ -12228,7 +12228,7 @@
         ThisIsGettingOutOfHand: "{$PaintingArtist.Criddle}"
         ThornWhip:
             '''
-            6 урона от метки призывателя
+            6 ед. урона от метки призывателя
             {$CommonItemTooltip.Whips}
             Атакуйте врагов, чтобы получить бонус к скорости атаки хлыстов
             '''
@@ -12405,7 +12405,7 @@
         UnicornFish: "'Водится в освящении'"
         UnicornHorn: "'Острый и волшебный!'"
         UnicornHornHat: "'Прекрасный летний день'"
-        UnicornonaStick: 'Приятно провести время!'
+        UnicornonaStick: "'Приятно провести время!'"
         UnluckyYarn: Призывает чёрного котёнка
         Uzi: Совершает мощный и очень быстрый выстрел
         ValkyrieYoyo: "{$CommonItemTooltip.DevItem}"
@@ -13289,8 +13289,8 @@
         23: Нет
         24: Поместите материал сюда
         25: Создание
-        26: Монеты
-        27: Боепр.
+        26: "Монеты "
+        27: Боеприпасы
         28: Магазин
         29: Взять всё
         3: Мусорный бак
@@ -13993,8 +13993,8 @@
         DIE_TO_DEAD_MANS_CHEST_Name: Мертвецы не рассказывают сказки
         DO_YOU_WANT_TO_SLAY_A_SNOWMAN_Description: Остановить морозный легион - весёлое семейство маниакальных снеговиков-мафиози.
         DO_YOU_WANT_TO_SLAY_A_SNOWMAN_Name: За окном уже бандиты!
-        DRAX_ATTAX_Description: Смастерить из освящённых слитков и эссенций трёх механических боссов тобур или топокирку.
-        DRAX_ATTAX_Name: Дырку топокиркой
+        DRAX_ATTAX_Description: Смастерить из освящённых слитков и эссенций трёх механических боссов тобур или киркотопор.
+        DRAX_ATTAX_Name: Киркотопор — кирконапор
         DUNGEON_HEIST_Description: Стащить ключ у обитателей Темницы и открыть один из их золотых сундуков.
         DUNGEON_HEIST_Name: Ограбление по-Темницки
         DYE_HARD_Description: Поместить красители во все доступные слоты, предназначенные для них.
@@ -14004,7 +14004,7 @@
         EXTRA_SHINY_Name: Блестяшки покруче!
         EYE_ON_YOU_Description: Одержать победу над Глазом Ктулху - гигантским летающим демоническим глазом, появляющимся только ночью.
         EYE_ON_YOU_Name: Один глаз на вас
-        FASHION_STATEMENT_Description: Надеть броню или одежду во все три слота экипировки.
+        FASHION_STATEMENT_Description: Надеть броню или одежду во все три слота украшений.
         FASHION_STATEMENT_Name: Модный приговор
         FAST_AND_FISHIOUS_Description: Выполнить для рыбака своё 50-е задание.
         FAST_AND_FISHIOUS_Name: Рыбной форсаж
@@ -14040,7 +14040,7 @@
         HEAD_IN_THE_CLOUDS_Name: Витая в облаках
         HEART_BREAKER_Description: Исследовать глубины подземелья и разбить своё первое кристальное сердце.
         HEART_BREAKER_Name: Призрачный похититель сердец
-        HEAVY_METAL_Description: Смастерить или добыть железную или свинцовую наковальню.
+        HEAVY_METAL_Description: Смастерить или где-нибудь добыть железную или свинцовую наковальню.
         HEAVY_METAL_Name: Хеви-метал
         HEX_EDUCATION_Description: Одержать победу над гоблином-чернокнижником, заклинателем темнейших огней.
         HEX_EDUCATION_Name: Премудрости колдовства
@@ -14087,7 +14087,7 @@
         NOT_THE_BEES_Name: Только не пчёлы!
         OBSESSIVE_DEVOTION_Description: Одержать победу над древним культистом - фанатичным лидером культа из Темницы.
         OBSESSIVE_DEVOTION_Name: Навязчивая преданность
-        OBTAIN_HAMMER_Description: Смастерить или добыть где-нибудь свой первый молот.
+        OBTAIN_HAMMER_Description: Смастерить или добыть свой первый молот.
         OBTAIN_HAMMER_Name: Стоп! Время молота!
         OOO_SHINY_Description: Добыть свою первую руду с помощью кирки.
         OOO_SHINY_Name: О-о-о! Блестяшки!
@@ -14312,9 +14312,9 @@
     }
     
     CreditsRollCategory_BusinessDevelopment: {
-        1: < Создатель байт-пикч >
-        2: Женя «Ники» Твикс
-        3: ""
+        1: < МГЕ Братья >
+        2: Торнадо
+        3: Лурайт
     }
     
     CreditsRollCategory_Creator: {
@@ -14350,26 +14350,26 @@
         2: Фанат «Yum» Фабсола
         3: Степан «SPH» Молчанов
         4: Кирилл «BrotKrip» Кайзер
-        5: Кирилл «osaka_drift» Маков
-        6: Blank Hush
+        5: Кирилл «osaka_drift» Осокин
+        6: Артём «Alino4kaHvoshch» Хвощенко
         7: ""
         8: < Защитники сервера >
-        9: Alino4kaHvoshch и Luright 
-        10: Gorffy и Kamikzu
+        9: Alino4kaHvoshch и Anikinai
+        10: DirtyStoat и Kamikzu
     }
     
     CreditsRollCategory_Marketing: {
-        1: < Нескрытый извращенец >
-        2: Михаил Ляпко
+        1: < Мне их жалко, поэтому отдельно занесу >
+        2: Наника и Мяута
     }
     
     CreditsRollCategory_Music: {
         1: < Абсолютный MESS >
-        2: Алиночка
+        2: Алиночка Хвощенко
     }
     
     CreditsRollCategory_Playtesting: {
-        1: Благодарность всем участникам сервера
+        1: Благодарность всем активным участникам сервера
         2: Особенно:
         3: < Главный бездарь >
         4: Юм
@@ -14383,13 +14383,13 @@
         12: < Степашка >
         13: СПХ
         14: ""
-        15: < Тестостероновый Вергилий >
-        16: Лурайт
+        15: < Нетеребонькан, нецелован >
+        16: Фрисемо
         17: ""
-        18: < МГЕ Брат >
-        19: Торнадо
+        18: < Ведьмочка Мариса >
+        19: Тюлений
         20: ""
-        21: < Зелёный чай ОБЛИТЕРАЦИИ >
+        21: < Ноктурианский император >
         22: Литос
         23: ""
         24: < Не сбежавший из Саратова >
@@ -14401,10 +14401,10 @@
         30: < Злобный нарушитель границ >
         31: Масюня
         32: ""
-        33: < Зырительная машина >
-        34: Коредс
+        33: < Биполярный пол >
+        34: Алиночка
         35: ""
-        36: < Безымянный колбасный король >
+        36: < Грязный горностай >
         37: Горффи
         38: ""
         39: < Мне не нравится грудь >
@@ -14413,26 +14413,26 @@
         42: < Лучшая мурчалка девочка-косатка Project tRU >
         43: Ники
         44: ""
-        45: < Вечно отменяемый мут >
+        45: < Полёт бобра >
         46: Шторка
         47: ""
-        48: < Пенсия >
+        48: < Миллиард пруфов >
         49: Нокс
         50: ""
-        51: < Дед с Камчатки >
+        51: < Танк с Камчатки >
         52: Алеф
         53: ""
-        54: < Выжил после аборта >
+        54: < За Элис и двор >
         55: Винекс
         56: ""
-        57: < Ведро текилы >
+        57: < Враг #1 >
         58: Никита
         59: ""
-        60: < Кот в реальной жизни >
-        61: Мяута
+        60: < Нидурна >
+        61: Снеговик
         62: ""
-        63: < GPT 3.5 >
-        64: Наника
+        63: < Нерфанутая похлёбка >
+        64: Сейтзан
         65: ""
         66: < Сисюня >
         67: Фантик
@@ -14440,20 +14440,20 @@
         69: < Труболюб >
         70: Виталя
         71: ""
-        72: < Красный из Among Us >
+        72: < Семенихин Никита Онлайн >
         73: Загерус
         74: ""
     }
     
     CreditsRollCategory_Programming: {
         1: < Администраторы Discord-сервера >
-        2: Екатерина «Sum» Миловна
-        3: Кирилл «osaka_drift» Маков
-        4: Женя «Ники» Твикс
-        5: Торнадо
-        6: ""
-        7: < Редакторы русской Каламити-вики >
-        8: Blank Hush, Макс Пейн, Инк, Шуки и Блинден54
+        2: Кирилл «BrotKrip» Кайзер
+        3: Женя «Ники/Anikinai» Твикс
+        4: ""
+        5: ""
+        6: < Редакторы русской Каламити-вики >
+        7: Blank Hush, Макс Пейн
+        8: Инк, Шуки и Блинден54
     }
     
     CreditsRollCategory_PublicRelations: {
@@ -14496,7 +14496,7 @@
     CreditsRollCategory_Webmaster: {
         1: < Художники сервера >
         2: Литос
-        3: Снеговик
+        3: Снеговик и Эксперт
     }
     
     Currency: {

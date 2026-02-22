@@ -23,7 +23,7 @@ public class ThoriumNpcChat : GlobalNPC
         {
             chat = chat switch
             {
-                "Don't forget to wipe your blade if you're planning on going out there! I don't care how magical it is, those freaks' blood will rust any metal!" => "Не забудь протереть свой клинок, если собираешься выходить наружу! Мне всё равно, насколько он магический, кровь этих чудовищ ржавеет любой металл.",
+                "Don't forget to wipe your blade if you're planning on going out there! I don't care how magical it is, those freaks' blood will rust any metal!" => "Не забудь протереть свой клинок, если собираешься выходить наружу! Мне всё равно, насколько он магический, кровь этих чудовищ заставляет ржаветь любой металл.",
                 "You know all those special weapons you find scattered about the land? I've always wondered just how they were forged in the first place. I'm an old man now, but I've still got a long journey to mastery ahead of me..." => "Знаешь все эти уникальные оружия, что разбросаны по всей земле? Мне всегда было интересно, как их вообще ковали. Хотя я уже старик, мне ещё предстоит долгий путь к совершенству...",
                 "Every blade's got its place in the world: a signature weapon for a hero, a beloved knife for a chef, or maybe just some gaudy piece of junk hanging from a wall." => "У каждого клинка есть своё место в этом мире: личное оружие для героя, любимый нож для шеф-повара или просто бесполезная безделушка, висящая на стене.",
                 "Hey brat, corral some people into helping me out at the forge. Blacksmithing ain't a single-man task, and you'll just end up with second-rate junk if you try going solo!" => "Эй, малец, найди кого-нибудь, кто поможет мне в кузнице. Кузнечное дело - это не работа одного человека, и если ты будешь работать в одиночку, то получишь только второсортное барахло!",
@@ -61,7 +61,7 @@ public class ThoriumNpcChat : GlobalNPC
             {
                 if (chat == $"That brute {GetNPCName(ModContent.NPCType<Tracker>())} is more Barbarian than Tracker! Do you have any idea how many times the oaf asked me to fix that battleaxe of his?!")
                 {
-                    chat = $"Этот дубина {GetNPCName(ModContent.NPCType<Tracker>())} больше похож на варвара, чем на следопыта! Ты хоть представляешь, сколько раз этот болван просил меня починить свой боевой топор?!";
+                    chat = $"Этот дурень {GetNPCName(ModContent.NPCType<Tracker>())} больше похож на варвара, чем на следопыта! Ты хоть представляешь, сколько раз этот болван просил меня починить свой боевой топор?!";
                 }
             }
         }
@@ -73,7 +73,7 @@ public class ThoriumNpcChat : GlobalNPC
                 "In my younger years, I myself was a hero. But after a bad fall, I've since retired. Perhaps if I had better boots back then I would still be a hero today..." => "В свои молодые годы я тоже был героем. Но после неудачного падения мне пришлось уйти на пенсию. Кто знает, может, если бы у меня были более надёжные ботинки, я бы и сейчас был героем...",
                 "Worry not young man. While the journey may be tough, I have full confidence in your ability!" => "Не переживай, парень. Путь будет непростой, но я уверен в твоих силах!",
                 "Worry not young lady. While the journey may be tough, I have full confidence in your ability!" => "Не переживай, малышка. Путь будет непростой, но я уверен в твоих силах!",
-                "You can learn a lot by walking a mile in someone else's boots. If only some of these townsfolk would walk a mile in yours, then they could understand..." => "Пройдя милю в чужих сапогах, можно узнать многое. Если бы кто-нибудь из этих жителей хотя бы на минутку примерил мои ботинки, они бы поняли, каково это...",
+                "You can learn a lot by walking a mile in someone else's boots. If only some of these townsfolk would walk a mile in yours, then they could understand..." => "Пройдя милю в чужих сапогах, можно узнать многое. Если бы кто-нибудь из этих жителей хотя бы на минутку примерил твои ботинки, они бы поняли, каково это...",
                 "I can't believe it, never in a million years... But look at you, standing so triumphantly! Ha ha hah! Congratulations, but more importantly: thank you, from the bottom of my heart, hero. Thanks to your incredible bravery, an old friend of mine can rest easy now..." => "Я не мог и представить, что такое возможно! Вот ты стоишь, весь такой победоносный! Ха-ха-ха! Поздравляю, но самое главное - спасибо тебе, герой, от всего сердца! Благодаря твоей смелости мой старый друг может наконец-то обрести покой...",
                 _ => chat
             };
@@ -120,7 +120,7 @@ public class ThoriumNpcChat : GlobalNPC
                 "I can't remember much about my past life... Chemicals and the like were my passion I think; I only get fragments and pieces of the truth. It's saddening at times..." => "Я почти ничего не помню о своей прошлой жизни... Мне кажется, что химия была моей страстью, но сейчас я помню лишь обрывки и кусочки правды. Иногда это огорчает...",
                 "Why am I not like the others...? Oh, I'm sorry, did you need something?" => "Почему я не такой, как остальные?.. Ой, извини, тебе что-то нужно?",
                 "Most people don't have the stomach to handle the things I sell. The trick is to not have a stomach at all!" => "Большинство людей не могут переварить то, что я продаю. Секрет в том, чтобы вообще не иметь желудка!",
-                "I gotta thank you for letting me stick around. Only coming out at night is pretty boring..." => "\"Спасибо, что позволил остаться. Выходить только ночью довольно скучно...",
+                "I gotta thank you for letting me stick around. Only coming out at night is pretty boring..." => "Спасибо, что позволил остаться. Выходить только ночью довольно скучно...",
                 "I barely remember anything from before I died, but that doesn't mean I can't make new memories. I'll be sure to remember your victory for as long as this body can move!" => "Я почти ничего не помню из своей прошлой жизни, но это не значит, что я не могу создавать новые воспоминания. Я буду помнить твою победу, пока это тело способно двигаться!",
                 _ => chat
             };
@@ -245,7 +245,7 @@ public class ThoriumNpcChat : GlobalNPC
             {
                 if (chat == $"Our friend there, {GetNPCName(228)}, is rather strange isn't he? He speaks in riddles...")
                 {
-                    chat = $"Наш друг, {GetNPCName(228)}, какой-то странный, не находишь?. Он постоянно говорит загадками...";
+                    chat = $"Наш друг, {GetNPCName(228)}, какой-то странный, не находишь? Он постоянно говорит загадками...";
                 }
             }
             
@@ -277,7 +277,7 @@ public class ThoriumNpcChat : GlobalNPC
         {
             chat = chat switch
             {
-                "Before you sits a rather strange mirror. Something seems to be calling out from it...?" => "еред тобой стоит странное зеркало. Кажется, кто-то зовёт из него?..",
+                "Before you sits a rather strange mirror. Something seems to be calling out from it...?" => "Перед тобой стоит странное зеркало. Кажется, кто-то зовёт из него?..",
                 _ => chat
             };
         }
@@ -286,7 +286,7 @@ public class ThoriumNpcChat : GlobalNPC
         {
             chat = chat switch
             {
-                "Is- Is that my cross? How in the world did you manage to find it? It's been lost for so long..." => "ЭЭто мой крест? Да ладно, как тебе удалось его найти? Я искал его столько лет...",
+                "Is- Is that my cross? How in the world did you manage to find it? It's been lost for so long..." => "Это мой крест? Да ладно, как тебе удалось его найти? Я искал его столько лет...",
                 "Beware my friend... true evil walks among us this night." => "Остерегайся, дружище... этой ночью истинное зло раскроет свою личину среди нас.",
                 "Ah, it's been a while friend. It is good to see you are well after so long!" => "Эх, давненько не виделись, друг. Рад видеть, что ты в порядке после столь долгого времени!",
                 "Whether in body, mind, or spirit, always consider how you may grow today, my friend." => "Будь то тело, разум или дух - всегда думай, как можешь расти сегодня, мой друг.",
@@ -643,7 +643,7 @@ public class ThoriumNpcChat : GlobalNPC
         {
             if (chat == $"I'd say that battle looked like a hole in one to me, {Main.LocalPlayer.name}. Maybe you can finally relax after all that ceaseless fighting and play some golf with me; What do you say?")
             {
-                chat = $"Могу сказать, что битва прошла для нас как строук-плей в один удар, {Main.LocalPlayer.name}. Как насчёт того, чтобы наконец расслабиться после всех этих непрекращающихся сражений и сыграть со мной в гольф?";
+                chat = $"Могу сказать, эта битва была как хоул-ин-ван для нас, {Main.LocalPlayer.name}. Как насчёт того, чтобы наконец расслабиться после всех этих непрекращающихся сражений и сыграть со мной в гольф?";
             }
         }
     }

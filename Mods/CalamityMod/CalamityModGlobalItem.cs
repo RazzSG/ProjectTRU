@@ -1,14 +1,11 @@
 using System.Collections.Generic;
-using CalamityMod;
 using CalamityMod.Items;
+using CalamityMod.Items.Armor.GemTech;
 using CalamityMod.Items.SummonItems;
-using CalamityMod.Items.Weapons.Summon;
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
-using Microsoft.Xna.Framework;
 using Terraria;
-using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace CalamityRuTranslate.Mods.CalamityMod;
@@ -22,8 +19,6 @@ public partial class CalamityModGlobalItem : GlobalItem
     
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
     {
-        VanillaItemsTranslation(item, tooltips);
-        VanillaWingsTranslation(item, tooltips);
         ModifyDamageTypes(item, tooltips);
         
         if (item.type == ModContent.ItemType<SandstormsCore>())
@@ -37,59 +32,44 @@ public partial class CalamityModGlobalItem : GlobalItem
         
         CalamityGlobalItem calamityGlobalItem = item.GetGlobalItem<CalamityGlobalItem>();
         
-        if (calamityGlobalItem.canFirePointBlankShots)
+        if (calamityGlobalItem.donorItem)
         {
-            int pointBlankShotIndex = tooltips.FindLastIndex(x => x.Mod.Equals("CalamityMod") && x.Name.Equals("PointBlankShot"));
-            int tooltipIndex = tooltips.FindLastIndex(x => x.Mod.Equals("Terraria") && x.Name.StartsWith("Tooltip"));
-            int knockbackIndex = tooltips.FindLastIndex(x => x.Mod.Equals("Terraria") && x.Name.StartsWith("Knockback"));
-            if (pointBlankShotIndex != -1)
+            if (item.type == ModContent.ItemType<GemTechHeadgear>() ||
+                item.type == ModContent.ItemType<GemTechBodyArmor>() ||
+                item.type == ModContent.ItemType<GemTechSchynbaulds>())
             {
-                tooltips.RemoveAt(pointBlankShotIndex);
+                int donorIndex = tooltips.FindIndex(x => x.Name == "CalamityMod:DonorItem");
+                
+                if (donorIndex != -1)
+                {
+                    TooltipLine donorLine = tooltips[donorIndex];
+                    tooltips.RemoveAt(donorIndex);
+                    
+                    int lastSetBonusIndex = tooltips.FindLastIndex(x => x.Name.Contains("SetBonus") || x.Name == "CalamityMod:HoldShiftExtensionIndicator");
+                    
+                    if (lastSetBonusIndex != -1)
+                        tooltips.Insert(++lastSetBonusIndex, donorLine);
+                    else
+                        tooltips.Add(donorLine);
+                }
             }
-            
-            TooltipLine pointBlankShot = new TooltipLine(ModInstances.Calamity, "PointBlankShot", "Выстрелы в упор наносят дополнительный урон врагам");
-            
-            tooltips.Insert(tooltipIndex != -1 ? ++tooltipIndex : ++knockbackIndex, pointBlankShot);
         }
-         
-        ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "CalamityMod" && l.Name == "SchematicKnowledge1", tooltip =>
-        {
-            tooltip.Text = "У вас недостаточно знаний для создания этого предмета";
-        });
-         
-        ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "CalamityMod" && l.Name == "SchematicKnowledge2", _ =>
-        {
-            tooltips.ReplaceText("A specific schematic must be deciphered first", "Сначала необходимо расшифровать конкретную схему");
-            tooltips.ReplaceText("The Sunken Sea schematic must be deciphered first", "Сначала необходимо расшифровать схему затерянного моря");
-            tooltips.ReplaceText("The Planetoid schematic must be deciphered first", "Сначала необходимо расшифровать схему планетоида");
-            tooltips.ReplaceText("The Jungle schematic must be deciphered first", "Сначала необходимо расшифровать схему джунглей");
-            tooltips.ReplaceText("The Underworld schematic must be deciphered first", "Сначала необходимо расшифровать схему преисподней");
-            tooltips.ReplaceText("The Ice biome schematic must be deciphered first", "Сначала необходимо расшифровать схему льдов");
-        });
         
-        ItemHelper.TranslateTooltip(tooltips, "CalamityCharge", tooltip =>
+        int kbIndex = tooltips.FindIndex(x => x.FullName == "Terraria/Knockback");
+        string[] tagsToMove = ["CalamityMod:FlatSummonTag", "CalamityMod:MultiplicativeSummonTag", "CalamityMod:CritSummonTag"];
+
+        if (item.DamageType == DamageClass.Summon || item.DamageType == DamageClass.SummonMeleeSpeed)
         {
-            tooltip.Text = $"Текущий заряд: {tooltip.Text.Split(' ')[2]}";
-        });
-         
-        ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "CalamityMod" && l.Name == "CalamityDonor", tooltip =>
-        {
-            tooltip.Text = "- Предмет покровителя -";
-            tooltip.OverrideColor = new Color(196, 35, 44);
-        });
-         
-        ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "CalamityMod" && l.Name == "CalamityDev", tooltip =>
-        {
-            tooltip.Text = "- Предмет разработчика -";
-            tooltip.OverrideColor = new Color(255, 0, 255);
-        });
-         
-        if (item.type is ItemID.AncientBattleArmorHat or ItemID.AncientBattleArmorShirt or ItemID.AncientBattleArmorPants && !Main.player[Main.myPlayer].Calamity().forbiddenCirclet)
-        {
-            ItemHelper.TranslateTooltip(tooltips, "SetBonus", _ =>
+            foreach (string tagName in tagsToMove)
             {
-                tooltips.ReplaceText("Minions no longer deal less damage while wielding magic weapons", "Миньоны больше не наносят сниженный урон, пока вы держите магическое оружие");
-            });
+                int currentIndex = tooltips.FindIndex(x => x.Name == tagName);
+                if (currentIndex != -1)
+                {
+                    TooltipLine line = tooltips[currentIndex];
+                    tooltips.RemoveAt(currentIndex);
+                    tooltips.Insert(++kbIndex, line);
+                }
+            }
         }
     }
 }

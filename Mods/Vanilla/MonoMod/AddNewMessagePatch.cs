@@ -43,7 +43,7 @@ public class AddNewMessagePatch : ILoadable
 
         // StarsAbove
         text = text.Replace("was obliterated!", "был стёрт с лица земли!");
-        text = text.Replace("'s body was broken, along with their limits.", " сломал лимиты вместе c телом.");
+        text = text.Replace("'s body was broken, along with their limits.", " сломал лимиты вместе с телом.");
         text = text.Replace("died beyond their world.", "погиб за пределами своего мира.");
         text = text.Replace("was lost in space.", "потерялся в космосе.");
         text = text.Replace("drifted away from their home planet.", "отдалился от своей родной планеты.");
@@ -68,12 +68,6 @@ public class AddNewMessagePatch : ILoadable
             "Истинный глаз Ктулху вырывается из Рука Лунного лорда!" => "Истинный глаз Ктулху вырывается из Руки Лунного лорда!",
             
             // Calamity
-            "You give Polaris belly rubs" => "Вы гладите Полярку по животику.",
-            "You give Polaris a small treat" => "Вы даёте Полярке вкусное лакомство.",
-            "You tell Polaris she's a good girl" => "Вы говорите Полярке, что она хорошая девочка.",
-            "You let Polaris cuddle your arm" => "Вы позволяете Полярке прижаться к вашей руке.",
-            "You pet Polaris" => "Вы гладите Полярку.",
-            "Too much love..." => "Слишком много любви...",
             "Supreme Cirrus code attempted to crash the game. Did you do something weird?" => "Код Высшей Циррус попытался вызвать сбой игры. Вы сделали что-то странное?",
             "Spawn point removed!" => "Точка воскрешения удалена!",
             "Spawn point set!" => "Точка воскрешения задана!",

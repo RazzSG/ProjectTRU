@@ -28,11 +28,28 @@ public class AffixName : ILoadable
     private string ItemOnAffixName(On_Item.orig_AffixName orig, Item self)
     {
         string result = orig.Invoke(self);
+        
+        if (self.prefix < 0 || self.prefix >= Lang.prefix.Length)
+            return result;
+        
+        string prefixText = Lang.prefix[self.prefix].Value;
+        
+        if (string.IsNullOrEmpty(prefixText))
+            return result;
+        
+        string genderedPrefix = null;
+        
         foreach (var t in PrefixOverhaul.Instance.Prefixes)
         {
-            if (t[0] == Lang.prefix[self.prefix].Value)
-                return PrefixOverhaul.Instance.GetGenderedPrefix(t, self.type) + " " + (self.Name.Contains('.') ? self.Name : self.Name.ToLower());
+            if (t[0] == prefixText)
+                genderedPrefix = PrefixOverhaul.Instance.GetGenderedPrefix(t, self.type);
         }
+
+        if (genderedPrefix != null)
+            result = result.Replace(prefixText, genderedPrefix);
+        
+        if (!self.Name.Contains('.'))
+            result = result.Replace(self.Name, self.Name.ToLower());
 
         return result;
     }
@@ -57,35 +74,51 @@ public class AffixNameWithCalamity : ILoadable
 
     private string ItemOnAffixName(On_Item.orig_AffixName orig, Item self)
     {
-        if (self.prefix < 0 || self.prefix >= Lang.prefix.Length)
-            return self.Name;
+        string result = orig.Invoke(self);
+        
+        if (self.IsAir || self.prefix < 0 || self.prefix >= Lang.prefix.Length)
+            return result;
 
         string goblinPrefix = Lang.prefix[self.prefix].Value;
-        string calamityEnchantment = string.Empty;
+        string calamityEnchantment = null;
+
+        if (self.TryGetGlobalItem(out CalamityGlobalItem calamityGlobalItem) && calamityGlobalItem.AppliedEnchantment.HasValue)
+            calamityEnchantment = calamityGlobalItem.AppliedEnchantment?.Name.ToString();
+        
+        if (string.IsNullOrEmpty(goblinPrefix) && string.IsNullOrEmpty(calamityEnchantment))
+            return result;
+        
+        string genderedGoblinPrefix = null;
+        string genderedCalamityEnchant = null;
 
         foreach (var t in PrefixOverhaul.Instance.Prefixes)
         {
-            if (!self.IsAir && self.TryGetGlobalItem(out CalamityGlobalItem calamityGlobalItem) && calamityGlobalItem.AppliedEnchantment.HasValue)
-            {
-                if (t[0] == calamityGlobalItem.AppliedEnchantment?.Name.ToString())
-                    calamityEnchantment = PrefixOverhaul.Instance.GetGenderedPrefix(t, self.type);
-            }
-
             if (t[0] == goblinPrefix)
-                goblinPrefix = PrefixOverhaul.Instance.GetGenderedPrefix(t, self.type);
+                genderedGoblinPrefix = PrefixOverhaul.Instance.GetGenderedPrefix(t, self.type);
+            
+            if (t[0] == calamityEnchantment)
+                genderedCalamityEnchant = PrefixOverhaul.Instance.GetGenderedPrefix(t, self.type);
         }
 
-        string formattedName = self.Name.Contains('.') ? self.Name : self.Name.ToLower();
+        bool enchantmentExists = false;
         
-        if (calamityEnchantment != string.Empty && goblinPrefix == string.Empty)
-            return calamityEnchantment + " " + formattedName;
+        if (genderedCalamityEnchant != null && calamityEnchantment != null)
+        {
+            enchantmentExists = true;
+            result = result.Replace(calamityEnchantment, genderedCalamityEnchant);
+        }
 
-        if (goblinPrefix != string.Empty && calamityEnchantment == string.Empty)
-            return goblinPrefix + " " + formattedName;
+        if (genderedGoblinPrefix != null && goblinPrefix != null)
+        {
+            if (enchantmentExists)
+                genderedGoblinPrefix = genderedGoblinPrefix.ToLower();
 
-        if (calamityEnchantment != string.Empty && goblinPrefix != string.Empty)
-            return calamityEnchantment + " " + goblinPrefix.ToLower() + " " + formattedName;
+            result = result.Replace(goblinPrefix, genderedGoblinPrefix);
+        }
 
-        return self.Name;
+        if ((genderedGoblinPrefix != null || enchantmentExists) && !self.Name.Contains('.'))
+            result = result.Replace(self.Name, self.Name.ToLower());
+
+        return result;
     }
 }

@@ -32,12 +32,8 @@ public class CalamityRuTranslate : Mod
             if (ModInstances.Calamity != null)
             {
                 ModInstances.Wikithis.Call("AddModURL", ModInstances.Calamity, "https://calamitymod.wiki.gg/ru/wiki/{}", GameCulture.CultureName.Russian);
-                TranslationHelper.WikithisRedirect("BloodOrange", "Кровавый апельсин (calamity)");
-                TranslationHelper.WikithisRedirect("Elderberry", "Бузина (calamity)");
                 TranslationHelper.WikithisRedirect("PineapplePet", "Ананас (calamity)");
                 TranslationHelper.WikithisRedirect("TrashmanTrashcan", "Урна (питомец)");
-                TranslationHelper.WikithisRedirect("SandstormGun", "Песчаная буря (оружие)");
-                TranslationHelper.WikithisRedirect("Thunderstorm", "Гроза (оружие)");
                 TranslationHelper.WikithisRedirect("AtlasMunitionsBeacon", "Маячок установки Атлас");
                 TranslationHelper.WikithisRedirect(
                 ["LoreAstralInfection", "LoreAbyss", "LoreAquaticScourge", "LoreArchmage", "LoreAstrumAureus",
@@ -51,10 +47,7 @@ public class CalamityRuTranslate : Mod
                     "LoreProvidence", "LoreQueenBee", "LoreQueenSlime", "LoreRavager", "LoreRequiem",
                     "LoreSignus", "LoreSkeletron", "LoreSkeletronPrime", "LoreSlimeGod", "LoreStormWeaver",
                     "LoreSulphurSea", "LoreTwins", "LoreUnderworld", "LoreWallofFlesh", "LoreYharon"], "История#Предметы_истории");
-                TranslationHelper.WikithisRedirect("HiveEnemy", "Улей (враг)", false);
                 TranslationHelper.WikithisRedirect("KingSlimeJewelRuby", "Драгоценности Короля слизней", false);
-                TranslationHelper.WikithisRedirect("KingSlimeJewelSapphire", "Драгоценности Короля слизней", false);
-                TranslationHelper.WikithisRedirect("KingSlimeJewelEmerald", "Драгоценности Короля слизней", false);
                 TranslationHelper.WikithisRedirect("OldDukeToothBall", "Зубастый шар (Старый герцог)", false);
                 TranslationHelper.WikithisRedirect("CalamitasEnchantDemon", "Зачарование", false);
                 TranslationHelper.WikithisRedirect("LeviathanStart", "%3F%3F%3F", false);
