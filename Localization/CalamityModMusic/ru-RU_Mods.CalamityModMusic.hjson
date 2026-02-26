@@ -247,7 +247,7 @@ Items: {
     }
 
     PolterghastMusicBox: {
-        DisplayName: Музыкальная шкатулка (Полетргаст)
+        DisplayName: Музыкальная шкатулка (Полтергаст)
         Tooltip: Проигрывает «Feral Amalgamation» за авторством DM DOKURO
     }
 
@@ -324,76 +324,13 @@ Items: {
 
 ModSupport: {
     MusicDisplay: {
-        SongNames: {
-            AbyssLayer1: hesitation
-            AbyssLayer2: Hadopelagic Pressure
-            AbyssLayer3: hydrothermophobia
-            AbyssLayer3Alt: R'lyehian Depths
-            AbyssLayer4: void
-            AbyssLegacy: R'LYEH
-            AcidRainTier1: corrosion!
-            AcidRainTier3: nuclear monsoon
-            Anahita: Siren's War Cry
-            AnahitasLure: Siren's Call
-            AquaticScourge: Outcast of the Sulphurous Seas
-            AstralInfection: The Heaven-Sent Abomination
-            AstralInfectionUnderground: Treasures Within the Abomination
-            AstrumAureus: Interstellar Stomper
-            AstrumDeus: Pest of the Cosmos
-            BioLab: Engineer's Sanctum
-            BossRushTier1: Ensemble of Fools
-            BossRushTier2: Onslaught of Beasts
-            BossRushTier3: Reign of Lords
-            BossRushTier4: Trial of the Insane
-            BrimstoneCrags: The Step Below Hell
-            BrimstoneElemental: Left Alone
-            CalamitasClone: Raw, Unfiltered Calamity
-            CalamitasDefeat: Stained, Brutal Calamity (Acceptance)
-            CalamitasDefeat_LongFade: Stained, Brutal Calamity (Acceptance)
-            CalamitasPhase1: Stained, Brutal Calamity (Grief)
-            CalamitasPhase2: Stained, Brutal Calamity (Lament)
-            CalamitasPhase3: Stained, Brutal Calamity (Epiphany)
-            CalamityTitle: The Tale of a Cruel World
-            CeaselessVoid: Servants of the Scourge (Type V)
-            Crabulon: Infestation
-            Cryogen: Antarctic Reinforcement
-            DesertScourge: Guardian of the Former Seas
-            DevourerofGodsEulogy: Scourge of the Universe (Eulogy for the Ego)
-            DevourerofGodsPhase1: Scourge of the Universe
-            DevourerofGodsPhase2: Universal Collapse
-            Dragonfolly: Murderswarm
-            ExoMechs: Inferior Fabrications
-            HiveMind: The Filthy Mind
-            Interlude1: Silence before the storms
-            Interlude2: Storms before the catastrophes
-            Interlude3: Catastrophes before the calamity
-            Leviathan: Forbidden Lullaby
-            OldDuke: Toxic Wisdom
-            Perforators: Blood Coagulant
-            PlaguebringerGoliath: Fly of Beelzebub
-            Polterghast: Feral Amalgamation
-            PrimordialWyrm: Threats of the Ocean Floor
-            ProfanedGuardians: Unholy Ambush
-            Providence: Unholy Insurgency
-            Ravager: Open Frenzy
-            Signus: Servants of the Scourge (Type S)
-            SlimeGod: Return to Slime
-            StormWeaver: Servants of the Scourge (Type W)
-            SulphurousSeaDay: wasteland
-            SulphurousSeaNight: caustic tides
-            SulphurousSeaRain: septication
-            SunkenSea: sanctuary
-            YharonLegacy: Infernal Catharsis
-            YharonPhase1: Infernal Catharsis (Rebirth)
-            YharonPhase2: Roar of the Jungle Dragon
-        }
-
         Authors: {
             AquaSG: от AquaSG
             CDMusic: от CDMusic
             DMDOKURO: от DM DOKURO
             DMDOKUROFeature: от DM DOKURO и SixteenInMono
             HeartPlusUp: от Heart Plus Up!
+            MoonburnFeature: от Moonburn, CDMusic и TYESKI
             PinpinNeon: от PinpinNeon
             RoverdriveX: от RoverdriveX
         }

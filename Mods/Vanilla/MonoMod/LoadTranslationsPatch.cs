@@ -5,8 +5,6 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading;
-using System.Threading.Tasks;
 using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
 using CalamityRuTranslate.Core.MonoMod;

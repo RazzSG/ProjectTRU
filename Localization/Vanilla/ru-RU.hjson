@@ -3026,8 +3026,8 @@
         BlueStarryGlassBlock: Синий звёздчатый блок
         BlueStarryGlassWall: Синяя звёздчатая стена
         BlueString: Синяя верёвочка
-        BlueTiledWall: Синяя облицовочная стена
-        BlueTiledWallUnsafe: Проклятая синяя облицовочная стена
+        BlueTiledWall: Синяя вымощенная стена
+        BlueTiledWallUnsafe: Проклятая синяя вымощенная стена
         BlueTorch: Синий факел
         BlueWrench: Синий гаечный ключ
         BlueandBlackDye: Сине-чёрный краситель
@@ -4721,8 +4721,8 @@
         GreenStucco: Зелёная штукатурка
         GreenStuccoWall: Стена из зелёной штукатурки
         GreenThread: Зелёные нитки
-        GreenTiledWall: Зелёная облицовочная стена
-        GreenTiledWallUnsafe: Проклятая зелёная облицовочная стена
+        GreenTiledWall: Зелёная вымощенная стена
+        GreenTiledWallUnsafe: Проклятая зелёная вымощенная стена
         GreenTorch: Зелёный факел
         GreenWrench: Зелёный гаечный ключ
         GreenandBlackDye: Зелёно-чёрный краситель
@@ -6149,8 +6149,8 @@
         PinkSlimeBlock: Розовая затвердевшая слизь
         PinkString: Розовая верёвочка
         PinkThread: Розовые нитки
-        PinkTiledWall: Розовая облицовочная стена
-        PinkTiledWallUnsafe: Проклятая розовая облицовочная стена
+        PinkTiledWall: Розовая вымощенная стена
+        PinkTiledWallUnsafe: Проклятая розовая вымощенная стена
         PinkTorch: Розовый факел
         PinkVase: Розовая ваза
         PinkandBlackDye: Розово-чёрный краситель
@@ -6629,7 +6629,7 @@
         SandstonePiano: Песчаниковое пианино
         SandstonePlatform: Песчаниковая платформа
         SandstoneSink: Песчаниковая раковина
-        SandstoneSlab: Песчаниковая плитка
+        SandstoneSlab: Песчаниковая плита
         SandstoneSofa: Песчаниковый диван
         SandstoneTable: Песчаниковый стол
         SandstoneToilet: Песчаниковый унитаз
@@ -7254,8 +7254,8 @@
         StoneBlock: Камень
         StoneDoor: Каменная дверь
         StonePlatform: Каменная платформа
-        StoneSlab: Каменная плитка
-        StoneSlabWall: Стена из каменной плитки
+        StoneSlab: Каменная плита
+        StoneSlabWall: Стена из каменной плиты
         StoneWall: Каменная стена
         Stopwatch: Секундомер
         StormTigerStaff: Посох пустынного тигра
@@ -7289,7 +7289,7 @@
         Sunflowers: Картина «Подсолнухи»
         Sunfury: Солнечная ярость
         Sunglasses: Солнечные очки
-        SunplateBlock: Солнечная плита
+        SunplateBlock: Солнечная пластина
         SunshineofIsrapony: Картина «Рассвет Исрапонии»
         SuperAbsorbantSponge: Супервпитывающая губка
         SuperDartTrap: Суперловушка с дротиком
