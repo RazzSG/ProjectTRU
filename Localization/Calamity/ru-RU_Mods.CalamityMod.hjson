@@ -1463,7 +1463,7 @@ Buffs: {
     }
 
     AnechoicCoatingBuff: {
-        DisplayName: Безэховая покраска
+        DisplayName: Гидроакустическое покрытие
         Description: Область обнаружения у существ бездны снижена
     }
 
@@ -1831,7 +1831,7 @@ Buffs: {
     }
 
     Clamity: {
-        DisplayName: Моллюскапокалипсис
+        DisplayName: Моллюствие
         Description: Моллюски в ярости!
     }
 
@@ -3488,7 +3488,7 @@ Items: {
         }
     
         AnechoicPlating: {
-            DisplayName: Безэховое покрытие
+            DisplayName: Гидроакустическая пластина
             Tooltip:
                 '''
                 Делает вас менее заметным для существ бездны
@@ -9633,7 +9633,7 @@ Items: {
         }
         
         DubiousPlating: {
-            DisplayName: Сомнительное покрытие
+            DisplayName: Сомнительная пластина
             Tooltip: ""
         }
         
@@ -10700,7 +10700,7 @@ Items: {
         }
         
         BrimstoneSlab: {
-            DisplayName: Серная плитка
+            DisplayName: Серная плита
             Tooltip: ""
         }
         
@@ -10824,12 +10824,12 @@ Items: {
         }
         
         LaboratoryPipePlating: {
-            DisplayName: Лабораторная облицовка труб
+            DisplayName: Лабораторная обшитая труба
             Tooltip: ""
         }
         
         LaboratoryPlating: {
-            DisplayName: Лабораторное покрытие
+            DisplayName: Лабораторная обшивка
             Tooltip: ""
         }
         
@@ -10885,7 +10885,7 @@ Items: {
         }
         
         RustedPlating: {
-            DisplayName: Ржавое покрытие
+            DisplayName: Ржавая обшивка
             Tooltip: ""
         }
         
@@ -12090,11 +12090,11 @@ Items: {
         }
         
         AshenAccentSlab: {
-            DisplayName: Пепельная декоративная плитка
+            DisplayName: Акцентная пепельная плита
             Tooltip:
                 '''
-                Разновидность пепельной плитки, которая по-разному соединяется с соседними блоками
-                'Выбор продвинутых строителей'
+				Вариант пепельной плиты, который по-другому соединяется с соседними блоками
+                'Пользуется популярностью у опытных строителей'
                 '''
         }
         
@@ -12184,7 +12184,7 @@ Items: {
         }
         
         AshenSlab: {
-            DisplayName: Пепельная плитка
+            DisplayName: Пепельная плита
             Tooltip: ""
         }
         
@@ -12774,7 +12774,7 @@ Items: {
         }
         
         ExoPlating: {
-            DisplayName: Экзо-покрытие
+            DisplayName: Экзо-обшивка
             Tooltip: ""
         }
         
@@ -13339,7 +13339,7 @@ Items: {
         }
         
         ProfanedSlab: {
-            DisplayName: Осквернённая плитка
+            DisplayName: Осквернённая плита
             Tooltip: ""
         }
         
@@ -13888,7 +13888,7 @@ Items: {
         }
         
         VoidstoneSlab: {
-            DisplayName: Плитка из пустотного камня
+            DisplayName: Плита из пустотного камня
             Tooltip: ""
         }
         
@@ -13993,7 +13993,7 @@ Items: {
         }
         
         WulfrumPlating: {
-            DisplayName: Вульфрумовое покрытие
+            DisplayName: Вульфрумовая обшивка
             Tooltip: ""
         }
         
@@ -14003,7 +14003,7 @@ Items: {
         }
         
         WulfrumSiding: {
-            DisplayName: Вульфрумовая обшивка
+            DisplayName: Вульфрумовая облицовка
             Tooltip: ""
         }
         
@@ -14378,7 +14378,7 @@ Items: {
         }
         
         ShellstoneSlab: {
-            DisplayName: Плитка из ракушечника
+            DisplayName: Ракушечниковая плита
             Tooltip: ""
         }
         
@@ -14488,7 +14488,7 @@ Items: {
         }
         
         AshenSlabWall: {
-            DisplayName: Стена из пепельной плитки
+            DisplayName: Стена из пепельной плиты
             Tooltip: ""
         }
         
@@ -14533,7 +14533,7 @@ Items: {
         }
         
         BrimstoneSlabWall: {
-            DisplayName: Стена из серной плитки
+            DisplayName: Стена из серной плиты
             Tooltip: ""
         }
         
@@ -14583,7 +14583,7 @@ Items: {
         }
         
         LaboratoryPlatingWall: {
-            DisplayName: Стена с лабораторным покрытием
+            DisplayName: Лабораторная обшивочная стена
             Tooltip: ""
         }
         
@@ -14598,7 +14598,7 @@ Items: {
         }
         
         RustedPlatingWall: {
-            DisplayName: Стена с ржавым покрытием
+            DisplayName: Ржавая обшивочная стена
             Tooltip: ""
         }
 
@@ -14638,7 +14638,7 @@ Items: {
         }
         
         ExoPlatingWallItem: {
-            DisplayName: Стена с экзо-покрытием
+            DisplayName: Экзо-обшивочная стена
             Tooltip: ""
         }
         
@@ -14728,7 +14728,7 @@ Items: {
         }
         
         ProfanedSlabWall: {
-            DisplayName: Стена из осквернённой плитки
+            DisplayName: Стена из осквернённой плиты
             Tooltip: ""
         }
 
@@ -14763,7 +14763,7 @@ Items: {
         }
 
         ShellstoneSlabWall: {
-            DisplayName: Стена из плитки ракушечника
+            DisplayName: Стена из ракушечниковой плиты
             Tooltip: ""
         }
 
@@ -14828,7 +14828,7 @@ Items: {
         }
         
         VoidstoneSlabWall: {
-            DisplayName: Стена из плитки пустотного камня
+            DisplayName: Стена из плиты пустотного камня
             Tooltip: ""
         }
         
@@ -14858,7 +14858,7 @@ Items: {
         }
         
         WulfrumPlatingWall: {
-            DisplayName: Стена с вульфрумовым покрытием
+            DisplayName: Вульфрумовая обшивочная стена
             Tooltip: ""
         }
         
@@ -14868,7 +14868,7 @@ Items: {
         }
 
         WulfrumSidingWall: {
-            DisplayName: Стена из вульфрумовой облицовки
+            DisplayName: Вульфрумовая облицовочная стена
             Tooltip: ""
         }
 
@@ -15131,7 +15131,7 @@ Items: {
         }
         
         BasaltSlab: {
-            DisplayName: Базальтовая плитка
+            DisplayName: Базальтовая плита
             Tooltip: ""
         }
         
@@ -15144,8 +15144,8 @@ Items: {
     
     Potions: {
         AnechoicCoating: {
-            DisplayName: Безэховая покраска
-            Tooltip: Слегка снижает способность существ обнаруживать вас в бездне
+            DisplayName: Гидроакустическое покрытие
+            Tooltip: Немного снижает способность существ обнаруживать вас в бездне
         }
         
         AstralInjection: {

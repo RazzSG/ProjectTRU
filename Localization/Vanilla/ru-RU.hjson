@@ -2508,7 +2508,7 @@
         AaronsLeggings: Поножи Aaron
         Abeemination: Мерзопчёлость
         AbigailsFlower: Цветок Эбигейл
-        AccentSlab: Выразительная каменная плитка
+        AccentSlab: Акцентная каменная плита
         AcidDye: Кислотный краситель
         Acorn: Жёлудь
         AcornAxe: Топор выращивания
@@ -2901,7 +2901,7 @@
         BlackCounterweight: Чёрный противовес
         BlackCurrant: Чёрная смородина
         BlackDragonfly: Чёрная стрекоза
-        BlackDragonflyJar: Чёрная стрекоза в банке
+        BlackDragonflyJar: Банка с чёрной стрекозой
         BlackDye: Чёрный краситель
         BlackFairyDust: Чёрная сказочная пыльца
         BlackInk: Чернила
@@ -2973,7 +2973,7 @@
         BlueCultistCasterBanner: Знамя лунатика-послушника
         BlueCultistFighterBanner: Знамя синего культиста-воина
         BlueDragonfly: Синяя стрекоза
-        BlueDragonflyJar: Синяя стрекоза в банке
+        BlueDragonflyJar: Банка с синей стрекозой
         BlueDungeonBathtub: Ванна синей Темницы
         BlueDungeonBed: Кровать синей Темницы
         BlueDungeonBookcase: Книжный шкаф синей Темницы
@@ -2995,7 +2995,7 @@
         BlueDynastyShingles: Синяя восточная черепица
         BlueDynastyWall: Синяя восточная стена
         BlueEgg: Синее куриное яйцо
-        BlueFairyJar: Голубая фея в банке
+        BlueFairyJar: Банка с голубой феей
         BlueFlameAndBlackDye: Сине-пламенно-чёрный краситель
         BlueFlameAndSilverDye: Сине-пламенно-серебряный краситель
         BlueFlameDye: Сине-пламенный краситель
@@ -3458,8 +3458,8 @@
         CopperOre: Медная руда
         CopperPickaxe: Медная кирка
         CopperPipeWallpaper: Обои с медными трубами
-        CopperPlating: Медное покрытие
-        CopperPlatingWall: Стена с медным покрытием
+        CopperPlating: Медная обшивка
+        CopperPlatingWall: Медная обшивочная стена
         CopperShortsword: Медный кинжал
         CopperWatch: Медные карманные часы
         Coral: Коралл
@@ -3577,7 +3577,7 @@
         CrimtaneBrickWall: Багротановая кирпичная стена
         CrimtaneOre: Багротановая руда
         CrispyHoneyBlock: Хрустящий мёд
-        CritterShampoo: Шампунь для живности
+        CritterShampoo: Шампунь для животных
         CrossGraveMarker: Могильный крест
         CrossNecklace: Крестик
         CrossStatue: Статуя креста
@@ -4471,7 +4471,7 @@
         GoldCoin: Золотая монета
         GoldCrown: Золотая корона
         GoldDragonfly: Золотая стрекоза
-        GoldDragonflyJar: Золотая стрекоза в банке
+        GoldDragonflyJar: Банка с золотой стрекозой
         GoldDust: Золотая пыль
         GoldFrog: Золотая лягушка
         GoldFrogCage: Террариум с золотой лягушкой
@@ -4675,7 +4675,7 @@
         GreenCap: Зелёная кепка
         GreenCounterweight: Зелёный противовес
         GreenDragonfly: Зелёная стрекоза
-        GreenDragonflyJar: Зелёная стрекоза в банке
+        GreenDragonflyJar: Банка с зелёной стрекозой
         GreenDungeonBathtub: Ванна зелёной Темницы
         GreenDungeonBed: Кровать зелёной Темницы
         GreenDungeonBookcase: Книжный шкаф зелёной Темницы
@@ -4694,7 +4694,7 @@
         GreenDungeonVase: Ваза зелёной Темницы
         GreenDungeonWorkBench: Верстак зелёной Темницы
         GreenDye: Зелёный краситель
-        GreenFairyJar: Зелёная фея в банке
+        GreenFairyJar: Банка с зелёной феей
         GreenFlameAndBlackDye: Зелёно-пламенно-чёрный краситель
         GreenFlameAndSilverDye: Зелёно-пламенно-серебряный краситель
         GreenFlameDye: Зелёно-пламенный краситель
@@ -5271,7 +5271,7 @@
         LivingLeafWall: Стена из живой листвы
         LivingLoom: Ткацкий станок из живого дерева
         LivingMahoganyLeafWand: Ветвь с листьями красного дерева
-        LivingMahoganyWand: Ветвь красного дерева
+        LivingMahoganyWand: Ветвь живого красного дерева
         LivingOceanDye: Краситель цвета живого океана
         LivingRainbowDye: Живой радужный краситель
         LivingUltrabrightFireBlock: Ультраяркий живой огонь
@@ -5303,8 +5303,8 @@
         LobsterTail: Хвост лобстера
         LockBox: Золотой ларец
         LogicGateLamp_Faulty: Лампа с логическим элементом (неисправная)
-        LogicGateLamp_Off: Лампа с логическим элементом (выкл.)
-        LogicGateLamp_On: Лампа с логическим элементом (вкл.)
+        LogicGateLamp_Off: Лампа с логическим элементом (выкл)
+        LogicGateLamp_On: Лампа с логическим элементом (вкл)
         LogicGate_AND: Логический элемент (И)
         LogicGate_NAND: Логический элемент (И-НЕ)
         LogicGate_NOR: Логический элемент (ИЛИ-НЕ)
@@ -5435,7 +5435,7 @@
         MartianBrainscramblerBanner: Знамя марсианского выжигателя мозгов
         MartianChandelier: Марсианская люстра
         MartianChest: Марсианский сундук
-        MartianConduitPlating: Марсианское изоляционное покрытие
+        MartianConduitPlating: Марсианская изоляционная обшивка
         MartianConduitWall: Марсианская изоляционная стена
         MartianCostumeMask: Голова марсианина
         MartianCostumePants: Ноги марсианина
@@ -5907,7 +5907,7 @@
         OpticStaff: Оптический посох
         OrangeBloodroot: Оранжевая лапчатка
         OrangeDragonfly: Оранжевая стрекоза
-        OrangeDragonflyJar: Оранжевая стрекоза в банке
+        OrangeDragonflyJar: Банка с оранжевой стрекозой
         OrangeDye: Оранжевый краситель
         OrangePaint: Оранжевая краска
         OrangePhaseblade: Оранжевый лазерный меч
@@ -6134,7 +6134,7 @@
         PinkEskimoCoat: Розовая снежная шуба
         PinkEskimoHood: Розовый снежный капюшон
         PinkEskimoPants: Розовые снежные штаны
-        PinkFairyJar: Розовая фея в банке
+        PinkFairyJar: Банка с розовой феей
         PinkGel: Розовый гель
         PinkGelDye: Розовый гелевый краситель
         PinkIceBlock: Розовый лёд
@@ -6434,7 +6434,7 @@
         RedCounterweight: Красный противовес
         RedDevilBanner: Знамя красного дьявола
         RedDragonfly: Красная стрекоза
-        RedDragonflyJar: Красная стрекоза в банке
+        RedDragonflyJar: Банка с красной стрекозой
         RedDye: Красный краситель
         RedDynastyShingles: Красная восточная черепица
         RedGardland: Красная ёлочная мишура
@@ -6796,8 +6796,8 @@
         ShroomiteHelmet: Грибнитовый шлем
         ShroomiteLeggings: Грибнитовые поножи
         ShroomiteMask: Грибнитовая маска
-        ShroomitePlating: Грибнитовое покрытие
-        ShroomitePlatingWall: Стена с грибнитовым покрытием
+        ShroomitePlating: Грибнитовая обшивка
+        ShroomitePlatingWall: Грибнитовая обшивочная стена
         ShuckedOyster: Открытая устрица
         Shuriken: Сюрикен
         Sickle: Серп
@@ -7454,8 +7454,8 @@
         TinHelmet: Оловянный шлем
         TinOre: Оловянная руда
         TinPickaxe: Оловянная кирка
-        TinPlating: Оловянное покрытие
-        TinPlatingWall: Стена с оловянным покрытием
+        TinPlating: Оловянная обшивка
+        TinPlatingWall: Оловянная обшивочная стена
         TinShortsword: Оловянный кинжал
         TinWatch: Оловянные карманные часы
         TinkerersWorkshop: Мастерская изобретателя
@@ -7960,7 +7960,7 @@
             '''
         AccentSlab:
             '''
-            Вариант каменной плитки, которая по-разному сочетается с соседними блоками
+            Вариант каменной плиты, который по-другому соединяется с соседними блоками
             Пользуется популярностью у опытных строителей
             '''
         AcornAxe:
@@ -10435,7 +10435,7 @@
         LivingGore: "{$PaintingArtist.Craig}"
         LivingLoom: "{$CommonItemTooltip.SpecialCrafting}"
         LivingMahoganyLeafWand: Размещает листья красного дерева
-        LivingMahoganyWand: Размещает красную древесину
+        LivingMahoganyWand: Размещает живую красную древесину
         LivingWoodWand: Размещает живую древесину
         LizardEgg: Призывает ящерку
         LizardKing:
@@ -14365,7 +14365,7 @@
     
     CreditsRollCategory_Music: {
         1: < Абсолютный MESS >
-        2: Алиночка Хвощенко
+        2: Алиночка Хвощ
     }
     
     CreditsRollCategory_Playtesting: {
