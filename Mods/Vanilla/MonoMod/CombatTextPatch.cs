@@ -50,7 +50,6 @@ public class CombatTextPatch : ILoadable
             "4999 life/5 sec" => "4999 здоровья/5 сек",
             "STRIKE" => "УДАР",
             // Redemption
-            "Guard Broken!" => "Барьер пробит!",
             "I'm sure you shouldn't have it in your inventory..." => "Уверен, этому не место в твоём инвентаре...",
             "Oh, what a lovely ribbon you have over here." => "Ох, какая прелестная ленточка у тебя тут.",
             "Xenium Staff op, please nerf." => "Ксениевый посох имба, просьба понерфить.",

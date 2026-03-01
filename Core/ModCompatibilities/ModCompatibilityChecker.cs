@@ -20,9 +20,9 @@ public class ModCompatibilityChecker : ModSystem
         new("CatalystMod", new Version(1, 1, 5), TRuConfig.Instance.CatalystLocalization),
         new("Fargowiltas", new Version(3, 3, 6, 5), TRuConfig.Instance.FargowiltasLocalization),
         new("FargowiltasSouls", new Version(1, 7, 3, 6), TRuConfig.Instance.FargowiltasSoulsLocalization),
-        new("InfernumMode", new Version(2, 0, 1, 25), TRuConfig.Instance.InfernumModeLocalization),
+        new("InfernumMode", new Version(2, 0, 1, 26), TRuConfig.Instance.InfernumModeLocalization),
         new("NoxusBoss", new Version(1, 2, 30), TRuConfig.Instance.NoxusBossLocalization),
-        new("Redemption", new Version(0, 8, 0, 4111), TRuConfig.Instance.RedemptionLocalization),
+        new("Redemption", new Version(0, 8, 0, 4120), TRuConfig.Instance.RedemptionLocalization),
         new("SpiritReforged", new Version(0, 1, 2, 8), TRuConfig.Instance.SpiritReforgedLocalization),
         new("StarsAbove", new Version(2, 1, 8, 2), TRuConfig.Instance.StarsAboveLocalization),
         new("ThoriumMod", new Version(1, 7, 2, 5), TRuConfig.Instance.ThoriumModLocalization)

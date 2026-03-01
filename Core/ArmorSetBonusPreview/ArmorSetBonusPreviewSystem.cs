@@ -2111,13 +2111,15 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("Redemption/CommonGuardHelm1"), () =>
             {
-                string bonus = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.CommonGuardHelm1");
+                string args = Language.GetTextValue("Mods.Redemption.Keybinds.SpecialAbilityKey.DisplayName");
+                string bonus = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.CommonGuardHelm1", $"[{args}]");
                 
                 return bonus;
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("Redemption/CommonGuardHelm2"), () =>
             {
-                string bonus = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.CommonGuardHelm2");
+                string args = Language.GetTextValue("Mods.Redemption.Keybinds.SpecialAbilityKey.DisplayName");
+                string bonus = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.CommonGuardHelm2", $"[{args}]");
                 
                 return bonus;
             }));
