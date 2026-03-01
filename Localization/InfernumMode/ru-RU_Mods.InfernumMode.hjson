@@ -902,7 +902,7 @@ Items: {
     }
 
     GrandStatueItem: {
-        DisplayName: Великая статуя
+        DisplayName: Огромная статуя
         Tooltip: ""
     }
 
