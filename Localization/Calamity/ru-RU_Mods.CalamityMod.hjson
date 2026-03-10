@@ -10514,7 +10514,7 @@ Items: {
         CloudElementalBanner.DisplayName: Знамя облачного элементаля
         CnidrionBanner.DisplayName: Знамя стрекаря
         ColossalSquidBanner.DisplayName: Знамя громадного кальмара
-        CrimulanBlightSlimeBanner.DisplayName: Знамя багротанового гибельного слизня
+        CrimulanBlightSlimeBanner.DisplayName: Знамя багронийского гибельного слизня
         CryonBanner.DisplayName: Знамя криона
         CryoSlimeBanner.DisplayName: Знамя криослизня
         CrystalCrawlerBanner.DisplayName: Знамя кристального ползуна
@@ -10524,7 +10524,7 @@ Items: {
         DiamondCrawlerBanner.DisplayName: Знамя алмазного ползуна
         DraconicSwarmerBanner.DisplayName: Знамя драконьего роителя
         EarthElementalBanner.DisplayName: Знамя земляного элементаля
-        EbonianBlightSlimeBanner.DisplayName: Знамя эбонитового гибельного слизня
+        EbonianBlightSlimeBanner.DisplayName: Знамя эбонийского гибельного слизня
         EidolistBanner.DisplayName: Знамя эйдолиста
         EidolonWyrmJuvenileBanner.DisplayName: Знамя эйдолонского змия
         EmeraldCrawlerBanner.DisplayName: Знамя изумрудного ползуна
@@ -23701,10 +23701,10 @@ NPCs: {
     CrawlerRuby.DisplayName: Рубиновый ползун
     CrawlerSapphire.DisplayName: Сапфировый ползун
     CrawlerTopaz.DisplayName: Топазовый ползун
-    CrimulanBlightSlime.DisplayName: Багротановый гибельный слизень
+    CrimulanBlightSlime.DisplayName: Багронийский гибельный слизень
     Cryon.DisplayName: Крион
     CryoSlime.DisplayName: Криослизень
-    EbonianBlightSlime.DisplayName: Эбонитовый гибельный слизень
+    EbonianBlightSlime.DisplayName: Эбонийский гибельный слизень
     Eidolist.DisplayName: Эйдолист
     FearlessGoldfishWarrior.DisplayName: Бесстрашная золотая рыбка-воин
     Frogfish.DisplayName: Морской чёрт
@@ -23782,11 +23782,11 @@ NPCs: {
     Signus.DisplayName: Сигнус, Посланник Пожирателя
     CorruptSlimeSpawn.DisplayName: Порождение искажённого слизня
     CrimsonSlimeSpawn.DisplayName: Порождение багряного слизня
-    CrimulanPaladin.DisplayName: Багротановый паладин
-    EbonianPaladin.DisplayName: Эбонитовый паладин
+    CrimulanPaladin.DisplayName: Багронийский паладин
+    EbonianPaladin.DisplayName: Эбонийский паладин
     SlimeGodCore.DisplayName: Бог слизней
-    SplitCrimulanPaladin.DisplayName: Багротановый паладин
-    SplitEbonianPaladin.DisplayName: Эбонитовый паладин
+    SplitCrimulanPaladin.DisplayName: Багронийский паладин
+    SplitEbonianPaladin.DisplayName: Эбонийский паладин
     StormWeaverHead.DisplayName: Штормовой ткач
     AnthozoanCrab.DisplayName: Коралловый краб
     AquaticUrchin.DisplayName: Акватический ёж
