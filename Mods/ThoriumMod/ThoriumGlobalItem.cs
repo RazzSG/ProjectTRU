@@ -472,6 +472,7 @@ public class ThoriumGlobalItem : GlobalItem
         
         ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "ThoriumMod/AccessoryDamage", _ =>
         {
+            tooltips.ReplaceText("% basic damage", "% базового урона");
             tooltips.ReplaceText("basic damage", "ед. базового урона");
         });
         

@@ -25,6 +25,21 @@ public partial class CalamityModGlobalItem
                 if (TRuConfig.Instance.ColoredDamageTypes)
                     tooltip.OverrideColor = new Color(255, 85, 85);
             }
+            
+            if (item.CountsAsClass<MeleeRangedHybridDamageClass>())
+            {
+                if (TRuConfig.Instance.ColoredDamageTypes)
+                {
+                    string[] parts = tooltip.Text.Split('/');
+                    if (parts.Length == 2)
+                    {
+                        string meleeColor = "FF5555";
+                        string rangedColor = "50FA7B";
+                        
+                        tooltip.Text = $"[c/{meleeColor}:{parts[0]}]/[c/{rangedColor}:{parts[1]}]";
+                    }
+                }
+            }
         });
     }
 }

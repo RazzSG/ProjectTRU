@@ -17,8 +17,7 @@ public class CreditAnimationObjectPatch : OnPatcher
 
     public override Delegate Delegate => Translation;
 
-    private void Translation(Action<CreditAnimationObject, Vector2, string, string, Color, bool> orig,
-        CreditAnimationObject self, Vector2 velocity, string header, string names, Color headerColor, bool swapSides)
+    private void Translation(Action<CreditAnimationObject, Vector2, string, string, Color, bool> orig, CreditAnimationObject self, Vector2 velocity, string header, string names, Color headerColor, bool swapSides)
     {
         if (names.Contains("Dimension Translate Group"))
             names = names.Replace("Dimension Translate Group\nIndeperevod Team", "Dimension Translate Group\nProject tRU");

@@ -2015,12 +2015,12 @@ Items: {
     }
 
     WiresPainting: {
-        DisplayName: Картина «Провода»
-        Tooltip: "'Взгляд изнутри'"
+        DisplayName: Картина «Wires»
+        Tooltip: "'Заглянул внутрь'"
     }
     
     CrabSizedGlasses: {
-        DisplayName: Клешне-стильные очки
+        DisplayName: Очки для краба
         Tooltip: Призывает крутого краба
     }
     

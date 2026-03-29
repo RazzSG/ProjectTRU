@@ -88,9 +88,5 @@ public class TRuConfig : ModConfig
     
     [DefaultValue(true)]
     [ReloadRequired]
-    public bool SpiritReforgedLocalization;
-
-    [DefaultValue(true)]
-    [ReloadRequired]
     public bool VanillaLocalization;
 }
