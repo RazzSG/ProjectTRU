@@ -255,6 +255,7 @@ public class CalamityItems : IItemGender
                 "UrchinStinger",
                 "AmphibiansGuitar",
                 "Kingsbane",
+                "AnechoicPlating",
             };
 
             if (ModInstances.Calamity != null)
@@ -274,7 +275,6 @@ public class CalamityItems : IItemGender
                 "AbyssalDivingGear",
                 "AbyssalMirror",
                 "AncientFossil",
-                "AnechoicPlating",
                 "BlazingCore",
                 "BloodflareCore",
                 "DarkSunRing",

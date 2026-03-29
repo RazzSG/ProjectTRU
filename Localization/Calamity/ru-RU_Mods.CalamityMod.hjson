@@ -1463,7 +1463,7 @@ Buffs: {
     }
 
     AnechoicCoatingBuff: {
-        DisplayName: Безэховая покраска
+        DisplayName: Гидроакустическое покрытие
         Description: Область обнаружения у существ бездны снижена
     }
 
@@ -2620,7 +2620,7 @@ Condition: {
         DownedAEW: После победы над Первозданным змием
         DownedClam: После победы над гигантским моллюском
         DownedClamHM: После победы над гигантским моллюском в хардмоде
-        DownedGSS: После победы над великой песчаной акулой
+        DownedGSS: После победы над большой песчаной акулой
         DownedBetsy: После победы над Бэтси
         DownedT1AR: После победы над первым рангом события «Кислотный дождь»
         DownedT2AR: После победы над вторым рангом события «Кислотный дождь»
@@ -3489,7 +3489,7 @@ Items: {
         }
     
         AnechoicPlating: {
-            DisplayName: Безэховое покрытие
+            DisplayName: Гидроакустическая пластина
             Tooltip:
                 '''
                 Делает вас менее заметным для существ бездны
@@ -8123,7 +8123,7 @@ Items: {
         }
         
         BlueStatigelDye: {
-            DisplayName:  Синий статигелевый краситель
+            DisplayName: Синий статигелевый краситель
             Tooltip: ""
         }
         
@@ -8471,7 +8471,7 @@ Items: {
         
         GreenwaveLoach: {
             DisplayName: Вьюн зелёной волны
-            Tooltip:  Рыба, находящаяся на грани исчезновения, крайне высоко ценится на рынке
+            Tooltip: Эта рыба, находящаяся на грани исчезновения, крайне высоко ценится на рынке
         }
 
         MoltenFishron: {
@@ -9634,7 +9634,7 @@ Items: {
         }
         
         DubiousPlating: {
-            DisplayName: Сомнительное покрытие
+            DisplayName: Сомнительная пластина
             Tooltip: ""
         }
         
@@ -9679,8 +9679,8 @@ Items: {
         }
         
         GrandScale: {
-            DisplayName: Великая чешуя
-            Tooltip: Огромная чешуя высшего хищника
+            DisplayName: Огромная чешуя
+            Tooltip: Большая чешуя высшего хищника
         }
         
         InfectedArmorPlating: {
@@ -10579,8 +10579,8 @@ Items: {
         ScornEaterBanner.DisplayName: Знамя презренного пожирателя
         ScryllarBanner.DisplayName: Знамя сциллара
         SeaFloatyBanner.DisplayName: Знамя морского поплавка
-        SeaMinnowBanner.DisplayName: Знамя морского пескаря
         SeaSerpentBanner.DisplayName: Знамя морского змея
+        SeaMinnowBanner.DisplayName: Знамя морского гольяна
         SeaUrchinBanner.DisplayName: Знамя морского ежа
         ShockstormShuttleBanner.DisplayName: Знамя шаттла шокового шторма
         ShroombleBanner.DisplayName: Знамя грибня
@@ -10825,12 +10825,12 @@ Items: {
         }
         
         LaboratoryPipePlating: {
-            DisplayName: Лабораторная облицовка труб
+            DisplayName: Лабораторная труба с обшивкой
             Tooltip: ""
         }
         
         LaboratoryPlating: {
-            DisplayName: Лабораторное покрытие
+            DisplayName: Лабораторная обшивка
             Tooltip: ""
         }
         
@@ -10886,7 +10886,7 @@ Items: {
         }
         
         RustedPlating: {
-            DisplayName: Ржавое покрытие
+            DisplayName: Ржавая обшивка
             Tooltip: ""
         }
         
@@ -11060,7 +11060,7 @@ Items: {
         }
         
         GreatSandSharkRelic: {
-            DisplayName: Реликвия великой песчаной акулы
+            DisplayName: Реликвия большой песчаной акулы
             Tooltip: ""
         }
         
@@ -11430,8 +11430,8 @@ Items: {
         }
         
         EldenDiorama: {
-        	DisplayName: Древняя диорама
-        	Tooltip: "'Окутай небеса ядовитыми потоками'"
+            DisplayName: Древняя диорама
+            Tooltip: "'Окутай небеса ядовитыми потоками'"
         }
         
         ExoObelisk: {
@@ -11532,7 +11532,7 @@ Items: {
         }
         
         SeaMinnowJar: {
-            DisplayName: Аквариум с морским пескарём
+            DisplayName: Аквариум с морским гольяном
             Tooltip: ""
         }
         
@@ -11676,7 +11676,7 @@ Items: {
         }
         
         GreatSandSharkTrophy: {
-            DisplayName: Трофей великой песчаной акулы
+            DisplayName: Трофей большой песчаной акулы
             Tooltip: ""
         }
         
@@ -12091,11 +12091,11 @@ Items: {
         }
         
         AshenAccentSlab: {
-            DisplayName: Пепельная декоративная плитка
+            DisplayName: Акцентная пепельная плита
             Tooltip:
                 '''
-                Разновидность пепельной плитки, которая по-разному соединяется с соседними блоками
-                'Выбор продвинутых строителей'
+                Вариант пепельной плиты, который по-другому соединяется с соседними блоками
+                'Выбор опытных строителей'
                 '''
         }
         
@@ -12185,7 +12185,7 @@ Items: {
         }
         
         AshenSlab: {
-            DisplayName: Пепельная плитка
+            DisplayName: Пепельная плита
             Tooltip: ""
         }
         
@@ -12775,7 +12775,7 @@ Items: {
         }
         
         ExoPlating: {
-            DisplayName: Экзо-покрытие
+            DisplayName: Экзо-обшивка
             Tooltip: ""
         }
         
@@ -13340,7 +13340,7 @@ Items: {
         }
         
         ProfanedSlab: {
-            DisplayName: Осквернённая плитка
+            DisplayName: Осквернённая плита
             Tooltip: ""
         }
         
@@ -13889,7 +13889,7 @@ Items: {
         }
         
         VoidstoneSlab: {
-            DisplayName: Плитка из пустотного камня
+            DisplayName: Плита из пустотного камня
             Tooltip: ""
         }
         
@@ -13994,7 +13994,7 @@ Items: {
         }
         
         WulfrumPlating: {
-            DisplayName: Вульфрумовое покрытие
+            DisplayName: Вульфрумовая обшивка
             Tooltip: ""
         }
         
@@ -14004,7 +14004,7 @@ Items: {
         }
         
         WulfrumSiding: {
-            DisplayName: Вульфрумовая обшивка
+            DisplayName: Вульфрумовая облицовка
             Tooltip: ""
         }
         
@@ -14379,7 +14379,7 @@ Items: {
         }
         
         ShellstoneSlab: {
-            DisplayName: Плитка из ракушечника
+            DisplayName: Плита из ракушечника
             Tooltip: ""
         }
         
@@ -14489,7 +14489,7 @@ Items: {
         }
         
         AshenSlabWall: {
-            DisplayName: Стена из пепельной плитки
+            DisplayName: Стена из пепельной плиты
             Tooltip: ""
         }
         
@@ -14534,7 +14534,7 @@ Items: {
         }
         
         BrimstoneSlabWall: {
-            DisplayName: Стена из серной плитки
+            DisplayName: Стена из серной плиты
             Tooltip: ""
         }
         
@@ -14584,7 +14584,7 @@ Items: {
         }
         
         LaboratoryPlatingWall: {
-            DisplayName: Стена с лабораторным покрытием
+            DisplayName: Стена с лабораторной обшивкой
             Tooltip: ""
         }
         
@@ -14599,7 +14599,7 @@ Items: {
         }
         
         RustedPlatingWall: {
-            DisplayName: Стена с ржавым покрытием
+            DisplayName: Стена с ржавой обшивкой
             Tooltip: ""
         }
 
@@ -14639,7 +14639,7 @@ Items: {
         }
         
         ExoPlatingWallItem: {
-            DisplayName: Стена с экзо-покрытием
+            DisplayName: Стена с экзо-обшивкой
             Tooltip: ""
         }
         
@@ -14729,7 +14729,7 @@ Items: {
         }
         
         ProfanedSlabWall: {
-            DisplayName: Стена из осквернённой плитки
+            DisplayName: Стена из осквернённой плиты
             Tooltip: ""
         }
 
@@ -14764,7 +14764,7 @@ Items: {
         }
 
         ShellstoneSlabWall: {
-            DisplayName: Стена из плитки ракушечника
+            DisplayName: Стена из плиты ракушечника
             Tooltip: ""
         }
 
@@ -14829,7 +14829,7 @@ Items: {
         }
         
         VoidstoneSlabWall: {
-            DisplayName: Стена из плитки пустотного камня
+            DisplayName: Стена из плиты пустотного камня
             Tooltip: ""
         }
         
@@ -14859,7 +14859,7 @@ Items: {
         }
         
         WulfrumPlatingWall: {
-            DisplayName: Стена с вульфрумовым покрытием
+            DisplayName: Стена с вульфрумовой обшивкой
             Tooltip: ""
         }
         
@@ -15132,7 +15132,7 @@ Items: {
         }
         
         BasaltSlab: {
-            DisplayName: Базальтовая плитка
+            DisplayName: Базальтовая плита
             Tooltip: ""
         }
         
@@ -15145,7 +15145,7 @@ Items: {
     
     Potions: {
         AnechoicCoating: {
-            DisplayName: Безэховая покраска
+            DisplayName: Гидроакустическое покрытие
             Tooltip: Слегка снижает способность существ обнаруживать вас в бездне
         }
         
@@ -15841,7 +15841,7 @@ Items: {
             DisplayName: Ядро песчаной бури
             Tooltip:
                 '''
-                Призывает великую песчаную акулу при использовании в [BIOME]
+                Призывает большую песчаную акулу при использовании в [BIOME]
                 Не расходуется
                 '''
         }
@@ -15980,7 +15980,7 @@ Items: {
         }
         
         BleachBall: {
-            DisplayName: Пляжный хлоромячик
+            DisplayName: Щелочной пузырь
             Tooltip:
                 '''
                 Позволяет предотвратить появление Акватического бича
@@ -17132,7 +17132,7 @@ Items: {
                 Tooltip:
                     '''
                     Призывает скопление духов, хаотично летающих вокруг курсора
-		    Со временем духи объединяются в единое управляемое чудовище
+                    Со временем духи объединяются в единое управляемое чудовище
                     '''
                 Calamitas:
                     '''
@@ -20832,7 +20832,7 @@ Items: {
                     '''
                     Заряжает [c/ff00ff:Роковой луч погибели богов]
                     Удерживание кнопки атаки вместо луча заряжает [c/ff00ff:Разлом гиперсмерти]
-		            Во время зарядки [c/ff00ff:Разлома гиперсмерти] скорость поворота лука снижается
+                    Во время зарядки [c/ff00ff:Разлома гиперсмерти] скорость поворота лука снижается
                     '''
             }
             
@@ -21239,7 +21239,7 @@ Items: {
                 Tooltip:
                     '''
                     Бросает диск, который разрывает пространство в направлении ближайшего врага
-		            При скрытном ударе диск вонзается во врага и высвобождает [c/ff00ff:Массив роковых лучей погибели богов]
+                    При скрытном ударе диск вонзается во врага и высвобождает [c/ff00ff:Массив роковых лучей погибели богов]
                     '''
             }
 
@@ -22652,8 +22652,8 @@ Items: {
             }
             
             EnchantedKnifeStaff: {
-            	DisplayName: Посох зачарованных ножей
-            	Tooltip: Призывает зачарованный нож
+                DisplayName: Посох зачарованных ножей
+                Tooltip: Призывает зачарованный нож
             }
             
             Endogenesis: {
@@ -22918,7 +22918,7 @@ Items: {
             }
             
             PolypLauncher: {
-                DisplayName: Полипный метатель
+                DisplayName: Полиповый метатель
                 Tooltip:
                     '''
                     {$CommonItemTooltip.Sentry}
@@ -23778,7 +23778,7 @@ NPCs: {
     SupremeClamitas: Высший моллюмитас
     PrismBack.DisplayName: Призмоспин
     SeaFloaty.DisplayName: Морской поплавок
-    SeaMinnow.DisplayName: Морской пескарь
+    SeaMinnow.DisplayName: Морской гольян
     SeaSerpent1.DisplayName: Морской змей
     BrimstoneHeart.DisplayName: Серное сердце
     SepulcherHead.DisplayName: Могильщик
