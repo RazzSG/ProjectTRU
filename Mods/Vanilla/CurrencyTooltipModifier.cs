@@ -18,7 +18,7 @@ public class CurrencyTooltipModifier : GlobalItem
 
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
     {
-        ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "Terraria/Price", tooltip =>
+        ItemHelper.TranslateTooltip(tooltips, l => l.Name == "Price", tooltip =>
         {
             int lastValue = 0;
             
@@ -28,7 +28,7 @@ public class CurrencyTooltipModifier : GlobalItem
                 string suffix = m.Groups[2].Value.ToLower();
                 lastValue = value;
 
-                string replacement = suffix switch
+                string pattern = suffix switch
                 {
                     "платин." => "{^0:платиновая;платиновые;платиновых}",
                     "зол." => "{^0:золотая;золотые;золотых}",
@@ -37,12 +37,12 @@ public class CurrencyTooltipModifier : GlobalItem
                     _ => suffix
                 };
 
-                return LocalizedText.ApplyPluralization(replacement, value);
+                return $"{value} {LocalizedText.ApplyPluralization(pattern, value)}";
             });
             
             if (lastValue > 0)
             {
-                string coinSuffix = LocalizedText.ApplyPluralization(" {^0:монета;монеты;монет}", lastValue);
+                string coinSuffix = LocalizedText.ApplyPluralization("{^0:монета;монеты;монет}", lastValue);
                 tooltip.Text = newText.TrimEnd('.') + coinSuffix;
             }
         });
