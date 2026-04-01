@@ -12394,6 +12394,21 @@ Items: {
         DisplayName: Бесконечность Истока
         Tooltip: ""
     }
+    
+    AsphodeneForkliftKey: {
+        DisplayName: Ключ от погрузчика Асфодены
+        Tooltip: Призывает механический погрузчик
+    }
+    
+    EridaniForkliftKey: {
+        DisplayName: Ключ от погрузчика Эридани
+        Tooltip: Призывает механический погрузчик
+    }
+    
+    ForkliftKey: {
+        DisplayName: Безаспектный ключ от погрузчика
+        Tooltip: ""
+    }
 }
 
 UIElements: {
