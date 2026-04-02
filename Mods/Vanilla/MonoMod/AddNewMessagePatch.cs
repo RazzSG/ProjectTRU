@@ -25,7 +25,6 @@ public class AddNewMessagePatch : ILoadable
     private void On_RemadeChatMonitorOnAddNewMessage(On_RemadeChatMonitor.orig_AddNewMessage orig, RemadeChatMonitor self, string text, Color color, int widthlimitinpixels)
     {
         // Infernum
-        text = text.Replace("was somehow impaled by a pillar of crystals.", "был загадочным образом пронзён кристальной колонной.");
         text = text.Replace("was repelled by celestial forces.", "был отброшен неземными силами.");
         text = text.Replace("was violently pricked by roses.", "был жестоко пронзён розами.");
         
