@@ -129,7 +129,7 @@
 #            Label: "[i:SpiritMod/MoonStone]  Visuals: Aurora Enabled"
 #            Tooltip: Enables or disables the Aurora visuals. This does not stop Aurora-based effects or enemies from appearing
 #        }
-#        
+#
 #        EnableSepulchres: {
 #            Label: "[i:SpiritMod/CursedArmorItem]  World Generation: Enable Dark Sepulchres"
 #            Tooltip: Enables or disables the Dark Sepulchre structures found underground. Useful to turn off if you experience generation issues with other mods
@@ -4432,7 +4432,7 @@
 #    }
 #
 #    GulperItem: {
-#        DisplayName: Gulper
+#        DisplayName: Глотунчик
 #        Tooltip: "'Quite the perky lil' fella'"
 #    }
 #
@@ -10553,8 +10553,8 @@
 #    }
 #
 #    Gulper: {
-#        DisplayName: Gulper
-#        Entry: These small, domesticated fish are made of a springy substance, are often sold at festivals, and have an extremely short life expectancy.
+#        DisplayName: Глотунчик
+#        Entry: Эти маленькие декоративные рыбки состоят из упругой субстанции. Их часто продают на фестивалях, и живут они совсем недолго.
 #    }
 #
 #    HailSnail: {

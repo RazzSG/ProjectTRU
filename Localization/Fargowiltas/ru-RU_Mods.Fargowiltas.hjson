@@ -314,9 +314,21 @@ Configs: {
 
     SeasonSelections: {
         Tooltip: ""
-        Normal.Label: Как обычно
-        AlwaysOn.Label: Всегда ВКЛ
-        AlwaysOff.Label: Всегда ВЫКЛ
+        
+        Normal: {
+            Label: Как обычно
+            Tooltip: ""
+        }
+
+        AlwaysOn: {
+            Label: Всегда ВКЛ
+            Tooltip: ""
+        }
+
+        AlwaysOff: {
+            Label: Всегда ВЫКЛ
+            Tooltip: ""
+        }
     }
 
     Common.CanSpawn: может заселиться
