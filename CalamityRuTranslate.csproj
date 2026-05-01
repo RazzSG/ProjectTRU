@@ -24,7 +24,7 @@
       <HintPath>..\ModAssemblies\NoxusBoss_v1.2.27.dll</HintPath>
     </Reference>
     <Reference Include="PathOfTerraria">
-      <HintPath>..\ModAssemblies\PathOfTerraria_v0.2.19.dll</HintPath>
+      <HintPath>..\ModAssemblies\PathOfTerraria_v0.3.4.dll</HintPath>
     </Reference>
     <Reference Include="Redemption">
       <HintPath>..\ModAssemblies\Redemption_v0.8.0.4100.dll</HintPath>

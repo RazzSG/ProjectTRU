@@ -998,7 +998,7 @@
         CavelingGardener: Пещерный садовник
         ChaosState: Хаотичное состояние
         ChesterPet: Честер
-        Chilled: Окоченелость
+        Chilled: Окоченение
         Clairvoyance: Ясновидение
         CoffinMinecartLeft: "{$BuffName.MinecartLeft}"
         CoffinMinecartRight: "{$BuffName.MinecartRight}"
@@ -3253,7 +3253,7 @@
         CagedLantern: Решётчатый фонарь
         CalmingPotion: Зелье умиротворения
         Campfire: Костёр
-        CanOfWorms: Жестяная банка с червями 
+        CanOfWorms: Жестяная банка с червями
         Candelabra: Подсвечник
         Candle: Свеча
         CandyApple: Карамельное яблоко
@@ -13374,7 +13374,7 @@
     
     LegacyMenu: {
         0: Запустите новое окно Terraria, чтобы присоединиться!
-        1: Подключение к порту 
+        1: Подключение к порту
         2: Отключиться
         3: Сервер запрашивает пароль:
         4: Принять

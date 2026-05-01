@@ -2150,7 +2150,12 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("Redemption/XeniumVisor"), () =>
             {
-                string bonus = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Xenium.Bonus");
+                object[] args = [
+                    $"[{Language.GetTextValue("Mods.Redemption.Keybinds.SpecialAbilityKey.DisplayName")}]",
+                    Language.GetTextValue("Mods.Redemption.Items.Poison.DisplayName"),
+                    Language.GetTextValue("Mods.Redemption.Items.Explosive.DisplayName"),
+                ];
+                string bonus = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Xenium", args);
                 
                 return bonus;
             }));

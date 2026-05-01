@@ -3951,7 +3951,7 @@ Items: {
     }
 
     TheCryoFang: {
-        DisplayName: Крио-клык
+        DisplayName: Криоклык
         Tooltip:
             '''
             Вызывает ледяной всплеск при попадании во врага или блок
@@ -20641,7 +20641,7 @@ NPCs: {
     }
 
     CryoCore: {
-        DisplayName: Крио-ядро
+        DisplayName: Криоядро
         BestiaryFlavorText: "{$NPCs.BioCore.BestiaryFlavorText}"
     }
 

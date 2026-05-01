@@ -109,7 +109,7 @@ Items: {
 
     BossRushTier5MusicBox: {
         DisplayName: Музыкальная шкатулка (Босс-раш - 5 ранг)
-        Tooltip: Эта шкатулка не завершена и не работает 
+        Tooltip: Эта шкатулка не завершена и не работает
     }
 
     BrainstormTrailerMusicBox: {

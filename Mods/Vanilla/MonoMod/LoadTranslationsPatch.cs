@@ -66,6 +66,7 @@ public class LoadTranslationsPatch : OnPatcher
                 if (!TRuConfig.Instance.StarsAboveLocalization && modpath.Contains(@"StarsAbove\")) continue;
                 if (!TRuConfig.Instance.RedemptionLocalization && modpath.Contains(@"Redemption\")) continue;
                 if (!TRuConfig.Instance.CatalystLocalization && modpath.Contains(@"Catalyst\")) continue;
+                if (!TRuConfig.Instance.PathOfTerrariaLocalization && modpath.Contains(@"PathOfTerraria\")) continue;
                 
                 using Stream stream = tModFile.GetStream(translationFile);
                 using StreamReader streamReader = new StreamReader(stream, Encoding.UTF8, true);

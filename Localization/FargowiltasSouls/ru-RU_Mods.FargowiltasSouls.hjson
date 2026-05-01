@@ -2622,8 +2622,8 @@ Items: {
         ExpandedTooltip:
             '''
             [c/ADD8E6:«{$ItemName.IronskinPotion}», «{$ItemName.RegenerationPotion}», «{$ItemName.SwiftnessPotion}», «{$ItemName.ManaRegenerationPotion}», «{$ItemName.MagicPowerPotion}»,]
-            [c/ADD8E6:«{$ItemName.AmmoReservationPotion}», «{$ItemName.ArcheryPotion}», «{$ItemName.BuilderPotion}»,  «{$ItemName.CratePotion}», «{$ItemName.EndurancePotion}»,] 
-            [c/ADD8E6:«{$ItemName.FishingPotion}», «{$ItemName.GillsPotion}», «{$ItemName.LuckPotion}», «{$ItemName.HeartreachPotion}», «{$ItemName.LifeforcePotion}», «{$ItemName.MiningPotion}»,] 
+            [c/ADD8E6:«{$ItemName.AmmoReservationPotion}», «{$ItemName.ArcheryPotion}», «{$ItemName.BuilderPotion}»,  «{$ItemName.CratePotion}», «{$ItemName.EndurancePotion}»,]
+            [c/ADD8E6:«{$ItemName.FishingPotion}», «{$ItemName.GillsPotion}», «{$ItemName.LuckPotion}», «{$ItemName.HeartreachPotion}», «{$ItemName.LifeforcePotion}», «{$ItemName.MiningPotion}»,]
             [c/ADD8E6:«{$ItemName.ObsidianSkinPotion}», «{$ItemName.RagePotion}», «{$ItemName.WrathPotion}», «{$ItemName.SonarPotion}», «{$ItemName.SummoningPotion}», «{$ItemName.ThornsPotion}», «{$ItemName.TitanPotion}»,]
             [c/ADD8E6:«{$ItemName.WarmthPotion}», «{$ItemName.WaterWalkingPotion}», «{$BuffName.WellFed3}», «{$BuffName.Sharpened}», «{$ItemName.AmmoBox}», «{$BuffName.Clairvoyance}»,]
             [c/ADD8E6:«{$BuffName.Bewitched}», «{$ItemName.WarTable}», «{$BuffName.Honey}»]
@@ -2970,7 +2970,7 @@ Items: {
         Tooltip:
             '''
             Даёт невосприимчивость к дебаффу «{$BuffName.Dazed}»
-            Увеличивает наносимый урон на 15% и получаемый на 20%
+            Увеличивает наносимый урон на 15% и получаемый на 10%
             Враги реже выбирают вас в качестве цели
             Кристальный череп накапливает энергию при ваших атаках
             'Часть коллективного сознания'

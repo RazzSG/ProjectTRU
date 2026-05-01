@@ -88,5 +88,9 @@ public class TRuConfig : ModConfig
     
     [DefaultValue(true)]
     [ReloadRequired]
+    public bool PathOfTerrariaLocalization;
+    
+    [DefaultValue(true)]
+    [ReloadRequired]
     public bool VanillaLocalization;
 }
