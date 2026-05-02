@@ -2,12 +2,12 @@
 
 namespace CalamityRuTranslate.Core.ItemGenderPrefixes.Creators;
 
-public class SpiritReforgedCreator : IItemGenderCreator
+public class PathOfTerrariaCreator : IItemGenderCreator
 {
-    public string ModName => "SpiritReforged";
+    public string ModName => "PathOfTerraria";
 
     public IItemGender Create()
     {
-        return new SpiritReforgedItems();
+        return new PathOfTerrariaItems();
     }
 }

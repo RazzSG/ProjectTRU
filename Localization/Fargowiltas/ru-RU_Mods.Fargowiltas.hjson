@@ -173,12 +173,12 @@ Configs: {
         }
 
         PiggyBankAcc: {
-            Label: "[i:87] Работа эффектов информационных и строительных предметов в свинье-копилке"
+            Label: "[i:87] Эффекты информационных и строительных предметов в копилке"
             Tooltip: ""
         }
         
         ModdedPiggyBankAcc: {
-            Label: "[i:87] Работа эффектов модовых предметов в свинье-копилке"
+            Label: "[i:87] Эффекты модовых предметов в копилке"
             Tooltip: ""
         }
 
@@ -315,9 +315,21 @@ Configs: {
 
     SeasonSelections: {
         Tooltip: ""
-        Normal.Label: Как обычно
-        AlwaysOn.Label: Всегда ВКЛ
-        AlwaysOff.Label: Всегда ВЫКЛ
+        
+        Normal: {
+            Label: Как обычно
+            Tooltip: ""
+        }
+
+        AlwaysOn: {
+            Label: Всегда ВКЛ
+            Tooltip: ""
+        }
+
+        AlwaysOff: {
+            Label: Всегда ВЫКЛ
+            Tooltip: ""
+        }
     }
 
     Common.CanSpawn: может заселиться
@@ -720,7 +732,7 @@ Items: {
         Tooltip:
             '''
             Бросает бомбу, которая создаёт половину «лифта» до преисподней
-            Не копает ниже определённой глубины 
+            Не копает ниже определённой глубины
             Не допускает разрушения важных зон
             Используйте на свой страх и риск
             '''
@@ -2030,12 +2042,12 @@ Items: {
     }
 
     WiresPainting: {
-        DisplayName: Картина «Провода»
-        Tooltip: "'Взгляд изнутри'"
+        DisplayName: Картина «Wires»
+        Tooltip: "'Заглянул внутрь'"
     }
     
     CrabSizedGlasses: {
-        DisplayName: Клешне-стильные очки
+        DisplayName: Очки для краба
         Tooltip: Призывает крутого краба
     }
     

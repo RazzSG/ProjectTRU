@@ -129,7 +129,7 @@
 #            Label: "[i:SpiritMod/MoonStone]  Visuals: Aurora Enabled"
 #            Tooltip: Enables or disables the Aurora visuals. This does not stop Aurora-based effects or enemies from appearing
 #        }
-#        
+#
 #        EnableSepulchres: {
 #            Label: "[i:SpiritMod/CursedArmorItem]  World Generation: Enable Dark Sepulchres"
 #            Tooltip: Enables or disables the Dark Sepulchre structures found underground. Useful to turn off if you experience generation issues with other mods
@@ -454,7 +454,7 @@
 #
 #    CandyBuff: {
 #        DisplayName: Сахарная передозировка
-#        Description: Небольшое увеличение всех характеристик
+#        Description: Незначительно увеличивает всех характеристики
 #    }
 #
 #    ChocolateBuff: {
@@ -1787,7 +1787,7 @@
 #        Tooltip:
 #            '''
 #            Ускоряет использование крюка на 15%
-#            Автоматически отцепляет вас от крюка при достижении его максимальной длины 
+#            Автоматически отцепляет вас от крюка при достижении его максимальной длины
 #            Отключите видимость аксессуара, чтобы отменить автоматическое отцепление
 #            '''
 #    }
@@ -4432,7 +4432,7 @@
 #    }
 #
 #    GulperItem: {
-#        DisplayName: Gulper
+#        DisplayName: Глотунчик
 #        Tooltip: "'Quite the perky lil' fella'"
 #    }
 #
@@ -10553,8 +10553,8 @@
 #    }
 #
 #    Gulper: {
-#        DisplayName: Gulper
-#        Entry: These small, domesticated fish are made of a springy substance, are often sold at festivals, and have an extremely short life expectancy.
+#        DisplayName: Глотунчик
+#        Entry: Эти маленькие декоративные рыбки состоят из упругой субстанции. Их часто продают на фестивалях, и живут они совсем недолго.
 #    }
 #
 #    HailSnail: {

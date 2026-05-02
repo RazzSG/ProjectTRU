@@ -3951,7 +3951,7 @@ Items: {
     }
 
     TheCryoFang: {
-        DisplayName: Крио-клык
+        DisplayName: Криоклык
         Tooltip:
             '''
             Вызывает ледяной всплеск при попадании во врага или блок
@@ -9697,8 +9697,8 @@ Items: {
             '''
         SetBonus:
             '''
-            Каждые {0} секунд генерируется до {1} святых крестов
-            При произнесении исцеляющих заклинаний крест расходуется вместо маны
+            Каждые {0} секунд создаются до {1} святых крестов
+            При произнесении исцеляющих заклинаний вместо маны расходуется крест
             '''
     }
 
@@ -11329,8 +11329,8 @@ Items: {
     }
 
     StrangePlating: {
-        DisplayName: Странное покрытие
-        Tooltip: "'По всей видимости, оно упало с одного из великих механических созданий'"
+        DisplayName: Странная обшивка
+        Tooltip: "'По всей видимости, она отвалилась от одного из великих механических созданий'"
     }
 
     TheJuggernaut: {
@@ -13000,12 +13000,12 @@ Items: {
     }
 
     CloudSlab: {
-        DisplayName: Облачная плитка
+        DisplayName: Облачная плита
         Tooltip: ""
     }
 
     CloudSlabWall: {
-        DisplayName: Стена из облачной плитки
+        DisplayName: Стена из облачной плиты
         Tooltip: ""
     }
 
@@ -13145,17 +13145,17 @@ Items: {
     }
 
     CutSandstoneBlockSlab: {
-        DisplayName: Плитка из резаного песчаника
+        DisplayName: Резаная песчаниковая плита
         Tooltip: ""
     }
 
     CutSandstoneBlockSlabWall: {
-        DisplayName: Плиточная стена из резаного песчаника
+        DisplayName: Стена из резаной песчаниковой плиты
         Tooltip: ""
     }
 
     CutSandstoneBlockWall: {
-        DisplayName: Стена из резаного песчаника
+        DisplayName: Резаная песчаниковая стена
         Tooltip: ""
     }
 
@@ -13165,17 +13165,17 @@ Items: {
     }
 
     CutStoneBlockSlab: {
-        DisplayName: Плитка из резаного камня
+        DisplayName: Резаная каменная плита
         Tooltip: ""
     }
 
     CutStoneBlockSlabWall: {
-        DisplayName: Плиточная стена из резаного камня
+        DisplayName: Стена из резаной каменной плиты
         Tooltip: ""
     }
 
     CutStoneBlockWall: {
-        DisplayName: Стена из резаного камня
+        DisplayName: Резаная каменная стена
         Tooltip: ""
     }
 
@@ -13881,12 +13881,12 @@ Items: {
     }
 
     LodestoneSlab: {
-        DisplayName: Магнетитовая плитка
+        DisplayName: Магнетитовая плита
         Tooltip: ""
     }
 
     LodestoneSlabWall: {
-        DisplayName: Стена из магнетитовой плитки
+        DisplayName: Стена из магнетитовой плиты
         Tooltip: ""
     }
 
@@ -15345,12 +15345,12 @@ Items: {
     }
 
     ValadiumPlating: {
-        DisplayName: Валадиумовое покрытие
+        DisplayName: Валадиумовая обшивка
         Tooltip: ""
     }
 
     ValadiumPlatingWall: {
-        DisplayName: Стена с валадиумовым покрытием
+        DisplayName: Стена с валадиумовой обшивкой
         Tooltip: ""
     }
 
@@ -16646,7 +16646,7 @@ Items: {
 
     TerrariumWhaleCatcher: {
         DisplayName: Террариевый ловец китов
-        Tooltip: Запускает три поплавка за раз
+        Tooltip: Забрасывает три поплавка за раз
     }
 
     TerrariumWings: {
@@ -20641,7 +20641,7 @@ NPCs: {
     }
 
     CryoCore: {
-        DisplayName: Крио-ядро
+        DisplayName: Криоядро
         BestiaryFlavorText: "{$NPCs.BioCore.BestiaryFlavorText}"
     }
 

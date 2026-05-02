@@ -1,8 +1,8 @@
 displayName = Project tRU
 author = tRU Team
-version = 3.2.1.120
+version = 3.2.1.129
 hideCode = true
 hideResources = true
 translationMod = true
-weakReferences = CalamityMod, CalValEX, CatalystMod, CollisionLib, Fargowiltas, FargowiltasSouls, InfernumMode, MagicStorage, NoxusBoss, Redemption, StarlightRiver, StarsAbove, ThoriumMod
+weakReferences = CalamityMod, CalValEX, CatalystMod, CollisionLib, Fargowiltas, FargowiltasSouls, InfernumMode, MagicStorage, NoxusBoss, PathOfTerraria, Redemption, StarlightRiver, StarsAbove, ThoriumMod
 homepage = https://discord.gg/zxMHFFpqCX

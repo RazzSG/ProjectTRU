@@ -24,13 +24,18 @@ public class CombatTextPatch : ILoadable
     
     private int On_CombatTextOnNewText_Rectangle_Color_string_bool_bool(On_CombatText.orig_NewText_Rectangle_Color_string_bool_bool orig, Rectangle location, Color color, string text, bool dramatic, bool dot)
     {
+        if (int.TryParse(text, out _) || string.IsNullOrEmpty(text))
+        {
+            return orig.Invoke(location, color, text, dramatic, dot);
+        }
+    
         text = text switch
         {
             // Stars Above
             "Blasting Form" => "Взрывная форма",
             "Striking Form" => "Ударная форма",
             "Fully charged!" => "Полный заряд!",
-            "Blade Will activated!" => "Воли клинка активирована!",
+            "Blade Will activated!" => "Воля клинка активирована!",
             "Mystic Form" => "Мистическая форма",
             "Stellar Prism acquired!" => "Получена звёздная призма!",
             "Prismatic Core acquired!" => "Получено призматическое ядро!",
@@ -50,7 +55,6 @@ public class CombatTextPatch : ILoadable
             "4999 life/5 sec" => "4999 здоровья/5 сек",
             "STRIKE" => "УДАР",
             // Redemption
-            "Guard Broken!" => "Барьер пробит!",
             "I'm sure you shouldn't have it in your inventory..." => "Уверен, этому не место в твоём инвентаре...",
             "Oh, what a lovely ribbon you have over here." => "Ох, какая прелестная ленточка у тебя тут.",
             "Xenium Staff op, please nerf." => "Ксениевый посох имба, просьба понерфить.",

@@ -106,9 +106,9 @@ Configs: {
             Tooltip: Выключает перевод Catalyst Mod.
         }
         
-        SpiritReforgedLocalization: {
-            Label: Spirit Reforged
-            Tooltip: Выключает перевод Spirit Reforged.
+        CatalystLocalization: {
+            Label: Path Of Terraria
+            Tooltip: Выключает перевод Path Of Terraria.
         }
         
         VanillaLocalization: {
@@ -128,7 +128,8 @@ GameTips: {
     Tip7: Project tRU: Во всех ошибках Террарии виноват русификатор. Аминь.
     Tip8: Project tRU: Русский кавер темы Ярона удаляет папку System32. Не шутка.
     Tip9: Project tRU: Жвало - это часть ротового аппарата насекомых. А жало - это орган, который используется для впрыскивания яда.
-    Tip10: Project tRU: Project TRU контролирует и является абсолютным монополистом русификаций tModLoader.
+    Tip10: Project tRU: Project tRU контролирует и является абсолютным монополистом русификаций tModLoader.
+    Tip11: Project tRU: Project tRU расшифровывается как «Террария Рашн Украинизатор».
 }
 
 Items: {

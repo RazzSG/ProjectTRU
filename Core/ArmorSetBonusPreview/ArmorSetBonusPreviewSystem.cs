@@ -655,10 +655,10 @@ public class ArmorSetBonusPreviewSystem : ModSystem
         }));
         ArmorSetBonuses.Add(new ArmorSetBonusData(ItemID.AdamantiteHelmet, () =>
         {
-            string bonus = Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Adamantite.Melee");
+            string bonus = Language.GetTextValue("ArmorSetBonus.AdamantiteMelee");
             if (ModInstances.Calamity != null)
             {
-                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Adamantite", 15)}";
+                bonus = $"{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Adamantite.Melee")}\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Adamantite", 15)}";
             }
 
             if (ModInstances.Redemption != null)
@@ -2111,13 +2111,15 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("Redemption/CommonGuardHelm1"), () =>
             {
-                string bonus = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.CommonGuardHelm1");
+                string args = Language.GetTextValue("Mods.Redemption.Keybinds.SpecialAbilityKey.DisplayName");
+                string bonus = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.CommonGuardHelm1", $"[{args}]");
                 
                 return bonus;
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("Redemption/CommonGuardHelm2"), () =>
             {
-                string bonus = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.CommonGuardHelm2");
+                string args = Language.GetTextValue("Mods.Redemption.Keybinds.SpecialAbilityKey.DisplayName");
+                string bonus = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.CommonGuardHelm2", $"[{args}]");
                 
                 return bonus;
             }));
@@ -2148,7 +2150,12 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("Redemption/XeniumVisor"), () =>
             {
-                string bonus = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Xenium.Bonus");
+                object[] args = [
+                    $"[{Language.GetTextValue("Mods.Redemption.Keybinds.SpecialAbilityKey.DisplayName")}]",
+                    Language.GetTextValue("Mods.Redemption.Items.Poison.DisplayName"),
+                    Language.GetTextValue("Mods.Redemption.Items.Explosive.DisplayName"),
+                ];
+                string bonus = Language.GetTextValue("Mods.Redemption.GenericTooltips.ArmorSetBonus.Xenium", args);
                 
                 return bonus;
             }));
@@ -2242,53 +2249,6 @@ public class ArmorSetBonusPreviewSystem : ModSystem
                 string intergelacticRogue = Language.GetTextValue("Mods.CatalystMod.ArmorSetBonus.IntergelacticRogue");
                 
                 return $"{intergelacticAll}\n{intergelacticRogue}";
-            }));
-        }
-
-        if (ModInstances.SpiritReforged != null)
-        {
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("SpiritReforged/CascadeHelmet"), () =>
-            {
-                string bonus = Language.GetTextValue("Mods.SpiritReforged.SetBonuses.Cascade");
-
-                return bonus;
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("SpiritReforged/DriftwoodHelmet"), () =>
-            {
-                string bonus = Language.GetTextValue("Mods.SpiritReforged.SetBonuses.Driftwood");
-
-                return bonus;
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("SpiritReforged/DrywoodHelmet"), () =>
-            {
-                string bonus = Language.GetTextValue("Mods.SpiritReforged.SetBonuses.Drywood");
-
-                return bonus;
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("SpiritReforged/BotanistHat"), () =>
-            {
-                string bonus = Language.GetTextValue("Mods.SpiritReforged.SetBonuses.Botanist");
-
-                return bonus;
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("SpiritReforged/LeatherHood"), () =>
-            {
-                string bonus = Language.GetTextValue("Mods.SpiritReforged.SetBonuses.Marksman");
-
-                return bonus;
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("SpiritReforged/WayfarerHead"), () =>
-            {
-                string bonus = Language.GetTextValue("Mods.SpiritReforged.SetBonuses.Wayfarer");
-
-                return bonus;
-            }));
-            ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("SpiritReforged/GraniteHead"), () =>
-            {
-                string reversedUpDown = Language.GetTextValue(Main.ReversedUpDownArmorSetBonuses ? "Key.UP" : "Key.DOWN");
-                string bonus = Language.GetTextValue("Mods.SpiritReforged.SetBonuses.Granite", reversedUpDown);
-
-                return bonus;
             }));
         }
     }

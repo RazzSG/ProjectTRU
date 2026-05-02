@@ -9,6 +9,8 @@ namespace CalamityRuTranslate.Mods.Vanilla;
 
 public class CurrencyTooltipModifier : GlobalItem
 {
+    private static readonly Regex CurrencyRegex = new(@"(\d+)\s*(платин\.|зол\.|сереб\.|медн\.)", RegexOptions.Compiled | RegexOptions.IgnoreCase);
+    
     public override bool IsLoadingEnabled(Mod mod)
     {
         return TranslationHelper.IsRussianLanguage;
@@ -16,67 +18,33 @@ public class CurrencyTooltipModifier : GlobalItem
 
     public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
     {
-        ItemHelper.TranslateTooltip(tooltips, l => l.Mod == "Terraria" && l.Name == "Price", tooltip =>
+        ItemHelper.TranslateTooltip(tooltips, l => l.Name == "Price", tooltip =>
         {
-            Regex currencyRegex = new Regex(@"(\d+)\s*(платин\.|зол\.|сереб\.|медн\.)");
-            MatchCollection matches = currencyRegex.Matches(tooltip.Text);
+            int lastValue = 0;
             
-            int num = 0;
-            int num2 = 0;
-            int num3 = 0;
-            int num4 = 0;
-            
-            foreach (Match match in matches)
+            string newText = CurrencyRegex.Replace(tooltip.Text, m =>
             {
-                int value = int.Parse(match.Groups[1].Value);
-                string currency = match.Groups[2].Value;
+                int value = int.Parse(m.Groups[1].Value);
+                string suffix = m.Groups[2].Value.ToLower();
+                lastValue = value;
 
-                switch (currency)
+                string pattern = suffix switch
                 {
-                    case "платин.":
-                        num = value;
-                        break;
-                    case "зол.":
-                        num2 = value;
-                        break;
-                    case "сереб.":
-                        num3 = value;
-                        break;
-                    case "медн.":
-                        num4 = value;
-                        break;
-                }
-            }
-            
-            string text = tooltip.Text;
-            string coinText = "";
-            
-            if (num > 0)
-            {
-                text = text.Replace("платин.", LocalizedText.ApplyPluralization("{^0:платиновая;платиновые;платиновых}", num));
-                coinText = LocalizedText.ApplyPluralization(" {^0:монета;монеты;монет}", num);
-            }
-            
-            if (num2 > 0)
-            {
-                text = text.Replace("зол.", LocalizedText.ApplyPluralization("{^0:золотая;золотые;золотых}", num2));
-                coinText = LocalizedText.ApplyPluralization(" {^0:монета;монеты;монет}", num2);
-            }
-            
-            if (num3 > 0)
-            {
-                text = text.Replace("сереб.", LocalizedText.ApplyPluralization("{^0:серебряная;серебряные;серебряных}", num3));
-                coinText = LocalizedText.ApplyPluralization(" {^0:монета;монеты;монет}", num3);
-            }
-            
-            if (num4 > 0)
-            {
-                text = text.Replace("медн.", LocalizedText.ApplyPluralization("{^0:медная;медные;медных}", num4));
-                coinText = LocalizedText.ApplyPluralization(" {^0:монета;монеты;монет}", num4);
-            }
+                    "платин." => "{^0:платиновая;платиновые;платиновых}",
+                    "зол." => "{^0:золотая;золотые;золотых}",
+                    "сереб." => "{^0:серебряная;серебряные;серебряных}",
+                    "медн." => "{^0:медная;медные;медных}",
+                    _ => suffix
+                };
 
-            if (num > 0 || num2 > 0 || num3 > 0 || num4 > 0)
-                tooltip.Text = text.Substring(0, text.Length - 1) + coinText;
+                return $"{value} {LocalizedText.ApplyPluralization(pattern, value)}";
+            });
+            
+            if (lastValue > 0)
+            {
+                string coinSuffix = LocalizedText.ApplyPluralization("{^0:монета;монеты;монет}", lastValue);
+                tooltip.Text = newText.TrimEnd('.') + coinSuffix;
+            }
         });
     }
 }

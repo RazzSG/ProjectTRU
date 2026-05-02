@@ -8,7 +8,7 @@ namespace CalamityRuTranslate.Mods.Vanilla;
 
 public class TownNpcNamesTranslation : GlobalNPC
 {
-    private readonly Dictionary<int, Dictionary<string, string>> _townNpcNames = new()
+    private static readonly Dictionary<int, Dictionary<string, string>> _townNpcNames = new()
     {
         [NPCID.Angler] = new Dictionary<string, string>
         {
@@ -300,8 +300,6 @@ public class TownNpcNamesTranslation : GlobalNPC
             {"Rimuru Tempest", "Римуру Темпест"},
         },
     };
-
-    public override bool InstancePerEntity => true;
     
     public override bool AppliesToEntity(NPC entity, bool lateInstantiation)
     {
@@ -315,11 +313,11 @@ public class TownNpcNamesTranslation : GlobalNPC
 
     public override void ModifyNPCNameList(NPC npc, List<string> nameList)
     {
-        if (_townNpcNames.TryGetValue(npc.type, out var names))
+        if (_townNpcNames.TryGetValue(npc.type, out Dictionary<string, string> names))
         {
             for (int i = 0; i < nameList.Count; i++)
             {
-                if (names.TryGetValue(nameList[i], out var name))
+                if (names.TryGetValue(nameList[i], out string name))
                 {
                     nameList[i] = name;
                 }

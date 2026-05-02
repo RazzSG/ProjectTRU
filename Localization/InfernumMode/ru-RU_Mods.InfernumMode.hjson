@@ -128,10 +128,10 @@ Achievements: {
         }
 
         PurityWish: {
-            DisplayName: Палящее звёздное семя
+            DisplayName: Загорающее звёздное семя
             Description:
                 '''
-                В нём чувствуются и солнечный ветер, и солнечный перезвон
+                На ощупь как солнечный ветер и небесный перезвон
                 [c/777777:Одержать победу над ночной Провиденс в Инфернуме менее чем за 3,5 минуты]
                 '''
         }
@@ -190,6 +190,7 @@ Biomes: {
     ProfanedTempleBiome: {
         DisplayName: Осквернённый храм
         TownNPCDialogueName: Осквернённый храм
+        DeathByThousandCrystals: Игрок {0} был загадочным образом пронзён кристальной колонной.
     }
 }
 
@@ -312,6 +313,11 @@ Configs: {
         CameraAnimations: {
             Label: Камера Нескончаемой пустоты
             Tooltip: Определяет, будет ли Нескончаемая пустота изменять поведение камеры во время сражения.
+        }
+        
+        CustomAbyssGeneration: {
+            Label: Особая генерация бездны
+            Tooltip: Работает только при создании мира. Включает переработанную генерацию бездны из Infernum.
         }
     }
 }
@@ -532,7 +538,7 @@ IntroScreen: {
     GreatSandSharkIntroScreen.TextToDisplay:
         '''
         ТАУРУС
-        ВЕЛИКАЯ ПЕСЧАНАЯ АКУЛА
+        БОЛЬШАЯ ПЕСЧАНАЯ АКУЛА
         '''
     HiveMindIntroScreen.TextToDisplay:
         '''
@@ -691,6 +697,7 @@ IntroScreen: {
 Items: {
     EnrageTooltip: enrage
     DeveloperItem: "[c/{0}:~ Предмет разработчика ~]"
+    InfernumOnly: "[c/{0}:Инфернум]"
     InfernalRelicText: Окружено инфернальными огнями поверженного врага
 
     Lore: {
@@ -715,6 +722,11 @@ Items: {
         Не расходуется
         '''
 
+    ProfanedCore: {
+        SummoningText: Призывает Провиденс при использовании на алтаре в Осквернённом храме, расположенном далеко справа в преисподней
+        EnrageText: Впадает в ярость, если призвать ночью
+    }
+
     ProfanedShard: {
         SummoningText: Призывает Осквернённых стражей при использовании на утёсе в левой части Осквернённого сада, расположенном далеко справа в преисподней
         GardenWarning:
@@ -725,7 +737,6 @@ Items: {
     }
 
     EyeofDesolation.SummoningText: Призывает {0}{r0:Забытая тень Каламитас=Забытую тень Каламитас} при использовании ночью
-    ProfanedCore.SummoningText: Призывает Провиденс при использовании на алтаре в Осквернённом храме, расположенном далеко справа в преисподней
     RuneofKos.DeveloperText: Нескончаемую пустоту можно сразить только в Архивах
 
     SandstormsCore: {
@@ -767,11 +778,11 @@ Items: {
         DisplayName: Чистота
         Tooltip:
             '''
-            Умножает урон в 1,4 раза и увеличивает скорость атаки на 40%
+            Умножает урон на 1,4 и увеличивает скорость атаки на 40%
             Миньоны не получают этот бонус к урону
             Даёт невосприимчивость к дебаффу «{$Mods.CalamityMod.Buffs.Nightwither.DisplayName}»
             [c/ff5d5d:Вы не можете наносить критические удары]
-            [c/59aae7:Это звучит как два брата, которые ловят стеклянных лягушек в солнечный день]
+            [c/59aae7:Звучит как двое братьев, что ловят стеклянных лягушек на солнце]
             '''
     }
 
@@ -828,18 +839,9 @@ Items: {
             В сиянии далёких звёзд очнулся Дрэйдон
             Рождённый как творец, он достиг высот
             Заложник одной цели до скончания времён
-            И по миновании бесчисленных трудов 
+            И по миновании бесчисленных трудов
             Машина обретёт покой
             Всё предначертано, всё схоже
-            '''
-    }
-
-    KnowledgeBereftVassal: {
-        DisplayName: История (Обездоленный вассал)
-        Tooltip:
-            '''
-            [c/E3AF40:До ваших ушей доносится далёкий шёпот...]
-            [c/BEBEBE:Удерживайте 'Левый Shift', чтобы прислушаться]
             '''
     }
 
@@ -902,7 +904,7 @@ Items: {
     }
 
     GrandStatueItem: {
-        DisplayName: Великая статуя
+        DisplayName: Огромная статуя
         Tooltip: ""
     }
 
@@ -918,82 +920,82 @@ Items: {
 
     AEWRelic: {
         DisplayName: Инфернальная реликвия первозданного змия
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     AquaticScourgeRelic: {
         DisplayName: Инфернальная реликвия Акватического бича
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     AstrumAureusRelic: {
         DisplayName: Инфернальная реликвия Аструм Ареуса
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     AstrumDeusRelic: {
         DisplayName: Инфернальная реликвия Аструм Деуса
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     BereftVassalRelic: {
         DisplayName: Инфернальная реликвия Обездоленного вассала
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     BetsyRelic: {
         DisplayName: Инфернальная реликвия Бэтси
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     BrainOfCthulhuRelic: {
         DisplayName: Инфернальная реликвия Мозга Ктулху
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     BrimstoneElementalRelic: {
         DisplayName: Инфернальная реликвия Серного элементаля
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     CeaselessVoidRelic: {
         DisplayName: Инфернальная реликвия Нескончаемой пустоты
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     CrabulonRelic: {
         DisplayName: Инфернальная реликвия Крабулона
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     CryogenRelic: {
         DisplayName: Инфернальная реликвия Криогена
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     DarkMageRelic: {
         DisplayName: Инфернальная реликвия тёмного мага
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     DeerclopsRelic: {
         DisplayName: Инфернальная реликвия Циклопа-оленя
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     DesertScourgeRelic: {
         DisplayName: Инфернальная реликвия Пустынного бича
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     DestroyerRelic: {
         DisplayName: Инфернальная реликвия Уничтожителя
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     DevourerOfGodsRelic: {
         DisplayName: Инфернальная реликвия Пожирателя богов
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
         PersonalMessage:
             '''
             Иногда умение быстро реагировать - это самое ценное, что стоит развивать в себе
@@ -1004,7 +1006,7 @@ Items: {
 
     DraedonRelic: {
         DisplayName: Инфернальная реликвия Дрэйдона
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
 
         PersonalMessage: {
             DefaultMessage: Ты просто невероятен. Осталось последнее испытание - сражение с Ведьмой
@@ -1018,33 +1020,33 @@ Items: {
 
     DragonfollyRelic: {
         DisplayName: Инфернальная реликвия Псевдодракона
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     DreadnautilusRelic: {
         DisplayName: Инфернальная реликвия Дреднаутилуса
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     DukeFishronRelic: {
         DisplayName: Инфернальная реликвия Герцога Рыброна
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     EaterOfWorldsRelic: {
         DisplayName: Инфернальная реликвия Пожирателя миров
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     EmpressOfLightRelic: {
         DisplayName: Инфернальная реликвия Императрицы света
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
         PersonalMessage: Порой необязательные враги могут быть самыми грозными. Но и награда за победу над ними порой бывает ценной
     }
 
     EyeOfCthulhuRelic: {
         DisplayName: Инфернальная реликвия Глаза Ктулху
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
         PersonalMessage:
             '''
             Запомни, что не следует нервничать или проявлять агрессию в погоне за победой. Передохни и выпей чаю
@@ -1054,44 +1056,44 @@ Items: {
 
     ForgottenShadowOfCalamitasRelic: {
         DisplayName: Инфернальная реликвия Забытой тени Каламитас
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     GiantClamRelic: {
         DisplayName: Инфернальная реликвия гигантского моллюска
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     GolemRelic: {
         DisplayName: Инфернальная реликвия Голема
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
         PersonalMessage: Тщательная подготовка и планирование тактики боя помогут тебе в достижении цели. Это сыграет немаловажную роль в преодолении будущих препятствий
     }
 
     HiveMindRelic: {
         DisplayName: Инфернальная реликвия Разума улья
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     KingSlimeRelic: {
         DisplayName: Инфернальная реликвия Короля слизней
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
         PersonalMessage: Перед лицом чего-то нового и незнакомого даже у опытных игроков могут возникнуть некоторые трудности. Адаптивность - вот ключ к успеху
     }
 
     LeviathanRelic: {
         DisplayName: Инфернальная реликвия Левиафан
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     LunaticCultistRelic: {
         DisplayName: Инфернальная реликвия Культиста-лунатика
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     MoonLordRelic: {
         DisplayName: Инфернальная реликвия Лунного лорда
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
         PersonalMessage:
             '''
             Благодаря своим способностям ты достиг больших успехов
@@ -1101,12 +1103,12 @@ Items: {
 
     OgreRelic: {
         DisplayName: Инфернальная реликвия огра
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     OldDukeRelic: {
         DisplayName: Инфернальная реликвия Старого герцога
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
         PersonalMessage:
             '''
             Какой бы трудной ни была битва, ты проявил мудрость, с помощью которой выдержал и преодолел брошенный вызов
@@ -1116,17 +1118,17 @@ Items: {
 
     PerforatorsRelic: {
         DisplayName: Инфернальная реликвия улья Перфораторов
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     PlaguebringerGoliathRelic: {
         DisplayName: Инфернальная реликвия Предвестницы чумы, Голиаф
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     PlanteraRelic: {
         DisplayName: Инфернальная реликвия Плантеры
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
         PersonalMessage:
             '''
             Количество смертей - не повод унывать, гордись ими!
@@ -1136,17 +1138,17 @@ Items: {
 
     PolterghastRelic: {
         DisplayName: Инфернальная реликвия Полтергаста
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     ProfanedGuardiansRelic: {
         DisplayName: Инфернальная реликвия Осквернённых стражей
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     ProvidenceRelic: {
         DisplayName: Инфернальная реликвия Провиденс
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
 
         PersonalMessage: {
             DefaultMessage:
@@ -1164,48 +1166,48 @@ Items: {
 
     QueenBeeRelic: {
         DisplayName: Инфернальная реликвия Королевы пчёл
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     QueenSlimeRelic: {
         DisplayName: Инфернальная реликвия Королевы слизней
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     RavagerRelic: {
         DisplayName: Инфернальная реликвия Разрушителя
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     SignusRelic: {
         DisplayName: Инфернальная реликвия Сигнуса
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     SkeletronPrimeRelic: {
         DisplayName: Инфернальная реликвия Скелетрона Прайма
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     SkeletronRelic: {
         DisplayName: Инфернальная реликвия Скелетрона
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
         PersonalMessage: Вот и первое серьёзное препятствие. Сейчас ты уже более опытен, чем был до битвы с ним. Надеюсь, тебе было весело изучать его паттерны?
     }
 
     SlimeGodRelic: {
         DisplayName: Инфернальная реликвия Бога слизней
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     StormWeaverRelic: {
         DisplayName: Инфернальная реликвия Штормового ткача
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     SupremeCalamitasRelic: {
         DisplayName: Инфернальная реликвия Высшей ведьмы, Каламитас
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
 
         PersonalMessage: {
             DefaultMessage: Ты просто невероятен. Осталось последнее испытание - встретиться лицом к лицу с космическим инженером
@@ -1219,17 +1221,17 @@ Items: {
 
     TwinsRelic: {
         DisplayName: Инфернальная реликвия Близнецов
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     WallOfFleshRelic: {
         DisplayName: Инфернальная реликвия Стены плоти
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     YharonRelic: {
         DisplayName: Инфернальная реликвия Ярона
-        Tooltip: GetsChanged
+        Tooltip: "{0}"
     }
 
     SakuraBud: {
@@ -1903,7 +1905,7 @@ Status: {
     ExoMechDesperationTwins1: АРТЕМИДА-01: РЕЗЕРВЫ ОБЪЕДИНЁННОЙ ЭНЕРГИИ ИСЧЕРПЫВАЮТСЯ. ОТКАЗ СИСТЕМЫ НЕИЗБЕЖЕН.
     ExoMechDesperationTwins2: АПОЛЛОН-03: ПОДГОТОВКА ПРОТОКОЛА ВЗАИМНОГО УНИЧТОЖЕНИЯ 'ТЕРМОЯДЕРНЫЙ ВЗРЫВ'.
     ExoMechDesperationThanatos1: ТАНАТОС-05: ЭКЗО-ТУРЕЛИ РАБОТАЮТ НА НЕСТАБИЛЬНОМ УРОВНЕ ЭНЕРГИИ. САМОУНИЧТОЖЕНИЕ НЕИЗБЕЖНО.
-    ExoMechDesperationThanatos2: ТАНАТОС-05: ПОДГОТОВКА ПРОТОКОЛА ВЗАИМНОГО УНИЧТОЖЕНИЯ 'МАКСИМАЛЬНАЯ ПЕРЕГРУЗКА ЗАРЯДА'
+    ExoMechDesperationThanatos2: ТАНАТОС-05: ПОДГОТОВКА ПРОТОКОЛА ВЗАИМНОГО УНИЧТОЖЕНИЯ 'МАКСИМАЛЬНАЯ ПЕРЕГРУЗКА ЗАРЯДА'.
     DraedonDefeat1: Интригующе. Очень интригующе.
     DraedonDefeat2: Мой венец творения полностью и окончательно повержен.
     DraedonDefeat2HyperplaneMatrix: Ты оказался отличным подопытным.
@@ -1921,6 +1923,7 @@ Status: {
     DraedonDefeat10: На этом прощаюсь и желаю удачи в будущих начинаниях.
     SCalCongratulations: ... Поздравляю.
     MultiplayerWarning: InfernumMode: Мультиплеер в этом моде НЕ поддерживается. Будьте готовы к тому, что что-то может сломаться, и мод может работать некорректно. Сообщения о багах в мультиплеере рассматриваться не будут.
+    Nurse: Я не могу тебе помочь. Удачи.
 
     Death: {
         RedElectrified: Игрок {0} не выдержал удар красной молнии.
@@ -1939,6 +1942,8 @@ Tiles: {
 }
 
 UI: {
+    MenuStyle: Стиль Infernum
+    InfernumDrop: Шанс выпадения на сложности Инфернум
     NotExpertWarning: "[c/ff00000:ИНФЕРНУМ МОЖНО ВКЛЮЧИТЬ ТОЛЬКО В РЕЖИМЕ ЭКСПЕРТА]"
     AchievementsHeader: Предсмертные желания
     AchievementsLabelText: Следующий
