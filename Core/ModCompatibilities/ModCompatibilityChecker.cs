@@ -25,7 +25,7 @@ public class ModCompatibilityChecker : ModSystem
         new("Redemption", new Version(0, 8, 0, 4140), TRuConfig.Instance.RedemptionLocalization),
         new("StarsAbove", new Version(2, 1, 8, 4), TRuConfig.Instance.StarsAboveLocalization),
         new("ThoriumMod", new Version(1, 7, 2, 5), TRuConfig.Instance.ThoriumModLocalization),
-        new("PathOfTerraria", new Version(0, 3, 7), TRuConfig.Instance.PathOfTerrariaLocalization)
+        new("PathOfTerraria", new Version(0, 3, 8), TRuConfig.Instance.PathOfTerrariaLocalization)
     ];
 
     public override bool IsLoadingEnabled(Mod mod)
