@@ -1278,7 +1278,7 @@
         ZephyrFish: Зефирная рыба
         DeadCellsMushroomBoiMinion: Грибной парниша!
         DeadCellsSwarmBiter: Кусака роя
-        CobWhipPlayerBuff: Whip Spider
+        CobWhipPlayerBuff: Хлыстовой паук
         DeadCellsPotionStation: Alchemic Enhancement
         Pufferfish: Иглобрюх
         BoulderPet: Friendly Boulder
@@ -1458,7 +1458,7 @@
         Minecart: Вы катитесь в вагонетке
         MinecartMech: "{$BuffDescription.Minecart}",
         MinecartWood: "{$BuffDescription.Minecart}",
-        MiniMinotaur: His name is Shaun
+        MiniMinotaur: Его зовут Шон
         Mining: Скорость добычи увеличена на 25%
         MonsterBanner: Урон и защита увеличены в бою против:
         MoonLeech: Вы не можете лечиться
@@ -1622,37 +1622,37 @@
         WellFed_Expert: Немного увеличивает все характеристики и ускоряет регенерацию здоровья
         WellFed2_Expert: Умеренно увеличивает все характеристики и ускоряет регенерацию здоровья
         WellFed3_Expert: Значительно увеличивает все характеристики и ускоряет регенерацию здоровья
-        DeadCellsMushroomBoiMinion: Mushroom Boi will fight for you
-        DeadCellsSwarmBiter: Chomp chomp
-        CobWhipPlayerBuff: Summons a spider to fight for you
-        DeadCellsPotionStation: Fresh buffs last longer
-        Pufferfish: A friendly pufferfish is following you
-        BoulderPet: A friendly boulder is rolling around with you
-        RainbowBoulderPet: A friendly rainbow boulder is rolling around with you
-        Hemorrhage: Bleeding profusely
-        TorchGodPotion: Nearby torches will be converted to match the biome
-        VelociraptorMount: You turned into a velociraptor!
-        RatMount: You turned into a rat!
-        BatMount: You turned into a bat!
-        AxeFairyPet: Axing the real questions
-        RollerSkatesMount: This is how I roll
-        RollerSkatesGreenMount: This is how I roll
-        RollerSkatesWhiteMount: This is how I roll
-        RollerSkatesPinkMount: This is how I roll
-        PixieMount: You turned into a pixie!
-        PalworldMinionFoxsparks: Foxparks will fight for you
-        PalworldMinionCattiva: Cattiva will fight for you
+        DeadCellsMushroomBoiMinion: За вас сражается грибной парниша
+        DeadCellsSwarmBiter: Хрум-хрум
+        CobWhipPlayerBuff: Призывает паука
+        DeadCellsPotionStation: Новые баффы действуют дольше
+        Pufferfish: За вами следует дружелюбный иглобрюх
+        BoulderPet: Рядом с вами катится дружелюбный валун
+        RainbowBoulderPet: Рядом с вами катится дружелюбный радужный валун
+        Hemorrhage: Обильное кровотечение
+        TorchGodPotion: Ближайшие факелы преобразуются под текущий биом
+        VelociraptorMount: Вы превратились в велоцираптора!
+        RatMount: Вы превратились в крысу!
+        BatMount: Вы превратились в летучую мышь!
+        AxeFairyPet: Рубит правду-матку
+        RollerSkatesMount: Вот так я катаюсь
+        RollerSkatesGreenMount: Вот так я катаюсь
+        RollerSkatesWhiteMount: Вот так я катаюсь
+        RollerSkatesPinkMount: Вот так я катаюсь
+        PixieMount: Вы превратились в пикси!
+        PalworldMinionFoxsparks: За вас сражается Фокспаркс
+        PalworldMinionCattiva: За вас сражается Каттива
         PalworldPetChillet:
             '''
-            Chillet is exploring with you
-            The movement is quite intense!
+            Чиллет исследует мир вместе с вами
+            Движения довольно интенсивные!
             '''
         PalworldPetChilletIgnis:
             '''
-            Chillet Ignis is exploring with you
-            Be careful of petting it too long, or sparks WILL start flying!
+            Чиллет Игнис исследует мир вместе с вами
+            Не гладьте его слишком долго, иначе полетят ИСКРЫ!
             '''
-        Kite: Slightly increased movement speed, mining speed, and placement speed
+        Kite: Скорость передвижения, добычи и размещение блоков и стен немного увеличена
     }
 
     ChatCommand: {
@@ -5061,7 +5061,7 @@
         HeatRay: Излучатель тепла
         HeavenforgeBrick: Кирпич небесной кузни
         HeavenforgeBrickWall: Кирпичная стена небесной кузни
-        HeavyWorkBench: Heavy Assembler
+        HeavyWorkBench: Тяжёлый станок
         HelFire: Адское пламя
         HellArmoredBonesBanner: Знамя адского бронированного скелета
         HellButterfly: Адская бабочка
@@ -7573,7 +7573,7 @@
         TallyCounter: Счётчик
         TamOShanter: Тэм-о-шентер
         TargetDummy: Тренировочный манекен
-        TartarSauce: Beguiling Lyre
+        TartarSauce: Обольстительная лира
         TatteredBeeWing: Изодранное пчелиное крыло
         TatteredCloth: Порванная ткань
         TatteredFairyWings: Изодранные крылья феи
@@ -8193,64 +8193,64 @@
         ZombieEskimoBanner: Знамя замёрзшего зомби
         ZombieFish: Рыба-зомби
         ZombieMermanBanner: Знамя зомби-тритона
-        DeadCellsMushroomBoiSummonItem: Mushroom Staff
-        DeadCellsBeheadedHead: The Beheaded's Head
-        DeadCellsBeheadedBody: The Beheaded's Cuirass
-        DeadCellsBeheadedLegs: The Beheaded's Trousers
-        DeadCellsBarrelLauncher: Barrel Launcher
-        DeadCellsKillingDeck: Killing Deck
-        DeadCellsFlint: Flint
-        DeadCellsBarnacleSummonItem: Barnacle Staff
-        MiteyTitey: Mitey-Titey
-        DeadCellsRamRune: Ram Rune
-        DeadCellsSwarmGrenade: Swarm Grenade
-        DemonAltarReplica: Replica Demon Altar
-        CrimsonAltarReplica: Replica Crimson Altar
-        ShadowOrbReplica: Replica Shadow Orb
-        CrimsonHeartReplica: Replica Crimson Heart
-        CobwebReplica: Decorative Cobweb
-        DeadCellsDisplayJar: Item Flask
-        QueenOfBees: Queen of Bees
-        DeadCellsPotionStation: Alchemy Flask
-        PortableKiln: Portable Kiln
-        CobWhip: Cobwhip
-        CorruptWhip: Soulscourge
-        CrimsonWhip: Vasculash
-        MeteorWhip: Starcrash
-        FlowerWhip: Vulgar Display of Flower
-        EelWhip: Electric Eel
-        ConstellationWhip: Constellation
-        MoonLordWhip: Possession
-        TheSeaOfSilence: The Sea of Silence
-        HeroesFromAnotherWorld: Heroes From Another World
-        Crystallize: Crystallize
-        EaterOfLife: Eater Of Life
-        ThisIsCanonNow: Brasilian Skies
-        WinterAtVaringskollen: Winter At Varingskollen
-        MagicShimmerDropper: Magic Shimmer Dropper
-        ShimmerFallBlock: Shimmerfall Block
-        ShimmerFallWall: Shimmerfall Wall
-        ShimmerGun: Shimmer Gun
-        LifeFruitHealingPotion: Jungle Juice
-        PinkBanner: Pink Banner
-        WhiteBanner: White Banner
-        Pufferfish: Pufferfish
-        PufferfishCage: Pufferfish Cage
-        PufferfishPet: Puffer Shrimp
-        PlayerVoiceFrogItem: Froggy Neckband
-        PlayerVoiceGoatItem: Goat's Tuft
-        PlayerVoiceRetroItem: Old Companion Locket
-        PlayerVoiceCatItem: Cat Chime
-        PlayerVoiceDogItem: Dog Collar
-        PlayerVoiceTurkeyItem: Turkey Wattle Necklace
-        PlayerVoiceGoblinItem: Mean Goblin's Spikes
-        PlayerVoiceCrowItem: Crow's Beak
-        PlayerVoiceBalloonItem: Balloony Beads
-        PlayerVoiceUndeadItem: Grim Old Barb
-        PlayerVoiceVampireItem: Vampire Pendant
-        PlayerVoiceCowbellItem: Cow Bell
-        PlayerVoiceChickenFeetItem: Chicken Charm
-        RainbowBoulder: Rainbow Boulder
+        DeadCellsMushroomBoiSummonItem: Грибной посох
+        DeadCellsBeheadedHead: Голова Безголового
+        DeadCellsBeheadedBody: Кираса Безголового
+        DeadCellsBeheadedLegs: Штаны Безголового
+        DeadCellsBarrelLauncher: Бочкомёт
+        DeadCellsKillingDeck: Летальные карты
+        DeadCellsFlint: Огниво
+        DeadCellsBarnacleSummonItem: Посох прилипалы
+        MiteyTitey: Гмит-Ктит
+        DeadCellsRamRune: Таранная руна
+        DeadCellsSwarmGrenade: Роевая граната
+        DemonAltarReplica: Муляж демонического алтаря
+        CrimsonAltarReplica: Муляж багряного алтаря
+        ShadowOrbReplica: Муляж теневой сферы
+        CrimsonHeartReplica: Муляж багряного сердца
+        CobwebReplica: Декоративная паутина
+        DeadCellsDisplayJar: Флакон для предметов
+        QueenOfBees: Картина «Королева пчёл»
+        DeadCellsPotionStation: Алхимическая колба
+        PortableKiln: Переносная печь для обжига
+        CobWhip: Паутинный хлыст
+        CorruptWhip: Душехлёст
+        CrimsonWhip: Сосудистый хлыст
+        MeteorWhip: Звездокрушение
+        FlowerWhip: Грубое проявление цветка
+        EelWhip: Электрический угорь
+        ConstellationWhip: Созвездие
+        MoonLordWhip: Одержимость
+        TheSeaOfSilence: Картина «Море безмолвия»
+        HeroesFromAnotherWorld: Картина «Герои из другого мира»
+        Crystallize: Картина «Кристаллизация»
+        EaterOfLife: Картина «Пожиратель жизни»
+        ThisIsCanonNow: Картина «Бразильские небеса»
+        WinterAtVaringskollen: Картина «Зима в Варингсколлене»
+        MagicShimmerDropper: Магическая пипетка с мерцанием
+        ShimmerFallBlock: Блок с мерцепадом
+        ShimmerFallWall: Стена с мерцепадом
+        ShimmerGun: Мерцемёт
+        LifeFruitHealingPotion: Сок джунглей
+        PinkBanner: Розовое знамя
+        WhiteBanner: Белое знамя
+        Pufferfish: Иглобрюх
+        PufferfishCage: Террариум с иглобрюхом
+        PufferfishPet: Креветка-иглобрюх
+        PlayerVoiceFrogItem: Лягушачий ошейник
+        PlayerVoiceGoatItem: Козлиный хохолок
+        PlayerVoiceRetroItem: Медальон старого компаньона
+        PlayerVoiceCatItem: Кошачий колокольчик
+        PlayerVoiceDogItem: Собачий ошейник
+        PlayerVoiceTurkeyItem: Ожерелье с индюшачьей бородкой
+        PlayerVoiceGoblinItem: Шипы злобного гоблина
+        PlayerVoiceCrowItem: Вороний клюв
+        PlayerVoiceBalloonItem: Надувные бусы
+        PlayerVoiceUndeadItem: Мрачная старая зазубрина
+        PlayerVoiceVampireItem: Вампирский кулон
+        PlayerVoiceCowbellItem: Коровье ботало
+        PlayerVoiceChickenFeetItem: Талисман с куриной лапкой
+        RainbowBoulder: Радужный валун
         VelociraptorMountItem: Slasher's Mysterious Skull
         MoonLordBody: Moon Lord Torso
         Poulder: Poo Boulder
@@ -8357,11 +8357,11 @@
         FallenStarBlock: Fallen Star Block
         FallenStarWall: Fallen Star Wall
         RatMountItem: Cursed Piper Flute
-        ChippysHead: Chippy's Helmet
-        ChippysBody: Chippy's Chestplate
-        ChippysLegs: Chippy's Greaves
-        ChippysWings: Chippy's Cloak
-        ChippysHeadband: Chippy's Headband
+        ChippysHead: Шлем Chippy
+        ChippysBody: Нагрудник Chippy
+        ChippysLegs: Поножи Chippy
+        ChippysWings: Плащ Chippy
+        ChippysHeadband: Повязка Chippy
         AcornSlingshot: Acorn Slingshot
         PaintingRPlace2023: r/Terraria 2023
         PaintingBouldChoices: Bould and Bash
@@ -8390,13 +8390,13 @@
         OrcaBanner: Orca Banner
         TeleportationPylonUnderworld: Underworld Pylon
         TeleportationPylonShimmer: Aether Pylon
-        HeroicisHead: Heroicis' Hat
-        HeroicisBody: Heroicis' Coat
-        HeroicisLegs: Heroicis' Pants
-        HeroicisWings: Heroicis' Wings
-        NoirMonolith: Film Projector
-        HallowedCrown: Hallowed Crown
-        HeroicisWingsInactive: Heroicis' Wings (Inactive)
+        HeroicisHead: Шляпа Heroicis
+        HeroicisBody: Пиджак Heroicis
+        HeroicisLegs: Штаны Heroicis
+        HeroicisWings: Крылья Heroicis
+        NoirMonolith: Кинопроектор
+        HallowedCrown: Освящённая корона
+        HeroicisWingsInactive: Крылья Heroicis (Неактивно)
         EnchantedPixieDust: Enchanted Pixie Dust
         SoundGun: The Imploder
         TrueCopperShortsword: True Copper Shortsword
@@ -8444,7 +8444,7 @@
         FeywoodToilet: Унитаз из сказочного дерева
         Feywood: Сказочная древесина
         FeywoodWall: Стена из сказочного дерева
-        HallowedBathtub: Hallowed Bathtub
+        HallowedBathtub: Освящённая ванна
         HallowedBed: Hallowed Bed
         HallowedBookcase: Hallowed Bookcase
         HallowedDresser: Hallowed Dresser
@@ -8469,7 +8469,7 @@
         HallowedWall: Hallowed Brick Wall
         PalworldPalMetalArmorBody: Pal Metal Chestplate
         PalworldPalMetalArmorLegs: Pal Metal Leggings
-        ChippysWingsInactive: Chippy's Cloak (Inactive)
+        ChippysWingsInactive: Плащ Chippy (Неактивно)
         GothicBathtub: Gothic Bathtub
         GothicBed: Gothic Bed
         GothicDresser: Gothic Dresser
@@ -10994,7 +10994,7 @@
             '''
         HeavenforgeBrick: "{$CommonItemTooltip.LuminiteVariant}"
         HeavenforgeBrickWall: "{$CommonItemTooltip.LuminiteVariant}"
-        HeavyWorkBench: Used for novelty decor crafting
+        HeavyWorkBench: Используется для создания необычного декора
         HellArmoredBonesBanner: "{$CommonItemTooltip.BannerBonus}{$NPCName.HellArmoredBones}"
         HellCake:
             '''
@@ -13133,7 +13133,7 @@
         TackleBox: Снижает шанс потери наживки
         TacticalSkeletonBanner: "{$CommonItemTooltip.BannerBonus}{$NPCName.TacticalSkeleton}"
         TallyCounter: Отображает количество убитых врагов
-        TartarSauce: Summons a pet faun
+        TartarSauce: Призывает питомца фавна
         TatteredFairyWings: "{$CommonItemTooltip.FlightAndSlowfall}"
         Teacup:
             '''
@@ -13722,16 +13722,16 @@
         DeadMansSweater: 50% reduced damage and debuff time from traps
         Pufferfish: "'Pufferfish are friends, not food'"
         PufferfishPet: Summons a friendly pufferfish\n'The PB&J of the sea'
-        PlayerVoiceFrogItem: "'Ribbit 'til you croak!'"
-        PlayerVoiceGoatItem: "'Quite the gruff tuft'"
-        PlayerVoiceRetroItem: "'Otto was here'"
-        PlayerVoiceCatItem: "'Don't give a crap' attitude not included'"
-        PlayerVoiceDogItem: "'Bark: not just for trees anymore'"
-        PlayerVoiceTurkeyItem: "'You have a sudden urge for cranberry sauce'"
-        PlayerVoiceGoblinItem: "'Oh, where have all the gobbos gone?'"
-        PlayerVoiceCrowItem: "'You may not be able to quote the raven, but this is pretty close'"
-        PlayerVoiceBalloonItem: "'We all float down here...'"
-        PlayerVoiceUndeadItem: "'Braaiiiinnnssss...'"
+        PlayerVoiceFrogItem: "'Квакай, пока не крякнешь!'"
+        PlayerVoiceGoatItem: "'Довольно грубый хохолок'"
+        PlayerVoiceRetroItem: "'Здесь был Отто'"
+        PlayerVoiceCatItem: "'Пофигизм в комплект не входит'"
+        PlayerVoiceDogItem: "'Лай: теперь не только для деревьев'"
+        PlayerVoiceTurkeyItem: "'У вас внезапно возникло желание поесть клюквенного соуса'"
+        PlayerVoiceGoblinItem: "'Ох, куда же делись все гобляки?'"
+        PlayerVoiceCrowItem: "'Может, вы и не процитируете ворона, но это уже близко'"
+        PlayerVoiceBalloonItem: "'Мы все здесь летаем...'"
+        PlayerVoiceUndeadItem: "'Мо-о-оз-з-з-ги-и-и-и...'"
         PlayerVoiceVampireItem: "'Yes, you do say 'blah blah blah''"
         PlayerVoiceCowbellItem: "'Just the prescription you needed'"
         PlayerVoiceChickenFeetItem: "'Who you calling chicken?'"
@@ -13757,9 +13757,9 @@
         LivingWoodWallUnsafe: A dangerous slab of living wood wall that will spawn monsters
         DirtWallUnsafe: A dangerous clump of dirt wall that will spawn monsters
         StrungCounterweight: "{$CommonItemTooltip.String}\n{$CommonItemTooltip.Counterweight}"
-        DeadCellsBeheadedHead: "'A mysterious dark cloud, with what appears to be a glowing crystal within...'"
-        DeadCellsBeheadedBody: "'Helps keep the Malaise at bay'"
-        DeadCellsBeheadedLegs: "'Possession is 9/10 of the law'"
+        DeadCellsBeheadedHead: "'Таинственное тёмное облако, внутри которого будто светится кристалл...'"
+        DeadCellsBeheadedBody: "'Помогает сдерживать Хворь'"
+        DeadCellsBeheadedLegs: "'У кого вещь, того и правда'"
         DeadCellsBarrelLauncher: "'Derelict Distillery, 2020 Vintage'"
         DeadCellsKillingDeck: "'A Dead Man's Hand for your opponents, mon chГ©ri'"
         DeadCellsFlint: "'A helping hand from a former prison warden, fallen to the Malaise'"
@@ -13768,11 +13768,11 @@
         RainbowBoulder: "'Shiny. Sparkly. Deadly.'"
         AxeFairyPetItem: Summons Cenaxe\n'Bears a striking resemblance to a certain someone...'
         Axearang: "'Reach out and chop someone'"
-        FalconBlade: Rapid attacks deal more damage
-        DyeTradersScimitar: Rapid attacks deal more damage
-        TaxCollectorsStickOfDoom: Enables rapid tax collection
-        TorchGodPotion: Nearby torches will be converted to match the biome
-        Cutlass: Rapid attacks deal more damage
+        FalconBlade: Быстрые атаки наносят больше урона
+        DyeTradersScimitar: Быстрые атаки наносят больше урона
+        TaxCollectorsStickOfDoom: Позволяет быстро собирать налоги
+        TorchGodPotion: Ближайшие факелы преобразуются под текущий биом
+        Cutlass: Быстрые атаки наносят больше урона
         SiltBlock: "{$CommonItemTooltip.SuffocateBlock}\n{$CommonItemTooltip.CanBeExtractinated}"
         SlushBlock: "{$CommonItemTooltip.SuffocateBlock}\n{$CommonItemTooltip.CanBeExtractinated}"
         TinCan: "{$CommonItemTooltip.CanBeExtractinated}"
@@ -15629,7 +15629,7 @@
         GET_ZENITH_Name: Бесконечность +1 меч
         GLORIOUS_GOLDEN_POLE_Description: Получить золотую удочку.
         GLORIOUS_GOLDEN_POLE_Name: Славная золотая удочка
-        GO_LAVA_FISHING_Description: Закинуть приманку в лаву ради обжаренного улова!
+        GO_LAVA_FISHING_Description: Закинуть наживку в лаву ради обжаренного улова!
         GO_LAVA_FISHING_Name: Горячие катушки!
         GOBLIN_PUNTER_Description: Остановить нашествие гоблинов - сброда, состоящего из кучки грубых, неотёсанных воинов с заострёнными ушами и тёмных магов.
         GOBLIN_PUNTER_Name: Спекулянт гоблинов
