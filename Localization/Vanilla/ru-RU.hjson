@@ -81,7 +81,7 @@
         MagicHat: Увеличивает максимальный запас маны на 60
         MetalTier1: Увеличивает защиту на 2
         MetalTier2: Увеличивает защиту на 3
-        Meteor: Космическая пушка не будет расходовать ману
+        Meteor: Космическая пушка не расходует ману
         Mining: Увеличивает скорость добычи на 10%
         Molten:
             '''
@@ -1007,7 +1007,7 @@
         BrokenArmor: Расколотая броня
         Builder: Строитель
         BunnyMount: Ездовой кролик
-        Burning: Ожог
+        Burning: Горение
         Calm: Умиротворение
         Campfire: Уютный очаг
         CatBast: Защита Бастет
@@ -1146,7 +1146,7 @@
         PeaceCandle: Свеча спокойствия
         PetBunny: Крольчонок
         PetDD2Dragon: Дракократ
-        PetDD2Gato: Гато-вертолётик
+        PetDD2Gato: Мурлыка-вертолётик
         PetDD2Ghost: Мерцающий огонёк
         PetLizard: Ящерка
         PetParrot: Попугайчик
@@ -1286,14 +1286,14 @@
         Hemorrhage: Кровоизлияние
         TorchGodPotion: Факельное благословение
         VelociraptorMount: Инстинкт раптора
-        BatMount: Проклятье летучей мыши
+        BatMount: Проклятие летучей мыши
         RatMount: Натура крысы
         AxeFairyPet: Cenaxe
         RollerSkatesMount: Синие ролики
         RollerSkatesGreenMount: Зелёные ролики
         RollerSkatesWhiteMount: Классические ролики
         RollerSkatesPinkMount: Праздничные ролики
-        PixieMount: Форма феи
+        PixieMount: Облик феи
         PalworldMinionFoxsparks: Фокспаркс
         PalworldMinionCattiva: Каттива
         PalworldPetChillet: Чиллет
@@ -1343,7 +1343,7 @@
         Blackout: Видимость значительно снижена
         Bleeding: Здоровье не восстанавливается
         BloodButcherer: Сильное кровотечение
-        BlueChickenPet: На бирке написано «Шейн»
+        BlueChickenPet: На бирке написано 'Шейн'
         BoneJavelin: Кровотечение
         BrainOfConfusionBuff: Шанс критического удара и урон призывателя увеличен
         BrainOfCthulhuPet: Оно ползает вокруг вас... мерзко
@@ -1407,7 +1407,7 @@
         FennecFox: Что говорит лиса? А ещё лучше, что СЛЫШИТ лиса?!
         Fishing: Навык рыбной ловли увеличен
         FishMinecart: "{$BuffDescription.Minecart}"
-        Flamingo: Фламинго, гоу
+        Flamingo: Фламинго-го-го
         FlinxMinion: За вас сражается снежный флинкс
         Flipper: Даёт способность плавать
         Frostburn: Либо очень горячо, либо очень холодно. В любом случае, это ОЧЕНЬ больно
@@ -1482,14 +1482,14 @@
         OnFire: Медленная потеря здоровья
         OnFire3: Медленная потеря здоровья
         PaintedHorseMount: Верхом на пятнистом скакуне
-        PaladinsShield: 25% от полученного урона перенаправляется другому игроку
+        PaladinsShield: 25% получаемого урона перенаправляется другому игроку
         Panic: Скорость передвижения увеличена
         ParryDamageBuff: Урон для следующей атаки ближнего боя увеличен на 400%
         PartyMinecart: "{$BuffDescription.Minecart}"
         PeaceCandle: Частота появления врагов снижена
         PetBunny: Кажется, он хочет морковку
         PetDD2Dragon: За вами следует дракократ
-        PetDD2Gato: За вами следует летающий гато
+        PetDD2Gato: За вами следует летающая мурлыка
         PetDD2Ghost: За вами следует мерцающий огонёк
         PetLizard: Прохлаждается, как рептилия
         PetParrot: Полли хочет крекер
@@ -1542,17 +1542,17 @@
         SlimeMount: ПРЫГ ПЛЁСК ПРЫГ!
         Slow: Скорость передвижения снижена
         Smolstar: Смерть от тысячи порезов
-        SolarShield1: 
+        SolarShield1:
             '''
             Сопротивление урону увеличено на 20%
             Отталкивает врагов при получении урона
             '''
-        SolarShield2: 
+        SolarShield2:
             '''
             Сопротивление урону увеличено на 20%
             Отталкивает врагов при получении урона
             '''
-        SolarShield3: 
+        SolarShield3:
             '''
             Сопротивление урону увеличено на 20%
             Отталкивает врагов при получении урона
@@ -1562,7 +1562,7 @@
         Spelunker: Отображает местоположение руды и сокровищ
         SpiderMinion: За вас сражается паук
         Spiffo: "'Это история вашей смерти'"
-        SpookyWoodMount: Беги, Форест, беги!
+        SpookyWoodMount: Беги, лес, беги!
         Squashling: За вами следует тыковка
         StardustDragonMinion: Вас защищает дракон звёздной пыли
         StardustGuardianMinion: Вас защищает страж звёздной пыли
@@ -2142,7 +2142,7 @@
         1: Другие игроки могут забирать вещи из ваших сундуков! Если вы им не доверяете, используйте сейф или свинью-копилку: их содержимое индивидуально для каждого игрока.
         10: Вода замедляет падение.
         100: С включённой функцией замены блоков вы можете напрямую заменять один блок другим, не добывая его сначала.
-        101: Во время Хэллоуина, обратите внимание на мешки с лакомствами. Если открыть их, в них можно найти множество различных жутких предметов. Сладость или гадость!
+        101: Во время Хэллоуина обратите внимание на мешки с лакомствами. Открыв их, вы сможете найти множество различных жутких предметов. Сладость или гадость!
         102: Облака мягкие и приятные, поэтому вы не получите урон, упав на них даже с огромной высоты.
         103: А вы знали, что можете приказывать своим миньонам атаковать конкретную цель? Пока держите оружие призывателя, нажмите ПКМ по врагу!
         104: Нажимайте клавиши «+» и «-» для приближения и отдаления! Сосредоточьтесь на том, что действительно важно!
@@ -2157,16 +2157,16 @@
             Взрывчатка опасна!
             ...и эффективна...
             '''
-        12: Не падайте в лаву, не выпив перед этим зелья обсидиановой кожи!
-        13: Если вы наденете счастливую подкову, она защитит вас от урона от падения с большой высоты. Её можно найти в сундуках на парящих островах.
-        14: Адский камень или метеорит обжигают, если наступить на них! Защитите себя, надев обсидиановый череп или похожий аксессуар.
-        15: По всему миру спрятаны кристаллы жизни. Используйте их для увеличения запаса здоровья.
-        16: Для создания факелов нужна древесина и гель. Гель можно получить, убивая слизней.
-        17: Для добычи некоторых руд может потребоваться более хорошая кирка.
+        12: Не падайте в лаву, не выпив перед этим зелье обсидиановой кожи!
+        13: Если вы наденете счастливую подкову, она защитит вас от урона при падении с большой высоты. Её можно найти в сундуках на парящих островах.
+        14: Адский камень и метеориты обжигают, если наступить на них! Защитите себя, надев обсидиановый череп или похожий аксессуар.
+        15: По всему миру спрятаны кристаллы жизни. Используйте их, чтобы увеличить запас здоровья.
+        16: Для создания факелов нужны древесина и гель. Гель можно получить, убивая слизней.
+        17: Для добычи некоторых руд может потребоваться кирка получше.
         18: Боссов легче побеждать с друзьями.
         19: Для стрельбы из луков и огнестрельного оружия необходимы соответствующие боеприпасы в инвентаре.
-        2: Информационные аксессуары не обязательно надевать для получения соответствующей информации: они будут работать и в вашем инвентаре.
-        20: Старик на входе в Темницу - портной. Вот если бы только кто-то мог избавить его от проклятия...
+        2: Информационные аксессуары необязательно надевать, чтобы получать соответствующую информацию: они будут работать и в вашем инвентаре.
+        20: Старик у входа в Темницу - портной. Вот если бы только кто-нибудь смог избавить его от проклятия...
         21: Торговцы обожают деньги. Если вы накопите достаточную сумму, один из них может заселиться к вам!
         22: Держите взрывчатку в своём инвентаре или хранилище, чтобы привлечь в дом подрывника.
         23: Убедитесь, что у вас есть дом с пустыми комнатами, чтобы привлечь новых жителей в свой мир.
@@ -2503,7 +2503,7 @@
         Pot: Горшок
         Relic: Реликвия
         Rocket: Ракета
-        SandFlow: Ссыпающийся песок
+        SandFlow: Сыпучий песок
         Sapling: Саженец
         SiltExtractinator: Промыватель
         Silver: Серебро
@@ -2604,7 +2604,7 @@
         CreativeSacrificeComplete: Дублирование открыто
         ItemUnlockedByTeammate: Игрок {0} завершает исследование предмета
         CreativeSacrificeNeeded: Исследуйте {0} {^0:единицу;единицы;единиц} для дублирования
-        DevItem: "'Отлично подходит для подражания внешнего вида разработчиков!'"
+        DevItem: "'Отлично подходит для подражания внешнему виду разработчиков!'"
         EtherianManaCost10: Во время защиты кристалла Этернии, потребляет 10 этерийской маны за использование
         FlightAndSlowfall: Позволяет летать и плавно парить
         GolfBall: Можно ударить по нему клюшкой для гольфа
@@ -2663,41 +2663,41 @@
             Можно установить только один пилон каждого типа в соответствующем ему биоме
             '''
         TipsyStats: Немного увеличивает характеристики ближнего боя, но снижает защиту
-        UsesLife: Расходует {0} ед. здоровья
-        UsesMana: Расходует {0} ед. маны
-        Whips: Ваши миньоны будут сосредотачиваться на атакуемых врагах
+        UsesLife: Использует {0} ед. здоровья
+        UsesMana: Использует {0} ед. маны
+        Whips: Ваши миньоны будут сосредотачивать атаки на поражаемых врагах
         WizardHatDuringAnniversary: Увеличивает максимальное количество миньонов на 1
-        PlacementStyle: Нажимайте {$Key.UP}/{$Key.DOWN} для смены стиля устанавливаемого блока
-        UseableWhenPlaced: Работает только в размещённом виде
-        GoodFortune: "'Говорят, что его присутствие привлекает благополучие и отгоняет злых духов'"
-        CanBeExtractinated: Можно обработать в промывателе
-        Sticky: "'Бросить будет сложновато'"
+        PlacementStyle: Нажимайте {$Key.UP}/{$Key.DOWN}, чтобы переключать стиль размещаемого блока
+        UseableWhenPlaced: Можно использовать после размещения
+        GoodFortune: "'Говорят, что его присутствие привлекает удачу и отгоняет злых духов'"
+        CanBeExtractinated: Можно переработать в промывателе
+        Sticky: "'Бросить будет непросто'"
         TerrariaEnthusiasts: "'Отлично подходит для подражания внешнему виду поклонникам Террарии!'"
         WorksWhenWet: Светится в жидкостях
-        Hook: Нажмите {InputTrigger_Grapple}, чтобы запустить крюк
+        Hook: Нажмите {InputTrigger_Grapple}, чтобы выпустить крюк
         PrefixArmorPenetration: "{0:+0;-#} ед. к пробиванию брони"
         PrefixTagDamage: "{0:+0;-#} ед. урона от метки призывателя"
         Platform: Нажмите {$Key.DOWN}, чтобы спрыгнуть
-        BurningBlock: Обжигает вас, если дотронуться без специальной защиты
-        ContactDamageBlock: Наносит вам урон, если дотронуться
-        SuffocateBlock: Вызывает удушье, если упадёт на вас
+        BurningBlock: Обжигает вас, если к нему прикоснуться без специальной защиты
+        ContactDamageBlock: Наносит вам урон, если к нему прикоснуться
+        SuffocateBlock: Вызывает удушье, если он упадёт на вас
         Bed:
             '''
-            Позволяет установить точку возрождения, если размещена в подходящем доме
-            Можно использовать для сна, чтобы ускорить время
+            Позволяет установить точку возрождения, если кровать размещена в подходящем доме
+            Можно использовать для сна, чтобы ускорить течение времени
             '''
         PersonalStorage:
             '''
-            Используется для хранения личных предметов
-            Хранимые предметы доступны только вам
-            Хранимые монеты могут использоваться для покупок в магазинах
+            Используется для хранения ваших предметов
+            Доступ к хранящимся предметам есть только у вас
+            Хранящиеся монеты можно использовать для покупок в магазинах
             '''
-        PreventFallDamage: Предотвращает урон от падения
-        RollerSkate: Скорость катания зависит от скорости размещения блоков
+        PreventFallDamage: Защищает от урона при падении
+        RollerSkate: Скорость катания соответствует скорости размещения блоков
         Wireable: Активируется проводами
         Container: Собирает ближайшие выпавшие предметы при получении сигнала
         WireTrigger: Разместите и нажмите {InputTrigger_InteractWithTile}, чтобы подать сигнал
-        LogicGate: Подаёт сигнал при начале или прекращении выполнения следующего условия:
+        LogicGate: Подаёт сигнал, когда следующее условие начинает или прекращает выполняться:
         Fountain: Изменяет цвет воды поблизости
     }
     
@@ -2914,11 +2914,11 @@
         AncientPinkDungeonBrickWall: Древняя розовая кирпичная стена
         AncientShadowGreaves: Древние теневые поножи
         AncientShadowHelmet: Древний теневой шлем
-        AncientShadowScalemail: Древняя теневая чешуйчатая кольчуга
+        AncientShadowScalemail: Древний теневой чешуйчатый нагрудник
         AncientSilverBrick: Древний серебряный кирпич
         AncientSilverBrickWall: Древняя серебряная кирпичная стена
         AncientTablet: Древняя табличка
-        AndrewSphinx: Картина «Эндрю Сфинкс»
+        AndrewSphinx: Картина «Эндрю-сфинкс»
         AngelHalo: Нимб
         AngelStatue: Статуя ангела
         AngelWings: Крылья ангела
@@ -2937,7 +2937,7 @@
         AnkhShield: Щит анха
         AnkletoftheWind: Ножной браслет ветра
         AnnouncementBox: Панель оповещения
-        AnomuraFungusBanner: Знамя грибовидного аномуры
+        AnomuraFungusBanner: Знамя грибовидной аномуры
         AntiGravityHook: Антигравитационный крюк
         AntiPortalBlock: Антипортальный блок
         AntlionBanner: Знамя муравьиного льва
@@ -2959,7 +2959,7 @@
         ApprenticeStaffT3: Гнев Бэтси
         ApprenticeTrousers: Штаны подмастерья
         Apricot: Абрикос
-        AquaScepter: Водяной скипетр
+        AquaScepter: Водный скипетр
         ArapaimaBanner: Знамя арапаймы
         ArcaneCrystal: Чародейский кристалл
         ArcaneFlower: Чародейский цветок
@@ -3128,7 +3128,7 @@
         BeetleHusk: Жучий хитин
         BeetleLeggings: Жучьи поножи
         BeetleMinecart: Жучья вагонетка
-        BeetleScaleMail: Жучья чешуйчатый нагрудник
+        BeetleScaleMail: Жучий чешуйчатый нагрудник
         BeetleShell: Жучий панцирь
         BeetleWings: Жучьи крылья
         BejeweledValkyrieBody: Плащ валькирии Lazure
@@ -3176,9 +3176,9 @@
         BlackString: Чёрная верёвочка
         BlackThread: Чёрные нитки
         BlacksmithRack: Стойка для кузнечных инструментов
-        BladedGlove: Перчатка с лезвиями
+        BladedGlove: Когтистая перчатка
         BladeofGrass: Травяной клинок
-        Bladetongue: Острый язык
+        Bladetongue: Остроязычный
         BlandWhip: Кожаный хлыст
         BlendOMatic: Асфальтомешалка
         BlessedApple: Благословлённое яблоко
@@ -3194,10 +3194,10 @@
         BloodCrawlerBanner: Знамя кровавого ползуна
         BloodEelBanner: Знамя кровавого угря
         BloodFeederBanner: Знамя кровопийцы
-        BloodFishingRod: Завлекатель приманки
+        BloodFishingRod: Прикормщик
         BloodHamaxe: Кровосек
         BloodJellyBanner: Знамя кровавой медузы
-        BloodLustCluster: Скопление кровожадности
+        BloodLustCluster: Кровожадная громадина
         BloodMoonCountess: Картина «Графиня кровавой луны»
         BloodMoonMonolith: Монолит кровавой луны
         BloodMoonRising: Картина «Восход кровавой луны»
@@ -3823,7 +3823,7 @@
         CrimsonRod: Багряный жезл
         CrimsonSandstone: Багряный песчаник
         CrimsonSandstoneWall: Багряная песчаниковая стена
-        CrimsonScalemail: Багряная чешуйчатая кольчуга
+        CrimsonScalemail: Багряный чешуйчатый нагрудник
         CrimsonSeeds: Семена багрянца
         CrimsonTigerfish: Багряная тигровая рыба
         CrimsonTorch: Багряный факел
@@ -3964,10 +3964,10 @@
         DartPistol: Дротикомёт
         DartRifle: Дротикострел
         DartTrap: Ловушка с дротиком
-        DayBloomPlanterBox: Кадка для днецвета
+        DayBloomPlanterBox: Кадка для дневноцвета
         DayBreak: Рассвет
-        Daybloom: Днецвет
-        DaybloomSeeds: Семена днецвета
+        Daybloom: Дневноцвет
+        DaybloomSeeds: Семена дневноцвета
         Daylight: Картина «Дневной свет»
         DeadMansChest: Сундук мертвеца
         DeadMansSweater: Свитер мертвеца
@@ -3978,18 +3978,18 @@
         DeathbringerPickaxe: Кирка погибели
         Deathweed: Смертоцвет
         DeathweedSeeds: Семена смертоцвета
-        DeepBluePaint: Тёмно-синяя краска
-        DeepCyanPaint: Тёмно-циановая краска
-        DeepGreenPaint: Тёмно-зелёная краска
-        DeepLimePaint: Тёмно-лаймовая краска
-        DeepOrangePaint: Тёмно-оранжевая краска
-        DeepPinkPaint: Тёмно-розовая краска
-        DeepPurplePaint: Тёмно-пурпурная краска
-        DeepRedPaint: Тёмно-красная краска
-        DeepSkyBluePaint: Тёмно-голубая краска
-        DeepTealPaint: Тёмно-бирюзовая краска
-        DeepVioletPaint: Тёмно-фиолетовая краска
-        DeepYellowPaint: Тёмно-жёлтая краска
+        DeepBluePaint: Насыщенная синяя краска
+        DeepCyanPaint: Насыщенная циановая краска
+        DeepGreenPaint: Насыщенная зелёная краска
+        DeepLimePaint: Насыщенная лаймовая краска
+        DeepOrangePaint: Насыщенная оранжевая краска
+        DeepPinkPaint: Насыщенная розовая краска
+        DeepPurplePaint: Насыщенная урпурная краска
+        DeepRedPaint: Насыщенная красная краска
+        DeepSkyBluePaint: Насыщенная голубая краска
+        DeepTealPaint: Насыщенная бирюзовая краска
+        DeepVioletPaint: Насыщенная фиолетовая краска
+        DeepYellowPaint: Насыщенная жёлтая краска
         DeerThing: Оленья штука
         DeerclopsBossBag: Мешок с сокровищами (Циклоп-олень)
         DeerclopsMask: Маска Циклопа-оленя
@@ -4121,7 +4121,7 @@
         DukeFishronMasterTrophy: Реликвия Герцога Рыброна
         DukeFishronPetItem: Морская свинина
         DukeFishronTrophy: Трофей Герцога Рыброна
-        DuneSplicerBanner: Знамя дюнного сращивателя
+        DuneSplicerBanner: Знамя дюнного рассекателя
         DungeonClockBlue: Напольные часы синей Темницы
         DungeonClockGreen: Напольные часы зелёной Темницы
         DungeonClockPink: Напольные часы розовой Темницы
@@ -4155,7 +4155,7 @@
         DynastyLamp: Восточная напольная лампа
         DynastyLantern: Восточный фонарь
         DynastyPiano: Восточное пианино
-        DynastyPlatform: Платформа из восточного дерева
+        DynastyPlatform: Восточная платформа
         DynastySink: Восточная раковина
         DynastySofa: Восточный диван
         DynastyTable: Восточный стол
@@ -4279,7 +4279,7 @@
         EyezorBanner: Знамя глазодёра
         Eyezorhead: Картина «Глазодёроголовый»
         FaceMonsterBanner: Знамя лицемонстра
-        FacingtheCerebralMastermind: Картина «Возле выдающегося интеллекта»
+        FacingtheCerebralMastermind: Картина «Лицом к лицу с высшим разумом»
         FairyBell: Волшебный колокольчик
         FairyBoots: Сказочные ботинки
         FairyCritterBlue: Голубая фея
@@ -4478,7 +4478,7 @@
         FloatingIslandFishingCrate: Небесный ящик
         FloatingIslandFishingCrateHard: Лазурный ящик
         FloatingTube: Плавательный круг
-        FloatyGrossBanner: Знамя порящего поганца
+        FloatyGrossBanner: Знамя парящего поганца
         FlockoBanner: Знамя Снежинко
         FloretProtectorChestplate: Костюм цветочного хранителя
         FloretProtectorHelmet: Шлем цветочного хранителя
@@ -4554,7 +4554,7 @@
         FrostLeggings: Морозные поножи
         FrostMinnow: Морозный гольян
         FrostStaff: Морозный посох
-        Frostbrand: Ледяная марка
+        Frostbrand: Ледяное клеймо
         FrostburnArrow: Стрела обжигающего холода
         FrostsparkBoots: Искромётные морозные ботинки
         FrozenBathtub: Замороженная ванна
@@ -4999,7 +4999,7 @@
         GroxTheGreatWings: Крылья Grox The Great
         GrubSoup: Гадкий суп
         Grubby: Личинка
-        GuidePicasso: Картина «Гид Пикассо»
+        GuidePicasso: Картина «Гид в стиле Пикассо»
         GuideVoodooDoll: Кукла вуду гида
         GuideVoodooFish: Рыба вуду гида
         GummyWorm: Мармеладный червяк
@@ -5264,13 +5264,13 @@
         JestersArrow: Шутовская стрела
         Jetpack: Реактивный ранец
         Jewelfish: Драгоценная рыба
-        JimsBreastplate: Нагрудник Джима
-        JimsCap: Кепка Джима
+        JimsBreastplate: Нагрудник Jim
+        JimsCap: Кепка Jim
         JimsDrone: Дрон на радиоуправлении
         JimsDroneVisor: FPV-очки
-        JimsHelmet: Шлем Джима
-        JimsLeggings: Ботинки Джима
-        JimsWings: Крылья Джима
+        JimsHelmet: Шлем Jim
+        JimsLeggings: Ботинки Jim
+        JimsWings: Крылья Jim
         JojaCola: Джоджа-кола
         JourneymanBait: Наживка подмастерья
         JoustingLance: Турнирное копьё
@@ -5323,7 +5323,7 @@
         KiteBunny: Воздушный змей - кролик
         KiteBunnyCorrupt: Воздушный змей - искажённый кролик
         KiteBunnyCrimson: Воздушный змей - порочный кролик
-        KiteCrawltipede: Воздушный змей - ползоножка
+        KiteCrawltipede: Воздушный змей - ползуножка
         KiteGoldfish: Воздушный змей - золотая рыбка
         KiteJellyfishBlue: Воздушный змей - голубая медуза
         KiteJellyfishPink: Воздушный змей - розовая медуза
@@ -6496,7 +6496,7 @@
         PotStatue: Статуя горшка
         PotSuspended: Подвесной горшок
         PotSuspendedBlinkroot: Подвесной мерцающий корень
-        PotSuspendedDaybloom: Подвесной днецвет
+        PotSuspendedDaybloom: Подвесной дневноцвет
         PotSuspendedDeathweedCorrupt: Подвесной искажённый смертоцвет
         PotSuspendedDeathweedCrimson: Подвесной багряный смертоцвет
         PotSuspendedFireblossom: Подвесной огнецвет
@@ -6529,7 +6529,7 @@
         PottedLavaPlantTendrils: Тлеющие усики в горшке
         PowerGlove: Перчатка силы
         PoweredbyBirds: Картина «Птичий привод»
-        PrehistoryPreserved: Доисторические останки
+        PrehistoryPreserved: Табличка «Доисторические останки»
         Present: Подарок
         PresentMimicBanner: Знамя мимика-подарка
         PressureTrack: Нажимные рельсы
@@ -6681,7 +6681,7 @@
         RedAcidDye: Красный кислотный краситель
         RedAdmiralButterfly: Бабочка красный адмирал
         RedAdmiralButterflyJar: Банка с бабочкой красным адмиралом
-        RedAndBlueLights: Красно-синяяя ёлочная гирлянда
+        RedAndBlueLights: Красно-синяя ёлочная гирлянда
         RedAndGreenBulb: Красно-зелёные ёлочные игрушки
         RedAndGreenGardland: Красно-зелёная ёлочная мишура
         RedAndGreenLights: Красно-зелёная ёлочная гирлянда
@@ -6819,7 +6819,7 @@
         RoyalDressBottom: Королевское платье
         RoyalDressTop: Королевская блуза
         RoyalGel: Королевский гель
-        RoyalRomance: Картина «Королевский романс»
+        RoyalRomance: Картина «Королевский роман»
         RoyalScepter: Королевский скипетр
         RoyalTiara: Королевская тиара
         RubblemakerLarge: Камнедел (большой)
@@ -7000,7 +7000,7 @@
         ShadowOrb: Теневая сфера
         ShadowPaint: Теневая краска
         ShadowScale: Теневая чешуйка
-        ShadowScalemail: Теневая чешуйчатая кольчуга
+        ShadowScalemail: Теневой чешуйчатый нагрудник
         ShadowbeamStaff: Посох теневого луча
         ShadowflameHadesDye: Краситель цвета аидова теневого пламени
         SharkBait: Акулья наживка
@@ -7219,7 +7219,7 @@
         Snowball: Снежок
         SnowballCannon: Снежковая пушка
         SnowballLauncher: Снежкомёт
-        SnowflakeWallpaper: Обои с снежинками
+        SnowflakeWallpaper: Обои со снежинками
         SnowmanCannon: Пушка снеговика
         SnowmanGangstaBanner: Знамя снеговика-гангстера
         Sofa: Диван
@@ -7769,7 +7769,7 @@
         ToiletPumpkin: Тыквенный унитаз
         ToiletRichMahogany: Унитаз из красного дерева
         ToiletShadewood: Унитаз из мрачного дерева
-        ToiletSlime: Слизневой унитаз
+        ToiletSlime: Слизневый унитаз
         ToiletSpider: Паучий унитаз
         ToiletSpooky: Жуткий унитаз
         ToiletSteampunk: Паромеханический унитаз
@@ -7792,7 +7792,7 @@
         TopazStaff: Топазовый посох
         TopazStoneBlock: Топазовый камень
         Torch: Факел
-        TorchGodsFavor: Благосклонность бога факелов
+        TorchGodsFavor: Благосклонность Факельного бога
         TortoiseBanner: Знамя гигантской черепахи
         Toucan: Тукан
         ToucanCage: Террариум с туканом
@@ -7856,7 +7856,7 @@
         TurtleJungle: Черепаха джунглей
         TurtleJungleCage: Террариум с черепахой джунглей
         TurtleLeggings: Черепашьи поножи
-        TurtleScaleMail: Черепашья чешуйчатая кольчуга
+        TurtleScaleMail: Черепаший чешуйчатый нагрудник
         TurtleShell: Черепаший панцирь
         TurtleStatue: Статуя черепахи
         TuxedoPants: Брюки
@@ -8226,7 +8226,7 @@
         DeadCellsPotionStation: Алхимическая колба
         PortableKiln: Переносная обжигальня
         CobWhip: Паутинный хлыст
-        CorruptWhip: Душеплеть
+        CorruptWhip: Бич душ
         CrimsonWhip: Сосудистый хлыст
         MeteorWhip: Звездокрушение
         FlowerWhip: Цветочное буйство
@@ -8248,7 +8248,7 @@
         WhiteBanner: Белое знамя
         Pufferfish: Иглобрюх
         PufferfishCage: Террариум с иглобрюхом
-        PufferfishPet: Иглокреветка
+        PufferfishPet: Иглобрюхая креветка
         PlayerVoiceFrogItem: Лягушачий ошейник
         PlayerVoiceGoatItem: Козлиный хохолок
         PlayerVoiceRetroItem: Медальон старого компаньона
@@ -8265,11 +8265,11 @@
         RainbowBoulder: Радужный валун
         VelociraptorMountItem: Загадочный череп растерзателя
         MoonLordBody: Туловище Лунного лорда
-        Poulder: Какалун
+        Poulder: Какашечный валун
         Axearang: Топоранг
-        LavaBoulder: Лавалун
-        SpiderBoulder: Валун-паук
-        Ghoulder: Валун-призрак
+        LavaBoulder: Лавовый валун
+        SpiderBoulder: Паучий валун
+        Ghoulder: Призрачный валун
         ChlorophyteVisor: Хлорофитовое забрало
         SuperFertilizer: Насыщенное удобрение
         FlaironFlail: Кистенерон
@@ -8280,14 +8280,14 @@
         CozyWindow: Картина «Уютное окно»
         DemonAltar: Демонический алтарь
         CrimsonAltar: Багряный алтарь
-        PlayerVoiceFairyItem: Феиный чокер
+        PlayerVoiceFairyItem: Бархотка феи
         PinkPhaseblade: Розовый лазерный меч
         PinkPhasesaber: Розовая лазерная сабля
-        BlackenedFish: Обжаренная рыба
+        BlackenedFish: Обугленная рыба
         MagicString: Магическая верёвочка
         MagicYoyoBag: Магическая сумка для йо-йо
         FreezeBomb: Замораживающая бомба
-        StressBall: Мячик-стресс
+        StressBall: Антистрессовый мячик
         CloudPlatform: Облачная платформа
         LivingWoodWallUnsafe: Заросшая стена из живого дерева
         DirtWallUnsafe: Естественная земляная стена
@@ -8295,34 +8295,34 @@
         LavaCloud: Лавовое облако
         StarCloud: Звёздное облако
         RainbowCloud: Радужное облако
-        AetheriumBathtub: Эфирная ванна
-        AetheriumBed: Эфирная кровать
-        AetheriumBookcase: Эфирный книжный шкаф
-        AetheriumDresser: Эфирный комод
-        AetheriumCandelabra: Эфирный подсвечник
-        AetheriumCandle: Эфирная свеча
-        AetheriumChair: Эфирная кровать
-        AetheriumChandelier: Эфирная люстра
-        AetheriumChest: Эфирный сундук
-        AetheriumClock: Эфирный напольные часы
-        AetheriumDoor: Эфирная дверь
-        AetheriumLamp: Эфирная напольная лампа
-        AetheriumLantern: Эфирный фонарь
-        AetheriumPiano: Эфирное пианино
-        AetheriumPlatform: Эфирная платформа
-        AetheriumSink: Эфирная раковина
-        AetheriumSofa: Эфирный диван
-        AetheriumTable: Эфирный стол
-        AetheriumWorkbench: Эфирный верстак
-        Fake_AetheriumChest: Эфирный сундук-ловушка
-        AetheriumToilet: Эфирный унитаз
-        AxeFairyPetItem: Феиный жёлудь
+        AetheriumBathtub: Эфириевая ванна
+        AetheriumBed: Эфириевая кровать
+        AetheriumBookcase: Эфириевый книжный шкаф
+        AetheriumDresser: Эфириевый комод
+        AetheriumCandelabra: Эфириевый подсвечник
+        AetheriumCandle: Эфириевая свеча
+        AetheriumChair: Эфириевый стул
+        AetheriumChandelier: Эфириевая люстра
+        AetheriumChest: Эфириевый сундук
+        AetheriumClock: Эфириевые напольные часы
+        AetheriumDoor: Эфириевая дверь
+        AetheriumLamp: Эфириевая напольная лампа
+        AetheriumLantern: Эфириевый фонарь
+        AetheriumPiano: Эфириевое пианино
+        AetheriumPlatform: Эфириевая платформа
+        AetheriumSink: Эфириевая раковина
+        AetheriumSofa: Эфириевый диван
+        AetheriumTable: Эфириевый стол
+        AetheriumWorkbench: Эфириевый верстак
+        Fake_AetheriumChest: Эфириевый сундук-ловушка
+        AetheriumToilet: Эфириевый унитаз
+        AxeFairyPetItem: Фейлудь
         MudBallPlayer: Комок грязи
-        TorchGodPotion: Благовоние бога факелов
+        TorchGodPotion: Благовоние Факельного бога
         LuckyClover: Счастливый клевер
-        WiltedClover: Завядший клевер
+        WiltedClover: Увядший клевер
         RavenFeather: Перо ворона
-        PrettyMirror: Прелестное зеркало
+        PrettyMirror: Прелестное зеркальце
         MusicBoxKingSlime: Музыкальная шкатулка (Король слизней)
         MusicBoxQueenBee: Музыкальная шкатулка (Королева пчёл)
         MusicBoxQueenBeeAlt: Музыкальная шкатулка (Королева пчёл, альтернативная)
@@ -8336,8 +8336,8 @@
         ChickenBonesLegs: Штаны Chicken Bones
         ChickenBonesRobe: Халат Chicken Bones
         WeldingMask: Сварочная маска
-        CRTMonolith: CRT-монолит
-        RetroMonolith: Ретромонолит
+        CRTMonolith: ЭЛТ-монолит
+        RetroMonolith: Ретро-монолит
         BatMountItem: Амулет ночи
         FallenStarBathtub: Ванна упавшей звезды
         FallenStarBed: Кровать упавшей звезды
@@ -8355,14 +8355,14 @@
         FallenStarPiano: Пианино упавшей звезды
         FallenStarPlatform: Платформа упавшей звезды
         FallenStarSink: Раковина упавшей звезды
-        FallenStarSofa: Софа упавшей звезды
+        FallenStarSofa: Диван упавшей звезды
         FallenStarTable: Стол упавшей звезды
         FallenStarWorkbench: Верстак упавшей звезды
         Fake_FallenStarChest: Сундук-ловушка упавшей звезды
         FallenStarToilet: Унитаз упавшей звезды
-        UpgradedMiningHead: Каска георазведчика
-        UpgradedMiningBody: Рубашка георазведчика
-        UpgradedMiningLegs: Штаны георазведчика
+        UpgradedMiningHead: Каска золотоискателя
+        UpgradedMiningBody: Рубашка золотоискателя
+        UpgradedMiningLegs: Штаны золотоискателя
         UpgradedFishingHead: Шляпа капитана
         UpgradedFishingBody: Жилет капитана
         UpgradedFishingLegs: Штаны капитана
@@ -8377,14 +8377,14 @@
         AcornSlingshot: Желудёвая рогатка
         PaintingRPlace2023: Картина «r/Terraria 2023»
         PaintingBouldChoices: Картина «Валунные и воинственные»
-        PaintingDarkForebodings: Картина «Тёмное предчувствие»
-        PaintingGermanZenith: Картина «Oktober»
+        PaintingDarkForebodings: Картина «Тёмное предзнаменование»
+        PaintingGermanZenith: Картина «Октобер»
         PaintingItsScragglinTime: Картина «Время скрэгглить»
         PaintingKaguya: Картина «Кагуя»
-        PaintingGermanBeer: Картина «Prost»
+        PaintingGermanBeer: Картина «Будем»
         MusicBoxEaterOfWorlds: Музыкальная шкатулка (Пожиратель миров)
-        MusicBoxTorchGod: Музыкальная шкатулка (Бог факелов)
-        MusicBoxTorchGodAlt: Музыкальная шкатулка (Бог факелов, альтернативная)
+        MusicBoxTorchGod: Музыкальная шкатулка (Факельный бог)
+        MusicBoxTorchGodAlt: Музыкальная шкатулка (Факельный бог, альтернативная)
         SuperBomb: Мощная бомба
         SuperStickyBomb: Липкая мощная бомба
         RollerSkatesBlueMountItem: Синие ролики
@@ -8393,13 +8393,13 @@
         RollerSkatesPartyMountItem: Праздничные ролики
         RainbowGlowstick: Радужная светящаяся палочка
         ScryingOrb: Сфера предвидения
-        RockCandy: Кристальная карамель
+        RockCandy: Леденцовый сахар
         BlueBikiniBody: Синий вверх бикини
         BlueBikiniLegs: Синий низ бикини
         RedSwimsuit: Красный купальник
         GreenSwimshorts: Зелёные плавки
         GraySwimshorts: Серые плавки
-        OrcaBanner: Знамя касатки
+        OrcaBanner: Знамя косатки
         TeleportationPylonUnderworld: Пилон преисподней
         TeleportationPylonShimmer: Пилон эфира
         HeroicisHead: Шляпа Heroicis
@@ -8410,8 +8410,8 @@
         HallowedCrown: Освящённая корона
         HeroicisWingsInactive: Крылья Heroicis (Неактивно)
         EnchantedPixieDust: Зачарованная пыльца пикси
-        SoundGun: Имплодер
-        TrueCopperShortsword: Истинный медный клинок
+        SoundGun: Коллапсор
+        TrueCopperShortsword: Истинный медный кинжал
         RainbowPhaseblade: Радужный лазерный меч
         RainbowPhasesaber: Радужный лазерная сабля
         LibrarianSkeletonBanner: Знамя скелета-библиотекаря
@@ -8432,7 +8432,7 @@
         KazzymodusLeggings: Поножи Kazzymodus
         KazzymodusWings: Крылья Kazzymodus
         SlimeSpear: Слизневое копьё
-        SlimeWhip: Слизневой хлыст
+        SlimeWhip: Слизневый хлыст
         FeywoodBathtub: Ванна из сказочного дерева
         FeywoodBed: Кровать из сказочного дерева
         FeywoodBookcase: Книжный шкаф из сказочного дерева
@@ -8479,15 +8479,15 @@
         HallowedToilet: Освящённый унитаз
         Hallowed: Освящённый кирпич
         HallowedWall: Освящённая кирпичная стена
-        PalworldPalMetalArmorBody: Паланиумный нагрудник
-        PalworldPalMetalArmorLegs: Паланиумные поножи
+        PalworldPalMetalArmorBody: Нагрудник из пал-металла
+        PalworldPalMetalArmorLegs: Поножи из пал-металла
         ChippysWingsInactive: Плащ Chippy (Неактивно)
         GothicBathtub: Готическая ванна
         GothicBed: Готическая кровать
         GothicDresser: Готический комод
         GothicCandelabra: Готический подсвечник
         GothicCandle: Готическая свеча
-        GothicChandelier: Готический подсвечник
+        GothicChandelier: Готическая люстра
         GothicChest: Готический сундук
         GothicClock: Готические напольные часы
         GothicDoor: Готическая дверь
@@ -8520,27 +8520,27 @@
         DemoniteWorkbench: Демонитовый верстак
         Fake_DemoniteChest: Демонитовый сундук-ловушка
         DemoniteToilet: Демонитовый унитаз
-        CrimtaneBathtub: Кримтановая ванна
-        CrimtaneBed: Кримтановая кровать
-        CrimtaneBookcase: Кримтановый книжный шкаф
-        CrimtaneDresser: Кримтановый комод
-        CrimtaneCandelabra: Кримтановый подсвечник
-        CrimtaneCandle: Кримтановая свеча
-        CrimtaneChair: Кримтановый стул
-        CrimtaneChandelier: Кримтановая люстра
-        CrimtaneChest: Кримтановый сундук
-        CrimtaneClock: Кримтановые напольные часы
-        CrimtaneDoor: Кримтановая дверь
-        CrimtaneLamp: Кримтановая напольная лампа
-        CrimtaneLantern: Кримтановый фонарь
-        CrimtanePiano: Кримтановое пианино
-        CrimtanePlatform: Кримтановая платформа
-        CrimtaneSink: Кримтановая раковина
-        CrimtaneSofa: Кримтановый диван
-        CrimtaneTable: Кримтановый стол
-        CrimtaneWorkbench: Кримтановый верстак
-        Fake_CrimtaneChest: Кримтановая сундук-ловушка
-        CrimtaneToilet: Кримтановый унитаз
+        CrimtaneBathtub: Багротановая ванна
+        CrimtaneBed: Багротановая кровать
+        CrimtaneBookcase: Багротановый книжный шкаф
+        CrimtaneDresser: Багротановый комод
+        CrimtaneCandelabra: Багротановый подсвечник
+        CrimtaneCandle: Багротановая свеча
+        CrimtaneChair: Багротановый стул
+        CrimtaneChandelier: Багротановая люстра
+        CrimtaneChest: Багротановый сундук
+        CrimtaneClock: Багротановые напольные часы
+        CrimtaneDoor: Багротановая дверь
+        CrimtaneLamp: Багротановая напольная лампа
+        CrimtaneLantern: Багротановый фонарь
+        CrimtanePiano: Багротановое пианино
+        CrimtanePlatform: Багротановая платформа
+        CrimtaneSink: Багротановая раковина
+        CrimtaneSofa: Багротановый диван
+        CrimtaneTable: Багротановый стол
+        CrimtaneWorkbench: Багротановый верстак
+        Fake_CrimtaneChest: Багротановый сундук-ловушка
+        CrimtaneToilet: Багротановый унитаз
         SnowBathtub: Снежная ванна
         SnowBed: Снежная кровать
         SnowBookcase: Снежный книжный шкаф
@@ -8562,27 +8562,27 @@
         SnowWorkbench: Снежный верстак
         Fake_SnowChest: Снежный сундук-ловушка
         SnowToilet: Снежный унитаз
-        FlinxFurBathtub: Ванна из меха флинса
-        FlinxFurBed: Кровать из меха флинса
-        FlinxFurBookcase: Книжный шкаф из меха флинса
-        FlinxFurDresser: Комод из меха флинса
-        FlinxFurCandelabra: Подсвечник из меха флинса
-        FlinxFurCandle: Свеча из меха флинса
-        FlinxFurChair: Стул из меха флинса
-        FlinxFurChandelier: Люстра из меха флинса
-        FlinxFurChest: Сундук из меха флинса
-        FlinxFurClock: Напольные часы из меха флинса
-        FlinxFurDoor: Дверь из меха флинса
-        FlinxFurLamp: Напольная лампа из меха флинса
-        FlinxFurLantern: Фонарь из меха флинса
-        FlinxFurPiano: Пианино из меха флинса
-        FlinxFurPlatform: Платформа из меха флинса
-        FlinxFurSink: Раковина из меха флинса
-        FlinxFurSofa: Диван из меха флинса
-        FlinxFurTable: Стол из меха флинса
-        FlinxFurWorkbench: Верстак из меха флинса
-        Fake_FlinxFurChest: Сундук-ловушка из меха флинса
-        FlinxFurToilet: Унитаз из меха флинса
+        FlinxFurBathtub: Ванна из меха флинкса
+        FlinxFurBed: Кровать из меха флинкса
+        FlinxFurBookcase: Книжный шкаф из меха флинкса
+        FlinxFurDresser: Комод из меха флинкса
+        FlinxFurCandelabra: Подсвечник из меха флинкса
+        FlinxFurCandle: Свеча из меха флинкса
+        FlinxFurChair: Стул из меха флинкса
+        FlinxFurChandelier: Люстра из меха флинкса
+        FlinxFurChest: Сундук из меха флинкса
+        FlinxFurClock: Напольные часы из меха флинкса
+        FlinxFurDoor: Дверь из меха флинкса
+        FlinxFurLamp: Напольная лампа из меха флинкса
+        FlinxFurLantern: Фонарь из меха флинкса
+        FlinxFurPiano: Пианино из меха флинкса
+        FlinxFurPlatform: Платформа из меха флинкса
+        FlinxFurSink: Раковина из меха флинкса
+        FlinxFurSofa: Диван из меха флинкса
+        FlinxFurTable: Стол из меха флинкса
+        FlinxFurWorkbench: Верстак из меха флинкса
+        Fake_FlinxFurChest: Сундук-ловушка из меха флинкса
+        FlinxFurToilet: Унитаз из меха флинкса
         PineBathtub: Сосновая ванна
         PineBed: Сосновая кровать
         PineBookcase: Сосновый книжный шкаф
@@ -8666,14 +8666,14 @@
         JellyfishToilet: Медузный унитаз
         HallowedBrick: Освящённый кирпич
         HallowedBrickWall: Освящённая кирпичная стена
-        PineTreeBlockWall: Сосновая стена
+        PineTreeBlockWall: Стена из соснового дерева
         EasterBlock: Пасхальный блок
         EasterBlockWall: Пасхальная стена
         GothicBrick: Готический кирпич
         GothicBrickWall: Готическая кирпичная стена
         FlinxFurBlock: Блок меха флинкса
         FlinxFurBlockWall: Стена из меха флинкса
-        JellyfishBlock: Блок медузы
+        JellyfishBlock: Медузный блок
         JellyfishBlockWall: Медузная стена
         PineWoodBlock: Сосновая древесина
         PineWoodBlockWall: Сосновая стена
@@ -8803,7 +8803,7 @@
         OfficeDoor: Офисная дверь
         OfficeLamp: Офисная напольная лампа
         OfficeLantern: Офисный фонарь
-        OfficePiano: Офисный пианино
+        OfficePiano: Офисное пианино
         OfficePlatform: Офисная платформа
         OfficeSink: Офисная раковина
         OfficeSofa: Офисный диван
@@ -8895,7 +8895,7 @@
         PalworldPetChillet: Чиллет
         PalworldPetChilletIgnis: Чиллет Игнис
         PalworldDigtoise: Дигтос
-        PalworldChilletEgg: Большое яйцо дракона
+        PalworldChilletEgg: Огромное яйцо дракона
         MusicBoxSkeletron: Музыкальная шкатулка (Скелетрон)
         MusicBoxRainbowBoulder: Музыкальная шкатулка (Радужный валун)
         MusicBoxSilence: Музыкальная шкатулка (Тишина)
@@ -9180,7 +9180,7 @@
         AviatorSunglasses:
             '''
             Пробуждает вашего потаённого пилота
-            'Отлично подходит для подражания внешности стримеров!'
+            'Отлично подходит для подражания внешнему виду стримеров!'
             '''
         BBQRibs:
             '''
@@ -9197,7 +9197,7 @@
         BadgersHat:
             '''
             Кажется, у вас проблемы с хромакеем
-            'Отлично подходит для подражания внешности стримеров!'
+            'Отлично подходит для подражания внешнему виду стримеров!'
             '''
         BallOfFuseWire:
             '''
@@ -10163,7 +10163,7 @@
         DizzyHat:
             '''
             'Синий трактор едет к нам'
-            'Отлично подходит для подражания внешности стримеров!'
+            'Отлично подходит для подражания внешнему виду стримеров!'
             '''
         DjinnsCurse: Позволяет парить, но лишает возможности ходить
         DoNotEattheVileMushroom: "{$PaintingArtist.Suweeka}"
@@ -12040,17 +12040,17 @@
         PedguinHat:
             '''
             Станьте Pedguin
-            'Отлично подходит для подражания внешности стримеров!'
+            'Отлично подходит для подражания внешнему виду стримеров!'
             '''
         PedguinPants:
             '''
             Станьте Pedguin
-            'Отлично подходит для подражания внешности стримеров!'
+            'Отлично подходит для подражания внешнему виду стримеров!'
             '''
         PedguinShirt:
             '''
             Станьте Pedguin
-            'Отлично подходит для подражания внешности стримеров!'
+            'Отлично подходит для подражания внешнему виду стримеров!'
             '''
         Pengfish: "'Водится на поверхности снегов'"
         PenguinBanner: "{$CommonItemTooltip.BannerBonus}{$NPCName.Penguin}"
@@ -15585,8 +15585,8 @@
         GET_CELL_PHONE_Description: Заполучить смартфон. Теперь вы без него и шагу не сделаете.
         GET_ANKH_SHIELD_Name: Анхкумуляция завершена
         GET_ANKH_SHIELD_Description: Заполучить щит анха – лучшую защиту от неприятных хворей и недугов.
-        GAIN_TORCH_GODS_FAVOR_Name: Бог факелов
-        GAIN_TORCH_GODS_FAVOR_Description: Вызвать гнев бога факелов и прожить достаточно долго, чтобы заслужить его благословение.
+        GAIN_TORCH_GODS_FAVOR_Name: Факельный бог
+        GAIN_TORCH_GODS_FAVOR_Description: Вызвать гнев Факельного бога и прожить достаточно долго, чтобы заслужить его благословение.
         PLAY_ON_A_SPECIAL_SEED_Name: Редкие земли
         PLAY_ON_A_SPECIAL_SEED_Description: Существуют редкие зёрна генерации, которые могут привести к уникальным и полезным последствиям. Сможете найти такое?
         DEFEAT_DEERCLOPS_Name: Глаз за глаз
@@ -18221,7 +18221,7 @@
         Darts: дротиков
         Daughters: дочерей
         Dawn: рассветов
-        Daybloom: днецветов
+        Daybloom: дневноцветов
         Deadbeats: тунеядцев
         DeadBodies: покойников
         Death: смертей
@@ -19461,7 +19461,7 @@
         AngryBonesBigMuscle: Разгневанный скелет
         AngryNimbus: Грозная туча
         AngryTrapper: Злобный ловчий
-        AnomuraFungus: Грибовидный аномура
+        AnomuraFungus: Грибовидная аномура
         Antlion: Муравьиный лев
         Arapaima: Арапайма
         ArmedTorchZombie: Зомби
@@ -19652,9 +19652,9 @@
         DuckWhite: Утка
         DuckWhite2: Утка
         DukeFishron: Герцог Рыброн
-        DuneSplicerBody: Дюнный сращиватель
-        DuneSplicerHead: Дюнный сращиватель
-        DuneSplicerTail: Дюнный сращиватель
+        DuneSplicerBody: Дюнный рассекатель
+        DuneSplicerHead: Дюнный рассекатель
+        DuneSplicerTail: Дюнный рассекатель
         DungeonGuardian: Страж Темницы
         DungeonSlime: Слизень Темницы
         DungeonSpirit: Дух Темницы
@@ -20017,9 +20017,9 @@
         SnowFlinx: Снежный флинкс
         SnowmanGangsta: Снеговик-гангстер
         SolarCorite: Ядрит
-        SolarCrawltipedeBody: Ползоножка
-        SolarCrawltipedeHead: Ползоножка
-        SolarCrawltipedeTail: Ползоножка
+        SolarCrawltipedeBody: Ползуножка
+        SolarCrawltipedeHead: Ползуножка
+        SolarCrawltipedeTail: Ползуножка
         SolarDrakomire: Дракотоп
         SolarDrakomireRider: Наездник дракотопа
         SolarFlare: Солнечная вспышка
@@ -20066,7 +20066,7 @@
         TombCrawlerBody: Могильный ползун
         TombCrawlerHead: Могильный ползун
         TombCrawlerTail: Могильный ползун
-        TorchGod: Бог факелов
+        TorchGod: Факельный бог
         TorchZombie: Зомби
         Toucan: Тукан
         TownBunny: Кролик
@@ -21137,9 +21137,9 @@
         MeteorOre: Meteor
         PinkCounterweight: Counterweight
         BirdDroppings: Bird Droppings
-        MudBallPlayer: Mud Ball
-        AntlionClaw: Mandible Blade
-        StylistKilLaKillScissorsIWish: Stylish Scissors
+        MudBallPlayer: "{$ItemName.MudBallPlayer}"
+        AntlionClaw: "{$ItemName.AntlionClaw}"
+        StylistKilLaKillScissorsIWish: "{$ItemName.StylistKilLaKillScissorsIWish}"
         TorchGodHelper: The Torch God		
         PrettyMirror: Pretty Mirror
         AcornSlingshotAcorn: Acorn
