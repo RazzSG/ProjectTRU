@@ -2279,7 +2279,7 @@ Items: {
             [i:FargowiltasSouls/PumpkinEnchant] Цветы при прикосновении исцеляют вас, создают рой пчёл, дают бафф «{$Buffs.AmbrosiaBuff.DisplayName}» и восстанавливают время полёта
             [i:FargowiltasSouls/BeetleEnchant] «{$Buffs.AmbrosiaBuff.DisplayName}» увеличивает урон на 30%, скорость атаки ближнего боя на 30%, сопротивление урону на 20% и регенерацию здоровья на 5
             [i:FargowiltasSouls/BeetleEnchant] Бафф «{$Buffs.AmbrosiaBuff.DisplayName}» также позволяет вашим миньонам наносить критические удары
-            [i:FargowiltasSouls/SpiderEnchant] Увеличивает шанс критического удара на 15%
+            [i:FargowiltasSouls/SpiderEnchant] Увеличивает шанс критического удара на 25%
             [i:FargowiltasSouls/TurtleEnchant] Отражает 500% контактного урона
             [i:FargowiltasSouls/BeeEnchant] Даёт эффекты от предмета «{$ItemName.HiveBackpack}»
             'Редко живое существо, что осмелится не подчиниться вашей воле'

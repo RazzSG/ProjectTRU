@@ -3873,7 +3873,7 @@ Items: {
     }
 
     HardlightBoots: {
-        DisplayName: Светопрочные ботинки
+        DisplayName: Твёрдосветовые ботинки
         Tooltip:
             '''
             Увеличивает урон на 5%
@@ -3882,7 +3882,7 @@ Items: {
     }
 
     HardlightCasque: {
-        DisplayName: Светопрочная каска
+        DisplayName: Твёрдосветовая каска
         Tooltip:
             '''
             Увеличивает ритуальный урон на 13%
@@ -3892,7 +3892,7 @@ Items: {
     }
 
     HardlightCowl: {
-        DisplayName: Светопрочный клобук
+        DisplayName: Твёрдосветовой клобук
         Tooltip:
             '''
             Увеличивает магический урон на 13%
@@ -3902,7 +3902,7 @@ Items: {
     }
 
     HardlightHelm: {
-        DisplayName: Светопрочный шлем
+        DisplayName: Твёрдосветовой шлем
         Tooltip:
             '''
             Увеличивает урон ближнего боя на 13%
@@ -3911,7 +3911,7 @@ Items: {
     }
 
     HardlightHood: {
-        DisplayName: Светопрочный капюшон
+        DisplayName: Твёрдосветовой капюшон
         Tooltip:
             '''
             Увеличивает урон призывателя на 13%
@@ -3920,12 +3920,12 @@ Items: {
     }
 
     HardlightPlate: {
-        DisplayName: Светопрочные латы
+        DisplayName: Твёрдосветовые латы
         Tooltip: Увеличивает урон на 10%
     }
 
     HardlightVisor: {
-        DisplayName: Светопрочный визор
+        DisplayName: Твёрдосветовой визор
         Tooltip:
             '''
             Увеличивает стрелковый урон на 13%

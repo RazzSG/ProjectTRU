@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using CalamityMod.Items;
+using CalamityMod.Items.Accessories;
 using CalamityMod.Items.Armor.GemTech;
 using CalamityMod.Items.SummonItems;
 using CalamityRuTranslate.Common;
@@ -53,6 +54,14 @@ public partial class CalamityModGlobalItem : GlobalItem
                         tooltips.Add(donorLine);
                 }
             }
+        }
+        
+        if (item.type == ModContent.ItemType<ScionsCurio>())
+        {
+            ItemHelper.TranslateTooltip(tooltips, "Tooltip4", _ =>
+            {
+                tooltips.ReplaceText("DPS", "ед. урона в секунду");
+            });
         }
         
         int kbIndex = tooltips.FindIndex(x => x.FullName == "Terraria/Knockback");

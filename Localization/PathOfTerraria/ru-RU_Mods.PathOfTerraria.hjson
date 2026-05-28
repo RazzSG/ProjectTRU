@@ -17,6 +17,10 @@
     ManaPotionPowerAffix.Description: "{1}{0}% к силе зелий маны"
     ManaPotionCapAffix.Description: "{1}{0} к максимальному количеству зелий маны"
     ManaPotionCooldownAffix.Description: "{1}{0}% к ускорению перезарядки зелий маны"
+    MaximumEnergyShieldAffix.Description: "{1}{0} к максимальному объёму энергетического щита"
+    IncreasedEnergyShieldAffix.Description: "{1}{0}% к объёму энергетического щита"
+    EnergyShieldRechargeRateAffix.Description: "{1}{0}% к скорости восстановления энергетического щита"
+    FasterEnergyShieldRechargeStartAffix.Description: "{1}{0}% к ускорению начала восстановления энергетического щита"
     PiercingItemAffix.Description: "{1}{0}% к пробиванию брони"
     AddedKnockbackItemAffix.Description: "{1}{0} к базовой силе отбрасывания"
     IncreasedKnockbackItemAffix.Description: "{1}{0}% к множителю силы отбрасывания"
@@ -26,6 +30,22 @@
     ChanceToApplyPoisonItemAffix.Description: "{1}{0}% шанс наложить дебафф «{$Buffs.PoisonedDebuff.DisplayName}»"
     BuffPoisonedHitsAffix.Description: "{1}{0}% к урону по отравленным врагам"
     MovementSpeedAffix.Description: "{1}{0}% к скорости передвижения"
+    MiningSpeedAffix.Description: "{1}{0}% к скорости добычи"
+    FishingPowerAffix.Description: "{1}{0} к навыку рыбной ловли"
+    BaitConservationAffix.Description: "{1}{0}% шанс не потратить наживку"
+    TilePlacementSpeedAffix.Description: "{1}{0}% к скорости размещения блоков"
+    WallPlacementSpeedAffix.Description: "{1}{0}% к скорости размещения стен"
+    ItemPickupRangeAffix.Description: "{1}{0} блок к дальности подбора предметов"
+    CoinPickupRangeAffix.Description: "{1}{0} {^0:блок;блока;блоков} к дальности подбора монет"
+    PotionCooldownReductionAffix.Description: "{1}{0}% к ускорению перезарядки зелий"
+    BuffDurationAffix.Description: "{1}{0}% к длительности баффов"
+    BreathCapacityAffix.Description: "{1}{0}% к запасу воздуха"
+    SwimSpeedAffix.Description: "{1}{0}% к скорости плавания"
+    SafeFallDistanceAffix.Description: "{1}{0} {^0:блок;блока;блоков} к безопасной высоте падения"
+    JumpHeightAffix.Description: "{1}{0}% к высоте прыжка"
+    JumpSpeedAffix.Description: "{1}{0}% к скорости прыжка"
+    WingFlightTimeAffix.Description: "{1}{0}% ко времени полета"
+    WingGlideControlAffix.Description: "{1}{0}% к снижению скорости падения при парении"
     HealOnKillingBurningEnemiesAffix.Description: "{1}{0} здоровья за убийство горящих врагов"
     IncreasedAttackSpeedAffix.Description: "{1}{0}% к множителю скорости атаки"
     AddedAttackSpeedAffix.Description: "{1}{0} к базовой скорости атаки"
@@ -90,6 +110,7 @@
     EoLDaylightAffix.Description: Бой всегда проходит при свете дня
     AmmoReservationAffix.Description: "{1}{0}% шанс не использовать боеприпасы"
     IncreasedSummonDamageAffix.Description: "{1}{0}% к урону призывателя"
+    AddedMaxMinionsAffix.Description: "{1}{0} к максимальному количеству миньонов"
     IncreasedMeleeDamageAffix.Description: "{1}{0}% к урону ближнего боя"
     IncreasedRangedDamageAffix.Description: "{1}{0}% к стрелковому урону"
     IncreasedMagicDamageAffix.Description: "{1}{0}% к магическому урону"
@@ -236,7 +257,7 @@ Buffs: {
 
     FocusChargeBuff: {
         DisplayName: Заряд концентрации
-        Description: Шанс и множитель критического удара увеличены на {0}%
+        Description: Шанс и урон критического удара увеличены на {0}%
     }
 
     IgnitedDebuff: {
@@ -371,7 +392,7 @@ Buffs: {
 
     DwarvishBuff: {
         DisplayName: Дворфийская сила
-        Description: ""
+        Description: Скорость добычи увеличена
     }
 
     AvariceBuff: {
@@ -485,11 +506,16 @@ Configs: {
             Label: Использовать мешок хранения
             Tooltip: Позволяет использовать мешок хранения во владениях для более удобного управления инвентарём.
         }
+
+        ShowLootBeams: {
+            Label: Отображать лучи над добычей
+            Tooltip: Если эта настройка включена, правила подсветки фильтра предметов будут отображать световые лучи над подходящими выпавшими предметами.
+        }
     }
 
     GameplayConfig: {
         DisplayName: Настройки игрового процесса
-                Headers.Gameplay: Игровой процесс
+        Headers.Gameplay: Игровой процесс
 
         NearbyAuras: {
             Label: Ауры поблизости
@@ -521,6 +547,7 @@ Gear: {
         Tier: Ранг:
         Level: Уровень предмета:
         Defense: Защита
+        EnergyShield: Энергетический щит
         Pickaxe: Мощность кирки
         Axe: Мощность топора
         Hammer: Мощность молота
@@ -921,6 +948,10 @@ Gear: {
     Melee.Name: Ближний бой
     Summon.Name: Призывное
     Accessory.Name: Аксессуар
+    Accessories.Name: Аксессуар
+    Charm.Name: Аксессуар
+    Wings.Name: Крылья
+    JumpAccessories.Name: Аксессуар для прыжков
 
     Ring: {
         Name: Кольцо
@@ -1191,6 +1222,156 @@ Items: {
 
     Treads: {
         DisplayName: Ботфорты
+        Tooltip: ""
+    }
+
+    BatteredHelm: {
+        DisplayName: Потрёпанный шлем
+        Tooltip: ""
+    }
+
+    IronboundHelm: {
+        DisplayName: Окованный шлем
+        Tooltip: ""
+    }
+
+    HallowforgedHelm: {
+        DisplayName: Святокованый шлем
+        Tooltip: ""
+    }
+
+    AstralforgedGreathelm: {
+        DisplayName: Астралокованый большой шлем
+        Tooltip: ""
+    }
+
+    EternalforgedGreathelm: {
+        DisplayName: Вечнокованый большой шлем
+        Tooltip: ""
+    }
+
+    BatteredMail: {
+        DisplayName: Потрёпанная кольчуга
+        Tooltip: ""
+    }
+
+    IronboundCuirass: {
+        DisplayName: Окованная кираса
+        Tooltip: ""
+    }
+
+    HallowforgedCuirass: {
+        DisplayName: Святокованая кираса
+        Tooltip: ""
+    }
+
+    AstralforgedAegis: {
+        DisplayName: Астралокованая эгида
+        Tooltip: ""
+    }
+
+    EternalforgedAegis: {
+        DisplayName: Вечнокованая эгида
+        Tooltip: ""
+    }
+
+    BatteredGreaves: {
+        DisplayName: Потрёпанные поножи
+        Tooltip: ""
+    }
+
+    IronboundGreaves: {
+        DisplayName: Окованные поножи
+        Tooltip: ""
+    }
+
+    HallowforgedGreaves: {
+        DisplayName: Святокованые поножи
+        Tooltip: ""
+    }
+
+    AstralforgedSabatons: {
+        DisplayName: Астралокованые сабатоны
+        Tooltip: ""
+    }
+
+    EternalforgedSabatons: {
+        DisplayName: Вечнокованые сабатоны
+        Tooltip: ""
+    }
+
+    ApprenticeCap: {
+        DisplayName: Шапка подмастерья
+        Tooltip: ""
+    }
+
+    AcolyteHood: {
+        DisplayName: Капюшон послушника
+        Tooltip: ""
+    }
+
+    MysticCirclet: {
+        DisplayName: Мистический венец
+        Tooltip: ""
+    }
+
+    SpectralVeil: {
+        DisplayName: Спектральная вуаль
+        Tooltip: ""
+    }
+
+    EtherealDiadem: {
+        DisplayName: Эфирная диадема
+        Tooltip: ""
+    }
+
+    ApprenticeRobe: {
+        DisplayName: Роба подмастерья
+        Tooltip: ""
+    }
+
+    AcolyteVestment: {
+        DisplayName: Облачение послушника
+        Tooltip: ""
+    }
+
+    MysticGarb: {
+        DisplayName: Мистическое одеяние
+        Tooltip: ""
+    }
+
+    SpectralShroud: {
+        DisplayName: Спектральный покров
+        Tooltip: ""
+    }
+
+    EtherealMantle: {
+        DisplayName: Эфирная мантия
+        Tooltip: ""
+    }
+
+    ApprenticeSlippers: {
+        DisplayName: Тапочки подмастерья
+        Tooltip: ""
+    }
+
+    AcolyteSandals: {
+        DisplayName: Сандалии послушника
+        Tooltip: ""
+    }
+
+    MysticBoots: {
+        DisplayName: Мистические ботинки
+        Tooltip: ""
+    }
+
+    SpectralStriders: {
+        DisplayName: Спектральные походные ботинки
+        Tooltip: ""
+    }
+
+    EtherealGreaves: {
+        DisplayName: Эфирные поножи
         Tooltip: ""
     }
 
@@ -1808,8 +1989,8 @@ Items: {
             Можно использовать в простом ритуале
             На внутренней стороне обложки начертано:
 
-            C E C
-            - B -
+            Свеча Книга Свеча
+            ----- Блок ------
 
             'Она повествует о бесчинствах и несчастьях'
             '''
@@ -2546,6 +2727,7 @@ Keybinds: {
 
 Mechanics: {
     Shift: (Удерживайте Shift, чтобы увидеть связанные механики)
+    SmallShift: (shift)
     Mechanic: Механика
     Scroll: ({0} из {1}, используйте колёсико мыши для прокрутки)
 
@@ -2556,26 +2738,34 @@ Mechanics: {
 
     Self: {
         Tag: Тег механики
-        Description: Наведите курсор на подчёркнутые теги — такие, как этот, — чтобы узнать больше об их свойствах!
+        Description: Наведите курсор на подчёркнутые теги (как этот), чтобы узнать подробнее об их принципах работы!
     }
 
     ElementalDamage: {
         Tag: Стихийный урон
         Description:
             '''
-            Стихийный урон может добавляться (в виде фиксированного значения) или конвертироваться (в процентах) в другой тип урона
+            Стихийный урон может добавляться (в виде фиксированного значения) или конвертироваться (в процентах) в другие типы урона
             Это позволяет наносить дополнительный урон, создавать синергию с другими механиками и накладывать дебаффы
             '''
     }
 
     Fire: {
         Tag: Урон огнём
-        Description: Разновидность стихийного урона. При критических ударах накладывает дебафф «{$Buffs.IgnitedDebuff.DisplayName}» — периодический урон, сила которого зависит от нанесённого урона
+        Description:
+            '''
+            Разновидность стихийного урона
+            При критических ударах накладывает дебафф «{$Buffs.IgnitedDebuff.DisplayName}» — эффект периодического урона, сила которого зависит от нанесённого удара
+            '''
     }
 
     Cold: {
         Tag: Урон холодом
-        Description: Разновидность стихийного урона. Редко накладывает дебафф «{$Buffs.FreezeDebuff.DisplayName}», полностью останавливая действия врага; длительность эффекта зависит от нанесённого урона
+        Description:
+            '''
+            Разновидность стихийного урона
+            С небольшим шансом накладывает дебафф «{$Buffs.FreezeDebuff.DisplayName}», полностью лишая врага возможности действовать; длительность эффекта зависит от нанесённого урона
+            '''
     }
 
     Lightning: {
@@ -2585,7 +2775,7 @@ Mechanics: {
 
     Chaos: {
         Tag: Урон хаосом
-        Description: Урон хаосом накладывает дебафф «{$BuffName.Poisoned}» — накапливающийся периодический урон. Не относится к стихийному урону
+        Description: Урон хаосом накладывает дебафф «{$BuffName.Poisoned}» — накапливающийся эффект периодического урона. Не считается стихийным уроном
     }
 
     Ravencrest: {
@@ -2595,7 +2785,7 @@ Mechanics: {
 
     Mapping: {
         Tag: Картоходство
-        Description: Использование Картографического устройства позволяет перемещаться на любую имеющуюся у вас карту, в том числе во владения боссов
+        Description: С помощью Картографического устройства вы можете посещать любые имеющиеся у вас карты, в том числе владения боссов
     }
 
     Blocking: {
@@ -2610,7 +2800,7 @@ Mechanics: {
 
     MapAffixes: {
         Tag: Аффиксы карт
-        Description: Свойства, изменяющие характеристики карты и значительно повышающие её сложность. Масштабируются в зависимости от уровня области
+        Description: Свойства, изменяющие характеристики карты, значительно повышающие её сложность. Масштабируются в зависимости от уровня области
     }
 
     ItemAffixes: {
@@ -2676,12 +2866,12 @@ Mechanics: {
 
     BehaviorSpeed: {
         Tag: Скорость поведения
-        Description: Сочетает в себе [mechanic:ActionSpeed] и [mechanic:MovementSpeed] - определяет, как быстро существо движется и как часто совершает действия
+        Description: Сочетает в себе [mechanic:ActionSpeed] и [mechanic:MovementSpeed] - определяет, как быстро существо передвигается и как часто совершает действия
     }
 
     ActionSpeed: {
         Tag: Скорость действий
-        Description: Определяет, как часто существо может совершать действия
+        Description: Определяет, как часто существо может совершать любые действия
     }
 
     MovementSpeed: {
@@ -2692,6 +2882,21 @@ Mechanics: {
     Siphon: {
         Tag: Вытягивание здоровья
         Description: Восстанавливает здоровье при нанесении урона (кража здоровья)
+    }
+
+    Intelligence: {
+        Tag: Интеллект
+        Description: Характеристика игрока, которая увеличивает максимальный запас маны на 5 за каждые 10 очков атрибута
+    }
+
+    Strength: {
+        Tag: Сила
+        Description: Характеристика игрока, которая увеличивает максимальный запас здоровья на 5 за каждые 10 очков атрибута
+    }
+
+    Dexterity: {
+        Tag: Ловкость
+        Description: Характеристика игрока, которая увеличивает скорость атаки предметов на 0,1% за каждые 10 очков атрибута
     }
 }
 
@@ -2783,6 +2988,7 @@ NPCs: {
             Quest2: Фантастика! Я починю старую кузницу так быстро, как только смогу. Вот, держи этот меч. Это тренировочный образец, который я выковал прямо перед нападением. Опробуй его на зомби — эти гады уже порядком надоели. И если будешь так любезен, принеси ещё материалов. Думаю, тогда мы сможем по-настоящему поставить Железную наковальню на ноги!
             Quest3: Аж слеза наворачивается. Железная кузница почти готова к работе! Вот, прими урок из моего боевого прошлого: иногда нужно просто сойти с ума. Только будь осторожен! И заходи когда захочешь — ты мне очень помог!
             OldManDialogue: Приветствую, путник!.. Что говоришь? Тебя направил ко мне какой-то человек? Хм... припоминаю, заходил сюда один в красном плаще... какое-то время назад. Не скажу точно когда, но давненько. Он выспрашивал специфические вещи... книгу зла, две свечи и слиток зла. Говорил что-то о том, чтобы посыпать книгу порошком зла... но... это всё, что я знаю. Не уверен, что он вообще имел в виду.
+            EoWDialogue: До меня доходят тревожные вести из искажения. Один из наших, Морвен, пропал без вести, отправившись изучать эту расползающуюся тьму. В последнее время искажение стало куда агрессивнее... Если ты собираешься отправиться в эти искажённые земли, пожалуйста, постарайся его отыскать. Он очень находчив, но в таком кошмаре может сгинуть даже самый храбрый.
 
             Golem: {
                 Intro: Ах! Великий искатель приключений. Я всё искал новую работёнку и, в свете последних событий, кое-что присмотрел. Глубоко в джунглях есть храм, где можно найти интересные примеры металлообработки... или кирпичной обработки? Я ещё сам не разобрался. Там полно охраны, так что будь начеку!
@@ -3326,10 +3532,10 @@ NPCs: {
                 ...
                 Огни по обе стороны
                 Слиток зла лежит под ними
-                Книга, что ждёт своего часа
+                Книга, что ждёт часа своего
 
                 Множество кричащих черепов
-                На кирпичах темницы
+                На кирпичах Темницы
                 Явится портал
                 ...
                 '''
@@ -3900,7 +4106,7 @@ Passives: {
 
     CloseRangePassive: {
         Name: Урон по ближайшим врагам
-        Tooltip: Увеличивает урон по ближайшим врагам на {0}%
+        Tooltip: Увеличивает урон по [mechanic/shift:Nearby::ближайшим] врагам на {0}%
     }
 
     ChanceToBleedPassive: {
@@ -3980,52 +4186,52 @@ Passives: {
 
     ShockChancePassive: {
         Name: Шанс шока
-        Tooltip: Увеличивает шанс наложения дебаффа «{$Buffs.ShockDebuff.DisplayName}» на 5%
+        Tooltip: Увеличивает шанс наложить дебафф «{$Buffs.ShockDebuff.DisplayName}» на {0}%
     }
 
     IncreasedMinionDamagePassive: {
-        Name: Урон миньонов
-        Tooltip: Увеличивает урон миньонов на {0}%
+        Name: Урон призывателя
+        Tooltip: Увеличивает урон призывателя на {0}%
     }
 
     GlancingBlowsPassive: {
         Name: Скользящие удары
-        Tooltip: При блокировании вы получаете 50% урона, но максимальный шанс блока увеличивается до 50%, а перезарядка блока сокращается до 1 секунды
+        Tooltip: При [mechanic/shift:Blocking::блокировании] вы получаете 50% урона, но максимальный шанс блока увеличивается до 50%, а перезарядка блока сокращается до 1 секунды
     }
 
     IncreasedBlockChancePassive: {
         Name: Шанс блока
-        Tooltip: Увеличивает множитель шанса блока на {0}%
+        Tooltip: Увеличивает множитель шанса [mechanic/shift:Blocking::блока] на {0}%
     }
 
     AddedIntelligencePassive: {
         Name: Дополнительный интеллект
-        Tooltip: Увеличивает интеллект на {0}
+        Tooltip: Увеличивает [mechanic/shift:Intelligence::интеллект] на {0}
     }
 
     AddedStrengthPassive: {
         Name: Дополнительная сила
-        Tooltip: Увеличивает силу на {0}
+        Tooltip: Увеличивает [mechanic/shift:Strength::силу] на {0}
     }
 
     AddedDexterityPassive: {
         Name: Дополнительная ловкость
-        Tooltip: Увеличивает ловкость на {0}
+        Tooltip: Увеличивает [mechanic/shift:Dexterity::ловкость] на {0}
     }
 
     AddedIntelligenceStrengthPassive: {
         Name: Дополнительный интеллект и сила
-        Tooltip: Увеличивает интеллект и силу на {0}
+        Tooltip: Увеличивает [mechanic/shift=0;2:Intelligence::интеллект] и [mechanic/shift=1;2:Strength::силу] на {0}
     }
 
     AddedIntelligenceDexterityPassive: {
         Name: Дополнительный интеллект и ловкость
-        Tooltip: Увеличивает интеллект и ловкость на {0}
+        Tooltip: Увеличивает mechanic/shift=0;2:Intelligence::интеллект] и [mechanic/shift=1;2:Dexterity::ловкость] на {0}
     }
 
     AddedDexterityStrengthPassive: {
         Name: Дополнительная ловкость и сила
-        Tooltip: Увеличивает ловкость и силу на {0}
+        Tooltip: Увеличивает [mechanic/shift=0;2:Dexterity::ловкость] и [mechanic/shift=1;2:Strength::силу] на {0}
     }
 
     IncreasedPotionRecoveryPassive: {
@@ -4205,32 +4411,32 @@ Passives: {
 
     AddedFireDamageConversionPassive: {
         Name: Преобразование в урон огнём
-        Tooltip: Преобразует {0}% урона в урон от огня
+        Tooltip: Преобразует {0}% урона в урон [mechanic/shift:Fire::огнём]
     }
 
     AddedColdDamageConversionPassive: {
         Name: Преобразование в урон холодом
-        Tooltip: Преобразует {0}% урона в урон от холода
+        Tooltip: Преобразует {0}% урона в урон [mechanic/shift:Cold::холодом]
     }
 
     AddedLightningDamageConversionPassive: {
         Name: Преобразование в урон молнией
-        Tooltip: Преобразует {0}% урона в урон от молнии
+        Tooltip: Преобразует {0}% урона в урон [mechanic/shift:Lightning::молнией]
     }
 
     ChanceToChillPassive: {
         Name: Шанс окоченения
-        Tooltip: Увеличивает шанс наложения дебаффа «{$BuffName.Chilled}» на {0}%
+        Tooltip: Увеличивает шанс наложить дебаффа «{$BuffName.Chilled}» на {0}%
     }
 
     ChanceToFreezePassive: {
         Name: Шанс заморозки
-        Tooltip: Увеличивает шанс наложения дебаффа «{$Buffs.FreezeDebuff.DisplayName}» на {0}%
+        Tooltip: Увеличивает шанс наложить дебафф «{$Buffs.FreezeDebuff.DisplayName}» на {0}%
     }
 
     ChanceToIgnitePassive: {
         Name: Шанс воспламенения
-        Tooltip: Увеличивает шанс наложения дебаффа «{$Buffs.IgnitedDebuff.DisplayName}» на {0}%
+        Tooltip: Увеличивает шанс наложить дебафф «{$Buffs.IgnitedDebuff.DisplayName}» на {0}%
     }
 
     PercentStrongManaPotionsPassive: {
@@ -4275,32 +4481,32 @@ Passives: {
 
     AfterburnMastery: {
         Name: Дожигание
-        Tooltip: Увеличивает урон огнём на {0}%, но повышает получаемый вами урон на {1}%
+        Tooltip: Увеличивает урон [mechanic/shift:Fire::огнём] на {0}%, но повышает получаемый вами урон на {1}%
     }
 
     AddedFireDamageMultiplierPassive: {
         Name: Урон огнём
-        Tooltip: Увеличивает урон огнём на {0}%
+        Tooltip: Увеличивает урон [mechanic/shift:Fire::огнём] на {0}%
     }
 
     AddedColdDamageMultiplierPassive: {
         Name: Урон холодом
-        Tooltip: Увеличивает урон холодом на {0}%
+        Tooltip: Увеличивает урон [mechanic/shift:Cold::холодом] на {0}%
     }
 
     AddedLightningDamageMultiplierPassive: {
         Name: Урон молнией
-        Tooltip: Увеличивает урон молнией на {0}%
+        Tooltip: Увеличивает урон [mechanic/shift:Lightning::молнией] на {0}%
     }
 
     ScorchingFlamesMastery: {
         Name: Обжигающее пламя
-        Tooltip: Увеличивает шанс наложения дебаффа «{$Buffs.ScorchingFlamesDebuff.DisplayName}» на {0}%, который снижает сопротивление огню у врагов на 30%
+        Tooltip: Увеличивает шанс наложить дебафф «{$Buffs.ScorchingFlamesDebuff.DisplayName}» на {0}%, который снижает сопротивление огню у врагов на 30%
     }
 
     BurstingFuryMastery: {
         Name: Взрывная ярость
-        Tooltip: Убийство врага огненным уроном вызывает взрыв, наносящий {0}% от нанесённого урона
+        Tooltip: Убийство врага [mechanic/shift:Fire::огненным] уроном вызывает взрыв, наносящий {0}% от нанесённого урона
     }
 
     DeepPoolsMastery: {
@@ -4329,27 +4535,27 @@ Passives: {
 
     ElectrostaticAttractionMastery: {
         Name: Электростатический заряд
-        Tooltip: Нанесение урона молнией даёт кратковременный суммирующийся бонус к урону молнией (до 50%)
+        Tooltip: Нанесение урона [mechanic/shift:Lightning::молнией] даёт кратковременный суммирующийся бонус к урону молнией (до 50%)
     }
 
     ChannelingBurstMastery: {
         Name: Потоковый всплеск
-        Tooltip: Во время поддерживаемой атаки магический урон и расход маны увеличиваются пропорционально расстоянию до курсора
+        Tooltip: Во время непрерывной атаки магический урон и расход маны увеличиваются пропорционально расстоянию до курсора
     }
 
     EnergySurgeMastery: {
         Name: Энергетический выброс
-        Tooltip: В течение первых двух секунд поддерживаемой атаки вы наносите на {0}% больше урона
+        Tooltip: В течение первых двух секунд непрерывной атаки вы наносите на {0}% больше урона
     }
 
     SingleFocusMastery: {
         Name: Полная концентрация
-        Tooltip: Во время поддерживаемой атаки урон увеличивается на 3% каждые 0,5 секунды (суммируется до 10 раз)
+        Tooltip: Во время непрерывной атаки урон увеличивается на 3% каждые 0,5 секунды (суммируется до 10 раз)
     }
 
     ChainLightningMastery: {
         Name: Цепная молния
-        Tooltip: Урон молнией с шансом {0}% перескакивает на соседнего находящегося [mechanic/shift:Nearby:рядом] врага
+        Tooltip: Урон молнией с шансом {0}% перескакивает на соседнего находящегося [mechanic/shift:Nearby::рядом] врага
     }
 
     CriticalOverloadMastery: {
@@ -4359,7 +4565,7 @@ Passives: {
 
     AnticipatedStrikeMastery: {
         Name: Подготовленный удар
-        Tooltip: Если вы не использовали умения в течение 10 секунд, ваше следующее умение сработает дважды
+        Tooltip: Если вы не использовали умения в течение {0} секунд, ваше следующее умение сработает дважды
     }
 
     StarcallerMastery: {
@@ -4369,7 +4575,7 @@ Passives: {
 
     CenterOfTheUniverseMastery: {
         Name: Центр вселенной
-        Tooltip: При магическом попадании с шансом {0}% призывается вращающаяся планета (максимум 10), которая наносит 20% урона и восстанавливает 5 единиц маны при попадании
+        Tooltip: Магические снаряды с шансом {0}% призывают вращающуюся планету (максимум 14), которая наносит 40% урона и восстанавливает 15 единиц маны при попадании
     }
 
     OverloadingEnergyMastery: {
@@ -4388,12 +4594,12 @@ Passives: {
 
     SkillfulMagicMastery: {
         Name: Искусная магия
-        Tooltip: Использование умения на {0} секунд увеличивает критический урон и скорость передвижения
+        Tooltip: Использование умения на {0} секунды увеличивает критический урон и скорость передвижения
     }
 
     AutomagicMissileMastery: {
         Name: Автомагическая ракета
-        Tooltip: При магическом попадании с шансом {0}% выпускается самонаводящаяся ракета, наносящая 50% от исходного урона
+        Tooltip: Магические снаряды с шансом {0}% выпускают самонаводящуюся ракету, наносящую 50% исходного урона
     }
 
     SharpenedSpellsMastery: {
@@ -4443,7 +4649,7 @@ Passives: {
 
     LifeRegenRatePassive: {
         Name: Скорость регенерации здоровья
-        Tooltip: Увеличивает скорость регенерации здоровья на {0}%
+        Tooltip: Ускоряет естественную регенерацию здоровья на {0}%
     }
 
     LifeRegenCountPassive: {
@@ -4473,12 +4679,12 @@ Passives: {
 
     UndeadLegionMastery: {
         Name: Легион нежити
-        Tooltip: Увеличивает урон призывателя на {0}%. Этот бонус дополнительно увеличивается на 3% за каждый доступный слот миньона
+        Tooltip: Увеличивает урон призывателя на {0}%. Этот бонус дополнительно увеличивается на 3% за каждое максимальное количество миньонов
     }
 
     OverrunMastery: {
         Name: Усиление
-        Tooltip: Увеличивает скорость передвижения и действий миньонов на {0}%
+        Tooltip: Увеличивает скорость [mechanic/shift:MovementSpeed::передвижения] и [mechanic/shift:ActionSpeed::действий] миньонов на {0}%
     }
 
     MinionDamageAuraPassive: {
@@ -4523,7 +4729,7 @@ Passives: {
 
     SentryDuplicatedProjectilePassive: {
         Name: Шанс дополнительного снаряда стража
-        Tooltip: Даёт стражам шанс {0}% выпустить дополнительный снаряд
+        Tooltip: Стражи с шансом {0}% выпускают дополнительный снаряд
     }
 
     SacrificialSummonsMastery: {
@@ -4543,12 +4749,12 @@ Passives: {
 
     FasterMinionsPassive: {
         Name: Быстрые миньоны
-        Tooltip: Увеличивает скорость действий миньонов на {0}%
+        Tooltip: Увеличивает скорость [mechanic/shift:ActionSpeed::действий] миньонов на {0}%
     }
 
     FasterGrimoirePassive: {
         Name: Ускоренные призывы Гримуара
-        Tooltip: Существа, призванные Гримуаром, передвигаются и действуют на {0}% быстрее
+        Tooltip: Существа, призванные Гримуаром, [mechanic/shift:MovementSpeed::передвигаются] и [mechanic/shift:ActionSpeed::действуют] на {0}% быстрее
     }
 
     IncreasedGrimoireDamagePassive: {
@@ -4628,7 +4834,7 @@ Passives: {
 
     ChaoticReverberationMastery: {
         Name: Хаотический резонанс
-        Tooltip: "{0}% вашего урона дублируется в виде урона хаосом"
+        Tooltip: "{0}% вашего урона дублируется в виде урона [mechanic/shift:Chaos::хаосом]"
     }
 
     StrongerPotionsPassive: {
@@ -4728,7 +4934,7 @@ Passives: {
 
     IgnitingProjectilesPassive: {
         Name: Поджигающие снаряды
-        Tooltip: Увеличивает шанс наложения дебаффа «{$Buffs.IgnitedDebuff.DisplayName}» снарядами на {0}%
+        Tooltip: Увеличивает шанс наложить дебафф «{$Buffs.IgnitedDebuff.DisplayName}» снарядами на {0}%
     }
 
     ChanceForAdditionalProjectilePassive: {
@@ -4853,7 +5059,7 @@ Passives: {
 
     RangerMeleeChanceToBleedPassive: {
         Name: Мастер кровотечения
-        Tooltip: Увеличивает шанс наложить дебафф «{$Buffs.BleedDebuff.DisplayName}» стрелковыми атаками и атаками ближнего боя
+        Tooltip: Увеличивает шанс наложить дебафф «{$Buffs.BleedDebuff.DisplayName}» стрелковыми атаками и атаками ближнего боя на {0}%
     }
 
     BleedEffectivenessPassive: {
@@ -4883,17 +5089,17 @@ Passives: {
 
     BloodbenderMastery: {
         Name: Повелитель крови
-        Tooltip: Критический удар по врагу с дебаффом «{$Buffs.BleedDebuff.DisplayName}» похищает здоровье в размере {0}% от нанесённого урона за каждый стак этого дебаффа (перезарядка 0,5 секунды)
+        Tooltip: Критический удар по врагу с дебаффом «{$Buffs.BleedDebuff.DisplayName}» [mechanic/shift:Siphon::похищает] здоровье в размере {0}% от нанесённого урона за каждый стак этого дебаффа (перезарядка 0,5 секунды)
     }
 
     HealOnKillPassive: {
         Name: Исцеление при убийстве
-        Tooltip: С шансом {1}% вы восстанавливаете {0} здоровья при убийстве любого врага
+        Tooltip: При убийстве врага с шансом {1}% вы восстанавливаете {0} здоровья
     }
 
     BloodRushMastery: {
         Name: Прилив крови
-        Tooltip: При убийстве врага с шансом {0}% вы [mechanic/shift:Siphon::восстанавливаете] {1}% от максимального запаса здоровья
+        Tooltip: При убийстве врага с шансом {0}% вы восстанавливаете {1}% от максимального запаса здоровья
     }
 
     HeartAndMindMastery: {
@@ -4947,7 +5153,7 @@ Passives: {
 
     ReprisalMastery: {
         Name: Расплата
-        Tooltip: При успешном блокировании отражает {0}% урона в виде мощного рубящего удара
+        Tooltip: При успешном [mechanic/shift:Blocking::блокировании] отражает {0}% урона в виде мощного рубящего удара
     }
 
     AddRagePassive: {
@@ -4980,7 +5186,7 @@ Passives: {
         Tooltip:
             '''
             Увеличивает максимальный запас здоровья на {0}% за каждый заряд ярости
-            При максимальном уровне ярости весь урон преобразуется в урон огнём
+            При максимальном уровне ярости весь урон преобразуется в урон [mechanic/shift:Fire::огнём]
             '''
     }
 
@@ -5036,6 +5242,39 @@ Passives: {
     DangerMiningPassive: {
         Name: Паническая добыча
         Tooltip: Увеличивает скорость добычи на {0}%, пока [mechanic/shift:Nearby::рядом] находятся враги
+    }
+
+    OneMinionArmyKeystone: {
+        Name: Армия из одного миньона
+        Tooltip: Вы можете призвать только одного миньона, но ваш урон увеличивается на {0}% за каждое максимальное количество миньонов
+    }
+
+    DirectShotKeystone: {
+        Name: Прямой выстрел
+        Tooltip: Ваши снаряды наносят до 50% больше урона в пределах 20 блоков, но за пределами 20 блоков наносят до 50% меньше урона
+    }
+
+    BloodMagicKeystone: {
+        Name: Магия крови
+        Tooltip:
+            '''
+            Все затраты маны заменяются затратами здоровья
+            При нанесении любого урона вы восстанавливаете здоровье в размере {0}% от нанесённого урона (эффективность зависит от максимального запаса здоровья)
+            '''
+    }
+
+    CinderBastionMastery: {
+        Name: Оплот тлеющих углей
+        Tooltip:
+            '''
+            Урон от дебаффа «{$Buffs.IgnitedDebuff.DisplayName}» увеличивается на 2% за каждые 10 единиц максимального запаса здоровья
+            Во время движения вы накладываете на себя этот дебафф, который наносит вам урон в размере {0}% от вашего максимального запаса здоровья
+            '''
+    }
+
+    HollowVesselKeystone: {
+        Name: Полый сосуд
+        Tooltip: Ваш максимальный запас здоровья равен 1. Вы получаете невосприимчивость к урону от хаоса
     }
 }
 
@@ -5137,7 +5376,7 @@ Quests: {
 
     Skip: Пропустить?
     Sure: Уверены?
-    TalkTo: Поговорить с {0}{r0:Гаррик=Гарриком;Пайра Когврайт=Пайрой Когврайт;Траин Железнорук=Траином Железноруком;Аларик=Алариком;Моргана=Морганой;Элара=Эларой}
+    TalkTo: Поговорить с {0}{r0:Гаррик=Гарриком;Пайра Когврайт=Пайрой Когврайт;Траин Железнорук=Траином Железноруком;Аларик=Алариком;Моргана=Морганой;Элара=Эларой;Элдрик=Элдриком;Старик=Стариком;Райн=Райной;Портной=Портным}
     GiveThem: " и отдать:"
     Exploration.Ice: Исследовать снега ({0}%)
     Or: " или "
@@ -5195,7 +5434,7 @@ Quests: {
         BoCQuest: {
             Name: Бьющееся сердце
             Description: ""
-            SmashOrb: Разбить багряное сердце
+            SmashOrb: Пусть Ллойд разобьёт багряное сердце
             EnterDomain: Войти в обитель Мозга Ктулху
             KillBrain: Одолеть Мозг Ктулху
         }
@@ -5204,6 +5443,7 @@ Quests: {
             Name: Королевское приключение
             Description: ""
             KillQueen: Одолеть Королеву пчёл
+            EnterDomain: Погрузите призванного шершня из вашего Гримуара в мёд
         }
 
         DeerclopsQuest: {
@@ -5259,7 +5499,7 @@ Quests: {
             Wraiths: Убить призраков ({0}/{1})
             PossessedArmors: Убить одержимые доспехи ({0}/{1})
             WanderingEyes: Убить блуждающие глаза ({0}/{1})
-            CollectFragments: Собрать лунные фрагменты ({0}/{1})
+            CollectFragments: Собрать 5 лунных фрагментов из блуждающих глаз, одержимых доспехов или призраков
         }
 
         TinkerIntroQuest: {
@@ -5429,12 +5669,12 @@ SkillPassives: {
 
     IgniteChance: {
         Name: Шанс воспламенения
-        Tooltip: Увеличивает шанс наложения дебаффа «{$Buffs.IgnitedDebuff.DisplayName}» на {0}% при попадании
+        Tooltip: Увеличивает шанс наложить дебафф «{$Buffs.IgnitedDebuff.DisplayName}» на {0}% при попадании
     }
 
     ShockChance: {
         Name: Шанс шока
-        Tooltip: Увеличивает шанс наложения дебаффа «{$Buffs.ShockDebuff.DisplayName}» на {0}% при попадании
+        Tooltip: Увеличивает шанс наложить дебафф «{$Buffs.ShockDebuff.DisplayName}» на {0}% при попадании
     }
 
     Efficiency: {
@@ -5707,7 +5947,7 @@ SkillPassives: {
 
     FrostbiteMandibles: {
         Name: Обмороженные жвала
-        Tooltip: Увеличивает урон холодом, а также шанс наложения дебаффа «{$BuffName.Chilled}» на {0}% при попадании
+        Tooltip: Увеличивает урон холодом, а также шанс наложить дебафф «{$BuffName.Chilled}» на {0}% при попадании
     }
 
     AggressiveChill: {
@@ -5717,7 +5957,7 @@ SkillPassives: {
 
     IceVenom: {
         Name: Ледяной яд
-        Tooltip: Значительно увеличивает шанс наложения дебаффа «{$BuffName.Chilled}» при попадании
+        Tooltip: Значительно увеличивает шанс наложить дебафф «{$BuffName.Chilled}» при попадании
     }
 
     ShatteringCarapace: {
@@ -5822,7 +6062,7 @@ SkillPassives: {
 
     PainIsPleasure: {
         Name: Обжигающее покаяние
-        Tooltip: Пока вы стоите в собственном пламени, оно наносит вам урон, но значительно увеличивает урон [mechanic/shift=0;2:Chaos::хаосом] и [mechanic/shift=1;2:Fire::огнём]
+        Tooltip: Пока вы стоите в собственном пламени, оно наносит вам урон, но увеличивает урон [mechanic/shift=0;2:Chaos::хаосом] и [mechanic/shift=1;2:Fire::огнём] на 50%
     }
 
     AbyssalHunger: {
@@ -6229,6 +6469,8 @@ TooltipNotices: {
     NoDifferences: (Нет различий)
     TierXOfY: Ранг {0} из {1}
     AffixValueRange: Значения: {0}–{1}
+    Ephemeral: (Эфемерный)
+    Disabled: Этот предмет нельзя использовать - вместо этого ищите задания в Вороньем Пике
 }
 
 UI: {
@@ -6277,6 +6519,7 @@ UI: {
         Experience: Опыт
         DefenseHeader: Защита
         Life: Здоровье
+        EnergyShield: Энергетический щит
         LifeRegen: Регенерация здоровья/сек
         Mana: Мана
         ManaRegen: Восстановление маны/сек
@@ -6304,16 +6547,34 @@ UI: {
         MaxHasteCharges: Количество зарядов Спешки
         MaxFocusCharges: Количество зарядов Концентрации
         MaxAegisCharges: Количество зарядов Эгиды
+        GatheringHeader: Сбор ресурсов
+        MiningSpeed: Скорость добычи
+        BaitConservation: Сохранение наживки
+        TilePlacementSpeed: Скорость размещения блоков
+        WallPlacementSpeed: Скорость размещения стен
+        ItemPickupRange: Дальность подбора предметов
+        CoinPickupRange: Дальность подбора монет
+        MobilityHeader: Мобильность
+        JumpHeight: Высота прыжка
+        JumpSpeed: Скорость прыжка
+        WingFlightTime: Время полёта
+        WingGlideControl: Контроль парения
+        SwimSpeed: Скорость плавания
+        BreathCapacity: Запас воздуха
+        SafeFallDistance: Безопасная высота падения
+        ConsumablesHeader: Расходуемые предметы
+        PotionCooldownReduction: Снижение перезарядки зелий
+        BuffDuration: Длительность баффов
         MiscHeader: Прочее
         MaxMinions: Максимальное количество миньонов
-        AmmoConsumptionChance: Шанс не использовать боеприпасы
+        AmmoConsumptionChance: Сохранение боеприпасов
         HealthPotions: Количество зелий здоровья
         ManaPotions: Количество зелий маны
         FishingPower: Навык рыбной ловли
 
         Help: {
             Strength: Увеличивает максимальный запас здоровья на 5 за каждые 10 очков атрибута
-            Dexterity: Увеличивает общую скорость атаки на 1% за каждые 10 очков атрибута
+            Dexterity: Увеличивает общую скорость атаки на 0,1% за каждые 10 очков атрибута
             Intelligence: Увеличивает максимальный запас маны на 5 за каждые 10 очков атрибута
         }
     }
@@ -6411,10 +6672,14 @@ UI: {
         7:
             '''
             Далее: панель быстрого доступа также претерпела существенные изменения
-            Ты заметишь, что при выборе первого слота панели она переходит в «Боевой режим»
-            В этом режиме отображаются твои умения, оружие и зелья
-            При выборе любого другого слота включается «Обычный режим», в котором
-            остальная часть панели отображается как обычно
+            При выборе первого слота панель переходит в боевой режим
+            В нём отображаются твои умения, оружие и зелья
+            Слоты со 2 по 10 относятся к режиму строительства и отображают остальную
+            часть панели как обычно. Эти режимы намеренно разделены: прокрутка колёсиком мыши
+            работает только в пределах текущего режима, а клавиши боевых навыков по-прежнему
+            активируют навыки, а не выбирают слоты строительства
+            Используй клавиши панели быстрого доступа, чтобы при необходимости переключаться
+            между боевым режимом и режимом строительства
             Когда будешь готов, нажми кнопку «Далее»
             '''
         8:
@@ -6567,6 +6832,7 @@ UI: {
 
     PointsRemaining: Оставшиеся очки
     ResetPoints: Сбросить очки
+    ExpGain: +{0} опыта
     ExpBarHover:
         '''
         Уровень {0}
@@ -6601,19 +6867,39 @@ UI: {
     
     ItemFilter: {
         Title: Фильтры предметов
+        Filters: Фильтры
+        Rules: Правила
         New: Новый
         Duplicate: Дублировать
         Delete: Удалить
+        AddRule: Новое
+        DuplicateRule: Копировать
+        DeleteRule: Удалить
+        MoveUp: Переместить вверх
+        MoveDown: Переместить вниз
         SetActive: Сделать активным
         ClearActive: Сбросить активный
         ActiveMarker: "[Активен] {0}"
         DefaultName: Новый фильтр
+        DefaultRuleName: Правило {0}
         EmptyHint: Создайте или выберите фильтр, чтобы начать редактирование.
-        Name: Название
+        RuleEmptyHint: Добавьте правило в этот фильтр, чтобы начать редактирование.
+        FilterName: Название фильтра
+        RuleName: Название правила
+        RuleAction: Действие
+        RuleSummary: "{0}. {1}: {2}"
         ItemLevel: Уровень предмета (минимальный — максимальный)
         Any: Любой
         Rarity: Редкость (любая, если ничего не выбрано)
         BaseTypes: Базовый тип (любой, если ничего не выбрано)
+        SelectAllBaseTypes: Выбрать всё
+        DeselectAllBaseTypes: Снять выделение
+    
+        Actions: {
+            Show: Показать
+            Hide: Скрыть
+            Highlight: Подсветить
+        }
     
         Rarities: {
             Normal: Обычный
@@ -6631,6 +6917,10 @@ UI: {
             LevelAboveMax: Уровень {0} > максимального {1}
             RarityNotAllowed: Редкость {0} не входит в {{{1}}}
             BaseTypeNotAllowed: Базовый тип {0} не входит в {1}
+            NoMatchingRule: нет подходящего правила
+            ShownByRule: Правило '{0}' показало предмет
+            HiddenByRule: Правило '{0}' скрыло предмет
+            HighlightedByRule: Правило '{0}' подсветило предмет
         }
     
         RejectionChat: Фильтр «{0}» отклонил «{1}» — {2}
@@ -6638,7 +6928,7 @@ UI: {
 
     CurrencyPouch: {
         Title: Кошель валют
-        Apply: Нажмите ПКМ, чтобы применить к предмету в руках
+        Apply: Нажмите ПКМ, чтобы применить к предмету
         ExtractOne: Ctrl + ЛКМ: забрать 1 предмет
         ExtractAll: Ctrl + Shift + ЛКМ: забрать всё сразу
         StoreAll: Shift + ЛКМ: сложить всё из инвентаря
@@ -6705,7 +6995,7 @@ UI: {
         MapSlot: Слот для карты
         ActivatePortal: Открыть портал
         DeactivatePortal: Закрыть портал
-        ConfirmClosePortal: Подтвердить закрытие
+        ConfirmClosePortal: Подтвердить
         AlreadyInUse: Картографическое устройство уже используется!
         InjectResource: Поместить ресурс
         EjectResource: Извлечь ресурс
@@ -6713,6 +7003,9 @@ UI: {
         MapStealAegisChargeAffix.Description: Враги похищают заряд Эгиды при попадании по вам
         MapStealFocusChargeAffix.Description: Враги похищают заряд Концентрации при попадании по вам
         MapStealHasteChargeAffix.Description: Враги похищают заряд Спешки при попадании по вам
+        MapFireAddedDamageAffix.Description: Враги наносят {1}{0}% дополнительного урона огнём
+        MapColdAddedDamageAffix.Description: Враги наносят {1}{0}% дополнительного урона холодом
+        MapLightningAddedDamageAffix.Description: Враги наносят {1}{0}% дополнительного урона молнией
         ClosePortalMapWarning: Закрытие портала уничтожит карту!
         ClosePortalResourceWarning: Закрытие портала приведёт к потере портальной жидкости!
         InjectionModuleUnavailable: ???

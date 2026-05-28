@@ -29,7 +29,17 @@ public class PathOfTerrariaItems : IItemGender
                 "Crown",
                 "FirelordsWill",
                 "CoralCrown",
-                "StoneStar"
+                "StoneStar",
+                "BatteredMail",
+                "IronboundCuirass",
+                "HallowforgedCuirass",
+                "AstralforgedAegis",
+                "EternalforgedAegis",
+                "ApprenticeCap",
+                "SpectralVeil",
+                "EtherealDiadem",
+                "ApprenticeRobe",
+                "EtherealMantle",
             ];
     
             if (ModInstances.PathOfTerraria != null)
@@ -59,7 +69,9 @@ public class PathOfTerrariaItems : IItemGender
                 "AquamarineRing",
                 "LapisLazuliRing",
                 "SapphireRing",
-                "ProlifRing"
+                "ProlifRing",
+                "AcolyteVestment",
+                "MysticGarb",
             ];
     
             if (ModInstances.PathOfTerraria != null)
@@ -80,7 +92,18 @@ public class PathOfTerrariaItems : IItemGender
                 "CrystalVisors",
                 "Greaves",
                 "Tassets",
-                "Treads"
+                "Treads",
+                "Boots",
+                "BatteredGreaves",
+                "IronboundGreaves",
+                "HallowforgedGreaves",
+                "AstralforgedSabatons",
+                "EternalforgedSabatons",
+                "ApprenticeSlippers",
+                "AcolyteSandals",
+                "MysticBoots",
+                "SpectralStriders",
+                "EtherealGreaves",
             ];
     
             if (ModInstances.PathOfTerraria != null)

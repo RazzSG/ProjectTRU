@@ -1450,7 +1450,7 @@ Items: {
 
     NuclearTerrorRelic: {
         DisplayName: Инфернальная реликвия ядерного террора
-        Tooltip: ""
+        Tooltip: "{0}"
     }
 
     SakuraTreetop: {

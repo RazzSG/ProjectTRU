@@ -32,6 +32,7 @@ public class PathOfTerrariaGlobalItem : GlobalItem
             tooltips.ReplaceText("базовый урон ед. урона ближнего боя damage", "ед. оставшегося урона ближнего боя");
             tooltips.ReplaceText("базовый урон ед. магического урона damage", "ед. оставшегося магического урона");
             tooltips.ReplaceText("базовый урон ед. урона призывателя damage", "ед. оставшегося урона призывателя");
+            tooltips.ReplaceText("базовый урон ед. урона damage", "ед. оставшегося урона");
             tooltips.ReplaceText("base ед. стрелкового урона damage", "ед. оставшегося стрелкового урона");
             tooltips.ReplaceText("base ед. урона ближнего боя damage", "ед. оставшегося урона ближнего боя");
             tooltips.ReplaceText("base ед. магического урона damage", "ед. оставшегося магического урона");
