@@ -250,6 +250,7 @@ public class ThoriumModItems : IItemGender
                 "MorningDew",
                 "PaganGrasp",
                 "TrueLightAnguish",
+                "CrawdadClaw",
             };
         
             if (ModInstances.Thorium != null)

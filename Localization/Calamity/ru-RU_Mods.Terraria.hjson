@@ -1,27 +1,60 @@
 ﻿Buffs: {
-    Venom.ItemTooltip: Истощение - 30 ед. урона в секунду
+    Venom: {
+        ItemTooltipPlayer: Истощение - 15 ед. урона в секунду
+        ItemTooltipEnemy: Истощение - 30 ед. урона в секунду
+    }
+    
     BetsysCurse.ItemTooltip: -40 защиты
-    CursedInferno.ItemTooltip: Жар - 24 ед. урона в секунду
-    Frostburn2.ItemTooltip: Холод - 50 ед. урона в секунду
-    Frostburn.ItemTooltip: Холод - 8 ед. урона в секунду
-    OnFire3.ItemTooltip: Жар - 15 ед. урона в секунду
-    OnFire.ItemTooltip: Жар - 6 ед. урона в секунду
-    Ichor.ItemTooltip: -10 защиты
-    Oiled.ItemTooltip:
+    
+    CursedInferno: {
+        ItemTooltipPlayer: Жар - 12  ед. урона в секунду
+        ItemTooltipEnemy: Жар - 24 ед. урона в секунду
+    }
+    
+    Frostburn2: {
+        ItemTooltipPlayer: Холод - 8 ед. урона в секунду
+        ItemTooltipEnemy: Холод - 25 ед. урона в секунду
+    }
+    
+    Frostburn: {
+        ItemTooltipPlayer: Холод - 8 ед. урона в секунду
+        ItemTooltipEnemy: Холод - 8 ед. урона в секунду
+    }
+    
+    OnFire3.ItemTooltipEnemy: Жар - 15 ед. урона в секунду
+    
+    OnFire: {
+        ItemTooltipPlayer: Жар - 6 ед. урона в секунду
+        ItemTooltipEnemy: Жар - 6 ед. урона в секунду
+    }
+    
+    Ichor.ItemTooltipEnemy: -10 защиты
+    Oiled.ItemTooltipEnemy:
     	'''
     	Жар - 25 ед. урона в секунду. Множители дебаффов жара действуют на этот дебафф в 2 раза сильнее
     	Наносит урон только в сочетании с другим дебаффом жара
     	'''
-    Poisoned.ItemTooltip: Истощение - 6 ед. урона в секунду
-    PotionSickness.ItemTooltip: ""
-    Slimed.ItemTooltip: Усиливает урон от дебаффов жара
-    Wet.ItemTooltip: Усиливает урон от электрических дебаффов
-    Electrified.ItemTooltip:
-        '''
-        Электричество - 10,5 ед. урона в секунду
-        Наносит в 4 раза больше урона движущимся целям
-        '''
-    Honey.ItemTooltip:
+    Poisoned.ItemTooltipEnemy: Истощение - 6 ед. урона в секунду
+    PotionSickness.ItemTooltipPlayer: ""
+    Slimed.ItemTooltipEnemy: Усиливает урон от дебаффов жара
+    Wet.ItemTooltipEnemy: Усиливает урон от электрических дебаффов
+    Confused.ItemTooltipEnemy: Изменяет управление движением на противоположное
+    Webbed.ItemTooltipEnemy: Замедляет врагов
+    
+    Electrified: {
+    	ItemTooltipPlayer:
+    	    '''
+    	    Electric - 4 ед. урона в секунду
+    	    Наносит в 5 раз больше урона движущимся игрокам
+    	    '''
+    	ItemTooltipEnemy:
+    	    '''
+    	    Electric - 15 ед. урона в секунду
+    	    Наносит в 4 раза больше урона движущимся целям
+    	    '''
+    }
+    
+    Honey.ItemTooltipPlayer:
     	'''
     	Увеличивает регенерацию здоровья на 1
     	Ускоряет естественную регенерацию здоровья на 300%

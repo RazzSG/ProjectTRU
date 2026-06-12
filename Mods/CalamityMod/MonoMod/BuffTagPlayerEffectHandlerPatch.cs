@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Reflection;
 using CalamityMod.ChatTags;
-using CalamityMod.Items.Placeables;
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
@@ -13,19 +12,19 @@ using Terraria;
 
 namespace CalamityRuTranslate.Mods.CalamityMod.MonoMod;
 
-public class UniqueDrawPatch : ILPatcher
+public class BuffTagPlayerEffectHandlerUniqueDrawPatch : ILPatcher
 {
     public override bool AutoLoad => ModInstances.Calamity != null && TRuConfig.Instance.CalamityModLocalization && TranslationHelper.IsRussianLanguage;
-        
-    public override MethodInfo ModifiedMethod => typeof(CalamityBuffTagHandler.Snippet).FindMethod(nameof(CalamityBuffTagHandler.Snippet.UniqueDraw));
+    
+    public override MethodInfo ModifiedMethod => typeof(BuffTagPlayerEffectHandler.Snippet).FindMethod(nameof(BuffTagPlayerEffectHandler.Snippet.UniqueDraw));
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {
         ILCursor cursor = new ILCursor(il);
-            
+        
         TranslationHelper.ModifyIL(il, " ", " «");
         TranslationHelper.ModifyIL(il, 26f, 22f, 2);
-
+        
         if (cursor.TryGotoNext(MoveType.Before, i => i.MatchCall(typeof(string), nameof(string.Concat))))
         {
             cursor.Emit(OpCodes.Ldstr, "»");
@@ -35,17 +34,16 @@ public class UniqueDrawPatch : ILPatcher
     };
 }
 
-public class GetStringLengthPatch : OnPatcher
+public class BuffTagPlayerEffectHandlerGetStringLengthPatch : OnPatcher
 {
     public override bool AutoLoad => ModInstances.Calamity != null && TRuConfig.Instance.CalamityModLocalization && TranslationHelper.IsRussianLanguage;
-        
-    public override MethodInfo ModifiedMethod => typeof(CalamityBuffTagHandler.Snippet).FindMethod(nameof(CalamityBuffTagHandler.Snippet.GetStringLength));
+    
+    public override MethodInfo ModifiedMethod => typeof(BuffTagPlayerEffectHandler.Snippet).FindMethod(nameof(BuffTagPlayerEffectHandler.Snippet.GetStringLength));
     
     public override Delegate Delegate => Translation;
-
-    private float Translation(Func<CalamityBuffTagHandler.Snippet, DynamicSpriteFont, float> orig, CalamityBuffTagHandler.Snippet self, DynamicSpriteFont font)
+    
+    private float Translation(Func<BuffTagPlayerEffectHandler.Snippet, DynamicSpriteFont, float> orig, BuffTagPlayerEffectHandler.Snippet self, DynamicSpriteFont font)
     {
         return (!self.DrawIcon ? 0f : 22f + font.MeasureString(" «").X) + font.MeasureString(Lang.GetBuffName(self.BuffId)).X + font.MeasureString("»").X * self.Scale;
     }
-    
 }

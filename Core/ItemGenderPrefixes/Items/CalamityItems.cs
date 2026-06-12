@@ -53,7 +53,6 @@ public class CalamityItems : IItemGender
                 "SigilofCalamitas",
                 "SpectralVeil",
                 "TheSponge",
-                "VoidofExtinction",
                 "HadalMantle",
                 "SoulofCryogen",
                 "PolarisParrotfish",
@@ -256,6 +255,8 @@ public class CalamityItems : IItemGender
                 "AmphibiansGuitar",
                 "Kingsbane",
                 "AnechoicPlating",
+                "LemonNade",
+                "FadedIdolatry",
             };
 
             if (ModInstances.Calamity != null)
@@ -360,6 +361,7 @@ public class CalamityItems : IItemGender
                 "ExecutionersBlade",
                 "HalleysInferno",
                 "YinYo",
+                "CrushingEgo",
             };
             
             if (ModInstances.Calamity != null)

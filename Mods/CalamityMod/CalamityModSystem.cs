@@ -86,6 +86,20 @@ public class CalamityModSystem : ModSystem
                     data.Pages[11].Lines = ["[Shaking:[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):ИСЧЕЗНИ!]]]"];
                     data.Pages[12].Lines = ["[Shaking:[Scale(1.5):[Colors(2, 0.5, 00FFFF, FF00FF):УМРИ!]]]"];
                 break;
+                
+                case "Mods.CalamityMod.EvilSmasher.CrimsonAltar":
+                    data.Pages[0].Lines = ["Ты, сразивший башню из плоти...[Pause(0.25)] у нас есть предложение, достойное твоих деяний."];
+                    data.Pages[1].Lines = ["Мы даруем тебе неслыханную мощь...[Pause(0.25)] [Shaking:способную стереть твоих врагов в порошок!]"];
+                    data.Pages[2].Lines = ["Лишь преподнеси нам святой молот на алтарь."];
+                    data.Pages[3].Lines = ["Склонись пред нами, и мы наделим тебя силой."];
+                    break;
+                
+                case "Mods.CalamityMod.EvilSmasher.DemonAltar":
+                    data.Pages[0].Lines = ["Носитель святого молота...[Pause(0.25)] [Wavy:жаждешь ли ты вкусить истинной власти?]"];
+                    data.Pages[1].Lines = ["Отверзнутся очи твои...[Pause(0.25)] [Shaking:и станешь ты подобен богам!]"];
+                    data.Pages[2].Lines = ["Предай нам молот сей на алтарь."];
+                    data.Pages[3].Lines = ["Покорись, и ты познаешь наше безграничное могущество."];
+                    break;
             }
         }
     }
