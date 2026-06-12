@@ -6,7 +6,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CalamityMod">
-      <HintPath>..\ModAssemblies\CalamityMod_v2.1.1.dll</HintPath>
+      <HintPath>..\ModAssemblies\CalamityMod_v2.2.dll</HintPath>
     </Reference>
     <Reference Include="CatalystMod">
       <HintPath>..\ModAssemblies\CatalystMod_v1.1.2.3.dll</HintPath>
@@ -24,7 +24,7 @@
       <HintPath>..\ModAssemblies\NoxusBoss_v1.2.27.dll</HintPath>
     </Reference>
     <Reference Include="PathOfTerraria">
-      <HintPath>..\ModAssemblies\PathOfTerraria_v0.3.4.dll</HintPath>
+      <HintPath>..\ModAssemblies\PathOfTerraria_v0.3.9.dll</HintPath>
     </Reference>
     <Reference Include="Redemption">
       <HintPath>..\ModAssemblies\Redemption_v0.8.0.4100.dll</HintPath>

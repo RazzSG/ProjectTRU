@@ -201,7 +201,6 @@ public class VanillaItems : IItemGender
         ItemID.TitaniumChainsaw,
         ItemID.ChlorophyteChainsaw,
         ItemID.KOCannon,
-        ItemID.VampireKnives,
         ItemID.SawtoothShark,
         ItemID.VortexChainsaw,
         ItemID.NebulaChainsaw,
@@ -344,5 +343,6 @@ public class VanillaItems : IItemGender
         ItemID.JimsDroneVisor,
         ItemID.TheRottedFork,
         ItemID.ChainGuillotines,
+        ItemID.VampireKnives,
     };
 }

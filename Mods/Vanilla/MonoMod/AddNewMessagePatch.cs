@@ -99,6 +99,9 @@ public class AddNewMessagePatch : ILoadable
             "A Shadesoul Gateway has been closed..." => "Врата пустой души закрылись...",
             "A Shadesoul Gateway has faded by itself..." => "Врата пустой души исчезли сами собой...",
             "The fowl legion charges in!" => "Кудах-легион идёт в наступление!",
+            
+            // Path Of Terraria
+            "Something tells me I shouldn't break this yet." => "Что-то подсказывает мне, что это пока не стоит разрушать.",
             _ => text
         };
 

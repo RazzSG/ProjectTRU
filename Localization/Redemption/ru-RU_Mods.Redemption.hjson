@@ -3873,7 +3873,7 @@ Items: {
     }
 
     HardlightBoots: {
-        DisplayName: Светопрочные ботинки
+        DisplayName: Твёрдосветовые ботинки
         Tooltip:
             '''
             Увеличивает урон на 5%
@@ -3882,7 +3882,7 @@ Items: {
     }
 
     HardlightCasque: {
-        DisplayName: Светопрочная каска
+        DisplayName: Твёрдосветовая каска
         Tooltip:
             '''
             Увеличивает ритуальный урон на 13%
@@ -3892,7 +3892,7 @@ Items: {
     }
 
     HardlightCowl: {
-        DisplayName: Светопрочный клобук
+        DisplayName: Твёрдосветовой клобук
         Tooltip:
             '''
             Увеличивает магический урон на 13%
@@ -3902,7 +3902,7 @@ Items: {
     }
 
     HardlightHelm: {
-        DisplayName: Светопрочный шлем
+        DisplayName: Твёрдосветовой шлем
         Tooltip:
             '''
             Увеличивает урон ближнего боя на 13%
@@ -3911,7 +3911,7 @@ Items: {
     }
 
     HardlightHood: {
-        DisplayName: Светопрочный капюшон
+        DisplayName: Твёрдосветовой капюшон
         Tooltip:
             '''
             Увеличивает урон призывателя на 13%
@@ -3920,12 +3920,12 @@ Items: {
     }
 
     HardlightPlate: {
-        DisplayName: Светопрочные латы
+        DisplayName: Твёрдосветовые латы
         Tooltip: Увеличивает урон на 10%
     }
 
     HardlightVisor: {
-        DisplayName: Светопрочный визор
+        DisplayName: Твёрдосветовой визор
         Tooltip:
             '''
             Увеличивает стрелковый урон на 13%
@@ -6503,12 +6503,12 @@ Items: {
 
     OmegaBox2: {
         DisplayName: Музыкальная шкатулка (Омега-Облитератор)
-        Tooltip: Universe - Hailfire
+        Tooltip: TYESKI - Hailfire
     }
 
     PZMusicBox: {
         DisplayName: Музыкальная шкатулка (Нулевой пациент)
-        Tooltip: Universe - Xenostate
+        Tooltip: TYESKI - Xenostate
     }
 
     SlayerShipBox: {
@@ -7994,7 +7994,6 @@ Items: {
             '''
             Удерживайте <left>, чтобы зарядить сияющий круговой удар
             Нажмите <right> в момент, когда вы вот-вот получите физический урон (контактный или от оружия), чтобы выполнить парирование, дающее кадры неуязвимости
-            Парирование контактного урона не сработает, если враг неподвижен или движется вдвое медленнее вас
             После успешного парирования нажмите <left> для мгновенного контрудара сияющим круговым ударом
             Наносит двойной урон демоническим врагам
             '''
@@ -8552,7 +8551,7 @@ Items: {
         Tooltip:
             '''
             Нажмите <left>, чтобы выполнить комбо-атаку ближнего радиуса действия
-            Нажмите <right>, чтобы выполнить выпад вперёд, который наносит больше урона в конце движения
+            Нажмите <right>, чтобы выполнить сверхзвуковой выпад, дающий кадры неуязвимости
             Успешное попадание выпадом позволяет повторно использовать <right>, но промах вызывает перезарядку в 5 секунд
             '''
     }
@@ -10855,6 +10854,31 @@ Items: {
         DisplayName: Заражённый глаз
         Tooltip: ""
     }
+
+    LostSoulBottle: {
+        DisplayName: Заблудшая душа в банке
+        Tooltip: ""
+    }
+
+    EpidotraMusicBox: {
+        DisplayName: Музыкальная шкатулка (Эпидотра)
+        Tooltip: musicman - Epidotra
+    }
+
+    WeirdBloomPainting: {
+        DisplayName: Картина «Стремление к совершенству»
+        Tooltip: "'М. Джон'"
+    }
+
+    AncientFlowerSeeds: {
+        DisplayName: Семена древнего цветка
+        Tooltip: ""
+    }
+
+    TallAncientGrassSeeds: {
+        DisplayName: Семена высокой древней травы
+        Tooltip: ""
+    }
 }
 
 NPCs: {
@@ -11631,6 +11655,7 @@ Tiles: {
     ClayStatuetteTile.MapEntry: "{$Items.ClayStatuette.DisplayName}"
     DesertStatuetteTile.MapEntry: "{$Items.DesertStatuette.DisplayName}"
     ObsidianStatuetteTile.MapEntry: "{$Items.ObsidianStatuette.DisplayName}"
+    LostSoulBottleTile.MapEntry: "{$Items.LostSoulBottle.DisplayName}"
 }
 
 Keybinds: {
