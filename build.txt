@@ -1,6 +1,6 @@
 displayName = Project tRU
 author = tRU Team
-version = 3.2.1.134
+version = 3.2.1.135
 hideCode = true
 hideResources = true
 translationMod = true

@@ -1601,7 +1601,7 @@ public class ArmorSetBonusPreviewSystem : ModSystem
         {
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("ThoriumMod/WhisperingHood"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("ThoriumMod/WhisperingHood", "SetBonus", 1, 1);
+                string bonus = TranslationHelper.GetTextValue("ThoriumMod/WhisperingHood", "SetBonus", 6);
                 
                 return bonus;
             }));

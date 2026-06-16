@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Reflection;
-using System.Text.RegularExpressions;
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
@@ -20,19 +19,11 @@ public class TrappedChestItemBasePatch : OnPatcher
 
     private LocalizedText Translation(Func<TrappedChestItemBase, LocalizedText> orig, TrappedChestItemBase self)
     {
-        string chestName = self.ChestItem.DisplayName.Value;
-        string newName;
+        string key = $"Mods.ThoriumMod.Items.{self.Name}.DisplayName";
         
-        if (chestName.Contains("Сундук"))
-        {
-            Regex regex = new Regex("Сундук");
-            newName = regex.Replace(chestName, "Сундук-ловушка", 1);
-        }
-        else
-        {
-            newName = $"{chestName}-ловушка";
-        }
+        if (Language.Exists(key))
+            return Language.GetText(key);
         
-        return Language.GetOrRegister("Mods.ThoriumMod.Items." + self.Name, () => newName);
+        return orig(self);
     }
 }
