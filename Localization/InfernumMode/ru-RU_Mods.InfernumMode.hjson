@@ -1943,7 +1943,7 @@ Tiles: {
 
 UI: {
     MenuStyle: Стиль Infernum
-    InfernumDrop: Шанс выпадения на сложности Инфернум
+    InfernumDrop: Шанс выпадения в режиме Инфернум
     NotExpertWarning: "[c/ff00000:ИНФЕРНУМ МОЖНО ВКЛЮЧИТЬ ТОЛЬКО В РЕЖИМЕ ЭКСПЕРТА]"
     AchievementsHeader: Предсмертные желания
     AchievementsLabelText: Следующий
