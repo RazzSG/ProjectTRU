@@ -188,7 +188,7 @@ public class ThoriumNpcChat : GlobalNPC
                 "You didn't see any giant bird shadows while you were out in the desert, did you?" => "Ты не заметил в пустыне гигантских теней, похожих на птиц?",
                 "I had originally stopped just to refill my canteen, but you seem like someone who can deal with a real threat!" => "Я зашёл сюда, чтобы просто пополнить запасы, но ты выглядишь как тот, кто справится с реальной угрозой!",
                 "Have you ever heard tale of the Thunder Birds? Legend says they had long protected our world from cataclysmic threats, before a disagreement between them and three individuals led to their disappearance..." => "Ты когда-нибудь слышал о Громовых птицах? Легенда гласит, что они долго защищали наш мир от катастроф, но однажды между ними и тремя людьми произошёл конфликт, который привёл к их исчезновению...",
-                "If you're interested in the secrets of my people, be sure to purchase a 'Blank Technique Scroll'. They offer great power to those that utilize them well..." => "Если ты хочешь узнать секреты моего народа, обязательно купи 'Пустой свиток техники'. Он даст огромную силу тому, кто умеет им правильно пользоваться...",
+                "If you're interested in the secrets of my people, be sure to purchase a 'Blank Technique Scroll'. They offer great power to those that utilize them well..." => "Если ты хочешь узнать секреты моего народа, обязательно купи пустой свиток техники. Он даст огромную силу тому, кто умеет им правильно пользоваться...",
                 "I have seen so much evil in my travels... I only hope someone can put a stop to them!" => "Я повидал столько зла в своих странствиях... Только бы кто-нибудь смог их остановить!",
                 "It seems I was right to place my trust in you, my friend. You've protected us from every threat that arose, and for that, I'm truly grateful. Maybe now I can finally relax a little." => "Похоже, я был прав, доверившись тебе, дружище. Ты защитил нас от всех угроз, и я тебе за это очень благодарен. Может, теперь я наконец смогу немного расслабиться.",
                 _ => chat
@@ -198,7 +198,7 @@ public class ThoriumNpcChat : GlobalNPC
             {
                 if (chat == $"{GetNPCName(207)} was interested in dyeing my attire, but his choice of plant dye was 'strange' to say the least.")
                 {
-                    chat = $"{GetNPCName(207)} хотел покрасить мне наряд, но его выбор растительного красителя был, мягко говоря, 'странным'.";
+                    chat = $"{GetNPCName(207)} хотел покрасить мне наряд, но его выбор растительного красителя был, мягко говоря, «странным».";
                 }
             }
             
@@ -237,7 +237,7 @@ public class ThoriumNpcChat : GlobalNPC
                 "I often take visits to the jungle. I can understand the aversion to the place, but the creatures within don't seem to hassle me..." => "Я частенько захаживаю в джунгли. Могу понять, что это место вызывает отвращение, но местная фауна меня не трогает...",
                 "My mother was a well known herbalist back in the day. She doesn't talk about my father, though. I wonder why?" => "Моя мама в своё время была знаменитой травницей. О папе она, однако, никогда не говорит. Интересно, почему?",
                 "The natural world is quite a wonder. Every little place has its own charm. Some more than others!" => "Мир природы действительно чудесен. Каждый уголок имеет своё очарование. В некоторых местах оно выражено сильнее, чем в других!",
-                "Normally I'd say something like, 'nature finds a way', but I'm not even sure if Mother Nature could survive if you failed to stop those spirits' carnage... Please take these lilies, in gratitude for your courage!" => "Ну, обычно я бы сказал что-нибудь вроде 'природа всегда находит путь', но я даже не уверен, что сама Мать-Природа смогла бы выжить, если бы ты не остановил бойню, учинённую этими духами... Прими эти лилии в благодарность за твою храбрость!",
+                "Normally I'd say something like, 'nature finds a way', but I'm not even sure if Mother Nature could survive if you failed to stop those spirits' carnage... Please take these lilies, in gratitude for your courage!" => "Ну, обычно я бы сказал что-нибудь вроде «природа всегда находит путь», но я даже не уверен, что сама Мать-Природа смогла бы выжить, если бы ты не остановил бойню, учинённую этими духами... Прими эти лилии в благодарность за твою храбрость!",
                 _ => chat
             };
             
@@ -383,7 +383,7 @@ public class ThoriumNpcChat : GlobalNPC
                 "Ah, a woman of music! How well can you carry a tune?" => "Да, ты, похоже, человек музыки! А как у тебя с голосом?",
                 "You know, people would pay good money for quality music like yours. Care to hear my business proposition...?" => "Знаешь, за такую качественную музыку, как твоя, люди готовы платить хорошие деньги. Не хочешь услышать моё деловое предложение?..",
                 "In my younger years I was quite the experienced bard too! I've since left that behind me, though." => "Да, в молодости я тоже был неплохим бардом! Но это всё уже позади.",
-                "Amazing work, friend! I sold off all my 'end of the world' merchandise, and now thanks to you, I can actually live long enough to kick back and enjoy the benefits!" => "Отлично сработано, друг! Я распродал все свои товары для 'конца света', и теперь, благодаря тебе, смогу прожить достаточно долго, чтобы расслабиться и насладиться всеми прелестями жизни!",
+                "Amazing work, friend! I sold off all my 'end of the world' merchandise, and now thanks to you, I can actually live long enough to kick back and enjoy the benefits!" => "Отлично сработано, друг! Я распродал все свои товары для «конца света», и теперь, благодаря тебе, смогу прожить достаточно долго, чтобы расслабиться и насладиться всеми прелестями жизни!",
                 _ => chat
             };
         }
@@ -436,7 +436,7 @@ public class ThoriumNpcChat : GlobalNPC
         {
             chat = chat switch
             {
-                "Yeah, yeah, everyone's going crazy over your 'saving the world' thing. But have you saved the 200 fancy fish I've asked for? If not then it's back to work, minion!" => "Да-да, все в восторге от твоего 'спасения мира'. А две сотни моих золотых рыбок ты спас? Нет? Тогда назад к работе, миньон!",
+                "Yeah, yeah, everyone's going crazy over your 'saving the world' thing. But have you saved the 200 fancy fish I've asked for? If not then it's back to work, minion!" => "Да-да, все в восторге от твоего «спасения мира». А две сотни моих золотых рыбок ты спас? Нет? Тогда назад к работе, миньон!",
                 "'Ocean Essences', huh? Do you think if I have enough, I'll become the Supreme God-Emperor of all Fishkind?! I've got a new quest for you, Supreme Helper Minion! Get for me 100 MILLION of those Ocean thingies, pronto!" => "Эссенции океана, говоришь? Думаешь, если у меня их будет достаточно, я стану Верховным Богом-Императором всех рыб? А ну-ка, Верховный помощник-миньон, живо добудь мне 100 МИЛЛИОНОВ этих штуковин, и быстро!",
                 _ => chat
             };
@@ -561,7 +561,7 @@ public class ThoriumNpcChat : GlobalNPC
         {
             chat = chat switch
             {
-                "Wasn't aware the primordial forces of Terraria had a sense of humor. 'I saved the world and all I got was this gaudy crown' and all that, right hun?" => "И не знала, что первозданные силы Террарии обладают чувством юмора. 'Спас мир, а в награду - безвкусная корона'. Да уж, правда ведь?",
+                "Wasn't aware the primordial forces of Terraria had a sense of humor. 'I saved the world and all I got was this gaudy crown' and all that, right hun?" => "И не знала, что первозданные силы Террарии обладают чувством юмора. «Спас мир, а в награду - безвкусная корона». Да уж, правда ведь?",
                 _ => chat
             };
         }
@@ -669,9 +669,9 @@ public class ThoriumNpcChat : GlobalNPC
                 "With just the right amount of green, this dish gets real mean. Be careful eating it!" => "Это блюдо с достаточным количеством зелени становится реально острым. Будь осторожен, когда будешь есть!",
                 "I had to visit a far away land to learn how to make this dish. Hopefully you'll appreciate it!" => "Я ездил в далёкую страну, чтобы научиться готовить это блюдо. Надеюсь, ты оценишь!",
                 "When I was younger, my mother would always greet me with some mint tea after a long, hard day... I miss the simpler times." => "Когда я был моложе, мама всегда встречала меня с чашкой мятного чая после долгого, трудного дня... Я скучаю по тем временам.",
-                "Yunno, it's not just called a 'Sky Blue Flower' because of its color. Some say they've fallen from the sky islands themselves long ago." => "Знаешь, это растение называется 'Небесно-голубой цветок' не только из-за цвета. Говорят, что они когда-то давно упали с небесных островов.",
+                "Yunno, it's not just called a 'Sky Blue Flower' because of its color. Some say they've fallen from the sky islands themselves long ago." => "Знаешь, это растение называется небесно-голубой цветок не только из-за цвета. Говорят, что они когда-то давно упали с небесных островов.",
                 "Last time I took a bite of this stuff, I started thinking everything was out to get me... but hey, maybe that's what you're looking for?" => "В последний раз, когда я откусил кусочек этой штуки, я начал думать, что всё вокруг хочет меня схватить... но погоди, может, это именно то, что ты ищешь?",
-                "Ah, just what I need to help ripen this cheese! Hopefully this'll offer a little more 'pizazz' to its taste." => "Отлично, это то, что мне нужно, чтобы сыр созрел! Надеюсь, это придаст немного 'пикантности' его вкусу.",
+                "Ah, just what I need to help ripen this cheese! Hopefully this'll offer a little more 'pizazz' to its taste." => "Отлично, это то, что мне нужно, чтобы сыр созрел! Надеюсь, это придаст немного «пикантности» его вкусу.",
                 "I'm honored that you'd trust me with such rare commodities. Hopefully this new recipe suits your fancy!" => "Для меня большая честь, что ты доверил мне такие редкие ингредиенты. Надеюсь, этот новый рецепт тебе понравится!",
                 "I myself don't know much about the Hallow, it's a rather strange place... but berries are berries, right?" => "Я сам мало что знаю об освящении, это довольно странное место... но ягоды есть ягоды, правда?",
                 "So the legends are true... The kitchen scholars thought this recipe was lost to time, but it's right in front of me. I can barely contain my excitement to try it out!" => "Значит, легенды правдивы... Кухонные учёные думали, что этот рецепт утерян во времени, но он прямо передо мной. Я едва сдерживаю волнение, чтобы попробовать его!",

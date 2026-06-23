@@ -105,7 +105,7 @@ public class ThoriumGlobalItem : GlobalItem
                 player.armor[1].type == ModContent.ItemType<WhiteDwarfGuard>() &&
                 player.armor[2].type == ModContent.ItemType<WhiteDwarfGreaves>())
             {
-                tooltip.Text = $"{setBonusKey} Критические удары высвобождают из космоса изумрудные вспышки\nИзумрудные вспышки наносят урон, равный 0.1% от максимального здоровья цели";
+                tooltip.Text = $"{setBonusKey} Критические удары высвобождают из космоса изумрудные вспышки\nИзумрудные вспышки наносят урон, равный 0,1% от максимального здоровья цели";
             }
         });
 
