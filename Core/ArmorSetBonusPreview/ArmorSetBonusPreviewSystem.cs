@@ -628,7 +628,7 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             string bonus = Language.GetTextValue("ArmorSetBonus.MythrilRanged");
             if (ModInstances.Calamity != null)
             {
-                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Adamantite", 15)}";
+                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Mythril", 12)}";
             }
             
             if (ModInstances.Redemption != null)
@@ -640,10 +640,11 @@ public class ArmorSetBonusPreviewSystem : ModSystem
         }));
         ArmorSetBonuses.Add(new ArmorSetBonusData(ItemID.AdamantiteHeadgear, () =>
         {
+            object[] args = [25, 10, 3.5];
             string bonus = Language.GetTextValue("ArmorSetBonus.AdamantiteCaster");
             if (ModInstances.Calamity != null)
             {
-                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Adamantite", 15)}";
+                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Adamantite", args)}";
             }
             
             if (ModInstances.Redemption != null)
@@ -655,10 +656,11 @@ public class ArmorSetBonusPreviewSystem : ModSystem
         }));
         ArmorSetBonuses.Add(new ArmorSetBonusData(ItemID.AdamantiteHelmet, () =>
         {
+            object[] args = [25, 10, 3.5];
             string bonus = Language.GetTextValue("ArmorSetBonus.AdamantiteMelee");
             if (ModInstances.Calamity != null)
             {
-                bonus = $"{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Adamantite.Melee")}\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Adamantite", 15)}";
+                bonus = $"{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Adamantite.Melee")}\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Adamantite", args)}";
             }
 
             if (ModInstances.Redemption != null)
@@ -670,10 +672,11 @@ public class ArmorSetBonusPreviewSystem : ModSystem
         }));
         ArmorSetBonuses.Add(new ArmorSetBonusData(ItemID.AdamantiteMask, () =>
         {
+            object[] args = [25, 10, 3.5];
             string bonus = Language.GetTextValue("ArmorSetBonus.AdamantiteRanged");
             if (ModInstances.Calamity != null)
             {
-                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Adamantite", 15)}";
+                bonus += $"\n{Language.GetTextValue("Mods.CalamityMod.Vanilla.Armor.SetBonus.Adamantite", args)}";
             }
             
             if (ModInstances.Redemption != null)
@@ -1602,7 +1605,7 @@ public class ArmorSetBonusPreviewSystem : ModSystem
         {
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("ThoriumMod/WhisperingHood"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("ThoriumMod/WhisperingHood", "SetBonus", 1, 1);
+                string bonus = TranslationHelper.GetTextValue("ThoriumMod/WhisperingHood", "SetBonus", 6);
                 
                 return bonus;
             }));

@@ -150,9 +150,7 @@ public class ThoriumModItems : IItemGender
                 "BoneBaton",
                 "BountifulHarvest",
                 "ClericEmblem",
-                "CrimsonScythe",
                 "DarkGlaze",
-                "DarkScythe",
                 "HallowedScythe",
                 "LethalInjection",
                 "LifeAndDeath",
@@ -251,6 +249,7 @@ public class ThoriumModItems : IItemGender
                 "PaganGrasp",
                 "TrueLightAnguish",
                 "CrawdadClaw",
+                "DownwardSpiral",
             };
         
             if (ModInstances.Thorium != null)
@@ -270,7 +269,6 @@ public class ThoriumModItems : IItemGender
                 "Bongos",
                 "FabergeEgg",
                 "FanLetter",
-                "FanLetter2",
                 "SnowstormBanjo",
                 "AmberRing",
                 "AmethystRing",
@@ -355,6 +353,7 @@ public class ThoriumModItems : IItemGender
                 "Ukulele",
                 "PacifistNecklace",
                 "Omen",
+                "KarmicHolder",
             };
         
             if (ModInstances.Thorium != null)
