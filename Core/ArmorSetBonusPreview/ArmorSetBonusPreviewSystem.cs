@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
-using CalamityRuTranslate.Core.Config;
 using Terraria;
 using Terraria.ID;
 using Terraria.Localization;
@@ -1250,7 +1249,8 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/EmpyreanMask"), () =>
             {
-                string bonus = TranslationHelper.GetTextValue("CalamityMod/EmpyreanMask", "SetBonus", 115);
+                object[] args = [115, 50];
+                string bonus = TranslationHelper.GetTextValue("CalamityMod/EmpyreanMask", "SetBonus", args);
             
                 return bonus;
             }));

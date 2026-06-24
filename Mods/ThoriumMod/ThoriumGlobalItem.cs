@@ -105,7 +105,7 @@ public class ThoriumGlobalItem : GlobalItem
                 player.armor[1].type == ModContent.ItemType<WhiteDwarfGuard>() &&
                 player.armor[2].type == ModContent.ItemType<WhiteDwarfGreaves>())
             {
-                tooltip.Text = $"{setBonusKey} Критические удары высвобождают из космоса изумрудные вспышки\nИзумрудные вспышки наносят урон, равный 0.1% от максимального здоровья цели";
+                tooltip.Text = $"{setBonusKey} Критические удары высвобождают из космоса изумрудные вспышки\nИзумрудные вспышки наносят урон, равный 0,1% от максимального здоровья цели";
             }
         });
 
@@ -337,7 +337,7 @@ public class ThoriumGlobalItem : GlobalItem
         {
             if (thoriumItem.healType == HealType.LifeSteal)
             {
-                ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "ThoriumMod/HealerAmount", tooltip =>
+                ItemHelper.TranslateTooltip(tooltips, l => l.Name == "HealerAmount", tooltip =>
                 {
                     string[] parts = tooltip.Text.Split(' ');
                     if (tooltip.Text == $"Steals {parts[1]} life")
@@ -349,12 +349,28 @@ public class ThoriumGlobalItem : GlobalItem
 
             if (thoriumItem.healType == HealType.Ally)
             {
-                ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "ThoriumMod/HealerAmount", tooltip =>
+                ItemHelper.TranslateTooltip(tooltips, l => l.Name == "HealerAmount", tooltip =>
                 {
                     string[] parts = tooltip.Text.Split(' ');
                     if (tooltip.Text == $"Heals ally life by {parts[4]}")
                     {
                         tooltip.Text = $"Лечит союзника на {parts[4]} ед. здоровья";
+                    }
+                    if (tooltip.Text == $"Heals ally and player life by {parts[6]}")
+                    {
+                        tooltip.Text = $"Лечит союзника и игрока на {parts[6]} ед. здоровья";
+                    }
+                });
+            }
+            
+            if (thoriumItem.healType == HealType.AllyAndPlayer)
+            {
+                ItemHelper.TranslateTooltip(tooltips, l => l.Name == "HealerAmount", tooltip =>
+                {
+                    string[] parts = tooltip.Text.Split(' ');
+                    if (tooltip.Text == $"Heals ally and player life by {parts[6]}")
+                    {
+                        tooltip.Text = $"Лечит союзника и игрока на {parts[6]} ед. здоровья";
                     }
                 });
             }
@@ -476,27 +492,27 @@ public class ThoriumGlobalItem : GlobalItem
             tooltips.ReplaceText("basic damage", "ед. базового урона");
         });
         
-        ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "ThoriumMod/RealityTag", tooltip =>
+        ItemHelper.TranslateTooltip(tooltips, l => l.Name == "RealityTag", tooltip =>
         {
             tooltip.Text = "-Разрушитель реальности-";
         });
         
-        ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "ThoriumMod/TransformationTag", tooltip =>
+        ItemHelper.TranslateTooltip(tooltips, l => l.Name == "TransformationTag", tooltip =>
         {
             tooltip.Text = "-Превращение-";
         });
         
-        ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "ThoriumMod/ThrowerTag", tooltip =>
+        ItemHelper.TranslateTooltip(tooltips, l => l.Name == "ThrowerTag", tooltip =>
         {
             tooltip.Text = "-Метатель-";
         });
         
-        ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "ThoriumMod/HealerTag", tooltip =>
+        ItemHelper.TranslateTooltip(tooltips, l => l.Name == "HealerTag", tooltip =>
         {
             tooltip.Text = "-Целитель-";
         });
         
-        ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "ThoriumMod/ScytheSoulCharge", tooltip =>
+        ItemHelper.TranslateTooltip(tooltips, l => l.Name == "ScytheSoulCharge", tooltip =>
         {
             string[] parts = tooltip.Text.Split(' ');
             string scytheSoulCharge = parts[1];

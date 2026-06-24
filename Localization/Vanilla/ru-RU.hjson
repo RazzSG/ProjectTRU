@@ -7129,7 +7129,7 @@
         SquireAltHead: Шлем рыцаря Вальхаллы
         SquireAltPants: Поножи рыцаря Вальхаллы
         SquireAltShirt: Нагрудник рыцаря Вальхаллы
-        SquireGreatHelm: Большой шлем оруженосца
+        SquireGreatHelm: Тяжёлый шлем оруженосца
         SquireGreaves: Поножи оруженосца
         SquirePlating: Латы оруженосца
         SquireShield: Щит оруженосца
@@ -14354,8 +14354,8 @@
         6: Артём «Alino4kaHvoshch» Хвощенко
         7: ""
         8: < Защитники сервера >
-        9: Alino4kaHvoshch и Anikinai
-        10: DirtyStoat и Kamikzu
+        9: Litos и Anikinai
+        10: Frisemo и Kamikzu
     }
     
     CreditsRollCategory_Marketing: {
@@ -14401,7 +14401,7 @@
         30: < Злобный нарушитель границ >
         31: Масюня
         32: ""
-        33: < Биполярный пол >
+        33: < Щощ >
         34: Алиночка
         35: ""
         36: < Грязный горностай >
