@@ -20,6 +20,7 @@ using ThoriumMod.Items.Misc;
 using ThoriumMod.Items.Sandstone;
 using ThoriumMod.Items.ThrownItems;
 using ThoriumMod.Items.TransformItems;
+using ThoriumMod.Items.ZRemoved;
 using ThoriumMod.Utilities;
 
 namespace CalamityRuTranslate.Mods.ThoriumMod;
@@ -356,10 +357,6 @@ public class ThoriumGlobalItem : GlobalItem
                     {
                         tooltip.Text = $"Лечит союзника на {parts[4]} ед. здоровья";
                     }
-                    if (tooltip.Text == $"Heals ally and player life by {parts[6]}")
-                    {
-                        tooltip.Text = $"Лечит союзника и игрока на {parts[6]} ед. здоровья";
-                    }
                 });
             }
             
@@ -483,6 +480,14 @@ public class ThoriumGlobalItem : GlobalItem
                 {
                     tooltip.Text = $"Лечит союзника и игрока на {parts[6]} ед. здоровья (максимум)";
                 }
+            });
+        }
+        
+        if (item.type == ModContent.ItemType<StonePurple>())
+        {
+            ItemHelper.TranslateTooltip(tooltips, "Damage", tooltip =>
+            {
+                tooltip.Text = "1% от здоровья цели в виде чистого урона";
             });
         }
         

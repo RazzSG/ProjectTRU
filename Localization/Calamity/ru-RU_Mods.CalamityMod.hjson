@@ -25073,7 +25073,7 @@ Prefixes: {
         StealthGenTooltip: +{0}% к скорости накопления скрытности
         LifeRegenTooltip: +{0} к регенерации здоровья
         MaxLifeBoostTooltip: +{0} ед. к здоровью
-        FriendlyTooltip: +{0} к максимальному количеству миньонов
+        FriendlyTooltip: +{0} миньон
     }
     
     Weapon: {
