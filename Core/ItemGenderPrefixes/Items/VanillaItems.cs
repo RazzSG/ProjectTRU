@@ -194,7 +194,6 @@ public class VanillaItems : IItemGender
         ItemID.AdamantiteGlaive,
         ItemID.Ruler,
         ItemID.CobaltNaginata,
-        ItemID.MushroomSpear,
         ItemID.PalladiumChainsaw,
         ItemID.OrichalcumHalberd,
         ItemID.OrichalcumChainsaw,
@@ -208,6 +207,9 @@ public class VanillaItems : IItemGender
         ItemID.CrimsonYoyo,
         ItemID.JungleYoyo,
         ItemID.StardustChainsaw,
+        ItemID.MonkStaffT3,
+        ItemID.Valor,
+        ItemID.Swordfish,
     };
 
     public List<int> Neuter { get; } = new()
@@ -252,6 +254,13 @@ public class VanillaItems : IItemGender
         ItemID.GoblinTech,
         ItemID.WoodYoyo,
         ItemID.ThunderSpear,
+        ItemID.JoustingLance,
+        ItemID.HallowJoustingLance,
+        ItemID.ShadowJoustingLance,
+        ItemID.MushroomSpear,
+        ItemID.Rally,
+        ItemID.ValkyrieYoyo,
+        ItemID.HiveFive,
     };
 
     public List<int> Plural { get; } = new()

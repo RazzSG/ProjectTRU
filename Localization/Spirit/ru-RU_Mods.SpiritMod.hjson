@@ -1,4 +1,5 @@
 ﻿#GoldifiedDeath: " обращается в чистое золото."
+#CrimsonPustuleDeath: "{0} was grotesquely detonated"
 #Frozen: Frozen
 #
 #MiscUI: {
@@ -297,6 +298,8 @@
 #    }
 #
 #    LuminousOcean.OnStart: Над океаном разливается мягкое сияние...
+#    BloodMoon.DayTime: The Blood Moon only emerges at night.
+#    StarjinxSummon: An enchanted comet has appeared in the sky!
 #
 #    TheTide: {
 #        BossChecklistIntegration.Condition: Используйте [i:SpiritMod/BlackPearl] в океане в любое время.
@@ -305,6 +308,8 @@
 #        AlreadyActive: Прилив уже начался!
 #        Wave: "Волна {0} : "
 #    }
+#    
+#    Starjinx.Wave: Wave Progress : {0}%
 #}
 #
 #BossChecklistIntegration: {
@@ -410,16 +415,19 @@
 #    ExplorerFight: {
 #        DisplayName: Сила удара
 #        Description: Вы начинаете осваиваться!
+#        Description2: Damage dealt is increased by {0}%
 #    }
 #
 #    ExplorerMine: {
 #        DisplayName: Сила исследователя
 #        Description: Продолжайте копать!
+#        Description2: Mining speed is increased: {0} stacks
 #    }
 #
 #    ExplorerPot: {
 #        DisplayName: Энергия исследователя
 #        Description: Вам хочется большего!
+#        Description2: Movement speed is increased by {0}%
 #    }
 #
 #    FrigidCooldown: {
@@ -445,6 +453,7 @@
 #    BeetleFortitude: {
 #        DisplayName: Жучья стойкость
 #        Description: Каждый удар делает вас сильнее...
+#        Description2: Damage taken is reduced by {0}%
 #    }
 #
 #    BloodInfusion: {
@@ -560,6 +569,7 @@
 #    EleutheriosBuff: {
 #        DisplayName: Сила Елевферия
 #        Description: Урон увеличен на 0%
+#        Description2: Damage increased by {0}%
 #    }
 #
 #    FateBlessing: {
@@ -1287,6 +1297,25 @@
 #}
 #
 #Conditions: {
+#    NotDay: Drops only at night
+#    Day: Drops only during day
+#    DropFrom: "Drops only in the "
+#    Purity: Purity
+#    Snow: Snow
+#    Asteroid: Asteroid
+#    DefBoss: Drops only after {0} has been defeated
+#    RrefixThe: "the "
+#    AnyMech: any mechanical boss
+#    FromVHead: From venomous heads
+#    FromFHead: From flaming heads
+#    FromAHead: From acidic heads
+#    PokeyBodyLastSegment: Drops only from the last segment
+#    Enchanted: Drops when enemy is enchanted
+#    Rarely: Rarely
+#    WearingFloran: Wearing the full Floran set
+#    WearingArcaneNecklace: Wearing the Arcane Necklace and is using a magic weapon
+#    WearingVitalityStone: Wearing the Vitality Stone (or an upgrade)
+#    Uncommonly: Uncommonly from Shadow Mimics
 #    HasMoonshot: Any player has a Moonshot
 #    VoyagerDown: Starplate Voyager is defeated
 #    ScarabDown: Scarabeus is defeated
@@ -3568,7 +3597,7 @@
 #        Tooltip:
 #            '''
 #            Hit foes combust, with successful hits increasing the power of the debuff. 
-#            Also shoots out a spiky ball that inflicts broken armor
+#            Also shoots out a spiky ball
 #            '''
 #    }
 #
@@ -3998,7 +4027,7 @@
 #
 #    ThornBow: {
 #        DisplayName: Thornshot
-#        Tooltip: Wooden arrows occasionally split into poisonous thorns
+#        Tooltip: Wooden arrows split into poisonous thorns upon hitting enemies
 #    }
 #
 #    Trophy5: {
@@ -4779,6 +4808,7 @@
 #            Can only be used when the invasion has arrived, not when the invasion is approaching
 #            'A heavenly chime'
 #            '''
+#        Surrender: The invaders have called off their attack!
 #    }
 #
 #    TinyCrabItem: {
@@ -5153,11 +5183,15 @@
 #    CandyBag: {
 #        DisplayName: Мешок конфет
 #        Tooltip: Вмещает до 99 конфет
+#        ContainsSingle: Contains {0} piece of Candy
+#        ContainsPlural: Contains {0} pieces of Candy
+#        Take: Right click to take a piece of Candy
 #    }
 #
 #    CandyBowl: {
 #        DisplayName: Миска с конфетами
 #        Tooltip: ""
+#        Take: Take a piece of candy
 #    }
 #
 #    ChocolateBar: {
@@ -5278,6 +5312,37 @@
 #    MysteryCandy: {
 #        DisplayName: Загадочная конфета
 #        Tooltip: Может оказаться отличным угощением... или неприятным сюрпризом
+#        Positive: {
+#            1: Sweet and filling. You feel restored.
+#            2: The sugar rush hits hard.
+#            3: Mmm, the fluffiest of nougats. You feel light as a feather.
+#            4: Magic is sparking from your fingertips. Maybe the candy was enchanted after all.
+#            5: Has a bit of a metallic taste, but your skin is now tough as titanium.
+#            6: It's a great time to go exploring.
+#            7: You can see all.
+#            8: Your hands are perfectly steady now.
+#            9: That was delicious.
+#            10: The conditions are perfect for a bit of building.
+#            11: Your wish is their command.
+#            12: New strength surges through your body.
+#            13: The ground drops beneath your feet.
+#            14: You feel like you're gonna make a big catch.
+#        }
+#    
+#        Negative: {
+#            Hurt: "{0} bit on a razorblade."
+#            1: Ouch, there was a razorblade in there!
+#            2: Your legs can barely hold you.
+#            3: You are encased in stone.
+#            4: Every last spark of magic left your body. Maybe the candy was enchanted after all.
+#            5: Your armor is crumpling at the slightest touch.
+#            6: You can barely think straight.
+#            7: You are frozen in place. Maybe mint was a bad idea...
+#            8: You can't feel your arms.
+#            9: Your limbs ache with the slightest movement.
+#            10: You've been drugged.
+#            11: You feel sick.
+#        }
 #    }
 #
 #    BatBlaster: {
@@ -7272,11 +7337,7 @@
 #
 #    Emerald_Bow: {
 #        DisplayName: Изумрудный лук
-#        Tooltip:
-#            '''
-#            Превращает деревянные стрелы в изумрудные
-#            Изумрудные стрелы могут взрываться при попадании во врагов
-#            '''
+#        Tooltip: Превращает деревянные стрелы в изумрудные
 #    }
 #
 #    Ruby_Bow: {
@@ -10042,6 +10103,16 @@
 #    SlotMachine: {
 #        DisplayName: Slot Machine
 #        Tooltip: ""
+#        Win: {
+#            1: You win a bell!
+#            2: You win a...jelly?
+#            3: You win lemons!
+#            4: You win diamonds!
+#            5: You win a...bomb!
+#            6: You win a ch- apple!
+#            7: You win a brick of gold!
+#            8: You win the JACKPOT!
+#        }
 #    }
 #
 #    ScrapItem1: {
@@ -10186,6 +10257,37 @@
 #    Pinned: Location Pinned
 #    PinRemoved: Pin Removed
 #    PinMove: Click to move
+#    Put: Right click to put into Candy Bag
+#    SturdyActivated: Sturdy Activated!
+#    SpiritSpread: The Spirits spread through the land...
+#    NotDefeat: You have yet to defeat the true master of Hell...
+#    Cursed: Cursed!
+#    Unlocked: Unlocked!
+#    
+#    RecipeGroup: {
+#        EoRBow: Emerald or Ruby Bow
+#        SoTBow: Sapphire or Topaz Bow
+#        AoTStaff: Amethyst or Topaz Staff
+#        SoEStaff: Sapphire or Emerald Staff
+#        RoDStaff: Ruby or Diamond Staff
+#    }
+#    
+#    BloodstainedChestChat: The ancient chest seems to be covered in gold, blood, and bones. It surely contains great riches, but opening it may be perilous.
+#    Oped: Open
+#    StarjinxMeteoriteOnKill: The asteroids return to their tranquil state...
+#    WardenEnchant: Enchant moment - we got {0}
+#    PluralSuffix: s
+#    Point: Points
+#    Win: Wins
+#    NeedNet: You must choose a net!
+#    NeedHeight: Net must be higher than 10 blocks! ({0} blocks tall currently)
+#    NeedCourt: Net must be placed on a court!
+#    NeedSpace: Court must be an open space!
+#    NeedWide: Court must be at least 60 tiles wide!
+#    ValidCourt: This is a valid court!
+#    VolleyHit: The volley lasted {0} hits!
+#    RemainingS: ({0}s remaining)
+#    RemainingM: ({0}m remaining)
 #}
 #
 #NPCs: {
@@ -10410,6 +10512,8 @@
 #        BossChecklistIntegration.SpawnInfo: Используйте [i:SpiritMod/StarWormSummon] у Астралитового маяка, расположенного в астероидах, ночью.
 #        Spawn: Звёздопанцирный странник пробудился!
 #        Laser: Активация лазерного протокола
+#        Detected: Instability Detected
+#        Engaged: Target Engaged
 #    }
 #
 #    SteamRaiderHeadDeath.DisplayName: Звёздопанцирный странник
@@ -10704,6 +10808,8 @@
 #    DesertBandit: {
 #        DisplayName: Forsaken Bandit
 #        Entry: A roaming bandit, looking for anything that shines under the harsh sun. Not very fun at parties.
+#        Thank: Thank you again!
+#        Spare: Please spare me!
 #    }
 #
 #    DiseasedSlime: {
@@ -11404,6 +11510,7 @@
 #    Vulture_Matriarch: {
 #        DisplayName: Матриарх стервятников
 #        Entry: Могущественная старейшина племени стервятников, владеющая древней магией и особыми способностями, которые позволяют ей уничтожать свою добычу.
+#        Disturbed: The Vulture Matriarch has been disturbed!
 #    }
 #
 #    Wheezer: {
@@ -11464,6 +11571,7 @@
 #    StopQuest: Вы уверены? Вы [c/910000:потеряете весь прогресс].
 #    Undiscovered: Это задание ещё не открыто.
 #    TalkToNPC: "Поговорите с "
+#    TalkTo: Talk to the {0}
 #    Explore: "Исследуйте "
 #    Retrieve: Добудьте
 #    Catch: Поймайте
@@ -11480,6 +11588,9 @@
 #    Client: "Заказчик - "
 #    Rewards: Награда
 #    ViewQuest: Нажмите здесь, чтобы посмотреть задание!
+#    QuesTime: "{0}m {1}s"
+#    Comma: ", "
+#    Or: " or "
 #
 #    Buttons: {
 #        Active: Активные
@@ -11490,6 +11601,7 @@
 #        Explorer: Исследовательские
 #        Forager: Собирательские
 #        Slayer: Охотничьи
+#        Designer: Designer
 #        Other: Прочие
 #    }
 #
@@ -11571,6 +11683,11 @@
 #            Description: A couple of my scout friends spotted something troubling near the far shores of the world. They caught a glimpse of a bound woman up there. Would you mind headin' there and checking things out? Maybe she needs rescuing! If you're not feeling too altruistic, I'm sure there's plenty of loot for the taking, too!
 #            Dialogue: Must be my lucky day to see a friendly face around here! These goblins didn't take too kindly to me offering a, uh, rigged deal. Anyway, d'you have a place to stay? Let's flip for it.
 #            Objective: Find the Arcane Goblin Tower and rescue the prisoner.
+#        }
+#        
+#        Halloween: {
+#            Dialogue0: Reach into the bowl. You never know what you'll pull out.
+#            Dialogue1: I'll trade you any piece of candy for a random pie- no? Ok.
 #        }
 #
 #        CritterCaptureBlossmoon: {
@@ -12328,6 +12445,11 @@
 #            Special7: My old business partner turned to the bandit life a few years ago. I wonder if he's doing okay. I think his associates have set up a bandit camp somewhere near the seas.
 #            Special8: A shimmering blue light's on the horizon. Wonder what that's about, huh?
 #            Bound: I thought I was a real goner there! If you didn't butt in, I probably would've been fed to whatever those monsters were trying to conjure up over there. I wouldn't touch it if I were you... Look, you have my thanks; but just between you and me, it's been a long few months, and all I want is a vacation from adventuring for a while. Life is short, and I'd rather not make it shorter. D'you have a place to stay?
+#        }
+#        
+#        Halloween: {
+#            Dialogue0: You wouldn't believe me if I told you I got this from a faraway kingdom made of CANDY! I promise it has an exquisite taste.
+#            Dialogue1: I hear you can get more candy from the goodie bags that monsters hold. As if I needed an excuse to slay some zombies!
 #        }
 #
 #        Name1: Morgan
