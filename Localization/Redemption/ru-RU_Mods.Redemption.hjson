@@ -10328,7 +10328,11 @@ Items: {
 
     PureIronBow: {
         DisplayName: Лук железного царства
-        Tooltip: Выпущенные стрелы оставляют за собой длительный туман, который накладывает дебафф «{$Buffs.PureChillDebuff.DisplayName}»
+        Tooltip:
+            '''
+            Выпущенные стрелы оставляют за собой длительный туман, который накладывает дебафф «{$Buffs.PureChillDebuff.DisplayName}»
+            Наделяет деревянные стрелы дебаффом «{$BuffName.Frostburn}»
+            '''
     }
 
     ElderWoodToilet: {

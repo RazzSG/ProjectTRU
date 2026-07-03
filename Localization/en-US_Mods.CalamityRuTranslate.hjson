@@ -106,7 +106,7 @@ Configs: {
             Tooltip: Выключает перевод Catalyst Mod.
         }
         
-        CatalystLocalization: {
+        PathOfTerrariaLocalization: {
             Label: Path Of Terraria
             Tooltip: Выключает перевод Path Of Terraria.
         }
