@@ -27,6 +27,7 @@ public class FargoSoulsItems : IItemGender
                 "AbominableWand",
                 "AgitatingLens",
                 "CelestialRune",
+                "ChaliceoftheMoon",
                 "ConcentratedRainbowMatter",
                 "DreadShell",
                 "DubiousCircuitry",

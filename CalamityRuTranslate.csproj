@@ -27,7 +27,7 @@
       <HintPath>..\ModAssemblies\PathOfTerraria_v0.3.9.dll</HintPath>
     </Reference>
     <Reference Include="Redemption">
-      <HintPath>..\ModAssemblies\Redemption_v0.8.0.4100.dll</HintPath>
+      <HintPath>..\ModAssemblies\Redemption_v0.8.0.4500.dll</HintPath>
     </Reference>
     <Reference Include="SpiritMod">
       <HintPath>..\ModAssemblies\SpiritMod_v1.5.0.38.dll</HintPath>
@@ -36,7 +36,7 @@
       <HintPath>..\ModAssemblies\StarsAbove_v2.1.5.1.dll</HintPath>
     </Reference>
     <Reference Include="ThoriumMod">
-      <HintPath>..\ModAssemblies\ThoriumMod_v1.7.2.6.dll</HintPath>
+      <HintPath>..\ModAssemblies\ThoriumMod_v1.7.2.7.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>

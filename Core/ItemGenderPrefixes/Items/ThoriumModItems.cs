@@ -174,7 +174,6 @@ public class ThoriumModItems : IItemGender
                 "DestroyersRage",
                 "CyanPhasesaber",
                 "PinkPhasesaber",
-                "Sanguine",
                 "SolScorchedSlab",
                 "CelestialPickaxe",
                 "EnchantedPickaxe",
@@ -354,6 +353,7 @@ public class ThoriumModItems : IItemGender
                 "PacifistNecklace",
                 "Omen",
                 "KarmicHolder",
+                "Salivation",
             };
         
             if (ModInstances.Thorium != null)

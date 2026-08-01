@@ -547,6 +547,7 @@ Gear: {
         Tier: Ранг:
         Level: Уровень предмета:
         Defense: Защита
+        BlockChance: Шанс блока
         EnergyShield: Энергетический щит
         Pickaxe: Мощность кирки
         Axe: Мощность топора

@@ -7,6 +7,7 @@ using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.Localization;
 using Terraria.ModLoader;
+using ThoriumMod;
 using ThoriumMod.Items;
 using ThoriumMod.Items.ArcaneArmor;
 using ThoriumMod.Items.BardItems;
@@ -286,6 +287,16 @@ public class ThoriumGlobalItem : GlobalItem
             });
         }
         
+        if (item.type == ModContent.ItemType<DreamMegaphone>())
+        {
+            ThoriumPlayer thoriumPlayer = Main.LocalPlayer.GetThoriumPlayer();
+            int time = DreamMegaphone.BuffTimeBase + DreamMegaphone.BuffTimeBonus * thoriumPlayer.healBonus;
+            ItemHelper.TranslateTooltip(tooltips, "HealerAmount", tooltip =>
+            {
+                tooltip.Text = $"Увеличивает урон для вас и всех ближайших союзников на {DreamMegaphone.BuffDamageBonus}% на [c/5aff5a:{time}] секунд";
+            });
+        }
+        
         if (item.type == ModContent.ItemType<BoneGrip>() || item.type == ModContent.ItemType<MagnetoGrip>() || item.type == ModContent.ItemType<PaddedGrip>())
         {
             ItemHelper.TranslateTooltip(tooltips, "DisplayAmount", tooltip =>
@@ -310,7 +321,7 @@ public class ThoriumGlobalItem : GlobalItem
             });
         }
         
-        if (item.type == ModContent.ItemType<MusicPlayerDamageReduction>() || item.type == ModContent.ItemType<TunePlayerDamageReduction>())
+        if (item.type == ModContent.ItemType<MusicPlayerDamageResistance>() || item.type == ModContent.ItemType<TunePlayerDamageResistance>())
         {
             ItemHelper.TranslateTooltip(tooltips, "Tooltip0", _ =>
             {
