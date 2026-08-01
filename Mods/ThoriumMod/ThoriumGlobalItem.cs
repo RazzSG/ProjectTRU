@@ -287,16 +287,6 @@ public class ThoriumGlobalItem : GlobalItem
             });
         }
         
-        if (item.type == ModContent.ItemType<DreamMegaphone>())
-        {
-            ThoriumPlayer thoriumPlayer = Main.LocalPlayer.GetThoriumPlayer();
-            int time = DreamMegaphone.BuffTimeBase + DreamMegaphone.BuffTimeBonus * thoriumPlayer.healBonus;
-            ItemHelper.TranslateTooltip(tooltips, "HealerAmount", tooltip =>
-            {
-                tooltip.Text = $"Увеличивает урон для вас и всех ближайших союзников на {DreamMegaphone.BuffDamageBonus}% на [c/5aff5a:{time}] секунд";
-            });
-        }
-        
         if (item.type == ModContent.ItemType<BoneGrip>() || item.type == ModContent.ItemType<MagnetoGrip>() || item.type == ModContent.ItemType<PaddedGrip>())
         {
             ItemHelper.TranslateTooltip(tooltips, "DisplayAmount", tooltip =>
@@ -321,7 +311,7 @@ public class ThoriumGlobalItem : GlobalItem
             });
         }
         
-        if (item.type == ModContent.ItemType<MusicPlayerDamageResistance>() || item.type == ModContent.ItemType<TunePlayerDamageResistance>())
+        if (item.type == ModContent.ItemType<MusicPlayerDamageReduction>() || item.type == ModContent.ItemType<TunePlayerDamageReduction>())
         {
             ItemHelper.TranslateTooltip(tooltips, "Tooltip0", _ =>
             {
