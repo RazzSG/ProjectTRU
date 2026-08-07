@@ -22,10 +22,10 @@ public class ModCompatibilityChecker : ModSystem
         new("FargowiltasSouls", new Version(1, 7, 3, 9), TRuConfig.Instance.FargowiltasSoulsLocalization),
         new("InfernumMode", new Version(2, 0, 1, 34), TRuConfig.Instance.InfernumModeLocalization),
         new("NoxusBoss", new Version(1, 2, 31), TRuConfig.Instance.NoxusBossLocalization),
-        new("Redemption", new Version(0, 8, 0, 4500), TRuConfig.Instance.RedemptionLocalization),
+        new("Redemption", new Version(0, 8, 0, 4501), TRuConfig.Instance.RedemptionLocalization),
         new("StarsAbove", new Version(2, 1, 8, 4), TRuConfig.Instance.StarsAboveLocalization),
         new("ThoriumMod", new Version(1, 7, 2, 7), TRuConfig.Instance.ThoriumModLocalization),
-        new("PathOfTerraria", new Version(0, 3, 10), TRuConfig.Instance.PathOfTerrariaLocalization)
+        new("PathOfTerraria", new Version(0, 3, 11), TRuConfig.Instance.PathOfTerrariaLocalization)
     ];
 
     public override bool IsLoadingEnabled(Mod mod)
