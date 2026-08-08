@@ -181,7 +181,6 @@ public class CalamityItems : IItemGender
                 "ScarletDevil",
                 "SeafoamBomb",
                 "SealedSingularity",
-                "SlickCane",
                 "StarofDestruction",
                 "StormfrontRazor",
                 "Supernova",
@@ -257,6 +256,7 @@ public class CalamityItems : IItemGender
                 "AnechoicPlating",
                 "LemonNade",
                 "FadedIdolatry",
+                "WalkingCane",
             };
 
             if (ModInstances.Calamity != null)

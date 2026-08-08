@@ -696,7 +696,7 @@ IntroScreen: {
 }
 
 Items: {
-    EnrageTooltip: enrage
+    EnrageTooltip: ярость
     DeveloperItem: "[c/{0}:~ Предмет разработчика ~]"
     InfernumOnly: "[c/{0}:Инфернум]"
     InfernalRelicText: Окружено инфернальными огнями поверженного врага
