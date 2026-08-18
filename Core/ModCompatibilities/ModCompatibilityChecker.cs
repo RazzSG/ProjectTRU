@@ -16,7 +16,7 @@ public class ModCompatibilityChecker : ModSystem
     
     private readonly ModCompatibilityInfo[] _modCompatibilityInfo =
     [
-        new("CalamityMod", new Version(2, 2, 2), TRuConfig.Instance.CalamityModLocalization),
+        new("CalamityMod", new Version(2, 2, 4), TRuConfig.Instance.CalamityModLocalization),
         new("CatalystMod", new Version(1, 1, 8), TRuConfig.Instance.CatalystLocalization),
         new("Fargowiltas", new Version(3, 3, 6, 7), TRuConfig.Instance.FargowiltasLocalization),
         new("FargowiltasSouls", new Version(1, 7, 3, 9), TRuConfig.Instance.FargowiltasSoulsLocalization),
@@ -25,7 +25,7 @@ public class ModCompatibilityChecker : ModSystem
         new("Redemption", new Version(0, 8, 0, 4501), TRuConfig.Instance.RedemptionLocalization),
         new("StarsAbove", new Version(2, 1, 8, 4), TRuConfig.Instance.StarsAboveLocalization),
         new("ThoriumMod", new Version(1, 7, 2, 7), TRuConfig.Instance.ThoriumModLocalization),
-        new("PathOfTerraria", new Version(0, 3, 11), TRuConfig.Instance.PathOfTerrariaLocalization)
+        new("PathOfTerraria", new Version(0, 3, 12), TRuConfig.Instance.PathOfTerrariaLocalization)
     ];
 
     public override bool IsLoadingEnabled(Mod mod)
