@@ -276,7 +276,7 @@ public class CalamityItems : IItemGender
                 "AbyssalDivingGear",
                 "AbyssalMirror",
                 "AncientFossil",
-                "BlazingCore",
+                "DivineProvidence",
                 "BloodflareCore",
                 "DarkSunRing",
                 "DraedonsHeart",

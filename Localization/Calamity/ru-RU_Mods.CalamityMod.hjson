@@ -3851,17 +3851,17 @@ Items: {
                 '''
         }
     
-        BlazingCore: {
-            DisplayName: Пылающее ядро
+        DivineProvidence: {
+            DisplayName: Божественное провидение
             Tooltip:
                 '''
                 Даёт невосприимчивость к отбрасыванию
-                Обжигающее ядро Осквернённой богини
                 Нажатие [KEY] активирует парирование, обволакивая вас сверкающим осквернённым кристаллом
                 Если вы получите удар вскоре после обволакивания, кристалл будет разрушен
                 При его разрушении святые звёзды разлетаются по спирали, а полученный урон полностью блокируется
                 После разрушения кристалла эффект блокирования урона переходит в режим перезарядки
                 Успешное парирование во время перезарядки призывает дополнительные исцеляющие звёзды, однако урон по вам не снижается
+                [c/FF8C00:Обжигающее ядро Осквернённой богини]
                 '''
         }
     
@@ -11025,6 +11025,8 @@ Items: {
         KelpieSeadragonBanner.DisplayName: Знамя морского конька-келпи
         LaserfishBanner.DisplayName: Знамя рыбы-лазера
         LazarusLampfishBanner.DisplayName: Знамя лазаревого удильщика
+        BlindedAnglerBanner.DisplayName: Знамя слепого удильщика
+        SeaSerpentBanner.DisplayName: Знамя морского змея
         LeerslugBanner.DisplayName: Знамя лыбополза
         LostShoalBanner.DisplayName: Знамя заблудшей рыбьей души
         LuminousCorvinaBanner.DisplayName: Знамя люминесцентного горбыля
@@ -24465,6 +24467,9 @@ Misc: {
 NPCs: {
     BabyCannonballJellyfish.DisplayName: Маленькая медуза-пушечное ядро
     Bloatfish.DisplayName: Вздутобрюх
+    BrainIllusion.DisplayName: Иллюзия мозга
+    BloodBomb.DisplayName: Кровавая бомба
+    FalseBrain.DisplayName: Ложный мозг
     BobbitWormHead.DisplayName: Волнистый червь
     BoxJellyfish.DisplayName: Кубомедуза
     Burrower.DisplayName: Землерой
@@ -24730,6 +24735,7 @@ NPCs: {
     AlphaSeaMinnowGold.DisplayName: Золотой морской гольян-альфа
     MinnowPrime: Гольян Прайм
     BabyGhostBell.DisplayName: Маленький призрачный колокольчик
+    BlindedAngler.DisplayName: Слепой удильщик
     CarrionSwallower.DisplayName: Пожиратель падали
     Clam.DisplayName: Моллюск
     EutrophicRay.DisplayName: Эвтрофный скат
