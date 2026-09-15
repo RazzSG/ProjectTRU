@@ -7,6 +7,7 @@ using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.Localization;
 using Terraria.ModLoader;
+using ThoriumMod;
 using ThoriumMod.Items;
 using ThoriumMod.Items.ArcaneArmor;
 using ThoriumMod.Items.BardItems;
@@ -20,6 +21,7 @@ using ThoriumMod.Items.Misc;
 using ThoriumMod.Items.Sandstone;
 using ThoriumMod.Items.ThrownItems;
 using ThoriumMod.Items.TransformItems;
+using ThoriumMod.Items.ZRemoved;
 using ThoriumMod.Utilities;
 
 namespace CalamityRuTranslate.Mods.ThoriumMod;
@@ -337,7 +339,7 @@ public class ThoriumGlobalItem : GlobalItem
         {
             if (thoriumItem.healType == HealType.LifeSteal)
             {
-                ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "ThoriumMod/HealerAmount", tooltip =>
+                ItemHelper.TranslateTooltip(tooltips, l => l.Name == "HealerAmount", tooltip =>
                 {
                     string[] parts = tooltip.Text.Split(' ');
                     if (tooltip.Text == $"Steals {parts[1]} life")
@@ -349,12 +351,24 @@ public class ThoriumGlobalItem : GlobalItem
 
             if (thoriumItem.healType == HealType.Ally)
             {
-                ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "ThoriumMod/HealerAmount", tooltip =>
+                ItemHelper.TranslateTooltip(tooltips, l => l.Name == "HealerAmount", tooltip =>
                 {
                     string[] parts = tooltip.Text.Split(' ');
                     if (tooltip.Text == $"Heals ally life by {parts[4]}")
                     {
                         tooltip.Text = $"Лечит союзника на {parts[4]} ед. здоровья";
+                    }
+                });
+            }
+            
+            if (thoriumItem.healType == HealType.AllyAndPlayer)
+            {
+                ItemHelper.TranslateTooltip(tooltips, l => l.Name == "HealerAmount", tooltip =>
+                {
+                    string[] parts = tooltip.Text.Split(' ');
+                    if (tooltip.Text == $"Heals ally and player life by {parts[6]}")
+                    {
+                        tooltip.Text = $"Лечит союзника и игрока на {parts[6]} ед. здоровья";
                     }
                 });
             }
@@ -470,33 +484,41 @@ public class ThoriumGlobalItem : GlobalItem
             });
         }
         
+        if (item.type == ModContent.ItemType<StonePurple>())
+        {
+            ItemHelper.TranslateTooltip(tooltips, "Damage", tooltip =>
+            {
+                tooltip.Text = "1% от здоровья цели в виде чистого урона";
+            });
+        }
+        
         ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "ThoriumMod/AccessoryDamage", _ =>
         {
             tooltips.ReplaceText("% basic damage", "% базового урона");
             tooltips.ReplaceText("basic damage", "ед. базового урона");
         });
         
-        ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "ThoriumMod/RealityTag", tooltip =>
+        ItemHelper.TranslateTooltip(tooltips, l => l.Name == "RealityTag", tooltip =>
         {
             tooltip.Text = "-Разрушитель реальности-";
         });
         
-        ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "ThoriumMod/TransformationTag", tooltip =>
+        ItemHelper.TranslateTooltip(tooltips, l => l.Name == "TransformationTag", tooltip =>
         {
             tooltip.Text = "-Превращение-";
         });
         
-        ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "ThoriumMod/ThrowerTag", tooltip =>
+        ItemHelper.TranslateTooltip(tooltips, l => l.Name == "ThrowerTag", tooltip =>
         {
             tooltip.Text = "-Метатель-";
         });
         
-        ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "ThoriumMod/HealerTag", tooltip =>
+        ItemHelper.TranslateTooltip(tooltips, l => l.Name == "HealerTag", tooltip =>
         {
             tooltip.Text = "-Целитель-";
         });
         
-        ItemHelper.TranslateTooltip(tooltips, l => l.FullName == "ThoriumMod/ScytheSoulCharge", tooltip =>
+        ItemHelper.TranslateTooltip(tooltips, l => l.Name == "ScytheSoulCharge", tooltip =>
         {
             string[] parts = tooltip.Text.Split(' ');
             string scytheSoulCharge = parts[1];

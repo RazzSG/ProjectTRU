@@ -16,16 +16,16 @@ public class ModCompatibilityChecker : ModSystem
     
     private readonly ModCompatibilityInfo[] _modCompatibilityInfo =
     [
-        new("CalamityMod", new Version(2, 2, 1), TRuConfig.Instance.CalamityModLocalization),
-        new("CatalystMod", new Version(1, 1, 5), TRuConfig.Instance.CatalystLocalization),
+        new("CalamityMod", new Version(2, 2, 4), TRuConfig.Instance.CalamityModLocalization),
+        new("CatalystMod", new Version(1, 1, 8), TRuConfig.Instance.CatalystLocalization),
         new("Fargowiltas", new Version(3, 3, 6, 7), TRuConfig.Instance.FargowiltasLocalization),
         new("FargowiltasSouls", new Version(1, 7, 3, 9), TRuConfig.Instance.FargowiltasSoulsLocalization),
-        new("InfernumMode", new Version(2, 0, 1, 33), TRuConfig.Instance.InfernumModeLocalization),
+        new("InfernumMode", new Version(2, 0, 1, 34), TRuConfig.Instance.InfernumModeLocalization),
         new("NoxusBoss", new Version(1, 2, 31), TRuConfig.Instance.NoxusBossLocalization),
-        new("Redemption", new Version(0, 8, 0, 4151), TRuConfig.Instance.RedemptionLocalization),
+        new("Redemption", new Version(0, 8, 0, 4501), TRuConfig.Instance.RedemptionLocalization),
         new("StarsAbove", new Version(2, 1, 8, 4), TRuConfig.Instance.StarsAboveLocalization),
-        new("ThoriumMod", new Version(1, 7, 2, 6), TRuConfig.Instance.ThoriumModLocalization),
-        new("PathOfTerraria", new Version(0, 3, 9), TRuConfig.Instance.PathOfTerrariaLocalization)
+        new("ThoriumMod", new Version(1, 7, 2, 7), TRuConfig.Instance.ThoriumModLocalization),
+        new("PathOfTerraria", new Version(0, 3, 12), TRuConfig.Instance.PathOfTerrariaLocalization)
     ];
 
     public override bool IsLoadingEnabled(Mod mod)

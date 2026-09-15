@@ -4,6 +4,7 @@ using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
 using CalamityRuTranslate.Core.MonoMod;
+using Microsoft.Xna.Framework;
 using Mono.Cecil.Cil;
 using MonoMod.Cil;
 using Terraria.GameContent.UI.Elements;
@@ -77,4 +78,21 @@ public class StellarNovaUIPatch : ILPatcher
             origininfinity.Left.Set(908f, 0f);
         });
     };
+}
+
+public class StellarNovaUIOnPatch : OnPatcher
+{
+    public override bool AutoLoad => ModInstances.StarsAbove != null && TRuConfig.Instance.StarsAboveLocalization && TranslationHelper.IsRussianLanguage;
+
+    public override MethodInfo ModifiedMethod => ModInstances.StarsAbove.Code.GetType("StarsAbove.UI.StellarNova.StellarNovaUI").FindMethod("Update");
+    
+    public override Delegate Delegate => Translation;
+
+    private void Translation(Action<object, GameTime> orig, object self, GameTime gameTime)
+    {
+        orig.Invoke(self, gameTime);
+        
+        UIText abilityDescription = self.GetMemberValue<UIText>("abilityDescription");
+        abilityDescription.Top.Set(375f, 0f);
+    }
 }

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
-using CalamityRuTranslate.Core.Config;
 using Terraria;
 using Terraria.ID;
 using Terraria.Localization;
@@ -1415,7 +1414,7 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/BloodflareHeadRogue"), () =>
             {
-                object[] args = [120, 30, 80];
+                object[] args = [120];
                 string bonus = TranslationHelper.GetTextValue("CalamityMod/BloodflareHeadRogue", "SetBonus", args);
                 
                 return bonus;
@@ -1484,7 +1483,7 @@ public class ArmorSetBonusPreviewSystem : ModSystem
             }));
             ArmorSetBonuses.Add(new ArmorSetBonusData(TranslationHelper.GetItemID("CalamityMod/TarragonHeadRogue"), () =>
             {
-                object[] args = [115, 50, 2.5, 25, 10];
+                object[] args = [115, 50, 2.5, 25];
                 string bonus = TranslationHelper.GetTextValue("CalamityMod/TarragonHeadRogue", "SetBonus", args);
                 
                 return bonus;
