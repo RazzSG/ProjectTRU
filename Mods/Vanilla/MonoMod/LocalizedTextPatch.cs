@@ -8,6 +8,7 @@ using Terraria.Localization;
 
 namespace CalamityRuTranslate.Mods.Vanilla.MonoMod;
 
+[EarlyPatcher]
 public class LocalizedTextPatch : OnPatcher
 {
     private readonly Regex _replacePatternRegex = new(@"{r(\d+):([^\r\n]+?)}", RegexOptions.Compiled);

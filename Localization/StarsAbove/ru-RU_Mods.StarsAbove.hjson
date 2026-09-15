@@ -8240,7 +8240,7 @@ Items: {
     }
 
     MorningStar: {
-        DisplayName: Утренняя звезда
+        DisplayName: Моргенштерн
         Tooltip:
             '''
             Атаки этим оружием совершаются широким хлыстом, взрывающим поражённых врагов, нанося им 1/4 базового урона и поджигающим на 4 секунды
@@ -13264,12 +13264,12 @@ Buffs: {
     }
 
     MorningStarHeld: {
-        DisplayName: Утренняя звезда
+        DisplayName: Моргенштерн
         Description: ""
     }
 
     MorningStarHit: {
-        DisplayName: Утренняя звезда
+        DisplayName: Моргенштерн
         Description: ""
     }
 

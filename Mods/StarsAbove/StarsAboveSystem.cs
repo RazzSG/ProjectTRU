@@ -25,9 +25,14 @@ public partial class StarsAboveSystem : ModSystem
         return ModInstances.StarsAbove != null && TRuConfig.Instance.StarsAboveLocalization && TranslationHelper.IsRussianLanguage;
     }
     
-    public override void OnModLoad()
+    public override void PostAddRecipes()
     {
         SoundMap = CreateSoundMap();
+    }
+
+    public override void Unload()
+    {
+        SoundMap.Clear();
     }
 
     public override void ModifyInterfaceLayers(List<GameInterfaceLayer> layers)

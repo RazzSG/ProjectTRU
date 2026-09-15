@@ -10,11 +10,16 @@ namespace CalamityRuTranslate.Mods.Redemption;
 
 public class RedemptionTownNpcNames: GlobalNPC
 {
-    private static Dictionary<int, List<string>> _townNpcNames = new()
+    private static Dictionary<int, List<string>> _townNpcNames = new();
+
+    public override void SetStaticDefaults()
     {
-        { ModContent.NPCType<Fallen>(), ["Хэппинс", "Тенвон", "Оковт"] },
-        { ModContent.NPCType<ForestNymph_Friendly>(), ["Нисса", "Амми", "Альдерис", "Мэйпл", "Лаванда", "Амброз", "Нелида", "Силлесса"] },
-    };
+        _townNpcNames = new()
+        {
+            { ModContent.NPCType<Fallen>(), ["Хэппинс", "Тенвон", "Оковт"] },
+            { ModContent.NPCType<ForestNymph_Friendly>(), ["Нисса", "Амми", "Альдерис", "Мэйпл", "Лаванда", "Амброз", "Нелида", "Силлесса"] },
+        };
+    }
     
     public override bool IsLoadingEnabled(Mod mod)
     {

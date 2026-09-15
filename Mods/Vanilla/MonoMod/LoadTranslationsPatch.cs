@@ -16,9 +16,23 @@ using Terraria.ModLoader.Core;
 
 namespace CalamityRuTranslate.Mods.Vanilla.MonoMod;
 
+[EarlyPatcher]
 public class LoadTranslationsPatch : OnPatcher
 {
-    private static HashSet<string> _customKeys = new();
+    private sealed class TranslationPass
+    {
+        internal readonly List<(string key, string value)> Translations;
+        internal readonly HashSet<string> Keys;
+
+        internal TranslationPass(List<(string key, string value)> translations)
+        {
+            Translations = translations;
+            Keys = translations.Select(pair => pair.key).ToHashSet(StringComparer.Ordinal);
+        }
+    }
+    
+    [ThreadStatic]
+    private static TranslationPass _activePass;
     
     public override bool AutoLoad => TranslationHelper.IsRussianLanguage;
 
@@ -35,8 +49,41 @@ public class LoadTranslationsPatch : OnPatcher
             return orig.Invoke(tModFile, culture);
 
         if (tModFile == null)
-            return new();
+            return orig.Invoke(tModFile, culture);
 
+        if (tModFile.Name == CalamityRuTranslate.Instance.Name)
+            return _activePass?.Translations ?? ReadTranslations(tModFile, culture);
+
+        List<(string key, string value)> translations = orig.Invoke(tModFile, culture);
+        return _activePass == null
+            ? translations
+            : translations.Where(pair => !_activePass.Keys.Contains(pair.key)).ToList();
+    }
+
+    internal static void LoadModTranslations(Action<GameCulture> orig, GameCulture culture)
+    {
+        if (culture != GameCulture.FromCultureName(GameCulture.CultureName.Russian))
+        {
+            orig(culture);
+            return;
+        }
+
+        TranslationPass previousPass = _activePass;
+        try
+        {
+
+            TmodFile modFile = (TmodFile)typeof(Mod).FindProperty("File").GetValue(CalamityRuTranslate.Instance);
+            _activePass = new TranslationPass(ReadTranslations(modFile, culture));
+            orig(culture);
+        }
+        finally
+        {
+            _activePass = previousPass;
+        }
+    }
+
+    private static List<(string key, string value)> ReadTranslations(TmodFile tModFile, GameCulture culture)
+    {
         Type type = typeof(Mod).Assembly.GetType("Terraria.ModLoader.Core.BuildProperties");
         MethodInfo readModFile = type.FindMethod("ReadModFile");
         object properties = readModFile.Invoke(null, [tModFile]);
@@ -145,15 +192,9 @@ public class LoadTranslationsPatch : OnPatcher
                         path = prefix + "." + path;
 
                     flattened.Add((path, t.ToString()));
-                    
-                    if (tModFile.Name == nameof(CalamityRuTranslate))
-                        _customKeys.Add(path);
                 }
             }
 
-            if (tModFile.Name != nameof(CalamityRuTranslate))
-                flattened.RemoveAll(pair => _customKeys.Contains(pair.Item1));
-            
             return flattened;
         }
         catch (Exception e)
@@ -162,4 +203,14 @@ public class LoadTranslationsPatch : OnPatcher
             throw;
         }
     }
+}
+
+[EarlyPatcher]
+public class LoadModTranslationsPatch : OnPatcher
+{
+    public override bool AutoLoad => TranslationHelper.IsRussianLanguage;
+
+    public override MethodInfo ModifiedMethod => typeof(LocalizationLoader).FindMethod(nameof(LocalizationLoader.LoadModTranslations), [typeof(GameCulture)]);
+
+    public override Delegate Delegate => LoadTranslationsPatch.LoadModTranslations;
 }

@@ -133,12 +133,12 @@ public class ThoriumGlobalItem : GlobalItem
             
             ItemHelper.TranslateTooltip(tooltips, "transformationText2", _ =>
             {
-                tooltips.ReplaceText("Left click to dash forward, damaging an enemy in the process", "Нажмите ЛКМ, чтобы выполнить рывок вперёд, нанося урон врагу в процессе");
+                tooltips.ReplaceText("Left click to dash forward, damaging an enemy in the process", "Нажмите ЛКМ, чтобы совершить рывок вперёд и нанести при этом урон врагу");
                 tooltips.ReplaceText("Left click to spit a heavy bubble that deals increased damage to poisoned enemies", "Нажмите ЛКМ, чтобы выплюнуть тяжёлый пузырь, который наносит увеличенный урон отравленным врагам");
                 tooltips.ReplaceText("Left click to spit a stream of burning lava", "Нажмите ЛКМ, чтобы выплюнуть струю раскалённой лавы");
                 tooltips.ReplaceText("Left click to release a water-bound bubble stream", "Нажмите ЛКМ, чтобы выпустить водяной поток пузырей");
                 tooltips.ReplaceText("Left click to fire pair of life stealing teeth", "Нажмите ЛКМ, чтобы выпустить пару зубов, крадущих здоровье");
-                tooltips.ReplaceText("Left click to leap forward, damaging an enemy in the process", "Нажмите ЛКМ, чтобы прыгнуть вперёд, нанося урон врагу в процессе");
+                tooltips.ReplaceText("Left click to leap forward, damaging an enemy in the process", "Нажмите ЛКМ, чтобы прыгнуть вперёд и нанести при этом урон врагу");
                 tooltips.ReplaceText("Left click to release a storm of venomous beetle needles", "Нажмите ЛКМ, чтобы выпустить шквал ядовитых жучьих игл");
                 tooltips.ReplaceText("Left click to place a timed explosive that boosts you upwards", "Нажмите ЛКМ, чтобы разместить взрывчатку с таймером, которая запустит вас вверх");
             });
@@ -214,7 +214,7 @@ public class ThoriumGlobalItem : GlobalItem
         {
             ItemHelper.TranslateTooltip(tooltips, "HealerAmount", tooltip =>
             {
-                tooltips.ReplaceText("Right click to heal all nearby allies equal to the weapon's holy charges at twice the mana cost", "Нажмите ПКМ, чтобы исцелить всех ближайших союзников на величину зарядов святости оружия при двойном расходе маны");
+                tooltips.ReplaceText("Right click to heal all nearby allies equal to the weapon's holy charges at twice the mana cost", "Нажмите ПКМ, чтобы исцелить всех ближайших союзников на величину, равную числу зарядов святости оружия при двойном расходе маны");
                 tooltips.ReplaceText($"Right click to heal all nearby allies by {tooltip.Text.Split(' ')[8]} life at twice the mana cost", $"Нажмите ПКМ, чтобы исцелить всех ближайших союзников на {tooltip.Text.Split(' ')[8]} ед. здоровья при двойном расходе маны");
                 tooltips.ReplaceText("Right click to heal all nearby allies by 20 life (Max) at twice the mana cost", "Нажмите ПКМ, чтобы исцелить всех ближайших союзников на 20 ед. здоровья (максимум) при двойном расходе маны");
             });
@@ -241,8 +241,8 @@ public class ThoriumGlobalItem : GlobalItem
             ItemHelper.TranslateTooltip(tooltips, "HealerAmount", _ =>
             {
                 tooltips.ReplaceText("Heals ally and player life by 1", "Лечит союзника и игрока на 1 ед. здоровья");
-                tooltips.ReplaceText("Popcorn does not apply on heal effects when consumed", "Попкорн не влияет на эффекты исцеления при его употреблении");
-                tooltips.ReplaceText($"Throws out ({3 + Main.LocalPlayer.GetThoriumPlayer().healBonus}) eatable popcorn kernels", $"Бросает ({3 + Main.LocalPlayer.GetThoriumPlayer().healBonus}) съедобных зёрен попкорна");
+                tooltips.ReplaceText("Popcorn does not apply on heal effects when consumed", "Употребление попкорна не активирует эффекты, срабатывающие при исцелении");
+                tooltips.ReplaceText($"Throws out ({3 + Main.LocalPlayer.GetThoriumPlayer().healBonus}) eatable popcorn kernels", $"Бросает съедобные зёрна попкорна: ({3 + Main.LocalPlayer.GetThoriumPlayer().healBonus})");
                 tooltips.ReplaceText($"Up to ({(3 + Main.LocalPlayer.GetThoriumPlayer().healBonus) * 3}) kernels may be out at once", $"Одновременно может быть брошено до ({(3 + Main.LocalPlayer.GetThoriumPlayer().healBonus) * 3}) зёрен попкорна");
             });
         }

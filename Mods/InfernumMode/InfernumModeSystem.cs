@@ -20,7 +20,7 @@ public class InfernumModeSystem : ModSystem
         return ModInstances.Infernum != null && TRuConfig.Instance.InfernumModeLocalization && TranslationHelper.IsRussianLanguage;
     }
 
-    public override void PostSetupContent()
+    public override void PostAddRecipes()
     {
         _ = typeof(InfernumFontRegistry).SetMemberValue("BossIntroScreensFont", new LocalizedSpriteFont(BossIntroScreensFont).WithLanguage(GameCulture.CultureName.Russian, BossIntroScreensFont));
         _ = typeof(InfernumFontRegistry).SetMemberValue("ProfanedTextFont", new LocalizedSpriteFont(ProfanedTextFont).WithLanguage(GameCulture.CultureName.Russian, ProfanedTextFont));

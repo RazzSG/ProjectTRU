@@ -8,19 +8,24 @@ using Terraria.ModLoader;
 
 namespace CalamityRuTranslate.Mods.StarsAbove;
 
-public partial class StarsAboveGlobalNPC : GlobalNPC
+public class StarsAboveGlobalNPC : GlobalNPC
 {
-    private static Dictionary<int, List<string>> _townNpcNames = new()
+    private static Dictionary<int, List<string>> _townNpcNames = new();
+
+    public override void SetStaticDefaults()
     {
-        { ModContent.NPCType<Astrologian>(),
-            [
-                "Одетта", "Астеропа", "Майя", "Тайгета", "Целено", "Алкиона",
-                "Меропа","Электра", "Селена", "Сана", "Тиферет", "Лунала"
-            ]
-        },
-        { ModContent.NPCType<Garridine>(), ["Гарридина"] },
-        { ModContent.NPCType<Yojimbo>(), ["Йодзимбо"] },
-    };
+        _townNpcNames = new()
+        {
+            { ModContent.NPCType<Astrologian>(),
+                [
+                    "Одетта", "Астеропа", "Майя", "Тайгета", "Целено", "Алкиона",
+                    "Меропа","Электра", "Селена", "Сана", "Тиферет", "Лунала"
+                ]
+            },
+            { ModContent.NPCType<Garridine>(), ["Гарридина"] },
+            { ModContent.NPCType<Yojimbo>(), ["Йодзимбо"] },
+        };
+    }
     
     public override bool IsLoadingEnabled(Mod mod)
     {

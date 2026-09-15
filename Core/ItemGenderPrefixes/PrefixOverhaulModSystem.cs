@@ -23,7 +23,11 @@ public class PrefixOverhaulModSystem : ModSystem
         
         VanillaItemsCreator vanilla = new VanillaItemsCreator();
         prefixSystem.LoadGenderData(vanilla.Create());
+    }
 
+    public override void PostSetupContent()
+    {
+        PrefixOverhaul prefixSystem = PrefixOverhaul.Instance;
         IEnumerable<Type> creatorTypes = CalamityRuTranslate.Instance.Code.GetTypes().Where(t => !t.IsAbstract && typeof(IItemGenderCreator).IsAssignableFrom(t));
         
         foreach (Type type in creatorTypes)

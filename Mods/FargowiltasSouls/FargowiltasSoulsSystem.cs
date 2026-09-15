@@ -14,7 +14,7 @@ public class FargowiltasSoulsSystem : ModSystem
         return !Main.dedServ && ModInstances.FargowiltasSouls != null && TRuConfig.Instance.FargowiltasSoulsLocalization && TranslationHelper.IsRussianLanguage;
     }
 
-    public override void PostSetupContent()
+    public override void PostAddRecipes()
     {
         const float backWidth = 540f;
         SoulToggler soulToggler = FargoUIManager.Get<SoulToggler>();

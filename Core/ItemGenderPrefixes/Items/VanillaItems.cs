@@ -170,7 +170,6 @@ public class VanillaItems : IItemGender
         ItemID.HamBat,
         ItemID.BatBat,
         ItemID.ScytheWhip,
-        ItemID.MaceWhip,
         ItemID.Mace,
         ItemID.TheMeatball,
         ItemID.ObsidianSwordfish,
