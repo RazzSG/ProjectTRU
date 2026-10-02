@@ -59,7 +59,7 @@ public class RedemptionGlobalNPC : GlobalNPC
         
         if (npc.type == ModContent.NPCType<SkeletonNoble_SS>())
         {
-            typeName = $"Скелет-аристократ игрока {playerName}";
+            typeName = $"Скелет-кавалер игрока {playerName}";
         }
         
         if (npc.type == ModContent.NPCType<SkeletonWanderer_SS>())

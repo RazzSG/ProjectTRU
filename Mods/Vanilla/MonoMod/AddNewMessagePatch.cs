@@ -53,9 +53,6 @@ public class AddNewMessagePatch : ILoadable
         text = text.Replace("froze to death by staying still during Deep Freeze", ", оставаясь неподвижным во время глубокой заморозки, замёрз насмерть.");
         text = text.Replace("couldn't handle the vacuum of space.", "не смог выдержать вакуум космоса.");
         
-        // Redemption
-        text = text.Replace("experienced DOOR STUCK.", "застрял в ДВЕРЯХ.");
-        
         text = text switch
         {
             // StarsAbove

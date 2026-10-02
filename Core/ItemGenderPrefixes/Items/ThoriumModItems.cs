@@ -247,6 +247,8 @@ public class ThoriumModItems : IItemGender
                 "TrueLightAnguish",
                 "CrawdadClaw",
                 "DownwardSpiral",
+                "MedicalBag",
+                "RedHourglass",
             };
         
             if (ModInstances.Thorium != null)
@@ -352,6 +354,10 @@ public class ThoriumModItems : IItemGender
                 "Omen",
                 "KarmicHolder",
                 "Salivation",
+                "CursedFlailCore",
+                "IronFlailCore",
+                "VileFlailCore",
+                "NorthernLight",
             };
         
             if (ModInstances.Thorium != null)
@@ -412,7 +418,6 @@ public class ThoriumModItems : IItemGender
                 "WrithingSheath",
                 "SpringSteps",
                 "LastingPliers",
-                "RedHourglass",
                 "SteamkeeperWatch",
                 "TerrariumWings",
                 "SpartanSandles",
@@ -423,6 +428,8 @@ public class ThoriumModItems : IItemGender
                 "ChampionWing",
                 "TerrariumParticleSprinters",
                 "JetstreamSheath",
+                "LightningClaves",
+                "WindChimes",
             };
     
             if (ModInstances.Thorium != null)

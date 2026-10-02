@@ -33,10 +33,10 @@ public class DrawInterfaceYouDiedPatch : ILoadable
         cursor.TryGotoNext(i => i.MatchLdloc(1));
         cursor.Index++;
         cursor.Emit(OpCodes.Pop);
-        cursor.Emit(OpCodes.Ldsfld, typeof(RandomDeathTextPlayer).GetField("RandomDeathText"));
+        cursor.Emit(OpCodes.Call, typeof(RandomDeathTextPlayer).GetMethod(nameof(RandomDeathTextPlayer.GetRandomDeathText)));
         cursor.TryGotoNext(i => i.MatchLdloc(1));
         cursor.Index++;
         cursor.Emit(OpCodes.Pop);
-        cursor.Emit(OpCodes.Ldsfld, typeof(RandomDeathTextPlayer).GetField("RandomDeathText"));
+        cursor.Emit(OpCodes.Call, typeof(RandomDeathTextPlayer).GetMethod(nameof(RandomDeathTextPlayer.GetRandomDeathText)));
     }
 }
