@@ -10911,7 +10911,7 @@ Items: {
     }
 
     LostSoulBottle: {
-        DisplayName: Заблудшая душа в бутылке
+        DisplayName: Заблудшая душа в банке
         Tooltip: ""
     }
 

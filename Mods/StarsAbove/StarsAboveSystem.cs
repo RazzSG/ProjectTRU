@@ -1,14 +1,17 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core.Config;
+using CalamityRuTranslate.Mods.Vanilla.MonoMod;
 using StarsAbove;
 using StarsAbove.Systems;
 using Terraria;
 using Terraria.Audio;
 using Terraria.ModLoader;
+using Terraria.ModLoader.Core;
 using Terraria.UI;
 
 namespace CalamityRuTranslate.Mods.StarsAbove;
@@ -19,12 +22,54 @@ public partial class StarsAboveSystem : ModSystem
     public static StarsAbovePlayer StarsAbovePlayer => Main.LocalPlayer.GetModPlayer<StarsAbovePlayer>();
 
     public static Dictionary<SoundStyle, SoundStyle> SoundMap = new();
+
+    public static void RegisterOgvReader(Mod mod)
+    {
+        if (Main.dedServ || ModInstances.StarsAbove is not Mod starsAbove)
+            return;
+
+        Type ogvReaderType = AssemblyManager.GetLoadableTypes(starsAbove.Code).FirstOrDefault(type => type.Name == "OgvReader" && typeof(ILoadable).IsAssignableFrom(type));
+
+        if (ogvReaderType != null && Activator.CreateInstance(ogvReaderType, nonPublic: true) is ILoadable ogvReader)
+            mod.AddContent(ogvReader);
+    }
     
     public override bool IsLoadingEnabled(Mod mod)
     {
         return ModInstances.StarsAbove != null && TRuConfig.Instance.StarsAboveLocalization && TranslationHelper.IsRussianLanguage;
     }
     
+    public override void PostSetupContent()
+    {
+        DrawPatch.CacheTextures(ModInstances.StarsAbove, "Assets/Sprites/StarsAbove");
+    }
+
+    public override void PreUpdatePlayers()
+    {
+        ArchivePlayer archivePlayer = ArchivePlayer;
+
+        if (!archivePlayer.archiveActive || !archivePlayer.archivePopulated)
+            return;
+
+        int count = archivePlayer.archiveChosenList switch
+        {
+            0 => archivePlayer.IdleArchiveList.Count,
+            1 => archivePlayer.BossArchiveList.Count,
+            2 => archivePlayer.WeaponArchiveList.Count,
+            3 => archivePlayer.VNArchiveList.Count,
+            _ => 0
+        };
+
+        if (count == 0)
+        {
+            archivePlayer.archiveActive = false;
+            return;
+        }
+
+        int minIndex = count > 1 ? 1 : 0;
+        archivePlayer.archiveListNumber = Math.Clamp(archivePlayer.archiveListNumber, minIndex, count - 1);
+    }
+
     public override void PostAddRecipes()
     {
         SoundMap = CreateSoundMap();

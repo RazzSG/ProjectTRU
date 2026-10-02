@@ -26,7 +26,7 @@
     DreamEaterDefeat: Реальность возвращается к своему умиротворённому состоянию...
 }
 
-Bestiary.InfoElements.ExpertModeInfoElement: Только в режиме эксперта
+Bestiary.InfoElements.ExpertModeInfoElement: Только в режиме Эксперта
 
 GravestoneText: {
     Beloved: Возлюбленный.
@@ -1962,7 +1962,7 @@ Items: {
     }
 
     ArcaneArmorFabricator: {
-        DisplayName: Чародейский изготовитель брони
+        DisplayName: Таинственный бронесоздатель
         Tooltip: Позволяет создавать уникальное оружие и броню
     }
 
@@ -4501,22 +4501,22 @@ Items: {
     }
 
     aDarksteelAlloy: {
-        DisplayName: Слиток тёмной стали
+        DisplayName: Слиток из тёмной стали
         Tooltip: ""
     }
 
     bDarksteelPickaxe: {
-        DisplayName: Кирка тёмной стали
+        DisplayName: Кирка из тёмной стали
         Tooltip: ""
     }
 
     cDarksteelAxe: {
-        DisplayName: Топор тёмной стали
+        DisplayName: Топор из тёмной стали
         Tooltip: ""
     }
 
     DarksteelBreastPlate: {
-        DisplayName: Нагрудник тёмной стали
+        DisplayName: Нагрудник из тёмной стали
         Tooltip:
             '''
             'Лёгкий, но прочный'
@@ -4526,7 +4526,7 @@ Items: {
     }
 
     DarksteelFaceGuard: {
-        DisplayName: Большой шлем тёмной стали
+        DisplayName: Большой шлем из тёмной стали
         Tooltip:
             '''
             'Лёгкий, но прочный'
@@ -4537,7 +4537,7 @@ Items: {
     }
 
     DarksteelGreaves: {
-        DisplayName: Поножи тёмной стали
+        DisplayName: Поножи из тёмной стали
         Tooltip:
             '''
             'Лёгкие, но прочные'
@@ -4547,17 +4547,17 @@ Items: {
     }
 
     dDarksteelMallet: {
-        DisplayName: Молот тёмной стали
+        DisplayName: Молот из тёмной стали
         Tooltip: ""
     }
 
     eDarksteelBroadSword: {
-        DisplayName: Меч тёмной стали
+        DisplayName: Меч из тёмной стали
         Tooltip: Нажмите <right>, чтобы оглушить врагов перед собой, используя шип
     }
 
     gDarkSteelCrossBow: {
-        DisplayName: Арбалет тёмной стали
+        DisplayName: Арбалет из тёмной стали
         Tooltip: ""
     }
 
@@ -18827,7 +18827,7 @@ Items: {
             Этот предмет больше не существует в игре
             Если он используется другим модом, свяжитесь с разработчиком этого мода
             '''
-        DarksteelMace.DisplayName: Булава тёмной стали
+        DarksteelMace.DisplayName: Булава из тёмной стали
         Firestormboots.DisplayName: Ботинки огненной бури
         IgneousRock.DisplayName: Вулканическая порода
         ScorchedBone.DisplayName: Обугленная кость

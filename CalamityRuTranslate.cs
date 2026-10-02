@@ -3,6 +3,9 @@ using CalamityRuTranslate.Common.Utilities;
 using CalamityRuTranslate.Core;
 using CalamityRuTranslate.Core.Config;
 using CalamityRuTranslate.Core.ModCalls;
+using CalamityRuTranslate.Mods.StarsAbove;
+using CalamityRuTranslate.Mods.Vanilla.MonoMod;
+using ReLogic.Content.Sources;
 using Terraria;
 using Terraria.Localization;
 using Terraria.ModLoader;
@@ -19,8 +22,15 @@ public class CalamityRuTranslate : Mod
         PreJITFilter = new DisableJIT();
     }
 
+    public override IContentSource CreateDefaultContentSource()
+    {
+        StarsAboveSystem.RegisterOgvReader(this);
+        return base.CreateDefaultContentSource();
+    }
+
     public override void Unload()
     {
+        DrawPatch.ClearTextureCache();
         Instance = null;
         TRuConfig.Instance = null;
     }
