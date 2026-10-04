@@ -8,6 +8,7 @@ using CalamityRuTranslate.Core.MonoMod;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using ReLogic.Content;
+using Terraria;
 using Terraria.ModLoader;
 
 namespace CalamityRuTranslate.Mods.Vanilla.MonoMod;
@@ -20,18 +21,22 @@ public class DrawPatch : OnPatcher
 
     public static void CacheTextures(Mod sourceMod, string replacementRoot)
     {
-        if (sourceMod == null || CalamityRuTranslate.Instance == null)
+        if (Main.dedServ || sourceMod == null || CalamityRuTranslate.Instance == null)
+            return;
+
+        IEnumerable<string> sourceAssets = sourceMod.RootContentSource?.EnumerateAssets();
+        IEnumerable<string> replacementAssets = CalamityRuTranslate.Instance.RootContentSource?.EnumerateAssets();
+        if (sourceAssets == null || replacementAssets == null)
             return;
 
         replacementRoot = replacementRoot.TrimEnd('/');
 
-        Dictionary<string, List<string>> sourceAssetsByName = sourceMod.RootContentSource
-            .EnumerateAssets()
+        Dictionary<string, List<string>> sourceAssetsByName = sourceAssets
             .Select(GetAssetPath)
             .GroupBy(Path.GetFileName, StringComparer.Ordinal)
             .ToDictionary(group => group.Key, group => group.ToList(), StringComparer.Ordinal);
 
-        foreach (string filePath in CalamityRuTranslate.Instance.RootContentSource.EnumerateAssets())
+        foreach (string filePath in replacementAssets)
         {
             string replacementPath = GetAssetPath(filePath);
             string prefix = replacementRoot + "/";
@@ -55,7 +60,7 @@ public class DrawPatch : OnPatcher
         TextureReplacements.Clear();
     }
 
-    public override bool AutoLoad => TranslationHelper.IsRussianLanguage;
+    public override bool AutoLoad => !Main.dedServ && TranslationHelper.IsRussianLanguage;
 
     public override MethodInfo ModifiedMethod => typeof(SpriteBatch).FindMethod("Draw", [typeof(Texture2D), typeof(Rectangle), typeof(Color)]);
 
