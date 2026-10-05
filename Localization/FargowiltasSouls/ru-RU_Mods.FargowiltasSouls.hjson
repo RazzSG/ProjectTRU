@@ -670,7 +670,7 @@ Buffs: {
     }
 
     PrimeMinionBuff: {
-        DisplayName: Маленький Прайм
+        DisplayName: Мини-Прайм
         Description: За вас сражается Скелетрон Прайм
     }
 
@@ -2439,7 +2439,7 @@ Items: {
             [i:FargowiltasSouls/NymphsPerfume] Атаки иногда создают сердца
             [i:FargowiltasSouls/WyvernFeather] Периодически испускает светящиеся сферы, при прикосновении к которым восстанавливает время полёта
             [i:FargowiltasSouls/SqueakyToy] Вражеские атаки по вам с шансом 5% пищат и наносят лишь 1 ед. урона
-            [i:FargowiltasSouls/WretchedPouch] При атаке накапливает заряд теневого пламени, но снижает сопротивление урону до 10%
+            [i:FargowiltasSouls/WretchedPouch] При атаке накапливает заряд теневого пламени, но снижает сопротивление урону максимум на 10%
             [i:FargowiltasSouls/WretchedPouch] Прекратите атаковать, чтобы высвободить накопленный заряд в виде всплеска теневых щупалец, наносящих магический урон
             [i:FargowiltasSouls/ConcentratedRainbowMatter] Призывает на помощь дружелюбного радужного слизня
             [i:FargowiltasSouls/TimsConcoction] С некоторых врагов после смерти выпадают зелья
@@ -2449,7 +2449,7 @@ Items: {
             [i:FargowiltasSouls/WyvernFeather] Стабилизирует гравитацию в космосе и жидкостях, [i:FargowiltasSouls/OrdinaryCarrot] улучшает ночное зрение, [i:FargowiltasSouls/SecurityWallet], и снижает стоимость перековки на 50%
             [i:FargowiltasSouls/ConcentratedRainbowMatter] Автоматически использует зелье лечения и [i:FargowiltasSouls/MysticSkull] маны при необходимости, и увеличивает дальность подбора звёзд маны
             [i:FargowiltasSouls/NymphsPerfume] Вы возрождаетесь с большим количеством здоровья [i:FargowiltasSouls/SandsofTime], а при отсутствии боссов возрождаетесь быстрее
-            [i:FargowiltasSouls/OrdinaryCarrot] Нажмите <right>, чтобы отдалить
+            [i:FargowiltasSouls/OrdinaryCarrot] Нажмите <right>, чтобы увеличить дальность обзора
             'Слияние тысяч мелких врагов'
             '''
         VanityTooltip:
@@ -2458,7 +2458,7 @@ Items: {
             [i:FargowiltasSouls/WyvernFeather] Стабилизирует гравитацию в космосе и жидкостях, [i:FargowiltasSouls/OrdinaryCarrot] улучшает ночное зрение, [i:FargowiltasSouls/SecurityWallet], и снижает стоимость перековки на 50%
             [i:FargowiltasSouls/ConcentratedRainbowMatter] Автоматически использует зелье лечения и [i:FargowiltasSouls/MysticSkull] маны при необходимости, и увеличивает дальность подбора звёзд маны
             [i:FargowiltasSouls/NymphsPerfume] Вы возрождаетесь с большим количеством здоровья [i:FargowiltasSouls/SandsofTime], а при отсутствии боссов возрождаетесь быстрее
-            [i:FargowiltasSouls/OrdinaryCarrot] Нажмите <right>, чтобы отдалить
+            [i:FargowiltasSouls/OrdinaryCarrot] Нажмите <right>, чтобы увеличить дальность обзора
             '''
     }
     
@@ -2472,7 +2472,7 @@ Items: {
             [i:FargowiltasSouls/NymphsPerfume] Атаки иногда создают сердца
             [i:FargowiltasSouls/WyvernFeather] Периодически испускает светящиеся сферы, при прикосновении к которым восстанавливает время полёта
             [i:FargowiltasSouls/SqueakyToy] Вражеские атаки по вам с шансом 5% пищат и наносят лишь 1 ед. урона
-            [i:FargowiltasSouls/WretchedPouch] При атаке накапливает заряд теневого пламени, но снижает сопротивление урону до 10%
+            [i:FargowiltasSouls/WretchedPouch] При атаке накапливает заряд теневого пламени, но снижает сопротивление урону максимум на 10%
             [i:FargowiltasSouls/WretchedPouch] Прекратите атаковать, чтобы высвободить накопленный заряд в виде всплеска теневых щупалец, наносящих магический урон
             [i:FargowiltasSouls/ConcentratedRainbowMatter] Призывает на помощь дружелюбного радужного слизня
             [i:FargowiltasSouls/TimsConcoction] С некоторых врагов после смерти выпадают зелья
@@ -3569,10 +3569,10 @@ Items: {
             {$CommonItemTooltip.MinorStats}
             Увеличивает регенерацию здоровья
             Длительность действия эффекта: 1 минута
-            Нажмите <right>, чтобы отдалить (работает из инвентаря или в слотах для украшений)
+            Нажмите <right>, чтобы увеличить дальность обзора (работает из инвентаря или в слотах для украшений)
             'Сорванная с лица побеждённого врага'
             '''
-        VanityTooltip: Нажмите <right>, чтобы отдалить
+        VanityTooltip: Нажмите <right>, чтобы увеличить дальность обзора
     }
 
     RabiesShot: {
@@ -4316,7 +4316,11 @@ Items: {
 
     PhantasmalLeashOfCthulhu: {
         DisplayName: Призрачный поводок Ктулху
-        Tooltip: "'Душа Истинного Глаза запечатлена в вечности...'"
+        Tooltip:
+            '''
+            Во время вращения и при попадании выпускает шквал самонаводящихся глаз
+            'Душа Истинного Глаза запечатлена в вечности...'
+            '''
     }
 
     SlimeRain: {
