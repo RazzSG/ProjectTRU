@@ -14,6 +14,7 @@ public class InfernumModeItems : IItemGender
                 "WanderersShell",
                 "Purity",
                 "IllusionersReverie",
+                "Dreamtastic",
             };
         
             if (ModInstances.Calamity != null && ModInstances.Infernum != null)

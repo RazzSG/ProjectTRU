@@ -1,57 +1,66 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 using System.Reflection;
-using CalamityRuTranslate.Common;
 using CalamityRuTranslate.Common.Utilities;
-using CalamityRuTranslate.Core.Config;
 using CalamityRuTranslate.Core.MonoMod;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using ReLogic.Content;
+using Terraria;
+using Terraria.ModLoader;
 
 namespace CalamityRuTranslate.Mods.Vanilla.MonoMod;
 
 public class DrawPatch : OnPatcher
 {
-    private const string PATH = "Assets/Sprites/StarsAbove";
-    
-    private Dictionary<string, string> _textures = new()
-    {
-        { "UI/StellarNova/prototokiaIcon", $"{PATH}/prototokiaIcon" },
-        { "UI/StellarNova/laevateinnIcon", $"{PATH}/laevateinnIcon" },
-        { "UI/StellarNova/KiwamiRyukenIcon", $"{PATH}/KiwamiRyukenIcon" },
-        { "UI/StellarNova/gardenofavalonIcon", $"{PATH}/gardenofavalonIcon" },
-        { "UI/StellarNova/edingenesisquasarIcon", $"{PATH}/edingenesisquasarIcon" },
-        { "UI/StellarNova/unlimitedbladeworksIcon", $"{PATH}/unlimitedbladeworksIcon" },
-        { "UI/StellarNova/guardianslightIcon", $"{PATH}/guardianslightIcon" },
-        { "UI/StellarNova/fireflytypeIVIcon", $"{PATH}/fireflytypeIVIcon" },
-        { "UI/StellarNova/origininfinityIcon", $"{PATH}/origininfinityIcon" },
-        { "UI/CelestialCartography/LocationDescriptionTextBox", $"{PATH}/LocationDescriptionTextBox" },
-        { "UI/CelestialCartography/LocationNames/Caelum", $"{PATH}/Caelum" },
-        { "UI/CelestialCartography/LocationNames/Celestia", $"{PATH}/Celestia" },
-        { "UI/CelestialCartography/LocationNames/Corvus", $"{PATH}/Corvus" },
-        { "UI/CelestialCartography/LocationNames/CygnusAsteroidField", $"{PATH}/CygnusAsteroidField" },
-        { "UI/CelestialCartography/LocationNames/FaintArchives", $"{PATH}/FaintArchives" },
-        { "UI/CelestialCartography/LocationNames/FallenTheranhad", $"{PATH}/FallenTheranhad" },
-        { "UI/CelestialCartography/LocationNames/Katabasis", $"{PATH}/Katabasis" },
-        { "UI/CelestialCartography/LocationNames/Lyra", $"{PATH}/Lyra" },
-        { "UI/CelestialCartography/LocationNames/MiningStationAries", $"{PATH}/MiningStationAries" },
-        { "UI/CelestialCartography/LocationNames/Observatory", $"{PATH}/Observatory" },
-        { "UI/CelestialCartography/LocationNames/Pyxis", $"{PATH}/Pyxis" },
-        { "UI/CelestialCartography/LocationNames/Scorpius", $"{PATH}/Scorpius" },
-        { "UI/CelestialCartography/LocationNames/Serpens", $"{PATH}/Serpens" },
-        { "UI/CelestialCartography/LocationNames/TheDreamingCity", $"{PATH}/TheDreamingCity" },
-        { "UI/CelestialCartography/LocationNames/Tucana", $"{PATH}/Tucana" },
-        { "UI/CelestialCartography/LocationNames/UltraPlant", $"{PATH}/UltraPlant" },
-        { "UI/StellarNova/NovaTextBox", $"{PATH}/NovaTextBox" },
-        { "UI/StellarNova/NovaUI", $"{PATH}/NovaUI" },
-        { "UI/StellarNova/affix1", $"{PATH}/affix1" },
-        { "UI/StellarNova/affix2", $"{PATH}/affix2" },
-        { "UI/StellarNova/affix3", $"{PATH}/affix3" },
-    };
-    
+    private static readonly Dictionary<Texture2D, Texture2D> TextureReplacements = new();
+
     private delegate void DrawDelegate(SpriteBatch self, Texture2D texture, Rectangle destinationRectangle, Color color);
-    
-    public override bool AutoLoad => TranslationHelper.IsRussianLanguage;
+
+    public static void CacheTextures(Mod sourceMod, string replacementRoot)
+    {
+        if (Main.dedServ || sourceMod == null || CalamityRuTranslate.Instance == null)
+            return;
+
+        IEnumerable<string> sourceAssets = sourceMod.RootContentSource?.EnumerateAssets();
+        IEnumerable<string> replacementAssets = CalamityRuTranslate.Instance.RootContentSource?.EnumerateAssets();
+        if (sourceAssets == null || replacementAssets == null)
+            return;
+
+        replacementRoot = replacementRoot.TrimEnd('/');
+
+        Dictionary<string, List<string>> sourceAssetsByName = sourceAssets
+            .Select(GetAssetPath)
+            .GroupBy(Path.GetFileName, StringComparer.Ordinal)
+            .ToDictionary(group => group.Key, group => group.ToList(), StringComparer.Ordinal);
+
+        foreach (string filePath in replacementAssets)
+        {
+            string replacementPath = GetAssetPath(filePath);
+            string prefix = replacementRoot + "/";
+            if (!replacementPath.StartsWith(prefix, StringComparison.Ordinal))
+                continue;
+
+            string relativePath = replacementPath[prefix.Length..];
+            string sourcePath = ResolveSourcePath(sourceMod, sourceAssetsByName, relativePath);
+
+            if (sourcePath == null)
+                continue;
+
+            Texture2D original = sourceMod.Assets.Request<Texture2D>(sourcePath, AssetRequestMode.ImmediateLoad).Value;
+            Texture2D replacement = CalamityRuTranslate.Instance.Assets.Request<Texture2D>(replacementPath, AssetRequestMode.ImmediateLoad).Value;
+            TextureReplacements[original] = replacement;
+        }
+    }
+
+    public static void ClearTextureCache()
+    {
+        TextureReplacements.Clear();
+    }
+
+    public override bool AutoLoad => !Main.dedServ && TranslationHelper.IsRussianLanguage;
 
     public override MethodInfo ModifiedMethod => typeof(SpriteBatch).FindMethod("Draw", [typeof(Texture2D), typeof(Rectangle), typeof(Color)]);
 
@@ -59,17 +68,27 @@ public class DrawPatch : OnPatcher
 
     private void Translate(DrawDelegate orig, SpriteBatch self, Texture2D texture, Rectangle destinationRectangle, Color color)
     {
-        if (ModInstances.StarsAbove != null && TRuConfig.Instance.StarsAboveLocalization)
-        {
-            foreach (KeyValuePair<string, string> path in _textures)
-            {
-                if (texture == ModInstances.StarsAbove.Assets.Request<Texture2D>(path.Key).Value)
-                {
-                    texture = CalamityRuTranslate.Instance.Assets.Request<Texture2D>(path.Value).Value;
-                }
-            }
-        }
+        if (TextureReplacements.TryGetValue(texture, out Texture2D replacement))
+            texture = replacement;
 
         orig.Invoke(self, texture, destinationRectangle, color);
+    }
+
+
+    private static string GetAssetPath(string path)
+    {
+        return Path.ChangeExtension(path.Replace('\\', '/'), null);
+    }
+
+    private static string ResolveSourcePath(Mod sourceMod, Dictionary<string, List<string>> sourceAssetsByName, string relativePath)
+    {
+        if (sourceMod.HasAsset(relativePath))
+            return relativePath;
+
+        string fileName = Path.GetFileName(relativePath);
+        if (!sourceAssetsByName.TryGetValue(fileName, out List<string> matches) || matches.Count != 1)
+            return null;
+
+        return matches[0];
     }
 }

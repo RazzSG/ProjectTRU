@@ -15,7 +15,7 @@ public class PathOfTerrariaSystem : ModSystem
         return ModInstances.PathOfTerraria != null && TRuConfig.Instance.PathOfTerrariaLocalization && TranslationHelper.IsRussianLanguage;
     }
     
-    public override void PostSetupContent()
+    public override void PostAddRecipes()
     {
         if (!Main.dedServ)
         {

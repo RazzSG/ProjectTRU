@@ -24,10 +24,10 @@ public class ThoriumNpcChat : GlobalNPC
             chat = chat switch
             {
                 "Don't forget to wipe your blade if you're planning on going out there! I don't care how magical it is, those freaks' blood will rust any metal!" => "Не забудь протереть свой клинок, если собираешься выходить наружу! Мне всё равно, насколько он магический, кровь этих чудовищ заставляет ржаветь любой металл.",
-                "You know all those special weapons you find scattered about the land? I've always wondered just how they were forged in the first place. I'm an old man now, but I've still got a long journey to mastery ahead of me..." => "Знаешь все эти уникальные оружия, что разбросаны по всей земле? Мне всегда было интересно, как их вообще ковали. Хотя я уже старик, мне ещё предстоит долгий путь к совершенству...",
+                "You know all those special weapons you find scattered about the land? I've always wondered just how they were forged in the first place. I'm an old man now, but I've still got a long journey to mastery ahead of me..." => "Знаешь всё это необычное оружие, которое находишь по всему миру? Мне всегда было интересно, как их вообще ковали. Хотя я уже старик, мне ещё предстоит долгий путь к совершенству...",
                 "Every blade's got its place in the world: a signature weapon for a hero, a beloved knife for a chef, or maybe just some gaudy piece of junk hanging from a wall." => "У каждого клинка есть своё место в этом мире: личное оружие для героя, любимый нож для шеф-повара или просто бесполезная безделушка, висящая на стене.",
                 "Hey brat, corral some people into helping me out at the forge. Blacksmithing ain't a single-man task, and you'll just end up with second-rate junk if you try going solo!" => "Эй, малец, найди кого-нибудь, кто поможет мне в кузнице. Кузнечное дело - это не работа одного человека, и если ты будешь работать в одиночку, то получишь только второсортное барахло!",
-                "'course I followed you here, brat. I crash-coursed you on how to forge and smith weapons for yourself before you arrived here, I'll be damned if I don't get to sit back and watch the ensuing fireworks." => "Конечно, малец, я следил за тобой с самого начала. Я научил тебя кузнечному ремеслу до того, как ты сюда пришёл. Честно говоря, я буду разочарован, если не увижу, что ты устроишь здесь.",
+                "'course I followed you here, brat. I crash-coursed you on how to forge and smith weapons for yourself before you arrived here, I'll be damned if I don't get to sit back and watch the ensuing fireworks." => "Конечно, я пришёл сюда вслед за тобой, малец. Я научил тебя кузнечному ремеслу до того, как ты сюда пришёл. Честно говоря, я буду разочарован, если не увижу, что ты устроишь здесь.",
                 "Welcome! I'm busy workin' on a commission weapon, if you touch anything, consider it sold!" => "Привет! Я сейчас работаю над заказным оружием, так что не трогай ничего, а то считай, что ты уже это купил!",
                 "Heh, I told you from day one, brat: I came here to watch the fireworks, and you sure delivered." => "Хех, я же говорил тебе с самого начала, малец: я пришёл сюда смотреть на фейерверк, и ты не подкачал.",
                 _ => chat
@@ -37,7 +37,7 @@ public class ThoriumNpcChat : GlobalNPC
             {
                 if (chat == $"Me and {GetNPCName(38)} have a little routine going: he delivers me metal to smith, and I give him a heart attack by smoking near his explosives on purpose.")
                 {
-                    chat = $"У меня с {GetNPCName(38)} есть такая штука: он приносит мне металл для кузнечного дела, а я специально курю рядом с его взрывчаткой, чтобы у него случился сердечный приступ.";
+                    chat = $"{GetNPCName(38)} приносит мне металл для ковки, а я в ответ нарочно курю рядом с его взрывчаткой, чуть не доводя беднягу до сердечного приступа. Вот такой у нас обычай.";
                 }
             }
             
@@ -45,7 +45,7 @@ public class ThoriumNpcChat : GlobalNPC
             {
                 if (chat == $"I just witnessed {GetNPCName(208)} make a knife out of chocolate that's better than half of my own blades...")
                 {
-                    chat = $"Я стал свидетелем того, как {GetNPCName(208)} сделал из шоколада нож, который лучше половины моих клинков...";
+                    chat = $"Я стал свидетелем того, как {GetNPCName(208)} сделала из шоколада нож, который лучше половины моих клинков...";
                 }
             }
             
@@ -53,7 +53,7 @@ public class ThoriumNpcChat : GlobalNPC
             {
                 if (chat == $"What does that conman {GetNPCName(17)} think he's doing trying to offer his cheap trash he calls 'weapons'? If you want the real deal, you've come to the right place!")
                 {
-                    chat = $"Чего этот шарлатан {GetNPCName(17)} думает, предлагая свой дешёвый хлам, который он называет «оружием»? Если хочешь что-нибудь стоящее, то ты попал по адресу!";
+                    chat = $"Что этот шарлатан {GetNPCName(17)} себе позволяет, предлагая свой дешёвый хлам, который он называет «оружием»? Если хочешь что-нибудь стоящее, то ты попал по адресу!";
                 }
             }
             
@@ -73,7 +73,7 @@ public class ThoriumNpcChat : GlobalNPC
                 "In my younger years, I myself was a hero. But after a bad fall, I've since retired. Perhaps if I had better boots back then I would still be a hero today..." => "В свои молодые годы я тоже был героем. Но после неудачного падения мне пришлось уйти на пенсию. Кто знает, может, если бы у меня были более надёжные ботинки, я бы и сейчас был героем...",
                 "Worry not young man. While the journey may be tough, I have full confidence in your ability!" => "Не переживай, парень. Путь будет непростой, но я уверен в твоих силах!",
                 "Worry not young lady. While the journey may be tough, I have full confidence in your ability!" => "Не переживай, малышка. Путь будет непростой, но я уверен в твоих силах!",
-                "You can learn a lot by walking a mile in someone else's boots. If only some of these townsfolk would walk a mile in yours, then they could understand..." => "Пройдя милю в чужих сапогах, можно узнать многое. Если бы кто-нибудь из этих жителей хотя бы на минутку примерил твои ботинки, они бы поняли, каково это...",
+                "You can learn a lot by walking a mile in someone else's boots. If only some of these townsfolk would walk a mile in yours, then they could understand..." => "Пройдя милю в чужих сапогах, можно узнать многое. Если бы некоторые из этих жителей хотя бы на минутку примерили твои ботинки, они бы поняли, каково это...",
                 "I can't believe it, never in a million years... But look at you, standing so triumphantly! Ha ha hah! Congratulations, but more importantly: thank you, from the bottom of my heart, hero. Thanks to your incredible bravery, an old friend of mine can rest easy now..." => "Я не мог и представить, что такое возможно! Вот ты стоишь, весь такой победоносный! Ха-ха-ха! Поздравляю, но самое главное - спасибо тебе, герой, от всего сердца! Благодаря твоей смелости мой старый друг может наконец-то обрести покой...",
                 _ => chat
             };
@@ -129,7 +129,7 @@ public class ThoriumNpcChat : GlobalNPC
             {
                 if (chat == $"I bet {GetNPCName(22)} has a big juicy brain... not that I would wanna... uh... did you need something?")
                 {
-                    chat = $"Сдаётся мне, что у {GetNPCName(22)} большой и сочный мозг... не то чтобы я хотел... э-э-э... тебе что-нибудь нужно?";
+                    chat = $"Держу пари, {GetNPCName(22)} может похвастаться большим сочным мозгом... не то чтобы я хотел... э-э-э... тебе что-нибудь нужно?";
                 }
             }
             
@@ -137,7 +137,7 @@ public class ThoriumNpcChat : GlobalNPC
             {
                 if (chat == $"{GetNPCName(208)}'s brain would surely taste like candy... Oh uh, hello there!")
                 {
-                    chat = $"М-м-м, мозг {GetNPCName(208)} наверняка будет таким сладким... Ой, привет!";
+                    chat = $"М-м-м, {GetNPCName(208)}... Её мозг наверняка на вкус как конфета... Ой, привет!";
                 }
             }
         }
@@ -159,7 +159,7 @@ public class ThoriumNpcChat : GlobalNPC
             {
                 if (chat == $"{GetNPCName(369)} can be a real brat at times, but as long as he keeps providing me with fresh fish, I won't complain.")
                 {
-                    chat = $"{GetNPCName(369)} иногда бывает настоящим засранцем, но пока он продолжает снабжать меня свежей рыбой, я не буду жаловаться.";
+                    chat = $"{GetNPCName(369)} иногда бывает настоящим несносным мальчишкой, но пока он продолжает снабжать меня свежей рыбой, я не буду жаловаться.";
                 }
             }
             
@@ -167,7 +167,7 @@ public class ThoriumNpcChat : GlobalNPC
             {
                 if (chat == $"Cooking for {GetNPCName(20)} is no easy task. She simply refuses to eat any form of meat!")
                 {
-                    chat = $"Приготовить что-нибудь для {GetNPCName(20)} - это нелёгкая задача. Она просто отказывается есть мясо!";
+                    chat = $"{GetNPCName(20)} совсем не ест мяса, так что готовить для неё нелегко!";
                 }
             }
             
@@ -186,10 +186,10 @@ public class ThoriumNpcChat : GlobalNPC
             {
                 "We certainly have some strange people around this town, don't we...?" => "Да уж, в этом городе полно странных людей, не правда ли?",
                 "You didn't see any giant bird shadows while you were out in the desert, did you?" => "Ты не заметил в пустыне гигантских теней, похожих на птиц?",
-                "I had originally stopped just to refill my canteen, but you seem like someone who can deal with a real threat!" => "Я зашёл сюда, чтобы просто пополнить запасы, но ты выглядишь как тот, кто справится с реальной угрозой!",
-                "Have you ever heard tale of the Thunder Birds? Legend says they had long protected our world from cataclysmic threats, before a disagreement between them and three individuals led to their disappearance..." => "Ты когда-нибудь слышал о Громовых птицах? Легенда гласит, что они долго защищали наш мир от катастроф, но однажды между ними и тремя людьми произошёл конфликт, который привёл к их исчезновению...",
+                "I had originally stopped just to refill my canteen, but you seem like someone who can deal with a real threat!" => "Я сперва остановился здесь, только чтобы наполнить флягу, но ты выглядишь как тот, кто справится с реальной угрозой!",
+                "Have you ever heard tale of the Thunder Birds? Legend says they had long protected our world from cataclysmic threats, before a disagreement between them and three individuals led to their disappearance..." => "Ты когда-нибудь слышал о Громовых птицах? Легенда гласит, что они долго защищали наш мир от катастроф, но однажды между ними и тремя существами произошёл конфликт, который привёл к их исчезновению...",
                 "If you're interested in the secrets of my people, be sure to purchase a 'Blank Technique Scroll'. They offer great power to those that utilize them well..." => "Если ты хочешь узнать секреты моего народа, обязательно купи пустой свиток техники. Он даст огромную силу тому, кто умеет им правильно пользоваться...",
-                "I have seen so much evil in my travels... I only hope someone can put a stop to them!" => "Я повидал столько зла в своих странствиях... Только бы кто-нибудь смог их остановить!",
+                "I have seen so much evil in my travels... I only hope someone can put a stop to them!" => "Я повидал столько зла в своих странствиях... Только бы кто-нибудь смог положить ему конец!",
                 "It seems I was right to place my trust in you, my friend. You've protected us from every threat that arose, and for that, I'm truly grateful. Maybe now I can finally relax a little." => "Похоже, я был прав, доверившись тебе, дружище. Ты защитил нас от всех угроз, и я тебе за это очень благодарен. Может, теперь я наконец смогу немного расслабиться.",
                 _ => chat
             };
@@ -206,7 +206,7 @@ public class ThoriumNpcChat : GlobalNPC
             {
                 if (chat == $"Look at {GetNPCName(19)} over there! He's got an entire arsenal of guns, is that really safe?")
                 {
-                    chat = $"Ты только посмотри на {GetNPCName(19)}! У него целый арсенал оружия, это вообще безопасно?";
+                    chat = $"Вон {GetNPCName(19)}! У него целый арсенал ружей, это вообще безопасно?";
                 }
             }
         }
@@ -217,11 +217,11 @@ public class ThoriumNpcChat : GlobalNPC
             {
                 "Visiting that sea rift again wasn't my best idea... that mutant jellyfish almost ate me whole!" => "Снова посетить тот морской разлом было не самой лучшей идеей... та мутировавшая медуза чуть не сожрала меня целиком!",
                 "Yuck... that vile creature almost got away with eating me! Thank you for saving me, hero." => "Б-р-р... эта мерзкая тварь чуть не сожрала меня! Спасибо, что спас меня, герой.",
-                "Have you adventured into the aquatic depths yet...? Its choking atmosphere prevents most explorers from entering, but I'm confident you'll find a way around it..." => "Ты уже погружался в акватические глубины? Многих отталкивает давящая атмосфера этих мест, но я уверен, что ты найдёшь способ преодолеть этот непроходимый барьер...",
+                "Have you adventured into the aquatic depths yet...? Its choking atmosphere prevents most explorers from entering, but I'm confident you'll find a way around it..." => "Ты уже бывал в Акватических глубинах?.. Их удушливая атмосфера не пускает туда большинство исследователей, но я уверен, что ты найдёшь способ обойти эту преграду...",
                 "I've collected many marine items in my travels, hero. Would you like to purchase one?" => "Эй, герой! В своих странствиях я собрал много морских сокровищ. Хочешь купить что-нибудь?",
                 "Being at the bottom of the ocean for long periods of time has taught me one thing; Always come prepared!" => "Жизнь на дне океана научила меня одному: всегда будь готов к любым неожиданностям!",
                 "You would think it gets hard to breath under this helmet, but really I'm just used to it now." => "На первый взгляд может показаться, что под этим шлемом трудно дышать, но на самом деле я уже привык.",
-                "You ever try to drink a bottle of water, while drowning, to save yourself? I know I have!" => "А ты когда-нибудь пытался выпить бутылку воды, тоня, чтобы спастись? Я вот пробовал!",
+                "You ever try to drink a bottle of water, while drowning, to save yourself? I know I have!" => "А ты когда-нибудь пытался спастись от утопления, выпив бутылку воды? Я вот пробовал!",
                 "Not bad, kid... Not bad at all. Hopefully you've had fun during all of your adventures out there. I guess you could say I've always been keeping an eye on you." => "Неплохо, малец... Даже очень неплохо. Надеюсь, ты получал удовольствие от своих приключений. Я, кстати, всё время за тобой наблюдал.",
                 _ => chat
             };
@@ -232,12 +232,12 @@ public class ThoriumNpcChat : GlobalNPC
             chat = chat switch
             {
                 "Why don't you go fetch those seeds yourself you lazy, good for nothing-" => "Почему бы тебе не пойти и собрать эти семена самостоятельно, ни на что не годный лентяй!",
-                "I bet you don't even feel guilty about destroying the natural world to better suit your needs..." => "Готов поспорить, что ты и вовсе не чувствуешь вину, разрушая природу в угоду своим прихотям...",
-                "Gathering seeds is a bigger hassle than you would think. Nearly drowning, almost melting, freezing to- You get the idea." => "Собирать семена оказалось гораздо сложнее, чем я думал. Я чуть не утонул, чуть не сварился, чуть не замёрз до смер... Ну, ты понял.",
+                "I bet you don't even feel guilty about destroying the natural world to better suit your needs..." => "Готова поспорить, что ты и вовсе не чувствуешь вины, разрушая природу в угоду своим прихотям...",
+                "Gathering seeds is a bigger hassle than you would think. Nearly drowning, almost melting, freezing to- You get the idea." => "Собирать семена хлопотнее, чем ты думаешь. То чуть не утонешь, то чуть не расплавишься, то чуть не замёрзнешь до... Ну, ты понимаешь.",
                 "I often take visits to the jungle. I can understand the aversion to the place, but the creatures within don't seem to hassle me..." => "Я частенько захаживаю в джунгли. Могу понять, что это место вызывает отвращение, но местная фауна меня не трогает...",
                 "My mother was a well known herbalist back in the day. She doesn't talk about my father, though. I wonder why?" => "Моя мама в своё время была знаменитой травницей. О папе она, однако, никогда не говорит. Интересно, почему?",
                 "The natural world is quite a wonder. Every little place has its own charm. Some more than others!" => "Мир природы действительно чудесен. Каждый уголок имеет своё очарование. В некоторых местах оно выражено сильнее, чем в других!",
-                "Normally I'd say something like, 'nature finds a way', but I'm not even sure if Mother Nature could survive if you failed to stop those spirits' carnage... Please take these lilies, in gratitude for your courage!" => "Ну, обычно я бы сказал что-нибудь вроде «природа всегда находит путь», но я даже не уверен, что сама Мать-Природа смогла бы выжить, если бы ты не остановил бойню, учинённую этими духами... Прими эти лилии в благодарность за твою храбрость!",
+                "Normally I'd say something like, 'nature finds a way', but I'm not even sure if Mother Nature could survive if you failed to stop those spirits' carnage... Please take these lilies, in gratitude for your courage!" => "Ну, обычно я бы сказала что-нибудь вроде «природа всегда находит путь», но я даже не уверена, что сама Мать-Природа смогла бы выжить, если бы ты не остановил бойню, учинённую этими духами... Прими эти лилии в благодарность за твою храбрость!",
                 _ => chat
             };
             
@@ -253,7 +253,7 @@ public class ThoriumNpcChat : GlobalNPC
             {
                 if (chat == $"I wonder if I can convince {GetNPCName(ModContent.NPCType<Cook>())} to whip me up a salad.")
                 {
-                    chat = $"Интересно, смогу ли я уговорить {GetNPCName(ModContent.NPCType<Cook>())} приготовить мне салат.";
+                    chat = $"Интересно, согласится ли {GetNPCName(ModContent.NPCType<Cook>())} приготовить мне салат.";
                 }
             }
             
@@ -264,12 +264,12 @@ public class ThoriumNpcChat : GlobalNPC
             
             if (chat == $"Even a small seed can grow into a mighty oak! Keep that in mind, {Main.LocalPlayer.name}...")
             {
-                chat = $"Даже маленький росток может вырасти в могучий дуб! Помни об этом, {Main.LocalPlayer.name}...";
+                chat = $"Даже маленькое семечко может вырасти в могучий дуб! Помни об этом, {Main.LocalPlayer.name}...";
             }
             
             if (chat == $"Defeating powerful monsters will make it safer for me to venture into different biomes in search of seeds. Check back with me regularly, {Main.LocalPlayer.name}!")
             {
-                chat = $"Побеждая сильных монстров, я смогу безопасно путешествовать по биомам в поисках семян. Заглядывай ко мне почаще, {Main.LocalPlayer.name}!";
+                chat = $"Когда ты побеждаешь сильных монстров, мне становится безопаснее путешествовать по разным биомам в поисках семян. Заглядывай ко мне почаще, {Main.LocalPlayer.name}!";
             }
         }
 
@@ -287,7 +287,7 @@ public class ThoriumNpcChat : GlobalNPC
             chat = chat switch
             {
                 "Is- Is that my cross? How in the world did you manage to find it? It's been lost for so long..." => "Это мой крест? Да ладно, как тебе удалось его найти? Я искал его столько лет...",
-                "Beware my friend... true evil walks among us this night." => "Остерегайся, дружище... этой ночью истинное зло раскроет свою личину среди нас.",
+                "Beware my friend... true evil walks among us this night." => "Остерегайся, дружище... этой ночью среди нас бродит истинное зло.",
                 "Ah, it's been a while friend. It is good to see you are well after so long!" => "Эх, давненько не виделись, друг. Рад видеть, что ты в порядке после столь долгого времени!",
                 "Whether in body, mind, or spirit, always consider how you may grow today, my friend." => "Будь то тело, разум или дух - всегда думай, как можешь расти сегодня, мой друг.",
                 "Energy, chi, spirit... it's all the same to me. There is power in all things." => "Энергия, ци, дух... для меня это всё одно и то же. Везде есть сила.",
@@ -321,7 +321,7 @@ public class ThoriumNpcChat : GlobalNPC
             {
                 if (chat == $"Do you think {GetNPCName(353)} would give a haircut even to a brute like me...?")
                 {
-                    chat = $"Как думаешь, {GetNPCName(353)} постриг бы даже такого грубияна, как я?..";
+                    chat = $"Как думаешь, {GetNPCName(353)} постригла бы даже такого грубияна, как я?..";
                 }
             }
             
@@ -329,7 +329,7 @@ public class ThoriumNpcChat : GlobalNPC
             {
                 if (chat == $"{GetNPCName(550)}, {GetNPCName(ModContent.NPCType<WeaponMaster>())}, and I were gonna start a gym together. You want in?")
                 {
-                    chat = $"Слушай, {GetNPCName(550)}, {GetNPCName(ModContent.NPCType<WeaponMaster>())} и я собираемся открыть тренажёрный зал. Присоединишься?";
+                    chat = $"Вот что мы задумали: {GetNPCName(550)}, {GetNPCName(ModContent.NPCType<WeaponMaster>())} и я собираемся открыть тренажёрный зал. Присоединишься?";
                 }
             }
         }
@@ -363,7 +363,7 @@ public class ThoriumNpcChat : GlobalNPC
             
             if (chat == $"I was exiled from my people when I chose to side with your kind. They thought me foolish, placing faith in those that dwelled above. I'm sure they're feeling rather foolish themselves after what you've just accomplished. Well done, {Main.LocalPlayer.name}.")
             {
-                chat = $"Я был изгнан своим народом, когда встал на твою сторону. Они считали меня глупцом за то, что я доверился тем, кто живёт наверху. Теперь, наверное, они сами чувствуют себя глупцами после того, что ты только что совершил. Отличная работа, {Main.LocalPlayer.name}.";
+                chat = $"Я был изгнан своим народом, когда встал на сторону твоего народа. Они считали меня глупцом за то, что я доверился тем, кто живёт наверху. Теперь, наверное, они сами чувствуют себя глупцами после того, что ты только что совершил. Отличная работа, {Main.LocalPlayer.name}.";
             }
             
             if (NPC.AnyNPCs(22))
@@ -403,9 +403,9 @@ public class ThoriumNpcChat : GlobalNPC
         {
             chat = chat switch
             {
-                "Say, if you're going to explore the dungeon, keep an eye out for this bizarre mirror. I only caught a glance at it while tied up, but it gave me serious heebie-jeebies..." => "Слушай, если ты собираешься исследовать Темницу, то смотри в оба за этим странным зеркалом. Я только краем глаза его увидел, пока был связан, но оно меня до чёртиков напугало...",
+                "Say, if you're going to explore the dungeon, keep an eye out for this bizarre mirror. I only caught a glance at it while tied up, but it gave me serious heebie-jeebies..." => "Слушай, если собираешься исследовать Темницу, присмотрись: там есть странное зеркало. Я лишь мельком увидела его, пока была связана, но оно меня до чёртиков напугало...",
                 "How I got kidnapped in the first place? One of their guys had crazy illusion magic, had me convinced I was being brought in to help install some new lighting!" => "А как меня вообще похитили? Один из их парней обладал сумасшедшей иллюзорной магией, и он убедил меня, что меня привезли помочь установить новое освещение!",
-                "It seems like things are gonna be a lot more peaceful from here on out. Maybe now I can finally focus on my machines... and maybe someone special to me." => "Кажется, впереди нас ждёт мирная жизнь. Наконец-то смогу спокойно заняться своими механизмами... А может быть, и чем-то более личным.",
+                "It seems like things are gonna be a lot more peaceful from here on out. Maybe now I can finally focus on my machines... and maybe someone special to me." => "Кажется, впереди нас ждёт мирная жизнь. Наконец-то смогу спокойно заняться своими механизмами... А может быть, и уделить время кое-кому особенному для меня.",
                 _ => chat
             };
         }
@@ -436,7 +436,7 @@ public class ThoriumNpcChat : GlobalNPC
         {
             chat = chat switch
             {
-                "Yeah, yeah, everyone's going crazy over your 'saving the world' thing. But have you saved the 200 fancy fish I've asked for? If not then it's back to work, minion!" => "Да-да, все в восторге от твоего «спасения мира». А две сотни моих золотых рыбок ты спас? Нет? Тогда назад к работе, миньон!",
+                "Yeah, yeah, everyone's going crazy over your 'saving the world' thing. But have you saved the 200 fancy fish I've asked for? If not then it's back to work, minion!" => "Да-да, все в восторге от твоего «спасения мира». А две сотни необычных рыб, которых я просил ты спас? Нет? Тогда назад к работе, миньон!",
                 "'Ocean Essences', huh? Do you think if I have enough, I'll become the Supreme God-Emperor of all Fishkind?! I've got a new quest for you, Supreme Helper Minion! Get for me 100 MILLION of those Ocean thingies, pronto!" => "Эссенции океана, говоришь? Думаешь, если у меня их будет достаточно, я стану Верховным Богом-Императором всех рыб? А ну-ка, Верховный помощник-миньон, живо добудь мне 100 МИЛЛИОНОВ этих штуковин, и быстро!",
                 _ => chat
             };
@@ -524,8 +524,8 @@ public class ThoriumNpcChat : GlobalNPC
         {
             chat = chat switch
             {
-                "That crown! Does that mean you're now the KING OF THE UNIVERSE?! Do you know what this calls for?! The greatest coronation party EVER!!" => "Эта корона! Ты что, теперь КОРОЛЬ ВСЕЛЕННОЙ?! Знаешь, что это значит? Самую грандиозную коронационную вечеринку в истории!!!",
-                "That crown! Does that mean you're now the QUEEN OF THE UNIVERSE?! Do you know what this calls for?! The greatest coronation party EVER!!" => "Эта корона! Ты что, теперь КОРОЛЕВА ВСЕЛЕННОЙ?! Знаешь, что это значит? Самую грандиозную коронационную вечеринку в истории!!!",
+                "That crown! Does that mean you're now the KING OF THE UNIVERSE?! Do you know what this calls for?! The greatest coronation party EVER!!" => "Эта корона! Ты что, теперь КОРОЛЬ ВСЕЛЕННОЙ?! Знаешь, что нужно по этому поводу?! Самая грандиозная коронационная вечеринка в истории!!!",
+                "That crown! Does that mean you're now the QUEEN OF THE UNIVERSE?! Do you know what this calls for?! The greatest coronation party EVER!!" => "Эта корона! Ты что, теперь КОРОЛЕВА ВСЕЛЕННОЙ?! Знаешь, что нужно по этому поводу?! Самая грандиозная коронационная вечеринка в истории!!!",
                 _ => chat
             };
         }
@@ -579,7 +579,7 @@ public class ThoriumNpcChat : GlobalNPC
         {
             chat = chat switch
             {
-                "I see that fancy crown above your head, alright. Bah! You already acted like a despot, now you have the looks to back it up. Just separate me from my lovely gold and leave!" => "Вижу эту вычурную корону над твоей головой, да-да. Ха! Ты и раньше вёл себя как деспот, а теперь ещё и выглядишь соответственно. Просто отдай моё драгоценное золото и проваливай!",
+                "I see that fancy crown above your head, alright. Bah! You already acted like a despot, now you have the looks to back it up. Just separate me from my lovely gold and leave!" => "Вижу эту вычурную корону над твоей головой, да-да. Ха! Ты и раньше вёл себя как деспот, а теперь ещё и выглядишь соответственно. Просто забери у меня моё драгоценное золото и проваливай!",
                 _ => chat
             };
         }
@@ -633,8 +633,8 @@ public class ThoriumNpcChat : GlobalNPC
         {
             chat = chat switch
             {
-                "I see you've got yourself an instrument. Instruments use ‘inspiration’ to provide helpful buffs to you and your team, as well as damage enemies. You’ll need Inspiration Fragments to increase your maximum inspiration, which can be crafted from fallen stars and a strange ore underground! Who knows, maybe later on you can increase it even more with other unique materials..." => "Вижу, ты обзавёлся инструментом! Инструменты используют «вдохновение», чтобы давать тебе и твоей команде полезные усиления, а также наносить урон врагам. Чтобы повысить максимальный запас вдохновения, тебе понадобятся осколки вдохновения. Их можно изготовить из упавших звёзд и странной руды, найденной под землёй! Кто знает, может, позже ты сможешь увеличить его ещё больше с помощью других редких материалов...",
-                "Congratulations on your victory! I'm sure you've already noticed, but each of the primordial spirits left behind part of their essence over the domain they control after you defeated them. They're as powerful as they sound, and you can make some extremely potent gear with them. As always, I can help you see what you can craft with them!" => "Поздравляю с победой! Наверняка ты уже заметил, что после их поражения каждый из первородных духов оставил частицу своей сущности в подвластном ему домене. Эти сущности столь же могущественны, как это звучит, и с их помощью можно создать невероятно мощное снаряжение. Как всегда, я могу показать тебе, что можно из них изготовить!",
+                "I see you've got yourself an instrument. Instruments use ‘inspiration’ to provide helpful buffs to you and your team, as well as damage enemies. You’ll need Inspiration Fragments to increase your maximum inspiration, which can be crafted from fallen stars and a strange ore underground! Who knows, maybe later on you can increase it even more with other unique materials..." => "Вижу, ты обзавёлся инструментом! Инструменты используют «вдохновение», чтобы давать тебе и твоей команде полезные усиления, а также наносить урон врагам. Чтобы повысить максимальный запас вдохновения, тебе понадобятся фрагменты вдохновения. Их можно изготовить из упавших звёзд и странной руды, найденной под землёй! Кто знает, может, позже ты сможешь увеличить его ещё больше с помощью других редких материалов...",
+                "Congratulations on your victory! I'm sure you've already noticed, but each of the primordial spirits left behind part of their essence over the domain they control after you defeated them. They're as powerful as they sound, and you can make some extremely potent gear with them. As always, I can help you see what you can craft with them!" => "Поздравляю с победой! Наверняка ты уже заметил, что после победы над первородными духами от каждого осталась частица эссенции подвластной ему стихии. Эти эссенции столь же могущественны, как и звучат их названия, и с их помощью можно создать невероятно мощное снаряжение. Как всегда, я могу показать тебе, что можно из них изготовить!",
                 _ => chat
             };
         }
@@ -643,7 +643,7 @@ public class ThoriumNpcChat : GlobalNPC
         {
             if (chat == $"I'd say that battle looked like a hole in one to me, {Main.LocalPlayer.name}. Maybe you can finally relax after all that ceaseless fighting and play some golf with me; What do you say?")
             {
-                chat = $"Могу сказать, эта битва была как хоул-ин-ван для нас, {Main.LocalPlayer.name}. Как насчёт того, чтобы наконец расслабиться после всех этих непрекращающихся сражений и сыграть со мной в гольф?";
+                chat = $"Могу сказать, на мой взгляд, эта битва — как попадание в лунку с первого удара, {Main.LocalPlayer.name}. Как насчёт того, чтобы наконец расслабиться после всех этих непрекращающихся сражений и сыграть со мной в гольф?";
             }
         }
     }
@@ -655,7 +655,7 @@ public class ThoriumNpcChat : GlobalNPC
         {
             if (Main.npcChatText == $"There we go, {Main.LocalPlayer.name}, good as new. It won't last long, but maybe you'll notice some more spring in your step. Make sure to stay safe out there, hero!")
             {
-                Main.npcChatText = $"Ну вот, {Main.LocalPlayer.name}, ты как новенький. Это, конечно, ненадолго, но по крайней мере ты снова сможешь двигаться. Главное - быть осторожным, герой!";
+                Main.npcChatText = $"Ну вот, {Main.LocalPlayer.name}, обувь как новенькая. Эффект продлится недолго, но, возможно, ты заметишь, что шаг стал пружинистее. Береги себя, герой!";
             }
         }
 
@@ -669,12 +669,12 @@ public class ThoriumNpcChat : GlobalNPC
                 "With just the right amount of green, this dish gets real mean. Be careful eating it!" => "Это блюдо с достаточным количеством зелени становится реально острым. Будь осторожен, когда будешь есть!",
                 "I had to visit a far away land to learn how to make this dish. Hopefully you'll appreciate it!" => "Я ездил в далёкую страну, чтобы научиться готовить это блюдо. Надеюсь, ты оценишь!",
                 "When I was younger, my mother would always greet me with some mint tea after a long, hard day... I miss the simpler times." => "Когда я был моложе, мама всегда встречала меня с чашкой мятного чая после долгого, трудного дня... Я скучаю по тем временам.",
-                "Yunno, it's not just called a 'Sky Blue Flower' because of its color. Some say they've fallen from the sky islands themselves long ago." => "Знаешь, это растение называется небесно-голубой цветок не только из-за цвета. Говорят, что они когда-то давно упали с небесных островов.",
+                "Yunno, it's not just called a 'Sky Blue Flower' because of its color. Some say they've fallen from the sky islands themselves long ago." => "Знаешь, эти растения называются небесно-голубыми цветами не только из-за цвета. Говорят, что они когда-то давно упали с небесных островов.",
                 "Last time I took a bite of this stuff, I started thinking everything was out to get me... but hey, maybe that's what you're looking for?" => "В последний раз, когда я откусил кусочек этой штуки, я начал думать, что всё вокруг хочет меня схватить... но погоди, может, это именно то, что ты ищешь?",
                 "Ah, just what I need to help ripen this cheese! Hopefully this'll offer a little more 'pizazz' to its taste." => "Отлично, это то, что мне нужно, чтобы сыр созрел! Надеюсь, это придаст немного «пикантности» его вкусу.",
                 "I'm honored that you'd trust me with such rare commodities. Hopefully this new recipe suits your fancy!" => "Для меня большая честь, что ты доверил мне такие редкие ингредиенты. Надеюсь, этот новый рецепт тебе понравится!",
                 "I myself don't know much about the Hallow, it's a rather strange place... but berries are berries, right?" => "Я сам мало что знаю об освящении, это довольно странное место... но ягоды есть ягоды, правда?",
-                "So the legends are true... The kitchen scholars thought this recipe was lost to time, but it's right in front of me. I can barely contain my excitement to try it out!" => "Значит, легенды правдивы... Кухонные учёные думали, что этот рецепт утерян во времени, но он прямо передо мной. Я едва сдерживаю волнение, чтобы попробовать его!",
+                "So the legends are true... The kitchen scholars thought this recipe was lost to time, but it's right in front of me. I can barely contain my excitement to try it out!" => "Значит, легенды правдивы... Кухонные учёные думали, что этот рецепт утерян во времени, но он прямо передо мной. Мне не терпится его опробовать!",
                 "I can tell this was written by an ogre... still, the pictures give me a clear idea on how to brew this. Be careful with this stuff, it's highly potent!" => "Этот рецепт явно написан огром... тем не менее, по картинкам становится понятно, как его готовить. Будь осторожен с этим, оно очень крепкое!",
                 "Leaves? You want me to cook some food... with leaves? Well, I don't think these would really work in a salad, so how about some tea instead? I'm sure it will calm you down if you're stressed." => "Листья? Ты хочешь, чтобы я приготовил еду... из листьев? Ну, я не думаю, что они подойдут для салата, так что как насчёт чая? Он поможет тебе расслабиться, если ты переживаешь.",
                 "These were exactly what I was missing for my special hot chocolate recipe! If you're planning on going somewhere a little chilly, these will warm you right up for sure." => "Это именно то, чего мне так не хватало для моего фирменного горячего шоколада! Если ты собираешься в какое-нибудь прохладное место, он точно согреет тебя.",
@@ -692,7 +692,7 @@ public class ThoriumNpcChat : GlobalNPC
         {
             Main.npcChatText = Main.npcChatText switch
             {
-                "Although I'm only an acolyte, one of the first things we learn is how to create a sandstorm. Beware the creatures that lurk within however..." => "Хоть я всего лишь послушник, однако одним из первых навыков, которым нас учат, является создание песчаных бурь. Тем не менее, будь осторожен с существами, скрывающимися внутри...",
+                "Although I'm only an acolyte, one of the first things we learn is how to create a sandstorm. Beware the creatures that lurk within however..." => "Хоть я всего лишь послушник, создавать песчаные бури нас учат с самого начала. Но остерегайся существ, которые таятся в буре...",
                 "Creating a sandstorm is a very taxing job. I would prefer to have some compensation in the form of money, please." => "Создание песчаных бурь - довольно утомительное занятие. Мне бы хотелось получить за это какую-то компенсацию, например, деньги.",
                 _ => Main.npcChatText
             };

@@ -7,7 +7,7 @@
     BetsysCurse.ItemTooltip: -40 защиты
     
     CursedInferno: {
-        ItemTooltipPlayer: Жар - 12  ед. урона в секунду
+        ItemTooltipPlayer: Жар - 12 ед. урона в секунду
         ItemTooltipEnemy: Жар - 24 ед. урона в секунду
     }
     

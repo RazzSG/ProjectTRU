@@ -424,6 +424,7 @@ public class CalamityItems : IItemGender
                 "ExodusWings",
                 "HardenedHoneycomb",
                 "LunarKunai",
+                "FishStocks",
             };
             
             if (ModInstances.Calamity != null)

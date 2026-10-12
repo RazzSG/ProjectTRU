@@ -14,7 +14,7 @@ public class FargowiltasSystem : ModSystem
         return !Main.dedServ && ModInstances.Fargowiltas != null && TRuConfig.Instance.FargowiltasLocalization && TranslationHelper.IsRussianLanguage;
     }
 
-    public override void PostSetupContent()
+    public override void PostAddRecipes()
     {
         StatSheetUI statSheet = global::Fargowiltas.Fargowiltas.UserInterfaceManager.StatSheet;
         const float backWidth = 840f;

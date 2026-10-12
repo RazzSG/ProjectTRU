@@ -15,12 +15,7 @@ namespace CalamityRuTranslate.Mods.Redemption;
 
 public class RedemptionSystem : ModSystem
 {
-    public static Dictionary<SoundStyle, SoundStyle> SoundMap = new()
-    {
-        { CustomSounds.Pixie1, RedemptionSoundRegistry.Pixie1 },
-        { CustomSounds.Pixie2, RedemptionSoundRegistry.Pixie2 },
-        { CustomSounds.Pixie3, RedemptionSoundRegistry.Pixie3 },
-    };
+    public static Dictionary<SoundStyle, SoundStyle> SoundMap = new();
     
     public override bool IsLoadingEnabled(Mod mod)
     {
@@ -74,9 +69,21 @@ public class RedemptionSystem : ModSystem
         }
     }
 
-    public override void PostSetupContent()
+    public override void PostAddRecipes()
     {
+        SoundMap = new()
+        {
+            { CustomSounds.Pixie1, RedemptionSoundRegistry.Pixie1 },
+            { CustomSounds.Pixie2, RedemptionSoundRegistry.Pixie2 },
+            { CustomSounds.Pixie3, RedemptionSoundRegistry.Pixie3 },
+        };
+
         if (!Main.dedServ)
             RedeSystem.Instance.ElementPanelUIElement.BgSprite.SetImage(ModContent.Request<Texture2D>("CalamityRuTranslate/Assets/Sprites/Redemption/ElementPanelUI", AssetRequestMode.ImmediateLoad));
+    }
+
+    public override void Unload()
+    {
+        SoundMap.Clear();
     }
 }

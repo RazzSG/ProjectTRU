@@ -1,5 +1,5 @@
 ﻿CommonItemTooltip: {
-    PercentChanceToSaveAmmo: Даёт {0}% шанс не использовать боеприпасы
+    PercentChanceToSaveAmmo: С шансом {0}% боеприпасы не расходуются
     SummonTagDamage: "{0} ед. урона от метки призывателя"
     PercentIncreasedMagicCritChance: Увеличивает магический шанс критического удара на {0}%
     IncreasesMaxManaBy: Увеличивает максимальный запас маны на {0}

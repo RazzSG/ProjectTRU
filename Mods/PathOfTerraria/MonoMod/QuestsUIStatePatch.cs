@@ -16,7 +16,6 @@ public class QuestsUIStatePatch : ILPatcher
 
     public override ILContext.Manipulator PatchMethod { get; } = il =>
     {
-        TranslationHelper.ModifyIL(il, 0.55f, 0.55f);
         TranslationHelper.ModifyIL(il, 0.45f, 0.75f);
     };
 }
