@@ -4501,7 +4501,7 @@ Items: {
     }
 
     aDarksteelAlloy: {
-        DisplayName: Слиток из тёмной стали
+        DisplayName: Слиток тёмной стали
         Tooltip: ""
     }
 

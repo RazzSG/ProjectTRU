@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Reflection;
 using System.Text.RegularExpressions;
 using CalamityRuTranslate.Common.Utilities;
@@ -28,7 +29,7 @@ public class LocalizedTextPatch : OnPatcher
             value = ApplyReplaceValue(value, args);
         
         if (LocalizedText.PluralizationPatternRegex.IsMatch(value))
-            value = LocalizedText.ApplyPluralization(value, args);
+            value = LocalizedText.ApplyPluralization(value, NormalizePluralizationArgs(value, args));
         
         try {
             return string.Format(value, args);
@@ -39,6 +40,31 @@ public class LocalizedTextPatch : OnPatcher
     }
     
     
+    private static object[] NormalizePluralizationArgs(string value, object[] args)
+    {
+        object[] normalizedArgs = null;
+        CultureInfo culture = Language.ActiveCulture.CultureInfo;
+
+        foreach (Match match in LocalizedText.PluralizationPatternRegex.Matches(value))
+        {
+            if (!int.TryParse(match.Groups[1].Value, out int index) || (uint)index >= (uint)args.Length || args[index] is not string text || int.TryParse(text, NumberStyles.Integer, culture, out _))
+                continue;
+
+            NumberStyles decimalStyles = NumberStyles.AllowLeadingWhite | NumberStyles.AllowTrailingWhite | NumberStyles.AllowLeadingSign | NumberStyles.AllowDecimalPoint;
+
+            if (!decimal.TryParse(text, decimalStyles, culture, out decimal number))
+                continue;
+
+            decimal rounded = Math.Round(number, MidpointRounding.ToEven);
+            if (rounded is < int.MinValue or > int.MaxValue)
+                continue;
+
+            (normalizedArgs ??= (object[])args.Clone())[index] = (int)rounded;
+        }
+
+        return normalizedArgs ?? args;
+    }
+
     private string ApplyReplaceValue(string value, params object[] args)
     {
         HashSet<int> replacedIndices = [];

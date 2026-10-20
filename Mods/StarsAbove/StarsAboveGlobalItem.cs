@@ -24,7 +24,7 @@ public partial class StarsAboveGlobalItem : GlobalItem
         {
             ItemHelper.TranslateTooltip(tooltips, "StarsAbove: SetBonus1Info", tooltip =>
             {
-                tooltip.Text = "Использование Астроновы даёт Возвышение, увеличивающее все характеристики Астроновы на 4%. Максимум 3 стака";
+                tooltip.Text = "После использования Астроновы вы получаете Возвышение, увеличивающее все её характеристики на 4% (максимум 3 стака)";
                 tooltip.OverrideColor = Color.LightGray;
             });
         }
@@ -33,7 +33,7 @@ public partial class StarsAboveGlobalItem : GlobalItem
         {
             ItemHelper.TranslateTooltip(tooltips, "StarsAbove: SetBonus1Info", tooltip =>
             {
-                tooltip.Text = "Астронова активируется автоматически; Снижает расход энергии на 2% от длительности эффекта";
+                tooltip.Text = "Астронова активируется автоматически; снижает расход энергии на 2% от длительности эффекта";
                 tooltip.OverrideColor = Color.LightGray;
             });
         }
@@ -42,7 +42,7 @@ public partial class StarsAboveGlobalItem : GlobalItem
         {
             ItemHelper.TranslateTooltip(tooltips, "StarsAbove: SetBonus1Info", tooltip =>
             {
-                tooltip.Text = "Увеличивает атакующие характеристики Астроновы на 15%, когда здоровье 500 или выше";
+                tooltip.Text = "Атакующие характеристики Астроновы увеличиваются на 15%, если здоровье не ниже 500";
                 tooltip.OverrideColor = Color.LightGray;
             });
         }
@@ -51,7 +51,7 @@ public partial class StarsAboveGlobalItem : GlobalItem
         {
             ItemHelper.TranslateTooltip(tooltips, "StarsAbove: SetBonus1Info", tooltip =>
             {
-                tooltip.Text = "Энергия Астроновы бесконечна, но она имеет перезарядку, которая зависит от расхода энергии";
+                tooltip.Text = "Энергия Астроновы неограниченна, но между применениями действует перезарядка, зависящая от расхода энергии";
                 tooltip.OverrideColor = Color.LightGray;
             });
         }
