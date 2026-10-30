@@ -1,7 +1,6 @@
-﻿using System.Reflection;
+﻿using System.Collections.Generic;
+using System.Linq;
 using CalamityRuTranslate.Common.Utilities;
-using Mono.Cecil.Cil;
-using MonoMod.Cil;
 using Terraria.GameContent.UI.Elements;
 using Terraria.GameContent.UI.States;
 using Terraria.ModLoader;
@@ -18,22 +17,74 @@ public class UIWorldCreationPatch : ILoadable
 
     public void Load(Mod mod)
     {
-        IL_UIWorldCreation.AddDescriptionPanel += IL_UIWorldCreationOnAddDescriptionPanel;
+        On_UIWorldCreation.AddDescriptionPanel += UIWorldCreationOnAddDescriptionPanel;
+        On_UIWorldCreation.BuildPage += UIWorldCreationOnBuildPage;
     }
 
     public void Unload()
     {
-        IL_UIWorldCreation.AddDescriptionPanel -= IL_UIWorldCreationOnAddDescriptionPanel;
+        On_UIWorldCreation.AddDescriptionPanel -= UIWorldCreationOnAddDescriptionPanel;
+        On_UIWorldCreation.BuildPage -= UIWorldCreationOnBuildPage;
     }
-    
-    private void IL_UIWorldCreationOnAddDescriptionPanel(ILContext il)
+
+    private static void UIWorldCreationOnBuildPage(On_UIWorldCreation.orig_BuildPage orig, UIWorldCreation self)
     {
-        ILCursor cursor = new ILCursor(il);
-        cursor.TryGotoNext(MoveType.After, x => x.MatchStfld<UIElement>("PaddingTop"));
-        cursor.Emit(OpCodes.Ldloc_2);
-        cursor.Emit(OpCodes.Ldc_I4_1);
-        cursor.Emit(OpCodes.Callvirt, typeof(UIText).GetMethod("set_IsWrapped", BindingFlags.Instance | BindingFlags.Public)!);
+        orig.Invoke(self);
+
+        UIElement root = self.Children.FirstOrDefault();
+        if (root == null || root.Width.Pixels != 500f)
+            return;
         
-        TranslationHelper.ModifyIL(il, 6f, 0f);
+        const float extraWidth = 120f;
+        root.Width = StyleDimension.FromPixels(620f);
+        
+        foreach (UIElement element in Descendants(self))
+        {
+            string typeName = element.GetType().FullName;
+
+            if (typeName == "FargoSeeds.UI.WorldGenMenu.UIWorldGenTab")
+            {
+                element.Left.Set(element.Left.Pixels + extraWidth / 2f, element.Left.Percent);
+            }
+            else if (typeName is "FargoSeeds.UI.WorldGenMenu.UIWorldGenToggle" or "FargoSeeds.UI.WorldGenMenu.UIWorldGenSlider")
+            {
+                element.Width.Set(element.Width.Pixels + extraWidth / 2f, element.Width.Percent);
+            }
+        }
+
+        self.Recalculate();
+    }
+
+    private static IEnumerable<UIElement> Descendants(UIElement parent)
+    {
+        foreach (UIElement child in parent.Children)
+        {
+            yield return child;
+
+            foreach (UIElement descendant in Descendants(child))
+                yield return descendant;
+        }
+    }
+
+    private static void UIWorldCreationOnAddDescriptionPanel(On_UIWorldCreation.orig_AddDescriptionPanel orig, UIWorldCreation self, UIElement container, float accumulatedHeight, string tagGroup)
+    {
+        HashSet<UIElement> existingChildren = [.. container.Children];
+
+        orig.Invoke(self, container, accumulatedHeight, tagGroup);
+
+        foreach (UIElement panel in container.Children)
+        {
+            if (existingChildren.Contains(panel) || panel is not UISlicedImage)
+                continue;
+
+            foreach (UIElement child in panel.Children)
+            {
+                if (child is not UIText description)
+                    continue;
+
+                description.PaddingTop = 0f;
+                description.IsWrapped = true;
+            }
+        }
     }
 }

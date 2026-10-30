@@ -111,7 +111,6 @@ public class StarsAboveItems : IItemGender
         {
             string[] items = {
                 "BlackSilenceWeapon",
-                "BuryTheLight",
                 "TwinStars",
                 "Chronoclock",
                 "RupturedHeaven",

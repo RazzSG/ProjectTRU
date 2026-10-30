@@ -28,7 +28,6 @@ public class UIBestiaryPatch : ILoadable
         IL_UIBestiaryEntryInfoPage.ctor += UIBestiaryEntryInfoPage;
         IL_UIBestiaryNPCEntryPortrait.ctor += UIBestiaryNPCEntryPortrait;
         IL_NPCPortraitInfoElement.ProvideUIElement += NPCPortraitInfoElementOnProvideUIElement;
-        IL_UIWorldCreation.BuildPage += UIWorldCreationOnBuildPage;
     }
 
     public void Unload()
@@ -38,7 +37,6 @@ public class UIBestiaryPatch : ILoadable
         IL_UIBestiaryEntryInfoPage.ctor -= UIBestiaryEntryInfoPage;
         IL_UIBestiaryNPCEntryPortrait.ctor -= UIBestiaryNPCEntryPortrait;
         IL_NPCPortraitInfoElement.ProvideUIElement -= NPCPortraitInfoElementOnProvideUIElement;
-        IL_UIWorldCreation.BuildPage -= UIWorldCreationOnBuildPage;
     }
     
     private void NPCPortraitInfoElementOnProvideUIElement(ILContext il)
@@ -59,10 +57,6 @@ public class UIBestiaryPatch : ILoadable
         TranslationHelper.ModifyIL(il, 0.5f, 20f, 9);
     }
     
-    private void UIWorldCreationOnBuildPage(ILContext il)
-    {
-        TranslationHelper.ModifyIL(il, 500f, 620f);
-    }
     
     private void UIBestiaryNPCEntryPortraitOnctor(On_UIBestiaryNPCEntryPortrait.orig_ctor orig, UIBestiaryNPCEntryPortrait self, BestiaryEntry entry, Asset<Texture2D> portraitbackgroundasset, Color portraitcolor, List<IBestiaryBackgroundOverlayAndColorProvider> overlays)
     {

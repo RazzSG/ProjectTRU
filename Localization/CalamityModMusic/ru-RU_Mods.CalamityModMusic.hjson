@@ -1,26 +1,26 @@
 Items: {
     AbyssLayer1MusicBox: {
-        DisplayName: Музыкальная шкатулка (Бездна - 1 слой)
+        DisplayName: Музыкальная шкатулка (Бездна — 1 слой)
         Tooltip: Проигрывает «hesitation» за авторством Heart Plus Up!
     }
 
     AbyssLayer2MusicBox: {
-        DisplayName: Музыкальная шкатулка (Бездна - 2 слой)
+        DisplayName: Музыкальная шкатулка (Бездна — 2 слой)
         Tooltip: Проигрывает «Hadopelagic Pressure» за авторством DM DOKURO
     }
 
     AbyssLayer3AltMusicBox: {
-        DisplayName: Музыкальная шкатулка (Бездна - 3 слой, альтернативная тема)
+        DisplayName: Музыкальная шкатулка (Бездна — 3 слой, альтернативная тема)
         Tooltip: Проигрывает «R'lyehian Depths» за авторством Heart Plus Up!
     }
 
     AbyssLayer3MusicBox: {
-        DisplayName: Музыкальная шкатулка (Бездна - 3 слой)
+        DisplayName: Музыкальная шкатулка (Бездна — 3 слой)
         Tooltip: Проигрывает «hydrothermophobia» за авторством CDMusic
     }
 
     AbyssLayer4MusicBox: {
-        DisplayName: Музыкальная шкатулка (Бездна - 4 слой)
+        DisplayName: Музыкальная шкатулка (Бездна — 4 слой)
         Tooltip: Проигрывает «void» за авторством DM DOKURO
     }
 
@@ -30,7 +30,7 @@ Items: {
     }
 
     AcidRainTier1MusicBox: {
-        DisplayName: Музыкальная шкатулка (Кислотный дождь - 1 и 2 ранг)
+        DisplayName: Музыкальная шкатулка (Кислотный дождь — 1 и 2 ранг)
         Tooltip:
             '''
             Проигрывает «corrosion!» за авторством RoverdriveX
@@ -39,7 +39,7 @@ Items: {
     }
 
     AcidRainTier3MusicBox: {
-        DisplayName: Музыкальная шкатулка (Кислотный дождь - 3 ранг)
+        DisplayName: Музыкальная шкатулка (Кислотный дождь — 3 ранг)
         Tooltip:
             '''
             Проигрывает «nuclear monsoon» за авторством PinpinNeon
@@ -88,27 +88,27 @@ Items: {
     }
 
     BossRushTier1MusicBox: {
-        DisplayName: Музыкальная шкатулка (Босс-раш - 1 ранг)
+        DisplayName: Музыкальная шкатулка (Босс-раш — 1 ранг)
         Tooltip: Проигрывает «Ensemble of Fools» за авторством CDMusic
     }
 
     BossRushTier2MusicBox: {
-        DisplayName: Музыкальная шкатулка (Босс-раш - 2 ранг)
+        DisplayName: Музыкальная шкатулка (Босс-раш — 2 ранг)
         Tooltip: Проигрывает «Onslaught of Beasts» за авторством CDMusic
     }
 
     BossRushTier3MusicBox: {
-        DisplayName: Музыкальная шкатулка (Босс-раш - 3 ранг)
+        DisplayName: Музыкальная шкатулка (Босс-раш — 3 ранг)
         Tooltip: Проигрывает «Reign of Lords» за авторством CDMusic
     }
 
     BossRushTier4MusicBox: {
-        DisplayName: Музыкальная шкатулка (Босс-раш - 4 ранг)
+        DisplayName: Музыкальная шкатулка (Босс-раш — 4 ранг)
         Tooltip: Проигрывает «Trial of the Insane» за авторством CDMusic
     }
 
     BossRushTier5MusicBox: {
-        DisplayName: Музыкальная шкатулка (Босс-раш - 5 ранг)
+        DisplayName: Музыкальная шкатулка (Босс-раш — 5 ранг)
         Tooltip: Эта шкатулка не завершена и не работает
     }
 
@@ -133,22 +133,22 @@ Items: {
     }
 
     CalamitasDefeatMusicBox: {
-        DisplayName: Музыкальная шкатулка (Каламитас - Поражение)
+        DisplayName: Музыкальная шкатулка (Каламитас — Поражение)
         Tooltip: Проигрывает «Stained, Brutal Calamity (Acceptance)» за авторством DM DOKURO
     }
 
     CalamitasPhase1MusicBox: {
-        DisplayName: Музыкальная шкатулка (Каламитас - 1 фаза)
+        DisplayName: Музыкальная шкатулка (Каламитас — 1 фаза)
         Tooltip: Проигрывает «Stained, Brutal Calamity (Grief)» за авторством DM DOKURO
     }
 
     CalamitasPhase2MusicBox: {
-        DisplayName: Музыкальная шкатулка (Каламитас - 2 фаза)
+        DisplayName: Музыкальная шкатулка (Каламитас — 2 фаза)
         Tooltip: Проигрывает «Stained, Brutal Calamity (Lament)» за авторством DM DOKURO
     }
 
     CalamitasPhase3MusicBox: {
-        DisplayName: Музыкальная шкатулка (Каламитас - 3 фаза)
+        DisplayName: Музыкальная шкатулка (Каламитас — 3 фаза)
         Tooltip: Проигрывает «Stained, Brutal Calamity (Epiphany)» за авторством DM DOKURO
     }
 
@@ -178,17 +178,17 @@ Items: {
     }
 
     DevourerofGodsEulogyMusicBox: {
-        DisplayName: Музыкальная шкатулка (Пожиратель богов - Элегия)
+        DisplayName: Музыкальная шкатулка (Пожиратель богов — Элегия)
         Tooltip: Проигрывает «Scourge of the Universe (Eulogy for the Ego)» за авторством DM DOKURO
     }
 
     DevourerofGodsPhase1MusicBox: {
-        DisplayName: Музыкальная шкатулка (Пожиратель богов - 1 фаза)
+        DisplayName: Музыкальная шкатулка (Пожиратель богов — 1 фаза)
         Tooltip: Проигрывает «Scourge of the Universe» за авторством DM DOKURO
     }
 
     DevourerofGodsPhase2MusicBox: {
-        DisplayName: Музыкальная шкатулка (Пожиратель богов - 2 фаза)
+        DisplayName: Музыкальная шкатулка (Пожиратель богов — 2 фаза)
         Tooltip: Проигрывает «Universal Collapse» за авторством DM DOKURO
     }
 
@@ -312,12 +312,12 @@ Items: {
     }
 
     YharonPhase1MusicBox: {
-        DisplayName: Музыкальная шкатулка (Ярон - 1 фаза)
+        DisplayName: Музыкальная шкатулка (Ярон — 1 фаза)
         Tooltip: Проигрывает «Infernal Catharsis (Rebirth)» за авторством DM DOKURO
     }
 
     YharonPhase2MusicBox: {
-        DisplayName: Музыкальная шкатулка (Ярон - 2 фаза)
+        DisplayName: Музыкальная шкатулка (Ярон — 2 фаза)
         Tooltip: Проигрывает «Roar of the Jungle Dragon» за авторством DM DOKURO
     }
 }
